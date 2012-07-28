@@ -1,0 +1,102 @@
+﻿<?xml version='1.0'?>
+<CARD_V2>
+  <FILENAME text="BANEFIRE_888186613" />
+  <CARDNAME text="BANEFIRE" />
+  <TITLE>
+     <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Banefire]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Banefire]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Banefire]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Banefire]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Banefire]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[Banefire]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[Banefire]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Banefire]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Banefire]]></LOCALISED_TEXT>
+  </TITLE>
+  <MULTIVERSEID value="888186613" />
+  <ARTID value="888186613" />
+  <ARTIST name="Raymond Swanland" />
+  <CASTING_COST cost="{X}{R}" />
+  <FLAVOURTEXT>
+     <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[For Sarkhan Vol, the dragon is the purest expression of life’s savage splendor.]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[For Sarkhan Vol, the dragon is the purest expression of life’s savage splendor.]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[For Sarkhan Vol, the dragon is the purest expression of life’s savage splendor.]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[For Sarkhan Vol, the dragon is the purest expression of life’s savage splendor.]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[For Sarkhan Vol, the dragon is the purest expression of life’s savage splendor.]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[For Sarkhan Vol, the dragon is the purest expression of life’s savage splendor.]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[For Sarkhan Vol, the dragon is the purest expression of life’s savage splendor.]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[For Sarkhan Vol, the dragon is the purest expression of life’s savage splendor.]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[For Sarkhan Vol, the dragon is the purest expression of life’s savage splendor.]]></LOCALISED_TEXT>
+  </FLAVOURTEXT>
+  <TYPE metaname="Sorcery" />
+  <EXPANSION value="DPG" />
+  <RARITY metaname="R" />
+  <SPELL_ABILITY dangerous="1" filter_zone="ZONE_IN_PLAY">
+     <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Banefire deals X damage to target creature or player.]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Banefire deals X damage to target creature or player.]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Banefire deals X damage to target creature or player.]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Banefire deals X damage to target creature or player.]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Banefire deals X damage to target creature or player.]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[Banefire deals X damage to target creature or player.]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[Banefire deals X damage to target creature or player.]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Banefire deals X damage to target creature or player.]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Banefire deals X damage to target creature or player.]]></LOCALISED_TEXT>
+    <TARGET_DEFINITION id="0">
+    local filter = Object():GetFilter()
+    filter:Clear()
+    filter:SetFilterType( FILTER_TYPE_CARDS + FILTER_TYPE_PLAYERS )
+    filter:SetZone( ZONE_IN_PLAY )
+    filter:SetHint( HINT_ENEMY_ONLY, EffectController() )
+    filter:AddCardType( CARD_TYPE_CREATURE )
+    </TARGET_DEFINITION>
+    <TARGET_DETERMINATION>
+    return AtLeastOneTargetFromDefinition(0)
+    </TARGET_DETERMINATION>
+    <PLAY_TIME_ACTION target_choosing="1">
+    EffectController():ChooseTarget( 0, "CARD_QUERY_CHOOSE_DEAL_X_DAMAGE", EffectDC():Make_Targets(0) )
+    </PLAY_TIME_ACTION>
+    <RESOLUTION_TIME_ACTION>
+    local target_creature = EffectDC():Get_Targets(0):Get_CardPtr(0)
+    local target_player = Object():GetTargetPlayer()
+	local source = EffectSource()
+	local damage = GetObjectX()
+	if source == nil then
+      source = Object()
+    end
+	if damage &gt; 4 then
+		if ( target_creature ~= nil ) then   
+			target_creature:DealDamageFullParams(damage, source, 0, 1 )  
+		elseif 
+			( target_player ~= nil ) then   
+			target_player:DealDamageFullParams(damage, source, 0, 1 )  
+		end
+	else
+		if ( target_creature ~= nil ) then   
+			target_creature:DealDamage(damage, source)  
+		elseif 
+			( target_player ~= nil ) then   
+			target_player:DealDamage(damage, source)  
+		end
+	end
+    </RESOLUTION_TIME_ACTION>
+    <SFX text="TARGET_FIREBALL_PLAY" />
+  </SPELL_ABILITY>
+  <STATIC_ABILITY filter_zone="ZONE_ANY" active_zone="ZONE_STACK">
+     <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[If X is 5 or more, Banefire can’t be countered by spells or abilities and the damage can’t be prevented.]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[If X is 5 or more, Banefire can’t be countered by spells or abilities and the damage can’t be prevented.]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[If X is 5 or more, Banefire can’t be countered by spells or abilities and the damage can’t be prevented.]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[If X is 5 or more, Banefire can’t be countered by spells or abilities and the damage can’t be prevented.]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[If X is 5 or more, Banefire can’t be countered by spells or abilities and the damage can’t be prevented.]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[If X is 5 or more, Banefire can’t be countered by spells or abilities and the damage can’t be prevented.]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[If X is 5 or more, Banefire can’t be countered by spells or abilities and the damage can’t be prevented.]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[If X is 5 or more, Banefire can’t be countered by spells or abilities and the damage can’t be prevented.]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[If X is 5 or more, Banefire can’t be countered by spells or abilities and the damage can’t be prevented.]]></LOCALISED_TEXT>
+    <CONTINUOUS_ACTION>
+	if GetObjectX() &gt; 4 then
+		local characteristics = Object():GetCurrentCharacteristics()
+		characteristics:Characteristic_Set( CHARACTERISTIC_CANT_BE_COUNTERED, 1 )
+	end
+    </CONTINUOUS_ACTION>
+  </STATIC_ABILITY>
+  <AI_BASE_SCORE score="1200" zone="ZONE_HAND" />
+</CARD_V2>

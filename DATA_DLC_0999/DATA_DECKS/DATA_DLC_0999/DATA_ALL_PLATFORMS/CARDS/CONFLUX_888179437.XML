@@ -1,0 +1,161 @@
+﻿<?xml version='1.0'?>
+<CARD_V2>
+  <FILENAME text="CONFLUX_888179437" />
+  <CARDNAME text="CONFLUX" />
+  <TITLE>
+     <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Conflux]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Conflux]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Conflux]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Conflux]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Conflux]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[Conflux]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[Conflux]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Conflux]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Conflux]]></LOCALISED_TEXT>
+  </TITLE>
+  <MULTIVERSEID value="888179437" />
+  <ARTID value="888179437" />
+  <ARTIST name="Karl Kopinski" />
+  <CASTING_COST cost="{3}{W}{U}{B}{R}{G}" />
+  <FLAVOURTEXT>
+     <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[After years of world-bending machinations, Bolas’s triumph is at hand.]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[After years of world-bending machinations, Bolas’s triumph is at hand.]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[After years of world-bending machinations, Bolas’s triumph is at hand.]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[After years of world-bending machinations, Bolas’s triumph is at hand.]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[After years of world-bending machinations, Bolas’s triumph is at hand.]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[After years of world-bending machinations, Bolas’s triumph is at hand.]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[After years of world-bending machinations, Bolas’s triumph is at hand.]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[After years of world-bending machinations, Bolas’s triumph is at hand.]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[After years of world-bending machinations, Bolas’s triumph is at hand.]]></LOCALISED_TEXT>
+  </FLAVOURTEXT>
+  <TYPE metaname="Sorcery" />
+  <EXPANSION value="DPG" />
+  <RARITY metaname="M" />
+  <SPELL_ABILITY dangerous="1" filter_zone="ZONE_IN_PLAY">
+     <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Search your library for a white card, a blue card, a black card, a red card, and a green card. Reveal those cards and put them into your hand. Then shuffle your library.]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Search your library for a white card, a blue card, a black card, a red card, and a green card. Reveal those cards and put them into your hand. Then shuffle your library.]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Search your library for a white card, a blue card, a black card, a red card, and a green card. Reveal those cards and put them into your hand. Then shuffle your library.]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Search your library for a white card, a blue card, a black card, a red card, and a green card. Reveal those cards and put them into your hand. Then shuffle your library.]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Search your library for a white card, a blue card, a black card, a red card, and a green card. Reveal those cards and put them into your hand. Then shuffle your library.]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[Search your library for a white card, a blue card, a black card, a red card, and a green card. Reveal those cards and put them into your hand. Then shuffle your library.]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[Search your library for a white card, a blue card, a black card, a red card, and a green card. Reveal those cards and put them into your hand. Then shuffle your library.]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Search your library for a white card, a blue card, a black card, a red card, and a green card. Reveal those cards and put them into your hand. Then shuffle your library.]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Search your library for a white card, a blue card, a black card, a red card, and a green card. Reveal those cards and put them into your hand. Then shuffle your library.]]></LOCALISED_TEXT>
+    <TARGET_DEFINITION id="0">
+    local filter = Object():GetFilter()
+    local effectController = EffectController()
+    filter:Clear()
+    filter:NotTargetted()
+    filter:AddColour( COLOUR_WHITE )
+    filter:May()
+    filter:SetZone( ZONE_LIBRARY )
+    filter:SetPlayer( effectController )
+    </TARGET_DEFINITION>
+	<TARGET_DEFINITION id="1">
+    local filter = Object():GetFilter()
+    local effectController = EffectController()
+    filter:Clear()
+    filter:NotTargetted()
+    filter:AddColour( COLOUR_BLUE )
+    filter:May()
+    filter:SetZone( ZONE_LIBRARY )
+    filter:SetPlayer( effectController )
+    </TARGET_DEFINITION>
+	<TARGET_DEFINITION id="2">
+    local filter = Object():GetFilter()
+    local effectController = EffectController()
+    filter:Clear()
+    filter:NotTargetted()
+    filter:AddColour( COLOUR_BLACK )
+    filter:May()
+    filter:SetZone( ZONE_LIBRARY )
+    filter:SetPlayer( effectController )
+    </TARGET_DEFINITION>
+	<TARGET_DEFINITION id="3">
+    local filter = Object():GetFilter()
+    local effectController = EffectController()
+    filter:Clear()
+    filter:NotTargetted()
+    filter:AddColour( COLOUR_RED )
+    filter:May()
+    filter:SetZone( ZONE_LIBRARY )
+    filter:SetPlayer( effectController )
+    </TARGET_DEFINITION>
+	<TARGET_DEFINITION id="4">
+    local filter = Object():GetFilter()
+    local effectController = EffectController()
+    filter:Clear()
+    filter:NotTargetted()
+    filter:AddColour( COLOUR_GREEN )
+    filter:May()
+    filter:SetZone( ZONE_LIBRARY )
+    filter:SetPlayer( effectController )
+    </TARGET_DEFINITION>
+	<RESOLUTION_TIME_ACTION>
+    local effectController = EffectController()
+    effectController:MarkSearchedLibrary()                          
+    effectController:ChooseTarget( 0, "CARD_QUERY_CHOOSE_WCARD_TO_PUT_INTO_HAND", EffectDC():Make_Targets( 0 ) )
+    </RESOLUTION_TIME_ACTION>
+	<RESOLUTION_TIME_ACTION>
+    local effectController = EffectController()
+    effectController:MarkSearchedLibrary()    
+    if EffectDC() ~= nil then 
+	local target = EffectDC():Get_Targets(0):Get_CardPtr(0)
+		if  target ~= nil then
+			target:PutInHand()
+			target:GuidedReveal( ZONE_HAND, ZONE_HAND )
+    	end
+	end	
+    effectController:ChooseTarget( 1, "CARD_QUERY_CHOOSE_UCARD_TO_PUT_INTO_HAND", EffectDC():Make_Targets( 1 ) )
+    </RESOLUTION_TIME_ACTION>
+	<RESOLUTION_TIME_ACTION>
+    local effectController = EffectController()
+    effectController:MarkSearchedLibrary()
+	if EffectDC() ~= nil then 
+	local target = EffectDC():Get_Targets(1):Get_CardPtr(0)
+		if  target ~= nil then
+			target:PutInHand()
+			target:GuidedReveal( ZONE_HAND, ZONE_HAND )
+    	end
+	end	
+    effectController:ChooseTarget( 2, "CARD_QUERY_CHOOSE_BCARD_TO_PUT_INTO_HAND", EffectDC():Make_Targets( 2 ) )
+    </RESOLUTION_TIME_ACTION>
+	<RESOLUTION_TIME_ACTION>
+    local effectController = EffectController()
+    effectController:MarkSearchedLibrary()     
+    if EffectDC() ~= nil then 
+	local target = EffectDC():Get_Targets(2):Get_CardPtr(0)
+		if  target ~= nil then
+			target:PutInHand()
+			target:GuidedReveal( ZONE_HAND, ZONE_HAND )
+    	end
+	end	
+    effectController:ChooseTarget( 3, "CARD_QUERY_CHOOSE_RCARD_TO_PUT_INTO_HAND", EffectDC():Make_Targets( 3 ) )
+    </RESOLUTION_TIME_ACTION>
+	<RESOLUTION_TIME_ACTION>
+    local effectController = EffectController()
+    effectController:MarkSearchedLibrary()      
+    if EffectDC() ~= nil then 
+	local target = EffectDC():Get_Targets(3):Get_CardPtr(0)
+		if  target ~= nil then
+			target:PutInHand()
+			target:GuidedReveal( ZONE_HAND, ZONE_HAND )
+    	end
+	end	
+    effectController:ChooseTarget( 4, "CARD_QUERY_CHOOSE_WCARD_TO_PUT_INTO_HAND", EffectDC():Make_Targets( 4 ) )
+    </RESOLUTION_TIME_ACTION>
+	<RESOLUTION_TIME_ACTION>     
+	if EffectDC() ~= nil then 
+	local target = EffectDC():Get_Targets(4):Get_CardPtr(0)
+		if  target ~= nil then
+			target:PutInHand()
+			target:GuidedReveal( ZONE_HAND, ZONE_HAND )
+    	end
+	end
+	</RESOLUTION_TIME_ACTION>
+	<RESOLUTION_TIME_ACTION>
+    EffectController():ShuffleLibrary()
+    </RESOLUTION_TIME_ACTION>
+  </SPELL_ABILITY>
+  <AI_BASE_SCORE score="1200" zone="ZONE_HAND" />
+</CARD_V2>

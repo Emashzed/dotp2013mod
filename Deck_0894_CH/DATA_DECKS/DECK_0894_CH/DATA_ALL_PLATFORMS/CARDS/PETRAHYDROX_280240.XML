@@ -1,0 +1,54 @@
+<?xml version='1.0'?>
+<CARD_V2>
+  <FILENAME text="PETRAHYDROX_280240" />
+  <CARDNAME text="PETRAHYDROX" />
+  <TITLE>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Petrahydrox]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Pétrahydroxe]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Petrahidrox]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Petrahydrox]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Idropietra]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[鉱岩流液獣]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[페트라히드록스]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Петрагидрокс]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Hidropedra]]></LOCALISED_TEXT>
+  </TITLE>
+  <MULTIVERSEID value="280240" />
+  <ARTID value="91724" />
+  <ARTIST name="Anthony S. Waters" />
+  <CASTING_COST cost="{3}{U/R}" />
+  <FLAVOURTEXT>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[It departs through the streets’ fissures with a sound like gravel pouring into a pond.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Il disparaît dans les fissures des rues avec un bruissement de gravier qui se déverse dans une mare.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Se cuela por las grietas de las calles con un ruido como de grava cayendo sobre un estanque.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Es verschwindet mit einem Geräusch durch die Spalten der Straßen, als ob Kiesel langsam in einen Teich rutschen.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Se ne va attraverso le fessure della strada con un suono di ghiaia riversata in una pozza.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[それは池に砂利が落ちるような音を立てて通りの割れ目から消え去る。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[그것은 자갈을 연못에 쏟아지는 듯한 소리를 내며 길바닥에 난 틈을 통해 사라진다.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Он утекает сквозь трещины на уличных мостовых с тем же звуком, который возгласил о его прибытии — звуком гравия, высыпающегося в пруд.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Ele parte pelas fissuras das ruas com um ruído como o de pedras caindo num lago.]]></LOCALISED_TEXT>
+  </FLAVOURTEXT>
+  <TYPE metaname="Creature" />
+  <SUB_TYPE metaname="Weird" order_de-DE="0" order_es-ES="0" order_fr-FR="0" order_it-IT="0" order_jp-JA="0" order_ko-KR="0" order_pt-BR="0" order_ru-RU="0" />
+  <EXPANSION value="DPG" />
+  <RARITY metaname="C" />
+  <POWER value="3" />
+  <TOUGHNESS value="3" />
+  <TRIGGERED_ABILITY filter_zone="ZONE_IN_PLAY">
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[When Petrahydrox becomes the target of a spell or ability, return Petrahydrox to its owner’s hand.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Quand le Pétrahydroxe devient la cible d’un sort ou d’une capacité, renvoyez le Pétrahydroxe dans la main de son propriétaire.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Cuando el Petrahidrox sea objetivo de un hechizo o habilidad, regresa el Petrahidrox a la mano de su propietario.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Wenn der Petrahydrox das Ziel eines Zauberspruchs oder einer Fähigkeit wird, bringe den Petrahydrox auf die Hand seines Besitzers zurück.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Quando l’Idropietra diventa bersaglio di una magia o abilità, fai tornare l’Idropietra in mano al suo proprietario.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[鉱岩流液獣が呪文や能力の対象となったとき、鉱岩流液獣をオーナーの手札に戻す。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[페트라히드록스가 주문이나 능력의 목표로 정해질 때, 페트라히드록스를 소유자의 손으로 되돌린다.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Когда Петрагидрокс становится целью заклинания или способности, верните Петрагидрокса в руку его владельца.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Quano Hidropedra se tornar alvo de uma mágica ou habilidade, devolva Hidropedra para a mão de seu dono.]]></LOCALISED_TEXT>
+    <TRIGGER value="BECAME_TARGET" simple_qualifier="self" />
+    <RESOLUTION_TIME_ACTION>
+    Object():PutInHand()
+    </RESOLUTION_TIME_ACTION>
+  </TRIGGERED_ABILITY>
+  <SFX text="COMBAT_PLASMA_LARGE_ATTACK" power_boundary_min="4" power_boundary_max="-1" />
+  <SFX text="COMBAT_PLASMA_SMALL_ATTACK" power_boundary_min="1" power_boundary_max="3" />
+</CARD_V2>

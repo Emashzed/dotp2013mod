@@ -1,0 +1,70 @@
+﻿<?xml version='1.0'?>
+<CARD_V2>
+  <FILENAME text="BLACK_SUNS_ZENITH_888214061" />
+  <CARDNAME text="BLACK_SUNS_ZENITH" />
+  <TITLE>
+     <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Black Sun’s Zenith]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Black Sun’s Zenith]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Black Sun’s Zenith]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Black Sun’s Zenith]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Black Sun’s Zenith]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[Black Sun’s Zenith]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[Black Sun’s Zenith]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Black Sun’s Zenith]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Black Sun’s Zenith]]></LOCALISED_TEXT>
+  </TITLE>
+  <MULTIVERSEID value="888214061" />
+  <ARTID value="888214061" />
+  <ARTIST name="Daniel Ljunggren" />
+  <CASTING_COST cost="{X}{B}{B}" />
+  <FLAVOURTEXT>
+     <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[“Under the suns, Mirrodin kneels and begs us for perfection.”
+—Geth, Lord of the Vault]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[“Under the suns, Mirrodin kneels and begs us for perfection.”
+—Geth, Lord of the Vault]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[“Under the suns, Mirrodin kneels and begs us for perfection.”
+—Geth, Lord of the Vault]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[“Under the suns, Mirrodin kneels and begs us for perfection.”
+—Geth, Lord of the Vault]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[“Under the suns, Mirrodin kneels and begs us for perfection.”
+—Geth, Lord of the Vault]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[“Under the suns, Mirrodin kneels and begs us for perfection.”
+—Geth, Lord of the Vault]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[“Under the suns, Mirrodin kneels and begs us for perfection.”
+—Geth, Lord of the Vault]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[“Under the suns, Mirrodin kneels and begs us for perfection.”
+—Geth, Lord of the Vault]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[“Under the suns, Mirrodin kneels and begs us for perfection.”
+—Geth, Lord of the Vault]]></LOCALISED_TEXT>
+  </FLAVOURTEXT>
+  <TYPE metaname="Sorcery" />
+  <EXPANSION value="DPG" />
+  <RARITY metaname="R" />
+  <SPELL_ABILITY dangerous="1" filter_zone="ZONE_IN_PLAY">
+     <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Put X -1/-1 counters on each creature. Shuffle Black Sun’s Zenith into its owner’s library.]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Put X -1/-1 counters on each creature. Shuffle Black Sun’s Zenith into its owner’s library.]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Put X -1/-1 counters on each creature. Shuffle Black Sun’s Zenith into its owner’s library.]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Put X -1/-1 counters on each creature. Shuffle Black Sun’s Zenith into its owner’s library.]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Put X -1/-1 counters on each creature. Shuffle Black Sun’s Zenith into its owner’s library.]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[Put X -1/-1 counters on each creature. Shuffle Black Sun’s Zenith into its owner’s library.]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[Put X -1/-1 counters on each creature. Shuffle Black Sun’s Zenith into its owner’s library.]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Put X -1/-1 counters on each creature. Shuffle Black Sun’s Zenith into its owner’s library.]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Put X -1/-1 counters on each creature. Shuffle Black Sun’s Zenith into its owner’s library.]]></LOCALISED_TEXT>
+    <FILTER>
+    return (FilteredCard() ~= nil and 
+    FilteredCard():GetCardType():Test( CARD_TYPE_CREATURE ) ~= 0 and 
+    FilteredCard():GetZone() == (ZONE_IN_PLAY))
+    </FILTER>
+	<RESOLUTION_TIME_ACTION>
+	local counters = GetObjectX()
+    if FilteredCard() ~= nil then
+    	FilteredCard():AddCounters( MTG():MinusOneMinusOneCounters(), counters )
+    end
+    </RESOLUTION_TIME_ACTION>
+	<RESOLUTION_TIME_ACTION ignore_filter="1">
+    Object():SetResolutionZone(ZONE_LIBRARY)
+    </RESOLUTION_TIME_ACTION>
+    <SFX text="GLOBAL_DEATH_PLAY" />
+  </SPELL_ABILITY>
+  <AI_BASE_SCORE score="1800" zone="ZONE_HAND" />
+</CARD_V2>

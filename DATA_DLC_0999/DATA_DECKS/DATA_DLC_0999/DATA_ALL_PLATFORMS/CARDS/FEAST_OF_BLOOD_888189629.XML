@@ -1,0 +1,107 @@
+﻿<?xml version='1.0'?>
+<CARD_V2>
+  <FILENAME text="FEAST_OF_BLOOD_888189629" />
+  <CARDNAME text="FEAST_OF_BLOOD" />
+  <TITLE>
+     <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Feast of Blood]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Feast of Blood]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Feast of Blood]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Feast of Blood]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Feast of Blood]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[Feast of Blood]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[Feast of Blood]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Feast of Blood]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Feast of Blood]]></LOCALISED_TEXT>
+  </TITLE>
+  <MULTIVERSEID value="888189629" />
+  <ARTID value="888189629" />
+  <ARTIST name="Jason Felix" />
+  <CASTING_COST cost="{1}{B}" />
+  <FLAVOURTEXT>
+     <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[“The vampires of this world don’t know the pleasures of hunger. They gorge themselves without savoring the kill.”
+—Sorin Markov]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[“The vampires of this world don’t know the pleasures of hunger. They gorge themselves without savoring the kill.”
+—Sorin Markov]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[“The vampires of this world don’t know the pleasures of hunger. They gorge themselves without savoring the kill.”
+—Sorin Markov]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[“The vampires of this world don’t know the pleasures of hunger. They gorge themselves without savoring the kill.”
+—Sorin Markov]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[“The vampires of this world don’t know the pleasures of hunger. They gorge themselves without savoring the kill.”
+—Sorin Markov]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[“The vampires of this world don’t know the pleasures of hunger. They gorge themselves without savoring the kill.”
+—Sorin Markov]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[“The vampires of this world don’t know the pleasures of hunger. They gorge themselves without savoring the kill.”
+—Sorin Markov]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[“The vampires of this world don’t know the pleasures of hunger. They gorge themselves without savoring the kill.”
+—Sorin Markov]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[“The vampires of this world don’t know the pleasures of hunger. They gorge themselves without savoring the kill.”
+—Sorin Markov]]></LOCALISED_TEXT>
+  </FLAVOURTEXT>
+  <TYPE metaname="Sorcery" />
+  <EXPANSION value="DPG" />
+  <RARITY metaname="U" />
+  <STATIC_ABILITY filter_zone="ZONE_ANY" active_zone="ZONE_ANY">
+     <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Cast Feast of Blood only if you control two or more Vampires.]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Cast Feast of Blood only if you control two or more Vampires.]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Cast Feast of Blood only if you control two or more Vampires.]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Cast Feast of Blood only if you control two or more Vampires.]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Cast Feast of Blood only if you control two or more Vampires.]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[Cast Feast of Blood only if you control two or more Vampires.]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[Cast Feast of Blood only if you control two or more Vampires.]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Cast Feast of Blood only if you control two or more Vampires.]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Cast Feast of Blood only if you control two or more Vampires.]]></LOCALISED_TEXT>
+    <CONTINUOUS_ACTION layer="8">
+	local player = EffectController()
+	local filter = Object():GetFilter()
+    filter:Clear()
+    filter:SetZone( ZONE_IN_PLAY )
+    filter:AddCardType( CARD_TYPE_CREATURE )
+    filter:AddSubType( CREATURE_TYPE_VAMPIRE )
+    filter:SetPlayer( player )
+    filter:NotTargetted()
+    if filter:CountStopAt( 2 ) &lt; 2 then
+      local characteristics = Object():GetCurrentCharacteristics()
+	  characteristics:Characteristic_Set( CHARACTERISTIC_CANT_BE_PLAYED, 1 )
+    end
+    </CONTINUOUS_ACTION>
+  </STATIC_ABILITY>
+  <SPELL_ABILITY dangerous="1" filter_zone="ZONE_IN_PLAY">
+     <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Destroy target creature. You gain 4 life.]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Destroy target creature. You gain 4 life.]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Destroy target creature. You gain 4 life.]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Destroy target creature. You gain 4 life.]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Destroy target creature. You gain 4 life.]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[Destroy target creature. You gain 4 life.]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[Destroy target creature. You gain 4 life.]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Destroy target creature. You gain 4 life.]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Destroy target creature. You gain 4 life.]]></LOCALISED_TEXT>
+    <TARGET_DEFINITION id="0">
+    local filter = Object():GetFilter()
+    filter:Clear()
+    filter:AddCardType( CARD_TYPE_CREATURE )
+    filter:SetZone( ZONE_IN_PLAY )
+    filter:SetHint( HINT_ENEMY_ONLY, EffectController() )
+    </TARGET_DEFINITION>
+    <TARGET_DETERMINATION>
+    return AtLeastOneTargetFromDefinition(0)
+    </TARGET_DETERMINATION>
+    <PLAY_TIME_ACTION target_choosing="1">
+    EffectController():ChooseTarget( 0, "CARD_QUERY_CHOOSE_CREATURE_TO_DESTROY", EffectDC():Make_Targets(0) )
+    </PLAY_TIME_ACTION>
+    <RESOLUTION_TIME_ACTION ignore_filter="1">
+    local target = EffectDC():Get_Targets(0):Get_NthCardPtr(0)
+    if target ~= nil then   
+    	target:Destroy()  
+		EffectController():GainLife( 4 )
+    end
+    </RESOLUTION_TIME_ACTION>
+	<SFX text="TARGET_FANG_PLAY" />
+  </SPELL_ABILITY>
+  <AI_AVAILABILITY type="in_response" />
+  <AI_AVAILABILITY step="begin_combat" turn="their_turn" />
+  <AI_AVAILABILITY step="main_1" turn="my_turn" />
+  <AI_AVAILABILITY step="declare_attackers" turn="their_turn" />
+  <AI_AVAILABILITY step="declare_blockers" />
+  <AI_AVAILABILITY step="end_of_turn" />
+  <AI_BASE_SCORE score="1200" zone="ZONE_HAND" />
+</CARD_V2>

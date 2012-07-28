@@ -1,0 +1,60 @@
+﻿<?xml version='1.0'?>
+<CARD_V2>
+  <FILENAME text="BLOODMARK_MENTOR_888243467" />
+  <CARDNAME text="BLOODMARK_MENTOR" />
+  <TITLE>
+     <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Bloodmark Mentor]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Bloodmark Mentor]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Bloodmark Mentor]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Bloodmark Mentor]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Bloodmark Mentor]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[Bloodmark Mentor]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[Bloodmark Mentor]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Bloodmark Mentor]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Bloodmark Mentor]]></LOCALISED_TEXT>
+  </TITLE>
+  <MULTIVERSEID value="888243467" />
+  <ARTID value="888243467" />
+  <ARTIST name="Dave Allsop" />
+  <CASTING_COST cost="{1}{R}" />
+  <FLAVOURTEXT>
+     <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Boggarts divide the world into two categories: things you can eat, and things you have to chase down and pummel before you can eat.]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Boggarts divide the world into two categories: things you can eat, and things you have to chase down and pummel before you can eat.]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Boggarts divide the world into two categories: things you can eat, and things you have to chase down and pummel before you can eat.]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Boggarts divide the world into two categories: things you can eat, and things you have to chase down and pummel before you can eat.]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Boggarts divide the world into two categories: things you can eat, and things you have to chase down and pummel before you can eat.]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[Boggarts divide the world into two categories: things you can eat, and things you have to chase down and pummel before you can eat.]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[Boggarts divide the world into two categories: things you can eat, and things you have to chase down and pummel before you can eat.]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Boggarts divide the world into two categories: things you can eat, and things you have to chase down and pummel before you can eat.]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Boggarts divide the world into two categories: things you can eat, and things you have to chase down and pummel before you can eat.]]></LOCALISED_TEXT>
+  </FLAVOURTEXT>
+  <TYPE metaname="Creature" />
+  <SUB_TYPE metaname="Goblin" order_de-DE="0" order_es-ES="0" order_fr-FR="0" order_it-IT="0" order_jp-JA="0" order_ko-KR="0" order_pt-BR="0" order_ru-RU="0" />
+  <SUB_TYPE metaname="Warrior" order_de-DE="0" order_es-ES="0" order_fr-FR="0" order_it-IT="0" order_jp-JA="0" order_ko-KR="0" order_pt-BR="0" order_ru-RU="0" />
+  <EXPANSION value="DPG" />
+  <RARITY metaname="U" />
+  <POWER value="1" />
+  <TOUGHNESS value="1" />
+  <STATIC_ABILITY filter_zone="ZONE_IN_PLAY">
+     <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Red creatures you control have first strike.]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Red creatures you control have first strike.]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Red creatures you control have first strike.]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Red creatures you control have first strike.]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Red creatures you control have first strike.]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[Red creatures you control have first strike.]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[Red creatures you control have first strike.]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Red creatures you control have first strike.]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Red creatures you control have first strike.]]></LOCALISED_TEXT>
+    <FILTER>
+    return RedCreaturesYouControl()
+    </FILTER>
+    <CONTINUOUS_ACTION layer="6">
+    local filtered_obj = FilteredCard()
+    if filtered_obj ~= nil then
+    	filtered_obj:GetCurrentCharacteristics():Characteristic_Set( CHARACTERISTIC_FIRST_STRIKE, 1 )
+    end
+    </CONTINUOUS_ACTION>
+  </STATIC_ABILITY>
+  <SFX text="COMBAT_PIERCE_LARGE_ATTACK" power_boundary_min="4" power_boundary_max="-1" />
+  <SFX text="COMBAT_PIERCE_SMALL_ATTACK" power_boundary_min="1" power_boundary_max="3" />
+</CARD_V2>

@@ -1,0 +1,80 @@
+<?xml version='1.0'?>
+<CARD_V2>
+  <FILENAME text="AVATAR_OF_SLAUGHTER_281235" />
+  <CARDNAME text="AVATAR_OF_SLAUGHTER" />
+  <TITLE>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Avatar of Slaughter]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Avatar du massacre]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Avatar de la masacre]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Avatar des Gemetzels]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Avatar del Massacro]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[殺戮の化身]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[도륙의 아바타]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Аватара резни]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Avatar da Carnificina]]></LOCALISED_TEXT>
+  </TITLE>
+  <MULTIVERSEID value="281235" />
+  <ARTID value="137544" />
+  <ARTIST name="Jason A. Engle" />
+  <CASTING_COST cost="{6}{R}{R}" />
+  <FLAVOURTEXT>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[“Diplomacy has solved nothing. Only bloodspill can end this now. Call forth the warbringer.”
+—Basandra, Battle Seraph]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[« La diplomatie n’a rien résolu. Il ne reste plus qu’à verser le sang. Appelez le meneur de guerre. »
+—Basandra, séraphine de combat]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[“La diplomacia no ha solucionado nada. Sólo derramar sangre puede terminar con esto. Llama al adalid de la guerra.”
+—Basandra, Serafín de Batalla]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[„Diplomatie hat nichts erreicht. Nur durch Blutvergießen können wir dies beenden. Ruft die Kriegstreiber herbei!“
+—Basandra, Kampf-Seraph]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[“La diplomazia non ha risolto nulla. Solo lo spargimento di sangue può mettervi fine. Convocate il guerraiolo.”
+—Basandra, Serafina da Battaglia]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[「交渉では何も解決はせぬ。 流血のみがこれを終わらせられるのだ。 戦いをもたらす者を呼び起こせ。」
+—戦いの熾天使、バサンドラ]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[“협상은 아무런 성과가 없었다. 이제 무력만이 유일한 대안이다. 전쟁을 준비하라.”
+—전투의 치품천사 바산드라]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[«Дипломатия ни к чему не привела. Теперь все разрешится только кровопролитием. Да придет несущий войну».
+— Басандра, боевой серафим]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[“A diplomacia não resolveu nada. Agora só o derramamento de sangue pode dar um fim nisso. Convoquem o arauto da guerra.”
+— Basandra, Serafim de Batalha]]></LOCALISED_TEXT>
+  </FLAVOURTEXT>
+  <TYPE metaname="Creature" />
+  <SUB_TYPE metaname="Avatar" order_de-DE="0" order_es-ES="0" order_fr-FR="0" order_it-IT="0" order_jp-JA="0" order_ko-KR="0" order_pt-BR="0" order_ru-RU="0" />
+  <EXPANSION value="DPG" />
+  <RARITY metaname="R" />
+  <POWER value="8" />
+  <TOUGHNESS value="8" />
+  <STATIC_ABILITY>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[All creatures have double strike and attack each turn if able.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Toutes les créatures ont la double initiative et elles attaquent à chaque tour si possible.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Todas las criaturas dañan dos veces y atacan cada turno si pueden.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Alle Kreaturen haben Doppelschlag und greifen in jedem Zug an, wenn möglich.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Tutte le creature hanno doppio attacco e attaccano ogni turno, se possono farlo.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[すべてのクリーチャーは二段攻撃を持ち、可能なら毎ターン攻撃する。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[모든 생물은 이단공격 능력을 가지며 가능하면 매 턴마다 공격한다.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Все существа имеют Двойной удар и атакуют в каждом ходу, если могут.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Todas as criaturas têm golpe duplo e atacam a cada turno se estiverem aptas.]]></LOCALISED_TEXT>
+    <FILTER>
+    return (FilteredCard() ~= nil and 
+    FilteredCard():GetCardType():Test( CARD_TYPE_CREATURE ) ~= 0 and 
+    FilteredCard():GetZone() == (ZONE_IN_PLAY))
+    </FILTER>
+    <CONTINUOUS_ACTION layer="6">
+    if FilteredCard() ~= nil then
+    	local characteristics = FilteredCard():GetCurrentCharacteristics()
+    	if characteristics ~= nil then
+    		characteristics:Characteristic_Set( CHARACTERISTIC_DOUBLE_STRIKE, 1 )
+    	end
+    end
+    </CONTINUOUS_ACTION>
+    <CONTINUOUS_ACTION layer="6">
+    if FilteredCard() ~= nil then
+    	local characteristics = FilteredCard():GetCurrentCharacteristics()
+    	if characteristics ~= nil then
+    		characteristics:Characteristic_Set( CHARACTERISTIC_MUST_ATTACK_EACH_TURN, 1 )
+    	end
+    end
+    </CONTINUOUS_ACTION>
+  </STATIC_ABILITY>
+  <HELP title="MORE_INFO_BADGE_TITLE_2" body="MORE_INFO_BADGE_BODY_2" zone="ZONE_ANY" />
+  <SFX text="COMBAT_SLAUGHTER_ATTACK" power_boundary_min="-1" power_boundary_max="-1" />
+</CARD_V2>

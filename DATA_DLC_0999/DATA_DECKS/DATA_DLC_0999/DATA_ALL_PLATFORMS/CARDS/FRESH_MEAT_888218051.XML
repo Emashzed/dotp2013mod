@@ -1,0 +1,56 @@
+﻿<?xml version='1.0'?>
+<CARD_V2>
+  <FILENAME text="FRESH_MEAT_888218051" />
+  <CARDNAME text="FRESH_MEAT" />
+  <TITLE>
+     <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Fresh Meat]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Fresh Meat]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Fresh Meat]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Fresh Meat]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Fresh Meat]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[Fresh Meat]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[Fresh Meat]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Fresh Meat]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Fresh Meat]]></LOCALISED_TEXT>
+  </TITLE>
+  <MULTIVERSEID value="888218051" />
+  <ARTID value="888218051" />
+  <ARTIST name="Dave Allsop" />
+  <CASTING_COST cost="{3}{G}" />
+  <FLAVOURTEXT>
+     <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[A scavenger’s favorite appetizer is death.]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[A scavenger’s favorite appetizer is death.]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[A scavenger’s favorite appetizer is death.]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[A scavenger’s favorite appetizer is death.]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[A scavenger’s favorite appetizer is death.]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[A scavenger’s favorite appetizer is death.]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[A scavenger’s favorite appetizer is death.]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[A scavenger’s favorite appetizer is death.]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[A scavenger’s favorite appetizer is death.]]></LOCALISED_TEXT>
+  </FLAVOURTEXT>
+  <TYPE metaname="Instant" />
+  <EXPANSION value="DPG" />
+  <RARITY metaname="R" />
+  <SPELL_ABILITY filter_zone="ZONE_IN_PLAY">
+     <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Put a 3/3 green Beast creature token onto the battlefield for each creature put into your graveyard from the battlefield this turn.]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Put a 3/3 green Beast creature token onto the battlefield for each creature put into your graveyard from the battlefield this turn.]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Put a 3/3 green Beast creature token onto the battlefield for each creature put into your graveyard from the battlefield this turn.]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Put a 3/3 green Beast creature token onto the battlefield for each creature put into your graveyard from the battlefield this turn.]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Put a 3/3 green Beast creature token onto the battlefield for each creature put into your graveyard from the battlefield this turn.]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[Put a 3/3 green Beast creature token onto the battlefield for each creature put into your graveyard from the battlefield this turn.]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[Put a 3/3 green Beast creature token onto the battlefield for each creature put into your graveyard from the battlefield this turn.]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Put a 3/3 green Beast creature token onto the battlefield for each creature put into your graveyard from the battlefield this turn.]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Put a 3/3 green Beast creature token onto the battlefield for each creature put into your graveyard from the battlefield this turn.]]></LOCALISED_TEXT>
+    <RESOLUTION_TIME_ACTION>
+    local tokens = EffectController():PlayerDataChest():Get_Int( PLAYER_UTILITY_COMPARTMENT_ID_PLAYERS_CREATURES_DIED_THIS_TURN )
+    if tokens &gt; 0 then
+    	MTG():PutTokensIntoPlay( "TOKEN_BEAST_3_3_277473", tokens, EffectController() )
+    end
+    </RESOLUTION_TIME_ACTION>
+  </SPELL_ABILITY>
+  <AI_AVAILABILITY step="end_of_turn" turn="their_turn" />
+  <AI_AVAILABILITY step="declare_attackers" turn="their_turn" />
+  <AI_AVAILABILITY type="in_response_dangerous" />
+  <TOKEN_REGISTRATION reservation="1" type="TOKEN_BEAST_3_3_277473" />
+  <AI_BASE_SCORE score="1800" zone="ZONE_HAND" />
+</CARD_V2>

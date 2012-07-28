@@ -1,0 +1,100 @@
+﻿<?xml version='1.0'?>
+<CARD_V2>
+  <FILENAME text="INCINERATE_888234075" />
+  <CARDNAME text="INCINERATE" />
+  <TITLE>
+     <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Incinerate]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Incinerate]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Incinerate]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Incinerate]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Incinerate]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[Incinerate]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[Incinerate]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Incinerate]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Incinerate]]></LOCALISED_TEXT>
+  </TITLE>
+  <MULTIVERSEID value="888234075" />
+  <ARTID value="888234075" />
+  <ARTIST name="Zoltan Boros &amp; Gabor Szikszai" />
+  <CASTING_COST cost="{1}{R}" />
+  <FLAVOURTEXT>
+     <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[“Spontaneous combustion is a myth. If you burst into flame, someone wanted you to.”
+—Chandra Nalaar]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[“Spontaneous combustion is a myth. If you burst into flame, someone wanted you to.”
+—Chandra Nalaar]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[“Spontaneous combustion is a myth. If you burst into flame, someone wanted you to.”
+—Chandra Nalaar]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[“Spontaneous combustion is a myth. If you burst into flame, someone wanted you to.”
+—Chandra Nalaar]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[“Spontaneous combustion is a myth. If you burst into flame, someone wanted you to.”
+—Chandra Nalaar]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[“Spontaneous combustion is a myth. If you burst into flame, someone wanted you to.”
+—Chandra Nalaar]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[“Spontaneous combustion is a myth. If you burst into flame, someone wanted you to.”
+—Chandra Nalaar]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[“Spontaneous combustion is a myth. If you burst into flame, someone wanted you to.”
+—Chandra Nalaar]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[“Spontaneous combustion is a myth. If you burst into flame, someone wanted you to.”
+—Chandra Nalaar]]></LOCALISED_TEXT>
+  </FLAVOURTEXT>
+  <TYPE metaname="Instant" />
+  <EXPANSION value="DPG" />
+  <RARITY metaname="C" />
+  <SPELL_ABILITY dangerous="1" filter_zone="ZONE_IN_PLAY">
+     <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Incinerate deals 3 damage to target creature or player. A creature dealt damage this way can’t be regenerated this turn.]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Incinerate deals 3 damage to target creature or player. A creature dealt damage this way can’t be regenerated this turn.]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Incinerate deals 3 damage to target creature or player. A creature dealt damage this way can’t be regenerated this turn.]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Incinerate deals 3 damage to target creature or player. A creature dealt damage this way can’t be regenerated this turn.]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Incinerate deals 3 damage to target creature or player. A creature dealt damage this way can’t be regenerated this turn.]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[Incinerate deals 3 damage to target creature or player. A creature dealt damage this way can’t be regenerated this turn.]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[Incinerate deals 3 damage to target creature or player. A creature dealt damage this way can’t be regenerated this turn.]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Incinerate deals 3 damage to target creature or player. A creature dealt damage this way can’t be regenerated this turn.]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Incinerate deals 3 damage to target creature or player. A creature dealt damage this way can’t be regenerated this turn.]]></LOCALISED_TEXT>
+    <TARGET_DEFINITION id="0">
+    local filter = Object():GetFilter()
+    filter:Clear()
+    filter:SetFilterType( FILTER_TYPE_CARDS + FILTER_TYPE_PLAYERS )
+    filter:SetZone( ZONE_IN_PLAY )
+    filter:SetHint( HINT_ENEMY_ONLY, EffectController() )
+    filter:AddCardType( CARD_TYPE_CREATURE )
+    </TARGET_DEFINITION>
+    <TARGET_DETERMINATION>
+    return AtLeastOneTargetFromDefinition(0)
+    </TARGET_DETERMINATION>
+    <PLAY_TIME_ACTION target_choosing="1">
+    EffectController():ChooseTarget( 0, "CARD_QUERY_CHOOSE_DEAL_3_DAMAGE", EffectDC():Make_Targets(0) )
+    </PLAY_TIME_ACTION>
+    <RESOLUTION_TIME_ACTION>
+    local target_creature = EffectDC():Get_Targets(0):Get_CardPtr(0)
+    local target_player = EffectDC():Get_Targets(0):Get_PlayerPtr(0)
+    local source = EffectSource()
+    if source == nil then
+      source = Object()
+    end
+    if ( target_creature ~= nil ) then   
+    	target_creature:DealDamage(3, source)  
+    elseif 
+    	( target_player ~= nil ) then   
+    	target_player:DealDamage(3, source)  
+    end
+    </RESOLUTION_TIME_ACTION>
+	<CONTINUOUS_ACTION layer="6">
+	local target_creature = EffectDC():Get_Targets(0):Get_CardPtr(0)
+    if target_creature ~= nil then
+    	local characteristics = target_creature:GetCurrentCharacteristics()
+    	if characteristics ~= nil then
+    		characteristics:Characteristic_Set( CHARACTERISTIC_CANT_BE_REGENERATED, 1 )
+    	end
+    end
+    </CONTINUOUS_ACTION>
+	<DURATION simple_duration="UntilEOT" />
+    <SFX text="TARGET_FLAME_PLAY" />
+  </SPELL_ABILITY>
+  <AI_AVAILABILITY type="in_response" />
+  <AI_AVAILABILITY step="begin_combat" turn="their_turn" />
+  <AI_AVAILABILITY step="main_1" turn="my_turn" />
+  <AI_AVAILABILITY step="declare_attackers" turn="their_turn" />
+  <AI_AVAILABILITY step="declare_blockers" />
+  <AI_AVAILABILITY step="end_of_turn" />
+  <AI_BASE_SCORE score="1050" zone="ZONE_HAND" />
+</CARD_V2>

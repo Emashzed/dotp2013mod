@@ -1,0 +1,251 @@
+<?xml version='1.0'?>
+<CARD_V2>
+  <FILENAME text="MASTER_OF_THE_WILD_HUNT_281217" />
+  <CARDNAME text="MASTER_OF_THE_WILD_HUNT" />
+  <TITLE>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Master of the Wild Hunt]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Maître de la vénerie sauvage]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Maestro de la caza salvaje]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Herr der Wilden Jagd]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Maestro della Caccia Selvaggia]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[野生の狩りの達人]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[야성적 사냥의 달인]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Хозяин дикой охоты]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Mestre da Caçada Selvagem]]></LOCALISED_TEXT>
+  </TITLE>
+  <MULTIVERSEID value="281217" />
+  <ARTID value="121652" />
+  <ARTIST name="Kev Walker" />
+  <CASTING_COST cost="{2}{G}{G}" />
+  <TYPE metaname="Creature" />
+  <SUB_TYPE metaname="Human" order_de-DE="0" order_es-ES="1" order_fr-FR="0" order_it-IT="1" order_jp-JA="0" order_ko-KR="0" order_pt-BR="0" order_ru-RU="0" />
+  <SUB_TYPE metaname="Shaman" order_de-DE="1" order_es-ES="0" order_fr-FR="1" order_it-IT="0" order_jp-JA="1" order_ko-KR="1" order_pt-BR="1" order_ru-RU="1" />
+  <EXPANSION value="DPG" />
+  <RARITY metaname="M" />
+  <POWER value="3" />
+  <TOUGHNESS value="3" />
+  <TRIGGERED_ABILITY auto_skip="1" filter_zone="ZONE_IN_PLAY">
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[At the beginning of your upkeep, put a 2/2 green Wolf creature token onto the battlefield.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Au début de votre entretien, mettez sur le champ de bataille un jeton de créature 2/2 verte Loup.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Al comienzo de tu mantenimiento, pon en el campo de batalla una ficha de criatura Lobo verde 2/2.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Bringe zu Beginn deines Versorgungssegments einen 2/2 grünen Wolf-Kreaturenspielstein ins Spiel.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[All’inizio del tuo mantenimento, metti sul campo di battaglia una pedina creatura Lupo 2/2 verde.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[あなたのアップキープの開始時に、緑の２/２の狼・クリーチャー・トークンを１体戦場に出す。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[당신의 유지단 시작에, 2/2 녹색 늑대 생물 토큰 한 개를 전장에 놓는다.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[В начале вашего шага поддержки положите на поле битвы одну фишку существа 2/2 зеленый Волк.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[No início de sua manutenção, coloque no campo de batalha uma ficha de criatura verde 2/2 do tipo Lobo.]]></LOCALISED_TEXT>
+    <TRIGGER value="BEGINNING_OF_STEP" simple_qualifier="controller">
+    return ( EffectController():MyTurn() ~= 0 ) and ( MTG():GetStep() == STEP_UPKEEP )
+    </TRIGGER>
+    <RESOLUTION_TIME_ACTION>
+    local token_count = 1
+    if token_count &gt; 0 then
+    	MTG():PutTokensIntoPlay( "TOKEN_WOLF_2_2_277478", token_count, EffectController() )
+    end
+    </RESOLUTION_TIME_ACTION>
+  </TRIGGERED_ABILITY>
+  <ACTIVATED_ABILITY dangerous="1">
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[{T}: Tap all untapped Wolf creatures you control. Each Wolf tapped this way deals damage equal to its power to target creature. That creature deals damage equal to its power divided as its controller chooses among any number of those Wolves.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[{T}: Engagez toutes les créatures Loup dégagées que vous contrôlez. Chaque loup engagé de cette manière inflige un nombre de blessures égal à sa force à la créature ciblée. Cette créature inflige un nombre de blessures égal à sa force, réparties de la manière que son contrôleur le choisit parmi un nombre quelconque de ces loups.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[{T}: Gira todas las criaturas Lobo enderezadas que controlas. Cada Lobo girado de esta manera hace daño igual a su fuerza a la criatura objetivo. Esa criatura hace daño igual a su fuerza dividido como elija su controlador entre cualquier cantidad de esos Lobos.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[{T}: Tappe alle ungetappten Wolf-Kreaturen, die du kontrollierst. Jeder auf diese Weise getappte Wolf fügt einer Kreatur deiner Wahl Schadenspunkte in Höhe seiner Stärke zu. Diese Kreatur fügt Schadenspunkte in Höhe ihrer Stärke, aufgeteilt auf eine beliebige Anzahl dieser Wölfe zu, wobei ihr Beherrscher die Aufteilung bestimmt.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[{T}: TAPpa tutte le creature Lupo STAPpate che controlli. Ogni Lupo TAPpato in questo modo infligge danno pari alla sua forza a una creatura bersaglio. Quella creatura infligge danno pari alla sua forza suddiviso a scelta del suo controllore tra un qualsiasi numero di quei Lupi.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[{T}：クリーチャー１体を対象とする。あなたがコントロールするアンタップ状態の狼・クリーチャーをすべてタップする。 これによりタップされた狼は、それぞれそのクリーチャーに、自身のパワーに等しい点数のダメージを与える。 そのクリーチャーは、自身のパワーに等しい点数のダメージを、それのコントローラーの望むように、それらの狼に割り振って与える。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[{T}: 생물 한 개를 목표로 정한다. 당신이 조종하는 탭되지 않은 모든 늑대 생물을 탭한다. 이렇게 탭된 각 늑대는 그 목표에게 자신의 공격력만큼의 피해를 입힌다. 그 생물은 그 늑대들에게 자신의 공격력만큼의 피해를 그 생물의 조종자가 배분한 대로 입힌다.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[{T}: поверните всех неповернутых существ-Волков под вашим контролем. Каждый повернутый таким образом Волк наносит целевому существу повреждения, равные своей силе. То существо наносит повреждения, равные своей силе, распределенные по желанию контролирующего его игрока между любым количеством тех Волков.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[{T}: Vire todas as criaturas do tipo Lobo desviradas que você controle. Cada Lobo virado dessa maneira causa uma quantidade de dano igual ao seu poder à criatura alvo. Aquela criatura causa uma quantidade de dano igual ao seu poder dividido conforme escolhido por seu controlador entre qualquer número desses Lobos.]]></LOCALISED_TEXT>
+    <COST type="TapSelf" />
+    <TARGET_DEFINITION id="0">
+    local filter = Object():GetFilter()
+    filter:Clear()
+    filter:AddCardType( CARD_TYPE_CREATURE )
+    filter:SetZone( ZONE_IN_PLAY )
+    filter:SetHint( HINT_ENEMY_ONLY, EffectController() )
+    </TARGET_DEFINITION>
+    <TARGET_DETERMINATION>
+    return AtLeastOneTargetFromDefinition(0)
+    </TARGET_DETERMINATION>
+    <PLAY_TIME_ACTION target_choosing="1">
+    EffectController():ChooseTarget( 0, "CARD_QUERY_CHOOSE_TARGET_TO_WOLF", EffectDC():Make_Targets(0) )
+    </PLAY_TIME_ACTION>
+    <RESOLUTION_TIME_ACTION>
+    local victim = EffectDC():Get_Targets(0):Get_CardPtr(0)
+    if victim ~= nil then
+    	-- unmark all objects in play
+    	MTG():ClearFilterMarkedObjectsInZone(ZONE_IN_PLAY)
+    	local filter = Object():GetFilter()
+    	filter:Clear()
+    	-- untapped wolf creatures
+    	filter:AddExtra( FILTER_EXTRA_CREATURE_UNTAPPED )
+    	filter:AddSubType( CREATURE_TYPE_WOLF )
+    	filter:AddCardType( CARD_TYPE_CREATURE )
+    	filter:SetZone(ZONE_IN_PLAY)
+    	-- you control
+    	filter:SetPlayer( EffectController() )
+    	local num_wolves = filter:EvaluateObjects()
+    	if num_wolves &gt; 0 then
+    		for i=0,num_wolves-1 do
+    			local wolf = filter:GetNthEvaluatedObject(i)
+    			
+    			if wolf ~= nil then			
+    				wolf:Tap()
+    				wolf:MarkForFilter()
+    				victim:DealDamage( wolf:GetCurrentCharacteristics():Power_Get(), wolf )
+    			end
+    		end
+    		
+    	end
+        		
+    end
+    </RESOLUTION_TIME_ACTION>
+    <RESOLUTION_TIME_ACTION repeating="1">
+    local n = MTG():GetActionRepCount()
+    local victim = EffectDC():Get_Targets(0):Get_CardPtr(0)
+    local parity = n % 2
+    local damage_assigned_so_far = n / 2
+    if parity == 1 then
+    	damage_assigned_so_far = (n-1) / 2
+    end
+    if victim ~= nil then
+    	if (victim:GetPlayer():IsAI() == 0) then
+    	
+    		-- NON-AI BEHAVIOUR (complicated, manual assign)
+    		local damage_to_assign = victim:GetCurrentCharacteristics():Power_Get()
+    		
+    		local wolves_chosen_dc = EffectDC():Get_Chest(1)
+    		if wolves_chosen_dc == nil then
+    			wolves_chosen_dc = EffectDC():Make_Chest(1)
+    		end
+    		if parity == 0 then
+    		
+    			-- assign one point of damage to a wolf, or stop (in which case all remaining damage is assigned to the last wolf chosen)	
+    			if damage_assigned_so_far &lt; damage_to_assign then
+    				-- pick a wolf that we haven't already chosen
+    				local filter = Object():GetFilter()
+    				filter:Clear()
+    				filter:SetZone(ZONE_IN_PLAY)
+    				filter:NotTargetted()
+    				filter:SetMarkedObjectsOnly()
+    				
+    				if (damage_assigned_so_far &gt; 0) then
+    					filter:May()
+    				end
+    				
+    				if (damage_assigned_so_far &gt; 0) or (filter:CountStopAt(1) == 1) then			
+    					-- there is a valid wolf to assign damage to, so pick one
+    					victim:GetPlayer():ChooseTarget(NO_VALIDATION, "CARD_QUERY_ASSIGN_DAMAGE_TO_WOLF", EffectDC():Make_Targets(2))
+    					return true
+    				else
+    					-- no wolves exist, so stop COMPLETELY
+    					return false
+    				end
+    			else
+    				-- we've run out of damage to assign, so stop
+    			end
+    		
+    		else
+    			-- we may have chosen a wolf
+    			local chosen_one = EffectDC():Get_Targets(2):Get_CardPtr(0)
+    			
+    			if chosen_one ~= nil then
+    				-- wolf chosen. Extract.
+    				wolves_chosen_dc:Set_CardPtr(damage_assigned_so_far, chosen_one)
+    				return true
+    			else
+    				-- nothing was chosen, so stop
+    			end
+    		end
+    		-- We're done (as we haven't looped), so deal the damage
+    		if damage_assigned_so_far &gt; 0 then
+    			local last_wolf = wolves_chosen_dc:Get_CardPtr(damage_assigned_so_far - 1)	-- this wolf gets all remaining damage assigned to him, poor li'l guy
+    			
+    			for i=0,damage_assigned_so_far-1 do
+    				local wolf_to_damage = wolves_chosen_dc:Get_CardPtr(i)
+    				
+    				if wolf_to_damage ~= nil then
+    				
+    					-- Dealing at least one damage to it...
+    					local damage_to_deal = 1
+    					
+    					-- ...add every time this wolf has been subsequently selected...
+    					for j=i+1,damage_assigned_so_far-1 do
+    						local temp = wolves_chosen_dc:Get_CardPtr(j)
+    						
+    						if temp == wolf_to_damage then
+    							wolves_chosen_dc:Set_CardPtr(j, nil)
+    							damage_to_deal = damage_to_deal + 1
+    						end
+    					end
+    					
+    					-- ...add on surplus damage if last wolf.
+    					if wolf_to_damage == last_wolf then
+    						damage_to_deal = damage_to_deal + (damage_to_assign - damage_assigned_so_far)
+    					end
+    					
+    					-- slap that wolf
+    					wolf_to_damage:DealDamage(damage_to_deal, victim)
+    				end
+    			end
+    			
+    		end
+    		
+    	else
+    		-- AI BEHAVIOUR (simple, auto-assign)
+    		local damage_to_assign = victim:GetCurrentCharacteristics():Power_Get()
+    		
+    		local filter = Object():GetFilter()
+    		filter:Clear()
+    		filter:SetZone(ZONE_IN_PLAY)
+    		filter:NotTargetted()
+    		filter:SetMarkedObjectsOnly()
+    		
+    		local num_wolves = filter:EvaluateObjects()
+    		
+    		if num_wolves &gt; 0 then
+    			for i=0,num_wolves-1 do
+    				local wolf = filter:GetNthEvaluatedObject(i)
+    			
+    				if damage_to_assign &gt; 0 then
+    				
+    					local lethal_damage = 1
+    					
+    					-- deathtouch?
+    					if victim:GetCurrentCharacteristics():Characteristic_Get(CHARACTERISTIC_DEATHTOUCH) == 0 then
+    						lethal_damage = wolf:GetCurrentCharacteristics():Toughness_Get() - wolf:GetDamage()
+    					end
+    					
+    					-- cap?
+    					if lethal_damage &gt; damage_to_assign then
+    						lethal_damage = damage_to_assign
+    					end
+    					
+    					-- Deal damage
+    					wolf:DealDamage(lethal_damage, victim)
+    					
+    					-- Update damage remaining
+    					damage_to_assign = (damage_to_assign - lethal_damage)
+    					
+    				else
+    					-- run out of damage
+    					return false
+    				end
+    			end
+    			
+    		end
+    	
+    	end
+    end
+    return false
+    </RESOLUTION_TIME_ACTION>
+    <AI_AVAILABILITY type="in_response" />
+    <AI_AVAILABILITY step="begin_combat" turn="their_turn" />
+    <AI_AVAILABILITY step="main_1" turn="my_turn" />
+    <AI_AVAILABILITY step="declare_attackers" turn="their_turn" />
+    <AI_AVAILABILITY step="declare_blockers" />
+    <AI_AVAILABILITY step="end_of_turn" />
+  </ACTIVATED_ABILITY>
+  <TOKEN_REGISTRATION reservation="1" type="TOKEN_WOLF_2_2_277478" />
+  <SFX text="COMBAT_GREEN_MAGIC_LARGE_ATTACK" power_boundary_min="4" power_boundary_max="-1" />
+  <SFX text="COMBAT_GREEN_MAGIC_SMALL_ATTACK" power_boundary_min="1" power_boundary_max="3" />
+  <AI_BASE_SCORE score="900" zone="ZONE_IN_PLAY" />
+</CARD_V2>

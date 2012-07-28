@@ -1,0 +1,41 @@
+<DECK personality="D12AOD.XML" deck_box_image="locked" deck_box_image_locked="locked" content_pack="0" never_available="true" uid="113" preview_card="blanko" is_black="true" is_white="true">
+  <LandConfig numSpellsThatCountAsLand="3" />
+  <CARD name="BASILISK_COLLAR_277353" deckOrderId="0" />
+  <CARD name="DOOM_BLADE_276845" deckOrderId="1" />
+  <CARD name="DOOM_BLADE_276845" deckOrderId="2" />
+  <CARD name="PILLORY_OF_THE_SLEEPLESS_280241" deckOrderId="3" />
+  <CARD name="PILLORY_OF_THE_SLEEPLESS_280241" deckOrderId="4" />
+  <CARD name="DEMONIC_APPETITE_888193444" deckOrderId="5" />
+  <CARD name="SIGN_IN_BLOOD_278435" deckOrderId="6" />
+  <CARD name="SIGN_IN_BLOOD_278435" deckOrderId="7" />
+  <CARD name="BLACK_SUNS_ZENITH_888214061" deckOrderId="8" />
+  <CARD name="FIELD_OF_SOULS_8884874" deckOrderId="9" />
+  <CARD name="FIELD_OF_SOULS_8884874" deckOrderId="10" />
+  <CARD name="FIELD_OF_SOULS_8884874" deckOrderId="11" />
+  <CARD name="ANGELIC_DESTINY_888220230" deckOrderId="12" />
+  <CARD name="CADAVER_IMP_888193515" deckOrderId="13" />
+  <CARD name="CADAVER_IMP_888193515" deckOrderId="14" />
+  <CARD name="BOG_IMP_88883010" deckOrderId="15" />
+  <CARD name="BOG_IMP_88883010" deckOrderId="16" />
+  <CARD name="DUSK_IMP_888196995" deckOrderId="17" />
+  <CARD name="DUSK_IMP_888196995" deckOrderId="18" />
+  <CARD name="DOOMED_TRAVELER_277035" deckOrderId="19" />
+  <CARD name="DOOMED_TRAVELER_277035" deckOrderId="20" />
+  <CARD name="WALL_OF_ESSENCE_8885267" deckOrderId="21" />
+  <CARD name="WALL_OF_SOULS_8885269" deckOrderId="22" />
+  <CARD name="SOULS_OF_THE_FAULTLESS_88897231" deckOrderId="23" />
+  <CARD name="TORMENTED_ANGEL_88818287" deckOrderId="24" />
+  <CARD name="TORMENTED_ANGEL_88818287" deckOrderId="25" />
+  <CARD name="TORMENTED_ANGEL_88818287" deckOrderId="26" />
+  <CARD name="DEATHLESS_ANGEL_888193629" deckOrderId="27" />
+  <CARD name="WOEBRINGER_DEMON_88889049" deckOrderId="28" />
+  <CARD name="FALLEN_ANGEL_888247150" deckOrderId="29" />
+  <CARD name="FALLEN_ANGEL_888247150" deckOrderId="30" />
+  <CARD name="OB_NIXILIS_THE_FALLEN_888192219" deckOrderId="31" />
+  <CARD name="SUNBLAST_ANGEL_888215111" deckOrderId="32" />
+  <CARD name="PESTILENCE_DEMON_289183" deckOrderId="33" />
+  <CARD name="ANGEL_OF_DESPAIR_280048" deckOrderId="34" />
+  <CARD name="TERRAMORPHIC_EXPANSE_276987" deckOrderId="35" />
+  <CARD name="TERRAMORPHIC_EXPANSE_276987" deckOrderId="36" />
+  <CARD name="TERRAMORPHIC_EXPANSE_276987" deckOrderId="37" />
+</DECK>

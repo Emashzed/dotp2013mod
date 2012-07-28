@@ -1,0 +1,116 @@
+<?xml version='1.0'?>
+<CARD_V2>
+  <FILENAME text="WILTLEAF_LIEGE_281230" />
+  <CARDNAME text="WILTLEAF_LIEGE" />
+  <TITLE>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Wilt-Leaf Liege]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Noble féale de Feuilleterne]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Sierva de Hojas Marchitas]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Vasall des Gilblaubs]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Vassallo di Foglia Secca]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[萎れ葉のしもべ]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[윌트-리프 군주]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Вассал Темнолесья]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Soberano de Folha Seca]]></LOCALISED_TEXT>
+  </TITLE>
+  <MULTIVERSEID value="281230" />
+  <ARTID value="111702" />
+  <ARTIST name="Jason Chan" />
+  <CASTING_COST cost="{1}{G/W}{G/W}{G/W}" />
+  <TYPE metaname="Creature" />
+  <SUB_TYPE metaname="Elf" order_de-DE="0" order_es-ES="1" order_fr-FR="0" order_it-IT="1" order_jp-JA="0" order_ko-KR="0" order_pt-BR="0" order_ru-RU="0" />
+  <SUB_TYPE metaname="Knight" order_de-DE="1" order_es-ES="0" order_fr-FR="1" order_it-IT="0" order_jp-JA="1" order_ko-KR="1" order_pt-BR="1" order_ru-RU="1" />
+  <EXPANSION value="DPG" />
+  <RARITY metaname="R" />
+  <POWER value="4" />
+  <TOUGHNESS value="4" />
+  <STATIC_ABILITY filter_zone="ZONE_IN_PLAY">
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Other green creatures you control get +1/+1.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Les autres créatures vertes que vous contrôlez gagnent +1/+1.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Las otras criaturas verdes que controlas obtienen +1/+1.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Andere grüne Kreaturen, die du kontrollierst, erhalten +1/+1.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Le altre creature verdi che controlli prendono +1/+1.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[あなたがコントロールする他の緑のクリーチャーは＋１/＋１の修整を受ける。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[당신이 조종하는 다른 녹색 생물들은 +1/+1을 받는다.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Другие зеленые существа под вашим контролем получают +1/+1.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[As outras criaturas verdes que você controla recebem +1/+1.]]></LOCALISED_TEXT>
+    <FILTER>
+    local filteredCard = FilteredCard()
+    local objectPlayer = Object():GetPlayer()
+    return ((filteredCard ~= nil) and  
+    filteredCard:GetPlayer() == objectPlayer and 
+    (filteredCard:GetColour():Test( COLOUR_GREEN ) ~= 0) and 
+    (filteredCard:GetCardType():Test( CARD_TYPE_CREATURE ) ~= 0) and 
+    (filteredCard:GetZone() == (ZONE_IN_PLAY)) and
+    (filteredCard ~= Object()))
+    </FILTER>
+    <CONTINUOUS_ACTION layer="7C">
+    if FilteredCard() ~= nil then
+    	local characteristics = FilteredCard():GetCurrentCharacteristics()
+    	if characteristics ~= nil then
+    		characteristics:Power_Add( 1 )
+    		characteristics:Toughness_Add( 1 )
+    	end
+    end
+    </CONTINUOUS_ACTION>
+  </STATIC_ABILITY>
+  <STATIC_ABILITY filter_zone="ZONE_IN_PLAY">
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Other white creatures you control get +1/+1.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Les autres créatures blanches que vous contrôlez gagnent +1/+1.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Las otras criaturas blancas que controlas obtienen +1/+1.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Andere weiße Kreaturen, die du kontrollierst, erhalten +1/+1.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Le altre creature bianche che controlli prendono +1/+1.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[あなたがコントロールする他の白のクリーチャーは＋１/＋１の修整を受ける。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[당신이 조종하는 다른 백색 생물들은 +1/+1을 받는다.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Другие белые существа под вашим контролем получают +1/+1.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[As outras criaturas brancas que você controla recebem +1/+1.]]></LOCALISED_TEXT>
+    <CONTINUOUS_ACTION layer="7C">
+    if FilteredCard() ~= nil then
+    	local characteristics = FilteredCard():GetCurrentCharacteristics()
+    	if characteristics ~= nil then
+    		characteristics:Power_Add( 1 )
+    		characteristics:Toughness_Add( 1 )
+    	end
+    end
+    </CONTINUOUS_ACTION>
+    <FILTER>
+    local filteredCard = FilteredCard()
+    local objectPlayer = Object():GetPlayer()
+    return ((filteredCard ~= nil) and  
+    filteredCard:GetPlayer() == objectPlayer and 
+    (filteredCard:GetColour():Test( COLOUR_WHITE ) ~= 0) and 
+    (filteredCard:GetCardType():Test( CARD_TYPE_CREATURE ) ~= 0) and 
+    (filteredCard:GetZone() == (ZONE_IN_PLAY)) and
+    (filteredCard ~= Object()))
+    </FILTER>
+  </STATIC_ABILITY>
+  <TRIGGERED_ABILITY internal="1" pre_trigger="1" active_zone="ZONE_HAND">
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[If a spell or ability an opponent controls causes you to discard Wilt-Leaf Liege, put it onto the battlefield instead of putting it into your graveyard.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Si un sort ou une capacité qu’un adversaire contrôle vous contraint à vous défausser de la Noble féale de Feuilleterne, mettez-la sur le champ de bataille à la place de la mettre dans votre cimetière.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Si un hechizo o habilidad que controle un oponente te hace descartar la Sierva de Hojas Marchitas, ponla en el campo de batalla en vez de ponerla en tu cementerio.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Falls ein Zauberspruch oder eine Fähigkeit, den bzw. die ein Gegner kontrolliert, dazu führt, dass du den Vasall des Gilblaubs aus deiner Hand abwirfst, bringe ihn ins Spiel, anstatt ihn auf deinen Friedhof zu legen.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Se una magia o abilità controllata da un avversario ti fa scartare il Vassallo di Foglia Secca, mettilo sul campo di battaglia invece di metterlo nel tuo cimitero.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[いずれかの対戦相手がコントロールする呪文や能力によって、あなたが萎れ葉のしもべを捨てる場合、それをあなたの墓地に置く代わりに戦場に出す。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[상대가 조종하는 주문이나 능력에 의해 당신이 윌트-리프 군주를 손에서 버리면, 윌트-리프 군주를 무덤에 넣는 대신 전장에 놓는다.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Если заклинание или способность под контролем оппонента заставляет вас сбросить Вассала Темнолесья, положите его на поле битвы вместо того, чтобы положить его на ваше кладбище.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Se uma mágica ou habilidade que um oponente controla fizer com que você descarte Soberano de Folha Seca, em vez de colocá-lo no seu cemitério, coloque-o no campo de batalha.]]></LOCALISED_TEXT>
+    <TRIGGER value="DISCARD" simple_qualifier="self">
+    local player_that_caused_discard = TriggerPlayer()
+    if player_that_caused_discard ~= nil then
+    	if EffectController():GetTeam() ~= player_that_caused_discard:GetTeam() then
+    		override = true
+    		return true
+    	end
+    end
+    return false
+    </TRIGGER>
+    <RESOLUTION_TIME_ACTION>
+    local source = EffectSource()
+    if source ~= nil then
+    	source:PutIntoPlay(EffectController())
+    end
+    </RESOLUTION_TIME_ACTION>
+  </TRIGGERED_ABILITY>
+  <SFX text="COMBAT_BLADE_LARGE_ATTACK" power_boundary_min="4" power_boundary_max="-1" />
+  <SFX text="COMBAT_BLADE_SMALL_ATTACK" power_boundary_min="1" power_boundary_max="3" />
+</CARD_V2>

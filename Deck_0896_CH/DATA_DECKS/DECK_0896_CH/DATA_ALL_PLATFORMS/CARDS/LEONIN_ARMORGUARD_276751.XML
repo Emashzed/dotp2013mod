@@ -1,0 +1,71 @@
+<?xml version='1.0'?>
+<CARD_V2>
+  <FILENAME text="LEONIN_ARMORGUARD_276751" />
+  <CARDNAME text="LEONIN_ARMORGUARD" />
+  <TITLE>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Leonin Armorguard]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Garde cuirassé léonin]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Guardia armado leonino]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Leoniden-Rüstungswächter]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Guardia Armata Leonid]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[レオニンの鎧守護兵]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[중무장한 레오닌 경비병]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Леонинский Доспехоносец]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Guardião Blindado Leonino]]></LOCALISED_TEXT>
+  </TITLE>
+  <MULTIVERSEID value="276751" />
+  <ARTID value="121015" />
+  <ARTIST name="Steven Belledin" />
+  <CASTING_COST cost="{2}{G}{W}" />
+  <FLAVOURTEXT>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Well suited are the nacatl to a coat of steel and forge-tempered claws.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Les nacatls portent bien l’armure d’acier et les griffes forgées.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Los nacatl están bien preparados para una coraza de acero y garras forjadas.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Zu einem Nacatl passen ein Pelz aus Stahl und in der Schmiede gehärtete Krallen besonders gut.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[I nacatl si sono adattati perfettamente tanto ai manti d’acciaio quanto agli artigli forgiati in metallo.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[おあつらえ向きとは、鋼の外套と溶鉱炉の熱さを持つ爪をあつらえたナカティルのことだ。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[강철 갑옷을 입고 발톱을 강화한 나카틀은 그야말로 강적이다.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Стальной панцирь и закаленные когти накатльцев помогают им в бою.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Os nacatl são perfeitos para uma armadura de aço e garras temperadas na forja.]]></LOCALISED_TEXT>
+  </FLAVOURTEXT>
+  <TYPE metaname="Creature" />
+  <SUB_TYPE metaname="Cat" order_de-DE="0" order_es-ES="1" order_fr-FR="0" order_it-IT="1" order_jp-JA="0" order_ko-KR="0" order_pt-BR="0" order_ru-RU="0" />
+  <SUB_TYPE metaname="Soldier" order_de-DE="1" order_es-ES="0" order_fr-FR="1" order_it-IT="0" order_jp-JA="1" order_ko-KR="1" order_pt-BR="1" order_ru-RU="1" />
+  <EXPANSION value="DPG" />
+  <RARITY metaname="C" />
+  <POWER value="3" />
+  <TOUGHNESS value="3" />
+  <TRIGGERED_ABILITY filter_zone="ZONE_IN_PLAY">
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[When Leonin Armorguard enters the battlefield, creatures you control get +1/+1 until end of turn.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Quand le Garde cuirassé léonin arrive sur le champ de bataille, les créatures que vous contrôlez gagnent +1/+1 jusqu’à la fin du tour.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Cuando el Guardia armado leonino entre al campo de batalla, las criaturas que controlas obtienen +1/+1 hasta el final del turno.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Wenn der Leoniden-Rüstungswächter ins Spiel kommt, erhalten alle Kreaturen, die du kontrollierst, +1/+1 bis zum Ende des Zuges.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Quando la Guardia Armata Leonid entra nel campo di battaglia, le creature che controlli prendono +1/+1 fino alla fine del turno.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[レオニンの鎧守護兵が戦場に出たとき、あなたがコントロールするクリーチャーはターン終了時まで＋１/＋１の修整を受ける。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[중무장한 레오닌 경비병이 전장에 들어올 때, 당신이 조종하는 생물들은 턴종료까지 +1/+1을 받는다.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Когда Леонинский Доспехоносец выходит на поле битвы, существа под вашим контролем получают +1/+1 до конца хода.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Quando Guardião Blindado Leonino entra no campo de batalha, as criaturas que você controla recebem +1/+1 até o final do turno.]]></LOCALISED_TEXT>
+    <TRIGGER value="ZONECHANGE_END" simple_qualifier="self" to_zone="ZONE_IN_PLAY" />
+    <FILTER>
+    local filteredCard = FilteredCard()
+    local objectPlayer = EffectController()
+    return (filteredCard:GetCardType():Test( CARD_TYPE_CREATURE ) ~= 0) and
+    (filteredCard:GetPlayer() == objectPlayer) and
+    (filteredCard ~= nil and
+    filteredCard:GetZone() == ZONE_IN_PLAY)
+    </FILTER>
+    <CONTINUOUS_ACTION layer="7C">
+    if FilteredCard() ~= nil then
+    	local characteristics = FilteredCard():GetCurrentCharacteristics()
+    	if characteristics ~= nil then
+    		characteristics:Power_Add( 1 )
+    		characteristics:Toughness_Add( 1 )
+    	end
+    end
+    </CONTINUOUS_ACTION>
+    <DURATION simple_duration="UntilEOT" />
+  </TRIGGERED_ABILITY>
+  <SFX text="COMBAT_BLADE_LARGE_ATTACK" power_boundary_min="4" power_boundary_max="-1" />
+  <SFX text="COMBAT_BLADE_SMALL_ATTACK" power_boundary_min="1" power_boundary_max="3" />
+  <AI_BASE_SCORE score="450" zone="ZONE_HAND" />
+</CARD_V2>

@@ -1,0 +1,74 @@
+<?xml version='1.0'?>
+<CARD_V2>
+  <FILENAME text="TRANSLUMINANT_280080" />
+  <CARDNAME text="TRANSLUMINANT" />
+  <TITLE>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Transluminant]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Transluminante]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Transluminante]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Lichtwechsler]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Mutaluce]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[光と成す者]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[초발광술사]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Трансцендентное Свечение]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Transluminante]]></LOCALISED_TEXT>
+  </TITLE>
+  <MULTIVERSEID value="280080" />
+  <ARTID value="88935" />
+  <ARTIST name="Greg Hildebrandt" />
+  <CASTING_COST cost="{1}{G}" />
+  <FLAVOURTEXT>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[“Forget yourself. Forget your city. Forget your homes, your families, the debts and obligations that hold you to this world.”]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[« Oubliez-vous. Oubliez votre cité. Oubliez vos foyers, vos familles, les dettes et les obligations qui vous retiennent sur ce monde. »]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[“Olvídense de ustedes. Olvídense de sus ciudades. Olvídense de sus hogares, sus familias, todos los lazos y obligaciones que los atan a este mundo.”]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[„Vergesst euch. Vergesst eure Stadt. Vergesst eure Heimstätten, eure Familien, die Schulden und Pflichten, die euch an diese Welt binden.“]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[“Dimenticate voi stessi. Dimenticate la vostra città. Dimenticate le vostre case, le vostre famiglie, i debiti e gli obblighi che avete nei confronti di questo mondo.”]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[「己を忘れよ。 己の都市を忘れよ。 お前をこの世界に縛る、己の故郷と家族と恩義と義務を忘れよ。」]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[“자신을 잊어라. 네 도시를 잊어라. 네 고향, 네 가족 그리고 너를 이 세상에 묶어 두는 빚이나 의무를 잊어라.”]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[«Забудьте себя. Забудьте свой город. Забудьте свои дома, семьи, долги и обязанности — все, что связывает вас с этим миром».]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[“Esqueçam-se de vocês mesmos. Esqueçam-se de sua cidade. Esqueçam-se de suas casas, suas famílias, seus débitos e obrigações que os retêm neste mundo.”]]></LOCALISED_TEXT>
+  </FLAVOURTEXT>
+  <TYPE metaname="Creature" />
+  <SUB_TYPE metaname="Dryad" order_de-DE="0" order_es-ES="1" order_fr-FR="0" order_it-IT="1" order_jp-JA="0" order_ko-KR="0" order_pt-BR="0" order_ru-RU="0" />
+  <SUB_TYPE metaname="Shaman" order_de-DE="1" order_es-ES="0" order_fr-FR="1" order_it-IT="0" order_jp-JA="1" order_ko-KR="1" order_pt-BR="1" order_ru-RU="1" />
+  <EXPANSION value="DPG" />
+  <RARITY metaname="C" />
+  <POWER value="2" />
+  <TOUGHNESS value="2" />
+  <ACTIVATED_ABILITY>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[{W}, Sacrifice Transluminant: Put a 1/1 white Spirit creature token with flying onto the battlefield at the beginning of the next end step.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[{W}, sacrifiez la Transluminante: Mettez sur le champ de bataille un jeton de créature 1/1 blanche Esprit avec le vol au début de la prochaine étape de fin.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[{W}, sacrificar la Transluminante: Pon en el campo de batalla una ficha de criatura Espíritu blanca 1/1 con la habilidad de volar al comienzo del próximo paso final.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[{W}, opfere den Lichtwechsler: Bringe zu Beginn des nächsten Endsegments einen 1/1 weißen Geist-Kreaturenspielstein mit Flugfähigkeit ins Spiel.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[{W}, Sacrifica la Mutaluce: Metti sul campo di battaglia una pedina creatura Spirito 1/1 bianca con volare all’inizio della prossima sottofase finale.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[{W}, 光と成す者を生け贄に捧げる：次の終了ステップの開始時に、飛行を持つ白の１/１のスピリット・クリーチャー・トークンを１体戦場に出す。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[{W}, 초발광술사를 희생한다: 다음 종료단 시작에, 비행 능력을 가진 1/1 백색 신령 생물 토큰 한 개를 전장에 놓는다.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[{W}, пожертвуйте Трансцендентное Свечение: положите на поле битвы одну фишку существа 1/1 белый Дух с Полетом в начале следующего заключительного шага.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[{W}, Sacrifique Transluminante: Coloque no campo de batalha uma ficha de criatura branca 1/1 do tipo Espírito com voar no início da próxima etapa final.]]></LOCALISED_TEXT>
+    <COST type="Mana" cost="{W}" />
+    <COST type="SacrificeSelf" />
+    <RESOLUTION_TIME_ACTION>
+    MTG():CreateDelayedTrigger(1, nil)
+    </RESOLUTION_TIME_ACTION>
+    <AI_AVAILABILITY step="end_of_turn" turn="their_turn" />
+    <AI_AVAILABILITY step="declare_attackers" turn="their_turn" />
+    <AI_AVAILABILITY type="in_response_dangerous" />
+    <AI_AVAILABILITY step="declare_blockers" blocking_or_blocked="1" />
+  </ACTIVATED_ABILITY>
+  <TRIGGERED_ABILITY auto_skip="1" resource_id="1">
+    <TRIGGER value="BEGINNING_OF_STEP" simple_qualifier="controller">
+    return ( MTG():GetStep() == STEP_END_OF_TURN )
+    </TRIGGER>
+    <CLEANUP fire_once="1" />
+    <RESOLUTION_TIME_ACTION>
+    local token_count = 1
+    if token_count &gt; 0 then
+    	MTG():PutTokensIntoPlay( "TOKEN_SPIRIT_1_1_F_277469", token_count, EffectController() )
+    end
+    </RESOLUTION_TIME_ACTION>
+  </TRIGGERED_ABILITY>
+  <TOKEN_REGISTRATION reservation="1" type="TOKEN_SPIRIT_1_1_F_277469" />
+  <HELP title="MORE_INFO_BADGE_TITLE_10" body="MORE_INFO_BADGE_BODY_10" zone="ZONE_ANY" />
+  <SFX text="COMBAT_GREEN_MAGIC_LARGE_ATTACK" power_boundary_min="4" power_boundary_max="-1" />
+  <SFX text="COMBAT_GREEN_MAGIC_SMALL_ATTACK" power_boundary_min="1" power_boundary_max="3" />
+</CARD_V2>

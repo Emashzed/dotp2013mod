@@ -1,0 +1,40 @@
+<DECK personality="D13_MESA_DEFAULT.XML" deck_box_image="D13_MESA" deck_box_image_locked="locked" content_pack="0" always_available="true" uid="121" preview_card="aura_servants" is_white="true">
+  <DECKSTATISTICS Size="4" Speed="5" Flex="6" Syn="6" />
+  <CARD name="MESA_ENCHANTRESS_888191378" deckOrderId="0" />
+  <CARD name="MESA_ENCHANTRESS_888191378" deckOrderId="1" />
+  <CARD name="MESA_ENCHANTRESS_888191378" deckOrderId="2" />
+  <CARD name="MESA_ENCHANTRESS_888191378" deckOrderId="3" />
+  <CARD name="CONVICTION_8885127" deckOrderId="4" />
+  <CARD name="CONVICTION_8885127" deckOrderId="5" />
+  <CARD name="CONVICTION_8885127" deckOrderId="6" />
+  <CARD name="CONVICTION_8885127" deckOrderId="7" />
+  <CARD name="SHACKLES_8886038" deckOrderId="8" />
+  <CARD name="SHACKLES_8886038" deckOrderId="9" />
+  <CARD name="SHACKLES_8886038" deckOrderId="10" />
+  <CARD name="SHACKLES_8886038" deckOrderId="11" />
+  <CARD name="WORSHIP_280072" deckOrderId="12" />
+  <CARD name="GREATER_AURAMANCY_888147425" deckOrderId="13" />
+  <CARD name="GREATER_AURAMANCY_888147425" deckOrderId="14" />
+  <CARD name="GREATER_AURAMANCY_888147425" deckOrderId="15" />
+  <CARD name="IDYLLIC_TUTOR_888152938" deckOrderId="16" />
+  <CARD name="IDYLLIC_TUTOR_888152938" deckOrderId="17" />
+  <CARD name="IDYLLIC_TUTOR_888152938" deckOrderId="18" />
+  <CARD name="IDYLLIC_TUTOR_888152938" deckOrderId="19" />
+  <CARD name="SIGIL_OF_THE_EMPTY_THRONE_280294" deckOrderId="20" />
+  <CARD name="SIGIL_OF_THE_EMPTY_THRONE_280294" deckOrderId="21" />
+  <CARD name="SIGIL_OF_THE_EMPTY_THRONE_280294" deckOrderId="22" />
+  <CARD name="SIGIL_OF_THE_EMPTY_THRONE_280294" deckOrderId="23" />
+  <CARD name="MARK_OF_ASYLUM_276768" deckOrderId="24" />
+  <CARD name="HONOR_OF_THE_PURE_277112" deckOrderId="25" />
+  <CARD name="HONOR_OF_THE_PURE_277112" deckOrderId="26" />
+  <CARD name="HONOR_OF_THE_PURE_277112" deckOrderId="27" />
+  <CARD name="HONOR_OF_THE_PURE_277112" deckOrderId="28" />
+  <CARD name="OBLIVION_RING_276959" deckOrderId="29" />
+  <CARD name="OBLIVION_RING_276959" deckOrderId="30" />
+  <CARD name="OBLIVION_RING_276959" deckOrderId="31" />
+  <CARD name="OBLIVION_RING_276959" deckOrderId="32" />
+  <CARD name="JOURNEY_TO_NOWHERE_276937" deckOrderId="33" />
+  <CARD name="JOURNEY_TO_NOWHERE_276937" deckOrderId="34" />
+  <CARD name="JOURNEY_TO_NOWHERE_276937" deckOrderId="35" />
+  <CARD name="JOURNEY_TO_NOWHERE_276937" deckOrderId="36" />
+</DECK>

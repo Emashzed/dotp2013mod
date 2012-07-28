@@ -1,0 +1,85 @@
+<?xml version='1.0'?>
+<CARD_V2>
+  <FILENAME text="THUNDER_DRAGON_281285" />
+  <CARDNAME text="THUNDER_DRAGON" />
+  <TITLE>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Thunder Dragon]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Dragon du tonnerre]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Dragón trueno]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Donnerdrache]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Drago Tonante]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[雷のドラゴン]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[천둥의 용]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Громовой Дракон]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Dragão do Trovão]]></LOCALISED_TEXT>
+  </TITLE>
+  <MULTIVERSEID value="281285" />
+  <ARTID value="115930" />
+  <ARTIST name="Chris Rahn" />
+  <CASTING_COST cost="{5}{R}{R}" />
+  <FLAVOURTEXT>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Sometimes primitive cultures attributed natural phenomena to monsters. Sometimes they were right.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Parfois, les cultures primitives attribuaient les phénomènes inexpliqués aux monstres. Parfois, elles ne se trompaient pas.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[A veces las culturas primitivas atribuían los fenómenos naturales a monstruos. A veces estaban en lo cierto.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Manchmal wiesen primitive Kulturen Naturphänomene gewissen Untieren zu. Manchmal hatten sie Recht.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[A volte le culture primitive attribuivano ai mostri i fenomeni naturali. A volte avevano ragione.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[原始文明において、時に自然現象が怪物になぞらえられることがある。 時に彼らが正しいこともある。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[원시인들은 자연 현상이 괴물의 소행이라 믿었다. 그리고 실제로 그런 경우도 있었다.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Некоторые примитивные культуры верят в то, что за природными явлениями стоят чудовища. Некоторые из них правы.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Algumas culturas primitivas atribuíam os fenômenos naturais a monstros. Às vezes elas estavam certas.]]></LOCALISED_TEXT>
+  </FLAVOURTEXT>
+  <TYPE metaname="Creature" />
+  <SUB_TYPE metaname="Dragon" order_de-DE="0" order_es-ES="0" order_fr-FR="0" order_it-IT="0" order_jp-JA="0" order_ko-KR="0" order_pt-BR="0" order_ru-RU="0" />
+  <EXPANSION value="DPG" />
+  <RARITY metaname="R" />
+  <POWER value="5" />
+  <TOUGHNESS value="5" />
+  <STATIC_ABILITY>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Flying]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Vol]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Vuela.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Fliegend]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Volare]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[飛行]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[비행]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Полет]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Voar]]></LOCALISED_TEXT>
+    <CONTINUOUS_ACTION>
+    local characteristics = Object():GetCurrentCharacteristics()
+    characteristics:Characteristic_Set( CHARACTERISTIC_FLYING, 1 )
+    </CONTINUOUS_ACTION>
+  </STATIC_ABILITY>
+  <TRIGGERED_ABILITY LKI_shield_effect_source="1" dangerous="1">
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[When Thunder Dragon enters the battlefield, it deals 3 damage to each creature without flying.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Quand le Dragon du tonnerre arrive sur le champ de bataille, il inflige 3 blessures à chaque créature sans le vol.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Cuando el Dragón trueno entre al campo de batalla, hace 3 puntos de daño a cada criatura sin la habilidad de volar.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Wenn der Donnerdrache ins Spiel kommt, fügt er jeder nichtfliegenden Kreatur 3 Schadenspunkte zu.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Quando il Drago Tonante entra nel campo di battaglia, infligge 3 danni a ogni creatura senza volare.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[雷のドラゴンが戦場に出たとき、それは飛行を持たない各クリーチャーに、それぞれ３点のダメージを与える。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[천둥의 용이 전장에 들어올 때, 천둥의 용은 비행 능력이 없는 각 생물에게 피해 3점을 입힌다.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Когда Громовой Дракон выходит на поле битвы, он наносит 3 повреждения каждому существу без Полета.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Quando Dragão do Trovão entra no campo de batalha, ele causa 3 pontos de dano a cada criatura sem voar.]]></LOCALISED_TEXT>
+    <TRIGGER value="ZONECHANGE_END" simple_qualifier="self" to_zone="ZONE_IN_PLAY" />
+    <FILTER>
+    return (FilteredCard() ~= nil and 
+    FilteredCard():GetCardType():Test( CARD_TYPE_CREATURE ) ~= 0 and 
+    FilteredCard():GetZone() == ZONE_IN_PLAY and  
+    FilteredCard():GetCurrentCharacteristics():Characteristic_Get( CHARACTERISTIC_FLYING ) == 0)
+    </FILTER>
+    <RESOLUTION_TIME_ACTION>
+    local source = EffectSource()
+    if source == nil then
+      source = Object()
+    end
+    if (FilteredPlayer() ~= nil) then   
+    	FilteredPlayer():DealDamage( 3 , source)  
+    elseif (FilteredCard() ~= nil) then   
+    	FilteredCard():DealDamage( 3 , source )  
+    end
+    </RESOLUTION_TIME_ACTION>
+  </TRIGGERED_ABILITY>
+  <HELP title="MORE_INFO_BADGE_TITLE_10" body="MORE_INFO_BADGE_BODY_10" zone="ZONE_ANY" />
+  <SFX text="COMBAT_DRAGON_LARGE_ATTACK" power_boundary_min="4" power_boundary_max="-1" />
+  <SFX text="COMBAT_DRAGON_SMALL_ATTACK" power_boundary_min="1" power_boundary_max="3" />
+  <AI_BASE_SCORE score="1200" zone="ZONE_HAND" />
+</CARD_V2>

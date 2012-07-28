@@ -1,0 +1,95 @@
+﻿<?xml version='1.0'?>
+<CARD_V2>
+  <FILENAME text="BASKING_ROOTWALLA_888201836" />
+  <CARDNAME text="BASKING_ROOTWALLA" />
+  <TITLE>
+     <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Basking Rootwalla]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Basking Rootwalla]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Basking Rootwalla]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Basking Rootwalla]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Basking Rootwalla]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[Basking Rootwalla]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[Basking Rootwalla]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Basking Rootwalla]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Basking Rootwalla]]></LOCALISED_TEXT>
+  </TITLE>
+  <MULTIVERSEID value="888201836" />
+  <ARTID value="888201836" />
+  <ARTIST name="Heather Hudson" />
+  <CASTING_COST cost="{G}" />
+  <TYPE metaname="Creature" />
+  <SUB_TYPE metaname="Lizard" order_de-DE="0" order_es-ES="0" order_fr-FR="0" order_it-IT="0" order_jp-JA="0" order_ko-KR="0" order_pt-BR="0" order_ru-RU="0" />
+  <EXPANSION value="DPG" />
+  <RARITY metaname="C" />
+  <POWER value="1" />
+  <TOUGHNESS value="1" />
+  <ACTIVATED_ABILITY per_turn_limit="1" filter_zone="ZONE_IN_PLAY">
+     <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[{1}{G}: Basking Rootwalla gets +2/+2 until end of turn. Activate this ability only once each turn.]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[{1}{G}: Basking Rootwalla gets +2/+2 until end of turn. Activate this ability only once each turn.]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[{1}{G}: Basking Rootwalla gets +2/+2 until end of turn. Activate this ability only once each turn.]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[{1}{G}: Basking Rootwalla gets +2/+2 until end of turn. Activate this ability only once each turn.]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[{1}{G}: Basking Rootwalla gets +2/+2 until end of turn. Activate this ability only once each turn.]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[{1}{G}: Basking Rootwalla gets +2/+2 until end of turn. Activate this ability only once each turn.]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[{1}{G}: Basking Rootwalla gets +2/+2 until end of turn. Activate this ability only once each turn.]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[{1}{G}: Basking Rootwalla gets +2/+2 until end of turn. Activate this ability only once each turn.]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[{1}{G}: Basking Rootwalla gets +2/+2 until end of turn. Activate this ability only once each turn.]]></LOCALISED_TEXT>
+    <COST type="Mana" cost="{1}{G}" />
+    <CONTINUOUS_ACTION layer="7C">
+    local characteristics = Object():GetCurrentCharacteristics()  
+	characteristics:Power_Add( 2 )  
+	characteristics:Toughness_Add( 2 )
+    </CONTINUOUS_ACTION>
+    <DURATION simple_duration="UntilEOT" />
+    <AI_AVAILABILITY step="declare_blockers" />
+    <AI_AVAILABILITY type="in_response_dangerous" />
+  </ACTIVATED_ABILITY>
+  <TRIGGERED_ABILITY forced_skip="1" filter_zone="ZONE_IN_PLAY" active_zone="ZONE_ANY">
+     <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Madness {0} |(If you discard this card, you may cast it for its madness cost instead of putting it into your graveyard.)|]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Madness {0} |(If you discard this card, you may cast it for its madness cost instead of putting it into your graveyard.)|]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Madness {0} |(If you discard this card, you may cast it for its madness cost instead of putting it into your graveyard.)|]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Madness {0} |(If you discard this card, you may cast it for its madness cost instead of putting it into your graveyard.)|]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Madness {0} |(If you discard this card, you may cast it for its madness cost instead of putting it into your graveyard.)|]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[Madness {0} |(If you discard this card, you may cast it for its madness cost instead of putting it into your graveyard.)|]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[Madness {0} |(If you discard this card, you may cast it for its madness cost instead of putting it into your graveyard.)|]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Madness {0} |(If you discard this card, you may cast it for its madness cost instead of putting it into your graveyard.)|]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Madness {0} |(If you discard this card, you may cast it for its madness cost instead of putting it into your graveyard.)|]]></LOCALISED_TEXT>
+    <TRIGGER value="DISCARD" simple_qualifier="self">
+    if EffectController():CanAfford("{0}") == 1 then
+		ObjectDC():Set_CardPtr(0, Object())
+		ObjectDC():Protect_CardPtr(0)
+		Object():RemoveFromGame()
+		return true
+	end
+    </TRIGGER>
+	<RESOLUTION_TIME_ACTION>
+    EffectController():BeginNewMultipleChoice()    
+    EffectController():AddMultipleChoiceAnswer( "CARD_QUERY_OPTION_NO" )    
+    EffectController():AddMultipleChoiceAnswer( "CARD_QUERY_OPTION_YES" )    
+    EffectController():AskMultipleChoiceQuestion( "CARD_QUERY_MC_PAY_MADNESS_COST")
+    </RESOLUTION_TIME_ACTION>
+	<RESOLUTION_TIME_ACTION>
+	local decision = Object():GetMultipleChoiceResult()
+	local player = EffectController()
+	local spell = ObjectDC():Get_CardPtr(0)
+	
+	if player:CanAfford("{0}") == 1 then
+    	if decision == 1 then
+    		player:TapLand("{0}")
+			if spell ~= nil then
+				spell:PlayFreeFromAnywhere( player )
+			end
+		else
+			if spell ~= nil then
+				spell:PutInGraveyard()
+			end
+		end
+	else
+		if spell ~= nil then
+			spell:PutInGraveyard()
+		end
+	end        
+    </RESOLUTION_TIME_ACTION>
+  </TRIGGERED_ABILITY>
+  <SFX text="COMBAT_BITE_LARGE_ATTACK" power_boundary_min="4" power_boundary_max="-1" />
+  <SFX text="COMBAT_BITE_SMALL_ATTACK" power_boundary_min="1" power_boundary_max="3" />
+</CARD_V2>

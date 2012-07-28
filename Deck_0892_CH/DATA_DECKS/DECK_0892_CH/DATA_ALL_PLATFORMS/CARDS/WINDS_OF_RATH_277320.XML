@@ -1,0 +1,66 @@
+<?xml version='1.0'?>
+<CARD_V2>
+  <FILENAME text="WINDS_OF_RATH_277320" />
+  <CARDNAME text="WINDS_OF_RATH" />
+  <TITLE>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Winds of Rath]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Vents de Rajh]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Vientos de Rath]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Rathische Stürme]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Venti di Rath]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[ラースの風]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[래스의 바람]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Ветры Рата]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Ventos de Rath]]></LOCALISED_TEXT>
+  </TITLE>
+  <MULTIVERSEID value="277320" />
+  <ARTID value="3193" />
+  <ARTIST name="Drew Tucker" />
+  <CASTING_COST cost="{3}{W}{W}" />
+  <FLAVOURTEXT>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[“There shall be a vast shout and then a vaster silence.”
+—Oracle en-Vec]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[« Il y aura un grand cri, et puis un silence plus grand encore. »
+—Oracle en-Vec]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[“Se oirá un enorme grito, seguido de un silencio aun más enorme.”
+—Oráculo en-Vec]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[„Es wird einen enormen Schrei geben, und danach eine noch enormere Stille.“
+—Das Orakel en-Vec]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[“Un urlo straziante riempirà l’aria, seguito da un silenzio ancora più straziante.”
+—Oracolo en-Vec]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[「大きな叫び声が上がり、それからもっと大きな静寂が訪れるだろう。」
+—ヴェクの巫女]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[커다란 함성 소리가 울려 퍼진 뒤에, 고요한 적막만이 남으리라.
+—오라클 엔-벡]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[«За страшным криком придет страшное безмолвие».
+— Оракул эн-Век]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[“Haverá um imenso clamor, seguido de um silêncio ainda maior.”
+— Oráculo en-Vec]]></LOCALISED_TEXT>
+  </FLAVOURTEXT>
+  <TYPE metaname="Sorcery" />
+  <EXPANSION value="DPG" />
+  <RARITY metaname="R" />
+  <SPELL_ABILITY dangerous="1">
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Destroy all creatures that aren’t enchanted. They can’t be regenerated.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Détruisez toutes les créatures qui ne sont pas enchantées. Elles ne peuvent pas être régénérées.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Destruye todas las criaturas que no estén encantadas. No pueden ser regeneradas.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Zerstöre alle Kreaturen, die nicht verzaubert sind. Sie können nicht regeneriert werden.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Distruggi tutte le creature che non sono incantate. Non possono essere rigenerate.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[エンチャントされていないすべてのクリーチャーを破壊する。 それらは再生できない。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[부여되지 않은 생물을 모두 파괴한다. 그 생물들은 재생될 수 없다.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Уничтожьте все не зачарованные существа. Они не могут быть регенерированы.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Destrua todas as criaturas que não estiverem encantadas. Elas não podem ser regeneradas.]]></LOCALISED_TEXT>
+    <FILTER>
+    return (FilteredCard() ~= nil and 
+    FilteredCard():GetCardType():Test( CARD_TYPE_CREATURE ) ~= 0 and 
+    FilteredCard():GetZone() == (ZONE_IN_PLAY) and 
+    (FilteredCard():IsEnchanted() == 0))
+    </FILTER>
+    <RESOLUTION_TIME_ACTION>
+    FilteredCard():DestroyWithoutRegenerate()
+    </RESOLUTION_TIME_ACTION>
+    <SFX text="GLOBAL_WIND_PLAY" />
+  </SPELL_ABILITY>
+  <HELP title="MORE_INFO_TITLE_REGENERATE" body="MORE_INFO_BODY_REGENERATE" zone="ZONE_ANY" />
+  <AI_BASE_SCORE score="1800" zone="ZONE_HAND" />
+</CARD_V2>

@@ -1,0 +1,71 @@
+﻿<?xml version='1.0'?>
+<CARD_V2>
+  <FILENAME text="ETCHED_CHAMPION_888215099" />
+  <CARDNAME text="ETCHED_CHAMPION" />
+  <TITLE>
+     <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Etched Champion]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Etched Champion]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Etched Champion]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Etched Champion]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Etched Champion]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[Etched Champion]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[Etched Champion]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Etched Champion]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Etched Champion]]></LOCALISED_TEXT>
+  </TITLE>
+  <MULTIVERSEID value="888215099" />
+  <ARTID value="888215099" />
+  <ARTIST name="Matt Cavotta" />
+  <CASTING_COST cost="{3}" />
+  <FLAVOURTEXT>
+     <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Its predecessors were etched with the wisdom of ancients; its own etchings bear warnings of a future fraught with war.]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Its predecessors were etched with the wisdom of ancients; its own etchings bear warnings of a future fraught with war.]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Its predecessors were etched with the wisdom of ancients; its own etchings bear warnings of a future fraught with war.]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Its predecessors were etched with the wisdom of ancients; its own etchings bear warnings of a future fraught with war.]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Its predecessors were etched with the wisdom of ancients; its own etchings bear warnings of a future fraught with war.]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[Its predecessors were etched with the wisdom of ancients; its own etchings bear warnings of a future fraught with war.]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[Its predecessors were etched with the wisdom of ancients; its own etchings bear warnings of a future fraught with war.]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Its predecessors were etched with the wisdom of ancients; its own etchings bear warnings of a future fraught with war.]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Its predecessors were etched with the wisdom of ancients; its own etchings bear warnings of a future fraught with war.]]></LOCALISED_TEXT>
+  </FLAVOURTEXT>
+  <TYPE metaname="Artifact" />
+  <TYPE metaname="Creature" />
+  <SUB_TYPE metaname="Soldier" order_de-DE="0" order_es-ES="0" order_fr-FR="0" order_it-IT="0" order_jp-JA="0" order_ko-KR="0" order_pt-BR="0" order_ru-RU="0" />
+  <EXPANSION value="DPG" />
+  <RARITY metaname="R" />
+  <POWER value="2" />
+  <TOUGHNESS value="2" />
+  <STATIC_ABILITY>
+     <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[|Metalcraft| — Etched Champion has protection from all colors as long as you control three or more artifacts.]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[|Metalcraft| — Etched Champion has protection from all colors as long as you control three or more artifacts.]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[|Metalcraft| — Etched Champion has protection from all colors as long as you control three or more artifacts.]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[|Metalcraft| — Etched Champion has protection from all colors as long as you control three or more artifacts.]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[|Metalcraft| — Etched Champion has protection from all colors as long as you control three or more artifacts.]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[|Metalcraft| — Etched Champion has protection from all colors as long as you control three or more artifacts.]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[|Metalcraft| — Etched Champion has protection from all colors as long as you control three or more artifacts.]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[|Metalcraft| — Etched Champion has protection from all colors as long as you control three or more artifacts.]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[|Metalcraft| — Etched Champion has protection from all colors as long as you control three or more artifacts.]]></LOCALISED_TEXT>
+    <CONTINUOUS_ACTION>
+	local total = 0
+    local filter = Object():GetFilter()
+    filter:Clear()
+    filter:SetZone( ZONE_IN_PLAY )
+    filter:AddCardType( CARD_TYPE_ARTIFACT )
+    filter:SetController( EffectController() )
+    filter:NotTargetted()
+    total = filter:CountStopAt( 3 )
+    if total &gt; 2 then
+		filter:Clear()
+		filter:AddColour( COLOUR_WHITE )
+		filter:AddColour( COLOUR_BLUE )
+		filter:AddColour( COLOUR_BLACK )
+		filter:AddColour( COLOUR_RED )
+		filter:AddColour( COLOUR_GREEN )
+		Object():Protection()
+	end
+    </CONTINUOUS_ACTION>
+  </STATIC_ABILITY>
+  <SFX text="COMBAT_BLADE_LARGE_ATTACK" power_boundary_min="4" power_boundary_max="-1" />
+  <SFX text="COMBAT_BLADE_SMALL_ATTACK" power_boundary_min="1" power_boundary_max="3" />
+  <AI_BASE_SCORE score="600" zone="ZONE_IN_PLAY" />
+</CARD_V2>

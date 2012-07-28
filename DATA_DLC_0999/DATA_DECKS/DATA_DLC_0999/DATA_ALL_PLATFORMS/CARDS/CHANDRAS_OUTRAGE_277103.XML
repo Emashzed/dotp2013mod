@@ -1,0 +1,69 @@
+<?xml version='1.0'?>
+<CARD_V2>
+  <FILENAME text="CHANDRAS_OUTRAGE_277103" />
+  <CARDNAME text="CHANDRAS_OUTRAGE" />
+  <TITLE>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Chandra’s Outrage]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Dernier outrage de Chandra]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Indignación de Chandra]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Chandras Gewalttat]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Sdegno di Chandra]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[チャンドラの憤慨]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[찬드라의 격분]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Буйство Чандры]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Ultraje de Chandra]]></LOCALISED_TEXT>
+  </TITLE>
+  <MULTIVERSEID value="277103" />
+  <ARTID value="129156" />
+  <ARTIST name="Christopher Moeller" />
+  <CASTING_COST cost="{2}{R}{R}" />
+  <FLAVOURTEXT>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Chandra never believed in using her “inside voice.”]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Chandra n’utilisait jamais sa « voix d’intérieur. »]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Chandra nunca creyó en eso de usar su “voz interior”.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Chandra vertraute nie auf ihre „innere Stimme“.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Chandra non ha mai creduto nel parlare “piano”.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[チャンドラは「おとなしい話し方」をしない主義だ。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[찬드라의 사전에 "조용히"란 말은 없다.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Чандра никогда не считала нужным слушать свой «внутренний голос».]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Chandra jamais acreditou que “falar baixinho” pudesse funcionar.]]></LOCALISED_TEXT>
+  </FLAVOURTEXT>
+  <TYPE metaname="Instant" />
+  <EXPANSION value="DPG" />
+  <RARITY metaname="C" />
+  <SPELL_ABILITY dangerous="1" filter_zone="ZONE_IN_PLAY">
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Chandra’s Outrage deals 4 damage to target creature and 2 damage to that creature’s controller.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Le Dernier outrage de Chandra inflige 4 blessures à la créature ciblée et 2 blessures au contrôleur de cette créature.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[La Indignación de Chandra hace 4 puntos de daño a la criatura objetivo y 2 puntos de daño al controlador de esa criatura.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Chandras Gewalttat fügt einer Kreatur deiner Wahl 4 Schadenspunkte und dem Beherrscher dieser Kreatur 2 Schadenspunkte zu.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Lo Sdegno di Chandra infligge 4 danni a una creatura bersaglio e 2 danni al controllore di quella creatura.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[クリーチャー１体を対象とする。チャンドラの憤慨はそれに４点のダメージを与え、そのクリーチャーのコントローラーに２点のダメージを与える。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[생물 한 개를 목표로 정한다. 찬드라의 격분은 그 생물에게 피해 4점을 입히고 그 생물의 조종자에게 피해 2점을 입힌다.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Буйство Чандры наносит 4 повреждения целевому существу и 2 повреждения игроку, контролирующему то существо.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Ultraje de Chandra causa 4 pontos de dano à criatura alvo e 2 pontos de dano ao controlador daquela criatura.]]></LOCALISED_TEXT>
+    <TARGET_DEFINITION id="0">
+    local filter = Object():GetFilter()
+    filter:Clear()
+    filter:AddCardType( CARD_TYPE_CREATURE )
+    filter:SetZone( ZONE_IN_PLAY )
+    filter:SetHint( HINT_ENEMY_ONLY, EffectController() )
+    </TARGET_DEFINITION>
+    <TARGET_DETERMINATION>
+    return AtLeastOneTargetFromDefinition(0)
+    </TARGET_DETERMINATION>
+    <PLAY_TIME_ACTION target_choosing="1">
+    EffectController():ChooseTarget( 0, "CARD_QUERY_CHOOSE_CREATURE_DEAL_4_DAMAGE", EffectDC():Make_Targets(0) )
+    </PLAY_TIME_ACTION>
+    <RESOLUTION_TIME_ACTION>
+    if Object():GetTargetCard() ~= nil then    Object():GetTargetCard():DealDamage(4, Object())    Object():GetTargetCard():GetController():DealDamage(2, Object())  end
+    </RESOLUTION_TIME_ACTION>
+    <SFX text="TARGET_FLAME_PLAY" />
+  </SPELL_ABILITY>
+  <AI_AVAILABILITY type="in_response" />
+  <AI_AVAILABILITY step="begin_combat" turn="their_turn" />
+  <AI_AVAILABILITY step="main_1" turn="my_turn" />
+  <AI_AVAILABILITY step="declare_attackers" turn="their_turn" />
+  <AI_AVAILABILITY step="declare_blockers" />
+  <AI_AVAILABILITY step="end_of_turn" />
+  <AI_BASE_SCORE score="1350" zone="ZONE_HAND" />
+</CARD_V2>

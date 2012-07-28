@@ -1,0 +1,97 @@
+﻿<?xml version='1.0'?>
+<CARD_V2>
+  <FILENAME text="THIRST_FOR_KNOWLEDGE_888242878" />
+  <CARDNAME text="THIRST_FOR_KNOWLEDGE" />
+  <TITLE>
+     <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Thirst for Knowledge]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Thirst for Knowledge]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Thirst for Knowledge]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Thirst for Knowledge]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Thirst for Knowledge]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[Thirst for Knowledge]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[Thirst for Knowledge]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Thirst for Knowledge]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Thirst for Knowledge]]></LOCALISED_TEXT>
+  </TITLE>
+  <MULTIVERSEID value="888242878" />
+  <ARTID value="888242878" />
+  <ARTIST name="Ben Thompson" />
+  <CASTING_COST cost="{2}{U}" />
+  <FLAVOURTEXT>
+     <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Lymph, the fluid essence of blinkmoths, is prized by wizards for the rush of intellect it provides.]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Lymph, the fluid essence of blinkmoths, is prized by wizards for the rush of intellect it provides.]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Lymph, the fluid essence of blinkmoths, is prized by wizards for the rush of intellect it provides.]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Lymph, the fluid essence of blinkmoths, is prized by wizards for the rush of intellect it provides.]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Lymph, the fluid essence of blinkmoths, is prized by wizards for the rush of intellect it provides.]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[Lymph, the fluid essence of blinkmoths, is prized by wizards for the rush of intellect it provides.]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[Lymph, the fluid essence of blinkmoths, is prized by wizards for the rush of intellect it provides.]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Lymph, the fluid essence of blinkmoths, is prized by wizards for the rush of intellect it provides.]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Lymph, the fluid essence of blinkmoths, is prized by wizards for the rush of intellect it provides.]]></LOCALISED_TEXT>
+  </FLAVOURTEXT>
+  <TYPE metaname="Instant" />
+  <EXPANSION value="DPG" />
+  <RARITY metaname="U" />
+  <SPELL_ABILITY filter_zone="ZONE_IN_PLAY">
+     <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Draw three cards. Then discard two cards unless you discard an artifact card.]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Draw three cards. Then discard two cards unless you discard an artifact card.]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Draw three cards. Then discard two cards unless you discard an artifact card.]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Draw three cards. Then discard two cards unless you discard an artifact card.]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Draw three cards. Then discard two cards unless you discard an artifact card.]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[Draw three cards. Then discard two cards unless you discard an artifact card.]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[Draw three cards. Then discard two cards unless you discard an artifact card.]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Draw three cards. Then discard two cards unless you discard an artifact card.]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Draw three cards. Then discard two cards unless you discard an artifact card.]]></LOCALISED_TEXT>
+    <RESOLUTION_TIME_ACTION>
+      PlayerDrawCards( EffectController(), 3 )
+    </RESOLUTION_TIME_ACTION>
+	<RESOLUTION_TIME_ACTION repeating="1">
+    local n = MTG():GetActionRepCount()  
+    local targetPlayer = EffectController()
+    local filter = Object():GetFilter()
+    local parity = n % 2
+    if targetPlayer ~= nil and n &lt; 4 then
+    	if parity == 0 then
+    		filter:Clear()
+    		filter:NotTargetted()
+    		filter:SetZone( ZONE_HAND )
+    		filter:SetPlayer( targetPlayer )
+            if n == 0 then
+    			targetPlayer:ChooseTarget( NO_VALIDATION, "CARD_QUERY_CHOOSE_CARD_TO_DISCARD", EffectDC():Make_Targets(1) )
+    		else
+    			targetPlayer:ChooseTarget( NO_VALIDATION, "CARD_QUERY_CHOOSE_CARD_TO_DISCARD", EffectDC():Make_Targets(2) )
+    		end
+    		return true
+    	else
+    		local targetDC = nil
+    		if n == 1 then
+    			targetDC = EffectDC():Get_Targets(1)
+    		else
+    			targetDC = EffectDC():Get_Targets(2) 
+    		end
+    		if targetDC ~= nil then
+    			local target_card = targetDC:Get_NthCardPtr(0)
+    			if target_card ~= nil then
+    				if target_card:GetCardType():Test( CARD_TYPE_ARTIFACT ) ~= 0 then
+    					target_card:Discard()
+    					return false
+    				else
+    					target_card:Discard()
+    					return true
+    				end
+    			else
+    				return false
+    			end
+    		else
+    			return false
+    		end
+    	end
+    else
+    	return false
+    end
+    </RESOLUTION_TIME_ACTION>
+  </SPELL_ABILITY>
+  <AI_AVAILABILITY type="in_response" />
+  <AI_AVAILABILITY step="end_of_turn" turn="their_turn" />
+  <AI_AVAILABILITY step="main_1" turn="my_turn" />
+  <AI_AVAILABILITY step="main_2" turn="my_turn" />
+</CARD_V2>

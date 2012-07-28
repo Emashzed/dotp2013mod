@@ -1,0 +1,88 @@
+<?xml version='1.0'?>
+<CARD_V2>
+  <FILENAME text="LOXODON_HIERARCH_277235" />
+  <CARDNAME text="LOXODON_HIERARCH" />
+  <TITLE>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Loxodon Hierarch]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Hiérarche loxodon]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Jerarca loxodón]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Loxodon-Hierarch]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Gerarca Lossodonte]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[ロクソドンの教主]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[록소돈 대제사장]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Локсодонский Иерарх]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Hierarca Loxodonte]]></LOCALISED_TEXT>
+  </TITLE>
+  <MULTIVERSEID value="277235" />
+  <ARTID value="89024" />
+  <ARTIST name="Kev Walker" />
+  <CASTING_COST cost="{2}{G}{W}" />
+  <FLAVOURTEXT>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[“I have lived long, and I remember how this city once was. If my death serves to bring back the Ravnica in my memory, then so be it.”]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[« J’ai longtemps vécu, et je me rappelle comment cette cité était jadis. Si ma mort sert à ramener la Ravnica de ma mémoire, qu’il en soit ainsi. »]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[“He vivido mucho, y recuerdo cómo era la ciudad antes. Si mi muerte sirve para devolver a la vida algo de la Rávnica de mi memoria, que así sea.”]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[„Ich hatte ein langes Leben und erinnere mich noch daran, wie diese Stadt früher war. Falls mein Tod dazu beiträgt, das Ravnica meiner Erinnerung zurückzubringen, möge er kommen.“]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[“Ho vissuto a lungo e ricordo com’era questa città un tempo. Se la mia morte servirà a far risorgere la Ravnica delle mie memorie, così sia.”]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[「わしはずいぶんと齢を重ねたし、この都市がかつてどうだっかも覚えておる。 わしが死ぬことでラヴニカが記憶の頃のようになるなら、そうするとも。」]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[“나는 이 도시가 예전에 어땠는지 기억할 만큼 오래 살았다. 내가 목숨을 바쳐 라브니카가 과거의 영광을 되찾을 수 있다면 이 목숨 기꺼이 바치겠다.”]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[«Я долго жил, и я помню, каким был город когда-то. Если моя смерть поможет вернуть ту старую Равнику, да будет так».]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[“Já vivi por muito tempo e me recordo como a cidade costumava ser. Se a minha morte servir para trazer de volta a Ravnica de minhas lembranças, que assim seja.”]]></LOCALISED_TEXT>
+  </FLAVOURTEXT>
+  <TYPE metaname="Creature" />
+  <SUB_TYPE metaname="Elephant" order_de-DE="0" order_es-ES="1" order_fr-FR="0" order_it-IT="1" order_jp-JA="0" order_ko-KR="0" order_pt-BR="0" order_ru-RU="0" />
+  <SUB_TYPE metaname="Cleric" order_de-DE="1" order_es-ES="0" order_fr-FR="1" order_it-IT="0" order_jp-JA="1" order_ko-KR="1" order_pt-BR="1" order_ru-RU="1" />
+  <EXPANSION value="DPG" />
+  <RARITY metaname="R" />
+  <POWER value="4" />
+  <TOUGHNESS value="4" />
+  <TRIGGERED_ABILITY auto_skip="1" filter_zone="ZONE_IN_PLAY">
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[When Loxodon Hierarch enters the battlefield, you gain 4 life.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Quand le Hiérarche loxodon arrive sur le champ de bataille, vous gagnez 4 points de vie.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Cuando el Jerarca loxodón entre al campo de batalla, ganas 4 vidas.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Wenn der Loxodon-Hierarch ins Spiel kommt, erhältst du 4 Lebenspunkte dazu.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Quando il Gerarca Lossodonte entra nel campo di battaglia, guadagni 4 punti vita.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[ロクソドンの教主が戦場に出たとき、あなたは４点のライフを得る。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[록소돈 대제사장이 전장에 들어올 때, 당신은 생명 4점을 얻는다.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Когда Локсодонский Иерарх выходит на поле битвы, вы получаете 4 жизни.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Quando Hierarca Loxodonte entra no campo de batalha, você ganha 4 pontos de vida.]]></LOCALISED_TEXT>
+    <TRIGGER value="ZONECHANGE_END" simple_qualifier="self" to_zone="ZONE_IN_PLAY" />
+    <RESOLUTION_TIME_ACTION>
+    local player = EffectController()
+    if (player ~= nil) then
+    	player:GainLife(4)
+    end
+    </RESOLUTION_TIME_ACTION>
+  </TRIGGERED_ABILITY>
+  <ACTIVATED_ABILITY hint_name="HINT_REGENERATION" filter_zone="ZONE_IN_PLAY">
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[{G}{W}, Sacrifice Loxodon Hierarch: Regenerate each creature you control.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[{G}{W}, sacrifiez le Hiérarche loxodon: Régénérez chaque créature que vous contrôlez.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[{G}{W}, sacrificar el Jerarca loxodón: Regenera cada criatura que controlas.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[{G}{W}, opfere den Loxodon-Hierarchen: Regeneriere alle Kreaturen, die du kontrollierst.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[{G}{W}, Sacrifica il Gerarca Lossodonte: Rigenera ogni creatura che controlli.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[{G}{W}, ロクソドンの教主を生け贄に捧げる；あなたがコントロールする各クリーチャーを再生する。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[{G}{W}, 록소돈 대제사장을 희생한다: 당신이 조종하는 모든 생물을 재생한다.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[{G}{W}, пожертвуйте Локсодонского Иерарха: регенерируйте каждое существо под вашим контролем.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[{G}{W}, Sacrifique Hierarca Loxodonte: Regenere cada criatura que você controla.]]></LOCALISED_TEXT>
+    <COST type="Mana" cost="{G}{W}" />
+    <COST type="SacrificeSelf" />
+    <FILTER>
+    local filteredCard = FilteredCard()
+    local objectPlayer = EffectController()
+    return (filteredCard:GetCardType():Test( CARD_TYPE_CREATURE ) ~= 0) and
+    (filteredCard:GetPlayer() == objectPlayer) and
+    (filteredCard ~= nil and
+    filteredCard:GetZone() == ZONE_IN_PLAY)
+    </FILTER>
+    <RESOLUTION_TIME_ACTION>
+    if FilteredCard() ~= nil then
+    	FilteredCard():GiveRegeneration()
+    end
+    </RESOLUTION_TIME_ACTION>
+    <AI_AVAILABILITY step="declare_blockers" />
+    <AI_AVAILABILITY type="regeneration" and="1" />
+    <AI_AVAILABILITY type="in_response_dangerous" />
+  </ACTIVATED_ABILITY>
+  <HELP title="MORE_INFO_TITLE_REGENERATE" body="MORE_INFO_BODY_REGENERATE" zone="ZONE_ANY" />
+  <SFX text="COMBAT_WHITE_MAGIC_LARGE_ATTACK" power_boundary_min="4" power_boundary_max="-1" />
+  <SFX text="COMBAT_WHITE_MAGIC_SMALL_ATTACK" power_boundary_min="1" power_boundary_max="3" />
+</CARD_V2>

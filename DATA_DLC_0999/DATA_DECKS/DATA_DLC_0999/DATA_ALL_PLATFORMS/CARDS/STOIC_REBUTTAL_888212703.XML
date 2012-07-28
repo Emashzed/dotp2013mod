@@ -1,0 +1,88 @@
+﻿<?xml version='1.0'?>
+<CARD_V2>
+  <FILENAME text="STOIC_REBUTTAL_888212703" />
+  <CARDNAME text="STOIC_REBUTTAL" />
+  <TITLE>
+     <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Stoic Rebuttal]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Stoic Rebuttal]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Stoic Rebuttal]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Stoic Rebuttal]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Stoic Rebuttal]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[Stoic Rebuttal]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[Stoic Rebuttal]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Stoic Rebuttal]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Stoic Rebuttal]]></LOCALISED_TEXT>
+  </TITLE>
+  <MULTIVERSEID value="888212703" />
+  <ARTID value="888212703" />
+  <ARTIST name="Chris Rahn" />
+  <CASTING_COST cost="{1}{U}{U}" />
+  <FLAVOURTEXT>
+     <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Obsessed with the pursuit of knowledge above all else, vedalken can appear to be cold and emotionless.]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Obsessed with the pursuit of knowledge above all else, vedalken can appear to be cold and emotionless.]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Obsessed with the pursuit of knowledge above all else, vedalken can appear to be cold and emotionless.]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Obsessed with the pursuit of knowledge above all else, vedalken can appear to be cold and emotionless.]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Obsessed with the pursuit of knowledge above all else, vedalken can appear to be cold and emotionless.]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[Obsessed with the pursuit of knowledge above all else, vedalken can appear to be cold and emotionless.]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[Obsessed with the pursuit of knowledge above all else, vedalken can appear to be cold and emotionless.]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Obsessed with the pursuit of knowledge above all else, vedalken can appear to be cold and emotionless.]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Obsessed with the pursuit of knowledge above all else, vedalken can appear to be cold and emotionless.]]></LOCALISED_TEXT>
+  </FLAVOURTEXT>
+  <TYPE metaname="Instant" />
+  <EXPANSION value="DPG" />
+  <RARITY metaname="C" />
+  <STATIC_ABILITY filter_zone="ZONE_IN_PLAY" active_zone="ZONE_HAND">
+     <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[|Metalcraft| — Stoic Rebuttal costs {1} less to cast if you control three or more artifacts.]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[|Metalcraft| — Stoic Rebuttal costs {1} less to cast if you control three or more artifacts.]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[|Metalcraft| — Stoic Rebuttal costs {1} less to cast if you control three or more artifacts.]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[|Metalcraft| — Stoic Rebuttal costs {1} less to cast if you control three or more artifacts.]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[|Metalcraft| — Stoic Rebuttal costs {1} less to cast if you control three or more artifacts.]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[|Metalcraft| — Stoic Rebuttal costs {1} less to cast if you control three or more artifacts.]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[|Metalcraft| — Stoic Rebuttal costs {1} less to cast if you control three or more artifacts.]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[|Metalcraft| — Stoic Rebuttal costs {1} less to cast if you control three or more artifacts.]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[|Metalcraft| — Stoic Rebuttal costs {1} less to cast if you control three or more artifacts.]]></LOCALISED_TEXT>
+    <CONTINUOUS_ACTION layer="8">
+	local total = 0
+    local filter = Object():GetFilter()
+    filter:Clear()
+    filter:SetZone( ZONE_IN_PLAY )
+    filter:AddCardType( CARD_TYPE_ARTIFACT )
+    filter:SetController( EffectController() )
+    filter:NotTargetted()
+    total = filter:CountStopAt( 3 )
+    if total &gt; 2 then
+		Object():DecreaseCost(1)
+	end
+    </CONTINUOUS_ACTION>
+  </STATIC_ABILITY>
+  <SPELL_ABILITY filter_zone="ZONE_IN_PLAY">
+     <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Counter target spell.]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Counter target spell.]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Counter target spell.]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Counter target spell.]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Counter target spell.]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[Counter target spell.]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[Counter target spell.]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Counter target spell.]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Counter target spell.]]></LOCALISED_TEXT>
+    <TARGET_DEFINITION id="0">
+    local filter = Object():GetFilter()
+    filter:Clear()
+    filter:SetZone( ZONE_STACK )
+    filter:SetStackObjectType( STACK_OBJECT_CARD )
+    filter:SetHint( HINT_ENEMY_ONLY, EffectController() )
+    </TARGET_DEFINITION>
+    <TARGET_DETERMINATION>
+    return AtLeastOneTargetFromDefinition(0)
+    </TARGET_DETERMINATION>
+    <PLAY_TIME_ACTION target_choosing="1">
+    EffectController():ChooseTarget( 0, "CARD_QUERY_CHOOSE_SPELL_TO_COUNTER", EffectDC():Make_Targets(0) )
+    </PLAY_TIME_ACTION>
+    <RESOLUTION_TIME_ACTION>
+    if EffectSource():GetTargetCard() ~= nil then  
+    	EffectSource():GetTargetCard():CounterSpell()  
+    end
+    </RESOLUTION_TIME_ACTION>
+  </SPELL_ABILITY>
+  <AI_BASE_SCORE score="900" zone="ZONE_HAND" />
+</CARD_V2>

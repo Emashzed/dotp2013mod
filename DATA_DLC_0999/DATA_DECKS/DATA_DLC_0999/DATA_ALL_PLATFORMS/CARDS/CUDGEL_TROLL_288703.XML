@@ -1,0 +1,49 @@
+<?xml version='1.0'?>
+<CARD_V2>
+  <FILENAME text="CUDGEL_TROLL_288703" />
+  <CARDNAME text="CUDGEL_TROLL" />
+  <TITLE>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Cudgel Troll]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Troll à la trique]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Trol del garrote]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Knüppel-Troll]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Troll col Randello]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[棍棒のトロール]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[곤봉 트롤]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Тролль с Дубиной]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Trol da Clava]]></LOCALISED_TEXT>
+  </TITLE>
+  <MULTIVERSEID value="288703" />
+  <ARTID value="121570" />
+  <ARTIST name="Jesper Ejsing" />
+  <CASTING_COST cost="{2}{G}{G}" />
+  <TYPE metaname="Creature" />
+  <SUB_TYPE metaname="Troll" order_de-DE="0" order_es-ES="0" order_fr-FR="0" order_it-IT="0" order_jp-JA="0" order_ko-KR="0" order_pt-BR="0" order_ru-RU="0" />
+  <EXPANSION value="DPG" />
+  <RARITY metaname="U" />
+  <POWER value="4" />
+  <TOUGHNESS value="3" />
+  <ACTIVATED_ABILITY immunity="1" hint_name="HINT_REGENERATION">
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[{G}: Regenerate Cudgel Troll.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[{G}: Régénérez le Troll à la trique.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[{G}: Regenera al Trol del garrote.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[{G}: Regeneriere den Knüppel-Troll.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[{G}: Rigenera il Troll col Randello.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[{G}：棍棒のトロールを再生する。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[{G}: 곤봉 트롤을 재생한다.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[{G}: регенерируйте Тролля с Дубиной.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[{G}: Regenere Trol da Clava.]]></LOCALISED_TEXT>
+    <COST type="Mana" cost="{G}" />
+    <RESOLUTION_TIME_ACTION>
+    if EffectSource() ~= nil then
+    	EffectSource():GiveRegeneration()
+    end
+    </RESOLUTION_TIME_ACTION>
+    <AI_AVAILABILITY type="regeneration" and="1" />
+    <AI_AVAILABILITY step="declare_blockers" blocking_or_blocked="1" />
+    <AI_AVAILABILITY type="in_response_dangerous" />
+  </ACTIVATED_ABILITY>
+  <HELP title="MORE_INFO_TITLE_REGENERATE" body="MORE_INFO_BODY_REGENERATE" zone="ZONE_ANY" />
+  <SFX text="COMBAT_BLUNT_LARGE_ATTACK" power_boundary_min="4" power_boundary_max="-1" />
+  <SFX text="COMBAT_BLUNT_SMALL_ATTACK" power_boundary_min="1" power_boundary_max="3" />
+</CARD_V2>

@@ -1,0 +1,126 @@
+<?xml version='1.0'?>
+<CARD_V2>
+  <FILENAME text="SEWER_NEMESIS_281237" />
+  <CARDNAME text="SEWER_NEMESIS" />
+  <TITLE>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Sewer Nemesis]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Némésis des égouts]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Némesis de las alcantarillas]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Verderben aus der Kanalisation]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Nemesi delle Fogne]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[下水の宿敵]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[하수도 요괴]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Враг из Канализации]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Nêmesis dos Esgotos]]></LOCALISED_TEXT>
+  </TITLE>
+  <MULTIVERSEID value="281237" />
+  <ARTID value="98658" />
+  <ARTIST name="Nils Hamm" />
+  <CASTING_COST cost="{3}{B}" />
+  <TYPE metaname="Creature" />
+  <SUB_TYPE metaname="Horror" order_de-DE="0" order_es-ES="0" order_fr-FR="0" order_it-IT="0" order_jp-JA="0" order_ko-KR="0" order_pt-BR="0" order_ru-RU="0" />
+  <EXPANSION value="DPG" />
+  <RARITY metaname="R" />
+  <POWER value="*" />
+  <TOUGHNESS value="*" />
+  <TRIGGERED_ABILITY pre_trigger="1" replacement_query="1" active_zone="ZONE_TRANSITION">
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[As Sewer Nemesis enters the battlefield, choose a player.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Au moment où la Némésis des égouts arrive sur le champ de bataille, choisissez un joueur.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[En cuanto la Némesis de las alcantarillas entre al campo de batalla, elige un jugador.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Sowie das Verderben aus der Kanalisation ins Spiel kommt, bestimme einen Spieler.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Mentre la Nemesi delle Fogne entra nel campo di battaglia, scegli un giocatore.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[下水の宿敵が戦場に出るに際し、プレイヤーを１人選ぶ。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[하수도 요괴가 전장에 들어올 때, 플레이어 한 명을 정한다.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[При выходе Врага из Канализации на поле битвы выберите игрока.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Conforme Nêmesis dos Esgotos entra no campo de batalha, escolha um jogador.]]></LOCALISED_TEXT>
+    <TRIGGER value="ZONECHANGE_TRANSITION" simple_qualifier="self" to_zone="ZONE_IN_PLAY" />
+    <TARGET_DEFINITION id="0">
+    local filter = Object():GetFilter()
+    filter:Clear()
+    filter:SetFilterType( FILTER_TYPE_PLAYERS )
+    filter:SetHint( HINT_ENEMY, EffectController() )
+    filter:NotTargetted()
+    </TARGET_DEFINITION>
+    <TARGET_DETERMINATION>
+    return AtLeastOneTargetFromDefinition(0)
+    </TARGET_DETERMINATION>
+    <PLAY_TIME_ACTION target_choosing="1">
+    EffectController():ChooseTarget( 0, "CARD_QUERY_CHOOSE_PLAYER", EffectDC():Make_Targets(0) )
+    </PLAY_TIME_ACTION>
+    <RESOLUTION_TIME_ACTION>
+    local player = EffectDC():Get_Targets(0):Get_PlayerPtr(0)    
+    local delayDC = EffectDC():Make_Chest(1)
+    delayDC:Set_PlayerPtr(0, player)
+            
+    MTG():CreateDelayedTrigger(1, delayDC)
+    </RESOLUTION_TIME_ACTION>
+    <RESOLUTION_TIME_ACTION>
+    EffectDC():Protect_CardPtr( COMPARTMENT_ID_EFFECT_SOURCE )
+    </RESOLUTION_TIME_ACTION>
+    <CONTINUOUS_ACTION layer="0">
+    local player = ObjectDC():Get_PlayerPtr(0)
+    if player ~= nil then
+    	player:AddBadge(PLAYER_BADGE_ICON_CHOSEN_PLAYER, "PLAYER_CHOSEN_ICON")
+    end
+    </CONTINUOUS_ACTION>
+    <DURATION>
+    return (EffectSource() == nil)
+    </DURATION>
+  </TRIGGERED_ABILITY>
+  <STATIC_ABILITY>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Sewer Nemesis’s power and toughness are each equal to the number of cards in the chosen player’s graveyard.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[La force et l’endurance de la Némésis des égouts sont chacune égales au nombre de cartes dans le cimetière du joueur choisi.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Tanto la fuerza como la resistencia de la Némesis de las alcantarillas son iguales al número de cartas en el cementerio del jugador elegido.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Stärke und Widerstandskraft des Verderbens aus der Kanalisation sind gleich der Anzahl der Karten im Friedhof des bestimmten Spielers.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[La forza e la costituzione della Nemesi delle Fogne sono pari al numero di carte nel cimitero del giocatore scelto.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[下水の宿敵のパワーとタフネスは、それぞれその選ばれたプレイヤーの墓地にあるカードの総数に等しい。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[하수도 요괴의 공격력과 방어력은 각각 당신이 정한 플레이어의 무덤에 있는 카드의 개수와 같다.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Сила и выносливость Врага из Канализации равны количеству карт на кладбище выбранного игрока.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[O poder e a resistência de Nêmesis dos Esgotos são ambos iguais ao número de cards no cemitério do jogador escolhido.]]></LOCALISED_TEXT>
+    <CONTINUOUS_ACTION layer="7A">
+    if EffectSource() ~= nil then
+    	local player = ObjectDC():Get_PlayerPtr(0)
+    	if player ~= nil then
+    		local total = player:Graveyard_Count()
+    		local characteristics = EffectSource():GetCurrentCharacteristics()  
+    		characteristics:Power_Set(total)  
+    		characteristics:Toughness_Set(total)
+    	else
+    		local characteristics = EffectSource():GetCurrentCharacteristics()  
+    		characteristics:Power_Set(0)  
+    		characteristics:Toughness_Set(0)
+    	end
+    end
+    </CONTINUOUS_ACTION>
+  </STATIC_ABILITY>
+  <TRIGGERED_ABILITY>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Whenever the chosen player casts a spell, that player puts the top card of his or her library into his or her graveyard.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[À chaque fois que le joueur choisi lance un sort, ce joueur met la carte du dessus de sa bibliothèque dans son cimetière.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Siempre que el jugador elegido lance un hechizo, ese jugador pone la primera carta de su biblioteca en su cementerio.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Immer wenn der bestimmte Spieler einen Zauberspruch wirkt, legt dieser Spieler die oberste Karte seiner Bibliothek auf seinen Friedhof.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Ogniqualvolta il giocatore scelto lancia una magia, mette nel suo cimitero la prima carta del suo grimorio.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[その選ばれたプレイヤーが呪文を１つ唱えるたび、そのプレイヤーは自分のライブラリーの一番上のカードを自分の墓地に置く。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[당신이 정한 플레이어가 주문을 발동할 때마다, 그 플레이어는 자신의 서고 맨 위의 카드를 자신의 무덤에 넣는다.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Каждый раз, когда выбранный игрок разыгрывает заклинание, тот игрок кладет верхнюю карту своей библиотеки на свое кладбище.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Toda vez que o jogador alvo conjura uma mágica, aquele jogador coloca o card do topo do grimório dele no próprio cemitério.]]></LOCALISED_TEXT>
+    <TRIGGER value="SPELL_PLAYED">
+    return (TriggerPlayer() == ObjectDC():Get_PlayerPtr(0)) 
+    </TRIGGER>
+    <RESOLUTION_TIME_ACTION>
+    local player = ObjectDC():Get_PlayerPtr(0)
+    if ( player ~= nil ) then
+    	MillCards( player, 1 )
+    end
+    </RESOLUTION_TIME_ACTION>
+  </TRIGGERED_ABILITY>
+  <TRIGGERED_ABILITY internal="1" resource_id="1" active_zone="ZONE_IN_PLAY">
+    <TRIGGER value="ZONECHANGE_END" simple_qualifier="self" to_zone="ZONE_IN_PLAY" />
+    <CLEANUP fire_once="1" />
+    <RESOLUTION_TIME_ACTION>
+    ObjectDC():Set_PlayerPtr(0, EffectDC():Get_PlayerPtr(0))
+    </RESOLUTION_TIME_ACTION>
+  </TRIGGERED_ABILITY>
+  <SFX text="COMBAT_BITE_LARGE_ATTACK" power_boundary_min="4" power_boundary_max="-1" />
+  <SFX text="COMBAT_BITE_SMALL_ATTACK" power_boundary_min="1" power_boundary_max="3" />
+  <AI_BASE_SCORE score="600" zone="ZONE_IN_PLAY" />
+</CARD_V2>

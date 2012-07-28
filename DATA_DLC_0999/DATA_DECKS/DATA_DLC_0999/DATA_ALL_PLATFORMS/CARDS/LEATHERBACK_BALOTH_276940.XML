@@ -1,0 +1,38 @@
+<?xml version='1.0'?>
+<CARD_V2>
+  <FILENAME text="LEATHERBACK_BALOTH_276940" />
+  <CARDNAME text="LEATHERBACK_BALOTH" />
+  <TITLE>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Leatherback Baloth]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Baloth luth]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Báloth lomo de cuero]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Lederrückenbaloth]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Baloth Dorso di Cuoio]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[皮背のベイロス]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[장수거북 발로스]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Кожистый Балот]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Baloth Dorso-de-Couro]]></LOCALISED_TEXT>
+  </TITLE>
+  <MULTIVERSEID value="276940" />
+  <ARTID value="126464" />
+  <ARTIST name="Dave Kendall" />
+  <CASTING_COST cost="{G}{G}{G}" />
+  <FLAVOURTEXT>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Heavy enough to withstand the Roil, leatherback skeletons are havens for travelers in storms and landshifts.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Assez denses pour résister au Roulis, les squelettes des luths sont une aubaine pour les voyageurs pris dans les tempêtes et les glissements de terre.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Suficientemente pesados como para soportar la Turbulencia, los esqueletos de lomos de cuero son refugios para viajeros durante las tormentas.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Da sie schwer genug sind, um der Turbulenz zu widerstehen, bieten die Skelette der Lederrücken Unterschlupf für Reisende, wenn Stürme und Landverschiebungen auftreten.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Robusti a sufficienza per resistere al Torbido, gli scheletri dei dorsi di cuoio sono una manna dal cielo per tutti i viaggiatori che si trovano nel mezzo di una tempesta o di un terremoto.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[乱動に耐えるだけの重さを持つ皮背の骨は、嵐や地すべりのときの旅人の避難場所になる。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[장수거북 발로스의 뼈는 소용돌이에도 버틸 만큼 육중하다. 따라서 여행자들은 폭풍이 몰아치거나 갑작스럽게 지면이 변할 때면 발로스의 뼈대를 피난처로 삼는다.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Достаточно тяжелые для того, чтобы выстоять Великий Вал, скелеты кожистых балотов служат путешественникам надежным пристанищем во время штормов и землетрясений.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Suficientemente robustos para resistir ao Turbilhão, os esqueletos dos dorso-de-couro servem de refúgio aos viajantes durante tempestades e transformações de terreno.]]></LOCALISED_TEXT>
+  </FLAVOURTEXT>
+  <TYPE metaname="Creature" />
+  <SUB_TYPE metaname="Beast" order_de-DE="0" order_es-ES="0" order_fr-FR="0" order_it-IT="0" order_jp-JA="0" order_ko-KR="0" order_pt-BR="0" order_ru-RU="0" />
+  <EXPANSION value="DPG" />
+  <RARITY metaname="U" />
+  <POWER value="4" />
+  <TOUGHNESS value="5" />  <SFX text="COMBAT_BITE_LARGE_ATTACK" power_boundary_min="4" power_boundary_max="-1" />
+  <SFX text="COMBAT_BITE_SMALL_ATTACK" power_boundary_min="1" power_boundary_max="3" />
+</CARD_V2>

@@ -1,0 +1,115 @@
+﻿<?xml version='1.0'?>
+<CARD_V2>
+  <FILENAME text="DISPENSE_JUSTICE_888209015" />
+  <CARDNAME text="DISPENSE_JUSTICE" />
+  <TITLE>
+     <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Dispense Justice]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Dispense Justice]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Dispense Justice]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Dispense Justice]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Dispense Justice]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[Dispense Justice]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[Dispense Justice]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Dispense Justice]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Dispense Justice]]></LOCALISED_TEXT>
+  </TITLE>
+  <MULTIVERSEID value="888209015" />
+  <ARTID value="888209015" />
+  <ARTIST name="Austin Hsu" />
+  <CASTING_COST cost="{2}{W}" />
+  <FLAVOURTEXT>
+     <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[The Accorders never strike first, but they always strike back.]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[The Accorders never strike first, but they always strike back.]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[The Accorders never strike first, but they always strike back.]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[The Accorders never strike first, but they always strike back.]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[The Accorders never strike first, but they always strike back.]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[The Accorders never strike first, but they always strike back.]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[The Accorders never strike first, but they always strike back.]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[The Accorders never strike first, but they always strike back.]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[The Accorders never strike first, but they always strike back.]]></LOCALISED_TEXT>
+  </FLAVOURTEXT>
+  <TYPE metaname="Instant" />
+  <EXPANSION value="DPG" />
+  <RARITY metaname="U" />
+  <SPELL_ABILITY dangerous="1" filter_zone="ZONE_IN_PLAY">
+     <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Target player sacrifices an attacking creature.]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Target player sacrifices an attacking creature.]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Target player sacrifices an attacking creature.]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Target player sacrifices an attacking creature.]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Target player sacrifices an attacking creature.]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[Target player sacrifices an attacking creature.]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[Target player sacrifices an attacking creature.]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Target player sacrifices an attacking creature.]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Target player sacrifices an attacking creature.]]></LOCALISED_TEXT>
+	<TARGET_DEFINITION id="0">
+    local filter = Object():GetFilter()
+    filter:Clear()
+    filter:SetFilterType( FILTER_TYPE_PLAYERS )
+    filter:SetHint( HINT_ENEMY_ONLY, EffectController() )
+    </TARGET_DEFINITION>
+    <TARGET_DETERMINATION>
+    return AtLeastOneTargetFromDefinition(0)
+    </TARGET_DETERMINATION>
+    <PLAY_TIME_ACTION target_choosing="1">
+    EffectController():ChooseTarget( 0, "CARD_QUERY_CHOOSE_PLAYER_TO_SACRIFICE_ATTACKING_CREATURE", EffectDC():Make_Targets(0) )
+    </PLAY_TIME_ACTION>
+	<RESOLUTION_TIME_ACTION>
+	local total = 0
+    local filter = Object():GetFilter()
+    filter:Clear()
+    filter:SetZone( ZONE_IN_PLAY )
+    filter:AddCardType( CARD_TYPE_ARTIFACT )
+    filter:SetController( EffectController() )
+    filter:NotTargetted()
+    total = filter:CountStopAt( 3 )
+    local player = EffectDC():Get_Targets(0):Get_PlayerPtr(0)
+	if (player ~= nil) then
+		filter:Clear()
+		filter:SetPlayer( player )
+		filter:SetZone( ZONE_IN_PLAY )
+		filter:AddCardType( CARD_TYPE_CREATURE )
+		filter:AddExtra( FILTER_EXTRA_CREATURE_ATTACKING )
+		filter:NotTargetted()
+		filter:SetHint( HINT_ENEMY, player )
+		if total == 3 then 
+			player:SetTargetCount(2)
+			player:SetTargetPrompt( 0, "CARD_QUERY_CHOOSE_CREATURE_TO_SACRIFICE" )
+			player:SetTargetPrompt( 1, "CARD_QUERY_CHOOSE_ANOTHER_CREATURE_TO_SACRIFICE" )
+			player:ChooseTargets( NO_VALIDATION, EffectDC():Make_Targets(1) )
+		else
+			player:SetTargetCount(1)
+			player:SetTargetPrompt( 0, "CARD_QUERY_CHOOSE_CREATURE_TO_SACRIFICE" )
+			player:ChooseTargets( NO_VALIDATION, EffectDC():Make_Targets(1) )
+		end
+	end
+    </RESOLUTION_TIME_ACTION>
+    <RESOLUTION_TIME_ACTION>
+	local target_array = {}    
+    for i=0,1 do    
+    	target_array[i] = EffectDC():Get_Targets(1):Get_NthCardPtr(i)  
+    end    
+    for i=0,1 do    
+    	if target_array[i] ~= nil then
+			local player = target_array[i]:GetPlayer()
+    		target_array[i]:Sacrifice(player) 
+    	end  
+    end
+    </RESOLUTION_TIME_ACTION>
+  </SPELL_ABILITY>
+  <SPELL_ABILITY>
+     <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[|Metalcraft| — That player sacrifices two attacking creatures instead if you control three or more artifacts.]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[|Metalcraft| — That player sacrifices two attacking creatures instead if you control three or more artifacts.]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[|Metalcraft| — That player sacrifices two attacking creatures instead if you control three or more artifacts.]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[|Metalcraft| — That player sacrifices two attacking creatures instead if you control three or more artifacts.]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[|Metalcraft| — That player sacrifices two attacking creatures instead if you control three or more artifacts.]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[|Metalcraft| — That player sacrifices two attacking creatures instead if you control three or more artifacts.]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[|Metalcraft| — That player sacrifices two attacking creatures instead if you control three or more artifacts.]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[|Metalcraft| — That player sacrifices two attacking creatures instead if you control three or more artifacts.]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[|Metalcraft| — That player sacrifices two attacking creatures instead if you control three or more artifacts.]]></LOCALISED_TEXT>
+  </SPELL_ABILITY>
+  <AI_AVAILABILITY type="in_response" />
+  <AI_AVAILABILITY step="begin_combat" turn="their_turn" />
+  <AI_AVAILABILITY step="declare_attackers" turn="their_turn" />
+  <AI_AVAILABILITY step="declare_blockers" />
+  <AI_BASE_SCORE score="1200" zone="ZONE_HAND" />
+</CARD_V2>

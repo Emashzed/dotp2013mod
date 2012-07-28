@@ -1,0 +1,88 @@
+<?xml version='1.0'?>
+<CARD_V2>
+  <FILENAME text="MANA_LEAK_277114" />
+  <CARDNAME text="MANA_LEAK" />
+  <TITLE>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Mana Leak]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Fuite de mana]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Fuga de maná]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Manaleck]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Indebolimento Magico]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[マナ漏出]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[마나 유실]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Утечка Маны]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Fuga de Mana]]></LOCALISED_TEXT>
+  </TITLE>
+  <MULTIVERSEID value="277114" />
+  <ARTID value="129076" />
+  <ARTIST name="Howard Lyon" />
+  <CASTING_COST cost="{1}{U}" />
+  <FLAVOURTEXT>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[The fatal flaw in every plan is the assumption that you know more than your enemy.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[C’est toujours une erreur de croire que l’on en sait plus que son ennemi.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[El error fatídico de todos los planes es la suposición de que sabemos más que nuestro enemigo.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Viele Pläne scheitern an der Annahme, man wüsste mehr als der Gegner.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Il punto debole di qualsiasi piano è dare per scontato che tu ne sappia di più del tuo nemico.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[どんな計画でも、敵よりも自分の方がよく知っていると思うことが致命的な欠陥となる。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[모든 계획에는 치명적인 결함이 존재한다. 그것은 바로 자신이 상대보다 많은 것을 알고 있다는 가정이다.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Роковая ошибка в каждом плане — это уверенность в том, что вы знаете больше, чем ваш враг.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[O ponto fraco de qualquer plano é a suposição de que você sabe mais do que seu inimigo.]]></LOCALISED_TEXT>
+  </FLAVOURTEXT>
+  <TYPE metaname="Instant" />
+  <EXPANSION value="DPG" />
+  <RARITY metaname="C" />
+  <SPELL_ABILITY filter_zone="ZONE_IN_PLAY">
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Counter target spell unless its controller pays {3}.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Contrecarrez le sort ciblé à moins que son contrôleur ne paie {3}.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Contrarresta el hechizo objetivo a menos que su controlador pague {3}.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Neutralisiere einen Zauberspruch deiner Wahl, falls sein Beherrscher nicht {3} bezahlt.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Neutralizza una magia bersaglio a meno che il suo controllore non paghi {3}.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[呪文１つを対象とする。それのコントローラーが{3}を支払わないかぎり、それを打ち消す。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[주문 한 개를 목표로 정한다. 그 주문의 조종자가 {3}를 지불하지 않으면 그 주문을 무효화한다.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Отмените целевое заклинание, если только контролирующий его игрок не заплатит {3}.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Anule a mágica alvo, a menos que seu controlador pague {3}.]]></LOCALISED_TEXT>
+    <TARGET_DEFINITION id="0">
+    local filter = Object():GetFilter()
+    filter:Clear()
+    filter:SetZone( ZONE_STACK )
+    filter:SetStackObjectType( STACK_OBJECT_CARD )
+    filter:SetHint( HINT_ENEMY_ONLY, EffectController() )
+    </TARGET_DEFINITION>
+    <TARGET_DETERMINATION>
+    return AtLeastOneTargetFromDefinition(0)
+    </TARGET_DETERMINATION>
+    <PLAY_TIME_ACTION target_choosing="1">
+    EffectController():ChooseTarget( 0, "CARD_QUERY_CHOOSE_SPELL_TO_COUNTER", EffectDC():Make_Targets(0) )
+    </PLAY_TIME_ACTION>
+    <RESOLUTION_TIME_ACTION>
+    local target_spell = EffectDC():Get_Targets(0):Get_CardPtr(0)
+    local player = target_spell:GetPlayer()
+    if player ~= nil then
+    	if player:CanAfford("{3}") == 1 then
+    		player:BeginNewMultipleChoice()   
+    		player:AddMultipleChoiceAnswer( "CARD_QUERY_OPTION_PAY_3" )   
+    		player:AddMultipleChoiceAnswer( "CARD_QUERY_OPTION_IS_COUNTERED" )   
+    		player:AskMultipleChoiceQuestion( "CARD_QUERY_MC_MANA_LEAK" )
+    	end
+    end
+    </RESOLUTION_TIME_ACTION>
+    <RESOLUTION_TIME_ACTION>
+    local target_spell = EffectDC():Get_Targets(0):Get_CardPtr(0)
+    local player = target_spell:GetPlayer()
+    local decision = Object():GetMultipleChoiceResult()
+    if player ~= nil then
+    if player:CanAfford("{3}") == 1 then
+      if decision ~= 1 then
+        player:TapLand("{3}")
+      else
+    	target_spell:CounterSpell()
+      end
+      
+    else
+      target_spell:CounterSpell()
+    end
+    end
+    </RESOLUTION_TIME_ACTION>
+  </SPELL_ABILITY>
+  <AI_BASE_SCORE score="750" zone="ZONE_HAND" />
+</CARD_V2>

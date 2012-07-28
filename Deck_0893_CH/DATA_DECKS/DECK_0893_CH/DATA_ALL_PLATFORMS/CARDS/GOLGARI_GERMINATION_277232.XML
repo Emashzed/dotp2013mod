@@ -1,0 +1,56 @@
+<?xml version='1.0'?>
+<CARD_V2>
+  <FILENAME text="GOLGARI_GERMINATION_277232" />
+  <CARDNAME text="GOLGARI_GERMINATION" />
+  <TITLE>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Golgari Germination]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Germination golgari]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Germinación golgari]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Golgari-Keimung]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Germinazione Golgari]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[ゴルガリの発芽]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[골가리 발아]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Проращивание Голгари]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Germinação Golgari]]></LOCALISED_TEXT>
+  </TITLE>
+  <MULTIVERSEID value="277232" />
+  <ARTID value="89110" />
+  <ARTIST name="Thomas M. Baxa" />
+  <CASTING_COST cost="{1}{B}{G}" />
+  <FLAVOURTEXT>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[The Golgari don’t bury their dead. They plant them.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Les Golgari n’enterrent pas leurs morts. Ils les plantent.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Los golgari no entierran a sus muertos. Los plantan.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Die Golgari vergraben ihren Toten nicht. Sie pflanzen sie ein.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[I Golgari non seppelliscono i loro morti. Li piantano.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[ゴルガリは死体を埋葬しない。 植えるのだ。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[골가리 길드는 시체를 매장하지 않는다. 골가리 시체는 땅에 심어진다.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Голгари не хоронят своих мертвых. Они сажают их, как растения.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Os Golgari não enterram seus mortos. Eles os plantam.]]></LOCALISED_TEXT>
+  </FLAVOURTEXT>
+  <TYPE metaname="Enchantment" />
+  <EXPANSION value="DPG" />
+  <RARITY metaname="U" />
+  <TRIGGERED_ABILITY auto_skip="1" filter_zone="ZONE_IN_PLAY">
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Whenever a nontoken creature you control dies, put a 1/1 green Saproling creature token onto the battlefield.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[À chaque fois qu’une créature non-jeton que vous contrôlez meurt, mettez sur le champ de bataille un jeton de créature 1/1 verte Saprobionte.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Siempre que una criatura que controles que no sea ficha muera, pon en el campo de batalla una ficha de criatura Saprolín verde 1/1.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Immer wenn eine Nichtspielsteinkreatur stirbt, die du kontrollierst, bringe einen 1/1 grünen Saproling-Kreaturenspielstein ins Spiel.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Ogniqualvolta una creatura non pedina che controlli muore, metti sul campo di battaglia una pedina creatura Saprolingio 1/1 verde.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[あなたがコントロールするトークンでないクリーチャーが１体死亡するたび、緑の１/１の苗木・クリーチャー・トークンを１体戦場に出す。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[당신이 조종하는 생물 중 토큰이 아닌 생물이 죽을 때마다, 1/1 녹색 묘목 생물 토큰 한 개를 전장에 놓는다.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Каждый раз, когда не являющееся фишкой существо под вашим контролем умирает, положите на поле битвы одну фишку существа 1/1 зеленый Сапролинг.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Toda vez que uma criatura que não seja ficha que você controla morrer, coloque no campo de batalha uma ficha de criatura verde 1/1 do tipo Saprófita com voar.]]></LOCALISED_TEXT>
+    <TRIGGER value="ZONECHANGE_BEGIN" to_zone="ZONE_GRAVEYARD" from_zone="ZONE_IN_PLAY">
+    return (TriggerObject():GetCardType():Test( CARD_TYPE_CREATURE ) ~= 0 and TriggerObject():IsToken() == 0 and TriggerObject():GetPlayer() == EffectController())
+    </TRIGGER>
+    <RESOLUTION_TIME_ACTION>
+    local token_count = 1
+    if token_count &gt; 0 then
+    	MTG():PutTokensIntoPlay( "TOKEN_SAPROLING_1_1_277461", token_count, EffectController() )
+    end
+    </RESOLUTION_TIME_ACTION>
+  </TRIGGERED_ABILITY>
+  <TOKEN_REGISTRATION reservation="1" type="TOKEN_SAPROLING_1_1_277461" />
+  <AI_BASE_SCORE score="450" zone="ZONE_IN_PLAY" />
+</CARD_V2>

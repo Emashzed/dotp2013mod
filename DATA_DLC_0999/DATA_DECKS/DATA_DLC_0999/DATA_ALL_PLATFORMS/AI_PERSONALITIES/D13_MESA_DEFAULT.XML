@@ -1,0 +1,8 @@
+<CONFIG>
+  <PLANESWALKER_NAME_TAG string="PLAYER_NAME_MESA" />
+  <LARGE_AVATAR_IMAGE string="8880001" />
+  <MEDIUM_AVATAR_IMAGE string="PW_mesa" />
+  <SMALL_AVATAR_IMAGE string="PW_mesa" />
+  <SMALL_AVATAR_IMAGE_LOCKED string="PW_mesa_locked" />
+  <MUSIC string="RAVNICA_MIX" />
+</CONFIG>

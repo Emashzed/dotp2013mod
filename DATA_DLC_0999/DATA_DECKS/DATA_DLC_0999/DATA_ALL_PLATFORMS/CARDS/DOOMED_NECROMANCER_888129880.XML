@@ -1,0 +1,81 @@
+﻿<?xml version='1.0'?>
+<CARD_V2>
+  <FILENAME text="DOOMED_NECROMANCER_888129880" />
+  <CARDNAME text="DOOMED_NECROMANCER" />
+  <TITLE>
+     <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Doomed Necromancer]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Doomed Necromancer]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Doomed Necromancer]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Doomed Necromancer]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Doomed Necromancer]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[Doomed Necromancer]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[Doomed Necromancer]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Doomed Necromancer]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Doomed Necromancer]]></LOCALISED_TEXT>
+  </TITLE>
+  <MULTIVERSEID value="888129880" />
+  <ARTID value="888129880" />
+  <ARTIST name="Volkan Baga" />
+  <CASTING_COST cost="{2}{B}" />
+  <FLAVOURTEXT>
+     <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Many necromancers share the same last words—the ones that conclude the undeath ritual.]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Many necromancers share the same last words—the ones that conclude the undeath ritual.]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Many necromancers share the same last words—the ones that conclude the undeath ritual.]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Many necromancers share the same last words—the ones that conclude the undeath ritual.]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Many necromancers share the same last words—the ones that conclude the undeath ritual.]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[Many necromancers share the same last words—the ones that conclude the undeath ritual.]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[Many necromancers share the same last words—the ones that conclude the undeath ritual.]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Many necromancers share the same last words—the ones that conclude the undeath ritual.]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Many necromancers share the same last words—the ones that conclude the undeath ritual.]]></LOCALISED_TEXT>
+  </FLAVOURTEXT>
+  <TYPE metaname="Creature" />
+  <SUB_TYPE metaname="Human" order_de-DE="0" order_es-ES="0" order_fr-FR="0" order_it-IT="0" order_jp-JA="0" order_ko-KR="0" order_pt-BR="0" order_ru-RU="0" />
+  <SUB_TYPE metaname="Cleric" order_de-DE="0" order_es-ES="0" order_fr-FR="0" order_it-IT="0" order_jp-JA="0" order_ko-KR="0" order_pt-BR="0" order_ru-RU="0" />
+  <SUB_TYPE metaname="Mercenary" order_de-DE="0" order_es-ES="0" order_fr-FR="0" order_it-IT="0" order_jp-JA="0" order_ko-KR="0" order_pt-BR="0" order_ru-RU="0" />
+  <EXPANSION value="DPG" />
+  <RARITY metaname="R" />
+  <POWER value="2" />
+  <TOUGHNESS value="2" />
+  <ACTIVATED_ABILITY>
+     <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[{B}, {T}, Sacrifice Doomed Necromancer: Return target creature card from your graveyard to the battlefield.]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[{B}, {T}, Sacrifice Doomed Necromancer: Return target creature card from your graveyard to the battlefield.]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[{B}, {T}, Sacrifice Doomed Necromancer: Return target creature card from your graveyard to the battlefield.]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[{B}, {T}, Sacrifice Doomed Necromancer: Return target creature card from your graveyard to the battlefield.]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[{B}, {T}, Sacrifice Doomed Necromancer: Return target creature card from your graveyard to the battlefield.]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[{B}, {T}, Sacrifice Doomed Necromancer: Return target creature card from your graveyard to the battlefield.]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[{B}, {T}, Sacrifice Doomed Necromancer: Return target creature card from your graveyard to the battlefield.]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[{B}, {T}, Sacrifice Doomed Necromancer: Return target creature card from your graveyard to the battlefield.]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[{B}, {T}, Sacrifice Doomed Necromancer: Return target creature card from your graveyard to the battlefield.]]></LOCALISED_TEXT>
+    <COST type="Mana" cost="{B}" />
+	<COST type="TapSelf" />
+	<COST type="SacrificeSelf" />
+	<TARGET_DEFINITION id="0">
+    local filter = Object():GetFilter()
+    filter:Clear()
+    filter:AddCardType( CARD_TYPE_CREATURE )
+    filter:SetPlayer( EffectController() )
+    filter:SetZone( ZONE_GRAVEYARD )
+    filter:SetHint( HINT_ALLIED, EffectController() )
+    </TARGET_DEFINITION>
+    <TARGET_DETERMINATION>
+    return AtLeastOneTargetFromDefinition(0)
+    </TARGET_DETERMINATION>
+    <PLAY_TIME_ACTION target_choosing="1">
+    EffectController():ChooseTarget( 0, "CARD_QUERY_CHOOSE_CREATURE_TO_PUT_ONTO_BATTLEFIELD", EffectDC():Make_Targets(0) )
+    </PLAY_TIME_ACTION>
+    <RESOLUTION_TIME_ACTION>
+    local target = EffectDC():Get_Targets(0):Get_CardPtr(0)
+    if target ~= nil and target:GetZone() == ZONE_GRAVEYARD then
+    	EffectDC():Get_Targets(0):Protect_CardPtr(0)
+    	target:PutIntoPlay( EffectController() ) 
+    end
+    </RESOLUTION_TIME_ACTION>
+	<AI_AVAILABILITY step="end_of_turn" turn="their_turn" />
+    <AI_AVAILABILITY step="declare_attackers" turn="their_turn" />
+    <AI_AVAILABILITY type="in_response_dangerous" />
+    <AI_AVAILABILITY step="declare_blockers" blocking_or_blocked="1" />
+	<AI_AVAILABILITY step="main_1" turn="my_turn" />
+  </ACTIVATED_ABILITY>
+  <SFX text="COMBAT_PESTS_LARGE_ATTACK" power_boundary_min="4" power_boundary_max="-1" />
+  <SFX text="COMBAT_PESTS_SMALL_ATTACK" power_boundary_min="1" power_boundary_max="3" />
+</CARD_V2>

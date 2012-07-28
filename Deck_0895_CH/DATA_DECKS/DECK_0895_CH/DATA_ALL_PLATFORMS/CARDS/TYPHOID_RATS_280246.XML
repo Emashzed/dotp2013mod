@@ -1,0 +1,54 @@
+<?xml version='1.0'?>
+<CARD_V2>
+  <FILENAME text="TYPHOID_RATS_280246" />
+  <CARDNAME text="TYPHOID_RATS" />
+  <TITLE>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Typhoid Rats]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Rats typhoïdiens]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Ratas tifoideas]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Typhusratten]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Ratti del Tifo]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[チフス鼠]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[장티푸스 쥐떼]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Тифозные Крысы]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Ratos Tifoides]]></LOCALISED_TEXT>
+  </TITLE>
+  <MULTIVERSEID value="280246" />
+  <ARTID value="139426" />
+  <ARTIST name="Kev Walker" />
+  <CASTING_COST cost="{B}" />
+  <FLAVOURTEXT>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Kidnappers caught in Havengul are given two choices: languish in prison or become rat catchers. The smart ones go to prison.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Les kidnappeurs qui se font arrêter à Havengul ont le choix : finir en prison ou devenir chasseurs de rats. Les plus intelligents choisissent la prison.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Los secuestradores atrapados en Havengul tienen dos opciones: ir a prisión o convertirse en atraparratas. Los inteligentes van a prisión.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Entführer, die in Pfuhlhaven erwischt werden, dürfen sich ihre Strafe aussuchen: im Gefängnis versauern oder Rattenfänger werden. Wer klug ist, geht ins Gefängnis.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Ai rapitori catturati ad Havengul viene offerto di scegliere: languire in carcere o diventare cacciatori di ratti. I più furbi scelgono il carcere.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[ヘイヴングルで捕まった人さらいには、二つの選択肢が与えられる。投獄されるか、鼠取りになるかだ。 賢い奴は牢屋に行く。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[헤이븐굴에서 검거된 유괴범들은 감옥과 쥐잡이꾼으로 일하는 것 중 하나를 선택할 수 있다. 현명한 자들은 감옥을 택한다.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Пойманные в Хавенгуле похитители получают право выбора: прозябать в тюрьме или стать крысоловами. Умные выбирают тюрьму.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Os sequestradores presos em Havengul têm duas opções: padecer na prisão ou se tornar apanhador de ratos. Os inteligentes escolhem a prisão.]]></LOCALISED_TEXT>
+  </FLAVOURTEXT>
+  <TYPE metaname="Creature" />
+  <SUB_TYPE metaname="Rat" order_de-DE="0" order_es-ES="0" order_fr-FR="0" order_it-IT="0" order_jp-JA="0" order_ko-KR="0" order_pt-BR="0" order_ru-RU="0" />
+  <EXPANSION value="DPG" />
+  <RARITY metaname="C" />
+  <POWER value="1" />
+  <TOUGHNESS value="1" />
+  <STATIC_ABILITY>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Deathtouch]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Contact mortel]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Toque mortal]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Todesberührung]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Tocco letale]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[接死]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[치명타]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Смертельное касание]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Toque mortífero]]></LOCALISED_TEXT>
+    <CONTINUOUS_ACTION>
+     Object():GetCurrentCharacteristics():Characteristic_Set( CHARACTERISTIC_DEATHTOUCH, 1 )
+    </CONTINUOUS_ACTION>
+  </STATIC_ABILITY>
+  <HELP title="MORE_INFO_BADGE_TITLE_3" body="MORE_INFO_BADGE_BODY_3" zone="ZONE_ANY" />
+  <SFX text="COMBAT_BITE_LARGE_ATTACK" power_boundary_min="4" power_boundary_max="-1" />
+  <SFX text="COMBAT_BITE_SMALL_ATTACK" power_boundary_min="1" power_boundary_max="3" />
+</CARD_V2>

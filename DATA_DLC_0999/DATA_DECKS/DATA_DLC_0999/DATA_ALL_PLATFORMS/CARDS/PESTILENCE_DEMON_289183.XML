@@ -1,0 +1,91 @@
+<?xml version='1.0'?>
+<CARD_V2>
+  <FILENAME text="PESTILENCE_DEMON_289183" />
+  <CARDNAME text="PESTILENCE_DEMON" />
+  <TITLE>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Pestilence Demon]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Démon de pestilence]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Demonio de la pestilencia]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Pestilenzdämon]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Demone Pestilenziale]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[黒死病の悪魔]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[역병 악마]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Демон Мора]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Demônio da Pestilência]]></LOCALISED_TEXT>
+  </TITLE>
+  <MULTIVERSEID value="289183" />
+  <ARTID value="127258" />
+  <ARTIST name="Justin Sweet" />
+  <CASTING_COST cost="{5}{B}{B}{B}" />
+  <FLAVOURTEXT>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[“I have schemed too long to be supplanted by dead gods. If I cannot have this world, no one can.”]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[« J’ai comploté pendant trop longtemps pour être remplacé par des dieux morts. Si ce monde ne peut m’appartenir, personne ne l’aura. »]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[“He planeado demasiado para ser suplantado por dioses muertos. Si yo no puedo dominar este mundo, nadie puede.”]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[„Ich habe zu lange intrigiert, um mich einfach von toten Göttern vertreiben zu lassen. Falls ich diese Welt nicht haben kann, dann kann das niemand.“]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[“Ho complottato troppo a lungo per essere rimpiazzato da divinità morte. Se non posso avere questo mondo, nessun altro può.”]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[「我は死の神の策謀に、長くその座を奪われていた。 我が手に入らぬ世界なら、誰の手にも入れぬ。」]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[“이토록 오랫동안 계략을 짰는데 죽은 신 따위에게 방해받을 수는 없지. 내가 이 세상을 가질 수 없다면 그 누구도 가질 수 없다.”]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[«Я старался слишком долго, чтобы быть вытесненным мертвыми богами. Если этот мир не станет моим, то он не достанется никому».]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[“Venho planejando tudo isso há muito tempo para ser suplantado por deuses mortos. Se eu não puder ter este mundo, ninguém o terá.”]]></LOCALISED_TEXT>
+  </FLAVOURTEXT>
+  <TYPE metaname="Creature" />
+  <SUB_TYPE metaname="Demon" order_de-DE="0" order_es-ES="0" order_fr-FR="0" order_it-IT="0" order_jp-JA="0" order_ko-KR="0" order_pt-BR="0" order_ru-RU="0" />
+  <EXPANSION value="DPG" />
+  <RARITY metaname="R" />
+  <POWER value="7" />
+  <TOUGHNESS value="6" />
+  <STATIC_ABILITY>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Flying]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Vol]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Vuela.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Fliegend]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Volare]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[飛行]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[비행]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Полет]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Voar]]></LOCALISED_TEXT>
+    <CONTINUOUS_ACTION>
+    local characteristics = Object():GetCurrentCharacteristics()
+    characteristics:Characteristic_Set( CHARACTERISTIC_FLYING, 1 )
+    </CONTINUOUS_ACTION>
+  </STATIC_ABILITY>
+  <ACTIVATED_ABILITY LKI_shield_effect_source="1" dangerous="1" filter_zone="ZONE_IN_PLAY_AND_PLAYERS">
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[{B}: Pestilence Demon deals 1 damage to each creature and each player.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[{B}: Le Démon de pestilence inflige 1 blessure à chaque créature et à chaque joueur.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[{B}: El Demonio de la pestilencia hace 1 punto de daño a cada criatura y a cada jugador.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[{B}: Der Pestilenzdämon fügt jeder Kreatur und jedem Spieler 1 Schadenspunkt zu.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[{B}: Il Demone Pestilenziale infligge 1 danno a ogni creatura e a ogni giocatore.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[{B}：黒死病の悪魔は各クリーチャーと各プレイヤーにそれぞれ１点のダメージを与える。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[{B}: 역병 악마는 각 생물과 플레이어에게 피해 1점을 입힌다.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[{B}: Демон Мора наносит 1 повреждение каждому существу и каждому игроку.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[{B}: Demônio da Pestilência causa 1 ponto de dano a cada criatura e a cada jogador.]]></LOCALISED_TEXT>
+    <COST type="Mana" cost="{B}" />
+    <FILTER>
+    return (FilteredCard() ~= nil and
+    FilteredCard():GetCardType():Test( CARD_TYPE_CREATURE ) ~= 0 and
+    (FilteredCard():GetZone() == ZONE_IN_PLAY)) or
+    (FilteredPlayer() ~= nil)
+    </FILTER>
+    <RESOLUTION_TIME_ACTION>
+    local source = EffectSource()
+    if source == nil then
+      source = Object()
+    end
+    if (FilteredPlayer() ~= nil) then   
+    	FilteredPlayer():DealDamage( 1 , source)  
+    elseif (FilteredCard() ~= nil) then   
+    	FilteredCard():DealDamage( 1 , source )  
+    end
+    </RESOLUTION_TIME_ACTION>
+    <AI_AVAILABILITY type="in_response" />
+    <AI_AVAILABILITY step="begin_combat" turn="their_turn" />
+    <AI_AVAILABILITY step="main_1" turn="my_turn" />
+    <AI_AVAILABILITY step="declare_attackers" turn="their_turn" />
+    <AI_AVAILABILITY step="declare_blockers" />
+    <AI_AVAILABILITY step="end_of_turn" />
+  </ACTIVATED_ABILITY>
+  <HELP title="MORE_INFO_BADGE_TITLE_10" body="MORE_INFO_BADGE_BODY_10" zone="ZONE_ANY" />
+  <SFX text="COMBAT_CLAW_LARGE_ATTACK" power_boundary_min="4" power_boundary_max="-1" />
+  <SFX text="COMBAT_CLAW_SMALL_ATTACK" power_boundary_min="1" power_boundary_max="3" />
+  <AI_BASE_SCORE score="600" zone="ZONE_IN_PLAY" />
+</CARD_V2>

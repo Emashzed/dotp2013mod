@@ -1,0 +1,54 @@
+﻿<?xml version='1.0'?>
+<CARD_V2>
+  <FILENAME text="ROAR_OF_THE_WURM_88829881" />
+  <CARDNAME text="ROAR_OF_THE_WURM" />
+  <TITLE>
+     <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Roar of the Wurm]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Roar of the Wurm]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Roar of the Wurm]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Roar of the Wurm]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Roar of the Wurm]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[Roar of the Wurm]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[Roar of the Wurm]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Roar of the Wurm]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Roar of the Wurm]]></LOCALISED_TEXT>
+  </TITLE>
+  <MULTIVERSEID value="88829881" />
+  <ARTID value="88829881" />
+  <ARTIST name="Kev Walker" />
+  <CASTING_COST cost="{6}{G}" />
+  <FLASHBACK_COST cost="{3}{G}" />
+  <TYPE metaname="Sorcery" />
+  <EXPANSION value="DPG" />
+  <RARITY metaname="U" />
+  <SPELL_ABILITY>
+     <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Put a 6/6 green Wurm creature token onto the battlefield.]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Put a 6/6 green Wurm creature token onto the battlefield.]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Put a 6/6 green Wurm creature token onto the battlefield.]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Put a 6/6 green Wurm creature token onto the battlefield.]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Put a 6/6 green Wurm creature token onto the battlefield.]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[Put a 6/6 green Wurm creature token onto the battlefield.]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[Put a 6/6 green Wurm creature token onto the battlefield.]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Put a 6/6 green Wurm creature token onto the battlefield.]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Put a 6/6 green Wurm creature token onto the battlefield.]]></LOCALISED_TEXT>
+	<RESOLUTION_TIME_ACTION>
+    local token_count = 1
+    if token_count &gt; 0 then
+    	MTG():PutTokensIntoPlay( "TOKEN_WURM_6_6_888288740", token_count, EffectController() )
+    end
+    </RESOLUTION_TIME_ACTION>
+  </SPELL_ABILITY>
+  <UTILITY_ABILITY>
+     <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Flashback {3}{G} |(You may cast this card from your graveyard for its flashback cost. Then exile it.)|]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Flashback {3}{G} |(You may cast this card from your graveyard for its flashback cost. Then exile it.)|]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Flashback {3}{G} |(You may cast this card from your graveyard for its flashback cost. Then exile it.)|]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Flashback {3}{G} |(You may cast this card from your graveyard for its flashback cost. Then exile it.)|]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Flashback {3}{G} |(You may cast this card from your graveyard for its flashback cost. Then exile it.)|]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[Flashback {3}{G} |(You may cast this card from your graveyard for its flashback cost. Then exile it.)|]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[Flashback {3}{G} |(You may cast this card from your graveyard for its flashback cost. Then exile it.)|]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Flashback {3}{G} |(You may cast this card from your graveyard for its flashback cost. Then exile it.)|]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Flashback {3}{G} |(You may cast this card from your graveyard for its flashback cost. Then exile it.)|]]></LOCALISED_TEXT>
+  </UTILITY_ABILITY>
+  <TOKEN_REGISTRATION reservation="1" type="TOKEN_WURM_6_6_888288740" />
+  <AI_BASE_SCORE score="300" zone="ZONE_GRAVEYARD" />
+</CARD_V2>

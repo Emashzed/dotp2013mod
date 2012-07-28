@@ -1,0 +1,67 @@
+﻿<?xml version='1.0'?>
+<CARD_V2>
+  <FILENAME text="ALL_IS_DUST_888193658" />
+  <CARDNAME text="ALL_IS_DUST" />
+  <TITLE>
+     <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[All Is Dust]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[All Is Dust]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[All Is Dust]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[All Is Dust]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[All Is Dust]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[All Is Dust]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[All Is Dust]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[All Is Dust]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[All Is Dust]]></LOCALISED_TEXT>
+  </TITLE>
+  <MULTIVERSEID value="888193658" />
+  <ARTID value="888193658" />
+  <ARTIST name="Jason Felix" />
+  <CASTING_COST cost="{7}" />
+  <FLAVOURTEXT>
+     <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[“The emergence of the Eldrazi isn’t necessarily a bad thing, as long as you’ve already lived a fulfilling and complete life without regrets.”
+—Javad Nasrin, Ondu relic hunter]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[“The emergence of the Eldrazi isn’t necessarily a bad thing, as long as you’ve already lived a fulfilling and complete life without regrets.”
+—Javad Nasrin, Ondu relic hunter]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[“The emergence of the Eldrazi isn’t necessarily a bad thing, as long as you’ve already lived a fulfilling and complete life without regrets.”
+—Javad Nasrin, Ondu relic hunter]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[“The emergence of the Eldrazi isn’t necessarily a bad thing, as long as you’ve already lived a fulfilling and complete life without regrets.”
+—Javad Nasrin, Ondu relic hunter]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[“The emergence of the Eldrazi isn’t necessarily a bad thing, as long as you’ve already lived a fulfilling and complete life without regrets.”
+—Javad Nasrin, Ondu relic hunter]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[“The emergence of the Eldrazi isn’t necessarily a bad thing, as long as you’ve already lived a fulfilling and complete life without regrets.”
+—Javad Nasrin, Ondu relic hunter]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[“The emergence of the Eldrazi isn’t necessarily a bad thing, as long as you’ve already lived a fulfilling and complete life without regrets.”
+—Javad Nasrin, Ondu relic hunter]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[“The emergence of the Eldrazi isn’t necessarily a bad thing, as long as you’ve already lived a fulfilling and complete life without regrets.”
+—Javad Nasrin, Ondu relic hunter]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[“The emergence of the Eldrazi isn’t necessarily a bad thing, as long as you’ve already lived a fulfilling and complete life without regrets.”
+—Javad Nasrin, Ondu relic hunter]]></LOCALISED_TEXT>
+  </FLAVOURTEXT>
+  <TYPE metaname="Tribal" />
+  <TYPE metaname="Sorcery" />
+  <SUB_TYPE metaname="Eldrazi" order_de-DE="0" order_es-ES="0" order_fr-FR="0" order_it-IT="0" order_jp-JA="0" order_ko-KR="0" order_pt-BR="0" order_ru-RU="0" />
+  <EXPANSION value="DPG" />
+  <RARITY metaname="M" />
+  <SPELL_ABILITY dangerous="1" filter_zone="ZONE_IN_PLAY">
+     <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Each player sacrifices all colored permanents he or she controls.]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Each player sacrifices all colored permanents he or she controls.]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Each player sacrifices all colored permanents he or she controls.]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Each player sacrifices all colored permanents he or she controls.]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Each player sacrifices all colored permanents he or she controls.]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[Each player sacrifices all colored permanents he or she controls.]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[Each player sacrifices all colored permanents he or she controls.]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Each player sacrifices all colored permanents he or she controls.]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Each player sacrifices all colored permanents he or she controls.]]></LOCALISED_TEXT>
+	<FILTER>
+    return (Permanents() and InPlay()) and (Black() or Red() or Green() or Blue() or White())
+    </FILTER>
+    <RESOLUTION_TIME_ACTION>
+	if FilteredCard() ~= nil then
+		FilteredCard():Sacrifice(FilteredCard():GetController())  
+	end
+    </RESOLUTION_TIME_ACTION>
+    <SFX text="GLOBAL_DISASTER_PLAY" />
+	<SFX text="GLOBAL_DISTORTION_PLAY" />
+  </SPELL_ABILITY>
+  <AI_BASE_SCORE score="1800" zone="ZONE_HAND" />
+</CARD_V2>

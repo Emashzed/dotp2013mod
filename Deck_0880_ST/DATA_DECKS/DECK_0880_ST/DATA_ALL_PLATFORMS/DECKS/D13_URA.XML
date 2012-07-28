@@ -1,0 +1,39 @@
+<DECK personality="D13_URA_DEFAULT.XML" deck_box_image="D13_URA" deck_box_image_locked="locked" content_pack="0" always_available="true" uid="880" preview_card="fumiko_lowblood" is_red="true">
+  <DECKSTATISTICS Size="6" Speed="5" Flex="6" Syn="6" />
+  <LandConfig minMountain="25" />
+  <CARD name="BOGGART_RAM_GANG_888234723" deckOrderId="0" />
+  <CARD name="BOGGART_RAM_GANG_888234723" deckOrderId="1" />
+  <CARD name="BOGGART_RAM_GANG_888234723" deckOrderId="2" />
+  <CARD name="BOGGART_RAM_GANG_888234723" deckOrderId="3" />
+  <CARD name="HEARTHFIRE_HOBGOBLIN_888157201" deckOrderId="4" />
+  <CARD name="HEARTHFIRE_HOBGOBLIN_888157201" deckOrderId="5" />
+  <CARD name="HEARTHFIRE_HOBGOBLIN_888157201" deckOrderId="6" />
+  <CARD name="HEARTHFIRE_HOBGOBLIN_888157201" deckOrderId="7" />
+  <CARD name="FLAMETONGUE_KAVU_888189234" deckOrderId="8" />
+  <CARD name="FLAMETONGUE_KAVU_888189234" deckOrderId="9" />
+  <CARD name="FLAMETONGUE_KAVU_888189234" deckOrderId="10" />
+  <CARD name="FLAMETONGUE_KAVU_888189234" deckOrderId="11" />
+  <CARD name="DEMIGOD_OF_REVENGE_281225" deckOrderId="12" />
+  <CARD name="DEMIGOD_OF_REVENGE_281225" deckOrderId="13" />
+  <CARD name="DEMIGOD_OF_REVENGE_281225" deckOrderId="14" />
+  <CARD name="DEMIGOD_OF_REVENGE_281225" deckOrderId="15" />
+  <CARD name="BOARTUSK_LIEGE_888147428" deckOrderId="16" />
+  <CARD name="BOARTUSK_LIEGE_888147428" deckOrderId="17" />
+  <CARD name="BOARTUSK_LIEGE_888147428" deckOrderId="18" />
+  <CARD name="BOARTUSK_LIEGE_888147428" deckOrderId="19" />
+  <CARD name="BLOODMARK_MENTOR_888243467" deckOrderId="20" />
+  <CARD name="URABRASK_THE_HIDDEN_888214378" deckOrderId="21" />
+  <CARD name="FUMIKO_THE_LOWBLOOD_88874534" deckOrderId="22" />
+  <CARD name="CLAWS_OF_VALAKUT_888243489" deckOrderId="23" />
+  <CARD name="CLAWS_OF_VALAKUT_888243489" deckOrderId="24" />
+  <CARD name="CLAWS_OF_VALAKUT_888243489" deckOrderId="25" />
+  <CARD name="CLAWS_OF_VALAKUT_888243489" deckOrderId="26" />
+  <CARD name="FLING_276829" deckOrderId="27" />
+  <CARD name="FLING_276829" deckOrderId="28" />
+  <CARD name="LIGHTNING_BOLT_276941" deckOrderId="29" />
+  <CARD name="LIGHTNING_BOLT_276941" deckOrderId="30" />
+  <CARD name="LIGHTNING_BOLT_276941" deckOrderId="31" />
+  <CARD name="LIGHTNING_BOLT_276941" deckOrderId="32" />
+  <CARD name="FLAME_SLASH_276915" deckOrderId="33" />
+  <CARD name="FLAME_SLASH_276915" deckOrderId="34" />
+</DECK>

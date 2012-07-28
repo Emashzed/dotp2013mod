@@ -1,0 +1,76 @@
+<?xml version='1.0'?>
+<CARD_V2>
+  <FILENAME text="DAUNTLESS_ESCORT_276745" />
+  <CARDNAME text="DAUNTLESS_ESCORT" />
+  <TITLE>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Dauntless Escort]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Escorte intrépide]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Escolta intrépido]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Furchtlose Eskorte]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Scorta Intrepida]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[不屈の随員]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[불굴의 경호원]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Неустрашимый Сопроводитель]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Acompanhante Destemido]]></LOCALISED_TEXT>
+  </TITLE>
+  <MULTIVERSEID value="276745" />
+  <ARTID value="121022" />
+  <ARTIST name="Volkan Baga" />
+  <CASTING_COST cost="{1}{G}{W}" />
+  <FLAVOURTEXT>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Elspeth’s squires do not seek advancement. For them, no knightly glory could surpass the glory of serving their champion.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Les écuyers d’Elspeth ne cherchent pas l’avancement. Pour eux, nulle gloire ne saurait surpasser celle de servir leur champion.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Los escuderos de Elspeth no buscan progresar. Para ellos, ninguna gloria de ser caballeros podría ser mejor que la gloria de servir a su campeón.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Elspeths Junker gieren nicht nach Beförderung. Für sie ist es bereits der höchste Ruhm, ihrem Champion dienen zu dürfen.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Gli scudieri di Elspeth non desiderano acquisire un potere maggiore. Per essi, nessuna gloria cavalleresca potrà mai superare l’onore di servire il loro campione.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[エルズペスの従者は昇進を求めない。 彼らにとって、勇者に仕えることの名誉を上回る騎士の栄光など存在しないのだ。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[엘스페스의 견습기사들은 정식 기사가 되려고 하지 않는다. 자신들의 영웅을 받드는 일이 기사가 되는 것보다 더 영광스럽다고 생각하기 때문이다.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Оруженосцы Элспет не стремятся к продвижению. Для них никакая рыцарская слава не сравнится со славой служения их кумиру.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Os escudeiros de Elspeth não estão em busca de promoções. Para eles, não há glória maior para um cavaleiro que a de servir seu campeão.]]></LOCALISED_TEXT>
+  </FLAVOURTEXT>
+  <TYPE metaname="Creature" />
+  <SUB_TYPE metaname="Rhino" order_de-DE="0" order_es-ES="1" order_fr-FR="0" order_it-IT="1" order_jp-JA="0" order_ko-KR="0" order_pt-BR="0" order_ru-RU="0" />
+  <SUB_TYPE metaname="Soldier" order_de-DE="1" order_es-ES="0" order_fr-FR="1" order_it-IT="0" order_jp-JA="1" order_ko-KR="1" order_pt-BR="1" order_ru-RU="1" />
+  <EXPANSION value="DPG" />
+  <RARITY metaname="R" />
+  <POWER value="3" />
+  <TOUGHNESS value="3" />
+  <ACTIVATED_ABILITY filter_zone="ZONE_IN_PLAY">
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Sacrifice Dauntless Escort: Creatures you control are indestructible this turn.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Sacrifiez l’Escorte intrépide: Les créatures que vous contrôlez sont indestructibles ce tour-ci.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Sacrificar el Escolta intrépido: Las criaturas que controlas son indestructibles este turno.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Opfere die Furchtlose Eskorte: Kreaturen, die du kontrollierst, sind in diesem Zug unzerstörbar.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Sacrifica la Scorta Intrepida: Le creature che controlli sono indistruttibili in questo turno.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[不屈の随員を生け贄に捧げる：このターン、あなたがコントロールするクリーチャーは破壊されない。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[불굴의 경호원을 희생한다: 당신이 조종하는 생물들은 이 턴에 파괴될 수 없다.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Пожертвуйте Неустрашимого Сопроводителя: существа под вашим контролем не могут быть уничтожены в этом ходу.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Sacrifique Acompanhante Destemido: As criaturas que você controla são indestrutíveis neste turno.]]></LOCALISED_TEXT>
+    <COST type="SacrificeSelf" />
+    <CONTINUOUS_ACTION layer="8">
+    	local filter = Object():GetFilter()
+    	filter:Clear()
+    	-- opponents creatures
+    	filter:AddCardType( CARD_TYPE_CREATURE )
+    	filter:SetZone(ZONE_IN_PLAY)
+    	filter:SetControllersTeam( EffectController():GetTeam() )
+    	filter:NotTargetted()
+    	local num_creatures = filter:EvaluateObjects()
+    	if num_creatures &gt; 0 then
+    		for i=0,num_creatures-1 do
+    			local creature = filter:GetNthEvaluatedObject(i)
+    			
+    			if creature ~= nil then			
+    				creature:GetCurrentCharacteristics():Characteristic_Set( CHARACTERISTIC_INDESTRUCTIBLE, 1 )
+    			end
+    		end
+    		
+    	end
+    </CONTINUOUS_ACTION>
+    <DURATION simple_duration="UntilEOT" />
+    <AI_AVAILABILITY step="declare_blockers" />
+    <AI_AVAILABILITY type="in_response_dangerous" />
+  </ACTIVATED_ABILITY>
+  <HELP title="MORE_INFO_BADGE_TITLE_8" body="MORE_INFO_BADGE_BODY_8" zone="ZONE_ANY" />
+  <SFX text="COMBAT_BLUNT_LARGE_ATTACK" power_boundary_min="4" power_boundary_max="-1" />
+  <SFX text="COMBAT_BLUNT_SMALL_ATTACK" power_boundary_min="1" power_boundary_max="3" />
+</CARD_V2>

@@ -1,0 +1,61 @@
+﻿<?xml version='1.0'?>
+<CARD_V2>
+  <FILENAME text="VAMPIRE_LACERATOR_888192225" />
+  <CARDNAME text="VAMPIRE_LACERATOR" />
+  <TITLE>
+     <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Vampire Lacerator]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Vampire Lacerator]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Vampire Lacerator]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Vampire Lacerator]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Vampire Lacerator]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[Vampire Lacerator]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[Vampire Lacerator]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Vampire Lacerator]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Vampire Lacerator]]></LOCALISED_TEXT>
+  </TITLE>
+  <MULTIVERSEID value="888192225" />
+  <ARTID value="888192225" />
+  <ARTIST name="Steve Argyle" />
+  <CASTING_COST cost="{B}" />
+  <FLAVOURTEXT>
+     <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[The lacerators cut themselves before each hunt. They must feed before the sun rises or bleed to death.]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[The lacerators cut themselves before each hunt. They must feed before the sun rises or bleed to death.]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[The lacerators cut themselves before each hunt. They must feed before the sun rises or bleed to death.]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[The lacerators cut themselves before each hunt. They must feed before the sun rises or bleed to death.]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[The lacerators cut themselves before each hunt. They must feed before the sun rises or bleed to death.]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[The lacerators cut themselves before each hunt. They must feed before the sun rises or bleed to death.]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[The lacerators cut themselves before each hunt. They must feed before the sun rises or bleed to death.]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[The lacerators cut themselves before each hunt. They must feed before the sun rises or bleed to death.]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[The lacerators cut themselves before each hunt. They must feed before the sun rises or bleed to death.]]></LOCALISED_TEXT>
+  </FLAVOURTEXT>
+  <TYPE metaname="Creature" />
+  <SUB_TYPE metaname="Vampire" order_de-DE="0" order_es-ES="0" order_fr-FR="0" order_it-IT="0" order_jp-JA="0" order_ko-KR="0" order_pt-BR="0" order_ru-RU="0" />
+  <SUB_TYPE metaname="Warrior" order_de-DE="0" order_es-ES="0" order_fr-FR="0" order_it-IT="0" order_jp-JA="0" order_ko-KR="0" order_pt-BR="0" order_ru-RU="0" />
+  <EXPANSION value="DPG" />
+  <RARITY metaname="C" />
+  <POWER value="2" />
+  <TOUGHNESS value="2" />
+  <TRIGGERED_ABILITY auto_skip="1" filter_zone="ZONE_IN_PLAY">
+     <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[At the beginning of your upkeep, you lose 1 life unless an opponent has 10 or less life.]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[At the beginning of your upkeep, you lose 1 life unless an opponent has 10 or less life.]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[At the beginning of your upkeep, you lose 1 life unless an opponent has 10 or less life.]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[At the beginning of your upkeep, you lose 1 life unless an opponent has 10 or less life.]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[At the beginning of your upkeep, you lose 1 life unless an opponent has 10 or less life.]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[At the beginning of your upkeep, you lose 1 life unless an opponent has 10 or less life.]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[At the beginning of your upkeep, you lose 1 life unless an opponent has 10 or less life.]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[At the beginning of your upkeep, you lose 1 life unless an opponent has 10 or less life.]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[At the beginning of your upkeep, you lose 1 life unless an opponent has 10 or less life.]]></LOCALISED_TEXT>
+    <TRIGGER value="BEGINNING_OF_STEP" simple_qualifier="controller">
+	if AnyOpponentBloodied( EffectController() ) then
+		return false
+	else
+		return ( EffectController():MyTurn() ~= 0 ) and ( MTG():GetStep() == STEP_UPKEEP )
+	end
+    </TRIGGER>
+	<RESOLUTION_TIME_ACTION>
+      	EffectController():LoseLife( 1 )
+    </RESOLUTION_TIME_ACTION>
+  </TRIGGERED_ABILITY>
+  <SFX text="COMBAT_BITE_LARGE_ATTACK" power_boundary_min="4" power_boundary_max="-1" />
+  <SFX text="COMBAT_BITE_SMALL_ATTACK" power_boundary_min="1" power_boundary_max="3" />
+</CARD_V2>

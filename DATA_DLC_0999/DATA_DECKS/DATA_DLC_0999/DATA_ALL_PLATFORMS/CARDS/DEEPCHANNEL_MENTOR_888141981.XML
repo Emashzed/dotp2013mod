@@ -1,0 +1,62 @@
+﻿<?xml version='1.0'?>
+<CARD_V2>
+  <FILENAME text="DEEPCHANNEL_MENTOR_888141981" />
+  <CARDNAME text="DEEPCHANNEL_MENTOR" />
+  <TITLE>
+     <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Deepchannel Mentor]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Deepchannel Mentor]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Deepchannel Mentor]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Deepchannel Mentor]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Deepchannel Mentor]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[Deepchannel Mentor]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[Deepchannel Mentor]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Deepchannel Mentor]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Deepchannel Mentor]]></LOCALISED_TEXT>
+  </TITLE>
+  <MULTIVERSEID value="888141981" />
+  <ARTID value="888141981" />
+  <ARTIST name="Jesper Ejsing" />
+  <CASTING_COST cost="{5}{U}" />
+  <FLAVOURTEXT>
+     <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[The rivers can no longer provide safe passage for travelers and commerce. They serve only as highways for raiders and channels for blood and woe.]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[The rivers can no longer provide safe passage for travelers and commerce. They serve only as highways for raiders and channels for blood and woe.]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[The rivers can no longer provide safe passage for travelers and commerce. They serve only as highways for raiders and channels for blood and woe.]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[The rivers can no longer provide safe passage for travelers and commerce. They serve only as highways for raiders and channels for blood and woe.]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[The rivers can no longer provide safe passage for travelers and commerce. They serve only as highways for raiders and channels for blood and woe.]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[The rivers can no longer provide safe passage for travelers and commerce. They serve only as highways for raiders and channels for blood and woe.]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[The rivers can no longer provide safe passage for travelers and commerce. They serve only as highways for raiders and channels for blood and woe.]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[The rivers can no longer provide safe passage for travelers and commerce. They serve only as highways for raiders and channels for blood and woe.]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[The rivers can no longer provide safe passage for travelers and commerce. They serve only as highways for raiders and channels for blood and woe.]]></LOCALISED_TEXT>
+  </FLAVOURTEXT>
+  <TYPE metaname="Creature" />
+  <SUB_TYPE metaname="Merfolk" order_de-DE="0" order_es-ES="0" order_fr-FR="0" order_it-IT="0" order_jp-JA="0" order_ko-KR="0" order_pt-BR="0" order_ru-RU="0" />
+  <SUB_TYPE metaname="Rogue" order_de-DE="0" order_es-ES="0" order_fr-FR="0" order_it-IT="0" order_jp-JA="0" order_ko-KR="0" order_pt-BR="0" order_ru-RU="0" />
+  <EXPANSION value="DPG" />
+  <RARITY metaname="U" />
+  <POWER value="2" />
+  <TOUGHNESS value="2" />
+  <STATIC_ABILITY filter_zone="ZONE_IN_PLAY">
+     <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Blue creatures you control are unblockable.]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Blue creatures you control are unblockable.]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Blue creatures you control are unblockable.]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Blue creatures you control are unblockable.]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Blue creatures you control are unblockable.]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[Blue creatures you control are unblockable.]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[Blue creatures you control are unblockable.]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Blue creatures you control are unblockable.]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Blue creatures you control are unblockable.]]></LOCALISED_TEXT>
+	 <FILTER>
+    return CreaturesYouControl() and Blue()
+    </FILTER>
+	<CONTINUOUS_ACTION layer="6">
+	if FilteredCard() ~= nil then
+    	local characteristics = FilteredCard():GetCurrentCharacteristics()
+    	if characteristics ~= nil then
+    		characteristics:Characteristic_Set( CHARACTERISTIC_UNBLOCKABLE, 1 )
+    	end
+    end
+    </CONTINUOUS_ACTION>
+  </STATIC_ABILITY>
+  <SFX text="COMBAT_BLADE_LARGE_ATTACK" power_boundary_min="4" power_boundary_max="-1" />
+  <SFX text="COMBAT_BLADE_SMALL_ATTACK" power_boundary_min="1" power_boundary_max="3" />
+</CARD_V2>

@@ -1,0 +1,73 @@
+<?xml version='1.0'?>
+<CARD_V2>
+  <FILENAME text="TOTEMGUIDE_HARTEBEEST_277267" />
+  <CARDNAME text="TOTEMGUIDE_HARTEBEEST" />
+  <TITLE>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Totem-Guide Hartebeest]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Bubale guide totémique]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Alcelafo guía de tótem]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Totemgelenktes Hartebeest]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Alcefalo Totemico]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[族霊導きの鹿羚羊]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[토템 안내자 영양]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Бубал, Тотемный Проводник]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Búbalo Guia-Totem]]></LOCALISED_TEXT>
+  </TITLE>
+  <MULTIVERSEID value="277267" />
+  <ARTID value="127460" />
+  <ARTIST name="John Avon" />
+  <CASTING_COST cost="{4}{W}" />
+  <FLAVOURTEXT>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[The kor track hartebeests in hopes of finding magic to help fight the Eldrazi.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Les Kor pistent les bubales dans l’espoir de trouver une magie qui les aidera à combattre les Eldrazi.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Los kor siguen a los alcelafos con la esperanza de encontrar alguna magia que los ayude a luchar contra los eldrazi.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Die Kor verfolgen Hartebeests und hoffen, dabei auf Magie zu stoßen, die ihnen im Kampf gegen die Eldrazi hilft.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[I kor cacciano gli alcefali nella speranza di trovare la magia che li aiuti a combattere gli Eldrazi.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[コーが鹿羚羊を追うのは、エルドラージと戦う助けとなる魔法を見つけようとしているが故だ。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[코르 족은 엘드라지와의 싸움에 도움이 될만한 마법을 찾고자 영양을 추적한다.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Коры идут вслед за бубалами в надежде найти магию, которая поможет им противостоять Эльдрази.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Os kor seguem os búbalos na esperança de encontrar magia para ajudar a enfrentar os Eldrazi.]]></LOCALISED_TEXT>
+  </FLAVOURTEXT>
+  <TYPE metaname="Creature" />
+  <SUB_TYPE metaname="Antelope" order_de-DE="0" order_es-ES="0" order_fr-FR="0" order_it-IT="0" order_jp-JA="0" order_ko-KR="0" order_pt-BR="0" order_ru-RU="0" />
+  <EXPANSION value="DPG" />
+  <RARITY metaname="C" />
+  <POWER value="2" />
+  <TOUGHNESS value="5" />
+  <TRIGGERED_ABILITY auto_skip="1" filter_zone="ZONE_IN_PLAY">
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[When Totem-Guide Hartebeest enters the battlefield, you may search your library for an Aura card, reveal it, put it into your hand, then shuffle your library.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Quand le Bubale guide totémique arrive sur le champ de bataille, vous pouvez chercher dans votre bibliothèque une carte d’aura, la révéler, la mettre dans votre main et mélanger ensuite votre bibliothèque.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Cuando el Alcelafo guía de tótem entre al campo de batalla, puedes buscar en tu biblioteca una carta de aura, mostrarla, ponerla en tu mano y luego barajar tu biblioteca.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Wenn das Totemgelenkte Hartebeest ins Spiel kommt, kannst du deine Bibliothek nach einer Aura-Karte durchsuchen, sie offen vorzeigen, auf deine Hand nehmen und danach deine Bibliothek mischen.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Quando l’Alcefalo Totemico entra nel campo di battaglia, puoi passare in rassegna il tuo grimorio per una carta Aura, rivelarla, aggiungerla alla tua mano, poi rimescolare il tuo grimorio.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[族霊導きの鹿羚羊が戦場に出たとき、あなたはあなたのライブラリーからオーラ・カードを１枚探してもよい。そうしたなら、それを公開してあなたの手札に加え、その後あなたのライブラリーを切り直す。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[토템 안내자 영양이 전장에 들어올 때, 당신은 당신의 서고에서 마법진 카드 한 장을 찾아 공개한 후 당신의 손으로 가져갈 수 있다. 그렇게 한다면, 당신의 서고를 섞는다.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Когда Бубал, Тотемный Проводник выходит на поле битвы, вы можете найти в вашей библиотеке карту Ауры, показать ее, положить ее в вашу руку, затем перетасовать вашу библиотеку.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Quando Búbalo Guia-Totem entra no campo de batalha, você pode procurar um card de Aura em seu grimório, revelá-lo, colocá-lo na sua mão e depois embaralhar seu grimório.]]></LOCALISED_TEXT>
+    <TRIGGER value="ZONECHANGE_END" simple_qualifier="self" to_zone="ZONE_IN_PLAY" />
+    <RESOLUTION_TIME_ACTION>
+    local filter = Object():GetFilter()
+    local effectController = EffectController()
+    effectController:MarkSearchedLibrary()
+    filter:Clear()
+    filter:NotTargetted()
+    filter:AddSubType( ENCHANTMENT_TYPE_AURA ) 
+    filter:May()
+    filter:SetZone( ZONE_LIBRARY )
+    filter:SetPlayer( effectController )                           
+    effectController:ChooseTarget( NO_VALIDATION, "CARD_QUERY_CHOOSE_AURA_PUT_INTO_HAND", EffectDC():Make_Targets(0) )
+    </RESOLUTION_TIME_ACTION>
+    <RESOLUTION_TIME_ACTION>
+    if Object():GetTargetCard() ~= nil then  
+    	Object():GetTargetCard():GuidedReveal( ZONE_LIBRARY, ZONE_HAND )  
+    	Object():GetTargetCard():PutInHand()  
+    end
+    </RESOLUTION_TIME_ACTION>
+    <RESOLUTION_TIME_ACTION>
+    EffectController():ShuffleLibrary()
+    </RESOLUTION_TIME_ACTION>
+  </TRIGGERED_ABILITY>
+  <SFX text="COMBAT_BLUNT_LARGE_ATTACK" power_boundary_min="4" power_boundary_max="-1" />
+  <SFX text="COMBAT_BLUNT_SMALL_ATTACK" power_boundary_min="1" power_boundary_max="3" />
+  <AI_BASE_SCORE score="600" zone="ZONE_HAND" />
+</CARD_V2>

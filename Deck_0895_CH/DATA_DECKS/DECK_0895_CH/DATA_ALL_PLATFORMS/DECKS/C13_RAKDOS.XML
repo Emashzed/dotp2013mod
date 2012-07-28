@@ -1,0 +1,44 @@
+<DECK personality="C13_RAKDOS_DEFAULT.XML" deck_box_image="D13_Rakdos" deck_box_image_locked="locked" content_pack="0" uid="895" preview_card="grinning_malice" is_black="true" is_red="true">
+  <DECKSTATISTICS Size="6" Speed="6" Flex="8" Syn="4" />
+  <LandConfig minSwamp="5" minMountain="5" numSpellsThatCountAsLand="4" />
+  <CARD name="HELLHOLE_RATS_276791@3" deckOrderId="0" />
+  <CARD name="HELLHOLE_RATS_276791@3" deckOrderId="1" />
+  <CARD name="LYZOLDA_THE_BLOOD_WITCH_276793@2" deckOrderId="2" />
+  <CARD name="BITUMINOUS_BLAST_276743@3" deckOrderId="3" />
+  <CARD name="BLIGHTNING_276724@3" deckOrderId="4" />
+  <CARD name="BLIGHTNING_276724@3" deckOrderId="5" />
+  <CARD name="BLAZING_SPECTER_276824@3" deckOrderId="6" />
+  <CARD name="BLOOD_CULTIST_276725@3" deckOrderId="7" />
+  <CARD name="BLOOD_CULTIST_276725@3" deckOrderId="8" />
+  <CARD name="DEATHBRINGER_THOCTAR_276826@2" deckOrderId="9" />
+  <CARD name="DEFILER_OF_SOULS_276746" deckOrderId="10" />
+  <CARD name="PAIN_MAGNIFICATION_276795" deckOrderId="11" />
+  <CARD name="TERMINATE_276986" deckOrderId="12" />
+  <CARD name="TERMINATE_276986" deckOrderId="13" />
+  <CARD name="RAKDOS_THE_DEFILER_276798" deckOrderId="14" />
+  <CARD name="SINGEMIND_OGRE_276755" deckOrderId="15" />
+  <CARD name="SINGEMIND_OGRE_276755" deckOrderId="16" />
+  <CARD name="WRECKING_BALL_276801" deckOrderId="17" />
+  <CARD name="WRECKING_BALL_276801" deckOrderId="18" />
+  <CARD name="CAPRICIOUS_EFREET_277959" deckOrderId="19" />
+  <CARD name="STABBING_PAIN_277096" deckOrderId="20" />
+  <CARD name="STABBING_PAIN_277096" deckOrderId="21" />
+  <CARD name="HISSING_IGUANAR_276849" deckOrderId="22" />
+  <CARD name="HISSING_IGUANAR_276849" deckOrderId="23" />
+  <CARD name="SOOTSTOKE_KINDLER_278459" deckOrderId="24" />
+  <CARD name="SOOTSTOKE_KINDLER_278459" deckOrderId="25" />
+  <CARD name="ASHENMOOR_GOUGER_278458" deckOrderId="26" />
+  <CARD name="ASHENMOOR_GOUGER_278458" deckOrderId="27" />
+  <CARD name="SPITEFLAME_WITCH_278460" deckOrderId="28" />
+  <CARD name="GOBLIN_DEATHRAIDERS_281248" deckOrderId="29" />
+  <CARD name="GOBLIN_DEATHRAIDERS_281248" deckOrderId="30" />
+  <CARD name="TYPHOID_RATS_280246" deckOrderId="31" />
+  <CARD name="TYPHOID_RATS_280246" deckOrderId="32" />
+  <CARD name="DEMIGOD_OF_REVENGE_281225" deckOrderId="33" />
+  <CARD name="DEMIGOD_OF_REVENGE_281225" deckOrderId="34" />
+  <CARD name="DEATHGREETER_280237" deckOrderId="35" />
+  <CARD name="EVOLVING_WILDS_276846" deckOrderId="36" />
+  <CARD name="EVOLVING_WILDS_276846" deckOrderId="37" />
+  <CARD name="EVOLVING_WILDS_276846" deckOrderId="38" />
+  <CARD name="EVOLVING_WILDS_276846" deckOrderId="39" />
+</DECK>

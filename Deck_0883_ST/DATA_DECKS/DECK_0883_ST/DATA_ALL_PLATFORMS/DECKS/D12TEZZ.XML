@@ -1,0 +1,44 @@
+<DECK personality="D12TEZZ.XML" deck_box_image="D12TEZZ" deck_box_image_locked="locked" content_pack="0" uid="883" preview_card="magister" is_black="true" is_blue="true" is_white="true">
+  <DECKSTATISTICS Size="6" Speed="5" Flex="6" Syn="7" />
+  <LandConfig minPlains="3" numSpellsThatCountAsLand="4" />
+  <CARD name="TERRAMORPHIC_EXPANSE_276987" deckOrderId="0" />
+  <CARD name="TERRAMORPHIC_EXPANSE_276987" deckOrderId="1" />
+  <CARD name="TERRAMORPHIC_EXPANSE_276987" deckOrderId="2" />
+  <CARD name="TERRAMORPHIC_EXPANSE_276987" deckOrderId="3" />
+  <CARD name="ETHERIUM_SCULPTOR_888176435" deckOrderId="4" />
+  <CARD name="ETHERIUM_SCULPTOR_888176435" deckOrderId="5" />
+  <CARD name="ETHERIUM_SCULPTOR_888176435" deckOrderId="6" />
+  <CARD name="ETHERIUM_SCULPTOR_888176435" deckOrderId="7" />
+  <CARD name="MASTER_OF_ETHERIUM_888222744" deckOrderId="8" />
+  <CARD name="STEEL_OVERSEER_888222714" deckOrderId="9" />
+  <CARD name="STEEL_OVERSEER_888222714" deckOrderId="10" />
+  <CARD name="PILGRIMS_EYE_888198367" deckOrderId="11" />
+  <CARD name="PILGRIMS_EYE_888198367" deckOrderId="12" />
+  <CARD name="MAGISTER_SPHINX_888220509" deckOrderId="13" />
+  <CARD name="SLEEP_276979" deckOrderId="14" />
+  <CARD name="DEAD_RECKONING_888194679" deckOrderId="15" />
+  <CARD name="RAZORFIELD_RHINO_888213815" deckOrderId="16" />
+  <CARD name="GO_FOR_THE_THROAT_277128" deckOrderId="17" />
+  <CARD name="GO_FOR_THE_THROAT_277128" deckOrderId="18" />
+  <CARD name="STOIC_REBUTTAL_888212703" deckOrderId="19" />
+  <CARD name="STOIC_REBUTTAL_888212703" deckOrderId="20" />
+  <CARD name="STOIC_REBUTTAL_888212703" deckOrderId="21" />
+  <CARD name="TIDEHOLLOW_STRIX_888175015" deckOrderId="22" />
+  <CARD name="TIDEHOLLOW_STRIX_888175015" deckOrderId="23" />
+  <CARD name="UNDERMINE_888259278" deckOrderId="24" />
+  <CARD name="SANCTUM_GARGOYLE_888220462" deckOrderId="25" />
+  <CARD name="WURMCOIL_ENGINE_888207875" deckOrderId="26" />
+  <CARD name="PSYCHOSIS_CRAWLER_888214047" deckOrderId="27" />
+  <CARD name="SPHINX_SOVEREIGN_888175107" deckOrderId="28" />
+  <CARD name="DAMNATION_276893" deckOrderId="29" />
+  <CARD name="CUMBER_STONE_888180322" deckOrderId="30" />
+  <CARD name="CUMBER_STONE_888180322" deckOrderId="31" />
+  <CARD name="SNAPSAIL_GLIDER_888209010" deckOrderId="32" />
+  <CARD name="SNAPSAIL_GLIDER_888209010" deckOrderId="33" />
+  <CARD name="SNAPSAIL_GLIDER_888209010" deckOrderId="34" />
+  <CARD name="DISPENSE_JUSTICE_888209015" deckOrderId="35" />
+  <CARD name="DISPENSE_JUSTICE_888209015" deckOrderId="36" />
+  <CARD name="SIGNAL_PEST_888213773" deckOrderId="37" />
+  <CARD name="SIGNAL_PEST_888213773" deckOrderId="38" />
+  <CARD name="ETCHED_CHAMPION_888215099" deckOrderId="39" />
+</DECK>

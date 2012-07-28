@@ -1,0 +1,8 @@
+<CONFIG>
+  <PLANESWALKER_NAME_TAG string="PLAYER_NAME_CSELESNYA" />
+  <LARGE_AVATAR_IMAGE string="88976" />
+  <MEDIUM_AVATAR_IMAGE string="PW_selesnya" />
+  <SMALL_AVATAR_IMAGE string="PW_selesnya" />
+  <SMALL_AVATAR_IMAGE_LOCKED string="PW_selesnya_locked" />
+  <MUSIC string="RAVNICA_MIX" />
+</CONFIG>

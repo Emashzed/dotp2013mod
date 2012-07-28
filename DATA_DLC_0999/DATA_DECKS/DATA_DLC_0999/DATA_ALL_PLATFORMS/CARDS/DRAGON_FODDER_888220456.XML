@@ -1,0 +1,52 @@
+﻿<?xml version='1.0'?>
+<CARD_V2>
+  <FILENAME text="DRAGON_FODDER_888220456" />
+  <CARDNAME text="DRAGON_FODDER" />
+  <TITLE>
+     <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Dragon Fodder]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Dragon Fodder]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Dragon Fodder]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Dragon Fodder]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Dragon Fodder]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[Dragon Fodder]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[Dragon Fodder]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Dragon Fodder]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Dragon Fodder]]></LOCALISED_TEXT>
+  </TITLE>
+  <MULTIVERSEID value="888220456" />
+  <ARTID value="888220456" />
+  <ARTIST name="Jaime Jones" />
+  <CASTING_COST cost="{1}{R}" />
+  <FLAVOURTEXT>
+     <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Goblins journey to the sacrificial peaks in pairs so that the rare survivor might be able to relate the details of the other’s grisly demise.]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Goblins journey to the sacrificial peaks in pairs so that the rare survivor might be able to relate the details of the other’s grisly demise.]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Goblins journey to the sacrificial peaks in pairs so that the rare survivor might be able to relate the details of the other’s grisly demise.]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Goblins journey to the sacrificial peaks in pairs so that the rare survivor might be able to relate the details of the other’s grisly demise.]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Goblins journey to the sacrificial peaks in pairs so that the rare survivor might be able to relate the details of the other’s grisly demise.]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[Goblins journey to the sacrificial peaks in pairs so that the rare survivor might be able to relate the details of the other’s grisly demise.]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[Goblins journey to the sacrificial peaks in pairs so that the rare survivor might be able to relate the details of the other’s grisly demise.]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Goblins journey to the sacrificial peaks in pairs so that the rare survivor might be able to relate the details of the other’s grisly demise.]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Goblins journey to the sacrificial peaks in pairs so that the rare survivor might be able to relate the details of the other’s grisly demise.]]></LOCALISED_TEXT>
+  </FLAVOURTEXT>
+  <TYPE metaname="Sorcery" />
+  <EXPANSION value="DPG" />
+  <RARITY metaname="C" />
+  <SPELL_ABILITY filter_zone="ZONE_IN_PLAY">
+     <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Put two 1/1 red Goblin creature tokens onto the battlefield.]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Put two 1/1 red Goblin creature tokens onto the battlefield.]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Put two 1/1 red Goblin creature tokens onto the battlefield.]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Put two 1/1 red Goblin creature tokens onto the battlefield.]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Put two 1/1 red Goblin creature tokens onto the battlefield.]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[Put two 1/1 red Goblin creature tokens onto the battlefield.]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[Put two 1/1 red Goblin creature tokens onto the battlefield.]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Put two 1/1 red Goblin creature tokens onto the battlefield.]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Put two 1/1 red Goblin creature tokens onto the battlefield.]]></LOCALISED_TEXT>
+	<RESOLUTION_TIME_ACTION>
+    local token_count = 2
+    if token_count &gt; 0 then
+    	MTG():PutTokensIntoPlay( "TOKEN_GOBLIN_1_1_300249", token_count, EffectController() )
+    end
+    </RESOLUTION_TIME_ACTION>
+  </SPELL_ABILITY>
+  <TOKEN_REGISTRATION reservation="1" type="TOKEN_GOBLIN_1_1_300249" />
+</CARD_V2>

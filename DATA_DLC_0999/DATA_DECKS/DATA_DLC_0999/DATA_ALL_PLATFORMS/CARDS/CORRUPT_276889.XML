@@ -1,0 +1,80 @@
+<?xml version='1.0'?>
+<CARD_V2>
+  <FILENAME text="CORRUPT_276889" />
+  <CARDNAME text="CORRUPT" />
+  <TITLE>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Corrupt]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Corruption]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Corromper]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Korruption]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Corrompere]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[堕落]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[타락]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Разложение]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Corromper]]></LOCALISED_TEXT>
+  </TITLE>
+  <MULTIVERSEID value="276889" />
+  <ARTID value="111602" />
+  <ARTIST name="Dave Allsop" />
+  <CASTING_COST cost="{5}{B}" />
+  <FLAVOURTEXT>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[The power of the fens sleeps lightly, and always awakens hungry.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[La puissance des maremmes a le sommeil léger, et toujours elle s’éveille affamée.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[El poder de las ciénagas duerme poco, y siempre se despierta hambriento.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Die Kraft der Moore schläft immer nur leicht, und erwacht immer hungrig.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Il potere delle zone paludose ha il sonno leggero e si sveglia sempre affamato.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[湿原の力の眠りは浅く、目覚めたときは常に飢えている。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[늪의 힘은 깊이 잠들어있는 경우가 없으며, 깨어있을 때는 항상 굶주려있다.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Трясина спит чутко и всегда просыпается голодной.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[O poder do pântano tem sono leve e acorda sempre faminto.]]></LOCALISED_TEXT>
+  </FLAVOURTEXT>
+  <TYPE metaname="Sorcery" />
+  <EXPANSION value="DPG" />
+  <RARITY metaname="U" />
+  <SPELL_ABILITY dangerous="1" filter_zone="ZONE_IN_PLAY">
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Corrupt deals damage equal to the number of Swamps you control to target creature or player. You gain life equal to the damage dealt this way.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[La Corruption inflige à une cible, créature ou joueur, un nombre de blessures égal au nombre de marais que vous contrôlez. Vous gagnez autant de points de vie que de blessures infligées de cette manière.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Corromper hace una cantidad de daño igual al número de pantanos que controles a la criatura o jugador objetivo. Ganas una cantidad de vida igual al daño hecho de esta manera.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Korruption fügt einer Kreatur oder einem Spieler deiner Wahl so viele Schadenspunkte zu, wie du Sümpfe kontrollierst. Du erhältst so viele Lebenspunkte dazu, wie auf diese Weise Schadenspunkte zugefügt wurden.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Corrompere infligge danno pari al numero di Paludi che controlli a una creatura o a un giocatore bersaglio. Guadagni punti vita pari ai danni inflitti in questo modo.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[クリーチャー１体かプレイヤー１人を対象とする。堕落はそれに、あなたがコントロールする沼の総数に等しい点数のダメージを与える。 あなたはこれにより与えたダメージに等しい点数のライフを得る。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[생물 한 개나 플레이어 한 명을 목표로 정한다. 타락은 그 목표에게 당신이 조종하는 늪의 개수만큼의 피해를 입힌다. 당신은 이렇게 입힌 피해만큼의 생명점을 얻는다.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Разложение наносит целевому существу или игроку повреждения, равные количеству Болот под вашим контролем. Вы получаете столько жизней, сколько повреждений было нанесено таким образом.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Corromper causa à criatura ou ao jogador alvo dano igual ao número de Pântanos que você controla. Você ganha uma quantidade de pontos de vida equivalente ao dano causado desta maneira.]]></LOCALISED_TEXT>
+    <TARGET_DEFINITION id="0">
+    local filter = Object():GetFilter()
+    filter:Clear()
+    filter:SetFilterType( FILTER_TYPE_CARDS + FILTER_TYPE_PLAYERS )
+    filter:SetZone( ZONE_IN_PLAY )
+    filter:SetHint( HINT_ENEMY_ONLY, EffectController() )
+    filter:AddCardType( CARD_TYPE_CREATURE )
+    </TARGET_DEFINITION>
+    <TARGET_DETERMINATION>
+    return AtLeastOneTargetFromDefinition(0)
+    </TARGET_DETERMINATION>
+    <PLAY_TIME_ACTION target_choosing="1">
+    EffectController():ChooseTarget( 0, "CARD_QUERY_CHOOSE_DEAL_SWAMPS_DAMAGE", EffectDC():Make_Targets(0) )
+    </PLAY_TIME_ACTION>
+    <RESOLUTION_TIME_ACTION>
+    local filter = Object():GetFilter()
+    filter:Clear()
+    filter:AddSubType( LAND_TYPE_SWAMP )
+    filter:SetZone( ZONE_IN_PLAY )
+    filter:SetPlayer( EffectController() )
+    filter:NotTargetted()
+    total = (filter:Count())
+    local target_creature = EffectDC():Get_Targets(0):Get_CardPtr(0)
+    local target_player = Object():GetTargetPlayer()
+    local damage_dealt = 0
+    if ( target_creature ) ~= nil then 
+    	damage_dealt = target_creature:DealDamage(total, Object())
+    elseif ( target_player ) ~= nil then
+    	damage_dealt = target_player:DealDamage(total, Object())
+    end
+    	
+    EffectController():GainLife( damage_dealt )
+    </RESOLUTION_TIME_ACTION>
+    <SFX text="TARGET_PESTS_PLAY" />
+  </SPELL_ABILITY>
+  <AI_BASE_SCORE score="1500" zone="ZONE_HAND" />
+</CARD_V2>

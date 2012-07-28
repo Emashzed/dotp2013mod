@@ -1,0 +1,110 @@
+<?xml version='1.0'?>
+<CARD_V2>
+  <FILENAME text="MARSHALS_ANTHEM_277357" />
+  <CARDNAME text="MARSHALS_ANTHEM" />
+  <TITLE>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Marshal’s Anthem]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Antienne du maréchal]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Himno del mariscal]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Hymne des Marschalls]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Inno del Maresciallo]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[司令官の頌歌]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[사령관의 찬가]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Гимн Маршала]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Antífona do Marechal]]></LOCALISED_TEXT>
+  </TITLE>
+  <MULTIVERSEID value="277357" />
+  <ARTID value="126585" />
+  <ARTIST name="Matt Stewart" />
+  <CASTING_COST cost="{2}{W}{W}" />
+  <TYPE metaname="Enchantment" />
+  <EXPANSION value="DPG" />
+  <RARITY metaname="R" />
+  <UTILITY_ABILITY filter_zone="ZONE_IN_PLAY">
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Multikicker {1}{W}]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Multikick {1}{W}]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Multiestímulo {1}{W}.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Multibonus {1}{W}]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Multipotenziamento {1}{W}]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[多重キッカー {1}{W}]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[다중향상 {1}{W}]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Мультиусилитель {1}{W}]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Multirreforçar {1}{W}]]></LOCALISED_TEXT>
+    <COST type="mana" cost="{1}{W}" qualifier="Multikicker" />
+  </UTILITY_ABILITY>
+  <STATIC_ABILITY filter_zone="ZONE_IN_PLAY">
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Creatures you control get +1/+1.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Les créatures que vous contrôlez gagnent +1/+1.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Las criaturas que controlas obtienen +1/+1.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Kreaturen, die du kontrollierst, erhalten +1/+1.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Le creature che controlli prendono +1/+1.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[あなたがコントロールするクリーチャーは＋１/＋１の修整を受ける。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[당신이 조종하는 생물들은 +1/+1을 받는다.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Существа под вашим контролем получают +1/+1.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[As criaturas que você controla recebem +1/+1.]]></LOCALISED_TEXT>
+    <FILTER>
+    return (FilteredCard() ~= nil and 
+    FilteredCard():GetCardType():Test( CARD_TYPE_CREATURE ) ~= 0 and 
+    FilteredCard():GetZone() == ZONE_IN_PLAY and  
+    FilteredCard():GetPlayer() == Object():GetPlayer())
+    </FILTER>
+    <CONTINUOUS_ACTION layer="7C">
+    if FilteredCard() ~= nil then
+    	local characteristics = FilteredCard():GetCurrentCharacteristics()
+    	if characteristics ~= nil then
+    		characteristics:Power_Add( 1 )
+    		characteristics:Toughness_Add( 1 )
+    	end
+    end
+    </CONTINUOUS_ACTION>
+  </STATIC_ABILITY>
+  <TRIGGERED_ABILITY filter_zone="ZONE_IN_PLAY">
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[When Marshal’s Anthem enters the battlefield, return up to X target creature cards from your graveyard to the battlefield, where X is the number of times Marshal’s Anthem was kicked.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Quand l’Antienne du maréchal arrive sur le champ de bataille, renvoyez sur le champ de bataille jusqu’à X cartes de créature ciblées de votre cimetière, X étant le nombre de fois que l’Antienne du maréchal a été kickée.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Cuando el Himno del mariscal entre al campo de batalla, regresa hasta X cartas de criatura objetivo de tu cementerio al campo de batalla, donde X es igual al número de veces que el Himno del mariscal fue estimulado.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Wenn die Hymne des Marschalls ins Spiel kommt, bringe bis zu X Kreaturenkarten deiner Wahl aus deinem Friedhof ins Spiel zurück, wobei X gleich der Anzahl ist, wie oft du die Bonuskosten der Hymne des Marschalls gezahlt hast.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Quando l’Inno del Maresciallo entra nel campo di battaglia, rimetti sul campo di battaglia fino a X carte creatura bersaglio dal tuo cimitero, dove X è il numero di volte che l’Inno del Maresciallo è stato potenziato.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[司令官の頌歌が戦場に出たとき、あなたの墓地にあるクリーチャー・カードを最大X枚まで対象とし、それらを戦場に戻す。Xは司令官の頌歌がキッカーされている回数に等しい。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[사령관의 찬가가 전장에 들어올 때, 당신의 무덤에 있는 생물 카드 최대 X장을 목표로 정한다. 그 카드들을 전장으로 되돌린다. X는 사령관의 찬가가 향상된 횟수다.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Когда Гимн Маршала выходит на поле битвы, верните не более X целевых карт существ из вашего кладбища на поле битвы, где X — количество Усилителей, полученных Гимном Маршала.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Quando Antífona do Marechal entrar no campo de batalha, devolva ao campo de batalha até X cards de criatura alvos de seu cemitério, sendo X igual ao número de vezes que Antífona do Marechal foi reforçado.]]></LOCALISED_TEXT>
+    <TRIGGER value="ZONECHANGE_END" simple_qualifier="self" to_zone="ZONE_IN_PLAY" />
+    <TARGET_DEFINITION id="0">
+    local filter = Object():GetFilter()
+    filter:Clear()
+    filter:AddCardType( CARD_TYPE_CREATURE )
+    filter:SetPlayer( EffectController() )
+    filter:SetZone( ZONE_GRAVEYARD )
+    filter:SetHint( HINT_ALLIED_ONLY, EffectController() )
+    filter:May()
+    </TARGET_DEFINITION>
+    <TARGET_DETERMINATION>
+    return AtLeastOneTargetFromDefinition(0)
+    </TARGET_DETERMINATION>
+    <PLAY_TIME_ACTION target_choosing="1">
+    local filter = Object():GetFilter()
+    local player = EffectController()
+    local kicked = Object():Kicked()
+    if kicked &gt; 0 then
+    	player:SetTargetCount( kicked )
+    	player:SetTargetPrompt( 0, "CARD_QUERY_CHOOSE_CARD_TO_PUT_ONTO_BATTLEFIELD" )
+    	player:ChooseTargets( 0, EffectDC():Make_Targets(0))
+    end
+    </PLAY_TIME_ACTION>
+    <RESOLUTION_TIME_ACTION>
+    local targets = EffectDC():Get_Targets(0)
+    if targets ~= nil then
+    	local target_card = targets:Get_CardPtr(0)
+    	local i = 1
+    	while (target_card ~= nil) do
+    		target_card:PutIntoPlay(EffectController())
+    		target_card = targets:Get_CardPtr(i)
+    		i=i+1
+    	end
+    end
+    </RESOLUTION_TIME_ACTION>
+    <SFX text="TARGET_PLAYER_PEACE_PLAY" />
+  </TRIGGERED_ABILITY>
+  <HELP title="MORE_INFO_TITLE_KICKER" body="MORE_INFO_BODY_KICKER" zone="ZONE_ANY" />
+  <AI_BASE_SCORE score="1500" zone="ZONE_HAND" />
+</CARD_V2>

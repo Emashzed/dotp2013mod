@@ -1,0 +1,38 @@
+<DECK personality="D13_VERDE_DEFAULT.XML" deck_box_image="D13_VERDE" deck_box_image_locked="locked" content_pack="0" always_available="true" uid="120" preview_card="timber_protector" is_green="true">
+  <DECKSTATISTICS Size="?" Speed="5" Flex="3" Syn="6" />
+  <CARD name="HEARTWOOD_STORYTELLER_888132216" deckOrderId="0" />
+  <CARD name="HEARTWOOD_STORYTELLER_888132216" deckOrderId="1" />
+  <CARD name="HEARTWOOD_STORYTELLER_888132216" deckOrderId="2" />
+  <CARD name="HEARTWOOD_STORYTELLER_888132216" deckOrderId="3" />
+  <CARD name="TIMBER_PROTECTOR_888139690" deckOrderId="4" />
+  <CARD name="TIMBER_PROTECTOR_888139690" deckOrderId="5" />
+  <CARD name="TIMBER_PROTECTOR_888139690" deckOrderId="6" />
+  <CARD name="TIMBER_PROTECTOR_888139690" deckOrderId="7" />
+  <CARD name="BATTLEWAND_OAK_888141857" deckOrderId="8" />
+  <CARD name="BATTLEWAND_OAK_888141857" deckOrderId="9" />
+  <CARD name="BATTLEWAND_OAK_888141857" deckOrderId="10" />
+  <CARD name="BATTLEWAND_OAK_888141857" deckOrderId="11" />
+  <CARD name="WOODFALL_PRIMUS_888151987" deckOrderId="12" />
+  <CARD name="WOODFALL_PRIMUS_888151987" deckOrderId="13" />
+  <CARD name="BOSK_BANNERET_888152557" deckOrderId="14" />
+  <CARD name="BOSK_BANNERET_888152557" deckOrderId="15" />
+  <CARD name="BOSK_BANNERET_888152557" deckOrderId="16" />
+  <CARD name="BOSK_BANNERET_888152557" deckOrderId="17" />
+  <CARD name="SCUTE_MOB_277374" deckOrderId="18" />
+  <CARD name="SCUTE_MOB_277374" deckOrderId="19" />
+  <CARD name="SCUTE_MOB_277374" deckOrderId="20" />
+  <CARD name="SCUTE_MOB_277374" deckOrderId="21" />
+  <CARD name="AWAKENER_DRUID_288698" deckOrderId="22" />
+  <CARD name="AWAKENER_DRUID_288698" deckOrderId="23" />
+  <CARD name="AWAKENER_DRUID_288698" deckOrderId="24" />
+  <CARD name="AWAKENER_DRUID_288698" deckOrderId="25" />
+  <CARD name="VERDELOTH_THE_ANCIENT_277324" deckOrderId="26" />
+  <CARD name="DUNGROVE_ELDER_280058" deckOrderId="27" />
+  <CARD name="DUNGROVE_ELDER_280058" deckOrderId="28" />
+  <CARD name="DUNGROVE_ELDER_280058" deckOrderId="29" />
+  <CARD name="DUNGROVE_ELDER_280058" deckOrderId="30" />
+  <CARD name="DAUNTLESS_DOURBARK_888141851" deckOrderId="31" />
+  <CARD name="DAUNTLESS_DOURBARK_888141851" deckOrderId="32" />
+  <CARD name="DAUNTLESS_DOURBARK_888141851" deckOrderId="33" />
+  <CARD name="DAUNTLESS_DOURBARK_888141851" deckOrderId="34" />
+</DECK>
