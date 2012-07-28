@@ -1,0 +1,103 @@
+<?xml version='1.0'?>
+<CARD_V2>
+  <FILENAME text="KAERVEK_THE_MERCILESS_277332" />
+  <CARDNAME text="KAERVEK_THE_MERCILESS" />
+  <TITLE>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Kaervek the Merciless]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Kærvek l’impitoyable]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Kaervek el despiadado]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Kaervek der Gnadenlose]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Kaervek lo Spietato]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[無慈悲なる者ケアヴェク]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[무자비한 케어벡]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Кайервек, Беспощадный]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Kaervek, o Impiedoso]]></LOCALISED_TEXT>
+  </TITLE>
+  <MULTIVERSEID value="277332" />
+  <ARTID value="97423" />
+  <ARTIST name="rk post" />
+  <CASTING_COST cost="{5}{B}{R}" />
+  <FLAVOURTEXT>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[“Rats and jackals feast in his swath, but even they will not walk with him.”
+—Mangara]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[« Rats et chacals festoient dans son sillage, mais même eux n’osent l’accompagner. »
+—Mangara]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[“Las ratas y los chacales festejan a su paso, pero no caminan con él.”
+—Mangara]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[„Viele Ratten und Schakale werden von den Leichen satt, die seinen Weg pflastern – wenn sie genügend Abstand halten.“
+—Mangara]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[“Topi e sciacalli banchettano nella sua scia, ma neppure loro cammineranno al suo fianco.”
+—Mangara]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[鼠やジャッカルは彼の通り道にたかっているが、それでも共に歩こうとはしていない。
+—マンガラ]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[“그가 죽인 적을 먹고사는 쥐나 자칼도차도 그와 함께 다니지는 않는다.”
+—망가라]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[«Там, где он проходит, пируют крысы и шакалы, но даже они не стали бы его спутниками».
+— Мангара]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[“Ratos e chacais alimentam-se de suas gavelas, mas nem mesmo eles caminhariam ao seu lado.”
+— Mangara]]></LOCALISED_TEXT>
+  </FLAVOURTEXT>
+  <SUPERTYPE metaname="Legendary" />
+  <TYPE metaname="Creature" />
+  <SUB_TYPE metaname="Human" order_de-DE="0" order_es-ES="1" order_fr-FR="0" order_it-IT="1" order_jp-JA="0" order_ko-KR="0" order_pt-BR="0" order_ru-RU="0" />
+  <SUB_TYPE metaname="Shaman" order_de-DE="1" order_es-ES="0" order_fr-FR="1" order_it-IT="0" order_jp-JA="1" order_ko-KR="1" order_pt-BR="1" order_ru-RU="1" />
+  <EXPANSION value="DPG" />
+  <RARITY metaname="R" />
+  <POWER value="5" />
+  <TOUGHNESS value="4" />
+  <TRIGGERED_ABILITY LKI_shield_effect_source="1" dangerous="1" filter_zone="ZONE_IN_PLAY" active_zone="ZONE_IN_PLAY">
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Whenever an opponent casts a spell, Kaervek the Merciless deals damage to target creature or player equal to that spell’s converted mana cost.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[À chaque fois qu’un adversaire lance un sort, Kærvek l’impitoyable inflige un nombre de blessures égal au coût converti de mana de ce sort à une cible, créature ou joueur.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Siempre que un oponente lance un hechizo, Kaervek el despiadado hace daño a la criatura o jugador objetivo igual al coste de maná convertido de ese hechizo.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Immer wenn ein Gegner einen Zauberspruch wirkt, fügt Kaervek der Gnadenlose einer Kreatur oder einem Spieler deiner Wahl Schadenspunkte in Höhe der umgewandelten Manakosten dieses Zauberspruchs zu.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Ogniqualvolta un avversario lancia una magia, Kaervek lo Spietato infligge danno pari al costo di mana convertito di quella magia a una creatura o a un giocatore bersaglio.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[いずれかの対戦相手が呪文を唱えるたび、クリーチャー１体かプレイヤー１人を対象とする。無慈悲なる者ケアヴェクはそれに、その呪文の点数で見たマナ・コストに等しい点数のダメージを与える。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[상대가 주문을 발동할 때마다, 생물 한 개나 플레이어 한 명을 목표로 정한다. 무자비한 케어벡은 그 목표에게 그 주문의 전환마나비용만큼의 피해를 입힌다.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Каждый раз, когда оппонент разыгрывает заклинание, Кайервек, Беспощадный наносит целевому существу или игроку повреждения, равные конвертированной мана-стоимости того заклинания.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Toda vez que um oponente conjura uma mágica, Kaervek, o Impiedoso causa à criatura ou ao jogador alvo um dano igual ao custo de mana convertido da mágica.]]></LOCALISED_TEXT>
+    <TRIGGER value="SPELL_PLAYED">
+    return TriggerPlayer():GetTeam() ~= EffectController():GetTeam()
+    </TRIGGER>
+    <TARGET_DEFINITION id="0">
+    local filter = Object():GetFilter()
+    filter:Clear()
+    filter:SetFilterType( FILTER_TYPE_CARDS + FILTER_TYPE_PLAYERS )
+    filter:SetZone( ZONE_IN_PLAY )
+    filter:SetHint( HINT_ENEMY_ONLY, EffectController() )
+    filter:AddCardType( CARD_TYPE_CREATURE )
+    </TARGET_DEFINITION>
+    <TARGET_DETERMINATION>
+    return AtLeastOneTargetFromDefinition(0)
+    </TARGET_DETERMINATION>
+    <PLAY_TIME_ACTION target_choosing="1">
+    local spell = TriggerObject()
+    if spell ~= nil then
+    	EffectController():SetCustomQueryInstructionValue( spell:GetConvertedManaCost() )
+    end
+    EffectController():ChooseTarget( 0, "CARD_QUERY_CHOOSE_DEAL_DAMAGE_AMOUNT", EffectDC():Make_Targets(0) )
+    </PLAY_TIME_ACTION>
+    <PLAY_TIME_ACTION>
+    local spell = TriggerObject()
+    if spell ~= nil then
+    	EffectDC():Set_Int(1, spell:GetConvertedManaCost())
+    end
+    </PLAY_TIME_ACTION>
+    <RESOLUTION_TIME_ACTION>
+    local cmc = EffectDC():Get_Int(1)
+    local target_creature = EffectDC():Get_Targets(0):Get_CardPtr(0)
+    local target_player = EffectDC():Get_Targets(0):Get_PlayerPtr(0)
+    local source = EffectSource()
+    if source == nil then
+    	source = Object()
+    end
+    if ( target_creature ~= nil ) then   
+    	target_creature:DealDamage(cmc, source)  
+    elseif( target_player ~= nil ) then   
+    	target_player:DealDamage(cmc, source)
+    end
+    </RESOLUTION_TIME_ACTION>
+  </TRIGGERED_ABILITY>
+  <SFX text="COMBAT_FLAME_LARGE_ATTACK" power_boundary_min="4" power_boundary_max="-1" />
+  <SFX text="COMBAT_FLAME_SMALL_ATTACK" power_boundary_min="1" power_boundary_max="3" />
+  <AI_BASE_SCORE score="900" zone="ZONE_IN_PLAY" />
+</CARD_V2>

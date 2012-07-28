@@ -1,0 +1,111 @@
+﻿<?xml version='1.0'?>
+<CARD_V2>
+  <FILENAME text="NYXATHID_888186616" />
+  <CARDNAME text="NYXATHID" />
+  <TITLE>
+     <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Nyxathid]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Nyxathid]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Nyxathid]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Nyxathid]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Nyxathid]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[Nyxathid]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[Nyxathid]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Nyxathid]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Nyxathid]]></LOCALISED_TEXT>
+  </TITLE>
+  <MULTIVERSEID value="888186616" />
+  <ARTID value="888186616" />
+  <ARTIST name="Raymond Swanland" />
+  <CASTING_COST cost="{1}{B}{B}" />
+  <FLAVOURTEXT>
+     <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Born of volcanic forces, it thrives on the absolute panic it inspires.]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Born of volcanic forces, it thrives on the absolute panic it inspires.]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Born of volcanic forces, it thrives on the absolute panic it inspires.]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Born of volcanic forces, it thrives on the absolute panic it inspires.]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Born of volcanic forces, it thrives on the absolute panic it inspires.]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[Born of volcanic forces, it thrives on the absolute panic it inspires.]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[Born of volcanic forces, it thrives on the absolute panic it inspires.]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Born of volcanic forces, it thrives on the absolute panic it inspires.]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Born of volcanic forces, it thrives on the absolute panic it inspires.]]></LOCALISED_TEXT>
+  </FLAVOURTEXT>
+  <TYPE metaname="Creature" />
+  <SUB_TYPE metaname="Elemental" order_de-DE="0" order_es-ES="0" order_fr-FR="0" order_it-IT="0" order_jp-JA="0" order_ko-KR="0" order_pt-BR="0" order_ru-RU="0" />
+  <EXPANSION value="DPG" />
+  <RARITY metaname="R" />
+  <POWER value="7" />
+  <TOUGHNESS value="7" />
+  <TRIGGERED_ABILITY pre_trigger="1" replacement_query="1" active_zone="ZONE_TRANSITION">
+     <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[As Nyxathid enters the battlefield, choose an opponent.]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[As Nyxathid enters the battlefield, choose an opponent.]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[As Nyxathid enters the battlefield, choose an opponent.]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[As Nyxathid enters the battlefield, choose an opponent.]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[As Nyxathid enters the battlefield, choose an opponent.]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[As Nyxathid enters the battlefield, choose an opponent.]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[As Nyxathid enters the battlefield, choose an opponent.]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[As Nyxathid enters the battlefield, choose an opponent.]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[As Nyxathid enters the battlefield, choose an opponent.]]></LOCALISED_TEXT>
+	<TRIGGER value="ZONECHANGE_TRANSITION" simple_qualifier="self" to_zone="ZONE_IN_PLAY" />
+	<TARGET_DEFINITION id="0">
+    local filter = Object():GetFilter()
+    filter:Clear()
+    filter:SetFilterType( FILTER_TYPE_PLAYERS + FILTER_TYPE_OPPONENTS)
+    filter:SetOwner( EffectController() )
+    filter:SetHint( HINT_ENEMY_ONLY, EffectController() )
+	filter:NotTargetted()
+    </TARGET_DEFINITION>
+    <TARGET_DETERMINATION>
+    return AtLeastOneTargetFromDefinition(0)
+    </TARGET_DETERMINATION>
+    <PLAY_TIME_ACTION target_choosing="1">
+    EffectController():ChooseTarget( 0, "CARD_QUERY_CHOOSE_OPPONENT", EffectDC():Make_Targets(0) )
+    </PLAY_TIME_ACTION>
+	<RESOLUTION_TIME_ACTION>
+    local player = EffectDC():Get_Targets(0):Get_PlayerPtr(0)    
+    local delayDC = EffectDC():Make_Chest(1)
+    delayDC:Set_PlayerPtr(0, player)
+            
+    MTG():CreateDelayedTrigger(1, delayDC)
+    </RESOLUTION_TIME_ACTION>
+    <RESOLUTION_TIME_ACTION>
+    EffectDC():Protect_CardPtr( COMPARTMENT_ID_EFFECT_SOURCE )
+    </RESOLUTION_TIME_ACTION>
+    <CONTINUOUS_ACTION layer="0">
+    local player = ObjectDC():Get_PlayerPtr(0)
+    if player ~= nil then
+    	player:AddBadge(PLAYER_BADGE_ICON_CHOSEN_PLAYER, "PLAYER_CHOSEN_ICON")
+    end
+    </CONTINUOUS_ACTION>
+    <DURATION>
+    return (EffectSource() == nil)
+    </DURATION>
+  </TRIGGERED_ABILITY>
+  <STATIC_ABILITY>
+     <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Nyxathid gets -1/-1 for each card in the chosen player’s hand.]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Nyxathid gets -1/-1 for each card in the chosen player’s hand.]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Nyxathid gets -1/-1 for each card in the chosen player’s hand.]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Nyxathid gets -1/-1 for each card in the chosen player’s hand.]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Nyxathid gets -1/-1 for each card in the chosen player’s hand.]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[Nyxathid gets -1/-1 for each card in the chosen player’s hand.]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[Nyxathid gets -1/-1 for each card in the chosen player’s hand.]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Nyxathid gets -1/-1 for each card in the chosen player’s hand.]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Nyxathid gets -1/-1 for each card in the chosen player’s hand.]]></LOCALISED_TEXT>
+	<CONTINUOUS_ACTION layer="7C">
+    local chosen_opponent = ObjectDC():Get_PlayerPtr(0)
+	if chosen_opponent ~= nil then
+		local total = CountCardsInHand( chosen_opponent )
+		local characteristics = Object():GetCurrentCharacteristics()  
+		characteristics:Power_Add( -total )
+		characteristics:Toughness_Add( -total )
+	end
+    </CONTINUOUS_ACTION>
+  </STATIC_ABILITY>
+  <TRIGGERED_ABILITY internal="1" resource_id="1" active_zone="ZONE_IN_PLAY">
+    <TRIGGER value="ZONECHANGE_END" simple_qualifier="self" to_zone="ZONE_IN_PLAY" />
+    <CLEANUP fire_once="1" />
+    <RESOLUTION_TIME_ACTION>
+    ObjectDC():Set_PlayerPtr(0, EffectDC():Get_PlayerPtr(0))
+    </RESOLUTION_TIME_ACTION>
+  </TRIGGERED_ABILITY>
+  <SFX text="COMBAT_BLUNT_LARGE_ATTACK" power_boundary_min="4" power_boundary_max="-1" />
+  <SFX text="COMBAT_BLUNT_SMALL_ATTACK" power_boundary_min="1" power_boundary_max="3" />
+</CARD_V2>

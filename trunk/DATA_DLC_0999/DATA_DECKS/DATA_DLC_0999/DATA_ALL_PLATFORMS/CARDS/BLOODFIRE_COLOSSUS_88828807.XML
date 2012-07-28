@@ -1,0 +1,76 @@
+﻿<?xml version='1.0'?>
+<CARD_V2>
+  <FILENAME text="BLOODFIRE_COLOSSUS_88828807" />
+  <CARDNAME text="BLOODFIRE_COLOSSUS" />
+  <TITLE>
+     <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Bloodfire Colossus]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Bloodfire Colossus]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Bloodfire Colossus]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Bloodfire Colossus]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Bloodfire Colossus]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[Bloodfire Colossus]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[Bloodfire Colossus]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Bloodfire Colossus]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Bloodfire Colossus]]></LOCALISED_TEXT>
+  </TITLE>
+  <MULTIVERSEID value="88828807" />
+  <ARTID value="88828807" />
+  <ARTIST name="Greg Staples" />
+  <CASTING_COST cost="{6}{R}{R}" />
+  <FLAVOURTEXT>
+     <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[It took all its strength to contain the fire within.]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[It took all its strength to contain the fire within.]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[It took all its strength to contain the fire within.]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[It took all its strength to contain the fire within.]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[It took all its strength to contain the fire within.]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[It took all its strength to contain the fire within.]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[It took all its strength to contain the fire within.]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[It took all its strength to contain the fire within.]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[It took all its strength to contain the fire within.]]></LOCALISED_TEXT>
+  </FLAVOURTEXT>
+  <TYPE metaname="Creature" />
+  <SUB_TYPE metaname="Giant" order_de-DE="0" order_es-ES="0" order_fr-FR="0" order_it-IT="0" order_jp-JA="0" order_ko-KR="0" order_pt-BR="0" order_ru-RU="0" />
+  <EXPANSION value="DPG" />
+  <RARITY metaname="R" />
+  <POWER value="6" />
+  <TOUGHNESS value="6" />
+  <ACTIVATED_ABILITY LKI_shield_effect_source="1" dangerous="1" filter_zone="ZONE_IN_PLAY_AND_PLAYERS">
+     <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[{R}, Sacrifice Bloodfire Colossus: Bloodfire Colossus deals 6 damage to each creature and each player.]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[{R}, Sacrifice Bloodfire Colossus: Bloodfire Colossus deals 6 damage to each creature and each player.]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[{R}, Sacrifice Bloodfire Colossus: Bloodfire Colossus deals 6 damage to each creature and each player.]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[{R}, Sacrifice Bloodfire Colossus: Bloodfire Colossus deals 6 damage to each creature and each player.]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[{R}, Sacrifice Bloodfire Colossus: Bloodfire Colossus deals 6 damage to each creature and each player.]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[{R}, Sacrifice Bloodfire Colossus: Bloodfire Colossus deals 6 damage to each creature and each player.]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[{R}, Sacrifice Bloodfire Colossus: Bloodfire Colossus deals 6 damage to each creature and each player.]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[{R}, Sacrifice Bloodfire Colossus: Bloodfire Colossus deals 6 damage to each creature and each player.]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[{R}, Sacrifice Bloodfire Colossus: Bloodfire Colossus deals 6 damage to each creature and each player.]]></LOCALISED_TEXT>
+    <COST type="Mana" cost="{R}" />
+	<COST type="SacrificeSelf" />
+	<FILTER>
+    return (FilteredCard() ~= nil and
+    FilteredCard():GetCardType():Test( CARD_TYPE_CREATURE ) ~= 0 and
+    (FilteredCard():GetZone() == ZONE_IN_PLAY)) or
+    (FilteredPlayer() ~= nil)
+    </FILTER>
+    <RESOLUTION_TIME_ACTION>
+    local source = EffectSource()
+    if source == nil then
+      source = Object()
+    end
+    if (FilteredPlayer() ~= nil) then   
+    	FilteredPlayer():DealDamage( 6 , source)  
+    elseif (FilteredCard() ~= nil) then   
+    	FilteredCard():DealDamage( 6 , source )  
+    end
+    </RESOLUTION_TIME_ACTION>
+    <AI_AVAILABILITY type="in_response" />
+    <AI_AVAILABILITY step="begin_combat" turn="their_turn" />
+    <AI_AVAILABILITY step="main_1" turn="my_turn" />
+    <AI_AVAILABILITY step="declare_attackers" turn="their_turn" />
+    <AI_AVAILABILITY step="declare_blockers" />
+    <AI_AVAILABILITY step="end_of_turn" />
+	<SFX text="GLOBAL_MAGMA_PLAY" />
+  </ACTIVATED_ABILITY>
+  <SFX text="COMBAT_BLUNT_LARGE_ATTACK" power_boundary_min="4" power_boundary_max="-1" />
+  <SFX text="COMBAT_BLUNT_SMALL_ATTACK" power_boundary_min="1" power_boundary_max="3" />
+</CARD_V2>

@@ -1,0 +1,91 @@
+﻿<?xml version='1.0'?>
+<CARD_V2>
+  <FILENAME text="ANGER_888266061" />
+  <CARDNAME text="ANGER" />
+  <TITLE>
+     <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Anger]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Anger]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Anger]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Anger]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Anger]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[Anger]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[Anger]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Anger]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Anger]]></LOCALISED_TEXT>
+  </TITLE>
+  <MULTIVERSEID value="888266061" />
+  <ARTID value="888266061" />
+  <ARTIST name="Svetlin Velinov" />
+  <CASTING_COST cost="{3}{R}" />
+  <FLAVOURTEXT>
+     <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[“Molten earth has no anger of its own. Only by infusing it with your own rage can the magma seethe and take shape.”
+—Koth of the Hammer]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[“Molten earth has no anger of its own. Only by infusing it with your own rage can the magma seethe and take shape.”
+—Koth of the Hammer]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[“Molten earth has no anger of its own. Only by infusing it with your own rage can the magma seethe and take shape.”
+—Koth of the Hammer]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[“Molten earth has no anger of its own. Only by infusing it with your own rage can the magma seethe and take shape.”
+—Koth of the Hammer]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[“Molten earth has no anger of its own. Only by infusing it with your own rage can the magma seethe and take shape.”
+—Koth of the Hammer]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[“Molten earth has no anger of its own. Only by infusing it with your own rage can the magma seethe and take shape.”
+—Koth of the Hammer]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[“Molten earth has no anger of its own. Only by infusing it with your own rage can the magma seethe and take shape.”
+—Koth of the Hammer]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[“Molten earth has no anger of its own. Only by infusing it with your own rage can the magma seethe and take shape.”
+—Koth of the Hammer]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[“Molten earth has no anger of its own. Only by infusing it with your own rage can the magma seethe and take shape.”
+—Koth of the Hammer]]></LOCALISED_TEXT>
+  </FLAVOURTEXT>
+  <TYPE metaname="Creature" />
+  <SUB_TYPE metaname="Incarnation" order_de-DE="0" order_es-ES="0" order_fr-FR="0" order_it-IT="0" order_jp-JA="0" order_ko-KR="0" order_pt-BR="0" order_ru-RU="0" />
+  <EXPANSION value="DPG" />
+  <RARITY metaname="U" />
+  <POWER value="2" />
+  <TOUGHNESS value="2" />
+  <STATIC_ABILITY>
+     <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Haste]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Haste]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Haste]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Haste]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Haste]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[Haste]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[Haste]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Haste]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Haste]]></LOCALISED_TEXT>
+    <CONTINUOUS_ACTION>
+    local characteritics = Object():GetCurrentCharacteristics()
+    characteritics:Characteristic_Set( CHARACTERISTIC_HASTE, 1 )
+    </CONTINUOUS_ACTION>
+  </STATIC_ABILITY>
+  <STATIC_ABILITY filter_zone="ZONE_IN_PLAY" active_zone="ZONE_GRAVEYARD">
+     <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[As long as Anger is in your graveyard and you control a Mountain, creatures you control have haste.]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[As long as Anger is in your graveyard and you control a Mountain, creatures you control have haste.]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[As long as Anger is in your graveyard and you control a Mountain, creatures you control have haste.]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[As long as Anger is in your graveyard and you control a Mountain, creatures you control have haste.]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[As long as Anger is in your graveyard and you control a Mountain, creatures you control have haste.]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[As long as Anger is in your graveyard and you control a Mountain, creatures you control have haste.]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[As long as Anger is in your graveyard and you control a Mountain, creatures you control have haste.]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[As long as Anger is in your graveyard and you control a Mountain, creatures you control have haste.]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[As long as Anger is in your graveyard and you control a Mountain, creatures you control have haste.]]></LOCALISED_TEXT>
+    <FILTER>
+    return CreaturesYouControl()
+    </FILTER>
+    <CONTINUOUS_ACTION layer="6">
+    local filter = Object():GetFilter()
+    filter:Clear()
+    filter:NotTargetted()
+    filter:AddSubType( LAND_TYPE_MOUNTAIN )
+    filter:SetZone( ZONE_IN_PLAY )
+    filter:SetController( Object():GetOwner() )
+    if filter:CountStopAt( 1 ) &gt; 0 then
+    	if FilteredCard() ~= nil then
+    		FilteredCard():GetCurrentCharacteristics():Characteristic_Set( CHARACTERISTIC_HASTE, 1 )
+    	end
+    end
+    </CONTINUOUS_ACTION>
+  </STATIC_ABILITY>
+  <HELP title="MORE_INFO_BADGE_TITLE_14" body="MORE_INFO_BADGE_BODY_14" zone="ZONE_ANY" />
+  <SFX text="COMBAT_CLAW_LARGE_ATTACK" power_boundary_min="4" power_boundary_max="-1" />
+  <SFX text="COMBAT_CLAW_SMALL_ATTACK" power_boundary_min="1" power_boundary_max="3" />
+</CARD_V2>

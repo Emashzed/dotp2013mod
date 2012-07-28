@@ -1,0 +1,80 @@
+﻿<?xml version='1.0'?>
+<CARD_V2>
+  <FILENAME text="HEARTWOOD_STORYTELLER_888132216" />
+  <CARDNAME text="HEARTWOOD_STORYTELLER" />
+  <TITLE>
+     <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Heartwood Storyteller]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Heartwood Storyteller]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Heartwood Storyteller]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Heartwood Storyteller]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Heartwood Storyteller]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[Heartwood Storyteller]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[Heartwood Storyteller]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Heartwood Storyteller]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Heartwood Storyteller]]></LOCALISED_TEXT>
+  </TITLE>
+  <MULTIVERSEID value="888132216" />
+  <ARTID value="888132216" />
+  <ARTIST name="Anthony S. Waters" />
+  <CASTING_COST cost="{1}{G}{G}" />
+  <FLAVOURTEXT>
+     <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[His roots reach deep, nurtured not by soil and rain, but by millennia of experience.]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[His roots reach deep, nurtured not by soil and rain, but by millennia of experience.]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[His roots reach deep, nurtured not by soil and rain, but by millennia of experience.]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[His roots reach deep, nurtured not by soil and rain, but by millennia of experience.]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[His roots reach deep, nurtured not by soil and rain, but by millennia of experience.]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[His roots reach deep, nurtured not by soil and rain, but by millennia of experience.]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[His roots reach deep, nurtured not by soil and rain, but by millennia of experience.]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[His roots reach deep, nurtured not by soil and rain, but by millennia of experience.]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[His roots reach deep, nurtured not by soil and rain, but by millennia of experience.]]></LOCALISED_TEXT>
+  </FLAVOURTEXT>
+  <TYPE metaname="Creature" />
+  <SUB_TYPE metaname="Treefolk" order_de-DE="0" order_es-ES="0" order_fr-FR="0" order_it-IT="0" order_jp-JA="0" order_ko-KR="0" order_pt-BR="0" order_ru-RU="0" />
+  <EXPANSION value="DPG" />
+  <RARITY metaname="R" />
+  <POWER value="2" />
+  <TOUGHNESS value="3" />
+  <TRIGGERED_ABILITY auto_skip="1" filter_zone="ZONE_IN_PLAY">
+     <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Whenever a player casts a noncreature spell, each of that player’s opponents may draw a card.]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Whenever a player casts a noncreature spell, each of that player’s opponents may draw a card.]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Whenever a player casts a noncreature spell, each of that player’s opponents may draw a card.]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Whenever a player casts a noncreature spell, each of that player’s opponents may draw a card.]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Whenever a player casts a noncreature spell, each of that player’s opponents may draw a card.]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[Whenever a player casts a noncreature spell, each of that player’s opponents may draw a card.]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[Whenever a player casts a noncreature spell, each of that player’s opponents may draw a card.]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Whenever a player casts a noncreature spell, each of that player’s opponents may draw a card.]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Whenever a player casts a noncreature spell, each of that player’s opponents may draw a card.]]></LOCALISED_TEXT>
+    <TRIGGER value="SPELL_PLAYED">
+    return (TriggerObject():GetCardType():Test( CARD_TYPE_CREATURE ) == 0)
+    </TRIGGER>
+	<RESOLUTION_TIME_ACTION repeating="1">
+	local effectplayer = TriggerObject():GetPlayer()
+	local n = MTG():GetActionRepCount()
+    local parity = n % 2
+    local num_players = MTG():GetNumberOfPlayers()
+    local player = MTG():GetNthPlayer(n/2)
+    if player ~= nil and n &lt; num_players*2 then
+		if player:GetTeam() ~= effectplayer:GetTeam() then
+			if parity == 0 then
+				-- ask question
+				player:BeginNewMultipleChoice()
+				player:AddMultipleChoiceAnswer( "CARD_QUERY_OPTION_YES" )
+				player:AddMultipleChoiceAnswer( "CARD_QUERY_OPTION_NO" )
+				player:AskMultipleChoiceQuestion( "CARD_QUERY_DRAW_A_CARD" )
+			else
+				-- draw
+				local decision = Object():GetMultipleChoiceResult()
+				if decision == 0 then
+					PlayerDrawCards( player, 1 )
+				end
+			end
+		end
+		return true
+    else
+		return false
+    end
+    </RESOLUTION_TIME_ACTION>
+  </TRIGGERED_ABILITY>
+  <SFX text="COMBAT_BLUNT_LARGE_ATTACK" power_boundary_min="4" power_boundary_max="-1" />
+  <SFX text="COMBAT_BLUNT_SMALL_ATTACK" power_boundary_min="1" power_boundary_max="3" />
+</CARD_V2>

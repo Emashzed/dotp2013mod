@@ -1,0 +1,125 @@
+﻿<?xml version='1.0'?>
+<CARD_V2>
+  <FILENAME text="HELLSPARK_ELEMENTAL_888174799" />
+  <CARDNAME text="HELLSPARK_ELEMENTAL" />
+  <TITLE>
+     <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Hellspark Elemental]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Hellspark Elemental]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Hellspark Elemental]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Hellspark Elemental]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Hellspark Elemental]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[Hellspark Elemental]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[Hellspark Elemental]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Hellspark Elemental]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Hellspark Elemental]]></LOCALISED_TEXT>
+  </TITLE>
+  <MULTIVERSEID value="888174799" />
+  <ARTID value="888174799" />
+  <ARTIST name="Justin Sweet" />
+  <CASTING_COST cost="{1}{R}" />
+  <TYPE metaname="Creature" />
+  <SUB_TYPE metaname="Elemental" order_de-DE="0" order_es-ES="0" order_fr-FR="0" order_it-IT="0" order_jp-JA="0" order_ko-KR="0" order_pt-BR="0" order_ru-RU="0" />
+  <EXPANSION value="DPG" />
+  <RARITY metaname="U" />
+  <POWER value="3" />
+  <TOUGHNESS value="1" />
+  <STATIC_ABILITY filter_zone="ZONE_IN_PLAY">
+     <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Trample]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Trample]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Trample]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Trample]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Trample]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[Trample]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[Trample]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Trample]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Trample]]></LOCALISED_TEXT>
+    <CONTINUOUS_ACTION>
+    local characteristics = Object():GetCurrentCharacteristics()  
+    characteristics:Characteristic_Set( CHARACTERISTIC_TRAMPLE, 1 )
+    </CONTINUOUS_ACTION>
+  </STATIC_ABILITY>
+  <STATIC_ABILITY filter_zone="ZONE_IN_PLAY" commaspace="1">
+     <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[haste]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[haste]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[haste]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[haste]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[haste]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[haste]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[haste]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[haste]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[haste]]></LOCALISED_TEXT>
+	<CONTINUOUS_ACTION>
+    local characteritics = Object():GetCurrentCharacteristics()
+    characteritics:Characteristic_Set( CHARACTERISTIC_HASTE, 1 )
+    </CONTINUOUS_ACTION>
+  </STATIC_ABILITY>
+  <TRIGGERED_ABILITY filter_zone="ZONE_IN_PLAY">
+     <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[At the beginning of the end step, sacrifice Hellspark Elemental.]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[At the beginning of the end step, sacrifice Hellspark Elemental.]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[At the beginning of the end step, sacrifice Hellspark Elemental.]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[At the beginning of the end step, sacrifice Hellspark Elemental.]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[At the beginning of the end step, sacrifice Hellspark Elemental.]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[At the beginning of the end step, sacrifice Hellspark Elemental.]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[At the beginning of the end step, sacrifice Hellspark Elemental.]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[At the beginning of the end step, sacrifice Hellspark Elemental.]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[At the beginning of the end step, sacrifice Hellspark Elemental.]]></LOCALISED_TEXT>
+    <TRIGGER value="BEGINNING_OF_STEP" simple_qualifier="controller">
+    return ( MTG():GetStep() == STEP_END_OF_TURN )
+    </TRIGGER>
+    <RESOLUTION_TIME_ACTION>
+    local player = EffectController()
+    Object():Sacrifice(player)
+    </RESOLUTION_TIME_ACTION>
+  </TRIGGERED_ABILITY>
+  <ACTIVATED_ABILITY sorcery_time="1" auto_skip="1" filter_zone="ZONE_IN_PLAY" active_zone="ZONE_GRAVEYARD">
+     <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Unearth {1}{R} |(|{1}{R}|: Return this card from your graveyard to the battlefield. It gains haste. Exile it at the beginning of the next end step or if it would leave the battlefield. Unearth only as a sorcery.)|]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Unearth {1}{R} |(|{1}{R}|: Return this card from your graveyard to the battlefield. It gains haste. Exile it at the beginning of the next end step or if it would leave the battlefield. Unearth only as a sorcery.)|]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Unearth {1}{R} |(|{1}{R}|: Return this card from your graveyard to the battlefield. It gains haste. Exile it at the beginning of the next end step or if it would leave the battlefield. Unearth only as a sorcery.)|]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Unearth {1}{R} |(|{1}{R}|: Return this card from your graveyard to the battlefield. It gains haste. Exile it at the beginning of the next end step or if it would leave the battlefield. Unearth only as a sorcery.)|]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Unearth {1}{R} |(|{1}{R}|: Return this card from your graveyard to the battlefield. It gains haste. Exile it at the beginning of the next end step or if it would leave the battlefield. Unearth only as a sorcery.)|]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[Unearth {1}{R} |(|{1}{R}|: Return this card from your graveyard to the battlefield. It gains haste. Exile it at the beginning of the next end step or if it would leave the battlefield. Unearth only as a sorcery.)|]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[Unearth {1}{R} |(|{1}{R}|: Return this card from your graveyard to the battlefield. It gains haste. Exile it at the beginning of the next end step or if it would leave the battlefield. Unearth only as a sorcery.)|]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Unearth {1}{R} |(|{1}{R}|: Return this card from your graveyard to the battlefield. It gains haste. Exile it at the beginning of the next end step or if it would leave the battlefield. Unearth only as a sorcery.)|]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Unearth {1}{R} |(|{1}{R}|: Return this card from your graveyard to the battlefield. It gains haste. Exile it at the beginning of the next end step or if it would leave the battlefield. Unearth only as a sorcery.)|]]></LOCALISED_TEXT>
+    <COST type="Mana" cost="{1}{R}" />
+    <RESOLUTION_TIME_ACTION>
+    if Object():GetZone() == ZONE_GRAVEYARD then
+		Object():PutIntoPlay( EffectController() ) 
+		local delayDC = EffectDC():Make_Chest(1)
+		delayDC:Set_CardPtr(0, Object())
+		MTG():CreateDelayedTrigger(1, delayDC)
+    end
+    </RESOLUTION_TIME_ACTION>
+	<CONTINUOUS_ACTION layer="6">
+    local target = Object()
+    if target ~= nil then  
+    	local characteristics = target:GetCurrentCharacteristics()
+    	characteristics:Characteristic_Set( CHARACTERISTIC_WORTHLESS, 1 )
+    end
+    </CONTINUOUS_ACTION>
+    <CONTINUOUS_ACTION layer="6">
+    local target = Object()
+    if target ~= nil then  
+    	local characteristics = target:GetCurrentCharacteristics()
+    	characteristics:Characteristic_Set( CHARACTERISTIC_HASTE, 1 )
+    end
+    </CONTINUOUS_ACTION>
+    <DURATION simple_duration="UntilEOT" />
+    <AI_AVAILABILITY step="main_1" turn="my_turn" />
+  </ACTIVATED_ABILITY>
+  <TRIGGERED_ABILITY internal="1" pre_trigger="1" resource_id="1">
+    <CLEANUP simple_cleanup="EndOfTurn" />
+    <TRIGGER value="ZONECHANGE_CONSIDERED" to_zone="ZONE_ANY" from_zone="ZONE_IN_PLAY">
+    if (TriggerObject() == Object()) then
+        override = 1
+       TriggerObject():RemoveFromGame()
+        return true
+    end
+    return false
+    </TRIGGER>
+  </TRIGGERED_ABILITY>
+  <HELP title="MORE_INFO_BADGE_TITLE_1" body="MORE_INFO_BADGE_BODY_1" zone="ZONE_ANY" />
+  <HELP title="MORE_INFO_BADGE_TITLE_14" body="MORE_INFO_BADGE_BODY_14" zone="ZONE_ANY" />
+  <SFX text="COMBAT_LIGHTNING_LARGE_ATTACK" power_boundary_min="4" power_boundary_max="-1" />
+  <SFX text="COMBAT_LIGHTNING_SMALL_ATTACK" power_boundary_min="1" power_boundary_max="3" />
+</CARD_V2>

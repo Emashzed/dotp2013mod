@@ -1,0 +1,103 @@
+﻿<?xml version='1.0'?>
+<CARD_V2>
+  <FILENAME text="SOULS_OF_THE_FAULTLESS_88897231" />
+  <CARDNAME text="SOULS_OF_THE_FAULTLESS" />
+  <TITLE>
+     <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Souls of the Faultless]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Souls of the Faultless]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Souls of the Faultless]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Souls of the Faultless]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Souls of the Faultless]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[Souls of the Faultless]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[Souls of the Faultless]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Souls of the Faultless]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Souls of the Faultless]]></LOCALISED_TEXT>
+  </TITLE>
+  <MULTIVERSEID value="88897231" />
+  <ARTID value="88897231" />
+  <ARTIST name="Pat Lee" />
+  <CASTING_COST cost="{W}{B}{B}" />
+  <FLAVOURTEXT>
+     <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[“More horrible than their empty forms are their noble eyes. I dare not strike.”
+—Klattic, Boros legionnaire]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[“More horrible than their empty forms are their noble eyes. I dare not strike.”
+—Klattic, Boros legionnaire]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[“More horrible than their empty forms are their noble eyes. I dare not strike.”
+—Klattic, Boros legionnaire]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[“More horrible than their empty forms are their noble eyes. I dare not strike.”
+—Klattic, Boros legionnaire]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[“More horrible than their empty forms are their noble eyes. I dare not strike.”
+—Klattic, Boros legionnaire]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[“More horrible than their empty forms are their noble eyes. I dare not strike.”
+—Klattic, Boros legionnaire]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[“More horrible than their empty forms are their noble eyes. I dare not strike.”
+—Klattic, Boros legionnaire]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[“More horrible than their empty forms are their noble eyes. I dare not strike.”
+—Klattic, Boros legionnaire]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[“More horrible than their empty forms are their noble eyes. I dare not strike.”
+—Klattic, Boros legionnaire]]></LOCALISED_TEXT>
+  </FLAVOURTEXT>
+  <TYPE metaname="Creature" />
+  <SUB_TYPE metaname="Spirit" order_de-DE="0" order_es-ES="0" order_fr-FR="0" order_it-IT="0" order_jp-JA="0" order_ko-KR="0" order_pt-BR="0" order_ru-RU="0" />
+  <EXPANSION value="DPG" />
+  <RARITY metaname="U" />
+  <POWER value="0" />
+  <TOUGHNESS value="4" />
+  <STATIC_ABILITY>
+     <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Defender]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Defender]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Defender]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Defender]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Defender]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[Defender]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[Defender]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Defender]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Defender]]></LOCALISED_TEXT>
+    <CONTINUOUS_ACTION>
+    local characteristics = Object():GetCurrentCharacteristics()  
+    characteristics:Characteristic_Set( CHARACTERISTIC_DEFENDER, 1 )  
+    </CONTINUOUS_ACTION>
+  </STATIC_ABILITY>
+  <TRIGGERED_ABILITY dangerous="1" pre_trigger="1">
+     <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Whenever Souls of the Faultless is dealt combat damage, you gain that much life and attacking player loses that much life.]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Whenever Souls of the Faultless is dealt combat damage, you gain that much life and attacking player loses that much life.]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Whenever Souls of the Faultless is dealt combat damage, you gain that much life and attacking player loses that much life.]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Whenever Souls of the Faultless is dealt combat damage, you gain that much life and attacking player loses that much life.]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Whenever Souls of the Faultless is dealt combat damage, you gain that much life and attacking player loses that much life.]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[Whenever Souls of the Faultless is dealt combat damage, you gain that much life and attacking player loses that much life.]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[Whenever Souls of the Faultless is dealt combat damage, you gain that much life and attacking player loses that much life.]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Whenever Souls of the Faultless is dealt combat damage, you gain that much life and attacking player loses that much life.]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Whenever Souls of the Faultless is dealt combat damage, you gain that much life and attacking player loses that much life.]]></LOCALISED_TEXT>
+    <TRIGGER value="CREATURE_TOOK_COMBAT_DAMAGE" simple_qualifier="self" />
+    <RESOLUTION_TIME_ACTION>
+    local filter = Object():GetFilter()
+
+    MTG():ClearFilterMarkedPlayers()
+    for i=0,MTG():GetNumberOfPlayers()-1 do
+    	local player = MTG():GetNthPlayer(i)
+    	
+    	if player ~= nil then
+    		if MTG():Interrogate_AttacksThisTurn(player, 1) == 1 then
+    			player:MarkForFilter()
+    		end
+    	end
+    end
+    -- Marked eligible players, now choose targets
+    filter:Clear()
+    filter:SetMarkedObjectsOnly()
+    filter:SetFilterType( FILTER_TYPE_PLAYERS )
+    filter:SetHint( HINT_ENEMY_ONLY, EffectController() )
+	filter:NotTargetted()
+    EffectController():ChooseTarget( NO_VALIDATION, "CARD_QUERY_CHOOSE_ATTACKING_PLAYER_LOSE_LIFE", EffectDC():Make_Targets(0) )
+    </RESOLUTION_TIME_ACTION>
+    <RESOLUTION_TIME_ACTION>
+    local target_player = EffectDC():Get_Targets(0):Get_PlayerPtr(0)
+    local player = EffectController()
+    local damage = Damage():GetAmount()
+    player:GainLife( damage )  
+	target_player:LoseLife( damage )
+    </RESOLUTION_TIME_ACTION>
+  </TRIGGERED_ABILITY>
+  <SFX text="COMBAT_PESTS_LARGE_ATTACK" power_boundary_min="4" power_boundary_max="-1" />
+  <SFX text="COMBAT_PESTS_SMALL_ATTACK" power_boundary_min="1" power_boundary_max="3" />
+</CARD_V2>

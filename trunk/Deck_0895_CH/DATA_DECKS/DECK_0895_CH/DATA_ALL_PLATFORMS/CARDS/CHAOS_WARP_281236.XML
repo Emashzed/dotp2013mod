@@ -1,0 +1,80 @@
+<?xml version='1.0'?>
+<CARD_V2>
+  <FILENAME text="CHAOS_WARP_281236" />
+  <CARDNAME text="CHAOS_WARP" />
+  <TITLE>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Chaos Warp]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Distorsion chaotique]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Distorsión caótica]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Chaosschleife]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Distorsione Caotica]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[混沌のねじれ]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[혼돈의 왜곡]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Искривление Хаоса]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Distorção Caótica]]></LOCALISED_TEXT>
+  </TITLE>
+  <MULTIVERSEID value="281236" />
+  <ARTID value="137533" />
+  <ARTIST name="Trevor Claxton" />
+  <CASTING_COST cost="{2}{R}" />
+  <TYPE metaname="Instant" />
+  <EXPANSION value="DPG" />
+  <RARITY metaname="R" />
+  <SPELL_ABILITY dangerous="1" filter_zone="ZONE_IN_PLAY">
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[The owner of target permanent shuffles it into his or her library, then reveals the top card of his or her library. If it’s a permanent card, he or she puts it onto the battlefield.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Le propriétaire du permanent ciblé le mélange à sa bibliothèque et révèle ensuite la carte du dessus de sa bibliothèque. Si c’est une carte de permanent, il la met sur le champ de bataille.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[El propietario del permanente objetivo lo baraja en su biblioteca y luego muestra la primera carta de su biblioteca. Si es una carta de permanente, la pone en el campo de batalla.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Der Besitzer einer bleibenden Karte deiner Wahl mischt diese in seine Bibliothek und zeigt dann die oberste Karte seiner Bibliothek offen vor. Falls es eine bleibende Karte ist, bringt er sie ins Spiel.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Il proprietario di un permanente bersaglio lo rimescola nel suo grimorio, poi rivela la prima carta del suo grimorio. Se è una carta permanente, la mette sul campo di battaglia.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[パーマネント１つを対象とする。それのオーナーはそれを自分のライブラリーに加えて切り直し、その後自分のライブラリーの一番上のカードを公開する。 それがパーマネント・カードである場合、そのプレイヤーはそれを戦場に出す。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[지속물 한 개를 목표로 정한다. 그 지속물의 소유자는 그 지속물을 자신의 서고에 섞어 넣은 후 자신의 서고 맨 위의 카드를 공개한다. 그 카드가 지속물 카드라면, 그 지속물의 소유자는 그 카드를 전장에 놓는다.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Владелец целевого перманента втасовывает его в свою библиотеку, затем показывает верхнюю карту своей библиотеки. Если это карта перманента, тот игрок кладет ее на поле битвы.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[O dono da permanente alvo a embaralha no próprio grimório e depois revela o card do topo do próprio grimório. Se for um card de permanente, ele o coloca no campo de batalha.]]></LOCALISED_TEXT>
+    <TARGET_DEFINITION id="0">
+    local filter = Object():GetFilter()
+    filter:Clear()
+    filter:SetZone( ZONE_IN_PLAY )
+    filter:SetHint( HINT_ENEMY, EffectController() )
+    </TARGET_DEFINITION>
+    <TARGET_DETERMINATION>
+    return AtLeastOneTargetFromDefinition(0)
+    </TARGET_DETERMINATION>
+    <PLAY_TIME_ACTION target_choosing="1">
+    EffectController():ChooseTarget( 0, "CARD_QUERY_CHOOSE_PERMANENT_TO_SHUFFLE", EffectDC():Make_Targets(0) )
+    </PLAY_TIME_ACTION>
+    <RESOLUTION_TIME_ACTION>
+    local target = EffectDC():Get_Targets(0):Get_CardPtr(0)
+    if target ~= nil then
+    	local owner = target:GetOwner()
+    	target:PutInLibrary( -1 )
+    	EffectDC():Set_PlayerPtr(1, owner)
+    end
+    </RESOLUTION_TIME_ACTION>
+    <RESOLUTION_TIME_ACTION>
+    local player = EffectDC():Get_PlayerPtr(1)
+    if player ~= nil then
+    	player:ShuffleLibrary()
+    	
+    	local card = player:Library_GetNth(0)
+    	if card ~= nil then 
+    		card:GuidedReveal( ZONE_LIBRARY, ZONE_LIBRARY )
+    		if (card:GetCardType():IsPermanent() ~= 0) then
+    			if card:GetCardType():Test( CARD_TYPE_ENCHANTMENT ) ~= 0 and card:GetSubType():Test( ENCHANTMENT_TYPE_AURA ) ~= 0 then
+    				player:PseudoPlaySpell( card )
+    			else
+    				card:PutIntoPlay( player )
+    			end
+    		end
+    	end
+    	
+    end
+    </RESOLUTION_TIME_ACTION>
+  </SPELL_ABILITY>
+  <AI_AVAILABILITY type="in_response" />
+  <AI_AVAILABILITY step="begin_combat" turn="their_turn" />
+  <AI_AVAILABILITY step="main_1" turn="my_turn" />
+  <AI_AVAILABILITY step="declare_attackers" turn="their_turn" />
+  <AI_AVAILABILITY step="declare_blockers" />
+  <AI_AVAILABILITY step="end_of_turn" />
+  <AI_BASE_SCORE score="900" zone="ZONE_HAND" />
+</CARD_V2>

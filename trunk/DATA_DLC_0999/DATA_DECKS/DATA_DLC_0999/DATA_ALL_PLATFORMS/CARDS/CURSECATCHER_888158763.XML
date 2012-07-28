@@ -1,0 +1,94 @@
+﻿<?xml version='1.0'?>
+<CARD_V2>
+  <FILENAME text="CURSECATCHER_888158763" />
+  <CARDNAME text="CURSECATCHER" />
+  <TITLE>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Cursecatcher]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Catturamagie]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Fluchfänger]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Attrapeur de malédictions]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Atrapamaldiciones]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[呪い捕らえ]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[Cursecatcher]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Ловец Проклятий]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Caça-Maldição]]></LOCALISED_TEXT>
+  </TITLE>
+  <MULTIVERSEID value="888158763" />
+  <ARTID value="888158763" />
+  <ARTIST name="Warren Mahy" />
+  <CASTING_COST cost="{U}" />
+  <FLAVOURTEXT>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[“Of all the things that can be stolen, opportunity is the most valuable.”]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[“Tra tutte le cose che possono essere rubate, l’opportunità è la più preziosa.”]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[„Von allen Sachen, die einem genommen werden können, ist die Gelegenheit die wertvollste.”]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[« Parmi tout ce qui est saisissable, l’opportunité a le plus de valeur. »]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[“De todo lo que puede ser robado, la oportunidad es lo más valioso.”]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[「盗むことのできるあらゆる物の中で、機会が一番価値がある。」]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[“Of all the things that can be stolen, opportunity is the most valuable.”]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[«Самое ценное, что только можно похитить, — это возможность».]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[“Dentre todas as coisas que podem ser roubadas, a oportunidade é a mais valiosa.”]]></LOCALISED_TEXT>
+  </FLAVOURTEXT>
+  <TYPE metaname="Creature" />
+  <SUB_TYPE metaname="Merfolk" order_de-DE="0" order_es-ES="1" order_fr-FR="0" order_it-IT="1" order_jp-JA="0" order_ko-KR="0" order_pt-BR="0" order_ru-RU="0" />
+  <SUB_TYPE metaname="Wizard" order_de-DE="1" order_es-ES="0" order_fr-FR="1" order_it-IT="0" order_jp-JA="1" order_ko-KR="0" order_pt-BR="1" order_ru-RU="1" />
+  <EXPANSION value="DPG" />
+  <RARITY metaname="U" />
+  <POWER value="1" />
+  <TOUGHNESS value="1" />
+  <ACTIVATED_ABILITY>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Sacrifice Cursecatcher: Counter target instant or sorcery spell unless its controller pays {1}.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Sacrifica il Catturamagie: Neutralizza una magia istantaneo o stregoneria bersaglio a meno che il suo controllore non paghi {1}.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Opfere den Fluchfänger: Neutralisiere einen Spontanzauber oder eine Hexerei deiner Wahl, falls sein Beherrscher nicht {1} bezahlt.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Sacrifiez l’Attrapeur de malédictions : Contrecarrez le sort d’éphémère ou de rituel ciblé à moins que son contrôleur ne paie {1}.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Sacrificar el Atrapamaldiciones: Contrarresta el hechizo objetivo de instantáneo o de conjuro a menos que su controlador pague {1}.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[呪い捕らえを生け贄に捧げる：インスタント呪文１つかソーサリー呪文１つを対象とする。それのコントローラーが{1}を支払わないかぎり、それを打ち消す。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[Sacrifice Cursecatcher: Counter target instant or sorcery spell unless its controller pays {1}.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Пожертвуйте Ловца Проклятий: отмените целевое мгновенное заклинание или заклинание волшебства, если контролирующий его игрок не заплатит {1}.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Sacrifique Caça-Maldição: Anule a mágica instantânea ou de feitiço alvo, a menos que seu controlador pague {1}.]]></LOCALISED_TEXT>
+    <COST type="SacrificeSelf" />
+    <TARGET_DEFINITION id="0">
+    local filter = Object():GetFilter()
+    filter:Clear()
+    filter:SetZone( ZONE_STACK )
+    filter:SetStackObjectType( STACK_OBJECT_CARD )
+    filter:SetHint( HINT_ENEMY, EffectController() )
+    </TARGET_DEFINITION>
+    <TARGET_DETERMINATION>
+    return AtLeastOneTargetFromDefinition(0)
+    </TARGET_DETERMINATION>
+    <PLAY_TIME_ACTION target_choosing="1">
+    EffectController():ChooseTarget( 0, "CARD_QUERY_CHOOSE_SPELL_TO_COUNTER", EffectDC():Make_Targets(0) )
+    </PLAY_TIME_ACTION>
+    <RESOLUTION_TIME_ACTION>
+    local target_spell = EffectDC():Get_Targets(0):Get_CardPtr(0)
+    local player = target_spell:GetPlayer()
+    if player ~= nil then
+    	if player:CanAfford("{1}") == 1 then
+    		player:BeginNewMultipleChoice()   
+    		player:AddMultipleChoiceAnswer( "CARD_QUERY_OPTION_PAY_1" )   
+    		player:AddMultipleChoiceAnswer( "CARD_QUERY_OPTION_IS_COUNTERED" )   
+    		player:AskMultipleChoiceQuestion( "CARD_QUERY_MC_SPIKETAIL_HATCHLING" )
+    	end
+    end
+    </RESOLUTION_TIME_ACTION>
+    <RESOLUTION_TIME_ACTION>
+    local target_spell = EffectDC():Get_Targets(0):Get_CardPtr(0)
+    local player = target_spell:GetPlayer()
+    local decision = Object():GetMultipleChoiceResult()
+    if player ~= nil then
+    if player:CanAfford("{1}") == 1 then
+      if decision ~= 1 then
+        player:TapLand("{1}")
+      else
+    	target_spell:CounterSpell()
+      end
+      
+    else
+      target_spell:CounterSpell()
+    end
+    end
+    </RESOLUTION_TIME_ACTION>
+  </ACTIVATED_ABILITY>
+  <SFX text="COMBAT_PLASMA_LARGE_ATTACK" power_boundary_min="4" power_boundary_max="-1" />
+  <SFX text="COMBAT_PLASMA_SMALL_ATTACK" power_boundary_min="1" power_boundary_max="3" />
+</CARD_V2>

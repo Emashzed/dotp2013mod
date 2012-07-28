@@ -1,0 +1,72 @@
+﻿<?xml version='1.0'?>
+<CARD_V2>
+  <FILENAME text="WURMCOIL_ENGINE_888207875" />
+  <CARDNAME text="WURMCOIL_ENGINE" />
+  <TITLE>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Wurmcoil Engine]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Macchina dei Wurm Attorcigliati]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Wurmspiralmaschine]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Machine guivrétreinte]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Motor sierpespiral]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[ワームとぐろエンジン]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[Wurmcoil Engine]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Машина Свитых Вурмов]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Máquina a Vorme Espiralado]]></LOCALISED_TEXT>
+  </TITLE>
+  <MULTIVERSEID value="888207875" />
+  <ARTID value="888207875" />
+  <ARTIST name="Raymond Swanland" />
+  <CASTING_COST cost="{6}" />
+  <TYPE metaname="Artifact" />
+  <TYPE metaname="Creature" />
+  <SUB_TYPE metaname="Wurm" order_de-DE="0" order_es-ES="2" order_fr-FR="0" order_it-IT="2" order_jp-JA="0" order_ko-KR="0" order_pt-BR="0" order_ru-RU="0" />
+  <EXPANSION value="DPG" />
+  <RARITY metaname="M" />
+  <POWER value="6" />
+  <TOUGHNESS value="6" />
+  <STATIC_ABILITY>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Deathtouch, lifelink]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Tocco letale, legame vitale]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Todensberührung, Lebensverknüpfung]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Contact mortel, lien de vie]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Toque mortal, vínculo vital.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[接死、絆魂]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[Deathtouch, lifelink]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Смертельное касание, Цепь жизни]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Toque mortífero, vínculo com a vida]]></LOCALISED_TEXT>
+	<CONTINUOUS_ACTION>
+	local characteristics = Object():GetCurrentCharacteristics()
+    characteristics:Characteristic_Set( CHARACTERISTIC_DEATHTOUCH, 1 )
+    </CONTINUOUS_ACTION>
+  </STATIC_ABILITY>
+  <STATIC_ABILITY>
+	<CONTINUOUS_ACTION>
+    local characteristics = Object():GetCurrentCharacteristics()
+    characteristics:Characteristic_Set( CHARACTERISTIC_LIFELINK, 1 )
+    </CONTINUOUS_ACTION>
+  </STATIC_ABILITY>
+  <TRIGGERED_ABILITY auto_skip="1">
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[When Wurmcoil Engine dies, put a 3/3 colorless Wurm artifact creature token with deathtouch and a 3/3 colorless Wurm artifact creature token with lifelink onto the battlefield.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Quando la Macchina dei Wurm Attorcigliati viene messa in un cimitero dal campo di battaglia, metti sul campo di battaglia una pedina creatura artefatto Wurm 3/3 incolore con tocco letale e una pedina creatura artefatto Wurm 3/3 incolore con legame vitale.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Wenn die Wurmspiralmaschine aus dem Spiel auf einen Friedhof gelegt wird, bringe einen 3/3 farblosen Wurm-Artefaktkreaturenspielstein mit Todesberührung und einen 3/3 farblosen Wurm-Artefaktkreaturenspielstein mit Lebensverknüpfung ins Spiel.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Quand la Machine guivrétreinte est mise dans un cimetière depuis le champ de bataille, mettez sur le champ de bataille un jeton de créature-artefact 3/3 incolore Guivre avec le contact mortel et un jeton de créature-artefact 3/3 incolore Guivre avec le lien de vie.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Cuando el Motor sierpespiral vaya a un cementerio desde el campo de batalla, pon en el campo de batalla una ficha de criatura artefacto Sierpe incolora 3/3 con la habilidad de toque mortal y una ficha de criatura artefacto Sierpe incolora 3/3 con la habilidad de vínculo vital.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[ワームとぐろエンジンが戦場からいずれかの墓地に置かれたとき、接死を持つ無色の３/３のワーム・アーティファクト・クリーチャー・トークンを１体と、絆魂を持つ無色の３/３のワーム・アーティファクト・クリーチャー・トークンを１体戦場に出す。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[When Wurmcoil Engine dies, put a 3/3 colorless Wurm artifact creature token with deathtouch and a 3/3 colorless Wurm artifact creature token with lifelink onto the battlefield.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Когда Машина Свитых Вурмов попадает с поля битвы на кладбище, положите на поле битвы одну фишку артефактного существа 3/3 бесцветный Вурм со Смертельным касанием и одну фишку артефактного существа 3/3 бесцветный Вурм с Цепью жизни.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Quando Máquina a Vorme Espiralado for colocado num cemitério vindo do campo de batalha, coloque no campo de batalha uma ficha de criatura artefato incolor 3/3 do tipo Vorme com toque mortífero e uma ficha de criatura artefato incolor 3/3 do tipo Vorme com vínculo com a vida.]]></LOCALISED_TEXT>
+    <TRIGGER value="ZONECHANGE_BEGIN" simple_qualifier="self" to_zone="ZONE_GRAVEYARD" from_zone="ZONE_IN_PLAY" />
+    <RESOLUTION_TIME_ACTION>
+    local token_count = 1
+    if token_count &gt; 0 then
+    	MTG():PutTokensIntoPlay( "TOKEN_WURM_D_3_3_T_247037", token_count, EffectController() )
+		MTG():PutTokensIntoPlay( "TOKEN_WURM_L_3_3_T_1000005", token_count, EffectController() )
+    end
+    </RESOLUTION_TIME_ACTION>
+  </TRIGGERED_ABILITY>
+  <TOKEN_REGISTRATION reservation="1" type="TOKEN_WURM_D_3_3_T_247037" />
+  <TOKEN_REGISTRATION reservation="1" type="TOKEN_WURM_L_3_3_T_1000005" />
+  <SFX text="COMBAT_BITE_LARGE_ATTACK" power_boundary_min="4" power_boundary_max="-1" />
+  <SFX text="COMBAT_BITE_SMALL_ATTACK" power_boundary_min="1" power_boundary_max="3" />
+  <AI_BASE_SCORE score="900" zone="ZONE_IN_PLAY" />
+</CARD_V2>

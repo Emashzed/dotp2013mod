@@ -1,0 +1,113 @@
+<?xml version='1.0'?>
+<CARD_V2>
+  <FILENAME text="AVATAR_OF_DISCORD_281239" />
+  <CARDNAME text="AVATAR_OF_DISCORD" />
+  <TITLE>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Avatar of Discord]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Avatar de la discorde]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Avatar de la discordia]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Avatar des Missklangs]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Avatar della Discordia]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[不和の化身]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[불화의 아바타]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Аватара Раздора]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Avatar da Discórdia]]></LOCALISED_TEXT>
+  </TITLE>
+  <MULTIVERSEID value="281239" />
+  <ARTID value="49240" />
+  <ARTIST name="rk post" />
+  <CASTING_COST cost="{B/R}{B/R}{B/R}" />
+  <FLAVOURTEXT>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Such is the power of Rakdos that even his shadow takes on a cruel life of its own.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Le pouvoir de Rakdos est tel que même son ombre cruelle prend vie.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Tal es el poder de Rakdos que incluso su sombra tiene una cruel vida propia.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Die Macht von Rakdos ist so stark, dass selbst sein Geist eine so grausame Gestalt annimmt.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Tale è il potere di Rakdos che anche la sua ombra ha assunto una propria crudele vita.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[これがラクドスの力だ。そいつの影すらも勝手に残酷な行いに出る。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[락도스의 힘은 자신의 그림자에게 잔혹한 생명을 부여할 정도로 대단했다.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Могущество Ракдоса так велико, что даже его тень ведет свою собственную зловещую жизнь.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[O poder de Rakdos é tão grande que até mesmo sua sombra tem sua própria crueldade.]]></LOCALISED_TEXT>
+  </FLAVOURTEXT>
+  <TYPE metaname="Creature" />
+  <SUB_TYPE metaname="Avatar" order_de-DE="0" order_es-ES="0" order_fr-FR="0" order_it-IT="0" order_jp-JA="0" order_ko-KR="0" order_pt-BR="0" order_ru-RU="0" />
+  <EXPANSION value="DPG" />
+  <RARITY metaname="R" />
+  <POWER value="5" />
+  <TOUGHNESS value="3" />
+  <STATIC_ABILITY>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Flying]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Vol]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Vuela.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Fliegend]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Volare]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[飛行]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[비행]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Полет]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Voar]]></LOCALISED_TEXT>
+    <CONTINUOUS_ACTION>
+    local characteristics = Object():GetCurrentCharacteristics()
+    characteristics:Characteristic_Set( CHARACTERISTIC_FLYING, 1 )
+    </CONTINUOUS_ACTION>
+  </STATIC_ABILITY>
+  <TRIGGERED_ABILITY>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[When Avatar of Discord enters the battlefield, sacrifice it unless you discard two cards.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Quand l’Avatar de la discorde arrive sur le champ de bataille, sacrifiez-le à moins que vous ne vous défaussiez de deux cartes.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Cuando el Avatar de la discordia entre al campo de batalla, sacrifícalo a menos que descartes dos cartas.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Wenn der Avatar des Missklangs ins Spiel kommt, opfere ihn, falls du nicht zwei Karten aus deiner Hand abwirfst.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Quando l’Avatar della Discordia entra nel campo di battaglia, sacrificala a meno che tu non scarti due carte.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[不和の化身が戦場に出たとき、あなたがカードを２枚捨てないかぎり、不和の化身を生け贄に捧げる。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[불화의 아바타가 전장에 들어올 때, 당신이 카드 두 장을 버리지 않으면 불화의 아바타를 희생한다.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Когда Аватара Раздора выходит на поле битвы, пожертвуйте ее, если только вы не сбросите две карты.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Quando Avatar da Discórdia entrar no campo de batalha, sacrifique-o, a menos que você descarte dois cards.]]></LOCALISED_TEXT>
+    <TRIGGER value="ZONECHANGE_END" simple_qualifier="self" to_zone="ZONE_IN_PLAY" />
+    <COST type="generic" qualifier="conditional">
+      <TARGET_DETERMINATION>
+      local filter = Object():GetFilter()
+      filter:Clear()
+      filter:SetZone( ZONE_HAND )
+      filter:SetPlayer( EffectController() )
+      filter:NotTargetted()
+      local total = (filter:Count())
+      if total &gt; 1 then
+      	return 1
+      else
+      	return 0
+      end
+      </TARGET_DETERMINATION>
+      <RESOLUTION_TIME_ACTION>
+      local player = EffectController()
+      if player ~= nil then
+      	local filter = Object():GetFilter()
+      	filter:Clear()
+      	filter:SetZone( ZONE_HAND ) 
+      	filter:SetPlayer( player )
+      	filter:NotTargetted()
+      	player:SetTargetCount( 2 )
+      	for i=0,2-1 do
+      		player:SetTargetPrompt( i, "CARD_QUERY_CHOOSE_CARD_TO_DISCARD_2" )
+      	end
+      	player:ChooseTargets( NO_VALIDATION, EffectDC():Make_Targets(1) ) 
+      end
+      </RESOLUTION_TIME_ACTION>
+      <RESOLUTION_TIME_ACTION>
+      local player = EffectController()
+      if player ~= nil then 
+      	for i = 0,(2-1) do
+      		local target_card = EffectDC():Get_Targets(1):Get_CardPtr(i)
+      		if target_card ~= nil  then
+      			target_card:Discard()
+      		end
+      	end
+      end
+      </RESOLUTION_TIME_ACTION></COST>
+    <RESOLUTION_TIME_ACTION conditional="else">
+    local creature = EffectSource()
+    if creature ~= nil then 
+    	creature:Sacrifice(EffectController())
+    end
+    </RESOLUTION_TIME_ACTION>
+  </TRIGGERED_ABILITY>
+  <HELP title="MORE_INFO_BADGE_TITLE_10" body="MORE_INFO_BADGE_BODY_10" zone="ZONE_ANY" />
+  <SFX text="COMBAT_BLADE_LARGE_ATTACK" power_boundary_min="4" power_boundary_max="-1" />
+  <SFX text="COMBAT_BLADE_SMALL_ATTACK" power_boundary_min="1" power_boundary_max="3" />
+</CARD_V2>

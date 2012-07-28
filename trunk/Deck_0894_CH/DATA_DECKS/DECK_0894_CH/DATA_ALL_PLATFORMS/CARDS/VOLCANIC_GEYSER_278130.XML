@@ -1,0 +1,86 @@
+<?xml version='1.0'?>
+<CARD_V2>
+  <FILENAME text="VOLCANIC_GEYSER_278130" />
+  <CARDNAME text="VOLCANIC_GEYSER" />
+  <TITLE>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Volcanic Geyser]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Geyser volcanique]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Géiser volcánico]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Vulkanischer Geysir]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Geyser Vulcanico]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[溶岩噴火]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[화산 분출]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Вулканический Гейзер]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Gêiser Vulcânico]]></LOCALISED_TEXT>
+  </TITLE>
+  <MULTIVERSEID value="278130" />
+  <ARTID value="143959" />
+  <ARTIST name="Clint Cearley" />
+  <CASTING_COST cost="{X}{R}{R}" />
+  <FLAVOURTEXT>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[“The mountain’s fire surges beneath your feet, demanding release. Can you not feel it?”
+—Koth of the Hammer]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[« Le feu des montagnes gronde sous tes pieds, exigeant d’être libéré. Ne le sens-tu pas ? »
+—Koth du Marteau]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[“El fuego de la montaña se agita bajo tus pies, exigiendo ser liberado. ¿Acaso no lo notas?”
+—Koth del Martillo]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[„Das Feuer des Berges erhebt sich unter deinen Füßen und fordert seine Freiheit. Kannst du es nicht spüren?“
+—Koth vom Hammerclan]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[“Il fuoco della montagna ribolle sotto i tuoi piedi, rivendicando la sua libertà. Non riesci a sentirlo?”
+—Koth del Martello]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[「山の火がお前の足元でうねっているぞ。ここから解放しろってな。 感じないのか？」
+—槌のコス]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[“산 아래 있는 불이 네 발밑을 흐르며 자유를 갈망하고 있어. 느껴지지 않나?”
+—망치의 코쓰]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[«Огонь горы бьется у тебя под ногами, требуя выпустить его на свободу. Неужели ты его не чувствуешь?»
+— Кос из племени Молота]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[“O fogo da montanha surge sob seus pés exigindo liberdade. Você consegue não sentir?”
+— Koth do Martelo]]></LOCALISED_TEXT>
+  </FLAVOURTEXT>
+  <TYPE metaname="Instant" />
+  <EXPANSION value="DPG" />
+  <RARITY metaname="U" />
+  <SPELL_ABILITY dangerous="1" filter_zone="ZONE_IN_PLAY">
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Volcanic Geyser deals X damage to target creature or player.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Le Geyser volcanique inflige X blessures à une cible, créature ou joueur.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[El Géiser volcánico hace X puntos de daño a la criatura o jugador objetivo.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Der Vulkanische Geysir fügt einer Kreatur oder einem Spieler deiner Wahl X Schadenspunkte zu.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Il Geyser Vulcanico infligge X danni a una creatura o a un giocatore bersaglio.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[クリーチャー１体かプレイヤー１人を対象とする。溶岩噴火はそれにＸ点のダメージを与える。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[생물 한 개나 플레이어 한 명을 목표로 정한다. 화산 분출은 그 목표에게 피해 X점을 입힌다.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Вулканический Гейзер наносит X повреждений целевому существу или игроку.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Gêiser Vulcânico causa X pontos de dano à criatura ou ao jogador alvo.]]></LOCALISED_TEXT>
+    <TARGET_DEFINITION id="0">
+    local filter = Object():GetFilter()
+    filter:Clear()
+    filter:SetFilterType( FILTER_TYPE_CARDS + FILTER_TYPE_PLAYERS )
+    filter:SetZone( ZONE_IN_PLAY )
+    filter:SetHint( HINT_ENEMY_ONLY, EffectController() )
+    filter:AddCardType( CARD_TYPE_CREATURE )
+    </TARGET_DEFINITION>
+    <TARGET_DETERMINATION>
+    return AtLeastOneTargetFromDefinition(0)
+    </TARGET_DETERMINATION>
+    <PLAY_TIME_ACTION target_choosing="1">
+    EffectController():ChooseTarget( 0, "CARD_QUERY_CHOOSE_DEAL_X_DAMAGE", EffectDC():Make_Targets(0) )
+    </PLAY_TIME_ACTION>
+    <RESOLUTION_TIME_ACTION>
+    local target_creature = EffectDC():Get_Targets(0):Get_CardPtr(0)
+    local target_player = Object():GetTargetPlayer()
+    if ( target_creature ~= nil ) then   
+    	target_creature:DealDamage(GetObjectX(), Object())  
+    elseif 
+    	( target_player ~= nil ) then   
+    	target_player:DealDamage(GetObjectX(), Object())  
+    end
+    </RESOLUTION_TIME_ACTION>
+    <SFX text="TARGET_FIREBALL_PLAY" />
+  </SPELL_ABILITY>
+  <AI_AVAILABILITY type="in_response" />
+  <AI_AVAILABILITY step="begin_combat" turn="their_turn" />
+  <AI_AVAILABILITY step="main_1" turn="my_turn" />
+  <AI_AVAILABILITY step="declare_attackers" turn="their_turn" />
+  <AI_AVAILABILITY step="declare_blockers" />
+  <AI_AVAILABILITY step="end_of_turn" />
+  <AI_BASE_SCORE score="1200" zone="ZONE_HAND" />
+</CARD_V2>

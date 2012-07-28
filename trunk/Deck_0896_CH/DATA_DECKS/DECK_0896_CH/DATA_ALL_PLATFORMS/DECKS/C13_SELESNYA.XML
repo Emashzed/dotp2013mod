@@ -1,0 +1,44 @@
+<DECK personality="C13_SELESNYA_DEFAULT.XML" deck_box_image="D13_Selesnya" deck_box_image_locked="locked" content_pack="0" uid="896" preview_card="collective_might" is_white="true" is_green="true">
+  <DECKSTATISTICS Size="4" Speed="6" Flex="4" Syn="8" />
+  <LandConfig minPlains="5" minForest="5" numSpellsThatCountAsLand="4" />
+  <CARD name="INTANGIBLE_VIRTUE_277040" deckOrderId="0" />
+  <CARD name="INTANGIBLE_VIRTUE_277040" deckOrderId="1" />
+  <CARD name="PARALLEL_LIVES_277047" deckOrderId="2" />
+  <CARD name="VERDELOTH_THE_ANCIENT_277324@2" deckOrderId="3" />
+  <CARD name="NEMATA_GROVE_GUARDIAN_277221@2" deckOrderId="4" />
+  <CARD name="OVERRUN_276960@3" deckOrderId="5" />
+  <CARD name="BIORHYTHM_276876@3" deckOrderId="6" />
+  <CARD name="FISTS_OF_IRONWOOD_276914" deckOrderId="7" />
+  <CARD name="FISTS_OF_IRONWOOD_276914" deckOrderId="8" />
+  <CARD name="SPROUT_277335" deckOrderId="9" />
+  <CARD name="SPROUT_277335" deckOrderId="10" />
+  <CARD name="JADE_MAGE_277113" deckOrderId="11" />
+  <CARD name="JADE_MAGE_277113" deckOrderId="12" />
+  <CARD name="SCION_OF_THE_WILD_276692" deckOrderId="13" />
+  <CARD name="TRANSLUMINANT_280080" deckOrderId="14" />
+  <CARD name="LEONIN_ARMORGUARD_276751" deckOrderId="15" />
+  <CARD name="LEONIN_ARMORGUARD_276751" deckOrderId="16" />
+  <CARD name="BEHEMOTH_SLEDGE_276742" deckOrderId="17" />
+  <CARD name="TROPHY_HUNTER_277244" deckOrderId="18" />
+  <CARD name="NIGHTGUARD_PATROL_277236" deckOrderId="19" />
+  <CARD name="NIGHTGUARD_PATROL_277236" deckOrderId="20" />
+  <CARD name="LOXODON_HIERARCH_277235@2" deckOrderId="21" />
+  <CARD name="POLLENBRIGHT_WINGS_277237@3" deckOrderId="22" />
+  <CARD name="SELESNYA_EVANGEL_277240" deckOrderId="23" />
+  <CARD name="SELESNYA_EVANGEL_277240" deckOrderId="24" />
+  <CARD name="SIGIL_BLESSING_276730@2" deckOrderId="25" />
+  <CARD name="SIGIL_BLESSING_276730@2" deckOrderId="26" />
+  <CARD name="MIDNIGHT_HAUNTING_277044" deckOrderId="27" />
+  <CARD name="MIDNIGHT_HAUNTING_277044" deckOrderId="28" />
+  <CARD name="TOLSIMIR_WOLFBLOOD_277243" deckOrderId="29" />
+  <CARD name="CIVIC_WAYFINDER_280043@2" deckOrderId="30" />
+  <CARD name="CIVIC_WAYFINDER_280043@2" deckOrderId="31" />
+  <CARD name="SELESNYA_GUILDMAGE_280079@3" deckOrderId="32" />
+  <CARD name="SELESNYA_GUILDMAGE_280079@3" deckOrderId="33" />
+  <CARD name="ELVISH_SKYSWEEPER_280078" deckOrderId="34" />
+  <CARD name="ELVISH_SKYSWEEPER_280078" deckOrderId="35" />
+  <CARD name="EVOLVING_WILDS_276846" deckOrderId="36" />
+  <CARD name="EVOLVING_WILDS_276846" deckOrderId="37" />
+  <CARD name="EVOLVING_WILDS_276846" deckOrderId="38" />
+  <CARD name="EVOLVING_WILDS_276846" deckOrderId="39" />
+</DECK>

@@ -1,0 +1,109 @@
+<?xml version='1.0'?>
+<CARD_V2>
+  <FILENAME text="DJINN_OF_WISHES_276899" />
+  <CARDNAME text="DJINN_OF_WISHES" />
+  <TITLE>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Djinn of Wishes]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Djinn aux souhaits]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Djinn de los deseos]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Dschinn der Wünsche]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Genio dei Desideri]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[願いのジン]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[소원의 지니]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Джинн Желаний]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Gênio dos Desejos]]></LOCALISED_TEXT>
+  </TITLE>
+  <MULTIVERSEID value="276899" />
+  <ARTID value="121616" />
+  <ARTIST name="Kev Walker" />
+  <CASTING_COST cost="{3}{U}{U}" />
+  <TYPE metaname="Creature" />
+  <SUB_TYPE metaname="Djinn" order_de-DE="0" order_es-ES="0" order_fr-FR="0" order_it-IT="0" order_jp-JA="0" order_ko-KR="0" order_pt-BR="0" order_ru-RU="0" />
+  <EXPANSION value="DPG" />
+  <RARITY metaname="R" />
+  <POWER value="4" />
+  <TOUGHNESS value="4" />
+  <STATIC_ABILITY>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Flying]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Vol]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Vuela.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Fliegend]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Volare]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[飛行]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[비행]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Полет]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Voar]]></LOCALISED_TEXT>
+    <CONTINUOUS_ACTION>
+    local characteristics = Object():GetCurrentCharacteristics()
+    characteristics:Characteristic_Set( CHARACTERISTIC_FLYING, 1 )
+    </CONTINUOUS_ACTION>
+  </STATIC_ABILITY>
+  <TRIGGERED_ABILITY internal="1" pre_trigger="1" filter_zone="ZONE_IN_PLAY" active_zone="ZONE_TRANSITION">
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Djinn of Wishes enters the battlefield with three wish counters on it.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Le Djinn aux souhaits arrive sur le champ de bataille avec, sur lui, trois marqueurs « souhait ».]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[El Djinn de los deseos entra al campo de batalla con tres contadores de deseo sobre él.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Der Dschinn der Wünsche kommt mit drei Wunschmarken ins Spiel.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Il Genio dei Desideri entra nel campo di battaglia con tre segnalini desiderio.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[願いのジンは、願いカウンターが３個置かれた状態で戦場に出る。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[소원의 지니는 소원 카운터 세 개를 가진 채로 전장에 들어온다.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Джинн Желаний выходит на поле битвы с тремя жетонами желания на нем.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Gênio dos Desejos entra no campo de batalha com três marcadores de desejo sobre ele.]]></LOCALISED_TEXT>
+    <TRIGGER value="ZONECHANGE_TRANSITION" simple_qualifier="self" to_zone="ZONE_IN_PLAY" />
+    <RESOLUTION_TIME_ACTION>
+    Object():AddCounters( MTG():GetCountersType("WISH"), 3 )
+    </RESOLUTION_TIME_ACTION>
+  </TRIGGERED_ABILITY>
+  <ACTIVATED_ABILITY filter_zone="ZONE_IN_PLAY">
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[{2}{U}{U}, Remove a wish counter from Djinn of Wishes: Reveal the top card of your library. You may play that card without paying its mana cost. If you don’t, exile it.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[{2}{U}{U}, retirez un marqueur « souhait » au Djinn aux souhaits: Révélez la carte du dessus de votre bibliothèque. Vous pouvez jouer cette carte sans payer son coût de mana. Si vous ne le faites pas, exilez-la.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[{2}{U}{U}, remover un contador de deseo del Djinn de los deseos: Muestra la primera carta de tu biblioteca. Puedes jugar esa carta sin pagar su coste de maná. Si no lo haces, exíliala.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[{2}{U}{U}, entferne eine Wunschmarke vom Dschinn der Wünsche: Zeige die oberste Karte deiner Bibliothek offen vor. Du kannst diese Karte spielen, ohne ihre Manakosten zu bezahlen. Falls du es nicht tust, schicke sie ins Exil.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[{2}{U}{U}, Rimuovi un segnalino desiderio dal Genio dei Desideri: Rivela la prima carta del tuo grimorio. Puoi giocare quella carta senza pagare il suo costo di mana. Se non lo fai, esiliala.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[{2}{U}{U}, 願いのジンから願いカウンターを１個取り除く：あなたのライブラリーの一番上のカードを公開する。 あなたはそのカードをそのマナ・コストを支払うことなくプレイしてもよい。 そうしない場合、それを追放する。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[{2}{U}{U}, 소원의 지니로부터 소원 카운터 한 개를 제거한다: 당신의 서고 맨 위의 카드를 공개한다. 당신은 그 카드를 마나비용의 지불 없이 플레이할 수 있다. 그러지 않는다면, 그 카드를 추방한다.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[{2}{U}{U}, удалите жетон желания с Джинна Желаний: покажите верхнюю карту вашей библиотеки. Вы можете разыграть ту карту без уплаты её мана-стоимости. Если вы этого не делаете, изгоните ее.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[{2}{U}{U}, Remova um marcador de desejo de Gênio dos Desejos: Revele o card do topo de seu grimório. Você pode jogar aquele card sem pagar seu custo de mana. Se não fizer isso, exile-o.]]></LOCALISED_TEXT>
+    <COST type="Mana" cost="{2}{U}{U}" />
+    <COST type="countersself" name="wish" number="-1" />
+    <RESOLUTION_TIME_ACTION>
+    local card = EffectController():Library_GetNth(0)
+      if card ~= nil then
+      	card:GuidedReveal( ZONE_LIBRARY, ZONE_LIBRARY )
+      end
+    </RESOLUTION_TIME_ACTION>
+    <RESOLUTION_TIME_ACTION>
+    local filter = Object():GetFilter()  
+    local player = EffectController()  
+    filter:Clear()  
+    filter:NotTargetted()  
+    filter:SetPlayer( player )  
+    filter:SetZone( ZONE_LIBRARY )  
+    filter:SetPortion( 1 )  
+    player:SetTargetCount( 1 )  
+    player:SetTargetPrompt( 0, "CARD_QUERY_PLAY_OR_EXILE" )  
+    player:ChooseTargetsWithFlags( NO_VALIDATION, EffectDC():Make_Targets(0), QUERY_FLAG_CAN_BE_FINISHED_EARLY + QUERY_FLAG_CAN_BE_FINISHED_EARLY_FOR_AI_AS_WELL )
+    </RESOLUTION_TIME_ACTION>
+    <RESOLUTION_TIME_ACTION>
+    local spell = EffectDC():Get_Targets(0):Get_CardPtr(0)   
+    if ( spell ~= nil ) then   
+    	if spell:CanBePlayed( EffectController() ) then
+    		if spell:GetCardType():Test( CARD_TYPE_ENCHANTMENT ) ~= 0 and spell:GetSubType():Test( ENCHANTMENT_TYPE_AURA ) ~= 0 then
+        			player:PseudoPlaySpell(spell)
+        		else
+    		spell:PlayFreeFromAnywhere( EffectController() )  
+    		return
+    		end
+    	end
+    end
+    EffectController():Library_GetNth(0):RemoveFromGame()  
+    </RESOLUTION_TIME_ACTION>
+    <AI_AVAILABILITY step="end_of_turn" turn="their_turn" />
+    <AI_AVAILABILITY step="declare_attackers" turn="their_turn" />
+    <AI_AVAILABILITY type="in_response_dangerous" />
+    <AI_AVAILABILITY step="declare_blockers" blocking_or_blocked="1" />
+  </ACTIVATED_ABILITY>
+  <AI_COUNTER_SCORE type="WISH" score="400" />
+  <HELP title="MORE_INFO_BADGE_TITLE_10" body="MORE_INFO_BADGE_BODY_10" zone="ZONE_ANY" />
+  <SFX text="COMBAT_PLASMA_LARGE_ATTACK" power_boundary_min="4" power_boundary_max="-1" />
+  <SFX text="COMBAT_PLASMA_SMALL_ATTACK" power_boundary_min="1" power_boundary_max="3" />
+</CARD_V2>

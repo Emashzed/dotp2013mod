@@ -1,0 +1,68 @@
+﻿<?xml version='1.0'?>
+<CARD_V2>
+  <FILENAME text="FAITHLESS_LOOTING_888245299" />
+  <CARDNAME text="FAITHLESS_LOOTING" />
+  <TITLE>
+     <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Faithless Looting]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Faithless Looting]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Faithless Looting]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Faithless Looting]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Faithless Looting]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[Faithless Looting]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[Faithless Looting]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Faithless Looting]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Faithless Looting]]></LOCALISED_TEXT>
+  </TITLE>
+  <MULTIVERSEID value="888245299" />
+  <ARTID value="888245299" />
+  <ARTIST name="Gabor Szikszai" />
+  <CASTING_COST cost="{R}" />
+  <FLASHBACK_COST cost="{2}{R}" />
+  <FLAVOURTEXT>
+     <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[“Avacyn has abandoned us! We have nothing left except what we can take!”]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[“Avacyn has abandoned us! We have nothing left except what we can take!”]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[“Avacyn has abandoned us! We have nothing left except what we can take!”]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[“Avacyn has abandoned us! We have nothing left except what we can take!”]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[“Avacyn has abandoned us! We have nothing left except what we can take!”]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[“Avacyn has abandoned us! We have nothing left except what we can take!”]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[“Avacyn has abandoned us! We have nothing left except what we can take!”]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[“Avacyn has abandoned us! We have nothing left except what we can take!”]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[“Avacyn has abandoned us! We have nothing left except what we can take!”]]></LOCALISED_TEXT>
+  </FLAVOURTEXT>
+  <TYPE metaname="Sorcery" />
+  <EXPANSION value="DPG" />
+  <RARITY metaname="C" />
+  <SPELL_ABILITY>
+     <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Draw two cards, then discard two cards.]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Draw two cards, then discard two cards.]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Draw two cards, then discard two cards.]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Draw two cards, then discard two cards.]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Draw two cards, then discard two cards.]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[Draw two cards, then discard two cards.]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[Draw two cards, then discard two cards.]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Draw two cards, then discard two cards.]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Draw two cards, then discard two cards.]]></LOCALISED_TEXT>
+	<RESOLUTION_TIME_ACTION>
+    if EffectController() ~= nil then
+    	PlayerDrawCards( EffectController(), 2 )
+    end
+    </RESOLUTION_TIME_ACTION>
+	<RESOLUTION_TIME_ACTION>
+    if EffectController() ~= nil then
+    	EffectController():DiscardNCards(2, "CARD_QUERY_CHOOSE_CARD_TO_DISCARD")
+    end
+    </RESOLUTION_TIME_ACTION>
+  </SPELL_ABILITY>
+  <UTILITY_ABILITY>
+     <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Flashback {2}{R} |(You may cast this card from your graveyard for its flashback cost. Then exile it.)|]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Flashback {2}{R} |(You may cast this card from your graveyard for its flashback cost. Then exile it.)|]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Flashback {2}{R} |(You may cast this card from your graveyard for its flashback cost. Then exile it.)|]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Flashback {2}{R} |(You may cast this card from your graveyard for its flashback cost. Then exile it.)|]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Flashback {2}{R} |(You may cast this card from your graveyard for its flashback cost. Then exile it.)|]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[Flashback {2}{R} |(You may cast this card from your graveyard for its flashback cost. Then exile it.)|]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[Flashback {2}{R} |(You may cast this card from your graveyard for its flashback cost. Then exile it.)|]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Flashback {2}{R} |(You may cast this card from your graveyard for its flashback cost. Then exile it.)|]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Flashback {2}{R} |(You may cast this card from your graveyard for its flashback cost. Then exile it.)|]]></LOCALISED_TEXT>
+  </UTILITY_ABILITY>
+  <AI_BASE_SCORE score="-50" zone="ZONE_GRAVEYARD" />
+</CARD_V2>

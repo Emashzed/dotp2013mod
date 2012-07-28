@@ -1,0 +1,69 @@
+﻿<?xml version='1.0'?>
+<CARD_V2>
+  <FILENAME text="TIDEHOLLOW_STRIX_888175015" />
+  <CARDNAME text="TIDEHOLLOW_STRIX" />
+  <TITLE>
+     <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Tidehollow Strix]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Tidehollow Strix]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Tidehollow Strix]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Tidehollow Strix]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Tidehollow Strix]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[Tidehollow Strix]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[Tidehollow Strix]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Tidehollow Strix]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Tidehollow Strix]]></LOCALISED_TEXT>
+  </TITLE>
+  <MULTIVERSEID value="888175015" />
+  <ARTID value="888175015" />
+  <ARTIST name="Cyril Van Der Haegen" />
+  <CASTING_COST cost="{U}{B}" />
+  <FLAVOURTEXT>
+     <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[The scullers beneath Esper keep strixes as trained pets, and set them loose when a fare refuses to pay.]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[The scullers beneath Esper keep strixes as trained pets, and set them loose when a fare refuses to pay.]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[The scullers beneath Esper keep strixes as trained pets, and set them loose when a fare refuses to pay.]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[The scullers beneath Esper keep strixes as trained pets, and set them loose when a fare refuses to pay.]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[The scullers beneath Esper keep strixes as trained pets, and set them loose when a fare refuses to pay.]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[The scullers beneath Esper keep strixes as trained pets, and set them loose when a fare refuses to pay.]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[The scullers beneath Esper keep strixes as trained pets, and set them loose when a fare refuses to pay.]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[The scullers beneath Esper keep strixes as trained pets, and set them loose when a fare refuses to pay.]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[The scullers beneath Esper keep strixes as trained pets, and set them loose when a fare refuses to pay.]]></LOCALISED_TEXT>
+  </FLAVOURTEXT>
+  <TYPE metaname="Artifact" />
+  <TYPE metaname="Creature" />
+  <SUB_TYPE metaname="Bird" order_de-DE="0" order_es-ES="0" order_fr-FR="0" order_it-IT="0" order_jp-JA="0" order_ko-KR="0" order_pt-BR="0" order_ru-RU="0" />
+  <EXPANSION value="DPG" />
+  <RARITY metaname="C" />
+  <POWER value="2" />
+  <TOUGHNESS value="1" />
+  <STATIC_ABILITY>
+     <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Flying]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Flying]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Flying]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Flying]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Flying]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[Flying]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[Flying]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Flying]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Flying]]></LOCALISED_TEXT>
+    <CONTINUOUS_ACTION>
+    local characteristics = Object():GetCurrentCharacteristics()
+    characteristics:Characteristic_Set( CHARACTERISTIC_FLYING, 1 )
+    </CONTINUOUS_ACTION>
+  </STATIC_ABILITY>
+  <STATIC_ABILITY>
+     <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Deathtouch |(Any amount of damage this deals to a creature is enough to destroy it.)|]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Deathtouch |(Any amount of damage this deals to a creature is enough to destroy it.)|]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Deathtouch |(Any amount of damage this deals to a creature is enough to destroy it.)|]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Deathtouch |(Any amount of damage this deals to a creature is enough to destroy it.)|]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Deathtouch |(Any amount of damage this deals to a creature is enough to destroy it.)|]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[Deathtouch |(Any amount of damage this deals to a creature is enough to destroy it.)|]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[Deathtouch |(Any amount of damage this deals to a creature is enough to destroy it.)|]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Deathtouch |(Any amount of damage this deals to a creature is enough to destroy it.)|]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Deathtouch |(Any amount of damage this deals to a creature is enough to destroy it.)|]]></LOCALISED_TEXT>
+    <CONTINUOUS_ACTION>
+     Object():GetCurrentCharacteristics():Characteristic_Set( CHARACTERISTIC_DEATHTOUCH, 1 )
+    </CONTINUOUS_ACTION>
+  </STATIC_ABILITY>
+  <SFX text="COMBAT_CLAW_LARGE_ATTACK" power_boundary_min="4" power_boundary_max="-1" />
+  <SFX text="COMBAT_CLAW_SMALL_ATTACK" power_boundary_min="1" power_boundary_max="3" />
+</CARD_V2>

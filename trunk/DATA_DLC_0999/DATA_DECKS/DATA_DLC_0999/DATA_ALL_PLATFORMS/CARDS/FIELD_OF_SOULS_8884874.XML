@@ -1,0 +1,49 @@
+﻿<?xml version='1.0'?>
+<CARD_V2>
+  <FILENAME text="FIELD_OF_SOULS_8884874" />
+  <CARDNAME text="FIELD_OF_SOULS" />
+  <TITLE>
+     <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Field of Souls]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Field of Souls]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Field of Souls]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Field of Souls]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Field of Souls]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[Field of Souls]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[Field of Souls]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Field of Souls]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Field of Souls]]></LOCALISED_TEXT>
+  </TITLE>
+  <MULTIVERSEID value="8884874" />
+  <ARTID value="8884874" />
+  <ARTIST name="Richard Kane Ferguson" />
+  <CASTING_COST cost="{2}{W}{W}" />
+  <TYPE metaname="Enchantment" />
+  <EXPANSION value="DPG" />
+  <RARITY metaname="R" />
+  <TRIGGERED_ABILITY auto_skip="1">
+     <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Whenever a nontoken creature is put into your graveyard from the battlefield, put a 1/1 white Spirit creature token with flying onto the battlefield.]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Whenever a nontoken creature is put into your graveyard from the battlefield, put a 1/1 white Spirit creature token with flying onto the battlefield.]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Whenever a nontoken creature is put into your graveyard from the battlefield, put a 1/1 white Spirit creature token with flying onto the battlefield.]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Whenever a nontoken creature is put into your graveyard from the battlefield, put a 1/1 white Spirit creature token with flying onto the battlefield.]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Whenever a nontoken creature is put into your graveyard from the battlefield, put a 1/1 white Spirit creature token with flying onto the battlefield.]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[Whenever a nontoken creature is put into your graveyard from the battlefield, put a 1/1 white Spirit creature token with flying onto the battlefield.]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[Whenever a nontoken creature is put into your graveyard from the battlefield, put a 1/1 white Spirit creature token with flying onto the battlefield.]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Whenever a nontoken creature is put into your graveyard from the battlefield, put a 1/1 white Spirit creature token with flying onto the battlefield.]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Whenever a nontoken creature is put into your graveyard from the battlefield, put a 1/1 white Spirit creature token with flying onto the battlefield.]]></LOCALISED_TEXT>
+    <TRIGGER value="ZONECHANGE_END" to_zone="ZONE_GRAVEYARD" from_zone="ZONE_IN_PLAY">
+    if (TriggerObject():GetCardType():Test( CARD_TYPE_CREATURE ) ~= 0 and TriggerObject():GetOwner() == EffectController() and TriggerObject():IsToken() == 0) then
+    	return true
+    else
+    	return false
+    end
+    </TRIGGER>
+	<RESOLUTION_TIME_ACTION>
+    local token_count = 1
+    if token_count &gt; 0 then
+    	MTG():PutTokensIntoPlay( "TOKEN_SPIRIT_1_1_F_277469", token_count, EffectController() )
+    end
+    </RESOLUTION_TIME_ACTION>
+  </TRIGGERED_ABILITY>
+  <TOKEN_REGISTRATION reservation="1" type="TOKEN_SPIRIT_1_1_F_277469" />
+  <AI_BASE_SCORE score="900" zone="ZONE_IN_PLAY" />
+</CARD_V2>

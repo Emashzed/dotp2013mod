@@ -1,0 +1,48 @@
+<DECK personality="D13_GRISEL.XML" deck_box_image="D13_GRISEL" deck_box_image_locked="locked" content_pack="0" always_available="true" uid="897" preview_card="visara" is_black="true" is_red="true">
+  <DECKSTATISTICS Size="2" Speed="4" Flex="7" Syn="8" />
+  <LandConfig minSwamp="10" minMountain="6" numSpellsThatCountAsLand="4" />
+  <CARD name="JINGITAXIAS_CORE_AUGUR_888214349" deckOrderId="0" />
+  <CARD name="GRISELBRAND_281212" deckOrderId="1" />
+  <CARD name="SPHINX_OF_THE_STEEL_WIND_888189641" deckOrderId="2" />
+  <CARD name="EMPYRIAL_ARCHANGEL_888175104@2" deckOrderId="3" />
+  <CARD name="IONA_SHIELD_OF_EMERIA_888190407@2" deckOrderId="4" />
+  <CARD name="BLAZING_ARCHON_888270449@3" deckOrderId="5" />
+  <CARD name="VISARA_THE_DREADFUL_888244677" deckOrderId="6" />
+  <CARD name="SHEOLDRED_WHISPERING_ONE_888214382" deckOrderId="7" />
+  <CARD name="REANIMATE_277211" deckOrderId="8" />
+  <CARD name="REANIMATE_277211" deckOrderId="9" />
+  <CARD name="DAMNATION_276893" deckOrderId="10" />
+  <CARD name="BURIED_ALIVE_888247342" deckOrderId="11" />
+  <CARD name="BURIED_ALIVE_888247342" deckOrderId="12" />
+  <CARD name="ENTOMB_88830552" deckOrderId="13" />
+  <CARD name="ENTOMB_88830552@2" deckOrderId="14" />
+  <CARD name="ENTOMB_88830552@2" deckOrderId="15" />
+  <CARD name="ENTOMB_88830552@3" deckOrderId="16" />
+  <CARD name="ANIMATE_DEAD_888265167@3" deckOrderId="17" />
+  <CARD name="ANIMATE_DEAD_888265167@3" deckOrderId="18" />
+  <CARD name="ANIMATE_DEAD_888265167@3" deckOrderId="19" />
+  <CARD name="ANIMATE_DEAD_888265167" deckOrderId="20" />
+  <CARD name="EXHUME_88821153@3" deckOrderId="21" />
+  <CARD name="EXHUME_88821153@3" deckOrderId="22" />
+  <CARD name="EXHUME_88821153" deckOrderId="23" />
+  <CARD name="EXHUME_88821153" deckOrderId="24" />
+  <CARD name="SMOTHER_88841023" deckOrderId="25" />
+  <CARD name="SMOTHER_88841023" deckOrderId="26" />
+  <CARD name="SMOTHER_88841023" deckOrderId="27" />
+  <CARD name="FAITHLESS_LOOTING_888245299@2" deckOrderId="28" />
+  <CARD name="FAITHLESS_LOOTING_888245299@2" deckOrderId="29" />
+  <CARD name="FAITHLESS_LOOTING_888245299" deckOrderId="30" />
+  <CARD name="DAMNATION_276893" deckOrderId="31" />
+  <CARD name="CHAINERS_EDICT_88829603" deckOrderId="32" />
+  <CARD name="CHAINERS_EDICT_88829603" deckOrderId="33" />
+  <CARD name="BARREN_MOOR_888220487" deckOrderId="34" />
+  <CARD name="BARREN_MOOR_888220487" deckOrderId="35" />
+  <CARD name="BARREN_MOOR_888220487" deckOrderId="36" />
+  <CARD name="BARREN_MOOR_888220487" deckOrderId="37" />
+  <CARD name="JUND_PANORAMA_888179425" deckOrderId="38" />
+  <CARD name="GRIXIS_PANORAMA_888179433" deckOrderId="39" />
+  <CARD name="TERRAMORPHIC_EXPANSE_276987" deckOrderId="40" />
+  <CARD name="EVOLVING_WILDS_276846" deckOrderId="41" />
+  <CARD name="SICKENING_DREAMS_888270460" deckOrderId="42" />
+  <CARD name="SICKENING_DREAMS_888270460" deckOrderId="43" />
+</DECK>

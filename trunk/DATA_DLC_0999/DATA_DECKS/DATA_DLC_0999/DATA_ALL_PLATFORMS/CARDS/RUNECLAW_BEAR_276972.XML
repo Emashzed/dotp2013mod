@@ -1,0 +1,47 @@
+<?xml version='1.0'?>
+<CARD_V2>
+  <FILENAME text="RUNECLAW_BEAR_276972" />
+  <CARDNAME text="RUNECLAW_BEAR" />
+  <TITLE>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Runeclaw Bear]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Ours runegriffe]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Oso garra de runas]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Runenklauenbär]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Orso Zampa di Runa]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[ルーン爪の熊]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[룬발톱 곰]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Руннолапый Медведь]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Urso Garra de Runa]]></LOCALISED_TEXT>
+  </TITLE>
+  <MULTIVERSEID value="276972" />
+  <ARTID value="121566" />
+  <ARTIST name="Jesper Ejsing" />
+  <CASTING_COST cost="{1}{G}" />
+  <FLAVOURTEXT>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[“Nature has grown tired of the impositions of men and will begin to outfit its creations with tools for bloody instruction.”
+—Hadi Kasten, Calla Dale naturalist]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[« La nature s’est lassée des impositions des hommes et elle va commencer à équiper ses créations d’outils pour leur éducation. »
+—Hadi Kasten, naturaliste du Vallon de Calla]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[“La naturaleza se ha hartado de las imposiciones de los hombres y comenzará a proveer a sus creaciones de herramientas para hacerse entender.”
+—Hadi Kasten, naturalista del Valle Kala]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[„Die Natur ist es leid, was ihnen die Menschheit zumutet, und rüstet daher ihre Kreationen mit blutigen Werkzeugen aus.“
+—Hadi Kasten, Naturalist aus Calla Dale]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[“La natura si è stufata delle imposizioni degli uomini e inizierà presto ad attrezzare le sue creazioni con strumenti di addestramento sanguinari.”
+—Hadi Kasten, naturalista della Vallata delle Calle]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[「自然は人間からの抑制に飽き、血塗られた教訓のための道具を自らの創造物に与え始めたのじゃ。」
+—カラ谷の自然術士、ハジ・カステン]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[“인간의 횡포에 시달린 자연은 짐승들에게 날카로운 무기를 줄 것이다.”
+—칼라 데일의 박물학자 하디 캐스텐]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[«Природа устала от прихотей человека и вскоре начнет наделять свои творения орудиями кровавого назидания».
+— Хади Кастен, калла-дейльский натуралист]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[“A natureza cansou-se das imposições dos homens e começará a armar suas criações com ferramentas adequadas a lições sangrentas.”
+— Hadi Kasten, naturalista do Vale de Cala]]></LOCALISED_TEXT>
+  </FLAVOURTEXT>
+  <TYPE metaname="Creature" />
+  <SUB_TYPE metaname="Bear" order_de-DE="0" order_es-ES="0" order_fr-FR="0" order_it-IT="0" order_jp-JA="0" order_ko-KR="0" order_pt-BR="0" order_ru-RU="0" />
+  <EXPANSION value="DPG" />
+  <RARITY metaname="C" />
+  <POWER value="2" />
+  <TOUGHNESS value="2" />  <SFX text="COMBAT_CLAW_LARGE_ATTACK" power_boundary_min="4" power_boundary_max="-1" />
+  <SFX text="COMBAT_CLAW_SMALL_ATTACK" power_boundary_min="1" power_boundary_max="3" />
+</CARD_V2>

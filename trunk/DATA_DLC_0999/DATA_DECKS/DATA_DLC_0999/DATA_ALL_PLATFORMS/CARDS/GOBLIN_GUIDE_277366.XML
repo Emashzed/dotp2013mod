@@ -1,0 +1,82 @@
+<?xml version='1.0'?>
+<CARD_V2>
+  <FILENAME text="GOBLIN_GUIDE_277366" />
+  <CARDNAME text="GOBLIN_GUIDE" />
+  <TITLE>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Goblin Guide]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Guide gobelin]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Guía trasgo]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Goblin-Wegefinder]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Guida Goblin]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[ゴブリンの先達]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[고블린 길잡이]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Гоблин-Проводник]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Guia Goblin]]></LOCALISED_TEXT>
+  </TITLE>
+  <MULTIVERSEID value="277366" />
+  <ARTID value="123540" />
+  <ARTIST name="Warren Mahy" />
+  <CASTING_COST cost="{R}" />
+  <FLAVOURTEXT>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[“I’ve been all over this world. I even remember some of those places.”]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[« J’ai bourlingué dans le monde entier. Je me souviens même de quelques endroits. »]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[“He estado por todo el mundo. Incluso recuerdo algunos lugares.”]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[„Ich bin überall auf dieser Welt gewesen. Einige dieser Orte erkenne ich sogar wieder.“]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[“Sono stato ovunque in questo mondo. Ricordo perfino alcuni di questi posti.”]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[「この世界は全部回ったぞ。 その何箇所かは覚えてるんだぞ。」]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[“난 이 세상에서 안 가본 데가 없어. 그 중 일부는 기억나기도 한다고.”]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[«Я избороздил этот мир вдоль и поперек. Я даже помню некоторые места».]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[“Eu já estive nos quatro cantos do mundo. Até me lembro de alguns daqueles lugares.”]]></LOCALISED_TEXT>
+  </FLAVOURTEXT>
+  <TYPE metaname="Creature" />
+  <SUB_TYPE metaname="Goblin" order_de-DE="0" order_es-ES="1" order_fr-FR="0" order_it-IT="1" order_jp-JA="0" order_ko-KR="0" order_pt-BR="0" order_ru-RU="0" />
+  <SUB_TYPE metaname="Scout" order_de-DE="1" order_es-ES="0" order_fr-FR="1" order_it-IT="0" order_jp-JA="1" order_ko-KR="1" order_pt-BR="1" order_ru-RU="1" />
+  <EXPANSION value="DPG" />
+  <RARITY metaname="R" />
+  <POWER value="2" />
+  <TOUGHNESS value="2" />
+  <STATIC_ABILITY filter_zone="ZONE_IN_PLAY">
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Haste]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Célérité]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Prisa.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Eile]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Rapidità]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[速攻]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[신속]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Ускорение]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Ímpeto]]></LOCALISED_TEXT>
+    <CONTINUOUS_ACTION>
+    local characteritics = Object():GetCurrentCharacteristics()
+    characteritics:Characteristic_Set( CHARACTERISTIC_HASTE, 1 )
+    </CONTINUOUS_ACTION>
+  </STATIC_ABILITY>
+  <TRIGGERED_ABILITY filter_zone="ZONE_IN_PLAY">
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Whenever Goblin Guide attacks, defending player reveals the top card of his or her library. If it’s a land card, that player puts it into his or her hand.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[À chaque fois que le Guide gobelin attaque, le joueur défenseur révèle la carte du dessus de sa bibliothèque. Si c’est une carte de terrain, ce joueur la met dans sa main.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Siempre que el Guía trasgo ataque, el jugador defensor muestra la primera carta de su biblioteca. Si es una carta de tierra, ese jugador la pone en su mano.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Immer wenn der Goblin-Wegefinder angreift, zeigt der verteidigende Spieler die oberste Karte seiner Bibliothek offen vor. Ist es ein Land, nimmt dieser Spieler diese Karte auf seine Hand.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Ogniqualvolta la Guida Goblin attacca, il giocatore in difesa rivela la prima carta del suo grimorio. Se è una carta terra, quel giocatore la aggiunge alla sua mano.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[ゴブリンの先達が攻撃するたび、防御プレイヤーは自分のライブラリーの一番上のカードを公開する。 それが土地カードである場合、そのプレイヤーはそれを自分の手札に加える。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[고블린 길잡이가 공격할 때마다, 수비플레이어는 자신의 서고 맨 위의 카드를 공개한다. 공개한 카드가 대지 카드라면, 그 플레이어는 그 카드를 손으로 가져간다.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Каждый раз, когда Гоблин-Проводник атакует, защищающийся игрок показывает верхнюю карту своей библиотеки. Если это карта земли, тот игрок кладет ее в свою руку.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Toda vez que Guia Goblin ataca, o jogador defensor revela o card do topo de seu próprio grimório. Se for um card de terreno, aquele jogador o coloca na sua mão.]]></LOCALISED_TEXT>
+    <TRIGGER value="ATTACKING" simple_qualifier="self" />
+    <RESOLUTION_TIME_ACTION>
+    local player = TriggerPlayer()
+    local top_card = player:Library_GetNth(0)
+    if player ~= nil then
+    	if top_card ~= nil and top_card:GetZone() == ZONE_LIBRARY then
+    		if (top_card:GetCardType():Test(CARD_TYPE_LAND) == 1) then
+    		top_card:GuidedReveal( ZONE_LIBRARY, ZONE_HAND )
+    		top_card:PutInHand()
+    	else
+    		top_card:GuidedReveal( ZONE_LIBRARY, ZONE_LIBRARY )
+    		end	
+    	end
+    end
+    </RESOLUTION_TIME_ACTION>
+  </TRIGGERED_ABILITY>
+  <HELP title="MORE_INFO_BADGE_TITLE_14" body="MORE_INFO_BADGE_BODY_14" zone="ZONE_ANY" />
+  <SFX text="COMBAT_BLUNT_LARGE_ATTACK" power_boundary_min="4" power_boundary_max="-1" />
+  <SFX text="COMBAT_BLUNT_SMALL_ATTACK" power_boundary_min="1" power_boundary_max="3" />
+</CARD_V2>

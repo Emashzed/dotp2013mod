@@ -1,0 +1,72 @@
+﻿<?xml version='1.0'?>
+<CARD_V2>
+  <FILENAME text="NATURALIZE_888174890" />
+  <CARDNAME text="NATURALIZE" />
+  <TITLE>
+     <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Naturalize]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Naturalize]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Naturalize]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Naturalize]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Naturalize]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[Naturalize]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[Naturalize]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Naturalize]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Naturalize]]></LOCALISED_TEXT>
+  </TITLE>
+  <MULTIVERSEID value="888174890" />
+  <ARTID value="888174890" />
+  <ARTIST name="Trevor Hairsine" />
+  <CASTING_COST cost="{1}{G}" />
+  <FLAVOURTEXT>
+     <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[The idols of old are rich in minerals and magic. They are torn apart when nature aims to eat well.]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[The idols of old are rich in minerals and magic. They are torn apart when nature aims to eat well.]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[The idols of old are rich in minerals and magic. They are torn apart when nature aims to eat well.]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[The idols of old are rich in minerals and magic. They are torn apart when nature aims to eat well.]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[The idols of old are rich in minerals and magic. They are torn apart when nature aims to eat well.]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[The idols of old are rich in minerals and magic. They are torn apart when nature aims to eat well.]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[The idols of old are rich in minerals and magic. They are torn apart when nature aims to eat well.]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[The idols of old are rich in minerals and magic. They are torn apart when nature aims to eat well.]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[The idols of old are rich in minerals and magic. They are torn apart when nature aims to eat well.]]></LOCALISED_TEXT>
+  </FLAVOURTEXT>
+  <TYPE metaname="Instant" />
+  <EXPANSION value="DPG" />
+  <RARITY metaname="C" />
+  <SPELL_ABILITY dangerous="1" filter_zone="ZONE_IN_PLAY">
+     <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Destroy target artifact or enchantment.]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Destroy target artifact or enchantment.]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Destroy target artifact or enchantment.]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Destroy target artifact or enchantment.]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Destroy target artifact or enchantment.]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[Destroy target artifact or enchantment.]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[Destroy target artifact or enchantment.]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Destroy target artifact or enchantment.]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Destroy target artifact or enchantment.]]></LOCALISED_TEXT>
+	<TARGET_DEFINITION id="0">
+    local filter = Object():GetFilter()
+    filter:Clear()
+    filter:AddCardType( CARD_TYPE_ARTIFACT )
+    filter:AddCardType( CARD_TYPE_ENCHANTMENT )
+    filter:SetZone( ZONE_IN_PLAY )
+    filter:SetHint( HINT_ENEMY_ONLY, EffectController() )
+    </TARGET_DEFINITION>
+    <TARGET_DETERMINATION>
+    return AtLeastOneTargetFromDefinition(0)
+    </TARGET_DETERMINATION>
+    <PLAY_TIME_ACTION target_choosing="1">
+    EffectController():ChooseTarget( 0, "CARD_QUERY_CHOOSE_ARTIFACT_OR_ENCHANTMENT_TO_DESTROY", EffectDC():Make_Targets(0) )
+    </PLAY_TIME_ACTION>
+    <RESOLUTION_TIME_ACTION ignore_filter="1">
+    local target = EffectDC():Get_Targets(0):Get_NthCardPtr(0)
+    if target ~= nil then   
+    	target:Destroy()  
+    end
+    </RESOLUTION_TIME_ACTION>
+  </SPELL_ABILITY>
+  <AI_AVAILABILITY type="in_response" />
+  <AI_AVAILABILITY step="begin_combat" turn="their_turn" />
+  <AI_AVAILABILITY step="main_1" turn="my_turn" />
+  <AI_AVAILABILITY step="declare_attackers" turn="their_turn" />
+  <AI_AVAILABILITY step="declare_blockers" />
+  <AI_AVAILABILITY step="end_of_turn" />
+  <AI_BASE_SCORE score="600" zone="ZONE_HAND" />
+</CARD_V2>

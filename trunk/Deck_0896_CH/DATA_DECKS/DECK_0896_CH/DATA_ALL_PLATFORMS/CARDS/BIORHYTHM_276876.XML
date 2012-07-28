@@ -1,0 +1,91 @@
+<?xml version='1.0'?>
+<CARD_V2>
+  <FILENAME text="BIORHYTHM_276876" />
+  <CARDNAME text="BIORHYTHM" />
+  <TITLE>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Biorhythm]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Biorythme]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Biorritmo]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Biorhythmus]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Bioritmo]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[生命の律動]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[바이오리듬]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Биоритм]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Biorritmo]]></LOCALISED_TEXT>
+  </TITLE>
+  <MULTIVERSEID value="276876" />
+  <ARTID value="43195" />
+  <ARTIST name="Ron Spears" />
+  <CASTING_COST cost="{6}{G}{G}" />
+  <FLAVOURTEXT>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[“I have seen life’s purpose, and now it is my own.”
+—Kamahl, druid acolyte]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[« Je connais le but de la vie, je connais donc le but de ma vie. »
+—Kamahl, acolyte druide]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[“He visto el propósito de la vida, y ahora lo he hecho mío“.
+—Kamahl, acólito druida]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[„Ich habe den Zweck des Lebens erkannt, und ihn für mich übernommen.“
+—Kamahl, Druidennovize]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[“Ho compreso lo scopo della vita e ora è anche il mio.”
+—Kamahl, accolito druido]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[「私は生命の目的を見てきた。今やそれは私と共にある。」
+—ドルイドの見習いカマール]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[“나는 삶의 목적을 배웠으니 그 목적대로 살 것이다.”
+—초보 드루이드 카말]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[«Я узнал цель жизни. Теперь это моя цель».
+— Камал, священник друидов]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[“Vi o propósito da vida, e agora é o meu próprio.”
+— Kamahl, acólito druida]]></LOCALISED_TEXT>
+  </FLAVOURTEXT>
+  <TYPE metaname="Sorcery" />
+  <EXPANSION value="DPG" />
+  <RARITY metaname="R" />
+  <SPELL_ABILITY dangerous="1" filter_zone="ZONE_IN_PLAY">
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Each player’s life total becomes the number of creatures he or she controls.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Le total de points de vie de chaque joueur devient égal au nombre de créatures qu’il contrôle.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[El total de vida de cada jugador es el número de criaturas que controle.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Die Lebenspunktzahl jedes Spielers ist gleich der Anzahl der Kreaturen, die er kontrolliert.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[I punti vita di ogni giocatore diventano pari al numero di creature che controlla.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[各プレイヤーのライフの総量は、そのプレイヤーがコントロールするクリーチャーの総数に等しくなる。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[각 플레이어의 생명 총점은 자신이 조종하는 생물의 개수가 된다.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Количество жизней каждого игрока становится равным количеству существ под его контролем.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[O total de pontos de vida de cada jogador torna-se igual ao número de criaturas que ele controla.]]></LOCALISED_TEXT>
+    <RESOLUTION_TIME_ACTION>
+    local number_of_teams = MTG():GetNumberOfTeams()
+    local filter = Object():GetFilter()
+    for i = 0,(number_of_teams-1) do
+    	local nth_team = MTG():GetNthTeam(i)
+    	local number_of_players_on_team = nth_team:GetNumberOfPlayers()
+    	if (nth_team:IsSharedLifeTotal() == 1) then
+    		local max_creatures = 0
+    		for j=0,(number_of_players_on_team-1) do
+    			local nth_player_on_team = nth_team:GetNthPlayer(j)
+    			filter:Clear()
+    			filter:NotTargetted()
+    			filter:SetPlayer( nth_player_on_team )
+    			filter:SetZone( ZONE_IN_PLAY )
+    			filter:AddCardType( CARD_TYPE_CREATURE )
+    			local total = filter:Count()
+    			if total &gt; max_creatures then
+    				max_creatures = total
+    			end
+    		end
+    		nth_team:GetNthPlayer(0):SetLifeTotal(max_creatures)
+    	else
+    		for k=0,(number_of_players_on_team-1) do
+    			local nth_player_on_team = nth_team:GetNthPlayer(k)
+    			filter:Clear()
+    			filter:NotTargetted()
+    			filter:SetPlayer( nth_player_on_team )
+    			filter:SetZone( ZONE_IN_PLAY )
+    			filter:AddCardType( CARD_TYPE_CREATURE )
+    			local total = filter:Count()
+    			nth_player_on_team:SetLifeTotal( total )
+    		end 
+    	end
+    end
+    </RESOLUTION_TIME_ACTION>
+    <SFX text="GLOBAL_BIORHYTHM_PLAY" />
+  </SPELL_ABILITY>
+  <AI_BASE_SCORE score="1500" zone="ZONE_HAND" />
+</CARD_V2>

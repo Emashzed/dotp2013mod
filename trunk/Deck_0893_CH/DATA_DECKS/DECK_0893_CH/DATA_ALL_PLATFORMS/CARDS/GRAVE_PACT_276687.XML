@@ -1,0 +1,91 @@
+<?xml version='1.0'?>
+<CARD_V2>
+  <FILENAME text="GRAVE_PACT_276687" />
+  <CARDNAME text="GRAVE_PACT" />
+  <TITLE>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Grave Pact]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Pacte de la tombe]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Pacto de las sepulturas]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Todespakt]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Patto Sepolcrale]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[墓穴までの契約]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[죽음의 계약]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Соглашение о Захоронении]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Pacto da Sepultura]]></LOCALISED_TEXT>
+  </TITLE>
+  <MULTIVERSEID value="276687" />
+  <ARTID value="86738" />
+  <ARTIST name="Puddnhead" />
+  <CASTING_COST cost="{1}{B}{B}{B}" />
+  <FLAVOURTEXT>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[“The bonds of loyalty can tie one to the grave.”
+—Crovax, ascendant evincar]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[« Les liens de la loyauté peuvent vous attacher à votre tombe. »
+—Crovax, incarmal]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[“Los lazos de la lealtad pueden atarnos a la tumba.”
+—Crovax, évincar predominante]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[„Ein Treuebund kann einen auch ins Grab bringen.“
+—Crovax, Aufsteigender Evincar]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[“I legami della lealtà possono incatenarti alla tomba.”
+—Crovax, evincaro dominante]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[忠誠の絆は、墓穴の中までつながっているのだ。
+—隆盛なるエヴィンカー、クロウヴァクス]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[“맹세를 지키기 위해 무덤까지 따라가는 자들도 있지.”
+—선대 에빈카르 크로백스]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[«Оковы преданности могут сдавить насмерть».
+— Кровакс, правящий эвинкар]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[“Os laços de lealdade são capazes de atar-te a uma sepultura.”
+— Crovax, evincar ascendente]]></LOCALISED_TEXT>
+  </FLAVOURTEXT>
+  <TYPE metaname="Enchantment" />
+  <EXPANSION value="DPG" />
+  <RARITY metaname="R" />
+  <TRIGGERED_ABILITY dangerous="1" filter_zone="ZONE_IN_PLAY">
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Whenever a creature you control dies, each other player sacrifices a creature.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[À chaque fois qu’une créature que vous contrôlez meurt, chaque autre joueur sacrifie une créature.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Siempre que una criatura que controles muera, cada uno de los demás jugadores sacrifica una criatura.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Immer wenn eine Kreatur stirbt, die du kontrollierst, opfern alle anderen Spieler eine Kreatur.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Ogniqualvolta una creatura che controlli muore, ogni altro giocatore sacrifica una creatura.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[あなたがコントロールするクリーチャーが１体死亡するたび、他の各プレイヤーはクリーチャーを１体生け贄に捧げる。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[당신이 조종하는 생물이 죽을 때마다, 당신을 제외한 각 플레이어는 생물 한 개를 희생한다.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Каждый раз, когда существо под вашим контролем умирает, каждый другой игрок жертвует существо.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Toda vez que uma criatura que você controla morre, cada um dos outros jogadores sacrifica uma criatura.]]></LOCALISED_TEXT>
+    <TRIGGER value="ZONECHANGE_BEGIN" simple_qualifier="objectyoucontrol" to_zone="ZONE_GRAVEYARD" from_zone="ZONE_IN_PLAY">
+    return TriggerObject():GetCardType():Test( CARD_TYPE_CREATURE ) ~= 0 
+    </TRIGGER>
+    <RESOLUTION_TIME_ACTION repeating="1">
+    local n = MTG():GetActionRepCount()
+        local num_players = MTG():GetNumberOfPlayers()
+        local playerindex = n
+        local player = MTG():GetNthPlayer(playerindex)
+        local filter = Object():GetFilter() 
+        if player ~= nil and n &lt; num_players then
+    		if player ~= EffectController() then
+        	-- ask the query
+        	filter:Clear()
+        	filter:NotTargetted()
+        	filter:SetPlayer( player )
+        	filter:SetZone( ZONE_IN_PLAY )
+        	filter:AddCardType( CARD_TYPE_CREATURE )
+        	filter:SetHint( HINT_ENEMY, player )
+        	player:ChooseTarget( NO_VALIDATION, "CARD_QUERY_CHOOSE_CREATURE_TO_SACRIFICE", EffectDC():Make_Targets(n) )
+        	end
+    		return true
+    		else 
+        	local i=0
+        	for i=0,(num_players-1) do
+        		local targetDC = EffectDC():Get_Targets(i)
+        		
+        		if targetDC ~= nil then
+        		  local target_card = targetDC:Get_CardPtr(0)
+        		  if target_card ~= nil then
+        		    target_card:Sacrifice( target_card:GetPlayer() )
+        		  end
+        		end
+        	end
+    		    	return false
+        end
+    </RESOLUTION_TIME_ACTION>
+  </TRIGGERED_ABILITY>
+  <AI_BASE_SCORE score="1200" zone="ZONE_IN_PLAY" />
+</CARD_V2>

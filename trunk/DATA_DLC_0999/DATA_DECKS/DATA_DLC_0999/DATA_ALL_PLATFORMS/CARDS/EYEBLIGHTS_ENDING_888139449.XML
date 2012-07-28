@@ -1,0 +1,85 @@
+﻿<?xml version='1.0'?>
+<CARD_V2>
+  <FILENAME text="EYEBLIGHTS_ENDING_888139449" />
+  <CARDNAME text="EYEBLIGHTS_ENDING" />
+  <TITLE>
+     <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Eyeblight’s Ending]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Eyeblight’s Ending]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Eyeblight’s Ending]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Eyeblight’s Ending]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Eyeblight’s Ending]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[Eyeblight’s Ending]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[Eyeblight’s Ending]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Eyeblight’s Ending]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Eyeblight’s Ending]]></LOCALISED_TEXT>
+  </TITLE>
+  <MULTIVERSEID value="888139449" />
+  <ARTID value="888139449" />
+  <ARTIST name="Ron Spears" />
+  <CASTING_COST cost="{2}{B}" />
+  <FLAVOURTEXT>
+     <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[“Those without beauty are Lorwyn’s greatest tumor. The winnowers have an unpleasant duty, but a necessary one.”
+—Eidren, perfect of Lys Alana]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[“Those without beauty are Lorwyn’s greatest tumor. The winnowers have an unpleasant duty, but a necessary one.”
+—Eidren, perfect of Lys Alana]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[“Those without beauty are Lorwyn’s greatest tumor. The winnowers have an unpleasant duty, but a necessary one.”
+—Eidren, perfect of Lys Alana]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[“Those without beauty are Lorwyn’s greatest tumor. The winnowers have an unpleasant duty, but a necessary one.”
+—Eidren, perfect of Lys Alana]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[“Those without beauty are Lorwyn’s greatest tumor. The winnowers have an unpleasant duty, but a necessary one.”
+—Eidren, perfect of Lys Alana]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[“Those without beauty are Lorwyn’s greatest tumor. The winnowers have an unpleasant duty, but a necessary one.”
+—Eidren, perfect of Lys Alana]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[“Those without beauty are Lorwyn’s greatest tumor. The winnowers have an unpleasant duty, but a necessary one.”
+—Eidren, perfect of Lys Alana]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[“Those without beauty are Lorwyn’s greatest tumor. The winnowers have an unpleasant duty, but a necessary one.”
+—Eidren, perfect of Lys Alana]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[“Those without beauty are Lorwyn’s greatest tumor. The winnowers have an unpleasant duty, but a necessary one.”
+—Eidren, perfect of Lys Alana]]></LOCALISED_TEXT>
+  </FLAVOURTEXT>
+  <TYPE metaname="Tribal" />
+  <TYPE metaname="Instant" />
+  <SUB_TYPE metaname="Elf" order_de-DE="0" order_es-ES="0" order_fr-FR="0" order_it-IT="0" order_jp-JA="0" order_ko-KR="0" order_pt-BR="0" order_ru-RU="0" />
+  <EXPANSION value="DPG" />
+  <RARITY metaname="C" />
+  <SPELL_ABILITY dangerous="1">
+     <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Destroy target non-Elf creature.]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Destroy target non-Elf creature.]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Destroy target non-Elf creature.]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Destroy target non-Elf creature.]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Destroy target non-Elf creature.]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[Destroy target non-Elf creature.]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[Destroy target non-Elf creature.]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Destroy target non-Elf creature.]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Destroy target non-Elf creature.]]></LOCALISED_TEXT>
+    <TARGET_DEFINITION id="0">
+    local filter = Object():GetFilter()
+    filter:Clear()
+    filter:AddCardType( CARD_TYPE_CREATURE )
+	filter:AddSubType( CREATURE_TYPE_ELF )
+	filter:AddExtra( FILTER_EXTRA_FLIP_SUB_TYPES )
+    filter:SetHint( HINT_ENEMY_ONLY, EffectController() )
+    filter:SetZone( ZONE_IN_PLAY )
+    </TARGET_DEFINITION>
+    <TARGET_DETERMINATION>
+    return AtLeastOneTargetFromDefinition(0)
+    </TARGET_DETERMINATION>
+    <PLAY_TIME_ACTION target_choosing="1">
+    EffectController():ChooseTarget( 0, "CARD_QUERY_CHOOSE_CREATURE_TO_DESTROY", EffectDC():Make_Targets(0) )
+    </PLAY_TIME_ACTION>
+    <RESOLUTION_TIME_ACTION ignore_filter="1">
+    local target = EffectDC():Get_Targets(0):Get_NthCardPtr(0)
+    if target ~= nil then   
+    	target:Destroy()  
+    end
+    </RESOLUTION_TIME_ACTION>
+    <SFX text="TARGET_BLADE_PLAY" />
+  </SPELL_ABILITY>
+  <AI_AVAILABILITY type="in_response" />
+  <AI_AVAILABILITY step="begin_combat" turn="their_turn" />
+  <AI_AVAILABILITY step="main_1" turn="my_turn" />
+  <AI_AVAILABILITY step="declare_attackers" turn="their_turn" />
+  <AI_AVAILABILITY step="declare_blockers" />
+  <AI_AVAILABILITY step="end_of_turn" />
+  <AI_BASE_SCORE score="1200" zone="ZONE_HAND" />
+</CARD_V2>

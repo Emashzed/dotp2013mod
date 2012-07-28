@@ -1,0 +1,104 @@
+﻿<?xml version='1.0'?>
+<CARD_V2>
+  <FILENAME text="ETHERSWORN_CANONIST_888174931" />
+  <CARDNAME text="ETHERSWORN_CANONIST" />
+  <TITLE>
+     <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Ethersworn Canonist]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Ethersworn Canonist]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Ethersworn Canonist]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Ethersworn Canonist]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Ethersworn Canonist]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[Ethersworn Canonist]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[Ethersworn Canonist]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Ethersworn Canonist]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Ethersworn Canonist]]></LOCALISED_TEXT>
+  </TITLE>
+  <MULTIVERSEID value="888174931" />
+  <ARTID value="888174931" />
+  <ARTIST name="Izzy" />
+  <CASTING_COST cost="{1}{W}" />
+  <FLAVOURTEXT>
+     <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[“The noble work of our order is to infuse all life on Esper with etherium. Our goal will be reached more rapidly if new life is . . . suppressed.”]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[“The noble work of our order is to infuse all life on Esper with etherium. Our goal will be reached more rapidly if new life is . . . suppressed.”]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[“The noble work of our order is to infuse all life on Esper with etherium. Our goal will be reached more rapidly if new life is . . . suppressed.”]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[“The noble work of our order is to infuse all life on Esper with etherium. Our goal will be reached more rapidly if new life is . . . suppressed.”]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[“The noble work of our order is to infuse all life on Esper with etherium. Our goal will be reached more rapidly if new life is . . . suppressed.”]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[“The noble work of our order is to infuse all life on Esper with etherium. Our goal will be reached more rapidly if new life is . . . suppressed.”]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[“The noble work of our order is to infuse all life on Esper with etherium. Our goal will be reached more rapidly if new life is . . . suppressed.”]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[“The noble work of our order is to infuse all life on Esper with etherium. Our goal will be reached more rapidly if new life is . . . suppressed.”]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[“The noble work of our order is to infuse all life on Esper with etherium. Our goal will be reached more rapidly if new life is . . . suppressed.”]]></LOCALISED_TEXT>
+  </FLAVOURTEXT>
+  <TYPE metaname="Artifact" />
+  <TYPE metaname="Creature" />
+  <SUB_TYPE metaname="Human" order_de-DE="0" order_es-ES="0" order_fr-FR="0" order_it-IT="0" order_jp-JA="0" order_ko-KR="0" order_pt-BR="0" order_ru-RU="0" />
+  <SUB_TYPE metaname="Cleric" order_de-DE="0" order_es-ES="0" order_fr-FR="0" order_it-IT="0" order_jp-JA="0" order_ko-KR="0" order_pt-BR="0" order_ru-RU="0" />
+  <EXPANSION value="DPG" />
+  <RARITY metaname="R" />
+  <POWER value="2" />
+  <TOUGHNESS value="2" />
+  <STATIC_ABILITY filter_zone="ZONE_ANY">
+     <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Each player who has cast a nonartifact spell this turn can’t cast additional nonartifact spells.]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Each player who has cast a nonartifact spell this turn can’t cast additional nonartifact spells.]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Each player who has cast a nonartifact spell this turn can’t cast additional nonartifact spells.]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Each player who has cast a nonartifact spell this turn can’t cast additional nonartifact spells.]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Each player who has cast a nonartifact spell this turn can’t cast additional nonartifact spells.]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[Each player who has cast a nonartifact spell this turn can’t cast additional nonartifact spells.]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[Each player who has cast a nonartifact spell this turn can’t cast additional nonartifact spells.]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Each player who has cast a nonartifact spell this turn can’t cast additional nonartifact spells.]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Each player who has cast a nonartifact spell this turn can’t cast additional nonartifact spells.]]></LOCALISED_TEXT>
+    <FILTER>
+    return (FilteredCard() ~= nil and FilteredCard():GetPlayer() ~= nil and 
+	FilteredCard():GetPlayer():PlayerDataChest():Int_Get( PLAYER_UTILITY_COMPARTMENT_ID_PLAYER_NONARTIFACT_CHECK ) &gt; 0 and 
+    FilteredCard():GetCardType():Test( CARD_TYPE_LAND ) == 0 and 
+    FilteredCard():GetCardType():Test( CARD_TYPE_ARTIFACT ) == 0)
+    </FILTER>
+    <CONTINUOUS_ACTION layer="6">
+    local filtered_obj = FilteredCard()
+    if (filtered_obj ~= nil) then
+		local characteristics = filtered_obj:GetCurrentCharacteristics()
+		if characteristics ~= nil then
+			characteristics:Characteristic_Set( CHARACTERISTIC_CANT_BE_PLAYED, 1 )
+		end
+    end
+    </CONTINUOUS_ACTION>
+  </STATIC_ABILITY>
+  <STATIC_ABILITY internal="1" filter_zone="ZONE_IN_PLAY">
+    <CONTINUOUS_ACTION>
+    local num_players = MTG():GetNumberOfPlayers()
+    local filter = Object():GetFilter()
+    for i=0,(num_players-1) do
+    	local player = MTG():GetNthPlayer( i )
+		if player:PlayerDataChest():Int_Get( PLAYER_UTILITY_COMPARTMENT_ID_PLAYER_NONARTIFACT_CHECK ) &gt; 0 then
+			player:AddBadge(PLAYER_BADGE_ICON_CHOSEN_PLAYER, "PLAYER_SET_CANT_CAST_NONARTIFACTS")
+		end
+    end
+    </CONTINUOUS_ACTION>
+  </STATIC_ABILITY>
+  <TRIGGERED_ABILITY internal="1" active_zone="ZONE_ANY" filter_zone="ZONE_IN_PLAY">
+    <TRIGGER value="BEGINNING_OF_STEP" simple_qualifier="controller">
+    return ( MTG():GetStep() == STEP_CLEANUP )
+    </TRIGGER>
+    <RESOLUTION_TIME_ACTION>
+    local num_players = MTG():GetNumberOfPlayers()
+    for i=0,(num_players-1) do
+    	local player = MTG():GetNthPlayer( i )
+    	if player ~= nil then
+			player:PlayerDataChest():Int_Set( PLAYER_UTILITY_COMPARTMENT_ID_PLAYER_NONARTIFACT_CHECK, 0 )
+    	end
+    end
+    </RESOLUTION_TIME_ACTION>
+  </TRIGGERED_ABILITY>
+  <TRIGGERED_ABILITY internal="1" active_zone="ZONE_ANY" filter_zone="ZONE_IN_PLAY">
+    <TRIGGER value="SPELL_PLAYED">
+    return TriggerObject():GetCardType():Test( CARD_TYPE_ARTIFACT ) == 0
+    </TRIGGER>
+    <RESOLUTION_TIME_ACTION>
+    local trigger_player = TriggerObject():GetPlayer()
+    if trigger_player ~= nil then
+      trigger_player:PlayerDataChest():Int_Set( PLAYER_UTILITY_COMPARTMENT_ID_PLAYER_NONARTIFACT_CHECK, 1 )
+    end
+    </RESOLUTION_TIME_ACTION>
+  </TRIGGERED_ABILITY>
+  <SFX text="COMBAT_BLUNT_LARGE_ATTACK" power_boundary_min="4" power_boundary_max="-1" />
+  <SFX text="COMBAT_BLUNT_SMALL_ATTACK" power_boundary_min="1" power_boundary_max="3" />
+</CARD_V2>

@@ -1,0 +1,59 @@
+<?xml version='1.0'?>
+<CARD_V2>
+  <FILENAME text="WHITE_SUNS_ZENITH_280075" />
+  <CARDNAME text="WHITE_SUNS_ZENITH" />
+  <TITLE>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[White Sun’s Zenith]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Zénith de Blancsoleil]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Cenit del sol blanco]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Zenit der Weißen Sonne]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Zenit del Sole Bianco]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[白の太陽の頂点]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[백색 태양의 절정]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Зенит Белого Солнца]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Zênite do Sol Branco]]></LOCALISED_TEXT>
+  </TITLE>
+  <MULTIVERSEID value="280075" />
+  <ARTID value="133251" />
+  <ARTIST name="Mike Bierek" />
+  <CASTING_COST cost="{X}{W}{W}{W}" />
+  <FLAVOURTEXT>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[After the Battle of Liet Field, the white sun crested above Taj-Nar, bringing hope to all who survived the carnage.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Après la Bataille du Champ de Liet, Blancsoleil illumina Taj-Nar, apportant espoir à tous les survivants du carnage.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Después de la Batalla del Campo Liet, el sol blanco se alzó sobre Taj-Nar, llevando esperanza a todos los que sobrevivieron a la masacre.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Nach der Schlacht am Lietfeld stand die Weiße Sonne direkt über Taj-Nar und brachten all denen Hoffnung, die das Gemetzel überlebt hatten.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Dopo la Battaglia del Campo Liet, il sole bianco si levò su Taj-Nar, portando speranza a tutti i sopravvissuti alla carneficina.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[リエット平原での戦いの後、白の太陽はタージ＝ナールの上空高くに輝き、この殺戮を生き残ったすべてのものに希望をもたらした。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[리엣 평원의 전투가 끝나자 타즈-나르에 백색 태양이 떠올랐고, 그 광경은 생존자들에게 희망을 가져다주었다.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[После битвы на Лиетовом Поле белое солнце взошло над Тадж-Наром, даруя надежду всем, кто уцелел в побоище.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Após a Batalha dos Campos de Liet, o sol branco brilhou sobre Taj-Nar, trazendo esperança a todos os sobreviventes da carnificina.]]></LOCALISED_TEXT>
+  </FLAVOURTEXT>
+  <TYPE metaname="Instant" />
+  <EXPANSION value="DPG" />
+  <RARITY metaname="R" />
+  <SPELL_ABILITY filter_zone="ZONE_IN_PLAY">
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Put X 2/2 white Cat creature tokens onto the battlefield. Shuffle White Sun’s Zenith into its owner’s library.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Mettez sur le champ de bataille X jetons de créature 2/2 blanche Chat. Mélangez le Zénith de Blancsoleil dans la bibliothèque de son propriétaire.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Pon en el campo de batalla X fichas de criatura Felino blancas 2/2. Baraja el Cenit del sol blanco en la biblioteca de su propietario.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Bringe X 2/2 weiße Katze-Kreaturenspielsteine ins Spiel. Mische den Zenit der Weißen Sonne in die Bibliothek seines Besitzers.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Metti sul campo di battaglia X pedine creatura Felino 2/2 bianche. Rimescola lo Zenit del Sole Bianco nel grimorio del suo proprietario.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[白の２/２の猫・クリーチャー・トークンをＸ体戦場に出す。 白の太陽の頂点をオーナーのライブラリーに加えて切り直す。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[2/2 백색 고양이 생물 토큰 X개를 전장에 놓는다. 백색 태양의 절정을 소유자의 서고에 섞어 넣는다.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Положите на поле битвы Х фишек существа 2/2 белая Кошка. Втасуйте Зенит Белого Солнца в библиотеку его владельца.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Coloque no campo de batalha X fichas de criatura brancas 2/2 do tipo Felino. Embaralhe Zênite do Sol Branco no grimório de seu dono.]]></LOCALISED_TEXT>
+    <RESOLUTION_TIME_ACTION>
+    local token_count = GetObjectX()
+    if (token_count &gt; 0) then
+    	MTG():PutTokensIntoPlay( "TOKEN_CAT_2_2_280318", token_count, EffectController() )
+    end
+    </RESOLUTION_TIME_ACTION>
+    <RESOLUTION_TIME_ACTION>
+    Object():SetResolutionZone(ZONE_LIBRARY)
+    </RESOLUTION_TIME_ACTION>
+  </SPELL_ABILITY>
+  <AI_AVAILABILITY step="end_of_turn" turn="their_turn" />
+  <AI_AVAILABILITY step="declare_attackers" turn="their_turn" />
+  <AI_AVAILABILITY type="in_response_dangerous" />
+  <TOKEN_REGISTRATION reservation="1" type="TOKEN_CAT_2_2_280318" />
+  <AI_BASE_SCORE score="2100" zone="ZONE_HAND" />
+</CARD_V2>

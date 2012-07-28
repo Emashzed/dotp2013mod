@@ -1,0 +1,90 @@
+﻿<?xml version='1.0'?>
+<CARD_V2>
+  <FILENAME text="SPITTING_EARTH_888242739" />
+  <CARDNAME text="SPITTING_EARTH" />
+  <TITLE>
+     <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Spitting Earth]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Spitting Earth]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Spitting Earth]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Spitting Earth]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Spitting Earth]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[Spitting Earth]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[Spitting Earth]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Spitting Earth]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Spitting Earth]]></LOCALISED_TEXT>
+  </TITLE>
+  <MULTIVERSEID value="888242739" />
+  <ARTID value="888242739" />
+  <ARTIST name="Michael Koelsch" />
+  <CASTING_COST cost="{1}{R}" />
+  <FLAVOURTEXT>
+     <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[“Within each of you is the strength of a landslide.”
+—Kumano, to his pupils]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[“Within each of you is the strength of a landslide.”
+—Kumano, to his pupils]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[“Within each of you is the strength of a landslide.”
+—Kumano, to his pupils]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[“Within each of you is the strength of a landslide.”
+—Kumano, to his pupils]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[“Within each of you is the strength of a landslide.”
+—Kumano, to his pupils]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[“Within each of you is the strength of a landslide.”
+—Kumano, to his pupils]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[“Within each of you is the strength of a landslide.”
+—Kumano, to his pupils]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[“Within each of you is the strength of a landslide.”
+—Kumano, to his pupils]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[“Within each of you is the strength of a landslide.”
+—Kumano, to his pupils]]></LOCALISED_TEXT>
+  </FLAVOURTEXT>
+  <TYPE metaname="Sorcery" />
+  <EXPANSION value="DPG" />
+  <RARITY metaname="C" />
+  <SPELL_ABILITY dangerous="1" filter_zone="ZONE_IN_PLAY">
+     <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Spitting Earth deals damage to target creature equal to the number of Mountains you control.]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Spitting Earth deals damage to target creature equal to the number of Mountains you control.]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Spitting Earth deals damage to target creature equal to the number of Mountains you control.]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Spitting Earth deals damage to target creature equal to the number of Mountains you control.]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Spitting Earth deals damage to target creature equal to the number of Mountains you control.]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[Spitting Earth deals damage to target creature equal to the number of Mountains you control.]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[Spitting Earth deals damage to target creature equal to the number of Mountains you control.]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Spitting Earth deals damage to target creature equal to the number of Mountains you control.]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Spitting Earth deals damage to target creature equal to the number of Mountains you control.]]></LOCALISED_TEXT>
+    <TARGET_DEFINITION id="0">
+    local filter = Object():GetFilter()
+    filter:Clear()
+    filter:AddCardType( CARD_TYPE_CREATURE )
+    filter:SetZone( ZONE_IN_PLAY )
+    filter:SetHint( HINT_ENEMY_ONLY, EffectController() )
+    </TARGET_DEFINITION>
+    <TARGET_DETERMINATION>
+    return AtLeastOneTargetFromDefinition(0)
+    </TARGET_DETERMINATION>
+    <PLAY_TIME_ACTION target_choosing="1">
+    EffectController():ChooseTarget( 0, "CARD_QUERY_CHOOSE_DEAL_MOUNTAINS_DAMAGE", EffectDC():Make_Targets(0) )
+    </PLAY_TIME_ACTION>
+    <RESOLUTION_TIME_ACTION>
+	local filter = Object():GetFilter()
+    filter:Clear()
+    filter:AddSubType( LAND_TYPE_MOUNTAIN )
+    filter:SetZone( ZONE_IN_PLAY )
+    filter:SetPlayer( EffectController() )
+    filter:NotTargetted()
+    local total = (filter:Count())
+    local target_creature = EffectDC():Get_Targets(0):Get_CardPtr(0)
+    local target_player = EffectDC():Get_Targets(0):Get_PlayerPtr(0)
+    local source = EffectSource()
+    if source == nil then
+      source = Object()
+    end
+    if ( target_creature ~= nil ) then   
+    	target_creature:DealDamage(total, source)  
+    elseif 
+    	( target_player ~= nil ) then   
+    	target_player:DealDamage(total, source)  
+    end
+    </RESOLUTION_TIME_ACTION>
+    <SFX text="TARGET_BLUNT_PLAY" />
+  </SPELL_ABILITY>
+  <AI_BASE_SCORE score="900" zone="ZONE_HAND" />
+</CARD_V2>

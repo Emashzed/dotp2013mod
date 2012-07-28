@@ -1,0 +1,56 @@
+﻿<?xml version='1.0'?>
+<CARD_V2>
+  <FILENAME text="CAREFUL_STUDY_88829727" />
+  <CARDNAME text="CAREFUL_STUDY" />
+  <TITLE>
+     <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Careful Study]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Careful Study]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Careful Study]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Careful Study]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Careful Study]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[Careful Study]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[Careful Study]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Careful Study]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Careful Study]]></LOCALISED_TEXT>
+  </TITLE>
+  <MULTIVERSEID value="88829727" />
+  <ARTID value="88829727" />
+  <ARTIST name="Scott M. Fischer" />
+  <CASTING_COST cost="{U}" />
+  <FLAVOURTEXT>
+     <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Books are like crops—they must be thinned for best yield.]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Books are like crops—they must be thinned for best yield.]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Books are like crops—they must be thinned for best yield.]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Books are like crops—they must be thinned for best yield.]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Books are like crops—they must be thinned for best yield.]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[Books are like crops—they must be thinned for best yield.]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[Books are like crops—they must be thinned for best yield.]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Books are like crops—they must be thinned for best yield.]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Books are like crops—they must be thinned for best yield.]]></LOCALISED_TEXT>
+  </FLAVOURTEXT>
+  <TYPE metaname="Sorcery" />
+  <EXPANSION value="DPG" />
+  <RARITY metaname="C" />
+  <SPELL_ABILITY>
+     <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Draw two cards, then discard two cards.]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Draw two cards, then discard two cards.]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Draw two cards, then discard two cards.]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Draw two cards, then discard two cards.]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Draw two cards, then discard two cards.]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[Draw two cards, then discard two cards.]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[Draw two cards, then discard two cards.]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Draw two cards, then discard two cards.]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Draw two cards, then discard two cards.]]></LOCALISED_TEXT>
+	<RESOLUTION_TIME_ACTION>
+    if EffectController() ~= nil then
+    	PlayerDrawCards( EffectController(), 2 )
+    end
+    </RESOLUTION_TIME_ACTION>
+	<RESOLUTION_TIME_ACTION>
+    if EffectController() ~= nil then
+    	EffectController():DiscardNCards(2, "CARD_QUERY_CHOOSE_CARD_TO_DISCARD")
+    end
+    </RESOLUTION_TIME_ACTION>
+  </SPELL_ABILITY>
+  <AI_BASE_SCORE score="150" zone="ZONE_HAND" />
+</CARD_V2>

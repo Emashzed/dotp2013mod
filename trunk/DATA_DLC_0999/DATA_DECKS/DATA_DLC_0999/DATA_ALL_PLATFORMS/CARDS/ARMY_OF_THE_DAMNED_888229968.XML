@@ -1,0 +1,64 @@
+﻿<?xml version='1.0'?>
+<CARD_V2>
+  <FILENAME text="ARMY_OF_THE_DAMNED_888229968" />
+  <CARDNAME text="ARMY_OF_THE_DAMNED" />
+  <TITLE>
+     <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Army of the Damned]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Army of the Damned]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Army of the Damned]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Army of the Damned]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Army of the Damned]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[Army of the Damned]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[Army of the Damned]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Army of the Damned]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Army of the Damned]]></LOCALISED_TEXT>
+  </TITLE>
+  <MULTIVERSEID value="888229968" />
+  <ARTID value="888229968" />
+  <ARTIST name="Ryan Pancoast" />
+  <CASTING_COST cost="{5}{B}{B}{B}" />
+  <FLASHBACK_COST cost="{7}{B}{B}{B}" />
+  <FLAVOURTEXT>
+     <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Sometimes death comes knocking. Sometimes it tears down the walls.]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Sometimes death comes knocking. Sometimes it tears down the walls.]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Sometimes death comes knocking. Sometimes it tears down the walls.]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Sometimes death comes knocking. Sometimes it tears down the walls.]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Sometimes death comes knocking. Sometimes it tears down the walls.]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[Sometimes death comes knocking. Sometimes it tears down the walls.]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[Sometimes death comes knocking. Sometimes it tears down the walls.]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Sometimes death comes knocking. Sometimes it tears down the walls.]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Sometimes death comes knocking. Sometimes it tears down the walls.]]></LOCALISED_TEXT>
+  </FLAVOURTEXT>
+  <TYPE metaname="Sorcery" />
+  <EXPANSION value="DPG" />
+  <RARITY metaname="M" />
+  <SPELL_ABILITY>
+     <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Put thirteen 2/2 black Zombie creature tokens onto the battlefield tapped.]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Put thirteen 2/2 black Zombie creature tokens onto the battlefield tapped.]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Put thirteen 2/2 black Zombie creature tokens onto the battlefield tapped.]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Put thirteen 2/2 black Zombie creature tokens onto the battlefield tapped.]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Put thirteen 2/2 black Zombie creature tokens onto the battlefield tapped.]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[Put thirteen 2/2 black Zombie creature tokens onto the battlefield tapped.]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[Put thirteen 2/2 black Zombie creature tokens onto the battlefield tapped.]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Put thirteen 2/2 black Zombie creature tokens onto the battlefield tapped.]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Put thirteen 2/2 black Zombie creature tokens onto the battlefield tapped.]]></LOCALISED_TEXT>
+	<RESOLUTION_TIME_ACTION>
+    local token_count = 13
+    if token_count &gt; 0 then
+    	MTG():PutTokensIntoPlayTapped( "TOKEN_ZOMBIE_2_2_277465", token_count, EffectController() )
+    end
+    </RESOLUTION_TIME_ACTION>
+  </SPELL_ABILITY>
+  <SPELL_ABILITY>
+     <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Flashback {7}{B}{B}{B} |(You may cast this card from your graveyard for its flashback cost. Then exile it.)|]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Flashback {7}{B}{B}{B} |(You may cast this card from your graveyard for its flashback cost. Then exile it.)|]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Flashback {7}{B}{B}{B} |(You may cast this card from your graveyard for its flashback cost. Then exile it.)|]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Flashback {7}{B}{B}{B} |(You may cast this card from your graveyard for its flashback cost. Then exile it.)|]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Flashback {7}{B}{B}{B} |(You may cast this card from your graveyard for its flashback cost. Then exile it.)|]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[Flashback {7}{B}{B}{B} |(You may cast this card from your graveyard for its flashback cost. Then exile it.)|]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[Flashback {7}{B}{B}{B} |(You may cast this card from your graveyard for its flashback cost. Then exile it.)|]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Flashback {7}{B}{B}{B} |(You may cast this card from your graveyard for its flashback cost. Then exile it.)|]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Flashback {7}{B}{B}{B} |(You may cast this card from your graveyard for its flashback cost. Then exile it.)|]]></LOCALISED_TEXT>
+  </SPELL_ABILITY>
+  <TOKEN_REGISTRATION reservation="1" type="TOKEN_ZOMBIE_2_2_277465" />
+</CARD_V2>

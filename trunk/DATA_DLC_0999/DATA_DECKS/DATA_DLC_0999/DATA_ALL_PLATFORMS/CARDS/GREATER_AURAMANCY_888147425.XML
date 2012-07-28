@@ -1,0 +1,89 @@
+﻿<?xml version='1.0'?>
+<CARD_V2>
+  <FILENAME text="GREATER_AURAMANCY_888147425" />
+  <CARDNAME text="GREATER_AURAMANCY" />
+  <TITLE>
+     <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Greater Auramancy]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Greater Auramancy]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Greater Auramancy]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Greater Auramancy]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Greater Auramancy]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[Greater Auramancy]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[Greater Auramancy]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Greater Auramancy]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Greater Auramancy]]></LOCALISED_TEXT>
+  </TITLE>
+  <MULTIVERSEID value="888147425" />
+  <ARTID value="888147425" />
+  <ARTIST name="Chuck Lukacs" />
+  <CASTING_COST cost="{1}{W}" />
+  <FLAVOURTEXT>
+     <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[A delicate veil of glamers can prove as sturdy as iron.]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[A delicate veil of glamers can prove as sturdy as iron.]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[A delicate veil of glamers can prove as sturdy as iron.]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[A delicate veil of glamers can prove as sturdy as iron.]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[A delicate veil of glamers can prove as sturdy as iron.]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[A delicate veil of glamers can prove as sturdy as iron.]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[A delicate veil of glamers can prove as sturdy as iron.]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[A delicate veil of glamers can prove as sturdy as iron.]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[A delicate veil of glamers can prove as sturdy as iron.]]></LOCALISED_TEXT>
+  </FLAVOURTEXT>
+  <TYPE metaname="Enchantment" />
+  <EXPANSION value="DPG" />
+  <RARITY metaname="R" />
+  <STATIC_ABILITY>
+     <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Other enchantments you control have shroud.]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Other enchantments you control have shroud.]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Other enchantments you control have shroud.]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Other enchantments you control have shroud.]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Other enchantments you control have shroud.]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[Other enchantments you control have shroud.]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[Other enchantments you control have shroud.]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Other enchantments you control have shroud.]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Other enchantments you control have shroud.]]></LOCALISED_TEXT>
+    <FILTER>
+    local filteredCard = FilteredCard()
+    local objectPlayer = EffectController()
+    return (filteredCard:GetCardType():Test( CARD_TYPE_ENCHANTMENT ) ~= 0) and
+    (filteredCard:GetPlayer() == objectPlayer) and
+    (filteredCard ~= nil and
+	filteredCard ~= Object() and
+    filteredCard:GetZone() == ZONE_IN_PLAY)
+    </FILTER>
+    <CONTINUOUS_ACTION layer="6">
+    if FilteredCard() ~= nil then
+    	local characteristics = FilteredCard():GetCurrentCharacteristics()
+    	if characteristics ~= nil then
+    		characteristics:Characteristic_Set( CHARACTERISTIC_SHROUD, 1 )
+    	end
+    end
+    </CONTINUOUS_ACTION>
+  </STATIC_ABILITY>
+  <STATIC_ABILITY>
+     <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Enchanted creatures you control have shroud.]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Enchanted creatures you control have shroud.]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Enchanted creatures you control have shroud.]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Enchanted creatures you control have shroud.]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Enchanted creatures you control have shroud.]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[Enchanted creatures you control have shroud.]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[Enchanted creatures you control have shroud.]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Enchanted creatures you control have shroud.]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Enchanted creatures you control have shroud.]]></LOCALISED_TEXT>
+	<FILTER>
+    return (FilteredCard() ~= nil and 
+    FilteredCard():GetCardType():Test( CARD_TYPE_CREATURE ) ~= 0 and 
+    FilteredCard():GetZone() == (ZONE_IN_PLAY) and 
+    (FilteredCard():IsEnchanted() ~= 0) and 
+    FilteredCard():GetPlayer() == Object():GetPlayer())
+    </FILTER>
+	<CONTINUOUS_ACTION layer="6">
+    if FilteredCard() ~= nil then
+    	local characteristics = FilteredCard():GetCurrentCharacteristics()
+    	if characteristics ~= nil then
+    		characteristics:Characteristic_Set( CHARACTERISTIC_SHROUD, 1 )
+    	end
+    end
+    </CONTINUOUS_ACTION>
+  </STATIC_ABILITY>
+  <AI_BASE_SCORE score="400" zone="ZONE_IN_PLAY" />
+</CARD_V2>

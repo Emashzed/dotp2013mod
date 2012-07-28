@@ -1,0 +1,92 @@
+<?xml version='1.0'?>
+<CARD_V2>
+  <FILENAME text="ABYSSAL_GATEKEEPER_278461" />
+  <CARDNAME text="ABYSSAL_GATEKEEPER" />
+  <TITLE>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Abyssal Gatekeeper]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Gardien de la porte des abysses]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Portero abismal]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Torwächter der Unterwelt]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Custode del Portale Abissale]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[深淵の門番]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[심연의 문지기]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Привратник Бездны]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Porteiro Abissal]]></LOCALISED_TEXT>
+  </TITLE>
+  <MULTIVERSEID value="278461" />
+  <ARTID value="2792" />
+  <ARTIST name="Mark Tedin" />
+  <CASTING_COST cost="{1}{B}" />
+  <FLAVOURTEXT>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[“There are two ways for me to pass this gate. One involves you remaining conscious.”
+—Gerrard of the Weatherlight]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[« Il y a deux façons pour moi de passer cette porte. L’une d’entre elles te laisserait conscient. »
+—Gerrard, de l’Aquilon]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[“Hay dos formas de que yo cruce esa puerta. Con una de ellas, tú permaneces consciente.”
+—Gerrard del Vientoligero]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[„Für mich gibt es zwei Wege, um durch dieses Tor zu kommen. Bei einem von beiden bleibst du sogar bei Bewusstsein.“
+—Gerrard von der Wetterlicht]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[“Posso attraversare questo Portale in due modi. Uno solo implica che tu rimanga cosciente.”
+—Gerrard della Cavalcavento]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[「わたしがこの門をくぐる方法は二つある。 その片方は、きみに眠ってもらわずにすむ。」
+—ウェザーライト号のジェラード]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[“내가 이 문을 통과하는 방법은 두 가지고, 그 중 하나는 너를 때려눕히는 거지.”
+—웨더라이트호의 제러드]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[«Я могу пройти через эти ворота двумя способами. При одном из них ты останешься в сознании».
+— Джерард, капитан Везерлайта]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[“Há duas formas de eu passar por esse portão. Em uma delas você continua consciente.”
+— Gerrard dos Alísios]]></LOCALISED_TEXT>
+  </FLAVOURTEXT>
+  <TYPE metaname="Creature" />
+  <SUB_TYPE metaname="Horror" order_de-DE="0" order_es-ES="0" order_fr-FR="0" order_it-IT="0" order_jp-JA="0" order_ko-KR="0" order_pt-BR="0" order_ru-RU="0" />
+  <EXPANSION value="DPG" />
+  <RARITY metaname="C" />
+  <POWER value="1" />
+  <TOUGHNESS value="1" />
+  <TRIGGERED_ABILITY dangerous="1">
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[When Abyssal Gatekeeper dies, each player sacrifices a creature.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Quand le Gardien de la porte des abysses meurt, chaque joueur sacrifie une créature.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Cuando el Portero abismal muera, cada jugador sacrifica una criatura.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Wenn der Torwächter der Unterwelt stirbt, opfert jeder Spieler eine Kreatur.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Quando il Custode del Portale Abissale muore, ogni giocatore sacrifica una creatura.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[深淵の門番が死亡したとき、各プレイヤーはクリーチャーを１体生け贄に捧げる。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[심연의 문지기가 죽을 때, 각 플레이어는 생물 한 개를 희생한다.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Когда Привратник Бездны умирает, каждый игрок жертвует существо.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Quando Porteiro Abissal morre, cada jogador sacrifica uma criatura.]]></LOCALISED_TEXT>
+    <TRIGGER value="ZONECHANGE_BEGIN" simple_qualifier="self" to_zone="ZONE_GRAVEYARD" from_zone="ZONE_IN_PLAY" />
+    <RESOLUTION_TIME_ACTION repeating="1">
+    local n = MTG():GetActionRepCount()
+    local num_players = MTG():GetNumberOfPlayers()
+    local playerindex = n
+    local player = MTG():GetNthPlayer(playerindex)
+    local filter = Object():GetFilter() 
+    if player ~= nil and n &lt; num_players then
+    	-- ask the query
+    	filter:Clear()
+    	filter:NotTargetted()
+    	filter:SetPlayer( player )
+    	filter:SetZone( ZONE_IN_PLAY )
+    	filter:AddCardType( CARD_TYPE_CREATURE )
+    	filter:SetHint( HINT_ENEMY, player )
+    	player:ChooseTarget( NO_VALIDATION, "CARD_QUERY_CHOOSE_CREATURE_TO_SACRIFICE", EffectDC():Make_Targets(n) )
+    	return true
+    	
+    else 
+    	local i=0
+    	for i=0,(num_players-1) do
+    		local targetDC = EffectDC():Get_Targets(i)
+    		
+    		if targetDC ~= nil then
+    		  local target_card = targetDC:Get_CardPtr(0)
+    		  if target_card ~= nil then
+    		    target_card:Sacrifice( target_card:GetPlayer() )
+    		  end
+    		end
+    	end
+    	return false
+    end
+    </RESOLUTION_TIME_ACTION>
+  </TRIGGERED_ABILITY>
+  <SFX text="COMBAT_BITE_LARGE_ATTACK" power_boundary_min="4" power_boundary_max="-1" />
+  <SFX text="COMBAT_BITE_SMALL_ATTACK" power_boundary_min="1" power_boundary_max="3" />
+</CARD_V2>

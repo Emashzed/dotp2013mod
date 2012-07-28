@@ -1,0 +1,96 @@
+<?xml version='1.0'?>
+<CARD_V2>
+  <FILENAME text="BEASTMASTER_ASCENSION_281253" />
+  <CARDNAME text="BEASTMASTER_ASCENSION" />
+  <TITLE>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Beastmaster Ascension]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Ascension du maître des bêtes]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Ascenso del domador]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Aufstieg des Bändigers]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Ascensione del Domatore]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[獣使いの昇天]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[야수조련사 등극]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Возвышение Повелителя Зверей]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Ascensão do Senhor das Feras]]></LOCALISED_TEXT>
+  </TITLE>
+  <MULTIVERSEID value="281253" />
+  <ARTID value="125085" />
+  <ARTIST name="Alex Horley-Orlandelli" />
+  <CASTING_COST cost="{2}{G}" />
+  <TYPE metaname="Enchantment" />
+  <EXPANSION value="DPG" />
+  <RARITY metaname="R" />
+  <TRIGGERED_ABILITY auto_skip="1" filter_zone="ZONE_IN_PLAY">
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Whenever a creature you control attacks, you may put a quest counter on Beastmaster Ascension.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[À chaque fois qu’une créature que vous contrôlez attaque, vous pouvez mettre un marqueur « quête » sur l’Ascension du maître des bêtes.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Siempre que una criatura que controles ataque, puedes poner un contador de búsqueda sobre el Ascenso del domador.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Immer wenn eine Kreatur angreift, die du kontrollierst, kannst du eine Quest-Marke auf den Aufstieg des Bändigers legen.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Ogniqualvolta una creatura che controlli attacca, puoi mettere un segnalino ricerca sull’Ascensione del Domatore.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[あなたがコントロールするクリーチャーが１体攻撃するたび、あなたは獣使いの昇天の上に探索カウンターを１個置いてもよい。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[당신이 조종하는 생물이 공격할 때마다, 당신은 야수조련사 등극에 탐험 카운터 한 개를 올려놓을 수 있다.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Каждый раз, когда существо под вашим контролем атакует, вы можете положить жетон странствий на Возвышение Повелителя Зверей.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Toda vez que uma criatura que você controla ataca, você pode colocar um marcador de busca em Ascensão do Senhor das Feras.]]></LOCALISED_TEXT>
+    <TRIGGER value="ATTACKERS_DECLARED" simple_qualifier="controller">
+    if EffectSource() ~= nil and EffectSource():CountCounters(MTG():GetCountersType("QUEST_COUNTER")) &lt; 7 then
+    	local filter = Object():GetFilter()
+    	filter:AddCardType( CARD_TYPE_CREATURE )
+    	filter:SetZone( ZONE_IN_PLAY )
+    	filter:SetPlayer(EffectController())
+    	filter:AddExtra( FILTER_EXTRA_CREATURE_ATTACKING )
+    	filter:NotTargetted()
+    			
+    	local attacking_creatures_you_control = filter:Count()
+    	if attacking_creatures_you_control &gt; 0 then
+    		EffectDC():Set_Int(0, attacking_creatures_you_control)
+    		return true
+    	end
+    	
+    end
+    return false
+    </TRIGGER>
+    <RESOLUTION_TIME_ACTION>
+    if EffectSource() ~= nil then
+    		
+    	local current_counters = EffectSource():CountCounters(MTG():GetCountersType("QUEST_COUNTER"))
+    	local counters_to_add = EffectDC():Get_Int(0)
+    	
+    	if counters_to_add + current_counters &gt; 7 then
+    		-- clamp to 7, for aesthetic reasons
+    		counters_to_add = 7 - current_counters
+    	end
+        EffectSource():AddCounters( MTG():GetCountersType("QUEST_COUNTER"), counters_to_add )
+    end
+    </RESOLUTION_TIME_ACTION>
+    <SFX text="TARGET_PLAYER_PEACE_PLAY" />
+  </TRIGGERED_ABILITY>
+  <STATIC_ABILITY>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[As long as Beastmaster Ascension has seven or more quest counters on it, creatures you control get +5/+5.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Tant que l’Ascension du maître des bêtes a au moins sept marqueurs « quête » sur elle, les créatures que vous contrôlez gagnent +5/+5.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Mientras el Ascenso del domador tenga siete o más contadores de búsqueda sobre él, las criaturas que controlas obtienen +5/+5.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Solange auf dem Aufstieg des Bändigers sieben oder mehr Quest-Marken liegen, erhalten Kreaturen, die du kontrollierst, +5/+5.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Fintanto che l’Ascensione del Domatore ha sette o più segnalini ricerca, le creature che controlli prendono +5/+5.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[獣使いの昇天の上に７個以上の探索カウンターが置かれているかぎり、あなたがコントロールするクリーチャーは＋５/＋５の修整を受ける。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[야수조련사 등극이 탐험 카운터를 일곱 개 이상 가지고 있는 한, 당신이 조종하는 생물들은 +5/+5를 받는다.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Пока на Возвышении Повелителя Зверей есть не менее семи жетонов странствий, существа под вашим контролем получают +5/+5.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Enquanto Ascensão do Senhor das Feras tiver sete ou mais marcadores de busca nele, as criaturas que você controla receberão +5/+5.]]></LOCALISED_TEXT>
+    <FILTER>
+    local filteredCard = FilteredCard()
+    local objectPlayer = EffectController()
+    return (filteredCard:GetCardType():Test( CARD_TYPE_CREATURE ) ~= 0) and
+    (filteredCard:GetPlayer() == objectPlayer) and
+    (filteredCard ~= nil and
+    filteredCard:GetZone() == ZONE_IN_PLAY)
+    </FILTER>
+    <CONTINUOUS_ACTION layer="7C">
+    if Object():CountCounters(MTG():GetCountersType("QUEST_COUNTER")) &gt; 6 then
+    	if FilteredCard() ~= nil then
+    		local characteristics = FilteredCard():GetCurrentCharacteristics()
+    		characteristics:Power_Add( 5 )
+    		characteristics:Toughness_Add( 5 )
+    	end	
+    end
+    </CONTINUOUS_ACTION>
+  </STATIC_ABILITY>
+  <AI_COUNTER_SCORE type="QUEST_COUNTER" score="200" max_counters="7" />
+  <AI_BASE_SCORE score="600" zone="ZONE_IN_PLAY" />
+</CARD_V2>

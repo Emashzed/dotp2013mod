@@ -1,0 +1,55 @@
+﻿<?xml version='1.0'?>
+<CARD_V2>
+  <FILENAME text="TIDAL_KRAKEN_88845271" />
+  <CARDNAME text="TIDAL_KRAKEN" />
+  <TITLE>
+     <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Tidal Kraken]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Tidal Kraken]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Tidal Kraken]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Tidal Kraken]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Tidal Kraken]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[Tidal Kraken]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[Tidal Kraken]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Tidal Kraken]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Tidal Kraken]]></LOCALISED_TEXT>
+  </TITLE>
+  <MULTIVERSEID value="88845271" />
+  <ARTID value="88845271" />
+  <ARTIST name="Christopher Moeller" />
+  <CASTING_COST cost="{5}{U}{U}{U}" />
+  <FLAVOURTEXT>
+     <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[To merfolk, pirates are a nuisance. To pirates, merfolk are a threat. To the kraken, they’re both appetizers.]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[To merfolk, pirates are a nuisance. To pirates, merfolk are a threat. To the kraken, they’re both appetizers.]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[To merfolk, pirates are a nuisance. To pirates, merfolk are a threat. To the kraken, they’re both appetizers.]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[To merfolk, pirates are a nuisance. To pirates, merfolk are a threat. To the kraken, they’re both appetizers.]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[To merfolk, pirates are a nuisance. To pirates, merfolk are a threat. To the kraken, they’re both appetizers.]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[To merfolk, pirates are a nuisance. To pirates, merfolk are a threat. To the kraken, they’re both appetizers.]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[To merfolk, pirates are a nuisance. To pirates, merfolk are a threat. To the kraken, they’re both appetizers.]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[To merfolk, pirates are a nuisance. To pirates, merfolk are a threat. To the kraken, they’re both appetizers.]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[To merfolk, pirates are a nuisance. To pirates, merfolk are a threat. To the kraken, they’re both appetizers.]]></LOCALISED_TEXT>
+  </FLAVOURTEXT>
+  <TYPE metaname="Creature" />
+  <SUB_TYPE metaname="Kraken" order_de-DE="0" order_es-ES="0" order_fr-FR="0" order_it-IT="0" order_jp-JA="0" order_ko-KR="0" order_pt-BR="0" order_ru-RU="0" />
+  <EXPANSION value="DPG" />
+  <RARITY metaname="R" />
+  <POWER value="6" />
+  <TOUGHNESS value="6" />
+  <STATIC_ABILITY filter_zone="ZONE_IN_PLAY">
+     <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Tidal Kraken is unblockable.]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Tidal Kraken is unblockable.]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Tidal Kraken is unblockable.]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Tidal Kraken is unblockable.]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Tidal Kraken is unblockable.]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[Tidal Kraken is unblockable.]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[Tidal Kraken is unblockable.]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Tidal Kraken is unblockable.]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Tidal Kraken is unblockable.]]></LOCALISED_TEXT>
+    <CONTINUOUS_ACTION>
+    local characteristics = Object():GetCurrentCharacteristics()
+    characteristics:Characteristic_Set( CHARACTERISTIC_UNBLOCKABLE, 1 )
+    </CONTINUOUS_ACTION>
+  </STATIC_ABILITY>
+  <HELP title="MORE_INFO_BADGE_TITLE_9" body="MORE_INFO_BADGE_BODY_9" zone="ZONE_ANY" />
+  <SFX text="COMBAT_KRAKEN_LARGE_ATTACK" power_boundary_min="4" power_boundary_max="-1" />
+  <SFX text="COMBAT_KRAKEN_SMALL_ATTACK" power_boundary_min="1" power_boundary_max="3" />
+</CARD_V2>

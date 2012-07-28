@@ -1,0 +1,59 @@
+<?xml version='1.0'?>
+<CARD_V2>
+  <FILENAME text="AMBASSADOR_OAK_280046" />
+  <CARDNAME text="AMBASSADOR_OAK" />
+  <TITLE>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Ambassador Oak]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Ambassadeur chêne]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Roble embajador]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Eichen-Botschafter]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Quercia Ambasciatrice]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[大使の樫]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[떡갈나무 대사]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Дуб-Посланник]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Carvalho Embaixador]]></LOCALISED_TEXT>
+  </TITLE>
+  <MULTIVERSEID value="280046" />
+  <ARTID value="109986" />
+  <ARTIST name="Steve Prescott" />
+  <CASTING_COST cost="{3}{G}" />
+  <FLAVOURTEXT>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Treefolk and elves share a common interest in the forests, but really the elves just feel at home with the view from above.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Les sylvins et les elfes trouvent dans les forêts un intérêt commun, mais en fait, les elfes apprécient surtout de voir le monde de haut.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Los arbóreos y los elfos comparten su interés por los bosques, pero en realidad los elfos solo se sienten tranquilos mirando desde arriba.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Baumhirten und Elfen haben ein gemeinsames Interesse am Wald; bei den Elfen liegt es vor allem daran, dass sie am liebsten von Bäumen auf andere herabblicken.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Elfi e silvantropi condividono un interesse comune per le foreste, ma gli elfi si sentono davvero a casa solo con una visuale dall’alto.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[樹人とエルフは森に対して共通の興味を持っているが、エルフにとっては上から見ていたほうが実際は落ち着く。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[인목과 엘프는 숲에 관한 한 공동관심사가 있다. 하지만 실제로 높은 곳에서 편한 쪽은 엘프다.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Лесовикам и эльфам одинаково дорог лес, но эльфы чувствуют себя в нем как дома, только взирая на все свысока.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Os ents e os elfos têm um interesse comum nas florestas, mas os elfos só se sentem em casa com a vista do alto.]]></LOCALISED_TEXT>
+  </FLAVOURTEXT>
+  <TYPE metaname="Creature" />
+  <SUB_TYPE metaname="Treefolk" order_de-DE="0" order_es-ES="1" order_fr-FR="0" order_it-IT="1" order_jp-JA="0" order_ko-KR="0" order_pt-BR="0" order_ru-RU="0" />
+  <SUB_TYPE metaname="Warrior" order_de-DE="1" order_es-ES="0" order_fr-FR="1" order_it-IT="0" order_jp-JA="1" order_ko-KR="1" order_pt-BR="1" order_ru-RU="1" />
+  <EXPANSION value="DPG" />
+  <RARITY metaname="C" />
+  <POWER value="3" />
+  <TOUGHNESS value="3" />
+  <TRIGGERED_ABILITY auto_skip="1" filter_zone="ZONE_IN_PLAY">
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[When Ambassador Oak enters the battlefield, put a 1/1 green Elf Warrior creature token onto the battlefield.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Quand l’Ambassadeur chêne arrive sur le champ de bataille, mettez sur le champ de bataille un jeton de créature 1/1 verte Elfe et Guerrier.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Cuando el Roble embajador entre al campo de batalla, pon en el campo de batalla una ficha de criatura Guerrero Elfo verde 1/1.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Wenn der Eichen-Botschafter ins Spiel kommt, bringe einen 1/1 grünen -Kreaturenspielstein ins Spiel.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Quando la Quercia Ambasciatrice entra nel campo di battaglia, metti sul campo di battaglia una pedina creatura Guerriero Elfo 1/1 verde.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[大使の樫が戦場に出たとき、緑の１/１のエルフ・戦士・クリーチャー・トークンを１体戦場に出す。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[떡갈나무 대사가 전장에 들어올 때, 1/1 녹색 엘프 전사 생물 토큰 한 개를 전장에 놓는다.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Когда Дуб-Посланник выходит на поле битвы, положите на поле битвы одну фишку существа 1/1 зеленый Эльф Воин.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Quando Carvalho Embaixador entrar no campo de batalha, coloque no campo de batalha uma ficha de criatura verde 1/1 do tipo Elfo Guerreiro.]]></LOCALISED_TEXT>
+    <TRIGGER value="ZONECHANGE_END" simple_qualifier="self" to_zone="ZONE_IN_PLAY" />
+    <RESOLUTION_TIME_ACTION>
+    local token_count = 1
+    if token_count &gt; 0 then
+    	MTG():PutTokensIntoPlay( "TOKEN_ELF_WARRIOR_1_1_280316", token_count, EffectController() )
+    end
+    </RESOLUTION_TIME_ACTION>
+  </TRIGGERED_ABILITY>
+  <TOKEN_REGISTRATION reservation="1" type="TOKEN_ELF_WARRIOR_1_1_280316" />
+  <SFX text="COMBAT_BLUNT_LARGE_ATTACK" power_boundary_min="4" power_boundary_max="-1" />
+  <SFX text="COMBAT_BLUNT_SMALL_ATTACK" power_boundary_min="1" power_boundary_max="3" />
+</CARD_V2>

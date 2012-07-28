@@ -1,0 +1,65 @@
+﻿<?xml version='1.0'?>
+<CARD_V2>
+  <FILENAME text="COILING_ORACLE_88897106" />
+  <CARDNAME text="COILING_ORACLE" />
+  <TITLE>
+     <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Coiling Oracle]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Coiling Oracle]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Coiling Oracle]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Coiling Oracle]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Coiling Oracle]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[Coiling Oracle]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[Coiling Oracle]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Coiling Oracle]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Coiling Oracle]]></LOCALISED_TEXT>
+  </TITLE>
+  <MULTIVERSEID value="88897106" />
+  <ARTID value="88897106" />
+  <ARTIST name="Mark Zug" />
+  <CASTING_COST cost="{G}{U}" />
+  <FLAVOURTEXT>
+     <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Snaking remnants of nature directed by a body of thought and progress, the oracles embody all that is Simic.]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Snaking remnants of nature directed by a body of thought and progress, the oracles embody all that is Simic.]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Snaking remnants of nature directed by a body of thought and progress, the oracles embody all that is Simic.]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Snaking remnants of nature directed by a body of thought and progress, the oracles embody all that is Simic.]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Snaking remnants of nature directed by a body of thought and progress, the oracles embody all that is Simic.]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[Snaking remnants of nature directed by a body of thought and progress, the oracles embody all that is Simic.]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[Snaking remnants of nature directed by a body of thought and progress, the oracles embody all that is Simic.]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Snaking remnants of nature directed by a body of thought and progress, the oracles embody all that is Simic.]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Snaking remnants of nature directed by a body of thought and progress, the oracles embody all that is Simic.]]></LOCALISED_TEXT>
+  </FLAVOURTEXT>
+  <TYPE metaname="Creature" />
+  <SUB_TYPE metaname="Snake" order_de-DE="0" order_es-ES="0" order_fr-FR="0" order_it-IT="0" order_jp-JA="0" order_ko-KR="0" order_pt-BR="0" order_ru-RU="0" />
+  <SUB_TYPE metaname="Elf" order_de-DE="0" order_es-ES="0" order_fr-FR="0" order_it-IT="0" order_jp-JA="0" order_ko-KR="0" order_pt-BR="0" order_ru-RU="0" />
+  <SUB_TYPE metaname="Druid" order_de-DE="0" order_es-ES="0" order_fr-FR="0" order_it-IT="0" order_jp-JA="0" order_ko-KR="0" order_pt-BR="0" order_ru-RU="0" />
+  <EXPANSION value="DPG" />
+  <RARITY metaname="C" />
+  <POWER value="1" />
+  <TOUGHNESS value="1" />
+  <TRIGGERED_ABILITY auto_skip="1" filter_zone="ZONE_IN_PLAY">
+     <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[When Coiling Oracle enters the battlefield, reveal the top card of your library. If it’s a land card, put it onto the battlefield. Otherwise, put that card into your hand.]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[When Coiling Oracle enters the battlefield, reveal the top card of your library. If it’s a land card, put it onto the battlefield. Otherwise, put that card into your hand.]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[When Coiling Oracle enters the battlefield, reveal the top card of your library. If it’s a land card, put it onto the battlefield. Otherwise, put that card into your hand.]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[When Coiling Oracle enters the battlefield, reveal the top card of your library. If it’s a land card, put it onto the battlefield. Otherwise, put that card into your hand.]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[When Coiling Oracle enters the battlefield, reveal the top card of your library. If it’s a land card, put it onto the battlefield. Otherwise, put that card into your hand.]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[When Coiling Oracle enters the battlefield, reveal the top card of your library. If it’s a land card, put it onto the battlefield. Otherwise, put that card into your hand.]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[When Coiling Oracle enters the battlefield, reveal the top card of your library. If it’s a land card, put it onto the battlefield. Otherwise, put that card into your hand.]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[When Coiling Oracle enters the battlefield, reveal the top card of your library. If it’s a land card, put it onto the battlefield. Otherwise, put that card into your hand.]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[When Coiling Oracle enters the battlefield, reveal the top card of your library. If it’s a land card, put it onto the battlefield. Otherwise, put that card into your hand.]]></LOCALISED_TEXT>
+	<TRIGGER value="ZONECHANGE_END" simple_qualifier="self" to_zone="ZONE_IN_PLAY" />
+	<RESOLUTION_TIME_ACTION>
+	local top_card = EffectController():Library_GetNth(0)
+	if (top_card ~= nil and top_card:GetZone() == ZONE_LIBRARY) then
+		if (top_card:GetCardType():Test(CARD_TYPE_LAND) == 1) then
+    		top_card:GuidedReveal( ZONE_LIBRARY, ZONE_IN_PLAY )
+    		top_card:PutIntoPlay( EffectController() ) 
+    	else
+    		top_card:GuidedReveal( ZONE_LIBRARY, ZONE_HAND )
+			top_card:PutInHand()
+    	end	
+	end
+	</RESOLUTION_TIME_ACTION>
+  </TRIGGERED_ABILITY>
+  <SFX text="COMBAT_FANG_LARGE_ATTACK" power_boundary_min="4" power_boundary_max="-1" />
+  <SFX text="COMBAT_FANG_SMALL_ATTACK" power_boundary_min="1" power_boundary_max="3" />
+</CARD_V2>

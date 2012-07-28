@@ -1,0 +1,91 @@
+﻿<?xml version='1.0'?>
+<CARD_V2>
+  <FILENAME text="DAUNTLESS_DOURBARK_888141851" />
+  <CARDNAME text="DAUNTLESS_DOURBARK" />
+  <TITLE>
+     <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Dauntless Dourbark]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Dauntless Dourbark]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Dauntless Dourbark]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Dauntless Dourbark]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Dauntless Dourbark]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[Dauntless Dourbark]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[Dauntless Dourbark]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Dauntless Dourbark]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Dauntless Dourbark]]></LOCALISED_TEXT>
+  </TITLE>
+  <MULTIVERSEID value="888141851" />
+  <ARTID value="888141851" />
+  <ARTIST name="Jeremy Jarvis" />
+  <CASTING_COST cost="{3}{G}" />
+  <TYPE metaname="Creature" />
+  <SUB_TYPE metaname="Treefolk" order_de-DE="0" order_es-ES="0" order_fr-FR="0" order_it-IT="0" order_jp-JA="0" order_ko-KR="0" order_pt-BR="0" order_ru-RU="0" />
+  <SUB_TYPE metaname="Warrior" order_de-DE="0" order_es-ES="0" order_fr-FR="0" order_it-IT="0" order_jp-JA="0" order_ko-KR="0" order_pt-BR="0" order_ru-RU="0" />
+  <EXPANSION value="DPG" />
+  <RARITY metaname="R" />
+  <POWER value="*" />
+  <TOUGHNESS value="*" />
+  <STATIC_ABILITY filter_zone="ZONE_IN_PLAY">
+     <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Dauntless Dourbark’s power and toughness are each equal to the number of Forests you control plus the number of Treefolk you control.]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Dauntless Dourbark’s power and toughness are each equal to the number of Forests you control plus the number of Treefolk you control.]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Dauntless Dourbark’s power and toughness are each equal to the number of Forests you control plus the number of Treefolk you control.]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Dauntless Dourbark’s power and toughness are each equal to the number of Forests you control plus the number of Treefolk you control.]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Dauntless Dourbark’s power and toughness are each equal to the number of Forests you control plus the number of Treefolk you control.]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[Dauntless Dourbark’s power and toughness are each equal to the number of Forests you control plus the number of Treefolk you control.]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[Dauntless Dourbark’s power and toughness are each equal to the number of Forests you control plus the number of Treefolk you control.]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Dauntless Dourbark’s power and toughness are each equal to the number of Forests you control plus the number of Treefolk you control.]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Dauntless Dourbark’s power and toughness are each equal to the number of Forests you control plus the number of Treefolk you control.]]></LOCALISED_TEXT>
+    <CONTINUOUS_ACTION layer="7A">
+    local total_treefolk = 0
+    local total_forest = 0
+    local total = 0
+    local filter = Object():GetFilter()  
+    filter:Clear()  
+    filter:SetZone( ZONE_IN_PLAY )  
+    filter:AddSubType( CREATURE_TYPE_TREEFOLK )
+    filter:SetController( EffectController() )  
+    filter:NotTargetted()  
+    total_treefolk = filter:Count()
+	filter:Clear()
+	filter:SetZone( ZONE_IN_PLAY )  
+	filter:AddCardType( CARD_TYPE_LAND )
+    filter:AddSubType( LAND_TYPE_FOREST )
+	filter:SetController( EffectController() )  
+    filter:NotTargetted()  
+	total_forest = filter:Count()
+    total = total_treefolk + total_forest
+    local characteristics = EffectSource():GetCurrentCharacteristics()  
+    characteristics:Power_Set(total)  
+    characteristics:Toughness_Set(total)
+    </CONTINUOUS_ACTION>
+  </STATIC_ABILITY>
+  <STATIC_ABILITY filter_zone="ZONE_IN_PLAY">
+     <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Dauntless Dourbark has trample as long as you control another Treefolk.]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Dauntless Dourbark has trample as long as you control another Treefolk.]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Dauntless Dourbark has trample as long as you control another Treefolk.]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Dauntless Dourbark has trample as long as you control another Treefolk.]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Dauntless Dourbark has trample as long as you control another Treefolk.]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[Dauntless Dourbark has trample as long as you control another Treefolk.]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[Dauntless Dourbark has trample as long as you control another Treefolk.]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Dauntless Dourbark has trample as long as you control another Treefolk.]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Dauntless Dourbark has trample as long as you control another Treefolk.]]></LOCALISED_TEXT>
+	<CONTINUOUS_ACTION>
+	local total = 0
+    local filter = Object():GetFilter()
+    filter:Clear()
+    filter:SetZone( ZONE_IN_PLAY )
+    filter:AddSubType( CREATURE_TYPE_TREEFOLK )
+    filter:SetController( EffectController() )  
+    filter:NotTargetted()
+    filter:SetCardInstance( Object() )
+    filter:AddExtra( FILTER_EXTRA_FLIP_CARD_INSTANCE )
+    total = filter:CountStopAt( 1 )
+    if total &gt; 0 then
+    	local characteristics = Object():GetCurrentCharacteristics()  
+		characteristics:Characteristic_Set( CHARACTERISTIC_TRAMPLE, 1 )
+    end
+    </CONTINUOUS_ACTION>
+  </STATIC_ABILITY>
+  <SFX text="COMBAT_BLUNT_LARGE_ATTACK" power_boundary_min="4" power_boundary_max="-1" />
+  <SFX text="COMBAT_BLUNT_SMALL_ATTACK" power_boundary_min="1" power_boundary_max="3" />
+  <AI_BASE_SCORE score="450" zone="ZONE_IN_PLAY" />
+</CARD_V2>

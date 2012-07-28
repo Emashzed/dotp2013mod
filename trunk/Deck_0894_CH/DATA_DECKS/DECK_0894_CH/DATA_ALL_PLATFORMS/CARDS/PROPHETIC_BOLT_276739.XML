@@ -1,0 +1,97 @@
+<?xml version='1.0'?>
+<CARD_V2>
+  <FILENAME text="PROPHETIC_BOLT_276739" />
+  <CARDNAME text="PROPHETIC_BOLT" />
+  <TITLE>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Prophetic Bolt]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Éclair prophétique]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Rayo profético]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Feuer der Vorhersehung]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Fulmine Profetico]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[予言の稲妻]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[예언자의 벼락]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Пророческий Разряд]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Raio Profético]]></LOCALISED_TEXT>
+  </TITLE>
+  <MULTIVERSEID value="276739" />
+  <ARTID value="143407" />
+  <ARTIST name="Slawomir Maniak" />
+  <CASTING_COST cost="{3}{U}{R}" />
+  <TYPE metaname="Instant" />
+  <EXPANSION value="DPG" />
+  <RARITY metaname="R" />
+  <SPELL_ABILITY dangerous="1" filter_zone="ZONE_IN_PLAY">
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Prophetic Bolt deals 4 damage to target creature or player. Look at the top four cards of your library. Put one of those cards into your hand and the rest on the bottom of your library in any order.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[L’Éclair prophétique inflige 4 blessures à une cible, créature ou joueur. Regardez les quatre cartes du dessus de votre bibliothèque. Mettez l’une de ces cartes dans votre main et le reste au-dessous de votre bibliothèque, dans n’importe quel ordre.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[El Rayo profético hace 4 puntos de daño a la criatura o jugador objetivo. Mira las primeras cuatro cartas de tu biblioteca. Pon una de esas cartas en tu mano y el resto en la parte inferior de tu biblioteca en cualquier orden.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Das Feuer der Vorhersehung fügt einer Kreatur oder einem Spieler deiner Wahl 4 Schadenspunkte zu. Schaue dir die obersten vier Karten deiner Bibliothek an. Nimm eine dieser Karten auf deine Hand und lege den Rest in beliebiger Reihenfolge unter deine Bibliothek.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Il Fulmine Profetico infligge 4 danni a una creatura o a un giocatore bersaglio. Guarda le prime quattro carte del tuo grimorio. Aggiungi alla tua mano una di quelle carte e metti le altre in fondo al tuo grimorio in qualsiasi ordine.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[クリーチャー１体かプレイヤー１人を対象とする。予言の稲妻はそれに４点のダメージを与える。 あなたのライブラリーの一番上から４枚のカードを見る。 そのうち１枚をあなたの手札に加え、残りをあなたのライブラリーの一番下に望む順番で置く。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[생물 한 개나 플레이어 한 명을 목표로 정한다. 예언자의 벼락은 그 목표에게 피해 4점을 입힌다. 당신의 서고 맨 위의 카드 네 장을 본다. 그 카드 중 한 장을 당신의 손으로 가져가고 나머지 카드들은 당신이 원하는 순서로 당신의 서고 맨 밑에 놓는다.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Пророческий Разряд наносит 4 повреждения целевому существу или игроку. Посмотрите четыре верхние карты вашей библиотеки. Положите одну из тех карт в вашу руку, а остальные в низ вашей библиотеки в любом порядке.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Raio Profético causa 4 pontos de dano à criatura ou ao jogador alvo. Olhe os quatro cards do topo de seu grimório. Coloque um daqueles cards na sua mão e os restantes no fundo do seu grimório em qualquer ordem.]]></LOCALISED_TEXT>
+    <TARGET_DEFINITION id="0">
+    local filter = Object():GetFilter()
+    filter:Clear()
+    filter:SetFilterType( FILTER_TYPE_CARDS + FILTER_TYPE_PLAYERS )
+    filter:SetZone( ZONE_IN_PLAY )
+    filter:SetHint( HINT_ENEMY_ONLY, EffectController() )
+    filter:AddCardType( CARD_TYPE_CREATURE )
+    </TARGET_DEFINITION>
+    <TARGET_DETERMINATION>
+    return AtLeastOneTargetFromDefinition(0)
+    </TARGET_DETERMINATION>
+    <PLAY_TIME_ACTION target_choosing="1">
+    EffectController():ChooseTarget( 0, "CARD_QUERY_CHOOSE_DEAL_4_DAMAGE", EffectDC():Make_Targets(0) )
+    </PLAY_TIME_ACTION>
+    <RESOLUTION_TIME_ACTION>
+    local target_creature = EffectDC():Get_Targets(0):Get_CardPtr(0)
+    local target_player = EffectDC():Get_Targets(0):Get_PlayerPtr(0)
+    local source = EffectSource()
+    if source == nil then
+      source = Object()
+    end
+    if ( target_creature ~= nil ) then   
+    	target_creature:DealDamage(4, source)  
+    elseif 
+    	( target_player ~= nil ) then   
+    	target_player:DealDamage(4, source)  
+    end
+    </RESOLUTION_TIME_ACTION>
+    <RESOLUTION_TIME_ACTION>
+    local filter = Object():GetFilter()
+    local player = EffectController()
+    filter:Clear()
+    filter:NotTargetted()
+    filter:SetPlayer( player )
+    filter:SetZone( ZONE_LIBRARY )
+    filter:SetPortion( 4 )
+    player:SetTargetCount( 1 )
+    player:ChooseTarget( NO_VALIDATION, "CARD_QUERY_CHOOSE_CARD_TO_PUT_INTO_HAND", EffectDC():Make_Targets( 1 ) )
+    </RESOLUTION_TIME_ACTION>
+    <RESOLUTION_TIME_ACTION>
+    local targetDC = EffectDC():Get_Targets(1)
+    if targetDC ~= nil then
+    	local target_card = targetDC:Get_NthCardPtr(0)
+    	for i=0,3 do
+    		local card = Object():GetPlayer():Library_GetNth(0)
+    		if card ~= nil then
+    			if card == target_card then
+    				card:PutInHand()
+    			else
+    				card:PutInLibrary(-1)
+    			end
+    		end
+    	end
+    end
+    </RESOLUTION_TIME_ACTION>
+    <SFX text="TARGET_LIGHTNING_PLAY" />
+  </SPELL_ABILITY>
+  <AI_AVAILABILITY type="in_response" />
+  <AI_AVAILABILITY step="begin_combat" turn="their_turn" />
+  <AI_AVAILABILITY step="main_1" turn="my_turn" />
+  <AI_AVAILABILITY step="declare_attackers" turn="their_turn" />
+  <AI_AVAILABILITY step="declare_blockers" />
+  <AI_AVAILABILITY step="end_of_turn" />
+  <AI_BASE_SCORE score="1200" zone="ZONE_HAND" />
+</CARD_V2>

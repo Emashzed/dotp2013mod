@@ -1,0 +1,132 @@
+<?xml version="1.0"?>
+
+<campaign name="CORE_CAMPAIGN_NAME_KEV" id="5" content_pack="0" locked="false">
+	<node id="1" type = "tutorial" data="1" trial="true" name_tag="TUT1_MAIN_TITLE" locked_description_tag="CAMPAIGN_NODE_DESCRIPTION_LOCKED_GENERIC" available_description_tag="CAMPAIGN_NODE_DESCRIPTION_AVAILABLE_TUTORIAL" complete_description_tag="CAMPAIGN_NODE_DESCRIPTION_AVAILABLE_TUTORIAL" x="-470" small_x = "-601" size = "2" plane = "1" always_available = "true">
+	</node>
+	
+	<node id="2" type = "two player duel" trial="true" name_tag="PLAYER_NAME_KOTH_OLD" locked_description_tag="CAMPAIGN_NODE_DESCRIPTION_LOCKED_GENERIC" available_description_tag="CAMPAIGN_NODE_DESCRIPTION_AVAILABLE_PLANESWALKER_DECK_UNLOCK" complete_description_tag="CAMPAIGN_NODE_DESCRIPTION_COMPLETE_GENERIC" x="-261" small_x = "-601" size = "2" plane = "1" always_available = "true">
+		<opponent name="PLAYER_NAME_KOTH_OLD" deck="DECK_KOTH_OLD" planeswalker_desc = "PLANESWALKER_DESC_GARRUK_WILDSPEAKER_1" />
+		<unlock deck="DECK_KOTH_OLD" />
+	</node>
+	
+	<node id="3" trial="true" type = "two player duel"  name_tag="PLAYER_NAME_D12BEKNIGHTED" locked_description_tag="CAMPAIGN_NODE_DESCRIPTION_LOCKED_GENERIC" available_description_tag="CAMPAIGN_NODE_DESCRIPTION_AVAILABLE_GENERIC" complete_description_tag="CAMPAIGN_NODE_DESCRIPTION_COMPLETE_GENERIC" x="-76" small_x = "-554" size = "1" plane = "1" >
+		<prereq id="2" image="type_9" />
+		<opponent name="PLAYER_NAME_D12BEKNIGHTED" deck="D12BEKNIGHTED" planeswalker_desc = "PLANESWALKER_DESC_GARRUK_WILDSPEAKER_1" />
+	</node>
+
+	<node id="4" trial="true" type = "two player duel"  name_tag="PLAYER_NAME_D12RAKKA" locked_description_tag="CAMPAIGN_NODE_DESCRIPTION_LOCKED_GENERIC" available_description_tag="CAMPAIGN_NODE_DESCRIPTION_AVAILABLE_GENERIC" complete_description_tag="CAMPAIGN_NODE_DESCRIPTION_COMPLETE_GENERIC" x="80" small_x = "-514" size = "1" plane = "1" >
+		<prereq id="3" image="type_0" />
+		<opponent name="PLAYER_NAME_D12RAKKA" deck="D12RAKKA" planeswalker_desc = "PLANESWALKER_DESC_GARRUK_WILDSPEAKER_1" />
+	</node>
+	
+	<node id="5"  trial="true" core="true" type="two player duel" name_tag="PLAYER_NAME_D12GARRUK" locked_description_tag="CAMPAIGN_NODE_DESCRIPTION_LOCKED_GENERIC" available_description_tag="CAMPAIGN_NODE_DESCRIPTION_AVAILABLE_PLANESWALKER_DECK_UNLOCK" complete_description_tag="CAMPAIGN_NODE_DESCRIPTION_COMPLETE_GENERIC" x="299" small_x = "-455" size = "3" plane = "1" >
+		<prereq id="4" image="type_0" />
+		<opponent name="PLAYER_NAME_D12GARRUK" deck="D12GARRUK" planeswalker_desc = "PLANESWALKER_DESC_GARRUK_WILDSPEAKER_1" />
+		<unlock deck="D12GARRUK" plane="2" />
+	</node>
+
+	<node id="6" type = "two player duel"  core="true" name_tag="PLAYER_NAME_D12AOD" locked_description_tag="CAMPAIGN_NODE_DESCRIPTION_LOCKED_GENERIC" available_description_tag="CAMPAIGN_NODE_DESCRIPTION_AVAILABLE_GENERIC" complete_description_tag="CAMPAIGN_NODE_DESCRIPTION_COMPLETE_GENERIC" x="-320" small_x = "-388" size = "1" plane = "2" >
+		<prereq id="5" image="type_3" />
+		<opponent name="PLAYER_NAME_D12AOD" deck="D12AOD" planeswalker_desc = "PLANESWALKER_DESC_GARRUK_WILDSPEAKER_1" />
+	</node>
+	
+	<node id="7" type = "two player duel"  core="true" name_tag="PLAYER_NAME_D12DD" locked_description_tag="CAMPAIGN_NODE_DESCRIPTION_LOCKED_GENERIC" available_description_tag="CAMPAIGN_NODE_DESCRIPTION_AVAILABLE_GENERIC" complete_description_tag="CAMPAIGN_NODE_DESCRIPTION_COMPLETE_GENERIC" x="-160" small_x = "-350" size = "1" plane = "2" >
+		<prereq id="6" image="type_9" />
+		<opponent name="PLAYER_NAME_D12DD" deck="D12DD" planeswalker_desc = "PLANESWALKER_DESC_GARRUK_WILDSPEAKER_1" />
+	</node>
+	
+	<node id="8"  core="true" type="two player duel" name_tag="PLAYER_NAME_D12TEZZ" locked_description_tag="CAMPAIGN_NODE_DESCRIPTION_LOCKED_GENERIC" available_description_tag="CAMPAIGN_NODE_DESCRIPTION_AVAILABLE_PLANESWALKER_DECK_UNLOCK" complete_description_tag="CAMPAIGN_NODE_DESCRIPTION_COMPLETE_GENERIC" x="11" small_x = "-304" size = "2" plane = "2" >
+		<prereq id="7" image="type_9" />
+		<opponent name="PLAYER_NAME_D12TEZZ" deck="D12TEZZ" planeswalker_desc = "PLANESWALKER_DESC_GARRUK_WILDSPEAKER_1" />
+		<unlock deck="D12TEZZ" />
+	</node>
+	
+	<node id="9"  core="true" type="two player duel" name_tag="PLAYER_NAME_D12KIORA" locked_description_tag="CAMPAIGN_NODE_DESCRIPTION_LOCKED_GENERIC" available_description_tag="CAMPAIGN_NODE_DESCRIPTION_AVAILABLE_PLANESWALKER_DECK_UNLOCK" complete_description_tag="CAMPAIGN_NODE_DESCRIPTION_COMPLETE_GENERIC" x="212" small_x = "-237" size = "3" plane = "2" >
+		<prereq id="8" image="type_0" />
+		<opponent name="PLAYER_NAME_D12KIORA" deck="D12KIORA" planeswalker_desc = "PLANESWALKER_DESC_GARRUK_WILDSPEAKER_1" />
+		<unlock deck="D12KIORA" plane = "3" />
+	</node>
+
+	<node id="10" type = "two player duel"  core="true" name_tag="PLAYER_NAME_D12SE" locked_description_tag="CAMPAIGN_NODE_DESCRIPTION_LOCKED_GENERIC" available_description_tag="CAMPAIGN_NODE_DESCRIPTION_AVAILABLE_GENERIC" complete_description_tag="CAMPAIGN_NODE_DESCRIPTION_COMPLETE_GENERIC" x="-390" small_x = "-172" size = "1" plane = "3" >
+		<prereq id="9" image="type_0" />
+		<opponent name="PLAYER_NAME_D12SE" deck="D12SE" planeswalker_desc = "PLANESWALKER_DESC_GARRUK_WILDSPEAKER_1" />
+	</node>
+	
+	<node id="11"  core="true" type="two player duel" name_tag="PLAYER_NAME_D12JACE" locked_description_tag="CAMPAIGN_NODE_DESCRIPTION_LOCKED_GENERIC" available_description_tag="CAMPAIGN_NODE_DESCRIPTION_AVAILABLE_PLANESWALKER_DECK_UNLOCK" complete_description_tag="CAMPAIGN_NODE_DESCRIPTION_COMPLETE_GENERIC" x="-211" small_x = "-127" size = "2" plane = "3" >
+		<prereq id="10" image="type_9" />
+		<opponent name="PLAYER_NAME_D12JACE" deck="D12JACE" planeswalker_desc = "PLANESWALKER_DESC_GARRUK_WILDSPEAKER_1" />
+		<unlock deck="D12JACE" />
+	</node>
+	
+	<node id="12" type = "two player duel"  core="true" name_tag="PLAYER_NAME_D12GK" locked_description_tag="CAMPAIGN_NODE_DESCRIPTION_LOCKED_GENERIC" available_description_tag="CAMPAIGN_NODE_DESCRIPTION_AVAILABLE_GENERIC" complete_description_tag="CAMPAIGN_NODE_DESCRIPTION_COMPLETE_GENERIC" x="-33" small_x = "-82" size = "1" plane = "3" >
+		<prereq id="11" image="type_9" />
+		<opponent name="PLAYER_NAME_D12GK" deck="D12GK" planeswalker_desc = "PLANESWALKER_DESC_GARRUK_WILDSPEAKER_1" />
+	</node>
+	
+	<node id="13" type = "two player duel"  core="true" name_tag="PLAYER_NAME_CAZORIUS" locked_description_tag="CAMPAIGN_NODE_DESCRIPTION_LOCKED_GENERIC" available_description_tag="CAMPAIGN_NODE_DESCRIPTION_AVAILABLE_PLANESWALKER_DECK_UNLOCK" complete_description_tag="CAMPAIGN_NODE_DESCRIPTION_COMPLETE_GENERIC" x="122" small_x = "-44" size = "1" plane = "3" >
+		<prereq id="12" image="type_0" />
+		<opponent name="PLAYER_NAME_CAZORIUS" deck="C13_AZORIUS" planeswalker_desc = "PLANESWALKER_DESC_GARRUK_WILDSPEAKER_1" />
+		<unlock deck="C13_AZORIUS" />
+	</node>
+	
+	<node id="14"  core="true" type="two player duel" name_tag="PLAYER_NAME_D12SARKHAN" locked_description_tag="CAMPAIGN_NODE_DESCRIPTION_LOCKED_GENERIC" available_description_tag="CAMPAIGN_NODE_DESCRIPTION_AVAILABLE_PLANESWALKER_DECK_UNLOCK" complete_description_tag="CAMPAIGN_NODE_DESCRIPTION_COMPLETE_GENERIC" x="343" small_x = "17" size = "3" plane = "3" >
+		<prereq id="13" image="type_0" />
+		<opponent name="PLAYER_NAME_D12SARKHAN" deck="D12SARKHAN" planeswalker_desc = "PLANESWALKER_DESC_GARRUK_WILDSPEAKER_1" />
+		<unlock deck="D12SARKHAN" plane = "4" />
+	</node>
+	
+	<node id="15" type = "two player duel"  core="true" name_tag="PLAYER_NAME_CGOLGARI" locked_description_tag="CAMPAIGN_NODE_DESCRIPTION_LOCKED_GENERIC" available_description_tag="CAMPAIGN_NODE_DESCRIPTION_AVAILABLE_PLANESWALKER_DECK_UNLOCK" complete_description_tag="CAMPAIGN_NODE_DESCRIPTION_COMPLETE_GENERIC" x="-321" small_x = "84" size = "1" plane = "4" >
+		<prereq id="14" image="type_9" />
+		<opponent name="PLAYER_NAME_CGOLGARI" deck="C13_GOLGARI" planeswalker_desc = "PLANESWALKER_DESC_GARRUK_WILDSPEAKER_1" />
+		<unlock deck="C13_GOLGARI" />
+	</node>
+	
+	<node id="16"  core="true" type="two player duel" name_tag="PLAYER_NAME_D12CHANDRA" locked_description_tag="CAMPAIGN_NODE_DESCRIPTION_LOCKED_GENERIC" available_description_tag="CAMPAIGN_NODE_DESCRIPTION_AVAILABLE_PLANESWALKER_DECK_UNLOCK" complete_description_tag="CAMPAIGN_NODE_DESCRIPTION_COMPLETE_GENERIC" x="-143" small_x = "129" size = "2" plane = "4"  >
+		<prereq id="15" image="type_0" />
+		<opponent name="PLAYER_NAME_D12CHANDRA" deck="D12CHANDRA" planeswalker_desc = "PLANESWALKER_DESC_GARRUK_WILDSPEAKER_1" />
+		<unlock deck="D12CHANDRA" />
+	</node>
+	
+	<node id="17" type = "two player duel"  core="true" name_tag="PLAYER_NAME_CIZZET" locked_description_tag="CAMPAIGN_NODE_DESCRIPTION_LOCKED_GENERIC" available_description_tag="CAMPAIGN_NODE_DESCRIPTION_AVAILABLE_PLANESWALKER_DECK_UNLOCK" complete_description_tag="CAMPAIGN_NODE_DESCRIPTION_COMPLETE_GENERIC" x="44" small_x = "173" size = "1" plane = "4" >
+		<prereq id="16" image="type_0" />
+		<opponent name="PLAYER_NAME_CIZZET" deck="C13_IZZET" planeswalker_desc = "PLANESWALKER_DESC_GARRUK_WILDSPEAKER_1" />
+		<unlock deck="C13_IZZET" />
+	</node>
+	
+	<node id="18"  core="true" type="two player duel" name_tag="PLAYER_NAME_D12SORIN" locked_description_tag="CAMPAIGN_NODE_DESCRIPTION_LOCKED_GENERIC" available_description_tag="CAMPAIGN_NODE_DESCRIPTION_AVAILABLE_PLANESWALKER_DECK_UNLOCK" complete_description_tag="CAMPAIGN_NODE_DESCRIPTION_COMPLETE_GENERIC" x="263" small_x = "231" size = "3" plane = "4" >
+		<prereq id="17" image="type_9" />
+		<opponent name="PLAYER_NAME_D12SORIN" deck="D12SORIN" planeswalker_desc = "PLANESWALKER_DESC_GARRUK_WILDSPEAKER_1" />
+		<unlock plane="5" deck="D12SORIN" />
+	</node>
+	
+	<node id="19"  core="true" type="two player duel" name_tag="PLAYER_NAME_D12NISSA" locked_description_tag="CAMPAIGN_NODE_DESCRIPTION_LOCKED_GENERIC" available_description_tag="CAMPAIGN_NODE_DESCRIPTION_AVAILABLE_PLANESWALKER_DECK_UNLOCK" complete_description_tag="CAMPAIGN_NODE_DESCRIPTION_COMPLETE_GENERIC" x="-315" small_x = "302" size = "2" plane = "5" >
+		<prereq id="18" image="type_0" />
+		<opponent name="PLAYER_NAME_D12NISSA" deck="D12NISSA" planeswalker_desc = "PLANESWALKER_DESC_GARRUK_WILDSPEAKER_1" />
+		<unlock deck="D12NISSA" />
+	</node>
+	
+	<node id="20" type = "two player duel"  core="true" name_tag="PLAYER_NAME_CRAKDOS" locked_description_tag="CAMPAIGN_NODE_DESCRIPTION_LOCKED_GENERIC" available_description_tag="CAMPAIGN_NODE_DESCRIPTION_AVAILABLE_PLANESWALKER_DECK_UNLOCK" complete_description_tag="CAMPAIGN_NODE_DESCRIPTION_COMPLETE_GENERIC" x="-136" small_x = "347" size = "1" plane = "5" >
+		<prereq id="19" image="type_0" />
+		<opponent name="PLAYER_NAME_CRAKDOS" deck="C13_RAKDOS" planeswalker_desc = "PLANESWALKER_DESC_GARRUK_WILDSPEAKER_1" />
+		<unlock deck="C13_RAKDOS" />
+	</node>
+	
+	<node id="21" type = "two player duel"  core="true" name_tag="PLAYER_NAME_CSELESNYA" locked_description_tag="CAMPAIGN_NODE_DESCRIPTION_LOCKED_GENERIC" available_description_tag="CAMPAIGN_NODE_DESCRIPTION_AVAILABLE_PLANESWALKER_DECK_UNLOCK" complete_description_tag="CAMPAIGN_NODE_DESCRIPTION_COMPLETE_GENERIC" x="47" small_x = "391" size = "2" plane = "5" >
+		<prereq id="20" image="type_0" />
+		<opponent name="PLAYER_NAME_CSELESNYA" deck="C13_SELESNYA" planeswalker_desc = "PLANESWALKER_DESC_GARRUK_WILDSPEAKER_1" />
+		<unlock deck="C13_SELESNYA" />
+	</node>
+	
+	<node id="22"  core="true" type="two player duel" name_tag="PLAYER_NAME_D12JURA" locked_description_tag="CAMPAIGN_NODE_DESCRIPTION_LOCKED_GENERIC" available_description_tag="CAMPAIGN_NODE_DESCRIPTION_AVAILABLE_PLANESWALKER_DECK_UNLOCK" complete_description_tag="CAMPAIGN_NODE_DESCRIPTION_COMPLETE_GENERIC" x="289" small_x ="456" size = "3" plane = "5" >
+		<prereq id="21" image="type_0" />
+		<opponent name="PLAYER_NAME_D12JURA" deck="D12JURA" planeswalker_desc = "PLANESWALKER_DESC_GARRUK_WILDSPEAKER_1" />
+		<unlock deck="D12JURA" plane = "6" />
+	</node>
+	
+	<node id="23"  core="true" type="two player duel" name_tag="PLAYER_NAME_D12KARN" locked_description_tag="CAMPAIGN_NODE_DESCRIPTION_LOCKED_GENERIC" available_description_tag="CAMPAIGN_NODE_DESCRIPTION_AVAILABLE_WAYBACK_FINAL" complete_description_tag="CAMPAIGN_NODE_DESCRIPTION_COMPLETE_GENERIC" x="20" small_x ="562" size = "4" plane = "6" >
+		<prereq id="22" image="type_0" />
+		<opponent name="PLAYER_NAME_D12KARN" deck="D12KARN" planeswalker_desc = "PLANESWALKER_DESC_GARRUK_WILDSPEAKER_1" />
+	</node>
+	
+</campaign>
+

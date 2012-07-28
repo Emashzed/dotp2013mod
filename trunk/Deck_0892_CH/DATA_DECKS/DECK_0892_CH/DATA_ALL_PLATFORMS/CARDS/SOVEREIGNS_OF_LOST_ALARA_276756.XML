@@ -1,0 +1,106 @@
+<?xml version='1.0'?>
+<CARD_V2>
+  <FILENAME text="SOVEREIGNS_OF_LOST_ALARA_276756" />
+  <CARDNAME text="SOVEREIGNS_OF_LOST_ALARA" />
+  <TITLE>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Sovereigns of Lost Alara]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Souverains de l’Alara perdue]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Soberanos de la antigua Alara]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Herrscher des verlorenen Alara]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Sovrani di Alara Perduta]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[失われたアラーラの君主]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[파괴된 알라라의 지배자]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Владыки Потерянной Алары]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Soberanos da Alara Perdida]]></LOCALISED_TEXT>
+  </TITLE>
+  <MULTIVERSEID value="276756" />
+  <ARTID value="121010" />
+  <ARTIST name="Donato Giancola" />
+  <CASTING_COST cost="{4}{W}{U}" />
+  <TYPE metaname="Creature" />
+  <SUB_TYPE metaname="Spirit" order_de-DE="0" order_es-ES="0" order_fr-FR="0" order_it-IT="0" order_jp-JA="0" order_ko-KR="0" order_pt-BR="0" order_ru-RU="0" />
+  <EXPANSION value="DPG" />
+  <RARITY metaname="R" />
+  <POWER value="4" />
+  <TOUGHNESS value="5" />
+  <TRIGGERED_ABILITY badge="BADGE_EXALTED" filter_zone="ZONE_IN_PLAY">
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Exalted]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Exaltation]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Exaltado.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Edelmut]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Esaltato]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[賛美]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[고귀]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Повышение]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Exaltado]]></LOCALISED_TEXT>
+    <TRIGGER value="ATTACKING_ALONE" simple_qualifier="objectyoucontrol" />
+    <CONTINUOUS_ACTION layer="7C">
+    if TriggerObject() ~= nil  then    
+    	local characteristics = TriggerObject():GetCurrentCharacteristics()
+    	characteristics:Power_Add( 1 )    
+    	characteristics:Toughness_Add( 1 )  
+    end  
+    </CONTINUOUS_ACTION>
+    <DURATION simple_duration="UntilEOT" />
+  </TRIGGERED_ABILITY>
+  <TRIGGERED_ABILITY>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Whenever a creature you control attacks alone, you may search your library for an Aura card that could enchant that creature, put it onto the battlefield attached to that creature, then shuffle your library.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[À chaque fois qu’une créature que vous contrôlez attaque seule, vous pouvez chercher dans votre bibliothèque une carte d’aura qui pourrait enchanter cette créature, la mettre sur le champ de bataille attachée à cette créature et mélanger ensuite votre bibliothèque.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Siempre que una criatura que controles ataque sola, puedes buscar en tu biblioteca una carta de aura que pueda encantarla, ponerla en el campo de batalla anexada a esa criatura y luego barajar tu biblioteca.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Immer wenn eine Kreatur, die du kontrollierst, alleine angreift, kannst du deine Bibliothek nach einer Aura-Karte durchsuchen, die diese Kreatur verzaubern könnte, sie an diese Kreatur angelegt ins Spiel bringen und dann deine Bibliothek mischen.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Ogniqualvolta una creatura che controlli attacca da sola, puoi passare in rassegna il tuo grimorio per una carta Aura che può incantare quella creatura, metterla sul campo di battaglia assegnata a quella creatura, poi rimescolare il tuo grimorio.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[あなたがコントロールするいずれかのクリーチャーが単独で攻撃するたび、あなたはあなたのライブラリーからそのクリーチャーにエンチャントすることのできるオーラ・カードを１枚探してもよい。そうしたなら、それをそのクリーチャーにつけられた状態で戦場に出し、その後あなたのライブラリーを切り直す。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[당신이 조종하는 생물이 혼자 공격할 때마다, 당신은 당신의 서고에서 그 생물에게 부여할 수 있는 마법진 카드 한 장을 찾아 그 생물에 부착된 채로 전장에 놓을 수 있다. 그렇게 한다면, 당신의 서고를 섞는다.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Каждый раз, когда существо под вашим контролем атакует в одиночку, вы можете найти в вашей библиотеке карту Ауры, которая может зачаровывать то существо, положить ее на поле битвы прикрепленной к тому существу, затем перетасовать свою библиотеку.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Toda vez que uma criatura que você controla ataca sozinha, você pode procurar em seu grimório um card de Aura que possa encantá-la, colocá-lo no campo de batalha anexado a ela e, então, embaralhar seu grimório.]]></LOCALISED_TEXT>
+    <TRIGGER value="ATTACKING_ALONE" simple_qualifier="objectyoucontrol" />
+    <RESOLUTION_TIME_ACTION>
+    local filter = Object():GetFilter()
+    EffectController():MarkSearchedLibrary()
+    		
+    filter:Clear()
+    filter:AddCardType( CARD_TYPE_ENCHANTMENT )
+    filter:AddSubType( ENCHANTMENT_TYPE_AURA )
+    filter:SetPlayer( EffectController() )
+    filter:SetZone( ZONE_LIBRARY )
+    filter:SetUnique()
+    filter:NotTargetted()
+    local filter_count = filter:EvaluateObjects()
+    			
+    if filter_count &gt; 0 then
+    		
+    	local candidateDC = EffectDC():Make_Chest(2)
+    	local candidateCount = 0
+    				
+    	for i=0,filter_count-1 do
+    		local candidate = filter:GetNthEvaluatedObject(i)
+    		if candidate:CanAttachTo(TriggerObject()) ~= 0 then
+    			candidateDC:Set_CardPtr( candidateCount, candidate )
+    			candidateCount = candidateCount + 1
+    		end
+    	end
+    			
+    	EffectDC():Set_Int(1, candidateCount)
+    	if candidateCount &gt; 0 then
+    		EffectController():ChooseTargetFromDCWithFlags( NO_VALIDATION, "CARD_QUERY_CHOOSE_AURA", candidateDC, EffectDC():Make_Targets(3), QUERY_FLAG_CAN_BE_FINISHED_EARLY + QUERY_FLAG_CAN_BE_FINISHED_EARLY_FOR_AI_AS_WELL )
+    	end
+    end 
+    </RESOLUTION_TIME_ACTION>
+    <RESOLUTION_TIME_ACTION>
+    local creature = TriggerObject()
+    if EffectDC():Get_Targets(3) ~= nil then 
+    	local aura = EffectDC():Get_Targets(3):Get_CardPtr(0)
+    	if (aura ~= nil and creature ~= nil) then 
+    		aura:PutIntoPlayAttachedTo( EffectController(), creature )
+    	end
+    end
+    </RESOLUTION_TIME_ACTION>
+    <RESOLUTION_TIME_ACTION>
+    EffectController():ShuffleLibrary()
+    </RESOLUTION_TIME_ACTION>
+  </TRIGGERED_ABILITY>
+  <HELP title="MORE_INFO_BADGE_TITLE_33" body="MORE_INFO_BADGE_BODY_33" zone="ZONE_ANY" />
+  <SFX text="COMBAT_WHITE_MAGIC_LARGE_ATTACK" power_boundary_min="4" power_boundary_max="-1" />
+  <SFX text="COMBAT_WHITE_MAGIC_SMALL_ATTACK" power_boundary_min="1" power_boundary_max="3" />
+  <AI_BASE_SCORE score="600" zone="ZONE_IN_PLAY" />
+</CARD_V2>

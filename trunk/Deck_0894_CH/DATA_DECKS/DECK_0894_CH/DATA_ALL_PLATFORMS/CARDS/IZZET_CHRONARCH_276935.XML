@@ -1,0 +1,77 @@
+<?xml version='1.0'?>
+<CARD_V2>
+  <FILENAME text="IZZET_CHRONARCH_276935" />
+  <CARDNAME text="IZZET_CHRONARCH" />
+  <TITLE>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Izzet Chronarch]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Chronarque d’Izzet]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Cronarca ízzet]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Izzet-Chronarch]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Cronarca Izzet]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[イゼットの時術師]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[이젯 시간군주]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Иззетский Хроновед]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Cronarca Izzet]]></LOCALISED_TEXT>
+  </TITLE>
+  <MULTIVERSEID value="276935" />
+  <ARTID value="143981" />
+  <ARTIST name="Steven Belledin" />
+  <CASTING_COST cost="{3}{U}{R}" />
+  <FLAVOURTEXT>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[He ensures not only whether but also when and where the lightning strikes twice.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Il décide non seulement si, mais aussi où et quand la foudre va frapper à nouveau.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[No sólo se asegura de que el rayo golpeará dos veces, sino cuándo y dónde lo hará.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Er berechnet nicht nur ob, sondern auch wann und wo der Blitz zweimal einschlägt.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Garantisce non solo se, ma anche dove e quando i fulmini colpiranno due volte.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[彼が保障するのは、単に二度目の稲妻が落ちるかどうかではなく、それがいつ、どこに落ちるかだ。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[그는 언제 어디서 번개가 두 번 칠지 결정한다.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Он решает не только то, ударит ли молния дважды в одно и то же место, но еще и когда и где это произойдет.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Ele não só afirma que é possível, como diz onde e quando o raio irá cair duas vezes.]]></LOCALISED_TEXT>
+  </FLAVOURTEXT>
+  <TYPE metaname="Creature" />
+  <SUB_TYPE metaname="Human" order_de-DE="0" order_es-ES="1" order_fr-FR="0" order_it-IT="1" order_jp-JA="0" order_ko-KR="0" order_pt-BR="0" order_ru-RU="0" />
+  <SUB_TYPE metaname="Wizard" order_de-DE="1" order_es-ES="0" order_fr-FR="1" order_it-IT="0" order_jp-JA="1" order_ko-KR="1" order_pt-BR="1" order_ru-RU="1" />
+  <EXPANSION value="DPG" />
+  <RARITY metaname="C" />
+  <POWER value="2" />
+  <TOUGHNESS value="2" />
+  <TRIGGERED_ABILITY auto_skip="1" filter_zone="ZONE_IN_PLAY">
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[When Izzet Chronarch enters the battlefield, return target instant or sorcery card from your graveyard to your hand.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Quand le Chronarque d’Izzet arrive sur le champ de bataille, renvoyez la carte d’éphémère ou de rituel ciblée depuis votre cimetière dans votre main.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Cuando el Cronarca ízzet entre al campo de batalla, regresa la carta de instantáneo o conjuro objetivo de tu cementerio a tu mano.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Wenn der Izzet-Chronarch ins Spiel kommt, bringe eine Spontanzauber- oder Hexereikarte deiner Wahl aus deinem Friedhof auf deine Hand zurück.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Quando il Cronarca Izzet entra nel campo di battaglia, riprendi in mano dal tuo cimitero una carta istantaneo o stregoneria bersaglio.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[イゼットの時術師が戦場に出たとき、あなたの墓地にあるインスタント・カード１枚かソーサリー・カード１枚を対象とし、それをあなたの手札に戻す。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[이젯 시간군주가 전장에 들어올 때, 당신의 무덤에 있는 순간마법이나 집중마법 카드 한 장을 목표로 정한다. 그 카드를 당신의 손으로 되돌린다.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Когда Иззетский Хроновед выходит на поле битвы, верните целевую карту мгновенного заклинания или волшебства из вашего кладбища в вашу руку.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Quando Cronarca Izzet entrar no campo de batalha, devolva o card de mágica instantânea ou de feitiço alvo de seu cemitério para a sua mão.]]></LOCALISED_TEXT>
+    <TRIGGER value="ZONECHANGE_END" simple_qualifier="self" to_zone="ZONE_IN_PLAY" />
+    <TARGET_DEFINITION id="0">
+    local filter = Object():GetFilter()
+    filter:Clear()
+    filter:AddCardType( CARD_TYPE_INSTANT )
+    filter:AddCardType( CARD_TYPE_SORCERY )
+    filter:SetZone( ZONE_GRAVEYARD )
+    filter:SetController( EffectController() )
+    filter:SetHint( HINT_ALLIED_ONLY, EffectController() )
+    </TARGET_DEFINITION>
+    <TARGET_DETERMINATION>
+    return AtLeastOneTargetFromDefinition(0)
+    </TARGET_DETERMINATION>
+    <PLAY_TIME_ACTION target_choosing="1">
+    EffectController():ChooseTarget( 0, "CARD_QUERY_CHOOSE_CARD_TO_PUT_INTO_HAND", EffectDC():Make_Targets(0) )
+    </PLAY_TIME_ACTION>
+    <RESOLUTION_TIME_ACTION>
+    if EffectDC() ~= nil then 
+    	local target = EffectDC():Get_Targets(0):Get_CardPtr(0)
+    	if  target ~= nil then
+    		target:GuidedReveal( ZONE_GRAVEYARD , ZONE_HAND )
+    		target:PutInHand()
+    	end
+    end
+    </RESOLUTION_TIME_ACTION>
+  </TRIGGERED_ABILITY>
+  <SFX text="COMBAT_PLASMA_LARGE_ATTACK" power_boundary_min="4" power_boundary_max="-1" />
+  <SFX text="COMBAT_PLASMA_SMALL_ATTACK" power_boundary_min="1" power_boundary_max="3" />
+  <AI_BASE_SCORE score="600" zone="ZONE_HAND" />
+</CARD_V2>

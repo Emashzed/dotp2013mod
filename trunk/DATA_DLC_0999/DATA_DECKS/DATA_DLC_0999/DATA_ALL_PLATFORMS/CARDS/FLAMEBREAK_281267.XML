@@ -1,0 +1,84 @@
+<?xml version='1.0'?>
+<CARD_V2>
+  <FILENAME text="FLAMEBREAK_281267" />
+  <CARDNAME text="FLAMEBREAK" />
+  <TITLE>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Flamebreak]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Départ de flammes]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Irrupción flamígera]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Flammenausbruch]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Squarciafiamma]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[火炎崩れ]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[휩쓰는 화염]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Прорыв Пламени]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Erupção de Chamas]]></LOCALISED_TEXT>
+  </TITLE>
+  <MULTIVERSEID value="281267" />
+  <ARTID value="52054" />
+  <ARTIST name="Trevor Hairsine" />
+  <CASTING_COST cost="{R}{R}{R}" />
+  <FLAVOURTEXT>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[“Now I’m thirsty.”
+—Korva, Vulshok battlemaster]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[« Ça donne soif ! »
+—Korva, maîtresse des batailles vulshoke]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[“Ahora tengo sed.”
+—Korva, maestra de guerra vúlshok]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[„Jetzt bin ich aber durstig!“
+—Korva, Vulshok-Kampfmeister]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[“Adesso ho sete.”
+—Korva, signore della guerra Vulshok]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[「さて、のどが渇いたな。」
+—ヴァルショクの戦の達人コーヴァ]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[“이제 목이 마르군.”
+—불쇽 전투대장 코르바]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[«Вот теперь я хочу пить».
+— Корва, вулшокский боевой мастер]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[“Agora estou com sede.”
+— Korva, mestre de batalha Vulshoque]]></LOCALISED_TEXT>
+  </FLAVOURTEXT>
+  <TYPE metaname="Sorcery" />
+  <EXPANSION value="DPG" />
+  <RARITY metaname="R" />
+  <SPELL_ABILITY dangerous="1" filter_zone="ZONE_IN_PLAY_AND_PLAYERS">
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Flamebreak deals 3 damage to each creature without flying and each player. Creatures dealt damage this way can’t be regenerated this turn.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Le Départ de flammes inflige 3 blessures à chaque créature sans le vol et à chaque joueur. Les créatures blessées de cette manière ne peuvent pas être régénérées ce tour-ci.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[La Irrupción flamígera hace 3 puntos de daño a cada criatura que no tenga la habilidad de volar y a cada jugador. Las criaturas que hayan recibido daño de esta manera no pueden ser regeneradas este turno.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Flammenausbruch fügt jeder nichtfliegenden Kreatur und jedem Spieler 3 Schadenspunkte zu. Kreaturen, denen auf diese Weise Schaden zugefügt wurde, können in diesem Zug nicht regeneriert werden.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Lo Squarciafiamma infligge 3 danni a ogni creatura senza volare e a ogni giocatore. Le creature a cui sia stato inflitto danno in questo modo non possono essere rigenerate in questo turno.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[火炎崩れは飛行を持たない各クリーチャーと各プレイヤーにそれぞれ３点のダメージを与える。 このターン、これによりダメージを与えられたクリーチャーは再生できない。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[휩쓰는 화염은 각 플레이어와 비행 능력이 없는 각 생물에게 피해 3점을 입힌다. 이렇게 피해를 입은 생물들은 이 턴에 재생될 수 없다.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Прорыв Пламени наносит 3 повреждения каждому существу без Полета и каждому игроку. Существа, которым таким образом были нанесены повреждения, не могут быть регенерированы в этом ходу.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Erupção de Chamas causa 3 pontos de dano a cada criatura sem voar e a cada jogador. As criaturas que sofrerem dano desta forma não poderão ser regeneradas neste turno.]]></LOCALISED_TEXT>
+    <FILTER>
+    return (FilteredCard() ~= nil and
+    FilteredCard():GetCardType():Test( CARD_TYPE_CREATURE ) ~= 0 and
+    FilteredCard():GetZone() == ZONE_IN_PLAY and 
+    FilteredCard():GetCurrentCharacteristics():Characteristic_Get( CHARACTERISTIC_FLYING ) == 0) or (FilteredPlayer() ~= nil)
+    </FILTER>
+    <RESOLUTION_TIME_ACTION>
+    local source = EffectSource()
+    if source == nil then
+      source = Object()
+    end
+    if (FilteredPlayer() ~= nil) then   
+    	FilteredPlayer():DealDamage( 3 , source)  
+    elseif (FilteredCard() ~= nil) then   
+    	FilteredCard():DealDamage( 3 , source )  
+    end
+    </RESOLUTION_TIME_ACTION>
+    <CONTINUOUS_ACTION layer="6">
+    if FilteredCard() ~= nil then
+    	local characteristics = FilteredCard():GetCurrentCharacteristics()
+    	if characteristics ~= nil then
+    		characteristics:Characteristic_Set( CHARACTERISTIC_CANT_BE_REGENERATED, 1 )
+    	end
+    end
+    </CONTINUOUS_ACTION>
+    <DURATION simple_duration="UntilEOT" />
+    <SFX text="GLOBAL_MAGMA_PLAY" />
+  </SPELL_ABILITY>
+  <HELP title="MORE_INFO_BADGE_TITLE_10" body="MORE_INFO_BADGE_BODY_10" zone="ZONE_ANY" />
+  <HELP title="MORE_INFO_TITLE_REGENERATE" body="MORE_INFO_BODY_REGENERATE" zone="ZONE_ANY" />
+  <AI_BASE_SCORE score="1200" zone="ZONE_HAND" />
+</CARD_V2>

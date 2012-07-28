@@ -1,0 +1,91 @@
+﻿<?xml version='1.0'?>
+<CARD_V2>
+  <FILENAME text="TIMBER_PROTECTOR_888139690" />
+  <CARDNAME text="TIMBER_PROTECTOR" />
+  <TITLE>
+     <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Timber Protector]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Timber Protector]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Timber Protector]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Timber Protector]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Timber Protector]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[Timber Protector]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[Timber Protector]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Timber Protector]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Timber Protector]]></LOCALISED_TEXT>
+  </TITLE>
+  <MULTIVERSEID value="888139690" />
+  <ARTID value="888139690" />
+  <ARTIST name="Terese Nielsen &amp; Philip Tan" />
+  <CASTING_COST cost="{4}{G}" />
+  <FLAVOURTEXT>
+     <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[In his presence, an ordinary grove becomes a bastion to turn spells and break armies.]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[In his presence, an ordinary grove becomes a bastion to turn spells and break armies.]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[In his presence, an ordinary grove becomes a bastion to turn spells and break armies.]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[In his presence, an ordinary grove becomes a bastion to turn spells and break armies.]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[In his presence, an ordinary grove becomes a bastion to turn spells and break armies.]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[In his presence, an ordinary grove becomes a bastion to turn spells and break armies.]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[In his presence, an ordinary grove becomes a bastion to turn spells and break armies.]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[In his presence, an ordinary grove becomes a bastion to turn spells and break armies.]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[In his presence, an ordinary grove becomes a bastion to turn spells and break armies.]]></LOCALISED_TEXT>
+  </FLAVOURTEXT>
+  <TYPE metaname="Creature" />
+  <SUB_TYPE metaname="Treefolk" order_de-DE="0" order_es-ES="0" order_fr-FR="0" order_it-IT="0" order_jp-JA="0" order_ko-KR="0" order_pt-BR="0" order_ru-RU="0" />
+  <SUB_TYPE metaname="Warrior" order_de-DE="0" order_es-ES="0" order_fr-FR="0" order_it-IT="0" order_jp-JA="0" order_ko-KR="0" order_pt-BR="0" order_ru-RU="0" />
+  <EXPANSION value="DPG" />
+  <RARITY metaname="R" />
+  <POWER value="4" />
+  <TOUGHNESS value="6" />
+  <STATIC_ABILITY filter_zone="ZONE_IN_PLAY">
+     <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Other Treefolk creatures you control get +1/+1.]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Other Treefolk creatures you control get +1/+1.]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Other Treefolk creatures you control get +1/+1.]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Other Treefolk creatures you control get +1/+1.]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Other Treefolk creatures you control get +1/+1.]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[Other Treefolk creatures you control get +1/+1.]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[Other Treefolk creatures you control get +1/+1.]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Other Treefolk creatures you control get +1/+1.]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Other Treefolk creatures you control get +1/+1.]]></LOCALISED_TEXT>
+    <FILTER>
+    return OtherCreaturesInPlayYouControlOfType( CREATURE_TYPE_TREEFOLK )
+    </FILTER>
+    <CONTINUOUS_ACTION layer="7C">
+    if FilteredCard() ~= nil then
+    	local characteristics = FilteredCard():GetCurrentCharacteristics()
+    	if characteristics ~= nil then
+    		characteristics:Power_Add( 1 )
+    		characteristics:Toughness_Add( 1 )
+    	end
+    end
+    </CONTINUOUS_ACTION>
+  </STATIC_ABILITY>
+  <STATIC_ABILITY filter_zone="ZONE_IN_PLAY">
+     <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Other Treefolk and Forests you control are indestructible.]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Other Treefolk and Forests you control are indestructible.]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Other Treefolk and Forests you control are indestructible.]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Other Treefolk and Forests you control are indestructible.]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Other Treefolk and Forests you control are indestructible.]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[Other Treefolk and Forests you control are indestructible.]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[Other Treefolk and Forests you control are indestructible.]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Other Treefolk and Forests you control are indestructible.]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Other Treefolk and Forests you control are indestructible.]]></LOCALISED_TEXT>
+	<FILTER>
+	local objectPlayer = EffectController()
+    return ((FilteredCard():GetPlayer() == objectPlayer) and 
+    (FilteredCard():GetZone() == ZONE_IN_PLAY) and
+    (((FilteredCard() ~= Object()) and
+    (FilteredCard():GetSubType():Test( CREATURE_TYPE_TREEFOLK )) ~= 0) or
+    (FilteredCard():GetSubType():Test( LAND_TYPE_FOREST )) ~= 0))
+    </FILTER>
+    <CONTINUOUS_ACTION layer="8">
+    if FilteredCard() ~= nil then
+    	local characteristics = FilteredCard():GetCurrentCharacteristics()
+    	if characteristics ~= nil then
+    		characteristics:Characteristic_Set( CHARACTERISTIC_INDESTRUCTIBLE, 1 )
+    	end
+    end
+    </CONTINUOUS_ACTION>
+  </STATIC_ABILITY>
+  <SFX text="COMBAT_BLUNT_LARGE_ATTACK" power_boundary_min="4" power_boundary_max="-1" />
+  <SFX text="COMBAT_BLUNT_SMALL_ATTACK" power_boundary_min="1" power_boundary_max="3" />
+  <AI_BASE_SCORE score="600" zone="ZONE_IN_PLAY" />
+</CARD_V2>

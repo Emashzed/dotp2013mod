@@ -1,0 +1,76 @@
+<?xml version='1.0'?>
+<CARD_V2>
+  <FILENAME text="LIVING_HIVE_277157" />
+  <CARDNAME text="LIVING_HIVE" />
+  <TITLE>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Living Hive]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Essaim vivant]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Colmena viviente]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Lebendes Insektennest]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Alveare Vivente]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[生きている蟻塚]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[살아있는 개미집]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Живой Улей]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Enxame Vivo]]></LOCALISED_TEXT>
+  </TITLE>
+  <MULTIVERSEID value="277157" />
+  <ARTID value="51028" />
+  <ARTIST name="Anthony S. Waters" />
+  <CASTING_COST cost="{6}{G}{G}" />
+  <FLAVOURTEXT>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[In its center is a single red ant, a queen that regulates the hive’s movements.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[En son centre réside une fourmi rouge solitaire, une reine qui guide tous les mouvements de l’essaim.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[En su centro hay sólo una hormiga roja reina que dirige los movimientos de la colmena.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[In der Mitte des Nests sitzt eine einzelne rote Ameise, eine Königin, die die Bewegung des Nests steuert.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Al centro c’è una singola antenna rossa, una regina che controlla il movimento dell’alveare.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[その中心には、蟻塚の移動をつかさどる赤い女王蟻が棲んでいる。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[개미집 중앙에 보면 붉은 개미가 한 마리 있다. 바로 개미집을 조종하는 여왕개미다.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[В центре улья находится один красный муравей, царица, управляющая его движениями.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[No seu centro está uma única saúva, uma rainha que rege os movimentos do formigueiro.]]></LOCALISED_TEXT>
+  </FLAVOURTEXT>
+  <TYPE metaname="Creature" />
+  <SUB_TYPE metaname="Elemental" order_de-DE="0" order_es-ES="1" order_fr-FR="0" order_it-IT="1" order_jp-JA="0" order_ko-KR="0" order_pt-BR="0" order_ru-RU="0" />
+  <SUB_TYPE metaname="Insect" order_de-DE="1" order_es-ES="0" order_fr-FR="1" order_it-IT="0" order_jp-JA="1" order_ko-KR="1" order_pt-BR="1" order_ru-RU="1" />
+  <EXPANSION value="DPG" />
+  <RARITY metaname="R" />
+  <POWER value="6" />
+  <TOUGHNESS value="6" />
+  <STATIC_ABILITY filter_zone="ZONE_IN_PLAY">
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Trample]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Piétinement]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Arrolla.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Verursacht Trampelschaden]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Travolgere]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[トランプル]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[돌진]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Пробивной удар]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Atropelar]]></LOCALISED_TEXT>
+    <CONTINUOUS_ACTION>
+    local characteristics = Object():GetCurrentCharacteristics()  
+    characteristics:Characteristic_Set( CHARACTERISTIC_TRAMPLE, 1 )
+    </CONTINUOUS_ACTION>
+  </STATIC_ABILITY>
+  <TRIGGERED_ABILITY auto_skip="1">
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Whenever Living Hive deals combat damage to a player, put that many 1/1 green Insect creature tokens onto the battlefield.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[À chaque fois que l’Essaim vivant inflige des blessures de combat à un joueur, mettez sur le champ de bataille autant de jetons de créature 1/1 verte Insecte.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Siempre que la Colmena viviente haga daño a un jugador, pon en el campo de batalla esa misma cantidad de fichas de criatura Insecto verde 1/1.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Immer wenn das Lebende Insektennest einem Spieler Kampfschaden zufügt, bringe genauso viele 1/1 grüne Insektenspielsteine ins Spiel.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Ogniqualvolta l’Alveare Vivente infligge danno da combattimento a un giocatore, metti sul campo di battaglia altrettante pedine creatura Insetto 1/1 verdi.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[生きている蟻塚がいずれかのプレイヤーに戦闘ダメージを与えるたび、その点数に等しい数の緑の１/１の昆虫・クリーチャー・トークンを戦場に出す。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[살아있는 개미집이 플레이어에게 전투피해를 입힐 때마다, 그 피해만큼의 1/1 녹색 곤충 생물 토큰을 전장에 놓는다.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Каждый раз, когда Живой Улей наносит боевые повреждения игроку, положите на поле битвы столько же фишек существа 1/1 зеленое Насекомое.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Toda vez que Enxame Vivo causar dano de combate a um jogador, coloque no campo de batalha aquela quantidade de fichas de criatura verde 1/1 do tipo Inseto.]]></LOCALISED_TEXT>
+    <TRIGGER value="CREATURE_DEALS_COMBAT_DAMAGE_TO_PLAYER" simple_qualifier="self" />
+    <RESOLUTION_TIME_ACTION>
+    local token_count = Damage():GetAmount()
+    if token_count &gt; 0 then
+    	MTG():PutTokensIntoPlay( "TOKEN_INSECT_1_1_277471", token_count, EffectController() )
+    end
+    </RESOLUTION_TIME_ACTION>
+  </TRIGGERED_ABILITY>
+  <TOKEN_REGISTRATION reservation="1" type="TOKEN_INSECT_1_1_277471" />
+  <HELP title="MORE_INFO_BADGE_TITLE_1" body="MORE_INFO_BADGE_BODY_1" zone="ZONE_ANY" />
+  <SFX text="COMBAT_BITE_LARGE_ATTACK" power_boundary_min="4" power_boundary_max="-1" />
+  <SFX text="COMBAT_BITE_SMALL_ATTACK" power_boundary_min="1" power_boundary_max="3" />
+  <AI_BASE_SCORE score="600" zone="ZONE_IN_PLAY" />
+</CARD_V2>

@@ -1,0 +1,90 @@
+<?xml version='1.0'?>
+<CARD_V2>
+  <FILENAME text="BEAST_WITHIN_277167" />
+  <CARDNAME text="BEAST_WITHIN" />
+  <TITLE>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Beast Within]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Réveiller la bête]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[La bestia interior]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Die innere Bestie]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Bestia Interiore]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[内にいる獣]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[내면의 야수]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Зверь внутри]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Fera Interior]]></LOCALISED_TEXT>
+  </TITLE>
+  <MULTIVERSEID value="277167" />
+  <ARTID value="134335" />
+  <ARTIST name="Dave Allsop" />
+  <CASTING_COST cost="{2}{G}" />
+  <FLAVOURTEXT>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[“Kill the weak so they can’t drag the strong down to their level. This is true compassion.”
+—Benzir, archdruid of Temple Might]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[« Tuer les faibles pour éviter qu’ils n’entraînent les plus forts dans leur chute. C’est ça, la véritable compassion. »
+—Benzir, archidruide du Temple de la Prépotence]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[“Maten a los débiles para que no arrastren a los fuertes a su nivel. Eso es verdadera compasión.”
+—Benzir, archidruida del Templo del Poder]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[„Tötet die Schwachen, damit sie die Starken nicht auf ihre Stufe hinunterziehen können. Das ist wahres Mitgefühl.“
+—Benzir, Erzdruide des Macht-Tempels]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[“Uccidere i deboli così che non possano trascinare i forti al loro livello. Questa è la vera compassione.”
+—Benzir, arcidruido del Tempio Possente]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[「弱き者を殺せ。強き者をその域に落とさせぬために。 これぞ真の慈悲だ。」
+—力の寺院の大ドルイド、ベンジア]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[“약자는 남아있으면 강자를 그들의 수준으로 끌어내린다. 그러므로 강자는 약자를 죽여야 한다. 이것이 진정한 동정심 아니겠는가.”
+—힘의 신전 대드루이드 벤지르]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[«Убивайте слабых, чтобы они не увлекли за собой сильных. Это и есть истинное сострадание».
+— Бензир, архидруид Храма Могучести]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[“Matar os fracos para que eles não possam arrastar os fortes para o seu nível. Essa é a verdadeira compaixão.”
+— Benzir, arqueodruida do Templo do Poder]]></LOCALISED_TEXT>
+  </FLAVOURTEXT>
+  <TYPE metaname="Instant" />
+  <EXPANSION value="DPG" />
+  <RARITY metaname="U" />
+  <SPELL_ABILITY dangerous="1" filter_zone="ZONE_IN_PLAY">
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Destroy target permanent. Its controller puts a 3/3 green Beast creature token onto the battlefield.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Détruisez le permanent ciblé. Son contrôleur met sur le champ de bataille un jeton de créature 3/3 verte Bête.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Destruye el permanente objetivo. Su controlador pone en el campo de batalla una ficha de criatura Bestia verde 3/3.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Zerstöre eine bleibende Karte deiner Wahl. Deren Beherrscher bringt einen 3/3 grünen Bestien-Kreaturenspielstein ins Spiel.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Distruggi un permanente bersaglio. Il suo controllore mette sul campo di battaglia una pedina creatura Bestia 3/3 verde.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[パーマネント１つを対象とし、それを破壊する。 それのコントローラーは緑の３/３のビースト・クリーチャー・トークンを１体戦場に出す。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[지속물 한 개를 목표로 정한다. 그 지속물을 파괴한다. 그 지속물의 조종자는 3/3 녹색 야수 생물 토큰 한 개를 전장에 놓는다.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Уничтожьте целевой перманент. Контролирующий его игрок кладет на поле битвы одну фишку существа 3/3 зеленый Зверь.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Destrua a permanente alvo. Seu controlador coloca no campo de batalha uma ficha de criatura verde 3/3 do tipo Besta.]]></LOCALISED_TEXT>
+    <TARGET_DEFINITION id="0">
+    local filter = Object():GetFilter()
+    filter:Clear()
+    filter:AddCardType( CARD_TYPE_ARTIFACT )
+    filter:AddCardType( CARD_TYPE_ENCHANTMENT )
+    filter:AddCardType( CARD_TYPE_LAND )
+    filter:AddCardType( CARD_TYPE_CREATURE )
+    filter:AddCardType( CARD_TYPE_PLANESWALKER )
+    filter:SetHint( HINT_ENEMY, EffectController() )
+    filter:SetZone( ZONE_IN_PLAY )
+    </TARGET_DEFINITION>
+    <TARGET_DETERMINATION>
+    return AtLeastOneTargetFromDefinition(0)
+    </TARGET_DETERMINATION>
+    <PLAY_TIME_ACTION target_choosing="1">
+    EffectController():ChooseTarget( 0, "CARD_QUERY_CHOOSE_PERMANENT_TO_DESTROY", EffectDC():Make_Targets(0) )
+    </PLAY_TIME_ACTION>
+    <RESOLUTION_TIME_ACTION>
+    local target = EffectDC():Get_Targets(0):Get_NthCardPtr(0)
+    local player = target:GetPlayer()
+    if (target ~= nil and player ~= nil) then   
+    	target:Destroy()
+    	MTG():PutTokensIntoPlay( "TOKEN_BEAST_3_3_277473", 1, player )
+    end
+    </RESOLUTION_TIME_ACTION>
+  </SPELL_ABILITY>
+  <AI_AVAILABILITY type="in_response" />
+  <AI_AVAILABILITY step="begin_combat" turn="their_turn" />
+  <AI_AVAILABILITY step="main_1" turn="my_turn" />
+  <AI_AVAILABILITY step="declare_attackers" turn="their_turn" />
+  <AI_AVAILABILITY step="declare_blockers" />
+  <AI_AVAILABILITY step="end_of_turn" />
+  <AI_AVAILABILITY step="end_of_turn" turn="their_turn" />
+  <AI_AVAILABILITY step="declare_attackers" turn="their_turn" />
+  <AI_AVAILABILITY type="in_response_dangerous" />
+  <TOKEN_REGISTRATION reservation="1" type="TOKEN_BEAST_3_3_277473" />
+  <AI_BASE_SCORE score="1350" zone="ZONE_HAND" />
+</CARD_V2>

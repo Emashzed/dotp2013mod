@@ -1,0 +1,101 @@
+﻿<?xml version='1.0'?>
+<CARD_V2>
+  <FILENAME text="PHANTASMAL_IMAGE_888220099" />
+  <CARDNAME text="PHANTASMAL_IMAGE" />
+  <TITLE>
+     <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Phantasmal Image]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Phantasmal Image]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Phantasmal Image]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Phantasmal Image]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Phantasmal Image]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[Phantasmal Image]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[Phantasmal Image]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Phantasmal Image]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Phantasmal Image]]></LOCALISED_TEXT>
+  </TITLE>
+  <MULTIVERSEID value="888220099" />
+  <ARTID value="888220099" />
+  <ARTIST name="Nils Hamm" />
+  <CASTING_COST cost="{1}{U}" />
+  <TYPE metaname="Creature" />
+  <SUB_TYPE metaname="Illusion" order_de-DE="0" order_es-ES="0" order_fr-FR="0" order_it-IT="0" order_jp-JA="0" order_ko-KR="0" order_pt-BR="0" order_ru-RU="0" />
+  <EXPANSION value="DPG" />
+  <RARITY metaname="R" />
+  <POWER value="0" />
+  <TOUGHNESS value="0" />
+  <TRIGGERED_ABILITY replacement_query="1" filter_zone="ZONE_IN_PLAY" active_zone="ZONE_TRANSITION">
+     <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[You may have Phantasmal Image enter the battlefield as a copy of any creature on the battlefield, except it’s an Illusion in addition to its other types and it gains “When this creature becomes the target of a spell or ability, sacrifice it.”]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[You may have Phantasmal Image enter the battlefield as a copy of any creature on the battlefield, except it’s an Illusion in addition to its other types and it gains “When this creature becomes the target of a spell or ability, sacrifice it.”]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[You may have Phantasmal Image enter the battlefield as a copy of any creature on the battlefield, except it’s an Illusion in addition to its other types and it gains “When this creature becomes the target of a spell or ability, sacrifice it.”]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[You may have Phantasmal Image enter the battlefield as a copy of any creature on the battlefield, except it’s an Illusion in addition to its other types and it gains “When this creature becomes the target of a spell or ability, sacrifice it.”]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[You may have Phantasmal Image enter the battlefield as a copy of any creature on the battlefield, except it’s an Illusion in addition to its other types and it gains “When this creature becomes the target of a spell or ability, sacrifice it.”]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[You may have Phantasmal Image enter the battlefield as a copy of any creature on the battlefield, except it’s an Illusion in addition to its other types and it gains “When this creature becomes the target of a spell or ability, sacrifice it.”]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[You may have Phantasmal Image enter the battlefield as a copy of any creature on the battlefield, except it’s an Illusion in addition to its other types and it gains “When this creature becomes the target of a spell or ability, sacrifice it.”]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[You may have Phantasmal Image enter the battlefield as a copy of any creature on the battlefield, except it’s an Illusion in addition to its other types and it gains “When this creature becomes the target of a spell or ability, sacrifice it.”]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[You may have Phantasmal Image enter the battlefield as a copy of any creature on the battlefield, except it’s an Illusion in addition to its other types and it gains “When this creature becomes the target of a spell or ability, sacrifice it.”]]></LOCALISED_TEXT>
+    <TARGET_DEFINITION id="0">
+    local filter = Object():GetFilter()
+    filter:Clear()
+    filter:AddCardType( CARD_TYPE_CREATURE )
+    filter:SetZone( ZONE_IN_PLAY )
+    filter:SetHint( HINT_NEUTRAL, EffectController() )
+    filter:May()
+    filter:NotTargetted()
+    </TARGET_DEFINITION>
+    <TARGET_DETERMINATION>
+    return AtLeastOneTargetFromDefinition(0)
+    </TARGET_DETERMINATION>
+    <PLAY_TIME_ACTION target_choosing="1">
+    EffectController():ChooseTarget( 0, "CARD_QUERY_CHOOSE_CREATURE_TO_CLONE", EffectDC():Make_Targets(0) )
+    </PLAY_TIME_ACTION>
+    <RESOLUTION_TIME_ACTION>
+    local target_creature = EffectDC():Get_Targets(0):Get_CardPtr(0)
+    if ( target_creature ~= nil ) then   
+    	target_creature:StoreCopiableValues(EffectDC():Make_Chest(1))	-- this grabs the copiable values from the target and puts them into a datachest
+    	EffectSource():UseCopiableValues(EffectDC():Get_Chest(1))		-- this needs to be here to refire any other transition triggers (e.g. devour)
+    	EffectDC():Protect_CardPtr( COMPARTMENT_ID_EFFECT_SOURCE )      -- this stops the effect from being wiped when we complete the zonechange
+    end
+    </RESOLUTION_TIME_ACTION>
+    <CONTINUOUS_ACTION layer="1">
+    if EffectSource() ~= nil and EffectDC():Get_Chest(1) ~= nil then
+    	EffectSource():UseCopiableValues(EffectDC():Get_Chest(1))
+    end
+    </CONTINUOUS_ACTION>
+    <CONTINUOUS_ACTION layer="4">
+    local characteristics = EffectSource():GetCurrentCharacteristics()
+    if characteristics ~= nil then
+    	characteristics:SubType_GetWritable(EffectSource()):Add( CREATURE_TYPE_ILLUSION , EffectSource() )
+    end
+    </CONTINUOUS_ACTION>
+    <CONTINUOUS_ACTION layer="6">
+    local characteristics = EffectSource():GetCurrentCharacteristics()
+    if characteristics ~= nil then
+    	characteristics:GrantAbility(1)
+    end
+    </CONTINUOUS_ACTION>
+    <DURATION>
+    return (EffectSource() == nil)
+    </DURATION>
+  </TRIGGERED_ABILITY>
+  <TRIGGERED_ABILITY resource_id="1" auto_skip="1" filter_zone="ZONE_IN_PLAY">
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[When this creature becomes the target of a spell or ability, sacrifice it.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[When this creature becomes the target of a spell or ability, sacrifice it.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[When this creature becomes the target of a spell or ability, sacrifice it.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[When this creature becomes the target of a spell or ability, sacrifice it.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[When this creature becomes the target of a spell or ability, sacrifice it.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[When this creature becomes the target of a spell or ability, sacrifice it.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[When this creature becomes the target of a spell or ability, sacrifice it.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[When this creature becomes the target of a spell or ability, sacrifice it.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[When this creature becomes the target of a spell or ability, sacrifice it.]]></LOCALISED_TEXT>
+    <TRIGGER value="BECAME_TARGET" simple_qualifier="self" />
+    <RESOLUTION_TIME_ACTION>
+    local creature = EffectSource()
+    if creature ~= nil then 
+    	creature:Sacrifice(EffectController())
+    end
+    </RESOLUTION_TIME_ACTION>
+  </TRIGGERED_ABILITY>
+  <SFX text="COMBAT_BLUNT_LARGE_ATTACK" power_boundary_min="4" power_boundary_max="-1" />
+  <SFX text="COMBAT_BLUNT_SMALL_ATTACK" power_boundary_min="1" power_boundary_max="3" />
+  <AI_BASE_SCORE score="1050" zone="ZONE_IN_PLAY" />
+</CARD_V2>

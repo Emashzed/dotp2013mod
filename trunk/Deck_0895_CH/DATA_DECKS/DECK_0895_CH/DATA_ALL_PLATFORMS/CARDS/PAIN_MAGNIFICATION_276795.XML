@@ -1,0 +1,76 @@
+<?xml version='1.0'?>
+<CARD_V2>
+  <FILENAME text="PAIN_MAGNIFICATION_276795" />
+  <CARDNAME text="PAIN_MAGNIFICATION" />
+  <TITLE>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Pain Magnification]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Accroissement de la douleur]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Magnificación del dolor]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Schmerzvergrößerung]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Amplificadolore]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[苦痛の拡大]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[고통 확대]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Усиление Боли]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Magnificação da Dor]]></LOCALISED_TEXT>
+  </TITLE>
+  <MULTIVERSEID value="276795" />
+  <ARTID value="94308" />
+  <ARTIST name="Aleksi Briclot" />
+  <CASTING_COST cost="{1}{B}{R}" />
+  <FLAVOURTEXT>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[The Rakdos make sure their victims remember their pain—or at least give up a little bit of their sanity in order to forget.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Les Rakdos s’assurent que leurs victimes se souviennent de leurs souffrances... ou qu’elles abandonnent un peu de leur santé mentale pour les oublier.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Los rakdos se aseguran de que sus víctimas recuerden el dolor... o que al menos entreguen un poco de su cordura para poder olvidarlo.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Die Rakdos stellen sicher, dass ihre Opfer den Schmerz nicht vergessen – oder zumindest einen Teil ihrer Vernunft verlieren, um ihn vergessen zu können.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[I Rakdos si accertano che le loro vittime ricordino il dolore. O che almeno debbano rinunciare a un po’ di sanità mentale per dimenticare.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[ラクドスは犠牲者に確実に苦痛を教え込む—少なくとも、忘れるようであれば代わりにいささかの正気を失わせる。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[락도스 길드원들은 희생자들에게 잊을 수 없는 고통을 준다. 그 고통을 잊고 싶다면, 자신의 이성을 조금 내려놓는 수 밖에 없다.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Ракдосы стремятся к тому, чтобы их жертвы хорошенько запомнили боль, или, по крайней мере, заплатили частью своего рассудка за право забыть.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Os Rakdos garantem que suas vítimas se lembrem da dor — ou ao menos abram mão de um pouco de lucidez para esquecer.]]></LOCALISED_TEXT>
+  </FLAVOURTEXT>
+  <TYPE metaname="Enchantment" />
+  <EXPANSION value="DPG" />
+  <RARITY metaname="U" />
+  <TRIGGERED_ABILITY dangerous="1">
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Whenever an opponent is dealt 3 or more damage by a single source, that player discards a card.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[À chaque fois qu’un adversaire subit au moins 3 blessures d’une source unique, ce joueur se défausse d’une carte.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Siempre que un oponente reciba 3 o más puntos de daño de una única fuente, ese jugador descarta una carta.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Immer wenn einem Gegner aus einer einzelnen Quelle 3 oder mehr Schadenspunkte zugefügt werden, wirft dieser Spieler eine Karte ab.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Ogniqualvolta a un avversario vengono inflitti 3 o più danni da una singola fonte, quel giocatore scarta una carta.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[いずれかの対戦相手に単一の発生源から３点以上のダメージが与えられるたび、そのプレイヤーはカードを１枚捨てる。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[한 원천이 상대에게 피해 3점 이상을 입힐 때마다, 그 플레이어는 카드 한 장을 버린다.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Каждый раз, когда оппонент получает 3 или больше повреждений от одного источника, тот игрок сбрасывает карту.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Toda vez que um oponente sofrer 3 ou mais pontos de dano de uma única fonte, aquele jogador descarta um card.]]></LOCALISED_TEXT>
+    <TRIGGER value="PLAYER_TOOK_DAMAGE">
+    return (TriggerPlayer():GetTeam() ~= Object():GetPlayer():GetTeam()) and
+    (Damage():GetAmount() &gt; 2)
+    </TRIGGER>
+    <RESOLUTION_TIME_ACTION>
+    local player = TriggerPlayer()
+    if player ~= nil then
+    	local filter = Object():GetFilter()
+    	filter:Clear()
+    	filter:SetZone( ZONE_HAND ) 
+    	filter:SetPlayer( player )
+    	filter:NotTargetted()
+    	player:SetTargetCount( 1 )
+    	for i=0,1-1 do
+    		player:SetTargetPrompt( i, "CARD_QUERY_CHOOSE_CARD_TO_DISCARD" )
+    	end
+    	player:ChooseTargets( NO_VALIDATION, EffectDC():Make_Targets(1) ) 
+    end
+    </RESOLUTION_TIME_ACTION>
+    <RESOLUTION_TIME_ACTION>
+    local player = TriggerPlayer()
+    if player ~= nil then 
+    	for i = 0,(1-1) do
+    		local target_card = EffectDC():Get_Targets(1):Get_CardPtr(i)
+    		if target_card ~= nil  then
+    			target_card:Discard()
+    		end
+    	end
+    end
+    </RESOLUTION_TIME_ACTION>
+  </TRIGGERED_ABILITY>
+  <AI_BASE_SCORE score="600" zone="ZONE_IN_PLAY" />
+</CARD_V2>

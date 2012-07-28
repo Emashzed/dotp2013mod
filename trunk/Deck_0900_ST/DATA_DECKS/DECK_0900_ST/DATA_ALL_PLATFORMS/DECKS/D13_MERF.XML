@@ -1,0 +1,40 @@
+<DECK personality="D13_MERF_DEFAULT.XML" deck_box_image="D13_MERF" deck_box_image_locked="locked" content_pack="0" always_available="true" uid="900" preview_card="rootwater_thief" is_blue="true">
+  <DECKSTATISTICS Size="7" Speed="4" Flex="4" Syn="6" />
+  <LandConfig minIsland="24" />
+  <CARD name="LORD_OF_ATLANTIS_88814551" deckOrderId="0" />
+  <CARD name="LORD_OF_ATLANTIS_88814551" deckOrderId="1" />
+  <CARD name="LORD_OF_ATLANTIS_88814551" deckOrderId="2" />
+  <CARD name="LORD_OF_ATLANTIS_88814551" deckOrderId="3" />
+  <CARD name="COSIS_TRICKSTER_888186322" deckOrderId="4" />
+  <CARD name="COSIS_TRICKSTER_888186322" deckOrderId="5" />
+  <CARD name="COSIS_TRICKSTER_888186322" deckOrderId="6" />
+  <CARD name="COSIS_TRICKSTER_888186322" deckOrderId="7" />
+  <CARD name="SYGG_RIVER_CUTTHROAT_888147377" deckOrderId="8" />
+  <CARD name="ROOTWATER_THIEF_88822889" deckOrderId="9" />
+  <CARD name="ROOTWATER_THIEF_88822889" deckOrderId="10" />
+  <CARD name="ROOTWATER_THIEF_88822889" deckOrderId="11" />
+  <CARD name="SILVERGILL_ADEPT_888139682" deckOrderId="12" />
+  <CARD name="STONYBROOK_BANNERET_888152652" deckOrderId="13" />
+  <CARD name="STONYBROOK_BANNERET_888152652" deckOrderId="14" />
+  <CARD name="STONYBROOK_BANNERET_888152652" deckOrderId="15" />
+  <CARD name="STONYBROOK_BANNERET_888152652" deckOrderId="16" />
+  <CARD name="MERFOLK_SOVEREIGN_888191087" deckOrderId="17" />
+  <CARD name="MERFOLK_SOVEREIGN_888191087" deckOrderId="18" />
+  <CARD name="MERFOLK_SOVEREIGN_888191087" deckOrderId="19" />
+  <CARD name="MERROW_REEJEREY_888139702" deckOrderId="20" />
+  <CARD name="MERROW_REEJEREY_888139702" deckOrderId="21" />
+  <CARD name="MERROW_REEJEREY_888139702" deckOrderId="22" />
+  <CARD name="DEEPCHANNEL_MENTOR_888141981" deckOrderId="23" />
+  <CARD name="SILVERGILL_ADEPT_888139682" deckOrderId="24" />
+  <CARD name="COASTAL_PIRACY_88846618" deckOrderId="25" />
+  <CARD name="FLOW_OF_IDEAS_276806" deckOrderId="26" />
+  <CARD name="BOOMERANG_8882799" deckOrderId="27" />
+  <CARD name="BOOMERANG_8882799" deckOrderId="28" />
+  <CARD name="INUNDATE_277008" deckOrderId="29" />
+  <CARD name="INUNDATE_277008" deckOrderId="30" />
+  <CARD name="INUNDATE_277008" deckOrderId="31" />
+  <CARD name="UNSUMMON_276822" deckOrderId="32" />
+  <CARD name="UNSUMMON_276822" deckOrderId="33" />
+  <CARD name="UNSUMMON_276822" deckOrderId="34" />
+  <CARD name="SILVERGILL_ADEPT_888139682" deckOrderId="35" />
+</DECK>

@@ -1,0 +1,38 @@
+<DECK personality="D12SARKHAN.XML" deck_box_image="D12SARKHAN" deck_box_image_locked="locked" content_pack="0" uid="886" preview_card="malfe" is_black="true" is_red="true">
+  <DECKSTATISTICS Size="6" Speed="4" Flex="7" Syn="7" />
+  <CARD name="FURYBORN_HELLKITE_888220103" deckOrderId="0" />
+  <CARD name="FESTERING_GOBLIN_888220489" deckOrderId="1" />
+  <CARD name="FESTERING_GOBLIN_888220489" deckOrderId="2" />
+  <CARD name="DRAGON_FODDER_888220456" deckOrderId="3" />
+  <CARD name="DRAGON_FODDER_888220456" deckOrderId="4" />
+  <CARD name="DRAGON_FODDER_888220456" deckOrderId="5" />
+  <CARD name="FURNACE_WHELP_276917" deckOrderId="6" />
+  <CARD name="FURNACE_WHELP_276917" deckOrderId="7" />
+  <CARD name="FURNACE_WHELP_276917" deckOrderId="8" />
+  <CARD name="DISFIGURE_888180115" deckOrderId="9" />
+  <CARD name="DISFIGURE_888180115" deckOrderId="10" />
+  <CARD name="DISFIGURE_888180115" deckOrderId="11" />
+  <CARD name="VORACIOUS_DRAGON_281286" deckOrderId="12" />
+  <CARD name="VORACIOUS_DRAGON_281286" deckOrderId="13" />
+  <CARD name="ASSASSINATE_888193745" deckOrderId="14" />
+  <CARD name="ASSASSINATE_888193745" deckOrderId="15" />
+  <CARD name="BURST_LIGHTNING_888177558" deckOrderId="16" />
+  <CARD name="BURST_LIGHTNING_888177558" deckOrderId="17" />
+  <CARD name="RUBY_MEDALLION_278419" deckOrderId="18" />
+  <CARD name="RUBY_MEDALLION_278419" deckOrderId="19" />
+  <CARD name="DRAGONMASTER_OUTCAST_276902" deckOrderId="20" />
+  <CARD name="SLAVERING_NULLS_888249404" deckOrderId="21" />
+  <CARD name="SLAVERING_NULLS_888249404" deckOrderId="22" />
+  <CARD name="DRAGONSPEAKER_SHAMAN_888220474" deckOrderId="23" />
+  <CARD name="DRAGONSPEAKER_SHAMAN_888220474" deckOrderId="24" />
+  <CARD name="HELLKITE_CHARGER_888220468" deckOrderId="25" />
+  <CARD name="RORIX_BLADEWING_88839859" deckOrderId="26" />
+  <CARD name="MALFEGOR_276946" deckOrderId="27" />
+  <CARD name="EARTHQUAKE_276906" deckOrderId="28" />
+  <CARD name="PYROCLASM_276967" deckOrderId="29" />
+  <CARD name="GRAVEDIGGER_88827253" deckOrderId="30" />
+  <CARD name="GRAVEDIGGER_88827253" deckOrderId="31" />
+  <CARD name="VOLCANIC_DRAGON_888244719" deckOrderId="32" />
+  <CARD name="VOLCANIC_DRAGON_888244719" deckOrderId="33" />
+  <CARD name="GIANT_SCORPION_888192226" deckOrderId="34" />
+</DECK>

@@ -1,0 +1,90 @@
+﻿<?xml version='1.0'?>
+<CARD_V2>
+  <FILENAME text="PSYCHOSIS_CRAWLER_888214047" />
+  <CARDNAME text="PSYCHOSIS_CRAWLER" />
+  <TITLE>
+     <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Psychosis Crawler]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Psychosis Crawler]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Psychosis Crawler]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Psychosis Crawler]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Psychosis Crawler]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[Psychosis Crawler]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[Psychosis Crawler]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Psychosis Crawler]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Psychosis Crawler]]></LOCALISED_TEXT>
+  </TITLE>
+  <MULTIVERSEID value="888214047" />
+  <ARTID value="888214047" />
+  <ARTIST name="Stephan Martiniere" />
+  <CASTING_COST cost="{5}" />
+  <FLAVOURTEXT>
+     <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[“If that brain can’t figure out the secret of the serum, then add more brains.”
+—Rhmir, Hand of the Augur]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[“If that brain can’t figure out the secret of the serum, then add more brains.”
+—Rhmir, Hand of the Augur]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[“If that brain can’t figure out the secret of the serum, then add more brains.”
+—Rhmir, Hand of the Augur]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[“If that brain can’t figure out the secret of the serum, then add more brains.”
+—Rhmir, Hand of the Augur]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[“If that brain can’t figure out the secret of the serum, then add more brains.”
+—Rhmir, Hand of the Augur]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[“If that brain can’t figure out the secret of the serum, then add more brains.”
+—Rhmir, Hand of the Augur]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[“If that brain can’t figure out the secret of the serum, then add more brains.”
+—Rhmir, Hand of the Augur]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[“If that brain can’t figure out the secret of the serum, then add more brains.”
+—Rhmir, Hand of the Augur]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[“If that brain can’t figure out the secret of the serum, then add more brains.”
+—Rhmir, Hand of the Augur]]></LOCALISED_TEXT>
+  </FLAVOURTEXT>
+  <TYPE metaname="Artifact" />
+  <TYPE metaname="Creature" />
+  <SUB_TYPE metaname="Horror" order_de-DE="0" order_es-ES="0" order_fr-FR="0" order_it-IT="0" order_jp-JA="0" order_ko-KR="0" order_pt-BR="0" order_ru-RU="0" />
+  <EXPANSION value="DPG" />
+  <RARITY metaname="R" />
+  <POWER value="*" />
+  <TOUGHNESS value="*" />
+  <STATIC_ABILITY filter_zone="ZONE_IN_PLAY">
+     <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Psychosis Crawler’s power and toughness are each equal to the number of cards in your hand.]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Psychosis Crawler’s power and toughness are each equal to the number of cards in your hand.]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Psychosis Crawler’s power and toughness are each equal to the number of cards in your hand.]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Psychosis Crawler’s power and toughness are each equal to the number of cards in your hand.]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Psychosis Crawler’s power and toughness are each equal to the number of cards in your hand.]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[Psychosis Crawler’s power and toughness are each equal to the number of cards in your hand.]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[Psychosis Crawler’s power and toughness are each equal to the number of cards in your hand.]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Psychosis Crawler’s power and toughness are each equal to the number of cards in your hand.]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Psychosis Crawler’s power and toughness are each equal to the number of cards in your hand.]]></LOCALISED_TEXT>
+    <CONTINUOUS_ACTION layer="7A">
+    local total = CountCardsInHand( EffectSource():GetController() )
+    local characteristics = EffectSource():GetCurrentCharacteristics()  
+    characteristics:Power_Set(total)  
+    characteristics:Toughness_Set(total)
+    </CONTINUOUS_ACTION>
+  </STATIC_ABILITY>
+  <TRIGGERED_ABILITY auto_skip="1" dangerous="1" filter_zone="ZONE_IN_PLAY">
+     <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Whenever you draw a card, each opponent loses 1 life.]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Whenever you draw a card, each opponent loses 1 life.]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Whenever you draw a card, each opponent loses 1 life.]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Whenever you draw a card, each opponent loses 1 life.]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Whenever you draw a card, each opponent loses 1 life.]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[Whenever you draw a card, each opponent loses 1 life.]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[Whenever you draw a card, each opponent loses 1 life.]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Whenever you draw a card, each opponent loses 1 life.]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Whenever you draw a card, each opponent loses 1 life.]]></LOCALISED_TEXT>
+	<TRIGGER value="DREW_CARD" simple_qualifier="controller">
+    return TriggerPlayer() == EffectController()
+    </TRIGGER>
+	<RESOLUTION_TIME_ACTION>
+    local currentTeam = TriggerPlayer():GetTeam()
+    for i=0,MTG():GetNumberOfPlayers()-1 do
+    	local currentPlayer = MTG():GetNthPlayer( i )
+    	if( currentPlayer ~= 0 and currentPlayer:GetTeam() ~= currentTeam ) then 
+    		currentPlayer:LoseLife(1)    
+    	end  
+    end    
+    </RESOLUTION_TIME_ACTION>
+  </TRIGGERED_ABILITY>
+  <SFX text="COMBAT_KRAKEN_LARGE_ATTACK" power_boundary_min="4" power_boundary_max="-1" />
+  <SFX text="COMBAT_KRAKEN_SMALL_ATTACK" power_boundary_min="1" power_boundary_max="3" />
+  <AI_BASE_SCORE score="450" zone="ZONE_IN_PLAY" />
+</CARD_V2>

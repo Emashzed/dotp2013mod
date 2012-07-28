@@ -1,0 +1,90 @@
+<?xml version='1.0'?>
+<CARD_V2>
+  <FILENAME text="BREAKING_POINT_280076" />
+  <CARDNAME text="BREAKING_POINT" />
+  <TITLE>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Breaking Point]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Point de rupture]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Llegar al límite]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Schmerzgrenze]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Punto di Rottura]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[限界点]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[한계점]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Предел Прочности]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Ponto de Ruptura]]></LOCALISED_TEXT>
+  </TITLE>
+  <MULTIVERSEID value="280076" />
+  <ARTID value="40262" />
+  <ARTIST name="Matthew D. Wilson" />
+  <CASTING_COST cost="{1}{R}{R}" />
+  <FLAVOURTEXT>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[“Enough!”]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[« Assez ! »]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[“¡Suficiente!”]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[„Genug!“]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[“Adesso basta!”]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[「もうたくさんだ！」]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[“그만!”]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[«Хватит!»]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[“Basta!”]]></LOCALISED_TEXT>
+  </FLAVOURTEXT>
+  <TYPE metaname="Sorcery" />
+  <EXPANSION value="DPG" />
+  <RARITY metaname="R" />
+  <SPELL_ABILITY filter_zone="ZONE_IN_PLAY">
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Any player may have Breaking Point deal 6 damage to him or her. If no one does, destroy all creatures and they can’t be regenerated.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[N’importe quel joueur peut faire que le Point de rupture lui inflige 6 blessures. Si personne ne le fait, détruisez toutes les créatures. Elles ne peuvent pas être régénérées.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Cualquier jugador puede hacer que Llegar al límite le haga 6 puntos de daño. Si ninguno lo hace, destruye todas las criaturas y no pueden ser regeneradas.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Zerstöre alle Kreaturen, falls nicht ein Spieler von Schmerzgrenze sich 6 Schadenspunkte zufügen lässt. Auf diese Weise zerstörte Kreaturen können nicht regeneriert werden.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Qualsiasi giocatore può farsi infliggere 6 danni dal Punto di Rottura. Se nessuno lo fa, vengono distrutte tutte le creature e non possono essere rigenerate.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[プレイヤー１人を対象とする。いずれのプレイヤーも、「限界点は自分に６点のダメージを与える。」を選んでよい。 誰も選ばなかった場合、すべてのクリーチャーを破壊する。それらは再生できない。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[아무 플레이어나 한계점으로 하여금 자신에게 피해 6점을 입히도록 할 수 있다. 아무도 그러지 않을 경우, 모든 생물을 파괴한다. 그 생물들은 재생될 수 없다.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Любой игрок может заставить Предел Прочности нанести ему 6 повреждений. Если никто этого не делает, уничтожьте все существа, и они не могут быть регенерированы.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Qualquer jogador pode fazer com que Ponto de Ruptura cause 6 pontos de dano a si próprio. Se ninguém o fizer, destrua todas as criaturas. Elas não podem ser regeneradas.]]></LOCALISED_TEXT>
+    <RESOLUTION_TIME_ACTION repeating="1">
+    local n = MTG():GetActionRepCount()
+    local num_players = MTG():GetNumberOfPlayers()
+    local playerindex = n/2
+    local parity = n % 2
+    local player = MTG():GetNthPlayer(playerindex)
+    if player ~= nil and n &lt; num_players*2 then
+    	if parity == 0 then
+    		player:BeginNewMultipleChoice()   
+    		player:AddMultipleChoiceAnswer( "CARD_QUERY_TAKE_6_DAMAGE" )   
+    		player:AddMultipleChoiceAnswer( "CARD_QUERY_DO_NOTHING" )   
+    		player:AskMultipleChoiceQuestion( "CARD_QUERY_MC_BREAKING_POINT" )
+    	else
+    		if Object():GetMultipleChoiceResult() == 0 then
+    			local source = EffectSource()
+    			if source == nil then
+    				source = Object()
+    			end
+    			if player ~= nil then 
+    				player:DealDamage(6, source)
+    				EffectDC():Set_Int(0, 1)
+    			end
+    			return false 
+    		end
+    	end
+    	return true
+    else
+    	return false
+    end
+    </RESOLUTION_TIME_ACTION>
+    <SFX text="GLOBAL_MAGMA_PLAY" />
+  </SPELL_ABILITY>
+  <SPELL_ABILITY dangerous="1">
+    <FILTER>
+    return (FilteredCard() ~= nil and 
+    FilteredCard():GetCardType():Test( CARD_TYPE_CREATURE ) ~= 0 and 
+    FilteredCard():GetZone() == (ZONE_IN_PLAY))
+    </FILTER>
+    <RESOLUTION_TIME_ACTION>
+    if (EffectDC():Get_Int(0) == nil) or (EffectDC():Get_Int(0) ~= nil and EffectDC():Get_Int(0) ~= 1) then
+    	FilteredCard():DestroyWithoutRegenerate()
+    end
+    </RESOLUTION_TIME_ACTION>
+  </SPELL_ABILITY>
+  <HELP title="MORE_INFO_TITLE_REGENERATE" body="MORE_INFO_BODY_REGENERATE" zone="ZONE_ANY" />
+  <AI_BASE_SCORE score="900" zone="ZONE_HAND" />
+</CARD_V2>

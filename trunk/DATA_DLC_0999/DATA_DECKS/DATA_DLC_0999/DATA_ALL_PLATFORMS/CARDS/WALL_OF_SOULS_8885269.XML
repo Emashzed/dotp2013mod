@@ -1,0 +1,104 @@
+﻿<?xml version='1.0'?>
+<CARD_V2>
+  <FILENAME text="WALL_OF_SOULS_8885269" />
+  <CARDNAME text="WALL_OF_SOULS" />
+  <TITLE>
+     <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Wall of Souls]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Wall of Souls]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Wall of Souls]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Wall of Souls]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Wall of Souls]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[Wall of Souls]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[Wall of Souls]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Wall of Souls]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Wall of Souls]]></LOCALISED_TEXT>
+  </TITLE>
+  <MULTIVERSEID value="8885269" />
+  <ARTID value="8885269" />
+  <ARTIST name="John Matson" />
+  <CASTING_COST cost="{1}{B}" />
+  <FLAVOURTEXT>
+     <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[“It is the nature of evil to turn you against yourself.”
+—Starke]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[“It is the nature of evil to turn you against yourself.”
+—Starke]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[“It is the nature of evil to turn you against yourself.”
+—Starke]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[“It is the nature of evil to turn you against yourself.”
+—Starke]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[“It is the nature of evil to turn you against yourself.”
+—Starke]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[“It is the nature of evil to turn you against yourself.”
+—Starke]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[“It is the nature of evil to turn you against yourself.”
+—Starke]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[“It is the nature of evil to turn you against yourself.”
+—Starke]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[“It is the nature of evil to turn you against yourself.”
+—Starke]]></LOCALISED_TEXT>
+  </FLAVOURTEXT>
+  <TYPE metaname="Creature" />
+  <SUB_TYPE metaname="Wall" order_de-DE="0" order_es-ES="0" order_fr-FR="0" order_it-IT="0" order_jp-JA="0" order_ko-KR="0" order_pt-BR="0" order_ru-RU="0" />
+  <EXPANSION value="DPG" />
+  <RARITY metaname="U" />
+  <POWER value="0" />
+  <TOUGHNESS value="4" />
+  <STATIC_ABILITY>
+     <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Defender]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Defender]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Defender]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Defender]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Defender]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[Defender]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[Defender]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Defender]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Defender]]></LOCALISED_TEXT>
+    <CONTINUOUS_ACTION>
+    local characteristics = Object():GetCurrentCharacteristics()  
+    characteristics:Characteristic_Set( CHARACTERISTIC_DEFENDER, 1 )  
+    </CONTINUOUS_ACTION>
+  </STATIC_ABILITY>
+  <TRIGGERED_ABILITY pre_trigger="1">
+     <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Whenever Wall of Souls is dealt combat damage, it deals that much damage to target opponent.]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Whenever Wall of Souls is dealt combat damage, it deals that much damage to target opponent.]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Whenever Wall of Souls is dealt combat damage, it deals that much damage to target opponent.]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Whenever Wall of Souls is dealt combat damage, it deals that much damage to target opponent.]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Whenever Wall of Souls is dealt combat damage, it deals that much damage to target opponent.]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[Whenever Wall of Souls is dealt combat damage, it deals that much damage to target opponent.]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[Whenever Wall of Souls is dealt combat damage, it deals that much damage to target opponent.]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Whenever Wall of Souls is dealt combat damage, it deals that much damage to target opponent.]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Whenever Wall of Souls is dealt combat damage, it deals that much damage to target opponent.]]></LOCALISED_TEXT>
+    <TRIGGER value="CREATURE_TOOK_COMBAT_DAMAGE" simple_qualifier="self" />
+	<TARGET_DEFINITION id="0">
+    local filter = Object():GetFilter()
+    filter:Clear()
+    filter:SetFilterType( FILTER_TYPE_PLAYERS + FILTER_TYPE_OPPONENTS)
+    filter:SetOwner( EffectController() )
+    filter:SetHint( HINT_ENEMY_ONLY, EffectController() )
+    </TARGET_DEFINITION>
+    <TARGET_DETERMINATION>
+    return AtLeastOneTargetFromDefinition(0)
+    </TARGET_DETERMINATION>
+    <PLAY_TIME_ACTION target_choosing="1">
+    EffectController():ChooseTarget( 0, "CARD_QUERY_CHOOSE_PLAYER_DEAL_DAMAGE", EffectDC():Make_Targets(0) )
+    </PLAY_TIME_ACTION>
+	<RESOLUTION_TIME_ACTION>
+	local damage = Damage():GetAmount()
+    local target_creature = EffectDC():Get_Targets(0):Get_CardPtr(0)
+    local target_player = EffectDC():Get_Targets(0):Get_PlayerPtr(0)
+    local source = EffectSource()
+    if source == nil then
+      source = Object()
+    end
+    if ( target_creature ~= nil ) then   
+    	target_creature:DealDamage(damage, source)  
+    elseif 
+    	( target_player ~= nil ) then   
+    	target_player:DealDamage(damage, source)  
+    end
+    </RESOLUTION_TIME_ACTION>
+	<SFX text="TARGET_PESTS_PLAY" />
+  </TRIGGERED_ABILITY>
+  <SFX text="COMBAT_PESTS_LARGE_ATTACK" power_boundary_min="4" power_boundary_max="-1" />
+  <SFX text="COMBAT_PESTS_SMALL_ATTACK" power_boundary_min="1" power_boundary_max="3" />
+</CARD_V2>

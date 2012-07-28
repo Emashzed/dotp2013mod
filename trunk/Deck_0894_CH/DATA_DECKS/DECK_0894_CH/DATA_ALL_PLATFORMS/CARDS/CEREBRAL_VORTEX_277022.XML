@@ -1,0 +1,71 @@
+<?xml version='1.0'?>
+<CARD_V2>
+  <FILENAME text="CEREBRAL_VORTEX_277022" />
+  <CARDNAME text="CEREBRAL_VORTEX" />
+  <TITLE>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Cerebral Vortex]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Vortex cérébral]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Vórtice cerebral]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Gehirnstrudel]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Vortice Cerebrale]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[脳髄の渦]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[대뇌 소용돌이]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Церебральный Вихрь]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Vórtice Cerebral]]></LOCALISED_TEXT>
+  </TITLE>
+  <MULTIVERSEID value="277022" />
+  <ARTID value="91734" />
+  <ARTIST name="Jeremy Jarvis" />
+  <CASTING_COST cost="{1}{U}{R}" />
+  <FLAVOURTEXT>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Izzet brains and Izzet boilers: contents under pressure.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Cerveaux et chaufferies des Izzet : contenu sous pression.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Cerebros y ollas ízzet: contenidos bajo presión.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Izzet-Gehirne und Izzet-Wasserkessel haben eins gemeinsam: Sie sind unter Druck und immer am Brodeln.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Cervelli Izzet ed ebollitori Izzet: entrambi sotto pressione.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[イゼットの脳にイゼットの蒸気釜。どちらもすっかり煮えあがっている。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[이젯의 뇌와 이젯이 만든 보일러는 내용물이 압력을 받는다는 공통점을 가진다.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Мозги Иззетов и котлы Иззетов всегда находятся под высоким давлением.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Cérebros Izzet e caldeiras Izzet: conteúdos sob pressão.]]></LOCALISED_TEXT>
+  </FLAVOURTEXT>
+  <TYPE metaname="Instant" />
+  <EXPANSION value="DPG" />
+  <RARITY metaname="R" />
+  <SPELL_ABILITY dangerous="1" filter_zone="ZONE_IN_PLAY">
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Target player draws two cards, then Cerebral Vortex deals damage to that player equal to the number of cards he or she has drawn this turn.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Le joueur ciblé pioche deux cartes, et le Vortex cérébral inflige ensuite à ce joueur un nombre de blessures égal au nombre de cartes qu’il a piochées ce tour-ci.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[El jugador objetivo roba dos cartas, luego el Vórtice cerebral hace daño a ese jugador igual al número de cartas que haya robado este turno.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Ein Spieler deiner Wahl zieht zwei Karten, dann fügt der Gehirnstrudel diesem Spieler so viele Schadenspunkte zu, wie er in diesem Zug bereits Karten gezogen hat.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Un giocatore bersaglio pesca due carte, poi il Vortice Cerebrale infligge a quel giocatore danno pari al numero di carte che ha pescato in questo turno.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[プレイヤー１人を対象とする。そのプレイヤーはカードを２枚引き、その後、脳髄の渦はそのプレイヤーに、このターンそのプレイヤーが引いたカードの枚数に等しい点数のダメージを与える。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[플레이어 한 명을 목표로 정한다. 그 플레이어는 카드 두 장을 뽑는다. 대뇌 소용돌이는 그 플레이어에게 그가 이 턴에 뽑은 카드 수만큼의 피해를 입힌다.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Целевой игрок берет две карты, затем Церебральный Вихрь наносит тому игроку столько повреждений, сколько карт тот игрок взял в этом ходу.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[O jogador alvo compra dois cards, então Vórtice Cerebral causa dano àquele jogador igual ao número de cards que ele comprou neste turno.]]></LOCALISED_TEXT>
+    <TARGET_DEFINITION id="0">
+    local filter = Object():GetFilter()
+    filter:Clear()
+    filter:SetFilterType( FILTER_TYPE_PLAYERS )
+    filter:SetHint( HINT_ALLIED, EffectController() )
+    </TARGET_DEFINITION>
+    <TARGET_DETERMINATION>
+    return AtLeastOneTargetFromDefinition(0)
+    </TARGET_DETERMINATION>
+    <PLAY_TIME_ACTION target_choosing="1">
+    EffectController():ChooseTarget( 0, "CARD_QUERY_CHOOSE_PLAYER_DRAW_2", EffectDC():Make_Targets(0) )
+    </PLAY_TIME_ACTION>
+    <RESOLUTION_TIME_ACTION>
+    local target = EffectDC():Get_Targets(0):Get_PlayerPtr(0)
+    if target ~= nil then
+    	PlayerDrawCards( target, 2 )
+    	damage = MTG():Interrogate_CardsDrawnThisTurn(target)
+    	target:DealDamage(damage, Object())  
+    end
+    </RESOLUTION_TIME_ACTION>
+    <SFX text="TARGET_PLASMA_PLAY" />
+  </SPELL_ABILITY>
+  <AI_AVAILABILITY type="in_response" />
+  <AI_AVAILABILITY step="end_of_turn" turn="their_turn" />
+  <AI_AVAILABILITY step="main_1" turn="my_turn" />
+  <AI_AVAILABILITY step="main_2" turn="my_turn" />
+  <AI_BASE_SCORE score="600" zone="ZONE_HAND" />
+</CARD_V2>

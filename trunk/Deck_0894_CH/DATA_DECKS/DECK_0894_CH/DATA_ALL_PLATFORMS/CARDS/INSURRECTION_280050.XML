@@ -1,0 +1,85 @@
+<?xml version='1.0'?>
+<CARD_V2>
+  <FILENAME text="INSURRECTION_280050" />
+  <CARDNAME text="INSURRECTION" />
+  <TITLE>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Insurrection]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Insurrection]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Insurrección]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Aufruhr]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Insurrezione]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[暴動]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[모반]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Мятеж]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Insurreição]]></LOCALISED_TEXT>
+  </TITLE>
+  <MULTIVERSEID value="280050" />
+  <ARTID value="43137" />
+  <ARTIST name="Mark Zug" />
+  <CASTING_COST cost="{5}{R}{R}{R}" />
+  <FLAVOURTEXT>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[“Maybe they wanted to be on the winning side for once.”
+—Matoc, lavamancer]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[« Peut-être voulaient-ils tous, pour une fois, être du côté des vainqueurs. »
+—Matoc, lavamancien]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[“Quizá querían pertenecer al bando ganador para variar.”
+—Mátoc, lavamante]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[„Wahrscheinlich wollen sie auch einmal auf der Gewinnerseite sein.“
+—Matoc, Magmamagier]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[“Forse, per una volta, volevano trovarsi dalla parte del vincitore.”
+—Matoc, lavamante]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[「やつらだって一度くらい勝ってる側につきたいと思っただろうさ。」
+—溶岩使いマトック]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[“한 번이라도 이기는 편에 붙고 싶었던 게 아닐까.”
+—용암술사 메이톡]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[«Наверное, они хотели хоть раз в жизни оказаться на стороне победителей».
+— Лавамант Маток]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[“Eles devem ter tido vontade de estar no lado vencedor uma vez.”
+— Matoc, lavamante]]></LOCALISED_TEXT>
+  </FLAVOURTEXT>
+  <TYPE metaname="Sorcery" />
+  <EXPANSION value="DPG" />
+  <RARITY metaname="R" />
+  <SPELL_ABILITY dangerous="1">
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Untap all creatures and gain control of them until end of turn. They gain haste until end of turn.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Dégagez toutes les créatures et acquérez-en le contrôle jusqu’à la fin du tour. Elles acquièrent la célérité jusqu’à la fin du tour.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Endereza todas las criaturas y gana el control de ellas hasta el final del turno. Ganan la habilidad de prisa hasta el final del turno.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Enttappe alle Kreaturen und erhalte bis zum Ende des Zuges die Kontrolle über sie. Sie erhalten Eile bis zum Ende des Zuges.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[STAPpa tutte le creature e prendine il controllo fino alla fine del turno. Hanno rapidità fino alla fine del turno.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[すべてのクリーチャーをアンタップし、ターン終了時までそれらのコントロールを得る。 それらはターン終了時まで速攻を得る。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[모든 생물을 언탭하고 턴종료까지 그 생물들의 조종권을 얻는다. 그 생물들은 턴종료까지 신속 능력을 얻는다.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Разверните все существа и получите над ними контроль до конца хода. Они получают Ускорение до конца хода.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Desvire todas as criaturas e ganhe o controle delas até o final do turno. Todas ganham ímpeto até o final do turno.]]></LOCALISED_TEXT>
+    <FILTER>
+    return (FilteredCard() ~= nil and 
+    FilteredCard():GetCardType():Test( CARD_TYPE_CREATURE ) ~= 0 and 
+    FilteredCard():GetZone() == (ZONE_IN_PLAY))
+    </FILTER>
+    <RESOLUTION_TIME_ACTION>
+    FilteredCard():Untap()
+    </RESOLUTION_TIME_ACTION>
+    <CONTINUOUS_ACTION layer="2">
+    local card = FilteredCard()    
+    if card ~= nil then    
+    	card:SetController( EffectController() )  
+    end
+    </CONTINUOUS_ACTION>
+    <CONTINUOUS_ACTION layer="6">
+    local filtered_obj = FilteredCard()
+    if filtered_obj ~= nil then
+    	filtered_obj:GetCurrentCharacteristics():Characteristic_Set( CHARACTERISTIC_HASTE, 1 )
+    end
+    </CONTINUOUS_ACTION>
+    <CONTINUOUS_ACTION layer="6">
+    if FilteredCard() ~= nil then
+    	local characteristics = FilteredCard():GetCurrentCharacteristics()
+    	if characteristics ~= nil then
+    		characteristics:Characteristic_Set( CHARACTERISTIC_WORTHLESS, 1 )
+    	end
+    end
+    </CONTINUOUS_ACTION>
+    <DURATION simple_duration="UntilEOT" />
+  </SPELL_ABILITY>
+  <HELP title="MORE_INFO_BADGE_TITLE_14" body="MORE_INFO_BADGE_BODY_14" zone="ZONE_ANY" />
+  <AI_BASE_SCORE score="2100" zone="ZONE_HAND" />
+</CARD_V2>

@@ -1,0 +1,65 @@
+﻿<?xml version='1.0'?>
+<CARD_V2>
+  <FILENAME text="COSIS_TRICKSTER_888186322" />
+  <CARDNAME text="COSIS_TRICKSTER" />
+  <TITLE>
+     <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Cosi’s Trickster]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Cosi’s Trickster]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Cosi’s Trickster]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Cosi’s Trickster]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Cosi’s Trickster]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[Cosi’s Trickster]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[Cosi’s Trickster]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Cosi’s Trickster]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Cosi’s Trickster]]></LOCALISED_TEXT>
+  </TITLE>
+  <MULTIVERSEID value="888186322" />
+  <ARTID value="888186322" />
+  <ARTIST name="Igor Kieryluk" />
+  <CASTING_COST cost="{U}" />
+  <FLAVOURTEXT>
+     <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[She watches the chaos created by the Roil, seeking strength in the patterns of anarchy.]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[She watches the chaos created by the Roil, seeking strength in the patterns of anarchy.]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[She watches the chaos created by the Roil, seeking strength in the patterns of anarchy.]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[She watches the chaos created by the Roil, seeking strength in the patterns of anarchy.]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[She watches the chaos created by the Roil, seeking strength in the patterns of anarchy.]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[She watches the chaos created by the Roil, seeking strength in the patterns of anarchy.]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[She watches the chaos created by the Roil, seeking strength in the patterns of anarchy.]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[She watches the chaos created by the Roil, seeking strength in the patterns of anarchy.]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[She watches the chaos created by the Roil, seeking strength in the patterns of anarchy.]]></LOCALISED_TEXT>
+  </FLAVOURTEXT>
+  <TYPE metaname="Creature" />
+  <SUB_TYPE metaname="Merfolk" order_de-DE="0" order_es-ES="0" order_fr-FR="0" order_it-IT="0" order_jp-JA="0" order_ko-KR="0" order_pt-BR="0" order_ru-RU="0" />
+  <SUB_TYPE metaname="Wizard" order_de-DE="0" order_es-ES="0" order_fr-FR="0" order_it-IT="0" order_jp-JA="0" order_ko-KR="0" order_pt-BR="0" order_ru-RU="0" />
+  <EXPANSION value="DPG" />
+  <RARITY metaname="R" />
+  <POWER value="1" />
+  <TOUGHNESS value="1" />
+  <TRIGGERED_ABILITY filter_zone="ZONE_IN_PLAY">
+     <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Whenever an opponent shuffles his or her library, you may put a +1/+1 counter on Cosi’s Trickster.]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Whenever an opponent shuffles his or her library, you may put a +1/+1 counter on Cosi’s Trickster.]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Whenever an opponent shuffles his or her library, you may put a +1/+1 counter on Cosi’s Trickster.]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Whenever an opponent shuffles his or her library, you may put a +1/+1 counter on Cosi’s Trickster.]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Whenever an opponent shuffles his or her library, you may put a +1/+1 counter on Cosi’s Trickster.]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[Whenever an opponent shuffles his or her library, you may put a +1/+1 counter on Cosi’s Trickster.]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[Whenever an opponent shuffles his or her library, you may put a +1/+1 counter on Cosi’s Trickster.]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Whenever an opponent shuffles his or her library, you may put a +1/+1 counter on Cosi’s Trickster.]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Whenever an opponent shuffles his or her library, you may put a +1/+1 counter on Cosi’s Trickster.]]></LOCALISED_TEXT>
+    <TRIGGER value="SPELL_OR_ABILITY_CAUSED_SHUFFLE">
+    local player = TriggerPlayer()
+    if player ~= nil then
+    	if EffectController():GetTeam() ~= player:GetTeam() then
+    		return true
+    	end
+    end
+    return false
+    </TRIGGER>
+	<RESOLUTION_TIME_ACTION>
+    if EffectSource() ~= nil then
+    	EffectSource():AddCounters( MTG():PlusOnePlusOneCounters(), 1 )
+    end
+    </RESOLUTION_TIME_ACTION>
+  </TRIGGERED_ABILITY>
+  <SFX text="COMBAT_PLASMA_LARGE_ATTACK" power_boundary_min="4" power_boundary_max="-1" />
+  <SFX text="COMBAT_PLASMA_SMALL_ATTACK" power_boundary_min="1" power_boundary_max="3" />
+</CARD_V2>

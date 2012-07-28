@@ -1,0 +1,92 @@
+﻿<?xml version='1.0'?>
+<CARD_V2>
+  <FILENAME text="WONDER_88833720" />
+  <CARDNAME text="WONDER" />
+  <TITLE>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Wonder]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[La Meraviglia]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Das Wunder]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[L’Émerveillement]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Maravilla]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[不可思議]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[Wonder]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Wonder]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Maravilha]]></LOCALISED_TEXT>
+  </TITLE>
+  <MULTIVERSEID value="88833720" />
+  <ARTID value="88833720" />
+  <ARTIST name="Rebecca Guay" />
+  <CASTING_COST cost="{3}{U}" />
+  <FLAVOURTEXT>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[“The awestruck birds gazed at Wonder. Slowly, timidly, they rose into the air.”
+—Scroll of Beginnings]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[“Gli uccelli atterriti fissarono La Meraviglia. Lentamente, timidamente, si levarono in cielo.”
+—Pergamena delle Origini]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[„Vor Ehrfurcht erstarrt blickten die Vögel auf das Wunder. Langsam und vorsichtig erhoben sie sich in die Lüfte.”
+—Schriften der Schöpfung]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[« Les oiseaux interloqués regardèrent l’Émerveillement. Lentement, timidement, ils s’élevèrent dans les airs. »
+—Le Parchemin des Commencements]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[“Las aves temerosas contemplaron a la Maravilla. Despacio, tímidamente, se elevaron.”
+—Pergamino del comienzo]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[「鳥たちは畏敬の眼差しで不可思議を見つめた。 やがてゆっくり、こわごわと、彼らは空に舞い立った。」
+――始まりの書]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[“The awestruck birds gazed at Wonder. Slowly, timidly, they rose into the air.”
+—Scroll of Beginnings]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[“The awestruck birds gazed at Wonder. Slowly, timidly, they rose into the air.”
+—Scroll of Beginnings]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[“As aves aterrorizadas olharam estarrecidas para Maravilha. Lenta e timidamente elas se ergueram no ar.”
+— Pergaminho dos Primórdios]]></LOCALISED_TEXT>
+  </FLAVOURTEXT>
+  <TYPE metaname="Creature" />
+  <SUB_TYPE metaname="Incarnation" order_de-DE="0" order_es-ES="2" order_fr-FR="0" order_it-IT="2" order_jp-JA="0" order_ko-KR="0" order_pt-BR="0" order_ru-RU="0" />
+  <EXPANSION value="DPG" />
+  <RARITY metaname="U" />
+  <POWER value="2" />
+  <TOUGHNESS value="2" />
+  <STATIC_ABILITY>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Flying]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Volare]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Fliegend]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Vol]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Vuela.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[飛行]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[Flying]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Flying]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Voar]]></LOCALISED_TEXT>
+    <CONTINUOUS_ACTION>
+    local characteristics = Object():GetCurrentCharacteristics()
+    characteristics:Characteristic_Set( CHARACTERISTIC_FLYING, 1 )
+    </CONTINUOUS_ACTION>
+  </STATIC_ABILITY>
+  <STATIC_ABILITY filter_zone="ZONE_IN_PLAY" active_zone="ZONE_GRAVEYARD">
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[As long as Wonder is in your graveyard and you control an Island, creatures you control have flying.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Fintanto che La Meraviglia è nel tuo cimitero e controlli un’Isola, le creature che controlli hanno volare.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Solange das Wunder in deinem Friedhof ist und du eine Insel kontrollierst, haben Kreaturen, die du kontrollierst, Flugfähigkeit.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Tant que L’Émerveillement est dans votre cimetière et que vous contrôlez une île, les créatures que vous contrôlez ont le vol.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Mientras la Maravilla esté en tu cementerio y controles una isla, las criaturas que controlas tienen la habilidad de volar.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[不可思議があなたの墓地にあり、かつあなたが島をコントロールしているかぎり、あなたがコントロールするクリーチャーは飛行を持つ。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[As long as Wonder is in your graveyard and you control an Island, creatures you control have flying.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[As long as Wonder is in your graveyard and you control an Island, creatures you control have flying.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Enquanto Maravilha estiver em seu cemitério e você controlar uma ilha, as criaturas que você controla têm a habilidade de voar.]]></LOCALISED_TEXT>
+    <FILTER>
+    return CreaturesYouControl()
+    </FILTER>
+    <CONTINUOUS_ACTION layer="6">
+    local filter = Object():GetFilter()
+    filter:Clear()
+    filter:NotTargetted()
+    filter:AddSubType( LAND_TYPE_ISLAND )
+    filter:SetZone( ZONE_IN_PLAY )
+    filter:SetController( Object():GetOwner() )
+    if filter:CountStopAt( 1 ) &gt; 0 then
+    	if FilteredCard() ~= nil then
+    		FilteredCard():GetCurrentCharacteristics():Characteristic_Set( CHARACTERISTIC_FLYING, 1 )
+    	end
+    end
+    </CONTINUOUS_ACTION>
+  </STATIC_ABILITY>
+  <HELP title="MORE_INFO_BADGE_TITLE_10" body="MORE_INFO_BADGE_BODY_10" zone="ZONE_ANY" />
+  <SFX text="COMBAT_BLUNT_LARGE_ATTACK" power_boundary_min="4" power_boundary_max="-1" />
+  <SFX text="COMBAT_BLUNT_SMALL_ATTACK" power_boundary_min="1" power_boundary_max="3" />
+  <AI_BASE_SCORE score="300" zone="ZONE_GRAVEYARD" />
+</CARD_V2>

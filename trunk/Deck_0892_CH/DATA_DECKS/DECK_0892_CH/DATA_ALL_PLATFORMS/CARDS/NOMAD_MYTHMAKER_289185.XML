@@ -1,0 +1,89 @@
+<?xml version='1.0'?>
+<CARD_V2>
+  <FILENAME text="NOMAD_MYTHMAKER_289185" />
+  <CARDNAME text="NOMAD_MYTHMAKER" />
+  <TITLE>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Nomad Mythmaker]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Mythifieur nomade]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Creamitos nómada]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Sagenerzähler der Nomaden]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Cantastorie Nomade]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[遊牧の民の神話作家]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[유목민 신화 작자]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Кочующий Мифотворец]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Nômade Criador de Mitos]]></LOCALISED_TEXT>
+  </TITLE>
+  <MULTIVERSEID value="289185" />
+  <ARTID value="104551" />
+  <ARTIST name="Darrell Riche" />
+  <CASTING_COST cost="{2}{W}" />
+  <FLAVOURTEXT>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[On the wild steppes, history vanishes in the dust. Only the mythmakers remain to say what was, and is, and will be.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Dans les steppes sauvages, l’histoire disparaît dans la poussière. Seuls les mythifieurs gardent le souvenir de ce qui a été, de ce qui est et de ce qui sera.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[En las salvajes estepas, la historia se desvanece en el polvo. Sólo quedan los creamitos para contar lo que fue, lo que es, y lo que será.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[In den wilden Steppen verweht die Geschichte im staubigen Wind. Nur die Sagenerzähler verbleiben, um zu berichten, was war, was ist und was sein wird.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Nelle steppe selvagge, le storie svaniscono nella polvere. Solo i cantastorie rimangono per raccontare cos’era, cos’è e cosa sarà.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[荒野の草原では、歴史は塵の中に消えてしまう。 神話作家のみがそれをありしまま、あるまま、あろうままに残すことができる。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[거친 대초원에서 역사는 먼지 속으로 사라진다. 이곳의 과거, 현재 그리고 미래를 말해줄 사람은 신화 작자들뿐이다.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[В пустынных степях история обращается в прах. Лишь мифотворцы могут поведать о том, что было, что есть и что будет.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Nas estepes selvagens, a história desaparece na poeira. Apenas os criadores de mitos permanecem para contar o que foi, é e será.]]></LOCALISED_TEXT>
+  </FLAVOURTEXT>
+  <TYPE metaname="Creature" />
+  <SUB_TYPE metaname="Human" order_de-DE="0" order_es-ES="2" order_fr-FR="0" order_it-IT="2" order_jp-JA="0" order_ko-KR="0" order_pt-BR="0" order_ru-RU="0" />
+  <SUB_TYPE metaname="Nomad" order_de-DE="1" order_es-ES="1" order_fr-FR="1" order_it-IT="1" order_jp-JA="1" order_ko-KR="1" order_pt-BR="1" order_ru-RU="1" />
+  <SUB_TYPE metaname="Cleric" order_de-DE="2" order_es-ES="0" order_fr-FR="2" order_it-IT="0" order_jp-JA="2" order_ko-KR="2" order_pt-BR="2" order_ru-RU="2" />
+  <EXPANSION value="DPG" />
+  <RARITY metaname="R" />
+  <POWER value="2" />
+  <TOUGHNESS value="2" />
+  <ACTIVATED_ABILITY>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[{W}, {T}: Put target Aura card from a graveyard onto the battlefield under your control attached to a creature you control.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[{W}, {T}: Mettez sur le champ de bataille, sous votre contrôle et attachée à une créature que vous contrôlez, une carte d’aura ciblée d’un cimetière.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[{W}, {T}: Pon la carta de aura objetivo de un cementerio en el campo de batalla bajo tu control anexada a una criatura que controlas.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[{W}, {T}: Bringe eine Aurakarte deiner Wahl aus einem Friedhof an eine Kreatur, die du kontrollierst, angelegt ins Spiel.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[{W}, {T}: Metti sul campo di battaglia sotto il tuo controllo una carta Aura bersaglio da un cimitero assegnata a una creatura che controlli.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[{W}, {T}：いずれかの墓地にあるオーラ・カード１枚を対象とし、それをあなたがコントロールするいずれかのクリーチャーにつけた状態で、あなたのコントロール下で戦場に出す。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[{W}, {T}: 아무 무덤에 있는 마법진 카드 한 장을 목표로 정한다. 그 카드를 당신이 조종하는 생물에 부착된 채로 당신의 조종하에 전장으로 되돌린다.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[{W}, {T}: положите целевую карту Ауры из кладбища на поле битвы под вашим контролем прикрепленной к существу под вашим контролем.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[{W}, {T}: Coloque no campo de batalha o card alvo de Aura de um cemitério anexado a uma criatura que você controla.]]></LOCALISED_TEXT>
+    <COST type="Mana" cost="{W}" />
+    <COST type="TapSelf" />
+    <TARGET_DEFINITION id="0">
+    local filter = Object():GetFilter()
+    filter:Clear()
+    filter:AddSubType( ENCHANTMENT_TYPE_AURA )
+    filter:SetZone( ZONE_GRAVEYARD )
+    filter:SetHint( HINT_ALLIED, EffectController() )
+    </TARGET_DEFINITION>
+    <TARGET_DETERMINATION>
+    return AtLeastOneTargetFromDefinition(0)
+    </TARGET_DETERMINATION>
+    <PLAY_TIME_ACTION target_choosing="1">
+    EffectController():ChooseTarget( 0, "CARD_QUERY_CHOOSE_AURA_TO_PUT_ONTO_BATTLEFIELD", EffectDC():Make_Targets(0) )
+    </PLAY_TIME_ACTION>
+    <RESOLUTION_TIME_ACTION>
+    local target = EffectDC():Get_Targets(0):Get_CardPtr(0)
+    local player = EffectController()
+    if target ~= nil then
+    	if target:GetZone() == ZONE_GRAVEYARD then  
+    		if target:GetCardType():Test( CARD_TYPE_ENCHANTMENT ) ~= 0 and target:GetSubType():Test( ENCHANTMENT_TYPE_AURA ) ~= 0 then
+    			player:PseudoPlaySpell(target)
+    		else
+    			target:PutIntoPlay( EffectController() )
+    		end
+    	end
+    end
+    </RESOLUTION_TIME_ACTION>
+    <AI_AVAILABILITY type="in_response" />
+    <AI_AVAILABILITY step="begin_combat" turn="their_turn" />
+    <AI_AVAILABILITY step="main_1" turn="my_turn" />
+    <AI_AVAILABILITY step="declare_attackers" turn="their_turn" />
+    <AI_AVAILABILITY step="declare_blockers" />
+    <AI_AVAILABILITY step="end_of_turn" />
+    <AI_AVAILABILITY step="declare_blockers" />
+    <AI_AVAILABILITY type="in_response_dangerous" />
+  </ACTIVATED_ABILITY>
+  <SFX text="COMBAT_WHITE_MAGIC_LARGE_ATTACK" power_boundary_min="4" power_boundary_max="-1" />
+  <SFX text="COMBAT_WHITE_MAGIC_SMALL_ATTACK" power_boundary_min="1" power_boundary_max="3" />
+  <AI_BASE_SCORE score="450" zone="ZONE_IN_PLAY" />
+</CARD_V2>

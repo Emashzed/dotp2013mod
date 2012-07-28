@@ -1,0 +1,103 @@
+﻿<?xml version='1.0'?>
+<CARD_V2>
+  <FILENAME text="DAZE_888189255" />
+  <CARDNAME text="DAZE" />
+  <TITLE>
+     <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Daze]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Daze]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Daze]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Daze]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Daze]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[Daze]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[Daze]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Daze]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Daze]]></LOCALISED_TEXT>
+  </TITLE>
+  <MULTIVERSEID value="888189255" />
+  <ARTID value="888189255" />
+  <ARTIST name="Matthew D. Wilson" />
+  <CASTING_COST cost="{1}{U}" />
+  <TYPE metaname="Instant" />
+  <EXPANSION value="DPG" />
+  <RARITY metaname="C" />
+  <UTILITY_ABILITY filter_zone="ZONE_IN_PLAY">
+     <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[You may return an Island you control to its owner’s hand rather than pay Daze’s mana cost.]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[You may return an Island you control to its owner’s hand rather than pay Daze’s mana cost.]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[You may return an Island you control to its owner’s hand rather than pay Daze’s mana cost.]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[You may return an Island you control to its owner’s hand rather than pay Daze’s mana cost.]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[You may return an Island you control to its owner’s hand rather than pay Daze’s mana cost.]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[You may return an Island you control to its owner’s hand rather than pay Daze’s mana cost.]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[You may return an Island you control to its owner’s hand rather than pay Daze’s mana cost.]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[You may return an Island you control to its owner’s hand rather than pay Daze’s mana cost.]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[You may return an Island you control to its owner’s hand rather than pay Daze’s mana cost.]]></LOCALISED_TEXT>
+     <COST type="RETURN_TO_HAND" qualifier="alternate" tag="ALTERNATE_COST_RETURN_ISLAND">
+      <TARGET_DEFINITION id="6">
+      local filter = Object():GetFilter()
+      filter:Clear()
+      filter:AddSubType( LAND_TYPE_ISLAND )
+      filter:SetPlayer( EffectController() )
+      filter:SetZone( ZONE_IN_PLAY )
+      filter:NotTargetted()
+      </TARGET_DEFINITION>
+      <TARGET_DETERMINATION>
+      return AtLeastOneTargetFromDefinition(6)
+      </TARGET_DETERMINATION>
+      <PLAYTIME>
+      EffectController():ChooseTarget( 6, "CARD_QUERY_CHOOSE_CARD_TO_PUT_INTO_HAND", EffectDC():Make_Targets(0) )
+      </PLAYTIME></COST>
+  </UTILITY_ABILITY>
+  <SPELL_ABILITY filter_zone="ZONE_IN_PLAY">
+     <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Counter target spell unless its controller pays {1}.]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Counter target spell unless its controller pays {1}.]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Counter target spell unless its controller pays {1}.]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Counter target spell unless its controller pays {1}.]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Counter target spell unless its controller pays {1}.]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[Counter target spell unless its controller pays {1}.]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[Counter target spell unless its controller pays {1}.]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Counter target spell unless its controller pays {1}.]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Counter target spell unless its controller pays {1}.]]></LOCALISED_TEXT>
+    <TARGET_DEFINITION id="0">
+    local filter = Object():GetFilter()
+    filter:Clear()
+    filter:SetZone( ZONE_STACK )
+    filter:SetStackObjectType( STACK_OBJECT_CARD )
+    filter:SetHint( HINT_ENEMY_ONLY, EffectController() )
+    </TARGET_DEFINITION>
+    <TARGET_DETERMINATION>
+    return AtLeastOneTargetFromDefinition(0)
+    </TARGET_DETERMINATION>
+    <PLAY_TIME_ACTION target_choosing="1">
+    EffectController():ChooseTarget( 0, "CARD_QUERY_CHOOSE_SPELL_TO_COUNTER", EffectDC():Make_Targets(1) )
+    </PLAY_TIME_ACTION>
+    <RESOLUTION_TIME_ACTION>
+    local target_spell = EffectDC():Get_Targets(1):Get_CardPtr(0)
+    local player = target_spell:GetPlayer()
+    if player ~= nil then
+    	if player:CanAfford("{1}") == 1 then
+    		player:BeginNewMultipleChoice()   
+    		player:AddMultipleChoiceAnswer( "CARD_QUERY_OPTION_PAY_1" )   
+    		player:AddMultipleChoiceAnswer( "CARD_QUERY_OPTION_IS_COUNTERED" )   
+    		player:AskMultipleChoiceQuestion( "CARD_QUERY_MC_SPIKETAIL_HATCHLING" )
+    	end
+    end
+    </RESOLUTION_TIME_ACTION>
+    <RESOLUTION_TIME_ACTION>
+    local target_spell = EffectDC():Get_Targets(1):Get_CardPtr(0)
+    local player = target_spell:GetPlayer()
+    local decision = Object():GetMultipleChoiceResult()
+    if player ~= nil then
+    if player:CanAfford("{1}") == 1 then
+      if decision ~= 1 then
+        player:TapLand("{1}")
+      else
+    	target_spell:CounterSpell()
+      end
+      
+    else
+      target_spell:CounterSpell()
+    end
+    end
+    </RESOLUTION_TIME_ACTION>
+  </SPELL_ABILITY>
+  <AI_BASE_SCORE score="300" zone="ZONE_HAND" />
+</CARD_V2>

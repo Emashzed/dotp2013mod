@@ -1,0 +1,58 @@
+<?xml version='1.0'?>
+<CARD_V2>
+  <FILENAME text="INUNDATE_277008" />
+  <CARDNAME text="INUNDATE" />
+  <TITLE>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Inundate]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Inonder]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Inundar]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Überschwemmen]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Inondare]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[水浸し]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[범람]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Затопление]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Inundar]]></LOCALISED_TEXT>
+  </TITLE>
+  <MULTIVERSEID value="277008" />
+  <ARTID value="113595" />
+  <ARTIST name="Mark Zug" />
+  <CASTING_COST cost="{3}{U}{U}{U}" />
+  <FLAVOURTEXT>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[“For years, the landfolk have emptied their refuse into the waters. It’s time to return the favor.”]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[« Pendant des années, les gens des terres ont jeté leurs déchets dans l’eau. Il est temps de leur rendre la pareille. »]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[“Durante años, los que habitan en tierra firme han volcado sus desechos en el agua. Es hora de devolverles el favor.”]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[„Seit Jahren kippen die Landbewohner ihren gesamten Unrat ins Wasser. Es wird Zeit, dass wir die passende Antwort darauf geben.“]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[“Per anni, i terricoli hanno scaricato i loro rifiuti in mare. È arrivato il momento di restituire il favore.”]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[「何年もの間、地面歩きはゴミを水に投げ込んできた。 お返しをするときだな。」]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[“땅사람들은 여태껏 물에 쓰레기를 버렸다. 이제 그걸 그대로 돌려줄 때가 왔다.”]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[«Обитатели суши годами сбрасывали отходы в наши воды. Пришло время отплатить им той же монетой».]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[“Durante anos, o povo terreno jogou seus detritos no mar. É hora de retribuir o favor."]]></LOCALISED_TEXT>
+  </FLAVOURTEXT>
+  <TYPE metaname="Sorcery" />
+  <EXPANSION value="DPG" />
+  <RARITY metaname="R" />
+  <SPELL_ABILITY dangerous="1" filter_zone="ZONE_IN_PLAY">
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Return all nonblue creatures to their owners’ hands.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Renvoyez toutes les créatures non-bleues dans les mains de leurs propriétaires.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Regresa todas las criaturas que no sean azules a las manos de sus propietarios.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Bringe alle nichtblauen Kreaturen auf die Hand ihrer Besitzer zurück.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Fai tornare tutte le creature non blu in mano ai loro proprietari.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[すべての青でないクリーチャーをオーナーの手札に戻す。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[청색이 아닌 모든 생물을 소유자의 손으로 되돌린다.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Верните все несиние существа в руки их владельцев.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Devolva todas as criaturas que não sejam azuis para as mãos de seus donos.]]></LOCALISED_TEXT>
+    <FILTER>
+    local filteredCard = FilteredCard()
+    return ((filteredCard ~= nil) and
+    (filteredCard:GetColour():Test( COLOUR_BLUE ) == 0) and
+    (filteredCard:GetCardType():Test( CARD_TYPE_CREATURE ) ~= 0) and
+    (filteredCard:GetZone() == (ZONE_IN_PLAY)))
+    </FILTER>
+    <RESOLUTION_TIME_ACTION>
+    local filtered_obj = FilteredCard()
+    if filtered_obj ~= nil then
+    	filtered_obj:PutInHand()
+    end
+    </RESOLUTION_TIME_ACTION>
+  </SPELL_ABILITY>
+</CARD_V2>

@@ -1,0 +1,88 @@
+<?xml version='1.0'?>
+<CARD_V2>
+  <FILENAME text="LIGHTNING_HELIX_888276789" />
+  <CARDNAME text="LIGHTNING_HELIX" />
+  <TITLE>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Lightning Helix]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Hélice d’éclairs]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Hélice de relámpagos]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Blitzhelix]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Spirale Fulminante]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[稲妻のらせん]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[나선 번개]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Спираль Молний]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Hélice de Raios]]></LOCALISED_TEXT>
+  </TITLE>
+  <MULTIVERSEID value="276789" />
+  <ARTID value="138684" />
+  <ARTIST name="Raymond Swanland" />
+  <CASTING_COST cost="{R}{W}" />
+  <FLAVOURTEXT>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[“Rage is not the answer. Rage followed by fitting vengeance is the answer.”
+—Ajani]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[« La rage ne résout jamais rien. Par contre, la rage suivie d’une juste vengeance résout tout. »
+—Ajani]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[“La ira no es la respuesta. La ira, seguida de una adecuada venganza, es la respuesta.”
+—Ajani]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[„Zorn ist nicht die Antwort. Zorn und passende Vergeltung ist richtig.“
+—Ajani]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[“La rabbia non è la soluzione. La rabbia seguita da una giusta vendetta è la soluzione.”
+—Ajani]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[「怒りは答とならない。 怒りにふさわしい復讐が伴えば、それが答だ。」
+—アジャニ]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[“분노만으로는 해결되지 않아. 그에 걸맞은 복수가 따라야지.”
+—아자니]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[«Ярость — не ответ. Ярость, за которой следует достойная месть — вот это ответ».
+— Аджани]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[“A fúria não é a resposta. A fúria seguida da devida vingança é a resposta.”
+— Ajani]]></LOCALISED_TEXT>
+  </FLAVOURTEXT>
+  <TYPE metaname="Instant" />
+  <EXPANSION value="DPG" />
+  <RARITY metaname="U" />
+  <SPELL_ABILITY dangerous="1" filter_zone="ZONE_IN_PLAY">
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Lightning Helix deals 3 damage to target creature or player and you gain 3 life.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[L’Hélice d’éclairs inflige 3 blessures à une cible, créature ou joueur, et vous gagnez 3 points de vie.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[La Hélice de relámpagos hace 3 puntos de daño a la criatura o jugador objetivo y tú ganas 3 vidas.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Die Blitzhelix fügt einer Kreatur oder einem Spieler deiner Wahl 3 Schadenspunkte zu, und du erhältst 3 Lebenspunkte dazu.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[La Spirale Fulminante infligge 3 danni a una creatura o a un giocatore bersaglio e tu guadagni 3 punti vita.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[クリーチャー１体かプレイヤー１人を対象とする。稲妻のらせんはそれに３点のダメージを与え、あなたは３点のライフを得る。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[생물 한 개나 플레이어 한 명을 목표로 정한다. 나선 번개는 그 목표에게 피해 3점을 입히고 당신은 생명 3점을 얻는다.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Спираль Молний наносит 3 повреждения целевому существу или игроку, а вы получаете 3 жизни.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Hélice de Raios causa 3 pontos de dano à criatura ou ao jogador alvo e você ganha 3 pontos de vida.]]></LOCALISED_TEXT>
+    <TARGET_DEFINITION id="0">
+    local filter = Object():GetFilter()
+    filter:Clear()
+    filter:SetFilterType( FILTER_TYPE_CARDS + FILTER_TYPE_PLAYERS )
+    filter:SetZone( ZONE_IN_PLAY )
+    filter:SetHint( HINT_ENEMY_ONLY, EffectController() )
+    filter:AddCardType( CARD_TYPE_CREATURE )
+    </TARGET_DEFINITION>
+    <TARGET_DETERMINATION>
+    return AtLeastOneTargetFromDefinition(0)
+    </TARGET_DETERMINATION>
+    <PLAY_TIME_ACTION target_choosing="1">
+    EffectController():ChooseTarget( 0, "CARD_QUERY_CHOOSE_DEAL_3_DAMAGE", EffectDC():Make_Targets(0) )
+    </PLAY_TIME_ACTION>
+    <RESOLUTION_TIME_ACTION>
+    local target_creature = EffectDC():Get_Targets(0):Get_CardPtr(0)
+    local target_player = Object():GetTargetPlayer()
+    if ( target_creature ~= nil ) then   
+    	target_creature:DealDamage( 3, Object() )  
+    	EffectController():GainLife( 3 )
+    elseif 
+    	( target_player ~= nil ) then   
+    	target_player:DealDamage(3, Object())  
+    	EffectController():GainLife( 3 )
+    end
+    </RESOLUTION_TIME_ACTION>
+    <SFX text="TARGET_LIGHTNING_PLAY" />
+  </SPELL_ABILITY>
+  <AI_AVAILABILITY type="in_response" />
+  <AI_AVAILABILITY step="begin_combat" turn="their_turn" />
+  <AI_AVAILABILITY step="main_1" turn="my_turn" />
+  <AI_AVAILABILITY step="declare_attackers" turn="their_turn" />
+  <AI_AVAILABILITY step="declare_blockers" />
+  <AI_AVAILABILITY step="end_of_turn" />
+  <AI_BASE_SCORE score="1050" zone="ZONE_HAND" />
+</CARD_V2>

@@ -1,0 +1,119 @@
+<?xml version='1.0'?>
+<CARD_V2>
+  <FILENAME text="ASHENMOOR_LIEGE_281224" />
+  <CARDNAME text="ASHENMOOR_LIEGE" />
+  <TITLE>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Ashenmoor Liege]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Noble féal de Cendrelande]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Siervo de Páramo Ceniciento]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Vasall des Aschenmoors]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Vassallo della Brughiera Grigia]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[アッシェンムーアのしもべ]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[애쉔무어 군주]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Вассал Выжженной Пустоши]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Soberano de Pântano das Cinzas]]></LOCALISED_TEXT>
+  </TITLE>
+  <MULTIVERSEID value="281224" />
+  <ARTID value="111625" />
+  <ARTIST name="Mark Zug" />
+  <CASTING_COST cost="{1}{B/R}{B/R}{B/R}" />
+  <FLAVOURTEXT>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Cinders carry an ancestral grudge that makes them slow to trust and quick to retaliate.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Les scoriacés portent en eux une rancune ancestrale qui les rend lents à faire confiance et rapides à se venger.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Los cenicientos arrastran un antiguo agravio que los hace lentos para confiar y rápidos para tomar represalias.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Rußwesen tragen einen Generationen alten Groll mit sich herum, der sie nur schwer vertrauen und schnell zurückschlagen lässt.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[I cinerei sono arsi da un rancore ancestrale che li rende poco propensi alla fiducia ma pronti alla ritorsione.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[燃えがらの心にある古き因縁は、信用を得るに遅く、復讐に出るに早い。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[잿정령들은 고대의 원한을 품고 있어서 타인을 잘 믿지 않고 재빠르게 응징한다.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Золовики носят в сердцах старинную обиду, поэтому они так неохотно доверяют другим и так быстро наносят ответный удар.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Os cinzeríneos carregam um rancor ancestral que os torna lentos para confiar e rápidos para retaliar.]]></LOCALISED_TEXT>
+  </FLAVOURTEXT>
+  <TYPE metaname="Creature" />
+  <SUB_TYPE metaname="Elemental" order_de-DE="0" order_es-ES="1" order_fr-FR="0" order_it-IT="1" order_jp-JA="0" order_ko-KR="0" order_pt-BR="0" order_ru-RU="0" />
+  <SUB_TYPE metaname="Knight" order_de-DE="1" order_es-ES="0" order_fr-FR="1" order_it-IT="0" order_jp-JA="1" order_ko-KR="1" order_pt-BR="1" order_ru-RU="1" />
+  <EXPANSION value="DPG" />
+  <RARITY metaname="R" />
+  <POWER value="4" />
+  <TOUGHNESS value="1" />
+  <STATIC_ABILITY filter_zone="ZONE_IN_PLAY">
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Other black creatures you control get +1/+1.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Les autres créatures noires que vous contrôlez gagnent +1/+1.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Las otras criaturas negras que controlas obtienen +1/+1.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Andere schwarze Kreaturen, die du kontrollierst, erhalten +1/+1.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Le altre creature nere che controlli prendono +1/+1.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[あなたがコントロールする他の黒のクリーチャーは＋１/＋１の修整を受ける。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[당신이 조종하는 다른 흑색 생물들은 +1/+1을 받는다.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Другие черные существа под вашим контролем получают +1/+1.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[As outras criaturas pretas que você controla recebem +1/+1.]]></LOCALISED_TEXT>
+    <FILTER>
+    local filteredCard = FilteredCard()
+    local objectPlayer = Object():GetPlayer()
+    return ((filteredCard ~= nil) and  
+    filteredCard:GetPlayer() == objectPlayer and 
+    (filteredCard:GetColour():Test( COLOUR_BLACK ) ~= 0) and 
+    (filteredCard:GetCardType():Test( CARD_TYPE_CREATURE ) ~= 0) and 
+    (filteredCard:GetZone() == (ZONE_IN_PLAY)) and
+    (filteredCard ~= Object()))
+    </FILTER>
+    <CONTINUOUS_ACTION layer="7C">
+    if FilteredCard() ~= nil then
+    	local characteristics = FilteredCard():GetCurrentCharacteristics()
+    	if characteristics ~= nil then
+    		characteristics:Power_Add( 1 )
+    		characteristics:Toughness_Add( 1 )
+    	end
+    end
+    </CONTINUOUS_ACTION>
+  </STATIC_ABILITY>
+  <STATIC_ABILITY filter_zone="ZONE_IN_PLAY">
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Other red creatures you control get +1/+1.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Les autres créatures rouges que vous contrôlez gagnent +1/+1.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Las otras criaturas rojas que controlas obtienen +1/+1.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Andere rote Kreaturen, die du kontrollierst, erhalten +1/+1.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Le altre creature rosse che controlli prendono +1/+1.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[あなたがコントロールする他の赤のクリーチャーは＋１/＋１の修整を受ける。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[당신이 조종하는 다른 적색 생물들은 +1/+1을 받는다.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Другие красные существа под вашим контролем получают +1/+1.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[As outras criaturas vermelhas que você controla recebem +1/+1.]]></LOCALISED_TEXT>
+    <FILTER>
+    local filteredCard = FilteredCard()
+    local objectPlayer = Object():GetPlayer()
+    return ((filteredCard ~= nil) and  
+    filteredCard:GetPlayer() == objectPlayer and 
+    (filteredCard:GetColour():Test( COLOUR_RED ) ~= 0) and 
+    (filteredCard:GetCardType():Test( CARD_TYPE_CREATURE ) ~= 0) and 
+    (filteredCard:GetZone() == (ZONE_IN_PLAY)) and
+    (filteredCard ~= Object()))
+    </FILTER>
+    <CONTINUOUS_ACTION layer="7C">
+    if FilteredCard() ~= nil then
+    	local characteristics = FilteredCard():GetCurrentCharacteristics()
+    	if characteristics ~= nil then
+    		characteristics:Power_Add( 1 )
+    		characteristics:Toughness_Add( 1 )
+    	end
+    end
+    </CONTINUOUS_ACTION>
+  </STATIC_ABILITY>
+  <TRIGGERED_ABILITY dangerous="1" filter_zone="ZONE_IN_PLAY">
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Whenever Ashenmoor Liege becomes the target of a spell or ability an opponent controls, that player loses 4 life.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[À chaque fois que le Noble féal de Cendrelande devient la cible d’un sort ou d’une capacité qu’un adversaire contrôle, ce joueur perd 4 points de vie.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Siempre que el Siervo de Páramo Ceniciento sea objetivo de un hechizo o habilidad que controle un oponente, ese jugador pierde 4 vidas.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Immer wenn der Vasall des Aschenmoors das Ziel eines Zauberspruchs oder einer Fähigkeit wird, den bzw. die ein Gegner kontrolliert, verliert dieser Spieler 4 Lebenspunkte.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Ogniqualvolta il Vassallo della Brughiera Grigia diventa bersaglio di una magia o abilità controllata da un avversario, quel giocatore perde 4 punti vita.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[アッシェンムーアのしもべがいずれかの対戦相手がコントロールする呪文や能力の対象になるたび、そのプレイヤーは４点のライフを失う。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[애쉔무어 군주가 상대가 조종하는 주문이나 능력의 목표가 될 때마다, 그 플레이어는 생명 4점을 잃는다.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Каждый раз, когда Вассал Выжженной Пустоши становится целью заклинания или способности под контролем оппонента, тот игрок теряет 4 жизни.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Toda vez que Soberano de Pântano das Cinzas se torna alvo de uma mágica ou habilidade que um oponente controla, aquele jogador perde 4 pontos de vida.]]></LOCALISED_TEXT>
+    <TRIGGER value="BECAME_TARGET" simple_qualifier="self">
+    return ((SecondaryObject() ~= nil) and (SecondaryObject():GetPlayer():GetTeam() ~= EffectController():GetTeam()))
+    </TRIGGER>
+    <RESOLUTION_TIME_ACTION>
+    if (SecondaryPlayer() ~= nil) then   
+    	SecondaryPlayer():LoseLife( 4 )   
+    end
+    </RESOLUTION_TIME_ACTION>
+  </TRIGGERED_ABILITY>
+  <SFX text="COMBAT_CHOP_LARGE_ATTACK" power_boundary_min="4" power_boundary_max="-1" />
+  <SFX text="COMBAT_CHOP_SMALL_ATTACK" power_boundary_min="1" power_boundary_max="3" />
+</CARD_V2>

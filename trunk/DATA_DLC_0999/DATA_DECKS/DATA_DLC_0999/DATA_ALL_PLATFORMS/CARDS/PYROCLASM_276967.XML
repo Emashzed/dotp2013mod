@@ -1,0 +1,72 @@
+<?xml version='1.0'?>
+<CARD_V2>
+  <FILENAME text="PYROCLASM_276967" />
+  <CARDNAME text="PYROCLASM" />
+  <TITLE>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Pyroclasm]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Pyroclasme]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Detonación ígnea]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Feuermasse]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Piroclasma]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[紅蓮地獄]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[격변의 화염]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Пироклазм]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Piroclasma]]></LOCALISED_TEXT>
+  </TITLE>
+  <MULTIVERSEID value="276967" />
+  <ARTID value="49671" />
+  <ARTIST name="John Avon" />
+  <CASTING_COST cost="{1}{R}" />
+  <FLAVOURTEXT>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[“Who’d want to ignite things one at a time?”
+—Chandra Nalaar]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[« Qui aurait l’envie de n’enflammer qu’une seule chose à la fois ? »
+—Chandra Nalaàr]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[“¿Quién quiere quemar cosas de a una a la vez?”
+—Chandra Nalaar]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[„Wer will schon jedes Ding einzeln anzünden müssen?“
+—Chandra Nalaar]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[“Chi vuole incendiare le cose una alla volta?”
+—Chandra Nalaar]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[「一つ一つ火をつけるなんて誰がやるんだい？」
+—チャンドラ・ナラー]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[“한 번에 하나씩 불을 붙이고 싶어 하는 놈이 어디 있겠어?”
+—찬드라 날라르]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[«Какой смысл поджигать все по очереди?»
+— Чандра Налаар]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[“Quem perderia tempo incendiando uma coisa de cada vez?”
+— Chandra Nalaar]]></LOCALISED_TEXT>
+  </FLAVOURTEXT>
+  <TYPE metaname="Sorcery" />
+  <EXPANSION value="DPG" />
+  <RARITY metaname="U" />
+  <SPELL_ABILITY dangerous="1">
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Pyroclasm deals 2 damage to each creature.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Le Pyroclasme inflige 2 blessures à chaque créature.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[La Detonación ígnea hace 2 puntos de daño a cada criatura.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Die Feuermasse fügt jeder Kreatur 2 Schadenspunkte zu.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Il Piroclasma infligge 2 danni a ogni creatura.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[紅蓮地獄は各クリーチャーにそれぞれ２点のダメージを与える。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[격변의 화염은 각 생물에게 피해 2점을 입힌다.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Пироклазм наносит каждому существу 2 повреждения.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Piroclasma causa 2 pontos de dano a cada criatura.]]></LOCALISED_TEXT>
+    <FILTER>
+    return (FilteredCard() ~= nil and 
+    FilteredCard():GetCardType():Test( CARD_TYPE_CREATURE ) ~= 0 and 
+    FilteredCard():GetZone() == (ZONE_IN_PLAY))
+    </FILTER>
+    <RESOLUTION_TIME_ACTION>
+    local source = EffectSource()
+    if source == nil then
+      source = Object()
+    end
+    if (FilteredPlayer() ~= nil) then   
+    	FilteredPlayer():DealDamage( 2 , source)  
+    elseif (FilteredCard() ~= nil) then   
+    	FilteredCard():DealDamage( 2 , source )  
+    end
+    </RESOLUTION_TIME_ACTION>
+    <SFX text="GLOBAL_MAGMA_PLAY" />
+  </SPELL_ABILITY>
+  <AI_BASE_SCORE score="1050" zone="ZONE_HAND" />
+</CARD_V2>

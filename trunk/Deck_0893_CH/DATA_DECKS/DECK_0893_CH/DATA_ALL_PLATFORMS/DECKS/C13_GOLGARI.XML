@@ -1,0 +1,44 @@
+<DECK personality="C13_GOLGARI_DEFAULT.XML" deck_box_image="D13_Golgari" deck_box_image_locked="locked" content_pack="0" uid="893" preview_card="sepulchral_strength" is_black="true" is_green="true">
+  <DECKSTATISTICS Size="6" Speed="4" Flex="6" Syn="8" />
+  <LandConfig minSwamp="5" minForest="5" numSpellsThatCountAsLand="4" />
+  <CARD name="VULTUROUS_ZOMBIE_277248@2" deckOrderId="0" />
+  <CARD name="VULTUROUS_ZOMBIE_277248@2" deckOrderId="1" />
+  <CARD name="VULTUROUS_ZOMBIE_277248@2" deckOrderId="2" />
+  <CARD name="MORTIVORE_277955" deckOrderId="3" />
+  <CARD name="MORTIVORE_277955" deckOrderId="4" />
+  <CARD name="RAVENOUS_RATS_294525@3" deckOrderId="5" />
+  <CARD name="RAVENOUS_RATS_294525@3" deckOrderId="6" />
+  <CARD name="PERNICIOUS_DEED_276738@3" deckOrderId="7" />
+  <CARD name="DROOLING_GROODION_277228" deckOrderId="8" />
+  <CARD name="DROOLING_GROODION_277228" deckOrderId="9" />
+  <CARD name="DEATH_MUTATION_276736" deckOrderId="10" />
+  <CARD name="CONSUME_STRENGTH_276735@3" deckOrderId="11" />
+  <CARD name="CONSUME_STRENGTH_276735@3" deckOrderId="12" />
+  <CARD name="MIND_ROT_276950@3" deckOrderId="13" />
+  <CARD name="MIND_ROT_276950@3" deckOrderId="14" />
+  <CARD name="GREATER_GOOD_276711" deckOrderId="15" />
+  <CARD name="GRAVE_PACT_276687" deckOrderId="16" />
+  <CARD name="ABYSSAL_GATEKEEPER_278461" deckOrderId="17" />
+  <CARD name="ABYSSAL_GATEKEEPER_278461" deckOrderId="18" />
+  <CARD name="DARK_HEART_OF_THE_WOOD_277226" deckOrderId="19" />
+  <CARD name="SPORE_FROG_277217" deckOrderId="20" />
+  <CARD name="MAELSTROM_PULSE_276945" deckOrderId="21" />
+  <CARD name="MAELSTROM_PULSE_276945" deckOrderId="22" />
+  <CARD name="SPIRITMONGER_276741" deckOrderId="23" />
+  <CARD name="TROLL_ASCETIC_276840" deckOrderId="24" />
+  <CARD name="CREAKWOOD_LIEGE_281269" deckOrderId="25" />
+  <CARD name="SEWER_NEMESIS_281237" deckOrderId="26" />
+  <CARD name="YAVIMAYA_ELDER_276783@2" deckOrderId="27" />
+  <CARD name="YAVIMAYA_ELDER_276783@2" deckOrderId="28" />
+  <CARD name="YAVIMAYA_ELDER_276783@2" deckOrderId="29" />
+  <CARD name="BLOOD_ARTIST_281485" deckOrderId="30" />
+  <CARD name="BLOOD_ARTIST_281485" deckOrderId="31" />
+  <CARD name="GOLGARI_GERMINATION_277232" deckOrderId="32" />
+  <CARD name="BLOODFLOW_CONNOISSEUR_280303" deckOrderId="33" />
+  <CARD name="VIRIDIAN_EMISSARY_277141" deckOrderId="34" />
+  <CARD name="VIRIDIAN_EMISSARY_277141" deckOrderId="35" />
+  <CARD name="EVOLVING_WILDS_276846" deckOrderId="36" />
+  <CARD name="EVOLVING_WILDS_276846" deckOrderId="37" />
+  <CARD name="EVOLVING_WILDS_276846" deckOrderId="38" />
+  <CARD name="EVOLVING_WILDS_276846" deckOrderId="39" />
+</DECK>

@@ -1,0 +1,89 @@
+﻿<?xml version='1.0'?>
+<CARD_V2>
+  <FILENAME text="SHOW_AND_TELL_8885697" />
+  <CARDNAME text="SHOW_AND_TELL" />
+  <TITLE>
+     <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Show and Tell]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Show and Tell]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Show and Tell]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Show and Tell]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Show and Tell]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[Show and Tell]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[Show and Tell]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Show and Tell]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Show and Tell]]></LOCALISED_TEXT>
+  </TITLE>
+  <MULTIVERSEID value="8885697" />
+  <ARTID value="8885697" />
+  <ARTIST name="Jeff Laubenstein" />
+  <CASTING_COST cost="{2}{U}" />
+  <FLAVOURTEXT>
+     <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[At the academy, “show and tell” too often becomes “run and hide.”]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[At the academy, “show and tell” too often becomes “run and hide.”]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[At the academy, “show and tell” too often becomes “run and hide.”]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[At the academy, “show and tell” too often becomes “run and hide.”]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[At the academy, “show and tell” too often becomes “run and hide.”]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[At the academy, “show and tell” too often becomes “run and hide.”]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[At the academy, “show and tell” too often becomes “run and hide.”]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[At the academy, “show and tell” too often becomes “run and hide.”]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[At the academy, “show and tell” too often becomes “run and hide.”]]></LOCALISED_TEXT>
+  </FLAVOURTEXT>
+  <TYPE metaname="Sorcery" />
+  <EXPANSION value="DPG" />
+  <RARITY metaname="R" />
+  <SPELL_ABILITY filter_zone="ZONE_IN_PLAY">
+     <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Each player may put an artifact, creature, enchantment, or land card from his or her hand onto the battlefield.]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Each player may put an artifact, creature, enchantment, or land card from his or her hand onto the battlefield.]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Each player may put an artifact, creature, enchantment, or land card from his or her hand onto the battlefield.]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Each player may put an artifact, creature, enchantment, or land card from his or her hand onto the battlefield.]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Each player may put an artifact, creature, enchantment, or land card from his or her hand onto the battlefield.]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[Each player may put an artifact, creature, enchantment, or land card from his or her hand onto the battlefield.]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[Each player may put an artifact, creature, enchantment, or land card from his or her hand onto the battlefield.]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Each player may put an artifact, creature, enchantment, or land card from his or her hand onto the battlefield.]]></LOCALISED_TEXT>
+     <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Each player may put an artifact, creature, enchantment, or land card from his or her hand onto the battlefield.]]></LOCALISED_TEXT>
+    <RESOLUTION_TIME_ACTION repeating="1">
+    local n = MTG():GetActionRepCount()
+    local num_players = MTG():GetNumberOfPlayers()
+    local playerindex = n
+    local player = MTG():GetNthPlayer(playerindex)
+    local filter = Object():GetFilter()
+          
+    if player ~= nil and n &lt; num_players then
+           
+    -- ask the query
+    filter:Clear()
+    filter:SetPlayer( player )
+    filter:SetZone( ZONE_HAND )
+    filter:AddCardType( CARD_TYPE_CREATURE )
+    filter:AddCardType( CARD_TYPE_ARTIFACT )
+    filter:AddCardType( CARD_TYPE_ENCHANTMENT )
+    filter:AddCardType( CARD_TYPE_LAND )
+    filter:NotTargetted()
+    filter:SetHint( HINT_ALLIED, player )
+    filter:May()
+    player:ChooseTarget( NO_VALIDATION, "CARD_QUERY_CHOOSE_PERMANENT_TO_PUT_ONTO_BATTLEFIELD", EffectDC():Make_Targets(n) )
+    	return true
+    	
+    else 
+    	local i=0
+    	for i=0,(num_players-1) do
+    		local targetDC = EffectDC():Get_Targets(i)
+    		
+    		if targetDC ~= nil then
+    		  local target_card = targetDC:Get_CardPtr(0)
+    		  if target_card ~= nil then
+    		    if target_card:GetCardType():Test( CARD_TYPE_ENCHANTMENT ) ~= 0 and target_card:GetSubType():Test( ENCHANTMENT_TYPE_AURA ) ~= 0 then
+    				target_card:GetPlayer():PseudoPlaySpell(target_card)
+        		else
+    				target_card:PutIntoPlay( target_card:GetPlayer() )
+    			end
+    		  end
+    		end
+    	end
+    	return false
+    end
+    </RESOLUTION_TIME_ACTION>
+    <SFX text="GLOBAL_SHAPING_PLAY" />
+  </SPELL_ABILITY>
+  <AI_BASE_SCORE score="1800" zone="ZONE_HAND" />
+</CARD_V2>
