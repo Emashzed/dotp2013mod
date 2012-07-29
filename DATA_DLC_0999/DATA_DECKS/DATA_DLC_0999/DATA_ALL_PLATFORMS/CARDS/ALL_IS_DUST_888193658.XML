@@ -53,7 +53,7 @@
     <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Каждый игрок приносит в жертву все цветные перманенты под своим контролем.]]></LOCALISED_TEXT>
     <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Cada jogador sacrifica todas as permanentes coloridas que ele controla.]]></LOCALISED_TEXT>
     <FILTER>
-    return (Permanents() and InPlay() and FilteredCard():GetColour():Test( COLOUR_COLOURLESS ) == 0)
+    return (Permanents() and InPlay()) and (Black() or Red() or Green() or Blue() or White())
     </FILTER>
     <RESOLUTION_TIME_ACTION>
     if FilteredCard() ~= nil then

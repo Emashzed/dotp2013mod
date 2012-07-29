@@ -35,7 +35,7 @@
     <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Каждый раз когда Циклоп-Гладиатор атакует, вы можете заставить его нанести повреждения, равные его силе, целевому существу под контролем защищающегося игрока. Если вы это делаете, то существо наносит повреждения, равные своей силе, Циклопу-Гладиатору.]]></LOCALISED_TEXT>
     <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Toda vez que Gladiador Ciclope ataca, você pode fazer com que ele cause uma quantidade de pontos de dano igual ao seu poder à criatura alvo que o jogador defensor controla. Se fizer isso, aquela criatura causa uma quantidade de dano igual ao seu poder a Gladiador Ciclope.]]></LOCALISED_TEXT>
     <TRIGGER value="ATTACKING" simple_qualifier="self" />
-    <PLAY_TIME_ACTION>
+    <PLAY_TIME_ACTION target_choosing="1">
     local defendingPlayer = Object():GetPlayerAttacked()
     if defendingPlayer ~= nil then
 	local filter = Object():GetFilter()
