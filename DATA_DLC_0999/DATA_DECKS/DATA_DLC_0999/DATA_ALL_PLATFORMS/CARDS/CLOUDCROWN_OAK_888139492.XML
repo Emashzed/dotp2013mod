@@ -3,62 +3,63 @@
   <FILENAME text="CLOUDCROWN_OAK_888139492" />
   <CARDNAME text="CLOUDCROWN_OAK" />
   <TITLE>
-     <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Cloudcrown Oak]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Cloudcrown Oak]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Cloudcrown Oak]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Cloudcrown Oak]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Cloudcrown Oak]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[Cloudcrown Oak]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[Cloudcrown Oak]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Cloudcrown Oak]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Cloudcrown Oak]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Cloudcrown Oak]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Quercia Nembochiomata]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Wolkenwipfel-Eiche]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Chêne cimenuage]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Roble Corona de nubes]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[雲冠の樫]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[Cloudcrown Oak]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Подоблачный Дуб]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Carvalho Nubicume]]></LOCALISED_TEXT>
   </TITLE>
   <MULTIVERSEID value="888139492" />
   <ARTID value="888139492" />
   <ARTIST name="Rebecca Guay" />
   <CASTING_COST cost="{2}{G}{G}" />
   <FLAVOURTEXT>
-     <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[“Clever folk build their homes near cloudcrowns. If a hawk or even just a faerie tries to swoop in, it’ll get swatted from here to Cloverdell.”
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[“Clever folk build their homes near cloudcrowns. If a hawk or even just a faerie tries to swoop in, it’ll get swatted from here to Cloverdell.”
 —Calydd, kithkin farmer]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[“Clever folk build their homes near cloudcrowns. If a hawk or even just a faerie tries to swoop in, it’ll get swatted from here to Cloverdell.”
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[“Chi è furbo costruisce la propria casa vicino ai nembochiomati. Se un falco o anche solo uno spiritello tenta di planare, verrà spedito da qui alla Valletta dei Trifogli.”
+—Calydd, contadino kithkin]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[„Wer clever ist, baut sein Haus in der Nähe eines Wolkenwipfels. Falls ein Habicht oder sogar nur eine Sylphide versucht, hier zu landen, findet man die Überreste und Federn bis nach Cloverdell verstreut.”
+—Calydd, Kithkinlandwirt]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[« Les gens fûtés construisent leur maison près des chênes cimenuages. Tout faucon ou færie qui oserait approcher finirait illico à Trèfleval. »
+—Calydd, fermier sangami]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[“La gente astuta construye sus hogares cerca de un Corona de nubes. Si un halcón o incluso un hada trata de acercarse, será arrojado desde aquí hasta Cañada del Trébol.”
+—Calydd, granjero kithkin]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[「頭のいいやつらは雲冠のそばに家を建てるのさ。 鷹だの妖精だのが襲ってきたら、クローバーデルまで弾き飛ばされちまうからな。」
+――キスキンの農夫、カリッド]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[“Clever folk build their homes near cloudcrowns. If a hawk or even just a faerie tries to swoop in, it’ll get swatted from here to Cloverdell.”
 —Calydd, kithkin farmer]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[“Clever folk build their homes near cloudcrowns. If a hawk or even just a faerie tries to swoop in, it’ll get swatted from here to Cloverdell.”
-—Calydd, kithkin farmer]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[“Clever folk build their homes near cloudcrowns. If a hawk or even just a faerie tries to swoop in, it’ll get swatted from here to Cloverdell.”
-—Calydd, kithkin farmer]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[“Clever folk build their homes near cloudcrowns. If a hawk or even just a faerie tries to swoop in, it’ll get swatted from here to Cloverdell.”
-—Calydd, kithkin farmer]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[“Clever folk build their homes near cloudcrowns. If a hawk or even just a faerie tries to swoop in, it’ll get swatted from here to Cloverdell.”
-—Calydd, kithkin farmer]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[“Clever folk build their homes near cloudcrowns. If a hawk or even just a faerie tries to swoop in, it’ll get swatted from here to Cloverdell.”
-—Calydd, kithkin farmer]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[“Clever folk build their homes near cloudcrowns. If a hawk or even just a faerie tries to swoop in, it’ll get swatted from here to Cloverdell.”
-—Calydd, kithkin farmer]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[“Clever folk build their homes near cloudcrowns. If a hawk or even just a faerie tries to swoop in, it’ll get swatted from here to Cloverdell.”
-—Calydd, kithkin farmer]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[“Умные люди строят дома рядом с подоблачниками. Если вдруг налетит ястреб или хотя бы фея, то получит такую затрещину, что полетит до самого Кловердела!”
+— Калидд, кискен-фермер]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[“Os espertos constroem suas casas perto dos nubicumes. Se um falcão ou até mesmo uma fada tentar invadi-lo, irá parar direto em Trevovale numa pancada só.”
+— Calydd, lavrador kithkin]]></LOCALISED_TEXT>
   </FLAVOURTEXT>
   <TYPE metaname="Creature" />
-  <SUB_TYPE metaname="Treefolk" order_de-DE="0" order_es-ES="0" order_fr-FR="0" order_it-IT="0" order_jp-JA="0" order_ko-KR="0" order_pt-BR="0" order_ru-RU="0" />
-  <SUB_TYPE metaname="Warrior" order_de-DE="0" order_es-ES="0" order_fr-FR="0" order_it-IT="0" order_jp-JA="0" order_ko-KR="0" order_pt-BR="0" order_ru-RU="0" />
+  <SUB_TYPE metaname="Treefolk" order_de-DE="0" order_es-ES="1" order_fr-FR="0" order_it-IT="1" order_jp-JA="0" order_ko-KR="0" order_pt-BR="0" order_ru-RU="0" />
+  <SUB_TYPE metaname="Warrior" order_de-DE="1" order_es-ES="0" order_fr-FR="1" order_it-IT="0" order_jp-JA="1" order_ko-KR="1" order_pt-BR="1" order_ru-RU="1" />
   <EXPANSION value="DPG" />
   <RARITY metaname="C" />
   <POWER value="3" />
   <TOUGHNESS value="4" />
   <STATIC_ABILITY>
-     <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Reach]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Reach]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Reach]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Reach]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Reach]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[Reach]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[Reach]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Reach]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Reach]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Reach]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Portée]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Alcance.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Reichweite]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Raggiungere]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[到達]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[대공]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Захват]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Alcance]]></LOCALISED_TEXT>
     <CONTINUOUS_ACTION>
     local characteristics = Object():GetCurrentCharacteristics()  
     characteristics:Characteristic_Set( CHARACTERISTIC_REACH, 1 ) 
     </CONTINUOUS_ACTION>
   </STATIC_ABILITY>
+  <HELP title="MORE_INFO_BADGE_TITLE_5" body="MORE_INFO_BADGE_BODY_5" zone="ZONE_ANY" />
   <SFX text="COMBAT_BLUNT_LARGE_ATTACK" power_boundary_min="4" power_boundary_max="-1" />
   <SFX text="COMBAT_BLUNT_SMALL_ATTACK" power_boundary_min="1" power_boundary_max="3" />
 </CARD_V2>

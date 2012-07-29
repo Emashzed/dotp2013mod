@@ -3,56 +3,56 @@
   <FILENAME text="FLOWSTONE_OVERSEER_88821351" />
   <CARDNAME text="FLOWSTONE_OVERSEER" />
   <TITLE>
-     <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Flowstone Overseer]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Flowstone Overseer]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Flowstone Overseer]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Flowstone Overseer]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Flowstone Overseer]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[Flowstone Overseer]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[Flowstone Overseer]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Flowstone Overseer]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Flowstone Overseer]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Flowstone Overseer]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Schmelzstein-Aufseher]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Capataz de piedra variable]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Brigadier de fluipierre]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Sorvegliante di Mutaroccia]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[流(りゅう)動(どう)石(せき)の監(かん)視(し)者(しゃ)]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[Flowstone Overseer]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Flowstone Overseer]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Intendente de Rochafluente]]></LOCALISED_TEXT>
   </TITLE>
   <MULTIVERSEID value="88821351" />
   <ARTID value="88821351" />
   <ARTIST name="Andrew Goldhawk" />
   <CASTING_COST cost="{2}{R}{R}{R}" />
   <FLAVOURTEXT>
-     <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[The rebels couldn’t see where the roar was coming from. Then they saw it was coming from everywhere.]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[The rebels couldn’t see where the roar was coming from. Then they saw it was coming from everywhere.]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[The rebels couldn’t see where the roar was coming from. Then they saw it was coming from everywhere.]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[The rebels couldn’t see where the roar was coming from. Then they saw it was coming from everywhere.]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[The rebels couldn’t see where the roar was coming from. Then they saw it was coming from everywhere.]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[The rebels couldn’t see where the roar was coming from. Then they saw it was coming from everywhere.]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[The rebels couldn’t see where the roar was coming from. Then they saw it was coming from everywhere.]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[The rebels couldn’t see where the roar was coming from. Then they saw it was coming from everywhere.]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[The rebels couldn’t see where the roar was coming from. Then they saw it was coming from everywhere.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[The rebels couldn’t see where the roar was coming from. Then they saw it was coming from everywhere.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Zuerst konnten die Rebellen nicht sehen, woher das Gebrüll kam, doch dann merkten sie: es kam von überall.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Los rebeldes no podían ver de dónde venía el rugido. Luego vieron que venía de todas partes.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Les rebelles ne voyaient pas d’où venait ce rugissement. En fait, il venait de partout.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[I ribelli non capivano da dove venisse il ruggito. Poi si accorsero che veniva da tutte le parti.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[反逆者たちはその轟音がどこから響いてくるのかわからなかった。 やがて、それがあらゆる所から響いてきているのだとわかった。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[The rebels couldn’t see where the roar was coming from. Then they saw it was coming from everywhere.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[The rebels couldn’t see where the roar was coming from. Then they saw it was coming from everywhere.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[The rebels couldn’t see where the roar was coming from. Then they saw it was coming from everywhere.]]></LOCALISED_TEXT>
   </FLAVOURTEXT>
   <TYPE metaname="Creature" />
-  <SUB_TYPE metaname="Beast" order_de-DE="0" order_es-ES="0" order_fr-FR="0" order_it-IT="0" order_jp-JA="0" order_ko-KR="0" order_pt-BR="0" order_ru-RU="0" />
+  <SUB_TYPE metaname="Beast" />
   <EXPANSION value="DPG" />
   <RARITY metaname="R" />
   <POWER value="4" />
   <TOUGHNESS value="4" />
   <ACTIVATED_ABILITY dangerous="1" filter_zone="ZONE_IN_PLAY">
-     <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[{R}{R}: Target creature gets +1/-1 until end of turn.]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[{R}{R}: Target creature gets +1/-1 until end of turn.]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[{R}{R}: Target creature gets +1/-1 until end of turn.]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[{R}{R}: Target creature gets +1/-1 until end of turn.]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[{R}{R}: Target creature gets +1/-1 until end of turn.]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[{R}{R}: Target creature gets +1/-1 until end of turn.]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[{R}{R}: Target creature gets +1/-1 until end of turn.]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[{R}{R}: Target creature gets +1/-1 until end of turn.]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[{R}{R}: Target creature gets +1/-1 until end of turn.]]></LOCALISED_TEXT>
-	<COST type="Mana" cost="{R}{R}" />
-	<TARGET_DEFINITION id="0">
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[{R}{R}: Target creature gets +1/-1 until end of turn.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[{R}{R} : La créature ciblée gagne +1/-1 jusqu’à la fin du tour.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[{R}{R}: Eine Kreatur deiner Wahl erhält +1/-1 bis zum Ende des Zuges.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[{R}{R}: La criatura objetivo obtiene +1/-1 hasta el final del turno.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[{R}{R}: Una creatura bersaglio prende +1/-1 fino alla fine del turno.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[{R}{R}：クリーチャー１体を対象とする。それはターン終了時まで＋１/－１の修整を受ける。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[{R}{R}: Target creature gets +1/-1 until end of turn.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[{R}{R}: Target creature gets +1/-1 until end of turn.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[{R}{R}: Target creature gets +1/-1 until end of turn.]]></LOCALISED_TEXT>
+    <COST type="Mana" cost="{R}{R}" />
+    <TARGET_DEFINITION id="0">
     local filter = Object():GetFilter()
     filter:Clear()
     filter:AddCardType( CARD_TYPE_CREATURE )
     filter:SetHint( HINT_NEUTRAL, EffectController() )
     filter:SetZone( ZONE_IN_PLAY )
     </TARGET_DEFINITION>
-	<TARGET_DETERMINATION>
+    <TARGET_DETERMINATION>
     return AtLeastOneTargetFromDefinition(0)
     </TARGET_DETERMINATION>
     <PLAY_TIME_ACTION target_choosing="1">
@@ -63,11 +63,11 @@
     if target ~= nil then
     	local characteristics = target:GetCurrentCharacteristics()
     	characteristics:Power_Add( 1 )
-		characteristics:Toughness_Add( -1 )
+    	characteristics:Toughness_Add( -1 )
     end
     </CONTINUOUS_ACTION>
-	<DURATION simple_duration="UntilEOT" />
-	<AI_AVAILABILITY type="in_response" />
+    <DURATION simple_duration="UntilEOT" />
+    <AI_AVAILABILITY type="in_response" />
     <AI_AVAILABILITY step="begin_combat" turn="their_turn" />
     <AI_AVAILABILITY step="main_1" turn="my_turn" />
     <AI_AVAILABILITY step="declare_attackers" turn="their_turn" />

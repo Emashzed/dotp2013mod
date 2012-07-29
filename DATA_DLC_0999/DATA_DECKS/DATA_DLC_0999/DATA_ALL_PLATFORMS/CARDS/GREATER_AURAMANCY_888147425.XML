@@ -3,51 +3,51 @@
   <FILENAME text="GREATER_AURAMANCY_888147425" />
   <CARDNAME text="GREATER_AURAMANCY" />
   <TITLE>
-     <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Greater Auramancy]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Greater Auramancy]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Greater Auramancy]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Greater Auramancy]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Greater Auramancy]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[Greater Auramancy]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[Greater Auramancy]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Greater Auramancy]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Greater Auramancy]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Greater Auramancy]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Auramanzia Potenziata]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Erweiterte Auramagie]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Grande auramancie]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Auramancia superior]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[偉大なるオーラ術]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[Greater Auramancy]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Высокая Ауромантия]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Auromancia Superior]]></LOCALISED_TEXT>
   </TITLE>
   <MULTIVERSEID value="888147425" />
   <ARTID value="888147425" />
   <ARTIST name="Chuck Lukacs" />
   <CASTING_COST cost="{1}{W}" />
   <FLAVOURTEXT>
-     <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[A delicate veil of glamers can prove as sturdy as iron.]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[A delicate veil of glamers can prove as sturdy as iron.]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[A delicate veil of glamers can prove as sturdy as iron.]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[A delicate veil of glamers can prove as sturdy as iron.]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[A delicate veil of glamers can prove as sturdy as iron.]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[A delicate veil of glamers can prove as sturdy as iron.]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[A delicate veil of glamers can prove as sturdy as iron.]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[A delicate veil of glamers can prove as sturdy as iron.]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[A delicate veil of glamers can prove as sturdy as iron.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[A delicate veil of glamers can prove as sturdy as iron.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Un delicato velo di insidie può mostrarsi più resistente del ferro.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Ein fein gewebter Schleier aus Tarnzaubern kann so robust wie Stahl sein.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Un voile délicat d’illusion peut s’avérer aussi résistant que le fer.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Un delicado velo de ilusiones puede ser tan fuerte como el hierro.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[繊細な魔法の覆いが鉄より頑丈なこともある。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[A delicate veil of glamers can prove as sturdy as iron.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Легкая завеса из заговоров порой прочнее железа.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Um delicado véu de glamir pode ser tão forte quanto o aço.]]></LOCALISED_TEXT>
   </FLAVOURTEXT>
   <TYPE metaname="Enchantment" />
   <EXPANSION value="DPG" />
   <RARITY metaname="R" />
-  <STATIC_ABILITY>
-     <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Other enchantments you control have shroud.]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Other enchantments you control have shroud.]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Other enchantments you control have shroud.]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Other enchantments you control have shroud.]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Other enchantments you control have shroud.]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[Other enchantments you control have shroud.]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[Other enchantments you control have shroud.]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Other enchantments you control have shroud.]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Other enchantments you control have shroud.]]></LOCALISED_TEXT>
+  <STATIC_ABILITY filter_zone="ZONE_IN_PLAY">
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Other enchantments you control have shroud.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Gli altri incantesimi che controlli hanno velo.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Andere Verzauberungen, die du kontrollierst, sind Verhüllt.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Les autres enchantements que vous contrôlez ont le linceul.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Los otros encantamientos que controlas tienen la habilidad de velo.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[あなたがコントロールする他のエンチャントは被覆を持つ。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[Other enchantments you control have shroud.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Другие чары под вашим контролем имеют Пелену.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Os outros encantamentos que você controla têm manto.]]></LOCALISED_TEXT>
     <FILTER>
     local filteredCard = FilteredCard()
     local objectPlayer = EffectController()
     return (filteredCard:GetCardType():Test( CARD_TYPE_ENCHANTMENT ) ~= 0) and
     (filteredCard:GetPlayer() == objectPlayer) and
     (filteredCard ~= nil and
-	filteredCard ~= Object() and
+    filteredCard ~= Object() and
     filteredCard:GetZone() == ZONE_IN_PLAY)
     </FILTER>
     <CONTINUOUS_ACTION layer="6">
@@ -59,24 +59,24 @@
     end
     </CONTINUOUS_ACTION>
   </STATIC_ABILITY>
-  <STATIC_ABILITY>
-     <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Enchanted creatures you control have shroud.]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Enchanted creatures you control have shroud.]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Enchanted creatures you control have shroud.]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Enchanted creatures you control have shroud.]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Enchanted creatures you control have shroud.]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[Enchanted creatures you control have shroud.]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[Enchanted creatures you control have shroud.]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Enchanted creatures you control have shroud.]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Enchanted creatures you control have shroud.]]></LOCALISED_TEXT>
-	<FILTER>
+  <STATIC_ABILITY filter_zone="ZONE_IN_PLAY">
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Enchanted creatures you control have shroud.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Le creature incantate che controlli hanno velo.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Verzauberte Kreaturen, die du kontrollierst, sind Verhüllt.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Les créatures enchantées que vous contrôlez ont le linceul.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Las criaturas encantadas que controlas tienen la habilidad de velo.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[あなたがコントロールしている、エンチャントされている各クリーチャーは被覆を持つ。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[Enchanted creatures you control have shroud.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Зачарованные существа под вашим контролем имеют Пелену.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[As criaturas encantadas que você controla têm manto.]]></LOCALISED_TEXT>
+    <FILTER>
     return (FilteredCard() ~= nil and 
     FilteredCard():GetCardType():Test( CARD_TYPE_CREATURE ) ~= 0 and 
     FilteredCard():GetZone() == (ZONE_IN_PLAY) and 
     (FilteredCard():IsEnchanted() ~= 0) and 
     FilteredCard():GetPlayer() == Object():GetPlayer())
     </FILTER>
-	<CONTINUOUS_ACTION layer="6">
+    <CONTINUOUS_ACTION layer="6">
     if FilteredCard() ~= nil then
     	local characteristics = FilteredCard():GetCurrentCharacteristics()
     	if characteristics ~= nil then

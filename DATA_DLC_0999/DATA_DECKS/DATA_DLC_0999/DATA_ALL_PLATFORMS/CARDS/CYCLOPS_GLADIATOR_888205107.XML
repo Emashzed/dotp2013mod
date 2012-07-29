@@ -3,60 +3,60 @@
   <FILENAME text="CYCLOPS_GLADIATOR_888205107" />
   <CARDNAME text="CYCLOPS_GLADIATOR" />
   <TITLE>
-     <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Cyclops Gladiator]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Cyclops Gladiator]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Cyclops Gladiator]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Cyclops Gladiator]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Cyclops Gladiator]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[Cyclops Gladiator]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[Cyclops Gladiator]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Cyclops Gladiator]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Cyclops Gladiator]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Cyclops Gladiator]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Ciclope Gladiatore]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Zyklop -Gladiator]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Gladiateur cyclope]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Gladiador cíclope]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[サイクロプスの剣闘士]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[Cyclops Gladiator]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Циклоп-Гладиатор]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Gladiador Ciclope]]></LOCALISED_TEXT>
   </TITLE>
   <MULTIVERSEID value="888205107" />
   <ARTID value="888205107" />
   <ARTIST name="Kev Walker" />
   <CASTING_COST cost="{1}{R}{R}{R}" />
   <TYPE metaname="Creature" />
-  <SUB_TYPE metaname="Cyclops" order_de-DE="0" order_es-ES="0" order_fr-FR="0" order_it-IT="0" order_jp-JA="0" order_ko-KR="0" order_pt-BR="0" order_ru-RU="0" />
-  <SUB_TYPE metaname="Warrior" order_de-DE="0" order_es-ES="0" order_fr-FR="0" order_it-IT="0" order_jp-JA="0" order_ko-KR="0" order_pt-BR="0" order_ru-RU="0" />
+  <SUB_TYPE metaname="Cyclops" order_de-DE="0" order_es-ES="1" order_fr-FR="0" order_it-IT="1" order_jp-JA="0" order_ko-KR="0" order_pt-BR="0" order_ru-RU="0" />
+  <SUB_TYPE metaname="Warrior" order_de-DE="1" order_es-ES="0" order_fr-FR="1" order_it-IT="0" order_jp-JA="1" order_ko-KR="1" order_pt-BR="1" order_ru-RU="1" />
   <EXPANSION value="DPG" />
   <RARITY metaname="R" />
   <POWER value="4" />
   <TOUGHNESS value="4" />
   <TRIGGERED_ABILITY dangerous="1" filter_zone="ZONE_IN_PLAY">
-     <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Whenever Cyclops Gladiator attacks, you may have it deal damage equal to its power to target creature defending player controls. If you do, that creature deals damage equal to its power to Cyclops Gladiator.]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Whenever Cyclops Gladiator attacks, you may have it deal damage equal to its power to target creature defending player controls. If you do, that creature deals damage equal to its power to Cyclops Gladiator.]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Whenever Cyclops Gladiator attacks, you may have it deal damage equal to its power to target creature defending player controls. If you do, that creature deals damage equal to its power to Cyclops Gladiator.]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Whenever Cyclops Gladiator attacks, you may have it deal damage equal to its power to target creature defending player controls. If you do, that creature deals damage equal to its power to Cyclops Gladiator.]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Whenever Cyclops Gladiator attacks, you may have it deal damage equal to its power to target creature defending player controls. If you do, that creature deals damage equal to its power to Cyclops Gladiator.]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[Whenever Cyclops Gladiator attacks, you may have it deal damage equal to its power to target creature defending player controls. If you do, that creature deals damage equal to its power to Cyclops Gladiator.]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[Whenever Cyclops Gladiator attacks, you may have it deal damage equal to its power to target creature defending player controls. If you do, that creature deals damage equal to its power to Cyclops Gladiator.]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Whenever Cyclops Gladiator attacks, you may have it deal damage equal to its power to target creature defending player controls. If you do, that creature deals damage equal to its power to Cyclops Gladiator.]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Whenever Cyclops Gladiator attacks, you may have it deal damage equal to its power to target creature defending player controls. If you do, that creature deals damage equal to its power to Cyclops Gladiator.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Whenever Cyclops Gladiator attacks, you may have it deal damage equal to its power to target creature defending player controls. If you do, that creature deals damage equal to its power to Cyclops Gladiator.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Ogniqualvolta il Ciclope Gladiatore attacca, puoi fargli infliggere danno pari alla sua forza a una creatura bersaglio controllata dal giocatore in difesa. Se lo fai, quella creatura infligge danno pari alla sua forza al Ciclope Gladiatore.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Immer wenn der Zyklop -Gladiator angreift, kannst du ihn einer Kreatur deiner Wahl, die der verteidigende Spieler kontrolliert, Schadenspunkte in Höhe seiner Stärke zufügen lassen. Falls du dies tust, fügt diese Kreatur dem Zyklop -Gladiator Schadenspunkte in Höhe ihrer Stärke zu.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[À chaque fois que le Gladiateur cyclope attaque, vous pouvez faire qu’il inflige un nombre de blessures égal à sa force à une créature ciblée que le joueur défenseur contrôle. Si vous faites ainsi, cette créature inflige au Gladiateur cyclope un nombre de blessures égal à sa force.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Siempre que el Gladiador cíclope ataque, puedes hacer que le haga daño igual a su fuerza a la criatura objetivo que controle el jugador defensor. Si lo haces, esa criatura le hace daño igual a su fuerza al Gladiador cíclope.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[サイクロプスの剣闘士が攻撃するたび、防御プレイヤーがコントロールするクリーチャー１体を対象とする。あなたは「サイクロプスの剣闘士はそれに自身のパワーに等しい点数のダメージを与える。」を選んでもよい。 そうした場合、そのクリーチャーは自身のパワーに等しい点数のダメージをサイクロプスの剣闘士に与える。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[Whenever Cyclops Gladiator attacks, you may have it deal damage equal to its power to target creature defending player controls. If you do, that creature deals damage equal to its power to Cyclops Gladiator.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Каждый раз когда Циклоп-Гладиатор атакует, вы можете заставить его нанести повреждения, равные его силе, целевому существу под контролем защищающегося игрока. Если вы это делаете, то существо наносит повреждения, равные своей силе, Циклопу-Гладиатору.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Toda vez que Gladiador Ciclope ataca, você pode fazer com que ele cause uma quantidade de pontos de dano igual ao seu poder à criatura alvo que o jogador defensor controla. Se fizer isso, aquela criatura causa uma quantidade de dano igual ao seu poder a Gladiador Ciclope.]]></LOCALISED_TEXT>
     <TRIGGER value="ATTACKING" simple_qualifier="self" />
-	<PLAY_TIME_ACTION target_choosing="1">
+    <PLAY_TIME_ACTION>
     local defendingPlayer = Object():GetPlayerAttacked()
-	if defendingPlayer ~= nil then
-		local filter = Object():GetFilter()
-		filter:Clear()
-		filter:SetController( defendingPlayer )
-		filter:AddCardType( CARD_TYPE_CREATURE )
-		filter:SetZone( ZONE_IN_PLAY )
-		filter:SetHint( HINT_ENEMY, EffectController() )
-		filter:May()
+    if defendingPlayer ~= nil then
+	local filter = Object():GetFilter()
+	filter:Clear()
+	filter:SetController( defendingPlayer )
+	filter:AddCardType( CARD_TYPE_CREATURE )
+	filter:SetZone( ZONE_IN_PLAY )
+	filter:SetHint( HINT_ENEMY, EffectController() )
+	filter:May()
     	filter:AIMay()
-		EffectController():ChooseTarget( NO_VALIDATION, "CARD_QUERY_CHOOSE_CREATURE_TO_ARENA", EffectDC():Make_Targets(0) )
-	end
+	EffectController():ChooseTarget( NO_VALIDATION, "CARD_QUERY_CHOOSE_CREATURE_TO_ARENA", EffectDC():Make_Targets(0) )
+    end
     </PLAY_TIME_ACTION>
-	<RESOLUTION_TIME_ACTION>
+    <RESOLUTION_TIME_ACTION>
     local target = EffectDC():Get_Targets(0):Get_CardPtr(0)
     if target ~= nil and Object() ~= nil then 
     	local mydamage = Object():GetCurrentPower()
-		local targetdamage = target:GetCurrentPower()
-    	
-		target:DealDamage(mydamage, Object())
-		Object():DealDamage(targetdamage, target)
+	local targetdamage = target:GetCurrentPower()
+
+	target:DealDamage(mydamage, Object())
+	Object():DealDamage(targetdamage, target)
     end
     </RESOLUTION_TIME_ACTION>
   </TRIGGERED_ABILITY>

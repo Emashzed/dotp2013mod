@@ -3,53 +3,53 @@
   <FILENAME text="DEEPCHANNEL_MENTOR_888141981" />
   <CARDNAME text="DEEPCHANNEL_MENTOR" />
   <TITLE>
-     <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Deepchannel Mentor]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Deepchannel Mentor]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Deepchannel Mentor]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Deepchannel Mentor]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Deepchannel Mentor]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[Deepchannel Mentor]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[Deepchannel Mentor]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Deepchannel Mentor]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Deepchannel Mentor]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Deepchannel Mentor]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Mentore dei Canali Profondi]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Mentor der tiefsten Gewässer]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Mentor plongechenal]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Mentor canal profundo]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[深水路の導師]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[Deepchannel Mentor]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Подводный Наставник]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Mentor dos Canais Profundos]]></LOCALISED_TEXT>
   </TITLE>
   <MULTIVERSEID value="888141981" />
   <ARTID value="888141981" />
   <ARTIST name="Jesper Ejsing" />
   <CASTING_COST cost="{5}{U}" />
   <FLAVOURTEXT>
-     <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[The rivers can no longer provide safe passage for travelers and commerce. They serve only as highways for raiders and channels for blood and woe.]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[The rivers can no longer provide safe passage for travelers and commerce. They serve only as highways for raiders and channels for blood and woe.]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[The rivers can no longer provide safe passage for travelers and commerce. They serve only as highways for raiders and channels for blood and woe.]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[The rivers can no longer provide safe passage for travelers and commerce. They serve only as highways for raiders and channels for blood and woe.]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[The rivers can no longer provide safe passage for travelers and commerce. They serve only as highways for raiders and channels for blood and woe.]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[The rivers can no longer provide safe passage for travelers and commerce. They serve only as highways for raiders and channels for blood and woe.]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[The rivers can no longer provide safe passage for travelers and commerce. They serve only as highways for raiders and channels for blood and woe.]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[The rivers can no longer provide safe passage for travelers and commerce. They serve only as highways for raiders and channels for blood and woe.]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[The rivers can no longer provide safe passage for travelers and commerce. They serve only as highways for raiders and channels for blood and woe.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[The rivers can no longer provide safe passage for travelers and commerce. They serve only as highways for raiders and channels for blood and woe.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[I fiumi non possono più fornire un passaggio sicuro per viaggiatori e commercianti. Servono solo come strade maestre per i razziatori e canali per il sangue e la disperazione.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Reisende und Händler sind auf den Flüssen nicht mehr sicher. Nur noch Plünderer sind auf den Wasserstraßen unterwegs und hinterlassen Blut und Leid.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Les rivières ne sont plus sûres pour les voyageurs et le commerce. Ce sont des viviers pour les pillards et des canaux qui portent sang et malheur.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Los ríos ya no pueden dar un pasaje seguro a los viajantes y el comercio. Sólo sirven como vías para los incursores y canales para la sangre y la maldad.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[旅人や商人にとっては、川はもはや安全な道筋とは言えない。 それは襲撃者にとっての通路であり、血と悲哀の流れるところである。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[The rivers can no longer provide safe passage for travelers and commerce. They serve only as highways for raiders and channels for blood and woe.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Реки перестали быть безопасными для путешественников и торговцев. Это пути, на которых хозяйничают бандиты, и в их руслах текут потоки крови и страданий.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Os rios não podem mais proporcionar uma travessia segura nem para os viajantes nem para o comércio. São apenas vias para baderneiros e canais de sangue e desgraças.]]></LOCALISED_TEXT>
   </FLAVOURTEXT>
   <TYPE metaname="Creature" />
-  <SUB_TYPE metaname="Merfolk" order_de-DE="0" order_es-ES="0" order_fr-FR="0" order_it-IT="0" order_jp-JA="0" order_ko-KR="0" order_pt-BR="0" order_ru-RU="0" />
-  <SUB_TYPE metaname="Rogue" order_de-DE="0" order_es-ES="0" order_fr-FR="0" order_it-IT="0" order_jp-JA="0" order_ko-KR="0" order_pt-BR="0" order_ru-RU="0" />
+  <SUB_TYPE metaname="Merfolk" order_de-DE="0" order_es-ES="1" order_fr-FR="0" order_it-IT="1" order_jp-JA="0" order_ko-KR="0" order_pt-BR="0" order_ru-RU="0" />
+  <SUB_TYPE metaname="Rogue" order_de-DE="1" order_es-ES="0" order_fr-FR="1" order_it-IT="0" order_jp-JA="1" order_ko-KR="1" order_pt-BR="1" order_ru-RU="1" />
   <EXPANSION value="DPG" />
   <RARITY metaname="U" />
   <POWER value="2" />
   <TOUGHNESS value="2" />
   <STATIC_ABILITY filter_zone="ZONE_IN_PLAY">
-     <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Blue creatures you control are unblockable.]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Blue creatures you control are unblockable.]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Blue creatures you control are unblockable.]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Blue creatures you control are unblockable.]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Blue creatures you control are unblockable.]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[Blue creatures you control are unblockable.]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[Blue creatures you control are unblockable.]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Blue creatures you control are unblockable.]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Blue creatures you control are unblockable.]]></LOCALISED_TEXT>
-	 <FILTER>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Blue creatures you control are unblockable.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Le creature blu che controlli non possono essere bloccate.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Blaue Kreaturen, die du kontrollierst, sind unblockbar.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Les créatures bleues que vous contrôlez sont imblocables.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Las criaturas azules que controlas son imbloqueables.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[あなたがコントロールする青のクリーチャーはブロックされない。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[Blue creatures you control are unblockable.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Синие существа под вашим контролем не могут быть заблокированы.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[As criaturas azuis que você controla não podem ser bloqueadas.]]></LOCALISED_TEXT>
+    <FILTER>
     return CreaturesYouControl() and Blue()
     </FILTER>
-	<CONTINUOUS_ACTION layer="6">
-	if FilteredCard() ~= nil then
+    <CONTINUOUS_ACTION layer="6">
+    if FilteredCard() ~= nil then
     	local characteristics = FilteredCard():GetCurrentCharacteristics()
     	if characteristics ~= nil then
     		characteristics:Characteristic_Set( CHARACTERISTIC_UNBLOCKABLE, 1 )
@@ -57,6 +57,7 @@
     end
     </CONTINUOUS_ACTION>
   </STATIC_ABILITY>
+  <HELP title="MORE_INFO_BADGE_TITLE_9" body="MORE_INFO_BADGE_BODY_9" zone="ZONE_ANY" />
   <SFX text="COMBAT_BLADE_LARGE_ATTACK" power_boundary_min="4" power_boundary_max="-1" />
   <SFX text="COMBAT_BLADE_SMALL_ATTACK" power_boundary_min="1" power_boundary_max="3" />
 </CARD_V2>

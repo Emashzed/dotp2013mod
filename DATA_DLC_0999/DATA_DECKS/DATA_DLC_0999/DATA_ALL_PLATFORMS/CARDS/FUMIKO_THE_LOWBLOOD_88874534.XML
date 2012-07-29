@@ -3,15 +3,15 @@
   <FILENAME text="FUMIKO_THE_LOWBLOOD_88874534" />
   <CARDNAME text="FUMIKO_THE_LOWBLOOD" />
   <TITLE>
-     <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Fumiko the Lowblood]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Fumiko the Lowblood]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Fumiko the Lowblood]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Fumiko the Lowblood]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Fumiko the Lowblood]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[Fumiko the Lowblood]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[Fumiko the Lowblood]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Fumiko the Lowblood]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Fumiko the Lowblood]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Fumiko the Lowblood]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Fumiko Sanguepovero]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Fumiko, die Tiefgeborene]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Fumiko la manante]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Fumiko sangre impura]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[卑血の芙巳子]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[Fumiko the Lowblood]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Fumiko the Lowblood]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Fumiko a Sangue Ruim]]></LOCALISED_TEXT>
   </TITLE>
   <MULTIVERSEID value="88874534" />
   <ARTID value="88874534" />
@@ -19,25 +19,25 @@
   <CASTING_COST cost="{2}{R}{R}" />
   <SUPERTYPE metaname="Legendary" />
   <TYPE metaname="Creature" />
-  <SUB_TYPE metaname="Human" order_de-DE="0" order_es-ES="0" order_fr-FR="0" order_it-IT="0" order_jp-JA="0" order_ko-KR="0" order_pt-BR="0" order_ru-RU="0" />
-  <SUB_TYPE metaname="Samurai" order_de-DE="0" order_es-ES="0" order_fr-FR="0" order_it-IT="0" order_jp-JA="0" order_ko-KR="0" order_pt-BR="0" order_ru-RU="0" />
+  <SUB_TYPE metaname="Human" order_de-DE="0" order_es-ES="1" order_fr-FR="0" order_it-IT="1" order_jp-JA="0" order_ko-KR="0" order_pt-BR="0" order_ru-RU="0" />
+  <SUB_TYPE metaname="Samurai" order_de-DE="1" order_es-ES="0" order_fr-FR="1" order_it-IT="0" order_jp-JA="1" order_ko-KR="1" order_pt-BR="1" order_ru-RU="1" />
   <EXPANSION value="DPG" />
   <RARITY metaname="R" />
   <POWER value="3" />
   <TOUGHNESS value="2" />
   <TRIGGERED_ABILITY dangerous="1" filter_zone="ZONE_IN_PLAY">
-     <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Fumiko the Lowblood has bushido X, where X is the number of attacking creatures. |(When this blocks or becomes blocked, it gets +X/+X until end of turn.)|]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Fumiko the Lowblood has bushido X, where X is the number of attacking creatures. |(When this blocks or becomes blocked, it gets +X/+X until end of turn.)|]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Fumiko the Lowblood has bushido X, where X is the number of attacking creatures. |(When this blocks or becomes blocked, it gets +X/+X until end of turn.)|]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Fumiko the Lowblood has bushido X, where X is the number of attacking creatures. |(When this blocks or becomes blocked, it gets +X/+X until end of turn.)|]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Fumiko the Lowblood has bushido X, where X is the number of attacking creatures. |(When this blocks or becomes blocked, it gets +X/+X until end of turn.)|]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[Fumiko the Lowblood has bushido X, where X is the number of attacking creatures. |(When this blocks or becomes blocked, it gets +X/+X until end of turn.)|]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[Fumiko the Lowblood has bushido X, where X is the number of attacking creatures. |(When this blocks or becomes blocked, it gets +X/+X until end of turn.)|]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Fumiko the Lowblood has bushido X, where X is the number of attacking creatures. |(When this blocks or becomes blocked, it gets +X/+X until end of turn.)|]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Fumiko the Lowblood has bushido X, where X is the number of attacking creatures. |(When this blocks or becomes blocked, it gets +X/+X until end of turn.)|]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Fumiko the Lowblood has bushido X, where X is the number of attacking creatures. |(When this blocks or becomes blocked, it gets +X/+X until end of turn.)|]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Fumiko Sanguepovero ha bushido X, dove X è pari al numero di creature attaccanti. |(Quando questa blocca o viene bloccata, prende +X/+X fino alla fine del turno.)|]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Fumiko, die Tiefgeborene hat Bushido X, wobei X gleich der Anzahl der angreifenden Kreaturen ist. |(Wenn diese Karte blockt oder geblockt wird, erhält sie +X/+X bis zum Ende des Zuges.)|]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Fumiko la manante a bushido X, X étant le nombre de créatures attaquantes. |(Quand cette créature bloque ou devient bloquée, elle gagne +X/+X jusqu’à la fin du tour.)|]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Fumiko sangre impura tiene bushido X, donde X es el número de criaturas atacantes. |(Cuando bloquee o sea bloqueada, obtiene +X/+X hasta el final del turno.)|]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[卑血の芙巳子は「武士道 X」の能力を持つ。Ｘは攻撃クリーチャーの総数に等しい。 （これがブロックに参加するかブロックされた状態になるたび、それはターン終了時まで＋Ｘ/＋Ｘの修整を受ける。）]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[Fumiko the Lowblood has bushido X, where X is the number of attacking creatures. |(When this blocks or becomes blocked, it gets +X/+X until end of turn.)|]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Fumiko the Lowblood has bushido X, where X is the number of attacking creatures. |(When this blocks or becomes blocked, it gets +X/+X until end of turn.)|]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Fumiko a Sangue Ruim tem bushido X, sendo X igual ao número de criaturas atacantes. |(Quando este bloquear ou for bloqueado, ele recebe +X/+X até o final do turno.)|]]></LOCALISED_TEXT>
     <TRIGGER value="BLOCKING" simple_qualifier="self" />
-	<RESOLUTION_TIME_ACTION>
-	local filter = Object():GetFilter()
+    <RESOLUTION_TIME_ACTION>
+    local filter = Object():GetFilter()
     filter:Clear()
     filter:SetZone( ZONE_IN_PLAY )
     filter:AddCardType( CARD_TYPE_CREATURE )
@@ -45,8 +45,8 @@
     filter:NotTargetted()
     local total = filter:Count()
     ObjectDC():Set_Int( COMPARTMENT_ID_INT_BUSHIDO_POINTS, total )
-	</RESOLUTION_TIME_ACTION>
-	<CONTINUOUS_ACTION layer="7C">
+    </RESOLUTION_TIME_ACTION>
+    <CONTINUOUS_ACTION layer="7C">
     if EffectSource() ~= nil then
     	local total = ObjectDC():Get_Int( COMPARTMENT_ID_INT_BUSHIDO_POINTS )
     	local characteristics = EffectSource():GetCurrentCharacteristics()
@@ -58,8 +58,8 @@
   </TRIGGERED_ABILITY>
   <TRIGGERED_ABILITY dangerous="1" filter_zone="ZONE_IN_PLAY">
     <TRIGGER value="WAS_BLOCKED" simple_qualifier="self" />
-	<RESOLUTION_TIME_ACTION>
-	local filter = Object():GetFilter()
+    <RESOLUTION_TIME_ACTION>
+    local filter = Object():GetFilter()
     filter:Clear()
     filter:SetZone( ZONE_IN_PLAY )
     filter:AddCardType( CARD_TYPE_CREATURE )
@@ -67,8 +67,8 @@
     filter:NotTargetted()
     local total = filter:Count()
     ObjectDC():Set_Int( COMPARTMENT_ID_INT_BUSHIDO_POINTS, total )
-	</RESOLUTION_TIME_ACTION>
-	<CONTINUOUS_ACTION layer="7C">
+    </RESOLUTION_TIME_ACTION>
+    <CONTINUOUS_ACTION layer="7C">
     if EffectSource() ~= nil then
     	local total = ObjectDC():Get_Int( COMPARTMENT_ID_INT_BUSHIDO_POINTS )
     	local characteristics = EffectSource():GetCurrentCharacteristics()
@@ -79,15 +79,15 @@
     <DURATION simple_duration="UntilEOT" />
   </TRIGGERED_ABILITY>
   <STATIC_ABILITY filter_zone="ZONE_IN_PLAY">
-     <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Creatures your opponents control attack each turn if able.]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Creatures your opponents control attack each turn if able.]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Creatures your opponents control attack each turn if able.]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Creatures your opponents control attack each turn if able.]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Creatures your opponents control attack each turn if able.]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[Creatures your opponents control attack each turn if able.]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[Creatures your opponents control attack each turn if able.]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Creatures your opponents control attack each turn if able.]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Creatures your opponents control attack each turn if able.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Creatures your opponents control attack each turn if able.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Le creature controllare dai tuoi avversari attaccano ogni turno, se possono farlo.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Kreaturen, die deine Gegner kontrollieren, greifen in jedem Zug an, falls möglich.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Les créatures contrôlées par vos adversaires attaquent à chaque tour si possible.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Las criaturas que controlen tus oponentes atacan cada turno si pueden.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[あなたの対戦相手がコントロールするクリーチャーは、可能なら毎ターン攻撃に参加する。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[Creatures your opponents control attack each turn if able.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Creatures your opponents control attack each turn if able.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[As criaturas que seus oponentes controlam atacam a cada turno se estiverem aptas.]]></LOCALISED_TEXT>
     <FILTER>
     return (FilteredCard() ~= nil and 
     FilteredCard():GetCardType():Test( CARD_TYPE_CREATURE ) ~= 0 and 

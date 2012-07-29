@@ -3,37 +3,37 @@
   <FILENAME text="KELDON_MARAUDERS_888125885" />
   <CARDNAME text="KELDON_MARAUDERS" />
   <TITLE>
-     <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Keldon Marauders]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Keldon Marauders]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Keldon Marauders]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Keldon Marauders]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Keldon Marauders]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[Keldon Marauders]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[Keldon Marauders]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Keldon Marauders]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Keldon Marauders]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Keldon Marauders]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Predoni di Keld]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Keldonischer Marodeur]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Maraudeurs keldes]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Merodeadores keldon]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[ケルドの匪賊]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[Keldon Marauders]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Келдонские Мародеры]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Saqueadores Keldonianos]]></LOCALISED_TEXT>
   </TITLE>
   <MULTIVERSEID value="888125885" />
   <ARTID value="888125885" />
   <ARTIST name="Alex Horley-Orlandelli" />
   <CASTING_COST cost="{1}{R}" />
   <TYPE metaname="Creature" />
-  <SUB_TYPE metaname="Human" order_de-DE="0" order_es-ES="0" order_fr-FR="0" order_it-IT="0" order_jp-JA="0" order_ko-KR="0" order_pt-BR="0" order_ru-RU="0" />
-  <SUB_TYPE metaname="Warrior" order_de-DE="0" order_es-ES="0" order_fr-FR="0" order_it-IT="0" order_jp-JA="0" order_ko-KR="0" order_pt-BR="0" order_ru-RU="0" />
+  <SUB_TYPE metaname="Human" order_de-DE="0" order_es-ES="1" order_fr-FR="0" order_it-IT="1" order_jp-JA="0" order_ko-KR="0" order_pt-BR="0" order_ru-RU="0" />
+  <SUB_TYPE metaname="Warrior" order_de-DE="1" order_es-ES="0" order_fr-FR="1" order_it-IT="0" order_jp-JA="1" order_ko-KR="1" order_pt-BR="1" order_ru-RU="1" />
   <EXPANSION value="DPG" />
   <RARITY metaname="C" />
   <POWER value="3" />
   <TOUGHNESS value="3" />
   <TRIGGERED_ABILITY internal="1" pre_trigger="1" filter_zone="ZONE_IN_PLAY" active_zone="ZONE_TRANSITION">
-     <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Vanishing 2 |(This permanent enters the battlefield with two time counters on it. At the beginning of your upkeep, remove a time counter from it. When the last is removed, sacrifice it.)|]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Vanishing 2 |(This permanent enters the battlefield with two time counters on it. At the beginning of your upkeep, remove a time counter from it. When the last is removed, sacrifice it.)|]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Vanishing 2 |(This permanent enters the battlefield with two time counters on it. At the beginning of your upkeep, remove a time counter from it. When the last is removed, sacrifice it.)|]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Vanishing 2 |(This permanent enters the battlefield with two time counters on it. At the beginning of your upkeep, remove a time counter from it. When the last is removed, sacrifice it.)|]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Vanishing 2 |(This permanent enters the battlefield with two time counters on it. At the beginning of your upkeep, remove a time counter from it. When the last is removed, sacrifice it.)|]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[Vanishing 2 |(This permanent enters the battlefield with two time counters on it. At the beginning of your upkeep, remove a time counter from it. When the last is removed, sacrifice it.)|]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[Vanishing 2 |(This permanent enters the battlefield with two time counters on it. At the beginning of your upkeep, remove a time counter from it. When the last is removed, sacrifice it.)|]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Vanishing 2 |(This permanent enters the battlefield with two time counters on it. At the beginning of your upkeep, remove a time counter from it. When the last is removed, sacrifice it.)|]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Vanishing 2 |(This permanent enters the battlefield with two time counters on it. At the beginning of your upkeep, remove a time counter from it. When the last is removed, sacrifice it.)|]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Vanishing 2 |(This permanent enters the battlefield with two time counters on it. At the beginning of your upkeep, remove a time counter from it. When the last is removed, sacrifice it.)|]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Evanescenza 2 |(Questo permanente entra in gioco con due segnalini tempo su di esso. All’inizio del tuo mantenimento, rimuovi un segnalino tempo da esso. Quando l’ultimo viene rimosso, sacrificalo.)|]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Verschwinden 2 |(Diese bleibende Karte kommt mit zwei Zeitmarken ins Spiel. Entferne zu Beginn deines Versorgungssegments eine Zeitmarke von ihr. Wenn die letzte Zeitmarke entfernt wird, opfere die bleibende Karte.)|]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Disparition 2 |(Ce permanent arrive en jeu avec, sur lui, deux marqueurs « temps ». Au début de votre entretien, retirez-lui un marqueur « temps ». Quand le dernier marqueur est retiré, sacrifiez le permanent.)|]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Desmaterializarse 2 |(Este permanente entra en juego con dos contadores de tiempo sobre él. Al comienzo de tu mantenimiento, remueve un contador de tiempo de él. Cuando sea removido el último, sacrifícalo.)|]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[消失 ２ （このパーマネントは、時間カウンターが２個置かれた状態で場に出る。 あなたのアップキープの開始時に、それの上から時間カウンターを１個取り除く。 最後の１個が取り除かれたとき、それを生け贄に捧げる。）]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[Vanishing 2 |(This permanent enters the battlefield with two time counters on it. At the beginning of your upkeep, remove a time counter from it. When the last is removed, sacrifice it.)|]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Исчезновение 2 |(Этот перманент входит в игру с двумя временными жетонами на нем. В начале вашего шага поддержки удалите с него временной жетон. Когда удален последний, пожертвуйте его.)|]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Desaparecer 2 |(Esta permanente entra em jogo com dois marcadores temporais sobre ela. No início de sua manutenção, remova um marcador temporal dela. Quando o último for removido, sacrifique-a.)|]]></LOCALISED_TEXT>
     <TRIGGER value="ZONECHANGE_TRANSITION" simple_qualifier="self" to_zone="ZONE_IN_PLAY" />
     <RESOLUTION_TIME_ACTION>
     Object():AddCounters( MTG():GetCountersType("TIME"), 2 )
@@ -43,29 +43,25 @@
     <TRIGGER value="BEGINNING_OF_STEP" simple_qualifier="controller">
     return ( (MTG():GetStep() == STEP_UPKEEP) and (TriggerPlayer() == EffectController()) and (TriggerPlayer():MyTurn() ~= 0) and (EffectSource():CountCounters(MTG():GetCountersType("TIME")) &gt; 0))
     </TRIGGER>
-	<RESOLUTION_TIME_ACTION>
-	local source = EffectSource()
-	local player = EffectController()
-	if (source ~= nil and player ~= nil) then
-		source:RemoveCounters( MTG():GetCountersType("TIME"), 1 )
-		if source:CountCounters(MTG():GetCountersType("TIME")) &lt; 1 then
-			source:Sacrifice(player)
-		end
+    <RESOLUTION_TIME_ACTION>
+	EffectSource():RemoveCounters( MTG():GetCountersType("TIME"), 1 )
+	if EffectSource():CountCounters(MTG():GetCountersType("TIME")) &lt; 1 then
+		EffectSource():Sacrifice(EffectController())
 	end
     </RESOLUTION_TIME_ACTION>
   </TRIGGERED_ABILITY>
   <TRIGGERED_ABILITY dangerous="1" filter_zone="ZONE_IN_PLAY">
-     <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[When Keldon Marauders enters the battlefield or leaves the battlefield, it deals 1 damage to target player.]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[When Keldon Marauders enters the battlefield or leaves the battlefield, it deals 1 damage to target player.]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[When Keldon Marauders enters the battlefield or leaves the battlefield, it deals 1 damage to target player.]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[When Keldon Marauders enters the battlefield or leaves the battlefield, it deals 1 damage to target player.]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[When Keldon Marauders enters the battlefield or leaves the battlefield, it deals 1 damage to target player.]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[When Keldon Marauders enters the battlefield or leaves the battlefield, it deals 1 damage to target player.]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[When Keldon Marauders enters the battlefield or leaves the battlefield, it deals 1 damage to target player.]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[When Keldon Marauders enters the battlefield or leaves the battlefield, it deals 1 damage to target player.]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[When Keldon Marauders enters the battlefield or leaves the battlefield, it deals 1 damage to target player.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[When Keldon Marauders enters the battlefield or leaves the battlefield, it deals 1 damage to target player.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Quando i Predoni di Keld entrano nel campo di battaglia o lasciano il campo di battaglia, infliggono 1 danno a un giocatore bersaglio.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Wenn der Keldonische Marodeur ins Spiel kommt oder das Spiel verlässt, fügt er einem Spieler deiner Wahl 1 Schadenspunkt zu.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Quand les Maraudeurs keldes arrivent sur le champ de bataille ou quittent le champ de bataille, ils infligent 1 blessure au joueur ciblé.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Cuando los Merodeadores keldon entren al campo de batalla o dejen el campo de batalla, le hacen 1 punto de daño al jugador objetivo.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[ケルドの匪賊が場に出るか場を離れるかしたとき、プレイヤー１人を対象とする。ケルドの匪賊はそのプレイヤーに１点のダメージを与える。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[When Keldon Marauders enters the battlefield or leaves the battlefield, it deals 1 damage to target player.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Когда Келдонские Мародеры входят в игру или покидают ее, они наносят 1 повреждение целевому игроку.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Quando Saqueadores Keldonianos entra no campo de batalha ou deixa o campo de batalha, ele causa 1 ponto de dano ao jogador alvo.]]></LOCALISED_TEXT>
     <TRIGGER value="ZONECHANGE_END" simple_qualifier="self" to_zone="ZONE_IN_PLAY" />
-	<TARGET_DEFINITION id="0">
+    <TARGET_DEFINITION id="0">
     local filter = Object():GetFilter()
     filter:Clear()
     filter:May()
@@ -80,7 +76,7 @@
     local target_player = EffectDC():Get_Targets(0):Get_PlayerPtr(0)
     local source = EffectSource()
     if source == nil then
-      source = Object()
+    	source = Object()
     end
     if ( target_creature ~= nil ) then   
     	target_creature:DealDamage(1, source)  
@@ -93,7 +89,7 @@
   </TRIGGERED_ABILITY>
   <TRIGGERED_ABILITY dangerous="1" filter_zone="ZONE_IN_PLAY" active_zone="ZONE_ANY">
     <TRIGGER value="ZONECHANGE_END" simple_qualifier="self" to_zone="ZONE_ANY" from_zone="ZONE_IN_PLAY" />
-	<TARGET_DEFINITION id="0">
+    <TARGET_DEFINITION id="0">
     local filter = Object():GetFilter()
     filter:Clear()
     filter:May()
@@ -108,7 +104,7 @@
     local target_player = EffectDC():Get_Targets(0):Get_PlayerPtr(0)
     local source = EffectSource()
     if source == nil then
-      source = Object()
+    	source = Object()
     end
     if ( target_creature ~= nil ) then   
     	target_creature:DealDamage(1, source)  

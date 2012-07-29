@@ -3,50 +3,50 @@
   <FILENAME text="BOSK_BANNERET_888152557" />
   <CARDNAME text="BOSK_BANNERET" />
   <TITLE>
-     <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Bosk Banneret]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Bosk Banneret]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Bosk Banneret]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Bosk Banneret]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Bosk Banneret]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[Bosk Banneret]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[Bosk Banneret]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Bosk Banneret]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Bosk Banneret]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Bosk Banneret]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Stendardiere del Boschetto]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Bannerträger des Gehölzes]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Banneret du bosquet]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Banderola de la espesura]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[低木林の旗騎士]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[Bosk Banneret]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Знаменосец Рощи]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Alferes do Bosque]]></LOCALISED_TEXT>
   </TITLE>
   <MULTIVERSEID value="888152557" />
   <ARTID value="888152557" />
   <ARTIST name="Ralph Horsley" />
   <CASTING_COST cost="{1}{G}" />
   <FLAVOURTEXT>
-     <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Deep in a murmuring bosk, where the trees’ memories span centuries, the simple banner of green and copper signifies an elder whose rings number more than a faerie’s days.]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Deep in a murmuring bosk, where the trees’ memories span centuries, the simple banner of green and copper signifies an elder whose rings number more than a faerie’s days.]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Deep in a murmuring bosk, where the trees’ memories span centuries, the simple banner of green and copper signifies an elder whose rings number more than a faerie’s days.]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Deep in a murmuring bosk, where the trees’ memories span centuries, the simple banner of green and copper signifies an elder whose rings number more than a faerie’s days.]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Deep in a murmuring bosk, where the trees’ memories span centuries, the simple banner of green and copper signifies an elder whose rings number more than a faerie’s days.]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[Deep in a murmuring bosk, where the trees’ memories span centuries, the simple banner of green and copper signifies an elder whose rings number more than a faerie’s days.]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[Deep in a murmuring bosk, where the trees’ memories span centuries, the simple banner of green and copper signifies an elder whose rings number more than a faerie’s days.]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Deep in a murmuring bosk, where the trees’ memories span centuries, the simple banner of green and copper signifies an elder whose rings number more than a faerie’s days.]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Deep in a murmuring bosk, where the trees’ memories span centuries, the simple banner of green and copper signifies an elder whose rings number more than a faerie’s days.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Deep in a murmuring bosk, where the trees’ memories span centuries, the simple banner of green and copper signifies an elder whose rings number more than a faerie’s days.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Nelle profondità del boschetto sussurrante, dove le memorie degli alberi durano secoli, il semplice stendardo di rame e fogliame simboleggia un anziano dal numero di anelli superiore a quello dei giorni di uno spiritello.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Tief im Murmelnden Gehölz, wo die Bäume sich noch Jahrhunderte zurück erinnern können, kennzeichnet das einfache Banner aus Grün und Kupfer die ältesten Bäume, die mehr Jahresringe haben, als eine Fee Tage alt wird.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Au plus profond d’un bosquet bruissant, où la mémoire des arbres couvre des siècles, la simple bannière de vert et de cuivre indique un ancien aux cercles plus nombreux que les jours de vie d’une færie.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[En lo profundo de la espesura murmurante, donde los recuerdos de los árboles alcanzan siglos, este sencillo estandarte verde y cobre señala un anciano cuyos anillos son más que los días de un hada.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[つぶやき林の奥深く、木々の数世紀にわたる記憶のあるところ、シンプルな緑と銅の色の軍旗は妖精たちの寿命よりも多くの年輪を持つ古老を意味している。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[Deep in a murmuring bosk, where the trees’ memories span centuries, the simple banner of green and copper signifies an elder whose rings number more than a faerie’s days.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[В самой глубине шепчущей рощи, где деревья хранят память о минувших веках, простое медно-зеленое знамя украшает старца, чьи годовые кольца превосходят числом дни в жизни феи.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Nas entranhas de um bosque murmurante, onde a memória das árvores abrange séculos, o simples estandarte verde e castanho representa um ancião cujos anéis são mais numerosos que os dias de uma fada.]]></LOCALISED_TEXT>
   </FLAVOURTEXT>
   <TYPE metaname="Creature" />
-  <SUB_TYPE metaname="Treefolk" order_de-DE="0" order_es-ES="0" order_fr-FR="0" order_it-IT="0" order_jp-JA="0" order_ko-KR="0" order_pt-BR="0" order_ru-RU="0" />
-  <SUB_TYPE metaname="Shaman" order_de-DE="0" order_es-ES="0" order_fr-FR="0" order_it-IT="0" order_jp-JA="0" order_ko-KR="0" order_pt-BR="0" order_ru-RU="0" />
+  <SUB_TYPE metaname="Treefolk" order_de-DE="0" order_es-ES="1" order_fr-FR="0" order_it-IT="1" order_jp-JA="0" order_ko-KR="0" order_pt-BR="0" order_ru-RU="0" />
+  <SUB_TYPE metaname="Shaman" order_de-DE="1" order_es-ES="0" order_fr-FR="1" order_it-IT="0" order_jp-JA="1" order_ko-KR="1" order_pt-BR="1" order_ru-RU="1" />
   <EXPANSION value="DPG" />
   <RARITY metaname="C" />
   <POWER value="1" />
   <TOUGHNESS value="3" />
   <STATIC_ABILITY filter_zone="ZONE_HAND">
-     <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Treefolk spells and Shaman spells you cast cost {1} less to cast.]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Treefolk spells and Shaman spells you cast cost {1} less to cast.]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Treefolk spells and Shaman spells you cast cost {1} less to cast.]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Treefolk spells and Shaman spells you cast cost {1} less to cast.]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Treefolk spells and Shaman spells you cast cost {1} less to cast.]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[Treefolk spells and Shaman spells you cast cost {1} less to cast.]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[Treefolk spells and Shaman spells you cast cost {1} less to cast.]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Treefolk spells and Shaman spells you cast cost {1} less to cast.]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Treefolk spells and Shaman spells you cast cost {1} less to cast.]]></LOCALISED_TEXT>
-	<FILTER>
-	return ((FilteredCard():GetSubType():Test(  CREATURE_TYPE_TREEFOLK ) ~= 0 or FilteredCard():GetSubType():Test(  CREATURE_TYPE_SHAMAN ) ~= 0) and OwnedByYou() and InHand())
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Treefolk spells and Shaman spells you cast cost {1} less to cast.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Le magie Sciamano e le magie Silvantropo che lanci costano {1} in meno per essere lanciate.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Baumhirtenzauber und Schamanenzauber, die du wirkst, kosten beim Wirken {1} weniger.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Les sorts de sylvin et les sorts de shamane que vous lancez coûtent {1} de moins à lancer.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Te cuesta {1} menos lanzar los hechizos de Pueblo-arbóreo y los de Chamán.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[あなたがプレイするツリーフォーク呪文とシャーマン呪文は、それをプレイするためのコストが{1}少なくなる。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[Treefolk spells and Shaman spells you cast cost {1} less to cast.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Разыгрываемые вами заклинания Лесовиков и заклинания Шаманов стоят на {1} меньше.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[As mágicas de Ent e de Xamã que você conjura custam {1} a menos para serem conjuradas.]]></LOCALISED_TEXT>
+    <FILTER>
+    return ((FilteredCard():GetSubType():Test( CREATURE_TYPE_TREEFOLK ) ~= 0 or FilteredCard():GetSubType():Test( CREATURE_TYPE_SHAMAN ) ~= 0) and OwnedByYou() and InHand())
     </FILTER>
     <CONTINUOUS_ACTION layer="8">
     if FilteredCard() ~= nil then

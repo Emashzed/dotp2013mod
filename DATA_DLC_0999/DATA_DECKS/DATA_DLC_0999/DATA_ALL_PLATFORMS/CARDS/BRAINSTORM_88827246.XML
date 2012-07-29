@@ -3,57 +3,57 @@
   <FILENAME text="BRAINSTORM_88827246" />
   <CARDNAME text="BRAINSTORM" />
   <TITLE>
-     <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Brainstorm]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Brainstorm]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Brainstorm]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Brainstorm]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Brainstorm]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[Brainstorm]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[Brainstorm]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Brainstorm]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Brainstorm]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Brainstorm]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Tempesta Cerebrale]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Gedankenwirbel]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Remue-méninges]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Inspiración súbita]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[渦まく知識]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[Brainstorm]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Brainstorm]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Tempestade Cerebral]]></LOCALISED_TEXT>
   </TITLE>
   <MULTIVERSEID value="88827246" />
   <ARTID value="88827246" />
   <ARTIST name="DiTerlizzi" />
   <CASTING_COST cost="{U}" />
   <FLAVOURTEXT>
-     <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[“I see more than others do because I know where to look.”
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[“I see more than others do because I know where to look.”
 —Saprazzan vizier]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[“I see more than others do because I know where to look.”
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[“Vedo più cose degli altri perché so dove guardare.”
+—Visir di Saprazzo]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[„Ich sehe mehr als andere, weil ich weiß, wo ich zu schauen habe.”
+—Saprazzanische Wesirin]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[« Ma vue n’est pas meilleure qu’une autre, mais je sais où regarder. »
+—Vizir saprazzois]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[“Veo más que los demás porque sé dónde mirar.”
+—Visir saprazzana]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[「私は人並み以上によく物が見えます。どこを見るべきか知ってますから。」
+――サプラーツォの大臣]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[“I see more than others do because I know where to look.”
 —Saprazzan vizier]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[“I see more than others do because I know where to look.”
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[“I see more than others do because I know where to look.”
 —Saprazzan vizier]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[“I see more than others do because I know where to look.”
-—Saprazzan vizier]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[“I see more than others do because I know where to look.”
-—Saprazzan vizier]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[“I see more than others do because I know where to look.”
-—Saprazzan vizier]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[“I see more than others do because I know where to look.”
-—Saprazzan vizier]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[“I see more than others do because I know where to look.”
-—Saprazzan vizier]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[“I see more than others do because I know where to look.”
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[“I see more than others do because I know where to look.”
 —Saprazzan vizier]]></LOCALISED_TEXT>
   </FLAVOURTEXT>
   <TYPE metaname="Instant" />
   <EXPANSION value="DPG" />
   <RARITY metaname="C" />
   <SPELL_ABILITY filter_zone="ZONE_IN_PLAY">
-     <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Draw three cards, then put two cards from your hand on top of your library in any order.]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Draw three cards, then put two cards from your hand on top of your library in any order.]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Draw three cards, then put two cards from your hand on top of your library in any order.]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Draw three cards, then put two cards from your hand on top of your library in any order.]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Draw three cards, then put two cards from your hand on top of your library in any order.]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[Draw three cards, then put two cards from your hand on top of your library in any order.]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[Draw three cards, then put two cards from your hand on top of your library in any order.]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Draw three cards, then put two cards from your hand on top of your library in any order.]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Draw three cards, then put two cards from your hand on top of your library in any order.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Draw three cards, then put two cards from your hand on top of your library in any order.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Pesca tre carte, poi metti due carte dalla tua mano in cima al tuo grimorio in qualsiasi ordine.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Ziehe drei Karten und lege dann zwei Karten aus deiner Hand in beliebiger Reihenfolge oben auf deine Bibliothek.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Piochez trois cartes et mettez ensuite deux cartes de votre main au-dessus de votre bibliothèque dans n’importe quel ordre.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Roba tres cartas, luego pon dos cartas de tu mano en la parte superior de tu biblioteca en cualquier orden.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[カードを３枚引き、その後あなたの手札にあるカードを２枚、あなたのライブラリーの一番上に望む順番で置く。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[Draw three cards, then put two cards from your hand on top of your library in any order.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Draw three cards, then put two cards from your hand on top of your library in any order.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Draw three cards, then put two cards from your hand on top of your library in any order.]]></LOCALISED_TEXT>
     <RESOLUTION_TIME_ACTION>
-		PlayerDrawCards( EffectController(), 3 )
-	</RESOLUTION_TIME_ACTION>
-	<RESOLUTION_TIME_ACTION>
+    PlayerDrawCards( EffectController(), 3 )
+    </RESOLUTION_TIME_ACTION>
+    <RESOLUTION_TIME_ACTION>
     local filter = Object():GetFilter()  
     local player = EffectController()  
     filter:Clear()  

@@ -3,53 +3,53 @@
   <FILENAME text="INCINERATE_888234075" />
   <CARDNAME text="INCINERATE" />
   <TITLE>
-     <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Incinerate]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Incinerate]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Incinerate]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Incinerate]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Incinerate]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[Incinerate]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[Incinerate]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Incinerate]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Incinerate]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Incinerate]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Incenerire]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Einäscherung]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Incinération]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Incinerar]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[火葬]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[Incinerate]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Сжигание]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Incinerar]]></LOCALISED_TEXT>
   </TITLE>
   <MULTIVERSEID value="888234075" />
   <ARTID value="888234075" />
   <ARTIST name="Zoltan Boros &amp; Gabor Szikszai" />
   <CASTING_COST cost="{1}{R}" />
   <FLAVOURTEXT>
-     <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[“Spontaneous combustion is a myth. If you burst into flame, someone wanted you to.”
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[“Spontaneous combustion is a myth. If you burst into flame, someone wanted you to.”
 —Chandra Nalaar]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[“Spontaneous combustion is a myth. If you burst into flame, someone wanted you to.”
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[“La combustione spontanea è un mito. Se prendi fuoco, qualcuno voleva che lo facessi.”
 —Chandra Nalaar]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[“Spontaneous combustion is a myth. If you burst into flame, someone wanted you to.”
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[„Selbstentzündung ist ein Mythos. Wenn du in Flammen aufgehst, wollte das jemand so.”
 —Chandra Nalaar]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[“Spontaneous combustion is a myth. If you burst into flame, someone wanted you to.”
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[« La combustion spontanée est un mythe. Si vous prenez feu, c’est parce que quelqu’un l’a voulu. »
+—Chandra Nalaàr]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[“La combustión espontánea es un mito. Si estallas en llamas es porque alguien quería que lo hicieras.”
 —Chandra Nalaar]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[“Spontaneous combustion is a myth. If you burst into flame, someone wanted you to.”
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[「人体の自然発火とか神話の話よ。 あなたの身体に火がついたとしたら、誰かが望んでやったってことね。」
+――チャンドラ・ナラー]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[“Spontaneous combustion is a myth. If you burst into flame, someone wanted you to.”
 —Chandra Nalaar]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[“Spontaneous combustion is a myth. If you burst into flame, someone wanted you to.”
-—Chandra Nalaar]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[“Spontaneous combustion is a myth. If you burst into flame, someone wanted you to.”
-—Chandra Nalaar]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[“Spontaneous combustion is a myth. If you burst into flame, someone wanted you to.”
-—Chandra Nalaar]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[“Spontaneous combustion is a myth. If you burst into flame, someone wanted you to.”
-—Chandra Nalaar]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[«Самовозгорание — это миф. Если вас вдруг охватило пламя, значит, кто-то так захотел».
+— Чандра Налаар]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[“A combustão espontânea é um mito. Se você pega fogo, é porque alguém quis isso.”
+— Chandra Nalaar]]></LOCALISED_TEXT>
   </FLAVOURTEXT>
   <TYPE metaname="Instant" />
   <EXPANSION value="DPG" />
   <RARITY metaname="C" />
   <SPELL_ABILITY dangerous="1" filter_zone="ZONE_IN_PLAY">
-     <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Incinerate deals 3 damage to target creature or player. A creature dealt damage this way can’t be regenerated this turn.]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Incinerate deals 3 damage to target creature or player. A creature dealt damage this way can’t be regenerated this turn.]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Incinerate deals 3 damage to target creature or player. A creature dealt damage this way can’t be regenerated this turn.]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Incinerate deals 3 damage to target creature or player. A creature dealt damage this way can’t be regenerated this turn.]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Incinerate deals 3 damage to target creature or player. A creature dealt damage this way can’t be regenerated this turn.]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[Incinerate deals 3 damage to target creature or player. A creature dealt damage this way can’t be regenerated this turn.]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[Incinerate deals 3 damage to target creature or player. A creature dealt damage this way can’t be regenerated this turn.]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Incinerate deals 3 damage to target creature or player. A creature dealt damage this way can’t be regenerated this turn.]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Incinerate deals 3 damage to target creature or player. A creature dealt damage this way can’t be regenerated this turn.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Incinerate deals 3 damage to target creature or player. A creature dealt damage this way can’t be regenerated this turn.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Incenerire infligge 3 danni a una creatura o a un giocatore bersaglio. Una creatura a cui sia stato inflitto danno in questo modo non può essere rigenerata in questo turno.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Einäscherung fügt einer Kreatur oder einem Spieler deiner Wahl 3 Schadenspunkte zu. Eine Kreatur, der auf diese Weise Schaden zugefügt wurde, kann in diesem Zug nicht regeneriert werden.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[L’Incinération inflige 3 blessures à une cible, créature ou joueur. Une créature blessée de cette manière ne peut pas être régénérée ce tour-ci.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Incinerar hace 3 puntos de daño a la criatura o jugador objetivo. Una criatura que recibió daño de esta manera no puede ser regenerada este turno.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[クリーチャー１体かプレイヤー１人を対象とする。火葬はそれに３点のダメージを与える。 このターン、これによりダメージを与えられたクリーチャーは再生できない。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[Incinerate deals 3 damage to target creature or player. A creature dealt damage this way can’t be regenerated this turn.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Сжигание наносит 3 повреждения целевому существу или игроку. Существо, которому таким образом были нанесены повреждения, не может быть регенерировано в этом ходу.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Incinerar causa 3 pontos de dano à criatura ou ao jogador alvo. Uma criatura que sofreu dano desta maneira não pode ser regenerada neste turno.]]></LOCALISED_TEXT>
     <TARGET_DEFINITION id="0">
     local filter = Object():GetFilter()
     filter:Clear()
@@ -78,8 +78,8 @@
     	target_player:DealDamage(3, source)  
     end
     </RESOLUTION_TIME_ACTION>
-	<CONTINUOUS_ACTION layer="6">
-	local target_creature = EffectDC():Get_Targets(0):Get_CardPtr(0)
+    <CONTINUOUS_ACTION layer="6">
+    local target_creature = EffectDC():Get_Targets(0):Get_CardPtr(0)
     if target_creature ~= nil then
     	local characteristics = target_creature:GetCurrentCharacteristics()
     	if characteristics ~= nil then
@@ -87,7 +87,7 @@
     	end
     end
     </CONTINUOUS_ACTION>
-	<DURATION simple_duration="UntilEOT" />
+    <DURATION simple_duration="UntilEOT" />
     <SFX text="TARGET_FLAME_PLAY" />
   </SPELL_ABILITY>
   <AI_AVAILABILITY type="in_response" />

@@ -3,68 +3,67 @@
   <FILENAME text="EARTH_SERVANT_888204986" />
   <CARDNAME text="EARTH_SERVANT" />
   <TITLE>
-     <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Earth Servant]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Earth Servant]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Earth Servant]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Earth Servant]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Earth Servant]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[Earth Servant]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[Earth Servant]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Earth Servant]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Earth Servant]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Earth Servant]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Servitore di Terra]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Diener der Erde]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Servant de terre]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Sirviente de tierra]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[大地の召使い]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[Earth Servant]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Земляной Слуга]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Servo da Terra]]></LOCALISED_TEXT>
   </TITLE>
   <MULTIVERSEID value="888204986" />
   <ARTID value="888204986" />
   <ARTIST name="Lucas Graciano" />
   <CASTING_COST cost="{5}{R}" />
   <FLAVOURTEXT>
-     <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[“Fire. Air. Water. These elements spread, filling in the spaces they are not. But earth is implacable like a sullen child.”
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[“Fire. Air. Water. These elements spread, filling in the spaces they are not. But earth is implacable like a sullen child.”
 —Jestus Dreya, Of Elements and Eternity]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[“Fire. Air. Water. These elements spread, filling in the spaces they are not. But earth is implacable like a sullen child.”
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[“Fuoco. Aria. Acqua. Questi elementi si diffondono, riempiendo gli spazi vuoti. Ma la terra è implacabile come un bimbo imbronciato.”
+—Jestus Dreya, Gli Elementi e l’Eternità]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[„Feuer. Luft. Wasser. Diese Elemente breiten sich aus und füllen den Raum, in dem sie noch nicht sind. Doch die Erde ist unerbittlich wie ein missmutiges Kind.”
+—Jestus Dreya, Über Elemente und die Ewigkeit]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[« Le feu. L’air. L’eau. Ces éléments s’infiltrent dans les espaces où ils n’existent pas. Mais la terre est aussi implacable qu’un enfant renfrogné. »
+—Jestus Dreya, Des éléments et de l’éternité]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[“Fuego. Aire. Agua. Estos elementos se expanden, llenando los espacios ajenos. Pero la tierra es implacable, como un niño malhumorado.”
+—Jestus Dreya, Sobre los elementos y la eternidad]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[「火。 大気。 水。 これらの元素は広がり、自分たちの存在しない空間を埋めようとする。 しかし、大地は不機嫌な子供のようになだめ難い。」
+――ジェスタス・ドレイヤ「元素と永遠と」]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[“Fire. Air. Water. These elements spread, filling in the spaces they are not. But earth is implacable like a sullen child.”
 —Jestus Dreya, Of Elements and Eternity]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[“Fire. Air. Water. These elements spread, filling in the spaces they are not. But earth is implacable like a sullen child.”
-—Jestus Dreya, Of Elements and Eternity]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[“Fire. Air. Water. These elements spread, filling in the spaces they are not. But earth is implacable like a sullen child.”
-—Jestus Dreya, Of Elements and Eternity]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[“Fire. Air. Water. These elements spread, filling in the spaces they are not. But earth is implacable like a sullen child.”
-—Jestus Dreya, Of Elements and Eternity]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[“Fire. Air. Water. These elements spread, filling in the spaces they are not. But earth is implacable like a sullen child.”
-—Jestus Dreya, Of Elements and Eternity]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[“Fire. Air. Water. These elements spread, filling in the spaces they are not. But earth is implacable like a sullen child.”
-—Jestus Dreya, Of Elements and Eternity]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[“Fire. Air. Water. These elements spread, filling in the spaces they are not. But earth is implacable like a sullen child.”
-—Jestus Dreya, Of Elements and Eternity]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[“Fire. Air. Water. These elements spread, filling in the spaces they are not. But earth is implacable like a sullen child.”
-—Jestus Dreya, Of Elements and Eternity]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[«Огонь. Воздух. Вода. Эти стихии находятся в движении, заполоняя чужие пространства. И только земля непреклонна, словно строптивый ребенок».
+— Джестус Дрейя, О стихии и вечности]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[“Fogo. Ar. Água. Esses elementos se espalham e preenchem todos os espaços que encontram. Mas a terra é implacável como uma criança aborrecida.”
+— Jestus Dreya, Sobre os Elementos e a Eternidade]]></LOCALISED_TEXT>
   </FLAVOURTEXT>
   <TYPE metaname="Creature" />
-  <SUB_TYPE metaname="Elemental" order_de-DE="0" order_es-ES="0" order_fr-FR="0" order_it-IT="0" order_jp-JA="0" order_ko-KR="0" order_pt-BR="0" order_ru-RU="0" />
+  <SUB_TYPE metaname="Elemental" />
   <EXPANSION value="DPG" />
   <RARITY metaname="U" />
   <POWER value="4" />
   <TOUGHNESS value="4" />
   <STATIC_ABILITY filter_zone="ZONE_IN_PLAY">
-     <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Earth Servant gets +0/+1 for each Mountain you control.]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Earth Servant gets +0/+1 for each Mountain you control.]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Earth Servant gets +0/+1 for each Mountain you control.]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Earth Servant gets +0/+1 for each Mountain you control.]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Earth Servant gets +0/+1 for each Mountain you control.]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[Earth Servant gets +0/+1 for each Mountain you control.]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[Earth Servant gets +0/+1 for each Mountain you control.]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Earth Servant gets +0/+1 for each Mountain you control.]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Earth Servant gets +0/+1 for each Mountain you control.]]></LOCALISED_TEXT>
-	<CONTINUOUS_ACTION layer="7C">
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Earth Servant gets +0/+1 for each Mountain you control.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Il Servitore di Terra prende +0/+1 per ogni Montagna che controlli.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Der Diener der Erde erhält +0/+1 für jedes Gebirge, das du kontrollierst.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Le Servant de terre gagne +0/+1 pour chaque montagne que vous contrôlez.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[El Sirviente de tierra obtiene +0/+1 por cada montaña que controlas.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[大地の召使いは、あなたがコントロールする山１つにつき＋０/＋１の修整を受ける。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[Earth Servant gets +0/+1 for each Mountain you control.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Земляной Слуга получает +0/+1 за каждую Гору под вашим контролем.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Servo da Terra recebe +0/+1 para cada Montanha que você controla.]]></LOCALISED_TEXT>
+    <CONTINUOUS_ACTION layer="7C">
     local creature = EffectSource()
     if creature ~= nil then
     	local filter = Object():GetFilter()
     	filter:Clear()
-		filter:AddSubType( LAND_TYPE_MOUNTAIN )
-		filter:SetZone( ZONE_IN_PLAY )
-		filter:SetPlayer( EffectController() )
-		filter:NotTargetted()
+    	filter:AddSubType( LAND_TYPE_MOUNTAIN )
+    	filter:SetZone( ZONE_IN_PLAY )
+    	filter:SetPlayer( EffectController() )
+    	filter:NotTargetted()
     	local total = filter:Count()
     	local characteristics = creature:GetCurrentCharacteristics()
-    	characteristics:Power_Add( 0 )
     	characteristics:Toughness_Add( total )
     end
     </CONTINUOUS_ACTION>

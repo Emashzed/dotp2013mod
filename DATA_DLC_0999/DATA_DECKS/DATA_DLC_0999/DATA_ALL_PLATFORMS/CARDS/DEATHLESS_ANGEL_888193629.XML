@@ -3,73 +3,73 @@
   <FILENAME text="DEATHLESS_ANGEL_888193629" />
   <CARDNAME text="DEATHLESS_ANGEL" />
   <TITLE>
-     <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Deathless Angel]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Deathless Angel]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Deathless Angel]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Deathless Angel]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Deathless Angel]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[Deathless Angel]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[Deathless Angel]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Deathless Angel]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Deathless Angel]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Deathless Angel]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Angelo Immortale]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Unsterblicher Engel]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Ange faucheur de mort]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Ángel inmortal]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[不死の天使]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[Deathless Angel]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Бессмертный Ангел]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Anjo Imortal]]></LOCALISED_TEXT>
   </TITLE>
   <MULTIVERSEID value="888193629" />
   <ARTID value="888193629" />
   <ARTIST name="Johann Bodin" />
   <CASTING_COST cost="{4}{W}{W}" />
   <FLAVOURTEXT>
-     <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[“I should have died that day, but I suffered not a scratch. I awoke in a lake of blood, none of it apparently my own.”
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[“I should have died that day, but I suffered not a scratch. I awoke in a lake of blood, none of it apparently my own.”
 —The War Diaries]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[“I should have died that day, but I suffered not a scratch. I awoke in a lake of blood, none of it apparently my own.”
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[“Sarei dovuta morire quel giorno, ma non mi sono fatta neanche un graffio. Mi sono svegliata in un lago di sangue, apparentemente non mio.”
+—I Diari di Guerra]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[„Ich hätte an diesem Tag sterben müssen, habe aber noch nicht einmal einen Kratzer abbekommen. Ich erwachte in einer Blutlache, doch sie stammte nicht von mir.”
+—Die Kriegstagebücher]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[« J’aurais dû périr ce jour-là, mais je n’ai pas reçu une égratignure. Je me suis éveillée dans une mare de sang, mais visiblement pas le mien. »
+—Les journaux de la Guerre]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[“Debería haber muerto ese día, pero no sufrí ni un rasguño. Desperté en un lago de sangre, pero no era mía.”
+—Los diarios de guerra]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[「あの時私は死すべきだったが、かすり傷一つ負ってはいなかった。 私が目覚めたのは血の海の中で、それはあきらかに自分の物ではなかった。」
+――「戦争日誌」]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[“I should have died that day, but I suffered not a scratch. I awoke in a lake of blood, none of it apparently my own.”
 —The War Diaries]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[“I should have died that day, but I suffered not a scratch. I awoke in a lake of blood, none of it apparently my own.”
-—The War Diaries]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[“I should have died that day, but I suffered not a scratch. I awoke in a lake of blood, none of it apparently my own.”
-—The War Diaries]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[“I should have died that day, but I suffered not a scratch. I awoke in a lake of blood, none of it apparently my own.”
-—The War Diaries]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[“I should have died that day, but I suffered not a scratch. I awoke in a lake of blood, none of it apparently my own.”
-—The War Diaries]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[“I should have died that day, but I suffered not a scratch. I awoke in a lake of blood, none of it apparently my own.”
-—The War Diaries]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[“I should have died that day, but I suffered not a scratch. I awoke in a lake of blood, none of it apparently my own.”
-—The War Diaries]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[“I should have died that day, but I suffered not a scratch. I awoke in a lake of blood, none of it apparently my own.”
-—The War Diaries]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[«В тот день я должен был погибнуть, но не получил ни царапины. Я проснулся в озере крови, но, судя по всему, чужой».
+— Дневники войны]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[“Eu poderia ter morrido naquele dia, mas não sofri nem um arranhão. Acordei num lago de sangue, mas não era o meu.”
+— Os Diários da Guerra]]></LOCALISED_TEXT>
   </FLAVOURTEXT>
   <TYPE metaname="Creature" />
-  <SUB_TYPE metaname="Angel" order_de-DE="0" order_es-ES="0" order_fr-FR="0" order_it-IT="0" order_jp-JA="0" order_ko-KR="0" order_pt-BR="0" order_ru-RU="0" />
+  <SUB_TYPE metaname="Angel" />
   <EXPANSION value="DPG" />
   <RARITY metaname="R" />
   <POWER value="5" />
   <TOUGHNESS value="7" />
   <STATIC_ABILITY>
-     <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Flying]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Flying]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Flying]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Flying]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Flying]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[Flying]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[Flying]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Flying]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Flying]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Flying]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Vol]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Vuela.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Fliegend]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Volare]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[飛行]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[비행]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Полет]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Voar]]></LOCALISED_TEXT>
     <CONTINUOUS_ACTION>
     local characteristics = Object():GetCurrentCharacteristics()
     characteristics:Characteristic_Set( CHARACTERISTIC_FLYING, 1 )
     </CONTINUOUS_ACTION>
   </STATIC_ABILITY>
   <ACTIVATED_ABILITY filter_zone="ZONE_IN_PLAY">
-     <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[{W}{W}: Target creature is indestructible this turn.]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[{W}{W}: Target creature is indestructible this turn.]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[{W}{W}: Target creature is indestructible this turn.]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[{W}{W}: Target creature is indestructible this turn.]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[{W}{W}: Target creature is indestructible this turn.]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[{W}{W}: Target creature is indestructible this turn.]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[{W}{W}: Target creature is indestructible this turn.]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[{W}{W}: Target creature is indestructible this turn.]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[{W}{W}: Target creature is indestructible this turn.]]></LOCALISED_TEXT>
-	<COST type="Mana" cost="{W}{W}" />
-	<TARGET_DEFINITION id="0">
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[{W}{W}: Target creature is indestructible this turn.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[{W}{W}: Una creatura bersaglio è indistruttibile in questo turno.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[{W}{W}: Eine Kreatur deiner Wahl ist in diesem Zug unzerstörbar.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[{W}{W} : La créature ciblée est indestructible ce tour-ci.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[{W}{W}: La criatura objetivo es indestructible este turno.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[{W}{W}：クリーチャー１体を対象とする。このターン、それは破壊されない。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[{W}{W}: Target creature is indestructible this turn.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[{W}{W}: целевое существо не может быть уничтожено в этом ходу.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[{W}{W}: A criatura alvo é indestrutível nesse turno.]]></LOCALISED_TEXT>
+    <COST type="Mana" cost="{W}{W}" />
+    <TARGET_DEFINITION id="0">
     local filter = Object():GetFilter()
     filter:Clear()
     filter:AddCardType( CARD_TYPE_CREATURE )
@@ -89,10 +89,12 @@
     	characteristics:Characteristic_Set( CHARACTERISTIC_INDESTRUCTIBLE, 1 )
     end
     </CONTINUOUS_ACTION>
-	<DURATION simple_duration="UntilEOT" />
+    <DURATION simple_duration="UntilEOT" />
     <AI_AVAILABILITY step="declare_blockers" />
     <AI_AVAILABILITY type="in_response_dangerous" />
   </ACTIVATED_ABILITY>
+  <HELP title="MORE_INFO_BADGE_TITLE_8" body="MORE_INFO_BADGE_BODY_8" zone="ZONE_ANY" />
+  <HELP title="MORE_INFO_BADGE_TITLE_10" body="MORE_INFO_BADGE_BODY_10" zone="ZONE_ANY" />
   <SFX text="COMBAT_ANGEL_LARGE_ATTACK" power_boundary_min="4" power_boundary_max="-1" />
   <SFX text="COMBAT_ANGEL_SMALL_ATTACK" power_boundary_min="1" power_boundary_max="3" />
   <AI_BASE_SCORE score="1200" zone="ZONE_IN_PLAY" />

@@ -3,62 +3,62 @@
   <FILENAME text="ALABORN_CAVALIER_888243435" />
   <CARDNAME text="ALABORN_CAVALIER" />
   <TITLE>
-     <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Alaborn Cavalier]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Alaborn Cavalier]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Alaborn Cavalier]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Alaborn Cavalier]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Alaborn Cavalier]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[Alaborn Cavalier]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[Alaborn Cavalier]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Alaborn Cavalier]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Alaborn Cavalier]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Alaborn Cavalier]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Cavaliere Pesante Alaborn]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Berittener Alaborn]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Cavalier d’Alaborn]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Caballero de Alaborn]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[アラボーンの騎兵]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[Alaborn Cavalier]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Alaborn Cavalier]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Alaborn Cavalier]]></LOCALISED_TEXT>
   </TITLE>
   <MULTIVERSEID value="888243435" />
   <ARTID value="888243435" />
   <ARTIST name="Kev Walker" />
   <CASTING_COST cost="{2}{W}{W}" />
   <FLAVOURTEXT>
-     <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[“Course he ran! I wouldn’t want to stare down that barrel, either!”
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[“Course he ran! I wouldn’t want to stare down that barrel, either!”
 —Alaborn soldier]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[“Course he ran! I wouldn’t want to stare down that barrel, either!”
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[“Certo che è scappato! Neanche io avrei voluto fissare quella canna!”
+—Soldato Alaborn]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[„Natürlich ist er weggelaufen! Dieser Anblick hätte mir auch nicht gefallen!”
+—Loddar, Alabornsoldat]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[« Bien sûr qu’il a pris la fuite ! Je ne voudrais pas non plus me retrouver face à ça ! »
+—Soldat d’Alaborn]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[“¡Por supuesto que corrió! ¡Yo tampoco querría estar mirando esa arma de frente!”
+—Soldado de Alaborn]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[「奴を追え！ 銃に目を落としている暇なぞ無いぞ！」
+――アラボーンの兵士]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[“Course he ran! I wouldn’t want to stare down that barrel, either!”
 —Alaborn soldier]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[“Course he ran! I wouldn’t want to stare down that barrel, either!”
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[“Course he ran! I wouldn’t want to stare down that barrel, either!”
 —Alaborn soldier]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[“Course he ran! I wouldn’t want to stare down that barrel, either!”
-—Alaborn soldier]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[“Course he ran! I wouldn’t want to stare down that barrel, either!”
-—Alaborn soldier]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[“Course he ran! I wouldn’t want to stare down that barrel, either!”
-—Alaborn soldier]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[“Course he ran! I wouldn’t want to stare down that barrel, either!”
-—Alaborn soldier]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[“Course he ran! I wouldn’t want to stare down that barrel, either!”
-—Alaborn soldier]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[“Course he ran! I wouldn’t want to stare down that barrel, either!”
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[“Course he ran! I wouldn’t want to stare down that barrel, either!”
 —Alaborn soldier]]></LOCALISED_TEXT>
   </FLAVOURTEXT>
   <TYPE metaname="Creature" />
-  <SUB_TYPE metaname="Human" order_de-DE="0" order_es-ES="0" order_fr-FR="0" order_it-IT="0" order_jp-JA="0" order_ko-KR="0" order_pt-BR="0" order_ru-RU="0" />
-  <SUB_TYPE metaname="Knight" order_de-DE="0" order_es-ES="0" order_fr-FR="0" order_it-IT="0" order_jp-JA="0" order_ko-KR="0" order_pt-BR="0" order_ru-RU="0" />
+  <SUB_TYPE metaname="Human" order_de-DE="0" order_es-ES="1" order_fr-FR="0" order_it-IT="1" order_jp-JA="0" order_ko-KR="0" order_pt-BR="0" order_ru-RU="0" />
+  <SUB_TYPE metaname="Knight" order_de-DE="1" order_es-ES="0" order_fr-FR="1" order_it-IT="0" order_jp-JA="1" order_ko-KR="1" order_pt-BR="1" order_ru-RU="1" />
   <EXPANSION value="DPG" />
   <RARITY metaname="U" />
   <POWER value="2" />
   <TOUGHNESS value="2" />
   <TRIGGERED_ABILITY filter_zone="ZONE_IN_PLAY">
-     <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Whenever Alaborn Cavalier attacks, you may tap target creature.]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Whenever Alaborn Cavalier attacks, you may tap target creature.]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Whenever Alaborn Cavalier attacks, you may tap target creature.]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Whenever Alaborn Cavalier attacks, you may tap target creature.]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Whenever Alaborn Cavalier attacks, you may tap target creature.]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[Whenever Alaborn Cavalier attacks, you may tap target creature.]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[Whenever Alaborn Cavalier attacks, you may tap target creature.]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Whenever Alaborn Cavalier attacks, you may tap target creature.]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Whenever Alaborn Cavalier attacks, you may tap target creature.]]></LOCALISED_TEXT>
-	<TRIGGER value="ATTACKING" simple_qualifier="self" />
-	<TARGET_DEFINITION id="0">
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Whenever Alaborn Cavalier attacks, you may tap target creature.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Ogniqualvolta il Cavaliere Pesante Alaborn attacca, puoi TAPpare una creatura bersaglio.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Immer wenn der Berittene Alaborn angreift, kannst du eine Kreatur deiner Wahl tappen.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[À chaque fois que le Cavalier d’Alaborn attaque, vous pouvez engager une créature ciblée.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Siempre que el Caballero de Alaborn ataque, puedes girar la criatura objetivo.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[アラボーンの騎兵が攻撃するたび、クリーチャー１体を対象とする。あなたはそれをタップしてもよい。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[Whenever Alaborn Cavalier attacks, you may tap target creature.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Whenever Alaborn Cavalier attacks, you may tap target creature.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Whenever Alaborn Cavalier attacks, you may tap target creature.]]></LOCALISED_TEXT>
+    <TRIGGER value="ATTACKING" simple_qualifier="self" />
+    <TARGET_DEFINITION id="0">
     local filter = Object():GetFilter()
     filter:Clear()
-	filter:May()
+    filter:May()
     filter:AIMay()
     filter:AddCardType( CARD_TYPE_CREATURE )
     filter:SetZone( ZONE_IN_PLAY )

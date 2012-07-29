@@ -3,15 +3,15 @@
   <FILENAME text="BURST_LIGHTNING_888177558" />
   <CARDNAME text="BURST_LIGHTNING" />
   <TITLE>
-     <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Burst Lightning]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Burst Lightning]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Burst Lightning]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Burst Lightning]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Burst Lightning]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[Burst Lightning]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[Burst Lightning]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Burst Lightning]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Burst Lightning]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Burst Lightning]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Fulmine Dirompente]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Geborstener Blitz]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Éclair explosif]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Estallido de relámpagos]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[噴出の稲妻]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[Burst Lightning]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Взрывная Молния]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Explodir em Raios]]></LOCALISED_TEXT>
   </TITLE>
   <MULTIVERSEID value="888177558" />
   <ARTID value="888177558" />
@@ -21,27 +21,27 @@
   <EXPANSION value="DPG" />
   <RARITY metaname="C" />
   <UTILITY_ABILITY filter_zone="ZONE_IN_PLAY">
-     <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Kicker {4} |(You may pay an additional| {4} |as you cast this spell.)|]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Kicker {4} |(You may pay an additional| {4} |as you cast this spell.)|]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Kicker {4} |(You may pay an additional| {4} |as you cast this spell.)|]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Kicker {4} |(You may pay an additional| {4} |as you cast this spell.)|]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Kicker {4} |(You may pay an additional| {4} |as you cast this spell.)|]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[Kicker {4} |(You may pay an additional| {4} |as you cast this spell.)|]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[Kicker {4} |(You may pay an additional| {4} |as you cast this spell.)|]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Kicker {4} |(You may pay an additional| {4} |as you cast this spell.)|]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Kicker {4} |(You may pay an additional| {4} |as you cast this spell.)|]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Kicker {4}]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Kick {4}]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Estímulo {4}.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Bonus {4}]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Potenziamento {4}]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[キッカー {4}]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[키커 {4}]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Усилитель {4}]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Reforçar {4}]]></LOCALISED_TEXT>
     <COST type="Mana" cost="{4}" qualifier="Kicker" />
   </UTILITY_ABILITY>
   <SPELL_ABILITY dangerous="1" filter_zone="ZONE_IN_PLAY">
-     <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Burst Lightning deals 2 damage to target creature or player. If Burst Lightning was kicked, it deals 4 damage to that creature or player instead.]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Burst Lightning deals 2 damage to target creature or player. If Burst Lightning was kicked, it deals 4 damage to that creature or player instead.]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Burst Lightning deals 2 damage to target creature or player. If Burst Lightning was kicked, it deals 4 damage to that creature or player instead.]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Burst Lightning deals 2 damage to target creature or player. If Burst Lightning was kicked, it deals 4 damage to that creature or player instead.]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Burst Lightning deals 2 damage to target creature or player. If Burst Lightning was kicked, it deals 4 damage to that creature or player instead.]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[Burst Lightning deals 2 damage to target creature or player. If Burst Lightning was kicked, it deals 4 damage to that creature or player instead.]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[Burst Lightning deals 2 damage to target creature or player. If Burst Lightning was kicked, it deals 4 damage to that creature or player instead.]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Burst Lightning deals 2 damage to target creature or player. If Burst Lightning was kicked, it deals 4 damage to that creature or player instead.]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Burst Lightning deals 2 damage to target creature or player. If Burst Lightning was kicked, it deals 4 damage to that creature or player instead.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Burst Lightning deals 2 damage to target creature or player. If Burst Lightning was kicked, it deals 4 damage to that creature or player instead.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Il Fulmine Dirompente infligge 2 danni a una creatura o a un giocatore bersaglio. Se il Fulmine Dirompente è stato potenziato, infligge invece 4 danni a quella creatura o a quel giocatore.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Geborstener Blitz fügt einer Kreatur oder einem Spieler deiner Wahl 2 Schadenspunkte zu. Falls die Bonuskosten von Geborstener Blitz bezahlt wurden, fügt er stattdessen dieser Kreatur oder diesem Spieler 4 Schadenspunkte zu.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[L’Éclair explosif inflige 2 blessures à une cible, créature ou joueur. Si l’Éclair explosif a été kické, il inflige 4 blessures à cette créature ou ce joueur à la place.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[El Estallido de relámpagos hace 2 puntos de daño a la criatura o jugador objetivo. Si el Estallido de relámpagos fue estimulado, en vez de eso, hace 4 puntos de daño a esa criatura o jugador.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[クリーチャー１体かプレイヤー１人を対象とする。噴出の稲妻はそれに２点のダメージを与える。 噴出の稲妻がキッカーされている場合、代わりにそれはそのクリーチャーかプレイヤーに４点のダメージを与える。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[Burst Lightning deals 2 damage to target creature or player. If Burst Lightning was kicked, it deals 4 damage to that creature or player instead.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Взрывная Молния наносит 2 повреждения целевому существу или игроку. Если Взрывная Молния получила Усилитель, вместо этого она наносит 4 повреждения тому существу или игроку.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Explodir em Raios causa 2 pontos de dano à criatura ou ao jogador alvo. Se Explodir em Raios foi reforçado, em vez disso, ele causa 4 pontos de dano àquela criatura ou àquele jogador.]]></LOCALISED_TEXT>
     <TARGET_DEFINITION id="0">
     local filter = Object():GetFilter()
     filter:Clear()
@@ -57,15 +57,15 @@
     EffectController():ChooseTarget( 0, "CARD_QUERY_CHOOSE_DEAL_2_DAMAGE", EffectDC():Make_Targets(0) )
     </PLAY_TIME_ACTION>
     <RESOLUTION_TIME_ACTION>
-	local damage = 2
-	if ( Object():Kicked() &gt; 0 ) then
-		damage = 4
-	end
+    local damage = 2
+    if ( Object():Kicked() &gt; 0 ) then
+	damage = 4
+    end
     local target_creature = EffectDC():Get_Targets(0):Get_CardPtr(0)
     local target_player = EffectDC():Get_Targets(0):Get_PlayerPtr(0)
     local source = EffectSource()
     if source == nil then
-      source = Object()
+    	source = Object()
     end
     if ( target_creature ~= nil ) then   
     	target_creature:DealDamage(damage, source)  
@@ -82,5 +82,6 @@
   <AI_AVAILABILITY step="declare_attackers" turn="their_turn" />
   <AI_AVAILABILITY step="declare_blockers" />
   <AI_AVAILABILITY step="end_of_turn" />
+  <HELP title="MORE_INFO_TITLE_KICKER" body="MORE_INFO_BODY_KICKER" zone="ZONE_ANY" />
   <AI_BASE_SCORE score="900" zone="ZONE_HAND" />
 </CARD_V2>

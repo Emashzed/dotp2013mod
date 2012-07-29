@@ -3,48 +3,48 @@
   <FILENAME text="BOOMERANG_8882799" />
   <CARDNAME text="BOOMERANG" />
   <TITLE>
-     <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Boomerang]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Boomerang]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Boomerang]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Boomerang]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Boomerang]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[Boomerang]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[Boomerang]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Boomerang]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Boomerang]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Boomerang]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Boomerang]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Bumerang]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Boomerang]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Búmerang]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[ブーメラン]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[Boomerang]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Бумеранг]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Bumerangue]]></LOCALISED_TEXT>
   </TITLE>
   <MULTIVERSEID value="8882799" />
   <ARTID value="8882799" />
   <ARTIST name="Arnie Swekel" />
   <CASTING_COST cost="{U}{U}" />
   <FLAVOURTEXT>
-     <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Early Jamuraan hunters devised a weapon that would return to its source. Tolarian Æthermancers developed a spell that skipped the weapon entirely.]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Early Jamuraan hunters devised a weapon that would return to its source. Tolarian Æthermancers developed a spell that skipped the weapon entirely.]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Early Jamuraan hunters devised a weapon that would return to its source. Tolarian Æthermancers developed a spell that skipped the weapon entirely.]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Early Jamuraan hunters devised a weapon that would return to its source. Tolarian Æthermancers developed a spell that skipped the weapon entirely.]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Early Jamuraan hunters devised a weapon that would return to its source. Tolarian Æthermancers developed a spell that skipped the weapon entirely.]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[Early Jamuraan hunters devised a weapon that would return to its source. Tolarian Æthermancers developed a spell that skipped the weapon entirely.]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[Early Jamuraan hunters devised a weapon that would return to its source. Tolarian Æthermancers developed a spell that skipped the weapon entirely.]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Early Jamuraan hunters devised a weapon that would return to its source. Tolarian Æthermancers developed a spell that skipped the weapon entirely.]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Early Jamuraan hunters devised a weapon that would return to its source. Tolarian Æthermancers developed a spell that skipped the weapon entirely.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Early Jamuraan hunters devised a weapon that would return to its source. Tolarian Æthermancers developed a spell that skipped the weapon entirely.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Gli antichi cacciatori di Jamuraa inventarono un’arma che ritornava al punto di partenza. Gli Etermanti di Tolaria svilupparono una magia che evitava del tutto l’arma.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Vor langer Zeit entwickelten Jäger in Jamuraa eine Waffe, die zu ihrem Ursprung zurückkehren würde. Tolarianische Äthermagier entwickelten einen Zauberspruch, der ganz ohne die Waffe auskam.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Les premiers chasseurs jamuréens conçurent une arme qui reviendrait à sa source. Les Æthermanciens tolarians développèrent un sort pour se passer de l’arme.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Los cazadores primitivos de Jamuraa desarrollaron un arma que podía volver a su fuente. Los étermantes de Tolaria desarrollaron un hechizo que ignoraba por completo el arma.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[かつてのジャムーラの狩人は、手元に戻ってくる武器を作り出した。 トレイリアの霊気術士は、そもそも武器すら不要な呪文を生み出した。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[Early Jamuraan hunters devised a weapon that would return to its source. Tolarian Æthermancers developed a spell that skipped the weapon entirely.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Древние джамуранские охотники придумали оружие, которое возращалось к своему источнику. Толарианские эфироманты создали заклинание, полностью выполняющее роль такого оружия.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Os antigos caçadores de Jamuraa criaram uma arma que retornaria ao ponto de partida. Os etermantes tolarianos desenvolveram uma mágica que omitia totalmente a arma.]]></LOCALISED_TEXT>
   </FLAVOURTEXT>
   <TYPE metaname="Instant" />
   <EXPANSION value="DPG" />
   <RARITY metaname="C" />
   <SPELL_ABILITY dangerous="1" filter_zone="ZONE_IN_PLAY">
-     <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Return target permanent to its owner’s hand.]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Return target permanent to its owner’s hand.]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Return target permanent to its owner’s hand.]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Return target permanent to its owner’s hand.]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Return target permanent to its owner’s hand.]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[Return target permanent to its owner’s hand.]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[Return target permanent to its owner’s hand.]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Return target permanent to its owner’s hand.]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Return target permanent to its owner’s hand.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Return target permanent to its owner’s hand.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Fai tornare un permanente bersaglio in mano al suo proprietario.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Bringe eine bleibende Karte deiner Wahl auf die Hand ihres Besitzers zurück.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Renvoyez le permanent ciblé dans la main de son propriétaire.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Regresa el permanente objetivo a la mano de su propietario.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[パーマネント１つを対象とし、それをオーナーの手札に戻す。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[Return target permanent to its owner’s hand.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Верните целевой перманент в руку его владельца.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Devolva a permanente alvo para a mão de seu dono.]]></LOCALISED_TEXT>
     <TARGET_DEFINITION id="0">
     local filter = Object():GetFilter()
     filter:Clear()
-	filter:AddCardType( CARD_TYPE_ARTIFACT )
+    filter:AddCardType( CARD_TYPE_ARTIFACT )
     filter:AddCardType( CARD_TYPE_ENCHANTMENT )
     filter:AddCardType( CARD_TYPE_LAND )
     filter:AddCardType( CARD_TYPE_CREATURE )

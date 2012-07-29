@@ -3,36 +3,36 @@
   <FILENAME text="CAPTIVATING_VAMPIRE_888205041" />
   <CARDNAME text="CAPTIVATING_VAMPIRE" />
   <TITLE>
-     <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Captivating Vampire]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Captivating Vampire]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Captivating Vampire]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Captivating Vampire]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Captivating Vampire]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[Captivating Vampire]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[Captivating Vampire]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Captivating Vampire]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Captivating Vampire]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Captivating Vampire]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Vampiro Seducente]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Hinreißender Vampir]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Vampire captivant]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Vampiro cautivador]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[蟲惑的な吸血鬼]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[Captivating Vampire]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Пленительный Вампир]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Vampiro Cativante]]></LOCALISED_TEXT>
   </TITLE>
   <MULTIVERSEID value="888205041" />
   <ARTID value="888205041" />
   <ARTIST name="Eric Deschamps" />
   <CASTING_COST cost="{1}{B}{B}" />
   <TYPE metaname="Creature" />
-  <SUB_TYPE metaname="Vampire" order_de-DE="0" order_es-ES="0" order_fr-FR="0" order_it-IT="0" order_jp-JA="0" order_ko-KR="0" order_pt-BR="0" order_ru-RU="0" />
+  <SUB_TYPE metaname="Vampire" />
   <EXPANSION value="DPG" />
   <RARITY metaname="R" />
   <POWER value="2" />
   <TOUGHNESS value="2" />
   <STATIC_ABILITY filter_zone="ZONE_IN_PLAY">
-     <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Other Vampire creatures you control get +1/+1.]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Other Vampire creatures you control get +1/+1.]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Other Vampire creatures you control get +1/+1.]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Other Vampire creatures you control get +1/+1.]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Other Vampire creatures you control get +1/+1.]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[Other Vampire creatures you control get +1/+1.]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[Other Vampire creatures you control get +1/+1.]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Other Vampire creatures you control get +1/+1.]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Other Vampire creatures you control get +1/+1.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Other Vampire creatures you control get +1/+1.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Le altre creature Vampiro che controlli prendono +1/+1.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Andere Vampir-Kreaturen, die du kontrollierst, erhalten +1/+1.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Les autres créatures Vampire que vous contrôlez gagnent +1/+1.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Las otras criaturas Vampiro que controlas obtienen +1/+1.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[あなたがコントロールする他の吸血鬼・クリーチャーは＋１/＋１の修整を受ける。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[Other Vampire creatures you control get +1/+1.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Другие существа-Вампиры под вашим контролем получают +1/+1.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[As outras criaturas do tipo Vampiro que você controla recebem +1/+1.]]></LOCALISED_TEXT>
     <FILTER>
     return OtherCreaturesInPlayYouControlOfType( CREATURE_TYPE_VAMPIRE )
     </FILTER>
@@ -47,21 +47,21 @@
     </CONTINUOUS_ACTION>
   </STATIC_ABILITY>
   <ACTIVATED_ABILITY dangerous="1" filter_zone="ZONE_IN_PLAY">
-     <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Tap five untapped Vampires you control: Gain control of target creature. It becomes a Vampire in addition to its other types.]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Tap five untapped Vampires you control: Gain control of target creature. It becomes a Vampire in addition to its other types.]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Tap five untapped Vampires you control: Gain control of target creature. It becomes a Vampire in addition to its other types.]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Tap five untapped Vampires you control: Gain control of target creature. It becomes a Vampire in addition to its other types.]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Tap five untapped Vampires you control: Gain control of target creature. It becomes a Vampire in addition to its other types.]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[Tap five untapped Vampires you control: Gain control of target creature. It becomes a Vampire in addition to its other types.]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[Tap five untapped Vampires you control: Gain control of target creature. It becomes a Vampire in addition to its other types.]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Tap five untapped Vampires you control: Gain control of target creature. It becomes a Vampire in addition to its other types.]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Tap five untapped Vampires you control: Gain control of target creature. It becomes a Vampire in addition to its other types.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Tap five untapped Vampires you control: Gain control of target creature. It becomes a Vampire in addition to its other types.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[TAPpa cinque Vampiri STAPpati che controlli: Prendi il controllo di una creatura bersaglio. Diventa un Vampiro in aggiunta ai suoi altri tipi.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Tappe fünf ungetappte Vampire, die du kontrollierst: Übernimm die Kontrolle über eine Kreatur deiner Wahl. Sie wird zusätzlich zu ihren anderen Typen zu einem Vampir.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Engagez cinq vampires dégagés que vous contrôlez : Acquérez le contrôle de la créature ciblée. Elle devient un vampire en plus de ses autres types.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Girar cinco Vampiros enderezados que controlas: Gana el control de la criatura objetivo. Es un Vampiro además de sus otros tipos.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[あなたがコントロールするアンタップ状態の吸血鬼５体をタップする：クリーチャー１体を対象とし、それのコントロールを得る。 それは他のタイプに加えて吸血鬼になる。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[Tap five untapped Vampires you control: Gain control of target creature. It becomes a Vampire in addition to its other types.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Поверните пять неповернутых Вампиров под вашим контролем: получите контроль над целевым существом. Оно становится Вампиром в дополнение к своим другим типам.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Vire cinco Vampiros desvirados que você controla: Ganhe o controle da criatura alvo. Ela se torna do tipo Vampiro além de seus outros tipos.]]></LOCALISED_TEXT>
     <COST type="generic">
-	  <TARGET_DEFINITION id="6">
+      <TARGET_DEFINITION id="6">
       local filter = Object():GetFilter()
       filter:Clear()
       filter:AddCardType( CARD_TYPE_CREATURE )
-	  filter:AddSubType( CREATURE_TYPE_VAMPIRE )
+      filter:AddSubType( CREATURE_TYPE_VAMPIRE )
       filter:SetPlayer( EffectController() )
       filter:SetZone( ZONE_IN_PLAY )
       filter:SetHint( HINT_ENEMY, EffectController() )
@@ -72,24 +72,25 @@
       return AtLeastNTargetsFromDefinition( 6, 5 )
       </TARGET_DETERMINATION>
       <PLAY_TIME_ACTION>
-	  EffectController():SetTargetCount( 5 )
+      EffectController():SetTargetCount( 5 )
       for i = 0,4 do
       	EffectController():SetTargetPrompt( i, "CARD_QUERY_TAP_AN_UNTAPPED_VAMPIRE_YOU_CONTROL")
       end
       EffectController():ChooseTargets( 6, EffectDC():Make_Targets(0) )	
       </PLAY_TIME_ACTION>
-	  <RESOLUTION_TIME_ACTION>
-	  local target_array = {}    
+      <RESOLUTION_TIME_ACTION>
+      local target_array = {}    
       for i=0,4 do    
-		target_array[i] = EffectDC():Get_Targets(0):Get_NthCardPtr(i)  
+	target_array[i] = EffectDC():Get_Targets(0):Get_NthCardPtr(i)  
       end    
       for i=0,4 do    
-		if target_array[i] ~= nil then
-			target_array[i]:Tap()
-		end  
+	if target_array[i] ~= nil then
+		target_array[i]:Tap()
+	end  
       end
-      </RESOLUTION_TIME_ACTION></COST>
-	<TARGET_DEFINITION id="0">
+      </RESOLUTION_TIME_ACTION>
+    </COST>
+    <TARGET_DEFINITION id="0">
     local filter = Object():GetFilter()
     filter:Clear()
     filter:AddCardType( CARD_TYPE_CREATURE )
@@ -108,7 +109,7 @@
     	target:SetController( EffectController() )  
     end
     </CONTINUOUS_ACTION>
-	<CONTINUOUS_ACTION layer="4">
+    <CONTINUOUS_ACTION layer="4">
     local target = EffectDC():Get_Targets(1):Get_CardPtr(0)
     if target ~= nil then
     	target:GetCurrentCharacteristics():SubType_GetWritable(target):Add( CREATURE_TYPE_VAMPIRE, target )
@@ -117,7 +118,7 @@
     <DURATION>
     return false
     </DURATION>
-	<AI_AVAILABILITY type="in_response" />
+    <AI_AVAILABILITY type="in_response" />
     <AI_AVAILABILITY step="begin_combat" turn="their_turn" />
     <AI_AVAILABILITY step="main_1" turn="my_turn" />
     <AI_AVAILABILITY step="declare_attackers" turn="their_turn" />

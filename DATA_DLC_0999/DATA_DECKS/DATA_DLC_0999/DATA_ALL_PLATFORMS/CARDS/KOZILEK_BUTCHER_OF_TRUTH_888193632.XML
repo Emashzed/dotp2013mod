@@ -3,15 +3,15 @@
   <FILENAME text="KOZILEK_BUTCHER_OF_TRUTH_888193632" />
   <CARDNAME text="KOZILEK_BUTCHER_OF_TRUTH" />
   <TITLE>
-     <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Kozilek, Butcher of Truth]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Kozilek, Butcher of Truth]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Kozilek, Butcher of Truth]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Kozilek, Butcher of Truth]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Kozilek, Butcher of Truth]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[Kozilek, Butcher of Truth]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[Kozilek, Butcher of Truth]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Kozilek, Butcher of Truth]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Kozilek, Butcher of Truth]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Kozilek, Butcher of Truth]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Kozilek, Macellaio della Verità]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Kozilek, Schlächter der Wahrheit]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Kozilek, Boucher de la Vérité]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Kozilek, asesino de la verdad]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[真実の解体者、コジレック]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[Kozilek, Butcher of Truth]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Козилек, Истребитель Истины]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Kozilek, Carniceiro da Verdade]]></LOCALISED_TEXT>
   </TITLE>
   <MULTIVERSEID value="888193632" />
   <ARTID value="888193632" />
@@ -19,23 +19,23 @@
   <CASTING_COST cost="{10}" />
   <SUPERTYPE metaname="Legendary" />
   <TYPE metaname="Creature" />
-  <SUB_TYPE metaname="Eldrazi" order_de-DE="0" order_es-ES="0" order_fr-FR="0" order_it-IT="0" order_jp-JA="0" order_ko-KR="0" order_pt-BR="0" order_ru-RU="0" />
+  <SUB_TYPE metaname="Eldrazi" />
   <EXPANSION value="DPG" />
   <RARITY metaname="M" />
   <POWER value="12" />
   <TOUGHNESS value="12" />
   <TRIGGERED_ABILITY auto_skip="1" filter_zone="ZONE_IN_PLAY" active_zone="ZONE_STACK">
-     <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[When you cast Kozilek, Butcher of Truth, draw four cards.]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[When you cast Kozilek, Butcher of Truth, draw four cards.]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[When you cast Kozilek, Butcher of Truth, draw four cards.]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[When you cast Kozilek, Butcher of Truth, draw four cards.]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[When you cast Kozilek, Butcher of Truth, draw four cards.]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[When you cast Kozilek, Butcher of Truth, draw four cards.]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[When you cast Kozilek, Butcher of Truth, draw four cards.]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[When you cast Kozilek, Butcher of Truth, draw four cards.]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[When you cast Kozilek, Butcher of Truth, draw four cards.]]></LOCALISED_TEXT>
-	<TRIGGER value="SPELL_PLAYED" simple_qualifier="self" />
-	<RESOLUTION_TIME_ACTION>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[When you cast Kozilek, Butcher of Truth, draw four cards.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Quando lanci Kozilek, Macellaio della Verità, pesca quattro carte.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Wenn du Kozilek, Schlächter der Wahrheit, wirkst, ziehe vier Karten.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Quand vous lancez Kozilek, Boucher de la Vérité, piochez quatre cartes.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Cuando lances a Kozilek, asesino de la verdad, roba cuatro cartas.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[あなたが真実の解体者、コジレックを唱えたとき、カードを４枚引く。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[When you cast Kozilek, Butcher of Truth, draw four cards.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Когда вы разыгрываете Козилека, Истребителя Истины, возьмите четыре карты.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Quando conjurar Kozilek, Carniceiro da Verdade, compre quatro cards.]]></LOCALISED_TEXT>
+    <TRIGGER value="SPELL_PLAYED" simple_qualifier="self" />
+    <RESOLUTION_TIME_ACTION>
     local NumCards = 4
     while (NumCards &gt; 0) do
     	NumCards = NumCards - 1
@@ -44,21 +44,21 @@
     </RESOLUTION_TIME_ACTION>
   </TRIGGERED_ABILITY>
   <TRIGGERED_ABILITY badge="BADGE_ANNIHILATOR" dangerous="1" filter_zone="ZONE_IN_PLAY">
-     <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Annihilator 4 |(Whenever this creature attacks, defending player sacrifices four permanents.)|]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Annihilator 4 |(Whenever this creature attacks, defending player sacrifices four permanents.)|]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Annihilator 4 |(Whenever this creature attacks, defending player sacrifices four permanents.)|]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Annihilator 4 |(Whenever this creature attacks, defending player sacrifices four permanents.)|]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Annihilator 4 |(Whenever this creature attacks, defending player sacrifices four permanents.)|]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[Annihilator 4 |(Whenever this creature attacks, defending player sacrifices four permanents.)|]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[Annihilator 4 |(Whenever this creature attacks, defending player sacrifices four permanents.)|]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Annihilator 4 |(Whenever this creature attacks, defending player sacrifices four permanents.)|]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Annihilator 4 |(Whenever this creature attacks, defending player sacrifices four permanents.)|]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Annihilator 4]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Annihilateur 4]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Vernichter 4]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Aniquilador 4.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Annientatore 4]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[滅殺 ４]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[절멸 4]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Аннигилятор 4]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Aniquilador 4]]></LOCALISED_TEXT>
     <TRIGGER value="ATTACKING" simple_qualifier="self" />
     <RESOLUTION_TIME_ACTION>
     local defendingPlayer = Object():GetPlayerAttacked()
     local filter = Object():GetFilter()
     filter:Clear()
-	filter:AddCardType( CARD_TYPE_ARTIFACT )
+    filter:AddCardType( CARD_TYPE_ARTIFACT )
     filter:AddCardType( CARD_TYPE_ENCHANTMENT )
     filter:AddCardType( CARD_TYPE_LAND )
     filter:AddCardType( CARD_TYPE_CREATURE )
@@ -67,8 +67,8 @@
     filter:SetController( defendingPlayer )
     filter:SetZone( ZONE_IN_PLAY )
     filter:SetHint( HINT_ENEMY, defendingPlayer )
-	local numberOfTargets = filter:CountStopAt( 4 )
-	if numberOfTargets &gt; 0 then 
+    local numberOfTargets = filter:CountStopAt( 4 )
+    if numberOfTargets &gt; 0 then 
     	defendingPlayer:SetTargetCount( numberOfTargets ) 
     	defendingPlayer:SetTargetPrompt( 0, "CARD_QUERY_ANNIHILATOR_CHOOSE_PERMANENT_ONE_OF_FOUR" ) 
     	
@@ -88,36 +88,36 @@
     end
     </RESOLUTION_TIME_ACTION>
     <RESOLUTION_TIME_ACTION>
-	local target_array = {}    
+    local target_array = {}    
     for i=0,3 do    
     	target_array[i] = EffectDC():Get_Targets(1):Get_NthCardPtr(i)  
     end    
     for i=0,3 do    
     	if target_array[i] ~= nil then
-			local player = target_array[i]:GetPlayer()
+    		local player = target_array[i]:GetPlayer()
     		target_array[i]:Sacrifice(player) 
     	end  
     end
     </RESOLUTION_TIME_ACTION>
   </TRIGGERED_ABILITY>
   <TRIGGERED_ABILITY auto_skip="1" filter_zone="ZONE_IN_PLAY" active_zone="ZONE_GRAVEYARD">
-     <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[When Kozilek is put into a graveyard from anywhere, its owner shuffles his or her graveyard into his or her library.]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[When Kozilek is put into a graveyard from anywhere, its owner shuffles his or her graveyard into his or her library.]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[When Kozilek is put into a graveyard from anywhere, its owner shuffles his or her graveyard into his or her library.]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[When Kozilek is put into a graveyard from anywhere, its owner shuffles his or her graveyard into his or her library.]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[When Kozilek is put into a graveyard from anywhere, its owner shuffles his or her graveyard into his or her library.]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[When Kozilek is put into a graveyard from anywhere, its owner shuffles his or her graveyard into his or her library.]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[When Kozilek is put into a graveyard from anywhere, its owner shuffles his or her graveyard into his or her library.]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[When Kozilek is put into a graveyard from anywhere, its owner shuffles his or her graveyard into his or her library.]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[When Kozilek is put into a graveyard from anywhere, its owner shuffles his or her graveyard into his or her library.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[When Kozilek is put into a graveyard from anywhere, its owner shuffles his or her graveyard into his or her library.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Quando Kozilek viene messo in un cimitero da qualsiasi zona, il suo proprietario rimescola il suo cimitero nel suo grimorio.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Wenn Kozilek von irgendwoher auf den Friedhof gelegt wird, mischt sein Besitzer seinen Friedhof in seine Bibliothek.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Quand Kozilek est mis dans un cimetière depuis n’importe où, son propriétaire mélange son cimetière à sa bibliothèque.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Cuando Kozilek vaya a un cementerio desde cualquier parte, su propietario baraja su cementerio en su biblioteca.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[真実の解体者、コジレックがいずれかの領域からいずれかの墓地に置かれたとき、オーナーは自分の墓地を自分のライブラリーに加えて切り直す。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[When Kozilek is put into a graveyard from anywhere, its owner shuffles his or her graveyard into his or her library.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Когда Козилек попадает откуда-либо на кладбище, его владелец втасовывает свое кладбище в свою библиотеку.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Quando Kozilek é colocado num cemitério vindo de qualquer lugar, seu dono embaralha seu próprio cemitério em seu próprio grimório.]]></LOCALISED_TEXT>
     <TRIGGER value="ZONECHANGE_END" simple_qualifier="self" to_zone="ZONE_GRAVEYARD" from_zone="ZONE_ANY" />
-	<RESOLUTION_TIME_ACTION>
-	local owner = Object():GetOwner()
-	if (owner ~= nil) then
-		owner:MoveLocalZone( ZONE_GRAVEYARD, ZONE_LIBRARY )
-		owner:ShuffleLibrary()
-	end
-	</RESOLUTION_TIME_ACTION>
+    <RESOLUTION_TIME_ACTION>
+    local owner = Object():GetOwner()
+    if (owner ~= nil) then
+    	owner:MoveLocalZone( ZONE_GRAVEYARD, ZONE_LIBRARY )
+    	owner:ShuffleLibrary()
+    end
+    </RESOLUTION_TIME_ACTION>
   </TRIGGERED_ABILITY>
   <HELP title="MORE_INFO_TITLE_ANNIHILATOR" body="MORE_INFO_BODY_ANNIHILATOR" zone="ZONE_ANY" />
   <SFX text="COMBAT_ELDRAZI_ATTACK" power_boundary_min="1" power_boundary_max="-1" />
