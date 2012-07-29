@@ -3,57 +3,57 @@
   <FILENAME text="FLAMETONGUE_KAVU_888189234" />
   <CARDNAME text="FLAMETONGUE_KAVU" />
   <TITLE>
-     <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Flametongue Kavu]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Flametongue Kavu]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Flametongue Kavu]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Flametongue Kavu]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Flametongue Kavu]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[Flametongue Kavu]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[Flametongue Kavu]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Flametongue Kavu]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Flametongue Kavu]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Flametongue Kavu]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Kavu Lingua Fiammeggiante]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Flammenzungen-Kavu]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Kavru languefeu]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Kavu lengua de fuego]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[火炎舌のカヴー]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[Flametongue Kavu]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Flametongue Kavu]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Kavu de Língua Flamejante]]></LOCALISED_TEXT>
   </TITLE>
   <MULTIVERSEID value="888189234" />
   <ARTID value="888189234" />
   <ARTIST name="Pete Venters" />
   <CASTING_COST cost="{3}{R}" />
   <FLAVOURTEXT>
-     <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[“For dim-witted, thick-skulled genetic mutants, they have pretty good aim.”
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[“For dim-witted, thick-skulled genetic mutants, they have pretty good aim.”
 —Sisay, captain of the Weatherlight]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[“For dim-witted, thick-skulled genetic mutants, they have pretty good aim.”
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[“Per essere dei mutanti genetici stupidi e ottusi, hanno una mira piuttosto buona.”
+—Sisay, capitano della Cavalcavento]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[„Für unterbelichtete dickhäutige Mutanten mit wilden Genen können sie verdammt gut zielen.”
+—Sisay, Kapitän der Wetterlicht]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[« Pour des mutants au crâne épais et à l’esprit étroit, ils visent particulièrement bien. »
+—Sissay, capitaine de l’Aquilon]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[“Para ser mutantes genéticos tontos y torpes, tienen muy buena puntería.”
+—Sisay, capitana del Vientoligero]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[「鈍くて愚かな遺伝子変異体の割には、狙いを定めるのが結構うまいわね。」
+――ウェザーライトの艦長、シッセイ]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[“For dim-witted, thick-skulled genetic mutants, they have pretty good aim.”
 —Sisay, captain of the Weatherlight]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[“For dim-witted, thick-skulled genetic mutants, they have pretty good aim.”
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[“For dim-witted, thick-skulled genetic mutants, they have pretty good aim.”
 —Sisay, captain of the Weatherlight]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[“For dim-witted, thick-skulled genetic mutants, they have pretty good aim.”
-—Sisay, captain of the Weatherlight]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[“For dim-witted, thick-skulled genetic mutants, they have pretty good aim.”
-—Sisay, captain of the Weatherlight]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[“For dim-witted, thick-skulled genetic mutants, they have pretty good aim.”
-—Sisay, captain of the Weatherlight]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[“For dim-witted, thick-skulled genetic mutants, they have pretty good aim.”
-—Sisay, captain of the Weatherlight]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[“For dim-witted, thick-skulled genetic mutants, they have pretty good aim.”
-—Sisay, captain of the Weatherlight]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[“For dim-witted, thick-skulled genetic mutants, they have pretty good aim.”
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[“For dim-witted, thick-skulled genetic mutants, they have pretty good aim.”
 —Sisay, captain of the Weatherlight]]></LOCALISED_TEXT>
   </FLAVOURTEXT>
   <TYPE metaname="Creature" />
-  <SUB_TYPE metaname="Kavu" order_de-DE="0" order_es-ES="0" order_fr-FR="0" order_it-IT="0" order_jp-JA="0" order_ko-KR="0" order_pt-BR="0" order_ru-RU="0" />
+  <SUB_TYPE metaname="Kavu" />
   <EXPANSION value="DPG" />
   <RARITY metaname="U" />
   <POWER value="4" />
   <TOUGHNESS value="2" />
   <TRIGGERED_ABILITY dangerous="1">
-     <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[When Flametongue Kavu enters the battlefield, it deals 4 damage to target creature.]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[When Flametongue Kavu enters the battlefield, it deals 4 damage to target creature.]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[When Flametongue Kavu enters the battlefield, it deals 4 damage to target creature.]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[When Flametongue Kavu enters the battlefield, it deals 4 damage to target creature.]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[When Flametongue Kavu enters the battlefield, it deals 4 damage to target creature.]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[When Flametongue Kavu enters the battlefield, it deals 4 damage to target creature.]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[When Flametongue Kavu enters the battlefield, it deals 4 damage to target creature.]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[When Flametongue Kavu enters the battlefield, it deals 4 damage to target creature.]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[When Flametongue Kavu enters the battlefield, it deals 4 damage to target creature.]]></LOCALISED_TEXT>
-	<TRIGGER value="ZONECHANGE_END" simple_qualifier="self" to_zone="ZONE_IN_PLAY" />
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[When Flametongue Kavu enters the battlefield, it deals 4 damage to target creature.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Quando il Kavu Lingua Fiammeggiante entra nel campo di battaglia, infligge 4 danni a una creatura bersaglio.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Wenn der Flammenzungen-Kavu ins Spiel kommt, fügt er einer Kreatur deiner Wahl 4 Schadenspunkte zu.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Quand le Kavru languefeu arrive sur le champ de bataille, il inflige 4 blessures à la créature ciblée.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Cuando el Kavu lengua de fuego entre al campo de batalla, hace 4 puntos de daño a la criatura objetivo.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[火炎舌のカヴーが戦場に出たとき、クリーチャー１体を対象とする。火炎舌のカヴーはそれに４点のダメージを与える。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[When Flametongue Kavu enters the battlefield, it deals 4 damage to target creature.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[When Flametongue Kavu enters the battlefield, it deals 4 damage to target creature.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[When Flametongue Kavu enters the battlefield, it deals 4 damage to target creature.]]></LOCALISED_TEXT>
+    <TRIGGER value="ZONECHANGE_END" simple_qualifier="self" to_zone="ZONE_IN_PLAY" />
     <TARGET_DEFINITION id="0">
     local filter = Object():GetFilter()
     filter:Clear()
@@ -69,7 +69,7 @@
     </PLAY_TIME_ACTION>
     <RESOLUTION_TIME_ACTION>
     local target = EffectDC():Get_Targets(0):Get_CardPtr(0)
-	local source = EffectSource()
+    local source = EffectSource()
     if source == nil then
     	source = Object()
     end
@@ -77,7 +77,7 @@
     	target:DealDamage( 4, source )  
     end
     </RESOLUTION_TIME_ACTION>
-	<SFX text="TARGET_FLAME_PLAY" />
+    <SFX text="TARGET_FLAME_PLAY" />
   </TRIGGERED_ABILITY>
   <SFX text="COMBAT_FLAME_LARGE_ATTACK" power_boundary_min="4" power_boundary_max="-1" />
   <SFX text="COMBAT_FLAME_SMALL_ATTACK" power_boundary_min="1" power_boundary_max="3" />

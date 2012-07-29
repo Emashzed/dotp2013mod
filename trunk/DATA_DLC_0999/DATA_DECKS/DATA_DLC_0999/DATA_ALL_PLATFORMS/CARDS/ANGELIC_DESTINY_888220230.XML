@@ -3,34 +3,34 @@
   <FILENAME text="ANGELIC_DESTINY_888220230" />
   <CARDNAME text="ANGELIC_DESTINY" />
   <TITLE>
-     <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Angelic Destiny]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Angelic Destiny]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Angelic Destiny]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Angelic Destiny]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Angelic Destiny]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[Angelic Destiny]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[Angelic Destiny]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Angelic Destiny]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Angelic Destiny]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Angelic Destiny]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Destino Angelico]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Engelsschicksal]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Destinée angélique]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Destino angélico]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[天使の運命]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[Angelic Destiny]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Судьба Ангела]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Destino Angelical]]></LOCALISED_TEXT>
   </TITLE>
   <MULTIVERSEID value="888220230" />
   <ARTID value="888220230" />
   <ARTIST name="Jana Schirmer &amp; Johannes Voss" />
   <CASTING_COST cost="{2}{W}{W}" />
   <TYPE metaname="Enchantment" />
-  <SUB_TYPE metaname="Aura" order_de-DE="0" order_es-ES="0" order_fr-FR="0" order_it-IT="0" order_jp-JA="0" order_ko-KR="0" order_pt-BR="0" order_ru-RU="0" />
+  <SUB_TYPE metaname="Aura" />
   <EXPANSION value="DPG" />
   <RARITY metaname="M" />
   <STATIC_ABILITY attach_filter="1" filter_zone="ZONE_IN_PLAY">
-     <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Enchant creature]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Enchant creature]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Enchant creature]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Enchant creature]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Enchant creature]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[Enchant creature]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[Enchant creature]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Enchant creature]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Enchant creature]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Enchant creature]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Enchanter: créature]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Encantar criatura.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Kreaturenverzauberung]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Incanta creatura]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[エンチャント（クリーチャー）]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[생물에게 부여]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Зачаровать существо]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Encantar criatura]]></LOCALISED_TEXT>
     <CONTINUOUS_ACTION>
     local attach_filter = Object():AttachmentFilter_Get()
     attach_filter:Clear()
@@ -38,15 +38,15 @@
     </CONTINUOUS_ACTION>
   </STATIC_ABILITY>
   <STATIC_ABILITY>
-     <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Enchanted creature gets +4/+4, has flying and first strike, and is an Angel in addition to its other types.]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Enchanted creature gets +4/+4, has flying and first strike, and is an Angel in addition to its other types.]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Enchanted creature gets +4/+4, has flying and first strike, and is an Angel in addition to its other types.]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Enchanted creature gets +4/+4, has flying and first strike, and is an Angel in addition to its other types.]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Enchanted creature gets +4/+4, has flying and first strike, and is an Angel in addition to its other types.]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[Enchanted creature gets +4/+4, has flying and first strike, and is an Angel in addition to its other types.]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[Enchanted creature gets +4/+4, has flying and first strike, and is an Angel in addition to its other types.]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Enchanted creature gets +4/+4, has flying and first strike, and is an Angel in addition to its other types.]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Enchanted creature gets +4/+4, has flying and first strike, and is an Angel in addition to its other types.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Enchanted creature gets +4/+4, has flying and first strike, and is an Angel in addition to its other types.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[La creatura incantata prende +4/+4, ha volare e attacco improvviso ed è un Angelo in aggiunta ai suoi altri tipi.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Die verzauberte Kreatur erhält +4/+4, Flugfähigkeit und Erstschlag und ist zusätzlich zu ihren anderen Typen auch ein Engel.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[La créature enchantée gagne +4/+4, a le vol et l’initiative, et elle est un ange en plus de ses autres types.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[La criatura encantada obtiene +4/+4, tiene las habilidades de volar y dañar primero y es un Ángel además de sus otros tipos.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[エンチャントされているクリーチャーは＋４/＋４の修整を受けるとともに飛行と先制攻撃を持ち、それは他のタイプに加えて天使でもある。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[Enchanted creature gets +4/+4, has flying and first strike, and is an Angel in addition to its other types.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Зачарованное существо получает +4/+4, имеет Полет и Первый удар и является Ангелом в дополнение к своим другим типам.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[A criatura encantada recebe +4/+4, tem voar e iniciativa e é um Anjo além de seus outros tipos.]]></LOCALISED_TEXT>
     <CONTINUOUS_ACTION layer="7C">
     local parent = Object():GetParent()
     if parent ~= nil then
@@ -54,19 +54,19 @@
     	parent:GetCurrentCharacteristics():Toughness_Add( 4 )
     end
     </CONTINUOUS_ACTION>
-	<CONTINUOUS_ACTION layer="6">
+    <CONTINUOUS_ACTION layer="6">
     local parent = Object():GetParent()
     if parent ~= nil then
     	parent:GetCurrentCharacteristics():Characteristic_Set( CHARACTERISTIC_FLYING, 1 )
     end
     </CONTINUOUS_ACTION>
-	<CONTINUOUS_ACTION layer="6">
+    <CONTINUOUS_ACTION layer="6">
     local parent = Object():GetParent()
     if parent ~= nil then
     	parent:GetCurrentCharacteristics():Characteristic_Set( CHARACTERISTIC_FIRST_STRIKE, 1 )
     end
     </CONTINUOUS_ACTION>
-	<CONTINUOUS_ACTION layer="4">
+    <CONTINUOUS_ACTION layer="4">
     local parent = Object():GetParent()
     if parent ~= nil then
     	parent:GetCurrentCharacteristics():SubType_GetWritable(parent):Add( CREATURE_TYPE_ANGEL, parent )
@@ -74,22 +74,22 @@
     </CONTINUOUS_ACTION>
   </STATIC_ABILITY>
   <TRIGGERED_ABILITY>
-     <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[When enchanted creature dies, return Angelic Destiny to its owner’s hand.]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[When enchanted creature dies, return Angelic Destiny to its owner’s hand.]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[When enchanted creature dies, return Angelic Destiny to its owner’s hand.]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[When enchanted creature dies, return Angelic Destiny to its owner’s hand.]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[When enchanted creature dies, return Angelic Destiny to its owner’s hand.]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[When enchanted creature dies, return Angelic Destiny to its owner’s hand.]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[When enchanted creature dies, return Angelic Destiny to its owner’s hand.]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[When enchanted creature dies, return Angelic Destiny to its owner’s hand.]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[When enchanted creature dies, return Angelic Destiny to its owner’s hand.]]></LOCALISED_TEXT>
-	<TRIGGER value="ZONECHANGE_BEGIN" to_zone="ZONE_GRAVEYARD" from_zone="ZONE_IN_PLAY">
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[When enchanted creature dies, return Angelic Destiny to its owner’s hand.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Quando la creatura incantata muore, fai tornare il Destino Angelico in mano al suo proprietario.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Wenn die verzauberte Kreatur stirbt, bringe das Engelsschicksal auf die Hand seines Besitzers zurück.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Quand la créature enchantée meurt, renvoyez la Destinée angélique dans la main de son propriétaire.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Cuando la criatura encantada muera, regresa el Destino angélico a la mano de su propietario.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[エンチャントされているクリーチャーが死亡したとき、天使の運命をオーナーの手札に戻す。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[When enchanted creature dies, return Angelic Destiny to its owner’s hand.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Когда зачарованное существо умирает, верните Судьбу Ангела в руку ее владельца.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Quando a criatura encantada morrer, devolva Destino Angelical para a mão de seu dono.]]></LOCALISED_TEXT>
+    <TRIGGER value="ZONECHANGE_BEGIN" to_zone="ZONE_GRAVEYARD" from_zone="ZONE_IN_PLAY">
     return (TriggerObject() == Object():GetParent())
     </TRIGGER>
-	<RESOLUTION_TIME_ACTION>
+    <RESOLUTION_TIME_ACTION>
     if Object():GetZone() == ZONE_GRAVEYARD then
-    Object():GuidedReveal( ZONE_GRAVEYARD, ZONE_HAND )
-    Object():PutInHand()  
+    	Object():GuidedReveal( ZONE_GRAVEYARD, ZONE_HAND )
+    	Object():PutInHand()  
     end
     </RESOLUTION_TIME_ACTION>
   </TRIGGERED_ABILITY>
@@ -110,7 +110,7 @@
     <RESOLUTION_TIME_ACTION>
     local target_card = EffectDC():Get_Targets(0):Get_CardPtr(0)
     if target_card ~= nil then
-          Object():Enchant( target_card )
+    	Object():Enchant( target_card )
     end
     </RESOLUTION_TIME_ACTION>
   </SPELL_ABILITY>

@@ -3,15 +3,15 @@
   <FILENAME text="FIRES_OF_YAVIMAYA_888220500" />
   <CARDNAME text="FIRES_OF_YAVIMAYA" />
   <TITLE>
-     <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Fires of Yavimaya]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Fires of Yavimaya]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Fires of Yavimaya]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Fires of Yavimaya]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Fires of Yavimaya]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[Fires of Yavimaya]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[Fires of Yavimaya]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Fires of Yavimaya]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Fires of Yavimaya]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Fires of Yavimaya]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Feuer von Yavimaya]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Fuegos de Yavimaya]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Feux de la Yavimaya]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Fuochi di Yavimaya]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[ヤヴィマヤの火(ひ)]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[Fires of Yavimaya]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Fires of Yavimaya]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Fogos de Yavimaya]]></LOCALISED_TEXT>
   </TITLE>
   <MULTIVERSEID value="888220500" />
   <ARTID value="888220500" />
@@ -21,15 +21,15 @@
   <EXPANSION value="DPG" />
   <RARITY metaname="U" />
   <STATIC_ABILITY filter_zone="ZONE_IN_PLAY">
-     <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Creatures you control have haste.]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Creatures you control have haste.]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Creatures you control have haste.]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Creatures you control have haste.]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Creatures you control have haste.]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[Creatures you control have haste.]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[Creatures you control have haste.]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Creatures you control have haste.]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Creatures you control have haste.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Creatures you control have haste.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Les créatures que vous contrôlez ont la célérité.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Las criaturas que controlas tienen la habilidad de prisa.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Le creature che controlli hanno rapidità.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[あなたがコントロールするクリーチャーは速攻を持つ。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Alle Kreaturen, die Du kontrollierst, haben Eile.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[Creatures you control have haste.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Creatures you control have haste.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Creatures you control have haste.]]></LOCALISED_TEXT>
     <FILTER>
     local filteredCard = FilteredCard()
     local objectPlayer = EffectController()
@@ -48,17 +48,17 @@
     </CONTINUOUS_ACTION>
   </STATIC_ABILITY>
   <ACTIVATED_ABILITY filter_zone="ZONE_IN_PLAY">
-     <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Sacrifice Fires of Yavimaya: Target creature gets +2/+2 until end of turn.]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Sacrifice Fires of Yavimaya: Target creature gets +2/+2 until end of turn.]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Sacrifice Fires of Yavimaya: Target creature gets +2/+2 until end of turn.]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Sacrifice Fires of Yavimaya: Target creature gets +2/+2 until end of turn.]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Sacrifice Fires of Yavimaya: Target creature gets +2/+2 until end of turn.]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[Sacrifice Fires of Yavimaya: Target creature gets +2/+2 until end of turn.]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[Sacrifice Fires of Yavimaya: Target creature gets +2/+2 until end of turn.]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Sacrifice Fires of Yavimaya: Target creature gets +2/+2 until end of turn.]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Sacrifice Fires of Yavimaya: Target creature gets +2/+2 until end of turn.]]></LOCALISED_TEXT>
-	<COST type="SacrificeSelf" />
-	<TARGET_DEFINITION id="0">
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Sacrifice Fires of Yavimaya: Target creature gets +2/+2 until end of turn.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Sacrifiez les Feux de la Yavimaya : La créature ciblée gagne +2/+2 jusqu'à la fin du tour.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Sacrificar los Fuegos de Yavimaya: La criatura objetivo obtiene +2/+2 hasta el final del turno.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Sacrifica i Fuochi di Yavimaya: Una creatura bersaglio prende +2/+2 fino alla fine del turno.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[ヤヴィマヤの火を生け贄に捧げる：クリーチャー１体を対象とする。それはターン終了時まで＋２/＋２の修整を受ける。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Opfere die Feuer von Yavimaya: Eine Kreatur deiner Wahl erhält +2/+2 bis zum Ende des Zuges.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[Sacrifice Fires of Yavimaya: Target creature gets +2/+2 until end of turn.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Sacrifice Fires of Yavimaya: Target creature gets +2/+2 until end of turn.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Sacrifice Fires of Yavimaya: Target creature gets +2/+2 until end of turn.]]></LOCALISED_TEXT>
+    <COST type="SacrificeSelf" />
+    <TARGET_DEFINITION id="0">
     local filter = Object():GetFilter()
     filter:Clear()
     filter:AddCardType( CARD_TYPE_CREATURE )
@@ -80,7 +80,7 @@
     end
     </CONTINUOUS_ACTION>
     <DURATION simple_duration="UntilEOT" />
-	<AI_AVAILABILITY step="declare_blockers" />
+    <AI_AVAILABILITY step="declare_blockers" />
     <AI_AVAILABILITY type="in_response_dangerous" />
   </ACTIVATED_ABILITY>
 </CARD_V2>

@@ -3,50 +3,50 @@
   <FILENAME text="ENDLESS_RANKS_OF_THE_DEAD_888234430" />
   <CARDNAME text="ENDLESS_RANKS_OF_THE_DEAD" />
   <TITLE>
-     <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Endless Ranks of the Dead]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Endless Ranks of the Dead]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Endless Ranks of the Dead]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Endless Ranks of the Dead]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Endless Ranks of the Dead]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[Endless Ranks of the Dead]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[Endless Ranks of the Dead]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Endless Ranks of the Dead]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Endless Ranks of the Dead]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Endless Ranks of the Dead]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Interminabili Truppe di Morti]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Endlose Reihen des Todes]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Interminables colonnes de morts]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Filas interminables de muertos]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[終わり無き死者の列]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[Endless Ranks of the Dead]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Бесчисленные Ряды Мертвецов]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Fileira Interminável de Mortos]]></LOCALISED_TEXT>
   </TITLE>
   <MULTIVERSEID value="888234430" />
   <ARTID value="888234430" />
   <ARTIST name="Ryan Yee" />
   <CASTING_COST cost="{2}{B}{B}" />
   <FLAVOURTEXT>
-     <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[With Thraben’s army recalled to its city walls, outlying villages were left to fend for themselves.]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[With Thraben’s army recalled to its city walls, outlying villages were left to fend for themselves.]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[With Thraben’s army recalled to its city walls, outlying villages were left to fend for themselves.]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[With Thraben’s army recalled to its city walls, outlying villages were left to fend for themselves.]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[With Thraben’s army recalled to its city walls, outlying villages were left to fend for themselves.]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[With Thraben’s army recalled to its city walls, outlying villages were left to fend for themselves.]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[With Thraben’s army recalled to its city walls, outlying villages were left to fend for themselves.]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[With Thraben’s army recalled to its city walls, outlying villages were left to fend for themselves.]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[With Thraben’s army recalled to its city walls, outlying villages were left to fend for themselves.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[With Thraben’s army recalled to its city walls, outlying villages were left to fend for themselves.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Con l’esercito di Thraben richiamato entro le mura della città, i villaggi più lontani furono lasciati ad arrangiarsi.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Da Thrabens Armee hinter die Stadtmauern zurückgerufen worden war, mussten die umliegenden Dörfer sich selbst verteidigen.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Quand l’armée de Thraben fut rappelée aux fortifications, les villages alentours durent se défendre seuls.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Con el ejército de Thraben recluido tras sus muros, las aldeas exteriores fueron abandonadas a su suerte.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[スレイベンの軍が都市の壁の中に呼び戻されたことで、周辺の村々は自衛せざるをえなくなった。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[With Thraben’s army recalled to its city walls, outlying villages were left to fend for themselves.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Когда трейбенское войско отошло назад к городским стенам, близлежащие деревни оказались брошенными на произвол судьбы.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Com o exército de Thraben em retirada atrás das muralhas da cidade, as aldeias mais distantes precisaram se defender sozinhas.]]></LOCALISED_TEXT>
   </FLAVOURTEXT>
   <TYPE metaname="Enchantment" />
   <EXPANSION value="DPG" />
   <RARITY metaname="R" />
   <TRIGGERED_ABILITY auto_skip="1">
-     <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[At the beginning of your upkeep, put X 2/2 black Zombie creature tokens onto the battlefield, where X is half the number of Zombies you control, rounded down.]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[At the beginning of your upkeep, put X 2/2 black Zombie creature tokens onto the battlefield, where X is half the number of Zombies you control, rounded down.]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[At the beginning of your upkeep, put X 2/2 black Zombie creature tokens onto the battlefield, where X is half the number of Zombies you control, rounded down.]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[At the beginning of your upkeep, put X 2/2 black Zombie creature tokens onto the battlefield, where X is half the number of Zombies you control, rounded down.]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[At the beginning of your upkeep, put X 2/2 black Zombie creature tokens onto the battlefield, where X is half the number of Zombies you control, rounded down.]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[At the beginning of your upkeep, put X 2/2 black Zombie creature tokens onto the battlefield, where X is half the number of Zombies you control, rounded down.]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[At the beginning of your upkeep, put X 2/2 black Zombie creature tokens onto the battlefield, where X is half the number of Zombies you control, rounded down.]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[At the beginning of your upkeep, put X 2/2 black Zombie creature tokens onto the battlefield, where X is half the number of Zombies you control, rounded down.]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[At the beginning of your upkeep, put X 2/2 black Zombie creature tokens onto the battlefield, where X is half the number of Zombies you control, rounded down.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[At the beginning of your upkeep, put X 2/2 black Zombie creature tokens onto the battlefield, where X is half the number of Zombies you control, rounded down.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[All’inizio del tuo mantenimento, metti sul campo di battaglia X pedine creatura Zombie 2/2 nere, dove X è la metà del numero di Zombie che controlli, arrotondata per difetto.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Bringe zu Beginn deines Versorgungssegments X 2/2 schwarze Zombie-Kreaturenspielsteine ins Spiel, wobei X gleich der Hälfte (abgerundet) der Anzahl an Zombies ist, die du kontrollierst.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Au début de votre entretien, mettez sur le champ de bataille X jetons de créature 2/2 noire Zombie, X étant la moitié du nombre de zombies que vous contrôlez, arrondie à l’unité inférieure.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Al comienzo de tu mantenimiento, pon en el campo de batalla X fichas de criatura Zombie negras 2/2, donde X es la mitad de la cantidad de Zombies que controlas, redondeado hacia abajo.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[あなたのアップキープの開始時に、黒の２/２のゾンビ・クリーチャー・トークンをＸ体戦場に出す。Ｘはあなたがコントロールするゾンビの数の半分（端数切り捨て）に等しい。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[At the beginning of your upkeep, put X 2/2 black Zombie creature tokens onto the battlefield, where X is half the number of Zombies you control, rounded down.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[В начале вашего шага поддержки положите на поле битвы X фишек существа 2/2 черный Зомби, где X — разделенное пополам и округленное в меньшую сторону количество Зомби под вашим контролем.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[No início de sua manutenção, coloque no campo de batalha X fichas de criatura pretas 2/2 do tipo Zumbi, sendo X igual à metade da quantidade de Zumbis que você controla, arredondada para baixo.]]></LOCALISED_TEXT>
     <TRIGGER value="BEGINNING_OF_STEP" simple_qualifier="controller">
     return ( EffectController():MyTurn() ~= 0 ) and ( MTG():GetStep() == STEP_UPKEEP )
     </TRIGGER>
     <RESOLUTION_TIME_ACTION>
     local total = 0
-	local filter = Object():GetFilter()
+    local filter = Object():GetFilter()
     filter:Clear()
     filter:SetZone( ZONE_IN_PLAY )
     filter:SetController( EffectController() )

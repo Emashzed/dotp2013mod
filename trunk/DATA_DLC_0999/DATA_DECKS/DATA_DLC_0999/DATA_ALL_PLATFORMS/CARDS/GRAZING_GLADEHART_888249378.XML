@@ -3,60 +3,60 @@
   <FILENAME text="GRAZING_GLADEHART_888249378" />
   <CARDNAME text="GRAZING_GLADEHART" />
   <TITLE>
-     <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Grazing Gladehart]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Grazing Gladehart]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Grazing Gladehart]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Grazing Gladehart]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Grazing Gladehart]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[Grazing Gladehart]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[Grazing Gladehart]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Grazing Gladehart]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Grazing Gladehart]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Grazing Gladehart]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Cervo delle Radure al Pascolo]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Grasender Wiesenhirsch]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Cerfeclair paissant]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Venado del claro]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[放牧の林鹿]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[Grazing Gladehart]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Пасущийся Болоторог]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Cervo-de-Clareira Pastejador]]></LOCALISED_TEXT>
   </TITLE>
   <MULTIVERSEID value="888249378" />
   <ARTID value="888249378" />
   <ARTIST name="Ryan Pancoast" />
   <CASTING_COST cost="{2}{G}" />
   <FLAVOURTEXT>
-     <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[“Don’t be fooled. If it were as docile as it looks, it would’ve died off long ago.”
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[“Don’t be fooled. If it were as docile as it looks, it would’ve died off long ago.”
 —Yon Basrel, Oran-Rief survivalist]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[“Don’t be fooled. If it were as docile as it looks, it would’ve died off long ago.”
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[“Non ti far ingannare. Se fosse docile come sembra, sarebbe estinto da parecchio tempo.”
+—Yon Basrel, survivalista di Oran-Rief]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[„Lass dich nicht täuschen. Falls sie so sanft wären, wie sie aussehen, wären sie längst ausgestorben.”
+—Yon Basrel, Überlebenskünstler aus dem Oran-Rief-Wald]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[« Ne vous faites pas avoir. S’il était aussi docile qu’il le paraît, il aurait été exterminé depuis longtemps. »
+—Yon Basrel, survivaliste d’Oran-Rief]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[“Que no te engañe. Si fuera tan dócil como parece, se habría muerto hace mucho.”
+—Yon Basrel, sobreviviente de Oran-Rief]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[「騙されるなよ。 見た目通りのおとなしさなら、ずっと前に絶滅してるはずだ。」
+――オラン＝リーフの生き残り、ヨン・バスレル]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[“Don’t be fooled. If it were as docile as it looks, it would’ve died off long ago.”
 —Yon Basrel, Oran-Rief survivalist]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[“Don’t be fooled. If it were as docile as it looks, it would’ve died off long ago.”
-—Yon Basrel, Oran-Rief survivalist]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[“Don’t be fooled. If it were as docile as it looks, it would’ve died off long ago.”
-—Yon Basrel, Oran-Rief survivalist]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[“Don’t be fooled. If it were as docile as it looks, it would’ve died off long ago.”
-—Yon Basrel, Oran-Rief survivalist]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[“Don’t be fooled. If it were as docile as it looks, it would’ve died off long ago.”
-—Yon Basrel, Oran-Rief survivalist]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[“Don’t be fooled. If it were as docile as it looks, it would’ve died off long ago.”
-—Yon Basrel, Oran-Rief survivalist]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[“Don’t be fooled. If it were as docile as it looks, it would’ve died off long ago.”
-—Yon Basrel, Oran-Rief survivalist]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[“Don’t be fooled. If it were as docile as it looks, it would’ve died off long ago.”
-—Yon Basrel, Oran-Rief survivalist]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[«Не поддавайтесь на обман. Если бы они были такими смирными, как кажется, они бы уже давно вымерли».
+— Йон Базрел, оран-рифский выживатель]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[“Não se deixe enganar. Se ele fosse tão dócil quanto parece, já teria morrido há muito tempo.”
+— Yon Basrel, sobrevivencialista de Oran-Rief]]></LOCALISED_TEXT>
   </FLAVOURTEXT>
   <TYPE metaname="Creature" />
-  <SUB_TYPE metaname="Antelope" order_de-DE="0" order_es-ES="0" order_fr-FR="0" order_it-IT="0" order_jp-JA="0" order_ko-KR="0" order_pt-BR="0" order_ru-RU="0" />
+  <SUB_TYPE metaname="Antelope" />
   <EXPANSION value="DPG" />
   <RARITY metaname="C" />
   <POWER value="2" />
   <TOUGHNESS value="2" />
   <TRIGGERED_ABILITY auto_skip="1" filter_zone="ZONE_IN_PLAY">
-     <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[|Landfall| — Whenever a land enters the battlefield under your control, you may gain 2 life.]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[|Landfall| — Whenever a land enters the battlefield under your control, you may gain 2 life.]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[|Landfall| — Whenever a land enters the battlefield under your control, you may gain 2 life.]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[|Landfall| — Whenever a land enters the battlefield under your control, you may gain 2 life.]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[|Landfall| — Whenever a land enters the battlefield under your control, you may gain 2 life.]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[|Landfall| — Whenever a land enters the battlefield under your control, you may gain 2 life.]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[|Landfall| — Whenever a land enters the battlefield under your control, you may gain 2 life.]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[|Landfall| — Whenever a land enters the battlefield under your control, you may gain 2 life.]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[|Landfall| — Whenever a land enters the battlefield under your control, you may gain 2 life.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[|Landfall| — Whenever a land enters the battlefield under your control, you may gain 2 life.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[|Terraferma| — Ogniqualvolta una terra entra nel campo di battaglia sotto il tuo controllo, puoi guadagnare 2 punti vita.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[|Landung| — Immer wenn ein Land unter deiner Kontrolle ins Spiel kommt, kannst du 2 Lebenspunkte dazuerhalten.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[|Toucheterre| — À chaque fois qu’un terrain arrive sur le champ de bataille sous votre contrôle, vous pouvez gagner 2 points de vie.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[|Aterrizaje| — Siempre que una tierra entre al campo de batalla bajo tu control, puedes ganar 2 vidas.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[上陸 ― 土地が１つあなたのコントロール下で戦場に出るたび、あなたは２点のライフを得てもよい。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[|Landfall| — Whenever a land enters the battlefield under your control, you may gain 2 life.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[|Землепад| — Каждый раз, когда земля выходит на поле битвы под вашим контролем, вы можете получить 2 жизни.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[|Aterragem| — Toda vez que um terreno entra no campo de batalha sob o seu controle, você pode ganhar 2 pontos de vida.]]></LOCALISED_TEXT>
     <TRIGGER value="ZONECHANGE_END" to_zone="ZONE_IN_PLAY">
     return (TriggerObject():GetCardType():Test( CARD_TYPE_LAND ) ~= 0 and TriggerObject():GetPlayer() == EffectController())
     </TRIGGER>
-	<RESOLUTION_TIME_ACTION>
+    <RESOLUTION_TIME_ACTION>
     local player = EffectController()
     if (player ~= nil) then
     	player:GainLife(2)

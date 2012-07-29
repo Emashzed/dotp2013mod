@@ -3,48 +3,48 @@
   <FILENAME text="BENALISH_CAVALRY_888122082" />
   <CARDNAME text="BENALISH_CAVALRY" />
   <TITLE>
-     <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Benalish Cavalry]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Benalish Cavalry]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Benalish Cavalry]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Benalish Cavalry]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Benalish Cavalry]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[Benalish Cavalry]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[Benalish Cavalry]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Benalish Cavalry]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Benalish Cavalry]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Benalish Cavalry]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Cavalleria di Benalia]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Benalische Kavallerie]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Cavalerie bénaliane]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Caballería benalita]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[ベナリアの騎兵]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[Benalish Cavalry]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Беналишская Кавалерия]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Cavaleiro de Benália]]></LOCALISED_TEXT>
   </TITLE>
   <MULTIVERSEID value="888122082" />
   <ARTID value="888122082" />
   <ARTIST name="Parente" />
   <CASTING_COST cost="{1}{W}" />
   <FLAVOURTEXT>
-     <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[“My people swore to protect Benalia to the end. It is battered, but yet stands, as do we.”]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[“My people swore to protect Benalia to the end. It is battered, but yet stands, as do we.”]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[“My people swore to protect Benalia to the end. It is battered, but yet stands, as do we.”]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[“My people swore to protect Benalia to the end. It is battered, but yet stands, as do we.”]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[“My people swore to protect Benalia to the end. It is battered, but yet stands, as do we.”]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[“My people swore to protect Benalia to the end. It is battered, but yet stands, as do we.”]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[“My people swore to protect Benalia to the end. It is battered, but yet stands, as do we.”]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[“My people swore to protect Benalia to the end. It is battered, but yet stands, as do we.”]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[“My people swore to protect Benalia to the end. It is battered, but yet stands, as do we.”]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[“My people swore to protect Benalia to the end. It is battered, but yet stands, as do we.”]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[“Il mio popolo ha giurato di proteggere Benalia fino alla fine. È stata colpita con violenza, ma è ancora in piedi, e così siamo noi.”]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[„Mein Volk hat geschworen, Benalia bis zum bitteren Ende zu verteidigen. Noch steht Benalia, und noch stehen wir.”]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[« Mon peuple a juré de protéger Bénalia jusqu’au bout. Même blessée, notre contrée résiste, et nous aussi. »]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[“Mi gente prometió proteger a Benalia hasta el fin. Está maltratada, pero todavía está aquí, al igual que nosotros.”]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[ベナリアの人々は、最後までそこを守ることを誓っていた。 そこは度々襲われたが、未だ残っている。ならば我々もそれに倣おう。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[“My people swore to protect Benalia to the end. It is battered, but yet stands, as do we.”]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[«Мои люди поклялись защищать Беналию до конца. Избито, но непоколебимо, как и мы».]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[“Meu povo jurou proteger Benália até o fim. Ela está arrasada, mas ainda está de pé, e nós também.”]]></LOCALISED_TEXT>
   </FLAVOURTEXT>
   <TYPE metaname="Creature" />
-  <SUB_TYPE metaname="Human" order_de-DE="0" order_es-ES="0" order_fr-FR="0" order_it-IT="0" order_jp-JA="0" order_ko-KR="0" order_pt-BR="0" order_ru-RU="0" />
-  <SUB_TYPE metaname="Knight" order_de-DE="0" order_es-ES="0" order_fr-FR="0" order_it-IT="0" order_jp-JA="0" order_ko-KR="0" order_pt-BR="0" order_ru-RU="0" />
+  <SUB_TYPE metaname="Human" order_de-DE="0" order_es-ES="1" order_fr-FR="0" order_it-IT="1" order_jp-JA="0" order_ko-KR="0" order_pt-BR="0" order_ru-RU="0" />
+  <SUB_TYPE metaname="Knight" order_de-DE="1" order_es-ES="0" order_fr-FR="1" order_it-IT="0" order_jp-JA="1" order_ko-KR="1" order_pt-BR="1" order_ru-RU="1" />
   <EXPANSION value="DPG" />
   <RARITY metaname="C" />
   <POWER value="2" />
   <TOUGHNESS value="2" />
   <STATIC_ABILITY>
-     <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Flanking |(Whenever a creature without flanking blocks this creature, the blocking creature gets -1/-1 until end of turn.)|]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Flanking |(Whenever a creature without flanking blocks this creature, the blocking creature gets -1/-1 until end of turn.)|]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Flanking |(Whenever a creature without flanking blocks this creature, the blocking creature gets -1/-1 until end of turn.)|]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Flanking |(Whenever a creature without flanking blocks this creature, the blocking creature gets -1/-1 until end of turn.)|]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Flanking |(Whenever a creature without flanking blocks this creature, the blocking creature gets -1/-1 until end of turn.)|]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[Flanking |(Whenever a creature without flanking blocks this creature, the blocking creature gets -1/-1 until end of turn.)|]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[Flanking |(Whenever a creature without flanking blocks this creature, the blocking creature gets -1/-1 until end of turn.)|]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Flanking |(Whenever a creature without flanking blocks this creature, the blocking creature gets -1/-1 until end of turn.)|]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Flanking |(Whenever a creature without flanking blocks this creature, the blocking creature gets -1/-1 until end of turn.)|]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Flanking]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Aggirare]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Flankenangriff]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Débordement]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Flanquea.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[側面攻撃]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[Flanking]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Обход]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Flanquear]]></LOCALISED_TEXT>
     <CONTINUOUS_ACTION>
     local characteristics = Object():GetCurrentCharacteristics()
     characteristics:Characteristic_Set( CHARACTERISTIC_FLANKING, 1 )
@@ -55,14 +55,15 @@
     return TriggerObject() == Object() and (SecondaryObject():GetCurrentCharacteristics():Characteristic_Get( CHARACTERISTIC_FLANKING ) == 0)
     </TRIGGER>
     <CONTINUOUS_ACTION layer="7C">
-	local nonflankers = SecondaryObject()
-	if nonflankers ~= nil  then    
-      nonflankers:GetCurrentCharacteristics():Power_Add( -1 )
-      nonflankers:GetCurrentCharacteristics():Toughness_Add( -1 )
-	end
+    local nonflankers = SecondaryObject()
+    if nonflankers ~= nil  then    
+    	nonflankers:GetCurrentCharacteristics():Power_Add( -1 )
+    	nonflankers:GetCurrentCharacteristics():Toughness_Add( -1 )
+    end
     </CONTINUOUS_ACTION>
     <DURATION simple_duration="UntilEOT" />
   </TRIGGERED_ABILITY>
+  <HELP title="MORE_INFO_BADGE_TITLE_30" body="MORE_INFO_BADGE_BODY_30" zone="ZONE_ANY" />
   <SFX text="COMBAT_BLADE_LARGE_ATTACK" power_boundary_min="4" power_boundary_max="-1" />
   <SFX text="COMBAT_BLADE_SMALL_ATTACK" power_boundary_min="1" power_boundary_max="3" />
   <AI_BASE_SCORE score="300" zone="ZONE_IN_PLAY" />

@@ -3,15 +3,15 @@
   <FILENAME text="AETHER_MUTATION_88828669" />
   <CARDNAME text="AETHER_MUTATION" />
   <TITLE>
-     <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Æther Mutation]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Æther Mutation]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Æther Mutation]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Æther Mutation]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Æther Mutation]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[Æther Mutation]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[Æther Mutation]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Æther Mutation]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Æther Mutation]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Æther Mutation]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Äthermutation]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Mutación del Éter]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Mutation d’Æther]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Mutazione Eterea]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[上(じょう)天(てん)の突(とつ)然(ぜん)変(へん)異(い)]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[Æther Mutation]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Æther Mutation]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Æther Mutation]]></LOCALISED_TEXT>
   </TITLE>
   <MULTIVERSEID value="88828669" />
   <ARTID value="88828669" />
@@ -21,15 +21,15 @@
   <EXPANSION value="DPG" />
   <RARITY metaname="U" />
   <SPELL_ABILITY dangerous="1" filter_zone="ZONE_IN_PLAY">
-     <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Return target creature to its owner’s hand. Put X 1/1 green Saproling creature tokens onto the battlefield, where X is that creature’s converted mana cost.]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Return target creature to its owner’s hand. Put X 1/1 green Saproling creature tokens onto the battlefield, where X is that creature’s converted mana cost.]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Return target creature to its owner’s hand. Put X 1/1 green Saproling creature tokens onto the battlefield, where X is that creature’s converted mana cost.]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Return target creature to its owner’s hand. Put X 1/1 green Saproling creature tokens onto the battlefield, where X is that creature’s converted mana cost.]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Return target creature to its owner’s hand. Put X 1/1 green Saproling creature tokens onto the battlefield, where X is that creature’s converted mana cost.]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[Return target creature to its owner’s hand. Put X 1/1 green Saproling creature tokens onto the battlefield, where X is that creature’s converted mana cost.]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[Return target creature to its owner’s hand. Put X 1/1 green Saproling creature tokens onto the battlefield, where X is that creature’s converted mana cost.]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Return target creature to its owner’s hand. Put X 1/1 green Saproling creature tokens onto the battlefield, where X is that creature’s converted mana cost.]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Return target creature to its owner’s hand. Put X 1/1 green Saproling creature tokens onto the battlefield, where X is that creature’s converted mana cost.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Return target creature to its owner’s hand. Put X 1/1 green Saproling creature tokens onto the battlefield, where X is that creature’s converted mana cost.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Renvoyez la créature ciblée dans la main de son propriétaire. Mettez X jetons de créature 1/1 verte Saprobionte sur le champ de bataille, X étant le coût converti de mana de cette créature.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Bringe eine Kreatur deiner Wahl auf die Hand ihres Besitzers zurück. Bringe X 1/1 grüne Saproling-Kreaturenspielsteine ins Spiel, wobei X gleich den umgewandelten Manakosten der Kreatur ist.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Regresa la criatura objetivo a la mano de su propietario. Pon en el campo de batalla X fichas de criatura Saprolín verdes 1/1, donde X es el coste de maná convertido de esa criatura.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Fai tornare una creatura bersaglio in mano al suo proprietario. Metti sul campo di battaglia X pedine creatura Saprolingio 1/1 verdi, dove X è il costo di mana convertito di quella creatura.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[クリーチャー１体を対象とし、それをオーナーの手札に戻す。 緑の1/1の苗木・クリーチャー・トークンをＸ体戦場に出す。Ｘは、そのクリーチャーの点数で見たマナ・コストに等しい。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[Return target creature to its owner’s hand. Put X 1/1 green Saproling creature tokens onto the battlefield, where X is that creature’s converted mana cost.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Return target creature to its owner’s hand. Put X 1/1 green Saproling creature tokens onto the battlefield, where X is that creature’s converted mana cost.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Return target creature to its owner’s hand. Put X 1/1 green Saproling creature tokens onto the battlefield, where X is that creature’s converted mana cost.]]></LOCALISED_TEXT>
     <TARGET_DEFINITION id="0">
     local filter = Object():GetFilter()
     filter:Clear()
@@ -46,11 +46,11 @@
     <RESOLUTION_TIME_ACTION>
     local target = EffectDC():Get_Targets(0):Get_CardPtr(0)
     if target ~= nil then 
-		local token_count = target:GetConvertedManaCost()
+    	local token_count = target:GetConvertedManaCost()
     	target:PutInHand()  
-		if token_count &gt; 0 then
-			MTG():PutTokensIntoPlay( "TOKEN_SAPROLING_1_1_277461", token_count, EffectController() )
-		end
+    	if token_count &gt; 0 then
+    		MTG():PutTokensIntoPlay( "TOKEN_SAPROLING_1_1_277461", token_count, EffectController() )
+    	end
     end
     </RESOLUTION_TIME_ACTION>
   </SPELL_ABILITY>

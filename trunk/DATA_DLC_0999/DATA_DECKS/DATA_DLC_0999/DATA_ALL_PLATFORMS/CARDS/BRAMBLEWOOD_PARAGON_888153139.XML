@@ -3,79 +3,80 @@
   <FILENAME text="BRAMBLEWOOD_PARAGON_888153139" />
   <CARDNAME text="BRAMBLEWOOD_PARAGON" />
   <TITLE>
-     <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Bramblewood Paragon]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Bramblewood Paragon]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Bramblewood Paragon]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Bramblewood Paragon]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Bramblewood Paragon]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[Bramblewood Paragon]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[Bramblewood Paragon]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Bramblewood Paragon]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Bramblewood Paragon]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Bramblewood Paragon]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Esemplare di Boscodirovo]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Brombeerholz-Vorbild]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Parangon de boisronce]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Ejemplar de Maderazarza]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[茨森の模範]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[Bramblewood Paragon]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Эталон Брамблвуда]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Paradigma da Floresta de Arbustos]]></LOCALISED_TEXT>
   </TITLE>
   <MULTIVERSEID value="888153139" />
   <ARTID value="888153139" />
   <ARTIST name="Jim Murray" />
   <CASTING_COST cost="{1}{G}" />
   <FLAVOURTEXT>
-     <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Those who seek to escape her blades succeed only in dying on their stomachs.]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Those who seek to escape her blades succeed only in dying on their stomachs.]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Those who seek to escape her blades succeed only in dying on their stomachs.]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Those who seek to escape her blades succeed only in dying on their stomachs.]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Those who seek to escape her blades succeed only in dying on their stomachs.]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[Those who seek to escape her blades succeed only in dying on their stomachs.]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[Those who seek to escape her blades succeed only in dying on their stomachs.]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Those who seek to escape her blades succeed only in dying on their stomachs.]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Those who seek to escape her blades succeed only in dying on their stomachs.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Those who seek to escape her blades succeed only in dying on their stomachs.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Coloro che cercano di sfuggire alle sue lame riescono solo a tingere di rosso i propri stomaci.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Diejenigen, die versuchten, ihren Klingen zu entgehen, starben beim Davonlaufen.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Quiconque tente de lui échapper finit par mourir face contre terre.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Aquellos que intentan escapar de sus espadas logran morir sobre sus estómagos.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[彼女の刃を逃れるには、うつ伏せに死ぬ以外に方法は無い。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[Those who seek to escape her blades succeed only in dying on their stomachs.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Те, кто пытаются скрыться от ее клинков, успевают лишь упасть, чтобы умереть, лежа на земле.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Os que tentam escapar de suas lâminas conseguem apenas sucumbir de bruços.]]></LOCALISED_TEXT>
   </FLAVOURTEXT>
   <TYPE metaname="Creature" />
-  <SUB_TYPE metaname="Elf" order_de-DE="0" order_es-ES="0" order_fr-FR="0" order_it-IT="0" order_jp-JA="0" order_ko-KR="0" order_pt-BR="0" order_ru-RU="0" />
-  <SUB_TYPE metaname="Warrior" order_de-DE="0" order_es-ES="0" order_fr-FR="0" order_it-IT="0" order_jp-JA="0" order_ko-KR="0" order_pt-BR="0" order_ru-RU="0" />
+  <SUB_TYPE metaname="Elf" order_de-DE="0" order_es-ES="1" order_fr-FR="0" order_it-IT="1" order_jp-JA="0" order_ko-KR="0" order_pt-BR="0" order_ru-RU="0" />
+  <SUB_TYPE metaname="Warrior" order_de-DE="1" order_es-ES="0" order_fr-FR="1" order_it-IT="0" order_jp-JA="1" order_ko-KR="1" order_pt-BR="1" order_ru-RU="1" />
   <EXPANSION value="DPG" />
   <RARITY metaname="U" />
   <POWER value="2" />
   <TOUGHNESS value="2" />
   <TRIGGERED_ABILITY internal="1" pre_trigger="1" filter_zone="ZONE_IN_PLAY">
-     <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Each other Warrior creature you control enters the battlefield with an additional +1/+1 counter on it.]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Each other Warrior creature you control enters the battlefield with an additional +1/+1 counter on it.]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Each other Warrior creature you control enters the battlefield with an additional +1/+1 counter on it.]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Each other Warrior creature you control enters the battlefield with an additional +1/+1 counter on it.]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Each other Warrior creature you control enters the battlefield with an additional +1/+1 counter on it.]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[Each other Warrior creature you control enters the battlefield with an additional +1/+1 counter on it.]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[Each other Warrior creature you control enters the battlefield with an additional +1/+1 counter on it.]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Each other Warrior creature you control enters the battlefield with an additional +1/+1 counter on it.]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Each other Warrior creature you control enters the battlefield with an additional +1/+1 counter on it.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Each other Warrior creature you control enters the battlefield with an additional +1/+1 counter on it.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Ogni altra creatura Guerriero che controlli entra nel campo di battaglia con un segnalino +1/+1 addizionale.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Jede andere Kriegerkreatur, die du kontrollierst, kommt mit einer zusätzlichen +1/+1-Marke ins Spiel.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Chaque autre créature Guerrier que vous contrôlez arrive sur le champ de bataille avec un marqueur +1/+1 supplémentaire sur elle.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Cada otra criatura Guerrero que controlas entra al campo de batalla con un contador +1/+1 adicional sobre ella.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[あなたがコントロールする他の各戦士・クリーチャーは、＋１/＋１カウンターが追加で１個置かれた状態で場に出る。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[Each other Warrior creature you control enters the battlefield with an additional +1/+1 counter on it.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Каждое другое существо-Воин под вашим контролем входит в игру с дополнительным жетоном +1/+1 на нем.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Cada outra criatura do tipo Guerreiro que você controla entra no campo de batalha com um marcador +1/+1 adicional sobre ela.]]></LOCALISED_TEXT>
     <TRIGGER value="ZONECHANGE_TRANSITION" to_zone="ZONE_IN_PLAY" from_zone="ZONE_ANY">
-	return (TriggerObject() ~= Object() and TriggerObject():GetCardType():Test( CARD_TYPE_CREATURE ) ~= 0 and TriggerObject():GetPlayer() == EffectController() and TriggerObject():GetSubType():Test( CREATURE_TYPE_WARRIOR ) ~= 0)
+    return (TriggerObject() ~= Object() and TriggerObject():GetCardType():Test( CARD_TYPE_CREATURE ) ~= 0 and TriggerObject():GetPlayer() == EffectController() and TriggerObject():GetSubType():Test( CREATURE_TYPE_WARRIOR ) ~= 0)
     </TRIGGER>
-	<RESOLUTION_TIME_ACTION>
+    <RESOLUTION_TIME_ACTION>
     if TriggerObject() ~= nil then
     	TriggerObject():AddCounters( MTG():PlusOnePlusOneCounters(), 1 )
     end
     </RESOLUTION_TIME_ACTION>
   </TRIGGERED_ABILITY>
   <STATIC_ABILITY filter_zone="ZONE_IN_PLAY">
-     <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Each creature you control with a +1/+1 counter on it has trample.]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Each creature you control with a +1/+1 counter on it has trample.]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Each creature you control with a +1/+1 counter on it has trample.]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Each creature you control with a +1/+1 counter on it has trample.]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Each creature you control with a +1/+1 counter on it has trample.]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[Each creature you control with a +1/+1 counter on it has trample.]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[Each creature you control with a +1/+1 counter on it has trample.]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Each creature you control with a +1/+1 counter on it has trample.]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Each creature you control with a +1/+1 counter on it has trample.]]></LOCALISED_TEXT>
-	<FILTER>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Each creature you control with a +1/+1 counter on it has trample.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Ogni creatura con un segnalino +1/+1 che controlli ha travolgere.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Jede Kreatur, die du kontrollierst und auf der mindestens eine +1/+1-Marke liegt, verursacht Trampelschaden.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Chaque créature que vous contrôlez avec un marqueur +1/+1 sur elle a le piétinement.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Cada criatura que controlas con un contador +1/+1 sobre ella tiene la habilidad de arrollar.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[あなたがコントロールする＋１/＋１カウンターが置かれている各クリーチャーはトランプルを持つ。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[Each creature you control with a +1/+1 counter on it has trample.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Каждое существо под вашим контролем с жетоном +1/+1 на нем имеет Пробивной удар.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Cada criatura que você controla com um marcador +1/+1 tem atropelar.]]></LOCALISED_TEXT>
+    <FILTER>
     return (FilteredCard() ~= nil and 
     FilteredCard():GetCardType():Test( CARD_TYPE_CREATURE ) ~= 0 and 
     FilteredCard():CountCounters( MTG():PlusOnePlusOneCounters() ) &gt; 0 and 
     FilteredCard():GetPlayer() == Object():GetPlayer())
     </FILTER>
-	<CONTINUOUS_ACTION layer="6">
+    <CONTINUOUS_ACTION layer="6">
     if FilteredCard() ~= nil then
     	FilteredCard():GetCurrentCharacteristics():Characteristic_Set( CHARACTERISTIC_TRAMPLE, 1 )
     end
     </CONTINUOUS_ACTION>
   </STATIC_ABILITY>
+  <HELP title="MORE_INFO_BADGE_TITLE_1" body="MORE_INFO_BADGE_BODY_1" zone="ZONE_ANY" />
   <SFX text="COMBAT_BLADE_LARGE_ATTACK" power_boundary_min="4" power_boundary_max="-1" />
   <SFX text="COMBAT_BLADE_SMALL_ATTACK" power_boundary_min="1" power_boundary_max="3" />
   <AI_BASE_SCORE score="450" zone="ZONE_IN_PLAY" />

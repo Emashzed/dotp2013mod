@@ -3,45 +3,45 @@
   <FILENAME text="HYMN_TO_TOURACH_8881851" />
   <CARDNAME text="HYMN_TO_TOURACH" />
   <TITLE>
-     <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Hymn to Tourach]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Hymn to Tourach]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Hymn to Tourach]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Hymn to Tourach]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Hymn to Tourach]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[Hymn to Tourach]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[Hymn to Tourach]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Hymn to Tourach]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Hymn to Tourach]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Hymn to Tourach]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Hymn to Tourach]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Hymn to Tourach]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Hymn to Tourach]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Inno a Tourach]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[Hymn to Tourach]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[Hymn to Tourach]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Hymn to Tourach]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Hymn to Tourach]]></LOCALISED_TEXT>
   </TITLE>
   <MULTIVERSEID value="8881851" />
   <ARTID value="8881851" />
   <ARTIST name="Quinton Hoover" />
   <CASTING_COST cost="{B}{B}" />
   <FLAVOURTEXT>
-     <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Knowing the Hymn’s power, the followers of Leitbur carefully guarded their pillaged transcriptions.]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Knowing the Hymn’s power, the followers of Leitbur carefully guarded their pillaged transcriptions.]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Knowing the Hymn’s power, the followers of Leitbur carefully guarded their pillaged transcriptions.]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Knowing the Hymn’s power, the followers of Leitbur carefully guarded their pillaged transcriptions.]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Knowing the Hymn’s power, the followers of Leitbur carefully guarded their pillaged transcriptions.]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[Knowing the Hymn’s power, the followers of Leitbur carefully guarded their pillaged transcriptions.]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[Knowing the Hymn’s power, the followers of Leitbur carefully guarded their pillaged transcriptions.]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Knowing the Hymn’s power, the followers of Leitbur carefully guarded their pillaged transcriptions.]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Knowing the Hymn’s power, the followers of Leitbur carefully guarded their pillaged transcriptions.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Knowing the Hymn’s power, the followers of Leitbur carefully guarded their pillaged transcriptions.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Knowing the Hymn’s power, the followers of Leitbur carefully guarded their pillaged transcriptions.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Knowing the Hymn’s power, the followers of Leitbur carefully guarded their pillaged transcriptions.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Knowing the Hymn’s power, the followers of Leitbur carefully guarded their pillaged transcriptions.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Conoscendo il potere dell’Inno, i seguaci di Leitbur protessero accuratamente le loro trascrizioni rubate.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[Knowing the Hymn’s power, the followers of Leitbur carefully guarded their pillaged transcriptions.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[Knowing the Hymn’s power, the followers of Leitbur carefully guarded their pillaged transcriptions.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Knowing the Hymn’s power, the followers of Leitbur carefully guarded their pillaged transcriptions.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Knowing the Hymn’s power, the followers of Leitbur carefully guarded their pillaged transcriptions.]]></LOCALISED_TEXT>
   </FLAVOURTEXT>
   <TYPE metaname="Sorcery" />
   <EXPANSION value="DPG" />
   <RARITY metaname="C" />
   <SPELL_ABILITY dangerous="1" filter_zone="ZONE_IN_PLAY">
-     <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Target player discards two cards at random.]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Target player discards two cards at random.]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Target player discards two cards at random.]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Target player discards two cards at random.]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Target player discards two cards at random.]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[Target player discards two cards at random.]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[Target player discards two cards at random.]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Target player discards two cards at random.]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Target player discards two cards at random.]]></LOCALISED_TEXT>
-	<TARGET_DEFINITION id="0">
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Target player discards two cards at random.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Target player discards two cards at random.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Target player discards two cards at random.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Target player discards two cards at random.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Il giocatore bersaglio scarta due carte a caso.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[Target player discards two cards at random.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[Target player discards two cards at random.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Target player discards two cards at random.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Target player discards two cards at random.]]></LOCALISED_TEXT>
+    <TARGET_DEFINITION id="0">
     local filter = Object():GetFilter()
     filter:Clear()
     filter:SetFilterType( FILTER_TYPE_PLAYERS )
@@ -53,7 +53,7 @@
     <PLAY_TIME_ACTION target_choosing="1">
     EffectController():ChooseTarget( 0, "CARD_QUERY_CHOOSE_PLAYER_DISCARD_2_RANDOM", EffectDC():Make_Targets(0) )
     </PLAY_TIME_ACTION>
-	<RESOLUTION_TIME_ACTION>
+    <RESOLUTION_TIME_ACTION>
     local target = EffectDC():Get_Targets(0):Get_PlayerPtr(0)
     if target ~= nil then 
     	for i=0,1 do

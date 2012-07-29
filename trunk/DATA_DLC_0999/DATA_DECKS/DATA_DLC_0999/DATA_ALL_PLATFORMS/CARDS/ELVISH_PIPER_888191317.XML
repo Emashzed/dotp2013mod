@@ -3,60 +3,60 @@
   <FILENAME text="ELVISH_PIPER_888191317" />
   <CARDNAME text="ELVISH_PIPER" />
   <TITLE>
-     <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Elvish Piper]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Elvish Piper]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Elvish Piper]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Elvish Piper]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Elvish Piper]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[Elvish Piper]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[Elvish Piper]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Elvish Piper]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Elvish Piper]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Elvish Piper]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Pifferaio Elfico]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Elfischer Pfeifer]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Joueuse de flûte elfe]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Flautista élfica]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[エルフの笛吹き]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[Elvish Piper]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Эльфийский Дудочник]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Elfo Flautista]]></LOCALISED_TEXT>
   </TITLE>
   <MULTIVERSEID value="888191317" />
   <ARTID value="888191317" />
   <ARTIST name="Rebecca Guay" />
   <CASTING_COST cost="{3}{G}" />
   <FLAVOURTEXT>
-     <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[From Gaea grew the world, and the world was silent. From Gaea grew the world’s elves, and the world was silent no more.
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[From Gaea grew the world, and the world was silent. From Gaea grew the world’s elves, and the world was silent no more.
 —Elvish teaching]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[From Gaea grew the world, and the world was silent. From Gaea grew the world’s elves, and the world was silent no more.
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Da Gea venne il mondo, e il mondo era silente. Da Gea vennero gli elfi del mondo, e il mondo non fu più in silenzio.
+—Insegnamento elfico]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Aus Gaea wuchs die Welt, und sie war still. Aus Gaea wuchsen die Elfen, und das war’s dann mit der Ruhe.
+—Mythos der Elfen]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Gaia créa le monde et il était silencieux. Gaia créa les elfes et il ne le fut plus.
+—Enseignement elfe]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[De Gaia, creció el mundo, y el mundo estuvo en silencio. De Gaia, crecieron los elfos del mundo, y el mundo dejó de estar el silencio.
+—Enseñanza élfica]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[ガイアから世界が始まり、世界は静かだった。 ガイアから世界のエルフが生まれ、世界はもはや静かではなくなった。
+――エルフの教え]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[From Gaea grew the world, and the world was silent. From Gaea grew the world’s elves, and the world was silent no more.
 —Elvish teaching]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[From Gaea grew the world, and the world was silent. From Gaea grew the world’s elves, and the world was silent no more.
-—Elvish teaching]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[From Gaea grew the world, and the world was silent. From Gaea grew the world’s elves, and the world was silent no more.
-—Elvish teaching]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[From Gaea grew the world, and the world was silent. From Gaea grew the world’s elves, and the world was silent no more.
-—Elvish teaching]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[From Gaea grew the world, and the world was silent. From Gaea grew the world’s elves, and the world was silent no more.
-—Elvish teaching]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[From Gaea grew the world, and the world was silent. From Gaea grew the world’s elves, and the world was silent no more.
-—Elvish teaching]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[From Gaea grew the world, and the world was silent. From Gaea grew the world’s elves, and the world was silent no more.
-—Elvish teaching]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[From Gaea grew the world, and the world was silent. From Gaea grew the world’s elves, and the world was silent no more.
-—Elvish teaching]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Из Геи возник мир. И была тишина в мире. Из Геи возникли эльфы мира сего. И не стало тишины в мире.
+— Уроки эльфов]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[De Gaia nasceu o mundo, e o mundo era quieto. De Gaia nasceram os elfos do mundo, e o mundo já não mais era quieto.
+— Ensinamento dos elfos]]></LOCALISED_TEXT>
   </FLAVOURTEXT>
   <TYPE metaname="Creature" />
-  <SUB_TYPE metaname="Elf" order_de-DE="0" order_es-ES="0" order_fr-FR="0" order_it-IT="0" order_jp-JA="0" order_ko-KR="0" order_pt-BR="0" order_ru-RU="0" />
-  <SUB_TYPE metaname="Shaman" order_de-DE="0" order_es-ES="0" order_fr-FR="0" order_it-IT="0" order_jp-JA="0" order_ko-KR="0" order_pt-BR="0" order_ru-RU="0" />
+  <SUB_TYPE metaname="Elf" order_de-DE="0" order_es-ES="1" order_fr-FR="0" order_it-IT="1" order_jp-JA="0" order_ko-KR="0" order_pt-BR="0" order_ru-RU="0" />
+  <SUB_TYPE metaname="Shaman" order_de-DE="1" order_es-ES="0" order_fr-FR="1" order_it-IT="0" order_jp-JA="1" order_ko-KR="1" order_pt-BR="1" order_ru-RU="1" />
   <EXPANSION value="DPG" />
   <RARITY metaname="R" />
   <POWER value="1" />
   <TOUGHNESS value="1" />
   <ACTIVATED_ABILITY filter_zone="ZONE_IN_PLAY">
-     <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[{G}, {T}: You may put a creature card from your hand onto the battlefield.]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[{G}, {T}: You may put a creature card from your hand onto the battlefield.]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[{G}, {T}: You may put a creature card from your hand onto the battlefield.]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[{G}, {T}: You may put a creature card from your hand onto the battlefield.]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[{G}, {T}: You may put a creature card from your hand onto the battlefield.]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[{G}, {T}: You may put a creature card from your hand onto the battlefield.]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[{G}, {T}: You may put a creature card from your hand onto the battlefield.]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[{G}, {T}: You may put a creature card from your hand onto the battlefield.]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[{G}, {T}: You may put a creature card from your hand onto the battlefield.]]></LOCALISED_TEXT>
-	<COST type="Mana" cost="{G}" />
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[{G}, {T}: You may put a creature card from your hand onto the battlefield.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[{G}, {T}: Puoi mettere sul campo di battaglia una carta creatura dalla tua mano.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[{G}, {T}: Du kannst eine Kreaturenkarte aus deiner Hand ins Spiel bringen.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[{G}, {T} : Vous pouvez mettre sur le champ de bataille une carte de créature de votre main.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[{G}, {T}: Puedes poner en el campo de batalla una carta de criatura de tu mano.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[{G}, {T}：あなたは、あなたの手札にあるクリーチャー・カードを１枚戦場に出してもよい。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[{G}, {T}: You may put a creature card from your hand onto the battlefield.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[{G}, {T}: вы можете положить карту существа из вашей руки на поле битвы.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[{G}, {T}: Você pode colocar no campo de batalha um card de criatura de sua mão.]]></LOCALISED_TEXT>
+    <COST type="Mana" cost="{G}" />
     <COST type="TapSelf" />
-	<RESOLUTION_TIME_ACTION>
+    <RESOLUTION_TIME_ACTION>
     local player = EffectController()
     local filter = Object():GetFilter()
     filter:Clear()
@@ -79,7 +79,7 @@
     	end
     end
     </RESOLUTION_TIME_ACTION>
-	<AI_AVAILABILITY step="end_of_turn" turn="their_turn" />
+    <AI_AVAILABILITY step="end_of_turn" turn="their_turn" />
     <AI_AVAILABILITY step="declare_attackers" turn="their_turn" />
     <AI_AVAILABILITY type="in_response_dangerous" />
     <AI_AVAILABILITY step="declare_blockers" blocking_or_blocked="1" />

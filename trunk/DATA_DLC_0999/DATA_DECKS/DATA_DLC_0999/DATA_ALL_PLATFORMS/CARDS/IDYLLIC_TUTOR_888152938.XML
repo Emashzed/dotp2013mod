@@ -3,53 +3,53 @@
   <FILENAME text="IDYLLIC_TUTOR_888152938" />
   <CARDNAME text="IDYLLIC_TUTOR" />
   <TITLE>
-     <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Idyllic Tutor]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Idyllic Tutor]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Idyllic Tutor]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Idyllic Tutor]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Idyllic Tutor]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[Idyllic Tutor]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[Idyllic Tutor]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Idyllic Tutor]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Idyllic Tutor]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Idyllic Tutor]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Tutore Idilliaco]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Idyllischer Lehrmeister]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Précepteur idyllique]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Tutor idílico]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[牧歌的な教示者]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[Idyllic Tutor]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Идиллический Наставник]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Tutor Idílico]]></LOCALISED_TEXT>
   </TITLE>
   <MULTIVERSEID value="888152938" />
   <ARTID value="888152938" />
   <ARTIST name="Howard Lyon" />
   <CASTING_COST cost="{2}{W}" />
   <FLAVOURTEXT>
-     <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[“If one’s life is blessed, solutions to all life’s problems will appear at the right moment.”
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[“If one’s life is blessed, solutions to all life’s problems will appear at the right moment.”
 —The Book of Kith and Kin]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[“If one’s life is blessed, solutions to all life’s problems will appear at the right moment.”
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[“Se la vita di qualcuno è benedetta, le soluzioni a tutti i suoi problemi compariranno al momento giusto.”
+—Il Tomo di Kith e Kin]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[„Wenn jemand ein gesegnetes Leben hat, dann tauchen die Lösungen zu allen Problemen des Lebens im richtigen Augenblick auf.”
+—Das Buch der Kithkin]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[« Si une vie est sacrée, les solutions à tous ses problèmes apparaîtront au moment opportun. »
+—Le Livre des Amis et Aïeux]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[“Si tu vida está bendecida, las soluciones a todos los problemas de la vida aparecerán en el momento correcto.”
+—El Libro de Kith y Kin]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[「その人生が祝福されているのであれば、人生の問題への解答はすべてしかるべき時に現れるであろう。」
+――「キスキンの書」より]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[“If one’s life is blessed, solutions to all life’s problems will appear at the right moment.”
 —The Book of Kith and Kin]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[“If one’s life is blessed, solutions to all life’s problems will appear at the right moment.”
-—The Book of Kith and Kin]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[“If one’s life is blessed, solutions to all life’s problems will appear at the right moment.”
-—The Book of Kith and Kin]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[“If one’s life is blessed, solutions to all life’s problems will appear at the right moment.”
-—The Book of Kith and Kin]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[“If one’s life is blessed, solutions to all life’s problems will appear at the right moment.”
-—The Book of Kith and Kin]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[“If one’s life is blessed, solutions to all life’s problems will appear at the right moment.”
-—The Book of Kith and Kin]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[“If one’s life is blessed, solutions to all life’s problems will appear at the right moment.”
-—The Book of Kith and Kin]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[“If one’s life is blessed, solutions to all life’s problems will appear at the right moment.”
-—The Book of Kith and Kin]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[«Если жизнь твоя благословенна, решения всех проблем сами появятся в нужный момент».
+—Кискенская книга о родне]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[“Aquele cuja vida é abençoada encontra as soluções para todos os problemas no momento certo.”
+— O Livro dos Amigos e da Família]]></LOCALISED_TEXT>
   </FLAVOURTEXT>
   <TYPE metaname="Sorcery" />
   <EXPANSION value="DPG" />
   <RARITY metaname="R" />
   <SPELL_ABILITY filter_zone="ZONE_IN_PLAY">
-     <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Search your library for an enchantment card, reveal it, and put it into your hand. Then shuffle your library.]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Search your library for an enchantment card, reveal it, and put it into your hand. Then shuffle your library.]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Search your library for an enchantment card, reveal it, and put it into your hand. Then shuffle your library.]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Search your library for an enchantment card, reveal it, and put it into your hand. Then shuffle your library.]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Search your library for an enchantment card, reveal it, and put it into your hand. Then shuffle your library.]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[Search your library for an enchantment card, reveal it, and put it into your hand. Then shuffle your library.]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[Search your library for an enchantment card, reveal it, and put it into your hand. Then shuffle your library.]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Search your library for an enchantment card, reveal it, and put it into your hand. Then shuffle your library.]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Search your library for an enchantment card, reveal it, and put it into your hand. Then shuffle your library.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Search your library for an enchantment card, reveal it, and put it into your hand. Then shuffle your library.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Passa in rassegna il tuo grimorio per una carta incantesimo, rivelala e aggiungila alla tua mano. Poi rimescola il tuo grimorio.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Durchsuche deine Bibliothek nach einer Verzauberungskarte, zeige sie offen vor und nimm sie auf deine Hand. Mische danach deine Bibliothek.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Cherchez dans votre bibliothèque une carte d’enchantement, révélez-la et mettez-la dans votre main. Mélangez ensuite votre bibliothèque.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Busca en tu biblioteca una carta de encantamiento, muéstrala y ponla en tu mano. Luego baraja tu biblioteca.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[あなたのライブラリーからエンチャント・カードを１枚探し、それを公開してあなたの手札に加える。 その後あなたのライブラリーを切り直す。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[Search your library for an enchantment card, reveal it, and put it into your hand. Then shuffle your library.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Найдите в вашей библиотеке карту чар, покажите ее и положите в вашу руку. Затем перетасуйте вашу библиотеку.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Procure em seu grimório por um card de encantamento, revele-o e coloque-o em sua mão. Depois, embaralhe seu grimório.]]></LOCALISED_TEXT>
     <RESOLUTION_TIME_ACTION>
     local filter = Object():GetFilter()
     local effectController = EffectController()
@@ -57,7 +57,7 @@
     filter:Clear()
     filter:NotTargetted()
     filter:SetZone( ZONE_LIBRARY )
-	filter:AddCardType( CARD_TYPE_ENCHANTMENT )
+    filter:AddCardType( CARD_TYPE_ENCHANTMENT )
     filter:SetPlayer( effectController ) 
     effectController:ChooseTarget( NO_VALIDATION, "CARD_QUERY_CHOOSE_CARD_TO_PUT_INTO_HAND", EffectDC():Make_Targets(0) )
     </RESOLUTION_TIME_ACTION>
@@ -65,7 +65,7 @@
     if EffectDC() ~= nil then 
     	local target = EffectDC():Get_Targets(0):Get_CardPtr(0)
     	if  target ~= nil then
-		    target:GuidedReveal( ZONE_LIBRARY, ZONE_HAND )  
+		target:GuidedReveal( ZONE_LIBRARY, ZONE_HAND )  
     		target:PutInHand()
     	end
     end

@@ -3,60 +3,60 @@
   <FILENAME text="BENALISH_LANCER_888243429" />
   <CARDNAME text="BENALISH_LANCER" />
   <TITLE>
-     <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Benalish Lancer]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Benalish Lancer]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Benalish Lancer]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Benalish Lancer]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Benalish Lancer]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[Benalish Lancer]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[Benalish Lancer]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Benalish Lancer]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Benalish Lancer]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Benalish Lancer]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Benalischer Lanzenträger]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Lancero benalita]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Lancier bénalian]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Lanciere di Benalia]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[ベナリアの槍(そう)騎(き)兵(へい)]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[Benalish Lancer]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Benalish Lancer]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Lanceiro de Benália]]></LOCALISED_TEXT>
   </TITLE>
   <MULTIVERSEID value="888243429" />
   <ARTID value="888243429" />
   <ARTIST name="Parente" />
   <CASTING_COST cost="{2}{W}" />
   <TYPE metaname="Creature" />
-  <SUB_TYPE metaname="Human" order_de-DE="0" order_es-ES="0" order_fr-FR="0" order_it-IT="0" order_jp-JA="0" order_ko-KR="0" order_pt-BR="0" order_ru-RU="0" />
-  <SUB_TYPE metaname="Knight" order_de-DE="0" order_es-ES="0" order_fr-FR="0" order_it-IT="0" order_jp-JA="0" order_ko-KR="0" order_pt-BR="0" order_ru-RU="0" />
+  <SUB_TYPE metaname="Human" order_de-DE="0" order_es-ES="1" order_fr-FR="0" order_it-IT="1" order_jp-JA="0" order_ko-KR="0" order_pt-BR="0" order_ru-RU="0" />
+  <SUB_TYPE metaname="Knight" order_de-DE="1" order_es-ES="0" order_fr-FR="1" order_it-IT="0" order_jp-JA="1" order_ko-KR="1" order_pt-BR="1" order_ru-RU="1" />
   <EXPANSION value="DPG" />
   <RARITY metaname="C" />
   <POWER value="2" />
   <TOUGHNESS value="2" />
   <UTILITY_ABILITY filter_zone="ZONE_IN_PLAY">
-     <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Kicker {2}{W}]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Kicker {2}{W}]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Kicker {2}{W}]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Kicker {2}{W}]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Kicker {2}{W}]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[Kicker {2}{W}]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[Kicker {2}{W}]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Kicker {2}{W}]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Kicker {2}{W}]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Kicker {2}{W}]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Kick {2}{W}]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Bonus {2}{W}]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Estímulo {2}{W}.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Potenziamento {2}{W}]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[キッカー {2}{W}]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[키커 {2}{W}]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Усилитель {2}{W}]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Reforçar {2}{W}]]></LOCALISED_TEXT>
     <COST type="Mana" cost="{2}{W}" qualifier="Kicker" />
   </UTILITY_ABILITY>
   <TRIGGERED_ABILITY internal="1" pre_trigger="1" filter_zone="ZONE_IN_PLAY" active_zone="ZONE_TRANSITION">
-     <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[If Benalish Lancer was kicked, it enters the battlefield with two +1/+1 counters on it and with first strike.]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[If Benalish Lancer was kicked, it enters the battlefield with two +1/+1 counters on it and with first strike.]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[If Benalish Lancer was kicked, it enters the battlefield with two +1/+1 counters on it and with first strike.]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[If Benalish Lancer was kicked, it enters the battlefield with two +1/+1 counters on it and with first strike.]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[If Benalish Lancer was kicked, it enters the battlefield with two +1/+1 counters on it and with first strike.]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[If Benalish Lancer was kicked, it enters the battlefield with two +1/+1 counters on it and with first strike.]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[If Benalish Lancer was kicked, it enters the battlefield with two +1/+1 counters on it and with first strike.]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[If Benalish Lancer was kicked, it enters the battlefield with two +1/+1 counters on it and with first strike.]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[If Benalish Lancer was kicked, it enters the battlefield with two +1/+1 counters on it and with first strike.]]></LOCALISED_TEXT>
-	<TRIGGER value="ZONECHANGE_TRANSITION" simple_qualifier="self" to_zone="ZONE_IN_PLAY">
-	return TriggerObject():Kicked() &gt; 0
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[If Benalish Lancer was kicked, it enters the battlefield with two +1/+1 counters on it and with first strike.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Si le Lancier bénalian a été kické, il arrive sur le champ de bataille avec, sur lui, deux marqueurs +1/+1, et avec l’initiative.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Falls du die Bonuskosten bezahlt hast, kommt der Benalische Lanzenträger mit zwei +1/+1-Marken ins Spiel und hat Erstschlag.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Si el Lancero benalita fue estimulado, entra al campo de batalla con dos contadores +1/+1 sobre él y con la habilidad de dañar primero.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Se il Lanciere di Benalia è stato potenziato, entra nel campo di battaglia con due segnalini +1/+1 e con attacco improvviso.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[ベナリアの槍騎兵がキッカーされている場合、それは＋１/＋１カウンターが２個置かれた状態で戦場に出て、先制攻撃を持つ。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[If Benalish Lancer was kicked, it enters the battlefield with two +1/+1 counters on it and with first strike.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[If Benalish Lancer was kicked, it enters the battlefield with two +1/+1 counters on it and with first strike.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[If Benalish Lancer was kicked, it enters the battlefield with two +1/+1 counters on it and with first strike.]]></LOCALISED_TEXT>
+    <TRIGGER value="ZONECHANGE_TRANSITION" simple_qualifier="self" to_zone="ZONE_IN_PLAY">
+    return TriggerObject():Kicked() &gt; 0
     </TRIGGER>
-	<RESOLUTION_TIME_ACTION>
+    <RESOLUTION_TIME_ACTION>
     Object():AddCounters( MTG():PlusOnePlusOneCounters(), 2 )
     </RESOLUTION_TIME_ACTION>
-	<CONTINUOUS_ACTION>
-	if Object():Kicked() &gt; 0 then
-		local characteristics = Object():GetCurrentCharacteristics()
-		characteristics:Characteristic_Set( CHARACTERISTIC_FIRST_STRIKE, 1 )
-	end
+    <CONTINUOUS_ACTION>
+    if Object():Kicked() &gt; 0 then
+    	local characteristics = Object():GetCurrentCharacteristics()
+    	characteristics:Characteristic_Set( CHARACTERISTIC_FIRST_STRIKE, 1 )
+    end
     </CONTINUOUS_ACTION>
   </TRIGGERED_ABILITY>
   <SFX text="COMBAT_CHOP_LARGE_ATTACK" power_boundary_min="4" power_boundary_max="-1" />

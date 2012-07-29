@@ -3,65 +3,65 @@
   <FILENAME text="ALL_IS_DUST_888193658" />
   <CARDNAME text="ALL_IS_DUST" />
   <TITLE>
-     <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[All Is Dust]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[All Is Dust]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[All Is Dust]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[All Is Dust]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[All Is Dust]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[All Is Dust]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[All Is Dust]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[All Is Dust]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[All Is Dust]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[All Is Dust]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Tutto è Polvere]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Alles zu Staub]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Tout n’est que poussière]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Todo es polvo]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[全ては塵]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[All Is Dust]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Все Прах]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Tudo é Poeira]]></LOCALISED_TEXT>
   </TITLE>
   <MULTIVERSEID value="888193658" />
   <ARTID value="888193658" />
   <ARTIST name="Jason Felix" />
   <CASTING_COST cost="{7}" />
   <FLAVOURTEXT>
-     <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[“The emergence of the Eldrazi isn’t necessarily a bad thing, as long as you’ve already lived a fulfilling and complete life without regrets.”
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[“The emergence of the Eldrazi isn’t necessarily a bad thing, as long as you’ve already lived a fulfilling and complete life without regrets.”
 —Javad Nasrin, Ondu relic hunter]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[“The emergence of the Eldrazi isn’t necessarily a bad thing, as long as you’ve already lived a fulfilling and complete life without regrets.”
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[“La comparsa degli Eldrazi non è necessariamente negativa, purché tu abbia già vissuto una vita piena e appagata senza alcun rimpianto.”
+—Javad Nasrin, cacciatrice di reliquie di Ondu]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[„Das Wiedererscheinen der Eldrazi ist nicht unbedingt eine schlechte Sache, zumindest wenn man bereits ein erfülltes Leben ohne Reue hinter sich hat.”
+—Javad Nasrin, Reliktensammler aus Ondu]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[« L’apparition des Eldrazi n’est pas nécessairement une mauvaise chose, tant que vous avez déjà eu une vie bien remplie, satisfaisante et sans regrets. »
+—Javad Nasrin, chasseuse de relique du Ondou]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[“El surgimiento de los eldrazi no es necesariamente malo, siempre y cuando hayas vivido plenamente y sin arrepentimientos.”
+—Javad Nasrin, cazadora de reliquias de Ondu]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[「エルドラージが目覚めたからって悪いことばかりじゃないさ。お前さんの人生が後悔の無い完璧に満たされたやつだったんならな。」
+――オンドゥの遺物狩り、ジャヴァド・ナスリン]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[“The emergence of the Eldrazi isn’t necessarily a bad thing, as long as you’ve already lived a fulfilling and complete life without regrets.”
 —Javad Nasrin, Ondu relic hunter]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[“The emergence of the Eldrazi isn’t necessarily a bad thing, as long as you’ve already lived a fulfilling and complete life without regrets.”
-—Javad Nasrin, Ondu relic hunter]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[“The emergence of the Eldrazi isn’t necessarily a bad thing, as long as you’ve already lived a fulfilling and complete life without regrets.”
-—Javad Nasrin, Ondu relic hunter]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[“The emergence of the Eldrazi isn’t necessarily a bad thing, as long as you’ve already lived a fulfilling and complete life without regrets.”
-—Javad Nasrin, Ondu relic hunter]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[“The emergence of the Eldrazi isn’t necessarily a bad thing, as long as you’ve already lived a fulfilling and complete life without regrets.”
-—Javad Nasrin, Ondu relic hunter]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[“The emergence of the Eldrazi isn’t necessarily a bad thing, as long as you’ve already lived a fulfilling and complete life without regrets.”
-—Javad Nasrin, Ondu relic hunter]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[“The emergence of the Eldrazi isn’t necessarily a bad thing, as long as you’ve already lived a fulfilling and complete life without regrets.”
-—Javad Nasrin, Ondu relic hunter]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[“The emergence of the Eldrazi isn’t necessarily a bad thing, as long as you’ve already lived a fulfilling and complete life without regrets.”
-—Javad Nasrin, Ondu relic hunter]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[«Приход Эльдрази совсем не обязательно означает несчастье, если ты уже прожил насыщенную и полноценную жизнь без сожалений».
+— Джавад Назрин, охотница за реликвиями из Онду]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[“A ascensão dos Eldrazi não é necessariamente uma coisa ruim, desde que você já tenha vivido uma vida completa e satisfatória.”
+— Javad Nasrin, caçadora de relíquias de Ondu]]></LOCALISED_TEXT>
   </FLAVOURTEXT>
   <TYPE metaname="Tribal" />
   <TYPE metaname="Sorcery" />
-  <SUB_TYPE metaname="Eldrazi" order_de-DE="0" order_es-ES="0" order_fr-FR="0" order_it-IT="0" order_jp-JA="0" order_ko-KR="0" order_pt-BR="0" order_ru-RU="0" />
+  <SUB_TYPE metaname="Eldrazi" />
   <EXPANSION value="DPG" />
   <RARITY metaname="M" />
   <SPELL_ABILITY dangerous="1" filter_zone="ZONE_IN_PLAY">
-     <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Each player sacrifices all colored permanents he or she controls.]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Each player sacrifices all colored permanents he or she controls.]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Each player sacrifices all colored permanents he or she controls.]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Each player sacrifices all colored permanents he or she controls.]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Each player sacrifices all colored permanents he or she controls.]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[Each player sacrifices all colored permanents he or she controls.]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[Each player sacrifices all colored permanents he or she controls.]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Each player sacrifices all colored permanents he or she controls.]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Each player sacrifices all colored permanents he or she controls.]]></LOCALISED_TEXT>
-	<FILTER>
-    return (Permanents() and InPlay()) and (Black() or Red() or Green() or Blue() or White())
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Each player sacrifices all colored permanents he or she controls.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Ogni giocatore sacrifica tutti i permanenti colorati che controlla.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Alle Spieler opfern alle farbigen bleibenden Karten, die sie kontrollieren.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Chaque joueur sacrifie tous les permanents colorés qu’il contrôle.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Cada jugador sacrifica todos los permanentes de color que controla.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[各プレイヤーは、自分がコントロールするすべての有色のパーマネントを生け贄に捧げる。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[Each player sacrifices all colored permanents he or she controls.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Каждый игрок приносит в жертву все цветные перманенты под своим контролем.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Cada jogador sacrifica todas as permanentes coloridas que ele controla.]]></LOCALISED_TEXT>
+    <FILTER>
+    return (Permanents() and InPlay() and FilteredCard():GetColour():Test( COLOUR_COLOURLESS ) == 0)
     </FILTER>
     <RESOLUTION_TIME_ACTION>
-	if FilteredCard() ~= nil then
-		FilteredCard():Sacrifice(FilteredCard():GetController())  
-	end
+    if FilteredCard() ~= nil then
+    	FilteredCard():Sacrifice(FilteredCard():GetController())  
+    end
     </RESOLUTION_TIME_ACTION>
     <SFX text="GLOBAL_DISASTER_PLAY" />
-	<SFX text="GLOBAL_DISTORTION_PLAY" />
+    <SFX text="GLOBAL_DISTORTION_PLAY" />
   </SPELL_ABILITY>
   <AI_BASE_SCORE score="1800" zone="ZONE_HAND" />
 </CARD_V2>

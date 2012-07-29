@@ -3,44 +3,44 @@
   <FILENAME text="DEAD_RECKONING_888194679" />
   <CARDNAME text="DEAD_RECKONING" />
   <TITLE>
-     <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Dead Reckoning]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Dead Reckoning]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Dead Reckoning]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Dead Reckoning]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Dead Reckoning]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[Dead Reckoning]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[Dead Reckoning]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Dead Reckoning]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Dead Reckoning]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Dead Reckoning]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Vendetta dei Morti]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Abrechnung der Toten]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Estime]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Cálculo mortal]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[死の報い]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[Dead Reckoning]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Расчет Мертвецов]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Contagem dos Mortos]]></LOCALISED_TEXT>
   </TITLE>
   <MULTIVERSEID value="888194679" />
   <ARTID value="888194679" />
   <ARTIST name="Svetlin Velinov" />
   <CASTING_COST cost="{1}{B}{B}" />
   <FLAVOURTEXT>
-     <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Many venture out to hunt for treasures. Others lie in wait to hunt the hunters.]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Many venture out to hunt for treasures. Others lie in wait to hunt the hunters.]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Many venture out to hunt for treasures. Others lie in wait to hunt the hunters.]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Many venture out to hunt for treasures. Others lie in wait to hunt the hunters.]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Many venture out to hunt for treasures. Others lie in wait to hunt the hunters.]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[Many venture out to hunt for treasures. Others lie in wait to hunt the hunters.]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[Many venture out to hunt for treasures. Others lie in wait to hunt the hunters.]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Many venture out to hunt for treasures. Others lie in wait to hunt the hunters.]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Many venture out to hunt for treasures. Others lie in wait to hunt the hunters.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Many venture out to hunt for treasures. Others lie in wait to hunt the hunters.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Molti si avventurano a caccia di tesori. Altri aspettano semplicemente di cacciare i cacciatori.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Viele wagen sich auf Schatzsuche. Andere warten in ihrem Versteck, um die Schatzsucher zu suchen.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Nombreux sont ceux qui chassent les trésors. Bien d’autres attendent patiemment de chasser les chasseurs.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Muchos se aventuran para cazar tesoros. Otros esperan para cazar a los cazadores.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[宝を求めて外に出る者は大勢いる。 その一方、冒険者を求めて待ち伏せをする者もいる。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[Many venture out to hunt for treasures. Others lie in wait to hunt the hunters.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Многие отваживаются на поиски сокровищ. А некоторые, наоборот, сидят в засаде, подкарауливая таких вот смельчаков.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Muitos se aventuram para caçar tesouros. Outros aguardam para caçar os caçadores.]]></LOCALISED_TEXT>
   </FLAVOURTEXT>
   <TYPE metaname="Sorcery" />
   <EXPANSION value="DPG" />
   <RARITY metaname="C" />
   <SPELL_ABILITY dangerous="1" suppress_fizzle="1" filter_zone="ZONE_IN_PLAY">
-     <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[You may put target creature card from your graveyard on top of your library. If you do, Dead Reckoning deals damage equal to that card’s power to target creature.]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[You may put target creature card from your graveyard on top of your library. If you do, Dead Reckoning deals damage equal to that card’s power to target creature.]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[You may put target creature card from your graveyard on top of your library. If you do, Dead Reckoning deals damage equal to that card’s power to target creature.]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[You may put target creature card from your graveyard on top of your library. If you do, Dead Reckoning deals damage equal to that card’s power to target creature.]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[You may put target creature card from your graveyard on top of your library. If you do, Dead Reckoning deals damage equal to that card’s power to target creature.]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[You may put target creature card from your graveyard on top of your library. If you do, Dead Reckoning deals damage equal to that card’s power to target creature.]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[You may put target creature card from your graveyard on top of your library. If you do, Dead Reckoning deals damage equal to that card’s power to target creature.]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[You may put target creature card from your graveyard on top of your library. If you do, Dead Reckoning deals damage equal to that card’s power to target creature.]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[You may put target creature card from your graveyard on top of your library. If you do, Dead Reckoning deals damage equal to that card’s power to target creature.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[You may put target creature card from your graveyard on top of your library. If you do, Dead Reckoning deals damage equal to that card’s power to target creature.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Puoi mettere una carta creatura bersaglio dal tuo cimitero in cima al tuo grimorio. Se lo fai, la Vendetta dei Morti infligge danni pari alla forza di quella carta a una creatura bersaglio.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Du kannst eine Kreaturenkarte deiner Wahl aus deinem Friedhof oben auf deine Bibliothek legen. Falls du dies tust, fügt die Abrechnung der Toten einer Kreatur deiner Wahl Schadenspunkte in Höhe der Stärke der Kreaturenkarte zu.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Vous pouvez mettre une carte de créature ciblée de votre cimetière au-dessus de votre bibliothèque. Si vous faites ainsi, l’Estime inflige à la créature ciblée un nombre de blessures égal à la force de cette carte.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Puedes poner la carta de criatura objetivo de tu cementerio en la parte superior de tu biblioteca. Si lo haces, el Cálculo mortal hace una cantidad de daño igual a la fuerza de esa carta a la criatura objetivo.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[あなたの墓地にあるクリーチャー・カード１枚とクリーチャー１体を対象とする。あなたはその前者を、あなたのライブラリーの一番上に置いてもよい。 そうした場合、死の報いはその後者に、その前者のパワーに等しい点数のダメージを与える。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[You may put target creature card from your graveyard on top of your library. If you do, Dead Reckoning deals damage equal to that card’s power to target creature.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Вы можете положить целевую карту существа с вашего кладбища на верх вашей библиотеки. Если вы это делаете, Расчет Мертвецов наносит целевому существу повреждения, равные силе той карты.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Você pode colocar o card de criatura alvo de seu cemitério no topo de seu grimório. Se fizer isso, Contagem dos Mortos causa dano igual ao poder daquele card à criatura alvo.]]></LOCALISED_TEXT>
     <TARGET_DEFINITION id="0">
     local filter = Object():GetFilter()
     filter:Clear()
@@ -59,23 +59,23 @@
     filter:SetHint( HINT_ENEMY_ONLY, EffectController() )
     </TARGET_DEFINITION>
     <TARGET_DETERMINATION>
-	local filter = Object():GetFilter()
+    local filter = Object():GetFilter()
     filter:Clear()
     filter:NotTargetted()
     filter:AddCardType( CARD_TYPE_CREATURE )
     filter:SetPlayer( EffectController() )
     filter:SetZone( ZONE_GRAVEYARD )
-    if filter:CountStopAt( 1 ) == 1 then
+    if filter:CountStopAt(1) == 1 then
     	filter:Clear()
-		filter:AddCardType( CARD_TYPE_CREATURE )
-		filter:SetZone( ZONE_IN_PLAY )
+	filter:AddCardType( CARD_TYPE_CREATURE )
+	filter:SetZone( ZONE_IN_PLAY )
     	if filter:CountStopAt(1) == 1 then    	
     		return 1
-		else
-			return 0
+	else
+		return 0
     	end
     else
-		return 0    
+	return 0    
     end
     return 0
     </TARGET_DETERMINATION>
@@ -89,17 +89,17 @@
     local targetA = EffectDC():Get_Targets(0):Get_CardPtr(0)
     local targetB = EffectDC():Get_Targets(1):Get_CardPtr(0)
     if (targetA ~= nil and targetB ~= nil) then
-		if (targetA:GetZone() == ZONE_GRAVEYARD and targetB:GetZone() == ZONE_IN_PLAY) then
-			local damageFromA = targetA:GetCurrentPower()
-			targetB:DealDamage(damageFromA, targetA)
-			targetA:GuidedReveal( ZONE_GRAVEYARD, ZONE_LIBRARY )
-			targetA:PutInLibrary(0)
-		end
-	elseif (targetA ~= nil and targetB == nil) then
-		if (targetA:GetZone() == ZONE_GRAVEYARD) then
-			targetA:GuidedReveal( ZONE_GRAVEYARD, ZONE_LIBRARY )
-			targetA:PutInLibrary(0)
-		end
+    	if (targetA:GetZone() == ZONE_GRAVEYARD and targetB:GetZone() == ZONE_IN_PLAY) then
+		local damageFromA = targetA:GetCurrentPower()
+		targetB:DealDamage(damageFromA, targetA)
+		targetA:GuidedReveal( ZONE_GRAVEYARD, ZONE_LIBRARY )
+		targetA:PutInLibrary(0)
+	end
+    elseif (targetA ~= nil and targetB == nil) then
+	if (targetA:GetZone() == ZONE_GRAVEYARD) then
+		targetA:GuidedReveal( ZONE_GRAVEYARD, ZONE_LIBRARY )
+		targetA:PutInLibrary(0)
+	end
     end
     </RESOLUTION_TIME_ACTION>
   </SPELL_ABILITY>

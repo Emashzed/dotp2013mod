@@ -3,56 +3,56 @@
   <FILENAME text="FEAST_OF_BLOOD_888189629" />
   <CARDNAME text="FEAST_OF_BLOOD" />
   <TITLE>
-     <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Feast of Blood]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Feast of Blood]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Feast of Blood]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Feast of Blood]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Feast of Blood]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[Feast of Blood]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[Feast of Blood]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Feast of Blood]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Feast of Blood]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Feast of Blood]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Banchetto di Sangue]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Blutfest]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Festin de sang]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Festín de sangre]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[血の饗宴]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[Feast of Blood]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Кровавый Пир]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Banquete de Sangue]]></LOCALISED_TEXT>
   </TITLE>
   <MULTIVERSEID value="888189629" />
   <ARTID value="888189629" />
   <ARTIST name="Jason Felix" />
   <CASTING_COST cost="{1}{B}" />
   <FLAVOURTEXT>
-     <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[“The vampires of this world don’t know the pleasures of hunger. They gorge themselves without savoring the kill.”
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[“The vampires of this world don’t know the pleasures of hunger. They gorge themselves without savoring the kill.”
 —Sorin Markov]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[“The vampires of this world don’t know the pleasures of hunger. They gorge themselves without savoring the kill.”
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[“I vampiri di questo mondo non conoscono il piacere della fame. Si ingozzano senza assaporare l’uccisione.”
 —Sorin Markov]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[“The vampires of this world don’t know the pleasures of hunger. They gorge themselves without savoring the kill.”
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[„Die Vampire dieser Welt kennen nicht den Genuss des Hungers. Sie saugen sich voll, ohne das Töten zu genießen.”
 —Sorin Markov]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[“The vampires of this world don’t know the pleasures of hunger. They gorge themselves without savoring the kill.”
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[« Les vampires de ce monde ne connaissent pas les plaisirs de la faim. Ils se gorgent de leur proie sans la savourer. »
 —Sorin Markov]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[“The vampires of this world don’t know the pleasures of hunger. They gorge themselves without savoring the kill.”
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[“Los vampiros de este mundo no conocen los placeres del ansia. Se atragantan sin saborear la cacería.”
 —Sorin Markov]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[“The vampires of this world don’t know the pleasures of hunger. They gorge themselves without savoring the kill.”
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[「この世界の吸血鬼は飢えの喜びを知らぬ。 殺戮の味わいも楽しまずに貪り食うばかりだ。」
+――ソリン・マルコフ]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[“The vampires of this world don’t know the pleasures of hunger. They gorge themselves without savoring the kill.”
 —Sorin Markov]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[“The vampires of this world don’t know the pleasures of hunger. They gorge themselves without savoring the kill.”
-—Sorin Markov]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[“The vampires of this world don’t know the pleasures of hunger. They gorge themselves without savoring the kill.”
-—Sorin Markov]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[“The vampires of this world don’t know the pleasures of hunger. They gorge themselves without savoring the kill.”
-—Sorin Markov]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[«Вампиры этого мира не испытывают удовольствия от голода. Они набивают брюхо, не смакуя свою добычу».
+— Сорин Марков]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[“Os vampiros deste mundo não conhecem os prazeres da fome. Eles devoram sem saborear a presa.”
+— Sorin Markov]]></LOCALISED_TEXT>
   </FLAVOURTEXT>
   <TYPE metaname="Sorcery" />
   <EXPANSION value="DPG" />
   <RARITY metaname="U" />
   <STATIC_ABILITY filter_zone="ZONE_ANY" active_zone="ZONE_ANY">
-     <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Cast Feast of Blood only if you control two or more Vampires.]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Cast Feast of Blood only if you control two or more Vampires.]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Cast Feast of Blood only if you control two or more Vampires.]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Cast Feast of Blood only if you control two or more Vampires.]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Cast Feast of Blood only if you control two or more Vampires.]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[Cast Feast of Blood only if you control two or more Vampires.]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[Cast Feast of Blood only if you control two or more Vampires.]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Cast Feast of Blood only if you control two or more Vampires.]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Cast Feast of Blood only if you control two or more Vampires.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Cast Feast of Blood only if you control two or more Vampires.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Lancia il Banchetto di Sangue solo se controlli due o più Vampiri.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Wirke Blutfest nur, falls du zwei oder mehr Vampire kontrollierst.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Ne lancez le Festin de sang que si vous contrôlez au moins deux vampires.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Lanza el Festín de sangre sólo si controlas dos o más Vampiros.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[血の饗宴は、あなたが２体以上の吸血鬼をコントロールしている場合にのみ唱えられる。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[Cast Feast of Blood only if you control two or more Vampires.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Разыгрывайте Кровавый Пир, только если под вашим контролем есть не менее двух Вампиров.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Conjure Banquete de Sangue somente se você controlar dois ou mais Vampiros.]]></LOCALISED_TEXT>
     <CONTINUOUS_ACTION layer="8">
-	local player = EffectController()
-	local filter = Object():GetFilter()
+    local player = EffectController()
+    local filter = Object():GetFilter()
     filter:Clear()
     filter:SetZone( ZONE_IN_PLAY )
     filter:AddCardType( CARD_TYPE_CREATURE )
@@ -60,21 +60,21 @@
     filter:SetPlayer( player )
     filter:NotTargetted()
     if filter:CountStopAt( 2 ) &lt; 2 then
-      local characteristics = Object():GetCurrentCharacteristics()
-	  characteristics:Characteristic_Set( CHARACTERISTIC_CANT_BE_PLAYED, 1 )
+    	local characteristics = Object():GetCurrentCharacteristics()
+	characteristics:Characteristic_Set( CHARACTERISTIC_CANT_BE_PLAYED, 1 )
     end
     </CONTINUOUS_ACTION>
   </STATIC_ABILITY>
   <SPELL_ABILITY dangerous="1" filter_zone="ZONE_IN_PLAY">
-     <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Destroy target creature. You gain 4 life.]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Destroy target creature. You gain 4 life.]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Destroy target creature. You gain 4 life.]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Destroy target creature. You gain 4 life.]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Destroy target creature. You gain 4 life.]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[Destroy target creature. You gain 4 life.]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[Destroy target creature. You gain 4 life.]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Destroy target creature. You gain 4 life.]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Destroy target creature. You gain 4 life.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Destroy target creature. You gain 4 life.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Distruggi una creatura bersaglio. Guadagni 4 punti vita.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Zerstöre eine Kreatur deiner Wahl. Du erhältst 4 Lebenspunkte dazu.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Détruisez la créature ciblée. Vous gagnez 4 points de vie.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Destruye la criatura objetivo. Gana 4 vidas.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[クリーチャー１体を対象とし、それを破壊する。 あなたは４点のライフを得る。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[Destroy target creature. You gain 4 life.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Уничтожьте целевое существо. Вы получаете 4 жизни.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Destrua a criatura alvo. Você ganha 4 pontos de vida.]]></LOCALISED_TEXT>
     <TARGET_DEFINITION id="0">
     local filter = Object():GetFilter()
     filter:Clear()
@@ -92,10 +92,10 @@
     local target = EffectDC():Get_Targets(0):Get_NthCardPtr(0)
     if target ~= nil then   
     	target:Destroy()  
-		EffectController():GainLife( 4 )
+    	EffectController():GainLife( 4 )
     end
     </RESOLUTION_TIME_ACTION>
-	<SFX text="TARGET_FANG_PLAY" />
+    <SFX text="TARGET_FANG_PLAY" />
   </SPELL_ABILITY>
   <AI_AVAILABILITY type="in_response" />
   <AI_AVAILABILITY step="begin_combat" turn="their_turn" />

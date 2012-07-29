@@ -3,91 +3,92 @@
   <FILENAME text="KNIGHT_OF_DAWN_8884883" />
   <CARDNAME text="KNIGHT_OF_DAWN" />
   <TITLE>
-     <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Knight Of Dawn]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Knight Of Dawn]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Knight Of Dawn]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Knight Of Dawn]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Knight Of Dawn]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[Knight Of Dawn]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[Knight Of Dawn]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Knight Of Dawn]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Knight Of Dawn]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Knight of Dawn]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Ritter der Morgenröte]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Caballero del alba]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Chevalier de l’aube]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Cavaliere dell’Alba]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[暁(あかつき)の騎(き)士(し)]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[Knight of Dawn]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Knight of Dawn]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Cavaleiro do Alvorecer]]></LOCALISED_TEXT>
   </TITLE>
   <MULTIVERSEID value="8884883" />
   <ARTID value="8884883" />
   <ARTIST name="Ron Spencer" />
   <CASTING_COST cost="{1}{W}{W}" />
   <FLAVOURTEXT>
-     <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Flash like daybreak to the fray.
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Flash like daybreak to the fray.
 —Motto of the Knights of Dawn]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Flash like daybreak to the fray.
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Blitzend wie der Tagesanbruch in den Kampf.
+—Motto der Ritter der Morgenröte]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Irrumpir como el alba en la batalla.
+—Lema de los Caballeros del alba]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Percez la mêlée comme le point du jour troue les ténèbres.
+—Devise des chevaliers de l’aube]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Rapidi nella mischia come lo spuntar del giorno.
+—Motto dei Cavalieri dell’Alba]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[争いの場では、日の出のごとくにきらめけ。
+――暁の騎士のモットー]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[Flash like daybreak to the fray.
 —Motto of the Knights of Dawn]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Flash like daybreak to the fray.
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Flash like daybreak to the fray.
 —Motto of the Knights of Dawn]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Flash like daybreak to the fray.
-—Motto of the Knights of Dawn]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Flash like daybreak to the fray.
-—Motto of the Knights of Dawn]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[Flash like daybreak to the fray.
-—Motto of the Knights of Dawn]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[Flash like daybreak to the fray.
-—Motto of the Knights of Dawn]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Flash like daybreak to the fray.
-—Motto of the Knights of Dawn]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Flash like daybreak to the fray.
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Flash like daybreak to the fray.
 —Motto of the Knights of Dawn]]></LOCALISED_TEXT>
   </FLAVOURTEXT>
   <TYPE metaname="Creature" />
-  <SUB_TYPE metaname="Human" order_de-DE="0" order_es-ES="0" order_fr-FR="0" order_it-IT="0" order_jp-JA="0" order_ko-KR="0" order_pt-BR="0" order_ru-RU="0" />
-  <SUB_TYPE metaname="Knight" order_de-DE="0" order_es-ES="0" order_fr-FR="0" order_it-IT="0" order_jp-JA="0" order_ko-KR="0" order_pt-BR="0" order_ru-RU="0" />
+  <SUB_TYPE metaname="Human" order_de-DE="0" order_es-ES="1" order_fr-FR="0" order_it-IT="1" order_jp-JA="0" order_ko-KR="0" order_pt-BR="0" order_ru-RU="0" />
+  <SUB_TYPE metaname="Knight" order_de-DE="1" order_es-ES="0" order_fr-FR="1" order_it-IT="0" order_jp-JA="1" order_ko-KR="1" order_pt-BR="1" order_ru-RU="1" />
   <EXPANSION value="DPG" />
   <RARITY metaname="U" />
   <POWER value="2" />
   <TOUGHNESS value="2" />
   <STATIC_ABILITY>
-     <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[First strike]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[First strike]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[First strike]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[First strike]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[First strike]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[First strike]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[First strike]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[First strike]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[First strike]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[First strike]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Initiative]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Daña primero.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Erstschlag]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Attacco improvviso]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[先制攻撃]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[선제공격]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Первый удар]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Iniciativa]]></LOCALISED_TEXT>
     <CONTINUOUS_ACTION>
     local characteristics = Object():GetCurrentCharacteristics()
     characteristics:Characteristic_Set( CHARACTERISTIC_FIRST_STRIKE, 1 )
     </CONTINUOUS_ACTION>
   </STATIC_ABILITY>
   <ACTIVATED_ABILITY filter_zone="ZONE_IN_PLAY">
-     <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[{W}{W}: Knight of Dawn gains protection from the color of your choice until end of turn.]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[{W}{W}: Knight of Dawn gains protection from the color of your choice until end of turn.]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[{W}{W}: Knight of Dawn gains protection from the color of your choice until end of turn.]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[{W}{W}: Knight of Dawn gains protection from the color of your choice until end of turn.]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[{W}{W}: Knight of Dawn gains protection from the color of your choice until end of turn.]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[{W}{W}: Knight of Dawn gains protection from the color of your choice until end of turn.]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[{W}{W}: Knight of Dawn gains protection from the color of your choice until end of turn.]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[{W}{W}: Knight of Dawn gains protection from the color of your choice until end of turn.]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[{W}{W}: Knight of Dawn gains protection from the color of your choice until end of turn.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[{W}{W}: Knight of Dawn gains protection from the color of your choice until end of turn.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[{W}{W} : Le Chevalier de l’aube acquiert la protection contre la couleur de votre choix jusqu’à la fin du tour.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[{W}{W}: Der Ritter der Morgenröte erhält bis zum Ende des Zuges Schutz vor einer Farbe, die du bestimmst.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[{W}{W}: El Caballero del alba gana protección contra el color de tu elección hasta el final del turno.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[{W}{W}: Il Cavaliere dell’Alba ha protezione da un colore a tua scelta fino alla fine del turno.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[{W}{W}：暁の騎士はターン終了時まで、プロテクション（あなたが選んだ色１色）を得る。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[{W}{W}: Knight of Dawn gains protection from the color of your choice until end of turn.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[{W}{W}: Knight of Dawn gains protection from the color of your choice until end of turn.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[{W}{W}: Knight of Dawn gains protection from the color of your choice until end of turn.]]></LOCALISED_TEXT>
     <COST type="Mana" cost="{W}{W}" />
-	<RESOLUTION_TIME_ACTION ignore_filter="1">
-    EffectController():ChooseColour("CARD_QUERY_CHOOSE_COLOUR", 1)  
+    <RESOLUTION_TIME_ACTION>
+    EffectController():ChooseColour( "CARD_QUERY_CHOOSE_COLOUR", 1 )  
     </RESOLUTION_TIME_ACTION>
-	<CONTINUOUS_ACTION layer="6">
+    <CONTINUOUS_ACTION layer="6">
     local filter = Object():GetFilter()
     local target = EffectSource()
     if target ~= nil then
-		filter:Clear()
+    	filter:Clear()
         filter:AddColour( GetChosenColour() )
         target:Protection()
     end
     </CONTINUOUS_ACTION>
     <DURATION simple_duration="UntilEOT" />
-	<AI_AVAILABILITY step="declare_attackers" turn="my_turn" />
+    <AI_AVAILABILITY step="declare_attackers" turn="my_turn" />
     <AI_AVAILABILITY type="in_response" />
-	<AI_AVAILABILITY step="declare_blockers" />
+    <AI_AVAILABILITY step="declare_blockers" />
     <AI_AVAILABILITY type="in_response_dangerous" />
   </ACTIVATED_ABILITY>
+  <HELP title="MORE_INFO_BADGE_TITLE_0" body="MORE_INFO_BADGE_BODY_0" zone="ZONE_ANY" />
   <SFX text="COMBAT_BLADE_LARGE_ATTACK" power_boundary_min="4" power_boundary_max="-1" />
   <SFX text="COMBAT_BLADE_SMALL_ATTACK" power_boundary_min="1" power_boundary_max="3" />
   <AI_BASE_SCORE score="600" zone="ZONE_IN_PLAY" />
