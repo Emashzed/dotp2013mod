@@ -27,9 +27,10 @@
 		<unlock deck="D12GARRUK" plane="2" />
 	</node>
 
-	<node id="6" type = "two player duel"  core="true" name_tag="PLAYER_NAME_D12AOD" locked_description_tag="CAMPAIGN_NODE_DESCRIPTION_LOCKED_GENERIC" available_description_tag="CAMPAIGN_NODE_DESCRIPTION_AVAILABLE_GENERIC" complete_description_tag="CAMPAIGN_NODE_DESCRIPTION_COMPLETE_GENERIC" x="-320" small_x = "-388" size = "1" plane = "2" >
+	<node id="6" type = "two player duel"  core="true" name_tag="PLAYER_NAME_D12AOD" locked_description_tag="CAMPAIGN_NODE_DESCRIPTION_LOCKED_GENERIC" available_description_tag="CAMPAIGN_NODE_DESCRIPTION_AVAILABLE_PLANESWALKER_DECK_UNLOCK" complete_description_tag="CAMPAIGN_NODE_DESCRIPTION_COMPLETE_GENERIC" x="-320" small_x = "-388" size = "1" plane = "2" >
 		<prereq id="5" image="type_3" />
 		<opponent name="PLAYER_NAME_D12AOD" deck="D12AOD" planeswalker_desc = "PLANESWALKER_DESC_GARRUK_WILDSPEAKER_1" />
+		<unlock deck="D12AOD" />
 	</node>
 	
 	<node id="7" type = "two player duel"  core="true" name_tag="PLAYER_NAME_D12DD" locked_description_tag="CAMPAIGN_NODE_DESCRIPTION_LOCKED_GENERIC" available_description_tag="CAMPAIGN_NODE_DESCRIPTION_AVAILABLE_GENERIC" complete_description_tag="CAMPAIGN_NODE_DESCRIPTION_COMPLETE_GENERIC" x="-160" small_x = "-350" size = "1" plane = "2" >
