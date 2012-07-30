@@ -1,0 +1,89 @@
+﻿<?xml version='1.0'?>
+<CARD_V2>
+  <FILENAME text="TERMINUS_623749" />
+  <CARDNAME text="TERMINUS" />
+  <TITLE>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Terminus]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Terminus]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Terminus]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Terminus]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Terminus]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[Terminus]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[Terminus]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Terminus]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Terminus]]></LOCALISED_TEXT>
+  </TITLE>
+  <MULTIVERSEID value="623749" />
+  <ARTID value="623749" />
+  <ARTIST name="James Paick" />
+  <CASTING_COST cost="{4}{W}{W}" />
+  <TYPE metaname="Sorcery" />
+  <EXPANSION value="DPG" />
+  <RARITY metaname="R" />
+  <SPELL_ABILITY dangerous="1" filter_zone="ZONE_IN_PLAY">
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Put all creatures on the bottom of their owners’ libraries.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Put all creatures on the bottom of their owners’ libraries.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Put all creatures on the bottom of their owners’ libraries.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Put all creatures on the bottom of their owners’ libraries.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Put all creatures on the bottom of their owners’ libraries.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[Put all creatures on the bottom of their owners’ libraries.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[Put all creatures on the bottom of their owners’ libraries.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Put all creatures on the bottom of their owners’ libraries.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Put all creatures on the bottom of their owners’ libraries.]]></LOCALISED_TEXT>
+    <FILTER>
+    return (FilteredCard() ~= nil and 
+    FilteredCard():GetCardType():Test( CARD_TYPE_CREATURE ) ~= 0 and 
+    FilteredCard():GetZone() == (ZONE_IN_PLAY))
+    </FILTER>
+    <RESOLUTION_TIME_ACTION>
+    FilteredCard():PutOnBottomOfLibrary()  
+    </RESOLUTION_TIME_ACTION>
+    <SFX text="GLOBAL_WARP_PLAY" />
+  </SPELL_ABILITY>
+  <TRIGGERED_ABILITY auto_skip="1" filter_zone="ZONE_IN_PLAY" active_zone="ZONE_HAND">
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Miracle {W} |(You may cast this card for its miracle cost when you draw it if it’s the first card you drew this turn.)|]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Miracle {W} |(You may cast this card for its miracle cost when you draw it if it’s the first card you drew this turn.)|]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Miracle {W} |(You may cast this card for its miracle cost when you draw it if it’s the first card you drew this turn.)|]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Miracle {W} |(You may cast this card for its miracle cost when you draw it if it’s the first card you drew this turn.)|]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Miracle {W} |(You may cast this card for its miracle cost when you draw it if it’s the first card you drew this turn.)|]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[Miracle {W} |(You may cast this card for its miracle cost when you draw it if it’s the first card you drew this turn.)|]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[Miracle {W} |(You may cast this card for its miracle cost when you draw it if it’s the first card you drew this turn.)|]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Miracle {W} |(You may cast this card for its miracle cost when you draw it if it’s the first card you drew this turn.)|]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Miracle {W} |(You may cast this card for its miracle cost when you draw it if it’s the first card you drew this turn.)|]]></LOCALISED_TEXT>
+    <TRIGGER value="DREW_CARD" simple_qualifier="controller">
+    local drawCard = MTG():Interrogate_CardsDrawnThisTurn(EffectController())
+    if ObjectDC():Get_Int(0) == 1 and drawCard == 1 then
+      ObjectDC():Set_Int( 0, 0 )
+      return TriggerPlayer() == EffectController()
+    else
+    	return false
+    end
+    </TRIGGER>
+    <COST type="mana" cost="{W}" qualifier="conditional" />
+    <RESOLUTION_TIME_ACTION conditional="if">
+    if Object():GetZone() == ZONE_HAND then
+      Object():PlayFreeFromAnywhere( EffectController() )   
+    end
+    </RESOLUTION_TIME_ACTION>
+  </TRIGGERED_ABILITY>  
+  <TRIGGERED_ABILITY internal="1" pre_trigger="1" priority="-1" active_zone="ZONE_LIBRARY">
+    <TRIGGER value="DREW_CARD" simple_qualifier="controller">
+    local card = EffectController():Library_GetNth(0) 
+    local source = Object()
+    local drawCard = MTG():Interrogate_CardsDrawnThisTurn(EffectController())
+    if card ~= nil and source ~= nil then 
+      if card == source and drawCard == 0 then
+    	  return TriggerPlayer() == EffectController()
+      else
+    	  return false
+      end
+    else
+    	return false
+    end
+    </TRIGGER>
+    <RESOLUTION_TIME_ACTION>
+    ObjectDC():Set_Int( 0, 1 )
+    </RESOLUTION_TIME_ACTION>
+  </TRIGGERED_ABILITY>
+  <AI_BASE_SCORE score="1200" zone="ZONE_HAND" />
+</CARD_V2>

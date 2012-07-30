@@ -1,0 +1,123 @@
+﻿<?xml version='1.0'?>
+<CARD_V2>
+  <FILENAME text="BANISHING_STROKE_623637" />
+  <CARDNAME text="BANISHING_STROKE" />
+  <TITLE>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Banishing Stroke]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Banishing Stroke]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Banishing Stroke]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Banishing Stroke]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Banishing Stroke]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[Banishing Stroke]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[Banishing Stroke]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Banishing Stroke]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Banishing Stroke]]></LOCALISED_TEXT>
+  </TITLE>
+  <MULTIVERSEID value="623637" />
+  <ARTID value="623637" />
+  <ARTIST name="Igor Kieryluk" />
+  <CASTING_COST cost="{5}{W}" />
+  <TYPE metaname="Instant" />
+  <EXPANSION value="DPG" />
+  <RARITY metaname="U" />
+  <SPELL_ABILITY dangerous="1" filter_zone="ZONE_IN_PLAY">
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Put target artifact, creature, or enchantment on the bottom of its owner’s library.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Put target artifact, creature, or enchantment on the bottom of its owner’s library.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Put target artifact, creature, or enchantment on the bottom of its owner’s library.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Put target artifact, creature, or enchantment on the bottom of its owner’s library.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Put target artifact, creature, or enchantment on the bottom of its owner’s library.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[Put target artifact, creature, or enchantment on the bottom of its owner’s library.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[Put target artifact, creature, or enchantment on the bottom of its owner’s library.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Put target artifact, creature, or enchantment on the bottom of its owner’s library.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Put target artifact, creature, or enchantment on the bottom of its owner’s library.]]></LOCALISED_TEXT>
+    <TARGET_DEFINITION id="0">
+    local filter = Object():GetFilter()
+    filter:Clear()
+    filter:AddCardType( CARD_TYPE_ARTIFACT )
+    filter:AddCardType( CARD_TYPE_CREATURE )
+    filter:AddCardType( CARD_TYPE_ENCHANTMENT )
+    filter:SetZone( ZONE_IN_PLAY )
+    filter:SetHint( HINT_ENEMY_ONLY, EffectController() )
+    </TARGET_DEFINITION>
+    <TARGET_DETERMINATION>
+    return AtLeastOneTargetFromDefinition(0)
+    </TARGET_DETERMINATION>
+    <PLAY_TIME_ACTION target_choosing="1">
+    EffectController():ChooseTarget( 0, "CARD_QUERY_CHOOSE_CARD_TO_PUT_ON_BOTTOM_LIBRARY", EffectDC():Make_Targets(0) )
+    </PLAY_TIME_ACTION>
+    <RESOLUTION_TIME_ACTION>
+    local target = EffectDC():Get_Targets(0):Get_CardPtr(0)
+    if target ~= nil then   
+    	target:PutOnBottomOfLibrary()
+    end
+    </RESOLUTION_TIME_ACTION>
+  </SPELL_ABILITY>
+  <TRIGGERED_ABILITY auto_skip="1" filter_zone="ZONE_IN_PLAY" active_zone="ZONE_HAND">
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Miracle {W} |(You may cast this card for its miracle cost when you draw it if it’s the first card you drew this turn.)|]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Miracle {W} |(You may cast this card for its miracle cost when you draw it if it’s the first card you drew this turn.)|]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Miracle {W} |(You may cast this card for its miracle cost when you draw it if it’s the first card you drew this turn.)|]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Miracle {W} |(You may cast this card for its miracle cost when you draw it if it’s the first card you drew this turn.)|]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Miracle {W} |(You may cast this card for its miracle cost when you draw it if it’s the first card you drew this turn.)|]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[Miracle {W} |(You may cast this card for its miracle cost when you draw it if it’s the first card you drew this turn.)|]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[Miracle {W} |(You may cast this card for its miracle cost when you draw it if it’s the first card you drew this turn.)|]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Miracle {W} |(You may cast this card for its miracle cost when you draw it if it’s the first card you drew this turn.)|]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Miracle {W} |(You may cast this card for its miracle cost when you draw it if it’s the first card you drew this turn.)|]]></LOCALISED_TEXT>
+    <TRIGGER value="DREW_CARD" simple_qualifier="controller">
+    local drawCard = MTG():Interrogate_CardsDrawnThisTurn(EffectController())
+    if ObjectDC():Get_Int(0) == 1 and drawCard == 1 then
+      ObjectDC():Set_Int( 0, 0 )
+      return TriggerPlayer() == EffectController()
+    else
+    	return false
+    end
+    </TRIGGER>
+    <TARGET_DETERMINATION>
+    local filter = Object():GetFilter()
+    filter:Clear()
+    filter:AddCardType( CARD_TYPE_ARTIFACT )
+    filter:AddCardType( CARD_TYPE_CREATURE )
+    filter:AddCardType( CARD_TYPE_ENCHANTMENT )
+    filter:SetZone( ZONE_IN_PLAY )
+     local total = filter:CountStopAt( 1 )
+    if total == 1 and Object():GetZone() == ZONE_HAND then
+      -- success
+    	return 1
+    else
+      -- fail
+      return 0
+    end
+    </TARGET_DETERMINATION>
+    <COST type="mana" cost="{W}" qualifier="conditional" />
+    <RESOLUTION_TIME_ACTION conditional="if">
+    if Object():GetZone() == ZONE_HAND then
+      Object():PlayFreeFromAnywhere( EffectController() )   
+    end
+    </RESOLUTION_TIME_ACTION>
+  </TRIGGERED_ABILITY>  
+  <TRIGGERED_ABILITY internal="1" pre_trigger="1" priority="-1" active_zone="ZONE_LIBRARY">
+    <TRIGGER value="DREW_CARD" simple_qualifier="controller">
+    local card = EffectController():Library_GetNth(0) 
+    local source = Object()
+    local drawCard = MTG():Interrogate_CardsDrawnThisTurn(EffectController())
+    if card ~= nil and source ~= nil then 
+      if card == source and drawCard == 0 then
+    	  return TriggerPlayer() == EffectController()
+      else
+    	  return false
+      end
+    else
+    	return false
+    end
+    </TRIGGER>
+    <RESOLUTION_TIME_ACTION>
+    ObjectDC():Set_Int( 0, 1 )
+    </RESOLUTION_TIME_ACTION>
+  </TRIGGERED_ABILITY>
+  <AI_AVAILABILITY type="in_response" />
+  <AI_AVAILABILITY step="begin_combat" turn="their_turn" />
+  <AI_AVAILABILITY step="main_1" turn="my_turn" />
+  <AI_AVAILABILITY step="declare_attackers" turn="their_turn" />
+  <AI_AVAILABILITY step="declare_blockers" />
+  <AI_AVAILABILITY step="end_of_turn" />
+  <AI_BASE_SCORE score="1200" zone="ZONE_HAND" />
+</CARD_V2>

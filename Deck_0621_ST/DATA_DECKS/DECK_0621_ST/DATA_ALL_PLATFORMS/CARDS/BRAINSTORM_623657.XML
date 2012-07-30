@@ -1,0 +1,83 @@
+<?xml version='1.0'?>
+<CARD_V2>
+  <FILENAME text="BRAINSTORM_623657" />
+  <CARDNAME text="BRAINSTORM" />
+  <TITLE>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Brainstorm]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Brainstorm]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Brainstorm]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Brainstorm]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Brainstorm]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[Brainstorm]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[Brainstorm]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Brainstorm]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Brainstorm]]></LOCALISED_TEXT>
+  </TITLE>
+  <MULTIVERSEID value="623657" />
+  <ARTID value="623657" />
+  <ARTIST name="DiTerlizzi" />
+  <CASTING_COST cost="{U}" />
+  <FLAVOURTEXT>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[“I see more than others do because I know where to look.”
+—Saprazzan vizier]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[“I see more than others do because I know where to look.”
+—Saprazzan vizier]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[“I see more than others do because I know where to look.”
+—Saprazzan vizier]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[“I see more than others do because I know where to look.”
+—Saprazzan vizier]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[“I see more than others do because I know where to look.”
+—Saprazzan vizier]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[“I see more than others do because I know where to look.”
+—Saprazzan vizier]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[“I see more than others do because I know where to look.”
+—Saprazzan vizier]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[“I see more than others do because I know where to look.”
+—Saprazzan vizier]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[“I see more than others do because I know where to look.”
+—Saprazzan vizier]]></LOCALISED_TEXT>
+  </FLAVOURTEXT>
+  <TYPE metaname="Instant" />
+  <EXPANSION value="DPG" />
+  <RARITY metaname="C" />
+  <SPELL_ABILITY filter_zone="ZONE_ANY">
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Draw three cards, then put two cards from your hand on top of your library in any order.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Draw three cards, then put two cards from your hand on top of your library in any order.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Draw three cards, then put two cards from your hand on top of your library in any order.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Draw three cards, then put two cards from your hand on top of your library in any order.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Draw three cards, then put two cards from your hand on top of your library in any order.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[Draw three cards, then put two cards from your hand on top of your library in any order.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[Draw three cards, then put two cards from your hand on top of your library in any order.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Draw three cards, then put two cards from your hand on top of your library in any order.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Draw three cards, then put two cards from your hand on top of your library in any order.]]></LOCALISED_TEXT>
+    <RESOLUTION_TIME_ACTION>
+    local target = EffectController()
+    if target ~= nil then
+    	PlayerDrawCards( target, 3 )
+    end
+    </RESOLUTION_TIME_ACTION>
+    <RESOLUTION_TIME_ACTION>
+    local filter = Object():GetFilter()    
+    filter:Clear()    
+    filter:NotTargetted()      
+    filter:SetZone( ZONE_HAND )    
+    filter:SetPlayer( EffectController() )   
+    filter:SetHint( HINT_ENEMY, EffectController() )    
+    EffectController():SetTargetCount( 2 )
+    EffectController():SetTargetPrompt( 0, "CARD_QUERY_CHOOSE_FIRST_CARD_TO_PUT_ON_TOP" )
+    EffectController():SetTargetPrompt( 1, "CARD_QUERY_CHOOSE_SECOND_CARD_TO_PUT_ON_TOP" )
+    EffectController():ChooseTargets( NO_VALIDATION, EffectDC():Make_Targets(0) ) 
+    </RESOLUTION_TIME_ACTION>
+    <RESOLUTION_TIME_ACTION>
+    for i = 0,1 do
+    	local target = EffectDC():Get_Targets(0):Get_CardPtr(i)
+    	if target ~= nil then
+    		target:PutOnTopOfLibrary()
+    	end
+    end
+    </RESOLUTION_TIME_ACTION>
+  </SPELL_ABILITY>
+  <AI_AVAILABILITY type="in_response" />
+  <AI_AVAILABILITY step="main_1" turn="my_turn" />
+  <AI_AVAILABILITY step="end_of_turn" turn="their_turn" />
+</CARD_V2>

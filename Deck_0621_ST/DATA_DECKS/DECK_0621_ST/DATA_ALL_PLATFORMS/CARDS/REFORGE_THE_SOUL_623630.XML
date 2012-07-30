@@ -1,0 +1,101 @@
+﻿<?xml version='1.0'?>
+<CARD_V2>
+  <FILENAME text="REFORGE_THE_SOUL_623630" />
+  <CARDNAME text="REFORGE_THE_SOUL" />
+  <TITLE>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Reforge the Soul]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Reforge the Soul]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Reforge the Soul]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Reforge the Soul]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Reforge the Soul]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[Reforge the Soul]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[Reforge the Soul]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Reforge the Soul]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Reforge the Soul]]></LOCALISED_TEXT>
+  </TITLE>
+  <MULTIVERSEID value="623630" />
+  <ARTID value="623630" />
+  <ARTIST name="Jaime Jones" />
+  <CASTING_COST cost="{3}{R}{R}" />
+  <FLAVOURTEXT>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[In a wave of spells called the Cursemute, Avacyn cleansed the world with divine fire.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[In a wave of spells called the Cursemute, Avacyn cleansed the world with divine fire.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[In a wave of spells called the Cursemute, Avacyn cleansed the world with divine fire.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[In a wave of spells called the Cursemute, Avacyn cleansed the world with divine fire.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[In a wave of spells called the Cursemute, Avacyn cleansed the world with divine fire.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[In a wave of spells called the Cursemute, Avacyn cleansed the world with divine fire.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[In a wave of spells called the Cursemute, Avacyn cleansed the world with divine fire.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[In a wave of spells called the Cursemute, Avacyn cleansed the world with divine fire.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[In a wave of spells called the Cursemute, Avacyn cleansed the world with divine fire.]]></LOCALISED_TEXT>
+  </FLAVOURTEXT>
+  <TYPE metaname="Sorcery" />
+  <EXPANSION value="DPG" />
+  <RARITY metaname="R" />
+  <SPELL_ABILITY dangerous="1" filter_zone="ZONE_IN_PLAY">
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Each player discards his or her hand and draws seven cards.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Each player discards his or her hand and draws seven cards.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Each player discards his or her hand and draws seven cards.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Each player discards his or her hand and draws seven cards.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Each player discards his or her hand and draws seven cards.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[Each player discards his or her hand and draws seven cards.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[Each player discards his or her hand and draws seven cards.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Each player discards his or her hand and draws seven cards.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Each player discards his or her hand and draws seven cards.]]></LOCALISED_TEXT>
+    <RESOLUTION_TIME_ACTION>
+    local num_players = MTG():GetNumberOfPlayers()
+    for i=0,num_players-1 do
+    	local player = MTG():GetNthPlayer(i)
+    	if player ~= nil then
+    		DiscardHand(player)
+    		PlayerDrawCards( player, 7 )
+    	end
+    end
+    </RESOLUTION_TIME_ACTION>
+  </SPELL_ABILITY>
+  <TRIGGERED_ABILITY auto_skip="1" filter_zone="ZONE_IN_PLAY" active_zone="ZONE_HAND">
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Miracle {1}{R} |(You may cast this card for its miracle cost when you draw it if it’s the first card you drew this turn.)|]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Miracle {1}{R} |(You may cast this card for its miracle cost when you draw it if it’s the first card you drew this turn.)|]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Miracle {1}{R} |(You may cast this card for its miracle cost when you draw it if it’s the first card you drew this turn.)|]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Miracle {1}{R} |(You may cast this card for its miracle cost when you draw it if it’s the first card you drew this turn.)|]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Miracle {1}{R} |(You may cast this card for its miracle cost when you draw it if it’s the first card you drew this turn.)|]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[Miracle {1}{R} |(You may cast this card for its miracle cost when you draw it if it’s the first card you drew this turn.)|]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[Miracle {1}{R} |(You may cast this card for its miracle cost when you draw it if it’s the first card you drew this turn.)|]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Miracle {1}{R} |(You may cast this card for its miracle cost when you draw it if it’s the first card you drew this turn.)|]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Miracle {1}{R} |(You may cast this card for its miracle cost when you draw it if it’s the first card you drew this turn.)|]]></LOCALISED_TEXT>
+    <TRIGGER value="DREW_CARD" simple_qualifier="controller">
+    local drawCard = MTG():Interrogate_CardsDrawnThisTurn(EffectController())
+    if ObjectDC():Get_Int(0) == 1 and drawCard == 1 then
+      ObjectDC():Set_Int( 0, 0 )
+      return TriggerPlayer() == EffectController()
+    else
+    	return false
+    end
+    </TRIGGER>
+    <COST type="mana" cost="{1}{R}" qualifier="conditional" />
+    <RESOLUTION_TIME_ACTION conditional="if">
+    if Object():GetZone() == ZONE_HAND then
+      Object():PlayFreeFromAnywhere( EffectController() )   
+    end
+    </RESOLUTION_TIME_ACTION>
+  </TRIGGERED_ABILITY>  
+  <TRIGGERED_ABILITY internal="1" pre_trigger="1" priority="-1" active_zone="ZONE_LIBRARY">
+    <TRIGGER value="DREW_CARD" simple_qualifier="controller">
+    local card = EffectController():Library_GetNth(0) 
+    local source = Object()
+    local drawCard = MTG():Interrogate_CardsDrawnThisTurn(EffectController())
+    if card ~= nil and source ~= nil then 
+      if card == source and drawCard == 0 then
+    	  return TriggerPlayer() == EffectController()
+      else
+    	  return false
+      end
+    else
+    	return false
+    end
+    </TRIGGER>
+    <RESOLUTION_TIME_ACTION>
+    ObjectDC():Set_Int( 0, 1 )
+    </RESOLUTION_TIME_ACTION>
+  </TRIGGERED_ABILITY>
+  <AI_BASE_SCORE score="900" zone="ZONE_HAND" />
+</CARD_V2>
