@@ -1,0 +1,56 @@
+<?xml version='1.0'?>
+<CARD_V2>
+  <FILENAME text="MIDNIGHT_HAUNTING_277044" />
+  <CARDNAME text="MIDNIGHT_HAUNTING" />
+  <TITLE>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Midnight Haunting]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Hantise de minuit]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Aparición de medianoche]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Mitternächtliches Spuken]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Infestazione di Mezzanotte]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[深夜の出没]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[자정의 출몰]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Полуночное Явление]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Assombração da Meia-noite]]></LOCALISED_TEXT>
+  </TITLE>
+  <MULTIVERSEID value="277044" />
+  <ARTID value="138174" />
+  <ARTIST name="Matt Stewart" />
+  <CASTING_COST cost="{2}{W}" />
+  <FLAVOURTEXT>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[The path back to the world of the living is murky and bewildering. A geist may not even realize that it’s terrifying its own loved ones.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[La voie qui vous ramène dans le monde des vivants est trouble et surprenante. Un geist ne réalise parfois même pas qu’il terrifie ses proches.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[El camino de regreso al mundo de los vivos es fangoso y apabullante. Un geist puede no darse cuenta de que está aterrorizando a sus seres amados.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Der Weg zurück in die Welt der Lebenden ist unklar und verwirrend. Manche Geister entdecken nie, dass sie ihre eigenen Angehörigen terrorisieren.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Il sentiero che riporta nel mondo dei viventi è oscuro e sconcertante. Un geist probabilmente non capisce neppure che sta terrorizzando i suoi cari.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[生者の世界へ戻る道は暗く迷走している。 霊は自分が愛した者にも恐怖を引き起こすことすらわからないのだろう。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[이승으로 돌아오는 길은 어두컴컴하고 헷갈리기 때문에, 자신이 위협하고 있는 것이 생전 가족이라는 것조차 깨닫지 못하는 심령들도 있다.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Обратный путь в мир живых туманный и запутанный. Привидение может даже не представлять себе, что оно наводит ужас на своих любимых.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[O caminho que conduz de volta ao mundo dos vivos é sombrio e confuso. Um geist pode nem perceber que está aterrorizando aqueles que amava.]]></LOCALISED_TEXT>
+  </FLAVOURTEXT>
+  <TYPE metaname="Instant" />
+  <EXPANSION value="DPG" />
+  <RARITY metaname="U" />
+  <SPELL_ABILITY filter_zone="ZONE_IN_PLAY">
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Put two 1/1 white Spirit creature tokens with flying onto the battlefield.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Mettez sur le champ de bataille deux jetons de créature 1/1 blanche Esprit avec le vol.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Pon en el campo de batalla dos fichas de criatura Espíritu blancas 1/1 con la habilidad de volar.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Bringe zwei 1/1 weiße Geist-Kreaturenspielsteine mit Flugfähigkeit ins Spiel.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Metti sul campo di battaglia due pedine creatura Spirito 1/1 bianche con volare.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[飛行を持つ白の１/１のスピリット・クリーチャー・トークンを２体戦場に出す。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[비행 능력을 가진 1/1 백색 신령 생물 토큰 두 개를 전장에 놓는다.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Положите на поле битвы две фишки существа 1/1 белый Дух с Полетом.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Coloque no campo de batalha duas fichas de criatura brancas 1/1 do tipo Espírito com voar.]]></LOCALISED_TEXT>
+    <RESOLUTION_TIME_ACTION>
+    local token_count = 2
+    if token_count &gt; 0 then
+    	MTG():PutTokensIntoPlay( "TOKEN_SPIRIT_1_1_F_277469", token_count, EffectController() )
+    end
+    </RESOLUTION_TIME_ACTION>
+  </SPELL_ABILITY>
+  <AI_AVAILABILITY step="end_of_turn" turn="their_turn" />
+  <AI_AVAILABILITY step="declare_attackers" turn="their_turn" />
+  <AI_AVAILABILITY type="in_response_dangerous" />
+  <TOKEN_REGISTRATION reservation="1" type="TOKEN_SPIRIT_1_1_F_277469" />
+  <HELP title="MORE_INFO_BADGE_TITLE_10" body="MORE_INFO_BADGE_BODY_10" zone="ZONE_ANY" />
+</CARD_V2>

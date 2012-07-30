@@ -1,4 +1,5 @@
-<DECK personality="D12AOD.XML" deck_box_image="locked" deck_box_image_locked="locked" content_pack="0" never_available="true" uid="113" preview_card="blanko" is_black="true" is_white="true">
+<DECK personality="D12AOD.XML" deck_box_image="D12AOD" deck_box_image_locked="locked" content_pack="0" uid="795" preview_card="angelicdes" is_black="true" is_white="true">
+  <DECKSTATISTICS Size="5" Speed="5" Flex="7" Syn="5" />
   <LandConfig numSpellsThatCountAsLand="3" />
   <CARD name="BASILISK_COLLAR_277353" deckOrderId="0" />
   <CARD name="DOOM_BLADE_276845" deckOrderId="1" />
