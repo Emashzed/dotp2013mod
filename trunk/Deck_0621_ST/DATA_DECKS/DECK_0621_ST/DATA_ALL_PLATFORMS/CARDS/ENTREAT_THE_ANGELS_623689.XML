@@ -1,0 +1,100 @@
+﻿<?xml version='1.0'?>
+<CARD_V2>
+  <FILENAME text="ENTREAT_THE_ANGELS_623689" />
+  <CARDNAME text="ENTREAT_THE_ANGELS" />
+  <TITLE>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Entreat the Angels]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Entreat the Angels]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Entreat the Angels]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Entreat the Angels]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Entreat the Angels]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[Entreat the Angels]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[Entreat the Angels]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Entreat the Angels]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Entreat the Angels]]></LOCALISED_TEXT>
+  </TITLE>
+  <MULTIVERSEID value="623689" />
+  <ARTID value="623689" />
+  <ARTIST name="Todd Lockwood" />
+  <CASTING_COST cost="{X}{X}{W}{W}{W} " />
+  <TYPE metaname="Sorcery" />
+  <EXPANSION value="DPG" />
+  <RARITY metaname="M" />
+  <SPELL_ABILITY filter_zone="ZONE_IN_PLAY">
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Put X 4/4 white Angel creature tokens with flying onto the battlefield.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Put X 4/4 white Angel creature tokens with flying onto the battlefield.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Put X 4/4 white Angel creature tokens with flying onto the battlefield.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Put X 4/4 white Angel creature tokens with flying onto the battlefield.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Put X 4/4 white Angel creature tokens with flying onto the battlefield.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[Put X 4/4 white Angel creature tokens with flying onto the battlefield.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[Put X 4/4 white Angel creature tokens with flying onto the battlefield.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Put X 4/4 white Angel creature tokens with flying onto the battlefield.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Put X 4/4 white Angel creature tokens with flying onto the battlefield.]]></LOCALISED_TEXT>
+    <RESOLUTION_TIME_ACTION>
+    local token_count = GetObjectX()
+    if token_count == 0 and ObjectDC():Get_Int(1) &gt; 0 then 
+      token_count = ObjectDC():Get_Int(1)
+      ObjectDC():Set_Int( 1, 0 )
+    end
+    if (token_count &gt; 0) then
+    	MTG():PutTokensIntoPlay( "TOKEN_ANGEL_4_4_F_277468", token_count, EffectController() )
+    end
+    </RESOLUTION_TIME_ACTION>
+  </SPELL_ABILITY>
+  <TRIGGERED_ABILITY auto_skip="1" filter_zone="ZONE_IN_PLAY" active_zone="ZONE_HAND">
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Miracle {X}{W}{W} |(You may cast this card for its miracle cost when you draw it if it’s the first card you drew this turn.)|]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Miracle {X}{W}{W} |(You may cast this card for its miracle cost when you draw it if it’s the first card you drew this turn.)|]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Miracle {X}{W}{W} |(You may cast this card for its miracle cost when you draw it if it’s the first card you drew this turn.)|]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Miracle {X}{W}{W} |(You may cast this card for its miracle cost when you draw it if it’s the first card you drew this turn.)|]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Miracle {X}{W}{W} |(You may cast this card for its miracle cost when you draw it if it’s the first card you drew this turn.)|]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[Miracle {X}{W}{W} |(You may cast this card for its miracle cost when you draw it if it’s the first card you drew this turn.)|]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[Miracle {X}{W}{W} |(You may cast this card for its miracle cost when you draw it if it’s the first card you drew this turn.)|]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Miracle {X}{W}{W} |(You may cast this card for its miracle cost when you draw it if it’s the first card you drew this turn.)|]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Miracle {X}{W}{W} |(You may cast this card for its miracle cost when you draw it if it’s the first card you drew this turn.)|]]></LOCALISED_TEXT>
+    <TRIGGER value="DREW_CARD" simple_qualifier="controller">
+    local drawCard = MTG():Interrogate_CardsDrawnThisTurn(EffectController())
+    if ObjectDC():Get_Int(0) == 1 and drawCard == 1 then
+      ObjectDC():Set_Int( 0, 0 )
+      return TriggerPlayer() == EffectController()
+    else
+    	return false
+    end
+    </TRIGGER>
+    <COST type="mana" cost="{W}{W}" qualifier="conditional" />
+    <RESOLUTION_TIME_ACTION conditional="if">
+    if Object():GetZone() == ZONE_HAND then
+      EffectController():BeginNewNumericalChoice()
+      EffectController():AddNumericalChoiceAnswer(EffectController():GetTotalMana())
+      EffectController():AskNumericalChoiceQuestion("CARD_QUERY_WELL_OF_LOST_DREAMS")
+    end
+    </RESOLUTION_TIME_ACTION>
+    <RESOLUTION_TIME_ACTION conditional="if">
+    if EffectController():CanAfford("{"..Object():GetNumericalChoiceResult().."}") == 1 then
+      ObjectDC():Set_Int(1, Object():GetNumericalChoiceResult())
+      EffectController():TapLand("{"..Object():GetNumericalChoiceResult().."}")
+      Object():PlayFreeFromAnywhere( EffectController() ) 
+    end
+    </RESOLUTION_TIME_ACTION>
+  </TRIGGERED_ABILITY>  
+  <TRIGGERED_ABILITY internal="1" pre_trigger="1" priority="-1" active_zone="ZONE_LIBRARY">
+    <TRIGGER value="DREW_CARD" simple_qualifier="controller">
+    local card = EffectController():Library_GetNth(0) 
+    local source = Object()
+    local drawCard = MTG():Interrogate_CardsDrawnThisTurn(EffectController())
+    if card ~= nil and source ~= nil then 
+      if card == source and drawCard == 0 then
+    	  return TriggerPlayer() == EffectController()
+      else
+    	  return false
+      end
+    else
+    	return false
+    end
+    </TRIGGER>
+    <RESOLUTION_TIME_ACTION>
+    ObjectDC():Set_Int( 0, 1 )
+    </RESOLUTION_TIME_ACTION>
+  </TRIGGERED_ABILITY>
+  <TOKEN_REGISTRATION reservation="1" type="TOKEN_ANGEL_4_4_F_277468" />
+  <AI_BASE_SCORE score="2100" zone="ZONE_HAND" />
+</CARD_V2>
