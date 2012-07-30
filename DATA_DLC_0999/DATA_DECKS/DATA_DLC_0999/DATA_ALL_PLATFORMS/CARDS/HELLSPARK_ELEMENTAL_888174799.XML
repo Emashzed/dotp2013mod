@@ -71,16 +71,23 @@
     </RESOLUTION_TIME_ACTION>
   </TRIGGERED_ABILITY>
   <ACTIVATED_ABILITY sorcery_time="1" auto_skip="1" filter_zone="ZONE_IN_PLAY" active_zone="ZONE_GRAVEYARD">
-    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Unearth {1}{R} |({1}{R}: Return this card from your graveyard to the battlefield. It gains haste. Exile it at the beginning of the next end step or if it would leave the battlefield. Unearth only as a sorcery.)|]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Dissotterrare {1}{R} |({1}{R}:Rimetti in gioco questa carta dal tuo cimitero. Ha rapidità. Esiliala alla fine del turno o se sta per lasciare il gioco. Dissotterra solo quando potresti giocare una stregoneria.)|]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Exhumieren {1}{R} |({1}{R}: Bringe diese Karte aus deinem Friedhof ins Spiel zurück. Sie hat Eile. Entferne sie am Ende des Zuges oder falls sie das Spiel verlassen würde ganz aus dem Spiel. Spiele Exhumieren nur wie eine Hexerei.)|]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Exhumation {1}{R} |({1}{R} : Renvoyez en jeu cette carte depuis votre cimetière. Elle acquiert la célérité. Retirez-la de la partie à la fin du tour ou si elle devait quitter le jeu. N’exhumez que lorsque vous pourriez jouer un rituel.)|]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Desenterrar {1}{R}. |({1}{R}: Regresa esta carta de tu cementerio al juego. Gana la habilidad de prisa. Remuévela del juego al final del turno o si fuera a dejar el juego. Desentierra sólo como un conjuro.)|]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Unearth {1}{R} |(|{1}{R}|: Return this card from your graveyard to the battlefield. It gains haste. Exile it at the beginning of the next end step or if it would leave the battlefield. Unearth only as a sorcery.)|]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Dissotterrare {1}{R} |(|{1}{R}|:Rimetti in gioco questa carta dal tuo cimitero. Ha rapidità. Esiliala alla fine del turno o se sta per lasciare il gioco. Dissotterra solo quando potresti giocare una stregoneria.)|]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Exhumieren {1}{R} |(|{1}{R}|: Bringe diese Karte aus deinem Friedhof ins Spiel zurück. Sie hat Eile. Entferne sie am Ende des Zuges oder falls sie das Spiel verlassen würde ganz aus dem Spiel. Spiele Exhumieren nur wie eine Hexerei.)|]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Exhumation {1}{R} |(|{1}{R} |: Renvoyez en jeu cette carte depuis votre cimetière. Elle acquiert la célérité. Retirez-la de la partie à la fin du tour ou si elle devait quitter le jeu. N’exhumez que lorsque vous pourriez jouer un rituel.)|]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Desenterrar {1}{R}. |(|{1}{R}|: Regresa esta carta de tu cementerio al juego. Gana la habilidad de prisa. Remuévela del juego al final del turno o si fuera a dejar el juego. Desentierra sólo como un conjuro.)|]]></LOCALISED_TEXT>
     <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[蘇生 {1}{R} ({1}{R}：このカードをあなたの墓地から場に戻す。 それは速攻を得る。 ターン終了時かそれが場を離れる場合にそれをゲームから取り除く。 蘇生はソーサリーとしてのみ行う。）]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[Unearth {1}{R} |({1}{R}: Return this card from your graveyard to the battlefield. It gains haste. Exile it at the beginning of the next end step or if it would leave the battlefield. Unearth only as a sorcery.)|]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Откопать {1}{R} |({1}{R}: верните эту карту из вашего кладбища в игру. Она получает Ускорение. Удалите ее из игры в конце хода, или если она должна покинуть игру. Откапывайте только как волшебство.)|]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Desenterrar {1}{R} |({1}{R}: Devolva este card de seu cemitério para o jogo. Ele ganha ímpeto. Remova-o do jogo no final do turno ou se ele for deixar o jogo. Use desenterrar somente como um feitiço.)|]]></LOCALISED_TEXT>
-    <COST type="Mana" cost="{1}{R}" />
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[Unearth {1}{R} |(|{1}{R}|: Return this card from your graveyard to the battlefield. It gains haste. Exile it at the beginning of the next end step or if it would leave the battlefield. Unearth only as a sorcery.)|]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Откопать {1}{R} |(|{1}{R}|: верните эту карту из вашего кладбища в игру. Она получает Ускорение. Удалите ее из игры в конце хода, или если она должна покинуть игру. Откапывайте только как волшебство.)|]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Desenterrar {1}{R} |(|{1}{R}|: Devolva este card de seu cemitério para o jogo. Ele ganha ímpeto. Remova-o do jogo no final do turno ou se ele for deixar o jogo. Use desenterrar somente como um feitiço.)|]]></LOCALISED_TEXT>
+    <!--COST type="Mana" cost="{1}{R}" /-->
+	<AVAILABILITY>
+    return EffectController():CanAfford("{1}{R}") == 1
+    </AVAILABILITY>
+	<COST type="generic">
+	<RESOLUTION_TIME_ACTION>
+	EffectController():TapLand("{1}{R}")
+    </RESOLUTION_TIME_ACTION></COST>
     <RESOLUTION_TIME_ACTION>
     if Object():GetZone() == ZONE_GRAVEYARD then
     	Object():PutIntoPlay( EffectController() ) 

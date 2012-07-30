@@ -15,9 +15,10 @@
 		<unlock deck="D12BEKNIGHTED" />
 	</node>
 
-	<node id="4" trial="true" type = "two player duel"  name_tag="PLAYER_NAME_D12RAKKA" locked_description_tag="CAMPAIGN_NODE_DESCRIPTION_LOCKED_GENERIC" available_description_tag="CAMPAIGN_NODE_DESCRIPTION_AVAILABLE_GENERIC" complete_description_tag="CAMPAIGN_NODE_DESCRIPTION_COMPLETE_GENERIC" x="80" small_x = "-514" size = "1" plane = "1" >
+	<node id="4" trial="true" type = "two player duel"  name_tag="PLAYER_NAME_D12RAKKA" locked_description_tag="CAMPAIGN_NODE_DESCRIPTION_LOCKED_GENERIC" available_description_tag="CAMPAIGN_NODE_DESCRIPTION_AVAILABLE_PLANESWALKER_DECK_UNLOCK" complete_description_tag="CAMPAIGN_NODE_DESCRIPTION_COMPLETE_GENERIC" x="80" small_x = "-514" size = "1" plane = "1" >
 		<prereq id="3" image="type_0" />
 		<opponent name="PLAYER_NAME_D12RAKKA" deck="D12RAKKA" planeswalker_desc = "PLANESWALKER_DESC_GARRUK_WILDSPEAKER_1" />
+		<unlock deck="D12RAKKA" />
 	</node>
 	
 	<node id="5"  trial="true" core="true" type="two player duel" name_tag="PLAYER_NAME_D12GARRUK" locked_description_tag="CAMPAIGN_NODE_DESCRIPTION_LOCKED_GENERIC" available_description_tag="CAMPAIGN_NODE_DESCRIPTION_AVAILABLE_PLANESWALKER_DECK_UNLOCK" complete_description_tag="CAMPAIGN_NODE_DESCRIPTION_COMPLETE_GENERIC" x="299" small_x = "-455" size = "3" plane = "1" >
