@@ -1,4 +1,4 @@
-﻿<?xml version='1.0'?>
+ <?xml version='1.0'?>
 <CARD_V2>
   <FILENAME text="BANISHING_STROKE_623637" />
   <CARDNAME text="BANISHING_STROKE" />
@@ -52,7 +52,7 @@
     end
     </RESOLUTION_TIME_ACTION>
   </SPELL_ABILITY>
-  <TRIGGERED_ABILITY auto_skip="1" filter_zone="ZONE_IN_PLAY" active_zone="ZONE_HAND">
+  <TRIGGERED_ABILITY forced_skip="1" filter_zone="ZONE_IN_PLAY" active_zone="ZONE_HAND">
     <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Miracle {W} |(You may cast this card for its miracle cost when you draw it if it’s the first card you drew this turn.)|]]></LOCALISED_TEXT>
     <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Miracle {W} |(You may cast this card for its miracle cost when you draw it if it’s the first card you drew this turn.)|]]></LOCALISED_TEXT>
     <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Miracle {W} |(You may cast this card for its miracle cost when you draw it if it’s the first card you drew this turn.)|]]></LOCALISED_TEXT>
