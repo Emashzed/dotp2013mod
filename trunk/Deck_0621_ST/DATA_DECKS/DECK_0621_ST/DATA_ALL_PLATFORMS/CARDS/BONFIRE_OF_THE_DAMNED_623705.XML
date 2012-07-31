@@ -1,4 +1,4 @@
-﻿<?xml version='1.0'?>
+ <?xml version='1.0'?>
 <CARD_V2>
   <FILENAME text="BONFIRE_OF_THE_DAMNED_623705" />
   <CARDNAME text="BONFIRE_OF_THE_DAMNED" />
@@ -67,7 +67,7 @@
     </RESOLUTION_TIME_ACTION>
     <SFX text="GLOBAL_LAVA_PLAY" />
   </SPELL_ABILITY>
-  <TRIGGERED_ABILITY auto_skip="1" filter_zone="ZONE_IN_PLAY" active_zone="ZONE_HAND">
+  <TRIGGERED_ABILITY forced_skip="1" filter_zone="ZONE_IN_PLAY" active_zone="ZONE_HAND">
     <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Miracle {X}{R} |(You may cast this card for its miracle cost when you draw it if it’s the first card you drew this turn.)|]]></LOCALISED_TEXT>
     <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Miracle {X}{R} |(You may cast this card for its miracle cost when you draw it if it’s the first card you drew this turn.)|]]></LOCALISED_TEXT>
     <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Miracle {X}{R} |(You may cast this card for its miracle cost when you draw it if it’s the first card you drew this turn.)|]]></LOCALISED_TEXT>
@@ -91,7 +91,7 @@
     filter:Clear()
     filter:SetFilterType( FILTER_TYPE_PLAYERS )
     local total = filter:CountStopAt( 1 )
-    if total == 1 then
+    if total == 1 and Object():GetZone() == ZONE_HAND then
       -- success
     	return 1
     else
