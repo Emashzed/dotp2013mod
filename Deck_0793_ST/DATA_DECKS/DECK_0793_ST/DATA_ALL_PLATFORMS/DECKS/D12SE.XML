@@ -1,4 +1,5 @@
-<DECK personality="D12SE.XML" deck_box_image="locked" deck_box_image_locked="locked" content_pack="0" never_available="true" uid="115" preview_card="blanko" is_white="true" is_red="true">
+<DECK personality="D12SE.XML" deck_box_image="D12SE" deck_box_image_locked="locked" content_pack="0" uid="793" preview_card="hob" is_white="true" is_red="true">
+  <DECKSTATISTICS Size="7" Speed="7" Flex="5" Syn="5" />
   <LandConfig minMountain="4" />
   <CARD name="BOROS_SWIFTBLADE_888205359" deckOrderId="0" />
   <CARD name="BOROS_SWIFTBLADE_888205359" deckOrderId="1" />
