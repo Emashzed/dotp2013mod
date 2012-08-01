@@ -60,7 +60,7 @@
     <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Каждый раз, когда Усыпляющий Призрак наносит повреждения оппоненту, тот игрок сбрасывает одну случайно выбранную карту.]]></LOCALISED_TEXT>
     <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Toda vez que Espectro Hipnótico causa dano a um oponente, aquele jogador descarta um card aleatoriamente.]]></LOCALISED_TEXT>
     <TRIGGER value="PLAYER_TOOK_DAMAGE">
-    return TriggerPlayer() ~= nil and Damage():GetSource() == Object():GetParent() and TriggerPlayer():GetTeam() ~= Object():GetPlayer():GetTeam()
+    return (TriggerPlayer() ~= nil and Damage():GetSource() == Object() and TriggerPlayer():GetTeam() ~= Object():GetPlayer():GetTeam())
     </TRIGGER>
     <RESOLUTION_TIME_ACTION>
     local player = TriggerPlayer()
