@@ -76,7 +76,7 @@
     end
     </RESOLUTION_TIME_ACTION>
   </SPELL_ABILITY>
-  <TRIGGERED_ABILITY forced_skip="1" filter_zone="ZONE_IN_PLAY" active_zone="ZONE_ANY">
+  <TRIGGERED_ABILITY auto_skip="1" filter_zone="ZONE_IN_PLAY" active_zone="ZONE_ANY">
      <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Madness {U} |(If you discard this card, you may cast it for its madness cost instead of putting it into your graveyard.)|]]></LOCALISED_TEXT>
      <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Madness {U} |(If you discard this card, you may cast it for its madness cost instead of putting it into your graveyard.)|]]></LOCALISED_TEXT>
      <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Madness {U} |(If you discard this card, you may cast it for its madness cost instead of putting it into your graveyard.)|]]></LOCALISED_TEXT>
