@@ -44,15 +44,15 @@
     </RESOLUTION_TIME_ACTION>
   </TRIGGERED_ABILITY>
   <TRIGGERED_ABILITY badge="BADGE_ANNIHILATOR" dangerous="1" filter_zone="ZONE_IN_PLAY">
-    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Annihilator 4]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Annihilateur 4]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Vernichter 4]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Aniquilador 4.]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Annientatore 4]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[滅殺 ４]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[절멸 4]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Аннигилятор 4]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Aniquilador 4]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Annihilator 4 |(Whenever this creature attacks, defending player sacrifices four permanents.)|]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Annientatore 4 |(Ogniqualvolta questa creatura attacca, il giocatore in difesa sacrifica quattro permanenti.)|]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Vernichter 4 |(Immer wenn diese Kreatur angreift, opfert der verteidigende Spieler vier bleibende Karten.)|]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Annihilateur 4 |(À chaque fois que cette créature attaque, le joueur défenseur sacrifie quatre permanents.)|]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Aniquilador 4. |(Siempre que esta criatura ataque, el jugador defensor sacrifica cuatro permanentes.)|]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[滅殺 ４ （このクリーチャーが攻撃するたび、防御プレイヤーはパーマネントを４つ生け贄に捧げる。）]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[Annihilator 4 |(Whenever this creature attacks, defending player sacrifices four permanents.)|]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Аннигилятор 4 |(Каждый раз когда это существо атакует, защищающийся игрок приносит в жертву четыре перманента.)|]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Aniquilador 4 |(Toda vez que esta criatura ataca, o jogador defensor sacrifica quatro permanentes.)|]]></LOCALISED_TEXT>
     <TRIGGER value="ATTACKING" simple_qualifier="self" />
     <RESOLUTION_TIME_ACTION>
     local defendingPlayer = Object():GetPlayerAttacked()

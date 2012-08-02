@@ -58,7 +58,7 @@
     characteristics:Characteristic_Set( CHARACTERISTIC_DEFENDER, 1 )  
     </CONTINUOUS_ACTION>
   </STATIC_ABILITY>
-  <TRIGGERED_ABILITY dangerous="1" pre_trigger="1">
+  <TRIGGERED_ABILITY dangerous="1" auto_skip="1">
      <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Whenever Souls of the Faultless is dealt combat damage, you gain that much life and attacking player loses that much life.]]></LOCALISED_TEXT>
      <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Whenever Souls of the Faultless is dealt combat damage, you gain that much life and attacking player loses that much life.]]></LOCALISED_TEXT>
      <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Whenever Souls of the Faultless is dealt combat damage, you gain that much life and attacking player loses that much life.]]></LOCALISED_TEXT>

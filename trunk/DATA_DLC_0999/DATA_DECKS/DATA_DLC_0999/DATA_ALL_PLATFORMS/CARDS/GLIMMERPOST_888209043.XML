@@ -1,0 +1,73 @@
+﻿<?xml version='1.0'?>
+<CARD_V2>
+  <FILENAME text="GLIMMERPOST_888209043" />
+  <CARDNAME text="GLIMMERPOST" />
+  <TITLE>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Glimmerpost]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Avamposto Scintillante]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Glimmerposten]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Avant-poste du Vide Rayonnant]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Atalaya resplandeciente]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[微光地]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[Glimmerpost]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Застава Мерцающей Пустоши]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Posto Tremeluzente]]></LOCALISED_TEXT>
+  </TITLE>
+  <MULTIVERSEID value="888209043" />
+  <ARTID value="888209043" />
+  <ARTIST name="Matt Cavotta" />
+  <CASTING_COST cost="" />
+  <FLAVOURTEXT>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[What once spied upon Mirrodin from above now waits below for another to assume control.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Ciò che un tempo spiava su Mirrodin dall’alto ora attende in basso che qualcun altro ne assuma il controllo.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Was einst von oben Mirrodin beobachtet hat, wartet nun unten auf einen Anderen, der die Kontrolle übernimmt.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Ce qui espionnait autrefois Mirrodin depuis le ciel attend désormais depuis les profondeurs une nouvelle prise de contrôle.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Lo que antes espiaba Mirrodin desde arriba ahora espera debajo hasta que otro asuma el control.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[かつてミラディン上空から目を光らせていたのもは、今は地上で別なものの支配を待っている。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[What once spied upon Mirrodin from above now waits below for another to assume control.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Что однажды с высоты наблюдало за Мирродином, теперь ждет внизу, чтобы другой взял управление на себя.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Aquilo que outrora vigiava Mirrodin do alto, agora aguarda no solo que outro assuma o controle.]]></LOCALISED_TEXT>
+  </FLAVOURTEXT>
+  <TYPE metaname="Land" />
+  <SUB_TYPE metaname="Locus" order_de-DE="0" order_es-ES="0" order_fr-FR="0" order_it-IT="0" order_jp-JA="0" order_ko-KR="0" order_pt-BR="0" order_ru-RU="0" />
+  <EXPANSION value="DPG" />
+  <RARITY metaname="C" />
+  <TRIGGERED_ABILITY auto_skip="1" filter_zone="ZONE_IN_PLAY">
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[When Glimmerpost enters the battlefield, you gain 1 life for each Locus on the battlefield.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Quando l’Avamposto Scintillante entra nel campo di battaglia, guadagni 1 punto vita per ogni Luogo sul campo di battaglia.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Wenn der Glimmerposten ins Spiel kommt, erhältst du für jeden Ort im Spiel 1 Lebenspunkt dazu.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Quand l’Avant-poste du Vide Rayonnant arrive sur le champ de bataille, vous gagnez 1 point de vie pour chaque site sur le champ de bataille.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Cuando la Atalaya resplandeciente entre al campo de batalla, ganas 1 vida por cada Sitio en el campo de batalla.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[微光地が戦場に出たとき、あなたは戦場に出ている神座１つにつき１点のライフを得る。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[When Glimmerpost enters the battlefield, you gain 1 life for each Locus on the battlefield.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Когда Застава Мерцающей Пустоши выходит на поле битвы, вы получаете 1 жизнь за каждое Место на поле битвы.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Quando Posto Tremeluzente entra no campo de batalha, você ganha 1 ponto de vida para cada Local no campo de batalha.]]></LOCALISED_TEXT>
+    <TRIGGER value="ZONECHANGE_END" simple_qualifier="self" to_zone="ZONE_IN_PLAY" />
+    <RESOLUTION_TIME_ACTION>
+	local player = EffectController()
+	local filter = Object():GetFilter()
+    local loci_count
+    filter:Clear()
+    filter:AddSubType(LAND_TYPE_LOCUS)
+    filter:SetZone(ZONE_IN_PLAY)
+    loci_count = filter:Count()
+    if loci_count ~= 0 then
+		if (player ~= nil) then
+			player:GainLife(loci_count)
+		end
+    end
+    </RESOLUTION_TIME_ACTION>
+  </TRIGGERED_ABILITY>
+  <MANA_ABILITY auto_skip="1" filter_zone="ZONE_IN_PLAY">
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[{T}: Add {1} to your mana pool.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[{T}: Aggiungi {1} alla tua riserva di mana.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[{T}: Erhöhe deinen Manavorrat um {1}.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[{T} : Ajoutez {1} à votre réserve.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[{T}: Agrega {1} a tu reserva de maná.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[{T}：あなたのマナ・プールに{1}を加える。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[{T}: Add {1} to your mana pool.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[{T}: добавьте {1} в ваше хранилище маны.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[{T}: Adicione {1} à sua reserva de mana.]]></LOCALISED_TEXT>
+    <PRODUCES amount="{1}" />
+  </MANA_ABILITY>
+</CARD_V2>
