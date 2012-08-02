@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+
+<AVATARS>
+  <CONTENT_PACK_UID UID="1"/>
+	<IMAGE DIRECTORY="Art_Assets\Textures\personas\" />
+	<AVATAR ID="25" UID="persona025" name = "PERSONA_NAME_25" desc = "UI_PERSONA_UNLOCKED"  locked="false" />
+	<AVATAR ID="26" UID="persona026" name = "PERSONA_NAME_26" desc = "UI_PERSONA_UNLOCKED"  locked="false" />
+	<AVATAR ID="27" UID="persona027" name = "PERSONA_NAME_27" desc = "UI_PERSONA_UNLOCKED"  locked="false"  />
+	<AVATAR ID="28" UID="persona028" name = "PERSONA_NAME_28" desc = "UI_PERSONA_UNLOCKED"  locked="false" />
+	<AVATAR ID="29" UID="persona029" name = "PERSONA_NAME_29" desc = "UI_PERSONA_UNLOCKED"  locked="false" />
+	<AVATAR ID="30" UID="persona030" name = "PERSONA_NAME_30" desc = "UI_PLAYER_STATUS_ACHIEVEMENT_HOWTO_21"  locked="false"  />
+	<AVATAR ID="31" UID="persona031" name = "PERSONA_NAME_31" desc = "UI_PLAYER_STATUS_ACHIEVEMENT_HOWTO_22"  locked="false"  />
+	<AVATAR ID="32" UID="persona032" name = "PERSONA_NAME_32" desc = "UI_PLAYER_STATUS_ACHIEVEMENT_HOWTO_23"  locked="false"  />
+	<AVATAR ID="33" UID="persona033" name = "PERSONA_NAME_33" desc = "UI_PLAYER_STATUS_ACHIEVEMENT_HOWTO_24"  locked="false"  />
+	<AVATAR ID="34" UID="persona034" name = "PERSONA_NAME_34" desc = "UI_PLAYER_STATUS_ACHIEVEMENT_HOWTO_25"  locked="false"  />
+</AVATARS>
