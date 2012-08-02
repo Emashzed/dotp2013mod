@@ -17,10 +17,10 @@
   <AllowPNG/>
  </OfficeDocumentSettings>
  <ExcelWorkbook xmlns="urn:schemas-microsoft-com:office:excel">
-  <WindowHeight>10500</WindowHeight>
+  <WindowHeight>10440</WindowHeight>
   <WindowWidth>14025</WindowWidth>
   <WindowTopX>1965</WindowTopX>
-  <WindowTopY>3225</WindowTopY>
+  <WindowTopY>3285</WindowTopY>
   <ProtectStructure>False</ProtectStructure>
   <ProtectWindows>False</ProtectWindows>
  </ExcelWorkbook>
@@ -35,7 +35,7 @@
   </Style>
  </Styles>
  <Worksheet ss:Name="Sheet4">
-  <Table ss:ExpandedColumnCount="12" ss:ExpandedRowCount="110" x:FullColumns="1"
+  <Table ss:ExpandedColumnCount="12" ss:ExpandedRowCount="112" x:FullColumns="1"
    x:FullRows="1" ss:DefaultRowHeight="15">
    <Row ss:AutoFitHeight="0">
     <Cell><Data ss:Type="String">Ident</Data></Cell>
@@ -976,6 +976,19 @@
     <Cell><Data ss:Type="String">Mente Mestre</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">D13_TITANRAMP</Data></Cell>
+    <Cell ss:Index="3"><Data ss:Type="String">Titan Ramp</Data></Cell>
+    <Cell><Data ss:Type="String">Titan Ramp</Data></Cell>
+    <Cell><Data ss:Type="String">Titan Ramp</Data></Cell>
+    <Cell><Data ss:Type="String">Titan Ramp</Data></Cell>
+    <Cell><Data ss:Type="String">Titan Ramp</Data></Cell>
+    <Cell><Data ss:Type="String">Titan Ramp</Data></Cell>
+    <Cell><Data ss:Type="String">Titan Ramp</Data></Cell>
+    <Cell><Data ss:Type="String">Titan Ramp</Data></Cell>
+    <Cell><Data ss:Type="String">Titan Ramp</Data></Cell>
+    <Cell><Data ss:Type="String">Titan Ramp</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
     <Cell><Data ss:Type="String">D13_URA</Data></Cell>
     <Cell ss:Index="3"><Data ss:Type="String">Stryker</Data></Cell>
     <Cell><Data ss:Type="String">Stryker</Data></Cell>
@@ -1443,6 +1456,19 @@
     <Cell><Data ss:Type="String">Nicol Bolas</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">PLAYER_NAME_TITANRAMP</Data></Cell>
+    <Cell ss:Index="3"><Data ss:Type="String">Vine Trellis</Data></Cell>
+    <Cell><Data ss:Type="String">Vine Trellis</Data></Cell>
+    <Cell><Data ss:Type="String">Vine Trellis</Data></Cell>
+    <Cell><Data ss:Type="String">Vine Trellis</Data></Cell>
+    <Cell><Data ss:Type="String">Vine Trellis</Data></Cell>
+    <Cell><Data ss:Type="String">Vine Trellis</Data></Cell>
+    <Cell><Data ss:Type="String">Vine Trellis</Data></Cell>
+    <Cell><Data ss:Type="String">Vine Trellis</Data></Cell>
+    <Cell><Data ss:Type="String">Vine Trellis</Data></Cell>
+    <Cell><Data ss:Type="String">Vine Trellis</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
     <Cell><Data ss:Type="String">PLAYER_NAME_URA</Data></Cell>
     <Cell ss:Index="3"><Data ss:Type="String">Urabrask the Hidden</Data></Cell>
     <Cell><Data ss:Type="String">Urabrask the Hidden</Data></Cell>
@@ -1482,11 +1508,12 @@
     <VerticalResolution>600</VerticalResolution>
    </Print>
    <Selected/>
-   <TopRowVisible>90</TopRowVisible>
+   <TopRowVisible>93</TopRowVisible>
    <Panes>
     <Pane>
      <Number>3</Number>
-     <ActiveRow>110</ActiveRow>
+     <ActiveRow>1</ActiveRow>
+     <RangeSelection>R2C1:R112C12</RangeSelection>
     </Pane>
    </Panes>
    <ProtectObjects>False</ProtectObjects>
