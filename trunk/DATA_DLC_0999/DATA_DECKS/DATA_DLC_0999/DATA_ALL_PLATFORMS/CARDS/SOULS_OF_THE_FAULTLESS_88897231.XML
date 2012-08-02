@@ -58,7 +58,7 @@
     characteristics:Characteristic_Set( CHARACTERISTIC_DEFENDER, 1 )  
     </CONTINUOUS_ACTION>
   </STATIC_ABILITY>
-  <TRIGGERED_ABILITY dangerous="1" auto_skip="1">
+  <TRIGGERED_ABILITY dangerous="1" auto_skip="1" pre_trigger="1">
      <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Whenever Souls of the Faultless is dealt combat damage, you gain that much life and attacking player loses that much life.]]></LOCALISED_TEXT>
      <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Whenever Souls of the Faultless is dealt combat damage, you gain that much life and attacking player loses that much life.]]></LOCALISED_TEXT>
      <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Whenever Souls of the Faultless is dealt combat damage, you gain that much life and attacking player loses that much life.]]></LOCALISED_TEXT>
@@ -69,33 +69,16 @@
      <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Whenever Souls of the Faultless is dealt combat damage, you gain that much life and attacking player loses that much life.]]></LOCALISED_TEXT>
      <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Whenever Souls of the Faultless is dealt combat damage, you gain that much life and attacking player loses that much life.]]></LOCALISED_TEXT>
     <TRIGGER value="CREATURE_TOOK_COMBAT_DAMAGE" simple_qualifier="self" />
-    <RESOLUTION_TIME_ACTION>
-    local filter = Object():GetFilter()
-
-    MTG():ClearFilterMarkedPlayers()
-    for i=0,MTG():GetNumberOfPlayers()-1 do
-    	local player = MTG():GetNthPlayer(i)
-    	
-    	if player ~= nil then
-    		if MTG():Interrogate_AttacksThisTurn(player, 1) == 1 then
-    			player:MarkForFilter()
-    		end
-    	end
-    end
-    -- Marked eligible players, now choose targets
-    filter:Clear()
-    filter:SetMarkedObjectsOnly()
-    filter:SetFilterType( FILTER_TYPE_PLAYERS )
-    filter:SetHint( HINT_ENEMY_ONLY, EffectController() )
-	filter:NotTargetted()
-    EffectController():ChooseTarget( NO_VALIDATION, "CARD_QUERY_CHOOSE_ATTACKING_PLAYER_LOSE_LIFE", EffectDC():Make_Targets(0) )
-    </RESOLUTION_TIME_ACTION>
-    <RESOLUTION_TIME_ACTION>
-    local target_player = EffectDC():Get_Targets(0):Get_PlayerPtr(0)
+	<RESOLUTION_TIME_ACTION>
+    local damage_amount = Damage():GetAmount()
     local player = EffectController()
-    local damage = Damage():GetAmount()
-    player:GainLife( damage )  
-	target_player:LoseLife( damage )
+    local attack_player = SecondaryObject():GetController()
+    if (player ~= nil) then
+      player:GainLife( damage_amount )
+    end
+    if (attack_player ~= nil) then
+      attack_player:LoseLife( damage_amount )
+    end
     </RESOLUTION_TIME_ACTION>
   </TRIGGERED_ABILITY>
   <SFX text="COMBAT_PESTS_LARGE_ATTACK" power_boundary_min="4" power_boundary_max="-1" />
