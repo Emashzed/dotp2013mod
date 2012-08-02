@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+
+<AVATARS>
+  <CONTENT_PACK_UID UID="0"/>
+	<IMAGE DIRECTORY="Art_Assets\Textures\personas\" />
+	<AVATAR ID="1"  UID="persona001" name = "PERSONA_NAME_01" desc = "UI_PERSONA_DESC_UNLOCKED" locked="false" />
+	<AVATAR ID="2"  UID="persona002" name = "PERSONA_NAME_02" desc = "UI_PERSONA_DESC_UNLOCKED"  locked="false" />
+	<AVATAR ID="3"  UID="persona003" name = "PERSONA_NAME_03" desc = "UI_PERSONA_DESC_UNLOCKED"  locked="false" />
+	<AVATAR ID="4"  UID="persona004" name = "PERSONA_NAME_04" desc = "UI_PERSONA_DESC_UNLOCKED"  locked="false" />
+	<AVATAR ID="5"  UID="persona005" name = "PERSONA_NAME_05" desc = "UI_PERSONA_DESC_UNLOCKED"  locked="false" />
+	<AVATAR ID="6"  UID="persona006" name = "PERSONA_NAME_06" desc = "UI_PERSONA_DESC_UNLOCKED"  locked="false" />
+	<AVATAR ID="7"  UID="persona007" name = "PERSONA_NAME_07" desc = "UI_PERSONA_DESC_UNLOCKED"  locked="false" />
+	<AVATAR ID="8"  UID="persona008" name = "PERSONA_NAME_08" desc = "UI_PERSONA_DESC_UNLOCKED"  locked="false" />
+	<AVATAR ID="9"  UID="persona009" name = "PERSONA_NAME_09" desc = "UI_PERSONA_DESC_UNLOCKED"  locked="false" />
+	<AVATAR ID="10" UID="persona010" name = "PERSONA_NAME_10" desc = "UI_PERSONA_DESC_UNLOCKED"  locked="false" />
+	<AVATAR ID="11" UID="persona011" name = "PERSONA_NAME_11" desc = "UI_PERSONA_DESC_UNLOCKED"  locked="false" />
+	<AVATAR ID="12" UID="persona012" name = "PERSONA_NAME_12" desc = "UI_PERSONA_DESC_UNLOCKED"  locked="false" />
+	<AVATAR ID="13" UID="persona013" name = "PERSONA_NAME_13" desc = "UI_PERSONA_DESC_UNLOCKED"  locked="false" />
+	<AVATAR ID="14" UID="persona014" name = "PERSONA_NAME_14" desc = "UI_PERSONA_DESC_UNLOCKED"  locked="false" />
+	<AVATAR ID="15" UID="persona015" name = "PERSONA_NAME_15" desc = "UI_PERSONA_DESC_UNLOCKED"  locked="false" />
+	<AVATAR ID="16" UID="persona016" name = "PERSONA_NAME_16" desc = "UI_PERSONA_DESC_UNLOCKED"  locked="false" />
+	<AVATAR ID="17" UID="persona017" name = "PERSONA_NAME_17" desc = "UI_PLAYER_STATUS_ACHIEVEMENT_HOWTO_06"  locked="false" />
+	<AVATAR ID="18" UID="persona018" name = "PERSONA_NAME_18" desc = "UI_PLAYER_STATUS_ACHIEVEMENT_HOWTO_07"  locked="false" />
+	<AVATAR ID="19" UID="persona019" name = "PERSONA_NAME_19" desc = "UI_PLAYER_STATUS_ACHIEVEMENT_HOWTO_08"  locked="false"  />
+	<AVATAR ID="20" UID="persona020" name = "PERSONA_NAME_20" desc = "UI_PLAYER_STATUS_ACHIEVEMENT_HOWTO_09"  locked="false" />
+	<AVATAR ID="21" UID="persona021" name = "PERSONA_NAME_21" desc = "UI_PLAYER_STATUS_ACHIEVEMENT_HOWTO_12"  locked="false"  />
+	<AVATAR ID="22" UID="persona022" name = "PERSONA_NAME_22" desc = "UI_PLAYER_STATUS_ACHIEVEMENT_HOWTO_13"  locked="false"  />
+	<AVATAR ID="23" UID="persona023" name = "PERSONA_NAME_23" desc = "UI_PLAYER_STATUS_ACHIEVEMENT_HOWTO_18"  locked="false"  />
+	<AVATAR ID="24" UID="persona024" name = "PERSONA_NAME_24" desc = "UI_PLAYER_STATUS_ACHIEVEMENT_HOWTO_19"  locked="false"  />
+</AVATARS>
