@@ -1,0 +1,65 @@
+﻿<?xml version='1.0'?>
+<CARD_V2>
+  <FILENAME text="ANGELS_MERCY_259714" />
+  <CARDNAME text="ANGELS_MERCY" />
+  <TITLE>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Angel’s Mercy]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Angel’s Mercy]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Angel’s Mercy]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Angel’s Mercy]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Angel’s Mercy]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[Angel’s Mercy]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[Angel’s Mercy]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Angel’s Mercy]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Angel’s Mercy]]></LOCALISED_TEXT>
+  </TITLE>
+  <MULTIVERSEID value="259714" />
+  <ARTID value="259714" />
+  <ARTIST name="Andrew Robinson" />
+  <CASTING_COST cost="{2}{W}{W}" />
+  <FLAVOURTEXT>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[“She rose above me, and in that moment Varrik the Bloody died and I was born.”
+—Varrik the Just]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[“She rose above me, and in that moment Varrik the Bloody died and I was born.”
+—Varrik the Just]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[“She rose above me, and in that moment Varrik the Bloody died and I was born.”
+—Varrik the Just]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[“She rose above me, and in that moment Varrik the Bloody died and I was born.”
+—Varrik the Just]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[“She rose above me, and in that moment Varrik the Bloody died and I was born.”
+—Varrik the Just]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[“She rose above me, and in that moment Varrik the Bloody died and I was born.”
+—Varrik the Just]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[“She rose above me, and in that moment Varrik the Bloody died and I was born.”
+—Varrik the Just]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[“She rose above me, and in that moment Varrik the Bloody died and I was born.”
+—Varrik the Just]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[“She rose above me, and in that moment Varrik the Bloody died and I was born.”
+—Varrik the Just]]></LOCALISED_TEXT>
+  </FLAVOURTEXT>
+  <TYPE metaname="Instant" />
+  <EXPANSION value="DPG" />
+  <RARITY metaname="C" />
+  <SPELL_ABILITY>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[You gain 7 life.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[You gain 7 life.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[You gain 7 life.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[You gain 7 life.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[You gain 7 life.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[You gain 7 life.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[You gain 7 life.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[You gain 7 life.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[You gain 7 life.]]></LOCALISED_TEXT>
+	<RESOLUTION_TIME_ACTION>
+    local player = EffectController()
+    if (player ~= nil) then
+    	player:GainLife(7)
+    end
+    </RESOLUTION_TIME_ACTION>
+    <SFX text="TARGET_WHITE_MAGIC_PLAY" />
+  </SPELL_ABILITY>
+  <AI_AVAILABILITY step="end_of_turn" turn="their_turn" />
+  <AI_AVAILABILITY step="declare_blockers" turn="their_turn" />
+  <AI_AVAILABILITY type="in_response_dangerous" />
+  <AI_BASE_SCORE score="200" zone="ZONE_HAND" />
+</CARD_V2>

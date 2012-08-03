@@ -1,0 +1,44 @@
+﻿<?xml version='1.0'?>
+<CARD_V2>
+  <FILENAME text="PLANAR_CLEANSING_275269" />
+  <CARDNAME text="PLANAR_CLEANSING" />
+  <TITLE>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Planar Cleansing]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Planar Cleansing]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Planar Cleansing]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Planar Cleansing]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Planar Cleansing]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[Planar Cleansing]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[Planar Cleansing]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Planar Cleansing]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Planar Cleansing]]></LOCALISED_TEXT>
+  </TITLE>
+  <MULTIVERSEID value="275269" />
+  <ARTID value="275269" />
+  <ARTIST name="Michael Komarck" />
+  <CASTING_COST cost="{3}{W}{W}{W}" />
+  <TYPE metaname="Sorcery" />
+  <EXPANSION value="DPG" />
+  <RARITY metaname="R" />
+  <SPELL_ABILITY dangerous="1" filter_zone="ZONE_IN_PLAY">
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Destroy all nonland permanents.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Destroy all nonland permanents.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Destroy all nonland permanents.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Destroy all nonland permanents.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Destroy all nonland permanents.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[Destroy all nonland permanents.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[Destroy all nonland permanents.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Destroy all nonland permanents.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Destroy all nonland permanents.]]></LOCALISED_TEXT>
+	<FILTER>
+    return (FilteredCard() ~= nil and 
+    FilteredCard():GetCardType():Test( CARD_TYPE_LAND ) == 0 and 
+    FilteredCard():GetZone() == (ZONE_IN_PLAY))
+    </FILTER>
+    <RESOLUTION_TIME_ACTION>
+    FilteredCard():Destroy()
+    </RESOLUTION_TIME_ACTION>
+    <SFX text="GLOBAL_JUDGEMENT_PLAY" />
+  </SPELL_ABILITY>
+  <AI_BASE_SCORE score="1300" zone="ZONE_HAND" />
+</CARD_V2>
