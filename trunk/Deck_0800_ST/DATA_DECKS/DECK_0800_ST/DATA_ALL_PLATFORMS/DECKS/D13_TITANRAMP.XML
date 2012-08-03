@@ -1,0 +1,51 @@
+<DECK personality="D13_TITANRAMP_DEFAULT.XML" deck_box_image="D13_TITANRAMP" deck_box_image_locked="locked" content_pack="0" always_available="true" uid="800" preview_card="naturalorder" is_green="true">
+  <DECKSTATISTICS Size="6" Speed="7" Flex="3" Syn="5" />
+  <LandConfig numSpellsThatCountAsLand="4" />
+  <CARD name="VINE_TRELLIS_888201845" deckOrderId="0" />
+  <CARD name="VINE_TRELLIS_888201845" deckOrderId="1" />
+  <CARD name="VINE_TRELLIS_888201845" deckOrderId="2" />
+  <CARD name="VINE_TRELLIS_888201845" deckOrderId="3" />
+  <CARD name="LLANOWAR_ELVES_888221892" deckOrderId="4" />
+  <CARD name="LLANOWAR_ELVES_888221892" deckOrderId="5" />
+  <CARD name="LLANOWAR_ELVES_888221892" deckOrderId="6" />
+  <CARD name="LLANOWAR_ELVES_888221892" deckOrderId="7" />
+  <CARD name="NATURAL_ORDER_277350" deckOrderId="8" />
+  <CARD name="NATURAL_ORDER_277350" deckOrderId="9" />
+  <CARD name="NATURAL_ORDER_277350" deckOrderId="10" />
+  <CARD name="NATURAL_ORDER_277350" deckOrderId="11" />
+  <CARD name="PROGENITUS_888179496" deckOrderId="12" />
+  <CARD name="CULTIVATE_276891" deckOrderId="13" />
+  <CARD name="CULTIVATE_276891" deckOrderId="14" />
+  <CARD name="CULTIVATE_276891" deckOrderId="15" />
+  <CARD name="CULTIVATE_276891" deckOrderId="16" />
+  <CARD name="EXPLORE_888201578" deckOrderId="17" />
+  <CARD name="EXPLORE_888201578" deckOrderId="18" />
+  <CARD name="EXPLORE_888201578" deckOrderId="19" />
+  <CARD name="EXPLORE_888201578" deckOrderId="20" />
+  <CARD name="ULAMOG_THE_INFINITE_GYRE_888261321" deckOrderId="21" />
+  <CARD name="KOZILEK_BUTCHER_OF_TRUTH_888193632" deckOrderId="22" />
+  <CARD name="EMRAKUL_THE_AEONS_TORN_888193452" deckOrderId="23" />
+  <CARD name="CROP_ROTATION_88812432" deckOrderId="24" />
+  <CARD name="CROP_ROTATION_88812432" deckOrderId="25" />
+  <CARD name="WURMCOIL_ENGINE_888207875" deckOrderId="26" />
+  <CARD name="WURMCOIL_ENGINE_888207875" deckOrderId="27" />
+  <CARD name="WURMCOIL_ENGINE_888207875" deckOrderId="28" />
+  <CARD name="WURMCOIL_ENGINE_888207875" deckOrderId="29" />
+  <CARD name="PRIMEVAL_TITAN_276965" deckOrderId="30" />
+  <CARD name="PRIMEVAL_TITAN_276965" deckOrderId="31" />
+  <CARD name="PRIMEVAL_TITAN_276965" deckOrderId="32" />
+  <CARD name="PRIMEVAL_TITAN_276965" deckOrderId="33" />
+  <CARD name="EYE_OF_UGIN_888197881" deckOrderId="34" />
+  <CARD name="CLOUDPOST_888284524" deckOrderId="35" />
+  <CARD name="CLOUDPOST_888284524" deckOrderId="36" />
+  <CARD name="CLOUDPOST_888284524" deckOrderId="37" />
+  <CARD name="CLOUDPOST_888284524" deckOrderId="38" />
+  <CARD name="GLIMMERPOST_888209043" deckOrderId="39" />
+  <CARD name="GLIMMERPOST_888209043" deckOrderId="40" />
+  <CARD name="GLIMMERPOST_888209043" deckOrderId="41" />
+  <CARD name="GLIMMERPOST_888209043" deckOrderId="42" />
+  <CARD name="KHALNI_GARDEN_888220535" deckOrderId="43" />
+  <CARD name="KHALNI_GARDEN_888220535" deckOrderId="44" />
+  <CARD name="KHALNI_GARDEN_888220535" deckOrderId="45" />
+  <CARD name="KHALNI_GARDEN_888220535" deckOrderId="46" />
+</DECK>
