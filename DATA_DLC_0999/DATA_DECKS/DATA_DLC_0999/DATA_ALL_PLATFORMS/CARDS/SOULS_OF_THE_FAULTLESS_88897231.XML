@@ -72,7 +72,7 @@
 	<RESOLUTION_TIME_ACTION>
     local damage_amount = Damage():GetAmount()
     local player = EffectController()
-    local attack_player = SecondaryObject():GetController()
+    local attack_player = Damage():GetSource():GetPlayer()
     if (player ~= nil) then
       player:GainLife( damage_amount )
     end
