@@ -1,0 +1,99 @@
+<?xml version='1.0'?>
+<CARD_V2>
+  <FILENAME text="ANGELIC_BENEDICTION_276722" />
+  <CARDNAME text="ANGELIC_BENEDICTION" />
+  <TITLE>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Angelic Benediction]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Oraison angélique]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Reconocimiento angelical]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Weihung der Engel]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Protezione Angelica]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[天使の祝祷]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[천사의 축복기도]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Ангельское Освящение]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Bendição Angelical]]></LOCALISED_TEXT>
+  </TITLE>
+  <MULTIVERSEID value="276722" />
+  <ARTID value="279702" />
+  <ARTIST name="Michael Komarck" />
+  <CASTING_COST cost="{3}{W}" />
+  <FLAVOURTEXT>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA["Only the bravest are worthy of our blessing."]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[« Même en combat singulier, je ne suis jamais seul. »
+—Rafiq aux Innombrables]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[“Aunque sea en combate singular, nunca estoy solo.”
+—Rafiq de los Mil Sellos]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[„Selbst im Kampf Mann gegen Mann bin ich nie alleine.“
+—Rafiq von den Vielen]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[“Anche nel corpo a corpo, non sono mai da solo.”
+—Rafiq dei Molti]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[「一人での戦いでも、私は独りではない。」
+—数多のラフィーク]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[“어느 전장에 나가더라도 나는 결코 혼자가 아니다.”
+—무수한 인장의 라피크]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[“Даже в бою один на один я никогда не остаюсь в одиночестве.”
+— Рафик Многомедальный]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[“Mesmo num combate individual, eu nunca estou sozinho.”
+— Rafiq dos Muitos]]></LOCALISED_TEXT>
+  </FLAVOURTEXT>
+  <TYPE metaname="Enchantment" />
+  <EXPANSION value="DPG" />
+  <RARITY metaname="U" />
+  <TRIGGERED_ABILITY badge="BADGE_EXALTED" filter_zone="ZONE_IN_PLAY">
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Exalted]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Exaltation]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Exaltado.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Edelmut]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Esaltato]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[賛美]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[고귀]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Повышение]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Exaltado]]></LOCALISED_TEXT>
+    <TRIGGER value="ATTACKING_ALONE" simple_qualifier="objectyoucontrol" />
+    <CONTINUOUS_ACTION layer="7C">
+    if TriggerObject() ~= nil  then    
+    	local characteristics = TriggerObject():GetCurrentCharacteristics()
+    	characteristics:Power_Add( 1 )    
+    	characteristics:Toughness_Add( 1 )  
+    end  
+    </CONTINUOUS_ACTION>
+    <DURATION simple_duration="UntilEOT" />
+  </TRIGGERED_ABILITY>
+  <TRIGGERED_ABILITY dangerous="1" filter_zone="ZONE_IN_PLAY">
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Whenever a creature you control attacks alone, you may tap target creature.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[À chaque fois qu’une créature que vous contrôlez attaque seule, vous pouvez engager la créature ciblée.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Siempre que una criatura que controles ataque sola, puedes girar la criatura objetivo.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Immer wenn eine Kreatur, die du kontrollierst, alleine angreift, kannst du eine Kreatur deiner Wahl tappen.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Ogniqualvolta una creatura che controlli attacca da sola, puoi TAPpare una creatura bersaglio.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[あなたがコントロールするいずれかのクリーチャーが単独で攻撃するたび、クリーチャー１体を対象とする。あなたはそれをタップしてもよい。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[당신이 조종하는 생물이 혼자 공격할 때마다, 생물 한 개를 목표로 정한다. 당신은 그 생물을 탭할 수 있다.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Каждый раз, когда существо под вашим контролем атакует в одиночку, вы можете повернуть целевое существо.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Toda vez que uma criatura que você controla ataca sozinha, você pode virar a criatura alvo.]]></LOCALISED_TEXT>
+    <TRIGGER value="ATTACKING_ALONE" simple_qualifier="objectyoucontrol" />
+    <TARGET_DEFINITION id="0">
+    local filter = Object():GetFilter()
+    filter:Clear()
+    filter:AddCardType( CARD_TYPE_CREATURE )
+    filter:May()
+    filter:SetZone( ZONE_IN_PLAY )
+    filter:SetHint( HINT_ENEMY_ONLY, EffectController() )
+    if EffectController():IsAI() ~= 0 then
+    	filter:AddExtra( FILTER_EXTRA_CREATURE_UNTAPPED )
+    end
+    </TARGET_DEFINITION>
+    <TARGET_DETERMINATION>
+    return AtLeastOneTargetFromDefinition(0)
+    </TARGET_DETERMINATION>
+    <PLAY_TIME_ACTION target_choosing="1">
+    EffectController():ChooseTarget( 0, "CARD_QUERY_CHOOSE_CREATURE_TAP", EffectDC():Make_Targets(0) )
+    </PLAY_TIME_ACTION>
+    <RESOLUTION_TIME_ACTION>
+    local target_card = EffectDC():Get_Targets(0):Get_CardPtr(0)
+    if target_card ~= nil then  
+    	target_card:Tap()  
+    end
+    </RESOLUTION_TIME_ACTION>
+  </TRIGGERED_ABILITY>
+  <HELP title="MORE_INFO_BADGE_TITLE_33" body="MORE_INFO_BADGE_BODY_33" zone="ZONE_ANY" />
+  <AI_BASE_SCORE score="600" zone="ZONE_IN_PLAY" />
+</CARD_V2>

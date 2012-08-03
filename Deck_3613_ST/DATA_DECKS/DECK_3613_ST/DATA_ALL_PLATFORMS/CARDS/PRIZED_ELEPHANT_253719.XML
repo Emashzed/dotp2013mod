@@ -1,0 +1,86 @@
+﻿<?xml version='1.0'?>
+<CARD_V2>
+  <FILENAME text="PRIZED_ELEPHANT_253719" />
+  <CARDNAME text="PRIZED_ELEPHANT" />
+  <TITLE>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Prized Elephant]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Prized Elephant]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Prized Elephant]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Prized Elephant]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Prized Elephant]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[Prized Elephant]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[Prized Elephant]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Prized Elephant]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Prized Elephant]]></LOCALISED_TEXT>
+  </TITLE>
+  <MULTIVERSEID value="253719" />
+  <ARTID value="253719" />
+  <ARTIST name="Ioan Dumitrescu" />
+  <CASTING_COST cost="{3}{W}" />
+  <TYPE metaname="Creature" />
+  <SUB_TYPE metaname="Elephant" />
+  <EXPANSION value="DPG" />
+  <RARITY metaname="U" />
+  <POWER value="3" />
+  <TOUGHNESS value="3" />
+  <STATIC_ABILITY filter_zone="ZONE_IN_PLAY">
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Prized Elephant gets +1/+1 as long as you control a Forest.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Prized Elephant gets +1/+1 as long as you control a Forest.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Prized Elephant gets +1/+1 as long as you control a Forest.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Prized Elephant gets +1/+1 as long as you control a Forest.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Prized Elephant gets +1/+1 as long as you control a Forest.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[Prized Elephant gets +1/+1 as long as you control a Forest.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[Prized Elephant gets +1/+1 as long as you control a Forest.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Prized Elephant gets +1/+1 as long as you control a Forest.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Prized Elephant gets +1/+1 as long as you control a Forest.]]></LOCALISED_TEXT>
+	<CONTINUOUS_ACTION layer="7C">
+	local total = 0
+    local filter = Object():GetFilter()
+    filter:Clear()
+    filter:SetZone( ZONE_IN_PLAY )
+    filter:AddSubType( LAND_TYPE_FOREST )
+    filter:SetController( EffectController() )  
+    filter:NotTargetted()
+    total = filter:CountStopAt( 1 )
+    if total &gt; 0 then
+    	local characteristics = Object():GetCurrentCharacteristics()
+    	characteristics:Power_Add( 1 )
+    	characteristics:Toughness_Add( 1 )
+    end
+    </CONTINUOUS_ACTION>
+  </STATIC_ABILITY>
+  <ACTIVATED_ABILITY filter_zone="ZONE_IN_PLAY">
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[{G}: Prized Elephant gains trample until end of turn.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[{G}: Prized Elephant gains trample until end of turn.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[{G}: Prized Elephant gains trample until end of turn.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[{G}: Prized Elephant gains trample until end of turn.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[{G}: Prized Elephant gains trample until end of turn.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[{G}: Prized Elephant gains trample until end of turn.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[{G}: Prized Elephant gains trample until end of turn.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[{G}: Prized Elephant gains trample until end of turn.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[{G}: Prized Elephant gains trample until end of turn.]]></LOCALISED_TEXT>
+	<COST type="Mana" cost="{G}" />
+	<CONTINUOUS_ACTION layer="6">
+    local characteristics = Object():GetCurrentCharacteristics()  
+    characteristics:Characteristic_Set( CHARACTERISTIC_TRAMPLE, 1 )
+    </CONTINUOUS_ACTION>
+    <DURATION simple_duration="UntilEOT" />
+    <AI_AVAILABILITY step="declare_blockers" />
+  </ACTIVATED_ABILITY>
+  <AI_CUSTOM_SCORE zone="ZONE_IN_PLAY">
+  local total = 0
+  local filter = Object():GetFilter()
+  filter:Clear()
+  filter:SetZone( ZONE_IN_PLAY )
+  filter:AddSubType( LAND_TYPE_FOREST )
+  filter:SetController( EffectController() )  
+  filter:NotTargetted()
+  total = filter:CountStopAt( 1 )
+  if total &gt; 0 then
+  	Object():AddScore(150)
+  end
+  </AI_CUSTOM_SCORE>
+  <HELP title="MORE_INFO_BADGE_TITLE_1" body="MORE_INFO_BADGE_BODY_1" zone="ZONE_ANY" />
+  <SFX text="COMBAT_BLUNT_LARGE_ATTACK" power_boundary_min="4" power_boundary_max="-1" />
+  <SFX text="COMBAT_BLUNT_SMALL_ATTACK" power_boundary_min="1" power_boundary_max="3" />
+</CARD_V2>

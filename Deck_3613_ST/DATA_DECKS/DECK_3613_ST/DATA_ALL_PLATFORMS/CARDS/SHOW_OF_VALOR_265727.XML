@@ -1,0 +1,79 @@
+﻿<?xml version='1.0'?>
+<CARD_V2>
+  <FILENAME text="SHOW_OF_VALOR_265727" />
+  <CARDNAME text="SHOW_OF_VALOR" />
+  <TITLE>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Show of Valor]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Show of Valor]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Show of Valor]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Show of Valor]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Show of Valor]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[Show of Valor]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[Show of Valor]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Show of Valor]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Show of Valor]]></LOCALISED_TEXT>
+  </TITLE>
+  <MULTIVERSEID value="265727" />
+  <ARTID value="265727" />
+  <ARTIST name="Anthony Palumbo" />
+  <CASTING_COST cost="{1}{W}" />
+  <FLAVOURTEXT>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[“Duty, honor, and valor are either in your heart or they are not. You will never know for certain until you are tested.”
+—Ajani Goldmane]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[“Duty, honor, and valor are either in your heart or they are not. You will never know for certain until you are tested.”
+—Ajani Goldmane]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[“Duty, honor, and valor are either in your heart or they are not. You will never know for certain until you are tested.”
+—Ajani Goldmane]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[“Duty, honor, and valor are either in your heart or they are not. You will never know for certain until you are tested.”
+—Ajani Goldmane]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[“Duty, honor, and valor are either in your heart or they are not. You will never know for certain until you are tested.”
+—Ajani Goldmane]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[“Duty, honor, and valor are either in your heart or they are not. You will never know for certain until you are tested.”
+—Ajani Goldmane]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[“Duty, honor, and valor are either in your heart or they are not. You will never know for certain until you are tested.”
+—Ajani Goldmane]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[“Duty, honor, and valor are either in your heart or they are not. You will never know for certain until you are tested.”
+—Ajani Goldmane]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[“Duty, honor, and valor are either in your heart or they are not. You will never know for certain until you are tested.”
+—Ajani Goldmane]]></LOCALISED_TEXT>
+  </FLAVOURTEXT>
+  <TYPE metaname="Instant" />
+  <EXPANSION value="DPG" />
+  <RARITY metaname="C" />
+  <SPELL_ABILITY filter_zone="ZONE_IN_PLAY">
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Target creature gets +2/+4 until end of turn.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Target creature gets +2/+4 until end of turn.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Target creature gets +2/+4 until end of turn.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Target creature gets +2/+4 until end of turn.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Target creature gets +2/+4 until end of turn.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[Target creature gets +2/+4 until end of turn.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[Target creature gets +2/+4 until end of turn.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Target creature gets +2/+4 until end of turn.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Target creature gets +2/+4 until end of turn.]]></LOCALISED_TEXT>
+	<TARGET_DEFINITION id="0">
+    local filter = Object():GetFilter()
+    filter:Clear()
+    filter:AddCardType( CARD_TYPE_CREATURE )
+    filter:SetZone( ZONE_IN_PLAY )
+    filter:SetHint( HINT_ALLIED_ONLY, EffectController() )
+    </TARGET_DEFINITION>
+    <TARGET_DETERMINATION>
+    return AtLeastOneTargetFromDefinition(0)
+    </TARGET_DETERMINATION>
+    <PLAY_TIME_ACTION target_choosing="1">
+    EffectController():ChooseTarget( 0, "CARD_QUERY_CHOOSE_CREATURE_TO_GET_2_4", EffectDC():Make_Targets(0) )
+    </PLAY_TIME_ACTION>
+    <CONTINUOUS_ACTION layer="7C">
+    local target = EffectDC():Get_Targets(0):Get_CardPtr(0)
+    if target ~= nil then
+    	local characteristics = target:GetCurrentCharacteristics()
+    	characteristics:Power_Add( 2 )
+    	characteristics:Toughness_Add( 4 )
+    end
+    </CONTINUOUS_ACTION>
+    <DURATION simple_duration="UntilEOT" />
+  </SPELL_ABILITY>
+  <AI_AVAILABILITY step="declare_blockers" />
+  <AI_AVAILABILITY type="in_response_dangerous" />
+  <AI_BASE_SCORE score="600" zone="ZONE_HAND" />
+</CARD_V2>

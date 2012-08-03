@@ -1,0 +1,73 @@
+﻿<?xml version='1.0'?>
+<CARD_V2>
+  <FILENAME text="FAITHS_REWARD_259666" />
+  <CARDNAME text="FAITHS_REWARD" />
+  <TITLE>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Faith’s Reward]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Faith’s Reward]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Faith’s Reward]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Faith’s Reward]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Faith’s Reward]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[Faith’s Reward]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[Faith’s Reward]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Faith’s Reward]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Faith’s Reward]]></LOCALISED_TEXT>
+  </TITLE>
+  <MULTIVERSEID value="259666" />
+  <ARTID value="259666" />
+  <ARTIST name="Raymond Swanland" />
+  <CASTING_COST cost="{3}{W}" />
+  <FLAVOURTEXT>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[“I thought the wind was ushering me to my final destination, but it lifted me to my feet and I fought on.”
+—Idrus, war priest of Thune]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[“I thought the wind was ushering me to my final destination, but it lifted me to my feet and I fought on.”
+—Idrus, war priest of Thune]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[“I thought the wind was ushering me to my final destination, but it lifted me to my feet and I fought on.”
+—Idrus, war priest of Thune]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[“I thought the wind was ushering me to my final destination, but it lifted me to my feet and I fought on.”
+—Idrus, war priest of Thune]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[“I thought the wind was ushering me to my final destination, but it lifted me to my feet and I fought on.”
+—Idrus, war priest of Thune]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[“I thought the wind was ushering me to my final destination, but it lifted me to my feet and I fought on.”
+—Idrus, war priest of Thune]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[“I thought the wind was ushering me to my final destination, but it lifted me to my feet and I fought on.”
+—Idrus, war priest of Thune]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[“I thought the wind was ushering me to my final destination, but it lifted me to my feet and I fought on.”
+—Idrus, war priest of Thune]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[“I thought the wind was ushering me to my final destination, but it lifted me to my feet and I fought on.”
+—Idrus, war priest of Thune]]></LOCALISED_TEXT>
+  </FLAVOURTEXT>
+  <TYPE metaname="Instant" />
+  <EXPANSION value="DPG" />
+  <RARITY metaname="R" />
+  <SPELL_ABILITY filter_zone="ZONE_GRAVEYARD">
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Return to the battlefield all permanent cards in your graveyard that were put there from the battlefield this turn.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Return to the battlefield all permanent cards in your graveyard that were put there from the battlefield this turn.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Return to the battlefield all permanent cards in your graveyard that were put there from the battlefield this turn.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Return to the battlefield all permanent cards in your graveyard that were put there from the battlefield this turn.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Return to the battlefield all permanent cards in your graveyard that were put there from the battlefield this turn.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[Return to the battlefield all permanent cards in your graveyard that were put there from the battlefield this turn.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[Return to the battlefield all permanent cards in your graveyard that were put there from the battlefield this turn.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Return to the battlefield all permanent cards in your graveyard that were put there from the battlefield this turn.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Return to the battlefield all permanent cards in your graveyard that were put there from the battlefield this turn.]]></LOCALISED_TEXT>
+	<FILTER>
+    return (FilteredCard() ~= nil) and
+    (FilteredCard():GetOwner() == EffectController()) and
+    (FilteredCard():GetZone() == ZONE_GRAVEYARD) and
+    (FilteredCard():GetCardType():IsPermanent() ~= 0) and
+    (MTG():Interrogate_CardDiedThisTurn( FilteredCard() ) == 1)
+    </FILTER>
+    <RESOLUTION_TIME_ACTION>
+    local filtered_obj = FilteredCard()
+    if filtered_obj ~= nil then
+		if filtered_obj:GetCardType():Test( CARD_TYPE_ENCHANTMENT ) ~= 0 and filtered_obj:GetSubType():Test( ENCHANTMENT_TYPE_AURA ) ~= 0 then
+			EffectController():PseudoPlaySpell( filtered_obj )
+    	else
+    		filtered_obj:PutIntoPlay( EffectController() )
+    	end
+    end
+    </RESOLUTION_TIME_ACTION>
+	<SFX text="TARGET_PLAYER_PEACE_PLAY" />
+  </SPELL_ABILITY>
+  <AI_AVAILABILITY step="end_of_turn" />
+</CARD_V2>

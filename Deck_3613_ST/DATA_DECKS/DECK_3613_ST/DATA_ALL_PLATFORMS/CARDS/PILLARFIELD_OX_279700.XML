@@ -1,0 +1,48 @@
+﻿<?xml version='1.0'?>
+<CARD_V2>
+  <FILENAME text="PILLARFIELD_OX_279700" />
+  <CARDNAME text="PILLARFIELD_OX" />
+  <TITLE>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Pillarfield Ox]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Pillarfield Ox]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Pillarfield Ox]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Pillarfield Ox]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Pillarfield Ox]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[Pillarfield Ox]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[Pillarfield Ox]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Pillarfield Ox]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Pillarfield Ox]]></LOCALISED_TEXT>
+  </TITLE>
+  <MULTIVERSEID value="279700" />
+  <ARTID value="279700" />
+  <ARTIST name="Andrew Robinson" />
+  <CASTING_COST cost="{3}{W}" />
+  <FLAVOURTEXT>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[“May starving fleas birth a thousand generations on your stubborn hide, cow!”
+—Bruse Tarl, Goma Fada nomad]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[“May starving fleas birth a thousand generations on your stubborn hide, cow!”
+—Bruse Tarl, Goma Fada nomad]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[“May starving fleas birth a thousand generations on your stubborn hide, cow!”
+—Bruse Tarl, Goma Fada nomad]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[“May starving fleas birth a thousand generations on your stubborn hide, cow!”
+—Bruse Tarl, Goma Fada nomad]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[“May starving fleas birth a thousand generations on your stubborn hide, cow!”
+—Bruse Tarl, Goma Fada nomad]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[“May starving fleas birth a thousand generations on your stubborn hide, cow!”
+—Bruse Tarl, Goma Fada nomad]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[“May starving fleas birth a thousand generations on your stubborn hide, cow!”
+—Bruse Tarl, Goma Fada nomad]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[“May starving fleas birth a thousand generations on your stubborn hide, cow!”
+—Bruse Tarl, Goma Fada nomad]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[“May starving fleas birth a thousand generations on your stubborn hide, cow!”
+—Bruse Tarl, Goma Fada nomad]]></LOCALISED_TEXT>
+  </FLAVOURTEXT>
+  <TYPE metaname="Creature" />
+  <SUB_TYPE metaname="Ox" />
+  <EXPANSION value="DPG" />
+  <RARITY metaname="C" />
+  <POWER value="2" />
+  <TOUGHNESS value="4" />
+  <SFX text="COMBAT_BLUNT_LARGE_ATTACK" power_boundary_min="4" power_boundary_max="-1" />
+  <SFX text="COMBAT_BLUNT_SMALL_ATTACK" power_boundary_min="1" power_boundary_max="3" />
+</CARD_V2>
