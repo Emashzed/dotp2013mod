@@ -1,0 +1,58 @@
+﻿<?xml version='1.0'?>
+<CARD_V2>
+  <FILENAME text="BATTLE_OF_WITS_288878" />
+  <CARDNAME text="BATTLE_OF_WITS" />
+  <TITLE>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Battle of Wits]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Battle of Wits]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Battle of Wits]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Battle of Wits]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Battle of Wits]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[Battle of Wits]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[Battle of Wits]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Battle of Wits]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Battle of Wits]]></LOCALISED_TEXT>
+  </TITLE>
+  <MULTIVERSEID value="288878" />
+  <ARTID value="288878" />
+  <ARTIST name="Jason Chan" />
+  <CASTING_COST cost="{3}{U}{U}" />
+  <FLAVOURTEXT>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[There is no loftier ambition than the pursuit of knowledge.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[There is no loftier ambition than the pursuit of knowledge.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[There is no loftier ambition than the pursuit of knowledge.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[There is no loftier ambition than the pursuit of knowledge.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[There is no loftier ambition than the pursuit of knowledge.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[There is no loftier ambition than the pursuit of knowledge.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[There is no loftier ambition than the pursuit of knowledge.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[There is no loftier ambition than the pursuit of knowledge.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[There is no loftier ambition than the pursuit of knowledge.]]></LOCALISED_TEXT>
+  </FLAVOURTEXT>
+  <TYPE metaname="Enchantment" />
+  <EXPANSION value="DPG" />
+  <RARITY metaname="R" />
+  <TRIGGERED_ABILITY>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[At the beginning of your upkeep, if you have 200 or more cards in your library, you win the game.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[At the beginning of your upkeep, if you have 200 or more cards in your library, you win the game.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[At the beginning of your upkeep, if you have 200 or more cards in your library, you win the game.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[At the beginning of your upkeep, if you have 200 or more cards in your library, you win the game.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[At the beginning of your upkeep, if you have 200 or more cards in your library, you win the game.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[At the beginning of your upkeep, if you have 200 or more cards in your library, you win the game.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[At the beginning of your upkeep, if you have 200 or more cards in your library, you win the game.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[At the beginning of your upkeep, if you have 200 or more cards in your library, you win the game.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[At the beginning of your upkeep, if you have 200 or more cards in your library, you win the game.]]></LOCALISED_TEXT>
+	<RESOLUTION_TIME_ACTION>
+    if CountCardsInLibrary(EffectController()) &gt; 199 then
+		EffectController():WinGame()
+    end
+    </RESOLUTION_TIME_ACTION>
+    <TRIGGER value="BEGINNING_OF_STEP" simple_qualifier="controller">
+    return ( (MTG():GetStep() == STEP_UPKEEP) and (TriggerPlayer() == EffectController()) and (TriggerPlayer():MyTurn() ~= 0))
+    </TRIGGER>
+  </TRIGGERED_ABILITY>
+  <AI_CUSTOM_SCORE zone="ZONE_IN_PLAY">
+  if CountCardsInLibrary(Object():GetPlayer()) &gt; 199 then
+  	Object():AddScore(2000)
+  end
+  </AI_CUSTOM_SCORE>
+</CARD_V2>
