@@ -1,4 +1,5 @@
 <DECK personality="D13_TITANRAMP_DEFAULT.XML" deck_box_image="D13_TITANRAMP" deck_box_image_locked="locked" content_pack="0" always_available="true" uid="800" preview_card="naturalorder" is_green="true">
+  <LAND_GROUP value="9"/>
   <DECKSTATISTICS Size="6" Speed="7" Flex="3" Syn="5" />
   <LandConfig numSpellsThatCountAsLand="4" />
   <CARD name="VINE_TRELLIS_888201845" deckOrderId="0" />
