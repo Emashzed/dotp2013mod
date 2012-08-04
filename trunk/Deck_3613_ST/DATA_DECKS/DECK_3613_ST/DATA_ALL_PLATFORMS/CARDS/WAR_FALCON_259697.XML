@@ -60,35 +60,30 @@
     <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[War Falcon can’t attack unless you control a Knight or a Soldier.]]></LOCALISED_TEXT>
     <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[War Falcon can’t attack unless you control a Knight or a Soldier.]]></LOCALISED_TEXT>
 	<CONTINUOUS_ACTION layer="8">
-	local total = 0
+	local knight_total = 0
+	local soldier_total = 0
+	
     local filter = Object():GetFilter()
     filter:Clear()
     filter:SetZone( ZONE_IN_PLAY )
     filter:AddSubType( CREATURE_TYPE_KNIGHT )
+    filter:SetController( EffectController() )  
+    filter:NotTargetted()
+    knight_total = filter:CountStopAt( 1 )
+	
+	filter:Clear()
+    filter:SetZone( ZONE_IN_PLAY )
     filter:AddSubType( CREATURE_TYPE_SOLDIER )
     filter:SetController( EffectController() )  
     filter:NotTargetted()
-    total = filter:CountStopAt( 1 )
-    if total &lt; 1 then
+    soldier_total = filter:CountStopAt( 1 )
+	
+    if (knight_total &lt; 1) and (soldier_total &lt; 1) then
 		local characteristics = Object():GetCurrentCharacteristics()
     	characteristics:Characteristic_Set( CHARACTERISTIC_CANT_ATTACK, 1 )
     end
     </CONTINUOUS_ACTION>
   </STATIC_ABILITY>
-  <AI_CUSTOM_SCORE zone="ZONE_IN_PLAY">
-  local total = 0
-  local filter = Object():GetFilter()
-  filter:Clear()
-  filter:SetZone( ZONE_IN_PLAY )
-  filter:AddSubType( CREATURE_TYPE_KNIGHT )
-  filter:AddSubType( CREATURE_TYPE_SOLDIER )
-  filter:SetController( EffectController() )  
-  filter:NotTargetted()
-  total = filter:CountStopAt( 1 )
-  if total &lt; 1 then
-  	Object():AddScore(-200)
-  end
-  </AI_CUSTOM_SCORE>
   <HELP title="MORE_INFO_BADGE_TITLE_10" body="MORE_INFO_BADGE_BODY_10" zone="ZONE_ANY" />
   <SFX text="COMBAT_CLAW_LARGE_ATTACK" power_boundary_min="4" power_boundary_max="-1" />
   <SFX text="COMBAT_CLAW_SMALL_ATTACK" power_boundary_min="1" power_boundary_max="3" />

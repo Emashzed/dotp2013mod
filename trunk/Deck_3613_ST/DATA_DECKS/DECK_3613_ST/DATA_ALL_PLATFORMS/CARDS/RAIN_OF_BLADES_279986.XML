@@ -44,7 +44,7 @@
 	<FILTER>
     return (FilteredCard() ~= nil and 
     FilteredCard():GetCardType():Test( CARD_TYPE_CREATURE ) ~= 0 and 
-    FilteredCard():GetZone() == (ZONE_IN_PLAY)
+    FilteredCard():GetZone() == (ZONE_IN_PLAY) and
 	FilteredCard():IsAttacking() ~= 0)
     </FILTER>
     <RESOLUTION_TIME_ACTION>
