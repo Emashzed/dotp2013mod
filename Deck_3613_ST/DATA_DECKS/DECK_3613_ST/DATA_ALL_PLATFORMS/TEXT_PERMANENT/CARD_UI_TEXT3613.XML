@@ -75,7 +75,31 @@
     <Cell><Data ss:Type="String">??? ??? ? ? ?????.</Data></Cell>
     <Cell><Data ss:Type="String">???????? ????? ??? ????????.</Data></Cell>
     <Cell><Data ss:Type="String">Escolha um encantamento para exilar.</Data></Cell>
-   </Row>  
+   </Row> 
+   <Row>
+    <Cell><Data ss:Type="String">CARD_QUERY_CHOOSE_CREATURE_GAIN_MUST_BLOCK</Data></Cell>
+    <Cell ss:Index="3"><Data ss:Type="String">Choose a creature to cause to block this turn.</Data></Cell>
+    <Cell><Data ss:Type="String">Choisissez une créature pour la faire bloquer ce tour-ci.</Data></Cell>
+    <Cell><Data ss:Type="String">Elige una criatura para que bloquear este turno.</Data></Cell>
+    <Cell><Data ss:Type="String">Choose a creature to cause to block this turn.</Data></Cell>
+    <Cell><Data ss:Type="String">Scegli una creatura da far bloccare in questo turno.</Data></Cell>
+    <Cell ss:Index="9"><Data ss:Type="String">Choose a creature to cause to block this turn.</Data></Cell>
+    <Cell><Data ss:Type="String">Choose a creature to cause to block this turn.</Data></Cell>
+    <Cell><Data ss:Type="String">Choose a creature to cause to block this turn.</Data></Cell>
+    <Cell><Data ss:Type="String">Escolha uma criatura para bloquear neste turno.</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">CARD_QUERY_CHOOSE_CREATURE_OR_ARTIFACT_TO_ENCHANT</Data></Cell>
+    <Cell ss:Index="3"><Data ss:Type="String">Choose an artifact or creature to enchant.</Data></Cell>
+    <Cell><Data ss:Type="String">Choisissez un permanent pour l'enchanter.</Data></Cell>
+    <Cell><Data ss:Type="String">Elige un permanente para encantarlo.</Data></Cell>
+    <Cell><Data ss:Type="String">Bestimme eine bleibende Karte, die verzaubert werden soll.</Data></Cell>
+    <Cell><Data ss:Type="String">Scegli un permanente da incantare.</Data></Cell>
+    <Cell ss:Index="9"><Data ss:Type="String">??????????????????</Data></Cell>
+    <Cell><Data ss:Type="String">??? ??? ???? ?????.</Data></Cell>
+    <Cell><Data ss:Type="String">???????? ????????? ??? ???????????.</Data></Cell>
+    <Cell><Data ss:Type="String">Escolha uma permanente para encantar.</Data></Cell>
+   </Row>
   </Table>
   <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
    <PageSetup>
