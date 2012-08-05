@@ -1,0 +1,46 @@
+﻿<?xml version='1.0'?>
+<CARD_V2>
+  <FILENAME text="MERFOLK_OF_THE_PEARL_TRIDENT_278211" />
+  <CARDNAME text="MERFOLK_OF_THE_PEARL_TRIDENT" />
+  <TITLE>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Merfolk of the Pearl Trident]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Merfolk of the Pearl Trident]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Merfolk of the Pearl Trident]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Merfolk of the Pearl Trident]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Merfolk of the Pearl Trident]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[Merfolk of the Pearl Trident]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[Merfolk of the Pearl Trident]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Merfolk of the Pearl Trident]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Merfolk of the Pearl Trident]]></LOCALISED_TEXT>
+  </TITLE>
+  <MULTIVERSEID value="278211" />
+  <ARTID value="278211" />
+  <ARTIST name="Ray Lago" />
+  <CASTING_COST cost="{U}" />
+  <FLAVOURTEXT>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[“The merfolk of the Pearl Trident have risen from the waves since the earliest days, at times allies to humans, other times enemies. Now their power is cresting again, and who can say which way the new tide will flow.”
+—Kalis, Onean scholar]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[“The merfolk of the Pearl Trident have risen from the waves since the earliest days, at times allies to humans, other times enemies. Now their power is cresting again, and who can say which way the new tide will flow.”
+—Kalis, Onean scholar]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[“The merfolk of the Pearl Trident have risen from the waves since the earliest days, at times allies to humans, other times enemies. Now their power is cresting again, and who can say which way the new tide will flow.”
+—Kalis, Onean scholar]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[“The merfolk of the Pearl Trident have risen from the waves since the earliest days, at times allies to humans, other times enemies. Now their power is cresting again, and who can say which way the new tide will flow.”
+—Kalis, Onean scholar]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[“The merfolk of the Pearl Trident have risen from the waves since the earliest days, at times allies to humans, other times enemies. Now their power is cresting again, and who can say which way the new tide will flow.”
+—Kalis, Onean scholar]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[“The merfolk of the Pearl Trident have risen from the waves since the earliest days, at times allies to humans, other times enemies. Now their power is cresting again, and who can say which way the new tide will flow.”
+—Kalis, Onean scholar]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[“The merfolk of the Pearl Trident have risen from the waves since the earliest days, at times allies to humans, other times enemies. Now their power is cresting again, and who can say which way the new tide will flow.”
+—Kalis, Onean scholar]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[“The merfolk of the Pearl Trident have risen from the waves since the earliest days, at times allies to humans, other times enemies. Now their power is cresting again, and who can say which way the new tide will flow.”
+—Kalis, Onean scholar]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[“The merfolk of the Pearl Trident have risen from the waves since the earliest days, at times allies to humans, other times enemies. Now their power is cresting again, and who can say which way the new tide will flow.”
+—Kalis, Onean scholar]]></LOCALISED_TEXT>
+  </FLAVOURTEXT>
+  <TYPE metaname="Creature" />
+  <SUB_TYPE metaname="Merfolk" />
+  <EXPANSION value="DPG" />
+  <RARITY metaname="C" />
+  <POWER value="1" />
+  <TOUGHNESS value="1" />
+</CARD_V2>
