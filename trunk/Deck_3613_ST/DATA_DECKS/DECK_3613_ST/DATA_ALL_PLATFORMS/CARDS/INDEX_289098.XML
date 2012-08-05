@@ -1,0 +1,73 @@
+﻿<?xml version='1.0'?>
+<CARD_V2>
+  <FILENAME text="INDEX_289098" />
+  <CARDNAME text="INDEX" />
+  <TITLE>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Index]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Index]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Index]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Index]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Index]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[Index]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[Index]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Index]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Index]]></LOCALISED_TEXT>
+  </TITLE>
+  <MULTIVERSEID value="289098" />
+  <ARTID value="289098" />
+  <ARTIST name="Kev Walker" />
+  <CASTING_COST cost="{U}" />
+  <FLAVOURTEXT>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[“What good is having all the right answers if you have them at all the wrong times?”]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[“What good is having all the right answers if you have them at all the wrong times?”]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[“What good is having all the right answers if you have them at all the wrong times?”]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[“What good is having all the right answers if you have them at all the wrong times?”]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[“What good is having all the right answers if you have them at all the wrong times?”]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[“What good is having all the right answers if you have them at all the wrong times?”]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[“What good is having all the right answers if you have them at all the wrong times?”]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[“What good is having all the right answers if you have them at all the wrong times?”]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[“What good is having all the right answers if you have them at all the wrong times?”]]></LOCALISED_TEXT>
+  </FLAVOURTEXT>
+  <TYPE metaname="Sorcery" />
+  <EXPANSION value="DPG" />
+  <RARITY metaname="C" />
+  <SPELL_ABILITY>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Look at the top five cards of your library, then put them back in any order.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Look at the top five cards of your library, then put them back in any order.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Look at the top five cards of your library, then put them back in any order.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Look at the top five cards of your library, then put them back in any order.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Look at the top five cards of your library, then put them back in any order.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[Look at the top five cards of your library, then put them back in any order.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[Look at the top five cards of your library, then put them back in any order.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Look at the top five cards of your library, then put them back in any order.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Look at the top five cards of your library, then put them back in any order.]]></LOCALISED_TEXT>
+	<RESOLUTION_TIME_ACTION>
+    local filter = Object():GetFilter()  
+    local player = EffectController()  
+    filter:Clear()  
+    filter:NotTargetted()  
+    filter:SetPlayer( EffectController() )  
+    filter:SetZone( ZONE_LIBRARY )  
+    filter:SetPortion( 5 )  
+    player:SetTargetCount( 5 )  
+    player:SetTargetPrompt( 0, "CARD_QUERY_CHOOSE_FIRST_CARD_TO_PUT_ON_TOP" )  
+    player:SetTargetPrompt( 1, "CARD_QUERY_CHOOSE_SECOND_CARD_TO_PUT_ON_TOP" )  
+    player:SetTargetPrompt( 2, "CARD_QUERY_CHOOSE_THIRD_CARD_TO_PUT_ON_TOP" )  
+    player:SetTargetPrompt( 3, "CARD_QUERY_CHOOSE_FOURTH_CARD_TO_PUT_ON_TOP" )
+    player:SetTargetPrompt( 4, "CARD_QUERY_CHOOSE_FIFTH_CARD_TO_PUT_ON_TOP" )
+    player:ChooseTargetsWithFlags( NO_VALIDATION, EffectDC():Make_Targets(0), 0)
+    </RESOLUTION_TIME_ACTION>
+    <RESOLUTION_TIME_ACTION>
+    local target_array = {}    
+    for i=0,4 do    
+    	target_array[i] = EffectDC():Get_Targets(0):Get_NthCardPtr(i)  
+    end    
+    for i=0,4 do    
+    	if target_array[i] ~= nil then
+    		target_array[i]:PutInLibrary(0) 
+    	end  
+    end
+    </RESOLUTION_TIME_ACTION>
+  </SPELL_ABILITY>
+  <AI_BASE_SCORE score="250" zone="ZONE_HAND" />
+</CARD_V2>

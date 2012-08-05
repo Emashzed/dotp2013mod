@@ -1,6 +1,6 @@
 ﻿<?xml version='1.0'?>
 <CARD_V2>
-  <FILENAME text="DIVINATION_888262848" />
+  <FILENAME text="DIVINATION_254118" />
   <CARDNAME text="DIVINATION" />
   <TITLE>
     <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Divination]]></LOCALISED_TEXT>
@@ -13,7 +13,7 @@
     <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Прорицание]]></LOCALISED_TEXT>
     <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Divinação]]></LOCALISED_TEXT>
   </TITLE>
-  <MULTIVERSEID value="888262848" />
+  <MULTIVERSEID value="254118" />
   <ARTID value="254118" />
   <ARTIST name="Howard Lyon" />
   <CASTING_COST cost="{2}{U}" />
