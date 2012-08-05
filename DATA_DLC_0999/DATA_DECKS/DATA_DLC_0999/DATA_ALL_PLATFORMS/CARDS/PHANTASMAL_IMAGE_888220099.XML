@@ -3,36 +3,37 @@
   <FILENAME text="PHANTASMAL_IMAGE_888220099" />
   <CARDNAME text="PHANTASMAL_IMAGE" />
   <TITLE>
-     <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Phantasmal Image]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Phantasmal Image]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Phantasmal Image]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Phantasmal Image]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Phantasmal Image]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[Phantasmal Image]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[Phantasmal Image]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Phantasmal Image]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Phantasmal Image]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Phantasmal Image]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Immagine Fantasma]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Traumbild]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Image phantasmatique]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Imagen fantasmal]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[幻影の像]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[Phantasmal Image]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Призрачный Образ]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Imagem Fantasmal]]></LOCALISED_TEXT>
   </TITLE>
   <MULTIVERSEID value="888220099" />
   <ARTID value="888220099" />
   <ARTIST name="Nils Hamm" />
   <CASTING_COST cost="{1}{U}" />
   <TYPE metaname="Creature" />
-  <SUB_TYPE metaname="Illusion" order_de-DE="0" order_es-ES="0" order_fr-FR="0" order_it-IT="0" order_jp-JA="0" order_ko-KR="0" order_pt-BR="0" order_ru-RU="0" />
+  <SUB_TYPE metaname="Illusion" />
   <EXPANSION value="DPG" />
   <RARITY metaname="R" />
   <POWER value="0" />
   <TOUGHNESS value="0" />
   <TRIGGERED_ABILITY replacement_query="1" filter_zone="ZONE_IN_PLAY" active_zone="ZONE_TRANSITION">
-     <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[You may have Phantasmal Image enter the battlefield as a copy of any creature on the battlefield, except it’s an Illusion in addition to its other types and it gains “When this creature becomes the target of a spell or ability, sacrifice it.”]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[You may have Phantasmal Image enter the battlefield as a copy of any creature on the battlefield, except it’s an Illusion in addition to its other types and it gains “When this creature becomes the target of a spell or ability, sacrifice it.”]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[You may have Phantasmal Image enter the battlefield as a copy of any creature on the battlefield, except it’s an Illusion in addition to its other types and it gains “When this creature becomes the target of a spell or ability, sacrifice it.”]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[You may have Phantasmal Image enter the battlefield as a copy of any creature on the battlefield, except it’s an Illusion in addition to its other types and it gains “When this creature becomes the target of a spell or ability, sacrifice it.”]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[You may have Phantasmal Image enter the battlefield as a copy of any creature on the battlefield, except it’s an Illusion in addition to its other types and it gains “When this creature becomes the target of a spell or ability, sacrifice it.”]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[You may have Phantasmal Image enter the battlefield as a copy of any creature on the battlefield, except it’s an Illusion in addition to its other types and it gains “When this creature becomes the target of a spell or ability, sacrifice it.”]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[You may have Phantasmal Image enter the battlefield as a copy of any creature on the battlefield, except it’s an Illusion in addition to its other types and it gains “When this creature becomes the target of a spell or ability, sacrifice it.”]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[You may have Phantasmal Image enter the battlefield as a copy of any creature on the battlefield, except it’s an Illusion in addition to its other types and it gains “When this creature becomes the target of a spell or ability, sacrifice it.”]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[You may have Phantasmal Image enter the battlefield as a copy of any creature on the battlefield, except it’s an Illusion in addition to its other types and it gains “When this creature becomes the target of a spell or ability, sacrifice it.”]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[You may have Phantasmal Image enter the battlefield as a copy of any creature on the battlefield, except it’s an Illusion in addition to its other types and it gains “When this creature becomes the target of a spell or ability, sacrifice it.”]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Puoi far entrare l’Immagine Fantasma nel campo di battaglia come una copia di qualsiasi creatura sul campo di battaglia, tranne che è un’Illusione in aggiunta ai suoi altri tipi e ha “Quando questa creatura diventa bersaglio di una magia o abilità, sacrificala”.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Du kannst das Traumbild als Kopie einer beliebigen Kreatur im Spiel ins Spiel kommen lassen, außer dass es zusätzlich zu seinen anderen Typen auch eine Illusion ist und „Wenn diese Kreatur das Ziel eines Zauberspruchs oder einer Fähigkeit wird, opfere sie” hat.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Vous pouvez faire que l’Image phantasmatique arrive sur le champ de bataille comme une copie de n’importe quelle créature sur le champ de bataille, excepté que c’est une illusion en plus de ses autres types et qu’elle acquiert « Quand cette créature devient la cible d’un sort ou d’une capacité, sacrifiez-la. »]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Puedes hacer que la Imagen fantasmal entre al campo de batalla como una copia de cualquier criatura en el campo de batalla, excepto que es una Ilusión además de sus otros tipos y gana “Cuando esta criatura sea objetivo de un hechizo o habilidad, sacrifícala”.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[あなたは幻影の像を、それが他のタイプに加えてイリュージョンであり、「このクリーチャーが呪文や能力の対象になったとき、それを生け贄に捧げる。」を得ることを除き、戦場に出ているいずれかのクリーチャーのコピーとして出してもよい。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[You may have Phantasmal Image enter the battlefield as a copy of any creature on the battlefield, except it’s an Illusion in addition to its other types and it gains “When this creature becomes the target of a spell or ability, sacrifice it.”]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Вы можете заставить Призрачный Образ выйти на поле битвы в качестве копии любого существа на поле битвы, но при этом он является Иллюзией в дополнение к своим другим типам и получает способность «Когда это существо становится целью заклинания или способности, пожертвуйте его».]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Você pode fazer com que Imagem Fantasmal entre no campo de batalha como uma cópia de qualquer criatura no campo de batalha, contudo ela ainda será uma Ilusão além de seus outros tipos e ganhará “Quando esta criatura se tornar alvo de uma mágica ou habilidade, sacrifique-a.”]]></LOCALISED_TEXT>
+    <TRIGGER value="ZONECHANGE_TRANSITION" simple_qualifier="self" to_zone="ZONE_IN_PLAY" />
     <TARGET_DEFINITION id="0">
     local filter = Object():GetFilter()
     filter:Clear()
@@ -77,16 +78,16 @@
     return (EffectSource() == nil)
     </DURATION>
   </TRIGGERED_ABILITY>
-  <TRIGGERED_ABILITY resource_id="1" auto_skip="1" filter_zone="ZONE_IN_PLAY">
+  <TRIGGERED_ABILITY resource_id="1" filter_zone="ZONE_IN_PLAY">
     <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[When this creature becomes the target of a spell or ability, sacrifice it.]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[When this creature becomes the target of a spell or ability, sacrifice it.]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[When this creature becomes the target of a spell or ability, sacrifice it.]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[When this creature becomes the target of a spell or ability, sacrifice it.]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[When this creature becomes the target of a spell or ability, sacrifice it.]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[When this creature becomes the target of a spell or ability, sacrifice it.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Quando questa creatura diventa bersaglio di una magia o abilità, sacrificala.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Wenn diese Kreatur das Ziel eines Zauberspruchs oder einer Fähigkeit wird, opfere sie.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Quand cette créature devient la cible d’un sort ou d’une capacité, sacrifiez-la.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Cuando esta criatura sea objetivo de un hechizo o habilidad, sacrifícala.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[このクリーチャーが呪文や能力の対象になったとき、それを生け贄に捧げる。]]></LOCALISED_TEXT>
     <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[When this creature becomes the target of a spell or ability, sacrifice it.]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[When this creature becomes the target of a spell or ability, sacrifice it.]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[When this creature becomes the target of a spell or ability, sacrifice it.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Когда это существо становится целью заклинания или способности, пожертвуйте его]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Quando esta criatura se tornar alvo de uma mágica ou habilidade, sacrifique-a.]]></LOCALISED_TEXT>
     <TRIGGER value="BECAME_TARGET" simple_qualifier="self" />
     <RESOLUTION_TIME_ACTION>
     local creature = EffectSource()
