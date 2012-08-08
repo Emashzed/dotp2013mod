@@ -101,6 +101,18 @@
     <Cell><Data ss:Type="String">Escolha uma permanente para encantar.</Data></Cell>
    </Row>
   </Table>
+  <Row>
+    <Cell><Data ss:Type="String">CARD_QUERY_CHOOSE_INSTANT_OR_SORCERY_TO_EXILE_COPY</Data></Cell>
+    <Cell ss:Index="3"><Data ss:Type="String">Choose an instant or sorcery card to exile and copy.</Data></Cell>
+    <Cell><Data ss:Type="String">Choisissez un éphémère ou un rituel pour le lancer.</Data></Cell>
+    <Cell><Data ss:Type="String">Elige un instantáneo o conjuro para lanzar.</Data></Cell>
+    <Cell><Data ss:Type="String">Bestimme einen Spontanzauber oder eine Hexerei, den bzw. die du wirken willst.</Data></Cell>
+    <Cell><Data ss:Type="String">Scegli un istantaneo o una stregoneria da lanciare.</Data></Cell>
+    <Cell ss:Index="9"><Data ss:Type="String">???????????????????</Data></Cell>
+    <Cell><Data ss:Type="String">??? ?????? ???? ? ?? ?????.</Data></Cell>
+    <Cell><Data ss:Type="String">???????? ?????????? ?????????? ??? ?????????? ??? ????????????.</Data></Cell>
+    <Cell><Data ss:Type="String">Escolha uma mágica instantânea ou um feitiço para conjurar.</Data></Cell>
+   </Row>
   <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
    <PageSetup>
     <Header x:Margin="0.3"/>
