@@ -3,39 +3,39 @@
   <FILENAME text="BLAZING_ARCHON_888270449" />
   <CARDNAME text="BLAZING_ARCHON" />
   <TITLE>
-     <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Blazing Archon]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Blazing Archon]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Blazing Archon]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Blazing Archon]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Blazing Archon]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[Blazing Archon]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[Blazing Archon]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Blazing Archon]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Blazing Archon]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Blazing Archon]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Arconte Sfavillante]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Flammender Archon]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Archonte brûlant]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Arconte llameante]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[魅力的な執政官]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[Blazing Archon]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Блистающий архон]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Arconte Flamejante]]></LOCALISED_TEXT>
   </TITLE>
   <MULTIVERSEID value="888270449" />
   <ARTID value="888270449" />
   <ARTIST name="Zoltan Boros &amp; Gabor Szikszai" />
   <CASTING_COST cost="{6}{W}{W}{W}" />
   <FLAVOURTEXT>
-     <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[“Through the haze of battle I saw the glint of sun on golden mane, the sheen of glory clad in mail, and I dropped my sword and wept at the idiocy of war.”
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA["Through the haze of battle I saw the glint of sun on golden mane, the sheen of glory clad in mail, and I dropped my sword and wept at the idiocy of war."
 —Dravin, Gruul deserter]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[“Through the haze of battle I saw the glint of sun on golden mane, the sheen of glory clad in mail, and I dropped my sword and wept at the idiocy of war.”
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA["Attraverso la furia della battaglia vidi il bagliore del sole su una chioma dorata, lo splendore della gloria vestito di una corazza; lasciai cadere la mia spada e piansi per la stupidità della guerra."
+—Dravin, disertore Gruul]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[„Durch den Staub der Schlacht sah ich das Glitzern der Sonne auf goldenen Mähnen, den Glanz von Ruhm auf Rüstungen – da warf ich mein Schwert weg und weinte ob der Dummheit von Kriegen."
+—Dravin, Gruul-Deserteur]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[« Dans la poussière du combat, je vis soudain le reflet du soleil sur une crinière d'or, la gloire revêtue d'une cote de mailles ; je lâchai mon épée et sanglotai devant l'idiotie de la guerre. »
+—Dravin, déserteur gruul]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA["A través de la bruma de la batalla divisé el fulgor del sol en una melena dorada, el resplandor de la gloria en armadura; solté mi espada y lloré por la idiotez que es la guerra."
+—Drávin, desertor gruul]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[戦いの喧騒の中に、私は黄金の髪の上に輝く太陽と、鎧に映る栄光が見えました。私は思わず剣を落とし、戦争の愚かしさに泣き崩れたのです。
+――グルールの脱走者、ドレイヴィン]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA["Through the haze of battle I saw the glint of sun on golden mane, the sheen of glory clad in mail, and I dropped my sword and wept at the idiocy of war."
 —Dravin, Gruul deserter]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[“Through the haze of battle I saw the glint of sun on golden mane, the sheen of glory clad in mail, and I dropped my sword and wept at the idiocy of war.”
-—Dravin, Gruul deserter]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[“Through the haze of battle I saw the glint of sun on golden mane, the sheen of glory clad in mail, and I dropped my sword and wept at the idiocy of war.”
-—Dravin, Gruul deserter]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[“Through the haze of battle I saw the glint of sun on golden mane, the sheen of glory clad in mail, and I dropped my sword and wept at the idiocy of war.”
-—Dravin, Gruul deserter]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[“Through the haze of battle I saw the glint of sun on golden mane, the sheen of glory clad in mail, and I dropped my sword and wept at the idiocy of war.”
-—Dravin, Gruul deserter]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[“Through the haze of battle I saw the glint of sun on golden mane, the sheen of glory clad in mail, and I dropped my sword and wept at the idiocy of war.”
-—Dravin, Gruul deserter]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[“Through the haze of battle I saw the glint of sun on golden mane, the sheen of glory clad in mail, and I dropped my sword and wept at the idiocy of war.”
-—Dravin, Gruul deserter]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[“Through the haze of battle I saw the glint of sun on golden mane, the sheen of glory clad in mail, and I dropped my sword and wept at the idiocy of war.”
-—Dravin, Gruul deserter]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA["Сквозь дым сражения я увидел отблеск солнца на золотой гриве и сияние славы, облеченной в кольчугу. И тогда я отбросил свой меч и зарыдал, осознав всю нелепость войны".
+—Дравин, груульский дезертир]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA["Através da névoa da batalha, pude ver o brilho do sol na crina dourada, o resplendor da glória coberto com uma malha, então abaixei minha espada e chorei a estupidez da guerra."
+—Dravin, desertor Gruul]]></LOCALISED_TEXT>
   </FLAVOURTEXT>
   <TYPE metaname="Creature" />
   <SUB_TYPE metaname="Archon" order_de-DE="0" order_es-ES="0" order_fr-FR="0" order_it-IT="0" order_jp-JA="0" order_ko-KR="0" order_pt-BR="0" order_ru-RU="0" />
@@ -44,30 +44,30 @@
   <POWER value="5" />
   <TOUGHNESS value="6" />
   <STATIC_ABILITY>
-     <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Flying]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Flying]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Flying]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Flying]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Flying]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[Flying]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[Flying]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Flying]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Flying]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Flying]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Volare]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Fliegend]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Vol]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Vuela.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[飛行]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[Flying]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Полет]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Voar]]></LOCALISED_TEXT>
     <CONTINUOUS_ACTION>
     local characteristics = Object():GetCurrentCharacteristics()
     characteristics:Characteristic_Set( CHARACTERISTIC_FLYING, 1 )
     </CONTINUOUS_ACTION>
   </STATIC_ABILITY>
   <STATIC_ABILITY>
-     <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Creatures can’t attack you.]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Creatures can’t attack you.]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Creatures can’t attack you.]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Creatures can’t attack you.]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Creatures can’t attack you.]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[Creatures can’t attack you.]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[Creatures can’t attack you.]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Creatures can’t attack you.]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Creatures can’t attack you.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Creatures can't attack you.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Le creature non possono attaccarti.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Kreaturen können dich nicht angreifen.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Les créatures ne peuvent pas vous attaquer.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Las criaturas no pueden atacarte.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[クリーチャーはあなたへの攻撃に参加できない。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[Creatures can't attack you.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Существа не могут на вас нападать.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[As criaturas não podem atacá-lo.]]></LOCALISED_TEXT>
 	<CONTINUOUS_ACTION layer="8">
 	local player = EffectController()
 	if player ~= nil then  

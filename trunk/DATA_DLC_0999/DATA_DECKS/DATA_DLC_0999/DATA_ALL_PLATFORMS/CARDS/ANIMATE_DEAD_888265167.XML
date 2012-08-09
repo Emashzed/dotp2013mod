@@ -3,16 +3,16 @@
   <FILENAME text="ANIMATE_DEAD_888265167" />
   <CARDNAME text="ANIMATE_DEAD" />
   <TITLE>
-     <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Animate Dead]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Animate Dead]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Animate Dead]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Animate Dead]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Animate Dead]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[Animate Dead]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[Animate Dead]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Animate Dead]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Animate Dead]]></LOCALISED_TEXT>
-  </TITLE>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Animate Dead]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Animare i Morti]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Belebung der Toten]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Animation des morts]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Animar a los muertos]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[Animate Dead]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[Animate Dead]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Animate Dead]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Reviver Cadáver]]></LOCALISED_TEXT>
+   </TITLE>
   <MULTIVERSEID value="888265167" />
   <ARTID value="888265167" />
   <ARTIST name="Anthony Jones" />

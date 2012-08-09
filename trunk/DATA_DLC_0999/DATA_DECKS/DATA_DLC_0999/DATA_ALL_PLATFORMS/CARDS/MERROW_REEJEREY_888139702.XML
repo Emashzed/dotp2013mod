@@ -3,30 +3,30 @@
   <FILENAME text="MERROW_REEJEREY_888139702" />
   <CARDNAME text="MERROW_REEJEREY" />
   <TITLE>
-     <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Merrow Reejerey]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Merrow Reejerey]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Merrow Reejerey]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Merrow Reejerey]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Merrow Reejerey]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[Merrow Reejerey]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[Merrow Reejerey]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Merrow Reejerey]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Merrow Reejerey]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Merrow Reejerey]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Reejerey Merrow]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Merrow-Rittersmann]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Reejerey suire]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Reejerey merrow]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[メロウの騎兵]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[Merrow Reejerey]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Вожак Мерроу]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Reejerey Sirenídeo]]></LOCALISED_TEXT>
   </TITLE>
   <MULTIVERSEID value="888139702" />
   <ARTID value="888139702" />
   <ARTIST name="Greg Staples" />
   <CASTING_COST cost="{2}{U}" />
   <FLAVOURTEXT>
-     <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Steady and silent as the deep current, the reejerey guides the course of the school.]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Steady and silent as the deep current, the reejerey guides the course of the school.]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Steady and silent as the deep current, the reejerey guides the course of the school.]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Steady and silent as the deep current, the reejerey guides the course of the school.]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Steady and silent as the deep current, the reejerey guides the course of the school.]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[Steady and silent as the deep current, the reejerey guides the course of the school.]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[Steady and silent as the deep current, the reejerey guides the course of the school.]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Steady and silent as the deep current, the reejerey guides the course of the school.]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Steady and silent as the deep current, the reejerey guides the course of the school.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Steady and silent as the deep current, the reejerey guides the course of the school.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Saldo e silenzioso come la corrente più profonda, il reejerey guida il corso del suo banco.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Still und stetig wie die Tiefenströmung leitet der Rittersmann den Schwarm in die richtige Richtung.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Aussi stable et silencieux que le courant profond, le reejerey guide la course du banc.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Firme y silencioso como la corriente profunda, el reejerey guía a todo el cardumen.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[騎兵は流れの深みのように、静かに確実に群れを導いていく。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[Steady and silent as the deep current, the reejerey guides the course of the school.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Уверенный и молчаливый, как глубоководное течение, вожак плывет впереди стаи.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Estáveis e silenciosos como as correntes profundas, os reejerey orientam o curso do cardume.]]></LOCALISED_TEXT>
   </FLAVOURTEXT>
   <TYPE metaname="Creature" />
   <SUB_TYPE metaname="Merfolk" order_de-DE="0" order_es-ES="0" order_fr-FR="0" order_it-IT="0" order_jp-JA="0" order_ko-KR="0" order_pt-BR="0" order_ru-RU="0" />
@@ -36,15 +36,15 @@
   <POWER value="2" />
   <TOUGHNESS value="2" />
   <STATIC_ABILITY filter_zone="ZONE_IN_PLAY">
-     <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Other Merfolk creatures you control get +1/+1.]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Other Merfolk creatures you control get +1/+1.]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Other Merfolk creatures you control get +1/+1.]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Other Merfolk creatures you control get +1/+1.]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Other Merfolk creatures you control get +1/+1.]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[Other Merfolk creatures you control get +1/+1.]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[Other Merfolk creatures you control get +1/+1.]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Other Merfolk creatures you control get +1/+1.]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Other Merfolk creatures you control get +1/+1.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Other Merfolk creatures you control get +1/+1.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Le altre creature Tritone che controlli prendono +1/+1.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Andere Meervolkkreaturen, die du kontrollierst, erhalten +1/+1.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Les autres créatures Ondin que vous contrôlez gagnent +1/+1.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Las otras criaturas Tritón que controlas obtienen +1/+1.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[あなたがコントロールする他のマーフォーク・クリーチャーは＋１/＋１の修整を受ける。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[Other Merfolk creatures you control get +1/+1.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Другие существа-Мерфолки под вашим контролем получают +1/+1.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[As outras criaturas do tipo Tritão que você controla recebem +1/+1.]]></LOCALISED_TEXT>
     <FILTER>
     return OtherCreaturesInPlayYouControlOfType( CREATURE_TYPE_MERFOLK )
     </FILTER>
@@ -59,15 +59,15 @@
     </CONTINUOUS_ACTION>
   </STATIC_ABILITY>
   <TRIGGERED_ABILITY filter_zone="ZONE_IN_PLAY">
-     <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Whenever you cast a Merfolk spell, you may tap or untap target permanent.]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Whenever you cast a Merfolk spell, you may tap or untap target permanent.]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Whenever you cast a Merfolk spell, you may tap or untap target permanent.]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Whenever you cast a Merfolk spell, you may tap or untap target permanent.]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Whenever you cast a Merfolk spell, you may tap or untap target permanent.]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[Whenever you cast a Merfolk spell, you may tap or untap target permanent.]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[Whenever you cast a Merfolk spell, you may tap or untap target permanent.]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Whenever you cast a Merfolk spell, you may tap or untap target permanent.]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Whenever you cast a Merfolk spell, you may tap or untap target permanent.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Whenever you cast a Merfolk spell, you may tap or untap target permanent.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Ogniqualvolta giochi una magia Tritone, puoi TAPpare o STAPpare un permanente bersaglio.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Immer wenn du einen Meervolk-Zauberspruch spielst, kannst du eine bleibende Karte deiner Wahl tappen oder enttappen.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[À chaque fois que vous jouez un sort d'ondin, vous pouvez engager ou dégager le permanent ciblé.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Siempre que juegues un hechizo de Tritón, puedes enderezar o girar el permanente objetivo.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[あなたがいずれかのマーフォーク呪文をプレイするたび、パーマネント１つを対象とする。あなたはそれをタップまたはアンタップしてもよい。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[Whenever you cast a Merfolk spell, you may tap or untap target permanent.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Каждый раз, когда вы разыгрываете заклинание Мерфолка, вы можете повернуть или развернуть целевой перманент.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Toda vez que você joga uma mágica de Tritão, você pode virar ou desvirar a permanente alvo.]]></LOCALISED_TEXT>
 	<TRIGGER value="SPELL_PLAYED">
     return TriggerObject():GetSubType():Test( CREATURE_TYPE_MERFOLK ) ~= 0 and TriggerObject():GetPlayer() == Object():GetPlayer()
     </TRIGGER>

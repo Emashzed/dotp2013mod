@@ -3,44 +3,44 @@
   <FILENAME text="MERCY_KILLING_888158771" />
   <CARDNAME text="MERCY_KILLING" />
   <TITLE>
-     <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Mercy Killing]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Mercy Killing]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Mercy Killing]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Mercy Killing]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Mercy Killing]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[Mercy Killing]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[Mercy Killing]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Mercy Killing]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Mercy Killing]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Mercy Killing]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Uccisione Misericordiosa]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Gnadentod]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Euthanasie]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Muerte piadosa]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[安楽死]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[Mercy Killing]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Убийство из Сострадания]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Assassinato por Misericórdia]]></LOCALISED_TEXT>
   </TITLE>
   <MULTIVERSEID value="888158771" />
   <ARTID value="888158771" />
   <ARTIST name="Dave Kendall" />
   <CASTING_COST cost="{2}{G/W}" />
   <FLAVOURTEXT>
-     <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[“We will give you the peace you seek, though you may not yet know you seek it.”]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[“We will give you the peace you seek, though you may not yet know you seek it.”]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[“We will give you the peace you seek, though you may not yet know you seek it.”]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[“We will give you the peace you seek, though you may not yet know you seek it.”]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[“We will give you the peace you seek, though you may not yet know you seek it.”]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[“We will give you the peace you seek, though you may not yet know you seek it.”]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[“We will give you the peace you seek, though you may not yet know you seek it.”]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[“We will give you the peace you seek, though you may not yet know you seek it.”]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[“We will give you the peace you seek, though you may not yet know you seek it.”]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA["We will give you the peace you seek, though you may not yet know you seek it."]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA["Ti daremo la pace che stai cercando, anche se non ti sei ancora accorto di cercarla davvero."]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[„Wir geben dir den Frieden, den du suchst, auch wenn du noch nicht weißt, dass du ihn suchst."]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[« Nous vous donnerons la paix que vous cherchez, même si vous ignorez encore que vous la cherchez. »]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA["Te daremos la paz que buscas, aunque todavía no sepas que la buscas."]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[「お前が求めている平安を与えよう。もっとも、それを求めていることをまだ知りはしないだろうが。」]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA["We will give you the peace you seek, though you may not yet know you seek it."]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[«Мы подарим вам мир, который вы стремитесь обрести, хотя, может быть, пока сами того не знаете».]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA["Ele lhe dará a paz que procura, embora você possa ainda não saber que a procura."]]></LOCALISED_TEXT>
   </FLAVOURTEXT>
   <TYPE metaname="Instant" />
   <EXPANSION value="DPG" />
   <RARITY metaname="U" />
   <SPELL_ABILITY dangerous="1" filter_zone="ZONE_IN_PLAY">
-     <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Target creature’s controller sacrifices it, then puts X 1/1 green and white Elf Warrior creature tokens onto the battlefield, where X is that creature’s power.]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Target creature’s controller sacrifices it, then puts X 1/1 green and white Elf Warrior creature tokens onto the battlefield, where X is that creature’s power.]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Target creature’s controller sacrifices it, then puts X 1/1 green and white Elf Warrior creature tokens onto the battlefield, where X is that creature’s power.]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Target creature’s controller sacrifices it, then puts X 1/1 green and white Elf Warrior creature tokens onto the battlefield, where X is that creature’s power.]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Target creature’s controller sacrifices it, then puts X 1/1 green and white Elf Warrior creature tokens onto the battlefield, where X is that creature’s power.]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[Target creature’s controller sacrifices it, then puts X 1/1 green and white Elf Warrior creature tokens onto the battlefield, where X is that creature’s power.]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[Target creature’s controller sacrifices it, then puts X 1/1 green and white Elf Warrior creature tokens onto the battlefield, where X is that creature’s power.]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Target creature’s controller sacrifices it, then puts X 1/1 green and white Elf Warrior creature tokens onto the battlefield, where X is that creature’s power.]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Target creature’s controller sacrifices it, then puts X 1/1 green and white Elf Warrior creature tokens onto the battlefield, where X is that creature’s power.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Target creature's controller sacrifices it, then puts X 1/1 green and white Elf Warrior creature tokens onto the battlefield, where X is that creature's power.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Il controllore di una creatura bersaglio la sacrifica, poi mette in gioco X pedine creatura Guerriero Elfo 1/1 bianche e verdi, dove X è la forza di quella creatura.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Der Beherrscher einer Kreatur deiner Wahl opfert sie und bringt dann X 1/1 grüne und weiße (Elf, Krieger)-Kreaturenspielsteine ins Spiel, wobei X gleich der Stärke der Kreatur ist.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Le contrôleur de la créature ciblée la sacrifie, puis il met en jeu X jetons de créature 1/1 verte et blanche Elfe et Guerrier, X étant la force de cette créature.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[El controlador de la criatura objetivo la sacrifica, luego pone en juego X fichas de criatura Guerrero Elfo verdes y blancas 1/1, donde X es la fuerza de esa criatura.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[クリーチャー１体を対象とする。そのクリーチャーのコントローラーはそれを生け贄に捧げる。その後、緑であり白である１/１のエルフ・戦士・クリーチャー・トークンをＸ体場に出す。Ｘはそのクリーチャーのパワーに等しい。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[Target creature's controller sacrifices it, then puts X 1/1 green and white Elf Warrior creature tokens onto the battlefield, where X is that creature's power.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Игрок, контролирующий целевое существо, приносит его в жертву, затем кладет в игру X фишек существа 1/1 зеленый и белый Эльф Воин, где X — значение силы того существа.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[O controlador da criatura alvo sacrifica-a e coloca em jogo X fichas de criatura verde e branca 1/1 do tipo Elfo Guerreiro, sendo X igual ao poder daquela criatura.]]></LOCALISED_TEXT>
     <TARGET_DEFINITION id="0">
     local filter = Object():GetFilter()
     filter:Clear()

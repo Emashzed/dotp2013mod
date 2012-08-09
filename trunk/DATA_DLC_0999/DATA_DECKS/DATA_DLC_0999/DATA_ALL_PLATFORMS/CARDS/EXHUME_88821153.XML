@@ -3,53 +3,53 @@
   <FILENAME text="EXHUME_88821153" />
   <CARDNAME text="EXHUME" />
   <TITLE>
-     <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Exhume]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Exhume]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Exhume]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Exhume]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Exhume]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[Exhume]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[Exhume]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Exhume]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Exhume]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Exhume]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Esumare]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Exhumierung]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Déterrement]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Exhumar]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[Exhume]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[Exhume]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Exhume]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Exumar]]></LOCALISED_TEXT>
   </TITLE>
   <MULTIVERSEID value="88821153" />
   <ARTID value="88821153" />
   <ARTIST name="Carl Critchlow" />
   <CASTING_COST cost="{1}{B}" />
   <FLAVOURTEXT>
-     <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[“Death—an outmoded concept. We sleep, and we change.”
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA["Death—an outmoded concept. We sleep, and we change."
 —Sitrik, birth priest]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[“Death—an outmoded concept. We sleep, and we change.”
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA["Death—an outmoded concept. We sleep, and we change."
 —Sitrik, birth priest]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[“Death—an outmoded concept. We sleep, and we change.”
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA["Tod? Was für ein altmodisches Konzept! Wir schlafen- und wir verändern uns." 
+-Sitrik, Geburtspriester]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA["Death—an outmoded concept. We sleep, and we change."
 —Sitrik, birth priest]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[“Death—an outmoded concept. We sleep, and we change.”
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA["Death—an outmoded concept. We sleep, and we change."
 —Sitrik, birth priest]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[“Death—an outmoded concept. We sleep, and we change.”
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA["Death—an outmoded concept. We sleep, and we change."
 —Sitrik, birth priest]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[“Death—an outmoded concept. We sleep, and we change.”
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA["Death—an outmoded concept. We sleep, and we change."
 —Sitrik, birth priest]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[“Death—an outmoded concept. We sleep, and we change.”
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA["Death—an outmoded concept. We sleep, and we change."
 —Sitrik, birth priest]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[“Death—an outmoded concept. We sleep, and we change.”
-—Sitrik, birth priest]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[“Death—an outmoded concept. We sleep, and we change.”
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA["Death—an outmoded concept. We sleep, and we change."
 —Sitrik, birth priest]]></LOCALISED_TEXT>
   </FLAVOURTEXT>
   <TYPE metaname="Sorcery" />
   <EXPANSION value="DPG" />
   <RARITY metaname="C" />
   <SPELL_ABILITY filter_zone="ZONE_IN_PLAY">
-     <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Each player puts a creature card from his or her graveyard onto the battlefield.]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Each player puts a creature card from his or her graveyard onto the battlefield.]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Each player puts a creature card from his or her graveyard onto the battlefield.]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Each player puts a creature card from his or her graveyard onto the battlefield.]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Each player puts a creature card from his or her graveyard onto the battlefield.]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[Each player puts a creature card from his or her graveyard onto the battlefield.]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[Each player puts a creature card from his or her graveyard onto the battlefield.]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Each player puts a creature card from his or her graveyard onto the battlefield.]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Each player puts a creature card from his or her graveyard onto the battlefield.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Each player puts a creature card from his or her graveyard onto the battlefield.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Each player puts a creature card from his or her graveyard onto the battlefield.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Jeder Spieler bestimmt eine Kreaturenkarte aus seinem Friedhof und bringt diese Karte ins Spiel.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Each player puts a creature card from his or her graveyard onto the battlefield.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Each player puts a creature card from his or her graveyard onto the battlefield.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[Each player puts a creature card from his or her graveyard onto the battlefield.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[Each player puts a creature card from his or her graveyard onto the battlefield.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Each player puts a creature card from his or her graveyard onto the battlefield.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Each player puts a creature card from his or her graveyard onto the battlefield.]]></LOCALISED_TEXT>
     <RESOLUTION_TIME_ACTION repeating="1">
     local n = MTG():GetActionRepCount()
     local num_players = MTG():GetNumberOfPlayers()

@@ -3,30 +3,30 @@
   <FILENAME text="LORTHOS_THE_TIDEMAKER_888191369" />
   <CARDNAME text="LORTHOS_THE_TIDEMAKER" />
   <TITLE>
-     <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Lorthos, the Tidemaker]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Lorthos, the Tidemaker]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Lorthos, the Tidemaker]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Lorthos, the Tidemaker]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Lorthos, the Tidemaker]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[Lorthos, the Tidemaker]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[Lorthos, the Tidemaker]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Lorthos, the Tidemaker]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Lorthos, the Tidemaker]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Lorthos, the Tidemaker]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Lorthos, lo Spostamaree]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Lorthos, der Gezeitenmacher]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Lorthos, le Faiseur de marées]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Lorthos, el creador de mareas]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[潮汐を作るもの、ロートス]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[Lorthos, the Tidemaker]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Лортос, Творец Приливов]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Lorthos, o Forma-Maré]]></LOCALISED_TEXT>
   </TITLE>
   <MULTIVERSEID value="888191369" />
   <ARTID value="888191369" />
   <ARTIST name="Kekai Kotaki" />
   <CASTING_COST cost="{5}{U}{U}{U}" />
   <FLAVOURTEXT>
-     <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[When Lorthos emerges from his deepwater realm, the tides bow to his will and the coastline cowers in his presence.]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[When Lorthos emerges from his deepwater realm, the tides bow to his will and the coastline cowers in his presence.]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[When Lorthos emerges from his deepwater realm, the tides bow to his will and the coastline cowers in his presence.]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[When Lorthos emerges from his deepwater realm, the tides bow to his will and the coastline cowers in his presence.]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[When Lorthos emerges from his deepwater realm, the tides bow to his will and the coastline cowers in his presence.]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[When Lorthos emerges from his deepwater realm, the tides bow to his will and the coastline cowers in his presence.]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[When Lorthos emerges from his deepwater realm, the tides bow to his will and the coastline cowers in his presence.]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[When Lorthos emerges from his deepwater realm, the tides bow to his will and the coastline cowers in his presence.]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[When Lorthos emerges from his deepwater realm, the tides bow to his will and the coastline cowers in his presence.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[When Lorthos emerges from his deepwater realm, the tides bow to his will and the coastline cowers in his presence.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Quando Lorthos emerge dal suo reame delle profondità, le maree si inchinano al suo volere e la costa si prostra alla sua presenza.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Wenn Lorthos aus seinem Tiefseereich auftaucht, fügt sich die Flut seinem Willen, und die Küste zieht sich zurück.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Quand Lorthos surgit des profondeurs de son royaume, les marées se plient à ses désirs et la côte tremble en sa présence.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Cuando Lorthos emerge de su reino en las profundidades, las mareas se inclinan a su voluntad y la costa se acobarda ante su presencia.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[ロートスが深海の王国から姿を現す時、潮流は彼の意志に頭を下げ、海岸は彼の存在に恐れおののく。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[When Lorthos emerges from his deepwater realm, the tides bow to his will and the coastline cowers in his presence.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Когда Лортос поднимается на поверхность из своего глубоководного царства, приливы подчиняются его воле, а побережье сжимается от страха.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Quando Lorthos emerge de seu reino abissal, as marés curvam-se ao seu comando e o litoral encolhe-se em sua presença.]]></LOCALISED_TEXT>
   </FLAVOURTEXT>
   <SUPERTYPE metaname="Legendary" />
   <TYPE metaname="Creature" />
@@ -36,15 +36,15 @@
   <POWER value="8" />
   <TOUGHNESS value="8" />
   <TRIGGERED_ABILITY dangerous="1" filter_zone="ZONE_IN_PLAY">
-     <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Whenever Lorthos, the Tidemaker attacks, you may pay {8}. If you do, tap up to eight target permanents. Those permanents don’t untap during their controllers’ next untap steps.]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Whenever Lorthos, the Tidemaker attacks, you may pay {8}. If you do, tap up to eight target permanents. Those permanents don’t untap during their controllers’ next untap steps.]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Whenever Lorthos, the Tidemaker attacks, you may pay {8}. If you do, tap up to eight target permanents. Those permanents don’t untap during their controllers’ next untap steps.]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Whenever Lorthos, the Tidemaker attacks, you may pay {8}. If you do, tap up to eight target permanents. Those permanents don’t untap during their controllers’ next untap steps.]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Whenever Lorthos, the Tidemaker attacks, you may pay {8}. If you do, tap up to eight target permanents. Those permanents don’t untap during their controllers’ next untap steps.]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[Whenever Lorthos, the Tidemaker attacks, you may pay {8}. If you do, tap up to eight target permanents. Those permanents don’t untap during their controllers’ next untap steps.]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[Whenever Lorthos, the Tidemaker attacks, you may pay {8}. If you do, tap up to eight target permanents. Those permanents don’t untap during their controllers’ next untap steps.]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Whenever Lorthos, the Tidemaker attacks, you may pay {8}. If you do, tap up to eight target permanents. Those permanents don’t untap during their controllers’ next untap steps.]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Whenever Lorthos, the Tidemaker attacks, you may pay {8}. If you do, tap up to eight target permanents. Those permanents don’t untap during their controllers’ next untap steps.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Whenever Lorthos, the Tidemaker attacks, you may pay {8}. If you do, tap up to eight target permanents. Those permanents don't untap during their controllers' next untap steps.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Ogniqualvolta Lorthos, lo Spostamaree attacca, puoi pagare {8}. Se lo fai, TAPpa fino a otto permanenti bersaglio. Quei permanenti non STAPpano durante i prossimi STAP dei loro controllori.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Immer wenn Lorthos der Gezeitenmacher angreift, kannst du {8} bezahlen. Falls du das tust, tappe bis zu acht bleibende Karten deiner Wahl. Diese bleibenden Karten enttappen nicht während des nächsten Enttappsegments ihrer Besitzer.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[À chaque fois que Lorthos, le Faiseur de marées attaque, vous pouvez payer {8}. Si vous faites ainsi, engagez jusqu'à huit permanents ciblés. Ces permanents ne se dégagent pas pendant les prochaines étapes de dégagement de leurs contrôleurs.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Siempre que Lorthos, el creador de mareas, ataque, puedes pagar {8}. Si lo haces, gira hasta ocho permanentes objetivo. Esos permanentes no se enderezan durante el próximo paso de enderezar de sus controladores.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[潮汐を作るもの、ロートスが攻撃するたび、最大８つまでのパーマネントを対象とする。あなたは{8}を支払ってもよい。 そうした場合、それらのパーマネントをタップする。 それらのパーマネントは、それらのパーマネントのコントローラーの次のアンタップ・ステップにアンタップしない。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[Whenever Lorthos, the Tidemaker attacks, you may pay {8}. If you do, tap up to eight target permanents. Those permanents don't untap during their controllers' next untap steps.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Каждый раз, когда Лортос, Творец Приливов атакует, вы можете заплатить {8}. Если вы это делаете, поверните не более восьми целевых перманентов. Те перманенты не разворачиваются во время следующих шагов разворота контролирующих их игроков.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Toda vez que Lorthos, o Forma-Maré, ataca, você pode pagar {8}. Se fizer isso, vire até oito permanentes alvo. Essas permanentes não desviram durante a próxima etapa de desvirar de seus controladores.]]></LOCALISED_TEXT>
     <TRIGGER value="ATTACKING" simple_qualifier="self">
     return EffectController():CanAfford("{8}") == 1
     </TRIGGER>

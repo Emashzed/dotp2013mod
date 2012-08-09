@@ -3,15 +3,15 @@
   <FILENAME text="BARREN_MOOR_888220487" />
   <CARDNAME text="BARREN_MOOR" />
   <TITLE>
-     <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Barren Moor]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Barren Moor]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Barren Moor]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Barren Moor]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Barren Moor]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[Barren Moor]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[Barren Moor]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Barren Moor]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Barren Moor]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Barren Moor]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Brughiera Brulla]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Ödes Moor]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Lande stérile]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Páramo estéril]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[Barren Moor]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[Barren Moor]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Barren Moor]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Charneca Estéril]]></LOCALISED_TEXT>
   </TITLE>
   <MULTIVERSEID value="888220487" />
   <ARTID value="888220487" />
@@ -21,15 +21,15 @@
   <EXPANSION value="DPG" />
   <RARITY metaname="C" />
   <TRIGGERED_ABILITY internal="1" filter_zone="ZONE_IN_PLAY">
-     <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Barren Moor enters the battlefield tapped.]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Barren Moor enters the battlefield tapped.]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Barren Moor enters the battlefield tapped.]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Barren Moor enters the battlefield tapped.]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Barren Moor enters the battlefield tapped.]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[Barren Moor enters the battlefield tapped.]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[Barren Moor enters the battlefield tapped.]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Barren Moor enters the battlefield tapped.]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Barren Moor enters the battlefield tapped.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Barren Moor enters the battlefield tapped.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[La Brughiera Brulla entra in gioco TAPpata.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Das Öde Moor kommt getappt ins Spiel.{T}: Erhöhe deinen Manavorrat um {B}.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[La Lande stérile arrive en jeu engagée.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[El Páramo estéril entra en juego girado.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[Barren Moor enters the battlefield tapped.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[Barren Moor enters the battlefield tapped.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Barren Moor enters the battlefield tapped.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Charneca Estéril entra em jogo virado.]]></LOCALISED_TEXT>
     <TRIGGER value="ZONECHANGE_END" simple_qualifier="self" to_zone="ZONE_IN_PLAY" />
     <RESOLUTION_TIME_ACTION>
     if TriggerObject() ~= nil then
@@ -38,28 +38,28 @@
     </RESOLUTION_TIME_ACTION>
   </TRIGGERED_ABILITY>
   <MANA_ABILITY>
-     <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[{T}: Add {B} to your mana pool.]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[{T}: Add {B} to your mana pool.]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[{T}: Add {B} to your mana pool.]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[{T}: Add {B} to your mana pool.]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[{T}: Add {B} to your mana pool.]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[{T}: Add {B} to your mana pool.]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[{T}: Add {B} to your mana pool.]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[{T}: Add {B} to your mana pool.]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[{T}: Add {B} to your mana pool.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[{T}: Add {B} to your mana pool.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[{T}: Aggiungi {B} alla tua riserva di mana.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Umwandlung {B} ({B}, wirf diese Karte aus deiner Hand ab: Ziehe eine Karte.)]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[{T} : Ajoutez {B} à votre réserve.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[{T}: Agrega {B} a tu reserva de maná.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[{T}: Add {B} to your mana pool.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[{T}: Add {B} to your mana pool.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[{T}: Add {B} to your mana pool.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[{T}: Adiciona {B} à sua reserva de mana.]]></LOCALISED_TEXT>
     <COST type="TapSelf" />
     <PRODUCES amount="{B}" />
   </MANA_ABILITY>
   <ACTIVATED_ABILITY auto_skip="1" filter_zone="ZONE_IN_PLAY" active_zone="ZONE_HAND">
-     <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Cycling {B} |(|{B}|, Discard this card: Draw a card.)|]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Cycling {B} |(|{B}|, Discard this card: Draw a card.)|]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Cycling {B} |(|{B}|, Discard this card: Draw a card.)|]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Cycling {B} |(|{B}|, Discard this card: Draw a card.)|]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Cycling {B} |(|{B}|, Discard this card: Draw a card.)|]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[Cycling {B} |(|{B}|, Discard this card: Draw a card.)|]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[Cycling {B} |(|{B}|, Discard this card: Draw a card.)|]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Cycling {B} |(|{B}|, Discard this card: Draw a card.)|]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Cycling {B} |(|{B}|, Discard this card: Draw a card.)|]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Cycling {B} ({B}, Discard this card: Draw a card.)]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Ciclo {B} ({B} Scarta questa carta dalla tua mano: Pesca una carta).]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Cycling {B} ({B}, Discard this card: Draw a card.)]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Recyclage {B} ({B}, défaussez-vous de cette carte de votre main : Piochez une carte.)]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Ciclo {B}. ({B}, descartar esta carta de tu mano: Roba una carta.)]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[Cycling {B} ({B}, Discard this card: Draw a card.)]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[Cycling {B} ({B}, Discard this card: Draw a card.)]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Cycling {B} ({B}, Discard this card: Draw a card.)]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Reciclar {B} ({B}, Descarte este card de sua mão: Compre um card.)]]></LOCALISED_TEXT>
     <COST type="DiscardSelf" />
     <COST type="Mana" cost="{B}" />
     <PLAY_TIME_ACTION>

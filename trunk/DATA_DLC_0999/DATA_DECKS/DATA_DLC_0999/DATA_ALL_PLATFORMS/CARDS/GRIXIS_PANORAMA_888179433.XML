@@ -3,57 +3,57 @@
   <FILENAME text="GRIXIS_PANORAMA_888179433" />
   <CARDNAME text="GRIXIS_PANORAMA" />
   <TITLE>
-     <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Grixis Panorama]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Grixis Panorama]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Grixis Panorama]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Grixis Panorama]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Grixis Panorama]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[Grixis Panorama]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[Grixis Panorama]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Grixis Panorama]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Grixis Panorama]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Grixis Panorama]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Panorama di Grixis]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Panorama von Grixis]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Panorama de Grixis]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Panorama de Grixis]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[グリクシスの全景]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[Grixis Panorama]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Панорама Гриксиса]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Panorama de Grixis]]></LOCALISED_TEXT>
   </TITLE>
   <MULTIVERSEID value="888179433" />
   <ARTID value="888179433" />
   <ARTIST name="Nils Hamm" />
   <CASTING_COST cost="" />
   <FLAVOURTEXT>
-     <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[There is no height above Grixis that is free from the stench of death.]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[There is no height above Grixis that is free from the stench of death.]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[There is no height above Grixis that is free from the stench of death.]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[There is no height above Grixis that is free from the stench of death.]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[There is no height above Grixis that is free from the stench of death.]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[There is no height above Grixis that is free from the stench of death.]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[There is no height above Grixis that is free from the stench of death.]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[There is no height above Grixis that is free from the stench of death.]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[There is no height above Grixis that is free from the stench of death.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[There is no height above Grixis that is free from the stench of death.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Non ci sono alture sopra Grixis che è priva del fetore della morte.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Es gibt keine Erhöhung in Grixis, auf der man dem Gestank des Todes entgehen könnte.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Même le ciel au-dessus de Grixis n'échappe pas à la puanteur de la mort.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[No hay ningún pico en Grixis a salvo del hedor de la muerte.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[グリクシスには、死の臭いから逃れえる高みなど存在しない。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[There is no height above Grixis that is free from the stench of death.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Как бы высоко ты не поднялся над Гриксисом, ты всегда будешь чувствовать зловоние смерти.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Não há altura acima de Grixis que esteja livre do fedor da morte.]]></LOCALISED_TEXT>
   </FLAVOURTEXT>
   <TYPE metaname="Land" />
   <EXPANSION value="DPG" />
   <RARITY metaname="C" />
   <MANA_ABILITY>
-     <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[{T}: Add {1} to your mana pool.]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[{T}: Add {1} to your mana pool.]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[{T}: Add {1} to your mana pool.]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[{T}: Add {1} to your mana pool.]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[{T}: Add {1} to your mana pool.]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[{T}: Add {1} to your mana pool.]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[{T}: Add {1} to your mana pool.]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[{T}: Add {1} to your mana pool.]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[{T}: Add {1} to your mana pool.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[{T}: Add {1} to your mana pool.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[{T}: Aggiungi {1} alla tua riserva di mana.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[{T}: Erhöhe deinen Manavorrat um {1}.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[{T} : Ajoutez {1} à votre réserve.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[{T}: Agrega {1} a tu reserva de maná.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[{T}：あなたのマナ・プールに{1}を加える。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[{T}: Add {1} to your mana pool.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[{T}: добавьте {1} в ваше хранилище маны.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[{T}: Adicione {1} à sua reserva de mana.]]></LOCALISED_TEXT>
     <COST type="TapSelf" />
     <PRODUCES amount="{1}" />
   </MANA_ABILITY>
   <ACTIVATED_ABILITY auto_skip="1">
-     <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[{1}, {T}, Sacrifice Grixis Panorama: Search your library for a basic Island, Swamp, or Mountain card and put it onto the battlefield tapped. Then shuffle your library.]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[{1}, {T}, Sacrifice Grixis Panorama: Search your library for a basic Island, Swamp, or Mountain card and put it onto the battlefield tapped. Then shuffle your library.]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[{1}, {T}, Sacrifice Grixis Panorama: Search your library for a basic Island, Swamp, or Mountain card and put it onto the battlefield tapped. Then shuffle your library.]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[{1}, {T}, Sacrifice Grixis Panorama: Search your library for a basic Island, Swamp, or Mountain card and put it onto the battlefield tapped. Then shuffle your library.]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[{1}, {T}, Sacrifice Grixis Panorama: Search your library for a basic Island, Swamp, or Mountain card and put it onto the battlefield tapped. Then shuffle your library.]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[{1}, {T}, Sacrifice Grixis Panorama: Search your library for a basic Island, Swamp, or Mountain card and put it onto the battlefield tapped. Then shuffle your library.]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[{1}, {T}, Sacrifice Grixis Panorama: Search your library for a basic Island, Swamp, or Mountain card and put it onto the battlefield tapped. Then shuffle your library.]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[{1}, {T}, Sacrifice Grixis Panorama: Search your library for a basic Island, Swamp, or Mountain card and put it onto the battlefield tapped. Then shuffle your library.]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[{1}, {T}, Sacrifice Grixis Panorama: Search your library for a basic Island, Swamp, or Mountain card and put it onto the battlefield tapped. Then shuffle your library.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[{1}, {T}, Sacrifice Grixis Panorama: Search your library for a basic Island, Swamp, or Mountain card and put it onto the battlefield tapped. Then shuffle your library.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[{1}, {T}, Sacrifica il Panorama di Grixis: Passa in rassegna il tuo grimorio per una carta Isola, Palude o Montagna base e mettila in gioco TAPpata. Poi rimescola il tuo grimorio.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[{1}, {T}, opfere das Panorama von Grixis: Durchsuche deine Bibliothek nach einer Standardinsel, einem Standardsumpf oder einem Standardgebirge und bringe das Land getappt ins Spiel. Mische danach deine Bibliothek.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[{1}, {T}, sacrifiez le Panorama de Grixis : Cherchez dans votre bibliothèque une carte de base d'île, de marais ou de montagne et mettez-la en jeu engagée. Mélangez ensuite votre bibliothèque.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[{1}, {T}, sacrificar el Panorama de Grixis: Busca en tu biblioteca una carta de isla, pantano o montaña básica y ponla en juego girada. Luego baraja tu biblioteca.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[{1}, {T}, グリクシスの全景を生け贄に捧げる：あなたのライブラリーから基本島カード１枚か基本沼カード１枚か基本山カード１枚を探し、それをタップ状態で場に出す。 その後あなたのライブラリーを切り直す。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[{1}, {T}, Sacrifice Grixis Panorama: Search your library for a basic Island, Swamp, or Mountain card and put it onto the battlefield tapped. Then shuffle your library.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[{1}, {T}, пожертвуйте Панораму Гриксиса: найдите в вашей библиотеке карту базового Острова, Болота или Горы и положите ее в игру повернутой. Затем перетасуйте вашу библиотеку.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[{1}, {T}, Sacrifique Panorama de Grixis: Procure em seu grimório por um card de terreno básico do tipo Ilha, Pântano ou Montanha e coloque-o em jogo virado. Depois, embaralhe seu grimório.]]></LOCALISED_TEXT>
     <AVAILABILITY>
     return EffectController():CanAfford("{2}") == 1
     </AVAILABILITY>

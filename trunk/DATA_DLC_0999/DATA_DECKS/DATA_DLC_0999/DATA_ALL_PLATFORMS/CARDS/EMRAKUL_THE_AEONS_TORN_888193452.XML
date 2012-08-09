@@ -4,14 +4,14 @@
   <CARDNAME text="EMRAKUL_THE_AEONS_TORN" />
   <TITLE>
     <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Emrakul, the Aeons Torn]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Emrakul, the Aeons Torn]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Emrakul, the Aeons Torn]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Emrakul, the Aeons Torn]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Emrakul, the Aeons Torn]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[Emrakul, the Aeons Torn]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Emrakul, lo Strazio Eterno]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Emrakul, die zerfetzten Zeitalter]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Emrakul, Déchirure des Éons]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Emrakul, los eones desgarrados]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[引き裂かれし永劫、エムラクール]]></LOCALISED_TEXT>
     <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[Emrakul, the Aeons Torn]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Emrakul, the Aeons Torn]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Emrakul, the Aeons Torn]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Эмракул, Изорванная Вечность]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Emrakul, o Fragmento dos Éons]]></LOCALISED_TEXT>
   </TITLE>
   <MULTIVERSEID value="888193452" />
   <ARTID value="888193452" />
@@ -25,15 +25,15 @@
   <POWER value="15" />
   <TOUGHNESS value="15" />
   <STATIC_ABILITY filter_zone="ZONE_ANY" active_zone="ZONE_STACK">
-    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Emrakul, the Aeons Torn can’t be countered.]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Emrakul, the Aeons Torn can’t be countered.]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Emrakul, the Aeons Torn can’t be countered.]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Emrakul, the Aeons Torn can’t be countered.]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Emrakul, the Aeons Torn can’t be countered.]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[Emrakul, the Aeons Torn can’t be countered.]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[Emrakul, the Aeons Torn can’t be countered.]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Emrakul, the Aeons Torn can’t be countered.]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Emrakul, the Aeons Torn can’t be countered.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Emrakul, the Aeons Torn can't be countered.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Emrakul, lo Strazio Eterno non può essere neutralizzato.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Emrakul, die zerfetzten Zeitalter kann nicht neutralisiert werden.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Emrakul, Déchirure des Éons ne peut pas être contrecarré.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Emrakul, los eones desgarrados no puede ser contrarrestado.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[引き裂かれし永劫、エムラクールは打ち消されない。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[Emrakul, the Aeons Torn can't be countered.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Эмракул, Изорванная Вечность не может быть отменен.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Emrakul, o Fragmento dos Éons, não pode ser anulado.]]></LOCALISED_TEXT>
     <CONTINUOUS_ACTION>
     local characteristics = Object():GetCurrentCharacteristics()
     characteristics:Characteristic_Set( CHARACTERISTIC_CANT_BE_COUNTERED, 1 )
@@ -41,14 +41,14 @@
   </STATIC_ABILITY>
   <TRIGGERED_ABILITY auto_skip="1" filter_zone="ZONE_IN_PLAY" active_zone="ZONE_STACK">
     <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[When you cast Emrakul, take an extra turn after this one.]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[When you cast Emrakul, take an extra turn after this one.]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[When you cast Emrakul, take an extra turn after this one.]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[When you cast Emrakul, take an extra turn after this one.]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[When you cast Emrakul, take an extra turn after this one.]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[When you cast Emrakul, take an extra turn after this one.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Quando lanci Emrakul, gioca un altro turno dopo questo.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Wenn du Emrakul wirkst, erhältst du nach diesem Zug einen zusätzlichen Zug.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Quand vous lancez Emrakul, jouez un tour supplémentaire après celui-ci.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Cuando lances a Emrakul, toma un turno adicional después de éste.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[あなたが引き裂かれし永劫、エムラクールを唱えたとき、このターンに続いて追加の１ターンを行う。]]></LOCALISED_TEXT>
     <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[When you cast Emrakul, take an extra turn after this one.]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[When you cast Emrakul, take an extra turn after this one.]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[When you cast Emrakul, take an extra turn after this one.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Когда вы разыгрываете Эмракула, сделайте дополнительный ход вслед за этим.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Quando conjurar Emrakul, jogue um turno extra após este.]]></LOCALISED_TEXT>
     <TRIGGER value="SPELL_PLAYED" simple_qualifier="self" />
 	<RESOLUTION_TIME_ACTION>
     local target_player = EffectController()
@@ -60,14 +60,14 @@
   </TRIGGERED_ABILITY>
   <STATIC_ABILITY>
     <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Flying, protection from colored spells, annihilator 6]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Flying, protection from colored spells, annihilator 6]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Flying, protection from colored spells, annihilator 6]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Flying, protection from colored spells, annihilator 6]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Flying, protection from colored spells, annihilator 6]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[Flying, protection from colored spells, annihilator 6]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Volare, protezione dalle magie colorate, annientatore 6]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Fliegend, Schutz vor farbigen Zaubersprüchen, Vernichter 6]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Vol, protection contre les sorts colorés, annihilateur 6]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Vuela, protección contra hechizos de color, aniquilador 6.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[飛行、プロテクション（有色の呪文）、滅殺 ６]]></LOCALISED_TEXT>
     <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[Flying, protection from colored spells, annihilator 6]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Flying, protection from colored spells, annihilator 6]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Flying, protection from colored spells, annihilator 6]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Полет, Защита от цветных заклинаний, Аннигилятор 6]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Voar, proteção contra mágicas coloridas, aniquilador 6]]></LOCALISED_TEXT>
 	<CONTINUOUS_ACTION>
     local characteristics = Object():GetCurrentCharacteristics()
     characteristics:Characteristic_Set( CHARACTERISTIC_FLYING, 1 )
@@ -190,14 +190,14 @@
   </TRIGGERED_ABILITY>
   <TRIGGERED_ABILITY auto_skip="1" filter_zone="ZONE_IN_PLAY" active_zone="ZONE_GRAVEYARD">
     <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[When Emrakul is put into a graveyard from anywhere, its owner shuffles his or her graveyard into his or her library.]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[When Emrakul is put into a graveyard from anywhere, its owner shuffles his or her graveyard into his or her library.]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[When Emrakul is put into a graveyard from anywhere, its owner shuffles his or her graveyard into his or her library.]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[When Emrakul is put into a graveyard from anywhere, its owner shuffles his or her graveyard into his or her library.]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[When Emrakul is put into a graveyard from anywhere, its owner shuffles his or her graveyard into his or her library.]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[When Emrakul is put into a graveyard from anywhere, its owner shuffles his or her graveyard into his or her library.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Quando Emrakul viene messo in un cimitero da qualsiasi zona, il suo proprietario rimescola il suo cimitero nel suo grimorio.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Wenn Emrakul von irgendwoher auf den Friedhof gelegt wird, mischt sein Besitzer seinen Friedhof in seine Bibliothek.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Quand Emrakul est mis dans un cimetière depuis n'importe où, son propriétaire mélange son cimetière à sa bibliothèque.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Cuando Emrakul vaya a un cementerio desde cualquier parte, su propietario baraja su cementerio en su biblioteca.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[引き裂かれし永劫、エムラクールがいずれかの領域からいずれかの墓地に置かれたとき、オーナーは自分の墓地を自分のライブラリーに加えて切り直す。]]></LOCALISED_TEXT>
     <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[When Emrakul is put into a graveyard from anywhere, its owner shuffles his or her graveyard into his or her library.]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[When Emrakul is put into a graveyard from anywhere, its owner shuffles his or her graveyard into his or her library.]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[When Emrakul is put into a graveyard from anywhere, its owner shuffles his or her graveyard into his or her library.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Когда Эмракул попадает откуда-либо на кладбище, его владелец втасовывает свое кладбище в свою библиотеку.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Quando Emrakul é colocado num cemitério vindo de qualquer lugar, seu dono embaralha seu próprio cemitério em seu próprio grimório.]]></LOCALISED_TEXT>
     <TRIGGER value="ZONECHANGE_END" simple_qualifier="self" to_zone="ZONE_GRAVEYARD" from_zone="ZONE_ANY" />
     <RESOLUTION_TIME_ACTION>
     local owner = Object():GetOwner()

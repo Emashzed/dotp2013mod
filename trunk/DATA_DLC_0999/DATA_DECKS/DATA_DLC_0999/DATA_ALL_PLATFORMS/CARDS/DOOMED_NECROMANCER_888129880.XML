@@ -3,30 +3,30 @@
   <FILENAME text="DOOMED_NECROMANCER_888129880" />
   <CARDNAME text="DOOMED_NECROMANCER" />
   <TITLE>
-     <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Doomed Necromancer]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Doomed Necromancer]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Doomed Necromancer]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Doomed Necromancer]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Doomed Necromancer]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[Doomed Necromancer]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[Doomed Necromancer]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Doomed Necromancer]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Doomed Necromancer]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Doomed Necromancer]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Negromante Condannato]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Verdammter Geisterbeschwörer]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Nécromancien condamné]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Nigromante condenado]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[宿命のネクロマンサー]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[Doomed Necromancer]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Обреченный Некромант]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Necromante Condenado]]></LOCALISED_TEXT>
   </TITLE>
   <MULTIVERSEID value="888129880" />
   <ARTID value="888129880" />
   <ARTIST name="Volkan Baga" />
   <CASTING_COST cost="{2}{B}" />
   <FLAVOURTEXT>
-     <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Many necromancers share the same last words—the ones that conclude the undeath ritual.]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Many necromancers share the same last words—the ones that conclude the undeath ritual.]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Many necromancers share the same last words—the ones that conclude the undeath ritual.]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Many necromancers share the same last words—the ones that conclude the undeath ritual.]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Many necromancers share the same last words—the ones that conclude the undeath ritual.]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[Many necromancers share the same last words—the ones that conclude the undeath ritual.]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[Many necromancers share the same last words—the ones that conclude the undeath ritual.]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Many necromancers share the same last words—the ones that conclude the undeath ritual.]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Many necromancers share the same last words—the ones that conclude the undeath ritual.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Many necromancers share the same last words—the ones that conclude the undeath ritual.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Molti negromanti condividono le stesse ultime parole: quelle che concludono il rituale della non morte.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Viele Geisterbeschwörer benutzen die gleichen letzten Worte – die letzten Worte des Rituals, mit dem sie sich selbst zu Untoten machen.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Bon nombre de nécromanciens périssent de la même manière — en prononçant les dernières incantations du rituel de la morte-vie.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Muchos nigromantes comparten las mismas últimas palabras; las que concluyen el ritual de muerte viviente.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[多くの屍術士が同じ遺言を残す――不死の儀式の終了だ。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[Many necromancers share the same last words—the ones that conclude the undeath ritual.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[У многих некромантов одни и те же последние слова — это слова, которыми заканчивается ритуал вызова нежити.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Muitos necromantes compartilham as mesmas últimas palavras — as que concluem o ritual dos mortos-vivos.]]></LOCALISED_TEXT>
   </FLAVOURTEXT>
   <TYPE metaname="Creature" />
   <SUB_TYPE metaname="Human" order_de-DE="0" order_es-ES="0" order_fr-FR="0" order_it-IT="0" order_jp-JA="0" order_ko-KR="0" order_pt-BR="0" order_ru-RU="0" />
@@ -37,15 +37,15 @@
   <POWER value="2" />
   <TOUGHNESS value="2" />
   <ACTIVATED_ABILITY>
-     <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[{B}, {T}, Sacrifice Doomed Necromancer: Return target creature card from your graveyard to the battlefield.]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[{B}, {T}, Sacrifice Doomed Necromancer: Return target creature card from your graveyard to the battlefield.]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[{B}, {T}, Sacrifice Doomed Necromancer: Return target creature card from your graveyard to the battlefield.]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[{B}, {T}, Sacrifice Doomed Necromancer: Return target creature card from your graveyard to the battlefield.]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[{B}, {T}, Sacrifice Doomed Necromancer: Return target creature card from your graveyard to the battlefield.]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[{B}, {T}, Sacrifice Doomed Necromancer: Return target creature card from your graveyard to the battlefield.]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[{B}, {T}, Sacrifice Doomed Necromancer: Return target creature card from your graveyard to the battlefield.]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[{B}, {T}, Sacrifice Doomed Necromancer: Return target creature card from your graveyard to the battlefield.]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[{B}, {T}, Sacrifice Doomed Necromancer: Return target creature card from your graveyard to the battlefield.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[{B}, {T}, Sacrifice Doomed Necromancer: Return target creature card from your graveyard to the battlefield.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[{B}, {T}, Sacrifica il Negromante Condannato: Rimetti in gioco una carta creatura bersaglio dal tuo cimitero.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[{B}, {T}, opfere den Verdammten Geisterbeschwörer: Bringe eine Kreaturenkarte deiner Wahl aus deinem Friedhof ins Spiel zurück.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[{B}, {T}, sacrifiez le Nécromancien condamné : Renvoyez en jeu la carte de créature ciblée de votre cimetière.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[{B}, {T}, sacrificar el Nigromante condenado: Regresa la carta de criatura objetivo de tu cementerio al juego.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[{B}, {T}, 宿命のネクロマンサーを生け贄に捧げる：あなたの墓地にあるクリーチャー・カード１枚を対象とし、それを場に戻す。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[{B}, {T}, Sacrifice Doomed Necromancer: Return target creature card from your graveyard to the battlefield.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[{B}, {T}, Пожертвуйте Обреченного Некроманта: Верните целевую карту существа из вашего кладбища в игру.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[{B}, {T}, Sacrifique Necromante Condenado: Devolva o card de criatura alvo de seu cemitério para o jogo.]]></LOCALISED_TEXT>
     <COST type="Mana" cost="{B}" />
 	<COST type="TapSelf" />
 	<COST type="SacrificeSelf" />

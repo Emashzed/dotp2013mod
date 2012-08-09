@@ -3,30 +3,30 @@
   <FILENAME text="IONA_SHIELD_OF_EMERIA_888190407" />
   <CARDNAME text="IONA_SHIELD_OF_EMERIA" />
   <TITLE>
-     <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Iona, Shield of Emeria]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Iona, Shield of Emeria]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Iona, Shield of Emeria]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Iona, Shield of Emeria]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Iona, Shield of Emeria]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[Iona, Shield of Emeria]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[Iona, Shield of Emeria]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Iona, Shield of Emeria]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Iona, Shield of Emeria]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Iona, Shield of Emeria]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Iona, Scudo di Emeria]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Iona, Emerias Schild]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Iona, Bouclier d'Éméria]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Iona, Escudo de Emeria]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[エメリアの盾、イオナ]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[Iona, Shield of Emeria]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Иона, Защитница Эмерии]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Iona, Escudo de Emeria]]></LOCALISED_TEXT>
   </TITLE>
   <MULTIVERSEID value="888190407" />
   <ARTID value="888190407" />
   <ARTIST name="Jason Chan" />
   <CASTING_COST cost="{6}{W}{W}{W}" />
   <FLAVOURTEXT>
-     <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[No more shall the righteous cower before evil.]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[No more shall the righteous cower before evil.]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[No more shall the righteous cower before evil.]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[No more shall the righteous cower before evil.]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[No more shall the righteous cower before evil.]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[No more shall the righteous cower before evil.]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[No more shall the righteous cower before evil.]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[No more shall the righteous cower before evil.]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[No more shall the righteous cower before evil.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[No more shall the righteous cower before evil.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Perché i giusti non debbano più rannicchiarsi di fronte al male.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Nie wieder sollen sich die Rechtschaffenen vor dem Bösen verstecken müssen.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Les justes ne trembleront plus devant le mal.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Los justos ya no deberán temer a los malvados.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[邪悪の前に正義のひるむ事はもう無い。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[No more shall the righteous cower before evil.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Отныне благочестивые перестанут отступать перед злом.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Os justos não terão mais de se curvar perante o mal.]]></LOCALISED_TEXT>
   </FLAVOURTEXT>
   <SUPERTYPE metaname="Legendary" />
   <TYPE metaname="Creature" />
@@ -36,30 +36,30 @@
   <POWER value="7" />
   <TOUGHNESS value="7" />
   <STATIC_ABILITY>
-     <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Flying]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Flying]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Flying]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Flying]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Flying]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[Flying]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[Flying]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Flying]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Flying]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Flying]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Volare]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Fliegend]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Vol]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Vuela.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[飛行]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[Flying]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Полет]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Voar]]></LOCALISED_TEXT>
     <CONTINUOUS_ACTION>
     local characteristics = Object():GetCurrentCharacteristics()
     characteristics:Characteristic_Set( CHARACTERISTIC_FLYING, 1 )
     </CONTINUOUS_ACTION>
   </STATIC_ABILITY>
   <TRIGGERED_ABILITY auto_skip="1" pre_trigger="1" filter_zone="ZONE_IN_PLAY" active_zone="ZONE_TRANSITION">
-     <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[As Iona, Shield of Emeria enters the battlefield, choose a color.]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[As Iona, Shield of Emeria enters the battlefield, choose a color.]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[As Iona, Shield of Emeria enters the battlefield, choose a color.]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[As Iona, Shield of Emeria enters the battlefield, choose a color.]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[As Iona, Shield of Emeria enters the battlefield, choose a color.]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[As Iona, Shield of Emeria enters the battlefield, choose a color.]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[As Iona, Shield of Emeria enters the battlefield, choose a color.]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[As Iona, Shield of Emeria enters the battlefield, choose a color.]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[As Iona, Shield of Emeria enters the battlefield, choose a color.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[As Iona, Shield of Emeria enters the battlefield, choose a color.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Mentre Iona, Scudo di Emeria entra nel campo di battaglia, scegli un colore.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Sowie Iona, Emerias Schild, ins Spiel kommt, bestimme eine Farbe.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Au moment où Iona, Bouclier d'Éméria arrive sur le champ de bataille, choisissez une couleur.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[En cuanto Iona, Escudo de Emeria, entre al campo de batalla, elige un color.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[エメリアの盾、イオナが戦場に出るに際し、色を１色選ぶ。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[As Iona, Shield of Emeria enters the battlefield, choose a color.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[При выходе Ионы, Защитницы Эмерии на поле битвы выберите цвет.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Conforme Iona, Escudo de Emeria, entra no campo de batalha, escolha uma cor.]]></LOCALISED_TEXT>
     <TRIGGER value="ZONECHANGE_TRANSITION" simple_qualifier="self" to_zone="ZONE_IN_PLAY" />
     <RESOLUTION_TIME_ACTION>
     EffectController():ChooseColour("CARD_QUERY_CHOOSE_COLOUR", 1)  
@@ -69,15 +69,15 @@
     </RESOLUTION_TIME_ACTION>
   </TRIGGERED_ABILITY>
   <STATIC_ABILITY filter_zone="ZONE_ANY" active_zone="ZONE_ANY">
-     <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Your opponents can’t cast spells of the chosen color.]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Your opponents can’t cast spells of the chosen color.]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Your opponents can’t cast spells of the chosen color.]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Your opponents can’t cast spells of the chosen color.]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Your opponents can’t cast spells of the chosen color.]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[Your opponents can’t cast spells of the chosen color.]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[Your opponents can’t cast spells of the chosen color.]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Your opponents can’t cast spells of the chosen color.]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Your opponents can’t cast spells of the chosen color.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Your opponents can't cast spells of the chosen color.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[I tuoi avversari non possono lanciare magie del colore scelto.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Deine Gegner können keine Zaubersprüche der bestimmten Farbe wirken.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Vos adversaires ne peuvent pas lancer de sorts de la couleur choisie.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Tus oponentes no pueden lanzar hechizos del color elegido.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[あなたの対戦相手は選ばれた色の呪文を唱えられない。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[Your opponents can't cast spells of the chosen color.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Ваши оппоненты не могут разыгрывать заклинания выбранного цвета.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Seus oponentes não podem conjurar mágicas da cor escolhida.]]></LOCALISED_TEXT>
 	<FILTER>
 	local chosencolor = ObjectDC():Get_Int( 0 )
 	return (FilteredCard() ~= nil and 

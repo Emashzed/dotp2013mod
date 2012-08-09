@@ -3,30 +3,30 @@
   <FILENAME text="LYS_ALANA_HUNTMASTER_888158125" />
   <CARDNAME text="LYS_ALANA_HUNTMASTER" />
   <TITLE>
-     <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Lys Alana Huntmaster]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Lys Alana Huntmaster]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Lys Alana Huntmaster]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Lys Alana Huntmaster]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Lys Alana Huntmaster]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[Lys Alana Huntmaster]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[Lys Alana Huntmaster]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Lys Alana Huntmaster]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Lys Alana Huntmaster]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Lys Alana Huntmaster]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Capocaccia di Lys Alana]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Jagdführer von Lys Alana]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Maître-chasseur de Lys Alana]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Maestro de caza de Lys Alana]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[リス・アラナの狩りの達人]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[Lys Alana Huntmaster]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Главный Охотник Лиз-Аланы]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Mestre de Caça de Lys Alana]]></LOCALISED_TEXT>
   </TITLE>
   <MULTIVERSEID value="888158125" />
   <ARTID value="888158125" />
   <ARTIST name="Pete Venters" />
   <CASTING_COST cost="{2}{G}{G}" />
   <FLAVOURTEXT>
-     <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[From the highest tiers of Dawn’s Light Palace to the deepest shade of Wren’s Run, the silver notes of the horn shimmer through the air, and all who hear it feel its pull.]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[From the highest tiers of Dawn’s Light Palace to the deepest shade of Wren’s Run, the silver notes of the horn shimmer through the air, and all who hear it feel its pull.]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[From the highest tiers of Dawn’s Light Palace to the deepest shade of Wren’s Run, the silver notes of the horn shimmer through the air, and all who hear it feel its pull.]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[From the highest tiers of Dawn’s Light Palace to the deepest shade of Wren’s Run, the silver notes of the horn shimmer through the air, and all who hear it feel its pull.]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[From the highest tiers of Dawn’s Light Palace to the deepest shade of Wren’s Run, the silver notes of the horn shimmer through the air, and all who hear it feel its pull.]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[From the highest tiers of Dawn’s Light Palace to the deepest shade of Wren’s Run, the silver notes of the horn shimmer through the air, and all who hear it feel its pull.]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[From the highest tiers of Dawn’s Light Palace to the deepest shade of Wren’s Run, the silver notes of the horn shimmer through the air, and all who hear it feel its pull.]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[From the highest tiers of Dawn’s Light Palace to the deepest shade of Wren’s Run, the silver notes of the horn shimmer through the air, and all who hear it feel its pull.]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[From the highest tiers of Dawn’s Light Palace to the deepest shade of Wren’s Run, the silver notes of the horn shimmer through the air, and all who hear it feel its pull.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[From the highest tiers of Dawn's Light Palace to the deepest shade of Wren's Run, the silver notes of the horn shimmer through the air, and all who hear it feel its pull.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Dai più alti ordini del Palazzo Luce dell'Aurora alle ombre più profonde di Volo dello Scricciolo, le note argentee del suo corno luccicano nell'aria e chi le ode se ne sente attirato.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Von den obersten Stockwerken des Morgenlichtpalastes bis in die tiefsten Schatten des Zaunkönigreviers: Die silbrigen Klänge des Horns schimmern in der Luft, und wer es hören kann, fühlt sich davon angezogen.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Des hauteurs du Palais de Lumière d'aurore aux ombres les plus noires de la Garenne du Roitelet, le doux son argenté de la corne résonne dans les airs, et chacun ressent son appel.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Desde las filas más altas del Palacio Luz del Amanecer hasta la sombra más profunda de Coto de Reyezuelos, las notas plateadas del cuerno brillan en el aire, y todos aquellos que las escuchan sienten su atracción.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[曙光の宮殿の最上位からレンの地の最も暗い影まで、角笛の銀の音色は響き渡り、それを耳にした誰もが引きつけられていく。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[From the highest tiers of Dawn's Light Palace to the deepest shade of Wren's Run, the silver notes of the horn shimmer through the air, and all who hear it feel its pull.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[От самых верхних ярусов Лучезарного дворца до самых сумрачных уголоков Корольковых Угодий, воздух пронизывают серебряные звуки охотничьего рога, и каждый, кто их слышит, чувствует их властный призыв.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Das camadas mais altas do Palácio de Luz D'Alba à sombra mais profunda de Toca da Corruíra, as notas prateadas da trombeta tremulam no ar, e todos que as ouvem sentem sua força.]]></LOCALISED_TEXT>
   </FLAVOURTEXT>
   <TYPE metaname="Creature" />
   <SUB_TYPE metaname="Elf" order_de-DE="0" order_es-ES="0" order_fr-FR="0" order_it-IT="0" order_jp-JA="0" order_ko-KR="0" order_pt-BR="0" order_ru-RU="0" />
@@ -36,15 +36,15 @@
   <POWER value="3" />
   <TOUGHNESS value="3" />
   <TRIGGERED_ABILITY auto_skip="1" filter_zone="ZONE_IN_PLAY">
-     <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Whenever you cast an Elf spell, you may put a 1/1 green Elf Warrior creature token onto the battlefield.]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Whenever you cast an Elf spell, you may put a 1/1 green Elf Warrior creature token onto the battlefield.]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Whenever you cast an Elf spell, you may put a 1/1 green Elf Warrior creature token onto the battlefield.]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Whenever you cast an Elf spell, you may put a 1/1 green Elf Warrior creature token onto the battlefield.]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Whenever you cast an Elf spell, you may put a 1/1 green Elf Warrior creature token onto the battlefield.]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[Whenever you cast an Elf spell, you may put a 1/1 green Elf Warrior creature token onto the battlefield.]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[Whenever you cast an Elf spell, you may put a 1/1 green Elf Warrior creature token onto the battlefield.]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Whenever you cast an Elf spell, you may put a 1/1 green Elf Warrior creature token onto the battlefield.]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Whenever you cast an Elf spell, you may put a 1/1 green Elf Warrior creature token onto the battlefield.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Whenever you cast an Elf spell, you may put a 1/1 green Elf Warrior creature token onto the battlefield.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Ogniqualvolta giochi una magia Elfo, puoi mettere in gioco una pedina creatura Guerriero Elfo 1/1 verde.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Immer wenn du einen Elfenzauber spielst, kannst du einen 1/1 grünen (Elf, Krieger)-Kreaturspielstein ins Spiel bringen.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[À chaque fois que vous jouez un sort d'elfe, vous pouvez mettre en jeu un jeton de créature 1/1 verte Elfe et Guerrier.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Siempre que juegues un hechizo de Elfo, puedes poner en juego una ficha de criatura Guerrero Elfo verde 1/1.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[あなたがエルフ呪文をプレイするたび、あなたは緑の１/１のエルフ・戦士・クリーチャー・トークンを１体場に出してもよい。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[Whenever you cast an Elf spell, you may put a 1/1 green Elf Warrior creature token onto the battlefield.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Каждый раз, когда вы разыгрываете заклинание Эльфа, вы можете положить в игру одну фишку существа 1/1 зеленый Эльф Воин.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Toda vez que você joga uma mágica de Elfo, você pode colocar em jogo uma ficha de criatura verde 1/1 do tipo Elfo Guerreiro.]]></LOCALISED_TEXT>
     <TRIGGER value="SPELL_PLAYED">
     return (TriggerObject():GetSubType():Test( CREATURE_TYPE_ELF ) ~= 0) and TriggerObject():GetPlayer() == EffectController()
     </TRIGGER>

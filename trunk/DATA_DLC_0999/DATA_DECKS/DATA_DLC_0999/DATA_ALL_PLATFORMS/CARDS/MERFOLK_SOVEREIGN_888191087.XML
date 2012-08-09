@@ -3,30 +3,30 @@
   <FILENAME text="MERFOLK_SOVEREIGN_888191087" />
   <CARDNAME text="MERFOLK_SOVEREIGN" />
   <TITLE>
-     <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Merfolk Sovereign]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Merfolk Sovereign]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Merfolk Sovereign]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Merfolk Sovereign]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Merfolk Sovereign]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[Merfolk Sovereign]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[Merfolk Sovereign]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Merfolk Sovereign]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Merfolk Sovereign]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Merfolk Sovereign]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Sovrana dei Tritoni]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Meervolk-Souverän]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Souveraine ondine]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Tritón soberano]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[マーフォークの君主]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[Merfolk Sovereign]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Мерфолк-Владыка]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Tritão Soberano]]></LOCALISED_TEXT>
   </TITLE>
   <MULTIVERSEID value="888191087" />
   <ARTID value="888191087" />
   <ARTIST name="Jesper Ejsing" />
   <CASTING_COST cost="{1}{U}{U}" />
   <FLAVOURTEXT>
-     <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[“The sharks envy our ferocity. The eels envy our cunning.”]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[“The sharks envy our ferocity. The eels envy our cunning.”]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[“The sharks envy our ferocity. The eels envy our cunning.”]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[“The sharks envy our ferocity. The eels envy our cunning.”]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[“The sharks envy our ferocity. The eels envy our cunning.”]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[“The sharks envy our ferocity. The eels envy our cunning.”]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[“The sharks envy our ferocity. The eels envy our cunning.”]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[“The sharks envy our ferocity. The eels envy our cunning.”]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[“The sharks envy our ferocity. The eels envy our cunning.”]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA["Be like the sea: flow around that which is unmovable; for everything else, crash into it unrelentingly."]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA["Fai come il mare: fluisci intorno a ciò che è inamovibile; per tutto il resto, infrangiti inesorabilmente contro di esso."]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[„Sei wie das Meer: Fließe um alles herum, was du nicht bewegen kannst, und stürze dich auf alles andere unbarmherzig."]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[« Soyez comme la mer : contournez ce qui est immuable. Quant au reste, pulvérisez-le sans hésiter. »]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA["Sé como el mar: fluye alrededor de lo que es inamovible, y choca sin descanso contra todo lo demás."]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[「海の如く在れ。動かざるものの周りを流れ、容赦なく他の誰にも襲い掛かれ。」]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA["Be like the sea: flow around that which is unmovable; for everything else, crash into it unrelentingly."]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[«Будьте как море: обтекайте все неподвижное и неумолимо обрушивайтесь на все остальное».]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA["Seja como o mar: circunde tudo o que for imóvel e castigue duramente todo o resto."]]></LOCALISED_TEXT>
   </FLAVOURTEXT>
   <TYPE metaname="Creature" />
   <SUB_TYPE metaname="Merfolk" order_de-DE="0" order_es-ES="0" order_fr-FR="0" order_it-IT="0" order_jp-JA="0" order_ko-KR="0" order_pt-BR="0" order_ru-RU="0" />
@@ -35,15 +35,15 @@
   <POWER value="2" />
   <TOUGHNESS value="2" />
   <STATIC_ABILITY filter_zone="ZONE_IN_PLAY">
-     <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Other Merfolk creatures you control get +1/+1.]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Other Merfolk creatures you control get +1/+1.]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Other Merfolk creatures you control get +1/+1.]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Other Merfolk creatures you control get +1/+1.]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Other Merfolk creatures you control get +1/+1.]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[Other Merfolk creatures you control get +1/+1.]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[Other Merfolk creatures you control get +1/+1.]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Other Merfolk creatures you control get +1/+1.]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Other Merfolk creatures you control get +1/+1.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Other Merfolk creatures you control get +1/+1.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Le altre creature Tritone che controlli prendono +1/+1.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Andere Meervolk-Kreaturen, die du kontrollierst, erhalten +1/+1.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Les autres créatures Ondin que vous contrôlez gagnent +1/+1.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Las otras criaturas Tritón que controlas obtienen +1/+1.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[あなたがコントロールする他のマーフォーク・クリーチャーは＋１/＋１の修整を受ける。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[Other Merfolk creatures you control get +1/+1.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Другие существа-Мерфолки под вашим контролем получают +1/+1.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[As outras criaturas do tipo Tritão que você controla recebem +1/+1.]]></LOCALISED_TEXT>
     <FILTER>
     return OtherCreaturesInPlayYouControlOfType( CREATURE_TYPE_MERFOLK )
     </FILTER>
@@ -58,15 +58,15 @@
     </CONTINUOUS_ACTION>
   </STATIC_ABILITY>
   <ACTIVATED_ABILITY filter_zone="ZONE_IN_PLAY">
-     <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[{T}: Target Merfolk creature is unblockable this turn.]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[{T}: Target Merfolk creature is unblockable this turn.]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[{T}: Target Merfolk creature is unblockable this turn.]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[{T}: Target Merfolk creature is unblockable this turn.]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[{T}: Target Merfolk creature is unblockable this turn.]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[{T}: Target Merfolk creature is unblockable this turn.]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[{T}: Target Merfolk creature is unblockable this turn.]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[{T}: Target Merfolk creature is unblockable this turn.]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[{T}: Target Merfolk creature is unblockable this turn.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[{T}: Target Merfolk creature is unblockable this turn.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[{T}: Una creatura Tritone bersaglio non può essere bloccata in questo turno.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[{T}: Eine Meervolk-Kreatur deiner Wahl ist in diesem Zug unblockbar.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[{T} : La créature Ondin ciblée est imblocable ce tour-ci.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[{T}: La criatura Tritón objetivo es imbloqueable este turno.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[{T}：マーフォーク・クリーチャー１体を対象とする。このターン、それはブロックされない。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[{T}: Target Merfolk creature is unblockable this turn.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[{T}: целевое существо-Мерфолк не может быть заблокировано в этом ходу.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[{T}: A criatura alvo do tipo Tritão não pode ser bloqueada neste turno.]]></LOCALISED_TEXT>
 	<COST type="TapSelf" />
     <TARGET_DEFINITION id="0">
     local filter = Object():GetFilter()
