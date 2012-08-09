@@ -3,15 +3,15 @@
   <FILENAME text="DAZE_888189255" />
   <CARDNAME text="DAZE" />
   <TITLE>
-     <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Daze]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Daze]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Daze]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Daze]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Daze]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[Daze]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[Daze]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Daze]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Daze]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Daze]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Sbalordire]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Dämmerzustand]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Hébétude]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Ofuscar]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[Daze]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[Daze]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Daze]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Pasmar]]></LOCALISED_TEXT>
   </TITLE>
   <MULTIVERSEID value="888189255" />
   <ARTID value="888189255" />
@@ -21,15 +21,15 @@
   <EXPANSION value="DPG" />
   <RARITY metaname="C" />
   <UTILITY_ABILITY filter_zone="ZONE_IN_PLAY">
-     <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[You may return an Island you control to its owner’s hand rather than pay Daze’s mana cost.]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[You may return an Island you control to its owner’s hand rather than pay Daze’s mana cost.]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[You may return an Island you control to its owner’s hand rather than pay Daze’s mana cost.]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[You may return an Island you control to its owner’s hand rather than pay Daze’s mana cost.]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[You may return an Island you control to its owner’s hand rather than pay Daze’s mana cost.]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[You may return an Island you control to its owner’s hand rather than pay Daze’s mana cost.]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[You may return an Island you control to its owner’s hand rather than pay Daze’s mana cost.]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[You may return an Island you control to its owner’s hand rather than pay Daze’s mana cost.]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[You may return an Island you control to its owner’s hand rather than pay Daze’s mana cost.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[You may return an Island you control to its owner's hand rather than pay Daze's mana cost.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[You may return an Island you control to its owner's hand rather than pay Daze's mana cost.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Du kannst eine Insel, die Du kontrollierst, auf die Hand ihres Besitzers zurückbringen, anstatt die Manakosten des Dämmerzustands zu bezahlen.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[You may return an Island you control to its owner's hand rather than pay Daze's mana cost.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[You may return an Island you control to its owner's hand rather than pay Daze's mana cost.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[You may return an Island you control to its owner's hand rather than pay Daze's mana cost.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[You may return an Island you control to its owner's hand rather than pay Daze's mana cost.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[You may return an Island you control to its owner's hand rather than pay Daze's mana cost.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[You may return an Island you control to its owner's hand rather than pay Daze's mana cost.]]></LOCALISED_TEXT>
      <COST type="RETURN_TO_HAND" qualifier="alternate" tag="ALTERNATE_COST_RETURN_ISLAND">
       <TARGET_DEFINITION id="6">
       local filter = Object():GetFilter()
@@ -47,15 +47,15 @@
       </PLAYTIME></COST>
   </UTILITY_ABILITY>
   <SPELL_ABILITY filter_zone="ZONE_IN_PLAY">
-     <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Counter target spell unless its controller pays {1}.]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Counter target spell unless its controller pays {1}.]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Counter target spell unless its controller pays {1}.]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Counter target spell unless its controller pays {1}.]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Counter target spell unless its controller pays {1}.]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[Counter target spell unless its controller pays {1}.]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[Counter target spell unless its controller pays {1}.]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Counter target spell unless its controller pays {1}.]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Counter target spell unless its controller pays {1}.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Counter target spell unless its controller pays {1}.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Counter target spell unless its controller pays {1}.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Neutralisiere einen Zauberspruch Deiner Wahl, wenn sein Beherrscher nicht 1 bezahlt.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Counter target spell unless its controller pays {1}.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Counter target spell unless its controller pays {1}.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[Counter target spell unless its controller pays {1}.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[Counter target spell unless its controller pays {1}.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Counter target spell unless its controller pays {1}.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Counter target spell unless its controller pays {1}.]]></LOCALISED_TEXT>
     <TARGET_DEFINITION id="0">
     local filter = Object():GetFilter()
     filter:Clear()

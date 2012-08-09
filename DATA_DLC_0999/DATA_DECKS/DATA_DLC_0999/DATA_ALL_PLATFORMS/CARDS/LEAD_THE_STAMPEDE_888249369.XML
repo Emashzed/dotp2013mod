@@ -3,15 +3,15 @@
   <FILENAME text="LEAD_THE_STAMPEDE_888249369" />
   <CARDNAME text="LEAD_THE_STAMPEDE" />
   <TITLE>
-     <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Lead the Stampede]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Lead the Stampede]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Lead the Stampede]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Lead the Stampede]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Lead the Stampede]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[Lead the Stampede]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[Lead the Stampede]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Lead the Stampede]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Lead the Stampede]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Lead the Stampede]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Guidare l'Assalto]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Den Ansturm leiten]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[En tête de la ruée]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Liderar la estampida]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[暴走の先導]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[Lead the Stampede]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Во Главе Табуна]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Guiar o Estouro]]></LOCALISED_TEXT>
   </TITLE>
   <MULTIVERSEID value="888249369" />
   <ARTID value="888249369" />
@@ -21,15 +21,15 @@
   <EXPANSION value="DPG" />
   <RARITY metaname="U" />
   <SPELL_ABILITY>
-     <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Look at the top five cards of your library. You may reveal any number of creature cards from among them and put the revealed cards into your hand. Put the rest on the bottom of your library in any order.]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Look at the top five cards of your library. You may reveal any number of creature cards from among them and put the revealed cards into your hand. Put the rest on the bottom of your library in any order.]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Look at the top five cards of your library. You may reveal any number of creature cards from among them and put the revealed cards into your hand. Put the rest on the bottom of your library in any order.]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Look at the top five cards of your library. You may reveal any number of creature cards from among them and put the revealed cards into your hand. Put the rest on the bottom of your library in any order.]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Look at the top five cards of your library. You may reveal any number of creature cards from among them and put the revealed cards into your hand. Put the rest on the bottom of your library in any order.]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[Look at the top five cards of your library. You may reveal any number of creature cards from among them and put the revealed cards into your hand. Put the rest on the bottom of your library in any order.]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[Look at the top five cards of your library. You may reveal any number of creature cards from among them and put the revealed cards into your hand. Put the rest on the bottom of your library in any order.]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Look at the top five cards of your library. You may reveal any number of creature cards from among them and put the revealed cards into your hand. Put the rest on the bottom of your library in any order.]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Look at the top five cards of your library. You may reveal any number of creature cards from among them and put the revealed cards into your hand. Put the rest on the bottom of your library in any order.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Look at the top five cards of your library. You may reveal any number of creature cards from among them and put the revealed cards into your hand. Put the rest on the bottom of your library in any order.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Guarda le prime cinque carte del tuo grimorio. Puoi rivelare un qualsiasi numero di carte creatura tra esse e aggiungere le carte rivelate alla tua mano. Metti le altre in fondo al tuo grimorio in qualsiasi ordine.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Schaue dir die obersten 5 Karten deiner Bibliothek an. Du kannst eine beliebige Anzahl an Kreaturenkarten darunter offen vorzeigen und diese vorgezeigten Karten auf die Hand nehmen. Lege den Rest in beliebiger Reihenfolge unter deine Bibliothek.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Regardez les cinq cartes du dessus de votre bibliothèque. Vous pouvez révéler n'importe quel nombre de cartes de créature parmi elles et mettre les cartes révélées dans votre main. Mettez les autres au-dessous de votre bibliothèque, dans n'importe quel ordre.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Mira las primeras cinco cartas de tu biblioteca. Puedes mostrar cualquier cantidad de cartas de criatura que se encuentren entre ellas y poner las cartas mostradas en tu mano. Pon el resto en la parte inferior de tu biblioteca en cualquier orden.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[あなたのライブラリーの一番上から５枚のカードを見る。 あなたはその中から望む枚数のクリーチャー・カードを公開してもよい。そうしたなら、それらの公開したカードをあなたの手札に加える。 残りをあなたのライブラリーの一番下に望む順番で置く。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[Look at the top five cards of your library. You may reveal any number of creature cards from among them and put the revealed cards into your hand. Put the rest on the bottom of your library in any order.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Посмотрите пять верхних карт вашей библиотеки. Вы можете показать любое количество находящихся среди них карт существ и положить показанные карты в вашу руку. Положите остальные карты в низ вашей библиотеки в любом порядке.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Olhe os cinco cards do topo de seu grimório. Você pode revelar qualquer número de cards de criatura dentre eles e colocar os cards revelados na sua mão. Coloque o resto no fundo de seu grimório em qualquer ordem.]]></LOCALISED_TEXT>
     <RESOLUTION_TIME_ACTION>
     local count = 0  
     for i=0, 4 do    

@@ -3,15 +3,15 @@
   <FILENAME text="MASS_POLYMORPH_888204977" />
   <CARDNAME text="MASS_POLYMORPH" />
   <TITLE>
-     <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Mass Polymorph]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Mass Polymorph]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Mass Polymorph]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Mass Polymorph]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Mass Polymorph]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[Mass Polymorph]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[Mass Polymorph]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Mass Polymorph]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Mass Polymorph]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Mass Polymorph]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Polimorfismo di Massa]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Massen-Polymorph]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Polymorphisme de masse]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Transmutación masiva]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[集団変身]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[Mass Polymorph]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Массовый Полиморф]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Polimorfismo de Massa]]></LOCALISED_TEXT>
   </TITLE>
   <MULTIVERSEID value="888204977" />
   <ARTID value="888204977" />
@@ -21,15 +21,15 @@
   <EXPANSION value="DPG" />
   <RARITY metaname="R" />
   <SPELL_ABILITY filter_zone="ZONE_IN_PLAY">
-     <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Exile all creatures you control, then reveal cards from the top of your library until you reveal that many creature cards. Put all creature cards revealed this way onto the battlefield, then shuffle the rest of the revealed cards into your library.]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Exile all creatures you control, then reveal cards from the top of your library until you reveal that many creature cards. Put all creature cards revealed this way onto the battlefield, then shuffle the rest of the revealed cards into your library.]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Exile all creatures you control, then reveal cards from the top of your library until you reveal that many creature cards. Put all creature cards revealed this way onto the battlefield, then shuffle the rest of the revealed cards into your library.]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Exile all creatures you control, then reveal cards from the top of your library until you reveal that many creature cards. Put all creature cards revealed this way onto the battlefield, then shuffle the rest of the revealed cards into your library.]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Exile all creatures you control, then reveal cards from the top of your library until you reveal that many creature cards. Put all creature cards revealed this way onto the battlefield, then shuffle the rest of the revealed cards into your library.]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[Exile all creatures you control, then reveal cards from the top of your library until you reveal that many creature cards. Put all creature cards revealed this way onto the battlefield, then shuffle the rest of the revealed cards into your library.]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[Exile all creatures you control, then reveal cards from the top of your library until you reveal that many creature cards. Put all creature cards revealed this way onto the battlefield, then shuffle the rest of the revealed cards into your library.]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Exile all creatures you control, then reveal cards from the top of your library until you reveal that many creature cards. Put all creature cards revealed this way onto the battlefield, then shuffle the rest of the revealed cards into your library.]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Exile all creatures you control, then reveal cards from the top of your library until you reveal that many creature cards. Put all creature cards revealed this way onto the battlefield, then shuffle the rest of the revealed cards into your library.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Exile all creatures you control, then reveal cards from the top of your library until you reveal that many creature cards. Put all creature cards revealed this way onto the battlefield, then shuffle the rest of the revealed cards into your library.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Esilia tutte le creature che controlli, poi rivela carte dalla cima del tuo grimorio fino a che non riveli altrettante carte creatura. Metti sul campo di battaglia tutte le carte creatura rivelate in questo modo, poi rimescola le altre carte rivelate nel tuo grimorio.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Schicke alle Kreaturen, die du kontrollierst, ins Exil und decke dann so lange Karten oben von deiner Bibliothek auf, bis du ebenso viele Kreaturenkarten aufgedeckt hast. Bringe alle Kreaturenkarten, die auf diese Weise aufgedeckt wurden, ins Spiel, und mische dann den Rest der auf diese Weise aufgedeckten Karten in deine Bibliothek.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Exilez toutes les créatures que vous contrôlez, puis révélez les cartes du dessus de votre bibliothèque jusqu'à ce que vous révéliez autant de cartes de créature. Mettez toutes les cartes de créature révélées de cette manière sur le champ de bataille et mélangez ensuite le reste des cartes révélées ainsi dans votre bibliothèque.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Exilia todas las criaturas que controlas, luego muestra cartas de la parte superior de tu biblioteca hasta que muestres esa misma cantidad de cartas de criatura. Pon en el campo de batalla todas las cartas de criatura mostradas de esta manera, luego baraja el resto de las cartas mostradas en tu biblioteca.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[あなたがコントロールするすべてのクリーチャーを追放し、その後、あなたのライブラリーの一番上のカードを、その数に等しい枚数のクリーチャー・カードが公開されるまで公開し続ける。 これにより公開されたすべてのクリーチャー・カードを戦場に出し、その後残りの公開されたカードをあなたのライブラリーに加えて切り直す。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[Exile all creatures you control, then reveal cards from the top of your library until you reveal that many creature cards. Put all creature cards revealed this way onto the battlefield, then shuffle the rest of the revealed cards into your library.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Изгоните все существа под вашим контролем, затем показывайте карты с верха вашей библиотеки до тех пор, пока вы не покажете столько же карт существ. Положите все карты существ, показанные таким образом, на поле битвы, затем втасуйте остальные показанные карты в вашу библиотеку.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Exile todas as criaturas que você controla, depois revele cards do topo de seu grimório até revelar uma quantidade equivalente de cards de criatura. Coloque todos os cards de criatura revelados dessa maneira no campo de batalha, depois embaralhe o restante dos cards revelados no seu grimório.]]></LOCALISED_TEXT>
 	<RESOLUTION_TIME_ACTION ignore_filter="1">
     local filter = Object():GetFilter()
     filter:Clear()

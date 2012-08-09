@@ -3,39 +3,39 @@
   <FILENAME text="LODESTONE_GOLEM_888220536" />
   <CARDNAME text="LODESTONE_GOLEM" />
   <TITLE>
-     <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Lodestone Golem]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Lodestone Golem]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Lodestone Golem]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Lodestone Golem]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Lodestone Golem]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[Lodestone Golem]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[Lodestone Golem]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Lodestone Golem]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Lodestone Golem]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Lodestone Golem]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Golem del Filone di Pietrisco]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Magneteisengolem]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Golem de magnétite]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Gólem de piedraimán]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[磁石のゴーレム]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[Lodestone Golem]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Голем Магнитной Руды]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Golem de Magnetita]]></LOCALISED_TEXT>
   </TITLE>
   <MULTIVERSEID value="888220536" />
   <ARTID value="888220536" />
   <ARTIST name="Chris Rahn" />
   <CASTING_COST cost="{4}" />
   <FLAVOURTEXT>
-     <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[“Somehow it warps the Æther. It brings a strange weight, a blockade in the flow of spellcraft.”
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA["Somehow it warps the Æther. It brings a strange weight, a blockade in the flow of spellcraft."
 —Noyan Dar, Tazeem lullmage]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[“Somehow it warps the Æther. It brings a strange weight, a blockade in the flow of spellcraft.”
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA["In qualche modo, riesce a manipolare l'Etere. Grazie alla sua massa impareggiabile, può persino bloccare il suo flusso arcano."
+—Noyan Dar, mitigatore di Tazeem]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[„Irgendwie verdreht er den Äther. Er hat einen seltsamen Einfluss, er behindert den stetigen Fluss der Zauberei."
+—Noyan Dar, Ruhezauberer aus Tazeem]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[« Il arrive à tordre l'Æther. Il apporte un étrange poids, une sorte de blocus au flot de la sorcellerie. »
+—Noyan Dar, ataraxmage de Tazeem]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA["De alguna manera deforma el éter. Es como un peso extraño, un bloqueo en el flujo de la magia."
+—Noyan Dar, mago arrullador de Tazeem]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[「それはとにかく霊気を歪めている。 呪文の詠唱の妨げとなる奇妙な重みを生んでいるようだ。」
+――タジームの凪魔道士、ノヤン・ダール]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA["Somehow it warps the Æther. It brings a strange weight, a blockade in the flow of spellcraft."
 —Noyan Dar, Tazeem lullmage]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[“Somehow it warps the Æther. It brings a strange weight, a blockade in the flow of spellcraft.”
-—Noyan Dar, Tazeem lullmage]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[“Somehow it warps the Æther. It brings a strange weight, a blockade in the flow of spellcraft.”
-—Noyan Dar, Tazeem lullmage]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[“Somehow it warps the Æther. It brings a strange weight, a blockade in the flow of spellcraft.”
-—Noyan Dar, Tazeem lullmage]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[“Somehow it warps the Æther. It brings a strange weight, a blockade in the flow of spellcraft.”
-—Noyan Dar, Tazeem lullmage]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[“Somehow it warps the Æther. It brings a strange weight, a blockade in the flow of spellcraft.”
-—Noyan Dar, Tazeem lullmage]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[“Somehow it warps the Æther. It brings a strange weight, a blockade in the flow of spellcraft.”
-—Noyan Dar, Tazeem lullmage]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[“Somehow it warps the Æther. It brings a strange weight, a blockade in the flow of spellcraft.”
-—Noyan Dar, Tazeem lullmage]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[«Каким-то образом он искривляет Эфир. Заклинание вдруг становится странно тяжелым и неплавным».
+— Нойен Дар, маг-баюн из Тазима]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA["De algum modo ele deforma o Éter. E traz um estranho peso, um bloqueio ao fluxo da magia."
+— Noyan Dar, Mago Anulador de Tazeem]]></LOCALISED_TEXT>
   </FLAVOURTEXT>
   <TYPE metaname="Artifact" />
   <TYPE metaname="Creature" />
@@ -45,15 +45,15 @@
   <POWER value="5" />
   <TOUGHNESS value="3" />
   <STATIC_ABILITY filter_zone="ZONE_HAND">
-     <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Nonartifact spells cost {1} more to cast.]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Nonartifact spells cost {1} more to cast.]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Nonartifact spells cost {1} more to cast.]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Nonartifact spells cost {1} more to cast.]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Nonartifact spells cost {1} more to cast.]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[Nonartifact spells cost {1} more to cast.]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[Nonartifact spells cost {1} more to cast.]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Nonartifact spells cost {1} more to cast.]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Nonartifact spells cost {1} more to cast.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Nonartifact spells cost {1} more to cast.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Le magie non artefatto costano {1} in più per essere lanciate.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Zaubersprüche, die keine Artefakte sind, kosten beim Wirken {1} mehr.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Les sorts non-artefact coûtent {1} de plus à lancer.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Cuesta {1} más lanzar hechizos que no sean de artefacto.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[アーティファクトでない呪文は、それを唱えるためのコストが{1}多くなる。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[Nonartifact spells cost {1} more to cast.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Разыгрывание неартефактных заклинаний стоит на {1} больше.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[As mágicas que não sejam artefatos custam {1} a mais para serem conjuradas.]]></LOCALISED_TEXT>
 	<FILTER>
     return (NonArtifacts() and NonLands() and InHand())
     </FILTER>

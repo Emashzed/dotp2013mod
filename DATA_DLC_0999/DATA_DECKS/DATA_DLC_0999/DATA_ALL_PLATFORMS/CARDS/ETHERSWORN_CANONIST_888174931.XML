@@ -3,30 +3,30 @@
   <FILENAME text="ETHERSWORN_CANONIST_888174931" />
   <CARDNAME text="ETHERSWORN_CANONIST" />
   <TITLE>
-     <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Ethersworn Canonist]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Ethersworn Canonist]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Ethersworn Canonist]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Ethersworn Canonist]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Ethersworn Canonist]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[Ethersworn Canonist]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[Ethersworn Canonist]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Ethersworn Canonist]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Ethersworn Canonist]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Ethersworn Canonist]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Canonista Eterica]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Äthergläubiger Kanonist]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Canoniste des Éthermentés]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Canonista etereada]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[エーテル宣誓会の法学者]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[Ethersworn Canonist]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Канонист Эфироблюстителей]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Canonista Etherólatra]]></LOCALISED_TEXT>
   </TITLE>
   <MULTIVERSEID value="888174931" />
   <ARTID value="888174931" />
   <ARTIST name="Izzy" />
   <CASTING_COST cost="{1}{W}" />
   <FLAVOURTEXT>
-     <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[“The noble work of our order is to infuse all life on Esper with etherium. Our goal will be reached more rapidly if new life is . . . suppressed.”]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[“The noble work of our order is to infuse all life on Esper with etherium. Our goal will be reached more rapidly if new life is . . . suppressed.”]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[“The noble work of our order is to infuse all life on Esper with etherium. Our goal will be reached more rapidly if new life is . . . suppressed.”]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[“The noble work of our order is to infuse all life on Esper with etherium. Our goal will be reached more rapidly if new life is . . . suppressed.”]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[“The noble work of our order is to infuse all life on Esper with etherium. Our goal will be reached more rapidly if new life is . . . suppressed.”]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[“The noble work of our order is to infuse all life on Esper with etherium. Our goal will be reached more rapidly if new life is . . . suppressed.”]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[“The noble work of our order is to infuse all life on Esper with etherium. Our goal will be reached more rapidly if new life is . . . suppressed.”]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[“The noble work of our order is to infuse all life on Esper with etherium. Our goal will be reached more rapidly if new life is . . . suppressed.”]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[“The noble work of our order is to infuse all life on Esper with etherium. Our goal will be reached more rapidly if new life is . . . suppressed.”]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA["The noble work of our order is to infuse all life on Esper with etherium. Our goal will be reached more rapidly if new life is . . . suppressed."]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA["Il nobile compito del nostro ordine è di infondere di eterium tutte le forme viventi di Esper. Il nostro scopo sarà raggiunto più rapidamente se la nuova vita viene. . . soppressa."]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[„Das edle Ziel unseres Ordens ist es, alles Leben auf Esper mit Ätherium zu erfüllen. Unsere Aufgabe wird schneller erfüllt sein, wenn wir neues Leben ... unterdrücken."]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[« Le noble ouvrage de notre ordre est d'infuser toute vie sur Esper avec l'étherium. Notre objectif sera atteint plus rapidement si toute nouvelle vie est... supprimée. »]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA["La noble tarea de nuestra orden es incluir el eterium en toda la vida en Esper. Alcanzaremos nuestro objetivo más rápido si toda nueva vida es... suprimida."]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[「エスパーの生命全てにエーテリウムを吹き込むことこそが、我等の騎士団の気高き行いなのです。 我等の目的は、さらに素早く達することでしょう。新たな生命を……押さえ込むことができれば。」]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA["The noble work of our order is to infuse all life on Esper with etherium. Our goal will be reached more rapidly if new life is . . . suppressed."]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[«Благородное дело нашего ордена состоит в том, чтобы внедрить эфирий во все живое в Эспере. Мы достигнем цели быстрее, если новая жизнь будет подавлена».]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA["O nobre trabalho de nossa ordem é infundir etherium em toda forma de vida em Esper. Nosso objetivo será atingido mais facilmente se as novas formas de vida forem . . . suprimidas."]]></LOCALISED_TEXT>
   </FLAVOURTEXT>
   <TYPE metaname="Artifact" />
   <TYPE metaname="Creature" />
@@ -37,15 +37,15 @@
   <POWER value="2" />
   <TOUGHNESS value="2" />
   <STATIC_ABILITY filter_zone="ZONE_ANY">
-     <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Each player who has cast a nonartifact spell this turn can’t cast additional nonartifact spells.]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Each player who has cast a nonartifact spell this turn can’t cast additional nonartifact spells.]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Each player who has cast a nonartifact spell this turn can’t cast additional nonartifact spells.]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Each player who has cast a nonartifact spell this turn can’t cast additional nonartifact spells.]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Each player who has cast a nonartifact spell this turn can’t cast additional nonartifact spells.]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[Each player who has cast a nonartifact spell this turn can’t cast additional nonartifact spells.]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[Each player who has cast a nonartifact spell this turn can’t cast additional nonartifact spells.]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Each player who has cast a nonartifact spell this turn can’t cast additional nonartifact spells.]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Each player who has cast a nonartifact spell this turn can’t cast additional nonartifact spells.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Each player who has cast a nonartifact spell this turn can't cast additional nonartifact spells.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Ogni giocatore che ha giocato una magia non artefatto in questo turno non può giocare magie non artefatto addizionali.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Jeder Spieler, der in diesem Zug bereits einen Nichtartefakt-Zauberspruch gespielt hat, kann in diesem Zug keine weiteren Nichtartefakt-Zaubersprüche spielen.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Chaque joueur qui, ce tour-ci, a joué un sort non-artefact ne peut pas jouer de sort non-artefact supplémentaire.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Cada jugador que jugó un hechizo que no sea de artefacto este turno no puede jugar más hechizos que no sean de artefacto este turno.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[このターン、アーティファクトでない呪文をプレイした各プレイヤーは、アーティファクトでない呪文を追加でプレイできない。。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[Each player who has cast a nonartifact spell this turn can't cast additional nonartifact spells.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Каждый игрок, уже разыгравший в этом ходу неартефактное заклинание, не может разыгрывать дополнительные неартефактные заклинания.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Os jogadores que tenham jogado uma mágica que não seja artefato neste turno não poderão jogar mágicas que não sejam artefatos adicionais.]]></LOCALISED_TEXT>
     <FILTER>
     return (FilteredCard() ~= nil and FilteredCard():GetPlayer() ~= nil and 
 	FilteredCard():GetPlayer():PlayerDataChest():Int_Get( PLAYER_UTILITY_COMPARTMENT_ID_PLAYER_NONARTIFACT_CHECK ) &gt; 0 and 

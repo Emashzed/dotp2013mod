@@ -3,30 +3,30 @@
   <FILENAME text="MOLD_SHAMBLER_888183414" />
   <CARDNAME text="MOLD_SHAMBLER" />
   <TITLE>
-     <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Mold Shambler]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Mold Shambler]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Mold Shambler]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Mold Shambler]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Mold Shambler]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[Mold Shambler]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[Mold Shambler]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Mold Shambler]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Mold Shambler]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Mold Shambler]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Errante di Muffa]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Schimmelschlurfer]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Escogriffe de moisissure]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Desollador de moho]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[カビのシャンブラー]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[Mold Shambler]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Плесенный Шатун]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Trôpego Bolorento]]></LOCALISED_TEXT>
   </TITLE>
   <MULTIVERSEID value="888183414" />
   <ARTID value="888183414" />
   <ARTIST name="Karl Kopinski" />
   <CASTING_COST cost="{3}{G}" />
   <FLAVOURTEXT>
-     <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[When civilization encroaches on nature, Zendikar encroaches back.]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[When civilization encroaches on nature, Zendikar encroaches back.]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[When civilization encroaches on nature, Zendikar encroaches back.]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[When civilization encroaches on nature, Zendikar encroaches back.]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[When civilization encroaches on nature, Zendikar encroaches back.]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[When civilization encroaches on nature, Zendikar encroaches back.]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[When civilization encroaches on nature, Zendikar encroaches back.]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[When civilization encroaches on nature, Zendikar encroaches back.]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[When civilization encroaches on nature, Zendikar encroaches back.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[When civilization encroaches on nature, Zendikar encroaches back.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Quando la civiltà invade la natura, Zendikar risponde all'invasione.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Wenn die Zivilisation in die Natur vordringt, drängelt Zendikar zurück.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Quand la civilisation piétine la nature, Zendikar piétine la civilisation.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Cuando la civilización amenaza a la naturaleza, Zendikar devuelve la amenaza.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[文明が自然を侵害したとき、ゼンディカーは侵害し返してくる。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[When civilization encroaches on nature, Zendikar encroaches back.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Когда цивилизация наступает на природу, Зендикар наступает на цивилизацию.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Quando a civilização transgride a natureza, Zendikar responde na mesma moeda.]]></LOCALISED_TEXT>
   </FLAVOURTEXT>
   <TYPE metaname="Creature" />
   <SUB_TYPE metaname="Fungus" order_de-DE="0" order_es-ES="0" order_fr-FR="0" order_it-IT="0" order_jp-JA="0" order_ko-KR="0" order_pt-BR="0" order_ru-RU="0" />
@@ -36,36 +36,27 @@
   <POWER value="3" />
   <TOUGHNESS value="3" />
   <UTILITY_ABILITY filter_zone="ZONE_IN_PLAY">
-     <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Kicker {1}{G} |(You may pay an additional|
-{1}{G} |as you cast this spell.)|]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Kicker {1}{G} |(You may pay an additional|
-{1}{G} |as you cast this spell.)|]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Kicker {1}{G} |(You may pay an additional|
-{1}{G} |as you cast this spell.)|]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Kicker {1}{G} |(You may pay an additional|
-{1}{G} |as you cast this spell.)|]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Kicker {1}{G} |(You may pay an additional|
-{1}{G} |as you cast this spell.)|]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[Kicker {1}{G} |(You may pay an additional|
-{1}{G} |as you cast this spell.)|]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[Kicker {1}{G} |(You may pay an additional|
-{1}{G} |as you cast this spell.)|]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Kicker {1}{G} |(You may pay an additional|
-{1}{G} |as you cast this spell.)|]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Kicker {1}{G} |(You may pay an additional|
-{1}{G} |as you cast this spell.)|]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Kicker {1}{G} (You may pay an additional {1}{G} as you cast this spell.)]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Potenziamento {1}{G} (Puoi pagare {1}{G} addizionale quando lanci questa magia.)]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Bonus {1}{G} (Du kannst zusätzlich {1}{G} bezahlen, sowie du diesen Zauberspruch wirkst.)]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Kick {1}{G} (Vous pouvez payer {1}{R} supplémentaires au moment où vous lancez ce sort.)]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Estímulo {1}{G}. (Puedes pagar {1}{G} adicionales en cuanto lances este hechizo.)]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[キッカー {1}{G} （あなたはこの呪文を唱えるに際し、追加で{1}{G}を支払ってもよい。）]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[Kicker {1}{G} (You may pay an additional {1}{G} as you cast this spell.)]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Усилитель {1}{G} (Вы можете заплатить дополнительно {1}{G} при разыгрывании этого заклинания.)]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Reforçar {1}{G} (Você pode pagar um custo adicional de {1}{G} ao conjurar esta mágica.)]]></LOCALISED_TEXT>
     <COST type="Mana" cost="{1}{G}" qualifier="Kicker" />
   </UTILITY_ABILITY>
   <TRIGGERED_ABILITY dangerous="1" filter_zone="ZONE_IN_PLAY">
-     <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[When Mold Shambler enters the battlefield, if it was kicked, destroy target noncreature permanent.]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[When Mold Shambler enters the battlefield, if it was kicked, destroy target noncreature permanent.]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[When Mold Shambler enters the battlefield, if it was kicked, destroy target noncreature permanent.]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[When Mold Shambler enters the battlefield, if it was kicked, destroy target noncreature permanent.]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[When Mold Shambler enters the battlefield, if it was kicked, destroy target noncreature permanent.]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[When Mold Shambler enters the battlefield, if it was kicked, destroy target noncreature permanent.]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[When Mold Shambler enters the battlefield, if it was kicked, destroy target noncreature permanent.]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[When Mold Shambler enters the battlefield, if it was kicked, destroy target noncreature permanent.]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[When Mold Shambler enters the battlefield, if it was kicked, destroy target noncreature permanent.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[When Mold Shambler enters the battlefield, if it was kicked, destroy target noncreature permanent.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Quando l'Errante di Muffa entra nel campo di battaglia, se è stato potenziato, distruggi un permanente non creatura bersaglio.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Wenn der Schimmelschlurfer ins Spiel kommt, zerstöre eine bleibende Karte deiner Wahl, die keine Kreatur ist, falls du seine Bonuskosten bezahlt hast.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Quand l'Escogriffe de moisissure arrive sur le champ de bataille, s'il a été kické, détruisez le permanent non-créature ciblé.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Cuando el Desollador de moho entre al campo de batalla, si fue estimulado, destruye el permanente objetivo que no sea criatura.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[カビのシャンブラーが戦場に出たとき、それがキッカーされている場合、クリーチャーでないパーマネント１つを対象とし、それを破壊する。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[When Mold Shambler enters the battlefield, if it was kicked, destroy target noncreature permanent.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Когда Плесенный Шатун выходит на поле битвы, если он получил Усилитель, уничтожьте целевой перманент, не являющийся существом.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Quando Trôpego Bolorento entrar no campo de batalha, se ele tiver sido reforçado, destrua a permanente alvo que não seja uma criatura.]]></LOCALISED_TEXT>
     <TRIGGER value="ZONECHANGE_END" simple_qualifier="self" to_zone="ZONE_IN_PLAY">
     return TriggerObject():Kicked() &gt; 0
     </TRIGGER>

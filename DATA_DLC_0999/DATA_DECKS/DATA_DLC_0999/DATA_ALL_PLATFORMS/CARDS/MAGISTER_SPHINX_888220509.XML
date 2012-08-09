@@ -3,30 +3,30 @@
   <FILENAME text="MAGISTER_SPHINX_888220509" />
   <CARDNAME text="MAGISTER_SPHINX" />
   <TITLE>
-     <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Magister Sphinx]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Magister Sphinx]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Magister Sphinx]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Magister Sphinx]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Magister Sphinx]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[Magister Sphinx]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[Magister Sphinx]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Magister Sphinx]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Magister Sphinx]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Magister Sphinx]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Sfinge Magister]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Magister-Sphinx]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Magister sphinx]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Esfinge magíster]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[厳然たるスフィンクス]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[Magister Sphinx]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Сфинкс-Магистр]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Esfinge Catedrática]]></LOCALISED_TEXT>
   </TITLE>
   <MULTIVERSEID value="888220509" />
   <ARTID value="888220509" />
   <ARTIST name="Steven Belledin" />
   <CASTING_COST cost="{4}{W}{U}{B}" />
   <FLAVOURTEXT>
-     <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[“These benighted worlds are thick with ignorance. I will educate them. They will listen, or they will die.”]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[“These benighted worlds are thick with ignorance. I will educate them. They will listen, or they will die.”]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[“These benighted worlds are thick with ignorance. I will educate them. They will listen, or they will die.”]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[“These benighted worlds are thick with ignorance. I will educate them. They will listen, or they will die.”]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[“These benighted worlds are thick with ignorance. I will educate them. They will listen, or they will die.”]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[“These benighted worlds are thick with ignorance. I will educate them. They will listen, or they will die.”]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[“These benighted worlds are thick with ignorance. I will educate them. They will listen, or they will die.”]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[“These benighted worlds are thick with ignorance. I will educate them. They will listen, or they will die.”]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[“These benighted worlds are thick with ignorance. I will educate them. They will listen, or they will die.”]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA["These benighted worlds are thick with ignorance. I will educate them. They will listen, or they will die."]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA["Quei regni oscuri sono colmi di ignoranza. Sarò io ad educarli. Mi ascolteranno, o periranno tutti."]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[„Diese hinterwäldlerischen Welten sind so voller Ignoranz. Ich werde sie erziehen. Entweder hören sie mir zu, oder sie sterben."]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[« Ces mondes sont tous plongés dans les ténèbres de l'ignorance. Je vais les éduquer. Ils devront m'écouter ou mourir. »]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA["Estos nuevos mundos están llenos de ignorancia. Los educaré. Me escucharán, o morirán."]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[「この未開の世界は無知に満ちている。 私が教えを下そう。 聞く耳が無ければ死ぬだけだ。」]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA["These benighted worlds are thick with ignorance. I will educate them. They will listen, or they will die."]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[«Эти отсталые миры погрязли в невежестве. Придется их обучить. Либо они будут меня слушать, либо должны будут умереть».]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA["Esses mundos obscuros estão repletos de ignorância. Tratarei de ensinar-lhes. Eles ouvirão, ou então morrerão."]]></LOCALISED_TEXT>
   </FLAVOURTEXT>
   <TYPE metaname="Artifact" />
   <TYPE metaname="Creature" />
@@ -36,30 +36,30 @@
   <POWER value="5" />
   <TOUGHNESS value="5" />
   <STATIC_ABILITY>
-     <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Flying]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Flying]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Flying]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Flying]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Flying]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[Flying]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[Flying]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Flying]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Flying]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Flying]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Volare]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Fliegend]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Vol]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Vuela.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[飛行]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[Flying]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Полет]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Voar]]></LOCALISED_TEXT>
     <CONTINUOUS_ACTION>
     local characteristics = Object():GetCurrentCharacteristics()
     characteristics:Characteristic_Set( CHARACTERISTIC_FLYING, 1 )
     </CONTINUOUS_ACTION>
   </STATIC_ABILITY>
   <TRIGGERED_ABILITY filter_zone="ZONE_IN_PLAY">
-     <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[When Magister Sphinx enters the battlefield, target player’s life total becomes 10.]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[When Magister Sphinx enters the battlefield, target player’s life total becomes 10.]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[When Magister Sphinx enters the battlefield, target player’s life total becomes 10.]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[When Magister Sphinx enters the battlefield, target player’s life total becomes 10.]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[When Magister Sphinx enters the battlefield, target player’s life total becomes 10.]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[When Magister Sphinx enters the battlefield, target player’s life total becomes 10.]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[When Magister Sphinx enters the battlefield, target player’s life total becomes 10.]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[When Magister Sphinx enters the battlefield, target player’s life total becomes 10.]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[When Magister Sphinx enters the battlefield, target player’s life total becomes 10.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[When Magister Sphinx enters the battlefield, target player's life total becomes 10.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Quando la Sfinge Magister entra in gioco, i punti vita di un giocatore bersaglio diventano 10.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Wenn die Magister-Sphinx ins Spiel kommt, wird der Lebenspunktestand eines Spielers deiner Wahl genau 10.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Quand le Magister sphinx arrive en jeu, le total de points de vie du joueur ciblé devient 10.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Cuando la Esfinge magíster entre en juego, el total de vidas del jugador objetivo es 10.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[厳然たるスフィンクスが場に出たとき、プレイヤー１人を対象とする。そのプレイヤーのライフは10点になる。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[When Magister Sphinx enters the battlefield, target player's life total becomes 10.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Когда Сфинкс-Магистр входит в игру, количество жизней целевого игрока становится равным 10.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Quando Esfinge Catedrática entra em jogo, o total de vida do jogador alvo torna-se 10.]]></LOCALISED_TEXT>
     <TRIGGER value="ZONECHANGE_END" simple_qualifier="self" to_zone="ZONE_IN_PLAY" />
 	<TARGET_DEFINITION id="0">
     local filter = Object():GetFilter()

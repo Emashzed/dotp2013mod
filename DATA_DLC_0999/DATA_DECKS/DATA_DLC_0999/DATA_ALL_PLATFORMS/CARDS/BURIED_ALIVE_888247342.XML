@@ -3,45 +3,45 @@
   <FILENAME text="BURIED_ALIVE_888247342" />
   <CARDNAME text="BURIED_ALIVE" />
   <TITLE>
-     <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Buried Alive]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Buried Alive]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Buried Alive]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Buried Alive]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Buried Alive]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[Buried Alive]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[Buried Alive]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Buried Alive]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Buried Alive]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Buried Alive]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Sepolto Vivo]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Lebendig begraben]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Enterré vivant]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Entierro en vida]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[生き埋め]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[Buried Alive]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Buried Alive]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Buried Alive]]></LOCALISED_TEXT>
   </TITLE>
   <MULTIVERSEID value="888247342" />
   <ARTID value="888247342" />
   <ARTIST name="Greg Staples" />
   <CASTING_COST cost="{2}{B}" />
   <FLAVOURTEXT>
-     <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[The scrape of shovels and the tumble of cold dirt soon muffled their pleas.]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[The scrape of shovels and the tumble of cold dirt soon muffled their pleas.]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[The scrape of shovels and the tumble of cold dirt soon muffled their pleas.]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[The scrape of shovels and the tumble of cold dirt soon muffled their pleas.]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[The scrape of shovels and the tumble of cold dirt soon muffled their pleas.]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[The scrape of shovels and the tumble of cold dirt soon muffled their pleas.]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[The scrape of shovels and the tumble of cold dirt soon muffled their pleas.]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[The scrape of shovels and the tumble of cold dirt soon muffled their pleas.]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[The scrape of shovels and the tumble of cold dirt soon muffled their pleas.]]></LOCALISED_TEXT>
-  </FLAVOURTEXT>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[The scrape of shovels and the tumble of cold dirt soon muffled their pleas.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[I colpi della pala e i tonfi della terra umida coprirono presto le loro grida imploranti.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Das Kratzen der Schaufeln und der Fall der kalten Erdklumpen erstickten bald das Flehen.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Le raclement des pelles et les fournées de terre étouffèrent rapidement leurs plaintes.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[El ruido de las palas y el crujido de la tierra fría pronto atenuaron sus súplicas.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[シャベルの音と冷たい土の崩れる音で、彼らの哀願の声はすぐにかき消されてしまった。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[The scrape of shovels and the tumble of cold dirt soon muffled their pleas.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[The scrape of shovels and the tumble of cold dirt soon muffled their pleas.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[The scrape of shovels and the tumble of cold dirt soon muffled their pleas.]]></LOCALISED_TEXT>
+ </FLAVOURTEXT>
   <TYPE metaname="Sorcery" />
   <EXPANSION value="DPG" />
   <RARITY metaname="U" />
   <SPELL_ABILITY dangerous="1" filter_zone="ZONE_IN_PLAY">
-     <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Search your library for up to three creature cards and put them into your graveyard. Then shuffle your library.]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Search your library for up to three creature cards and put them into your graveyard. Then shuffle your library.]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Search your library for up to three creature cards and put them into your graveyard. Then shuffle your library.]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Search your library for up to three creature cards and put them into your graveyard. Then shuffle your library.]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Search your library for up to three creature cards and put them into your graveyard. Then shuffle your library.]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[Search your library for up to three creature cards and put them into your graveyard. Then shuffle your library.]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[Search your library for up to three creature cards and put them into your graveyard. Then shuffle your library.]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Search your library for up to three creature cards and put them into your graveyard. Then shuffle your library.]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Search your library for up to three creature cards and put them into your graveyard. Then shuffle your library.]]></LOCALISED_TEXT>
-    <RESOLUTION_TIME_ACTION>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Search your library for up to three creature cards and put them into your graveyard. Then shuffle your library.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Passa in rassegna il tuo grimorio per trovare fino a tre carte creatura e mettile nel tuo cimitero. Poi rimescola il tuo grimorio.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Durchsuche deine Bibliothek nach bis zu drei Kreaturenkarten und lege diese auf deinen Friedhof. Mische danach deine Bibliothek.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Cherchez jusqu'à trois cartes de créature dans votre bibliothèque et mettez-les dans votre cimetière. Mélangez ensuite votre bibliothèque.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Busca en tu biblioteca hasta tres cartas de criatura y ponlas en tu cementerio. Luego baraja tu biblioteca.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[あなたのライブラリーからクリーチャー・カードを最大３枚まで探し、それらをあなたの墓地に置く。 その後あなたのライブラリーを切り直す。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[Search your library for up to three creature cards and put them into your graveyard. Then shuffle your library.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Search your library for up to three creature cards and put them into your graveyard. Then shuffle your library.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Search your library for up to three creature cards and put them into your graveyard. Then shuffle your library.]]></LOCALISED_TEXT>
+   <RESOLUTION_TIME_ACTION>
     local filter = Object():GetFilter()
     local player = EffectController()
     player:MarkSearchedLibrary()

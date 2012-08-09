@@ -3,38 +3,38 @@
   <FILENAME text="MANOWAR_88821138" />
   <CARDNAME text="MANOWAR" />
   <TITLE>
-     <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Man-o’-War]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Man-o’-War]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Man-o’-War]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Man-o’-War]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Man-o’-War]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[Man-o’-War]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[Man-o’-War]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Man-o’-War]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Man-o’-War]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Man-o'-War]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Caravella Portoghese]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Galeerenqualle]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Physalie]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Carabela]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[Man-o'-War]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[Man-o'-War]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Man-o'-War]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Physalia]]></LOCALISED_TEXT>
   </TITLE>
   <MULTIVERSEID value="88821138" />
   <ARTID value="88821138" />
   <ARTIST name="Jon J Muth" />
   <CASTING_COST cost="{2}{U}" />
   <FLAVOURTEXT>
-     <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[“Beauty to the eye does not always translate to the touch.”
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA["Beauty to the eye does not always translate to the touch."
 —Naimah, Femeref philosopher]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[“Beauty to the eye does not always translate to the touch.”
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA["Beauty to the eye does not always translate to the touch."
 —Naimah, Femeref philosopher]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[“Beauty to the eye does not always translate to the touch.”
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA["Wenn etwas schön anzusehen ist, bedeutet das nicht immer, dass man es auch anfassen sollte.“ 
+-Naimah, Femeref-Philosoph]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA["Beauty to the eye does not always translate to the touch."
 —Naimah, Femeref philosopher]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[“Beauty to the eye does not always translate to the touch.”
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA["Beauty to the eye does not always translate to the touch."
 —Naimah, Femeref philosopher]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[“Beauty to the eye does not always translate to the touch.”
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA["Beauty to the eye does not always translate to the touch."
 —Naimah, Femeref philosopher]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[“Beauty to the eye does not always translate to the touch.”
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA["Beauty to the eye does not always translate to the touch."
 —Naimah, Femeref philosopher]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[“Beauty to the eye does not always translate to the touch.”
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA["Beauty to the eye does not always translate to the touch."
 —Naimah, Femeref philosopher]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[“Beauty to the eye does not always translate to the touch.”
-—Naimah, Femeref philosopher]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[“Beauty to the eye does not always translate to the touch.”
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA["Beauty to the eye does not always translate to the touch."
 —Naimah, Femeref philosopher]]></LOCALISED_TEXT>
   </FLAVOURTEXT>
   <TYPE metaname="Creature" />
@@ -44,15 +44,15 @@
   <POWER value="2" />
   <TOUGHNESS value="2" />
   <TRIGGERED_ABILITY dangerous="1" filter_zone="ZONE_IN_PLAY">
-     <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[When Man-o’-War enters the battlefield, return target creature to its owner’s hand.]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[When Man-o’-War enters the battlefield, return target creature to its owner’s hand.]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[When Man-o’-War enters the battlefield, return target creature to its owner’s hand.]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[When Man-o’-War enters the battlefield, return target creature to its owner’s hand.]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[When Man-o’-War enters the battlefield, return target creature to its owner’s hand.]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[When Man-o’-War enters the battlefield, return target creature to its owner’s hand.]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[When Man-o’-War enters the battlefield, return target creature to its owner’s hand.]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[When Man-o’-War enters the battlefield, return target creature to its owner’s hand.]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[When Man-o’-War enters the battlefield, return target creature to its owner’s hand.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[When Man-o'-War enters the battlefield, return target creature to its owner's hand.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[When Man-o'-War enters the battlefield, return target creature to its owner's hand.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Wenn die Galeerenqualle ins Spiel kommt, bringe eine Kreatur Deiner Wahl zurück auf die Hand ihres Besitzers.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[When Man-o'-War enters the battlefield, return target creature to its owner's hand.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[When Man-o'-War enters the battlefield, return target creature to its owner's hand.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[When Man-o'-War enters the battlefield, return target creature to its owner's hand.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[When Man-o'-War enters the battlefield, return target creature to its owner's hand.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[When Man-o'-War enters the battlefield, return target creature to its owner's hand.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[When Man-o'-War enters the battlefield, return target creature to its owner's hand.]]></LOCALISED_TEXT>
     <TRIGGER value="ZONECHANGE_END" simple_qualifier="self" to_zone="ZONE_IN_PLAY" />
     <TARGET_DEFINITION id="0">
     local filter = Object():GetFilter()

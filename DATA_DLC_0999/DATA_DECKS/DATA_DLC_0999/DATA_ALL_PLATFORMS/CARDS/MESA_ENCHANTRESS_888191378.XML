@@ -3,30 +3,30 @@
   <FILENAME text="MESA_ENCHANTRESS_888191378" />
   <CARDNAME text="MESA_ENCHANTRESS" />
   <TITLE>
-     <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Mesa Enchantress]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Mesa Enchantress]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Mesa Enchantress]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Mesa Enchantress]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Mesa Enchantress]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[Mesa Enchantress]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[Mesa Enchantress]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Mesa Enchantress]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Mesa Enchantress]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Mesa Enchantress]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Incantatrice della Mesa]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Tafelberg-Zauberin]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Enchanteresse de la Mesa]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Encantadora de la meseta]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[メサの女魔術師]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[Mesa Enchantress]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Горная Чародейка]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Encantadora de Meseta]]></LOCALISED_TEXT>
   </TITLE>
   <MULTIVERSEID value="888191378" />
   <ARTID value="888191378" />
   <ARTIST name="Randy Gallegos" />
   <CASTING_COST cost="{1}{W}{W}" />
   <FLAVOURTEXT>
-     <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[She shepherds mysteries and dust as others would a flock of sheep.]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[She shepherds mysteries and dust as others would a flock of sheep.]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[She shepherds mysteries and dust as others would a flock of sheep.]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[She shepherds mysteries and dust as others would a flock of sheep.]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[She shepherds mysteries and dust as others would a flock of sheep.]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[She shepherds mysteries and dust as others would a flock of sheep.]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[She shepherds mysteries and dust as others would a flock of sheep.]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[She shepherds mysteries and dust as others would a flock of sheep.]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[She shepherds mysteries and dust as others would a flock of sheep.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA["Scholars seek to understand the way the world is. I wish to shape the world into what it should be."]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA["Gli studiosi cercano di capire come è il mondo. Io voglio modellare il mondo in ciò che dovrebbe essere."]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[„Schulmeister versuchen, die Welt zu verstehen, so wie sie ist. Ich möchte die Welt in das formen, was sie sein sollte."]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[« Les érudits cherchent à comprendre comment fonctionne le monde. Je préfère façonner le monde pour faire de lui ce qu'il devrait être. »]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA["Los eruditos buscan entender cómo funciona el mundo. Yo deseo forjar un mundo que funcione como debería."]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[「学者は世界の何たるかを理解しようと模索するわ。 私が望むのは、世界をあるべき姿に変えることよ。」]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA["Scholars seek to understand the way the world is. I wish to shape the world into what it should be."]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[«Ученые стремятся понять мир таким, какой он есть. Я же желаю сделать мир таким, каким он должен быть».]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA["Os estudiosos tentam compreender o que o mundo é. Eu desejo moldar o mundo naquilo que ele deveria ser."]]></LOCALISED_TEXT>
   </FLAVOURTEXT>
   <TYPE metaname="Creature" />
   <SUB_TYPE metaname="Human" order_de-DE="0" order_es-ES="0" order_fr-FR="0" order_it-IT="0" order_jp-JA="0" order_ko-KR="0" order_pt-BR="0" order_ru-RU="0" />
@@ -36,15 +36,15 @@
   <POWER value="0" />
   <TOUGHNESS value="2" />
   <TRIGGERED_ABILITY auto_skip="1" filter_zone="ZONE_IN_PLAY">
-     <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Whenever you cast an enchantment spell, you may draw a card.]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Whenever you cast an enchantment spell, you may draw a card.]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Whenever you cast an enchantment spell, you may draw a card.]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Whenever you cast an enchantment spell, you may draw a card.]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Whenever you cast an enchantment spell, you may draw a card.]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[Whenever you cast an enchantment spell, you may draw a card.]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[Whenever you cast an enchantment spell, you may draw a card.]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Whenever you cast an enchantment spell, you may draw a card.]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Whenever you cast an enchantment spell, you may draw a card.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Whenever you cast an enchantment spell, you may draw a card.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Ogniqualvolta lanci una magia incantesimo, puoi pescare una carta.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Immer wenn du einen Verzauberungs-Zauberspruch wirkst, kannst du eine Karte ziehen.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[À chaque fois que vous lancez un sort d'enchantement, vous pouvez piocher une carte.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Siempre que lances un hechizo de encantamiento, puedes robar una carta.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[あなたがエンチャント呪文を１つ唱えるたび、あなたはカードを１枚引いてもよい。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[Whenever you cast an enchantment spell, you may draw a card.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Каждый раз когда вы разыгрываете заклинание чар, вы можете взять карту.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Toda vez que conjura uma mágica de encantamento, você pode comprar um card.]]></LOCALISED_TEXT>
 	<TRIGGER value="SPELL_PLAYED">
     return TriggerObject():GetCardType():Test( CARD_TYPE_ENCHANTMENT ) ~= 0 and TriggerObject():GetPlayer() == Object():GetPlayer()
     </TRIGGER>

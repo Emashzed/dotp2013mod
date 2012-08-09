@@ -4,14 +4,14 @@
   <CARDNAME text="GROWTH_SPASM" />
   <TITLE>
     <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Growth Spasm]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Growth Spasm]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Growth Spasm]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Growth Spasm]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Growth Spasm]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[Growth Spasm]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Spasmo di Crescita]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Wachstumskrämpfe]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Spasme de croissance]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Espasmo de crecimiento]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[成長の発作]]></LOCALISED_TEXT>
     <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[Growth Spasm]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Growth Spasm]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Growth Spasm]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Порыв Роста]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Espasmo de Crescimento]]></LOCALISED_TEXT>
   </TITLE>
   <MULTIVERSEID value="888193526" />
   <ARTID value="888193526" />
@@ -21,15 +21,15 @@
   <EXPANSION value="DPG" />
   <RARITY metaname="C" />
   <SPELL_ABILITY filter_zone="ZONE_IN_PLAY">
-    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Search your library for a basic land card, put it onto the battlefield tapped, then shuffle your library. Put a 0/1 colorless Eldrazi Spawn creature token onto the battlefield. It has “Sacrifice this creature: Add {1} to your mana pool.”]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Search your library for a basic land card, put it onto the battlefield tapped, then shuffle your library. Put a 0/1 colorless Eldrazi Spawn creature token onto the battlefield. It has “Sacrifice this creature: Add {1} to your mana pool.”]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Search your library for a basic land card, put it onto the battlefield tapped, then shuffle your library. Put a 0/1 colorless Eldrazi Spawn creature token onto the battlefield. It has “Sacrifice this creature: Add {1} to your mana pool.”]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Search your library for a basic land card, put it onto the battlefield tapped, then shuffle your library. Put a 0/1 colorless Eldrazi Spawn creature token onto the battlefield. It has “Sacrifice this creature: Add {1} to your mana pool.”]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Search your library for a basic land card, put it onto the battlefield tapped, then shuffle your library. Put a 0/1 colorless Eldrazi Spawn creature token onto the battlefield. It has “Sacrifice this creature: Add {1} to your mana pool.”]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[Search your library for a basic land card, put it onto the battlefield tapped, then shuffle your library. Put a 0/1 colorless Eldrazi Spawn creature token onto the battlefield. It has “Sacrifice this creature: Add {1} to your mana pool.”]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[Search your library for a basic land card, put it onto the battlefield tapped, then shuffle your library. Put a 0/1 colorless Eldrazi Spawn creature token onto the battlefield. It has “Sacrifice this creature: Add {1} to your mana pool.”]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Search your library for a basic land card, put it onto the battlefield tapped, then shuffle your library. Put a 0/1 colorless Eldrazi Spawn creature token onto the battlefield. It has “Sacrifice this creature: Add {1} to your mana pool.”]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Search your library for a basic land card, put it onto the battlefield tapped, then shuffle your library. Put a 0/1 colorless Eldrazi Spawn creature token onto the battlefield. It has “Sacrifice this creature: Add {1} to your mana pool.”]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Search your library for a basic land card, put it onto the battlefield tapped, then shuffle your library. Put a 0/1 colorless Eldrazi Spawn creature token onto the battlefield. It has "Sacrifice this creature: Add {1} to your mana pool."]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Passa in rassegna il tuo grimorio per una carta terra base, mettila sul campo di battaglia TAPpata, poi rimescola il tuo grimorio. Metti sul campo di battaglia una pedina creatura Progenie Eldrazi 0/1 incolore. Ha "Sacrifica questa creatura: Aggiungi {1} alla tua riserva di mana".]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Durchsuche deine Bibliothek nach einem Standardland, bringe es getappt ins Spiel und mische dann deine Bibliothek. Bringe einen 0/1 farblosen (Eldrazi, Ausgeburt)-Kreaturenspielstein ins Spiel. Er hat „Opfere diese Kreatur: Erhöhe deinen Manavorrat um {1}".]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Cherchez dans votre bibliothèque une carte de terrain de base, mettez-la sur le champ de bataille engagée et mélangez ensuite votre bibliothèque. Mettez sur le champ de bataille un jeton de créature 0/1 incolore Eldrazi et Engeance. Il a « Sacrifiez cette créature : Ajoutez {1} à votre réserve. »]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Busca en tu biblioteca una carta de tierra básica, ponla en el campo de batalla girada y luego baraja tu biblioteca. Pon en el campo de batalla una ficha de criatura Engendro Eldrazi incolora 0/1. Tiene "Sacrificar esta criatura: Agrega {1} a tu reserva de maná".]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[あなたのライブラリーから基本土地カードを１枚探し、それをタップ状態で戦場に出し、その後、あなたのライブラリーを切り直す。 無色の０/１のエルドラージ・落とし子・クリーチャー・トークンを１体戦場に出す。 それは「このクリーチャーを生け贄に捧げる：あなたのマナ・プールに{1}を加える。」を持つ。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[Search your library for a basic land card, put it onto the battlefield tapped, then shuffle your library. Put a 0/1 colorless Eldrazi Spawn creature token onto the battlefield. It has "Sacrifice this creature: Add {1} to your mana pool."]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Найдите в вашей библиотеке карту базовой земли, положите ее на поле битвы повернутой, затем перетасуйте вашу библиотеку. Положите на поле битвы одну фишку существа 0/1 бесцветный Эльдрази Порождение. У нее есть способность «Пожертвуйте это существо: добавьте {1} в ваше хранилище маны».]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Procure um card de terreno básico no seu grimório e coloque-o no campo de batalha virado e embaralhe seu grimório. Coloque no campo de batalha uma ficha de criatura incolor 0/1 do tipo Prole Eldrazi. Ela tem "Sacrifique esta criatura: Adicione {1} à sua reserva de mana."]]></LOCALISED_TEXT>
     <RESOLUTION_TIME_ACTION>
     local filter = Object():GetFilter()
     local effectController = EffectController()
