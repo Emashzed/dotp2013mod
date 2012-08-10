@@ -3,38 +3,38 @@
   <FILENAME text="SKYKNIGHT_LEGIONNAIRE_888109082" />
   <CARDNAME text="SKYKNIGHT_LEGIONNAIRE" />
   <TITLE>
-     <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Skyknight Legionnaire]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Skyknight Legionnaire]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Skyknight Legionnaire]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Skyknight Legionnaire]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Skyknight Legionnaire]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[Skyknight Legionnaire]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[Skyknight Legionnaire]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Skyknight Legionnaire]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Skyknight Legionnaire]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Skyknight Legionnaire]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Legionario Cavaliere dei Cieli]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Himmelsritter-Legionär]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Légionnaire chevalier céleste]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Legionario caballero celeste]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[空騎士の軍団兵]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[Skyknight Legionnaire]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Небесный рыцарь-легионер]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Legionário Cavaleiro da Noite]]></LOCALISED_TEXT>
   </TITLE>
   <MULTIVERSEID value="888109082" />
   <ARTID value="888109082" />
   <ARTIST name="Jim Murray" />
   <CASTING_COST cost="{1}{R}{W}" />
   <FLAVOURTEXT>
-     <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[“I do not know which gives me more pride: the legions of soldiers marching in thunderous lockstep, or the cry of the skyknights riding their rocs like jagged lightning overhead.”
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA["I do not know which gives me more pride: the legions of soldiers marching in thunderous lockstep, or the cry of the skyknights riding their rocs like jagged lightning overhead."
 —Razia]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[“I do not know which gives me more pride: the legions of soldiers marching in thunderous lockstep, or the cry of the skyknights riding their rocs like jagged lightning overhead.”
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA["Non so dire cosa mi renda più orgoglioso: le legioni di soldati che marciano con passo tonante o le urla dei cavalieri dei cieli che cavalcano i loro roc come fulmini frastagliati tra le nuvole."
 —Razia]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[“I do not know which gives me more pride: the legions of soldiers marching in thunderous lockstep, or the cry of the skyknights riding their rocs like jagged lightning overhead.”
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[„Ich weiß nicht, was mich mit mehr Stolz erfüllt: die Legionen, die in donnerndem Gleichschritt marschieren, oder das Gebrüll der Himmelsritter, die über uns auf ihren Rocs wie auf gezackten Blitzen reiten."
 —Razia]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[“I do not know which gives me more pride: the legions of soldiers marching in thunderous lockstep, or the cry of the skyknights riding their rocs like jagged lightning overhead.”
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[« Je ne sais pas ce qui me rend le plus fier : les légions de soldats marchant au pas, ou le cri des chevaliers célestes chevauchant leurs rokhs comme l'éclair. »
 —Razia]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[“I do not know which gives me more pride: the legions of soldiers marching in thunderous lockstep, or the cry of the skyknights riding their rocs like jagged lightning overhead.”
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA["No sé qué me enorgullece más: las legiones de soldados marchando y sus pasos como truenos, o los caballeros celestes montando sus rocs y sus gritos como relámpagos."
 —Razia]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[“I do not know which gives me more pride: the legions of soldiers marching in thunderous lockstep, or the cry of the skyknights riding their rocs like jagged lightning overhead.”
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[堅苦しい歩調で進む兵士の軍団と、稲妻のように飛ぶロック鳥の背中で叫ぶ空騎士の声と、どっちがより誇りを与えてくれるのかはわからぬ。
+――ラジア]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA["I do not know which gives me more pride: the legions of soldiers marching in thunderous lockstep, or the cry of the skyknights riding their rocs like jagged lightning overhead."
 —Razia]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[“I do not know which gives me more pride: the legions of soldiers marching in thunderous lockstep, or the cry of the skyknights riding their rocs like jagged lightning overhead.”
-—Razia]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[“I do not know which gives me more pride: the legions of soldiers marching in thunderous lockstep, or the cry of the skyknights riding their rocs like jagged lightning overhead.”
-—Razia]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[“I do not know which gives me more pride: the legions of soldiers marching in thunderous lockstep, or the cry of the skyknights riding their rocs like jagged lightning overhead.”
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA["Не знаю, что внушает мне большую гордость: легионы солдат, маршевый ход которых отдается громом, или крики небесных рыцарей, носящихся над головами на своих птицах рух, как безумные молнии".
+—Разия]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA["Não sei do que me orgulho mais: das legiões de soldados em sua marcha inflexível ou do grito dos cavaleiros da noite galopando em rocs, como um relâmpago sob suas cabeças."
 —Razia]]></LOCALISED_TEXT>
   </FLAVOURTEXT>
   <TYPE metaname="Creature" />
@@ -45,30 +45,30 @@
   <POWER value="2" />
   <TOUGHNESS value="2" />
   <STATIC_ABILITY>
-     <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Flying]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Flying]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Flying]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Flying]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Flying]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[Flying]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[Flying]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Flying]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Flying]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Flying]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Volare]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Fliegend]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Vol]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Vuela.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[飛行]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[Flying]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Полет]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Voar]]></LOCALISED_TEXT>
     <CONTINUOUS_ACTION>
     local characteristics = Object():GetCurrentCharacteristics()
     characteristics:Characteristic_Set( CHARACTERISTIC_FLYING, 1 )
     </CONTINUOUS_ACTION>
   </STATIC_ABILITY>
   <STATIC_ABILITY filter_zone="ZONE_IN_PLAY" commaspace="1">
-     <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[haste]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[haste]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[haste]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[haste]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[haste]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[haste]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[haste]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[haste]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[haste]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[haste]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[célérité]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[prisa.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Eile]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[rapidità]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[速攻]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[신속]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Ускорение]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Ímpeto]]></LOCALISED_TEXT>
     <CONTINUOUS_ACTION>
     local characteritics = Object():GetCurrentCharacteristics()
     characteritics:Characteristic_Set( CHARACTERISTIC_HASTE, 1 )

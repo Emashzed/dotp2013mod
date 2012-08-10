@@ -3,30 +3,30 @@
   <FILENAME text="SANCTUM_GARGOYLE_888220462" />
   <CARDNAME text="SANCTUM_GARGOYLE" />
   <TITLE>
-     <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Sanctum Gargoyle]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Sanctum Gargoyle]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Sanctum Gargoyle]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Sanctum Gargoyle]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Sanctum Gargoyle]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[Sanctum Gargoyle]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[Sanctum Gargoyle]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Sanctum Gargoyle]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Sanctum Gargoyle]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Sanctum Gargoyle]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Gargoyle del Santuario]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Gargoyle des Heiligtums]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Gargouille du sanctuaire]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Gárgola del santuario]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[聖域のガーゴイル]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[Sanctum Gargoyle]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Горгулья Святилища]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Gárgula do Santuário]]></LOCALISED_TEXT>
   </TITLE>
   <MULTIVERSEID value="888220462" />
   <ARTID value="888220462" />
   <ARTIST name="Shelly Wan" />
   <CASTING_COST cost="{3}{W}" />
   <FLAVOURTEXT>
-     <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[As their supplies of etherium dwindled, mechanists sent gargoyles farther and farther afield in search of salvage.]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[As their supplies of etherium dwindled, mechanists sent gargoyles farther and farther afield in search of salvage.]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[As their supplies of etherium dwindled, mechanists sent gargoyles farther and farther afield in search of salvage.]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[As their supplies of etherium dwindled, mechanists sent gargoyles farther and farther afield in search of salvage.]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[As their supplies of etherium dwindled, mechanists sent gargoyles farther and farther afield in search of salvage.]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[As their supplies of etherium dwindled, mechanists sent gargoyles farther and farther afield in search of salvage.]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[As their supplies of etherium dwindled, mechanists sent gargoyles farther and farther afield in search of salvage.]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[As their supplies of etherium dwindled, mechanists sent gargoyles farther and farther afield in search of salvage.]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[As their supplies of etherium dwindled, mechanists sent gargoyles farther and farther afield in search of salvage.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[As their supplies of etherium dwindled, mechanists sent gargoyles farther and farther afield in search of salvage.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Man mano che le loro scorte di eterium si riducevano, i meccanicisti inviavano i gargoyle sempre più lontano in cerca di materiale di recupero.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Als ihre Ätherium-Vorräte zur Neige gingen, mussten die Mechaniker ihre Gargoylen immer weiter ausschicken, um Nachschub zu erhalten.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Leurs réserves d'étherium disparaissant rapidement, les mécanistes envoyèrent les gargouilles toujours plus loin pour en récupérer.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Cuando sus reservas de eterium menguaron, los mecanistas enviaron gárgolas más y más lejos para encontrar restos.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[エーテリウムの供給が少なくなるにつれ、商人は廃物を求めてガーゴイルをより遠くへと送り込むようになった。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[As their supplies of etherium dwindled, mechanists sent gargoyles farther and farther afield in search of salvage.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[По мере того как запасы эфирия подходили к концу, маги-механики отправляли горгулий все дальше и дальше на поиски скрапа.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Quando suas reservas de etherium acabaram, os mecanistas enviaram as gárgulas cada vez mais longe em busca de uma salvação.]]></LOCALISED_TEXT>
   </FLAVOURTEXT>
   <TYPE metaname="Artifact" />
   <TYPE metaname="Creature" />
@@ -36,30 +36,30 @@
   <POWER value="2" />
   <TOUGHNESS value="3" />
   <STATIC_ABILITY>
-     <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Flying]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Flying]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Flying]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Flying]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Flying]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[Flying]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[Flying]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Flying]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Flying]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Flying]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Volare]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Fliegend]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Vol]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Vuela.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[飛行]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[Flying]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Полет]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Voar]]></LOCALISED_TEXT>
     <CONTINUOUS_ACTION>
     local characteristics = Object():GetCurrentCharacteristics()
     characteristics:Characteristic_Set( CHARACTERISTIC_FLYING, 1 )
     </CONTINUOUS_ACTION>
   </STATIC_ABILITY>
   <TRIGGERED_ABILITY auto_skip="1" filter_zone="ZONE_IN_PLAY">
-     <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[When Sanctum Gargoyle enters the battlefield, you may return target artifact card from your graveyard to your hand.]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[When Sanctum Gargoyle enters the battlefield, you may return target artifact card from your graveyard to your hand.]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[When Sanctum Gargoyle enters the battlefield, you may return target artifact card from your graveyard to your hand.]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[When Sanctum Gargoyle enters the battlefield, you may return target artifact card from your graveyard to your hand.]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[When Sanctum Gargoyle enters the battlefield, you may return target artifact card from your graveyard to your hand.]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[When Sanctum Gargoyle enters the battlefield, you may return target artifact card from your graveyard to your hand.]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[When Sanctum Gargoyle enters the battlefield, you may return target artifact card from your graveyard to your hand.]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[When Sanctum Gargoyle enters the battlefield, you may return target artifact card from your graveyard to your hand.]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[When Sanctum Gargoyle enters the battlefield, you may return target artifact card from your graveyard to your hand.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[When Sanctum Gargoyle enters the battlefield, you may return target artifact card from your graveyard to your hand.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Quando il Gargoyle del Santuario entra in gioco, puoi riprendere in mano una carta artefatto bersaglio dal tuo cimitero.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Wenn der Gargoyle des Heiligtums ins Spiel kommt, kannst du eine Artefaktkarte deiner Wahl aus deinem Friedhof auf deine Hand zurücknehmen.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Quand la Gargouille du sanctuaire arrive en jeu, vous pouvez renvoyer une carte d'artefact ciblée depuis votre cimetière dans votre main.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Cuando la Gárgola del santuario entre en juego, puedes regresar la carta de artefacto objetivo de tu cementerio a tu mano.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[聖域のガーゴイルが場に出たとき、あなたの墓地にあるアーティファクト・カード１枚を対象とする。あなたはそれをあなたの手札に戻してもよい。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[When Sanctum Gargoyle enters the battlefield, you may return target artifact card from your graveyard to your hand.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Когда Горгулья Святилища входит в игру, вы можете вернуть целевую карту артефакта из вашего кладбища в вашу руку.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Quando Gárgula do Santuário entra em jogo, você pode devolver o card de artefato alvo de seu cemitério para a sua mão.]]></LOCALISED_TEXT>
     <TRIGGER value="ZONECHANGE_END" simple_qualifier="self" to_zone="ZONE_IN_PLAY" />
     <TARGET_DEFINITION id="0">
     local filter = Object():GetFilter()

@@ -3,30 +3,30 @@
   <FILENAME text="TIDEHOLLOW_STRIX_888175015" />
   <CARDNAME text="TIDEHOLLOW_STRIX" />
   <TITLE>
-     <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Tidehollow Strix]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Tidehollow Strix]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Tidehollow Strix]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Tidehollow Strix]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Tidehollow Strix]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[Tidehollow Strix]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[Tidehollow Strix]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Tidehollow Strix]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Tidehollow Strix]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Tidehollow Strix]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Strige di Mareacava]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Gezeitenleere-Kauz]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Strix de la Mer creuse]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Strix de Marea Hueca]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[潮の虚ろの大梟]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[Tidehollow Strix]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Неясыть Приливных Пещер]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Strix da Grota das Marés]]></LOCALISED_TEXT>
   </TITLE>
   <MULTIVERSEID value="888175015" />
   <ARTID value="888175015" />
   <ARTIST name="Cyril Van Der Haegen" />
   <CASTING_COST cost="{U}{B}" />
   <FLAVOURTEXT>
-     <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[The scullers beneath Esper keep strixes as trained pets, and set them loose when a fare refuses to pay.]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[The scullers beneath Esper keep strixes as trained pets, and set them loose when a fare refuses to pay.]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[The scullers beneath Esper keep strixes as trained pets, and set them loose when a fare refuses to pay.]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[The scullers beneath Esper keep strixes as trained pets, and set them loose when a fare refuses to pay.]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[The scullers beneath Esper keep strixes as trained pets, and set them loose when a fare refuses to pay.]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[The scullers beneath Esper keep strixes as trained pets, and set them loose when a fare refuses to pay.]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[The scullers beneath Esper keep strixes as trained pets, and set them loose when a fare refuses to pay.]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[The scullers beneath Esper keep strixes as trained pets, and set them loose when a fare refuses to pay.]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[The scullers beneath Esper keep strixes as trained pets, and set them loose when a fare refuses to pay.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[The scullers beneath Esper keep strixes as trained pets, and set them loose when a fare refuses to pay.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[I rematori sotto Esper hanno gli strigi come animali addestrati e li liberano quando un passeggero rifiuta di pagare.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Die Ruderer unter Esper halten sich Käuze als Haustiere und lassen sie los, wenn ein Fahrgast nicht bezahlen will.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Les passeurs sous Esper ont des strix comme animaux familiers, qu'ils lâchent sur ceux qui refusent de payer leur passage.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Los barqueros bajo Esper tienen strixes amaestrados que liberan cuando alguien se niega a pagar.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[エスパーの支配下の漕ぎ手は大梟をペットとして飼いならし、運賃を拒んだ者にそれを解き放つ。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[The scullers beneath Esper keep strixes as trained pets, and set them loose when a fare refuses to pay.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Кормчие эсперского подземного мира приручают неясытей, спуская их с привязи, когда путники отказываются оплачивать перевоз.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Os remadores sob Esper usam os strixes como animais de estimação treinados, liberando-os quando alguém se recusa a pagar.]]></LOCALISED_TEXT>
   </FLAVOURTEXT>
   <TYPE metaname="Artifact" />
   <TYPE metaname="Creature" />
@@ -36,30 +36,30 @@
   <POWER value="2" />
   <TOUGHNESS value="1" />
   <STATIC_ABILITY>
-     <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Flying]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Flying]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Flying]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Flying]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Flying]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[Flying]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[Flying]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Flying]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Flying]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Flying]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Volare]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Fliegend]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Vol]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Vuela.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[飛行]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[Flying]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Полет]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Voar]]></LOCALISED_TEXT>
     <CONTINUOUS_ACTION>
     local characteristics = Object():GetCurrentCharacteristics()
     characteristics:Characteristic_Set( CHARACTERISTIC_FLYING, 1 )
     </CONTINUOUS_ACTION>
   </STATIC_ABILITY>
   <STATIC_ABILITY>
-     <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Deathtouch |(Any amount of damage this deals to a creature is enough to destroy it.)|]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Deathtouch |(Any amount of damage this deals to a creature is enough to destroy it.)|]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Deathtouch |(Any amount of damage this deals to a creature is enough to destroy it.)|]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Deathtouch |(Any amount of damage this deals to a creature is enough to destroy it.)|]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Deathtouch |(Any amount of damage this deals to a creature is enough to destroy it.)|]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[Deathtouch |(Any amount of damage this deals to a creature is enough to destroy it.)|]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[Deathtouch |(Any amount of damage this deals to a creature is enough to destroy it.)|]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Deathtouch |(Any amount of damage this deals to a creature is enough to destroy it.)|]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Deathtouch |(Any amount of damage this deals to a creature is enough to destroy it.)|]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Deathtouch (Any amount of damage this deals to a creature is enough to destroy it.)]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Tocco letale (Ogniqualvolta questa creatura infligge danno a una creatura, distruggi quella creatura.)]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Todesberührung (Immer wenn diese Kreatur einer Kreatur Schaden zufügt, zerstöre jene Kreatur.)]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Contact mortel (À chaque fois que cette créature inflige des blessures à une créature, détruisez la créature blessée.)]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Toque mortal. (Siempre que esta criatura haga daño a una criatura, destruye esa criatura.)]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[接死 （このクリーチャーがいずれかのクリーチャーにダメージを与えるたび、そのクリーチャーを破壊する。）]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[Deathtouch (Any amount of damage this deals to a creature is enough to destroy it.)]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Смертельное касание (Каждый раз, когда это существо наносит повреждения другому существу, уничтожьте то существо.)]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Toque mortífero (Toda vez que esta criatura causar dano a outra criatura, destrua aquela criatura.)]]></LOCALISED_TEXT>
     <CONTINUOUS_ACTION>
      Object():GetCurrentCharacteristics():Characteristic_Set( CHARACTERISTIC_DEATHTOUCH, 1 )
     </CONTINUOUS_ACTION>

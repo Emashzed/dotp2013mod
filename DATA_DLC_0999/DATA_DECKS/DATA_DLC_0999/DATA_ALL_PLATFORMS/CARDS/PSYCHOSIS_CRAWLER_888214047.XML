@@ -3,39 +3,39 @@
   <FILENAME text="PSYCHOSIS_CRAWLER_888214047" />
   <CARDNAME text="PSYCHOSIS_CRAWLER" />
   <TITLE>
-     <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Psychosis Crawler]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Psychosis Crawler]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Psychosis Crawler]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Psychosis Crawler]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Psychosis Crawler]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[Psychosis Crawler]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[Psychosis Crawler]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Psychosis Crawler]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Psychosis Crawler]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Psychosis Crawler]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Psicosi Strisciante]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Psychosenkrabbler]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Rampeur psychotique]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Rondador de psicosis]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[精神の病を這うもの]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[Psychosis Crawler]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Психозная Тварь]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Réptil da Psicose]]></LOCALISED_TEXT>
   </TITLE>
   <MULTIVERSEID value="888214047" />
   <ARTID value="888214047" />
   <ARTIST name="Stephan Martiniere" />
   <CASTING_COST cost="{5}" />
   <FLAVOURTEXT>
-     <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[“If that brain can’t figure out the secret of the serum, then add more brains.”
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA["If that brain can't figure out the secret of the serum, then add more brains."
 —Rhmir, Hand of the Augur]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[“If that brain can’t figure out the secret of the serum, then add more brains.”
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA["Se quel cervello non riesce a capire il segreto del siero, allora aggiungi altro cervello."
+—Rhmir, Mano dell'Augure]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[„Falls dieses Gehirn nicht das Geheimnis des Serums entschlüsseln kann, dann füge noch mehr Gehirn dazu."
+—Rhmir, Hand des Augurs]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[« Si ce cerveau est incapable de découvrir le secret du sérum, ajoutez-en quelques-uns de plus. »
+—Rhmir, Main de l'Augure]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA["Si ese cerebro no puede descubrir el secreto del suero, entonces agreguen más cerebros."
+—Rhmir, Mano de los presagios]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[「その脳で血清の秘密が探れぬなら、もっと脳を足してやれ。」
+――卜占の手、ルミーア]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA["If that brain can't figure out the secret of the serum, then add more brains."
 —Rhmir, Hand of the Augur]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[“If that brain can’t figure out the secret of the serum, then add more brains.”
-—Rhmir, Hand of the Augur]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[“If that brain can’t figure out the secret of the serum, then add more brains.”
-—Rhmir, Hand of the Augur]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[“If that brain can’t figure out the secret of the serum, then add more brains.”
-—Rhmir, Hand of the Augur]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[“If that brain can’t figure out the secret of the serum, then add more brains.”
-—Rhmir, Hand of the Augur]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[“If that brain can’t figure out the secret of the serum, then add more brains.”
-—Rhmir, Hand of the Augur]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[“If that brain can’t figure out the secret of the serum, then add more brains.”
-—Rhmir, Hand of the Augur]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[“If that brain can’t figure out the secret of the serum, then add more brains.”
-—Rhmir, Hand of the Augur]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[«Если этот мозг не может разгадать тайну сыворотки, то добавьте еще мозгов».
+— Румир, Рука гадателя]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA["Se aquele cérebro não consegue decifrar o segredo do soro, adicione mais cérebros."
+— Rhmir, Mão do Áugure]]></LOCALISED_TEXT>
   </FLAVOURTEXT>
   <TYPE metaname="Artifact" />
   <TYPE metaname="Creature" />
@@ -45,15 +45,15 @@
   <POWER value="*" />
   <TOUGHNESS value="*" />
   <STATIC_ABILITY filter_zone="ZONE_IN_PLAY">
-     <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Psychosis Crawler’s power and toughness are each equal to the number of cards in your hand.]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Psychosis Crawler’s power and toughness are each equal to the number of cards in your hand.]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Psychosis Crawler’s power and toughness are each equal to the number of cards in your hand.]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Psychosis Crawler’s power and toughness are each equal to the number of cards in your hand.]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Psychosis Crawler’s power and toughness are each equal to the number of cards in your hand.]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[Psychosis Crawler’s power and toughness are each equal to the number of cards in your hand.]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[Psychosis Crawler’s power and toughness are each equal to the number of cards in your hand.]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Psychosis Crawler’s power and toughness are each equal to the number of cards in your hand.]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Psychosis Crawler’s power and toughness are each equal to the number of cards in your hand.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Psychosis Crawler's power and toughness are each equal to the number of cards in your hand.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[La forza e la costituzione della Psicosi Strisciante sono pari al numero di carte nella tua mano.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Stärke und Widerstandskraft des Psychosenkrabblers sind gleich der Anzahl der Karten auf deiner Hand.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[La force et l'endurance du Rampeur psychotique sont chacune égales au nombre de cartes dans votre main.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Tanto la fuerza como la resistencia del Rondador de psicosis son iguales al número de cartas que haya en tu mano.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[精神の病を這うもののパワーとタフネスは、それぞれあなたの手札のカードの枚数に等しい。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[Psychosis Crawler's power and toughness are each equal to the number of cards in your hand.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Сила и выносливость Психозной Твари равны количеству карт в вашей руке.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[O poder e a resistência de Réptil da Psicose são ambos iguais ao número de cards em sua mão.]]></LOCALISED_TEXT>
     <CONTINUOUS_ACTION layer="7A">
     local total = CountCardsInHand( EffectSource():GetController() )
     local characteristics = EffectSource():GetCurrentCharacteristics()  
@@ -62,15 +62,15 @@
     </CONTINUOUS_ACTION>
   </STATIC_ABILITY>
   <TRIGGERED_ABILITY auto_skip="1" dangerous="1" filter_zone="ZONE_IN_PLAY">
-     <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Whenever you draw a card, each opponent loses 1 life.]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Whenever you draw a card, each opponent loses 1 life.]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Whenever you draw a card, each opponent loses 1 life.]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Whenever you draw a card, each opponent loses 1 life.]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Whenever you draw a card, each opponent loses 1 life.]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[Whenever you draw a card, each opponent loses 1 life.]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[Whenever you draw a card, each opponent loses 1 life.]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Whenever you draw a card, each opponent loses 1 life.]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Whenever you draw a card, each opponent loses 1 life.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Whenever you draw a card, each opponent loses 1 life.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Ogniqualvolta peschi una carta, ogni avversario perde 1 punto vita.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Immer wenn du eine Karte ziehst, verliert jeder Gegner 1 Lebenspunkt.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[À chaque fois que vous piochez une carte, chaque adversaire perd 1 point de vie.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Siempre que robes una carta, cada oponente pierde 1 vida.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[あなたがカードを１枚引くたび、各対戦相手は１点のライフを失う。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[Whenever you draw a card, each opponent loses 1 life.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Каждый раз когда вы берете карту, каждый оппонент теряет 1 жизнь.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Toda vez que você compra um card, cada oponente perde 1 ponto de vida.]]></LOCALISED_TEXT>
 	<TRIGGER value="DREW_CARD" simple_qualifier="controller">
     return TriggerPlayer() == EffectController()
     </TRIGGER>

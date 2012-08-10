@@ -3,15 +3,15 @@
   <FILENAME text="THOPTER_ASSEMBLY_888214039" />
   <CARDNAME text="THOPTER_ASSEMBLY" />
   <TITLE>
-     <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Thopter Assembly]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Thopter Assembly]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Thopter Assembly]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Thopter Assembly]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Thopter Assembly]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[Thopter Assembly]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[Thopter Assembly]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Thopter Assembly]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Thopter Assembly]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Thopter Assembly]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Tottero Assemblato]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Thopter-Baugruppe]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Assembleur de mécanoptères]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Montaje de tópteros]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[飛行機械の組立工]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[Thopter Assembly]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Сборный Топтер]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Montagem de Tóptero]]></LOCALISED_TEXT>
   </TITLE>
   <MULTIVERSEID value="888214039" />
   <ARTID value="888214039" />
@@ -25,30 +25,30 @@
   <POWER value="5" />
   <TOUGHNESS value="5" />
   <STATIC_ABILITY>
-     <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Flying]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Flying]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Flying]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Flying]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Flying]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[Flying]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[Flying]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Flying]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Flying]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Flying]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Volare]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Fliegend]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Vol]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Vuela.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[飛行]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[Flying]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Полет]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Voar]]></LOCALISED_TEXT>
 	<CONTINUOUS_ACTION>
     local characteristics = Object():GetCurrentCharacteristics()
     characteristics:Characteristic_Set( CHARACTERISTIC_FLYING, 1 )
     </CONTINUOUS_ACTION>
   </STATIC_ABILITY>
   <TRIGGERED_ABILITY>
-     <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[At the beginning of your upkeep, if you control no Thopters other than Thopter Assembly, return Thopter Assembly to its owner’s hand and put five 1/1 colorless Thopter artifact creature tokens with flying onto the battlefield.]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[At the beginning of your upkeep, if you control no Thopters other than Thopter Assembly, return Thopter Assembly to its owner’s hand and put five 1/1 colorless Thopter artifact creature tokens with flying onto the battlefield.]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[At the beginning of your upkeep, if you control no Thopters other than Thopter Assembly, return Thopter Assembly to its owner’s hand and put five 1/1 colorless Thopter artifact creature tokens with flying onto the battlefield.]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[At the beginning of your upkeep, if you control no Thopters other than Thopter Assembly, return Thopter Assembly to its owner’s hand and put five 1/1 colorless Thopter artifact creature tokens with flying onto the battlefield.]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[At the beginning of your upkeep, if you control no Thopters other than Thopter Assembly, return Thopter Assembly to its owner’s hand and put five 1/1 colorless Thopter artifact creature tokens with flying onto the battlefield.]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[At the beginning of your upkeep, if you control no Thopters other than Thopter Assembly, return Thopter Assembly to its owner’s hand and put five 1/1 colorless Thopter artifact creature tokens with flying onto the battlefield.]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[At the beginning of your upkeep, if you control no Thopters other than Thopter Assembly, return Thopter Assembly to its owner’s hand and put five 1/1 colorless Thopter artifact creature tokens with flying onto the battlefield.]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[At the beginning of your upkeep, if you control no Thopters other than Thopter Assembly, return Thopter Assembly to its owner’s hand and put five 1/1 colorless Thopter artifact creature tokens with flying onto the battlefield.]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[At the beginning of your upkeep, if you control no Thopters other than Thopter Assembly, return Thopter Assembly to its owner’s hand and put five 1/1 colorless Thopter artifact creature tokens with flying onto the battlefield.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[At the beginning of your upkeep, if you control no Thopters other than Thopter Assembly, return Thopter Assembly to its owner's hand and put five 1/1 colorless Thopter artifact creature tokens with flying onto the battlefield.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[All'inizio del tuo mantenimento, se l'unico Tottero che controlli è il Tottero Assemblato, fai tornare il Tottero Assemblato in mano al suo proprietario e metti sul campo di battaglia cinque pedine creatura artefatto Tottero 1/1 incolori con volare.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Falls du zu Beginn deines Versorgungssegments außer der Thopter-Baugruppe keine Thopter kontrollierst, bringe die Thopter-Baugruppe auf die Hand ihres Besitzers zurück und bringe fünf 1/1 farblose Thopter-Artefaktkreaturenspielsteine mit Flugfähigkeit ins Spiel.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Au début de votre entretien, si vous ne contrôlez pas de mécanoptères autre que l'Assembleur de mécanoptères, renvoyez l'Assembleur de mécanoptères dans la main de son propriétaire et mettez sur le champ de bataille cinq jetons de créature-artefact 1/1 incolore Mécanoptère avec le vol.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Al comienzo de tu mantenimiento, si no controlas un Tóptero distinto del Montaje de tópteros, regresa el Montaje de tópteros a la mano de su propietario y pon en el campo de batalla cinco fichas de criatura artefacto Tóptero incoloras 1/1 con la habilidad de volar.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[あなたのアップキープの開始時に、あなたが飛行機械の組立工以外の飛行機械をコントロールしていない場合、飛行機械の組立工をオーナーの手札に戻し、飛行を持つ無色の１/１の飛行機械・アーティファクト・クリーチャー・トークンを５体戦場に出す。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[At the beginning of your upkeep, if you control no Thopters other than Thopter Assembly, return Thopter Assembly to its owner's hand and put five 1/1 colorless Thopter artifact creature tokens with flying onto the battlefield.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[В начале вашего шага поддержки, если под вашим контролем нет других Топтеров, кроме Сборного Топтера, верните Сборного Топтера в руку его владельца и положите на поле битвы пять фишек артефактного существа 1/1 бесцветный Топтер с Полетом.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[No início de sua manutenção, se você não controlar nenhum Tóptero que não seja Montagem de Tóptero, devolva Montagem de Tóptero para a mão de seu dono e coloque no campo de batalha cinco fichas de criatura artefato incolores 1/1 do tipo Tóptero com voar.]]></LOCALISED_TEXT>
 	<TRIGGER value="BEGINNING_OF_STEP" simple_qualifier="controller">
     local player = EffectController()
     if ((MTG():GetStep() == STEP_UPKEEP) and (player:MyTurn() ~= 0)) then

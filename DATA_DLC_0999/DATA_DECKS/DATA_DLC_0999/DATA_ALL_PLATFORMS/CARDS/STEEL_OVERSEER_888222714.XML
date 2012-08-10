@@ -3,39 +3,39 @@
   <FILENAME text="STEEL_OVERSEER_888222714" />
   <CARDNAME text="STEEL_OVERSEER" />
   <TITLE>
-     <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Steel Overseer]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Steel Overseer]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Steel Overseer]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Steel Overseer]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Steel Overseer]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[Steel Overseer]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[Steel Overseer]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Steel Overseer]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Steel Overseer]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Steel Overseer]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Sorvegliante d'Acciaio]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Aufseher aus Stahl]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Brigadier d'acier]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Capataz de acero]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[鋼の監視者]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[Steel Overseer]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Стальной Надсмотрщик]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Supervisor de Aço]]></LOCALISED_TEXT>
   </TITLE>
   <MULTIVERSEID value="888222714" />
   <ARTID value="888222714" />
   <ARTIST name="Chris Rahn" />
   <CASTING_COST cost="{2}" />
   <FLAVOURTEXT>
-     <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[“The world is already run by all manner of machines. One day, they’ll remind us of that fact.”
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA["The world is already run by all manner of machines. One day, they'll remind us of that fact."
 —Sargis Haz, artificer]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[“The world is already run by all manner of machines. One day, they’ll remind us of that fact.”
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA["Il mondo ormai è gestito da macchine di ogni genere. Un giorno, ci ricorderanno questo fatto."
+—Sargis Haz, artefice]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[„Die Welt wird jetzt schon von unterschiedlichsten Maschinen regiert. Eines Tages werden sie es uns merken lassen."
+—Sargis Haz, Tüftler]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[« Le monde est déjà dirigé par toutes sortes de machines. Un jour, elles nous le rappelleront. »
+—Sargis Haz, artificier]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA["El mundo ya está dirigido por todo tipo de máquinas. Un día, nos recordarán ese hecho."
+—Sargis Haz, artífice]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[「世界は既に機械の方式で動いているのよ。 いつか、その事実を向こうに思い知らされるんでしょうね。」
+――工匠、サルギス・ハズ]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA["The world is already run by all manner of machines. One day, they'll remind us of that fact."
 —Sargis Haz, artificer]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[“The world is already run by all manner of machines. One day, they’ll remind us of that fact.”
-—Sargis Haz, artificer]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[“The world is already run by all manner of machines. One day, they’ll remind us of that fact.”
-—Sargis Haz, artificer]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[“The world is already run by all manner of machines. One day, they’ll remind us of that fact.”
-—Sargis Haz, artificer]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[“The world is already run by all manner of machines. One day, they’ll remind us of that fact.”
-—Sargis Haz, artificer]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[“The world is already run by all manner of machines. One day, they’ll remind us of that fact.”
-—Sargis Haz, artificer]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[“The world is already run by all manner of machines. One day, they’ll remind us of that fact.”
-—Sargis Haz, artificer]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[“The world is already run by all manner of machines. One day, they’ll remind us of that fact.”
-—Sargis Haz, artificer]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[«Уже сейчас миром управляют всевозможные машины. В один прекрасный день они напомнят нам об этом».
+— Саргис Хаз, изобретательница]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA["O mundo já é governado por todo tipo de máquinas. Um dia, elas nos recordarão disso."
+— Sargis Haz, artesão]]></LOCALISED_TEXT>
   </FLAVOURTEXT>
   <TYPE metaname="Artifact" />
   <TYPE metaname="Creature" />

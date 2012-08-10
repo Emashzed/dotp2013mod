@@ -3,30 +3,30 @@
   <FILENAME text="NYXATHID_888186616" />
   <CARDNAME text="NYXATHID" />
   <TITLE>
-     <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Nyxathid]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Nyxathid]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Nyxathid]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Nyxathid]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Nyxathid]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[Nyxathid]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[Nyxathid]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Nyxathid]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Nyxathid]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Nyxathid]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Nyxathid]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Nyxatide]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Nyxathide]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Nyxathid]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[ニクサシッド]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[Nyxathid]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Никсатид]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Nixatide]]></LOCALISED_TEXT>
   </TITLE>
   <MULTIVERSEID value="888186616" />
   <ARTID value="888186616" />
   <ARTIST name="Raymond Swanland" />
   <CASTING_COST cost="{1}{B}{B}" />
   <FLAVOURTEXT>
-     <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Born of volcanic forces, it thrives on the absolute panic it inspires.]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Born of volcanic forces, it thrives on the absolute panic it inspires.]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Born of volcanic forces, it thrives on the absolute panic it inspires.]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Born of volcanic forces, it thrives on the absolute panic it inspires.]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Born of volcanic forces, it thrives on the absolute panic it inspires.]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[Born of volcanic forces, it thrives on the absolute panic it inspires.]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[Born of volcanic forces, it thrives on the absolute panic it inspires.]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Born of volcanic forces, it thrives on the absolute panic it inspires.]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Born of volcanic forces, it thrives on the absolute panic it inspires.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Born of volcanic forces, it thrives on the absolute panic it inspires.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Nato dalle forze vulcaniche primordiali, prospera grazie al terrore assoluto che suscita.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Sie wird von vulkanischen Kräften geboren und lebt von der absoluten Panik, die sie in anderen erweckt.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Né des forces volcaniques, il se nourrit de la panique absolue qu'il inspire.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Nacido de fuerzas volcánicas, saborea el pánico absoluto que genera.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[それは火山の力から生まれ、それがもたらす圧倒的な恐慌で育つ。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[Born of volcanic forces, it thrives on the absolute panic it inspires.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Порождение вулканических сил, он процветает за счет вселяемой им стихийной паники.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Nascido de forças vulcânicas, sua força vem do pânico absoluto que gera.]]></LOCALISED_TEXT>
   </FLAVOURTEXT>
   <TYPE metaname="Creature" />
   <SUB_TYPE metaname="Elemental" order_de-DE="0" order_es-ES="0" order_fr-FR="0" order_it-IT="0" order_jp-JA="0" order_ko-KR="0" order_pt-BR="0" order_ru-RU="0" />
@@ -35,15 +35,15 @@
   <POWER value="7" />
   <TOUGHNESS value="7" />
   <TRIGGERED_ABILITY pre_trigger="1" replacement_query="1" active_zone="ZONE_TRANSITION">
-     <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[As Nyxathid enters the battlefield, choose an opponent.]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[As Nyxathid enters the battlefield, choose an opponent.]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[As Nyxathid enters the battlefield, choose an opponent.]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[As Nyxathid enters the battlefield, choose an opponent.]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[As Nyxathid enters the battlefield, choose an opponent.]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[As Nyxathid enters the battlefield, choose an opponent.]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[As Nyxathid enters the battlefield, choose an opponent.]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[As Nyxathid enters the battlefield, choose an opponent.]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[As Nyxathid enters the battlefield, choose an opponent.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[As Nyxathid enters the battlefield, choose an opponent.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Mentre il Nyxathid entra in gioco, scegli un avversario.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Sowie die Nyxatide ins Spiel kommt, bestimme einen Gegner.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Au moment où le Nyxathide arrive en jeu, choisissez un adversaire.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[En cuanto el Nyxathid entre en juego, elige un oponente.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[ニクサシッドが場に出るに際し、対戦相手を1人選ぶ。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[As Nyxathid enters the battlefield, choose an opponent.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[При входе Никсатида в игру выберите оппонента.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Conforme Nixatide entra em jogo, escolha um oponente.]]></LOCALISED_TEXT>
 	<TRIGGER value="ZONECHANGE_TRANSITION" simple_qualifier="self" to_zone="ZONE_IN_PLAY" />
 	<TARGET_DEFINITION id="0">
     local filter = Object():GetFilter()
@@ -80,15 +80,15 @@
     </DURATION>
   </TRIGGERED_ABILITY>
   <STATIC_ABILITY>
-     <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Nyxathid gets -1/-1 for each card in the chosen player’s hand.]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Nyxathid gets -1/-1 for each card in the chosen player’s hand.]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Nyxathid gets -1/-1 for each card in the chosen player’s hand.]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Nyxathid gets -1/-1 for each card in the chosen player’s hand.]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Nyxathid gets -1/-1 for each card in the chosen player’s hand.]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[Nyxathid gets -1/-1 for each card in the chosen player’s hand.]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[Nyxathid gets -1/-1 for each card in the chosen player’s hand.]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Nyxathid gets -1/-1 for each card in the chosen player’s hand.]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Nyxathid gets -1/-1 for each card in the chosen player’s hand.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Nyxathid gets -1/-1 for each card in the chosen player's hand.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Il Nyxathid prende -1/-1 per ogni carta nella mano del giocatore scelto.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Die Nyxatide erhält -1/-1 für jede Karte auf der Hand des bestimmten Spielers.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Le Nyxathide gagne -1/-1 pour chaque carte dans la main du joueur choisi.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[El Nyxathid obtiene -1/-1 por cada carta en la mano del jugador elegido.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[ニクサシッドは、選ばれたプレイヤーの手札にあるカード１枚につき-１/-１の修整を受ける。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[Nyxathid gets -1/-1 for each card in the chosen player's hand.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Никсатид получает -1/-1 за каждую карту в руке выбранного игрока.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Nixatide recebe -1/-1 para cada card na mão do jogador escolhido.]]></LOCALISED_TEXT>
 	<CONTINUOUS_ACTION layer="7C">
     local chosen_opponent = ObjectDC():Get_PlayerPtr(0)
 	if chosen_opponent ~= nil then

@@ -3,39 +3,39 @@
   <FILENAME text="RAKKA_MAR_888185810" />
   <CARDNAME text="RAKKA_MAR" />
   <TITLE>
-     <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Rakka Mar]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Rakka Mar]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Rakka Mar]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Rakka Mar]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Rakka Mar]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[Rakka Mar]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[Rakka Mar]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Rakka Mar]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Rakka Mar]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Rakka Mar]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Rakka Mar]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Rakka Mar]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Rakka Mar]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Rakka Mar]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[ラッカ・マー]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[Rakka Mar]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Ракка Мар]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Rakka Mar]]></LOCALISED_TEXT>
   </TITLE>
   <MULTIVERSEID value="888185810" />
   <ARTID value="888185810" />
   <ARTIST name="Jason Chan" />
   <CASTING_COST cost="{2}{R}{R}" />
   <FLAVOURTEXT>
-     <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[“The finest pawns are those with pawns of their own.”
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA["The finest pawns are those with pawns of their own."
 —Nicol Bolas]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[“The finest pawns are those with pawns of their own.”
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA["Le migliori garanzie sono fornite da chi offre in pegno se stesso."
 —Nicol Bolas]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[“The finest pawns are those with pawns of their own.”
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[„Die besten Untertanen sind die, die eigene Untertanen haben."
 —Nicol Bolas]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[“The finest pawns are those with pawns of their own.”
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[« Les meilleurs pions sont ceux qui ont leurs propres pions. »
 —Nicol Bolas]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[“The finest pawns are those with pawns of their own.”
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA["Los mejores peones son aquellos que tienen peones propios."
 —Nicol Bolas]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[“The finest pawns are those with pawns of their own.”
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[「最高の手駒とは、自身の手駒を持っている手駒だ。」
+――ニコル・ボーラス]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA["The finest pawns are those with pawns of their own."
 —Nicol Bolas]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[“The finest pawns are those with pawns of their own.”
-—Nicol Bolas]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[“The finest pawns are those with pawns of their own.”
-—Nicol Bolas]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[“The finest pawns are those with pawns of their own.”
-—Nicol Bolas]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[«Лучшие пешки — те, у кого есть свои собственные пешки».
+— Никол Болас]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA["Os melhores peões são aqueles que têm seus próprios peões."
+— Nicol Bolas]]></LOCALISED_TEXT>
   </FLAVOURTEXT>
   <SUPERTYPE metaname="Legendary" />
   <TYPE metaname="Creature" />
@@ -46,30 +46,30 @@
   <POWER value="2" />
   <TOUGHNESS value="2" />
   <STATIC_ABILITY filter_zone="ZONE_IN_PLAY">
-     <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Haste]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Haste]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Haste]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Haste]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Haste]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[Haste]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[Haste]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Haste]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Haste]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Haste]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Rapidità]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Eile]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Célérité]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Prisa.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[速攻]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[Haste]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Ускорение]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Ímpeto]]></LOCALISED_TEXT>
     <CONTINUOUS_ACTION>
     local characteritics = Object():GetCurrentCharacteristics()
     characteritics:Characteristic_Set( CHARACTERISTIC_HASTE, 1 )
     </CONTINUOUS_ACTION>
   </STATIC_ABILITY>
   <ACTIVATED_ABILITY auto_skip="1" filter_zone="ZONE_IN_PLAY">
-     <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[{R}, {T}: Put a 3/1 red Elemental creature token with haste onto the battlefield.]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[{R}, {T}: Put a 3/1 red Elemental creature token with haste onto the battlefield.]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[{R}, {T}: Put a 3/1 red Elemental creature token with haste onto the battlefield.]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[{R}, {T}: Put a 3/1 red Elemental creature token with haste onto the battlefield.]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[{R}, {T}: Put a 3/1 red Elemental creature token with haste onto the battlefield.]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[{R}, {T}: Put a 3/1 red Elemental creature token with haste onto the battlefield.]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[{R}, {T}: Put a 3/1 red Elemental creature token with haste onto the battlefield.]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[{R}, {T}: Put a 3/1 red Elemental creature token with haste onto the battlefield.]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[{R}, {T}: Put a 3/1 red Elemental creature token with haste onto the battlefield.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[{R}, {T}: Put a 3/1 red Elemental creature token with haste onto the battlefield.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[{R}, {T}: Metti in gioco una pedina creatura Elementale 3/1 rossa con rapidità.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[{R}, {T}: Bringe einen 3/1 roten Elementarwesen-Kreaturenspielstein mit Eile ins Spiel.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[{R}, {T} : Mettez en jeu un jeton de créature 3/1 rouge Élémental avec la célérité.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[{R}, {T}: Pon en juego una ficha de criatura Elemental roja 3/1 con la habilidad de prisa.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[{R}, {T}：速攻を持つ赤の３/１のエレメンタル・クリーチャー・トークンを１体場に出す。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[{R}, {T}: Put a 3/1 red Elemental creature token with haste onto the battlefield.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[{R}, {T}: положите в игру одну фишку существа 3/1 красный Элементаль с Ускорением.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[{R}, {T}: Coloque em jogo uma ficha de criatura 3/1 vermelha do tipo Elemental com ímpeto.]]></LOCALISED_TEXT>
     <COST type="Mana" cost="{R}" />
 	<COST type="TapSelf" />
 	<RESOLUTION_TIME_ACTION>

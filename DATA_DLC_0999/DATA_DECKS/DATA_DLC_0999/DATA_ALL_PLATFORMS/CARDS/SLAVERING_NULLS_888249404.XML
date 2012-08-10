@@ -3,30 +3,30 @@
   <FILENAME text="SLAVERING_NULLS_888249404" />
   <CARDNAME text="SLAVERING_NULLS" />
   <TITLE>
-     <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Slavering Nulls]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Slavering Nulls]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Slavering Nulls]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Slavering Nulls]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Slavering Nulls]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[Slavering Nulls]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[Slavering Nulls]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Slavering Nulls]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Slavering Nulls]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Slavering Nulls]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Nulli Sbavanti]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Sabbernde Nullen]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Inféconds esclaves]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Nulos esclavos]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[よだれ流しの虚身]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[Slavering Nulls]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Слюнявые Ничтожества]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Nulos Sedentos]]></LOCALISED_TEXT>
   </TITLE>
   <MULTIVERSEID value="888249404" />
   <ARTID value="888249404" />
   <ARTIST name="Dave Kendall" />
   <CASTING_COST cost="{1}{R}" />
   <FLAVOURTEXT>
-     <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Having lost their minds, they now want yours.]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Having lost their minds, they now want yours.]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Having lost their minds, they now want yours.]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Having lost their minds, they now want yours.]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Having lost their minds, they now want yours.]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[Having lost their minds, they now want yours.]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[Having lost their minds, they now want yours.]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Having lost their minds, they now want yours.]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Having lost their minds, they now want yours.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Having lost their minds, they now want yours.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Ora che hanno perso la testa, sperano di compensare con la tua.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Nachdem sie ihren Verstand verloren haben, wollen sie jetzt deinen.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Ayant perdu l'esprit, ils veulent le vôtre.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Habiendo perdido la razón, ahora quieren la tuya.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[意思を失った彼らは、いまやお前のものを求めている。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[Having lost their minds, they now want yours.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Потеряв собственный рассудок, они жаждут теперь заполучить ваш.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Eles perderam suas mentes e agora querem a sua.]]></LOCALISED_TEXT>
   </FLAVOURTEXT>
   <TYPE metaname="Creature" />
   <SUB_TYPE metaname="Goblin" order_de-DE="0" order_es-ES="0" order_fr-FR="0" order_it-IT="0" order_jp-JA="0" order_ko-KR="0" order_pt-BR="0" order_ru-RU="0" />
@@ -36,15 +36,15 @@
   <POWER value="2" />
   <TOUGHNESS value="1" />
   <TRIGGERED_ABILITY filter_zone="ZONE_IN_PLAY">
-     <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Whenever Slavering Nulls deals combat damage to a player, if you control a Swamp, you may have that player discard a card.]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Whenever Slavering Nulls deals combat damage to a player, if you control a Swamp, you may have that player discard a card.]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Whenever Slavering Nulls deals combat damage to a player, if you control a Swamp, you may have that player discard a card.]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Whenever Slavering Nulls deals combat damage to a player, if you control a Swamp, you may have that player discard a card.]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Whenever Slavering Nulls deals combat damage to a player, if you control a Swamp, you may have that player discard a card.]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[Whenever Slavering Nulls deals combat damage to a player, if you control a Swamp, you may have that player discard a card.]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[Whenever Slavering Nulls deals combat damage to a player, if you control a Swamp, you may have that player discard a card.]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Whenever Slavering Nulls deals combat damage to a player, if you control a Swamp, you may have that player discard a card.]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Whenever Slavering Nulls deals combat damage to a player, if you control a Swamp, you may have that player discard a card.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Whenever Slavering Nulls deals combat damage to a player, if you control a Swamp, you may have that player discard a card.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Ogniqualvolta i Nulli Sbavanti infliggono danno da combattimento a un giocatore, se controlli una Palude, puoi far scartare una carta a quel giocatore]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Immer wenn die Sabbernden Nullen einem Spieler Kampfschaden zufügen, kannst du diesen Spieler eine Karte aus der Hand abwerfen lassen, falls du einen Sumpf kontrollierst.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[À chaque fois que les Inféconds esclaves infligent des blessures de combat à un joueur, si vous contrôlez un marais, vous pouvez faire que ce joueur se défausse d'une carte.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Siempre que los Nulos esclavos hagan daño de combate a un jugador, si controlas un pantano, puedes hacer que ese jugador descarte una carta.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[よだれ流しの虚身がいずれかのプレイヤーに戦闘ダメージを与えるたび、あなたが沼をコントロールしている場合、あなたは「そのプレイヤーはカードを１枚捨てる。」を選んでもよい。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[Whenever Slavering Nulls deals combat damage to a player, if you control a Swamp, you may have that player discard a card.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Каждый раз когда Слюнявые Ничтожества наносят боевые повреждения игроку, если под вашим контролем есть Болото, вы можете заставить того игрока сбросить карту.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Toda vez que Nulos Sedentos causar dano de combate a um jogador, se você controlar um Pântano, você poderá fazer com que aquele jogador descarte um card.]]></LOCALISED_TEXT>
     <TRIGGER value="CREATURE_DEALS_COMBAT_DAMAGE_TO_PLAYER" simple_qualifier="self">
 	local filter = Object():GetFilter()
     filter:Clear()

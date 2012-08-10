@@ -3,44 +3,44 @@
   <FILENAME text="THIRST_FOR_KNOWLEDGE_888242878" />
   <CARDNAME text="THIRST_FOR_KNOWLEDGE" />
   <TITLE>
-     <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Thirst for Knowledge]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Thirst for Knowledge]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Thirst for Knowledge]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Thirst for Knowledge]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Thirst for Knowledge]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[Thirst for Knowledge]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[Thirst for Knowledge]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Thirst for Knowledge]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Thirst for Knowledge]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Thirst for Knowledge]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Sete di Conoscenza]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Streben nach Wissen]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Soif de connaissance]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Sed de conocimiento]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[知識の渇望]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[Thirst for Knowledge]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Thirst for Knowledge]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Sede por Conhecimento]]></LOCALISED_TEXT>
   </TITLE>
   <MULTIVERSEID value="888242878" />
   <ARTID value="888242878" />
   <ARTIST name="Ben Thompson" />
   <CASTING_COST cost="{2}{U}" />
   <FLAVOURTEXT>
-     <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Lymph, the fluid essence of blinkmoths, is prized by wizards for the rush of intellect it provides.]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Lymph, the fluid essence of blinkmoths, is prized by wizards for the rush of intellect it provides.]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Lymph, the fluid essence of blinkmoths, is prized by wizards for the rush of intellect it provides.]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Lymph, the fluid essence of blinkmoths, is prized by wizards for the rush of intellect it provides.]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Lymph, the fluid essence of blinkmoths, is prized by wizards for the rush of intellect it provides.]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[Lymph, the fluid essence of blinkmoths, is prized by wizards for the rush of intellect it provides.]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[Lymph, the fluid essence of blinkmoths, is prized by wizards for the rush of intellect it provides.]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Lymph, the fluid essence of blinkmoths, is prized by wizards for the rush of intellect it provides.]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Lymph, the fluid essence of blinkmoths, is prized by wizards for the rush of intellect it provides.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Lymph, the fluid essence of blinkmoths, is prized by wizards for the rush of intellect it provides.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[La linfa, l'essenza fluida dei lampidotteri, è lodata dai maghi per l'incremento di facoltà intellettive che fornisce.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Die Gewebsflüssigkeit, aus denen Blinkmotten bestehen, wird von Zauberern hoch geschätzt, da sie den Verstand anregt.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[La lymphe, l'essence fluide des scintimites, est prisée par les sorciers pour la soudaine croissance intellectuelle qu'elle procure.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[La linfa, el fluido esencial de las polillas titilantes, es apreciada entre los hechiceros porque aumenta la sabiduría.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[ちらつき蛾のリンパ液は頭脳を活性化してくれるため、魔術師に珍重されている。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[Lymph, the fluid essence of blinkmoths, is prized by wizards for the rush of intellect it provides.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Lymph, the fluid essence of blinkmoths, is prized by wizards for the rush of intellect it provides.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[A linfa, a essência líquida dos mosco-lumes, é apreciada pelos magos devido ao surto de conhecimento que fornece.]]></LOCALISED_TEXT>
   </FLAVOURTEXT>
   <TYPE metaname="Instant" />
   <EXPANSION value="DPG" />
   <RARITY metaname="U" />
   <SPELL_ABILITY filter_zone="ZONE_IN_PLAY">
-     <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Draw three cards. Then discard two cards unless you discard an artifact card.]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Draw three cards. Then discard two cards unless you discard an artifact card.]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Draw three cards. Then discard two cards unless you discard an artifact card.]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Draw three cards. Then discard two cards unless you discard an artifact card.]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Draw three cards. Then discard two cards unless you discard an artifact card.]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[Draw three cards. Then discard two cards unless you discard an artifact card.]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[Draw three cards. Then discard two cards unless you discard an artifact card.]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Draw three cards. Then discard two cards unless you discard an artifact card.]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Draw three cards. Then discard two cards unless you discard an artifact card.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Draw three cards. Then discard two cards unless you discard an artifact card.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Pesca tre carte. Poi, scarta due carte dalla tua mano, a meno che tu scarti una carta artefatto.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Ziehe drei Karten. Wirf dann zwei Karten aus deiner Hand ab, falls du nicht eine Artefaktkarte aus deiner Hand abwirfst.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Piochez trois cartes. Défaussez-vous ensuite de deux cartes de votre main à moins que vous ne vous défaussiez d'une carte d'artefact de votre main.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Roba tres cartas. Luego descarta dos cartas de tu mano a menos que descartes una carta de artefacto.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[カードを３枚引く。 その後、あなたの手札からアーティファクト・カードを１枚捨てないかぎり、あなたの手札からカードを２枚捨てる。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[Draw three cards. Then discard two cards unless you discard an artifact card.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Draw three cards. Then discard two cards unless you discard an artifact card.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Compre três cards. Depois descarte dois cards de sua mão, a menos que você descarte um card de artefato de sua mão.]]></LOCALISED_TEXT>
     <RESOLUTION_TIME_ACTION>
       PlayerDrawCards( EffectController(), 3 )
     </RESOLUTION_TIME_ACTION>

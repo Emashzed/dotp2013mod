@@ -3,30 +3,30 @@
   <FILENAME text="SYGG_RIVER_CUTTHROAT_888147377" />
   <CARDNAME text="SYGG_RIVER_CUTTHROAT" />
   <TITLE>
-     <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Sygg, River Cutthroat]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Sygg, River Cutthroat]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Sygg, River Cutthroat]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Sygg, River Cutthroat]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Sygg, River Cutthroat]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[Sygg, River Cutthroat]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[Sygg, River Cutthroat]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Sygg, River Cutthroat]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Sygg, River Cutthroat]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Sygg, River Cutthroat]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Sygg, Tagliagole Fluviale]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Sygg, Flussmeuchler]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Sygg, surineur de rivière]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Sygg, degollador del río]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[川の殺し屋、シグ]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[Sygg, River Cutthroat]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Сигг, Речной Головорез]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Sygg, Degolador do Rio]]></LOCALISED_TEXT>
   </TITLE>
   <MULTIVERSEID value="888147377" />
   <ARTID value="888147377" />
   <ARTIST name="Jeremy Enecio" />
   <CASTING_COST cost="{U/B}{U/B}" />
   <FLAVOURTEXT>
-     <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[“It’s not a matter of deserving. It’s a matter of strength. The power to hold versus the power to take.”]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[“It’s not a matter of deserving. It’s a matter of strength. The power to hold versus the power to take.”]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[“It’s not a matter of deserving. It’s a matter of strength. The power to hold versus the power to take.”]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[“It’s not a matter of deserving. It’s a matter of strength. The power to hold versus the power to take.”]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[“It’s not a matter of deserving. It’s a matter of strength. The power to hold versus the power to take.”]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[“It’s not a matter of deserving. It’s a matter of strength. The power to hold versus the power to take.”]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[“It’s not a matter of deserving. It’s a matter of strength. The power to hold versus the power to take.”]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[“It’s not a matter of deserving. It’s a matter of strength. The power to hold versus the power to take.”]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[“It’s not a matter of deserving. It’s a matter of strength. The power to hold versus the power to take.”]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA["It's not a matter of deserving. It's a matter of strength. The power to hold versus the power to take."]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA["Non è una questione di merito. È una questione di forza. La forza di trattenere contro quella di afferrare."]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[„Es ist egal, wer es verdient hat. Nur auf die Stärke kommt es an. Die Kraft, es festzuhalten, gegen die Kraft, es zu rauben."]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[« Ce n'est pas une question de mérite, mais une question de force. Le pouvoir de garder ou le pouvoir de prendre. »]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA["El problema no es merecerlo. El problema es la fortaleza. El poder de retener contra el poder de tomar."]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[「価値がどうって問題じゃない。 強さが問題なんだ。 守る力と持ち去る力の関係さ。」]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA["It's not a matter of deserving. It's a matter of strength. The power to hold versus the power to take."]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[«Это не вопрос справедливой заслуги. Это вопрос силы. Кто сильнее — тот, кто пытается удержать, или тот, кто пытается отнять?»]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA["Não é uma questão de merecer. É uma questão de força. O poder de ter versus o poder de tomar."]]></LOCALISED_TEXT>
   </FLAVOURTEXT>
   <SUPERTYPE metaname="Legendary" />
   <TYPE metaname="Creature" />
@@ -37,15 +37,15 @@
   <POWER value="1" />
   <TOUGHNESS value="3" />
   <TRIGGERED_ABILITY auto_skip="1">
-     <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[At the beginning of each end step, if an opponent lost 3 or more life this turn, you may draw a card. |(Damage causes loss of life.)|]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[At the beginning of each end step, if an opponent lost 3 or more life this turn, you may draw a card. |(Damage causes loss of life.)|]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[At the beginning of each end step, if an opponent lost 3 or more life this turn, you may draw a card. |(Damage causes loss of life.)|]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[At the beginning of each end step, if an opponent lost 3 or more life this turn, you may draw a card. |(Damage causes loss of life.)|]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[At the beginning of each end step, if an opponent lost 3 or more life this turn, you may draw a card. |(Damage causes loss of life.)|]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[At the beginning of each end step, if an opponent lost 3 or more life this turn, you may draw a card. |(Damage causes loss of life.)|]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[At the beginning of each end step, if an opponent lost 3 or more life this turn, you may draw a card. |(Damage causes loss of life.)|]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[At the beginning of each end step, if an opponent lost 3 or more life this turn, you may draw a card. |(Damage causes loss of life.)|]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[At the beginning of each end step, if an opponent lost 3 or more life this turn, you may draw a card. |(Damage causes loss of life.)|]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[At the beginning of each end step, if an opponent lost 3 or more life this turn, you may draw a card. (Damage causes loss of life.)]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Alla fine del turno, se un avversario ha perso 3 o più punti vita in questo turno, puoi pescare una carta. (Il danno causa la perdita di punti vita.)]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Du kannst am Ende des Zuges eine Karte ziehen, falls ein Gegner in diesem Zug 3 oder mehr Lebenspunkte verloren hat. (Schaden verursacht den Verlust von Lebenspunkten.)]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[À la fin du tour, si un adversaire a perdu au moins 3 points de vie ce tour-ci, vous pouvez piocher une carte. (Les blessures provoquent la perte de points de vie.)]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Al final del turno, si un oponente perdió 3 o más vidas este turno, puedes robar una carta. (El daño causa pérdida de vida.)]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[ターン終了時に、いずれかの対戦相手がこのターンに３点以上のライフを失っている場合、あなたはカードを１枚引いてもよい。 （ダメージによりライフは失われる。）]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[At the beginning of each end step, if an opponent lost 3 or more life this turn, you may draw a card. (Damage causes loss of life.)]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[В конце хода, если оппонент потерял 3 или больше жизней в этом ходу, вы можете взять карту. (Повреждения вызывают потерю жизней.)]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[No final do turno, se um oponente perdeu 3 ou mais pontos de vida neste turno, você pode comprar um card. (O dano causa perda de pontos de vida.)]]></LOCALISED_TEXT>
     <TRIGGER value="BEGINNING_OF_STEP" simple_qualifier="controller">
     if ( MTG():GetStep() == STEP_END_OF_TURN ) then
         local num_players = MTG():GetNumberOfPlayers()

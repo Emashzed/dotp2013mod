@@ -3,30 +3,30 @@
   <FILENAME text="SILVERGILL_ADEPT_888139682" />
   <CARDNAME text="SILVERGILL_ADEPT" />
   <TITLE>
-     <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Silvergill Adept]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Silvergill Adept]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Silvergill Adept]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Silvergill Adept]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Silvergill Adept]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[Silvergill Adept]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[Silvergill Adept]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Silvergill Adept]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Silvergill Adept]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Silvergill Adept]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Esperto della Branchiargentata]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Meister der Silberkiemen]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Expert d'Ouidargent]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Perito Branquia Plateada]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[銀エラの達人]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[Silvergill Adept]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Среброжаберный Адепт]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Adepto Prateobrânquio]]></LOCALISED_TEXT>
   </TITLE>
   <MULTIVERSEID value="888139682" />
   <ARTID value="888139682" />
   <ARTIST name="Matt Cavotta" />
   <CASTING_COST cost="{1}{U}" />
   <FLAVOURTEXT>
-     <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[“I bring baubles of lore, lost secrets seined from the listening waves.”]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[“I bring baubles of lore, lost secrets seined from the listening waves.”]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[“I bring baubles of lore, lost secrets seined from the listening waves.”]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[“I bring baubles of lore, lost secrets seined from the listening waves.”]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[“I bring baubles of lore, lost secrets seined from the listening waves.”]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[“I bring baubles of lore, lost secrets seined from the listening waves.”]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[“I bring baubles of lore, lost secrets seined from the listening waves.”]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[“I bring baubles of lore, lost secrets seined from the listening waves.”]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[“I bring baubles of lore, lost secrets seined from the listening waves.”]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA["I bring baubles of lore, lost secrets seined from the listening waves."]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA["Vi porto ninnoli della tradizione, segreti perduti pescati tra le onde in ascolto."]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[„Ich bringe euch Luftblasen voller Wissen, verlorengegangene Geheimnisse, die ich aus den alles hörenden Wellen herausgefischt habe."]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[« J'apporte des babioles de savoir, des secrets perdus flottés par les vagues. »]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA["Traigo baratijas de sabiduría, secretos perdidos recuperados por las olas."]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[「私は波の音を聞き、そこから失われた秘密の知識の欠片を手に入れるのだ。」]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA["I bring baubles of lore, lost secrets seined from the listening waves."]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA["Я приношу обрывки преданий — утерянные тайны, выловленные во всевнемлющих волнах".]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA["Eu trago miudezas repletas de sabedoria, segredos perdidos pescados das ondas atentas."]]></LOCALISED_TEXT>
   </FLAVOURTEXT>
   <TYPE metaname="Creature" />
   <SUB_TYPE metaname="Merfolk" order_de-DE="0" order_es-ES="0" order_fr-FR="0" order_it-IT="0" order_jp-JA="0" order_ko-KR="0" order_pt-BR="0" order_ru-RU="0" />
@@ -36,15 +36,15 @@
   <POWER value="2" />
   <TOUGHNESS value="1" />
   <STATIC_ABILITY filter_zone="ZONE_ANY" active_zone="ZONE_ANY">
-     <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[As an additional cost to cast Silvergill Adept, reveal a Merfolk card from your hand or pay {3}.]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[As an additional cost to cast Silvergill Adept, reveal a Merfolk card from your hand or pay {3}.]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[As an additional cost to cast Silvergill Adept, reveal a Merfolk card from your hand or pay {3}.]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[As an additional cost to cast Silvergill Adept, reveal a Merfolk card from your hand or pay {3}.]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[As an additional cost to cast Silvergill Adept, reveal a Merfolk card from your hand or pay {3}.]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[As an additional cost to cast Silvergill Adept, reveal a Merfolk card from your hand or pay {3}.]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[As an additional cost to cast Silvergill Adept, reveal a Merfolk card from your hand or pay {3}.]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[As an additional cost to cast Silvergill Adept, reveal a Merfolk card from your hand or pay {3}.]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[As an additional cost to cast Silvergill Adept, reveal a Merfolk card from your hand or pay {3}.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[As an additional cost to cast Silvergill Adept, reveal a Merfolk card from your hand or pay {3}.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Come costo addizionale per giocare l'Esperto della Branchiargentata, rivela una carta Tritone dalla tua mano o paga {3}.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Zeige als zusätzliche Kosten, um den Meister der Silberkiemen zu spielen, eine Meervolkkarte von deiner Hand offen vor oder bezahle {3}.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[En tant que coût supplémentaire pour jouer l'Expert d'Ouidargent, révélez une carte d'ondin de votre main ou payez {3}.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Como coste adicional para jugar el Perito Branquia Plateada, muestra una carta de Tritón de tu mano o paga {3}.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[銀エラの達人をプレイするための追加コストとして、あなたの手札にあるマーフォーク・カードを１枚公開するか{3}を支払う。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[As an additional cost to cast Silvergill Adept, reveal a Merfolk card from your hand or pay {3}.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[В качестве дополнительной стоимости разыгрывания Среброжаберного Адепта покажите карту Мерфолка из вашей руки или заплатите {3}.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Como custo adicional para jogar Adepto Prateobrânquio, revele um card de Tritão da sua mão ou pague {3}.]]></LOCALISED_TEXT>
     <CONTINUOUS_ACTION layer="8">
 	local total = 0  
     local filter = Object():GetFilter()  
@@ -64,15 +64,15 @@
     </CONTINUOUS_ACTION>
   </STATIC_ABILITY>
   <TRIGGERED_ABILITY auto_skip="1" filter_zone="ZONE_IN_PLAY">
-     <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[When Silvergill Adept enters the battlefield, draw a card.]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[When Silvergill Adept enters the battlefield, draw a card.]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[When Silvergill Adept enters the battlefield, draw a card.]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[When Silvergill Adept enters the battlefield, draw a card.]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[When Silvergill Adept enters the battlefield, draw a card.]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[When Silvergill Adept enters the battlefield, draw a card.]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[When Silvergill Adept enters the battlefield, draw a card.]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[When Silvergill Adept enters the battlefield, draw a card.]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[When Silvergill Adept enters the battlefield, draw a card.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[When Silvergill Adept enters the battlefield, draw a card.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Quando l'Esperto della Branchiargentata entra in gioco, pesca una carta.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Wenn der Meister der Silberkiemen ins Spiel kommt, ziehe eine Karte.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Quand l'Expert d'Ouidargent arrive en jeu, piochez une carte.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Cuando el Perito Branquia Plateada entre en juego, roba una carta.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[銀エラの達人が場に出たとき、カードを１枚引く。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[When Silvergill Adept enters the battlefield, draw a card.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Когда Среброжаберный Адепт входит в игру, возьмите карту.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Quando Adepto Prateobrânquio entrar em jogo, compre um card.]]></LOCALISED_TEXT>
     <TRIGGER value="ZONECHANGE_END" simple_qualifier="self" to_zone="ZONE_IN_PLAY" />
     <RESOLUTION_TIME_ACTION>
     local NumCards = 1

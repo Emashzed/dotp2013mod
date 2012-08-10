@@ -3,30 +3,30 @@
   <FILENAME text="PROWESS_OF_THE_FAIR_888146167" />
   <CARDNAME text="PROWESS_OF_THE_FAIR" />
   <TITLE>
-     <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Prowess of the Fair]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Prowess of the Fair]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Prowess of the Fair]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Prowess of the Fair]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Prowess of the Fair]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[Prowess of the Fair]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[Prowess of the Fair]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Prowess of the Fair]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Prowess of the Fair]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Prowess of the Fair]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Prodezza del Giusto]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Tapferkeit der Holden]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Prouesse des justes]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Destreza de los hermosos]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[麗しき者の勇気]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[Prowess of the Fair]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Доблесть Прекрасных]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Proeza do Belo]]></LOCALISED_TEXT>
   </TITLE>
   <MULTIVERSEID value="888146167" />
   <ARTID value="888146167" />
   <ARTIST name="Jeremy Jarvis" />
   <CASTING_COST cost="{1}{B}" />
   <FLAVOURTEXT>
-     <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[An elvish duel is a thing of beauty: the warriors’ grace, the crash of steel, then the artful spray of blood.]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[An elvish duel is a thing of beauty: the warriors’ grace, the crash of steel, then the artful spray of blood.]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[An elvish duel is a thing of beauty: the warriors’ grace, the crash of steel, then the artful spray of blood.]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[An elvish duel is a thing of beauty: the warriors’ grace, the crash of steel, then the artful spray of blood.]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[An elvish duel is a thing of beauty: the warriors’ grace, the crash of steel, then the artful spray of blood.]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[An elvish duel is a thing of beauty: the warriors’ grace, the crash of steel, then the artful spray of blood.]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[An elvish duel is a thing of beauty: the warriors’ grace, the crash of steel, then the artful spray of blood.]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[An elvish duel is a thing of beauty: the warriors’ grace, the crash of steel, then the artful spray of blood.]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[An elvish duel is a thing of beauty: the warriors’ grace, the crash of steel, then the artful spray of blood.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[An elvish duel is a thing of beauty: the warriors' grace, the crash of steel, then the artful spray of blood.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Un duello elfico è un'opera di splendida bellezza: la grazia dei guerrieri, il clangore dell'acciaio e gli artistici schizzi di sangue.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Ein Duell zwischen Elfen ist eine schöne Angelegenheit: die Anmut der Krieger, das Aufeinanderprallen von Stahl und das künstlerische Spritzen von Blut.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Un duel elfique est un spectacle d'une rare beauté : la grâce des combattants, le choc de l'acier, le chatoiement artistique des éclaboussures de sang.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Un duelo élfico es algo hermoso: la destreza de los guerreros, el chocar del acero y luego el artístico esparcir de la sangre.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[エルフの決闘は美の塊だ。戦士の優雅さ、鋼のぶつかり合い、そして飛び散る血の美しさ。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[An elvish duel is a thing of beauty: the warriors' grace, the crash of steel, then the artful spray of blood.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Эльфийская дуэль — это красивый ритуал: грациозные воины, лязг металла и, наконец, искусно пролитая кровь.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Um duelo élfico é uma beleza: a graça dos guerreiros, a colisão dos metais e então o habilidoso derrame de sangue.]]></LOCALISED_TEXT>
   </FLAVOURTEXT>
   <TYPE metaname="Tribal" />
   <TYPE metaname="Enchantment" />
@@ -34,15 +34,15 @@
   <EXPANSION value="DPG" />
   <RARITY metaname="U" />
   <TRIGGERED_ABILITY auto_skip="1">
-     <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Whenever another nontoken Elf is put into your graveyard from the battlefield, you may put a 1/1 green Elf Warrior creature token onto the battlefield.]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Whenever another nontoken Elf is put into your graveyard from the battlefield, you may put a 1/1 green Elf Warrior creature token onto the battlefield.]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Whenever another nontoken Elf is put into your graveyard from the battlefield, you may put a 1/1 green Elf Warrior creature token onto the battlefield.]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Whenever another nontoken Elf is put into your graveyard from the battlefield, you may put a 1/1 green Elf Warrior creature token onto the battlefield.]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Whenever another nontoken Elf is put into your graveyard from the battlefield, you may put a 1/1 green Elf Warrior creature token onto the battlefield.]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[Whenever another nontoken Elf is put into your graveyard from the battlefield, you may put a 1/1 green Elf Warrior creature token onto the battlefield.]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[Whenever another nontoken Elf is put into your graveyard from the battlefield, you may put a 1/1 green Elf Warrior creature token onto the battlefield.]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Whenever another nontoken Elf is put into your graveyard from the battlefield, you may put a 1/1 green Elf Warrior creature token onto the battlefield.]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Whenever another nontoken Elf is put into your graveyard from the battlefield, you may put a 1/1 green Elf Warrior creature token onto the battlefield.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Whenever another nontoken Elf is put into your graveyard from the battlefield, you may put a 1/1 green Elf Warrior creature token onto the battlefield.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Ogniqualvolta un altro Elfo non pedina viene messo nel tuo cimitero dal gioco, puoi mettere in gioco una pedina creatura Guerriero Elfo 1/1 verde.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Immer wenn ein anderer Nichtspielsteinelf aus dem Spiel auf deinen Friedhof gelegt wird, kannst du einen 1/1 grünen (Elf, Krieger)-Kreaturspielstein ins Spiel bringen.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[À chaque fois qu'un autre elfe non-jeton est mis dans votre cimetière depuis le jeu, vous pouvez mettre en jeu un jeton de créature 1/1 verte Elfe et Guerrier.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Siempre que otro Elfo que no sea una ficha vaya a tu cementerio desde el juego, puedes poner en juego una ficha de criatura Guerrero Elfo verde 1/1.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[他のトークンでないエルフが場からあなたの墓地に置かれるたび、あなたは緑の１/１のエルフ・戦士・クリーチャー・トークンを１体場に出してもよい。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[Whenever another nontoken Elf is put into your graveyard from the battlefield, you may put a 1/1 green Elf Warrior creature token onto the battlefield.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Каждый раз, когда другой не являющийся фишкой Эльф попадает из игры на ваше кладбище, вы можете положить в игру одну фишку существа 1/1 зеленый Эльф Воин.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Toda vez que outro Elfo que não seja uma ficha é colocado no seu cemitério vindo do jogo, você pode colocar em jogo uma ficha de criatura verde 1/1 do tipo Elfo Guerreiro.]]></LOCALISED_TEXT>
     <TRIGGER value="ZONECHANGE_END" to_zone="ZONE_GRAVEYARD" from_zone="ZONE_IN_PLAY">
     if (TriggerObject() ~= Object() and TriggerObject():GetSubType():Test( CREATURE_TYPE_ELF ) ~= 0 and TriggerObject():GetOwner() == EffectController() and TriggerObject():IsToken() == 0) then
     	return true
