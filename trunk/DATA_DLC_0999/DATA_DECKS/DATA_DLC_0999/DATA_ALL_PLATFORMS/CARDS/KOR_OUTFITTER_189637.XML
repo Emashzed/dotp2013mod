@@ -1,0 +1,83 @@
+<?xml version='1.0'?>
+<CARD_V2>
+  <FILENAME text="KOR_OUTFITTER_189637" />
+  <CARDNAME text="KOR_OUTFITTER" />
+  <TITLE>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Kor Outfitter]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Venditore Kor]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Kor-Ausrüster]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Équipeur kor]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Pertrechador kor]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[コーの装具役]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[Kor Outfitter]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Кор-Обмундировщик]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Aparelhador Kor]]></LOCALISED_TEXT>
+  </TITLE>
+  <MULTIVERSEID value="189637" />
+  <ARTID value="888189637" />
+  <ARTIST name="Kieran Yanner" />
+  <CASTING_COST cost="{W}{W}" />
+  <FLAVOURTEXT>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA["We take only what we need to survive. Believe me, you will need this."]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA["Prendiamo solo quel che ci serve per sopravvivere. Credimi, questo ti servirà."]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[„Wir nehmen nur das mit, was wir zum Überleben brauchen. Glaub mir, das wirst du brauchen."]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[« Nous n'emportons avec nous que ce dont nous avons besoin pour survivre. Crois-moi, tu auras besoin de ça. »]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA["Tomamos sólo lo que necesitamos para sobrevivir. Créeme, necesitarás esto."]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[「私たちは必要とする分しか持っていきません。 信用してください。これが必要になりますから。」]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA["We take only what we need to survive. Believe me, you will need this."]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[«Мы берем с собой только самое необходимое, чтобы выжить. Поверь мне, это тебе понадобится».]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA["Nós levamos apenas o necessário para sobreviver. Acredite, você vai precisar disso."]]></LOCALISED_TEXT>
+  </FLAVOURTEXT>
+  <TYPE metaname="Creature" />
+  <SUB_TYPE metaname="Kor" order_de-DE="0" order_es-ES="0" order_fr-FR="1" order_it-IT="0" order_jp-JA="0" order_ko-KR="0" order_pt-BR="0" order_ru-RU="0" />
+  <SUB_TYPE metaname="Soldier" order_de-DE="1" order_es-ES="1" order_fr-FR="0" order_it-IT="1" order_jp-JA="1" order_ko-KR="1" order_pt-BR="1" order_ru-RU="1" />
+  <EXPANSION value="DPG" />
+  <RARITY metaname="C" />
+  <POWER value="2" />
+  <TOUGHNESS value="2" />
+  <TRIGGERED_ABILITY filter_zone="ZONE_IN_PLAY">
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[When Kor Outfitter enters the battlefield, you may attach target Equipment you control to target creature you control.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Quando il Venditore Kor entra nel campo di battaglia, puoi assegnare un Equipaggiamento bersaglio che controlli a una creatura bersaglio che controlli.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Wenn der Kor-Ausrüster ins Spiel kommt, kannst du eine Ausrüstung deiner Wahl, die du kontrollierst, an eine Kreatur deiner Wahl, die du kontrollierst, anlegen.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Quand l'Équipeur kor arrive sur le champ de bataille, vous pouvez attacher l'équipement ciblé que vous contrôlez à une créature ciblée que vous contrôlez.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Cuando el Pertrechador kor entre al campo de batalla, puedes anexar el equipo objetivo que controles a la criatura objetivo que controles.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[コーの装具役が戦場に出たとき、あなたがコントロールする装備品１つとあなたがコントロールするクリーチャー１体を対象とし、その前者をその後者につける。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[When Kor Outfitter enters the battlefield, you may attach target Equipment you control to target creature you control.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Когда Кор-Обмундировщик выходит на поле битвы, вы можете прикрепить целевое Снаряжение под вашим контролем к целевому существу под вашим контролем.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Quando Aparelhador Kor entra no campo de batalha, você pode anexar o Equipamento alvo que você controla à criatura alvo que você controla.]]></LOCALISED_TEXT>
+    <TRIGGER value="ZONECHANGE_END" simple_qualifier="self" to_zone="ZONE_IN_PLAY" />
+    <TARGET_DEFINITION id="0">
+       local filter = Object():GetFilter()
+       filter:Clear()
+       filter:AddCardType( CARD_TYPE_CREATURE )
+       filter:SetController( EffectController() )
+       filter:SetHint( HINT_ALLIED_ONLY, EffectController() )
+       filter:May()
+    </TARGET_DEFINITION>
+    <TARGET_DEFINITION id="1">
+       local filter = Object():GetFilter()
+       filter:Clear()
+       filter:AddCardType( CARD_TYPE_ARTIFACT )
+       filter:AddSubType( ARTIFACT_TYPE_EQUIPMENT )
+       filter:SetController( EffectController() )
+       filter:SetHint( HINT_ALLIED_ONLY, EffectController() )
+       filter:May()
+    </TARGET_DEFINITION>
+    <TARGET_DETERMINATION>
+       return AtLeastOneTargetFromDefinition(0) and AtLeastOneTargetFromDefinition(1)
+    </TARGET_DETERMINATION>
+    <PLAY_TIME_ACTION target_choosing="1">
+       EffectController():ChooseTarget( 1, "CARD_QUERY_CHOOSE_EQUIPMENT_TO_EQUIP", EffectDC():Make_Targets(1) )
+    </PLAY_TIME_ACTION>
+    <PLAY_TIME_ACTION target_choosing="1">
+       EffectController():ChooseTarget( 0, "CARD_QUERY_CHOOSE_CREATURE_TO_EQUIP", EffectDC():Make_Targets(0) )
+    </PLAY_TIME_ACTION>
+    <RESOLUTION_TIME_ACTION>
+       local oEquipment = EffectDC():Get_Targets(1):Get_CardPtr(0)
+       local oCreature = EffectDC():Get_Targets(0):Get_CardPtr(0)
+       if (oEquipment ~= nil) and (oCreature ~= nil) then
+          oEquipment:Attach( oCreature )
+       end
+    </RESOLUTION_TIME_ACTION>
+  </TRIGGERED_ABILITY>
+</CARD_V2>

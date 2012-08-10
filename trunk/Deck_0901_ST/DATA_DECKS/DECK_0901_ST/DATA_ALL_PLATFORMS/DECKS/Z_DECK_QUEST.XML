@@ -1,0 +1,43 @@
+<DECK personality="D13_STONEFORGE_MYSTIC.XML" deck_box_image="D13_QUEST" deck_box_image_locked="locked" content_pack="0" uid="901" preview_card="blanko" always_available="true" is_white="true" >
+  <DECKSTATISTICS Size="6" Speed="8" Flex="4" Syn="6" />
+  <CARD name="GLINT_HAWK_206358" deckOrderId="0" />
+  <CARD name="GLINT_HAWK_206358" deckOrderId="1" />
+  <CARD name="GLINT_HAWK_206358" deckOrderId="2" />
+  <CARD name="GLINT_HAWK_206358" deckOrderId="3" />
+  <CARD name="KOR_OUTFITTER_189637" deckOrderId="4" />
+  <CARD name="KOR_OUTFITTER_189637" deckOrderId="5" />
+  <CARD name="KOR_OUTFITTER_189637" deckOrderId="6" />
+  <CARD name="KOR_OUTFITTER_189637" deckOrderId="7" />
+  <CARD name="KOR_SKYFISHER_178145" deckOrderId="8" />
+  <CARD name="KOR_SKYFISHER_178145" deckOrderId="9" />
+  <CARD name="KOR_SKYFISHER_178145" deckOrderId="10" />
+  <CARD name="KOR_SKYFISHER_178145" deckOrderId="11" />
+  <CARD name="MEMNITE_194078" deckOrderId="12" />
+  <CARD name="MEMNITE_194078" deckOrderId="13" />
+  <CARD name="MEMNITE_194078" deckOrderId="14" />
+  <CARD name="MEMNITE_194078" deckOrderId="15" />
+  <CARD name="ORNITHOPTER_888206331" deckOrderId="16" />
+  <CARD name="ORNITHOPTER_888206331" deckOrderId="17" />
+  <CARD name="ORNITHOPTER_888206331" deckOrderId="18" />
+  <CARD name="ORNITHOPTER_888206331" deckOrderId="19" />
+  <CARD name="SQUADRON_HAWK_277095" deckOrderId="20" />
+  <CARD name="SQUADRON_HAWK_277095" deckOrderId="21" />
+  <CARD name="SQUADRON_HAWK_277095" deckOrderId="22" />
+  <CARD name="SQUADRON_HAWK_277095" deckOrderId="23" />
+  <CARD name="STONEFORGE_MYSTIC_888198383" deckOrderId="24" />
+  <CARD name="STONEFORGE_MYSTIC_888198383" deckOrderId="25" />
+  <CARD name="STONEFORGE_MYSTIC_888198383" deckOrderId="26" />
+  <CARD name="STONEFORGE_MYSTIC_888198383" deckOrderId="27" />
+  <CARD name="ARGENTUM_ARMOR_217967" deckOrderId="28" />
+  <CARD name="ARGENTUM_ARMOR_217967" deckOrderId="29" />
+  <CARD name="JOURNEY_TO_NOWHERE_276937" deckOrderId="30" />
+  <CARD name="JOURNEY_TO_NOWHERE_276937" deckOrderId="31" />
+  <CARD name="JOURNEY_TO_NOWHERE_276937" deckOrderId="32" />
+  <CARD name="BATTERSKULL_277166" deckOrderId="33" />
+  <CARD name="QUEST_FOR_THE_HOLY_RELIC_197406" deckOrderId="34" />
+  <CARD name="QUEST_FOR_THE_HOLY_RELIC_197406" deckOrderId="35" />
+  <CARD name="QUEST_FOR_THE_HOLY_RELIC_197406" deckOrderId="36" />
+  <CARD name="QUEST_FOR_THE_HOLY_RELIC_197406" deckOrderId="37" />
+  <CARD name="SWORD_OF_BODY_AND_MIND_277309" deckOrderId="38" />
+  <CARD name="SWORD_OF_FEAST_AND_FAMINE_277138" deckOrderId="39" />
+</DECK>

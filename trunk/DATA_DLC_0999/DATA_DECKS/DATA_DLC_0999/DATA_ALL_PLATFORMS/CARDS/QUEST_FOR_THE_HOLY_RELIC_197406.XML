@@ -1,0 +1,95 @@
+<?xml version='1.0'?>
+<CARD_V2>
+  <FILENAME text="QUEST_FOR_THE_HOLY_RELIC_197406" />
+  <CARDNAME text="QUEST_FOR_THE_HOLY_RELIC" />
+  <TITLE>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Quest for the Holy Relic]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[In Cerca della Sacra Reliquia]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Suche nach der heiligen Reliquie]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Quête de la Relique sacrée]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Búsqueda de la reliquia sagrada]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[聖なる秘宝の探索]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[Quest for the Holy Relic]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Поиски Священной Реликвии]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Busca pela Relíquia Sagrada]]></LOCALISED_TEXT>
+  </TITLE>
+  <MULTIVERSEID value="197406" />
+  <ARTID value="888197406" />
+  <ARTIST name="Greg Staples" />
+  <CASTING_COST cost="{W}" />
+  <TYPE metaname="Enchantment" />
+  <EXPANSION value="DPG" />
+  <RARITY metaname="U" />
+  <TRIGGERED_ABILITY auto_skip="1" filter_zone="ZONE_IN_PLAY">
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Whenever you cast a creature spell, you may put a quest counter on Quest for the Holy Relic.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Ogniqualvolta lanci una magia creatura, puoi mettere un segnalino ricerca su In Cerca della Sacra Reliquia.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Immer wenn du einen Kreaturenzauber wirkst, kannst du eine Quest-Marke auf die Suche nach der heiligen Reliquie legen.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[À chaque fois que vous lancez un sort de créature, vous pouvez mettre un marqueur « quête » sur la Quête de la Relique sacrée.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Siempre que lances un hechizo de criatura, puedes poner un contador de búsqueda sobre la Búsqueda de la reliquia sagrada.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[あなたがクリーチャー呪文を１つ唱えるたび、あなたは聖なる秘宝の探索の上に探索カウンターを１個置いてもよい。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[Whenever you cast a creature spell, you may put a quest counter on Quest for the Holy Relic.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Каждый раз, когда вы разыгрываете заклинание существа, вы можете положить жетон странствий на Поиски Священной Реликвии.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Toda vez que conjura uma mágica de criatura, você pode colocar um marcador de busca em Busca pela Relíquia Sagrada.]]></LOCALISED_TEXT>
+    <TRIGGER value="SPELL_PLAYED" simple_qualifier="objectyoucontrol">
+    return TriggerObject():GetCardType():Test( CARD_TYPE_CREATURE ) ~= 0
+    </TRIGGER>
+    <RESOLUTION_TIME_ACTION>
+    if EffectSource() ~= nil then
+        EffectSource():AddCounters( MTG():GetCountersType("QUEST_COUNTER"), 1 )
+    end
+    </RESOLUTION_TIME_ACTION>
+  </TRIGGERED_ABILITY>
+  <ACTIVATED_ABILITY auto_skip="1" filter_zone="ZONE_IN_PLAY">
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Remove five quest counters from Quest for the Holy Relic and sacrifice it: Search your library for an Equipment card, put it onto the battlefield, and attach it to a creature you control. Then shuffle your library.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Rimuovi cinque segnalini ricerca da In Cerca della Sacra Reliquia e sacrificala: Passa in rassegna il tuo grimorio per una carta Equipaggiamento, mettila sul campo di battaglia e assegnala a una creatura che controlli. Poi rimescola il tuo grimorio.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Entferne fünf Quest-Marken von der Suche nach der heiligen Reliquie und opfere sie: Durchsuche deine Bibliothek nach einer Ausrüstungskarte, bringe sie ins Spiel und lege sie an eine Kreatur an, die du kontrollierst. Mische danach deine Bibliothek.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Retirez cinq marqueurs « quête » de la Quête de la Relique sacrée et sacrifiez-la : Cherchez dans votre bibliothèque une carte d'équipement, mettez-la sur le champ de bataille et attachez-la à une créature que vous contrôlez. Mélangez ensuite votre bibliothèque.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Remover cinco contadores de búsqueda de la Búsqueda de la reliquia sagrada y sacrificarla: Busca en tu biblioteca una carta de equipo, ponla en el campo de batalla, y anéxala a una criatura que controles. Luego baraja tu biblioteca.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[聖なる秘宝の探索を、その上から探索カウンターを５個取り除いて生け贄に捧げる：あなたのライブラリーから装備品カードを１つ探し、それを戦場に出し、それをあなたがコントロールするいずれかのクリーチャーにつける。 その後あなたのライブラリーを切り直す。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[Remove five quest counters from Quest for the Holy Relic and sacrifice it: Search your library for an Equipment card, put it onto the battlefield, and attach it to a creature you control. Then shuffle your library.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Удалите пять жетонов странствий с Поисков Священной Реликвии и пожертвуйте Поиски Священной Реликвии: найдите в вашей библиотеке карту Снаряжения, положите ее на поле битвы и прикрепите к существу под вашим контролем. Затем перетасуйте вашу библиотеку.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Remova cinco marcadores de busca de Busca pela Relíquia Sagrada e sacrifique-o: Procure um card de Equipamento em seu grimório, coloque-o no campo de batalha e anexe-o a uma criatura que você controla. Depois, embaralhe seu grimório.]]></LOCALISED_TEXT>
+    <COST type="countersself" name="QUEST_COUNTER" number="-5" />
+    <COST type="SacrificeSelf" />
+    <TARGET_DEFINITION id="0">
+    local filter = Object():GetFilter()
+    EffectController():MarkSearchedLibrary()
+    filter:Clear()
+    filter:NotTargetted()
+    filter:AddCardType( CARD_TYPE_ARTIFACT )
+    filter:AddSubType( ARTIFACT_TYPE_EQUIPMENT )
+    filter:SetZone( ZONE_LIBRARY )
+    filter:SetPlayer( EffectController() )
+    </TARGET_DEFINITION>
+    <TARGET_DEFINITION id="1">
+    local filter = Object():GetFilter()
+    filter:Clear()
+    filter:AddCardType( CARD_TYPE_CREATURE )
+    filter:SetPlayer( EffectController() )
+    filter:SetZone( ZONE_IN_PLAY )
+    filter:SetHint( HINT_ENEMY, EffectController() )
+    filter:NotTargetted()
+    </TARGET_DEFINITION>
+    <TARGET_DETERMINATION>
+    return AtLeastOneTargetFromDefinition(0)
+    </TARGET_DETERMINATION>
+    <PLAY_TIME_ACTION target_choosing="1">
+    EffectController():ChooseTarget( 0, "CARD_QUERY_CHOOSE_EQUIPMENT_TO_PUT_ONTO_BATTLEFIELD", EffectDC():Make_Targets(0) )
+    </PLAY_TIME_ACTION>
+    <PLAY_TIME_ACTION target_choosing="1">
+    EffectController():ChooseTarget( 1, "CARD_QUERY_CHOOSE_CREATURE_TO_EQUIP", EffectDC():Make_Targets(1) )
+    </PLAY_TIME_ACTION>
+    <RESOLUTION_TIME_ACTION>
+    local equipment = EffectDC():Get_Targets(0):Get_CardPtr(0)
+    if equipment ~= nil then
+       equipment:PutIntoPlay( EffectController() )
+    end
+    local creature = EffectDC():Get_Targets(1):Get_CardPtr(0)
+    if (creature ~= nil) then
+       equipment:Attach( creature )   
+    end
+    EffectController():ShuffleLibrary()
+    </RESOLUTION_TIME_ACTION>
+  </ACTIVATED_ABILITY>
+  <AI_COUNTER_SCORE type="QUEST_COUNTER" score="100" max_counters="5" />
+</CARD_V2>

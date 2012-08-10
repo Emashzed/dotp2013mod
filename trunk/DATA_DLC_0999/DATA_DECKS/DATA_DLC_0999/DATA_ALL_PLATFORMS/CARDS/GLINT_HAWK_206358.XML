@@ -1,0 +1,91 @@
+<?xml version='1.0'?>
+<CARD_V2>
+  <FILENAME text="GLINT_HAWK_206358" />
+  <CARDNAME text="GLINT_HAWK" />
+  <TITLE>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Glint Hawk]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Falco Luccicante]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Glitzerfalke]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Faucon de rutilance]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Halcón brillante]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[きらめく鷹]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[Glint Hawk]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Ястреб Отблесков]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Falcão Cintilante]]></LOCALISED_TEXT>
+  </TITLE>
+  <MULTIVERSEID value="206358" />
+  <ARTID value="888206358" />
+  <ARTIST name="Dave Allsop" />
+  <CASTING_COST cost="{W}" />
+  <FLAVOURTEXT>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Its eyes burned nearly blind by the Whitesun, it hunts by metallic gleam.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Gli occhi bruciati dal Solebianco fin quasi alla cecità, caccia sfruttando il luccichio metallico.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Da seine Augen durch die Strahlung der Weißen Sonne beinahe blind geworden sind, orientiert er sich an metallischem Glitzern.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Ses yeux brûlés, quasi aveugles, par l'éclat de Blancsoleil, il chasse en repérant les scintillements métalliques.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Sus ojos quedaron prácticamente quemados por Solblanco, así que ahora caza siguiendo el brillo metálico.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[その目は白の太陽に焼かれてほぼ見えないが、金属のかすかな輝きだけを目印に狩りを行う。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[Its eyes burned nearly blind by the Whitesun, it hunts by metallic gleam.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Глаза его почти до слепоты выжжены Белосолнцем, поэтому он охотится по отблескам металла.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Com os olhos praticamente cegados pelo Sol Branco, ele caça seguindo o brilho metálico.]]></LOCALISED_TEXT>
+  </FLAVOURTEXT>
+  <TYPE metaname="Creature" />
+  <SUB_TYPE metaname="Bird" order_de-DE="0" order_es-ES="0" order_fr-FR="0" order_it-IT="0" order_jp-JA="0" order_ko-KR="0" order_pt-BR="0" order_ru-RU="0" />
+  <EXPANSION value="DPG" />
+  <RARITY metaname="C" />
+  <POWER value="2" />
+  <TOUGHNESS value="2" />
+  <STATIC_ABILITY>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Flying]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Volare]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Fliegend]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Vol]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Vuela.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[飛行]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[Flying]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Полет]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Voar]]></LOCALISED_TEXT>
+    <CONTINUOUS_ACTION>
+    local characteristics = Object():GetCurrentCharacteristics()
+    characteristics:Characteristic_Set( CHARACTERISTIC_FLYING, 1 )
+    </CONTINUOUS_ACTION>
+  </STATIC_ABILITY>
+  <TRIGGERED_ABILITY>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[When Glint Hawk enters the battlefield, sacrifice it unless you return an artifact you control to its owner's hand.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Quando il Falco Luccicante entra nel campo di battaglia, sacrificalo a meno che tu non faccia tornare un artefatto che controlli in mano al suo proprietario.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Wenn der Glitzerfalke ins Spiel kommt, opfere ihn, falls du nicht ein Artefakt, das du kontrollierst, auf die Hand seines Besitzers zurückbringst.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Quand le Faucon de rutilance arrive sur le champ de bataille, sacrifiez-le à moins de renvoyer un artefact que vous contrôlez dans la main de son propriétaire.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Cuando el Halcón brillante entre al campo de batalla, sacrifícalo a menos que regreses un artefacto que controles a la mano de su propietario.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[きらめく鷹が戦場に出たとき、あなたがコントロールするアーティファクト１つをオーナーの手札に戻さないかぎり、それを生け贄に捧げる。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[When Glint Hawk enters the battlefield, sacrifice it unless you return an artifact you control to its owner's hand.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Когда Ястреб Отблесков выходит на поле битвы, пожертвуйте его, если только вы не вернете артефакт под вашим контролем в руку его владельца.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Quando Falcão Cintilante entrar no campo de batalha, sacrifique-o, a menos que você devolva um artefato que você controla para a mão de seu dono.]]></LOCALISED_TEXT>
+    <TRIGGER value="ZONECHANGE_END" simple_qualifier="self" to_zone="ZONE_IN_PLAY" />
+      <COST type="generic" qualifier="conditional">
+        <TARGET_DEFINITION id="0">
+        local filter = Object():GetFilter()
+        filter:Clear()
+        filter:NotTargetted()
+        filter:AddCardType( CARD_TYPE_ARTIFACT )
+        filter:SetZone( ZONE_IN_PLAY )
+        filter:SetPlayer( EffectController() )
+        </TARGET_DEFINITION>
+        <TARGET_DETERMINATION>
+        return AtLeastOneTargetFromDefinition(0)
+        </TARGET_DETERMINATION>
+        <PLAY_TIME_ACTION>
+        EffectController():ChooseTarget( 0, "CARD_QUERY_CHOOSE_ARTIFACT_TO_PUT_INTO_HAND", EffectDC():Make_Targets(0) )
+        </PLAY_TIME_ACTION>
+        <RESOLUTION_TIME_ACTION>
+        if EffectDC() ~= nil then 
+           local target = EffectDC():Get_Targets(0):Get_CardPtr(0)
+           if  target ~= nil then
+              target:PutInHand()
+           end
+        end
+        </RESOLUTION_TIME_ACTION>
+    </COST>
+    <RESOLUTION_TIME_ACTION conditional="else">
+       Object():Sacrifice( EffectController() )
+    </RESOLUTION_TIME_ACTION>
+  </TRIGGERED_ABILITY>
+</CARD_V2>

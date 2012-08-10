@@ -1,0 +1,107 @@
+<?xml version='1.0'?>
+<CARD_V2>
+  <FILENAME text="VALAKUT_THE_MOLTEN_PINNACLE_190400" />
+  <CARDNAME text="VALAKUT_THE_MOLTEN_PINNACLE" />
+  <TITLE>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Valakut, the Molten Pinnacle]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Valakut, il Pinnacolo Fuso]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Valakut, die geschmolzene Zinne]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Valakut, la Cime en fusion]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Valakut, el Pináculo Fundido]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[溶鉄の尖峰、ヴァラクート]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[Valakut, the Molten Pinnacle]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Валакут, Расплавленная Вершина]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Valakut, o Pináculo Derretido]]></LOCALISED_TEXT>
+  </TITLE>
+  <MULTIVERSEID value="190400" />
+  <ARTID value="888190400" />
+  <ARTIST name="Kieran Yanner" />
+  <CASTING_COST cost="" />
+  <TYPE metaname="Land" />
+  <EXPANSION value="DPG" />
+  <RARITY metaname="R" />
+  <TRIGGERED_ABILITY internal="1" filter_zone="ZONE_IN_PLAY">
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Valakut, the Molten Pinnacle enters the battlefield tapped.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Valakut, il Pinnacolo Fuso entra nel campo di battaglia TAPpato.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Valakut, die geschmolzene Zinne, kommt getappt ins Spiel.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Valakut, la Cime en fusion arrive sur le champ de bataille engagée.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Valakut, el Pináculo Fundido, entra al campo de batalla girado.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[溶鉄の尖峰、ヴァラクートはタップ状態で戦場に出る。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[Valakut, the Molten Pinnacle enters the battlefield tapped.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Валакут, Расплавленная Вершина выходит на поле битвы повернутой.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Valakut, o Pináculo Derretido, entra no campo de batalha virado.]]></LOCALISED_TEXT>
+    <TRIGGER value="ZONECHANGE_END" simple_qualifier="self" to_zone="ZONE_IN_PLAY" />
+    <RESOLUTION_TIME_ACTION>
+    if TriggerObject() ~= nil then
+       TriggerObject():ComesIntoPlayTapped()  
+    end
+    </RESOLUTION_TIME_ACTION>
+  </TRIGGERED_ABILITY>
+  <TRIGGERED_ABILITY filter_zone="ZONE_IN_PLAY">
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Whenever a Mountain enters the battlefield under your control, if you control at least five other Mountains, you may have Valakut, the Molten Pinnacle deal 3 damage to target creature or player.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Ogniqualvolta una Montagna entra nel campo di battaglia sotto il tuo controllo, se controlli almeno cinque altre Montagne, puoi far infliggere da Valakut, il Pinnacolo Fuso 3 danni a una creatura o a un giocatore bersaglio.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Immer wenn ein Gebirge unter deiner Kontrolle ins Spiel kommt, kannst du Valakut einer Kreatur oder einem Spieler deiner Wahl 3 Schadenspunkte zufügen lassen, falls du mindestens fünf andere Gebirge kontrollierst.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[À chaque fois qu'une montagne arrive sur le champ de bataille sous votre contrôle, si vous contrôlez au moins cinq autres montagnes, vous pouvez faire que Valakut, la Cime en fusion inflige 3 blessures à une cible, créature ou joueur.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Siempre que una montaña entre al campo de batalla bajo tu control, si controlas al menos otras cinco montañas, puedes hacer que Valakut, el Pináculo Fundido, haga 3 puntos de daño a la criatura o jugador objetivo.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[山が１つあなたのコントロール下で戦場に出るたび、あなたが他に少なくとも５つ以上の山をコントロールしている場合、クリーチャー１体かプレイヤー１人を対象とする。あなたは「溶鉄の尖峰、ヴァラクートはそれに３点のダメージを与える。」を選んでもよい。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[Whenever a Mountain enters the battlefield under your control, if you control at least five other Mountains, you may have Valakut, the Molten Pinnacle deal 3 damage to target creature or player.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Каждый раз, когда Гора выходит на поле битвы под вашим контролем, если под вашим контролем есть как минимум пять других Гор, вы можете заставить Валакут, Расплавленную Вершину нанести 3 повреждения целевому существу или игроку.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Toda vez que uma Montanha entrar no campo de batalha sob o seu controle, se você controlar pelo menos cinco outras Montanhas, você poderá fazer com que Valakut, o Pináculo Derretido, cause 3 pontos de dano à criatura ou ao jogador alvo.]]></LOCALISED_TEXT>
+    <TRIGGER value="ZONECHANGE_END" to_zone="ZONE_IN_PLAY">
+    local mountains = 0 
+    local filter = Object():GetFilter()
+    filter:Clear()
+    filter:AddCardType( CARD_TYPE_LAND )
+    filter:AddSubType( LAND_TYPE_MOUNTAIN )
+    filter:SetZone( ZONE_IN_PLAY )
+    filter:SetController( EffectController() )  
+    filter:NotTargetted()  
+    if (filter:CountStopAt( 5 ) &lt; 5) then
+       return false;
+    end
+    return (TriggerObject():GetCardType():Test( CARD_TYPE_LAND ) ~= 0 and TriggerObject():GetSubType():Test( LAND_TYPE_MOUNTAIN ) ~= 0 and TriggerObject():GetPlayer() == EffectController())
+    </TRIGGER>
+    <TARGET_DEFINITION id="0">
+    local filter = Object():GetFilter()
+    filter:Clear()
+    filter:SetFilterType( FILTER_TYPE_CARDS + FILTER_TYPE_PLAYERS )
+    filter:SetZone( ZONE_IN_PLAY )
+    filter:SetHint( HINT_ENEMY_ONLY, EffectController() )
+    filter:AddCardType( CARD_TYPE_CREATURE )
+    </TARGET_DEFINITION>
+    <TARGET_DETERMINATION>
+    return AtLeastOneTargetFromDefinition(0)
+    </TARGET_DETERMINATION>
+    <PLAY_TIME_ACTION target_choosing="1">
+    EffectController():ChooseTarget( 0, "CARD_QUERY_CHOOSE_DEAL_3_DAMAGE", EffectDC():Make_Targets(0) )
+    </PLAY_TIME_ACTION>
+    <RESOLUTION_TIME_ACTION>
+    local target_creature = EffectDC():Get_Targets(0):Get_CardPtr(0)
+    local target_player = EffectDC():Get_Targets(0):Get_PlayerPtr(0)
+    local source = EffectSource()
+    if source == nil then
+      source = Object()
+    end
+    if ( target_creature ~= nil ) then   
+       target_creature:DealDamage(3, source)  
+    elseif 
+       ( target_player ~= nil ) then   
+       target_player:DealDamage(3, source)  
+    end
+    </RESOLUTION_TIME_ACTION>
+    <SFX text="TARGET_LIGHTNING_PLAY" />
+  </TRIGGERED_ABILITY>
+  <MANA_ABILITY>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[{T}: Add {R} to your mana pool.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[{T}: Aggiungi {R} alla tua riserva di mana.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[{T}: Erhöhe deinen Manavorrat um {R}.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[{T} : Ajoutez {R} à votre réserve.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[{T}: Agrega {R} a tu reserva de maná.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[{T}：あなたのマナ・プールに{R}を加える。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[{T}: Add {R} to your mana pool.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[{T}: добавьте {R} в ваше хранилище маны.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[{T}: Adicione {R} à sua reserva de mana.]]></LOCALISED_TEXT>
+    <COST type="TapSelf" />
+    <PRODUCES amount="{R}" />
+  </MANA_ABILITY>
+</CARD_V2>
