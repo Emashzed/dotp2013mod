@@ -3,53 +3,44 @@
   <FILENAME text="ANGELS_MERCY_259714" />
   <CARDNAME text="ANGELS_MERCY" />
   <TITLE>
-    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Angel’s Mercy]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Angel’s Mercy]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Angel’s Mercy]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Angel’s Mercy]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Angel’s Mercy]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[Angel’s Mercy]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[Angel’s Mercy]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Angel’s Mercy]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Angel’s Mercy]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Angel's Mercy]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Clemenza dell'Angelo]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Erbarmen des Engels]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Miséricorde des anges]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Piedad del ángel]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[天使の慈悲]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[천사의 자비]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Милосердие Ангела]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Misericórdia de Anjo]]></LOCALISED_TEXT>
   </TITLE>
   <MULTIVERSEID value="259714" />
   <ARTID value="259714" />
   <ARTIST name="Andrew Robinson" />
   <CASTING_COST cost="{2}{W}{W}" />
   <FLAVOURTEXT>
-    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[“She rose above me, and in that moment Varrik the Bloody died and I was born.”
-—Varrik the Just]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[“She rose above me, and in that moment Varrik the Bloody died and I was born.”
-—Varrik the Just]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[“She rose above me, and in that moment Varrik the Bloody died and I was born.”
-—Varrik the Just]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[“She rose above me, and in that moment Varrik the Bloody died and I was born.”
-—Varrik the Just]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[“She rose above me, and in that moment Varrik the Bloody died and I was born.”
-—Varrik the Just]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[“She rose above me, and in that moment Varrik the Bloody died and I was born.”
-—Varrik the Just]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[“She rose above me, and in that moment Varrik the Bloody died and I was born.”
-—Varrik the Just]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[“She rose above me, and in that moment Varrik the Bloody died and I was born.”
-—Varrik the Just]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[“She rose above me, and in that moment Varrik the Bloody died and I was born.”
-—Varrik the Just]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA["I understand your fears. I pity your doubts. I absolve you of both."]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA["Comprendo i tuoi timori. Ho pietà dei tuoi dubbi. Ti assolvo da entrambi."]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[„Ich verstehe eure Ängste. Ich bedauere eure Zweifel. Ich werde euch von beidem befreien."]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[« Je comprends vos peurs. J'ai pitié de vos doutes. Je vous absous des unes et des autres. »]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA["Comprendo sus temores. Compadezco sus dudas. Los absuelvo de ambas."]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[「恐いのは分かります。 疑いにも同情します。 そのいずれも、赦しましょう。」]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA["네 두려움을 이해하고, 네 의구심에 동정을 느낀다. 내가 이 두 가지 죄를 사해주마."]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[«Я понимаю твои страхи. Я сожалею о твоих сомнениях. Я избавлю тебя и от того, и от другого».]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA["Compreendo teus medos. Compadeço-me de tuas dúvidas. Absolvo-te de ambos."]]></LOCALISED_TEXT>
   </FLAVOURTEXT>
   <TYPE metaname="Instant" />
   <EXPANSION value="DPG" />
   <RARITY metaname="C" />
   <SPELL_ABILITY>
     <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[You gain 7 life.]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[You gain 7 life.]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[You gain 7 life.]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[You gain 7 life.]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[You gain 7 life.]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[You gain 7 life.]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[You gain 7 life.]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[You gain 7 life.]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[You gain 7 life.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Guadagni 7 punti vita.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Du erhältst 7 Lebenspunkte dazu.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Vous gagnez 7 points de vie.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Gana 7 vidas.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[あなたは７点のライフを得る。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[당신은 생명 7점을 얻는다.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Вы получаете 7 жизней.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Você ganha 7 pontos de vida.]]></LOCALISED_TEXT>
 	<RESOLUTION_TIME_ACTION>
     local player = EffectController()
     if (player ~= nil) then

@@ -4,14 +4,14 @@
   <CARDNAME text="ARCTIC_AVEN" />
   <TITLE>
     <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Arctic Aven]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Arctic Aven]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Arctic Aven]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Arctic Aven]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Arctic Aven]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[Arctic Aven]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[Arctic Aven]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Arctic Aven]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Arctic Aven]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Aviano Polare]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Arktischer Avior]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Avemain arctique]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Aven ártico]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[極北のエイヴン]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[극지 에이븐]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Арктический Авен]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Aviano Ártico]]></LOCALISED_TEXT>
   </TITLE>
   <MULTIVERSEID value="249710" />
   <ARTID value="249710" />
@@ -26,14 +26,14 @@
   <TOUGHNESS value="1" />
   <STATIC_ABILITY>
     <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Flying]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Flying]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Flying]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Flying]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Flying]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[Flying]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[Flying]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Flying]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Flying]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Volare]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Fliegend]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Vol]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Vuela.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[飛行]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[비행]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Полет]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Voar]]></LOCALISED_TEXT>
 	<CONTINUOUS_ACTION>
     local characteristics = Object():GetCurrentCharacteristics()
     characteristics:Characteristic_Set( CHARACTERISTIC_FLYING, 1 )
@@ -41,14 +41,14 @@
   </STATIC_ABILITY>
   <STATIC_ABILITY filter_zone="ZONE_IN_PLAY">
     <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Arctic Aven gets +1/+1 as long as you control a Plains.]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Arctic Aven gets +1/+1 as long as you control a Plains.]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Arctic Aven gets +1/+1 as long as you control a Plains.]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Arctic Aven gets +1/+1 as long as you control a Plains.]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Arctic Aven gets +1/+1 as long as you control a Plains.]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[Arctic Aven gets +1/+1 as long as you control a Plains.]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[Arctic Aven gets +1/+1 as long as you control a Plains.]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Arctic Aven gets +1/+1 as long as you control a Plains.]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Arctic Aven gets +1/+1 as long as you control a Plains.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[L'Aviano Polare prende +1/+1 fintanto che controlli una Pianura.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Der Arktische Avior erhält +1/+1, solange du eine Ebene kontrollierst.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[L'Avemain arctique gagne +1/+1 tant que vous contrôlez une plaine.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[El Aven ártico obtiene +1/+1 mientras controles una llanura.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[極北のエイヴンは、あなたが平地をコントロールしているかぎり＋１/＋１の修整を受ける。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[당신이 평원을 조종하는 한, 극지 에이븐은 +1/+1을 받는다.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Арктический Авен получает +1/+1, пока вы контролируете Равнину.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Aviano Ártico recebe +1/+1 enquanto você controlar uma Planície.]]></LOCALISED_TEXT>
 	<CONTINUOUS_ACTION layer="7C">
 	local total = 0
     local filter = Object():GetFilter()
@@ -66,15 +66,15 @@
     </CONTINUOUS_ACTION>
   </STATIC_ABILITY>
   <ACTIVATED_ABILITY filter_zone="ZONE_IN_PLAY">
-    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[{W}: Arctic Aven gains lifelink until end of turn.]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[{W}: Arctic Aven gains lifelink until end of turn.]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[{W}: Arctic Aven gains lifelink until end of turn.]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[{W}: Arctic Aven gains lifelink until end of turn.]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[{W}: Arctic Aven gains lifelink until end of turn.]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[{W}: Arctic Aven gains lifelink until end of turn.]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[{W}: Arctic Aven gains lifelink until end of turn.]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[{W}: Arctic Aven gains lifelink until end of turn.]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[{W}: Arctic Aven gains lifelink until end of turn.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[{W}: Arctic Aven gains lifelink until end of turn. (Damage dealt by this creature also causes you to gain that much life.)]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[{W}: L'Aviano Polare ha legame vitale fino alla fine del turno. (Il danno inflitto da questa creatura ti fa anche guadagnare altrettanti punti vita.)]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[{W}: Der Arktische Avior erhält Lebensverknüpfung bis zum Ende des Zuges. (Schaden, der von dieser Kreatur zugefügt wird, lässt dich ebenso viele Lebenspunkte dazu erhalten.)]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[{W} : L'Avemain arctique acquiert le lien de vie jusqu'à la fin du tour. (Les blessures infligées par cette créature vous font aussi gagner autant de points de vie.)]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[{W}: El Aven ártico gana la habilidad de vínculo vital hasta el final del turno. (El daño hecho por esta criatura también hace que ganes esa misma cantidad de vidas.)]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[{W}：極北のエイヴンはターン終了時まで絆魂を得る。（このクリーチャーがダメージを与える場合、さらにあなたはその点数分のライフを得る。）]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[{W}: 극지 에이븐은 턴종료까지 생명연결 능력을 얻는다. (이 생물이 피해를 입히면, 이 생물의 조종자는 그 피해만큼의 생명점을 얻는다.)]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[{W}: Арктический Авен получает Цепь жизни до конца хода. (Повреждения, наносимые этим существом, также заставляют вас получить такое же количество жизней.)]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[{W}: Aviano Ártico ganha vínculo com a vida até o final do turno. (O dano causado por esta criatura também faz com que você ganhe uma quantidade equivalente de pontos de vida.)]]></LOCALISED_TEXT>
 	<COST type="Mana" cost="{W}" />
 	<CONTINUOUS_ACTION layer="6">
     local characteristics = Object():GetCurrentCharacteristics()  

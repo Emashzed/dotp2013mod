@@ -4,14 +4,14 @@
   <CARDNAME text="PRIZED_ELEPHANT" />
   <TITLE>
     <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Prized Elephant]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Prized Elephant]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Prized Elephant]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Prized Elephant]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Prized Elephant]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[Prized Elephant]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[Prized Elephant]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Prized Elephant]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Prized Elephant]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Elefante Stimato]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Preziöser Elefant]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Éléphant prisé]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Elefante preciado]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[尊き象]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[진귀한 코끼리]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Трофейный Слон]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Elefante Valioso]]></LOCALISED_TEXT>
   </TITLE>
   <MULTIVERSEID value="253719" />
   <ARTID value="253719" />
@@ -25,14 +25,14 @@
   <TOUGHNESS value="3" />
   <STATIC_ABILITY filter_zone="ZONE_IN_PLAY">
     <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Prized Elephant gets +1/+1 as long as you control a Forest.]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Prized Elephant gets +1/+1 as long as you control a Forest.]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Prized Elephant gets +1/+1 as long as you control a Forest.]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Prized Elephant gets +1/+1 as long as you control a Forest.]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Prized Elephant gets +1/+1 as long as you control a Forest.]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[Prized Elephant gets +1/+1 as long as you control a Forest.]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[Prized Elephant gets +1/+1 as long as you control a Forest.]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Prized Elephant gets +1/+1 as long as you control a Forest.]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Prized Elephant gets +1/+1 as long as you control a Forest.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[L'Elefante Stimato prende +1/+1 fintanto che controlli una Foresta.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Der Preziöse Elefant erhält +1/+1, solange du einen Wald kontrollierst.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[L'Éléphant prisé gagne +1/+1 tant que vous contrôlez une forêt.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[El Elefante preciado obtiene +1/+1 mientras controles un bosque.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[尊き象は、あなたが森をコントロールしているかぎり＋１/＋１の修整を受ける。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[당신이 숲을 조종하는 한, 진귀한 코끼리는 +1/+1을 받는다.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Трофейный Слон получает +1/+1, пока вы контролируете Лес.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Elefante Valioso recebe +1/+1 enquanto você controlar uma Floresta.]]></LOCALISED_TEXT>
 	<CONTINUOUS_ACTION layer="7C">
 	local total = 0
     local filter = Object():GetFilter()
@@ -50,15 +50,15 @@
     </CONTINUOUS_ACTION>
   </STATIC_ABILITY>
   <ACTIVATED_ABILITY filter_zone="ZONE_IN_PLAY">
-    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[{G}: Prized Elephant gains trample until end of turn.]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[{G}: Prized Elephant gains trample until end of turn.]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[{G}: Prized Elephant gains trample until end of turn.]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[{G}: Prized Elephant gains trample until end of turn.]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[{G}: Prized Elephant gains trample until end of turn.]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[{G}: Prized Elephant gains trample until end of turn.]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[{G}: Prized Elephant gains trample until end of turn.]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[{G}: Prized Elephant gains trample until end of turn.]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[{G}: Prized Elephant gains trample until end of turn.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[{G}: Prized Elephant gains trample until end of turn. (If this creature would assign enough damage to its blockers to destroy them, you may have it assign the rest of its damage to defending player or planeswalker.)]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[{G}: L'Elefante Stimato ha travolgere fino alla fine del turno. (Se questa creatura sta per assegnare alle sue creature bloccanti danno sufficiente a distruggerle, puoi farle assegnare il resto del suo danno al giocatore in difesa o a un planeswalker.)]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[{G}: Der Preziöse Elefant verursacht bis zum Ende des Zuges Trampelschaden. (Falls diese Kreatur ihren Blockern genug Schaden zuweisen würde, um sie zu zerstören, kannst du sie den Rest des Schadens dem verteidigenden Spieler oder Planeswalker zuweisen lassen.)]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[{G} : L'Éléphant prisé acquiert le piétinement jusqu'à la fin du tour. (Si cette créature attribue suffisamment de blessures de combat à ses bloqueurs pour les détruire, vous pouvez faire qu'elle attribue le reste de ses blessures au joueur ou au planeswalker défenseur.)]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[{G}: El Elefante preciado gana la habilidad de arrollar hasta el final del turno. (Si esta criatura fuera a asignar suficiente daño a sus bloqueadores como para destruirlos, puedes hacer que le asigne el resto del daño al jugador o planeswalker defensor.)]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[{G}：尊き象はターン終了時までトランプルを得る。（このクリーチャーが、自身をブロックしているすべてのクリーチャーを破壊するのに十分なダメージを割り振る場合、あなたはこれの残りのダメージを防御プレイヤーかプレインズウォーカーに割り振ってもよい。）]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[{G}: 진귀한 코끼리는 턴종료까지 돌진 능력을 얻는다. (이 생물이 자신을 방어하는 생물을 파괴하기 충분한 피해를 배정했다면, 나머지 피해는 수비플레이어나 플레인즈워커에게 배정할 수 있다.)]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[{G}: Трофейный Слон получает Пробивной удар до конца хода. (Если это существо распределяет достаточно повреждений, чтобы уничтожить блокирующие его существа, вы можете заставить его распределить оставшиеся повреждения защищающемуся игроку или planeswalker-у.)]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[{G}: Elefante Valioso ganha atropelar até o final do turno. (Se esta criatura fosse atribuir dano suficiente para destruir seus bloqueadores, você pode fazer com que ela atribua o resto de seu dano ao planeswalker ou jogador defensor.)]]></LOCALISED_TEXT>
 	<COST type="Mana" cost="{G}" />
 	<CONTINUOUS_ACTION layer="6">
     local characteristics = Object():GetCurrentCharacteristics()  

@@ -4,38 +4,38 @@
   <CARDNAME text="SILVERCOAT_LION" />
   <TITLE>
     <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Silvercoat Lion]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Silvercoat Lion]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Silvercoat Lion]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Silvercoat Lion]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Silvercoat Lion]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[Silvercoat Lion]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[Silvercoat Lion]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Silvercoat Lion]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Silvercoat Lion]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Leone dal Manto Argentato]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Silberfell-Löwe]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Lion à fourrure argentée]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[León manto plateado]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[銀毛のライオン]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[은가죽 사자]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Среброшкурый Лев]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Leão Pele-de-Prata]]></LOCALISED_TEXT>
   </TITLE>
   <MULTIVERSEID value="266132" />
   <ARTID value="266132" />
   <ARTIST name="Terese Nielsen" />
   <CASTING_COST cost="{1}{W}" />
   <FLAVOURTEXT>
-    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[“In the wild, white fur like mine is an aberration. We lack natural camouflage, but the inability to hide encourages other strengths.”
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA["In the wild, white fur like mine is an aberration. We lack natural camouflage, but the inability to hide encourages other strengths."
 —Ajani Goldmane]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[“In the wild, white fur like mine is an aberration. We lack natural camouflage, but the inability to hide encourages other strengths.”
-—Ajani Goldmane]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[“In the wild, white fur like mine is an aberration. We lack natural camouflage, but the inability to hide encourages other strengths.”
-—Ajani Goldmane]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[“In the wild, white fur like mine is an aberration. We lack natural camouflage, but the inability to hide encourages other strengths.”
-—Ajani Goldmane]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[“In the wild, white fur like mine is an aberration. We lack natural camouflage, but the inability to hide encourages other strengths.”
-—Ajani Goldmane]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[“In the wild, white fur like mine is an aberration. We lack natural camouflage, but the inability to hide encourages other strengths.”
-—Ajani Goldmane]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[“In the wild, white fur like mine is an aberration. We lack natural camouflage, but the inability to hide encourages other strengths.”
-—Ajani Goldmane]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[“In the wild, white fur like mine is an aberration. We lack natural camouflage, but the inability to hide encourages other strengths.”
-—Ajani Goldmane]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[“In the wild, white fur like mine is an aberration. We lack natural camouflage, but the inability to hide encourages other strengths.”
-—Ajani Goldmane]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA["Nelle zone selvagge, la pelliccia bianca come la mia è un'aberrazione. Ci manca il mimetismo naturale, ma l'incapacità di nasconderci affina altre caratteristiche."
+—Ajani Criniera D'Oro]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[„In der Wildnis ist ein weißes Fell wie meines eine Fehlentwicklung. Uns fehlt die natürliche Tarnung, doch dadurch treten andere Stärken stärker zutage."
+—Ajani Goldmähne]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[« Dans la nature, une fourrure blanche comme la mienne est une aberration. Le camouflage naturel nous fait défaut, mais son absence encourage chez nous le développement d'autres forces. »
+—Ajani Crinièredor]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA["En la selva, el pelaje blanco como el mío es una aberración. No tenemos camuflaje natural, pero la imposibilidad de esconderse alienta otras virtudes."
+—Ajani Melena Dorada]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[「荒野では、私のような白い毛は常軌を逸している。自然に隠れることはできぬが、隠れられない事が別な力をもたらすのだ。」
+――黄金のたてがみのアジャニ]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA["야생에서 나처럼 하얀 털을 가진 생물은 돌연변이에 속한다. 우리는 자연에 숨어 몸을 위장할 수는 없지만, 대신 필연적으로 다른 힘을 기를 수 있었지."
+—아자니 골드메인]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[«В природе белая шкура, как у меня, считается дефектом. У нас нет естественного камуфляжа, однако неспособность спрятаться способствует развитию иных качеств».
+— Златогривый Аджани]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA["Na selva, uma pelagem branca como a minha é uma aberração. Nos falta a camuflagem natural, mas a incapacidade de nos escondermos fez fortalecer outras qualidades."
+— Ajani Juba D'ouro]]></LOCALISED_TEXT>
   </FLAVOURTEXT>
   <TYPE metaname="Creature" />
   <SUB_TYPE metaname="Cat" />
