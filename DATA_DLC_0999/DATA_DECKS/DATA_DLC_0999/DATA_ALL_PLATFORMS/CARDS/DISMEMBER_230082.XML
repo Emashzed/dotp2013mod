@@ -1,0 +1,81 @@
+<?xml version='1.0'?>
+<CARD_V2>
+  <FILENAME text="DISMEMBER_230082" />
+  <CARDNAME text="DISMEMBER" />
+  <TITLE>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Dismember]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Smembrare]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Zergliedern]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Dislocation]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Desmembrar]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[四肢切断]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[Dismember]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Расчленить]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Desmembrar]]></LOCALISED_TEXT>
+  </TITLE>
+  <MULTIVERSEID value="230082" />
+  <ARTID value="888230082" />
+  <ARTIST name="Terese Nielsen" />
+  <CASTING_COST cost="{1}{B/P}{B/P}" />
+  <FLAVOURTEXT>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA["You serve Phyrexia. Your pieces would better serve Phyrexia elsewhere."—Azax-Azog, the Demon Thane]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA["Tu servi Phyrexia. I tuoi pezzi servirebbero meglio Phyrexia altrove."—Azax-Azog, il Demone Thane]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[„Du dienst Phyrexia. Doch deine Einzelteile würden Phyrexia anderswo besser dienen."—Azax-Azog, der Than der Dämonen]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[« Tu sers Phyrexia. Tes fragments le serviront mieux autre part. »—Azax-Azog, thane démon]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA["Sirves a Pirexia. Tus piezas servirán mejor a Pirexia en otro lado."—Azax-Azog, el barón demonio]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[「お前はファイレクシアに仕える。 お前の部品はファイレクシアの別などこかに仕えた方が良かろう。」――悪魔の長、アザックス＝アザグ]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA["You serve Phyrexia. Your pieces would better serve Phyrexia elsewhere."—Azax-Azog, the Demon Thane]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[«Ты служишь Фирексии. Куски тебя послужат Фирексии где-нибудь в другом месте».— Азакс-Азог, тан-демон]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA["Você serve à Phyrexia. Suas partes serão mais úteis à Phyrexia em outro lugar."— Azax-Azog, o Thane Demoníaco]]></LOCALISED_TEXT>
+  </FLAVOURTEXT>
+  <TYPE metaname="Instant" />
+  <EXPANSION value="DPG" />
+  <RARITY metaname="U" />
+  <SPELL_ABILITY>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[({BP} can be paid with either {B} or 2 life.)]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[({BP} può essere pagato con {B} o con 2 punti vita.)]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[({BP} kann entweder mit {B} oder 2 Lebenspunkten bezahlt werden.)]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[({BP} peut être payé au choix avec {B} ou 2 points de vie.)]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[({BP} puede pagarse con {B} o con 2 vidas.)]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[（{BP}は{B}でも２点のライフでも支払うことができる。）]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[({BP} can be paid with either {B} or 2 life.)]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[(За {BP} можно заплатить либо {B}, либо 2 жизни.)]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[({BP} pode ser pago com {B} ou 2 pontos de vida.)]]></LOCALISED_TEXT>
+  </SPELL_ABILITY>
+  <SPELL_ABILITY>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Target creature gets -5/-5 until end of turn.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Una creatura bersaglio prende -5/-5 fino alla fine del turno.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Eine Kreatur deiner Wahl erhält -5/-5 bis zum Ende des Zuges.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[La créature ciblée gagne -5/-5 jusqu'à la fin du tour.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[La criatura objetivo obtiene -5/-5 hasta el final del turno.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[クリーチャー１体を対象とする。それはターン終了時まで－５/－５の修整を受ける。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[Target creature gets -5/-5 until end of turn.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Целевое существо получает -5/-5 до конца хода.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[A criatura alvo recebe -5/-5 até o final do turno.]]></LOCALISED_TEXT>
+      <TARGET_DEFINITION id="0">
+         local filter = Object():GetFilter()
+         filter:Clear()
+         filter:AddCardType( CARD_TYPE_CREATURE )
+         filter:SetZone( ZONE_IN_PLAY )
+         filter:SetHint( HINT_ENEMY_ONLY, EffectController() )
+      </TARGET_DEFINITION>
+      <TARGET_DETERMINATION>
+         return AtLeastOneTargetFromDefinition(0)
+      </TARGET_DETERMINATION>
+      <PLAY_TIME_ACTION target_choosing="1">
+         EffectController():ChooseTarget( 0, "CARD_QUERY_CHOOSE_CREATURE_TO_LOSE_5_5", EffectDC():Make_Targets(0) )
+      </PLAY_TIME_ACTION>
+      <CONTINUOUS_ACTION layer="7C">
+         local target = EffectDC():Get_Targets(0):Get_CardPtr(0)
+         if target ~= nil then
+            local characteristics = target:GetCurrentCharacteristics()
+            characteristics:Power_Add( -5 )
+            characteristics:Toughness_Add( -5 )
+         end
+      </CONTINUOUS_ACTION>
+      <DURATION simple_duration="UntilEOT" />
+  </SPELL_ABILITY>
+  <AI_AVAILABILITY step="declare_blockers" />
+  <AI_AVAILABILITY type="in_response_dangerous" />
+  <AI_BASE_SCORE score="750" zone="ZONE_HAND" />
+</CARD_V2>

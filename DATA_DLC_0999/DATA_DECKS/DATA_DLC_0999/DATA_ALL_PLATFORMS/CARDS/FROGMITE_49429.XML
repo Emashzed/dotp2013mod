@@ -1,0 +1,60 @@
+<?xml version='1.0'?>
+<CARD_V2>
+  <FILENAME text="FROGMITE_49429" />
+  <CARDNAME text="FROGMITE" />
+  <TITLE>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Frogmite]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Ranella]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Frogmit]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Mitraine]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Ranácaro]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[金属ガエル]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[Frogmite]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Frogmite]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Batracóide]]></LOCALISED_TEXT>
+  </TITLE>
+  <MULTIVERSEID value="49429" />
+  <ARTID value="88849429" />
+  <ARTIST name="Terese Nielsen" />
+  <CASTING_COST cost="{4}" />
+  <FLAVOURTEXT>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[At first, vedalken observers thought blinkmoths naturally avoided certain places. Then they realized those places were frogmite feeding grounds.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[All'inizio gli osservatori vedalken pensavano che i lampidotteri evitassero naturalmente certi luoghi. In seguito, si resero conto che quei luoghi erano i campi di caccia delle ranelle.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Zuerst hatten vedalkische Forscher den Eindruck, Blinkmotten würden aus natürlichen Gründen bestimmte Orte meiden. Dann stellten sie fest, dass sich genau an diesen Stellen Frogmit ernährt.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Les observateurs vedalkens notèrent rapidement que les scintimites évitaient certaines zones qui s'avérèrent être les terrains de chasse des mitraines.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Al principio, los observadores vedalken creían que las polillas titilantes evitaban algunos lugares de forma natural. Luego se dieron cuenta de que esos lugares eran los terrenos de caza de los ranácaros.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[当初、ヴィダルケンの観察者は、ちらつき蛾はいくつかの場所に単に近寄らないだけだと考えていた。 後に、そこは金属ガエルの餌場だと判明した。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[At first, vedalken observers thought blinkmoths naturally avoided certain places. Then they realized those places were frogmite feeding grounds.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[At first, vedalken observers thought blinkmoths naturally avoided certain places. Then they realized those places were frogmite feeding grounds.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[No início, os observadores vedalkeanos pensavam que os mosco-lumes evitavam certos lugares naturalmente. Depois, eles perceberam que aqueles lugares eram os campos de caça dos batracóides.]]></LOCALISED_TEXT>
+  </FLAVOURTEXT>
+  <TYPE metaname="Artifact" />
+  <TYPE metaname="Creature" />
+  <SUB_TYPE metaname="Frog" order_de-DE="0" order_es-ES="0" order_fr-FR="0" order_it-IT="0" order_jp-JA="0" order_ko-KR="0" order_pt-BR="0" order_ru-RU="0" />
+  <EXPANSION value="DPG" />
+  <RARITY metaname="C" />
+  <POWER value="2" />
+  <TOUGHNESS value="2" />
+  <STATIC_ABILITY active_zone="ZONE_HAND">
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Affinity for artifacts (This spell costs {1} less to cast for each artifact you control.)]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Affinità con gli artefatti (questa magia costa {1} in meno per essere giocata per ogni artefatto che controlli).]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Affinität zu Artefakten (Dieser Zauberspruch kostet beim Ausspielen für jedes Artefakt, das du kontrollierst, {1} weniger.)]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Affinité pour les artefacts (Ce sort coûte {1} de moins à jouer pour chaque artefact que vous contrôlez.)]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Afinidad por artefactos. (Jugar este hechizo te cuesta {1} menos por cada artefacto que controles.)]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[親和（アーティファクト） （この呪文をプレイするためのコストは、あなたがコントロールするアーティファクト１つにつき{1}少なくなる。）]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[Affinity for artifacts (This spell costs {1} less to cast for each artifact you control.)]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Affinity for artifacts (This spell costs {1} less to cast for each artifact you control.)]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Afinidade por artefatos (Esta mágica custa {1} a menos para jogar para cada artefato que você controla.)]]></LOCALISED_TEXT>
+    <CONTINUOUS_ACTION layer="8">
+    local filter = Object():GetFilter()
+    filter:Clear()
+    filter:SetZone( ZONE_IN_PLAY )
+    filter:AddCardType( CARD_TYPE_ARTIFACT )
+    filter:SetController( EffectController() )
+    filter:NotTargetted()
+    total = filter:Count()
+    Object():DecreaseCost(total)
+    </CONTINUOUS_ACTION>
+    <AI_BASE_SCORE score="900" zone="hand" />
+  </STATIC_ABILITY>
+</CARD_V2>
