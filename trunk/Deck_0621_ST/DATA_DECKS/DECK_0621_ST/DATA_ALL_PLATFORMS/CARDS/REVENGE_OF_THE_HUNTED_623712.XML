@@ -4,14 +4,14 @@
   <CARDNAME text="REVENGE_OF_THE_HUNTED" />
   <TITLE>
     <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Revenge of the Hunted]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Revenge of the Hunted]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Revenge of the Hunted]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Revenge of the Hunted]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Revenge of the Hunted]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[Revenge of the Hunted]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[Revenge of the Hunted]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Revenge of the Hunted]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Revenge of the Hunted]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Vendetta del Braccato]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Rache der Gejagten]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Revanche de la proie]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Venganza de los perseguidos]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[狩られる者の逆襲]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[사냥감의 복수]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Месть Преследуемых]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Vingança da Caça]]></LOCALISED_TEXT>
   </TITLE>
   <MULTIVERSEID value="623712" />
   <ARTID value="623712" />
@@ -22,14 +22,14 @@
   <RARITY metaname="R" />
   <SPELL_ABILITY filter_zone="ZONE_IN_PLAY">
     <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Until end of turn, target creature gets +6/+6 and gains trample, and all creatures able to block it this turn do so.]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Until end of turn, target creature gets +6/+6 and gains trample, and all creatures able to block it this turn do so.]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Until end of turn, target creature gets +6/+6 and gains trample, and all creatures able to block it this turn do so.]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Until end of turn, target creature gets +6/+6 and gains trample, and all creatures able to block it this turn do so.]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Until end of turn, target creature gets +6/+6 and gains trample, and all creatures able to block it this turn do so.]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[Until end of turn, target creature gets +6/+6 and gains trample, and all creatures able to block it this turn do so.]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[Until end of turn, target creature gets +6/+6 and gains trample, and all creatures able to block it this turn do so.]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Until end of turn, target creature gets +6/+6 and gains trample, and all creatures able to block it this turn do so.]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Until end of turn, target creature gets +6/+6 and gains trample, and all creatures able to block it this turn do so.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Fino alla fine del turno, una creatura bersaglio prende +6/+6 e ha travolgere, e tutte le creature in grado di bloccarla in questo turno lo fanno.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Bis zum Ende des Zuges erhält eine Kreatur deiner Wahl +6/+6 und verursacht Trampelschaden. Alle Kreaturen, die diese Kreatur in diesem Zugblocken können, tun dies.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Jusqu'à la fin du tour, la créature ciblée gagne +6/+6 et acquiert le piétinement, et toutes les créatures capables de la bloquer ce tour-ci le font.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Hasta el final del turno, la criatura objetivo obtiene +6/+6 y gana la habilidad de arrollar, y todas las criaturas que puedan bloquearla este turno lo hacen.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[クリーチャー１体を対象とする。それはターン終了時まで＋６/＋６の修整を受けるとともにトランプルを得て、このターンにそれをブロックできるすべてのクリーチャーは、それをブロックする。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[생물 한 개를 목표로 정한다. 그 생물은 턴종료까지 +6/+6을 받고 돌진 능력을 얻는다. 이 턴에 그 생물을 방어할 수 있는 모든 생물은 그 생물을 방어한다.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[До конца хода целевое существо получает +6/+6 и Пробивной удар, и все существа, способные блокировать его в этом ходу, делают это.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Até o final do turno, a criatura alvo recebe +6/+6 e ganha atropelar, e todas as criaturas aptas a bloqueá-la neste turno fazem isso.]]></LOCALISED_TEXT>
     <TARGET_DEFINITION id="0">
     local filter = Object():GetFilter()
     filter:Clear()
@@ -68,15 +68,15 @@
     <DURATION simple_duration="UntilEOT" />
   </SPELL_ABILITY>
   <TRIGGERED_ABILITY auto_skip="1" filter_zone="ZONE_IN_PLAY" active_zone="ZONE_HAND">
-    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Miracle {G} |(You may cast this card for its miracle cost when you draw it if it’s the first card you drew this turn.)|]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Miracle {G} |(You may cast this card for its miracle cost when you draw it if it’s the first card you drew this turn.)|]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Miracle {G} |(You may cast this card for its miracle cost when you draw it if it’s the first card you drew this turn.)|]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Miracle {G} |(You may cast this card for its miracle cost when you draw it if it’s the first card you drew this turn.)|]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Miracle {G} |(You may cast this card for its miracle cost when you draw it if it’s the first card you drew this turn.)|]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[Miracle {G} |(You may cast this card for its miracle cost when you draw it if it’s the first card you drew this turn.)|]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[Miracle {G} |(You may cast this card for its miracle cost when you draw it if it’s the first card you drew this turn.)|]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Miracle {G} |(You may cast this card for its miracle cost when you draw it if it’s the first card you drew this turn.)|]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Miracle {G} |(You may cast this card for its miracle cost when you draw it if it’s the first card you drew this turn.)|]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Miracle {G} (You may cast this card for its miracle cost when you draw it if it's the first card you drew this turn.)]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Miracolo {G} (Puoi lanciare questa carta pagando il suo costo di miracolo quando la peschi, se è la prima che hai pescato in questo turno.)]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Mirakulum {G} (Du kannst diese Karte zu ihren Mirakulum-Kosten wirken, wenn du sie ziehst, falls es die erste Karte ist, die du in diesem Zug gezogen hast.)]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Miracle {G} (Vous pouvez lancer cette carte pour son coût de miracle quand vous la piochez si c'est la première carte que vous avez piochée ce tour-ci.)]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Milagro {G}. (Puedes lanzar esta carta pagando su coste de milagro cuando la robes si es la primera carta que robaste este turno.)]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[奇跡 {G} （あなたがこのカードを引いたとき、これがこのターンに最初に引いたカードだった場合、あなたはこれの奇跡コストを支払うことでこれを唱えてもよい。）]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[기적 {G} (당신이 이 카드를 뽑을 때, 이 카드가 당신이 이번 턴에 뽑은 첫 번째 카드라면 당신은 기적 비용을 지불하고 이 카드를 발동할 수 있다.)]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Чудо {G} (Вы можете разыграть эту карту за ее стоимость Чуда, когда вы берете ее, если это первая карта, которую вы взяли в этом ходу).]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Milagre {G} (Você pode conjurar este card pagando seu custo de milagre ao comprá-lo se este for o primeiro card que você compra neste turno.)]]></LOCALISED_TEXT>
     <TRIGGER value="DREW_CARD" simple_qualifier="controller">
     local drawCard = MTG():Interrogate_CardsDrawnThisTurn(EffectController())
     if ObjectDC():Get_Int(0) == 1 and drawCard == 1 then

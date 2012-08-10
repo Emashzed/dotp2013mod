@@ -4,13 +4,13 @@
   <CARDNAME text="TERMINUS" />
   <TITLE>
     <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Terminus]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Capolinea]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Endpunkt]]></LOCALISED_TEXT>
     <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Terminus]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Terminus]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Terminus]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Terminus]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[Terminus]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[Terminus]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Terminus]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Términus]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[終末]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[존재의 종점]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Терминус]]></LOCALISED_TEXT>
     <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Terminus]]></LOCALISED_TEXT>
   </TITLE>
   <MULTIVERSEID value="623749" />
@@ -21,15 +21,15 @@
   <EXPANSION value="DPG" />
   <RARITY metaname="R" />
   <SPELL_ABILITY dangerous="1" filter_zone="ZONE_IN_PLAY">
-    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Put all creatures on the bottom of their owners’ libraries.]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Put all creatures on the bottom of their owners’ libraries.]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Put all creatures on the bottom of their owners’ libraries.]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Put all creatures on the bottom of their owners’ libraries.]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Put all creatures on the bottom of their owners’ libraries.]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[Put all creatures on the bottom of their owners’ libraries.]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[Put all creatures on the bottom of their owners’ libraries.]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Put all creatures on the bottom of their owners’ libraries.]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Put all creatures on the bottom of their owners’ libraries.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Put all creatures on the bottom of their owners' libraries.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Metti tutte le creature in fondo ai grimori dei rispettivi proprietari.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Lege alle Kreaturen unter die Bibliotheken ihrer Besitzer.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Mettez toutes les créatures au-dessous des bibliothèques de leurs propriétaires.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Pon todas las criaturas en el fondo de las bibliotecas de sus propietarios.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[すべてのクリーチャーをオーナーのライブラリーの一番下に置く。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[모든 생물을 소유자의 서고 맨 밑에 놓는다.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Положите все существа в низ библиотек их владельцев.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Coloque todas as criaturas no fundo dos grimórios de seus donos.]]></LOCALISED_TEXT>
     <FILTER>
     return (FilteredCard() ~= nil and 
     FilteredCard():GetCardType():Test( CARD_TYPE_CREATURE ) ~= 0 and 
@@ -41,15 +41,15 @@
     <SFX text="GLOBAL_WARP_PLAY" />
   </SPELL_ABILITY>
   <TRIGGERED_ABILITY auto_skip="1" filter_zone="ZONE_IN_PLAY" active_zone="ZONE_HAND">
-    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Miracle {W} |(You may cast this card for its miracle cost when you draw it if it’s the first card you drew this turn.)|]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Miracle {W} |(You may cast this card for its miracle cost when you draw it if it’s the first card you drew this turn.)|]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Miracle {W} |(You may cast this card for its miracle cost when you draw it if it’s the first card you drew this turn.)|]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Miracle {W} |(You may cast this card for its miracle cost when you draw it if it’s the first card you drew this turn.)|]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Miracle {W} |(You may cast this card for its miracle cost when you draw it if it’s the first card you drew this turn.)|]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[Miracle {W} |(You may cast this card for its miracle cost when you draw it if it’s the first card you drew this turn.)|]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[Miracle {W} |(You may cast this card for its miracle cost when you draw it if it’s the first card you drew this turn.)|]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Miracle {W} |(You may cast this card for its miracle cost when you draw it if it’s the first card you drew this turn.)|]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Miracle {W} |(You may cast this card for its miracle cost when you draw it if it’s the first card you drew this turn.)|]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Miracle {W} (You may cast this card for its miracle cost when you draw it if it's the first card you drew this turn.)]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Miracolo {W} (Puoi lanciare questa carta pagando il suo costo di miracolo quando la peschi, se è la prima che hai pescato in questo turno.)]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Mirakulum {W} (Du kannst diese Karte zu ihren Mirakulum-Kosten wirken, wenn du sie ziehst, falls es die erste Karte ist, die du in diesem Zug gezogen hast.)]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Miracle {W} (Vous pouvez lancer cette carte pour son coût de miracle quand vous la piochez si c'est la première carte que vous avez piochée ce tour-ci.)]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Milagro {W}. (Puedes lanzar esta carta pagando su coste de milagro cuando la robes si es la primera carta que robaste este turno.)]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[奇跡 {W} （あなたがこのカードを引いたとき、これがこのターンに最初に引いたカードだった場合、あなたはこれの奇跡コストを支払うことでこれを唱えてもよい。）]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[기적 {W} (당신이 이 카드를 뽑을 때, 이 카드가 당신이 이번 턴에 뽑은 첫 번째 카드라면 당신은 기적 비용을 지불하고 이 카드를 발동할 수 있다.)]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Чудо {W} (Вы можете разыграть эту карту за ее стоимость Чуда, когда вы берете ее, если это первая карта, которую вы взяли в этом ходу).]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Milagre {W} (Você pode conjurar este card pagando seu custo de milagre ao comprá-lo se este for o primeiro card que você compra neste turno.)]]></LOCALISED_TEXT>
     <TRIGGER value="DREW_CARD" simple_qualifier="controller">
     local drawCard = MTG():Interrogate_CardsDrawnThisTurn(EffectController())
     if ObjectDC():Get_Int(0) == 1 and drawCard == 1 then
