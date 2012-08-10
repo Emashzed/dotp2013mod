@@ -1,0 +1,73 @@
+<?xml version='1.0'?>
+<CARD_V2>
+  <FILENAME text="DISCIPLE_OF_THE_VAULT_49090" />
+  <CARDNAME text="DISCIPLE_OF_THE_VAULT" />
+  <TITLE>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Disciple of the Vault]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Discepolo della Volta]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Apostel der Gruft]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Disciple du Caveau]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Discípulo de la Bóveda]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[大霊堂の信奉者]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[Disciple of the Vault]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Disciple of the Vault]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Discípulo da Câmara]]></LOCALISED_TEXT>
+  </TITLE>
+  <MULTIVERSEID value="49090" />
+  <ARTID value="88849090" />
+  <ARTIST name="Matt Thompson" />
+  <CASTING_COST cost="{B}" />
+  <FLAVOURTEXT>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[He stands in the shadow of his lord, Geth, drinking in the dark energies of the Vault.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Resta nell'ombra del proprio signore, Geth, sorseggiando le oscure energie della Volta.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Er steht im Schatten seines Lords Geth und trinkt die dunklen Kräfte der Gruft.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Il reste dans l'ombre de Geth, son seigneur, et se repaît des sombres énergies du Caveau.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Él está a la sombra de su señor, Geth, absorbiendo la energía oscura de la Bóveda.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[彼は自らの主たるゲスの影の中に立ち、大霊堂の闇の力を飲み込んでいる。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[He stands in the shadow of his lord, Geth, drinking in the dark energies of the Vault.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[He stands in the shadow of his lord, Geth, drinking in the dark energies of the Vault.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Ele fica à sombra de seu mestre, Geth, absorvendo as energias obscuras da Câmara.]]></LOCALISED_TEXT>
+  </FLAVOURTEXT>
+  <TYPE metaname="Creature" />
+  <SUB_TYPE metaname="Human" order_de-DE="0" order_es-ES="0" order_fr-FR="1" order_it-IT="0" order_jp-JA="0" order_ko-KR="0" order_pt-BR="0" order_ru-RU="0" />
+  <SUB_TYPE metaname="Cleric" order_de-DE="1" order_es-ES="1" order_fr-FR="0" order_it-IT="1" order_jp-JA="1" order_ko-KR="1" order_pt-BR="1" order_ru-RU="1" />
+  <EXPANSION value="DPG" />
+  <RARITY metaname="C" />
+  <POWER value="1" />
+  <TOUGHNESS value="1" />
+  <TRIGGERED_ABILITY>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Whenever an artifact is put into a graveyard from the battlefield, you may have target opponent lose 1 life.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Ogniqualvolta un artefatto viene messo in un cimitero dal gioco, puoi far perdere 1 punto vita a un avversario bersaglio.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Immer wenn ein Artefakt aus dem Spiel in einen Friedhof gelegt wird, kannst du einen Gegner deiner Wahl 1 Lebenspunkt verlieren lassen.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[À chaque fois qu'un artefact est mis dans un cimetière depuis le jeu, vous pouvez faire que l'adversaire ciblé perde 1 point de vie.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Siempre que un artefacto sea puesto en un cementerio desde el juego, puedes hacer que el oponente objetivo pierda 1 vida.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[アーティファクトが場からいずれかの墓地に置かれるたび、対戦相手１人を対象とする。あなたはそのプレイヤーのライフを１点失わせてもよい。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[Whenever an artifact is put into a graveyard from the battlefield, you may have target opponent lose 1 life.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Whenever an artifact is put into a graveyard from the battlefield, you may have target opponent lose 1 life.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Toda vez que um artefato for colocado em um cemitério vindo de jogo, você pode fazer com que o oponente alvo perca 1 ponto de vida.]]></LOCALISED_TEXT>
+		<TRIGGER value="ZONECHANGE_END" to_zone="ZONE_GRAVEYARD" from_zone="ZONE_IN_PLAY">
+    return TriggerObject():GetCardType():Test( CARD_TYPE_ARTIFACT ) ~= 0
+		</TRIGGER>
+		<TARGET_DEFINITION id="0">
+			local filter = Object():GetFilter()
+			filter:Clear()
+			filter:SetFilterType( FILTER_TYPE_PLAYERS )
+			filter:May()
+			filter:SetHint( HINT_ENEMY_ONLY, EffectController() )
+		</TARGET_DEFINITION>
+		<TARGET_DETERMINATION>
+			return AtLeastOneTargetFromDefinition(0)
+		</TARGET_DETERMINATION>
+		<PLAY_TIME_ACTION target_choosing="1">
+			EffectController():ChooseTarget( 0, "CARD_QUERY_CHOOSE_PLAYER_DEAL_DAMAGE", EffectDC():Make_Targets(0) )
+		</PLAY_TIME_ACTION>
+		<RESOLUTION_TIME_ACTION>
+			local target_player = EffectDC():Get_Targets(0):Get_PlayerPtr(0)
+			if ( target_player ~= nil ) then
+				target_player:DealDamage(1, Object())
+			end
+		</RESOLUTION_TIME_ACTION>
+  </TRIGGERED_ABILITY>
+  <SFX text="COMBAT_BLUNT_LARGE_ATTACK" power_boundary_min="4" power_boundary_max="-1" />
+  <SFX text="COMBAT_BLUNT_SMALL_ATTACK" power_boundary_min="1" power_boundary_max="3" />
+</CARD_V2>

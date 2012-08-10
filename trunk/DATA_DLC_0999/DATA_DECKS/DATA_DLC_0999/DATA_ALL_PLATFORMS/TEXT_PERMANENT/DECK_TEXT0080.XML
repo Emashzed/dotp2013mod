@@ -1036,6 +1036,16 @@
     <Cell><Data ss:Type="String">Литой Mold Shambler и уничтожить noncreature постоянно.</Data></Cell>
     <Cell><Data ss:Type="String">Elenco Shambler Mold e destruir um que não seja criatura permanente.</Data></Cell>
    </Row>
+    <Cell><Data ss:Type="String">CARD_QUERY_CHOOSE_ARTIFACT_CREATURE_MODULAR_AMOUNT</Data></Cell>
+    <Cell ss:Index="3"><Data ss:Type="String">Choose an artifact creature to gain %d +1/+1 counters.</Data></Cell>
+    <Cell><Data ss:Type="String">Choose an artifact creature to gain %d +1/+1 counters.</Data></Cell>
+    <Cell><Data ss:Type="String">Choose an artifact creature to gain %d +1/+1 counters.</Data></Cell>
+    <Cell><Data ss:Type="String">Choose an artifact creature to gain %d +1/+1 counters.</Data></Cell>
+    <Cell><Data ss:Type="String">Scegli una creatura artefatto che ottiene %d segnalini +1/+1.</Data></Cell>
+    <Cell ss:Index="9"><Data ss:Type="String">Choose an artifact creature to gain %d +1/+1 counters.</Data></Cell>
+    <Cell><Data ss:Type="String">Choose an artifact creature to gain %d +1/+1 counters.</Data></Cell>
+    <Cell><Data ss:Type="String">Choose an artifact creature to gain %d +1/+1 counters.</Data></Cell>
+    <Cell><Data ss:Type="String">Choose an artifact creature to gain %d +1/+1 counters.</Data></Cell>
    <Row ss:AutoFitHeight="0">
     <Cell><Data ss:Type="String">KICKER_QUERY_MOLD_SHAMBLER_UNKICKED</Data></Cell>
     <Cell ss:Index="3"><Data ss:Type="String">Cast Mold Shambler.</Data></Cell>
@@ -1480,7 +1490,30 @@
     <Cell><Data ss:Type="String">Fiery Mountains</Data></Cell>
     <Cell><Data ss:Type="String">Fiery Mountains</Data></Cell>
    </Row>
-  </Table>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">PLAYER_NAME_ETCHED_CHAMPION</Data></Cell>
+    <Cell ss:Index="3"><Data ss:Type="String">Etched Champion</Data></Cell>
+    <Cell><Data ss:Type="String">Champion gravé</Data></Cell>
+    <Cell><Data ss:Type="String">Campeón grabado</Data></Cell>
+    <Cell><Data ss:Type="String">Geätzter Champion</Data></Cell>
+    <Cell><Data ss:Type="String">Campione Inciso</Data></Cell>
+    <Cell ss:Index="9"><Data ss:Type="String">刻まれた勇者</Data></Cell>
+    <Cell><Data ss:Type="String">Etched Champion</Data></Cell>
+    <Cell><Data ss:Type="String">Гравированный Борец</Data></Cell>
+    <Cell><Data ss:Type="String">Campeão Entalhado</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Z_DECK_AFFINITY</Data></Cell>
+    <Cell ss:Index="3"><Data ss:Type="String">Affinity for Trouble</Data></Cell>
+    <Cell><Data ss:Type="String">Affinity for Trouble</Data></Cell>
+    <Cell><Data ss:Type="String">Affinity for Trouble</Data></Cell>
+    <Cell><Data ss:Type="String">Affinity for Trouble</Data></Cell>
+    <Cell><Data ss:Type="String">Affinity for Trouble</Data></Cell>
+    <Cell ss:Index="9"><Data ss:Type="String">Affinity for Trouble</Data></Cell>
+    <Cell><Data ss:Type="String">Affinity for Trouble</Data></Cell>
+    <Cell><Data ss:Type="String">Affinity for Trouble</Data></Cell>
+    <Cell><Data ss:Type="String">Affinity for Trouble</Data></Cell>
+   </Row>  </Table>
   <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
    <PageSetup>
     <Header x:Margin="0.3"/>
