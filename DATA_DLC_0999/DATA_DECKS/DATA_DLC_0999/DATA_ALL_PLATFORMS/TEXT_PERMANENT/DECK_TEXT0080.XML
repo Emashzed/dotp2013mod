@@ -53,7 +53,7 @@
    <Row ss:AutoFitHeight="0">
     <Cell><Data ss:Type="String">ALTERNATE_COST_DISCARD_SHARED_COLOR</Data></Cell>
     <Cell ss:Index="3"><Data ss:Type="String">Discard a card that shares a color with this spell</Data></Cell>
-    <Cell><Data ss:Type="String">Défaussez une carte qui partage une couleur avec ce sort</Data></Cell>
+    <Cell><Data ss:Type="String">Défaussez voud d'une carte qui partage une couleur avec ce sort</Data></Cell>
     <Cell><Data ss:Type="String">Descartar una carta que comparta un color con este hechizo</Data></Cell>
     <Cell><Data ss:Type="String">Wirf eine Karte, die eine Farbe teilt mit diesem Zauber</Data></Cell>
     <Cell><Data ss:Type="String">Scarta una carta che condivide un colore con questo incantesimo</Data></Cell>
@@ -66,7 +66,7 @@
    <Row ss:AutoFitHeight="0">
     <Cell><Data ss:Type="String">ALTERNATE_COST_LIFE_EXILE_BLUE</Data></Cell>
     <Cell ss:Index="3"><Data ss:Type="String">Pay 1 life and exile a bue card in your hand</Data></Cell>
-    <Cell><Data ss:Type="String">Payez 1 point de vie et de l'exil d'une carte bue dans votre main</Data></Cell>
+    <Cell><Data ss:Type="String">Payez 1 point de vie et exilez une carte bleue dans votre main</Data></Cell>
     <Cell><Data ss:Type="String">Pagar 1 vida y el exilio de una tarjeta de bue en la mano</Data></Cell>
     <Cell><Data ss:Type="String">Bezahle 1 Leben und Exil ein bue Karte in Ihrer Hand</Data></Cell>
     <Cell><Data ss:Type="String">Paga 1 punto vita e l'esilio una carta di bue in mano</Data></Cell>
@@ -79,7 +79,7 @@
    <Row ss:AutoFitHeight="0">
     <Cell><Data ss:Type="String">ALTERNATE_COST_RETURN_ISLAND</Data></Cell>
     <Cell ss:Index="3"><Data ss:Type="String">Return an Island you control to its owner’s hand</Data></Cell>
-    <Cell><Data ss:Type="String">Retour d'une île que vous contrôlez à portée de main de son propriétaire</Data></Cell>
+    <Cell><Data ss:Type="String">Renvoyez une île que vous contrôlez dans la main de son propriétaire</Data></Cell>
     <Cell><Data ss:Type="String">Volver una isla que controles a la mano de su propietario</Data></Cell>
     <Cell><Data ss:Type="String">Liefert ein Insel, die du kontrollierst, auf die Hand seines Besitzers</Data></Cell>
     <Cell><Data ss:Type="String">Restituisce un Isola che controlli in mano al suo proprietario</Data></Cell>
@@ -171,7 +171,7 @@
    <Row ss:AutoFitHeight="0">
     <Cell><Data ss:Type="String">CARD_QUERY_CHOOSE_ANY_LAND_TO_DESTROY</Data></Cell>
     <Cell ss:Index="3"><Data ss:Type="String">Choose a land to destroy.</Data></Cell>
-    <Cell><Data ss:Type="String">Choisissez un pays à détruire.</Data></Cell>
+    <Cell><Data ss:Type="String">Choisissez un terrain à détruire.</Data></Cell>
     <Cell><Data ss:Type="String">Elija un país para destruir.</Data></Cell>
     <Cell><Data ss:Type="String">Wählen Sie ein Land zu zerstören.</Data></Cell>
     <Cell><Data ss:Type="String">Scegliere una terra per distruggere.</Data></Cell>
@@ -184,7 +184,7 @@
    <Row ss:AutoFitHeight="0">
     <Cell><Data ss:Type="String">CARD_QUERY_CHOOSE_ARTIFACT_TO_CREATURE_CMC</Data></Cell>
     <Cell ss:Index="3"><Data ss:Type="String">Choose an artifact to become an artifact creature with power and toughness each equal to its converted mana cost until end of turn.</Data></Cell>
-    <Cell><Data ss:Type="String">Choisissez un artefact pour devenir une créature artefact avec une force et une endurance chacune égale à son coût converti de mana jusqu'à la fin du tour.</Data></Cell>
+    <Cell><Data ss:Type="String">Choisissez un artefact à transformer en une créature artefact avec une force et une endurance chacune égale à son coût converti de mana jusqu'à la fin du tour.</Data></Cell>
     <Cell><Data ss:Type="String">Elija un artefacto para convertirse en una criatura artefacto con fuerza y ​​resistencia iguales a su coste de maná convertido hasta el final del turno.</Data></Cell>
     <Cell><Data ss:Type="String">Wählen Sie ein Artefakt, um ein Artefakt Kreatur mit Stärke und Widerstandskraft gleich ihre umgewandelten Manakosten bis zum Ende des Zuges zu werden.</Data></Cell>
     <Cell><Data ss:Type="String">Scegli un artefatto per diventare una creatura artefatto con forza e costituzione pari ciascuna al suo costo di mana convertito fino alla fine del turno.</Data></Cell>
@@ -210,7 +210,7 @@
    <Row ss:AutoFitHeight="0">
     <Cell><Data ss:Type="String">CARD_QUERY_CHOOSE_BCARD_TO_PUT_INTO_HAND</Data></Cell>
     <Cell ss:Index="3"><Data ss:Type="String">Choose a black card to put into its owner’s hand.</Data></Cell>
-    <Cell><Data ss:Type="String">Choisissez un carton noir pour mettre en main de son propriétaire.</Data></Cell>
+    <Cell><Data ss:Type="String">Choisissez une carte noire à retourner dans la main de son propriétaire.</Data></Cell>
     <Cell><Data ss:Type="String">Elegir una tarjeta de negro para poner en la mano de su propietario.</Data></Cell>
     <Cell><Data ss:Type="String">Wählen Sie eine schwarze Karte in die Hand ihres Besitzers gelegt.</Data></Cell>
     <Cell><Data ss:Type="String">Scegli una carta nera da mettere in mano al suo proprietario.</Data></Cell>
@@ -236,15 +236,15 @@
    <Row ss:AutoFitHeight="0">
     <Cell><Data ss:Type="String">CARD_QUERY_CHOOSE_CREATURE_PLUS1_PLUS1_COUNTER_FOR_EACH_ELF_YOUCONTROL</Data></Cell>
     <Cell ss:Index="3"><Data ss:Type="String">Choose a creature to get a +1/+1 counter for each elf you control.</Data></Cell>
-    <Cell><Data ss:Type="String">Choisissez une créature pour obtenir un marqueur +1 / +1 pour chaque elfe que vous contrôlez.</Data></Cell>
-    <Cell><Data ss:Type="String">Elige una criatura para conseguir un contador +1 / +1 por cada Elfo que controlas.</Data></Cell>
-    <Cell><Data ss:Type="String">Wählen Sie eine Kreatur, eine +1 / +1 Marke für jeden Elfen, die du kontrollierst.</Data></Cell>
-    <Cell><Data ss:Type="String">Scegli una creatura per ottenere un segnalino +1 / +1 per ogni Elfo che controlli.</Data></Cell>
+    <Cell><Data ss:Type="String">Choisissez une créature pour obtenir un marqueur +1/+1 pour chaque elfe que vous contrôlez.</Data></Cell>
+    <Cell><Data ss:Type="String">Elige una criatura para conseguir un contador +1/+1 por cada Elfo que controlas.</Data></Cell>
+    <Cell><Data ss:Type="String">Wählen Sie eine Kreatur, eine +1/+1 Marke für jeden Elfen, die du kontrollierst.</Data></Cell>
+    <Cell><Data ss:Type="String">Scegli una creatura per ottenere un segnalino +1/+1 per ogni Elfo che controlli.</Data></Cell>
     <Cell><Data ss:Type="String">Choose a creature to get a +1/+1 counter for each elf you control.</Data></Cell>
     <Cell><Data ss:Type="String">あなたがコントロールするエルフ1つにつき+1 /+1カウンターを1個取得するクリーチャーを選択してください。</Data></Cell>
     <Cell><Data ss:Type="String">당신이 조절할 각각의 요정을위한 1 / 1 카운터를 얻는 생물을 선택합니다.</Data></Cell>
-    <Cell><Data ss:Type="String">Выберите существо, чтобы получить жетон +1 / +1 для каждого Эльфа под вашим контролем.</Data></Cell>
-    <Cell><Data ss:Type="String">Escolha uma criatura para obter um marcador +1 / +1 para cada Elfo que você controla.</Data></Cell>
+    <Cell><Data ss:Type="String">Выберите существо, чтобы получить жетон +1/+1 для каждого Эльфа под вашим контролем.</Data></Cell>
+    <Cell><Data ss:Type="String">Escolha uma criatura para obter um marcador +1/+1 para cada Elfo que você controla.</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
     <Cell><Data ss:Type="String">CARD_QUERY_CHOOSE_CREATURE_SACRIFICE_BY_CONTROLLER</Data></Cell>
@@ -262,20 +262,20 @@
    <Row ss:AutoFitHeight="0">
     <Cell><Data ss:Type="String">CARD_QUERY_CHOOSE_CREATURE_TO_GET_1_0_PER_MOUNTAIN_FS</Data></Cell>
     <Cell ss:Index="3"><Data ss:Type="String">Choose a creature to get +1/+0 for each mountain you control and gain first strike.</Data></Cell>
-    <Cell><Data ss:Type="String">Choisissez une créature pour obtenir +1 / +0 pour chaque montagne que vous contrôlez et d'acquérir la première grève.</Data></Cell>
-    <Cell><Data ss:Type="String">Elige una criatura obtiene +1 / +0 por cada montaña que controlar y ganar primer ataque.</Data></Cell>
-    <Cell><Data ss:Type="String">Wählen Sie eine Kreatur +1 / +0 für jeden Berg, die du kontrollierst und gewinnen Erstschlag zu bekommen.</Data></Cell>
-    <Cell><Data ss:Type="String">Scegli una creatura per ottenere +1 / +0 per ogni montagna, di controllare e acquisire primo colpo.</Data></Cell>
+    <Cell><Data ss:Type="String">Choisissez une créature pour obtenir +1/+0 pour chaque montagne que vous contrôlez et d'acquérir la première grève.</Data></Cell>
+    <Cell><Data ss:Type="String">Elige una criatura obtiene +1/+0 por cada montaña que controlar y ganar primer ataque.</Data></Cell>
+    <Cell><Data ss:Type="String">Wählen Sie eine Kreatur +1/+0 für jeden Berg, die du kontrollierst und gewinnen Erstschlag zu bekommen.</Data></Cell>
+    <Cell><Data ss:Type="String">Scegli una creatura per ottenere +1/+0 per ogni montagna, di controllare e acquisire primo colpo.</Data></Cell>
     <Cell><Data ss:Type="String">Choose a creature to get +1/+0 for each mountain you control and gain first strike.</Data></Cell>
     <Cell><Data ss:Type="String">あなたがコントロールすると先制攻撃を得るごとに山1つにつき+1 /+0の修整を受けるためにクリーチャーを選択してください。</Data></Cell>
     <Cell><Data ss:Type="String">당신이 제어하고 첫 번째 미사일을 얻을 각 산에 대해 1 / 0를 얻는 생물을 선택합니다.</Data></Cell>
-    <Cell><Data ss:Type="String">Выберите существо получают +1 / +0 для каждого горного вам управлять и получить первый удар.</Data></Cell>
-    <Cell><Data ss:Type="String">Escolha uma criatura para obter +1 / +0 para cada montanha que você controlar e ganhar o primeiro ataque.</Data></Cell>
+    <Cell><Data ss:Type="String">Выберите существо получают +1/+0 для каждого горного вам управлять и получить первый удар.</Data></Cell>
+    <Cell><Data ss:Type="String">Escolha uma criatura para obter +1/+0 para cada montanha que você controlar e ganhar o primeiro ataque.</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
     <Cell><Data ss:Type="String">CARD_QUERY_CHOOSE_GCARD_TO_PUT_INTO_HAND</Data></Cell>
     <Cell ss:Index="3"><Data ss:Type="String">Choose a green card to put into its owner’s hand.</Data></Cell>
-    <Cell><Data ss:Type="String">Choisissez une carte verte pour mettre en main de son propriétaire.</Data></Cell>
+    <Cell><Data ss:Type="String">Choisissez une carte verte à retourner dans la main de son propriétaire.</Data></Cell>
     <Cell><Data ss:Type="String">Elegir una tarjeta verde para poner en mano de su propietario.</Data></Cell>
     <Cell><Data ss:Type="String">Wählen Sie eine grüne Karte in die Hand ihres Besitzers gelegt.</Data></Cell>
     <Cell><Data ss:Type="String">Scegli una carta verde da mettere in mano al suo proprietario.</Data></Cell>
@@ -288,7 +288,7 @@
    <Row ss:AutoFitHeight="0">
     <Cell><Data ss:Type="String">CARD_QUERY_CHOOSE_PLAYER_DISCARD_2_RANDOM</Data></Cell>
     <Cell ss:Index="3"><Data ss:Type="String">Choose target player to discard two cards from his or her hand at random.</Data></Cell>
-    <Cell><Data ss:Type="String">Choisissez le joueur ciblé se défaire de deux cartes de sa main au hasard.</Data></Cell>
+    <Cell><Data ss:Type="String">Choisissez un joueur pour qu'il se défausse de deux cartes au hasard.</Data></Cell>
     <Cell><Data ss:Type="String">Elige el jugador objetivo para descartar dos cartas de su mano al azar.</Data></Cell>
     <Cell><Data ss:Type="String">Wählen Sie ein Spieler deiner Wahl auf zwei Karten aus seiner Hand nach dem Zufallsprinzip zu verwerfen.</Data></Cell>
     <Cell><Data ss:Type="String">Scegli un giocatore bersaglio di scartare due carte dalla propria mano a caso.</Data></Cell>
@@ -301,7 +301,7 @@
    <Row ss:AutoFitHeight="0">
     <Cell><Data ss:Type="String">CARD_QUERY_CHOOSE_PLAYER_DISCARD_ATRANDOM_NATH</Data></Cell>
     <Cell ss:Index="3"><Data ss:Type="String">Choose target player to discard a card at random from his or her hand.</Data></Cell>
-    <Cell><Data ss:Type="String">Choisissez le joueur ciblé se défausser d'une carte au hasard dans sa main.</Data></Cell>
+    <Cell><Data ss:Type="String">Choisissez un joueur pour qu'il se défausse d'une carte au hasard.</Data></Cell>
     <Cell><Data ss:Type="String">Elige el jugador objetivo para descartar una carta al azar de su mano.</Data></Cell>
     <Cell><Data ss:Type="String">Wählen Sie ein Spieler deiner Wahl, um eine zufällig bestimmte Karte aus seiner Hand abwerfen.</Data></Cell>
     <Cell><Data ss:Type="String">Scegli il giocatore bersaglio scarta una carta a caso dalla sua mano.</Data></Cell>
@@ -314,7 +314,7 @@
    <Row ss:AutoFitHeight="0">
     <Cell><Data ss:Type="String">CARD_QUERY_CHOOSE_RCARD_TO_PUT_INTO_HAND</Data></Cell>
     <Cell ss:Index="3"><Data ss:Type="String">Choose a red card to put into its owner’s hand.</Data></Cell>
-    <Cell><Data ss:Type="String">Choisissez un carton rouge à mettre dans la main de son propriétaire.</Data></Cell>
+    <Cell><Data ss:Type="String">Choisissez une carte rouge à retourner dans la main de son propriétaire.</Data></Cell>
     <Cell><Data ss:Type="String">Elegir una tarjeta roja para poner en mano de su propietario.</Data></Cell>
     <Cell><Data ss:Type="String">Wählen Sie eine rote Karte in die Hand ihres Besitzers gelegt.</Data></Cell>
     <Cell><Data ss:Type="String">Scegli un cartellino rosso per mettere in mano al suo proprietario.</Data></Cell>
@@ -327,7 +327,7 @@
    <Row ss:AutoFitHeight="0">
     <Cell><Data ss:Type="String">CARD_QUERY_CHOOSE_UCARD_TO_PUT_INTO_HAND</Data></Cell>
     <Cell ss:Index="3"><Data ss:Type="String">Choose a blue card to put into its owner’s hand.</Data></Cell>
-    <Cell><Data ss:Type="String">Choisissez une carte bleue pour mettre en main de son propriétaire.</Data></Cell>
+    <Cell><Data ss:Type="String">Choisissez une carte bleue à retourner dans la main de son propriétaire.</Data></Cell>
     <Cell><Data ss:Type="String">Elegir una tarjeta azul para poner en mano de su propietario.</Data></Cell>
     <Cell><Data ss:Type="String">Wählen Sie eine blaue Karte in die Hand ihres Besitzers gelegt.</Data></Cell>
     <Cell><Data ss:Type="String">Scegli una carta blu per mettere in mano al suo proprietario.</Data></Cell>
@@ -340,7 +340,7 @@
    <Row ss:AutoFitHeight="0">
     <Cell><Data ss:Type="String">CARD_QUERY_CHOOSE_WCARD_TO_PUT_INTO_HAND</Data></Cell>
     <Cell ss:Index="3"><Data ss:Type="String">Choose a white card to put into its owner’s hand.</Data></Cell>
-    <Cell><Data ss:Type="String">Choisissez une carte blanche pour mettre en main de son propriétaire.</Data></Cell>
+    <Cell><Data ss:Type="String">Choisissez une carte blanche à retourner dans la main de son propriétaire.</Data></Cell>
     <Cell><Data ss:Type="String">Elegir una tarjeta blanca para poner en mano de su propietario.</Data></Cell>
     <Cell><Data ss:Type="String">Wählen Sie eine weiße Karte in die Hand ihres Besitzers gelegt.</Data></Cell>
     <Cell><Data ss:Type="String">Scegli una carta bianca per mettere in mano al suo proprietario.</Data></Cell>
@@ -366,7 +366,7 @@
    <Row ss:AutoFitHeight="0">
     <Cell><Data ss:Type="String">CARD_QUERY_CHOOSE_ZOMBIE_TO_PUT_INTO_HAND</Data></Cell>
     <Cell ss:Index="3"><Data ss:Type="String">Choose a Zombie card to put into its owner’s hand.</Data></Cell>
-    <Cell><Data ss:Type="String">Choisissez une carte Zombie à mettre en main de son propriétaire.</Data></Cell>
+    <Cell><Data ss:Type="String">Choisissez une carte Zombie à retourner dans la main de son propriétaire.</Data></Cell>
     <Cell><Data ss:Type="String">Elegir una tarjeta de Zombie de poner en mano de su propietario.</Data></Cell>
     <Cell><Data ss:Type="String">Wählen Sie eine Zombie-Karte in die Hand ihres Besitzers gelegt.</Data></Cell>
     <Cell><Data ss:Type="String">Scegli una carta Zombie di mettere in mano al suo proprietario.</Data></Cell>
@@ -379,7 +379,7 @@
    <Row ss:AutoFitHeight="0">
     <Cell><Data ss:Type="String">CARD_QUERY_MC_BROWBEAT</Data></Cell>
     <Cell ss:Index="3"><Data ss:Type="String">You may choose to take 5 damage to prevent target player to draw three cards.</Data></Cell>
-    <Cell><Data ss:Type="String">Vous pouvez choisir de prendre 5 points de dégâts pour empêcher le joueur ciblé de tirer trois cartes.</Data></Cell>
+    <Cell><Data ss:Type="String">Vous pouvez choisir de subir 5 blessures pour empêcher le joueur ciblé de tirer trois cartes.</Data></Cell>
     <Cell><Data ss:Type="String">Usted puede optar por tener 5 puntos de daño para evitar que el jugador objetivo elaborar tres cartas.</Data></Cell>
     <Cell><Data ss:Type="String">Sie können wählen, 5 Schaden zu nehmen, um ein Spieler deiner Wahl verhindern zu drei Karten zu ziehen.</Data></Cell>
     <Cell><Data ss:Type="String">Si può scegliere di prendere 5 danni per evitare che un giocatore bersaglio per disegnare tre carte.</Data></Cell>
@@ -392,7 +392,7 @@
    <Row ss:AutoFitHeight="0">
     <Cell><Data ss:Type="String">CARD_QUERY_MC_CIRCULAR_LOGIC</Data></Cell>
     <Cell ss:Index="3"><Data ss:Type="String">Do you want to pay {%d}? (If you don't, the spell will be countered.)</Data></Cell>
-    <Cell><Data ss:Type="String">Voulez-vous payer {%d}? (Si vous n'aimez pas, le sort sera contrecarré.)</Data></Cell>
+    <Cell><Data ss:Type="String">Voulez-vous payer {%d}? (Si vous ne le faites pas, le sort sera contrecarré.)</Data></Cell>
     <Cell><Data ss:Type="String">¿Quieres pagar {%d}? (Si no lo hace, el hechizo será contrarrestado.)</Data></Cell>
     <Cell><Data ss:Type="String">Wollen Sie {%d} zahlen? (Wenn Sie nicht tun, wird der Zauberspruch neutralisiert werden.)</Data></Cell>
     <Cell><Data ss:Type="String">Vuoi pagare {%d}? (Se non lo fate, la magia viene neutralizzata.)</Data></Cell>
@@ -405,7 +405,7 @@
    <Row ss:AutoFitHeight="0">
     <Cell><Data ss:Type="String">CARD_QUERY_MC_OPTION_NO</Data></Cell>
     <Cell ss:Index="3"><Data ss:Type="String">No</Data></Cell>
-    <Cell><Data ss:Type="String">aucun</Data></Cell>
+    <Cell><Data ss:Type="String">non</Data></Cell>
     <Cell><Data ss:Type="String">no</Data></Cell>
     <Cell><Data ss:Type="String">kein</Data></Cell>
     <Cell><Data ss:Type="String">no</Data></Cell>
@@ -444,7 +444,7 @@
    <Row ss:AutoFitHeight="0">
     <Cell><Data ss:Type="String">CARD_QUERY_MC_ROOTWATER_THIEF</Data></Cell>
     <Cell ss:Index="3"><Data ss:Type="String">You may pay {2} to exile a card from defending player’s library.</Data></Cell>
-    <Cell><Data ss:Type="String">Vous pouvez payer {2} à l'exil d'une carte de défendre bibliothèque de ce joueur.</Data></Cell>
+    <Cell><Data ss:Type="String">Vous pouvez payer {2} pour exiler une carte de la bibliothèque du joueur défenseur.</Data></Cell>
     <Cell><Data ss:Type="String">Puedes pagar {2} al exilio de una tarjeta de la defensa de la biblioteca del jugador.</Data></Cell>
     <Cell><Data ss:Type="String">Sie können {2}, um eine Karte aus dem Exil verteidigenden Spieler der Bibliothek bezahlen.</Data></Cell>
     <Cell><Data ss:Type="String">Puoi pagare {2} all'esilio una carta dalla difesa biblioteca giocatore.</Data></Cell>
@@ -470,7 +470,7 @@
    <Row ss:AutoFitHeight="0">
     <Cell><Data ss:Type="String">CARD_QUERY_MC_SLAVERING_NULL_ABILITY</Data></Cell>
     <Cell ss:Index="3"><Data ss:Type="String">Would you like that player to discard a card?</Data></Cell>
-    <Cell><Data ss:Type="String">Aimeriez-vous que le joueur à défausser d'une carte?</Data></Cell>
+    <Cell><Data ss:Type="String">Aimeriez-vous que ce joueur se défausse d'une carte?</Data></Cell>
     <Cell><Data ss:Type="String">¿Te gustaría que ese jugador descarta una carta?</Data></Cell>
     <Cell><Data ss:Type="String">Möchten Sie, dass Spieler eine Karte abwerfen?</Data></Cell>
     <Cell><Data ss:Type="String">Ti piacerebbe che quel giocatore scarta una carta?</Data></Cell>
@@ -496,7 +496,7 @@
    <Row ss:AutoFitHeight="0">
     <Cell><Data ss:Type="String">CARD_QUERY_OPTION_TAP_TARGET_PERMANENT</Data></Cell>
     <Cell ss:Index="3"><Data ss:Type="String">Tap a permanent.</Data></Cell>
-    <Cell><Data ss:Type="String">Tapez un permanent.</Data></Cell>
+    <Cell><Data ss:Type="String">Engagez un permanent.</Data></Cell>
     <Cell><Data ss:Type="String">Toque en una permanente.</Data></Cell>
     <Cell><Data ss:Type="String">Tippen Sie auf eine bleibende Karte.</Data></Cell>
     <Cell><Data ss:Type="String">Toccare un permanente.</Data></Cell>
@@ -675,17 +675,15 @@
     <Cell><Data ss:Type="String">Wayback 2012</Data></Cell>
     <Cell><Data ss:Type="String">Wayback 2012</Data></Cell>
     <Cell><Data ss:Type="String">Wayback 2012</Data></Cell>
-    <Cell><Data ss:Type="String">Wayback 2012</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
     <Cell><Data ss:Type="String">D12AOD</Data></Cell>
     <Cell ss:Index="3"><Data ss:Type="String">Dark Heavens</Data></Cell>
-    <Cell><Data ss:Type="String">Dark Heavens</Data></Cell>
-    <Cell><Data ss:Type="String">Dark Heavens</Data></Cell>
-    <Cell><Data ss:Type="String">Dark Heavens</Data></Cell>
-    <Cell><Data ss:Type="String">Dark Heavens</Data></Cell>
-    <Cell><Data ss:Type="String">Dark Heavens</Data></Cell>
-    <Cell><Data ss:Type="String">Dark Heavens</Data></Cell>
+    <Cell><Data ss:Type="String">Cieux obscurs</Data></Cell>
+    <Cell><Data ss:Type="String">Cielos oscuros</Data></Cell>
+    <Cell><Data ss:Type="String">Dunkler Himmel</Data></Cell>
+    <Cell><Data ss:Type="String">Paradisi Oscuri</Data></Cell>
+    <Cell ss:Index="9"><Data ss:Type="String">暗黒の天国</Data></Cell>
     <Cell><Data ss:Type="String">Dark Heavens</Data></Cell>
     <Cell><Data ss:Type="String">Dark Heavens</Data></Cell>
     <Cell><Data ss:Type="String">Dark Heavens</Data></Cell>
@@ -693,12 +691,11 @@
    <Row ss:AutoFitHeight="0">
     <Cell><Data ss:Type="String">D12BEKNIGHTED</Data></Cell>
     <Cell ss:Index="3"><Data ss:Type="String">Beknighted</Data></Cell>
-    <Cell><Data ss:Type="String">Beknighted</Data></Cell>
-    <Cell><Data ss:Type="String">Beknighted</Data></Cell>
-    <Cell><Data ss:Type="String">Beknighted</Data></Cell>
-    <Cell><Data ss:Type="String">Beknighted</Data></Cell>
-    <Cell><Data ss:Type="String">Beknighted</Data></Cell>
-    <Cell><Data ss:Type="String">Beknighted</Data></Cell>
+    <Cell><Data ss:Type="String">Sacré chevalier</Data></Cell>
+    <Cell><Data ss:Type="String">Caballeresco</Data></Cell>
+    <Cell><Data ss:Type="String">Ritterdämmerung</Data></Cell>
+    <Cell><Data ss:Type="String">Cavalierato</Data></Cell>
+    <Cell ss:Index="9"><Data ss:Type="String">悪しき騎士</Data></Cell>
     <Cell><Data ss:Type="String">Beknighted</Data></Cell>
     <Cell><Data ss:Type="String">Beknighted</Data></Cell>
     <Cell><Data ss:Type="String">Beknighted</Data></Cell>
@@ -706,12 +703,11 @@
    <Row ss:AutoFitHeight="0">
     <Cell><Data ss:Type="String">D12CHANDRA</Data></Cell>
     <Cell ss:Index="3"><Data ss:Type="String">Unquenchable Fire</Data></Cell>
-    <Cell><Data ss:Type="String">Unquenchable Fire</Data></Cell>
-    <Cell><Data ss:Type="String">Unquenchable Fire</Data></Cell>
-    <Cell><Data ss:Type="String">Unquenchable Fire</Data></Cell>
-    <Cell><Data ss:Type="String">Unquenchable Fire</Data></Cell>
-    <Cell><Data ss:Type="String">Unquenchable Fire</Data></Cell>
-    <Cell><Data ss:Type="String">Unquenchable Fire</Data></Cell>
+    <Cell><Data ss:Type="String">Feu inextinguible</Data></Cell>
+    <Cell><Data ss:Type="String">Fuego inextinguible</Data></Cell>
+    <Cell><Data ss:Type="String">Unlöschbares Feuer</Data></Cell>
+    <Cell><Data ss:Type="String">Fuoco Inestinguibile</Data></Cell>
+    <Cell ss:Index="9"><Data ss:Type="String">燃え尽きぬ炎</Data></Cell>
     <Cell><Data ss:Type="String">Unquenchable Fire</Data></Cell>
     <Cell><Data ss:Type="String">Unquenchable Fire</Data></Cell>
     <Cell><Data ss:Type="String">Unquenchable Fire</Data></Cell>
@@ -719,12 +715,11 @@
    <Row ss:AutoFitHeight="0">
     <Cell><Data ss:Type="String">D12DD</Data></Cell>
     <Cell ss:Index="3"><Data ss:Type="String">Forest’s Fury</Data></Cell>
-    <Cell><Data ss:Type="String">Forest’s Fury</Data></Cell>
-    <Cell><Data ss:Type="String">Forest’s Fury</Data></Cell>
-    <Cell><Data ss:Type="String">Forest’s Fury</Data></Cell>
-    <Cell><Data ss:Type="String">Forest’s Fury</Data></Cell>
-    <Cell><Data ss:Type="String">Forest’s Fury</Data></Cell>
-    <Cell><Data ss:Type="String">Forest’s Fury</Data></Cell>
+    <Cell><Data ss:Type="String">Furie de la forêt</Data></Cell>
+    <Cell><Data ss:Type="String">Furia del bosque</Data></Cell>
+    <Cell><Data ss:Type="String">Wut des Waldes</Data></Cell>
+    <Cell><Data ss:Type="String">Collera della Foresta</Data></Cell>
+    <Cell ss:Index="9"><Data ss:Type="String">森の怒り</Data></Cell>
     <Cell><Data ss:Type="String">Forest’s Fury</Data></Cell>
     <Cell><Data ss:Type="String">Forest’s Fury</Data></Cell>
     <Cell><Data ss:Type="String">Forest’s Fury</Data></Cell>
@@ -732,12 +727,11 @@
    <Row ss:AutoFitHeight="0">
     <Cell><Data ss:Type="String">D12GARRUK</Data></Cell>
     <Cell ss:Index="3"><Data ss:Type="String">Apex Predators</Data></Cell>
-    <Cell><Data ss:Type="String">Apex Predators</Data></Cell>
-    <Cell><Data ss:Type="String">Apex Predators</Data></Cell>
-    <Cell><Data ss:Type="String">Apex Predators</Data></Cell>
-    <Cell><Data ss:Type="String">Apex Predators</Data></Cell>
-    <Cell><Data ss:Type="String">Apex Predators</Data></Cell>
-    <Cell><Data ss:Type="String">Apex Predators</Data></Cell>
+    <Cell><Data ss:Type="String">Prédateurs du zénith</Data></Cell>
+    <Cell><Data ss:Type="String">Depredadores del cenit</Data></Cell>
+    <Cell><Data ss:Type="String">Gipfel-Raubtiere</Data></Cell>
+    <Cell><Data ss:Type="String">Predatori all'Apice</Data></Cell>
+    <Cell ss:Index="9"><Data ss:Type="String">捕食者の頂点</Data></Cell>
     <Cell><Data ss:Type="String">Apex Predators</Data></Cell>
     <Cell><Data ss:Type="String">Apex Predators</Data></Cell>
     <Cell><Data ss:Type="String">Apex Predators</Data></Cell>
@@ -745,12 +739,11 @@
    <Row ss:AutoFitHeight="0">
     <Cell><Data ss:Type="String">D12GK</Data></Cell>
     <Cell ss:Index="3"><Data ss:Type="String">Ghoulkeeper</Data></Cell>
-    <Cell><Data ss:Type="String">Ghoulkeeper</Data></Cell>
-    <Cell><Data ss:Type="String">Ghoulkeeper</Data></Cell>
-    <Cell><Data ss:Type="String">Ghoulkeeper</Data></Cell>
-    <Cell><Data ss:Type="String">Ghoulkeeper</Data></Cell>
-    <Cell><Data ss:Type="String">Ghoulkeeper</Data></Cell>
-    <Cell><Data ss:Type="String">Ghoulkeeper</Data></Cell>
+    <Cell><Data ss:Type="String">Gardien de goule</Data></Cell>
+    <Cell><Data ss:Type="String">Necroguardián</Data></Cell>
+    <Cell><Data ss:Type="String">Hüter der Ghule</Data></Cell>
+    <Cell><Data ss:Type="String">Custode di Ghoul</Data></Cell>
+    <Cell ss:Index="9"><Data ss:Type="String">グールの守り手</Data></Cell>
     <Cell><Data ss:Type="String">Ghoulkeeper</Data></Cell>
     <Cell><Data ss:Type="String">Ghoulkeeper</Data></Cell>
     <Cell><Data ss:Type="String">Ghoulkeeper</Data></Cell>
@@ -758,12 +751,11 @@
    <Row ss:AutoFitHeight="0">
     <Cell><Data ss:Type="String">D12JACE</Data></Cell>
     <Cell ss:Index="3"><Data ss:Type="String">Realm of Illusion</Data></Cell>
-    <Cell><Data ss:Type="String">Realm of Illusion</Data></Cell>
-    <Cell><Data ss:Type="String">Realm of Illusion</Data></Cell>
-    <Cell><Data ss:Type="String">Realm of Illusion</Data></Cell>
-    <Cell><Data ss:Type="String">Realm of Illusion</Data></Cell>
-    <Cell><Data ss:Type="String">Realm of Illusion</Data></Cell>
-    <Cell><Data ss:Type="String">Realm of Illusion</Data></Cell>
+    <Cell><Data ss:Type="String">Royaume de l'illusion</Data></Cell>
+    <Cell><Data ss:Type="String">Reino de ilusión</Data></Cell>
+    <Cell><Data ss:Type="String">Reich der Illusionen</Data></Cell>
+    <Cell><Data ss:Type="String">Regno dell'Illusione</Data></Cell>
+    <Cell ss:Index="9"><Data ss:Type="String">幻影の国</Data></Cell>
     <Cell><Data ss:Type="String">Realm of Illusion</Data></Cell>
     <Cell><Data ss:Type="String">Realm of Illusion</Data></Cell>
     <Cell><Data ss:Type="String">Realm of Illusion</Data></Cell>
@@ -771,12 +763,11 @@
    <Row ss:AutoFitHeight="0">
     <Cell><Data ss:Type="String">D12JURA</Data></Cell>
     <Cell ss:Index="3"><Data ss:Type="String">Wielding Steel</Data></Cell>
-    <Cell><Data ss:Type="String">Wielding Steel</Data></Cell>
-    <Cell><Data ss:Type="String">Wielding Steel</Data></Cell>
-    <Cell><Data ss:Type="String">Wielding Steel</Data></Cell>
-    <Cell><Data ss:Type="String">Wielding Steel</Data></Cell>
-    <Cell><Data ss:Type="String">Wielding Steel</Data></Cell>
-    <Cell><Data ss:Type="String">Wielding Steel</Data></Cell>
+    <Cell><Data ss:Type="String">Armé d'acier</Data></Cell>
+    <Cell><Data ss:Type="String">Esgrimiendo acero</Data></Cell>
+    <Cell><Data ss:Type="String">Gezückter Stahl</Data></Cell>
+    <Cell><Data ss:Type="String">Brandire l'Acciaio</Data></Cell>
+    <Cell ss:Index="9"><Data ss:Type="String">鋼の行使</Data></Cell>
     <Cell><Data ss:Type="String">Wielding Steel</Data></Cell>
     <Cell><Data ss:Type="String">Wielding Steel</Data></Cell>
     <Cell><Data ss:Type="String">Wielding Steel</Data></Cell>
@@ -784,12 +775,11 @@
    <Row ss:AutoFitHeight="0">
     <Cell><Data ss:Type="String">D12KARN</Data></Cell>
     <Cell ss:Index="3"><Data ss:Type="String">Relics of Antiquity</Data></Cell>
-    <Cell><Data ss:Type="String">Relics of Antiquity</Data></Cell>
-    <Cell><Data ss:Type="String">Relics of Antiquity</Data></Cell>
-    <Cell><Data ss:Type="String">Relics of Antiquity</Data></Cell>
-    <Cell><Data ss:Type="String">Relics of Antiquity</Data></Cell>
-    <Cell><Data ss:Type="String">Relics of Antiquity</Data></Cell>
-    <Cell><Data ss:Type="String">Relics of Antiquity</Data></Cell>
+    <Cell><Data ss:Type="String">Reliques de l'antiquité</Data></Cell>
+    <Cell><Data ss:Type="String">Reliquias antiguas</Data></Cell>
+    <Cell><Data ss:Type="String">Antike Reliquien</Data></Cell>
+    <Cell><Data ss:Type="String">Reliquie dell'Antichità</Data></Cell>
+    <Cell ss:Index="9"><Data ss:Type="String">古代の遺物</Data></Cell>
     <Cell><Data ss:Type="String">Relics of Antiquity</Data></Cell>
     <Cell><Data ss:Type="String">Relics of Antiquity</Data></Cell>
     <Cell><Data ss:Type="String">Relics of Antiquity</Data></Cell>
@@ -797,12 +787,11 @@
    <Row ss:AutoFitHeight="0">
     <Cell><Data ss:Type="String">D12KIORA</Data></Cell>
     <Cell ss:Index="3"><Data ss:Type="String">Ancient Depths</Data></Cell>
-    <Cell><Data ss:Type="String">Ancient Depths</Data></Cell>
-    <Cell><Data ss:Type="String">Ancient Depths</Data></Cell>
-    <Cell><Data ss:Type="String">Ancient Depths</Data></Cell>
-    <Cell><Data ss:Type="String">Ancient Depths</Data></Cell>
-    <Cell><Data ss:Type="String">Ancient Depths</Data></Cell>
-    <Cell><Data ss:Type="String">Ancient Depths</Data></Cell>
+    <Cell><Data ss:Type="String">Anciennes profondeurs</Data></Cell>
+    <Cell><Data ss:Type="String">Profundidades antiguas</Data></Cell>
+    <Cell><Data ss:Type="String">Uralte Tiefen</Data></Cell>
+    <Cell><Data ss:Type="String">Antiche Profondità</Data></Cell>
+    <Cell ss:Index="9"><Data ss:Type="String">古えの深み</Data></Cell>
     <Cell><Data ss:Type="String">Ancient Depths</Data></Cell>
     <Cell><Data ss:Type="String">Ancient Depths</Data></Cell>
     <Cell><Data ss:Type="String">Ancient Depths</Data></Cell>
@@ -810,12 +799,11 @@
    <Row ss:AutoFitHeight="0">
     <Cell><Data ss:Type="String">D12NISSA</Data></Cell>
     <Cell ss:Index="3"><Data ss:Type="String">Guardians of the Wood</Data></Cell>
-    <Cell><Data ss:Type="String">Guardians of the Wood</Data></Cell>
-    <Cell><Data ss:Type="String">Guardians of the Wood</Data></Cell>
-    <Cell><Data ss:Type="String">Guardians of the Wood</Data></Cell>
-    <Cell><Data ss:Type="String">Guardians of the Wood</Data></Cell>
-    <Cell><Data ss:Type="String">Guardians of the Wood</Data></Cell>
-    <Cell><Data ss:Type="String">Guardians of the Wood</Data></Cell>
+    <Cell><Data ss:Type="String">Gardiens des bois</Data></Cell>
+    <Cell><Data ss:Type="String">Guardianes del bosque</Data></Cell>
+    <Cell><Data ss:Type="String">Wächter des Waldes</Data></Cell>
+    <Cell><Data ss:Type="String">Guardiani del Bosco</Data></Cell>
+    <Cell ss:Index="9"><Data ss:Type="String">森の守護者</Data></Cell>
     <Cell><Data ss:Type="String">Guardians of the Wood</Data></Cell>
     <Cell><Data ss:Type="String">Guardians of the Wood</Data></Cell>
     <Cell><Data ss:Type="String">Guardians of the Wood</Data></Cell>
@@ -823,12 +811,11 @@
    <Row ss:AutoFitHeight="0">
     <Cell><Data ss:Type="String">D12RAKKA</Data></Cell>
     <Cell ss:Index="3"><Data ss:Type="String">Trinity of Elements</Data></Cell>
-    <Cell><Data ss:Type="String">Trinity of Elements</Data></Cell>
-    <Cell><Data ss:Type="String">Trinity of Elements</Data></Cell>
-    <Cell><Data ss:Type="String">Trinity of Elements</Data></Cell>
-    <Cell><Data ss:Type="String">Trinity of Elements</Data></Cell>
-    <Cell><Data ss:Type="String">Trinity of Elements</Data></Cell>
-    <Cell><Data ss:Type="String">Trinity of Elements</Data></Cell>
+    <Cell><Data ss:Type="String">Trinité d'éléments</Data></Cell>
+    <Cell><Data ss:Type="String">Trinidad elemental</Data></Cell>
+    <Cell><Data ss:Type="String">Dreiheit der Elemente</Data></Cell>
+    <Cell><Data ss:Type="String">Trinità degli Elementi</Data></Cell>
+    <Cell ss:Index="9"><Data ss:Type="String">三なる精霊</Data></Cell>
     <Cell><Data ss:Type="String">Trinity of Elements</Data></Cell>
     <Cell><Data ss:Type="String">Trinity of Elements</Data></Cell>
     <Cell><Data ss:Type="String">Trinity of Elements</Data></Cell>
@@ -836,12 +823,11 @@
    <Row ss:AutoFitHeight="0">
     <Cell><Data ss:Type="String">D12SARKHAN</Data></Cell>
     <Cell ss:Index="3"><Data ss:Type="String">Dragons Roar</Data></Cell>
-    <Cell><Data ss:Type="String">Dragons Roar</Data></Cell>
-    <Cell><Data ss:Type="String">Dragons Roar</Data></Cell>
-    <Cell><Data ss:Type="String">Dragons Roar</Data></Cell>
-    <Cell><Data ss:Type="String">Dragons Roar</Data></Cell>
-    <Cell><Data ss:Type="String">Dragons Roar</Data></Cell>
-    <Cell><Data ss:Type="String">Dragons Roar</Data></Cell>
+    <Cell><Data ss:Type="String">Rugissement du dragon</Data></Cell>
+    <Cell><Data ss:Type="String">Rugido del dragón</Data></Cell>
+    <Cell><Data ss:Type="String">Drachenschrei</Data></Cell>
+    <Cell><Data ss:Type="String">Ruggito del Drago</Data></Cell>
+    <Cell ss:Index="9"><Data ss:Type="String">ドラゴンの咆哮</Data></Cell>
     <Cell><Data ss:Type="String">Dragons Roar</Data></Cell>
     <Cell><Data ss:Type="String">Dragons Roar</Data></Cell>
     <Cell><Data ss:Type="String">Dragons Roar</Data></Cell>
@@ -849,12 +835,11 @@
    <Row ss:AutoFitHeight="0">
     <Cell><Data ss:Type="String">D12SE</Data></Cell>
     <Cell ss:Index="3"><Data ss:Type="String">March to War</Data></Cell>
-    <Cell><Data ss:Type="String">March to War</Data></Cell>
-    <Cell><Data ss:Type="String">March to War</Data></Cell>
-    <Cell><Data ss:Type="String">March to War</Data></Cell>
-    <Cell><Data ss:Type="String">March to War</Data></Cell>
-    <Cell><Data ss:Type="String">March to War</Data></Cell>
-    <Cell><Data ss:Type="String">March to War</Data></Cell>
+    <Cell><Data ss:Type="String">Marche vers la guerre</Data></Cell>
+    <Cell><Data ss:Type="String">Marcha bélica</Data></Cell>
+    <Cell><Data ss:Type="String">In den Krieg ziehen</Data></Cell>
+    <Cell><Data ss:Type="String">Marciare in Guerra</Data></Cell>
+    <Cell ss:Index="9"><Data ss:Type="String">戦争への進軍</Data></Cell>
     <Cell><Data ss:Type="String">March to War</Data></Cell>
     <Cell><Data ss:Type="String">March to War</Data></Cell>
     <Cell><Data ss:Type="String">March to War</Data></Cell>
@@ -862,12 +847,11 @@
    <Row ss:AutoFitHeight="0">
     <Cell><Data ss:Type="String">D12SORIN</Data></Cell>
     <Cell ss:Index="3"><Data ss:Type="String">Blood Hunger</Data></Cell>
-    <Cell><Data ss:Type="String">Blood Hunger</Data></Cell>
-    <Cell><Data ss:Type="String">Blood Hunger</Data></Cell>
-    <Cell><Data ss:Type="String">Blood Hunger</Data></Cell>
-    <Cell><Data ss:Type="String">Blood Hunger</Data></Cell>
-    <Cell><Data ss:Type="String">Blood Hunger</Data></Cell>
-    <Cell><Data ss:Type="String">Blood Hunger</Data></Cell>
+    <Cell><Data ss:Type="String">Faim sanguinaire</Data></Cell>
+    <Cell><Data ss:Type="String">Hambre de sangre</Data></Cell>
+    <Cell><Data ss:Type="String">Bluthunger</Data></Cell>
+    <Cell><Data ss:Type="String">Brama di Sangue</Data></Cell>
+    <Cell ss:Index="9"><Data ss:Type="String">血の飢え</Data></Cell>
     <Cell><Data ss:Type="String">Blood Hunger</Data></Cell>
     <Cell><Data ss:Type="String">Blood Hunger</Data></Cell>
     <Cell><Data ss:Type="String">Blood Hunger</Data></Cell>
@@ -876,11 +860,10 @@
     <Cell><Data ss:Type="String">D12TEZZ</Data></Cell>
     <Cell ss:Index="3"><Data ss:Type="String">Machinations</Data></Cell>
     <Cell><Data ss:Type="String">Machinations</Data></Cell>
-    <Cell><Data ss:Type="String">Machinations</Data></Cell>
-    <Cell><Data ss:Type="String">Machinations</Data></Cell>
-    <Cell><Data ss:Type="String">Machinations</Data></Cell>
-    <Cell><Data ss:Type="String">Machinations</Data></Cell>
-    <Cell><Data ss:Type="String">Machinations</Data></Cell>
+    <Cell><Data ss:Type="String">Maquinaciones</Data></Cell>
+    <Cell><Data ss:Type="String">Machenschaften</Data></Cell>
+    <Cell><Data ss:Type="String">Macchinazioni</Data></Cell>
+    <Cell ss:Index="9"><Data ss:Type="String">策謀</Data></Cell>
     <Cell><Data ss:Type="String">Machinations</Data></Cell>
     <Cell><Data ss:Type="String">Machinations</Data></Cell>
     <Cell><Data ss:Type="String">Machinations</Data></Cell>
@@ -888,8 +871,7 @@
    <Row ss:AutoFitHeight="0">
     <Cell><Data ss:Type="String">D13_GNS</Data></Cell>
     <Cell ss:Index="3"><Data ss:Type="String">Madness</Data></Cell>
-    <Cell><Data ss:Type="String">Madness</Data></Cell>
-    <Cell><Data ss:Type="String">Madness</Data></Cell>
+    <Cell><Data ss:Type="String">Folie</Data></Cell>
     <Cell><Data ss:Type="String">Madness</Data></Cell>
     <Cell><Data ss:Type="String">Madness</Data></Cell>
     <Cell><Data ss:Type="String">Madness</Data></Cell>
@@ -901,8 +883,7 @@
    <Row ss:AutoFitHeight="0">
     <Cell><Data ss:Type="String">D13_GRISEL</Data></Cell>
     <Cell ss:Index="3"><Data ss:Type="String">Reanimator</Data></Cell>
-    <Cell><Data ss:Type="String">Reanimator</Data></Cell>
-    <Cell><Data ss:Type="String">Reanimator</Data></Cell>
+    <Cell><Data ss:Type="String">Reanimateur</Data></Cell>
     <Cell><Data ss:Type="String">Reanimator</Data></Cell>
     <Cell><Data ss:Type="String">Reanimator</Data></Cell>
     <Cell><Data ss:Type="String">Reanimator</Data></Cell>
@@ -914,8 +895,7 @@
    <Row ss:AutoFitHeight="0">
     <Cell><Data ss:Type="String">D13_HYPNO</Data></Cell>
     <Cell ss:Index="3"><Data ss:Type="String">Hypnosis</Data></Cell>
-    <Cell><Data ss:Type="String">Hypnosis</Data></Cell>
-    <Cell><Data ss:Type="String">Hypnosis</Data></Cell>
+    <Cell><Data ss:Type="String">Hypnose</Data></Cell>
     <Cell><Data ss:Type="String">Hypnosis</Data></Cell>
     <Cell><Data ss:Type="String">Hypnosis</Data></Cell>
     <Cell><Data ss:Type="String">Hypnosis</Data></Cell>
@@ -927,8 +907,7 @@
    <Row ss:AutoFitHeight="0">
     <Cell><Data ss:Type="String">D13_KARNSILVER</Data></Cell>
     <Cell ss:Index="3"><Data ss:Type="String">Cloud Nine</Data></Cell>
-    <Cell><Data ss:Type="String">Cloud Nine</Data></Cell>
-    <Cell><Data ss:Type="String">Cloud Nine</Data></Cell>
+    <Cell><Data ss:Type="String">Septième Ciel</Data></Cell>
     <Cell><Data ss:Type="String">Cloud Nine</Data></Cell>
     <Cell><Data ss:Type="String">Cloud Nine</Data></Cell>
     <Cell><Data ss:Type="String">Cloud Nine</Data></Cell>
@@ -948,13 +927,11 @@
     <Cell><Data ss:Type="String">Pirates</Data></Cell>
     <Cell><Data ss:Type="String">Pirates</Data></Cell>
     <Cell><Data ss:Type="String">Pirates</Data></Cell>
-    <Cell><Data ss:Type="String">Pirates</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
     <Cell><Data ss:Type="String">D13_MESA</Data></Cell>
     <Cell ss:Index="3"><Data ss:Type="String">Enchanter</Data></Cell>
-    <Cell><Data ss:Type="String">Enchanter</Data></Cell>
-    <Cell><Data ss:Type="String">Enchanter</Data></Cell>
+    <Cell><Data ss:Type="String">Enchantresse</Data></Cell>
     <Cell><Data ss:Type="String">Enchanter</Data></Cell>
     <Cell><Data ss:Type="String">Enchanter</Data></Cell>
     <Cell><Data ss:Type="String">Enchanter</Data></Cell>
@@ -978,8 +955,7 @@
    <Row ss:AutoFitHeight="0">
     <Cell><Data ss:Type="String">D13_TITANRAMP</Data></Cell>
     <Cell ss:Index="3"><Data ss:Type="String">Titan Ramp</Data></Cell>
-    <Cell><Data ss:Type="String">Titan Ramp</Data></Cell>
-    <Cell><Data ss:Type="String">Titan Ramp</Data></Cell>
+    <Cell><Data ss:Type="String">Croissance Titanesque</Data></Cell>
     <Cell><Data ss:Type="String">Titan Ramp</Data></Cell>
     <Cell><Data ss:Type="String">Titan Ramp</Data></Cell>
     <Cell><Data ss:Type="String">Titan Ramp</Data></Cell>
@@ -991,8 +967,7 @@
    <Row ss:AutoFitHeight="0">
     <Cell><Data ss:Type="String">D13_URA</Data></Cell>
     <Cell ss:Index="3"><Data ss:Type="String">Stryker</Data></Cell>
-    <Cell><Data ss:Type="String">Stryker</Data></Cell>
-    <Cell><Data ss:Type="String">Stryker</Data></Cell>
+    <Cell><Data ss:Type="String">Fracasseur</Data></Cell>
     <Cell><Data ss:Type="String">Stryker</Data></Cell>
     <Cell><Data ss:Type="String">Stryker</Data></Cell>
     <Cell><Data ss:Type="String">Stryker</Data></Cell>
@@ -1004,8 +979,7 @@
    <Row ss:AutoFitHeight="0">
     <Cell><Data ss:Type="String">D13_VERDE</Data></Cell>
     <Cell ss:Index="3"><Data ss:Type="String">Unrooted</Data></Cell>
-    <Cell><Data ss:Type="String">Unrooted</Data></Cell>
-    <Cell><Data ss:Type="String">Unrooted</Data></Cell>
+    <Cell><Data ss:Type="String">Déraciné</Data></Cell>
     <Cell><Data ss:Type="String">Unrooted</Data></Cell>
     <Cell><Data ss:Type="String">Unrooted</Data></Cell>
     <Cell><Data ss:Type="String">Unrooted</Data></Cell>
@@ -1017,12 +991,11 @@
    <Row ss:AutoFitHeight="0">
     <Cell><Data ss:Type="String">DECK_KOTH_OLD</Data></Cell>
     <Cell ss:Index="3"><Data ss:Type="String">Strength of Stone</Data></Cell>
-    <Cell><Data ss:Type="String">Strength of Stone</Data></Cell>
-    <Cell><Data ss:Type="String">Strength of Stone</Data></Cell>
-    <Cell><Data ss:Type="String">Strength of Stone</Data></Cell>
-    <Cell><Data ss:Type="String">Strength of Stone</Data></Cell>
-    <Cell><Data ss:Type="String">Strength of Stone</Data></Cell>
-    <Cell><Data ss:Type="String">Strength of Stone</Data></Cell>
+    <Cell><Data ss:Type="String">Force de la pierre</Data></Cell>
+    <Cell><Data ss:Type="String">Fuerza de la piedra</Data></Cell>
+    <Cell><Data ss:Type="String">Stärke des Steins</Data></Cell>
+    <Cell><Data ss:Type="String">Forza della Pietra</Data></Cell>
+    <Cell ss:Index="9"><Data ss:Type="String">石の力</Data></Cell>
     <Cell><Data ss:Type="String">Strength of Stone</Data></Cell>
     <Cell><Data ss:Type="String">Strength of Stone</Data></Cell>
     <Cell><Data ss:Type="String">Strength of Stone</Data></Cell>
@@ -1030,12 +1003,11 @@
    <Row ss:AutoFitHeight="0">
     <Cell><Data ss:Type="String">KICKER_QUERY_BURST_LIGHTNING_KICKED</Data></Cell>
     <Cell ss:Index="3"><Data ss:Type="String">Deal 4 damage to a creature or player.</Data></Cell>
-    <Cell><Data ss:Type="String">Traiter 4 blessures à une créature ou joueur.</Data></Cell>
-    <Cell><Data ss:Type="String">Encarar de manera 4 puntos de daño a una criatura o jugador objetivo.</Data></Cell>
-    <Cell><Data ss:Type="String">Deal 4 Schadenspunkte zu einer Kreatur oder einem Spieler.</Data></Cell>
-    <Cell><Data ss:Type="String">Deal 4 danni a una creatura o un giocatore.</Data></Cell>
-    <Cell><Data ss:Type="String">Deal 4 damage to a creature or player.</Data></Cell>
-    <Cell><Data ss:Type="String">クリーチャーかプレイヤーに4ダメージを与える。</Data></Cell>
+    <Cell><Data ss:Type="String">Infligez 4 blessures à une cible, créature ou joueur.</Data></Cell>
+    <Cell><Data ss:Type="String">Haz 4 puntos de daño a una criatura o jugador.</Data></Cell>
+    <Cell><Data ss:Type="String">Füge einer Kreatur oder einem Spieler 4 Schadenspunkte zu.</Data></Cell>
+    <Cell><Data ss:Type="String">Infliggi 4 danni a una creatura o a un giocatore.</Data></Cell>
+    <Cell ss:Index="9"><Data ss:Type="String">クリーチャーかプレイヤーに４点のダメージを与える。</Data></Cell>
     <Cell><Data ss:Type="String">생물이나 플레이어 ~ 4 피해를 처리합니다.</Data></Cell>
     <Cell><Data ss:Type="String">Сделка 4 повреждения существу или игроку.</Data></Cell>
     <Cell><Data ss:Type="String">Lidar 4 pontos de dano a uma criatura ou jogador.</Data></Cell>
@@ -1043,12 +1015,11 @@
    <Row ss:AutoFitHeight="0">
     <Cell><Data ss:Type="String">KICKER_QUERY_BURST_LIGHTNING_UNKICKED</Data></Cell>
     <Cell ss:Index="3"><Data ss:Type="String">Deal 2 damage to a creature or player.</Data></Cell>
-    <Cell><Data ss:Type="String">Traiter 2 blessures à une créature ou joueur.</Data></Cell>
-    <Cell><Data ss:Type="String">2 puntos de daño a una criatura o jugador objetivo.</Data></Cell>
-    <Cell><Data ss:Type="String">Deal 2 Schaden einer Kreatur oder einem Spieler.</Data></Cell>
-    <Cell><Data ss:Type="String">Infliggere 2 danni a una creatura o un giocatore.</Data></Cell>
-    <Cell><Data ss:Type="String">Deal 2 damage to a creature or player.</Data></Cell>
-    <Cell><Data ss:Type="String">クリーチャーかプレイヤーに2点のダメージを与える。</Data></Cell>
+    <Cell><Data ss:Type="String">Infligez 2 blessures à une cible, créature ou joueur.</Data></Cell>
+    <Cell><Data ss:Type="String">Haz 2 puntos de daño a una criatura o jugador.</Data></Cell>
+    <Cell><Data ss:Type="String">Füge einer Kreatur oder einem Spieler 2 Schadenspunkte zu.</Data></Cell>
+    <Cell><Data ss:Type="String">Infliggi 2 danni a una creatura o a un giocatore.</Data></Cell>
+    <Cell ss:Index="9"><Data ss:Type="String">クリーチャーかプレイヤーに２点のダメージを与える。</Data></Cell>
     <Cell><Data ss:Type="String">생물이나 플레이어 2 손상을 처리합니다.</Data></Cell>
     <Cell><Data ss:Type="String">Сделка 2 повреждения существу или игроку.</Data></Cell>
     <Cell><Data ss:Type="String">Lide 2 pontos de dano a uma criatura ou jogador.</Data></Cell>
@@ -1056,12 +1027,11 @@
    <Row ss:AutoFitHeight="0">
     <Cell><Data ss:Type="String">KICKER_QUERY_MOLD_SHAMBLER_KICKED</Data></Cell>
     <Cell ss:Index="3"><Data ss:Type="String">Cast Mold Shambler and destroy a noncreature permanent.</Data></Cell>
-    <Cell><Data ss:Type="String">Cast Shambler Mold et de détruire un permanent non-créature.</Data></Cell>
-    <Cell><Data ss:Type="String">Cast Shambler moho y destruir un permanente no criatura.</Data></Cell>
-    <Cell><Data ss:Type="String">Gießform Shambler und zerstören einen nicht-permanenten Kreatur.</Data></Cell>
-    <Cell><Data ss:Type="String">Cast Shambler Mold e distruggere una creatura non-permanente.</Data></Cell>
-    <Cell><Data ss:Type="String">Cast Mold Shambler and destroy a noncreature permanent.</Data></Cell>
-    <Cell><Data ss:Type="String">カビのシャンブラーをキャストすると非生物のパーマネントを破壊する。</Data></Cell>
+    <Cell><Data ss:Type="String">Lancez l'Escogriffe de moisissure et détruisez un permanent non-créature.</Data></Cell>
+    <Cell><Data ss:Type="String">Lanza el Desollador de moho y destruye un permanente que no sea criatura.</Data></Cell>
+    <Cell><Data ss:Type="String">Wirke den Schimmelschlurfer und zerstöre eine bleibende Karte außer einer Kreatur.</Data></Cell>
+    <Cell><Data ss:Type="String">Lancia l'Errante di Muffa e distruggi un permanente non creatura.</Data></Cell>
+    <Cell ss:Index="9"><Data ss:Type="String">《カビのシャンブラー》を唱え、クリーチャーでないパーマネントを１つ破壊する。</Data></Cell>
     <Cell><Data ss:Type="String">금형 휘청 거림을 캐스팅하고 이외의 생물 영구적인 파괴.</Data></Cell>
     <Cell><Data ss:Type="String">Литой Mold Shambler и уничтожить noncreature постоянно.</Data></Cell>
     <Cell><Data ss:Type="String">Elenco Shambler Mold e destruir um que não seja criatura permanente.</Data></Cell>
@@ -1069,12 +1039,11 @@
    <Row ss:AutoFitHeight="0">
     <Cell><Data ss:Type="String">KICKER_QUERY_MOLD_SHAMBLER_UNKICKED</Data></Cell>
     <Cell ss:Index="3"><Data ss:Type="String">Cast Mold Shambler.</Data></Cell>
-    <Cell><Data ss:Type="String">Cast Shambler Mold.</Data></Cell>
-    <Cell><Data ss:Type="String">Cast Shambler moho.</Data></Cell>
-    <Cell><Data ss:Type="String">Gießform Shambler.</Data></Cell>
-    <Cell><Data ss:Type="String">Cast Shambler Mold.</Data></Cell>
-    <Cell><Data ss:Type="String">Cast Mold Shambler.</Data></Cell>
-    <Cell><Data ss:Type="String">カビのシャンブラーをキャストします。</Data></Cell>
+    <Cell><Data ss:Type="String">Lancez l'Escogriffe de moisissure.</Data></Cell>
+    <Cell><Data ss:Type="String">Lanza el Desollador de moho.</Data></Cell>
+    <Cell><Data ss:Type="String">Wirke den Schimmelschlurfer.</Data></Cell>
+    <Cell><Data ss:Type="String">Lancia l'Errante di Muffa.</Data></Cell>
+    <Cell ss:Index="9"><Data ss:Type="String">《カビのシャンブラー》を唱える。</Data></Cell>
     <Cell><Data ss:Type="String">금형 휘청 거림을 걸겠 군.</Data></Cell>
     <Cell><Data ss:Type="String">Литой Mold Shambler.</Data></Cell>
     <Cell><Data ss:Type="String">Elenco Shambler Mold.</Data></Cell>
@@ -1082,145 +1051,134 @@
    <Row ss:AutoFitHeight="0">
     <Cell><Data ss:Type="String">PLAYER_NAME_CAZORIUS</Data></Cell>
     <Cell ss:Index="3"><Data ss:Type="String">Kor Spiritdancer</Data></Cell>
+    <Cell><Data ss:Type="String">Danseuse d'esprit kor</Data></Cell>
+    <Cell><Data ss:Type="String">Bailarina espiritual kor</Data></Cell>
+    <Cell><Data ss:Type="String">Kor-Geistertänzerin</Data></Cell>
+    <Cell><Data ss:Type="String">Danzatrice Spirituale Kor</Data></Cell>
+    <Cell><Data ss:Type="String">コーの精霊の踊り手</Data></Cell>
     <Cell><Data ss:Type="String">Kor Spiritdancer</Data></Cell>
-    <Cell><Data ss:Type="String">Kor Spiritdancer</Data></Cell>
-    <Cell><Data ss:Type="String">Kor Spiritdancer</Data></Cell>
-    <Cell><Data ss:Type="String">Kor Spiritdancer</Data></Cell>
-    <Cell><Data ss:Type="String">Kor Spiritdancer</Data></Cell>
-    <Cell><Data ss:Type="String">Kor Spiritdancer</Data></Cell>
-    <Cell><Data ss:Type="String">Kor Spiritdancer</Data></Cell>
-    <Cell><Data ss:Type="String">Kor Spiritdancer</Data></Cell>
-    <Cell><Data ss:Type="String">Kor Spiritdancer</Data></Cell>
+    <Cell><Data ss:Type="String">Кор, Танцующая с Духами</Data></Cell>
+    <Cell><Data ss:Type="String">Dançarina dos Espíritos Kor</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
     <Cell><Data ss:Type="String">PLAYER_NAME_CGOLGARI</Data></Cell>
     <Cell ss:Index="3"><Data ss:Type="String">Vulturous Zombie</Data></Cell>
+    <Cell><Data ss:Type="String">Zombie rapace</Data></Cell>
+    <Cell><Data ss:Type="String">Zombie abuitrado</Data></Cell>
+    <Cell><Data ss:Type="String">Geiernder Zombie</Data></Cell>
+    <Cell><Data ss:Type="String">Zombie Rapace</Data></Cell>
+    <Cell><Data ss:Type="String">禿鷹ゾンビ</Data></Cell>
     <Cell><Data ss:Type="String">Vulturous Zombie</Data></Cell>
-    <Cell><Data ss:Type="String">Vulturous Zombie</Data></Cell>
-    <Cell><Data ss:Type="String">Vulturous Zombie</Data></Cell>
-    <Cell><Data ss:Type="String">Vulturous Zombie</Data></Cell>
-    <Cell><Data ss:Type="String">Vulturous Zombie</Data></Cell>
-    <Cell><Data ss:Type="String">Vulturous Zombie</Data></Cell>
-    <Cell><Data ss:Type="String">Vulturous Zombie</Data></Cell>
-    <Cell><Data ss:Type="String">Vulturous Zombie</Data></Cell>
-    <Cell><Data ss:Type="String">Vulturous Zombie</Data></Cell>
+    <Cell><Data ss:Type="String">Зомби-стервятник</Data></Cell>
+    <Cell><Data ss:Type="String">Zumbi Predador</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
     <Cell><Data ss:Type="String">PLAYER_NAME_CIZZET</Data></Cell>
     <Cell ss:Index="3"><Data ss:Type="String">Niv-mizzet, the Firemind</Data></Cell>
+    <Cell><Data ss:Type="String">Niv-Mizzet, le Cérébropyre</Data></Cell>
+    <Cell><Data ss:Type="String">Niv-Mízzet, la Mente ardiente</Data></Cell>
+    <Cell><Data ss:Type="String">Niv-Mizzet, das Feuerhirn</Data></Cell>
+    <Cell><Data ss:Type="String">Niv-Mizzet, il Mentefiamma</Data></Cell>
+    <Cell><Data ss:Type="String">火想者ニヴ＝ミゼット</Data></Cell>
     <Cell><Data ss:Type="String">Niv-mizzet, the Firemind</Data></Cell>
-    <Cell><Data ss:Type="String">Niv-mizzet, the Firemind</Data></Cell>
-    <Cell><Data ss:Type="String">Niv-mizzet, the Firemind</Data></Cell>
-    <Cell><Data ss:Type="String">Niv-mizzet, the Firemind</Data></Cell>
-    <Cell><Data ss:Type="String">Niv-mizzet, the Firemind</Data></Cell>
-    <Cell><Data ss:Type="String">Niv-mizzet, the Firemind</Data></Cell>
-    <Cell><Data ss:Type="String">Niv-mizzet, the Firemind</Data></Cell>
-    <Cell><Data ss:Type="String">Niv-mizzet, the Firemind</Data></Cell>
-    <Cell><Data ss:Type="String">Niv-mizzet, the Firemind</Data></Cell>
+    <Cell><Data ss:Type="String">Нив-Миззет, Огненный разум</Data></Cell>
+    <Cell><Data ss:Type="String">Niv-Mizzet, o Mente de Fogo</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
     <Cell><Data ss:Type="String">PLAYER_NAME_CRAKDOS</Data></Cell>
     <Cell ss:Index="3"><Data ss:Type="String">Rakdos the Defiler</Data></Cell>
+    <Cell><Data ss:Type="String">Rakdos le Contaminateur</Data></Cell>
+    <Cell><Data ss:Type="String">Rakdos el profanador</Data></Cell>
+    <Cell><Data ss:Type="String">Rakdos der Schänder</Data></Cell>
+    <Cell><Data ss:Type="String">Rakdos il Contaminatore</Data></Cell>
+    <Cell><Data ss:Type="String">穢すものラクドス</Data></Cell>
     <Cell><Data ss:Type="String">Rakdos the Defiler</Data></Cell>
-    <Cell><Data ss:Type="String">Rakdos the Defiler</Data></Cell>
-    <Cell><Data ss:Type="String">Rakdos the Defiler</Data></Cell>
-    <Cell><Data ss:Type="String">Rakdos the Defiler</Data></Cell>
-    <Cell><Data ss:Type="String">Rakdos the Defiler</Data></Cell>
-    <Cell><Data ss:Type="String">Rakdos the Defiler</Data></Cell>
-    <Cell><Data ss:Type="String">Rakdos the Defiler</Data></Cell>
-    <Cell><Data ss:Type="String">Rakdos the Defiler</Data></Cell>
-    <Cell><Data ss:Type="String">Rakdos the Defiler</Data></Cell>
+    <Cell><Data ss:Type="String">Ракдос Осквернитель</Data></Cell>
+    <Cell><Data ss:Type="String">Rakdos, o Profanador</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
     <Cell><Data ss:Type="String">PLAYER_NAME_CSELESNYA</Data></Cell>
     <Cell ss:Index="3"><Data ss:Type="String">Selesnya Guildmage</Data></Cell>
+    <Cell><Data ss:Type="String">Ghildmage de Selesnya</Data></Cell>
+    <Cell><Data ss:Type="String">Mago del Gremio Selesnya</Data></Cell>
+    <Cell><Data ss:Type="String">Selesnija-Gildenmagier</Data></Cell>
+    <Cell><Data ss:Type="String">Mago della Gilda di Selesnya</Data></Cell>
+    <Cell><Data ss:Type="String">セレズニアのギルド魔道士</Data></Cell>
     <Cell><Data ss:Type="String">Selesnya Guildmage</Data></Cell>
-    <Cell><Data ss:Type="String">Selesnya Guildmage</Data></Cell>
-    <Cell><Data ss:Type="String">Selesnya Guildmage</Data></Cell>
-    <Cell><Data ss:Type="String">Selesnya Guildmage</Data></Cell>
-    <Cell><Data ss:Type="String">Selesnya Guildmage</Data></Cell>
-    <Cell><Data ss:Type="String">Selesnya Guildmage</Data></Cell>
-    <Cell><Data ss:Type="String">Selesnya Guildmage</Data></Cell>
-    <Cell><Data ss:Type="String">Selesnya Guildmage</Data></Cell>
-    <Cell><Data ss:Type="String">Selesnya Guildmage</Data></Cell>
+    <Cell><Data ss:Type="String">Маг гильдии Селезнии</Data></Cell>
+    <Cell><Data ss:Type="String">Mago da Guilda Selesnya</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
     <Cell><Data ss:Type="String">PLAYER_NAME_D12AOD</Data></Cell>
     <Cell ss:Index="3"><Data ss:Type="String">Angel of Despair</Data></Cell>
+    <Cell><Data ss:Type="String">Ange du désespoir</Data></Cell>
+    <Cell><Data ss:Type="String">Ángel de desesperación</Data></Cell>
+    <Cell><Data ss:Type="String">Engel der Verzweiflung</Data></Cell>
+    <Cell><Data ss:Type="String">Angelo della Disperazione</Data></Cell>
+    <Cell><Data ss:Type="String">絶望の天使</Data></Cell>
     <Cell><Data ss:Type="String">Angel of Despair</Data></Cell>
-    <Cell><Data ss:Type="String">Angel of Despair</Data></Cell>
-    <Cell><Data ss:Type="String">Angel of Despair</Data></Cell>
-    <Cell><Data ss:Type="String">Angel of Despair</Data></Cell>
-    <Cell><Data ss:Type="String">Angel of Despair</Data></Cell>
-    <Cell><Data ss:Type="String">Angel of Despair</Data></Cell>
-    <Cell><Data ss:Type="String">Angel of Despair</Data></Cell>
-    <Cell><Data ss:Type="String">Angel of Despair</Data></Cell>
-    <Cell><Data ss:Type="String">Angel of Despair</Data></Cell>
+    <Cell><Data ss:Type="String">Ангел отчаяния</Data></Cell>
+    <Cell><Data ss:Type="String">Anjo do Desespero</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
     <Cell><Data ss:Type="String">PLAYER_NAME_D12BEKNIGHTED</Data></Cell>
     <Cell ss:Index="3"><Data ss:Type="String">Accorder Paladin</Data></Cell>
-    <Cell><Data ss:Type="String">Accorder Paladin</Data></Cell>
-    <Cell><Data ss:Type="String">Accorder Paladin</Data></Cell>
-    <Cell><Data ss:Type="String">Accorder Paladin</Data></Cell>
-    <Cell><Data ss:Type="String">Accorder Paladin</Data></Cell>
-    <Cell><Data ss:Type="String">Accorder Paladin</Data></Cell>
-    <Cell><Data ss:Type="String">Accorder Paladin</Data></Cell>
-    <Cell><Data ss:Type="String">Accorder Paladin</Data></Cell>
-    <Cell><Data ss:Type="String">Accorder Paladin</Data></Cell>
-    <Cell><Data ss:Type="String">Accorder Paladin</Data></Cell>
+    <Cell><Data ss:Type="String">Paladin des Accordeurs</Data></Cell>
+    <Cell><Data ss:Type="String">Paladín de los acordantes</Data></Cell>
+    <Cell><Data ss:Type="String">Paladin der Harmonier</Data></Cell>
+    <Cell><Data ss:Type="String">Concorde Paladino</Data></Cell>
+    <Cell><Data ss:Type="String">調和者隊の聖騎士</Data></Cell>
+    <Cell><Data ss:Type="String">Paladin</Data></Cell>
+    <Cell><Data ss:Type="String">Паладин-Согласитель</Data></Cell>
+    <Cell><Data ss:Type="String">Paladino dos Concordantes</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
     <Cell><Data ss:Type="String">PLAYER_NAME_D12CHANDRA</Data></Cell>
     <Cell ss:Index="3"><Data ss:Type="String">Chandra Nalaar</Data></Cell>
+    <Cell><Data ss:Type="String">Chandra Nalaàr</Data></Cell>
     <Cell><Data ss:Type="String">Chandra Nalaar</Data></Cell>
     <Cell><Data ss:Type="String">Chandra Nalaar</Data></Cell>
     <Cell><Data ss:Type="String">Chandra Nalaar</Data></Cell>
+    <Cell ss:Index="9"><Data ss:Type="String">チャンドラ・ナラー</Data></Cell>
     <Cell><Data ss:Type="String">Chandra Nalaar</Data></Cell>
-    <Cell><Data ss:Type="String">Chandra Nalaar</Data></Cell>
-    <Cell><Data ss:Type="String">Chandra Nalaar</Data></Cell>
-    <Cell><Data ss:Type="String">Chandra Nalaar</Data></Cell>
-    <Cell><Data ss:Type="String">Chandra Nalaar</Data></Cell>
+    <Cell><Data ss:Type="String">Чандра Налаар</Data></Cell>
     <Cell><Data ss:Type="String">Chandra Nalaar</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
     <Cell><Data ss:Type="String">PLAYER_NAME_D12DD</Data></Cell>
     <Cell ss:Index="3"><Data ss:Type="String">Dauntless Dourbark</Data></Cell>
+    <Cell><Data ss:Type="String">Durécorce intrépide</Data></Cell>
+    <Cell><Data ss:Type="String">Cortezadura intrépido</Data></Cell>
+    <Cell><Data ss:Type="String">Furchtloser Hartborker</Data></Cell>
+    <Cell><Data ss:Type="String">Cortecciadura Intrepido</Data></Cell>
+    <Cell><Data ss:Type="String">不屈の頑固皮</Data></Cell>
     <Cell><Data ss:Type="String">Dauntless Dourbark</Data></Cell>
-    <Cell><Data ss:Type="String">Dauntless Dourbark</Data></Cell>
-    <Cell><Data ss:Type="String">Dauntless Dourbark</Data></Cell>
-    <Cell><Data ss:Type="String">Dauntless Dourbark</Data></Cell>
-    <Cell><Data ss:Type="String">Dauntless Dourbark</Data></Cell>
-    <Cell><Data ss:Type="String">Dauntless Dourbark</Data></Cell>
-    <Cell><Data ss:Type="String">Dauntless Dourbark</Data></Cell>
-    <Cell><Data ss:Type="String">Dauntless Dourbark</Data></Cell>
-    <Cell><Data ss:Type="String">Dauntless Dourbark</Data></Cell>
+    <Cell><Data ss:Type="String">Неустрашимый Мрачнодрев</Data></Cell>
+    <Cell><Data ss:Type="String">Troncoscuro Destemido</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
     <Cell><Data ss:Type="String">PLAYER_NAME_D12GARRUK</Data></Cell>
     <Cell ss:Index="3"><Data ss:Type="String">Garruk Wildspeaker</Data></Cell>
+    <Cell><Data ss:Type="String">Garruk Languebestion</Data></Cell>
+    <Cell><Data ss:Type="String">Garruk Portavoz Salvaje</Data></Cell>
+    <Cell><Data ss:Type="String">Garruk Wildsprecher</Data></Cell>
+    <Cell><Data ss:Type="String">Garruk Lingua Selvaggia</Data></Cell>
+    <Cell ss:Index="9"><Data ss:Type="String">野生語りのガラク</Data></Cell>
     <Cell><Data ss:Type="String">Garruk Wildspeaker</Data></Cell>
-    <Cell><Data ss:Type="String">Garruk Wildspeaker</Data></Cell>
-    <Cell><Data ss:Type="String">Garruk Wildspeaker</Data></Cell>
-    <Cell><Data ss:Type="String">Garruk Wildspeaker</Data></Cell>
-    <Cell><Data ss:Type="String">Garruk Wildspeaker</Data></Cell>
-    <Cell><Data ss:Type="String">Garruk Wildspeaker</Data></Cell>
-    <Cell><Data ss:Type="String">Garruk Wildspeaker</Data></Cell>
-    <Cell><Data ss:Type="String">Garruk Wildspeaker</Data></Cell>
-    <Cell><Data ss:Type="String">Garruk Wildspeaker</Data></Cell>
+    <Cell><Data ss:Type="String">Гаррук Дикоречивый</Data></Cell>
+    <Cell><Data ss:Type="String">Garruk Falabravo</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
     <Cell><Data ss:Type="String">PLAYER_NAME_D12GK</Data></Cell>
     <Cell ss:Index="3"><Data ss:Type="String">Grave Titan</Data></Cell>
-    <Cell><Data ss:Type="String">Grave Titan</Data></Cell>
-    <Cell><Data ss:Type="String">Grave Titan</Data></Cell>
-    <Cell><Data ss:Type="String">Grave Titan</Data></Cell>
-    <Cell><Data ss:Type="String">Grave Titan</Data></Cell>
-    <Cell><Data ss:Type="String">Grave Titan</Data></Cell>
-    <Cell><Data ss:Type="String">Grave Titan</Data></Cell>
-    <Cell><Data ss:Type="String">Grave Titan</Data></Cell>
-    <Cell><Data ss:Type="String">Grave Titan</Data></Cell>
-    <Cell><Data ss:Type="String">Grave Titan</Data></Cell>
+    <Cell><Data ss:Type="String">Titan des tombes</Data></Cell>
+    <Cell><Data ss:Type="String">Titán de la tumba</Data></Cell>
+    <Cell><Data ss:Type="String">Grabes-Titan</Data></Cell>
+    <Cell><Data ss:Type="String">Titano Sepolcrale</Data></Cell>
+    <Cell><Data ss:Type="String">墓所のタイタン</Data></Cell>
+    <Cell><Data ss:Type="String">Grave</Data></Cell>
+    <Cell><Data ss:Type="String">Могильный Титан</Data></Cell>
+    <Cell><Data ss:Type="String">Titã do Túmulo</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
     <Cell><Data ss:Type="String">PLAYER_NAME_D12JACE</Data></Cell>
@@ -1229,10 +1187,9 @@
     <Cell><Data ss:Type="String">Jace Beleren</Data></Cell>
     <Cell><Data ss:Type="String">Jace Beleren</Data></Cell>
     <Cell><Data ss:Type="String">Jace Beleren</Data></Cell>
+    <Cell ss:Index="9"><Data ss:Type="String">ジェイス・ベレレン</Data></Cell>
     <Cell><Data ss:Type="String">Jace Beleren</Data></Cell>
-    <Cell><Data ss:Type="String">Jace Beleren</Data></Cell>
-    <Cell><Data ss:Type="String">Jace Beleren</Data></Cell>
-    <Cell><Data ss:Type="String">Jace Beleren</Data></Cell>
+    <Cell><Data ss:Type="String">Джейс Белерен</Data></Cell>
     <Cell><Data ss:Type="String">Jace Beleren</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
@@ -1242,24 +1199,22 @@
     <Cell><Data ss:Type="String">Gideon Jura</Data></Cell>
     <Cell><Data ss:Type="String">Gideon Jura</Data></Cell>
     <Cell><Data ss:Type="String">Gideon Jura</Data></Cell>
+    <Cell ss:Index="9"><Data ss:Type="String">ギデオン・ジュラ</Data></Cell>
     <Cell><Data ss:Type="String">Gideon Jura</Data></Cell>
-    <Cell><Data ss:Type="String">Gideon Jura</Data></Cell>
-    <Cell><Data ss:Type="String">Gideon Jura</Data></Cell>
-    <Cell><Data ss:Type="String">Gideon Jura</Data></Cell>
+    <Cell><Data ss:Type="String">Гидеон Джура</Data></Cell>
     <Cell><Data ss:Type="String">Gideon Jura</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
     <Cell><Data ss:Type="String">PLAYER_NAME_D12KARN</Data></Cell>
     <Cell ss:Index="3"><Data ss:Type="String">Karn Liberated</Data></Cell>
+    <Cell><Data ss:Type="String">Karn libéré</Data></Cell>
+    <Cell><Data ss:Type="String">Karn liberado</Data></Cell>
+    <Cell><Data ss:Type="String">Karn der Befreite</Data></Cell>
+    <Cell><Data ss:Type="String">Karn Liberato</Data></Cell>
+    <Cell><Data ss:Type="String">解放された者、カーン</Data></Cell>
     <Cell><Data ss:Type="String">Karn Liberated</Data></Cell>
-    <Cell><Data ss:Type="String">Karn Liberated</Data></Cell>
-    <Cell><Data ss:Type="String">Karn Liberated</Data></Cell>
-    <Cell><Data ss:Type="String">Karn Liberated</Data></Cell>
-    <Cell><Data ss:Type="String">Karn Liberated</Data></Cell>
-    <Cell><Data ss:Type="String">Karn Liberated</Data></Cell>
-    <Cell><Data ss:Type="String">Karn Liberated</Data></Cell>
-    <Cell><Data ss:Type="String">Karn Liberated</Data></Cell>
-    <Cell><Data ss:Type="String">Karn Liberated</Data></Cell>
+    <Cell><Data ss:Type="String">Карн Освобожденный</Data></Cell>
+    <Cell><Data ss:Type="String">Karn Liberto</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
     <Cell><Data ss:Type="String">PLAYER_NAME_D12KIORA</Data></Cell>
@@ -1268,8 +1223,7 @@
     <Cell><Data ss:Type="String">Kiora Atua</Data></Cell>
     <Cell><Data ss:Type="String">Kiora Atua</Data></Cell>
     <Cell><Data ss:Type="String">Kiora Atua</Data></Cell>
-    <Cell><Data ss:Type="String">Kiora Atua</Data></Cell>
-    <Cell><Data ss:Type="String">Kiora Atua</Data></Cell>
+    <Cell ss:Index="9"><Data ss:Type="String">キオーラ・アトゥア</Data></Cell>
     <Cell><Data ss:Type="String">Kiora Atua</Data></Cell>
     <Cell><Data ss:Type="String">Kiora Atua</Data></Cell>
     <Cell><Data ss:Type="String">Kiora Atua</Data></Cell>
@@ -1281,10 +1235,9 @@
     <Cell><Data ss:Type="String">Nissa Revane</Data></Cell>
     <Cell><Data ss:Type="String">Nissa Revane</Data></Cell>
     <Cell><Data ss:Type="String">Nissa Revane</Data></Cell>
+    <Cell ss:Index="9"><Data ss:Type="String">ニッサ・レヴェイン</Data></Cell>
     <Cell><Data ss:Type="String">Nissa Revane</Data></Cell>
-    <Cell><Data ss:Type="String">Nissa Revane</Data></Cell>
-    <Cell><Data ss:Type="String">Nissa Revane</Data></Cell>
-    <Cell><Data ss:Type="String">Nissa Revane</Data></Cell>
+    <Cell><Data ss:Type="String">Нисса Ревейн</Data></Cell>
     <Cell><Data ss:Type="String">Nissa Revane</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
@@ -1295,9 +1248,8 @@
     <Cell><Data ss:Type="String">Rakka Mar</Data></Cell>
     <Cell><Data ss:Type="String">Rakka Mar</Data></Cell>
     <Cell><Data ss:Type="String">Rakka Mar</Data></Cell>
-    <Cell><Data ss:Type="String">Rakka Mar</Data></Cell>
-    <Cell><Data ss:Type="String">Rakka Mar</Data></Cell>
-    <Cell><Data ss:Type="String">Rakka Mar</Data></Cell>
+    <Cell><Data ss:Type="String">ラッカ・マー</Data></Cell>
+    <Cell><Data ss:Type="String">Ракка Мар</Data></Cell>
     <Cell><Data ss:Type="String">Rakka Mar</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
@@ -1307,24 +1259,22 @@
     <Cell><Data ss:Type="String">Sarkhan Vol</Data></Cell>
     <Cell><Data ss:Type="String">Sarkhan Vol</Data></Cell>
     <Cell><Data ss:Type="String">Sarkhan Vol</Data></Cell>
+    <Cell ss:Index="9"><Data ss:Type="String">サルカン・ヴォル</Data></Cell>
     <Cell><Data ss:Type="String">Sarkhan Vol</Data></Cell>
-    <Cell><Data ss:Type="String">Sarkhan Vol</Data></Cell>
-    <Cell><Data ss:Type="String">Sarkhan Vol</Data></Cell>
-    <Cell><Data ss:Type="String">Sarkhan Vol</Data></Cell>
+    <Cell><Data ss:Type="String">Сархан Воль</Data></Cell>
     <Cell><Data ss:Type="String">Sarkhan Vol</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
     <Cell><Data ss:Type="String">PLAYER_NAME_D12SE</Data></Cell>
     <Cell ss:Index="3"><Data ss:Type="String">Sunhome Enforcer</Data></Cell>
-    <Cell><Data ss:Type="String">Sunhome Enforcer</Data></Cell>
-    <Cell><Data ss:Type="String">Sunhome Enforcer</Data></Cell>
-    <Cell><Data ss:Type="String">Sunhome Enforcer</Data></Cell>
-    <Cell><Data ss:Type="String">Sunhome Enforcer</Data></Cell>
-    <Cell><Data ss:Type="String">Sunhome Enforcer</Data></Cell>
-    <Cell><Data ss:Type="String">Sunhome Enforcer</Data></Cell>
-    <Cell><Data ss:Type="String">Sunhome Enforcer</Data></Cell>
-    <Cell><Data ss:Type="String">Sunhome Enforcer</Data></Cell>
-    <Cell><Data ss:Type="String">Sunhome Enforcer</Data></Cell>
+    <Cell><Data ss:Type="String">Argousin de Solcastel</Data></Cell>
+    <Cell><Data ss:Type="String">Coaccionador de Casa Solar</Data></Cell>
+    <Cell><Data ss:Type="String">Sonnenheim-Vollstrecker</Data></Cell>
+    <Cell><Data ss:Type="String">Tutore di Sol-Dimora</Data></Cell>
+    <Cell><Data ss:Type="String">サンホームの処罰者</Data></Cell>
+    <Cell><Data ss:Type="String">Sunhome</Data></Cell>
+    <Cell><Data ss:Type="String">Воитель Дома Солнца</Data></Cell>
+    <Cell><Data ss:Type="String">Impositor da Morada do Sol</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
     <Cell><Data ss:Type="String">PLAYER_NAME_D12SORIN</Data></Cell>
@@ -1333,37 +1283,34 @@
     <Cell><Data ss:Type="String">Sorin Markov</Data></Cell>
     <Cell><Data ss:Type="String">Sorin Markov</Data></Cell>
     <Cell><Data ss:Type="String">Sorin Markov</Data></Cell>
+    <Cell ss:Index="9"><Data ss:Type="String">ソリン・マルコフ</Data></Cell>
     <Cell><Data ss:Type="String">Sorin Markov</Data></Cell>
-    <Cell><Data ss:Type="String">Sorin Markov</Data></Cell>
-    <Cell><Data ss:Type="String">Sorin Markov</Data></Cell>
-    <Cell><Data ss:Type="String">Sorin Markov</Data></Cell>
+    <Cell><Data ss:Type="String">Сорин Марков</Data></Cell>
     <Cell><Data ss:Type="String">Sorin Markov</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
     <Cell><Data ss:Type="String">PLAYER_NAME_D12TEZZ</Data></Cell>
     <Cell ss:Index="3"><Data ss:Type="String">Tezzeret the Seeker</Data></Cell>
+    <Cell><Data ss:Type="String">Tezzeret le Chercheur</Data></Cell>
+    <Cell><Data ss:Type="String">Tezzeret El Buscador</Data></Cell>
+    <Cell><Data ss:Type="String">Tezzeret der Sucher</Data></Cell>
+    <Cell><Data ss:Type="String">Tezzeret il Cercatore</Data></Cell>
+    <Cell><Data ss:Type="String">求道者テゼレット</Data></Cell>
     <Cell><Data ss:Type="String">Tezzeret the Seeker</Data></Cell>
-    <Cell><Data ss:Type="String">Tezzeret the Seeker</Data></Cell>
-    <Cell><Data ss:Type="String">Tezzeret the Seeker</Data></Cell>
-    <Cell><Data ss:Type="String">Tezzeret the Seeker</Data></Cell>
-    <Cell><Data ss:Type="String">Tezzeret the Seeker</Data></Cell>
-    <Cell><Data ss:Type="String">Tezzeret the Seeker</Data></Cell>
-    <Cell><Data ss:Type="String">Tezzeret the Seeker</Data></Cell>
-    <Cell><Data ss:Type="String">Tezzeret the Seeker</Data></Cell>
-    <Cell><Data ss:Type="String">Tezzeret the Seeker</Data></Cell>
+    <Cell><Data ss:Type="String">Теззерет Искатель</Data></Cell>
+    <Cell><Data ss:Type="String">Tezzeret, o Perseguidor</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
     <Cell><Data ss:Type="String">PLAYER_NAME_D13GNS</Data></Cell>
     <Cell ss:Index="3"><Data ss:Type="String">Genesis</Data></Cell>
+    <Cell><Data ss:Type="String">La Genèse</Data></Cell>
+    <Cell><Data ss:Type="String">Génesis</Data></Cell>
+    <Cell><Data ss:Type="String">Die Entstehung</Data></Cell>
+    <Cell><Data ss:Type="String">La Genesi</Data></Cell>
     <Cell><Data ss:Type="String">Genesis</Data></Cell>
     <Cell><Data ss:Type="String">Genesis</Data></Cell>
     <Cell><Data ss:Type="String">Genesis</Data></Cell>
-    <Cell><Data ss:Type="String">Genesis</Data></Cell>
-    <Cell><Data ss:Type="String">Genesis</Data></Cell>
-    <Cell><Data ss:Type="String">Genesis</Data></Cell>
-    <Cell><Data ss:Type="String">Genesis</Data></Cell>
-    <Cell><Data ss:Type="String">Genesis</Data></Cell>
-    <Cell><Data ss:Type="String">Genesis</Data></Cell>
+    <Cell><Data ss:Type="String">Gênese</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
     <Cell><Data ss:Type="String">PLAYER_NAME_D13GRISEL</Data></Cell>
@@ -1372,32 +1319,29 @@
     <Cell><Data ss:Type="String">Griselbrand</Data></Cell>
     <Cell><Data ss:Type="String">Griselbrand</Data></Cell>
     <Cell><Data ss:Type="String">Griselbrand</Data></Cell>
+    <Cell><Data ss:Type="String">グリセルブランド</Data></Cell>
     <Cell><Data ss:Type="String">Griselbrand</Data></Cell>
-    <Cell><Data ss:Type="String">Griselbrand</Data></Cell>
-    <Cell><Data ss:Type="String">Griselbrand</Data></Cell>
-    <Cell><Data ss:Type="String">Griselbrand</Data></Cell>
+    <Cell><Data ss:Type="String">Гризельбранд</Data></Cell>
     <Cell><Data ss:Type="String">Griselbrand</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
     <Cell><Data ss:Type="String">PLAYER_NAME_HYPNO</Data></Cell>
     <Cell ss:Index="3"><Data ss:Type="String">Ob Nixilis, the Fallen</Data></Cell>
-    <Cell><Data ss:Type="String">Ob Nixilis, the Fallen</Data></Cell>
-    <Cell><Data ss:Type="String">Ob Nixilis, the Fallen</Data></Cell>
-    <Cell><Data ss:Type="String">Ob Nixilis, the Fallen</Data></Cell>
-    <Cell><Data ss:Type="String">Ob Nixilis, the Fallen</Data></Cell>
-    <Cell><Data ss:Type="String">Ob Nixilis, the Fallen</Data></Cell>
-    <Cell><Data ss:Type="String">Ob Nixilis, the Fallen</Data></Cell>
-    <Cell><Data ss:Type="String">Ob Nixilis, the Fallen</Data></Cell>
-    <Cell><Data ss:Type="String">Ob Nixilis, the Fallen</Data></Cell>
-    <Cell><Data ss:Type="String">Ob Nixilis, the Fallen</Data></Cell>
+    <Cell><Data ss:Type="String">Ob Nixilis, le Déchu</Data></Cell>
+    <Cell><Data ss:Type="String">Ob Nixilis, el caído</Data></Cell>
+    <Cell><Data ss:Type="String">Ob Nixilis, der Gefallene</Data></Cell>
+    <Cell><Data ss:Type="String">Ob Nixilis, il Caduto</Data></Cell>
+    <Cell><Data ss:Type="String">堕ちたる者、オブ・ニクシリス</Data></Cell>
+    <Cell><Data ss:Type="String">Ob Nixilis, le Déchu</Data></Cell>
+    <Cell><Data ss:Type="String">Об-Никсилис, Падший</Data></Cell>
+    <Cell><Data ss:Type="String">Ob Nixilis, o Caído</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
     <Cell><Data ss:Type="String">PLAYER_NAME_KARNSILVER</Data></Cell>
     <Cell ss:Index="3"><Data ss:Type="String">Karn, Silver Golem</Data></Cell>
     <Cell><Data ss:Type="String">Karn, Silver Golem</Data></Cell>
     <Cell><Data ss:Type="String">Karn, Silver Golem</Data></Cell>
-    <Cell><Data ss:Type="String">Karn, Silver Golem</Data></Cell>
-    <Cell><Data ss:Type="String">Karn, Silver Golem</Data></Cell>
+    <Cell><Data ss:Type="String">Karn der Silbergolem</Data></Cell>
     <Cell><Data ss:Type="String">Karn, Silver Golem</Data></Cell>
     <Cell><Data ss:Type="String">Karn, Silver Golem</Data></Cell>
     <Cell><Data ss:Type="String">Karn, Silver Golem</Data></Cell>
@@ -1406,42 +1350,39 @@
    </Row>
    <Row ss:AutoFitHeight="0">
     <Cell><Data ss:Type="String">PLAYER_NAME_KOTH_OLD</Data></Cell>
-    <Cell ss:Index="3"><Data ss:Type="String">Koth the Hammer</Data></Cell>
-    <Cell><Data ss:Type="String">Koth the Hammer</Data></Cell>
-    <Cell><Data ss:Type="String">Koth the Hammer</Data></Cell>
-    <Cell><Data ss:Type="String">Koth the Hammer</Data></Cell>
-    <Cell><Data ss:Type="String">Koth the Hammer</Data></Cell>
-    <Cell><Data ss:Type="String">Koth the Hammer</Data></Cell>
-    <Cell><Data ss:Type="String">Koth the Hammer</Data></Cell>
-    <Cell><Data ss:Type="String">Koth the Hammer</Data></Cell>
-    <Cell><Data ss:Type="String">Koth the Hammer</Data></Cell>
-    <Cell><Data ss:Type="String">Koth the Hammer</Data></Cell>
+    <Cell ss:Index="3"><Data ss:Type="String">Koth of the Hammer</Data></Cell>
+    <Cell><Data ss:Type="String">Koth du Marteau</Data></Cell>
+    <Cell><Data ss:Type="String">Koth del Martillo</Data></Cell>
+    <Cell><Data ss:Type="String">Koth vom Hammerclan</Data></Cell>
+    <Cell><Data ss:Type="String">Koth del Martello</Data></Cell>
+    <Cell><Data ss:Type="String">槌のコス</Data></Cell>
+    <Cell><Data ss:Type="String">Koth of the Hammer</Data></Cell>
+    <Cell><Data ss:Type="String">Кос из Племени Молота</Data></Cell>
+    <Cell><Data ss:Type="String">Koth do Martelo</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
     <Cell><Data ss:Type="String">PLAYER_NAME_MERF</Data></Cell>
     <Cell ss:Index="3"><Data ss:Type="String">Merfolk Soverign</Data></Cell>
+    <Cell><Data ss:Type="String">Souveraine ondine</Data></Cell>
+    <Cell><Data ss:Type="String">Tritón soberano</Data></Cell>
+    <Cell><Data ss:Type="String">Meervolk-Souverän</Data></Cell>
+    <Cell><Data ss:Type="String">Sovrana dei Tritoni</Data></Cell>
+    <Cell><Data ss:Type="String">Sovrana dei Tritoni</Data></Cell>
     <Cell><Data ss:Type="String">Merfolk Soverign</Data></Cell>
-    <Cell><Data ss:Type="String">Merfolk Soverign</Data></Cell>
-    <Cell><Data ss:Type="String">Merfolk Soverign</Data></Cell>
-    <Cell><Data ss:Type="String">Merfolk Soverign</Data></Cell>
-    <Cell><Data ss:Type="String">Merfolk Soverign</Data></Cell>
-    <Cell><Data ss:Type="String">Merfolk Soverign</Data></Cell>
-    <Cell><Data ss:Type="String">Merfolk Soverign</Data></Cell>
-    <Cell><Data ss:Type="String">Merfolk Soverign</Data></Cell>
-    <Cell><Data ss:Type="String">Merfolk Soverign</Data></Cell>
+    <Cell><Data ss:Type="String">Мерфолк-Владыка</Data></Cell>
+    <Cell><Data ss:Type="String">Tritão Soberano</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
     <Cell><Data ss:Type="String">PLAYER_NAME_MESA</Data></Cell>
     <Cell ss:Index="3"><Data ss:Type="String">Mesa Enchantress</Data></Cell>
+    <Cell><Data ss:Type="String">Enchanteresse de la Mesa</Data></Cell>
+    <Cell><Data ss:Type="String">Encantadora de la meseta</Data></Cell>
+    <Cell><Data ss:Type="String">Tafelberg-Zauberin</Data></Cell>
+    <Cell><Data ss:Type="String">Incantatrice della Mesa</Data></Cell>
+    <Cell><Data ss:Type="String">メサの女魔術師</Data></Cell>
     <Cell><Data ss:Type="String">Mesa Enchantress</Data></Cell>
-    <Cell><Data ss:Type="String">Mesa Enchantress</Data></Cell>
-    <Cell><Data ss:Type="String">Mesa Enchantress</Data></Cell>
-    <Cell><Data ss:Type="String">Mesa Enchantress</Data></Cell>
-    <Cell><Data ss:Type="String">Mesa Enchantress</Data></Cell>
-    <Cell><Data ss:Type="String">Mesa Enchantress</Data></Cell>
-    <Cell><Data ss:Type="String">Mesa Enchantress</Data></Cell>
-    <Cell><Data ss:Type="String">Mesa Enchantress</Data></Cell>
-    <Cell><Data ss:Type="String">Mesa Enchantress</Data></Cell>
+    <Cell><Data ss:Type="String">Горная Чародейка</Data></Cell>
+    <Cell><Data ss:Type="String">Encantadora de Meseta</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
     <Cell><Data ss:Type="String">PLAYER_NAME_NICOL_BOLAS</Data></Cell>
@@ -1458,41 +1399,38 @@
    <Row ss:AutoFitHeight="0">
     <Cell><Data ss:Type="String">PLAYER_NAME_TITANRAMP</Data></Cell>
     <Cell ss:Index="3"><Data ss:Type="String">Vine Trellis</Data></Cell>
+    <Cell><Data ss:Type="String">Treille</Data></Cell>
+    <Cell><Data ss:Type="String">Espaldar</Data></Cell>
+    <Cell><Data ss:Type="String">Rankende Reben</Data></Cell>
+    <Cell><Data ss:Type="String">Tralicci Rampicanti</Data></Cell>
     <Cell><Data ss:Type="String">Vine Trellis</Data></Cell>
     <Cell><Data ss:Type="String">Vine Trellis</Data></Cell>
     <Cell><Data ss:Type="String">Vine Trellis</Data></Cell>
-    <Cell><Data ss:Type="String">Vine Trellis</Data></Cell>
-    <Cell><Data ss:Type="String">Vine Trellis</Data></Cell>
-    <Cell><Data ss:Type="String">Vine Trellis</Data></Cell>
-    <Cell><Data ss:Type="String">Vine Trellis</Data></Cell>
-    <Cell><Data ss:Type="String">Vine Trellis</Data></Cell>
-    <Cell><Data ss:Type="String">Vine Trellis</Data></Cell>
+    <Cell><Data ss:Type="String">Rede de Trepadeiras</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
     <Cell><Data ss:Type="String">PLAYER_NAME_URA</Data></Cell>
     <Cell ss:Index="3"><Data ss:Type="String">Urabrask the Hidden</Data></Cell>
+    <Cell><Data ss:Type="String">Urabrask le Secret</Data></Cell>
+    <Cell><Data ss:Type="String">Úrabrask el Oculto</Data></Cell>
+    <Cell><Data ss:Type="String">Urabrask der Versteckte</Data></Cell>
+    <Cell><Data ss:Type="String">Urabrask il Nascosto</Data></Cell>
+    <Cell><Data ss:Type="String">隠れしウラブラスク</Data></Cell>
     <Cell><Data ss:Type="String">Urabrask the Hidden</Data></Cell>
-    <Cell><Data ss:Type="String">Urabrask the Hidden</Data></Cell>
-    <Cell><Data ss:Type="String">Urabrask the Hidden</Data></Cell>
-    <Cell><Data ss:Type="String">Urabrask the Hidden</Data></Cell>
-    <Cell><Data ss:Type="String">Urabrask the Hidden</Data></Cell>
-    <Cell><Data ss:Type="String">Urabrask the Hidden</Data></Cell>
-    <Cell><Data ss:Type="String">Urabrask the Hidden</Data></Cell>
-    <Cell><Data ss:Type="String">Urabrask the Hidden</Data></Cell>
-    <Cell><Data ss:Type="String">Urabrask the Hidden</Data></Cell>
+    <Cell><Data ss:Type="String">Урабраск Скрывающийся</Data></Cell>
+    <Cell><Data ss:Type="String">Urabrask, o Oculto</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
     <Cell><Data ss:Type="String">PLAYER_NAME_VERDE</Data></Cell>
     <Cell ss:Index="3"><Data ss:Type="String">Verdeloth the Ancient</Data></Cell>
+    <Cell><Data ss:Type="String">Verdeloss l'ancien</Data></Cell>
+    <Cell><Data ss:Type="String">Verdeloth el antiguo</Data></Cell>
+    <Cell><Data ss:Type="String">Verdeloth der Uralte</Data></Cell>
+    <Cell><Data ss:Type="String">Verdeloth l'Antico</Data></Cell>
+    <Cell><Data ss:Type="String">古木のヴァーデロス</Data></Cell>
     <Cell><Data ss:Type="String">Verdeloth the Ancient</Data></Cell>
-    <Cell><Data ss:Type="String">Verdeloth the Ancient</Data></Cell>
-    <Cell><Data ss:Type="String">Verdeloth the Ancient</Data></Cell>
-    <Cell><Data ss:Type="String">Verdeloth the Ancient</Data></Cell>
-    <Cell><Data ss:Type="String">Verdeloth the Ancient</Data></Cell>
-    <Cell><Data ss:Type="String">Verdeloth the Ancient</Data></Cell>
-    <Cell><Data ss:Type="String">Verdeloth the Ancient</Data></Cell>
-    <Cell><Data ss:Type="String">Verdeloth the Ancient</Data></Cell>
-    <Cell><Data ss:Type="String">Verdeloth the Ancient</Data></Cell>
+    <Cell><Data ss:Type="String">Древний Верделот</Data></Cell>
+    <Cell><Data ss:Type="String">Verdeloth, o Antigo</Data></Cell>
    </Row>
   </Table>
   <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
