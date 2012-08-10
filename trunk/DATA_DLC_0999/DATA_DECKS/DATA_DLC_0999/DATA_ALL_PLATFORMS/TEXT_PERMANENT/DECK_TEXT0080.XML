@@ -1432,6 +1432,30 @@
     <Cell><Data ss:Type="String">Древний Верделот</Data></Cell>
     <Cell><Data ss:Type="String">Verdeloth, o Antigo</Data></Cell>
    </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">PLAYER_NAME_STONEFORGE_MYSTIC</Data></Cell>
+    <Cell ss:Index="3"><Data ss:Type="String">Stoneforge Mystic</Data></Cell>
+    <Cell><Data ss:Type="String">Mystique forgepierre</Data></Cell>
+    <Cell><Data ss:Type="String">Mística fragua de piedra</Data></Cell>
+    <Cell><Data ss:Type="String">Steinschmelz-Mystiker</Data></Cell>
+    <Cell><Data ss:Type="String">Mistica Forgiapietra</Data></Cell>
+    <Cell ss:Index="9"><Data ss:Type="String">石鍛冶の神秘家</Data></Cell>
+    <Cell><Data ss:Type="String">Stoneforge Mystic</Data></Cell>
+    <Cell><Data ss:Type="String">Мистик-Кователь Камней</Data></Cell>
+    <Cell><Data ss:Type="String">Místico Litoforjador</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Z_DECK_QUEST</Data></Cell>
+    <Cell ss:Index="3"><Data ss:Type="String">Quest for Metal</Data></Cell>
+    <Cell><Data ss:Type="String">Quête du Métal</Data></Cell>
+    <Cell><Data ss:Type="String">Quest for Metal</Data></Cell>
+    <Cell><Data ss:Type="String">Quest for Metal</Data></Cell>
+    <Cell><Data ss:Type="String">Quest for Metal</Data></Cell>
+    <Cell ss:Index="9"><Data ss:Type="String">Quest for Metal</Data></Cell>
+    <Cell><Data ss:Type="String">Quest for Metal</Data></Cell>
+    <Cell><Data ss:Type="String">Quest for Metal</Data></Cell>
+    <Cell><Data ss:Type="String">Quest for Metal</Data></Cell>
+   </Row>
   </Table>
   <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
    <PageSetup>
