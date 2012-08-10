@@ -3,53 +3,53 @@
   <FILENAME text="REGRESS_888193603" />
   <CARDNAME text="REGRESS" />
   <TITLE>
-     <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Regress]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Regress]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Regress]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Regress]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Regress]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[Regress]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[Regress]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Regress]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Regress]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Regress]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Regredire]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Zurückbildung]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Régression]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Regresión]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[逆行]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[Regress]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Регресс]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Regredir]]></LOCALISED_TEXT>
   </TITLE>
   <MULTIVERSEID value="888193603" />
   <ARTID value="888193603" />
   <ARTIST name="Izzy" />
   <CASTING_COST cost="{2}{U}" />
   <FLAVOURTEXT>
-     <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[“Never look too deep, where the waters turn dark. What the sea has hidden there may not stay down forever.”
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA["Never look too deep, where the waters turn dark. What the sea has hidden there may not stay down forever."
 —Jaby, Silundi Sea nomad]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[“Never look too deep, where the waters turn dark. What the sea has hidden there may not stay down forever.”
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA["Non guardare mai troppo in profondità, quando le acque si intorbidano. Ciò che il mare nasconde in quel punto potrebbe non rimanere sott'acqua."
+—Jaby, nomade del Mar Silundi]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[„Schau nicht zu tief, dort, wo das Wasser dunkel wird. Was das Meer dort verborgen hat, muss nicht für immer dort bleiben."
+—Jaby, Nomade vom Silundimeer]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[« Ne regarde jamais trop en profondeur, là où les eaux deviennent noires. Ce que la mer cache pourrait ne pas y demeurer englouti pour toujours. »
+—Jaby, nomade de la mer de Silundi]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA["Nunca mires hacia las profundidades, donde el agua se vuelve oscura. Lo que el mar tiene escondido puede no quedarse allí para siempre."
+—Jaby, nómada del Mar Silundi]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[「水が暗くなってるとこじゃ、あんまり深みを見すぎるな。 底に隠れてるものが、ずっとそこにいるとは限らないぞ。」
+――シルンディ海の遊牧民、ジャビー]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA["Never look too deep, where the waters turn dark. What the sea has hidden there may not stay down forever."
 —Jaby, Silundi Sea nomad]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[“Never look too deep, where the waters turn dark. What the sea has hidden there may not stay down forever.”
-—Jaby, Silundi Sea nomad]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[“Never look too deep, where the waters turn dark. What the sea has hidden there may not stay down forever.”
-—Jaby, Silundi Sea nomad]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[“Never look too deep, where the waters turn dark. What the sea has hidden there may not stay down forever.”
-—Jaby, Silundi Sea nomad]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[“Never look too deep, where the waters turn dark. What the sea has hidden there may not stay down forever.”
-—Jaby, Silundi Sea nomad]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[“Never look too deep, where the waters turn dark. What the sea has hidden there may not stay down forever.”
-—Jaby, Silundi Sea nomad]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[“Never look too deep, where the waters turn dark. What the sea has hidden there may not stay down forever.”
-—Jaby, Silundi Sea nomad]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[“Never look too deep, where the waters turn dark. What the sea has hidden there may not stay down forever.”
-—Jaby, Silundi Sea nomad]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[«Никогда не смотри слишком глубоко, где воды становятся черными. То, что спрятало море, совсем не обязательно останется там навсегда».
+— Джаби, кочевник Силундийского моря]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA["Nunca olhe muito fundo onde as águas escurecem. O que o mar lá escondeu pode não permanecer no fundo para sempre."
+— Jaby, nômade do Mar de Silundi]]></LOCALISED_TEXT>
   </FLAVOURTEXT>
   <TYPE metaname="Instant" />
   <EXPANSION value="DPG" />
   <RARITY metaname="C" />
   <SPELL_ABILITY dangerous="1" filter_zone="ZONE_IN_PLAY">
-     <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Return target permanent to its owner’s hand.]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Return target permanent to its owner’s hand.]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Return target permanent to its owner’s hand.]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Return target permanent to its owner’s hand.]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Return target permanent to its owner’s hand.]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[Return target permanent to its owner’s hand.]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[Return target permanent to its owner’s hand.]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Return target permanent to its owner’s hand.]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Return target permanent to its owner’s hand.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Return target permanent to its owner's hand.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Fai tornare un permanente bersaglio in mano al suo proprietario.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Bringe eine bleibende Karte deiner Wahl auf die Hand ihres Besitzers zurück.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Renvoyez le permanent ciblé dans la main de son propriétaire.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Regresa el permanente objetivo a la mano de su propietario.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[パーマネント１つを対象とし、それをオーナーの手札に戻す。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[Return target permanent to its owner's hand.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Верните целевой перманент в руку его владельца.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Devolva a permanente alvo para a mão de seu dono.]]></LOCALISED_TEXT>
     <TARGET_DEFINITION id="0">
     local filter = Object():GetFilter()
     filter:Clear()

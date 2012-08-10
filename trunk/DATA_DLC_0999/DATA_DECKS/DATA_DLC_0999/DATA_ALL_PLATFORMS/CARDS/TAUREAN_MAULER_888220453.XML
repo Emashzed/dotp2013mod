@@ -3,30 +3,30 @@
   <FILENAME text="TAUREAN_MAULER_888220453" />
   <CARDNAME text="TAUREAN_MAULER" />
   <TITLE>
-     <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Taurean Mauler]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Taurean Mauler]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Taurean Mauler]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Taurean Mauler]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Taurean Mauler]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[Taurean Mauler]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[Taurean Mauler]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Taurean Mauler]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Taurean Mauler]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Taurean Mauler]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Mazzuolatore Taurino]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Stierköpfiger Malmer]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Meurtrisseur du taureau]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Lacerador taurino]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[雄牛のやっかいもの]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[Taurean Mauler]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Бык-Мучитель]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Esmagador Taurino]]></LOCALISED_TEXT>
   </TITLE>
   <MULTIVERSEID value="888220453" />
   <ARTID value="888220453" />
   <ARTIST name="Dominick Domingo" />
   <CASTING_COST cost="{2}{R}" />
   <FLAVOURTEXT>
-     <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[The power of a waterfall. The fury of an avalanche. The intellect of a gale-force wind.]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[The power of a waterfall. The fury of an avalanche. The intellect of a gale-force wind.]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[The power of a waterfall. The fury of an avalanche. The intellect of a gale-force wind.]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[The power of a waterfall. The fury of an avalanche. The intellect of a gale-force wind.]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[The power of a waterfall. The fury of an avalanche. The intellect of a gale-force wind.]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[The power of a waterfall. The fury of an avalanche. The intellect of a gale-force wind.]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[The power of a waterfall. The fury of an avalanche. The intellect of a gale-force wind.]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[The power of a waterfall. The fury of an avalanche. The intellect of a gale-force wind.]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[The power of a waterfall. The fury of an avalanche. The intellect of a gale-force wind.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[The power of a waterfall. The fury of an avalanche. The intellect of a gale-force wind.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[La potenza di una cascata. La furia di una valanga. L'astuzia di un uragano.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Die Kraft eines Wasserfalls. Der Zorn einer Lawine. Der Verstand einer steifen Brise.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[La puissance d'une cascade. La fureur d'une avalanche. L'intelligence d'un vent de tempête.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[El poder de una cascada. La furia de una avalancha. El intelecto de un vendaval.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[滝の力強さ。 雪崩の怒り。 強風の知性。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[The power of a waterfall. The fury of an avalanche. The intellect of a gale-force wind.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Сила водопада. Неистовство лавины. Быстрота ума штормового ветра.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[O poder de uma cachoeira. A fúria de uma avalanche. O intelecto de uma borrasca.]]></LOCALISED_TEXT>
   </FLAVOURTEXT>
   <TYPE metaname="Creature" />
   <SUB_TYPE metaname="Shapeshifter" order_de-DE="0" order_es-ES="0" order_fr-FR="0" order_it-IT="0" order_jp-JA="0" order_ko-KR="0" order_pt-BR="0" order_ru-RU="0" />
@@ -35,30 +35,30 @@
   <POWER value="2" />
   <TOUGHNESS value="2" />
   <STATIC_ABILITY>
-     <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Changeling |(This card is every creature type at all times.)|]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Changeling |(This card is every creature type at all times.)|]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Changeling |(This card is every creature type at all times.)|]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Changeling |(This card is every creature type at all times.)|]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Changeling |(This card is every creature type at all times.)|]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[Changeling |(This card is every creature type at all times.)|]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[Changeling |(This card is every creature type at all times.)|]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Changeling |(This card is every creature type at all times.)|]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Changeling |(This card is every creature type at all times.)|]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Changeling (This card is every creature type at all times.)]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Cangiante (Questa carta ha tutti i tipi di creatura in ogni momento.)]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Wandelwicht (Diese Karte hat zu jedem Zeitpunkt alle Kreaturentypen.)]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Changelin (Cette carte a tous les types de créature à tout moment.)]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Cambiaformas. (Esta carta es de todos los tipos de criatura en todo momento.)]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[多相 （このカードは常にすべてのクリーチャー・タイプである。）]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[Changeling (This card is every creature type at all times.)]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Перевертыш (Эта карта всегда обладает всеми типами существ.)]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Morfolóide (Este card é de todos os tipos de criatura sempre.)]]></LOCALISED_TEXT>
     <CONTINUOUS_ACTION layer="6">
     local characteristics = Object():GetCurrentCharacteristics()
     characteristics:Characteristic_Set( CHARACTERISTIC_CHANGELING, 1 )
     </CONTINUOUS_ACTION>
   </STATIC_ABILITY>
   <TRIGGERED_ABILITY filter_zone="ZONE_IN_PLAY">
-     <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Whenever an opponent casts a spell, you may put a +1/+1 counter on Taurean Mauler.]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Whenever an opponent casts a spell, you may put a +1/+1 counter on Taurean Mauler.]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Whenever an opponent casts a spell, you may put a +1/+1 counter on Taurean Mauler.]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Whenever an opponent casts a spell, you may put a +1/+1 counter on Taurean Mauler.]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Whenever an opponent casts a spell, you may put a +1/+1 counter on Taurean Mauler.]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[Whenever an opponent casts a spell, you may put a +1/+1 counter on Taurean Mauler.]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[Whenever an opponent casts a spell, you may put a +1/+1 counter on Taurean Mauler.]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Whenever an opponent casts a spell, you may put a +1/+1 counter on Taurean Mauler.]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Whenever an opponent casts a spell, you may put a +1/+1 counter on Taurean Mauler.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Whenever an opponent casts a spell, you may put a +1/+1 counter on Taurean Mauler.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Ogniqualvolta un avversario gioca una magia, puoi mettere un segnalino +1/+1 sul Mazzuolatore Taurino.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Immer wenn ein Gegner einen Zauberspruch spielt, kannst du eine +1/+1 Marke auf den Stierköpfigen Malmer legen.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[À chaque fois qu'un adversaire joue un sort, vous pouvez mettre un marqueur +1/+1 sur le Meurtrisseur du taureau.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Siempre que un oponente juegue un hechizo, puedes poner un contador +1/+1 sobre el Lacerador taurino.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[いずれかの対戦相手がいずれかの呪文をプレイするたび、あなたは雄牛のやっかいものの上に＋１/＋１カウンターを１個置いてもよい。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[Whenever an opponent casts a spell, you may put a +1/+1 counter on Taurean Mauler.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Каждый раз, когда оппонент разыгрывает заклинание, вы можете положить один жетон +1/+1 на Быка-Мучителя.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Toda vez que um oponente joga uma mágica, você pode colocar um marcador +1/+1 sobre Esmagador Taurino.]]></LOCALISED_TEXT>
 	<TRIGGER value="SPELL_PLAYED">
     return TriggerPlayer():GetTeam() ~= EffectController():GetTeam()
     </TRIGGER>

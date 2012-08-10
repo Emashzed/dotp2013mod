@@ -3,30 +3,30 @@
   <FILENAME text="PULSE_TRACKER_888197154" />
   <CARDNAME text="PULSE_TRACKER" />
   <TITLE>
-     <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Pulse Tracker]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Pulse Tracker]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Pulse Tracker]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Pulse Tracker]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Pulse Tracker]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[Pulse Tracker]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[Pulse Tracker]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Pulse Tracker]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Pulse Tracker]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Pulse Tracker]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Cacciatore di Battiti]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Pulssucher]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Traqueur de pouls]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Rastreador de pulso]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[鼓動の追跡者]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[Pulse Tracker]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Охотник за Пульсом]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Rastreador de Pulso]]></LOCALISED_TEXT>
   </TITLE>
   <MULTIVERSEID value="888197154" />
   <ARTID value="888197154" />
   <ARTIST name="Andrew Robinson" />
   <CASTING_COST cost="{B}" />
   <FLAVOURTEXT>
-     <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Pulse trackers terrorize adventurers, driving them through the jungle toward certain death at the gates of Malakir.]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Pulse trackers terrorize adventurers, driving them through the jungle toward certain death at the gates of Malakir.]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Pulse trackers terrorize adventurers, driving them through the jungle toward certain death at the gates of Malakir.]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Pulse trackers terrorize adventurers, driving them through the jungle toward certain death at the gates of Malakir.]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Pulse trackers terrorize adventurers, driving them through the jungle toward certain death at the gates of Malakir.]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[Pulse trackers terrorize adventurers, driving them through the jungle toward certain death at the gates of Malakir.]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[Pulse trackers terrorize adventurers, driving them through the jungle toward certain death at the gates of Malakir.]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Pulse trackers terrorize adventurers, driving them through the jungle toward certain death at the gates of Malakir.]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Pulse trackers terrorize adventurers, driving them through the jungle toward certain death at the gates of Malakir.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Pulse trackers terrorize adventurers, driving them through the jungle toward certain death at the gates of Malakir.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[I cacciatori di battiti terrorizzano gli avventurieri, conducendoli attraverso la giungla verso morte certa ai cancelli di Malakir.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Pulssucher terrorisieren Abenteurer und treiben sie durch den Dschungel in den sicheren Tod vor den Toren von Malakir.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Les traqueurs de pouls terrorisent les aventuriers en les rabattant dans la jungle vers une mort certaine aux portes de Malakir.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Los rastreadores de pulso aterrorizan a los aventureros, llevándolos por la selva hacia una muerte segura en las puertas de Malakir.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[鼓動の追跡者は冒険者を脅かし、彼らを密林の中を抜けてマラキールの門の確実な死へと向かうよう追い立てていく。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[Initiates to the lacerators terrorize adventurers, driving them through the jungle toward certain death at the gates of Malakir.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Охотники за пульсом терроризируют искателей приключений, устраивая на них гон через джунгли навстречу верной смерти у ворот Малакира.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Os rastreadores de pulso terrorizam os aventureiros, orientando-os através da selva para a morte certa nos portões de Malakir.]]></LOCALISED_TEXT>
   </FLAVOURTEXT>
   <TYPE metaname="Creature" />
   <SUB_TYPE metaname="Vampire" order_de-DE="0" order_es-ES="0" order_fr-FR="0" order_it-IT="0" order_jp-JA="0" order_ko-KR="0" order_pt-BR="0" order_ru-RU="0" />
@@ -36,15 +36,15 @@
   <POWER value="1" />
   <TOUGHNESS value="1" />
   <TRIGGERED_ABILITY auto_skip="1" dangerous="1" filter_zone="ZONE_IN_PLAY_AND_PLAYERS">
-     <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Whenever Pulse Tracker attacks, each opponent loses 1 life.]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Whenever Pulse Tracker attacks, each opponent loses 1 life.]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Whenever Pulse Tracker attacks, each opponent loses 1 life.]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Whenever Pulse Tracker attacks, each opponent loses 1 life.]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Whenever Pulse Tracker attacks, each opponent loses 1 life.]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[Whenever Pulse Tracker attacks, each opponent loses 1 life.]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[Whenever Pulse Tracker attacks, each opponent loses 1 life.]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Whenever Pulse Tracker attacks, each opponent loses 1 life.]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Whenever Pulse Tracker attacks, each opponent loses 1 life.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Whenever Pulse Tracker attacks, each opponent loses 1 life.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Ogniqualvolta il Cacciatore di Battiti attacca, ogni avversario perde 1 punto vita.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Immer wenn der Pulssucher angreift, verliert jeder Gegner 1 Lebenspunkt.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[À chaque fois que le Traqueur de pouls attaque, chaque adversaire perd 1 point de vie.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Siempre que el Rastreador de pulso ataque, cada oponente pierde 1 vida.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[鼓動の追跡者が攻撃するたび、各対戦相手は１点のライフを失う。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[Whenever Pulse Tracker attacks, each opponent loses 1 life.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Каждый раз когда Охотник за Пульсом атакует, каждый оппонент теряет 1 жизнь.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Toda vez que Rastreador de Pulso ataca, cada oponente perde 1 ponto de vida.]]></LOCALISED_TEXT>
 	<TRIGGER value="ATTACKING" simple_qualifier="self" />
 	<FILTER>
     return Opponents()

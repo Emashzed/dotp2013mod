@@ -3,30 +3,30 @@
   <FILENAME text="VULSHOK_HEARTSTOKER_888194320" />
   <CARDNAME text="VULSHOK_HEARTSTOKER" />
   <TITLE>
-     <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Vulshok Heartstoker]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Vulshok Heartstoker]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Vulshok Heartstoker]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Vulshok Heartstoker]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Vulshok Heartstoker]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[Vulshok Heartstoker]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[Vulshok Heartstoker]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Vulshok Heartstoker]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Vulshok Heartstoker]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Vulshok Heartstoker]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Attizzacuori Vulshok]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Vulshok-Blutanfacher]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Chauffecœur vulshok]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Atizacorazones vúlshok]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[ヴァルショクの心臓焚き]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[Vulshok Heartstoker]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Вулшокский Разжигатель Сердец]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Animofoguista Vulshoque]]></LOCALISED_TEXT>
   </TITLE>
   <MULTIVERSEID value="888194320" />
   <ARTID value="888194320" />
   <ARTIST name="Shelly Wan" />
   <CASTING_COST cost="{2}{R}" />
   <FLAVOURTEXT>
-     <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[He fashions stirring words with as much passion as a smith fashioning a warhammer.]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[He fashions stirring words with as much passion as a smith fashioning a warhammer.]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[He fashions stirring words with as much passion as a smith fashioning a warhammer.]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[He fashions stirring words with as much passion as a smith fashioning a warhammer.]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[He fashions stirring words with as much passion as a smith fashioning a warhammer.]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[He fashions stirring words with as much passion as a smith fashioning a warhammer.]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[He fashions stirring words with as much passion as a smith fashioning a warhammer.]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[He fashions stirring words with as much passion as a smith fashioning a warhammer.]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[He fashions stirring words with as much passion as a smith fashioning a warhammer.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[He fashions stirring words with as much passion as a smith fashioning a warhammer.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Forgia parole emozionanti con la stessa passione con cui un fabbro forgia un martello da guerra.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Er gestaltet aufrührende Reden mit so viel Leidenschaft wie ein Schmied, der sich einen Kriegshammer fertigt.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Il forge des mots d'inspiration avec autant de passion qu'un forgeron fabriquant un marteau de guerre.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Crea palabras conmovedoras con tanta pasión como un herrero al forjar un martillo de guerra.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[鍛冶屋が戦槌を作り出すのと同じ程の情熱で、彼は奮起の言葉を作り出す。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[He fashions stirring words with as much passion as a smith fashioning a warhammer.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Он придает форму разящим словам так же страстно, как кузнец придает форму боевому молоту.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Ele cria palavras comoventes com tanto entusiasmo quanto um ferreiro cria um martelo de guerra.]]></LOCALISED_TEXT>
   </FLAVOURTEXT>
   <TYPE metaname="Creature" />
   <SUB_TYPE metaname="Human" order_de-DE="0" order_es-ES="0" order_fr-FR="0" order_it-IT="0" order_jp-JA="0" order_ko-KR="0" order_pt-BR="0" order_ru-RU="0" />
@@ -36,15 +36,15 @@
   <POWER value="2" />
   <TOUGHNESS value="2" />
   <TRIGGERED_ABILITY auto_skip="1" filter_zone="ZONE_IN_PLAY">
-     <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[When Vulshok Heartstoker enters the battlefield, target creature gets +2/+0 until end of turn.]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[When Vulshok Heartstoker enters the battlefield, target creature gets +2/+0 until end of turn.]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[When Vulshok Heartstoker enters the battlefield, target creature gets +2/+0 until end of turn.]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[When Vulshok Heartstoker enters the battlefield, target creature gets +2/+0 until end of turn.]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[When Vulshok Heartstoker enters the battlefield, target creature gets +2/+0 until end of turn.]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[When Vulshok Heartstoker enters the battlefield, target creature gets +2/+0 until end of turn.]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[When Vulshok Heartstoker enters the battlefield, target creature gets +2/+0 until end of turn.]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[When Vulshok Heartstoker enters the battlefield, target creature gets +2/+0 until end of turn.]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[When Vulshok Heartstoker enters the battlefield, target creature gets +2/+0 until end of turn.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[When Vulshok Heartstoker enters the battlefield, target creature gets +2/+0 until end of turn.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Quando l'Attizzacuori Vulshok entra nel campo di battaglia, una creatura bersaglio prende +2/+0 fino alla fine del turno.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Wenn der Vulshok-Blutanfacher ins Spiel kommt, erhält eine Kreatur deiner Wahl +2/+0 bis zum Ende des Zuges.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Quand le Chauffecœur vulshok arrive sur le champ de bataille, la créature ciblée gagne +2/+0 jusqu'à la fin du tour.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Cuando el Atizacorazones vúlshok entre al campo de batalla, la criatura objetivo obtiene +2/+0 hasta el final del turno.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[ヴァルショクの心臓焚きが戦場に出たとき、クリーチャー１体を対象とする。それはターン終了時まで＋２/＋０の修整を受ける。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[When Vulshok Heartstoker enters the battlefield, target creature gets +2/+0 until end of turn.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Когда Вулшокский Разжигатель Сердец выходит на поле битвы, целевое существо получает +2/+0 до конца хода.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Quando Animofoguista Vulshoque entra no campo de batalha, a criatura alvo recebe +2/+0 até o final do turno.]]></LOCALISED_TEXT>
     <TRIGGER value="ZONECHANGE_END" simple_qualifier="self" to_zone="ZONE_IN_PLAY" />
 	<TARGET_DEFINITION id="0">
     local filter = Object():GetFilter()

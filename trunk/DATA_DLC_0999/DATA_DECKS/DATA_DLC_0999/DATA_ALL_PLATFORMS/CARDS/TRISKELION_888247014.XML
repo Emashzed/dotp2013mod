@@ -3,39 +3,39 @@
   <FILENAME text="TRISKELION_888247014" />
   <CARDNAME text="TRISKELION" />
   <TITLE>
-     <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Triskelion]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Triskelion]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Triskelion]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Triskelion]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Triskelion]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[Triskelion]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[Triskelion]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Triskelion]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Triskelion]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Triskelion]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Triskelion]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Triskelion]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Triskèle]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Trisquelión]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[トリスケリオン]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[Triskelion]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Трискелион]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Tríscele]]></LOCALISED_TEXT>
   </TITLE>
   <MULTIVERSEID value="888247014" />
   <ARTID value="888247014" />
   <ARTIST name="Christopher Moeller" />
   <CASTING_COST cost="{6}" />
   <FLAVOURTEXT>
-     <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[“Why do bad things always come in threes?”
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA["Why do bad things always come in threes?"
 —Gisulf, expedition survivor]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[“Why do bad things always come in threes?”
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA["Perché le cose negative sono sempre triplici?"
+—Gisulf, sopravvissuto della spedizione]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[„Warum kommen schlechte Sachen immer zu dritt?"
+—Gisulf, Expeditionsüberlebender]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[« Et il y en a qui disent que trois, c'est mieux que deux ? »
+—Gisulf, survivant d'expédition]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA["¿Por qué todo lo malo viene de tres en tres?"
+—Gisulf, sobreviviente de expedición]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[「何で悪いことはいつも三つまとめてくるんだろう？」
+――探検の生き残り、ギサルフ]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA["Why do bad things always come in threes?"
 —Gisulf, expedition survivor]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[“Why do bad things always come in threes?”
-—Gisulf, expedition survivor]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[“Why do bad things always come in threes?”
-—Gisulf, expedition survivor]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[“Why do bad things always come in threes?”
-—Gisulf, expedition survivor]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[“Why do bad things always come in threes?”
-—Gisulf, expedition survivor]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[“Why do bad things always come in threes?”
-—Gisulf, expedition survivor]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[“Why do bad things always come in threes?”
-—Gisulf, expedition survivor]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[“Why do bad things always come in threes?”
-—Gisulf, expedition survivor]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[«Почему ни одна беда не приходит одна?»
+— Гизульф, выживший участник экспедиции]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA["Por que as coisas ruins sempre vêm em trio?"
+— Gisulf, sobrevivente de expedição]]></LOCALISED_TEXT>
   </FLAVOURTEXT>
   <TYPE metaname="Artifact" />
   <TYPE metaname="Creature" />
@@ -45,30 +45,30 @@
   <POWER value="1" />
   <TOUGHNESS value="1" />
   <TRIGGERED_ABILITY internal="1" pre_trigger="1" filter_zone="ZONE_IN_PLAY" active_zone="ZONE_TRANSITION">
-     <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Triskelion enters the battlefield with three +1/+1 counters on it.]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Triskelion enters the battlefield with three +1/+1 counters on it.]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Triskelion enters the battlefield with three +1/+1 counters on it.]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Triskelion enters the battlefield with three +1/+1 counters on it.]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Triskelion enters the battlefield with three +1/+1 counters on it.]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[Triskelion enters the battlefield with three +1/+1 counters on it.]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[Triskelion enters the battlefield with three +1/+1 counters on it.]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Triskelion enters the battlefield with three +1/+1 counters on it.]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Triskelion enters the battlefield with three +1/+1 counters on it.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Triskelion enters the battlefield with three +1/+1 counters on it.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Il Triskelion entra nel campo di battaglia con tre segnalini +1/+1.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Das Triskelion kommt mit drei +1/+1-Marken ins Spiel.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Le Triskèle arrive sur le champ de bataille avec trois marqueurs +1/+1 sur lui.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[El Trisquelión entra al campo de batalla con tres contadores +1/+1 sobre él.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[トリスケリオンは、＋１/＋１カウンターが３個置かれた状態で戦場に出る。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[Triskelion enters the battlefield with three +1/+1 counters on it.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Трискелион выходит на поле битвы с тремя жетонами +1/+1 на нем.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Tríscele entra no campo de batalha com três marcadores +1/+1.]]></LOCALISED_TEXT>
     <TRIGGER value="ZONECHANGE_TRANSITION" simple_qualifier="self" to_zone="ZONE_IN_PLAY" />
     <RESOLUTION_TIME_ACTION>
     Object():AddCounters( MTG():PlusOnePlusOneCounters(), 3 )
     </RESOLUTION_TIME_ACTION>
   </TRIGGERED_ABILITY>
   <ACTIVATED_ABILITY LKI_shield_effect_source="1" dangerous="1" filter_zone="ZONE_IN_PLAY">
-     <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Remove a +1/+1 counter from Triskelion: Triskelion deals 1 damage to target creature or player.]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Remove a +1/+1 counter from Triskelion: Triskelion deals 1 damage to target creature or player.]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Remove a +1/+1 counter from Triskelion: Triskelion deals 1 damage to target creature or player.]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Remove a +1/+1 counter from Triskelion: Triskelion deals 1 damage to target creature or player.]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Remove a +1/+1 counter from Triskelion: Triskelion deals 1 damage to target creature or player.]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[Remove a +1/+1 counter from Triskelion: Triskelion deals 1 damage to target creature or player.]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[Remove a +1/+1 counter from Triskelion: Triskelion deals 1 damage to target creature or player.]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Remove a +1/+1 counter from Triskelion: Triskelion deals 1 damage to target creature or player.]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Remove a +1/+1 counter from Triskelion: Triskelion deals 1 damage to target creature or player.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Remove a +1/+1 counter from Triskelion: Triskelion deals 1 damage to target creature or player.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Rimuovi un segnalino +1/+1 dal Triskelion: Il Triskelion infligge 1 danno a una creatura o a un giocatore bersaglio.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Entferne eine +1/+1-Marke vom Triskelion: Das Triskelion fügt einer Kreatur oder einem Spieler deiner Wahl 1 Schadenspunkt zu.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Retirez un marqueur +1/+1 du Triskèle : Le Triskèle inflige une blessure à une cible, créature ou joueur.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Remover un contador +1/+1 del Trisquelión: El Trisquelión hace 1 punto de daño a la criatura o jugador objetivo.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[トリスケリオンから＋１/＋１カウンターを１個取り除く：クリーチャー１体かプレイヤー１人を対象とする。トリスケリオンはそれに１点のダメージを与える。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[Remove a +1/+1 counter from Triskelion: Triskelion deals 1 damage to target creature or player.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Удалите один жетон +1/+1 с Трискелиона: Трискелион наносит 1 повреждение целевому существу или игроку.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Remova um marcador +1/+1 de Tríscele: Tríscele causa 1 ponto de dano à criatura ou ao jogador alvo.]]></LOCALISED_TEXT>
     <COST type="countersself" name="+1/+1" number="-1" />
     <TARGET_DEFINITION id="0">
     local filter = Object():GetFilter()

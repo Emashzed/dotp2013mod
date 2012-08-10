@@ -3,15 +3,15 @@
   <FILENAME text="ROAR_OF_THE_WURM_88829881" />
   <CARDNAME text="ROAR_OF_THE_WURM" />
   <TITLE>
-     <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Roar of the Wurm]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Roar of the Wurm]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Roar of the Wurm]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Roar of the Wurm]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Roar of the Wurm]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[Roar of the Wurm]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[Roar of the Wurm]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Roar of the Wurm]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Roar of the Wurm]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Roar of the Wurm]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Ruggito del Wurm]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Das Toben des Wurms]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Rugissement de la guivre]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Rugido de la sierpe]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[Roar of the Wurm]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[Roar of the Wurm]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Roar of the Wurm]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Rugido do Vorme]]></LOCALISED_TEXT>
   </TITLE>
   <MULTIVERSEID value="88829881" />
   <ARTID value="88829881" />
@@ -22,15 +22,15 @@
   <EXPANSION value="DPG" />
   <RARITY metaname="U" />
   <SPELL_ABILITY>
-     <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Put a 6/6 green Wurm creature token onto the battlefield.]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Put a 6/6 green Wurm creature token onto the battlefield.]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Put a 6/6 green Wurm creature token onto the battlefield.]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Put a 6/6 green Wurm creature token onto the battlefield.]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Put a 6/6 green Wurm creature token onto the battlefield.]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[Put a 6/6 green Wurm creature token onto the battlefield.]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[Put a 6/6 green Wurm creature token onto the battlefield.]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Put a 6/6 green Wurm creature token onto the battlefield.]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Put a 6/6 green Wurm creature token onto the battlefield.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Put a 6/6 green Wurm creature token onto the battlefield.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Metti in gioco una pedina creatura Wurm 6/6 verde.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Bringe einen 6/6 grünen Wurmspielstein ins Spiel.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Mettez en jeu un jeton de créature 6/6 verte Guivre.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Pon en juego una ficha de criatura Sierpe verde 6/6.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[Put a 6/6 green Wurm creature token onto the battlefield.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[Put a 6/6 green Wurm creature token onto the battlefield.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Put a 6/6 green Wurm creature token onto the battlefield.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Coloque em jogo uma ficha de criatura verde 6/6 do tipo Vorme.]]></LOCALISED_TEXT>
 	<RESOLUTION_TIME_ACTION>
     local token_count = 1
     if token_count &gt; 0 then
@@ -39,15 +39,15 @@
     </RESOLUTION_TIME_ACTION>
   </SPELL_ABILITY>
   <UTILITY_ABILITY>
-     <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Flashback {3}{G} |(You may cast this card from your graveyard for its flashback cost. Then exile it.)|]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Flashback {3}{G} |(You may cast this card from your graveyard for its flashback cost. Then exile it.)|]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Flashback {3}{G} |(You may cast this card from your graveyard for its flashback cost. Then exile it.)|]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Flashback {3}{G} |(You may cast this card from your graveyard for its flashback cost. Then exile it.)|]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Flashback {3}{G} |(You may cast this card from your graveyard for its flashback cost. Then exile it.)|]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[Flashback {3}{G} |(You may cast this card from your graveyard for its flashback cost. Then exile it.)|]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[Flashback {3}{G} |(You may cast this card from your graveyard for its flashback cost. Then exile it.)|]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Flashback {3}{G} |(You may cast this card from your graveyard for its flashback cost. Then exile it.)|]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Flashback {3}{G} |(You may cast this card from your graveyard for its flashback cost. Then exile it.)|]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Flashback {3}{G} (You may cast this card from your graveyard for its flashback cost. Then exile it.)]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Flashback {3}{G} (puoi giocare questa carta dal tuo cimitero pagando il suo costo di flashback. Poi rimuovila dal gioco).]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Rückblende {3}{G} (Du kannst diese Karte aus deinem Friedhof für ihre Rückblendekosten spielen. Entferne sie dann ganz aus dem Spiel.)]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Flashback {3}{G} (Vous pouvez jouer cette carte depuis votre cimetière pour son coût de flashback. Retirez-la ensuite de la partie.)]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Retrospectiva {3}{G}. (Puedes jugar esta carta desde tu cementerio pagando su coste de retrospectiva. Luego remuévela del juego.)]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[Flashback {3}{G} (You may cast this card from your graveyard for its flashback cost. Then exile it.)]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[Flashback {3}{G} (You may cast this card from your graveyard for its flashback cost. Then exile it.)]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Flashback {3}{G} (You may cast this card from your graveyard for its flashback cost. Then exile it.)]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Recapitular {3}{G} (Você pode jogar este card de seu cemitério pagando seu custo de recapitulação. Depois remova-o do jogo.)]]></LOCALISED_TEXT>
   </UTILITY_ABILITY>
   <TOKEN_REGISTRATION reservation="1" type="TOKEN_WURM_6_6_888288740" />
   <AI_BASE_SCORE score="300" zone="ZONE_GRAVEYARD" />

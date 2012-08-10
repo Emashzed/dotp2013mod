@@ -3,53 +3,53 @@
   <FILENAME text="SPITTING_EARTH_888242739" />
   <CARDNAME text="SPITTING_EARTH" />
   <TITLE>
-     <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Spitting Earth]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Spitting Earth]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Spitting Earth]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Spitting Earth]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Spitting Earth]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[Spitting Earth]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[Spitting Earth]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Spitting Earth]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Spitting Earth]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Spitting Earth]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Fulmine Tellurico]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Kochende Erde]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Expectoration tellurique]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Sacudida telúrica]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[大地の飛礫]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[Spitting Earth]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Земляные Всплески]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Golfada de Terra]]></LOCALISED_TEXT>
   </TITLE>
   <MULTIVERSEID value="888242739" />
   <ARTID value="888242739" />
   <ARTIST name="Michael Koelsch" />
   <CASTING_COST cost="{1}{R}" />
   <FLAVOURTEXT>
-     <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[“Within each of you is the strength of a landslide.”
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA["Within each of you is the strength of a landslide."
 —Kumano, to his pupils]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[“Within each of you is the strength of a landslide.”
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA["Ognuno di voi ha dentro la forza di una frana."
+—Kumano, ai suoi allievi]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[„In jedem von euch steckt die Gewalt eines Erdrutsches."
+—Kumano zu seinen Schülern]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[« En chacun de vous réside la force d'un glissement de terrain. »
+—Kumano, à ses élèves]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA["Dentro de cada uno de ustedes está la fuerza de una avalancha."
+—Kumano, a sus alumnos]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[各々の中に山崩れの力有り。
+――熊野から学徒へ。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA["Within each of you is the strength of a landslide."
 —Kumano, to his pupils]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[“Within each of you is the strength of a landslide.”
-—Kumano, to his pupils]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[“Within each of you is the strength of a landslide.”
-—Kumano, to his pupils]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[“Within each of you is the strength of a landslide.”
-—Kumano, to his pupils]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[“Within each of you is the strength of a landslide.”
-—Kumano, to his pupils]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[“Within each of you is the strength of a landslide.”
-—Kumano, to his pupils]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[“Within each of you is the strength of a landslide.”
-—Kumano, to his pupils]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[“Within each of you is the strength of a landslide.”
-—Kumano, to his pupils]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA["В каждом из вас скрыта сила оползня".
+— Обращение Кумано к своим ученикам]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA["Dentro de cada um de vocês está o poder de um deslizamento de terra."
+— Kumano, a seus alunos]]></LOCALISED_TEXT>
   </FLAVOURTEXT>
   <TYPE metaname="Sorcery" />
   <EXPANSION value="DPG" />
   <RARITY metaname="C" />
   <SPELL_ABILITY dangerous="1" filter_zone="ZONE_IN_PLAY">
-     <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Spitting Earth deals damage to target creature equal to the number of Mountains you control.]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Spitting Earth deals damage to target creature equal to the number of Mountains you control.]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Spitting Earth deals damage to target creature equal to the number of Mountains you control.]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Spitting Earth deals damage to target creature equal to the number of Mountains you control.]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Spitting Earth deals damage to target creature equal to the number of Mountains you control.]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[Spitting Earth deals damage to target creature equal to the number of Mountains you control.]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[Spitting Earth deals damage to target creature equal to the number of Mountains you control.]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Spitting Earth deals damage to target creature equal to the number of Mountains you control.]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Spitting Earth deals damage to target creature equal to the number of Mountains you control.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Spitting Earth deals damage to target creature equal to the number of Mountains you control.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Il Fulmine Tellurico infligge danno a una creatura bersaglio pari al numero di Montagne che controlli.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Kochende Erde fügt einer Kreatur deiner Wahl Schadenspunkte in Höhe der Anzahl der Gebirge, die du kontrollierst, zu.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[L'Expectoration tellurique inflige à la créature ciblée un nombre de blessures égal au nombre de montagnes que vous contrôlez.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[La Sacudida telúrica hace una cantidad de daño igual al número de montañas que controles a la criatura objetivo.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[クリーチャー１体を対象とする。大地の飛礫はそれに、あなたがコントロールする山の総数に等しい点数のダメージを与える。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[Spitting Earth deals damage to target creature equal to the number of Mountains you control.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Земляные Всплески наносят целевому существу повреждения, равные количеству Гор под вашим контролем.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Golfada de Terra causa à criatura alvo uma quantidade de dano igual ao número de Montanhas que você controla.]]></LOCALISED_TEXT>
     <TARGET_DEFINITION id="0">
     local filter = Object():GetFilter()
     filter:Clear()

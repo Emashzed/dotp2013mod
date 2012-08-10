@@ -3,53 +3,53 @@
   <FILENAME text="PANDEMONIUM_8886126" />
   <CARDNAME text="PANDEMONIUM" />
   <TITLE>
-     <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Pandemonium]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Pandemonium]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Pandemonium]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Pandemonium]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Pandemonium]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[Pandemonium]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[Pandemonium]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Pandemonium]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Pandemonium]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Pandemonium]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Pandemonio]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Pandämonium]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Pandémonium]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Pandemónium]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[伏魔殿]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[Pandemonium]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Столпотворение]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Pandemônio]]></LOCALISED_TEXT>
   </TITLE>
   <MULTIVERSEID value="8886126" />
   <ARTID value="8886126" />
   <ARTIST name="Pete Venters" />
   <CASTING_COST cost="{3}{R}" />
   <FLAVOURTEXT>
-     <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[“If we cannot live proudly, we die so”
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA["If we cannot live proudly, we die so!"
 —Eladamri, Lord of Leaves]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[“If we cannot live proudly, we die so”
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA["Se non possiamo vivere con orgoglio, almeno moriremo fieramente!"
+—Eladamri, Signore delle Foglie]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[„Wenn wir schon nicht stolz leben können, werden wir zumindest so sterben!"
+—Eladamri, Herr des Waldes]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[« Si nous ne pouvons vivre avec fierté, nous mourons avec fierté ! »
+—Eladämri, seigneur des frondaisons]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA["¡Si no podemos vivir orgullosamente, sí moriremos de esa manera!"
+—Eladamri, señor de las frondas]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[誇りを持って生きることができないなら、誇りを持って死ぬのだ！
+――葉の王、エラダムリー]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA["If we cannot live proudly, we die so!"
 —Eladamri, Lord of Leaves]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[“If we cannot live proudly, we die so”
-—Eladamri, Lord of Leaves]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[“If we cannot live proudly, we die so”
-—Eladamri, Lord of Leaves]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[“If we cannot live proudly, we die so”
-—Eladamri, Lord of Leaves]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[“If we cannot live proudly, we die so”
-—Eladamri, Lord of Leaves]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[“If we cannot live proudly, we die so”
-—Eladamri, Lord of Leaves]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[“If we cannot live proudly, we die so”
-—Eladamri, Lord of Leaves]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[“If we cannot live proudly, we die so”
-—Eladamri, Lord of Leaves]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[«Если мы не можем гордо жить, то мы гордо умрем!» 
+— Еладамари, Лорд Листвы]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA["Se não pudermos viver com orgulho, morreremos assim!"
+— Eladamri, Senhor das Folhas]]></LOCALISED_TEXT>
   </FLAVOURTEXT>
   <TYPE metaname="Enchantment" />
   <EXPANSION value="DPG" />
   <RARITY metaname="R" />
   <TRIGGERED_ABILITY dangerous="1" filter_zone="ZONE_IN_PLAY">
-     <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Whenever a creature enters the battlefield, that creature’s controller may have it deal damage equal to its power to target creature or player of his or her choice.]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Whenever a creature enters the battlefield, that creature’s controller may have it deal damage equal to its power to target creature or player of his or her choice.]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Whenever a creature enters the battlefield, that creature’s controller may have it deal damage equal to its power to target creature or player of his or her choice.]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Whenever a creature enters the battlefield, that creature’s controller may have it deal damage equal to its power to target creature or player of his or her choice.]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Whenever a creature enters the battlefield, that creature’s controller may have it deal damage equal to its power to target creature or player of his or her choice.]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[Whenever a creature enters the battlefield, that creature’s controller may have it deal damage equal to its power to target creature or player of his or her choice.]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[Whenever a creature enters the battlefield, that creature’s controller may have it deal damage equal to its power to target creature or player of his or her choice.]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Whenever a creature enters the battlefield, that creature’s controller may have it deal damage equal to its power to target creature or player of his or her choice.]]></LOCALISED_TEXT>
-     <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Whenever a creature enters the battlefield, that creature’s controller may have it deal damage equal to its power to target creature or player of his or her choice.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Whenever a creature enters the battlefield, that creature's controller may have it deal damage equal to its power to target creature or player of his or her choice.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Ogniqualvolta una creatura entra in gioco, il controllore di quella creatura può farle infliggere un ammontare di danni pari alla sua forza a una creatura o a un giocatore bersaglio a sua scelta.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Immer wenn eine Kreatur ins Spiel kommt, kann deren Beherrscher sie einer Kreatur oder einem Spieler seiner Wahl Schadenspunkte in Höhe ihrer Stärke zufügen lassen.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[À chaque fois qu'une créature arrive en jeu, le contrôleur de cette créature peut faire qu'elle inflige un nombre de blessures égal à sa force à une cible, créature ou joueur, de son choix.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Siempre que una criatura entre en juego, el controlador de esa criatura puede hacer que le haga daño igual a su fuerza a la criatura o jugador objetivo de su elección.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[いずれかのクリーチャーが場に出るたび、そのクリーチャーのコントローラーが選んだクリーチャー１体かプレイヤー１人を対象とする。その場に出たクリーチャーのコントローラーは「このクリーチャーは、それに自身のパワーに等しい点数のダメージを与える」ことを選んでもよい。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[Whenever a creature enters the battlefield, that creature's controller may have it deal damage equal to its power to target creature or player of his or her choice.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Когда существо входит в игру, контролирующий его игрок может нанести этим существом повреждения, равные его силе, целевому существу или игроку по своему выбору.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Toda vez que uma criatura entrar em jogo, o controlador daquela criatura poderá fazer com que ela cause dano igual ao seu poder à criatura alvo ou ao jogador alvo à escolha dele.]]></LOCALISED_TEXT>
     <TRIGGER value="ZONECHANGE_END" to_zone="ZONE_IN_PLAY">
 	if (TriggerObject():GetCardType():Test( CARD_TYPE_CREATURE ) ~= 0) then
 	EffectDC():Set_CardPtr(2, TriggerObject())
