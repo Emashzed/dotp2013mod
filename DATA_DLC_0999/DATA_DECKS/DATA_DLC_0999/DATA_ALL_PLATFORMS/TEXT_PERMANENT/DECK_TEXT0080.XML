@@ -1456,6 +1456,30 @@
     <Cell><Data ss:Type="String">Quest for Metal</Data></Cell>
     <Cell><Data ss:Type="String">Quest for Metal</Data></Cell>
    </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">PLAYER_NAME_VALAKUT</Data></Cell>
+    <Cell ss:Index="3"><Data ss:Type="String">Valakut, the Molten Pinnacle</Data></Cell>
+    <Cell><Data ss:Type="String">Valakut, la Cime en fusion</Data></Cell>
+    <Cell><Data ss:Type="String">Valakut, el Pináculo Fundido</Data></Cell>
+    <Cell><Data ss:Type="String">Valakut, die geschmolzene Zinne</Data></Cell>
+    <Cell><Data ss:Type="String">Valakut, il Pinnacolo Fuso</Data></Cell>
+    <Cell ss:Index="9"><Data ss:Type="String">溶鉄の尖峰、ヴァラクート</Data></Cell>
+    <Cell><Data ss:Type="String">Valakut</Data></Cell>
+    <Cell><Data ss:Type="String">Валакут, Расплавленная Вершина</Data></Cell>
+    <Cell><Data ss:Type="String">Valakut, o Pináculo Derretido</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Z_DECK_VALAKUT</Data></Cell>
+    <Cell ss:Index="3"><Data ss:Type="String">Fiery Mountains</Data></Cell>
+    <Cell><Data ss:Type="String">Montagnes Incandescentes</Data></Cell>
+    <Cell><Data ss:Type="String">Fiery Mountains</Data></Cell>
+    <Cell><Data ss:Type="String">Fiery Mountains</Data></Cell>
+    <Cell><Data ss:Type="String">Fiery Mountains</Data></Cell>
+    <Cell ss:Index="9"><Data ss:Type="String">Fiery Mountains</Data></Cell>
+    <Cell><Data ss:Type="String">Fiery Mountains</Data></Cell>
+    <Cell><Data ss:Type="String">Fiery Mountains</Data></Cell>
+    <Cell><Data ss:Type="String">Fiery Mountains</Data></Cell>
+   </Row>
   </Table>
   <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
    <PageSetup>
