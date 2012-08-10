@@ -4,52 +4,52 @@
   <CARDNAME text="TOUCH_OF_THE_ETERNAL" />
   <TITLE>
     <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Touch of the Eternal]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Touch of the Eternal]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Touch of the Eternal]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Touch of the Eternal]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Touch of the Eternal]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[Touch of the Eternal]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[Touch of the Eternal]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Touch of the Eternal]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Touch of the Eternal]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Tocco dell'Eterno]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Berührung der Ewigkeit]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Toucher de l'Éternel]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Toque de lo eterno]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[永遠との接触]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[영원함의 손길]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Прикосновение Вечности]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Toque do Eterno]]></LOCALISED_TEXT>
   </TITLE>
   <MULTIVERSEID value="278197" />
   <ARTID value="278197" />
   <ARTIST name="Christopher Moeller" />
   <CASTING_COST cost="{5}{W}{W}" />
   <FLAVOURTEXT>
-    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[“Time is a vigilant tyrant, but there are those who have broken free of its gaze.”
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA["Time is a vigilant tyrant, but there are those who have broken free of its gaze."
 —Laikas, Erunian monk]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[“Time is a vigilant tyrant, but there are those who have broken free of its gaze.”
-—Laikas, Erunian monk]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[“Time is a vigilant tyrant, but there are those who have broken free of its gaze.”
-—Laikas, Erunian monk]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[“Time is a vigilant tyrant, but there are those who have broken free of its gaze.”
-—Laikas, Erunian monk]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[“Time is a vigilant tyrant, but there are those who have broken free of its gaze.”
-—Laikas, Erunian monk]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[“Time is a vigilant tyrant, but there are those who have broken free of its gaze.”
-—Laikas, Erunian monk]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[“Time is a vigilant tyrant, but there are those who have broken free of its gaze.”
-—Laikas, Erunian monk]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[“Time is a vigilant tyrant, but there are those who have broken free of its gaze.”
-—Laikas, Erunian monk]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[“Time is a vigilant tyrant, but there are those who have broken free of its gaze.”
-—Laikas, Erunian monk]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA["Il tempo è un tiranno vigile, ma ci sono coloro che sono riusciti a liberarsi dal suo sguardo."
+—Laikas, monaco di Erunia]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[„Die Zeit ist ein wachsamer Tyrann, doch einige konnten ihrem Blick entrinnen."
+—Laikas, erunischer Mönch]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[« Le temps est un tyran vigilant, mais certains sont parvenus à se soustraire à son regard. »
+—Laikas, moine érunien]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA["El tiempo es un tirano que todo vigila, pero hay quienes se han liberado de su mirada."
+—Laikas, monje eruniano]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[「『時』は疲れを知らぬ暴君だが、その眼光から自由になった者もいる。」
+――エルニアの僧侶リーカス]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA["시간은 빈틈을 보이지 않는 폭군이지만, 간혹 시간의 그 철저한 감시에서 탈출한 자들도 있다."
+—에루니아 승려 라이카스]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[«Время — бдительный хозяин, но некоторым удалось ускользнуть от его взора».
+— Лайкас, эрунийский монах]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA["O tempo é um tirano vigilante, mas existem aqueles que conseguem escapar de sua vigília."
+— Laikas, monge eruniano]]></LOCALISED_TEXT>
   </FLAVOURTEXT>
   <TYPE metaname="Enchantment" />
   <EXPANSION value="DPG" />
   <RARITY metaname="R" />
   <TRIGGERED_ABILITY filter_zone="ZONE_IN_PLAY">
     <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[At the beginning of your upkeep, count the number of permanents you control. Your life total becomes that number.]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[At the beginning of your upkeep, count the number of permanents you control. Your life total becomes that number.]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[At the beginning of your upkeep, count the number of permanents you control. Your life total becomes that number.]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[At the beginning of your upkeep, count the number of permanents you control. Your life total becomes that number.]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[At the beginning of your upkeep, count the number of permanents you control. Your life total becomes that number.]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[At the beginning of your upkeep, count the number of permanents you control. Your life total becomes that number.]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[At the beginning of your upkeep, count the number of permanents you control. Your life total becomes that number.]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[At the beginning of your upkeep, count the number of permanents you control. Your life total becomes that number.]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[At the beginning of your upkeep, count the number of permanents you control. Your life total becomes that number.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[All'inizio del tuo mantenimento, conta il numero di permanenti che controlli. I tuoi punti vita diventano quel numero.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Zähle zu Beginn deines Versorgungssegments die bleibenden Karten, die du kontrollierst. Dein Lebenspunktestand wird zu dieser Zahl.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Au début de votre entretien, comptez le nombre de permanents que vous contrôlez. Votre total de points de vie devient égal à ce nombre.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Al comienzo de tu mantenimiento, cuenta el número de permanentes que controlas. Tu total de vidas se convierte en ese número.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[あなたのアップキープの開始時に、あなたがコントロールするパーマネントの数を数える。あなたのライフの総量はその数になる。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[당신의 유지단 시작에, 당신이 조종하는 지속물의 개수를 센다. 그 숫자가 당신의 생명 총점이 된다.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[В начале вашего шага поддержки сосчитайте перманенты под вашим контролем. Ваше количество жизней становится равным этому количеству.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[No início de sua manutenção, conte o número de permanentes que você controla. Aquele número se torna seu total de pontos de vida.]]></LOCALISED_TEXT>
 	<RESOLUTION_TIME_ACTION>
 	local player = EffectController()
 	local total = 0  

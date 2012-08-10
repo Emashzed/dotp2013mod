@@ -4,14 +4,14 @@
   <CARDNAME text="SPELLTWINE" />
   <TITLE>
     <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Spelltwine]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Spelltwine]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Spelltwine]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Spelltwine]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Spelltwine]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[Spelltwine]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[Spelltwine]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Spelltwine]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Spelltwine]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Torcimagia]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Zauberwindung]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Entrelacs de sorts]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Entrelazahechizo]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[呪文ねじり]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[주문 엮기]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Переплетение Заклинаний]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Entrelace de Mágicas]]></LOCALISED_TEXT>
   </TITLE>
   <MULTIVERSEID value="280223" />
   <ARTID value="280223" />
@@ -21,15 +21,15 @@
   <EXPANSION value="DPG" />
   <RARITY metaname="R" />
   <SPELL_ABILITY dangerous="1">
-    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Exile target instant or sorcery card from your graveyard and target instant or sorcery card from an opponent’s graveyard. Copy those cards. Cast the copies if able without paying their mana costs. Exile Spelltwine.]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Exile target instant or sorcery card from your graveyard and target instant or sorcery card from an opponent’s graveyard. Copy those cards. Cast the copies if able without paying their mana costs. Exile Spelltwine.]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Exile target instant or sorcery card from your graveyard and target instant or sorcery card from an opponent’s graveyard. Copy those cards. Cast the copies if able without paying their mana costs. Exile Spelltwine.]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Exile target instant or sorcery card from your graveyard and target instant or sorcery card from an opponent’s graveyard. Copy those cards. Cast the copies if able without paying their mana costs. Exile Spelltwine.]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Exile target instant or sorcery card from your graveyard and target instant or sorcery card from an opponent’s graveyard. Copy those cards. Cast the copies if able without paying their mana costs. Exile Spelltwine.]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[Exile target instant or sorcery card from your graveyard and target instant or sorcery card from an opponent’s graveyard. Copy those cards. Cast the copies if able without paying their mana costs. Exile Spelltwine.]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[Exile target instant or sorcery card from your graveyard and target instant or sorcery card from an opponent’s graveyard. Copy those cards. Cast the copies if able without paying their mana costs. Exile Spelltwine.]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Exile target instant or sorcery card from your graveyard and target instant or sorcery card from an opponent’s graveyard. Copy those cards. Cast the copies if able without paying their mana costs. Exile Spelltwine.]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Exile target instant or sorcery card from your graveyard and target instant or sorcery card from an opponent’s graveyard. Copy those cards. Cast the copies if able without paying their mana costs. Exile Spelltwine.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Exile target instant or sorcery card from your graveyard and target instant or sorcery card from an opponent's graveyard. Copy those cards. Cast the copies if able without paying their mana costs. Exile Spelltwine.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Esilia una carta istantaneo o stregoneria bersaglio dal tuo cimitero e una carta istantaneo o stregoneria bersaglio dal cimitero di un avversario. Copia quelle carte. Lancia le copie, se puoi farlo, senza pagare il loro costo di mana. Esilia la Torcimagia.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Schicke eine Spontanzauber- oder Hexereikarte deiner Wahl aus deinem Friedhof und eine Spontanzauber- oder Hexereikarte deiner Wahl aus dem Friedhof eines Gegners ins Exil. Kopiere diese Karten. Wirke die Kopien, falls möglich, ohne ihre Manakosten zu bezahlen. Schicke die Zauberwindung ins Exil.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Exilez une carte d'éphémère ou de rituel ciblée de votre cimetière et une carte d'éphémère ou de rituel ciblée du cimetière d'un adversaire. Copiez ces cartes. Si possible, lancez les copies sans payer leur coût de mana. Exilez l'Entrelacs de sorts.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Exilia la carta de instantáneo o de conjuro objetivo de tu cementerio y la carta de instantáneo o de conjuro objetivo del cementerio de un oponente. Copia esas cartas. Si puedes, lanza las copias sin pagar sus costes de maná. Exilia el Entrelazahechizo.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[あなたの墓地にあるインスタント・カード１枚かソーサリー・カード１枚と、いずれかの対戦相手の墓地にあるインスタント・カード１枚かソーサリー・カード１枚を対象とし、それらを追放する。それらのカードをコピーする。可能ならば、それらのコピーをマナ・コストを支払うことなく唱える。呪文ねじりを追放する。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[당신의 무덤에 있는 순간마법이나 집중마법 카드 한 장과 상대의 무덤에 있는 순간마법이나 집중마법 카드 한 장을 목표로 정한다. 그 카드들을 추방한 후 복사한다. 가능하면 마나비용을 지불하지 않고 그 복사본들을 발동한다. 주문 엮기를 추방한다.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Изгоните целевую карту мгновенного заклинания или волшебства из вашего кладбища и целевую карту мгновенного заклинания или волшебства из кладбища оппонента. Скопируйте те карты. Разыграйте те копии, если можете, без уплаты их мана-стоимости. Изгоните Переплетение Заклинаний.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Exile o card de mágica instantânea ou feitiço alvo do seu cemitério e o card de mágica instantânea ou feitiço alvo do cemitério de um oponente. Copie os dois cards. Conjure as cópias se estiver apto sem pagar seus custos de mana. Exile Entrelace de Mágicas.]]></LOCALISED_TEXT>
 	<TARGET_DEFINITION id="0">
     local filter = Object():GetFilter()
     filter:Clear()
