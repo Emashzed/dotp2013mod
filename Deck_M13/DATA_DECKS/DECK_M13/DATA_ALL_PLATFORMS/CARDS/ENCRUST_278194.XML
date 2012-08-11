@@ -97,7 +97,7 @@
     return AtLeastOneTargetFromDefinition(0)
     </TARGET_DETERMINATION>
     <PLAY_TIME_ACTION target_choosing="1">
-    EffectController():ChooseTarget( 0, "CARD_QUERY_CHOOSE_CREATURE_OR_ARTIFACT_TO_ENCHANT", EffectDC():Make_Targets(0) )
+    EffectController():ChooseTarget( 0, CARD_QUERY_CHOOSE_CREATURE_OR_ARTIFACT_TO_ENCHANT, EffectDC():Make_Targets(0) )
     </PLAY_TIME_ACTION>
     <RESOLUTION_TIME_ACTION>
     local target_card = EffectDC():Get_Targets(0):Get_CardPtr(0)

@@ -38,7 +38,6 @@
     filter:AddCardType( CARD_TYPE_LAND )
     filter:SetHint( HINT_ENEMY_ONLY, EffectController() )
     filter:SetZone( ZONE_IN_PLAY )
-    filter:May()
     filter:SetCardInstance( Object() )
     filter:AddExtra( FILTER_EXTRA_FLIP_CARD_INSTANCE )
     if EffectController():IsAI() ~= 0 then
