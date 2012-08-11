@@ -1,0 +1,54 @@
+<?xml version='1.0'?>
+<CARD_V2>
+  <FILENAME text="MYR_SIRE_213734" />
+  <CARDNAME text="MYR_SIRE" />
+  <TITLE>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Myr Sire]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Antenato Myr]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Myrerzeuger]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Père des myrs]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Señor myr]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[マイアの種父]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[Myr Sire]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Породитель Миэров]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Senhor Myr]]></LOCALISED_TEXT>
+  </TITLE>
+  <MULTIVERSEID value="213734" />
+  <ARTID value="888213734" />
+  <ARTIST name="Jaime Jones" />
+  <CASTING_COST cost="{2}" />
+  <FLAVOURTEXT>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[For the Phyrexians, death is not an end, nor a one-time occurrence.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Per i Phyrexian, la morte non è una fine, né un evento singolo.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Für Phyrexianer ist der Tod weder ein Ende noch einmalig.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Pour les Phyrexians, la mort n'est ni une fin, ni un événement unique.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Para los pirexianos, la muerte no es el final, ni algo que ocurre una sola vez.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[ファイレクシア人にとって、死は終わりではなく、一度限りの事でもない。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[For the Phyrexians, death is not an end, nor a one-time occurrence.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Для фирексийцев смерть — это не конец и даже не однократное явление.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Para os phyrexianos, a morte não é um fim, nem tampouco um evento único.]]></LOCALISED_TEXT>
+  </FLAVOURTEXT>
+  <TYPE metaname="Artifact" />
+  <TYPE metaname="Creature" />
+  <SUB_TYPE metaname="Myr" order_de-DE="0" order_es-ES="0" order_fr-FR="0" order_it-IT="0" order_jp-JA="0" order_ko-KR="0" order_pt-BR="0" order_ru-RU="0" />
+  <EXPANSION value="DPG" />
+  <RARITY metaname="C" />
+  <POWER value="1" />
+  <TOUGHNESS value="1" />
+  <TRIGGERED_ABILITY auto_skip="1" filter_zone="ZONE_IN_PLAY">
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[When Myr Sire dies, put a 1/1 colorless Myr artifact creature token onto the battlefield.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Quando l'Antenato Myr viene messo in un cimitero dal campo di battaglia, metti sul campo di battaglia una pedina creatura artefatto Myr 1/1 incolore.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Wenn der Myrerzeuger aus dem Spiel auf einen Friedhof gelegt wird, bringe einen 1/1 farblosen Myr-Artefaktkreaturenspielstein ins Spiel.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Quand le Père des myrs est mis dans un cimetière depuis le champ de bataille, mettez sur le champ de bataille un jeton de créature-artefact 1/1 incolore Myr.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Cuando el Señor myr vaya a un cementerio desde el campo de batalla, pon en el campo de batalla una ficha de criatura artefacto Myr incolora 1/1.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[マイアの種父が戦場からいずれかの墓地に置かれたとき、無色の１/１のマイア・アーティファクト・クリーチャー・トークンを１体戦場に出す。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[When Myr Sire dies, put a 1/1 colorless Myr artifact creature token onto the battlefield.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Когда Породитель Миэров попадает с поля битвы на кладбище, положите на поле битвы одну фишку артефактного существа 1/1 бесцветный Миэр.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Quando Senhor Myr é colocado num cemitério vindo do campo de batalha, coloque no campo de batalha uma ficha de criatura artefato incolor 1/1 do tipo Myr.]]></LOCALISED_TEXT>
+    <TRIGGER value="ZONECHANGE_BEGIN" simple_qualifier="self" to_zone="ZONE_GRAVEYARD" from_zone="ZONE_IN_PLAY" />
+    <RESOLUTION_TIME_ACTION>
+    MTG():PutTokensIntoPlay( "TOKEN_MYR_1_1_299999", 1, EffectController() )
+    </RESOLUTION_TIME_ACTION>
+  </TRIGGERED_ABILITY>
+  <TOKEN_REGISTRATION reservation="1" type="TOKEN_MYR_1_1_299999" />
+</CARD_V2>
