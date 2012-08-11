@@ -1,4 +1,4 @@
-<DECK personality="D13_KNIGHT_EXEMPLAR.XML" deck_box_image="D13_KNIGHTS" deck_box_image_locked="locked" content_pack="0" uid="905" preview_card="MIRRAN_CRUSADER" always_available="true" is_white="true" >
+<DECK personality="D13_KNIGHT_EXEMPLAR.XML" deck_box_image="D13_KNIGHTS" deck_box_image_locked="locked" content_pack="0" uid="905" preview_card="blanko" always_available="true" is_white="true" >
   <DECKSTATISTICS Size="6" Speed="8" Flex="4" Syn="6" />
   <CARD name="STUDENT_OF_WARFARE_193598" deckOrderId="0" />
   <CARD name="STUDENT_OF_WARFARE_193598" deckOrderId="1" />

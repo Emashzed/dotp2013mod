@@ -1,0 +1,58 @@
+<?xml version='1.0'?>
+<CARD_V2>
+  <FILENAME text="KILN_FIEND_194912" />
+  <CARDNAME text="KILN_FIEND" />
+  <TITLE>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Kiln Fiend]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Immondo della Fornace]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Meiler-Unhold]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Fielleux du four]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Demonio del horno]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[窯の悪鬼]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[Kiln Fiend]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Демон Обжига]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Demônio Fornalha]]></LOCALISED_TEXT>
+  </TITLE>
+  <MULTIVERSEID value="194912" />
+  <ARTID value="888194912" />
+  <ARTIST name="Adi Granov" />
+  <CASTING_COST cost="{1}{R}" />
+  <FLAVOURTEXT>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[It traps an explosion within its stony skin.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[All'interno della sua pelle rocciosa è intrappolata un'esplosione.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Es fängt Explosionen mit seiner steinigen Haut ab.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Il renferme une explosion sous sa peau de pierre.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Esconde una explosión bajo su piel pétrea.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[それは石の皮膚の下に爆発物を閉じ込めている。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[It traps an explosion within its stony skin.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Его каменная кожа удерживает взрыв внутри.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Por debaixo de sua pele pedregosa esconde-se uma poderosa explosão.]]></LOCALISED_TEXT>
+  </FLAVOURTEXT>
+  <TYPE metaname="Creature" />
+  <SUB_TYPE metaname="Elemental" order_de-DE="0" order_es-ES="0" order_fr-FR="1" order_it-IT="0" order_jp-JA="0" order_ko-KR="0" order_pt-BR="0" order_ru-RU="0" />
+  <SUB_TYPE metaname="Beast" order_de-DE="1" order_es-ES="1" order_fr-FR="0" order_it-IT="1" order_jp-JA="1" order_ko-KR="1" order_pt-BR="1" order_ru-RU="1" />
+  <EXPANSION value="DPG" />
+  <RARITY metaname="C" />
+  <POWER value="1" />
+  <TOUGHNESS value="2" />
+  <TRIGGERED_ABILITY dangerous="1" filter_zone="ZONE_IN_PLAY">
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Whenever you cast an instant or sorcery spell, Kiln Fiend gets +3/+0 until end of turn.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Ogniqualvolta lanci una magia istantaneo o stregoneria, l'Immondo della Fornace prende +3/+0 fino alla fine del turno.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Immer wenn du einen Spontanzauber oder eine Hexerei wirkst, erhält der Meiler-Unhold +3/+0 bis zum Ende des Zuges.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[À chaque fois que vous lancez un sort d'éphémère ou de rituel, le Fielleux du four gagne +3/+0 jusqu'à la fin du tour.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Siempre que lances un hechizo instantáneo o de conjuro, el Demonio del horno obtiene +3/+0 hasta el final del turno.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[あなたがインスタント呪文かソーサリー呪文を１つ唱えるたび、窯の悪鬼はターン終了時まで＋３/＋０の修整を受ける。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[Whenever you cast an instant or sorcery spell, Kiln Fiend gets +3/+0 until end of turn.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Каждый раз когда вы разыгрываете мгновенное заклинание или заклинание волшебства, Демон Обжига получает +3/+0 до конца хода.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Toda vez que você conjura uma mágica instantânea ou feitiço, Demônio Fornalha recebe +3/+0 até o final do turno.]]></LOCALISED_TEXT>
+    <TRIGGER value="SPELL_PLAYED">
+    return (TriggerObject():GetCardType():Test( CARD_TYPE_INSTANT ) ~= 0 or TriggerObject():GetCardType():Test( CARD_TYPE_SORCERY ) ~= 0) and TriggerObject():GetPlayer() == EffectController()
+    </TRIGGER>
+    <CONTINUOUS_ACTION layer="7C">
+    if EffectSource() ~= nil then
+       EffectSource():GetCurrentCharacteristics():Power_Add( 3 )
+    end
+    </CONTINUOUS_ACTION>
+    <DURATION simple_duration="UntilEOT" />
+  </TRIGGERED_ABILITY>
+</CARD_V2>

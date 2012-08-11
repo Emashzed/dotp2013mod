@@ -1,0 +1,66 @@
+<?xml version='1.0'?>
+<CARD_V2>
+  <FILENAME text="ASSAULT_STROBE_194119" />
+  <CARDNAME text="ASSAULT_STROBE" />
+  <TITLE>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Assault Strobe]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Assalto Stroboscopico]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Abtastender Überfall]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Assaut stroboscopique]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Asalto estroboscópico]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[突撃のストロボ]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[Assault Strobe]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Пульсирующая Атака]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Estroboscópio de Ataque]]></LOCALISED_TEXT>
+  </TITLE>
+  <MULTIVERSEID value="194119" />
+  <ARTID value="888194119" />
+  <ARTIST name="Kev Walker" />
+  <CASTING_COST cost="{R}" />
+  <FLAVOURTEXT>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[When breaking someone's face once just isn't enough.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Quando spaccare la faccia a qualcuno una volta non è sufficiente.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Einmal zuschlagen reicht manchmal nicht.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Quand casser la figure juste une fois à quelqu'un ne suffit pas.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Para cuando partirle la cara a alguien una sola vez no es suficiente.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[叩き潰すだけでは足りないようなら。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[When breaking someone's face once just isn't enough.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Иногда разбить кому-нибудь морду один раз — не достаточно.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Quando quebrar a cara de alguém uma vez não basta.]]></LOCALISED_TEXT>
+  </FLAVOURTEXT>
+  <TYPE metaname="Sorcery" />
+  <EXPANSION value="DPG" />
+  <RARITY metaname="C" />
+  <SPELL_ABILITY>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Target creature gains double strike until end of turn. (It deals both first-strike and regular combat damage.)]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Una creatura bersaglio ha doppio attacco fino alla fine del turno. (Infligge sia danno da combattimento da attacco improvviso che danno da combattimento regolare.)]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Eine Kreatur deiner Wahl erhält Doppelschlag bis zum Ende des Zuges. (Sie fügt sowohl Erstschlags- als auch normalen Kampfschaden zu.)]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[La créature ciblée acquiert la double initiative jusqu'à la fin du tour. (Elle inflige des blessures de combat d'initiative et des blessures de combat normales.)]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[La criatura objetivo gana la habilidad de dañar dos veces hasta el final del turno. (Esta criatura daña primero y también hace daño de combate normal.)]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[クリーチャー１体を対象とする。それはターン終了時まで二段攻撃を得る。 （それは先制攻撃と通常の２回の戦闘ダメージを与える。）]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[Target creature gains double strike until end of turn. (It deals both first-strike and regular combat damage.)]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Целевое существо получает Двойной удар до конца хода. (Оно наносит боевые повреждения как на этапе Первого удара, так и на этапе обычных повреждений.)]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[A criatura alvo ganha golpe duplo até o final do turno. (Ela causa tanto o dano de iniciativa quanto o dano de combate normal.)]]></LOCALISED_TEXT>
+    <TARGET_DEFINITION id="0">
+       local filter = Object():GetFilter()
+       filter:Clear()
+       filter:AddCardType( CARD_TYPE_CREATURE )
+       filter:SetZone( ZONE_IN_PLAY )
+       filter:SetHint( HINT_ALLIED_ONLY, EffectController() )
+    </TARGET_DEFINITION>
+    <TARGET_DETERMINATION>
+       return AtLeastOneTargetFromDefinition(0)
+    </TARGET_DETERMINATION>
+    <PLAY_TIME_ACTION target_choosing="1">
+       EffectController():ChooseTarget( 0, "CARD_QUERY_CHOOSE_CREATURE_GAIN_DOUBLESTRIKE", EffectDC():Make_Targets(0) )
+    </PLAY_TIME_ACTION>
+    <CONTINUOUS_ACTION layer="6">
+       local target = EffectDC():Get_Targets(0):Get_CardPtr(0)
+       local characteristics = target:GetCurrentCharacteristics()
+       if characteristics ~= nil then
+          characteristics:Characteristic_Set( CHARACTERISTIC_DOUBLE_STRIKE, 1 )
+       end
+    </CONTINUOUS_ACTION>
+    <DURATION simple_duration="UntilEOT" />
+  </SPELL_ABILITY>
+</CARD_V2>
