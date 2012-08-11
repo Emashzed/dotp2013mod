@@ -1564,6 +1564,30 @@
     <Cell><Data ss:Type="String">White Knight Rises</Data></Cell>
     <Cell><Data ss:Type="String">White Knight Rises</Data></Cell>
    </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">PLAYER_NAME_KILN_FIEND</Data></Cell>
+    <Cell ss:Index="3"><Data ss:Type="String">Kiln Fiend</Data></Cell>
+    <Cell><Data ss:Type="String">Fielleux du four</Data></Cell>
+    <Cell><Data ss:Type="String">Demonio del horno</Data></Cell>
+    <Cell><Data ss:Type="String">Meiler-Unhold</Data></Cell>
+    <Cell><Data ss:Type="String">Immondo della Fornace</Data></Cell>
+    <Cell ss:Index="9"><Data ss:Type="String">窯の悪鬼</Data></Cell>
+    <Cell><Data ss:Type="String">Kiln Fiend</Data></Cell>
+    <Cell><Data ss:Type="String">Демон Обжига</Data></Cell>
+    <Cell><Data ss:Type="String">Demônio Fornalha</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Z_DECK_STROBE_RED</Data></Cell>
+    <Cell ss:Index="3"><Data ss:Type="String">Strobe Red</Data></Cell>
+    <Cell><Data ss:Type="String">Pulsation Rouge</Data></Cell>
+    <Cell><Data ss:Type="String">Strobe Red</Data></Cell>
+    <Cell><Data ss:Type="String">Strobe Red</Data></Cell>
+    <Cell><Data ss:Type="String">Strobe Red</Data></Cell>
+    <Cell ss:Index="9"><Data ss:Type="String">Strobe Red</Data></Cell>
+    <Cell><Data ss:Type="String">Strobe Red</Data></Cell>
+    <Cell><Data ss:Type="String">Strobe Red</Data></Cell>
+    <Cell><Data ss:Type="String">Strobe Red</Data></Cell>
+   </Row>
   </Table>
   <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
    <PageSetup>

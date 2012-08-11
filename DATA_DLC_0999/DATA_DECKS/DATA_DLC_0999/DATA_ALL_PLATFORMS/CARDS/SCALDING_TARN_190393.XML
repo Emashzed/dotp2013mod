@@ -1,0 +1,61 @@
+<?xml version='1.0'?>
+<CARD_V2>
+  <FILENAME text="SCALDING_TARN_190393" />
+  <CARDNAME text="SCALDING_TARN" />
+  <TITLE>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Scalding Tarn]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Laghetto Bollente]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Siedender Tümpel]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Lac de montagne bouillant]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Laguna ardiente]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[沸騰する小湖]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[Scalding Tarn]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Обжигающее Горное Озеро]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Lago Alpino Fervente]]></LOCALISED_TEXT>
+  </TITLE>
+  <MULTIVERSEID value="190393" />
+  <ARTID value="888190393" />
+  <ARTIST name="Philip Straub" />
+  <CASTING_COST cost="" />
+  <TYPE metaname="Land" />
+  <EXPANSION value="DPG" />
+  <RARITY metaname="R" />
+  <ACTIVATED_ABILITY filter_zone="ZONE_IN_PLAY">
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[{T}, Pay 1 life, Sacrifice Scalding Tarn: Search your library for an Island or Mountain card and put it onto the battlefield. Then shuffle your library.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[{T}, Paga 1 punto vita, Sacrifica il Laghetto Bollente: Passa in rassegna il tuo grimorio per una carta Isola o Montagna e mettila sul campo di battaglia. Poi rimescola il tuo grimorio.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[{T}, bezahle 1 Lebenspunkt, opfere den Siedenden Tümpel: Durchsuche deine Bibliothek nach einer Insel oder einem Gebirge und bringe die Karte ins Spiel. Mische danach deine Bibliothek.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[{T}, payez 1 point de vie, sacrifiez le Lac de montagne bouillant : Cherchez dans votre bibliothèque une carte d'île ou de montagne et mettez-la sur le champ de bataille. Mélangez ensuite votre bibliothèque.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[{T}, pagar 1 vida, sacrificar la Laguna ardiente: Busca en tu biblioteca una carta de isla o montaña y ponla en el campo de batalla. Luego baraja tu biblioteca.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[{T}, ライフを１点支払う, 沸騰する小湖を生け贄に捧げる：あなたのライブラリーから島カードか山カードを１枚探し、それを戦場に出す。 その後あなたのライブラリーを切り直す。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[{T}, Pay 1 life, Sacrifice Scalding Tarn: Search your library for an Island or Mountain card and put it onto the battlefield. Then shuffle your library.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[{T}, заплатите 1 жизнь, пожертвуйте Обжигающее Горное Озеро: найдите в вашей библиотеке карту Острова или Горы и положите ее на поле битвы. Затем перетасуйте вашу библиотеку.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[{T}, Pague 1 ponto de vida, Sacrifique Lago Alpino Fervente: Procure um card de Ilha ou Montanha em seu grimório e coloque-o no campo de batalha. Depois, embaralhe seu grimório.]]></LOCALISED_TEXT>
+    <COST type="life" points="1" />
+    <COST type="SacrificeSelf" />
+    <RESOLUTION_TIME_ACTION>
+    local filter = Object():GetFilter()
+    local effectController = EffectController()
+    effectController:MarkSearchedLibrary()
+    filter:Clear()
+    filter:NotTargetted()
+    filter:AddSupertype( SUPERTYPE_BASIC )
+    filter:AddCardType( CARD_TYPE_LAND )
+    filter:AddSubType( LAND_TYPE_ISLAND )
+    filter:AddSubType( LAND_TYPE_MOUNTAIN )
+    filter:AddExtra( FILTER_EXTRA_ANY_SUB_TYPE )
+    filter:May()
+    filter:SetZone( ZONE_LIBRARY )
+    filter:SetPlayer( effectController )
+    effectController:ChooseTarget( NO_VALIDATION, "CARD_QUERY_CHOOSE_LAND_TO_PUT_ONTO_BATTLEFIELD", EffectDC():Make_Targets(0) )
+    </RESOLUTION_TIME_ACTION>
+    <RESOLUTION_TIME_ACTION>
+    local target = EffectDC():Get_Targets(0):Get_CardPtr(0)
+    if  target ~= nil then
+       target:PutIntoPlay( EffectController() )
+    end
+    </RESOLUTION_TIME_ACTION>
+    <RESOLUTION_TIME_ACTION>
+    EffectController():ShuffleLibrary()
+    </RESOLUTION_TIME_ACTION>
+    </ACTIVATED_ABILITY>
+</CARD_V2>

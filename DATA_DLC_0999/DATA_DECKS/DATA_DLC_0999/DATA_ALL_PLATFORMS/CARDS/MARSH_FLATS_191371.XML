@@ -1,0 +1,61 @@
+<?xml version='1.0'?>
+<CARD_V2>
+  <FILENAME text="MARSH_FLATS_191371" />
+  <CARDNAME text="MARSH_FLATS" />
+  <TITLE>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Marsh Flats]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Acquitrino]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Brackmarsch]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Plaines marécageuses]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Planicies del cenagal]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[湿地の干潟]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[Marsh Flats]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Болотистые Низины]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Planície Pantanosa]]></LOCALISED_TEXT>
+  </TITLE>
+  <MULTIVERSEID value="191371" />
+  <ARTID value="888191371" />
+  <ARTIST name="Izzy" />
+  <CASTING_COST cost="" />
+  <TYPE metaname="Land" />
+  <EXPANSION value="DPG" />
+  <RARITY metaname="R" />
+  <ACTIVATED_ABILITY filter_zone="ZONE_IN_PLAY">
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[{T}, Pay 1 life, Sacrifice Marsh Flats: Search your library for a Plains or Swamp card and put it onto the battlefield. Then shuffle your library.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[{T}, Paga 1 punto vita, Sacrifica l'Acquitrino: Passa in rassegna il tuo grimorio per una carta Pianura o Palude e mettila sul campo di battaglia. Poi rimescola il tuo grimorio.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[{T}, bezahle 1 Lebenspunkt, opfere die Brackmarsch: Durchsuche deine Bibliothek nach einer Ebene oder einem Sumpf und bringe die Karte ins Spiel. Mische danach deine Bibliothek.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[{T}, payez 1 point de vie, sacrifiez les Plaines marécageuses : Cherchez dans votre bibliothèque une carte de plaine ou de marais et mettez-la sur le champ de bataille. Mélangez ensuite votre bibliothèque.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[{T}, pagar 1 vida, sacrificar las Planicies del cenagal: Busca en tu biblioteca una carta de pantano o llanura y ponla en el campo de batalla. Luego baraja tu biblioteca.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[{T}, ライフを１点支払う, 湿地の干潟を生け贄に捧げる：あなたのライブラリーから平地カードか沼カードを１枚探し、それを戦場に出す。 その後あなたのライブラリーを切り直す。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[{T}, Pay 1 life, Sacrifice Marsh Flats: Search your library for a Plains or Swamp card and put it onto the battlefield. Then shuffle your library.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[{T}, заплатите 1 жизнь, пожертвуйте Болотистые Низины: найдите в вашей библиотеке карту Равнины или Болота и положите ее на поле битвы. Затем перетасуйте вашу библиотеку.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[{T}, Pague 1 ponto de vida, Sacrifique Planície Pantanosa: Procure um card de Planície ou Pântano em seu grimório e coloque-o no campo de batalha. Depois, embaralhe seu grimório.]]></LOCALISED_TEXT>
+    <COST type="life" points="1" />
+    <COST type="SacrificeSelf" />
+    <RESOLUTION_TIME_ACTION>
+    local filter = Object():GetFilter()
+    local effectController = EffectController()
+    effectController:MarkSearchedLibrary()
+    filter:Clear()
+    filter:NotTargetted()
+    filter:AddSupertype( SUPERTYPE_BASIC )
+    filter:AddCardType( CARD_TYPE_LAND )
+    filter:AddSubType( LAND_TYPE_PLAINS )
+    filter:AddSubType( LAND_TYPE_SWAMP )
+    filter:AddExtra( FILTER_EXTRA_ANY_SUB_TYPE )
+    filter:May()
+    filter:SetZone( ZONE_LIBRARY )
+    filter:SetPlayer( effectController )
+    effectController:ChooseTarget( NO_VALIDATION, "CARD_QUERY_CHOOSE_LAND_TO_PUT_ONTO_BATTLEFIELD", EffectDC():Make_Targets(0) )
+    </RESOLUTION_TIME_ACTION>
+    <RESOLUTION_TIME_ACTION>
+    local target = EffectDC():Get_Targets(0):Get_CardPtr(0)
+    if  target ~= nil then
+       target:PutIntoPlay( EffectController() )
+    end
+    </RESOLUTION_TIME_ACTION>
+    <RESOLUTION_TIME_ACTION>
+    EffectController():ShuffleLibrary()
+    </RESOLUTION_TIME_ACTION>
+    </ACTIVATED_ABILITY>
+</CARD_V2>
