@@ -1,0 +1,82 @@
+<?xml version='1.0'?>
+<CARD_V2>
+  <FILENAME text="STUDENT_OF_WARFARE_193598" />
+  <CARDNAME text="STUDENT_OF_WARFARE" />
+  <TITLE>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Student of Warfare]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Studentessa della Guerra]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Student der Kriegskunst]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Étudiante de la guerre]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Estudiante de la guerra]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[闘争の学び手]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[Student of Warfare]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Ученица Войны]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Estudante de Guerra]]></LOCALISED_TEXT>
+  </TITLE>
+  <MULTIVERSEID value="193598" />
+  <ARTID value="888193598" />
+  <ARTIST name="Volkan Baga" />
+  <CASTING_COST cost="{W}" />
+  <TYPE metaname="Creature" />
+  <SUB_TYPE metaname="Human" order_de-DE="0" order_es-ES="0" order_fr-FR="1" order_it-IT="0" order_jp-JA="0" order_ko-KR="0" order_pt-BR="0" order_ru-RU="0" />
+  <SUB_TYPE metaname="Knight" order_de-DE="1" order_es-ES="1" order_fr-FR="0" order_it-IT="1" order_jp-JA="1" order_ko-KR="1" order_pt-BR="1" order_ru-RU="1" />
+  <EXPANSION value="DPG" />
+  <RARITY metaname="R" />
+  <POWER value="1" />
+  <TOUGHNESS value="1" />
+  <ACTIVATED_ABILITY sorcery_time="1" auto_skip="1" firebreathing="1" filter_zone="ZONE_IN_PLAY">
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Level up {W} ({W}: Put a level counter on this. Level up only as a sorcery.)]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Aumentare di livello {W} ({W}: Metti un segnalino livello su questa creatura. Aumenta di livello solo quando potresti lanciare una stregoneria.)]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Stufe aufsteigen {W} ({W}: Lege eine Stufenmarke auf diese Karte. Spiele Stufe aufsteigen wie eine Hexerei.)]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Montée de niveau {W} ({W} : Mettez un marqueur « niveau » sur cette créature. Ne montez de niveau que lorsque vous pourriez lancer un rituel.)]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Subir de nivel {W}. ({W}: Pon un contador de nivel sobre esto. Sube de nivel sólo como un conjuro.)]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[Lvアップ {W} ({W}：この上にLvカウンターを１個置く。 Lvアップはソーサリーとしてのみ行う。）]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[Level up {W} ({W}: Put a level counter on this. Level up only as a sorcery.)]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Повышение уровня {W} ({W}: положите один жетон уровня на это существо. Повышайте уровень только как волшебство.)]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Subir de nível {W} ({W}: Coloque um marcador de nível nesta criatura. Suba de nível somente quando puder jogar um feitiço.)]]></LOCALISED_TEXT>
+    <COST type="Mana" cost="{W}" />
+    <RESOLUTION_TIME_ACTION>
+    Object():AddCounters( MTG():ChargeCounters(), 1 )
+    </RESOLUTION_TIME_ACTION>
+  </ACTIVATED_ABILITY>
+  <STATIC_ABILITY>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[LEVEL 2-6 : 3/3, First strike]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[LIVELLO 2-6 : 3/3, Attacco improvviso]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[STUFE 2-6 : 3/3, Erstschlag]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[NIVEAU 2-6 : 3/3, Initiative]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[NIVEL 2-6 : 3/3, Daña primero.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[Lv 2-6 : 3/3, 先制攻撃]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[LEVEL 2-6 : 3/3, First strike]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[УРОВЕНЬ 2-6 : 3/3, Первый удар]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[NÍVEL 2-6 : 3/3, Iniciativa]]></LOCALISED_TEXT>
+    <CONTINUOUS_ACTION>
+    local MyCountersA = Object():CountCounters( MTG():ChargeCounters() )
+    if ( MyCountersA &gt; 1 and MyCountersA &lt; 7  ) then
+      local characteristics = Object():GetCurrentCharacteristics()
+      characteristics:Characteristic_Set( CHARACTERISTIC_FIRST_STRIKE, 1 )
+      characteristics:Power_Set( 3 ) 
+      characteristics:Toughness_Set( 3 ) 
+    end
+    </CONTINUOUS_ACTION>
+  </STATIC_ABILITY>
+  <STATIC_ABILITY>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[LEVEL 7+ : 4/4, Double strike]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[LIVELLO 7+ : 4/4, Doppio attacco]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[STUFE 7+ : 4/4, Doppelschlag]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[NIVEAU 7+ : 4/4, Double initiative]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[NIVEL 7+ : 4/4, Daña dos veces.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[Lv 7+ : 4/4, 二段攻撃]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[LEVEL 7+ : 4/4, Double strike]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[УРОВЕНЬ 7+ : 4/4, Двойной удар]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[NÍVEL 7+ : 4/4, Golpe duplo]]></LOCALISED_TEXT>
+    <CONTINUOUS_ACTION>
+    local MyCountersA = Object():CountCounters( MTG():ChargeCounters() )
+    if ( MyCountersA &gt; 6 ) then
+      local characteristics = Object():GetCurrentCharacteristics()
+      characteristics:Characteristic_Set( CHARACTERISTIC_DOUBLE_STRIKE, 1 )
+      characteristics:Power_Set( 4 ) 
+      characteristics:Toughness_Set( 4 ) 
+    end
+    </CONTINUOUS_ACTION>
+  </STATIC_ABILITY>
+</CARD_V2>
