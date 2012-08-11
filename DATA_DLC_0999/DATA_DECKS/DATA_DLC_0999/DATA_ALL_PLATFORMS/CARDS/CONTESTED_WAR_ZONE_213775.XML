@@ -1,0 +1,83 @@
+<?xml version='1.0'?>
+<CARD_V2>
+  <FILENAME text="CONTESTED_WAR_ZONE_213775" />
+  <CARDNAME text="CONTESTED_WAR_ZONE" />
+  <TITLE>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Contested War Zone]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Zona di Guerra Contesa]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Umkämpftes Kriegsgebiet]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Zone de guerre contestée]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Zona de guerra en disputa]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[激戦の戦域]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[Contested War Zone]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Спорная Военная Зона]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Zona de Guerra Disputada]]></LOCALISED_TEXT>
+  </TITLE>
+  <MULTIVERSEID value="213775" />
+  <ARTID value="888213775" />
+  <ARTIST name="Scott Chou" />
+  <CASTING_COST cost="" />
+  <TYPE metaname="Land" />
+  <EXPANSION value="DPG" />
+  <RARITY metaname="R" />
+  <TRIGGERED_ABILITY filter_zone="ZONE_IN_PLAY">
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Whenever a creature deals combat damage to you, that creature's controller gains control of Contested War Zone.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Ogniqualvolta una creatura ti infligge danno da combattimento, il controllore di quella creatura prende il controllo della Zona di Guerra Contesa.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Immer wenn eine Kreatur dir Kampfschaden zufügt, erhält der Beherrscher dieser Kreatur die Kontrolle über das Umkämpfte Kriegsgebiet.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[À chaque fois qu'une créature vous inflige des blessures de combat, le contrôleur de cette créature acquiert le contrôle de la Zone de guerre contestée.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Siempre que una criatura te haga daño de combate, el controlador de esa criatura gana el control de la Zona de guerra en disputa.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[いずれかのクリーチャーがあなたに戦闘ダメージを与えるたび、そのクリーチャーのコントローラーは激戦の戦域のコントロールを得る。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[Whenever a creature deals combat damage to you, that creature's controller gains control of Contested War Zone.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Каждый раз когда существо наносит вам боевые повреждения, контролирующий его игрок получает контроль над Спорной Военной Зоной.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Toda vez que uma criatura causa dano de combate a você, o controlador daquela criatura ganha o controle de Zona de Guerra Disputada.]]></LOCALISED_TEXT>
+    <TRIGGER value="CREATURE_DEALS_COMBAT_DAMAGE_TO_PLAYER" >
+      return TriggerPlayer() == EffectController()
+    </TRIGGER>
+    <RESOLUTION_TIME_ACTION>
+      Object():SetPermanentController( TriggerObject():GetController() )
+    </RESOLUTION_TIME_ACTION>
+  </TRIGGERED_ABILITY>
+  <MANA_ABILITY>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[{T}: Add {1} to your mana pool.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[{T}: Aggiungi {1} alla tua riserva di mana.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[{T}: Erhöhe deinen Manavorrat um {1}.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[{T} : Ajoutez {1} à votre réserve.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[{T}: Agrega {1} a tu reserva de maná.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[{T}：あなたのマナ・プールに{1}を加える。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[{T}: Add {1} to your mana pool.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[{T}: добавьте {1} в ваше хранилище маны.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[{T}: Adicione {1} à sua reserva de mana.]]></LOCALISED_TEXT>
+    <COST type="TapSelf" />
+    <PRODUCES amount="{1}" />
+  </MANA_ABILITY>
+  <ACTIVATED_ABILITY filter_zone="ZONE_IN_PLAY">
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[{1}, {T}: Attacking creatures get +1/+0 until end of turn.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[{1}, {T}: Le creature attaccanti prendono +1/+0 fino alla fine del turno.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[{1}, {T}: Angreifende Kreaturen erhalten +1/+0 bis zum Ende des Zuges.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[{1}, {T} : Les créatures attaquantes gagnent +1/+0 jusqu'à la fin du tour.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[{1}, {T}: Las criaturas atacantes obtienen +1/+0 hasta el final del turno.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[{1}, {T}：攻撃クリーチャーはターン終了時まで＋１/＋０の修整を受ける。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[{1}, {T}: Attacking creatures get +1/+0 until end of turn.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[{1}, {T}: атакующие существа получают +1/+0 до конца хода.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[{1}, {T}: As criaturas atacantes recebem +1/+0 até o final do turno.]]></LOCALISED_TEXT>
+    <COST type="TapSelf" />
+    <COST type="Mana" cost="{1}" />
+    <AVAILABILITY>
+    return EffectController():CanAfford("{2}")
+    </AVAILABILITY>
+    <FILTER>
+    return FilteredCard() ~= nil and
+      FilteredCard():GetZone() == ZONE_IN_PLAY and
+      FilteredCard():GetCardType():Test( CARD_TYPE_CREATURE ) ~= 0 and
+      FilteredCard():GetPlayer() == Object():GetPlayer() and
+      FilteredCard():IsAttacking() ~= 0
+    </FILTER>
+    <CONTINUOUS_ACTION layer="7C">
+    if FilteredCard() ~= nil then
+       FilteredCard():GetCurrentCharacteristics():Power_Add( 1 )
+    end
+    </CONTINUOUS_ACTION>
+    <DURATION simple_duration="UntilEOT" />
+    <AI_AVAILABILITY step="declare_blockers" turn="my_turn" />
+  </ACTIVATED_ABILITY>
+</CARD_V2>

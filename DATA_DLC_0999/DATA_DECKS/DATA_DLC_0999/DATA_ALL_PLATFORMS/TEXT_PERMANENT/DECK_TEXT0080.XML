@@ -1588,6 +1588,30 @@
     <Cell><Data ss:Type="String">Strobe Red</Data></Cell>
     <Cell><Data ss:Type="String">Strobe Red</Data></Cell>
    </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">PLAYER_NAME_GOBLIN_WARDRIVER</Data></Cell>
+    <Cell ss:Index="3"><Data ss:Type="String">Metal Gob</Data></Cell>
+    <Cell><Data ss:Type="String">Trublion de guerre gobelin</Data></Cell>
+    <Cell><Data ss:Type="String">Líder de guerra trasgo</Data></Cell>
+    <Cell><Data ss:Type="String">Goblin-Kriegstreiber</Data></Cell>
+    <Cell><Data ss:Type="String">Pilota di Guerra Goblin</Data></Cell>
+    <Cell ss:Index="9"><Data ss:Type="String">ゴブリンの戦煽り</Data></Cell>
+    <Cell><Data ss:Type="String">Metal Gob</Data></Cell>
+    <Cell><Data ss:Type="String">Гоблинский Военный Погоняла</Data></Cell>
+    <Cell><Data ss:Type="String">Fomentador de Guerra Goblin</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Z_DECK_METALGOB</Data></Cell>
+    <Cell ss:Index="3"><Data ss:Type="String">Full Metal Goblins</Data></Cell>
+    <Cell><Data ss:Type="String">Goblins Metalliques</Data></Cell>
+    <Cell><Data ss:Type="String">Metal Gob</Data></Cell>
+    <Cell><Data ss:Type="String">Metal Gob</Data></Cell>
+    <Cell><Data ss:Type="String">Metal Gob</Data></Cell>
+    <Cell ss:Index="9"><Data ss:Type="String">Metal Gob</Data></Cell>
+    <Cell><Data ss:Type="String">Metal Gob</Data></Cell>
+    <Cell><Data ss:Type="String">Metal Gob</Data></Cell>
+    <Cell><Data ss:Type="String">Metal Gob</Data></Cell>
+   </Row>
   </Table>
   <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
    <PageSetup>

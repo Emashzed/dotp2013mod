@@ -1,0 +1,79 @@
+<?xml version='1.0'?>
+<CARD_V2>
+  <FILENAME text="KULDOTHA_REBIRTH_194239" />
+  <CARDNAME text="KULDOTHA_REBIRTH" />
+  <TITLE>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Kuldotha Rebirth]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Rinascita di Kuldotha]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Wiedergeburt in Kuldotha]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Renaissance de Kuldotha]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Renacimiento de Kuldotha]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[カルドーサの再誕]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[Kuldotha Rebirth]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Кулдотское Возрождение]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Renascimento de Kuldotha]]></LOCALISED_TEXT>
+  </TITLE>
+  <MULTIVERSEID value="194239" />
+  <ARTID value="888194239" />
+  <ARTIST name="Goran Josic" />
+  <CASTING_COST cost="{R}" />
+  <FLAVOURTEXT>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[All goblin rituals serve a dual purpose as fertility rites, even the destructive ones. Especially the destructive ones.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Tutti i rituali goblin servono anche come riti di fertilità, perfino quelli distruttivi. Soprattutto quelli distruttivi.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Alle Goblin-Rituale dienen gleichzeitig auch als Fruchtbarkeitsriten, selbst die zerstörerischen. Besonders die zerstörerischen.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Tous les rites gobelins, même les plus destructeurs, se doublent de rites dédiés à la fertilité. Surtout ceux-là, d'ailleurs.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Todos los rituales trasgos sirven a un doble propósito, funcionando también como ritos de fertilidad incluso los más destructivos. Especialmente los más destructivos.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[ゴブリンの儀式はすべて、破壊的なものも含めて繁殖の儀式としての側面がある。 破壊的なものは特にそうだ。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[All goblin rituals serve a dual purpose as fertility rites, even the destructive ones. Especially the destructive ones.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Гоблинские ритуалы служат еще и как обряды плодородия, даже разрушительные. Особенно разрушительные.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Todos os rituais goblin têm um duplo propósito como rituais de fertilidade, até mesmo os destrutivos. Especialmente os destrutivos.]]></LOCALISED_TEXT>
+  </FLAVOURTEXT>
+  <TYPE metaname="Sorcery" />
+  <EXPANSION value="DPG" />
+  <RARITY metaname="C" />
+  <UTILITY_ABILITY filter_zone="ZONE_IN_PLAY">
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[As an additional cost to cast Kuldotha Rebirth, sacrifice an artifact.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Come costo addizionale per lanciare la Rinascita di Kuldotha, sacrifica un artefatto.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Opfere ein Artefakt als zusätzliche Kosten, um Wiedergeburt in Kuldotha zu wirken.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[En tant que coût supplémentaire pour lancer la Renaissance de Kuldotha, sacrifiez un artefact.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Como coste adicional para lanzar el Renacimiento de Kuldotha, sacrifica un artefacto.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[カルドーサの再誕を唱えるための追加コストとして、アーティファクトを１つ生け贄に捧げる。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[As an additional cost to cast Kuldotha Rebirth, sacrifice an artifact.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[В качестве дополнительной стоимости разыгрывания Кулдотского Возрождения пожертвуйте артефакт.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Como custo adicional para conjurar Renascimento de Kuldotha, sacrifique um artefato.]]></LOCALISED_TEXT>
+    <COST type="Sacrifice" qualifier="Additional">
+      <TARGET_DEFINITION id="6">
+      local filter = Object():GetFilter()
+      filter:Clear()
+      filter:AddCardType( CARD_TYPE_ARTIFACT )
+      filter:SetPlayer( EffectController() )
+      filter:SetZone( ZONE_IN_PLAY )
+      filter:SetHint( HINT_ENEMY, EffectController() )
+      filter:NotTargetted()
+      </TARGET_DEFINITION>
+      <TARGET_DETERMINATION>
+      return AtLeastOneTargetFromDefinition(6)
+      </TARGET_DETERMINATION>
+      <PLAYTIME>
+      EffectController():ChooseTarget( 6, "CARD_QUERY_CHOOSE_ARTIFACT_TO_SACRIFICE", EffectDC():Make_Targets(0) )
+      </PLAYTIME></COST>
+  </UTILITY_ABILITY>
+  <SPELL_ABILITY filter_zone="ZONE_IN_PLAY">
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Put three 1/1 red Goblin creature tokens onto the battlefield.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Metti sul campo di battaglia tre pedine creatura Goblin 1/1 rosse.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Bringe drei 1/1 rote Goblin-Kreaturenspielsteine ins Spiel.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Mettez sur le champ de bataille trois jetons de créature 1/1 rouge Gobelin.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Pon en el campo de batalla tres fichas de criatura Trasgo rojas 1/1.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[赤の１/１のゴブリン・クリーチャー・トークンを３体戦場に出す。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[Put three 1/1 red Goblin creature tokens onto the battlefield.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Положите на поле битвы три фишки существа 1/1 красный Гоблин.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Coloque no campo de batalha três fichas de criatura vermelhas 1/1 do tipo Goblin.]]></LOCALISED_TEXT>
+    <RESOLUTION_TIME_ACTION>
+    local token_count = 3
+    if token_count &gt; 0 then
+       MTG():PutTokensIntoPlay( "TOKEN_GOBLIN_1_1_277454", token_count, EffectController() )
+    end
+    </RESOLUTION_TIME_ACTION>
+  </SPELL_ABILITY>
+  <TOKEN_REGISTRATION reservation="1" type="TOKEN_GOBLIN_1_1_277454" />
+</CARD_V2>
