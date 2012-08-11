@@ -1036,6 +1036,7 @@
     <Cell><Data ss:Type="String">Литой Mold Shambler и уничтожить noncreature постоянно.</Data></Cell>
     <Cell><Data ss:Type="String">Elenco Shambler Mold e destruir um que não seja criatura permanente.</Data></Cell>
    </Row>
+   <Row ss:AutoFitHeight="0">
     <Cell><Data ss:Type="String">CARD_QUERY_CHOOSE_ARTIFACT_CREATURE_MODULAR_AMOUNT</Data></Cell>
     <Cell ss:Index="3"><Data ss:Type="String">Choose an artifact creature to gain %d +1/+1 counters.</Data></Cell>
     <Cell><Data ss:Type="String">Choose an artifact creature to gain %d +1/+1 counters.</Data></Cell>
@@ -1046,6 +1047,7 @@
     <Cell><Data ss:Type="String">Choose an artifact creature to gain %d +1/+1 counters.</Data></Cell>
     <Cell><Data ss:Type="String">Choose an artifact creature to gain %d +1/+1 counters.</Data></Cell>
     <Cell><Data ss:Type="String">Choose an artifact creature to gain %d +1/+1 counters.</Data></Cell>
+   </Row>
    <Row ss:AutoFitHeight="0">
     <Cell><Data ss:Type="String">KICKER_QUERY_MOLD_SHAMBLER_UNKICKED</Data></Cell>
     <Cell ss:Index="3"><Data ss:Type="String">Cast Mold Shambler.</Data></Cell>
@@ -1505,7 +1507,7 @@
    <Row ss:AutoFitHeight="0">
     <Cell><Data ss:Type="String">Z_DECK_AFFINITY</Data></Cell>
     <Cell ss:Index="3"><Data ss:Type="String">Affinity for Trouble</Data></Cell>
-    <Cell><Data ss:Type="String">Affinity for Trouble</Data></Cell>
+    <Cell><Data ss:Type="String">Affinité pour les Ennuis</Data></Cell>
     <Cell><Data ss:Type="String">Affinity for Trouble</Data></Cell>
     <Cell><Data ss:Type="String">Affinity for Trouble</Data></Cell>
     <Cell><Data ss:Type="String">Affinity for Trouble</Data></Cell>
@@ -1513,7 +1515,32 @@
     <Cell><Data ss:Type="String">Affinity for Trouble</Data></Cell>
     <Cell><Data ss:Type="String">Affinity for Trouble</Data></Cell>
     <Cell><Data ss:Type="String">Affinity for Trouble</Data></Cell>
-   </Row>  </Table>
+   </Row>  
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">PLAYER_NAME_IMPERIOUS_PERFECT</Data></Cell>
+    <Cell ss:Index="3"><Data ss:Type="String">Imperious Perfect</Data></Cell>
+    <Cell><Data ss:Type="String">Parfaite impérieuse</Data></Cell>
+    <Cell><Data ss:Type="String">Perfecta arrogante</Data></Cell>
+    <Cell><Data ss:Type="String">Gebieterischer Perfekter</Data></Cell>
+    <Cell><Data ss:Type="String">Perfetta Autoritaria</Data></Cell>
+    <Cell ss:Index="9"><Data ss:Type="String">傲慢な完全者</Data></Cell>
+    <Cell><Data ss:Type="String">Imperious Perfect</Data></Cell>
+    <Cell><Data ss:Type="String">Совершенная Повелительница</Data></Cell>
+    <Cell><Data ss:Type="String">Perfeita Imperiosa</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Z_DECK_ELVES</Data></Cell>
+    <Cell ss:Index="3"><Data ss:Type="String">Elvish Army</Data></Cell>
+    <Cell><Data ss:Type="String">Armée Elfe</Data></Cell>
+    <Cell><Data ss:Type="String">Elvish Army</Data></Cell>
+    <Cell><Data ss:Type="String">Elvish Army</Data></Cell>
+    <Cell><Data ss:Type="String">Elvish Army</Data></Cell>
+    <Cell ss:Index="9"><Data ss:Type="String">Elvish Army</Data></Cell>
+    <Cell><Data ss:Type="String">Elvish Army</Data></Cell>
+    <Cell><Data ss:Type="String">Elvish Army</Data></Cell>
+    <Cell><Data ss:Type="String">Elvish Army</Data></Cell>
+   </Row>
+  </Table>
   <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
    <PageSetup>
     <Header x:Margin="0.3"/>
