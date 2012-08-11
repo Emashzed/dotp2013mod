@@ -60,7 +60,6 @@
     end
     </RESOLUTION_TIME_ACTION>
     <RESOLUTION_TIME_ACTION>
-	local player = EffectController()
     local filter = Object():GetFilter()  
     filter:Clear()  
     filter:NotTargetted()   
@@ -77,7 +76,7 @@
     <RESOLUTION_TIME_ACTION>
 	for i = 0,3 do
     	local target = EffectDC():Get_Targets(2):Get_NthCardPtr(i)
-    	if target~= nil then
+    	if target ~= nil then
     		target:Untap()
     	end
     end
