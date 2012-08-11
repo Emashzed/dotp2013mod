@@ -1,0 +1,56 @@
+﻿<?xml version='1.0'?>
+<CARD_V2>
+  <FILENAME text="DOUBLING_SEASON_112272" />
+  <CARDNAME text="DOUBLING_SEASON" />
+  <TITLE>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Doubling Season]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Stagione del Raddoppio]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Zeit der Verdopplung]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Saison de dédoublement]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Temporada duplicadora]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[倍増の季節]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[Doubling Season]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Сезон удвоения]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Temporada da Multiplicação]]></LOCALISED_TEXT>
+  </TITLE>
+  <MULTIVERSEID value="112272" />
+  <ARTID value="888112272" />
+  <ARTIST name="Wayne Reynolds" />
+  <CASTING_COST cost="{4}{G}" />
+  <TYPE metaname="Enchantment" />
+  <EXPANSION value="RAV" />
+  <RARITY metaname="R" />
+  <TRIGGERED_ABILITY internal="1" pre_trigger="1" filter_zone="ZONE_IN_PLAY">
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[If an effect would put one or more tokens onto the battlefield under your control, it puts twice that many of those tokens onto the battlefield instead.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Si un effet devait mettre sur le champ de bataille au moins un jeton sous votre contrôle, il met sur le champ de bataille deux fois ce nombre de jetons à la place.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Si un efecto fuera a poner una o más fichas en el campo de batalla bajo tu control, en vez de eso, pone en el campo de batalla el doble de esas fichas.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Falls ein Effekt einen oder mehrere Spielsteine unter deiner Kontrolle ins Spiel bringen würde, bringt er stattdessen doppelt so viele Spielsteine ins Spiel.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Se un effetto sta per mettere sul campo di battaglia una o più pedine sotto il tuo controllo, mette invece sul campo di battaglia il doppio di quelle pedine.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[いずれかの効果により１個以上のトークンがあなたのコントロール下で戦場に出る場合、代わりにそれはその２倍の数のトークンを戦場に出す。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[어떤 효과가 한 개 이상의 토큰을 당신의 조종하에 전장에 놓으려 한다면, 그 대신에 그 효과는 그 숫자의 두 배만큼의 토큰을 전장에 놓는다.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Если эффект должен положить одну или более фишек на поле битвы под вашим контролем, вместо этого он кладет на поле битвы в два раза больше таких фишек.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Se um efeito for colocar uma ou mais fichas no campo de batalha sob o seu controle, em vez disso, ele coloca no campo de batalha o dobro daquela quantidade de fichas.]]></LOCALISED_TEXT>
+    <TRIGGER value="PLAYER_PUT_TOKENS_INTO_PLAY" simple_qualifier="controller" />
+    <RESOLUTION_TIME_ACTION>
+    SetAmount( GetAmount() * 2 )
+    </RESOLUTION_TIME_ACTION>
+  </TRIGGERED_ABILITY>
+  <TRIGGERED_ABILITY internal="1" pre_trigger="1" filter_zone="ZONE_IN_PLAY">
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[If an effect would place one or more counters on a permanent you control, it places twice that many of those counters on that permanent instead.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Se un effetto sta per mettere su un permanente che controlli uno o più segnalini, invece mette su quel permanente il doppio di quei segnalini.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Würde ein Effekt einen oder mehrere Marken auf eine bleibende Karte, die du kontrollierst, legen, legt er stattdessen doppelt so viele auf diese bleibende Karte.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Si un effet devait placer au moins un marqueur sur un permanent que vous contrôlez, il place deux fois ce nombre de marqueurs sur ce permanent à la place.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Si un efecto fuera a poner en juego uno o más contadores sobre un permanente que controlas, en vez de eso, pone en juego el doble de esa cantidad sobre ese permanente.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[いずれかの効果によりあなたがコントロールするパーマネントの上にカウンターが置かれる場合、代わりにそれはその２倍の数をパーマネントの上に置く。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[If an effect would place one or more counters on a permanent you control, it places twice that many of those counters on that permanent instead.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Если эффект должен поместить на перманент, который вы контролируете, один или более счетчиков, вместо этого он помещает вдвое больше.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Se um efeito for colocar um ou mais marcadores em uma permanente que você controla, ao invés disso, ele colocará o dobro naquela permanente.]]></LOCALISED_TEXT>
+    <TRIGGER value="COUNTERS_CHANGED">
+    return TriggerObject():GetPlayer() == Object():GetPlayer() and GetAmount() &gt; 0
+    </TRIGGER>
+    <RESOLUTION_TIME_ACTION>
+    SetAmount( GetAmount() * 2 )
+    </RESOLUTION_TIME_ACTION>
+  </TRIGGERED_ABILITY>
+  <AI_BASE_SCORE score="1200" zone="ZONE_IN_PLAY" />
+</CARD_V2>

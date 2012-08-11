@@ -1,0 +1,65 @@
+<?xml version='1.0'?>
+<CARD_V2>
+  <FILENAME text="QUEST_FOR_RENEWAL_194007" />
+  <CARDNAME text="QUEST_FOR_RENEWAL" />
+  <TITLE>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Quest for Renewal]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[In Cerca del Rinnovamento]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Suche nach der Erneuerung]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Quête du Renouveau]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Búsqueda de la renovación]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[復活の探索]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[Quest for Renewal]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Поиски Возрождения]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Busca por Renovação]]></LOCALISED_TEXT>
+  </TITLE>
+  <MULTIVERSEID value="194007" />
+  <ARTID value="888194007" />
+  <ARTIST name="Tomasz Jedruszek" />
+  <CASTING_COST cost="{1}{G}" />
+  <TYPE metaname="Enchantment" />
+  <EXPANSION value="DPG" />
+  <RARITY metaname="U" />
+  <TRIGGERED_ABILITY internal="1" filter_zone="ZONE_IN_PLAY">
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Whenever a creature you control becomes tapped, you may put a quest counter on Quest for Renewal.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Ogniqualvolta una creatura che controlli viene TAPpata, puoi mettere un segnalino ricerca su In Cerca del Rinnovamento.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Immer wenn eine Kreatur getappt wird, die du kontrollierst, kannst du eine Quest-Marke auf die Suche nach der Erneuerung legen.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[À chaque fois qu'une créature que vous contrôlez devient engagée, vous pouvez mettre un marqueur « quête » sur la Quête du Renouveau.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Siempre que una criatura que controles sea girada, puedes poner un contador de búsqueda sobre la Búsqueda de la renovación.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[あなたがコントロールするクリーチャーが１体タップ状態になるたび、あなたは復活の探索の上に探索カウンターを１個置いてもよい。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[Whenever a creature you control becomes tapped, you may put a quest counter on Quest for Renewal.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Каждый раз когда существо под вашим контролем поворачивается, вы можете положить жетон странствий на Поиски Возрождения.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Toda vez que uma criatura que você controla se torna virada, você pode colocar um marcador de busca em Busca por Renovação.]]></LOCALISED_TEXT>
+    <TRIGGER value="BECAME_TAPPED">
+    return TriggerObject():GetController() == EffectController() and TriggerObject():GetCardType():Test( CARD_TYPE_CREATURE ) ~= 0 
+    </TRIGGER>
+    <RESOLUTION_TIME_ACTION>
+    if EffectSource() ~= nil then
+        EffectSource():AddCounters( MTG():GetCountersType("QUEST_COUNTER"), 1 )
+    end
+    </RESOLUTION_TIME_ACTION>
+  </TRIGGERED_ABILITY>
+  <TRIGGERED_ABILITY internal="1" filter_zone="ZONE_IN_PLAY">
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[As long as there are four or more quest counters on Quest for Renewal, untap all creatures you control during each other player's untap step.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Fintanto che ci sono quattro o più segnalini ricerca su In Cerca del Rinnovamento, STAPpa tutte le creature che controlli durante lo STAP di ogni altro giocatore.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[So lange vier oder mehr Quest-Marken auf der Suche nach der Erneuerung liegen, enttappe alle Kreaturen, die du kontrollierst, während des Entappsegments jedes anderen Spielers.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Tant qu'il y a au moins quatre marqueurs « quête » sur la Quête du Renouveau, dégagez toutes les créatures que vous contrôlez pendant l'étape de dégagement de chaque autre joueur.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Mientras haya cuatro o más contadores de búsqueda sobre la Búsqueda de la renovación, endereza todas las criaturas que controlas durante el paso de enderezar de cada uno de los otros jugadores.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[復活の探索の上に４個以上の探索カウンターが置かれているかぎり、他の各プレイヤーのアンタップ・ステップ中にあなたがコントロールするすべてのクリーチャーをアンタップする。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[As long as there are four or more quest counters on Quest for Renewal, untap all creatures you control during each other player's untap step.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Пока на Поисках Возрождения есть не менее четырех жетонов странствий, разворачивайте все существа под вашим контролем во время шага разворота каждого другого игрока.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Enquanto houver quatro ou mais marcadores de busca em Busca por Renovação, desvire todas as criaturas que você controla durante a etapa de desvirar de cada um dos outros jogadores.]]></LOCALISED_TEXT>
+    <TRIGGER value="END_OF_STEP">
+      local counters = Object():CountCounters(MTG():GetCountersType("QUEST_COUNTER"))
+      return ( counters &gt; 3 and MTG():GetStep() == STEP_UNTAP and Object():GetController():MyTurn() == 0)
+    </TRIGGER>
+    <FILTER>
+    return CreaturesYouControl()
+    </FILTER>
+    <RESOLUTION_TIME_ACTION>
+    if FilteredCard() ~= nil then
+      FilteredCard():Untap()
+    end
+    </RESOLUTION_TIME_ACTION>
+  </TRIGGERED_ABILITY>
+</CARD_V2>

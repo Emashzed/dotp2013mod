@@ -1,0 +1,51 @@
+<?xml version='1.0'?>
+<CARD_V2>
+  <FILENAME text="RITE_OF_PASSAGE_51163" />
+  <CARDNAME text="RITE_OF_PASSAGE" />
+  <TITLE>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Rite of Passage]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Rito di Transizione]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Übergangsritus]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Rite de passage]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Rito de pasaje]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[通過の儀式]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[Rite of Passage]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Rite of Passage]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Rito de Passagem]]></LOCALISED_TEXT>
+  </TITLE>
+  <MULTIVERSEID value="51163" />
+  <ARTID value="88851163" />
+  <ARTIST name="Kev Walker" />
+  <CASTING_COST cost="{2}{G}" />
+  <FLAVOURTEXT>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Every scar is a lesson, every battle a test of what you have learned.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Ogni cicatrice è una lezione, ogni battaglia mette alla prova ciò che hai imparato.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Jede Narbe ist eine Lektion, jede Schlacht ein Test dessen, was man gelernt hat.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Chaque cicatrice est une leçon et chaque combat teste ce que vous avez appris.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Cada cicatriz es una lección, cada batalla, una prueba de lo que haz aprendido.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[すべての傷は学習だ。そしてすべての戦いは、何を学習したのかを示す試験だ。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[Every scar is a lesson, every battle a test of what you have learned.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Every scar is a lesson, every battle a test of what you have learned.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Cada cicatriz é uma lição, cada batalha é um teste do que você aprendeu.]]></LOCALISED_TEXT>
+  </FLAVOURTEXT>
+  <TYPE metaname="Enchantment" />
+  <EXPANSION value="DPG" />
+  <RARITY metaname="R" />
+  <TRIGGERED_ABILITY dangerous="1" filter_zone="ZONE_IN_PLAY">
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Whenever a creature you control is dealt damage, put a +1/+1 counter on it. (The damage is dealt before the counter is put on.)]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Ogniqualvolta viene inflitto danno a una creatura che controlli, metti un segnalino +1/+1 su di essa. (Il danno viene inflitto prima che venga messo il segnalino.)]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Immer wenn einer Kreatur, die du kontrollierst, Schaden zugefügt wird, lege eine +1/+1-Marke auf sie. (Der Schaden wird zugefügt, bevor die Marke auf sie gelegt wird.)]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[À chaque fois qu'une créature que vous contrôlez subit des blessures, mettez un marqueur +1/+1 sur elle. (Les blessures sont infligées avant le placement du marqueur.)]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Siempre que una criatura que controles reciba daño, pon un contador +1/+1 sobre ella. (El daño se hace antes de que le pongas el contador.)]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[あなたがコントロールするいずれかのクリーチャーにダメージが与えられるたび、それの上に+1/+1カウンターを１個置く。（ダメージはカウンターを置く前に与えられる。）]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[Whenever a creature you control is dealt damage, put a +1/+1 counter on it. (The damage is dealt before the counter is put on.)]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Whenever a creature you control is dealt damage, put a +1/+1 counter on it. (The damage is dealt before the counter is put on.)]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Toda vez que uma criatura que você controla sofrer dano, coloque um marcador +1/+1 nela. (O dano é causado antes que o marcador seja colocado.)]]></LOCALISED_TEXT>
+    <TRIGGER value="CREATURE_TOOK_DAMAGE">
+    return TriggerObject():GetController() == Object():GetController()
+    </TRIGGER>
+    <RESOLUTION_TIME_ACTION>
+    TriggerObject():AddCounters( MTG():PlusOnePlusOneCounters(), 1 )
+    </RESOLUTION_TIME_ACTION>
+  </TRIGGERED_ABILITY>
+</CARD_V2>
