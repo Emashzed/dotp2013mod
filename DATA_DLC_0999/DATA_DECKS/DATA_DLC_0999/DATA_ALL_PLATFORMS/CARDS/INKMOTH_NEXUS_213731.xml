@@ -1,0 +1,86 @@
+<?xml version='1.0'?>
+<CARD_V2>
+  <FILENAME text="INKMOTH_NEXUS_213731" />
+  <CARDNAME text="INKMOTH_NEXUS" />
+  <TITLE>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Inkmoth Nexus]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Nexus degli Atrodotteri]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Tintenmotten-Nexus]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Nexus des encrimites]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Nexo de polillas de tinta]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[墨蛾の生息地]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[Inkmoth Nexus]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Нексус Черномолей]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Nexo de Mosco-tintas]]></LOCALISED_TEXT>
+  </TITLE>
+  <MULTIVERSEID value="213731" />
+  <ARTID value="888213731" />
+  <ARTIST name="Jung Park" />
+  <CASTING_COST cost="" />
+  <TYPE metaname="Land" />
+  <EXPANSION value="DPG" />
+  <RARITY metaname="R" />
+  <MANA_ABILITY>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[{T}: Add {1} to your mana pool.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[{T}: Aggiungi {1} alla tua riserva di mana.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[{T}: Erhöhe deinen Manavorrat um {1}.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[{T} : Ajoutez {1} à votre réserve.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[{T}: Agrega {1} a tu reserva de maná.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[{T}：あなたのマナ・プールに{1}を加える。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[{T}: Add {1} to your mana pool.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[{T}: добавьте {1} в ваше хранилище маны.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[{T}: Adicione {1} à sua reserva de mana.]]></LOCALISED_TEXT>
+    <COST type="TapSelf" />
+    <PRODUCES amount="{1}" />
+  </MANA_ABILITY>
+  <ACTIVATED_ABILITY filter_zone="ZONE_IN_PLAY">
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[{1}: Inkmoth Nexus becomes a 1/1 Blinkmoth artifact creature with flying and infect until end of turn. It's still a land. (It deals damage to creatures in the form of -1/-1 counters and to players in the form of poison counters.)]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[{1}: Il Nexus degli Atrodotteri diventa una creatura artefatto Lampidottero 1/1 con volare e infettare fino alla fine del turno. È ancora una terra. (Questa creatura infligge danno alle creature sotto forma di segnalini -1/-1 e ai giocatori sotto forma di segnalini veleno.)]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[{1}: Der Tintenmotten-Nexus wird bis zum Ende des Zuges zu einer 1/1 Blinkmotten-Artefaktkreatur mit Flugfähigkeit und Infizieren. Er ist immer noch ein Land. (Er fügt Schaden in Form von -1/-1-Marken für Kreaturen und von Giftmarken für Spieler zu.)]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[{1} : Le Nexus des encrimites devient une créature-artefact 1/1 Scintimite avec le vol et l'infection jusqu'à la fin du tour. C'est toujours un terrain. (Il inflige des blessures aux créatures sous la forme de marqueurs -1/-1 et aux joueurs sous la forme de marqueurs « poison ».)]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[{1}: El Nexo de polillas de tinta se convierte en una criatura artefacto Polilla-titilante 1/1 con las habilidades de volar e infectar hasta el final del turno. Sigue siendo una tierra. (Hace daño a las criaturas en forma de contadores -1/-1 y a los jugadores en forma de contadores de veneno.)]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[{1}：墨蛾の生息地は、ターン終了時まで飛行と感染を持つ１/１のちらつき蛾・アーティファクト・クリーチャーになる。 それは土地でもある。 （それはクリーチャーに－１/－１カウンターの形でダメージを与え、プレイヤーに毒カウンターの形でダメージを与える。）]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[{1}: Inkmoth Nexus becomes a 1/1 Blinkmoth artifact creature with flying and infect until end of turn. It's still a land. (It deals damage to creatures in the form of -1/-1 counters and to players in the form of poison counters.)]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[{1}: Нексус Черномолей становится артефактным существом 1/1 Мерцмоль с Полетом и Инфекцией до конца хода. При этом он остается землей. (Он наносит повреждения существам в виде жетонов -1/-1, а игрокам в виде жетонов яда.)]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[{1}: Nexo de Mosco-tintas torna-se uma criatura artefato 1/1 do tipo Mosco-lume com voar e infectar até o final do turno. Ela ainda conta como um terreno. (Ela causa dano a criaturas na forma de marcadores -1/-1 e a jogadores na forma de marcadores de veneno.)]]></LOCALISED_TEXT>
+    <COST type="Mana" cost="{1}" />
+    <CONTINUOUS_ACTION layer="3">
+    	
+    -- Silly Nexus uses its own colorless mana to transform itself. 
+    -- Makes the card mostly useless.
+    -- Hope someone eventually finds a fix for that.
+    	
+    local target = Object()
+    if target ~= nil then
+    	local characteristics = target:GetCurrentCharacteristics()
+    	characteristics:CardType_GetWritable(target):Add( CARD_TYPE_ARTIFACT, target )
+    	characteristics:CardType_GetWritable(target):Add( CARD_TYPE_CREATURE, target )
+    end 
+    </CONTINUOUS_ACTION>
+    <CONTINUOUS_ACTION layer="7B">
+    local target = Object()
+    if target ~= nil then
+    	local characteristics = target:GetCurrentCharacteristics()
+    	characteristics:Power_Set( 1 ) 
+    	characteristics:Toughness_Set( 1 ) 
+    end
+    </CONTINUOUS_ACTION>
+    <CONTINUOUS_ACTION layer="4">
+    local target = Object()
+    if target ~= nil then
+    	target:GetCurrentCharacteristics():SubType_GetWritable(target):Add( CREATURE_TYPE_BLINKMOTH, target )
+    end
+    </CONTINUOUS_ACTION>
+    <CONTINUOUS_ACTION layer="6">
+    local target = Object()
+    if target ~= nil then  
+    	local characteristics = target:GetCurrentCharacteristics()
+    	characteristics:Characteristic_Set( CHARACTERISTIC_FLYING, 1 )
+    	characteristics:Characteristic_Set( CHARACTERISTIC_INFECT, 1 )
+   end
+    </CONTINUOUS_ACTION>
+    <DURATION simple_duration="UntilEOT" />
+    <AI_AVAILABILITY step="main_1" turn="my_turn" />
+    <AI_AVAILABILITY step="declare_blockers" blocking_or_blocked="1" />
+  </ACTIVATED_ABILITY>
+</CARD_V2>
