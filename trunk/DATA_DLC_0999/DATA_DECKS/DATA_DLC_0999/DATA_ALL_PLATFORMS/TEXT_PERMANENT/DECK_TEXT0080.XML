@@ -532,6 +532,18 @@
     <Cell><Data ss:Type="String">Получить 5 повреждений.</Data></Cell>
     <Cell><Data ss:Type="String">Receba 5 de dano.</Data></Cell>
    </Row>
+   <Row>
+    <Cell><Data ss:Type="String">CARD_QUERY_CHOOSE_CREATURE_TO_GET_4_4</Data></Cell>
+    <Cell ss:Index="3"><Data ss:Type="String">Choose a creature to get +4/+4.</Data></Cell>
+    <Cell><Data ss:Type="String">Choisissez une créature pour lui faire gagner +4/+4.</Data></Cell>
+    <Cell><Data ss:Type="String">Elige una criatura para que obtenga +4/+4.</Data></Cell>
+    <Cell><Data ss:Type="String">Bestimme eine Kreatur, die +4/+4 erhalten soll.</Data></Cell>
+    <Cell><Data ss:Type="String">Scegli una creatura che prende +4/+4.</Data></Cell>
+    <Cell ss:Index="9"><Data ss:Type="String">＋4/＋4の修整を受けるクリーチャーを選択。</Data></Cell>
+    <Cell><Data ss:Type="String">+4/+43을 받을 생물 한 개를 고르십시오.</Data></Cell>
+    <Cell><Data ss:Type="String">Выберите существо, которое получит +4/+4.</Data></Cell>
+    <Cell><Data ss:Type="String">Escolha uma criatura para receber +4/+4.</Data></Cell>
+   </Row>
    <Row ss:AutoFitHeight="0">
     <Cell><Data ss:Type="String">CARD_SUBTYPE_ASSEMBLY_WORKER</Data></Cell>
     <Cell><Data ss:Type="String">Subtype Text for Assembly_worker</Data></Cell>
@@ -1611,6 +1623,30 @@
     <Cell><Data ss:Type="String">Metal Gob</Data></Cell>
     <Cell><Data ss:Type="String">Metal Gob</Data></Cell>
     <Cell><Data ss:Type="String">Metal Gob</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">PLAYER_NAME_TERRA_STOMPER</Data></Cell>
+    <Cell ss:Index="3"><Data ss:Type="String">Terra Stomper</Data></Cell>
+    <Cell><Data ss:Type="String">Piétineur terrestre</Data></Cell>
+    <Cell><Data ss:Type="String">Aplastatierra</Data></Cell>
+    <Cell><Data ss:Type="String">Festlandzertreter</Data></Cell>
+    <Cell><Data ss:Type="String">Calcaterra</Data></Cell>
+    <Cell ss:Index="9"><Data ss:Type="String">土を踏み付けるもの</Data></Cell>
+    <Cell><Data ss:Type="String">Metal Gob</Data></Cell>
+    <Cell><Data ss:Type="String">Земной Тяжелоступ</Data></Cell>
+    <Cell><Data ss:Type="String">Pisoteador de Terreno</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Z_DECK_TRAMPLING_MOB</Data></Cell>
+    <Cell ss:Index="3"><Data ss:Type="String">Trampling Mob</Data></Cell>
+    <Cell><Data ss:Type="String">Horde Ecrasante</Data></Cell>
+    <Cell><Data ss:Type="String">Trampling Mob</Data></Cell>
+    <Cell><Data ss:Type="String">Trampling Mob</Data></Cell>
+    <Cell><Data ss:Type="String">Trampling Mob</Data></Cell>
+    <Cell ss:Index="9"><Data ss:Type="String">Trampling Mob</Data></Cell>
+    <Cell><Data ss:Type="String">Trampling Mob</Data></Cell>
+    <Cell><Data ss:Type="String">Trampling Mob</Data></Cell>
+    <Cell><Data ss:Type="String">Trampling Mob</Data></Cell>
    </Row>
   </Table>
   <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">

@@ -1,0 +1,91 @@
+<?xml version='1.0'?>
+<CARD_V2>
+  <FILENAME text="GROUNDSWELL_193998" />
+  <CARDNAME text="GROUNDSWELL" />
+  <TITLE>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Groundswell]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Terreno Ondoso]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Landhebung]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Lame de fond]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Suelo de fondo]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[地うねり]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[Groundswell]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Земляные Волны]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Maremoto]]></LOCALISED_TEXT>
+  </TITLE>
+  <MULTIVERSEID value="193998" />
+  <ARTID value="888193998" />
+  <ARTIST name="Chris Rahn" />
+  <CASTING_COST cost="{G}" />
+  <FLAVOURTEXT>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA["This world will not be tamed."]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA["Questo mondo non sarà mai domato."]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[„Diese Welt wird sich nicht zähmen lassen."]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[« Ce monde ne sera jamais dompté. »]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA["Este mundo no será domesticado."]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[「この世界は飼いならしようが無い。」]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA["This world will not be tamed."]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[«Этот мир не дает себя укротить».]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA["Este mundo não será domado."]]></LOCALISED_TEXT>
+  </FLAVOURTEXT>
+  <TYPE metaname="Instant" />
+  <EXPANSION value="DPG" />
+  <RARITY metaname="C" />
+  <SPELL_ABILITY>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Target creature gets +2/+2 until end of turn.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Una creatura bersaglio prende +2/+2 fino alla fine del turno.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Eine Kreatur deiner Wahl erhält +2/+2 bis zum Ende des Zuges.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[La créature ciblée gagne +2/+2 jusqu'à la fin du tour.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[La criatura objetivo obtiene +2/+2 hasta el final del turno.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[クリーチャー１体を対象とする。それはターン終了時まで＋２/＋２の修整を受ける。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[Target creature gets +2/+2 until end of turn.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Целевое существо получает +2/+2 до конца хода.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[A criatura alvo recebe +2/+2 até o final do turno.]]></LOCALISED_TEXT>
+    <TARGET_DEFINITION>
+    local filter = Object():GetFilter()
+    filter:Clear()
+    filter:AddCardType( CARD_TYPE_CREATURE )
+    filter:SetZone( ZONE_IN_PLAY )
+    filter:SetHint( HINT_ALLIED_ONLY, EffectController() )
+    </TARGET_DEFINITION>
+    <TARGET_DETERMINATION>
+    return AtLeastOneTargetFromDefinition(0)
+    </TARGET_DETERMINATION>
+    <PLAY_TIME_ACTION target_choosing="1">
+    local player = EffectController()
+    if MTG():Interrogate_CardsOfTypeOntoBattlefieldThisTurn( player, CARD_TYPE_LAND, 1 ) == 1 then
+    	player:ChooseTarget( 0, "CARD_QUERY_CHOOSE_CREATURE_TO_GET_4_4", EffectDC():Make_Targets(0) )
+    else
+    	player:ChooseTarget( 0, "CARD_QUERY_CHOOSE_CREATURE_TO_GET_2_2", EffectDC():Make_Targets(0) )
+    end
+    </PLAY_TIME_ACTION>
+    <CONTINUOUS_ACTION layer="7C">
+    local player = EffectController()
+    local amount = 2
+    if MTG():Interrogate_CardsOfTypeOntoBattlefieldThisTurn( player, CARD_TYPE_LAND, 1 ) == 1 then
+    	amount = 4
+    end
+    local target = EffectDC():Get_Targets(0):Get_CardPtr(0)
+    if target ~= nil then
+    	local characteristics = target:GetCurrentCharacteristics()
+    	characteristics:Power_Add( amount )
+    	characteristics:Toughness_Add( amount )
+    end
+    </CONTINUOUS_ACTION>
+    <DURATION simple_duration="UntilEOT" />
+  </SPELL_ABILITY>
+  <SPELL_ABILITY>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Landfall — If you had a land enter the battlefield under your control this turn, that creature gets +4/+4 until end of turn instead.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Terraferma — Se hai fatto entrare nel campo di battaglia una terra sotto il tuo controllo in questo turno, quella creatura prende invece +4/+4 fino alla fine del turno.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Landung — Falls ein Land unter deiner Kontrolle in diesem Zug ins Spiel gekommen ist, erhält diese Kreatur stattdessen +4/+4 bis zum Ende des Zuges.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Toucheterre — Si vous avez fait arriver un terrain sur le champ de bataille sous votre contrôle ce tour-ci, cette créature gagne +4/+4 jusqu'à la fin du tour à la place.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Aterrizaje — Si una tierra entró al campo de batalla bajo tu control este turno, en vez de eso, esa criatura obtiene +4/+4 hasta el final del turno.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[上陸 ― このターン、あなたのコントロール下で土地が戦場に出ている場合、代わりにそのクリーチャーはターン終了時まで＋４/＋４の修整を受ける。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[Landfall - If you had a land enter the battlefield under your control this turn, that creature gets +4/+4 until end of turn instead.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Землепад — Если земля вышла на поле битвы под вашим контролем в этом ходу, то вместо этого то существо получает +4/+4 до конца хода.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Aterragem — Se você teve um terreno que entrou no campo de batalha sob o seu controle neste turno, em vez disso, aquela criatura recebe +4/+4 até o final do turno.]]></LOCALISED_TEXT>
+  </SPELL_ABILITY>
+  <AI_AVAILABILITY step="declare_blockers" />
+  <AI_AVAILABILITY type="in_response_dangerous" />
+  <AI_BASE_SCORE score="750" zone="ZONE_HAND" />
+</CARD_V2>
