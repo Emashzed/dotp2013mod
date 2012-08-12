@@ -1,0 +1,86 @@
+<?xml version='1.0'?>
+<CARD_V2>
+  <FILENAME text="VINES_OF_VASTWOOD_177571" />
+  <CARDNAME text="VINES_OF_VASTWOOD" />
+  <TITLE>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Vines of Vastwood]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Viticci di Boscovasto]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Ranken des Riesenholzes]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Vignes de Vastebois]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Enredaderas del Bosque Extenso]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[巨森の蔦]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[Vines of Vastwood]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Лианы Широколесья]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Trepadeira de Matavasta]]></LOCALISED_TEXT>
+  </TITLE>
+  <MULTIVERSEID value="177571" />
+  <ARTID value="888177571" />
+  <ARTIST name="Christopher Moeller" />
+  <CASTING_COST cost="{G}" />
+  <TYPE metaname="Instant" />
+  <EXPANSION value="DPG" />
+  <RARITY metaname="C" />
+  <UTILITY_ABILITY filter_zone="ZONE_IN_PLAY">
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Kicker {G} (You may pay an additional {G} as you cast this spell.)]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Potenziamento {G} (Puoi pagare {G} addizionale quando lanci questa magia.)]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Bonus {G} (Du kannst zusätzlich {G} bezahlen, sowie du diesen Zauberspruch wirkst.)]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Kick {G} (Vous pouvez payer {G} supplémentaire au moment où vous lancez ce sort.)]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Estímulo {G}. (Puedes pagar {G} adicional en cuanto lances este hechizo.)]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[キッカー {G} （あなたはこの呪文を唱えるに際し、追加で{G}を支払ってもよい。）]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[Kicker {G} (You may pay an additional {G} as you cast this spell.)]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Усилитель {G} (Вы можете заплатить дополнительно {G} при разыгрывании этого заклинания.)]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Reforçar {G} (Você pode pagar um custo adicional de {G} ao conjurar esta mágica.)]]></LOCALISED_TEXT>
+    <COST type="Mana" cost="{G}" qualifier="Kicker" />
+  </UTILITY_ABILITY>
+  <SPELL_ABILITY>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Target creature can't be the target of spells or abilities your opponents control this turn. If Vines of Vastwood was kicked, that creature gets +4/+4 until end of turn.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Una creatura bersaglio non può essere bersaglio di magie o abilità controllate dai tuoi avversari in questo turno. Se i Viticci di Boscovasto sono stati potenziati, quella creatura prende +4/+4 fino alla fine del turno.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Eine Kreatur deiner Wahl kann in diesem Zug nicht das Ziel von Zaubersprüchen und Fähigkeiten, die deine Gegner kontrollieren, sein. Falls die Bonuskosten von Ranken des Riesenholzes bezahlt wurden, erhält diese Kreatur +4/+4 bis zum Ende des Zuges.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[La créature ciblée ne peut pas être la cible de sorts ou de capacités que vos adversaires contrôlent ce tour-ci. Si les Vignes de Vastebois ont été kickées, cette créature gagne +4/+4 jusqu'à la fin du tour.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[La criatura objetivo no puede ser objetivo de hechizos o habilidades que controlen tus oponentes este turno. Si las Enredaderas del Bosque Extenso fueron estimuladas, esa criatura obtiene +4/+4 hasta el final del turno.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[クリーチャー１体を対象とする。このターン、それはあなたの対戦相手がコントロールする呪文や能力の対象にならない。 巨森の蔦がキッカーされている場合、そのクリーチャーはターン終了時まで＋４/＋４の修整を受ける。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[Target creature can't be the target of spells or abilities your opponents control this turn. If Vines of Vastwood was kicked, that creature gets +4/+4 until end of turn.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Целевое существо не может быть целью заклинаний или способностей под контролем ваших оппонентов в этом ходу. Если Лианы Широколесья получили Усилитель, тогда то существо получает +4/+4 до конца хода.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[A criatura alvo não pode ser alvo de mágicas nem de habilidades que seus oponentes controlam neste turno. Se Trepadeira de Matavasta foi reforçado, aquela criatura recebe +4/+4 até o final do turno.]]></LOCALISED_TEXT>
+    <TARGET_DEFINITION id="0">
+    local filter = Object():GetFilter()
+    filter:Clear()
+    filter:AddCardType( CARD_TYPE_CREATURE )
+    filter:SetZone( ZONE_IN_PLAY )
+    filter:SetHint( HINT_ALLIED_ONLY, EffectController() )
+    </TARGET_DEFINITION>
+    <TARGET_DETERMINATION>
+    return AtLeastOneTargetFromDefinition(0)
+    </TARGET_DETERMINATION>
+    <PLAY_TIME_ACTION target_choosing="1">
+       EffectController():ChooseTarget( 0, "CARD_QUERY_CHOOSE_CREATURE_TO_GET_HEXPROOF", EffectDC():Make_Targets(0) )
+    </PLAY_TIME_ACTION>
+    <RESOLUTION_TIME_ACTION>
+    if ( Object():Kicked() &gt; 0 ) then
+       EffectDC():Set_Int(1, 4)
+    else
+       EffectDC():Set_Int(1, 0)
+    end
+    </RESOLUTION_TIME_ACTION>
+    <CONTINUOUS_ACTION layer="7C">
+    local target = EffectDC():Get_Targets(0):Get_CardPtr(0)
+    if target ~= nil then
+       local bonus = EffectDC():Get_Int(1)
+       local characteristics = target:GetCurrentCharacteristics()
+       characteristics:Power_Add( bonus )
+       characteristics:Toughness_Add( bonus )
+    end
+    </CONTINUOUS_ACTION>
+    <CONTINUOUS_ACTION layer="6">
+    local target = EffectDC():Get_Targets(0):Get_CardPtr(0)
+    if target ~= nil then
+       local characteristics = target:GetCurrentCharacteristics()
+       characteristics:Characteristic_Set( CHARACTERISTIC_HEXPROOF, 1 )
+    end
+    </CONTINUOUS_ACTION>
+    <DURATION simple_duration="UntilEOT" />
+  </SPELL_ABILITY>
+  <AI_AVAILABILITY step="declare_blockers" />
+  <AI_AVAILABILITY type="in_response_dangerous" />
+  <AI_BASE_SCORE score="750" zone="ZONE_HAND" />
+</CARD_V2>

@@ -545,6 +545,30 @@
     <Cell><Data ss:Type="String">Escolha uma criatura para receber +4/+4.</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">CARD_QUERY_CHOOSE_CREATURE_TO_GET_4_4_HEXPROOF</Data></Cell>
+    <Cell ss:Index="3"><Data ss:Type="String">Choose a creature to get +4/+4 and hexproof.</Data></Cell>
+    <Cell><Data ss:Type="String">Choisissez une créature pour lui faire gagner +4/+4 et la défense talismanique.</Data></Cell>
+    <Cell><Data ss:Type="String">Choose a creature to get +4/+4 and hexproof.</Data></Cell>
+    <Cell><Data ss:Type="String">Choose a creature to get +4/+4 and hexproof.</Data></Cell>
+    <Cell><Data ss:Type="String">Choose a creature to get +4/+4 and hexproof.</Data></Cell>
+    <Cell ss:Index="9"><Data ss:Type="String">Choose a creature to get +4/+4 and hexproof.</Data></Cell>
+    <Cell><Data ss:Type="String">Choose a creature to get +4/+4 and hexproof.</Data></Cell>
+    <Cell><Data ss:Type="String">Choose a creature to get +4/+4 and hexproof.</Data></Cell>
+    <Cell><Data ss:Type="String">Choose a creature to get +4/+4 and hexproof.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">CARD_QUERY_CHOOSE_CREATURE_TO_GET_HEXPROOF</Data></Cell>
+    <Cell ss:Index="3"><Data ss:Type="String">Choose a creature to get hexproof.</Data></Cell>
+    <Cell><Data ss:Type="String">Choisissez une créature pour lui faire gagner la défense talismanique.</Data></Cell>
+    <Cell><Data ss:Type="String">Choose a creature to get hexproof.</Data></Cell>
+    <Cell><Data ss:Type="String">Choose a creature to get hexproof.</Data></Cell>
+    <Cell><Data ss:Type="String">Choose a creature to get hexproof.</Data></Cell>
+    <Cell ss:Index="9"><Data ss:Type="String">Choose a creature to get hexproof.</Data></Cell>
+    <Cell><Data ss:Type="String">Choose a creature to get hexproof.</Data></Cell>
+    <Cell><Data ss:Type="String">Choose a creature to get hexproof.</Data></Cell>
+    <Cell><Data ss:Type="String">Choose a creature to get hexproof.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
     <Cell><Data ss:Type="String">CARD_SUBTYPE_ASSEMBLY_WORKER</Data></Cell>
     <Cell><Data ss:Type="String">Subtype Text for Assembly_worker</Data></Cell>
     <Cell><Data ss:Type="String">Assembly-Worker</Data></Cell>
@@ -1051,7 +1075,7 @@
    <Row ss:AutoFitHeight="0">
     <Cell><Data ss:Type="String">CARD_QUERY_CHOOSE_ARTIFACT_CREATURE_MODULAR_AMOUNT</Data></Cell>
     <Cell ss:Index="3"><Data ss:Type="String">Choose an artifact creature to gain %d +1/+1 counters.</Data></Cell>
-    <Cell><Data ss:Type="String">Choose an artifact creature to gain %d +1/+1 counters.</Data></Cell>
+    <Cell><Data ss:Type="String">Choisissez une créature artifact pour recevoir %d compteurs +1/+1.</Data></Cell>
     <Cell><Data ss:Type="String">Choose an artifact creature to gain %d +1/+1 counters.</Data></Cell>
     <Cell><Data ss:Type="String">Choose an artifact creature to gain %d +1/+1 counters.</Data></Cell>
     <Cell><Data ss:Type="String">Scegli una creatura artefatto che ottiene %d segnalini +1/+1.</Data></Cell>
@@ -1071,6 +1095,30 @@
     <Cell><Data ss:Type="String">금형 휘청 거림을 걸겠 군.</Data></Cell>
     <Cell><Data ss:Type="String">Литой Mold Shambler.</Data></Cell>
     <Cell><Data ss:Type="String">Elenco Shambler Mold.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">KICKER_QUERY_VINES_OF_VASTWOOD_KICKED</Data></Cell>
+    <Cell ss:Index="3"><Data ss:StyleID="String">Target creature has opponent shroud and gets +4/+4 until end of turn.</Data></Cell>
+    <Cell><Data ss:Type="String">La créature ciblée gagne la défense talismanique et +4/+4 jusqu'à la fin du tour.</Data></Cell>
+    <Cell><Data ss:Type="String">Target creature has opponent shroud and gets +4/+4 until end of turn.</Data></Cell>
+    <Cell><Data ss:Type="String">Target creature has opponent shroud and gets +4/+4 until end of turn.</Data></Cell>
+    <Cell><Data ss:Type="String">Target creature has opponent shroud and gets +4/+4 until end of turn.</Data></Cell>
+    <Cell ss:Index="9"><Data ss:StyleID="String">Target creature has opponent shroud and gets +4/+4 until end of turn.</Data></Cell>
+    <Cell><Data ss:Type="String">Target creature has opponent shroud and gets +4/+4 until end of turn.</Data></Cell>
+    <Cell><Data ss:Type="String">Target creature has opponent shroud and gets +4/+4 until end of turn.</Data></Cell>
+    <Cell><Data ss:Type="String">Target creature has opponent shroud and gets +4/+4 until end of turn.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">KICKER_QUERY_VINES_OF_VASTWOOD_UNKICKED</Data></Cell>
+    <Cell ss:Index="3"><Data ss:StyleID="String">Target creature has opponent shroud until end of turn.</Data></Cell>
+    <Cell><Data ss:Type="String">La créature ciblée gagne la défense talismanique jusqu'à la fin du tour.</Data></Cell>
+    <Cell><Data ss:Type="String">Target creature has opponent shroud until end of turn.</Data></Cell>
+    <Cell><Data ss:Type="String">Target creature has opponent shroud until end of turn.</Data></Cell>
+    <Cell><Data ss:Type="String">Target creature has opponent shroud until end of turn.</Data></Cell>
+    <Cell ss:Index="3"><Data ss:StyleID="String">Target creature has opponent shroud until end of turn.</Data></Cell>
+    <Cell><Data ss:Type="String">Target creature has opponent shroud until end of turn.</Data></Cell>
+    <Cell><Data ss:Type="String">Target creature has opponent shroud until end of turn.</Data></Cell>
+    <Cell><Data ss:Type="String">Target creature has opponent shroud until end of turn.</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
     <Cell><Data ss:Type="String">PLAYER_NAME_CAZORIUS</Data></Cell>
@@ -1632,7 +1680,7 @@
     <Cell><Data ss:Type="String">Festlandzertreter</Data></Cell>
     <Cell><Data ss:Type="String">Calcaterra</Data></Cell>
     <Cell ss:Index="9"><Data ss:Type="String">土を踏み付けるもの</Data></Cell>
-    <Cell><Data ss:Type="String">Metal Gob</Data></Cell>
+    <Cell><Data ss:Type="String">Terra Stomper</Data></Cell>
     <Cell><Data ss:Type="String">Земной Тяжелоступ</Data></Cell>
     <Cell><Data ss:Type="String">Pisoteador de Terreno</Data></Cell>
    </Row>
@@ -1647,6 +1695,30 @@
     <Cell><Data ss:Type="String">Trampling Mob</Data></Cell>
     <Cell><Data ss:Type="String">Trampling Mob</Data></Cell>
     <Cell><Data ss:Type="String">Trampling Mob</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">PLAYER_NAME_GLISTENER_ELF</Data></Cell>
+    <Cell ss:Index="3"><Data ss:Type="String">Glistener Elf</Data></Cell>
+    <Cell><Data ss:Type="String">Elfe luisant</Data></Cell>
+    <Cell><Data ss:Type="String">Elfo iridiscente</Data></Cell>
+    <Cell><Data ss:Type="String">Glitzernde Elfin</Data></Cell>
+    <Cell><Data ss:Type="String">Elfa Scintillante</Data></Cell>
+    <Cell ss:Index="9"><Data ss:Type="String">ぎらつかせのエルフ</Data></Cell>
+    <Cell><Data ss:Type="String">Glistener Elf</Data></Cell>
+    <Cell><Data ss:Type="String">Эльф-Умаслитель</Data></Cell>
+    <Cell><Data ss:Type="String">Elfo Brilhante</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Z_DECK_TURBO_INFECT</Data></Cell>
+    <Cell ss:Index="3"><Data ss:Type="String">Turbo Infect</Data></Cell>
+    <Cell><Data ss:Type="String">Turbo Infection</Data></Cell>
+    <Cell><Data ss:Type="String">Turbo Infect</Data></Cell>
+    <Cell><Data ss:Type="String">Turbo Infect</Data></Cell>
+    <Cell><Data ss:Type="String">Turbo Infect</Data></Cell>
+    <Cell ss:Index="9"><Data ss:Type="String">Turbo Infect</Data></Cell>
+    <Cell><Data ss:Type="String">Turbo Infect</Data></Cell>
+    <Cell><Data ss:Type="String">Turbo Infect</Data></Cell>
+    <Cell><Data ss:Type="String">Turbo Infect</Data></Cell>
    </Row>
   </Table>
   <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
