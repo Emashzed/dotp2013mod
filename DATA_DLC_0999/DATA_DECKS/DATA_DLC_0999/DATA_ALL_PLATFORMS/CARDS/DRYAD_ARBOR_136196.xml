@@ -1,0 +1,61 @@
+<?xml version='1.0'?>
+<CARD_V2>
+  <FILENAME text="DRYAD_ARBOR_136196" />
+  <CARDNAME text="DRYAD_ARBOR" />
+  <TITLE>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Dryad Arbor]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Bosco Driade]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Laube der Dryaden]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Charmille dryade]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Dríada enramada]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[ドライアドの東屋]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[Dryad Arbor]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Жилище Дриад]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Arvoredo Dríade]]></LOCALISED_TEXT>
+  </TITLE>
+  <MULTIVERSEID value="136196" />
+  <ARTID value="888136196" />
+  <ARTIST name="Eric Fortune" />
+  <CASTING_COST cost="" />
+  <COLOUR value="G" />
+  <FLAVOURTEXT>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA["Touch no tree, break no branch, and speak only the question you wish answered."—Von Yomm, elder druid, to her initiates]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA["Non toccate gli alberi, non rompete le cortecce e ponete solo la domanda a cui volete risposta."—Von Yomm, druido anziano, ai suoi iniziati]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[„Berühre keinen Baum, brich keinen Zweig ab und stelle nur die Frage, die du beantwortet bekommen willst."—Von Yomm, Altdruidin, zu ihren Novizen]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[« Ne touchez pas d'arbre, ne brisez pas de branche, posez uniquement votre question. »—Von Yomm, doyenne druide, à ses adeptes]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA["No toquen ningún árbol, no rompan ninguna rama, hagan sólo la pregunta que desean sea respondida." —Von Yomm, alto druida, a sus iniciados]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[樹触れるべからず、枝折るべからず、答を望む問いのみを発せよ。――ドルイドの古老、ヴォン・ヨムから彼女の信徒へ]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA["Touch no tree, break no branch, and speak only the question you wish answered."—Von Yomm, elder druid, to her initiates]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA["Не касайтесь деревьев, не ломайте ветвей, и задавайте только те вопросы, на которые не боитесь получить ответ."—Обращение Вон Йомм, старшей друидессы, к своим ученикам]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA["Não toquem nas árvores, não quebrem seus galhos e digam apenas a pergunta para qual buscam resposta."— Von Yomm, druida anciã, para seus pupilos]]></LOCALISED_TEXT>
+  </FLAVOURTEXT>
+  <TYPE metaname="Land" />
+  <TYPE metaname="Creature" />
+  <SUB_TYPE metaname="Forest" order_de-DE="0" order_es-ES="0" order_fr-FR="0" order_it-IT="0" order_jp-JA="0" order_ko-KR="0" order_pt-BR="0" order_ru-RU="0" />
+  <SUB_TYPE metaname="Dryad" order_de-DE="1" order_es-ES="1" order_fr-FR="1" order_it-IT="1" order_jp-JA="1" order_ko-KR="1" order_pt-BR="1" order_ru-RU="1" />
+  <EXPANSION value="DPG" />
+  <RARITY metaname="U" />
+  <POWER value="1" />
+  <TOUGHNESS value="1" />
+  <MANA_ABILITY>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[|(Dryad Arbor isn't a spell, it's affected by summoning sickness, and it has "{T}: Add {G} to your mana pool.")|]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[|(Il Bosco Driade non è una magia, ha debolezza da evocazione, e ha "{T}: Aggiungi {G} alla tua riserva di mana.")|]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[|(Die Laube der Dryaden ist kein Zauberspruch, leidet unter Einsatzverzögerung und hat „{T}: Erhöhe deinen Manavorrat um {G}".)|]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[|(La Charmille dryade n'est pas un sort, elle est affectée par le mal d'invocation et elle a « {T} : Ajoutez {G} à votre réserve. »)|]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[|(La Dríada enramada no es un hechizo, es afectado por mareo de invocación y tiene "{T}: Agrega {G} a tu reserva de maná.") La Dríada enramada es verde.|]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[|（ドライアドの東屋は呪文ではなく、召喚酔いの影響を受け、「{T}：あなたのマナ・プールに{G}を加える。」を持つ。）|]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[|(Dryad Arbor isn't a spell, it's affected by summoning sickness, and it has "{T}: Add {G} to your mana pool.")|]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[|(Жилище Дриад не является заклинанием, на него действует болезнь вызова, и оно имеет способность "{T}: Добавьте {G} в ваше хранилище маны.")|]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[|(Arvoredo Dríade não é uma mágica, é afetado por enjôo de invocação e tem "{T}: Adicione {G} à sua reserva de mana".)|]]></LOCALISED_TEXT>
+    <COST type="TapSelf" />
+    <PRODUCES amount="{G}" />
+  </MANA_ABILITY>
+  <STATIC_ABILITY>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Il Bosco Driade è verde.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Die Laube der Dryaden ist grün.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[La Charmille dryade est verte.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[ドライアドの東屋は緑である。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Жилище Дриад - зеленое.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Arvoredo Dríade é verde.]]></LOCALISED_TEXT>
+  </STATIC_ABILITY>
+</CARD_V2>

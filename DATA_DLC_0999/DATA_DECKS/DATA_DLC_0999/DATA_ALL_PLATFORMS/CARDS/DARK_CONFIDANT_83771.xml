@@ -1,0 +1,60 @@
+<?xml version='1.0'?>
+<CARD_V2>
+  <FILENAME text="DARK_CONFIDANT_83771" />
+  <CARDNAME text="DARK_CONFIDANT" />
+  <TITLE>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Dark Confidant]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Confidente Oscuro]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Dunkler Mitwisser]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Obscur confident]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Confidente oscuro]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[闇の腹心]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[Dark Confidant]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Темный наперсник]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Confidente Sombrio]]></LOCALISED_TEXT>
+  </TITLE>
+  <MULTIVERSEID value="83771" />
+  <ARTID value="88883771" />
+  <ARTIST name="Ron Spears" />
+  <CASTING_COST cost="{1}{B}" />
+  <FLAVOURTEXT>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Greatness, at any cost.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Gloria, a ogni costo.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Erhabenheit um jeden Preis.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[La noblesse, à tout prix.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Grandeza, cueste lo que cueste.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[あらゆる犠牲が払われた偉大さ。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[Greatness, at any cost.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Величие любой ценой.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Poder, a qualquer custo.]]></LOCALISED_TEXT>
+  </FLAVOURTEXT>
+  <TYPE metaname="Creature" />
+  <SUB_TYPE metaname="Human" order_de-DE="0" order_es-ES="0" order_fr-FR="0" order_it-IT="0" order_jp-JA="0" order_ko-KR="0" order_pt-BR="0" order_ru-RU="0" />
+  <SUB_TYPE metaname="Wizard" order_de-DE="1" order_es-ES="1" order_fr-FR="1" order_it-IT="1" order_jp-JA="1" order_ko-KR="1" order_pt-BR="1" order_ru-RU="1" />
+  <EXPANSION value="DPG" />
+  <RARITY metaname="R" />
+  <POWER value="2" />
+  <TOUGHNESS value="1" />
+  <TRIGGERED_ABILITY filter_zone="ZONE_IN_PLAY">
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[At the beginning of your upkeep, reveal the top card of your library and put that card into your hand. You lose life equal to its converted mana cost.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[All'inizio del tuo mantenimento, rivela la prima carta del tuo grimorio e aggiungi quella carta alla tua mano. Perdi un ammontare di punti vita pari al suo costo di mana convertito.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Zeige zu Beginn deines Versorgungssegments die oberste Karte deiner Bibliothek offen vor und nimm sie auf deine Hand. Du verlierst Lebenspunkte in Höhe ihrer umgewandelten Manakosten.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Au début de votre entretien, révélez la carte du dessus de votre bibliothèque et mettez-la dans votre main. Vous perdez autant de points de vie que son coût converti de mana.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Al comienzo de tu mantenimiento, muestra la carta de la parte superior de tu biblioteca y pon esa carta en tu mano. Pierdes una cantidad de vida igual a su coste de maná convertido.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[あなたのアップキープの開始時に、あなたのライブラリーの一番上のカードを公開し、そのカードをあなたの手札に加える。 あなたはそれの点数で見たマナ・コストに等しい点数のライフを失う。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[At the beginning of your upkeep, reveal the top card of your library and put that card into your hand. You lose life equal to its converted mana cost.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[В начале вашего этапа поддержки покажите верхнюю карту своей библиотеки и поместите ее в свою руку. Вы теряете число пунктов жизни, равное общей мановой стоимости этой карты.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[No início de sua manutenção, revele o card do topo de seu grimório e coloque-o em sua mão. Você perde uma quantidade de pontos de vida igual ao custo de mana convertido dele.]]></LOCALISED_TEXT>
+    <TRIGGER value="BEGINNING_OF_STEP" simple_qualifier="controller">
+    return ( EffectController():MyTurn() ~= 0 ) and ( MTG():GetStep() == STEP_UPKEEP )
+    </TRIGGER>
+   <RESOLUTION_TIME_ACTION>
+   local top_card = EffectController():Library_GetNth(0)
+   if top_card ~= nil then
+      top_card:GuidedReveal( ZONE_LIBRARY, ZONE_HAND )
+      top_card:PutInHand()
+      EffectController():LoseLife( top_card:GetConvertedManaCost() )
+    end   
+   </RESOLUTION_TIME_ACTION>
+  </TRIGGERED_ABILITY>
+</CARD_V2>
