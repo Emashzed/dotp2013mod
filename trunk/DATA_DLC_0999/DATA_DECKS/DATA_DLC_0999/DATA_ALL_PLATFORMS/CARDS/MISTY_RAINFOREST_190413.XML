@@ -38,7 +38,6 @@
     effectController:MarkSearchedLibrary()
     filter:Clear()
     filter:NotTargetted()
-    filter:AddSupertype( SUPERTYPE_BASIC )
     filter:AddCardType( CARD_TYPE_LAND )
     filter:AddSubType( LAND_TYPE_FOREST )
     filter:AddSubType( LAND_TYPE_ISLAND )

@@ -649,6 +649,18 @@
     <Cell><Data ss:Type="String">Enchantment Creature</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">COMPOUND_TYPE_CREATURE_LAND</Data></Cell>
+    <Cell ss:Index="3"><Data ss:Type="String">Land Creature</Data></Cell>
+    <Cell><Data ss:Type="String">Créature-terrain</Data></Cell>
+    <Cell><Data ss:Type="String">Tierra criatura</Data></Cell>
+    <Cell><Data ss:Type="String">Land, Kreatur</Data></Cell>
+    <Cell><Data ss:Type="String">Creatura Terra</Data></Cell>
+    <Cell><Data ss:Type="String">土地・クリーチャー</Data></Cell>
+    <Cell><Data ss:Type="String">Enchantment Creature</Data></Cell>
+    <Cell><Data ss:Type="String">Земля Существо</Data></Cell>
+    <Cell><Data ss:Type="String">Terreno Criatura</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
     <Cell><Data ss:Type="String">COMPOUND_TYPE_ENCHANTMENT_WORLD</Data></Cell>
     <Cell><Data ss:Type="String">Card Compound Type Line</Data></Cell>
     <Cell><Data ss:Type="String">World Enchantment</Data></Cell>

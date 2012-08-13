@@ -47,6 +47,7 @@
     filter:Clear()
     filter:NotTargetted()
     filter:AddCardType( CARD_TYPE_CREATURE )
+    filter:AddColour( COLOUR_GREEN )
     filter:SetZone( ZONE_LIBRARY )
     filter:SetPlayer( EffectController() )
     filter:SetConvertedCostMax( GetObjectX() )
