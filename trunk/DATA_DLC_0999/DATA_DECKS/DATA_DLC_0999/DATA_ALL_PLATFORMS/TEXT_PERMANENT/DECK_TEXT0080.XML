@@ -53,7 +53,7 @@
    <Row ss:AutoFitHeight="0">
     <Cell><Data ss:Type="String">C13_AZORIUS</Data></Cell>
     <Cell ss:Index="3"><Data ss:Type="String">Aura Servants</Data></Cell>
-    <Cell><Data ss:Type="String">Aura Servants</Data></Cell>
+    <Cell><Data ss:Type="String">Serviteurs de l'aura</Data></Cell>
     <Cell><Data ss:Type="String">Aura Servants</Data></Cell>
     <Cell><Data ss:Type="String">Aura Servants</Data></Cell>
     <Cell><Data ss:Type="String">Aura Servants</Data></Cell>
@@ -65,7 +65,7 @@
    <Row ss:AutoFitHeight="0">
     <Cell><Data ss:Type="String">C13_GOLGARI</Data></Cell>
     <Cell ss:Index="3"><Data ss:Type="String">Sepulchral Strength</Data></Cell>
-    <Cell><Data ss:Type="String">Sepulchral Strength</Data></Cell>
+    <Cell><Data ss:Type="String">Force sépulcrale</Data></Cell>
     <Cell><Data ss:Type="String">Sepulchral Strength</Data></Cell>
     <Cell><Data ss:Type="String">Sepulchral Strength</Data></Cell>
     <Cell><Data ss:Type="String">Sepulchral Strength</Data></Cell>
@@ -77,7 +77,7 @@
    <Row ss:AutoFitHeight="0">
     <Cell><Data ss:Type="String">C13_IZZET</Data></Cell>
     <Cell ss:Index="3"><Data ss:Type="String">Mindstorms</Data></Cell>
-    <Cell><Data ss:Type="String">Mindstorms</Data></Cell>
+    <Cell><Data ss:Type="String">Tempêtes cérébrales</Data></Cell>
     <Cell><Data ss:Type="String">Mindstorms</Data></Cell>
     <Cell><Data ss:Type="String">Mindstorms</Data></Cell>
     <Cell><Data ss:Type="String">Mindstorms</Data></Cell>
@@ -89,7 +89,7 @@
    <Row ss:AutoFitHeight="0">
     <Cell><Data ss:Type="String">C13_RAKDOS</Data></Cell>
     <Cell ss:Index="3"><Data ss:Type="String">Grinning Malice</Data></Cell>
-    <Cell><Data ss:Type="String">Grinning Malice</Data></Cell>
+    <Cell><Data ss:Type="String">Malice grimaçante</Data></Cell>
     <Cell><Data ss:Type="String">Grinning Malice</Data></Cell>
     <Cell><Data ss:Type="String">Grinning Malice</Data></Cell>
     <Cell><Data ss:Type="String">Grinning Malice</Data></Cell>
@@ -101,7 +101,7 @@
    <Row ss:AutoFitHeight="0">
     <Cell><Data ss:Type="String">C13_SELESNYA</Data></Cell>
     <Cell ss:Index="3"><Data ss:Type="String">Collective Might</Data></Cell>
-    <Cell><Data ss:Type="String">Collective Might</Data></Cell>
+    <Cell><Data ss:Type="String">Puissance collective</Data></Cell>
     <Cell><Data ss:Type="String">Collective Might</Data></Cell>
     <Cell><Data ss:Type="String">Collective Might</Data></Cell>
     <Cell><Data ss:Type="String">Collective Might</Data></Cell>

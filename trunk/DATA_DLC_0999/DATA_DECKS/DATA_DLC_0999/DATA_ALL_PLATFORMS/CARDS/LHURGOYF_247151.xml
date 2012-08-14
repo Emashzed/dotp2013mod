@@ -1,0 +1,63 @@
+<?xml version='1.0'?>
+<CARD_V2>
+  <FILENAME text="LHURGOYF_247151" />
+  <CARDNAME text="LHURGOYF" />
+  <TITLE>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Lhurgoyf]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Lhurgoyf]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Lhurgoyf]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[lhurgoyf]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Lhurgoyf]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[ルアゴイフ]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[Lhurgoyf]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Lhurgoyf]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Lhurgoyf]]></LOCALISED_TEXT>
+  </TITLE>
+  <MULTIVERSEID value="247151" />
+  <ARTID value="888247151" />
+  <ARTIST name="Pete Venters" />
+  <CASTING_COST cost="{2}{G}{G}" />
+  <FLAVOURTEXT>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA["Ach! Hans, run! It's the lhurgoyf!"—Saffi Eriksdotter, last words]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA["Ack! Corri, Hans! È il lhurgoyf!"—Saffi Eriksdotter, ultime parole]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[„Lauf! Hans, lauf! Es ist der Lhurgoyf!"—Saffi Eriksdotter, ihre letzten Worte]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[« Ach ! Hans, fuis ! C'est le lhurgoyf ! »— Saffi Eriksdotter, derniers mots]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA["¡Ach! ¡Corre, Hans! ¡Es el lhurgoyf!"—Últimas palabras de Saffi Eriksdotter]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[「ああ！ ハンス、逃げて！ ルアゴイフよ！」――サッフィー・エリクスドッターの最期の言葉]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA["Ach! Hans, run! It's the lhurgoyf!"—Saffi Eriksdotter, last words]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA["Ach! Hans, run! It's the lhurgoyf!"—Saffi Eriksdotter, last words]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA["Ach! Hans, run! It's the lhurgoyf!"—Saffi Eriksdotter, last words]]></LOCALISED_TEXT>
+  </FLAVOURTEXT>
+  <TYPE metaname="Creature" />
+  <SUB_TYPE metaname="Lhurgoyf" order_de-DE="0" order_es-ES="0" order_fr-FR="0" order_it-IT="0" order_jp-JA="0" order_ko-KR="0" order_pt-BR="0" order_ru-RU="0" />
+  <EXPANSION value="DPG" />
+  <RARITY metaname="R" />
+  <POWER value="*" />
+  <TOUGHNESS value="1+*" />
+  <STATIC_ABILITY internal="1">
+    <CONTINUOUS_ACTION>
+      Object():GetFilter():Clear()
+      Object():GetFilter():SetZone( ZONE_GRAVEYARD )
+      Object():GetFilter():AddCardType( CARD_TYPE_CREATURE )
+      MTG():ObjectDataChest():Int_Set( 1, Object():GetFilter():Count())
+    </CONTINUOUS_ACTION>
+  </STATIC_ABILITY>
+  <STATIC_ABILITY>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Lhurgoyf's power is equal to the number of creature cards in all graveyards and its toughness is equal to that number plus 1.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[La forza del Lhurgoyf è pari al numero di carte creatura in tutti i cimiteri e la sua costituzione è pari a quel numero più 1.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Die Stärke des Lhurgoyfs ist gleich der Anzahl an Kreaturenkarten in allen Friedhöfen, und seine Widerstandskraft ist gleich dieser Zahl plus 1.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[La force du Lhurgoyf est égale au nombre de cartes de créature dans tous les cimetières et son endurance est égale à ce nombre plus 1.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[La fuerza del Lhurgoyf es igual al número de cartas de criatura en todos los cementerios y su resistencia es igual a ese número más 1.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[ルアゴイフのパワーは、すべての墓地にあるクリーチャー・カードの総数に等しく、タフネスはその値に１を加えたものに等しい。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[Lhurgoyf's power is equal to the number of creature cards in all graveyards and its toughness is equal to that number plus 1.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Lhurgoyf's power is equal to the number of creature cards in all graveyards and its toughness is equal to that number plus 1.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Lhurgoyf's power is equal to the number of creature cards in all graveyards and its toughness is equal to that number plus 1.]]></LOCALISED_TEXT>
+    <CONTINUOUS_ACTION>
+      local characteristics = Object():GetCurrentCharacteristics()
+      characteristics:Power_Set(MTG():ObjectDataChest():Int_Get(1))
+      characteristics:Toughness_Set(MTG():ObjectDataChest():Int_Get(1) + 1)
+    </CONTINUOUS_ACTION>
+  </STATIC_ABILITY>
+  <SFX text="COMBAT_CLAW_LARGE_ATTACK" power_boundary_min="4" power_boundary_max="-1" />
+  <SFX text="COMBAT_CLAW_SMALL_ATTACK" power_boundary_min="1" power_boundary_max="3" />
+</CARD_V2>
