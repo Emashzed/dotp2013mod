@@ -1,12 +1,17 @@
-<UNLOCKS uid="7993" deck_uid="799" content_pack="0" game_mode="2">
-  <CARD name="JAYEMDAE_TOME_276818#" deckOrderId="100" unlockOrderId="0" quantity="1" />
-  <CARD name="JAYEMDAE_TOME_276818#" deckOrderId="101" unlockOrderId="1" quantity="1" />
-  <CARD name="JAYEMDAE_TOME_276818#" deckOrderId="102" unlockOrderId="2" quantity="1" />
-  <CARD name="JAYEMDAE_TOME_276818#" deckOrderId="103" unlockOrderId="3" quantity="1" />
-  <CARD name="JAYEMDAE_TOME_276818#" deckOrderId="104" unlockOrderId="4" quantity="1" />
-  <CARD name="JAYEMDAE_TOME_276818#" deckOrderId="105" unlockOrderId="5" quantity="1" />
-  <CARD name="JAYEMDAE_TOME_276818#" deckOrderId="106" unlockOrderId="6" quantity="1" />
-  <CARD name="JAYEMDAE_TOME_276818#" deckOrderId="107" unlockOrderId="7" quantity="1" />
-  <CARD name="JAYEMDAE_TOME_276818#" deckOrderId="108" unlockOrderId="8" quantity="1" />
-  <CARD name="JAYEMDAE_TOME_276818#" deckOrderId="109" unlockOrderId="9" quantity="1" />
+<UNLOCKS uid="7993" deck_uid="799" content_pack="9" game_mode="2">
+  <CARD name="TREEFOLK_HARBINGER_888139495#" deckOrderId="35" unlockOrderId="0" quantity="1" />
+  <CARD name="TREEFOLK_HARBINGER_888139495#" deckOrderId="36" unlockOrderId="1" quantity="1" />
+  <CARD name="TREEFOLK_HARBINGER_888139495#" deckOrderId="37" unlockOrderId="2" quantity="1" />
+  <CARD name="BEAST_WITHIN_277167#" deckOrderId="38" unlockOrderId="3" quantity="1" />
+  <CARD name="BEAST_WITHIN_277167#" deckOrderId="39" unlockOrderId="4" quantity="1" />
+  <CARD name="BEAST_WITHIN_277167#" deckOrderId="40" unlockOrderId="5" quantity="1" />
+  <CARD name="CLOUDCROWN_OAK_888139492#" deckOrderId="41" unlockOrderId="6" quantity="1" />
+  <CARD name="CLOUDCROWN_OAK_888139492#" deckOrderId="42" unlockOrderId="7" quantity="1" />
+  <CARD name="LEAFCROWNED_ELDER_888152682#" deckOrderId="43" unlockOrderId="8" quantity="1" />
+  <CARD name="LEAFCROWNED_ELDER_888152682#" deckOrderId="44" unlockOrderId="9" quantity="1" />
+  <CARD name="NEMATA_GROVE_GUARDIAN_277221#" deckOrderId="45" unlockOrderId="10" quantity="1" />
+  <CARD name="LEAFCROWNED_ELDER_888152682#" deckOrderId="46" unlockOrderId="11" quantity="1" />
+  <CARD name="WEATHERSEED_TREEFOLK_88812438#" deckOrderId="47" unlockOrderId="12" quantity="1" />
+  <CARD name="LEAFCROWNED_ELDER_888152682#" deckOrderId="48" unlockOrderId="13" quantity="1" />
+  <CARD name="WEATHERSEED_TREEFOLK_88812438#" deckOrderId="49" unlockOrderId="14" quantity="1" />
 </UNLOCKS>

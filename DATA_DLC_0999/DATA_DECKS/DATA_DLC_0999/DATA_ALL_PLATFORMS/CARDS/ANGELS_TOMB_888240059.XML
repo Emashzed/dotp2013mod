@@ -1,0 +1,101 @@
+﻿<?xml version='1.0'?>
+<CARD_V2>
+  <FILENAME text="ANGELS_TOMB_888240059" />
+  <CARDNAME text="ANGELS_TOMB" />
+  <TITLE>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Angel’s Tomb]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Sepolcro dell’Angelo]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Grab des Engels]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Tombe de l’ange]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Tumba del ángel]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[天使の墳墓]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[천사의 무덤]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Гробница Ангела]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Tumba de Anjo]]></LOCALISED_TEXT>
+  </TITLE>
+  <MULTIVERSEID value="888240059" />
+  <ARTID value="888240059" />
+  <ARTIST name="Dan Scott" />
+  <CASTING_COST cost="{3}" />
+  <FLAVOURTEXT>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[“Faith can quicken the stones themselves with life.”
+—Writings of Mikaeus]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[“La fede può infondere vita persino nelle pietre.”
+—Scritti di Mikaeus]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[„Glaube kann selbst die Steine mit Leben erfüllen.”
+—Schriften des Mikaeus]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[« La foi peut donner vie aux pierres elles-mêmes. »
+—Écrits de Mikaeus]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[“La fe puede conferir vida a las propias piedras.”
+—Escrituras de Mikaeus]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[「信仰は石にさえ命の息吹を与える。」
+――ミケウスのメモ]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[“믿음은 돌에도 생명을 불어넣는다.”
+—미케이우스의 저서]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[«Вера может оживить даже камни».
+— Из записей Микеаса]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[“A fé pode dar vida até mesmo às pedras.”
+— Escritos de Mikaeus]]></LOCALISED_TEXT>
+  </FLAVOURTEXT>
+  <TYPE metaname="Artifact" />
+  <EXPANSION value="DPG" />
+  <RARITY metaname="U" />
+  <TRIGGERED_ABILITY auto_skip="1" filter_zone="ZONE_IN_PLAY">
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Whenever a creature enters the battlefield under your control, you may have Angel’s Tomb become a 3/3 white Angel artifact creature with flying until end of turn.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Ogniqualvolta una creatura entra nel campo di battaglia sotto il tuo controllo, puoi far diventare il Sepolcro dell’Angelo una creatura artefatto Angelo 3/3 bianca con volare fino alla fine del turno.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Immer wenn eine Kreatur unter deiner Kontrolle ins Spiel kommt, kannst du das Engelsgrab bis zum Ende des Zugs zu einer 3/3 weißen Engel-Artefaktkreatur mit Flugfähigkeit werden lassen.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[À chaque fois qu’une créature arrive sur le champ de bataille sous votre contrôle, vous pouvez faire que la Tombe de l’ange devienne une créature-artefact 3/3 blanche Ange avec le vol jusqu’à la fin du tour.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Siempre que una criatura entre al campo de batalla bajo tu control, puedes hacer que la Tumba del ángel se convierta en una criatura artefacto Ángel blanca 3/3 con la habilidad de volar hasta el final del turno.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[クリーチャーが１体あなたのコントロール下で戦場に出るたび、あなたは「天使の墳墓は、ターン終了時まで飛行を持つ白の３/３の天使・アーティファクト・クリーチャーになる。」を選んでもよい。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[생물이 당신의 조종하에 전장에 들어올 때마다, 당신은 턴종료까지 천사의 무덤을 비행 능력을 가진 3/3 백색 천사 마법물체 생물이 되도록 할 수 있다.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Каждый раз, когда существо выходит на поле битвы под вашим контролем, вы можете заставить Гробницу Ангела стать артефактным существом 3/3 белый Ангел с Полетом до конца хода.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Toda vez que uma criatura entra no campo de batalha sob o seu controle, você pode fazer com que Tumba de Anjo se torne uma criatura artefato branca 3/3 do tipo Anjo com voar até o final do turno.]]></LOCALISED_TEXT>
+    <TRIGGER value="ZONECHANGE_END" simple_qualifier="objectyoucontrol" to_zone="ZONE_IN_PLAY">
+    return TriggerObject():GetCardType():Test( CARD_TYPE_CREATURE ) ~= 0
+    </TRIGGER>
+    <RESOLUTION_TIME_ACTION>
+    local player = EffectController()
+    if player ~= nil then
+    	player:SetCustomQueryInstructionCardPtr( Object() )
+    	player:BeginNewMultipleChoice()
+    	player:AddMultipleChoiceAnswer( "CARD_QUERY_OPTION_YES" )
+    	player:AddMultipleChoiceAnswer( "CARD_QUERY_OPTION_NO" )
+    	player:AskMultipleChoiceQuestion( "CARD_QUERY_MC_ANIMATE_THIS_CARD" )
+    end
+    </RESOLUTION_TIME_ACTION>
+    <RESOLUTION_TIME_ACTION>
+    EffectDC():Set_Int( 0, Object():GetMultipleChoiceResult()+1 )
+    </RESOLUTION_TIME_ACTION>
+    <CONTINUOUS_ACTION layer="7B">
+    if EffectDC():Get_Int(0) == 1 then
+    	local characteristics = Object():GetCurrentCharacteristics()
+    	characteristics:Power_Set( 3 )
+    	characteristics:Toughness_Set( 3 )
+    end
+    </CONTINUOUS_ACTION>
+    <CONTINUOUS_ACTION layer="3">
+    if EffectDC():Get_Int(0) == 1 then
+    	Object():GetCurrentCharacteristics():CardType_GetWritable( Object() ):Add( CARD_TYPE_CREATURE, Object() )
+    end
+    </CONTINUOUS_ACTION>
+    <CONTINUOUS_ACTION layer="4">
+    if EffectDC():Get_Int(0) == 1 then
+    	Object():GetCurrentCharacteristics():SubType_GetWritable( Object() ):Add( CREATURE_TYPE_ANGEL, Object() )
+    end
+    </CONTINUOUS_ACTION>
+    <CONTINUOUS_ACTION layer="5">
+    if EffectDC():Get_Int(0) == 1 then
+    	Object():GetCurrentCharacteristics():Colour_Get():Add( COLOUR_WHITE )
+    end
+    </CONTINUOUS_ACTION>
+    <CONTINUOUS_ACTION layer="6">
+    if EffectDC():Get_Int(0) == 1 then
+    	Object():GetCurrentCharacteristics():Characteristic_Set( CHARACTERISTIC_FLYING, 1 )
+    end
+    </CONTINUOUS_ACTION>
+    <DURATION simple_duration="UntilEOT" />
+  </TRIGGERED_ABILITY>
+  <HELP title="MORE_INFO_BADGE_TITLE_10" body="MORE_INFO_BADGE_BODY_10" zone="ZONE_ANY" />
+  <SFX text="COMBAT_ANGEL_LARGE_ATTACK" power_boundary_min="4" power_boundary_max="-1" />
+  <SFX text="COMBAT_ANGEL_SMALL_ATTACK" power_boundary_min="1" power_boundary_max="3" />
+</CARD_V2>

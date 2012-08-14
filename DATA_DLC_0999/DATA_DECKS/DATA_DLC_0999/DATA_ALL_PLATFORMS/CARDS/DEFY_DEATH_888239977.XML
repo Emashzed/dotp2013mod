@@ -1,0 +1,74 @@
+﻿<?xml version='1.0'?>
+<CARD_V2>
+  <FILENAME text="DEFY_DEATH_888239977" />
+  <CARDNAME text="DEFY_DEATH" />
+  <TITLE>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Defy Death]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Sfidare la Morte]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Dem Tod trotzen]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Trompe-la-mort]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Desafiar a la muerte]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[死の超克]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[죽음을 거역하다]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Презреть Смерть]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Desafio à Morte]]></LOCALISED_TEXT>
+  </TITLE>
+  <MULTIVERSEID value="888239977" />
+  <ARTID value="888239977" />
+  <ARTIST name="Karl Kopinski" />
+  <CASTING_COST cost="{3}{W}{W}" />
+  <FLAVOURTEXT>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Gisela cornered the murderous demon among the graves of the dead villagers. “A fitting end”, she murmured as she raised her sword.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Gisela intrappolò il demone assassino tra le tombe del villaggio. “Una fine appropriata” mormorò sollevando la spada.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Sela trieb den mordlustigen Dämon bei den Gräbern der toten Dorfbewohner in die Enge. „Ein passendes Ende”, murmelte der Engel, als er sein Schwert erhob.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Gisela accula le démon meurtrier au milieu des tombes des villageois défunts. « Une fin appropriée » murmura-t-elle en levant son épée.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Gisela acorraló al demonio asesino entre las tumbas de los aldeanos muertos. “Un final muy adecuado”, murmuró mientras levantaba la espada.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[ギセラは立ち並ぶ村人の墓の間に残忍な悪魔を追い詰めた。 「おまえらしい最期ね」と呟いて、彼女は剣を振りかざした。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[기셀라는 흉폭한 악마를 마을 사람들의 무덤이 있는 곳으로 몰아넣었다. 칼을 치켜들며 그녀는 “적절한 장소로군”이라고 중얼거렸다.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Гизела настигла демона-убийцу на кладбище, у могил жителей деревни. «Достойный финал», — пробормотала она и подняла меч.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Gisela encurralou o demônio assassino em meio aos túmulos dos aldeões mortos. “Um fim merecido”, ela murmurou ao erguer a espada.]]></LOCALISED_TEXT>
+  </FLAVOURTEXT>
+  <TYPE metaname="Sorcery" />
+  <EXPANSION value="DPG" />
+  <RARITY metaname="U" />
+  <SPELL_ABILITY>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Return target creature card from your graveyard to the battlefield. If it’s an Angel, put two +1/+1 counters on it.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Rimetti sul campo di battaglia una carta creatura bersaglio dal tuo cimitero. Se è un Angelo, metti due segnalini +1/+1 su di essa.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Bringe eine Kreaturenkarte deiner Wahl aus deinem Friedhof ins Spiel zurück. Falls sie ein Engel ist, lege zwei +1/+1-Marken auf sie.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Renvoyez sur le champ de bataille une carte de créature ciblée de votre cimetière. Si c’est un ange, mettez deux marqueurs +1/+1 sur lui.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Regresa la carta objetivo de criatura de tu cementerio al campo de batalla. Si es un Ángel, pon dos contadores +1/+1 sobre ella.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[あなたの墓地にあるクリーチャー・カード１枚を対象とし、それを戦場に戻す。 それが天使である場合、それの上に＋１/＋１カウンターを２個置く。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[당신의 무덤에 있는 생물 카드 한 장을 목표로 정한다. 그 카드를 전장으로 되돌린다. 그 생물이 천사라면, 그 생물에 +1/+1 카운터 두 개를 올려놓는다.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Верните целевую карту существа из вашего кладбища на поле битвы. Если это Ангел, положите на него два жетона +1/+1.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Devolva o card de criatura alvo de seu cemitério para o campo de batalha. Se for um Anjo, coloque dois marcadores +1/+1 sobre ele.]]></LOCALISED_TEXT>
+    <TARGET_DEFINITION id="0">
+    local filter = Object():GetFilter()
+    filter:Clear()
+    filter:AddCardType( CARD_TYPE_CREATURE )
+    filter:SetZone( ZONE_GRAVEYARD )
+    filter:SetPlayer( EffectController() )
+    filter:SetHint( HINT_ALLIED, EffectController() )
+    </TARGET_DEFINITION>
+    <TARGET_DETERMINATION>
+    return AtLeastOneTargetFromDefinition(0)
+    </TARGET_DETERMINATION>
+    <PLAY_TIME_ACTION target_choosing="1">
+    EffectController():ChooseTarget( 0, "CARD_QUERY_CHOOSE_CREATURE_TO_PUT_ONTO_BATTLEFIELD", EffectDC():Make_Targets(0) )
+    </PLAY_TIME_ACTION>
+    <RESOLUTION_TIME_ACTION>
+    local target = EffectDC():Get_Targets(0):Get_CardPtr(0)
+    if target ~= nil and target:GetZone() == ZONE_GRAVEYARD then
+    	EffectDC():Get_Targets(0):Protect_CardPtr(0)
+    	target:PutIntoPlay( EffectController() )
+    end
+    </RESOLUTION_TIME_ACTION>
+    <RESOLUTION_TIME_ACTION>
+    local target = EffectDC():Get_Targets(0):Get_CardPtr(0)
+    if target ~= nil and target:GetZone() == ZONE_IN_PLAY then
+    	if target:GetSubType():Test( CREATURE_TYPE_ANGEL ) ~= 0 then
+    		target:AddCounters( MTG():PlusOnePlusOneCounters(), 2 )
+   	end
+    end
+    </RESOLUTION_TIME_ACTION>
+  </SPELL_ABILITY>
+</CARD_V2>

@@ -1,0 +1,74 @@
+﻿<?xml version='1.0'?>
+<CARD_V2>
+  <FILENAME text="VOICE_OF_THE_PROVINCES_888240173" />
+  <CARDNAME text="VOICE_OF_THE_PROVINCES" />
+  <TITLE>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Voice of the Provinces]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Voce delle Province]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Stimme der Provinzen]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[La Voix des Provinces]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Voz de las provincias]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[州民の声]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[민중의 목소리]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Голос Провинций]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Voz das Províncias]]></LOCALISED_TEXT>
+  </TITLE>
+  <MULTIVERSEID value="888240173" />
+  <ARTID value="888240173" />
+  <ARTIST name="Igor Kieryluk" />
+  <CASTING_COST cost="{4}{W}{W}" />
+  <FLAVOURTEXT>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Her horn is heard across Innistrad, lifting the hearts of the righteous.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Il suo corno risuona in tutta Innistrad, sollevando il morale dei giusti.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Ihr Horn erklingt in ganz Innistrad und macht den Gerechten Mut.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Son cor s’entend dans tout Innistrad et galvanise les vertueux.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Su cuerno resuena por todo Innistrad y eleva la moral de los justos.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[彼女の角笛はイニストラード中に響き、正しき者達の心を奮い立たせた。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[이니스트라드의 어디에서라도 들을 수 있는 그녀의 뿔나팔 소리는 정의로운 자들의 사기를 북돋는다.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Звук ее рога разносится по всему Иннистраду, вселяя надежду в сердца верных.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Sua trombeta ecoa por toda Innistrad, alegrando os corações dos justos.]]></LOCALISED_TEXT>
+  </FLAVOURTEXT>
+  <TYPE metaname="Creature" />
+  <SUB_TYPE metaname="Angel" />
+  <EXPANSION value="DPG" />
+  <RARITY metaname="C" />
+  <POWER value="3" />
+  <TOUGHNESS value="3" />
+  <STATIC_ABILITY>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Flying]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Vol]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Vuela.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Fliegend]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Volare]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[飛行]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[비행]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Полет]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Voar]]></LOCALISED_TEXT>
+    <CONTINUOUS_ACTION>
+    local characteristics = Object():GetCurrentCharacteristics()
+    characteristics:Characteristic_Set( CHARACTERISTIC_FLYING, 1 )
+    </CONTINUOUS_ACTION>
+  </STATIC_ABILITY>
+  <TRIGGERED_ABILITY auto_skip="1" filter_zone="ZONE_IN_PLAY">
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[When Voice of the Provinces enters the battlefield, put a 1/1 white Human creature token onto the battlefield.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Quando la Voce delle Province entra nel campo di battaglia, metti sul campo di battaglia una pedina creatura Umano 1/1 bianca.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Wenn die Stimme der Provinzen ins Spiel kommt, bringe einen 1/1 weißen Mensch-Kreaturenspielstein ins Spiel.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Quand La Voix des Provinces arrive sur le champ de bataille, mettez sur le champ de bataille un jeton de créature 1/1 blanche Humain.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Cuando la Voz de las provincias entre al campo de batalla, pon una ficha de criatura Humano blanca 1/1 en el campo de batalla.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[州民の声が戦場に出たとき、白の１/１の人間・クリーチャー・トークンを１体戦場に出す。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[민중의 목소리가 전장에 들어올 때, 1/1 백색 인간 생물 토큰 한 개를 전장에 놓는다.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Когда Голос Провинций выходит на поле битвы, положите на поле битвы фишку существа 1/1 белый Человек.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Quando Voz das Províncias entrar no campo de batalha, coloque no campo de batalha uma ficha de criatura branca 1/1 do tipo Humano.]]></LOCALISED_TEXT>
+    <TRIGGER value="ZONECHANGE_END" simple_qualifier="self" to_zone="ZONE_IN_PLAY" />
+    <RESOLUTION_TIME_ACTION>
+    local token_count = 1
+    if token_count &gt; 0 then
+    	MTG():PutTokensIntoPlay( "TOKEN_HUMAN_WHITE_1_1_888139867", token_count, EffectController() )
+    end
+    </RESOLUTION_TIME_ACTION>
+  </TRIGGERED_ABILITY>
+  <TOKEN_REGISTRATION reservation="1" type="TOKEN_HUMAN_WHITE_1_1_888139867" />
+  <HELP title="MORE_INFO_BADGE_TITLE_10" body="MORE_INFO_BADGE_BODY_10" zone="ZONE_ANY" />
+  <SFX text="COMBAT_ANGEL_LARGE_ATTACK" power_boundary_min="4" power_boundary_max="-1" />
+  <SFX text="COMBAT_ANGEL_SMALL_ATTACK" power_boundary_min="1" power_boundary_max="3" />
+</CARD_V2>

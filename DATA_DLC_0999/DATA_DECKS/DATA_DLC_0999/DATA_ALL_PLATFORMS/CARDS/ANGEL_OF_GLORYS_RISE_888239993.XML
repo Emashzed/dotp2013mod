@@ -1,0 +1,102 @@
+﻿<?xml version='1.0'?>
+<CARD_V2>
+  <FILENAME text="ANGEL_OF_GLORYS_RISE_888239993" />
+  <CARDNAME text="ANGEL_OF_GLORYS_RISE" />
+  <TITLE>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Angel of Glory’s Rise]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Angelo dell’Ascesa della Gloria]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Engel des erneuten Ruhms]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Ange de la gloire triomphante]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Ángel del ascenso de la gloria]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[栄光の目覚めの天使]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[비상하는 영광의 천사]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Ангел Грядущей Славы]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Anjo da Ascensão da Glória]]></LOCALISED_TEXT>
+  </TITLE>
+  <MULTIVERSEID value="888239993" />
+  <ARTID value="888239993" />
+  <ARTIST name="James Ryman" />
+  <CASTING_COST cost="{5}{W}{W}" />
+  <FLAVOURTEXT>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[“Justice isn’t done until undeath is undone.”]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[“Giustizia non sarà fatta finché la non morte non sarà disfatta.”]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[„Es gibt keine Gerechtigkeit, bevor die Untoten vernichtet wurden.”]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[« Justice n’est faite qu’une fois la morte-vie vaincue. »]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[“No se habrá hecho justicia hasta que se acabe con la muerte viviente.”]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[「不死をなきものにしなければ正義はなされません。」]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[“언데드가 사라져야지만 정의가 실현되는 것이다.”]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[«Правосудие свершится, лишь когда мы покончим с нежитью».]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[“A justiça só será feita quando toda a morte-vida for destruída.”]]></LOCALISED_TEXT>
+  </FLAVOURTEXT>
+  <TYPE metaname="Creature" />
+  <SUB_TYPE metaname="Angel" />
+  <EXPANSION value="DPG" />
+  <RARITY metaname="R" />
+  <POWER value="4" />
+  <TOUGHNESS value="6" />
+  <STATIC_ABILITY>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Flying]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Volare]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Fliegend]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Vol]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Vuela.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[飛行]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[비행]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Полет]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Voar]]></LOCALISED_TEXT>
+	<CONTINUOUS_ACTION>
+    local characteristics = Object():GetCurrentCharacteristics()
+    characteristics:Characteristic_Set( CHARACTERISTIC_FLYING, 1 )
+    </CONTINUOUS_ACTION>
+  </STATIC_ABILITY>
+  <TRIGGERED_ABILITY dangerous="1" filter_zone="ZONE_IN_PLAY">
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[When Angel of Glory’s Rise enters the battlefield, exile all Zombies, then return all Human creature cards from your graveyard to the battlefield.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Quando l’Angelo dell’Ascesa della Gloria entra nel campo di battaglia, esilia tutti gli Zombie, poi rimetti sul campo di battaglia tutte le carte creatura Umano dal tuo cimitero.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Wenn der Aufstieg des Engels des erneuten ins Spiel kommt, schicke alle Zombies ins Exil und bringe dann alle Mensch-Kreaturenkarten aus deinem Friedhof ins Spiel zurück.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Quand l’Ange de la gloire triomphante arrive sur le champ de bataille, exilez tous les zombies, puis renvoyez sur le champ de bataille toutes les cartes de créature Humain de votre cimetière.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Cuando el Ángel del ascenso de la gloria entre al campo de batalla, exilia a todos los Zombies, luego regresa al campo de batalla todas las cartas de criatura Humano de tu cementerio.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[栄光の目覚めの天使が戦場に出たとき、すべてのゾンビを追放し、その後あなたの墓地にあるすべての人間・クリーチャー・カードを戦場に戻す。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[비상하는 영광의 천사가 전장에 들어올 때, 모든 좀비 지속물을 추방한 후 당신의 무덤에 있는 모든 인간 생물 카드를 전장으로 되돌린다.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Когда Ангел Грядущей Славы выходит на поле битвы, изгоните всех Зомби, затем верните все карты существ с типом Человек из вашего кладбища на поле битвы.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Quando Anjo da Ascensão da Glória entrar no campo de batalha, exile todos os Zumbis e devolva todos os cards de criatura do tipo Humano do seu cemitério ao campo de batalha.]]></LOCALISED_TEXT>
+    <TRIGGER value="ZONECHANGE_END" simple_qualifier="self" to_zone="ZONE_IN_PLAY" />
+	<RESOLUTION_TIME_ACTION>
+    local filter = Object():GetFilter()
+    filter:Clear()
+    filter:SetZone( ZONE_IN_PLAY )
+    filter:AddSubType( CREATURE_TYPE_ZOMBIE )
+    local count = filter:EvaluateObjects()
+    if (count &gt; 0) then
+       for j=0,count-1 do
+          local card = filter:GetNthEvaluatedObject( j )
+          if (card ~= nil) then
+             card:RemoveFromGame() 
+          end
+       end
+    end
+    </RESOLUTION_TIME_ACTION>
+	<RESOLUTION_TIME_ACTION>
+    local controller = EffectController()
+    local filter = Object():GetFilter()
+
+    filter:Clear()
+    filter:SetZone( ZONE_GRAVEYARD )
+    filter:SetPlayer( controller )
+    filter:AddCardType( CARD_TYPE_CREATURE )
+    filter:AddSubType( CREATURE_TYPE_HUMAN )
+    local count = filter:EvaluateObjects()
+    if (count &gt; 0) then
+       for j=0,count-1 do
+          local card = filter:GetNthEvaluatedObject( j )
+          if (card ~= nil) then
+             card:PutIntoPlay( controller )
+          end
+       end
+    end
+    </RESOLUTION_TIME_ACTION>
+  </TRIGGERED_ABILITY>
+  <HELP title="MORE_INFO_BADGE_TITLE_10" body="MORE_INFO_BADGE_BODY_10" zone="ZONE_ANY" />
+  <SFX text="COMBAT_ANGEL_LARGE_ATTACK" power_boundary_min="4" power_boundary_max="-1" />
+  <SFX text="COMBAT_ANGEL_SMALL_ATTACK" power_boundary_min="1" power_boundary_max="3" />
+  <AI_BASE_SCORE score="1200" zone="ZONE_HAND" />
+</CARD_V2>
