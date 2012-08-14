@@ -1,0 +1,64 @@
+<?xml version='1.0'?>
+<CARD_V2>
+  <FILENAME text="ZURAN_ORB_159752" />
+  <CARDNAME text="ZURAN_ORB" />
+  <TITLE>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Zuran Orb]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Globo di Zur]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Zurs Sphäre]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Orbe zuranienne]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Orbe zurano]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[Zuran Orb]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[Zuran Orb]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Zuran Orb]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Orbe Zurana]]></LOCALISED_TEXT>
+  </TITLE>
+  <MULTIVERSEID value="159752" />
+  <ARTID value="888159752" />
+  <ARTIST name="Sandra Everingham" />
+  <CASTING_COST cost="{0}" />
+  <FLAVOURTEXT>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA["I will go to any length to achieve my goal. Eternal life is worth any sacrifice."—Zur the Enchanter]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA["I will go to any length to achieve my goal. Eternal life is worth any sacrifice."—Zur the Enchanter]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA["Ich werde alles tun, um mein Ziel zu erreichen. Ewiges Leben ist jedes Opfer wert.“ -Zur, der Verzauberer]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA["I will go to any length to achieve my goal. Eternal life is worth any sacrifice."—Zur the Enchanter]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA["I will go to any length to achieve my goal. Eternal life is worth any sacrifice."—Zur the Enchanter]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA["I will go to any length to achieve my goal. Eternal life is worth any sacrifice."—Zur the Enchanter]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA["I will go to any length to achieve my goal. Eternal life is worth any sacrifice."—Zur the Enchanter]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA["I will go to any length to achieve my goal. Eternal life is worth any sacrifice."—Zur the Enchanter]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA["I will go to any length to achieve my goal. Eternal life is worth any sacrifice."—Zur the Enchanter]]></LOCALISED_TEXT>
+  </FLAVOURTEXT>
+  <TYPE metaname="Artifact" />
+  <EXPANSION value="DPG" />
+  <RARITY metaname="U" />
+  <ACTIVATED_ABILITY filter_zone="ZONE_IN_PLAY">
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Sacrifice a land: You gain 2 life.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Sacrifice a land: You gain 2 life.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[0: Opfere ein Land, um 2 Lebenspunkte zu erhalten.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Sacrifice a land: You gain 2 life.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Sacrifice a land: You gain 2 life.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[Sacrifice a land: You gain 2 life.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[Sacrifice a land: You gain 2 life.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Sacrifice a land: You gain 2 life.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Sacrifice a land: You gain 2 life.]]></LOCALISED_TEXT>
+    <COST type="Sacrifice">
+      <TARGET_DEFINITION id="6">
+      local filter = Object():GetFilter()
+      filter:Clear()
+      filter:AddCardType( CARD_TYPE_LAND )
+      filter:SetPlayer( EffectController() )
+      filter:SetZone( ZONE_IN_PLAY )
+      filter:NotTargetted()
+      </TARGET_DEFINITION>
+      <TARGET_DETERMINATION>
+      return AtLeastOneTargetFromDefinition(6)
+      </TARGET_DETERMINATION>
+      <PLAYTIME>
+      EffectController():ChooseTarget( 6, "CARD_QUERY_CHOOSE_LAND_TO_SACRIFICE", EffectDC():Make_Targets(0) )
+      </PLAYTIME>
+    </COST>
+    <RESOLUTION_TIME_ACTION>
+    EffectController():GainLife( 2 )
+    </RESOLUTION_TIME_ACTION>
+  </ACTIVATED_ABILITY>
+</CARD_V2>
