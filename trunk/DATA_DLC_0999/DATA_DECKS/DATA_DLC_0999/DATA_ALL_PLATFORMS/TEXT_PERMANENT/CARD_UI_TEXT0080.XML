@@ -35,7 +35,7 @@
   </Style>
  </Styles>
  <Worksheet ss:Name="Sheet4">
-  <Table ss:ExpandedColumnCount="12" ss:ExpandedRowCount="57" x:FullColumns="1"
+  <Table ss:ExpandedColumnCount="12" ss:ExpandedRowCount="58" x:FullColumns="1"
    x:FullRows="1" ss:DefaultRowHeight="15">
    <Row ss:AutoFitHeight="0">
     <Cell><Data ss:Type="String">Ident</Data></Cell>
@@ -412,6 +412,18 @@
     <Cell><Data ss:Type="String">Você quer pagar o custo de loucura?</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">CARD_QUERY_MC_PAY_MANA_AMOUNT</Data></Cell>
+    <Cell ss:Index="3"><Data ss:Type="String">Do you want to pay {%d}?</Data></Cell>
+    <Cell><Data ss:Type="String">Voulez-vous payer {%d}&#160;?</Data></Cell>
+    <Cell><Data ss:Type="String">¿Quieres pagar {%d}?</Data></Cell>
+    <Cell><Data ss:Type="String">Willst du {%d} bezahlen?</Data></Cell>
+    <Cell><Data ss:Type="String">Vuoi pagare {%d}?</Data></Cell>
+    <Cell ss:Index="9"><Data ss:Type="String">{%d}を支払いますか？</Data></Cell>
+    <Cell><Data ss:Type="String">{%d}을 지불하시겠습니까?</Data></Cell>
+    <Cell><Data ss:Type="String">Вы хотите заплатить {%d}?</Data></Cell>
+    <Cell><Data ss:Type="String">Deseja pagar {%d}?</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
     <Cell><Data ss:Type="String">CARD_QUERY_MC_ROOTWATER_THIEF</Data></Cell>
     <Cell ss:Index="3"><Data ss:Type="String">You may pay {2} to exile a card from defending player’s library.</Data></Cell>
     <Cell><Data ss:Type="String">Vous pouvez payer {2} pour exiler une carte de la bibliothèque du joueur défenseur.</Data></Cell>
@@ -744,11 +756,11 @@
     <VerticalResolution>600</VerticalResolution>
    </Print>
    <Selected/>
-   <TopRowVisible>15</TopRowVisible>
+   <TopRowVisible>36</TopRowVisible>
    <Panes>
     <Pane>
      <Number>3</Number>
-     <ActiveRow>25</ActiveRow>
+     <ActiveRow>31</ActiveRow>
     </Pane>
    </Panes>
    <ProtectObjects>False</ProtectObjects>
