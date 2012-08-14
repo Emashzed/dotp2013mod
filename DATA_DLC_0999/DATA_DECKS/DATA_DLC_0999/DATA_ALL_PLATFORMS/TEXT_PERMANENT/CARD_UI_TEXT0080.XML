@@ -35,7 +35,7 @@
   </Style>
  </Styles>
  <Worksheet ss:Name="Sheet4">
-  <Table ss:ExpandedColumnCount="12" ss:ExpandedRowCount="56" x:FullColumns="1"
+  <Table ss:ExpandedColumnCount="12" ss:ExpandedRowCount="57" x:FullColumns="1"
    x:FullRows="1" ss:DefaultRowHeight="15">
    <Row ss:AutoFitHeight="0">
     <Cell><Data ss:Type="String">Ident</Data></Cell>
@@ -338,6 +338,18 @@
     <Cell><Data ss:Type="String">주인의 손에 넣고있는 좀비 카드를 선택합니다.</Data></Cell>
     <Cell><Data ss:Type="String">Выберите Zombie карты положить в руку его владельца.</Data></Cell>
     <Cell><Data ss:Type="String">Escolha um card de Zumbi para colocar na mão de seu dono.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">CARD_QUERY_MC_ANIMATE_THIS_CARD</Data></Cell>
+    <Cell ss:Index="3"><Data ss:Type="String">Do you want to animate this card?</Data></Cell>
+    <Cell><Data ss:Type="String">Ne vous souhaitez animer cette carte?</Data></Cell>
+    <Cell><Data ss:Type="String">¿Quieres animar esta tarjeta?</Data></Cell>
+    <Cell><Data ss:Type="String">Wollen Sie diese Karte zu animieren?</Data></Cell>
+    <Cell><Data ss:Type="String">Vuoi animare questa scheda?</Data></Cell>
+    <Cell ss:Index="9"><Data ss:Type="String">あなたはこのカードをアニメートしたいですか？</Data></Cell>
+    <Cell><Data ss:Type="String">이 카드를 애니메이션시겠습니까?</Data></Cell>
+    <Cell><Data ss:Type="String">Вы хотите, чтобы оживить эту карту?</Data></Cell>
+    <Cell><Data ss:Type="String">Você quer animar este cartão?</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
     <Cell><Data ss:Type="String">CARD_QUERY_MC_BROWBEAT</Data></Cell>
@@ -732,11 +744,11 @@
     <VerticalResolution>600</VerticalResolution>
    </Print>
    <Selected/>
-   <TopRowVisible>42</TopRowVisible>
+   <TopRowVisible>15</TopRowVisible>
    <Panes>
     <Pane>
      <Number>3</Number>
-     <ActiveRow>56</ActiveRow>
+     <ActiveRow>25</ActiveRow>
     </Pane>
    </Panes>
    <ProtectObjects>False</ProtectObjects>
