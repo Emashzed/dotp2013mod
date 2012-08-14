@@ -1,0 +1,71 @@
+<?xml version='1.0'?>
+<CARD_V2>
+  <FILENAME text="SERAPH_OF_DAWN_280300" />
+  <CARDNAME text="SERAPH_OF_DAWN" />
+  <TITLE>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Seraph of Dawn]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Séraphine de l’aube]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Serafín del alba]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Seraph der Morgenröte]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Serafina dell’Alba]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[暁の熾天使]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[여명의 치품천사]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Серафим Рассвета]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Serafim da Aurora]]></LOCALISED_TEXT>
+  </TITLE>
+  <MULTIVERSEID value="280300" />
+  <ARTID value="141623" />
+  <ARTIST name="Todd Lockwood" />
+  <CASTING_COST cost="{2}{W}{W}" />
+  <FLAVOURTEXT>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[She parts the clouds so sunlight can reach even the darkest lairs and duskiest tombs.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Elle brise le couvert nuageux afin que le soleil atteigne les repaires les plus sombres et les sépultures les plus enténébrées.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Separa las nubes para que la luz del sol alcance las guaridas más oscuras y las tumbas más tenebrosas.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Er teilt die Wolken, damit das Sonnenlicht selbst die finstersten Horte und düstersten Gräber erreicht.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Squarcia le nuvole perché la luce del sole possa raggiungere i recessi più oscuri e le tombe più tetre.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[最も暗い巣穴や最も陰鬱な墓石にまで太陽の光が届くように、彼女は雲を裂くのだ。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[그녀가 구름을 가르면 아무리 어두컴컴한 소굴이나 음침한 묘지에도 햇빛이 닿는다.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Она разводит облака, чтобы солнечный свет осветил самые темные логова и гробницы.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Ela afasta as nuvens para que o sol alcance até mesmo as moradas mais escuras e as tumbas mais sombrias.]]></LOCALISED_TEXT>
+  </FLAVOURTEXT>
+  <TYPE metaname="Creature" />
+  <SUB_TYPE metaname="Angel" order_de-DE="0" order_es-ES="0" order_fr-FR="0" order_it-IT="0" order_jp-JA="0" order_ko-KR="0" order_pt-BR="0" order_ru-RU="0" />
+  <EXPANSION value="DPG" />
+  <RARITY metaname="C" />
+  <POWER value="2" />
+  <TOUGHNESS value="4" />
+  <STATIC_ABILITY>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Flying]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Vol]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Vuela]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Fliegend]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Volare]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[飛行]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[비행]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Полет]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Voar]]></LOCALISED_TEXT>
+    <CONTINUOUS_ACTION>
+    local characteristics = Object():GetCurrentCharacteristics()
+    characteristics:Characteristic_Set( CHARACTERISTIC_FLYING, 1 )
+    </CONTINUOUS_ACTION>
+  </STATIC_ABILITY>
+  <STATIC_ABILITY commaspace="1">
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[lifelink]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[lien de vie]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[vínculo vital.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Lebensverknüpfung]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[legame vitale]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[絆魂]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[생명연결]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Цепь жизни]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[vínculo com a vida]]></LOCALISED_TEXT>
+    <CONTINUOUS_ACTION>
+    local characteristics = Object():GetCurrentCharacteristics()
+    characteristics:Characteristic_Set( CHARACTERISTIC_LIFELINK, 1 )
+    </CONTINUOUS_ACTION>
+  </STATIC_ABILITY>
+  <HELP title="MORE_INFO_BADGE_TITLE_4" body="MORE_INFO_BADGE_BODY_4" zone="ZONE_ANY" />
+  <HELP title="MORE_INFO_BADGE_TITLE_10" body="MORE_INFO_BADGE_BODY_10" zone="ZONE_ANY" />
+  <SFX text="COMBAT_ANGEL_LARGE_ATTACK" power_boundary_min="4" power_boundary_max="-1" />
+  <SFX text="COMBAT_ANGEL_SMALL_ATTACK" power_boundary_min="1" power_boundary_max="3" />
+</CARD_V2>

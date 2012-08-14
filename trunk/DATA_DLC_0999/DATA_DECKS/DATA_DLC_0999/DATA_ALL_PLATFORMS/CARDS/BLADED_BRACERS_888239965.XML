@@ -1,0 +1,111 @@
+﻿<?xml version='1.0'?>
+<CARD_V2>
+  <FILENAME text="BLADED_BRACERS_888239965" />
+  <CARDNAME text="BLADED_BRACERS" />
+  <TITLE>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Bladed Bracers]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Bracciali Affilati]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Klingenbesetzte Armschienen]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Bracelets à lames]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Brazales con filos]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[刃の篭手]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[날 달린 팔보호대]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Наручи с Клинками]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Braceletes Blindados]]></LOCALISED_TEXT>
+  </TITLE>
+  <MULTIVERSEID value="888239965" />
+  <ARTID value="888239965" />
+  <ARTIST name="Ryan Yee" />
+  <CASTING_COST cost="{1}" />
+  <FLAVOURTEXT>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Forged from the rubble of the Helvault.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Forgiati dalle macerie della Tomba Infernale.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Aus den Trümmern des Höllenkerkers geschmiedet.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Forgés à partir des débris du Helgruft.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Forjados con los escombros de Helvault.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[獄庫の瓦礫より打ち出されたるもの。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[헬볼트의 파편으로 만들어졌다.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Они выкованы из осколков Хелволта.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Forjados dos escombros da Câmara Infernal.]]></LOCALISED_TEXT>
+  </FLAVOURTEXT>
+  <TYPE metaname="Artifact" />
+  <SUB_TYPE metaname="Equipment" />
+  <EXPANSION value="DPG" />
+  <RARITY metaname="C" />
+  <STATIC_ABILITY filter_zone="ZONE_IN_PLAY">
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Equipped creature gets +1/+1.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[La creatura equipaggiata prende +1/+1.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Die ausgerüstete Kreatur erhält +1/+1.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[La créature équipée gagne +1/+1.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[La criatura equipada obtiene +1/+1.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[装備しているクリーチャーは＋１/＋１の修整を受ける。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[장착된 생물은 +1/+1을 받는다.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Снаряженное существо получает +1/+1.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[A criatura equipada recebe +1/+1.]]></LOCALISED_TEXT>
+    <CONTINUOUS_ACTION layer="7C">
+    local parent = Object():GetParent()
+    if parent ~= nil then
+    	parent:GetCurrentCharacteristics():Power_Add( 1 )
+    	parent:GetCurrentCharacteristics():Toughness_Add( 1 )
+    end
+    </CONTINUOUS_ACTION>
+  </STATIC_ABILITY>
+  <STATIC_ABILITY filter_zone="ZONE_IN_PLAY">
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[As long as equipped creature is a Human or an Angel, it has vigilance.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Fintanto che la creatura equipaggiata è un Umano o un Angelo, ha cautela.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Solange die ausgerüstete Kreatur ein Mensch oder Engel ist, hat sie Wachsamkeit.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Tant que la créature équipée est un humain ou un ange, elle a la vigilance.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Mientras la criatura equipada sea un Humano o un Ángel, tiene la habilidad de vigilancia.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[装備しているクリーチャーが人間または天使であるかぎり、それは警戒を持つ。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[장착된 생물이 인간 또는 천사인 한, 그 생물은 경계 능력을 가진다.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Пока снаряженное существо является Человеком или Ангелом, оно имеет Бдительность.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Enquanto a criatura equipada for um Humano ou um Anjo, ela terá vigilância.]]></LOCALISED_TEXT>
+	<CONTINUOUS_ACTION layer="6">
+    local parent = Object():GetParent()
+    if parent ~= nil then
+		if (parent:GetSubType():Test( CREATURE_TYPE_ANGEL ) ~= 0 or parent:GetSubType():Test( CREATURE_TYPE_HUMAN ) ~= 0) then
+			parent:GetCurrentCharacteristics():Characteristic_Set( CHARACTERISTIC_VIGILANCE, 1 )
+		end
+    end
+    </CONTINUOUS_ACTION>
+  </STATIC_ABILITY>
+  <ACTIVATED_ABILITY sorcery_time="1" filter_zone="ZONE_IN_PLAY">
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Equip {2}]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Équipement {2}]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Equipar {2}.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Ausrüsten {2}]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Equipaggiare {2}]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[装備 {2}]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[장착 {2}]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Снарядить {2}]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Equipar {2}]]></LOCALISED_TEXT>
+    <COST type="Mana" cost="{2}" />
+    <TARGET_DEFINITION id="0">
+    local filter = Object():GetFilter()
+    filter:Clear()
+    filter:AddCardType( CARD_TYPE_CREATURE )
+    filter:SetZone( ZONE_IN_PLAY )
+    filter:SetController( EffectController() )
+    -- AI 'cannot reequip' exemption 
+    local parent = Object():GetParent()
+    if parent ~= nil and EffectController():IsAI() ~= 0 then
+    	filter:SetCardInstance(parent)
+    	filter:AddExtra(FILTER_EXTRA_FLIP_CARD_INSTANCE)
+    end
+    </TARGET_DEFINITION>
+    <TARGET_DETERMINATION>
+    return AtLeastOneTargetFromDefinition(0)
+    </TARGET_DETERMINATION>
+    <PLAY_TIME_ACTION target_choosing="1">
+    EffectController():ChooseTarget( 0, "CARD_QUERY_CHOOSE_CREATURE_TO_EQUIP", EffectDC():Make_Targets(0) )
+    </PLAY_TIME_ACTION>
+    <RESOLUTION_TIME_ACTION>
+    local target_card = EffectDC():Get_Targets(0):Get_CardPtr(0)
+    if (target_card ~= nil and EffectSource() ~= nil) then
+    	EffectSource():Attach( target_card )	
+    end
+    </RESOLUTION_TIME_ACTION>
+    <AI_AVAILABILITY type="equip" />
+  </ACTIVATED_ABILITY>
+  <HELP title="MORE_INFO_BADGE_TITLE_13" body="MORE_INFO_BADGE_BODY_13" zone="ZONE_ANY" />
+</CARD_V2>

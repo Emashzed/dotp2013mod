@@ -1,0 +1,82 @@
+﻿<?xml version='1.0'?>
+<CARD_V2>
+  <FILENAME text="GOLDNIGHT_REDEEMER_888239998" />
+  <CARDNAME text="GOLDNIGHT_REDEEMER" />
+  <TITLE>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Goldnight Redeemer]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Redentrice della Notte Dorata]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Goldnacht-Erlöserin]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Rédemptrice d’Ornuit]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Redentora de la Noche Dorada]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[黄金夜の救い手]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[황금야 구원자]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Искупитель Золотой Ночи]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Redentor dos Noite Dourada]]></LOCALISED_TEXT>
+  </TITLE>
+  <MULTIVERSEID value="888239998" />
+  <ARTID value="888239998" />
+  <ARTIST name="Karl Kopinski" />
+  <CASTING_COST cost="{4}{W}{W}" />
+  <FLAVOURTEXT>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[The Host sings of Avacyn’s return without a single verse about its own suffering.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Le schiere angeliche cantano il ritorno di Avacyn, ma non un verso ricorda le loro sofferenze.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Die Heerschar singt von Avacyns Rückkehr, ohne auch nur ein Wort über ihr eigenes Leid zu verlieren.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[La Milice céleste chante le retour d’Avacyn sans entonner le moindre couplet sur ses propres souffrances.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[La hueste canta el regreso de Avacyn sin incluir un solo verso acerca de su propio sufrimiento.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[その苦難には一節たりとも触れることなく、聖体はアヴァシンの帰還を歌いあげる。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[천사들은 스스로의 고난에 대해서는 한 소절도 언급하지 않은 채 아바신의 귀환을 노래했다.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Сонм ангелов поет о возвращении Авацины, не упоминая о своих страданиях.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[A Hoste canta o retorno de Avacyn sem um verso sequer sobre seu próprio sofrimento.]]></LOCALISED_TEXT>
+  </FLAVOURTEXT>
+  <TYPE metaname="Creature" />
+  <SUB_TYPE metaname="Angel" />
+  <EXPANSION value="DPG" />
+  <RARITY metaname="U" />
+  <POWER value="4" />
+  <TOUGHNESS value="4" />
+  <STATIC_ABILITY>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Flying]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Vol]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Vuela.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Fliegend]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Volare]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[飛行]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[비행]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Полет]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Voar]]></LOCALISED_TEXT>
+    <CONTINUOUS_ACTION>
+    local characteristics = Object():GetCurrentCharacteristics()
+    characteristics:Characteristic_Set( CHARACTERISTIC_FLYING, 1 )
+    </CONTINUOUS_ACTION>
+  </STATIC_ABILITY>
+  <TRIGGERED_ABILITY auto_skip="1" filter_zone="ZONE_IN_PLAY">
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[When Goldnight Redeemer enters the battlefield, you gain 2 life for each other creature you control.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Quando la Redentrice della Notte Dorata entra nel campo di battaglia, guadagni 2 punti vita per ogni altra creatura che controlli.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Wenn die Goldnacht-Erlöserin ins Spiel kommt, erhältst du für jede andere Kreatur, die du kontrollierst, 2 Lebenspunkte dazu.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Quand la Rédemptrice d’Ornuit arrive sur le champ de bataille, vous gagnez 2 points de vie pour chaque autre créature que vous contrôlez.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Cuando la Redentora de la Noche Dorada entre al campo de batalla, ganas 2 vidas por cada otra criatura que controles.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[黄金夜の救い手が戦場に出たとき、あなたはあなたがコントロールする他のクリーチャー１体につき２点のライフを得る。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[황금야 구원자가 전장에 들어올 때, 당신은 당신이 조종하는 다른 생물 한 개당 생명 2점을 얻는다.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Когда Искупитель Золотой Ночи выходит на поле битвы, вы получаете 2 жизни за каждое другое существо под вашим контролем.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Quando Redentor dos Noite Dourada entra no campo de batalha, você ganha 2 pontos de vida para cada outra criatura que você controla.]]></LOCALISED_TEXT>
+    <TRIGGER value="ZONECHANGE_END" simple_qualifier="self" to_zone="ZONE_IN_PLAY" />
+    <RESOLUTION_TIME_ACTION>
+    local filter = Object():GetFilter()
+    filter:Clear()
+    filter:NotTargetted()
+    filter:SetZone( ZONE_IN_PLAY )
+    filter:AddCardType( CARD_TYPE_CREATURE )
+    filter:SetController( EffectController() )
+    filter:SetCardInstance( Object() )
+    filter:AddExtra( FILTER_EXTRA_FLIP_CARD_INSTANCE )
+    local lifeGain = filter:Count()
+    if lifeGain &gt; 0 then
+    	EffectController():GainLife( lifeGain * 2 )
+    end
+    </RESOLUTION_TIME_ACTION>
+    <SFX text="CASTER_BUFF_PLAY" />
+  </TRIGGERED_ABILITY>
+  <HELP title="MORE_INFO_BADGE_TITLE_10" body="MORE_INFO_BADGE_BODY_10" zone="ZONE_ANY" />
+  <SFX text="COMBAT_ANGEL_LARGE_ATTACK" power_boundary_min="4" power_boundary_max="-1" />
+  <SFX text="COMBAT_ANGEL_SMALL_ATTACK" power_boundary_min="1" power_boundary_max="3" />
+</CARD_V2>

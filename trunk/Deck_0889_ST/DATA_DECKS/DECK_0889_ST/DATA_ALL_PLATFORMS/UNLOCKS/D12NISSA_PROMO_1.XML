@@ -1,12 +1,17 @@
-<UNLOCKS uid="8893" deck_uid="889" content_pack="0" game_mode="2">
-  <CARD name="JAYEMDAE_TOME_276818#" deckOrderId="100" unlockOrderId="0" quantity="1" />
-  <CARD name="JAYEMDAE_TOME_276818#" deckOrderId="101" unlockOrderId="1" quantity="1" />
-  <CARD name="JAYEMDAE_TOME_276818#" deckOrderId="102" unlockOrderId="2" quantity="1" />
-  <CARD name="JAYEMDAE_TOME_276818#" deckOrderId="103" unlockOrderId="3" quantity="1" />
-  <CARD name="JAYEMDAE_TOME_276818#" deckOrderId="104" unlockOrderId="4" quantity="1" />
-  <CARD name="JAYEMDAE_TOME_276818#" deckOrderId="105" unlockOrderId="5" quantity="1" />
-  <CARD name="JAYEMDAE_TOME_276818#" deckOrderId="106" unlockOrderId="6" quantity="1" />
-  <CARD name="JAYEMDAE_TOME_276818#" deckOrderId="107" unlockOrderId="7" quantity="1" />
-  <CARD name="JAYEMDAE_TOME_276818#" deckOrderId="108" unlockOrderId="8" quantity="1" />
-  <CARD name="JAYEMDAE_TOME_276818#" deckOrderId="109" unlockOrderId="9" quantity="1" />
+<UNLOCKS uid="8893" deck_uid="889" content_pack="9" game_mode="2">
+  <CARD name="WELLWISHER_888158109#" deckOrderId="37" unlockOrderId="0" quantity="1" />
+  <CARD name="WELLWISHER_888158109#" deckOrderId="38" unlockOrderId="1" quantity="1" />
+  <CARD name="PROWESS_OF_THE_FAIR_888146167#" deckOrderId="39" unlockOrderId="2" quantity="1" />
+  <CARD name="PROWESS_OF_THE_FAIR_888146167#" deckOrderId="40" unlockOrderId="3" quantity="1" />
+  <CARD name="ELVISH_CHAMPION_88845442#" deckOrderId="41" unlockOrderId="4" quantity="1" />
+  <CARD name="ELVISH_CHAMPION_88845442#" deckOrderId="42" unlockOrderId="5" quantity="1" />
+  <CARD name="HEEDLESS_ONE_888158113#" deckOrderId="43" unlockOrderId="6" quantity="1" />
+  <CARD name="HEEDLESS_ONE_888158113#" deckOrderId="44" unlockOrderId="7" quantity="1" />
+  <CARD name="BRAMBLEWOOD_PARAGON_888153139#" deckOrderId="45" unlockOrderId="8" quantity="1" />
+  <CARD name="WRENS_RUN_VANQUISHER_888158129#" deckOrderId="46" unlockOrderId="9" quantity="1" />
+  <CARD name="WRENS_RUN_VANQUISHER_888158129#" deckOrderId="47" unlockOrderId="10" quantity="1" />
+  <CARD name="TAUNTING_ELF_280296#" deckOrderId="48" unlockOrderId="11" quantity="1" />
+  <CARD name="TAUNTING_ELF_280296#" deckOrderId="49" unlockOrderId="12" quantity="1" />
+  <CARD name="IMMACULATE_MAGISTRATE_888139721#" deckOrderId="50" unlockOrderId="13" quantity="1" />
+  <CARD name="RHYS_THE_REDEEMED_888147393#" deckOrderId="51" unlockOrderId="14" quantity="1" />
 </UNLOCKS>
