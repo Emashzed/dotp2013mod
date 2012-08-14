@@ -64,10 +64,10 @@
    </Row>
    <Row ss:AutoFitHeight="0">
     <Cell><Data ss:Type="String">ALTERNATE_COST_LIFE_EXILE_BLUE</Data></Cell>
-    <Cell ss:Index="3"><Data ss:Type="String">Pay 1 life and exile a bue card in your hand</Data></Cell>
+    <Cell ss:Index="3"><Data ss:Type="String">Pay 1 life and exile a blue card in your hand</Data></Cell>
     <Cell><Data ss:Type="String">Payez 1 point de vie et exilez une carte bleue dans votre main</Data></Cell>
     <Cell><Data ss:Type="String">Pagar 1 vida y el exilio de una tarjeta de bue en la mano</Data></Cell>
-    <Cell><Data ss:Type="String">Bezahle 1 Leben und Exil ein bue Karte in Ihrer Hand</Data></Cell>
+    <Cell><Data ss:Type="String">Bezahle 1 Leben und exiliere eine blaue Karte in Deiner Hand</Data></Cell>
     <Cell><Data ss:Type="String">Paga 1 punto vita e l'esilio una carta di bue in mano</Data></Cell>
     <Cell ss:Index="9"><Data ss:Type="String">あなたの手に1点のライフと亡命ブエカードを支払う</Data></Cell>
     <Cell><Data ss:Type="String">손에 한 삶과 망명 bue 카드 지불</Data></Cell>
@@ -127,8 +127,8 @@
     <Cell><Data ss:Type="String">CARD_QUERY_CHOOSE_ARTIFACT_TO_CREATURE_CMC</Data></Cell>
     <Cell ss:Index="3"><Data ss:Type="String">Choose an artifact to become an artifact creature with power and toughness each equal to its converted mana cost until end of turn.</Data></Cell>
     <Cell><Data ss:Type="String">Choisissez un artefact à transformer en une créature artefact avec une force et une endurance chacune égale à son coût converti de mana jusqu'à la fin du tour.</Data></Cell>
-    <Cell><Data ss:Type="String">Elija un artefacto para convertirse en una criatura artefacto con fuerza y ​​resistencia iguales a su coste de maná convertido hasta el final del turno.</Data></Cell>
-    <Cell><Data ss:Type="String">Wählen Sie ein Artefakt, um ein Artefakt Kreatur mit Stärke und Widerstandskraft gleich ihre umgewandelten Manakosten bis zum Ende des Zuges zu werden.</Data></Cell>
+    <Cell><Data ss:Type="String">Elija un artefacto para convertirse en una criatura artefacto con fuerza y resistencia iguales a su coste de maná convertido hasta el final del turno.</Data></Cell>
+    <Cell><Data ss:Type="String">Wähle ein Artefakt, um eine Artefaktkreatur mit Stärke und Widerstandskraft gleich ihre umgewandelten Manakosten bis zum Ende des Zuges zu werden.</Data></Cell>
     <Cell><Data ss:Type="String">Scegli un artefatto per diventare una creatura artefatto con forza e costituzione pari ciascuna al suo costo di mana convertito fino alla fine del turno.</Data></Cell>
     <Cell ss:Index="9"><Data ss:Type="String">パワーとターン終了時まで、その点数で見たマナ·コストにそれぞれ等しいタフネスを持つアーティファクト·クリーチャーになるようにアーティファクトを選択してください。</Data></Cell>
     <Cell><Data ss:Type="String">파워와 회전 월말까지 자사의 변환 mana 비용은 각 동등한 인성과 유물 생물되기 위해 유물을 선택하십시오.</Data></Cell>
@@ -152,7 +152,7 @@
     <Cell ss:Index="3"><Data ss:Type="String">Choose a black card to put into its owner’s hand.</Data></Cell>
     <Cell><Data ss:Type="String">Choisissez une carte noire à retourner dans la main de son propriétaire.</Data></Cell>
     <Cell><Data ss:Type="String">Elegir una tarjeta de negro para poner en la mano de su propietario.</Data></Cell>
-    <Cell><Data ss:Type="String">Wählen Sie eine schwarze Karte in die Hand ihres Besitzers gelegt.</Data></Cell>
+    <Cell><Data ss:Type="String">Wählen Sie eine schwarze Karte um in die Hand ihres Besitzers gelegt zu werden.</Data></Cell>
     <Cell><Data ss:Type="String">Scegli una carta nera da mettere in mano al suo proprietario.</Data></Cell>
     <Cell ss:Index="9"><Data ss:Type="String">そのオーナーの手札に入れ、黒いカードを選択します。</Data></Cell>
     <Cell><Data ss:Type="String">주인의 손에 넣고있는 검은색 카드를 선택합니다.</Data></Cell>
@@ -164,7 +164,7 @@
     <Cell ss:Index="3"><Data ss:Type="String">Choose a card to put into its owner’s graveyard.</Data></Cell>
     <Cell><Data ss:Type="String">Choisissez une carte à mettre dans le cimetière de son propriétaire.</Data></Cell>
     <Cell><Data ss:Type="String">Elegir una tarjeta que pone en el cementerio de su propietario.</Data></Cell>
-    <Cell><Data ss:Type="String">Wählen Sie eine Karte in den Friedhof ihres Besitzers gelegt.</Data></Cell>
+    <Cell><Data ss:Type="String">Wählen Sie eine Karte um sie in den Friedhof ihres Besitzers zu legen.</Data></Cell>
     <Cell><Data ss:Type="String">Scegliere una carta messa nel cimitero del suo proprietario.</Data></Cell>
     <Cell ss:Index="9"><Data ss:Type="String">そのオーナーの墓地に置くためにカードを選択します。</Data></Cell>
     <Cell><Data ss:Type="String">주인의 묘지에 투입하는 카드를 선택합니다.</Data></Cell>
@@ -188,7 +188,7 @@
     <Cell ss:Index="3"><Data ss:Type="String">Choose target creature to sacrifice by its controller.</Data></Cell>
     <Cell><Data ss:Type="String">Choisissez une créature ciblée à sacrifier par son contrôleur.</Data></Cell>
     <Cell><Data ss:Type="String">Elige la criatura objetivo a sacrificar por su controlador.</Data></Cell>
-    <Cell><Data ss:Type="String">Wählen Sie eine Kreatur deiner Wahl, die von ihren Controller opfern.</Data></Cell>
+    <Cell><Data ss:Type="String">Wähle eine Kreatur deiner Wahl, die von seinem Beherscher geopfert wird.</Data></Cell>
     <Cell><Data ss:Type="String">Scegli una creatura bersaglio a sacrificarsi per il suo controllore.</Data></Cell>
     <Cell ss:Index="9"><Data ss:Type="String">そのコントローラによって犠牲にするクリーチャーを選択します。</Data></Cell>
     <Cell><Data ss:Type="String">해당 컨트롤러에 의해 희생 대상 생물을 선택합니다.</Data></Cell>
@@ -224,7 +224,7 @@
     <Cell ss:Index="3"><Data ss:Type="String">Choose a creature to get +4/+4 and hexproof.</Data></Cell>
     <Cell><Data ss:Type="String">Choisissez une créature pour lui faire gagner +4/+4 et la défense talismanique.</Data></Cell>
     <Cell><Data ss:Type="String">Choose a creature to get +4/+4 and hexproof.</Data></Cell>
-    <Cell><Data ss:Type="String">Choose a creature to get +4/+4 and hexproof.</Data></Cell>
+    <Cell><Data ss:Type="String">Bestimme eine Kreatur, die +4/+4 und hexproof erhalten soll.</Data></Cell>
     <Cell><Data ss:Type="String">Choose a creature to get +4/+4 and hexproof.</Data></Cell>
     <Cell ss:Index="9"><Data ss:Type="String">Choose a creature to get +4/+4 and hexproof.</Data></Cell>
     <Cell><Data ss:Type="String">Choose a creature to get +4/+4 and hexproof.</Data></Cell>
