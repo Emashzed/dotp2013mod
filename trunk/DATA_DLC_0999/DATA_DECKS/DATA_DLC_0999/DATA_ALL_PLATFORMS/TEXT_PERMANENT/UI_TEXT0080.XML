@@ -55,7 +55,7 @@
     <Cell ss:Index="3"><Data ss:Type="String">Can’t cast white spells</Data></Cell>
     <Cell><Data ss:Type="String">Impossible de lancer des sorts blancs</Data></Cell>
     <Cell><Data ss:Type="String">No se puede lanzar hechizos blancos</Data></Cell>
-    <Cell><Data ss:Type="String">Kann nicht gegossen weißen Zauber</Data></Cell>
+    <Cell><Data ss:Type="String">Weiße Sprüche können nicht gewirkt werden</Data></Cell>
     <Cell><Data ss:Type="String">Non può lanciare incantesimi bianchi</Data></Cell>
     <Cell><Data ss:Type="String">Can’t  cast white spells</Data></Cell>
     <Cell><Data ss:Type="String">白の呪文をキャストすることはできません</Data></Cell>
@@ -68,7 +68,7 @@
     <Cell ss:Index="3"><Data ss:Type="String">Can’t cast blue spells</Data></Cell>
     <Cell><Data ss:Type="String">Impossible de lancer des sorts bleus</Data></Cell>
     <Cell><Data ss:Type="String">No se puede lanzar hechizos azules</Data></Cell>
-    <Cell><Data ss:Type="String">Kann nicht werfen blauen Zauber</Data></Cell>
+    <Cell><Data ss:Type="String">Blaue Sprüche können nicht gewirkt werden</Data></Cell>
     <Cell><Data ss:Type="String">Non può lanciare incantesimi blu</Data></Cell>
     <Cell><Data ss:Type="String">Can’t  cast blue spells</Data></Cell>
     <Cell><Data ss:Type="String">青の呪文をキャストすることはできません</Data></Cell>
@@ -81,7 +81,7 @@
     <Cell ss:Index="3"><Data ss:Type="String">Can’t cast black spells</Data></Cell>
     <Cell><Data ss:Type="String">Impossible de lancer des sorts noirs</Data></Cell>
     <Cell><Data ss:Type="String">No se puede lanzar hechizos negros</Data></Cell>
-    <Cell><Data ss:Type="String">Kann nicht werfen schwarze Zauber</Data></Cell>
+    <Cell><Data ss:Type="String">Schwarze Sprüche können nicht gewirkt werden</Data></Cell>
     <Cell><Data ss:Type="String">Non può lanciare incantesimi neri</Data></Cell>
     <Cell><Data ss:Type="String">Can’t  cast black spells</Data></Cell>
     <Cell><Data ss:Type="String">黒の呪文をキャストすることはできません</Data></Cell>
@@ -94,7 +94,7 @@
     <Cell ss:Index="3"><Data ss:Type="String">Can’t cast red spells</Data></Cell>
     <Cell><Data ss:Type="String">Impossible de lancer des sorts rouges</Data></Cell>
     <Cell><Data ss:Type="String">No se puede lanzar hechizos de color rojo</Data></Cell>
-    <Cell><Data ss:Type="String">Kann nicht werfen rote Zauber</Data></Cell>
+    <Cell><Data ss:Type="String">Rote Sprüche können nicht gewirkt werden</Data></Cell>
     <Cell><Data ss:Type="String">Non può lanciare incantesimi rossi</Data></Cell>
     <Cell><Data ss:Type="String">Can’t  cast red spells</Data></Cell>
     <Cell><Data ss:Type="String">赤の呪文をキャストすることはできません</Data></Cell>
@@ -107,7 +107,7 @@
     <Cell ss:Index="3"><Data ss:Type="String">Can’t cast green spells</Data></Cell>
     <Cell><Data ss:Type="String">Impossible de lancer des sorts verts</Data></Cell>
     <Cell><Data ss:Type="String">No se puede lanzar hechizos verdes</Data></Cell>
-    <Cell><Data ss:Type="String">Kann nicht werfen grüne Zauber</Data></Cell>
+    <Cell><Data ss:Type="String">Grüne Sprüche können nicht gewirkt werden</Data></Cell>
     <Cell><Data ss:Type="String">Non può lanciare incantesimi verdi</Data></Cell>
     <Cell><Data ss:Type="String">Can’t  cast green spells</Data></Cell>
     <Cell><Data ss:Type="String">緑の呪文をキャストすることはできません</Data></Cell>
@@ -120,7 +120,7 @@
     <Cell ss:Index="3"><Data ss:Type="String">Damage redirection</Data></Cell>
     <Cell><Data ss:Type="String">Redirection des dommages</Data></Cell>
     <Cell><Data ss:Type="String">Daño de redirección</Data></Cell>
-    <Cell><Data ss:Type="String">Damage-Umleitung</Data></Cell>
+    <Cell><Data ss:Type="String">Schadensumleitung</Data></Cell>
     <Cell><Data ss:Type="String">danni reindirizzamento</Data></Cell>
     <Cell><Data ss:Type="String">Damage redirection</Data></Cell>
     <Cell><Data ss:Type="String">損傷のリダイレクト</Data></Cell>
@@ -146,7 +146,7 @@
     <Cell ss:Index="3"><Data ss:Type="String">Nonartifacts can’t be cast</Data></Cell>
     <Cell><Data ss:Type="String">Artefacts non ne peut pas être jeté</Data></Cell>
     <Cell><Data ss:Type="String">Artefactos no no se puede convertir</Data></Cell>
-    <Cell><Data ss:Type="String">Nicht Artefakte können nicht abgegeben werden</Data></Cell>
+    <Cell><Data ss:Type="String">Es können nur Artefakt-Sprüche gewirkt werden</Data></Cell>
     <Cell><Data ss:Type="String">Non artefatti non possono essere lanciati</Data></Cell>
     <Cell><Data ss:Type="String">Nonartifacts can’t be cast</Data></Cell>
     <Cell><Data ss:Type="String">非アーティファクトは、キャストすることはできません</Data></Cell>
