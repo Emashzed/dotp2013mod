@@ -9,7 +9,7 @@
   <Author>ScrollRack D13</Author>
   <LastAuthor>Anthony</LastAuthor>
   <Created>1980-05-23T00:00:00Z</Created>
-  <LastSaved>2012-07-27T11:06:59Z</LastSaved>
+  <LastSaved>2012-08-14T08:03:32Z</LastSaved>
   <Company>Microsoft Corporation</Company>
   <Version>14.00</Version>
  </DocumentProperties>
@@ -35,7 +35,7 @@
   </Style>
  </Styles>
  <Worksheet ss:Name="Sheet4">
-  <Table ss:ExpandedColumnCount="12" ss:ExpandedRowCount="83" x:FullColumns="1"
+  <Table ss:ExpandedColumnCount="12" ss:ExpandedRowCount="85" x:FullColumns="1"
    x:FullRows="1" ss:DefaultRowHeight="15">
    <Row ss:AutoFitHeight="0">
     <Cell><Data ss:Type="String">Ident</Data></Cell>
@@ -423,6 +423,18 @@
     <Cell><Data ss:Type="String">Unrooted</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">DECK_ANGELIC_MIGHT</Data></Cell>
+    <Cell ss:Index="3"><Data ss:Type="String">Angelic Might</Data></Cell>
+    <Cell><Data ss:Type="String">Angélique Might</Data></Cell>
+    <Cell><Data ss:Type="String">Angélica Might</Data></Cell>
+    <Cell><Data ss:Type="String">Angelic Might</Data></Cell>
+    <Cell><Data ss:Type="String">Angelic Potere</Data></Cell>
+    <Cell ss:Index="9"><Data ss:Type="String">天使はマイト</Data></Cell>
+    <Cell><Data ss:Type="String">천사하는데</Data></Cell>
+    <Cell><Data ss:Type="String">Ангельские Мощи</Data></Cell>
+    <Cell><Data ss:Type="String">Angélico Poder</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
     <Cell><Data ss:Type="String">DECK_KOTH_OLD</Data></Cell>
     <Cell ss:Index="3"><Data ss:Type="String">Strength of Stone</Data></Cell>
     <Cell><Data ss:Type="String">Force de la pierre</Data></Cell>
@@ -433,6 +445,18 @@
     <Cell><Data ss:Type="String">Strength of Stone</Data></Cell>
     <Cell><Data ss:Type="String">Strength of Stone</Data></Cell>
     <Cell><Data ss:Type="String">Strength of Stone</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">PLAYER_NAME_ANGELIC_MIGHT</Data></Cell>
+    <Cell ss:Index="3"><Data ss:Type="String">Serra Angel</Data></Cell>
+    <Cell><Data ss:Type="String">Ange de Serra</Data></Cell>
+    <Cell><Data ss:Type="String">Ángel de Serra</Data></Cell>
+    <Cell><Data ss:Type="String">Serra-Engel</Data></Cell>
+    <Cell><Data ss:Type="String">Angelo di Serra</Data></Cell>
+    <Cell ss:Index="9"><Data ss:Type="String">セラの天使</Data></Cell>
+    <Cell><Data ss:Type="String">세라 천사</Data></Cell>
+    <Cell><Data ss:Type="String">Ангел Серры</Data></Cell>
+    <Cell><Data ss:Type="String">Anjo Serra</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
     <Cell><Data ss:Type="String">PLAYER_NAME_CAZORIUS</Data></Cell>
@@ -1047,11 +1071,10 @@
     <VerticalResolution>600</VerticalResolution>
    </Print>
    <Selected/>
-   <TopRowVisible>60</TopRowVisible>
    <Panes>
     <Pane>
      <Number>3</Number>
-     <ActiveRow>83</ActiveRow>
+     <ActiveRow>85</ActiveRow>
     </Pane>
    </Panes>
    <ProtectObjects>False</ProtectObjects>
