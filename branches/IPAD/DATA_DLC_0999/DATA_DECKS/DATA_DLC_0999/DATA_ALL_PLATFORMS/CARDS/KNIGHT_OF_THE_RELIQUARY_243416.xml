@@ -1,0 +1,116 @@
+<?xml version='1.0'?>
+<CARD_V2>
+  <FILENAME text="KNIGHT_OF_THE_RELIQUARY_243416" />
+  <CARDNAME text="KNIGHT_OF_THE_RELIQUARY" />
+  <TITLE>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Knight of the Reliquary]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Cavaliere del Reliquiario]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Ritter des Reliquienschreins]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Chevalière du Reliquaire]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Caballero del Relicario]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[聖遺の騎士]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[Knight of the Reliquary]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Рыцарь Реликвария]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Cavaleiro do Relicário]]></LOCALISED_TEXT>
+  </TITLE>
+  <MULTIVERSEID value="243416" />
+  <ARTID value="888243416" />
+  <ARTIST name="Michael Komarck" />
+  <CASTING_COST cost="{1}{W}{G}" />
+  <FLAVOURTEXT>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA["Knowledge of Bant's landscape and ruins is a weapon that the invaders can't comprehend."—Elspeth]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA["La conoscenza del territorio e delle rovine di Bant è un'arma che gli invasori non possono neanche comprendere."—Elspeth]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[„Das Wissen über die Landschaften und Ruinen von Bant ist eine Waffe, die die Eindringlinge nicht verstehen."—Elspeth]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[« La connaissance du paysage et des ruines de Bant est une arme que les envahisseurs ne sauraient comprendre. »—Elspeth]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA["El conocimiento del paisaje de Bant y sus ruinas es un arma que los invasores no pueden entender."—Elspeth]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[「バントの地勢や廃墟に関する知識は、侵略者には理解し得ない武器なのです。」――エルズペス]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA["Knowledge of Bant's landscape and ruins is a weapon that the invaders can't comprehend."—Elspeth]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[«Знание бэнтского ладшафта и руин — это оружие, которое не дано захватчикам».— Элспет]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA["O conhecimento do terreno e das ruínas de Bant é uma arma que os invasores não podem compreender."— Elspeth]]></LOCALISED_TEXT>
+  </FLAVOURTEXT>
+  <TYPE metaname="Creature" />
+  <SUB_TYPE metaname="Human" order_de-DE="0" order_es-ES="0" order_fr-FR="0" order_it-IT="0" order_jp-JA="0" order_ko-KR="0" order_pt-BR="0" order_ru-RU="0" />
+  <SUB_TYPE metaname="Knight" order_de-DE="1" order_es-ES="1" order_fr-FR="1" order_it-IT="1" order_jp-JA="1" order_ko-KR="1" order_pt-BR="1" order_ru-RU="1" />
+  <EXPANSION value="DPG" />
+  <RARITY metaname="R" />
+  <POWER value="2" />
+  <TOUGHNESS value="2" />
+  <STATIC_ABILITY>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Knight of the Reliquary  land card in your graveyard.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Il Cavaliere del Reliquiario prende +1/+1 per ogni carta terra nel tuo cimitero.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Der Ritter des Reliquienschreins erhält +1/+1 für jedes Land auf deinem Friedhof.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[La Chevalière du Reliquaire gagne +1/+1 pour chaque carte de terrain dans votre cimetière.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[La Caballero del Relicario obtiene +1/+1 por cada carta de tierra en tu cementerio.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[聖遺の騎士は、あなたの墓地にある土地カード１枚につき＋１/＋１の修整を受ける。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[Knight of the Reliquary gets +1/+1 for each land card in your graveyard.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Рыцарь Реликвария получает +1/+1 за каждую карту земли на вашем кладбище.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Cavaleiro do Relicário recebe +1/+1 para cada card de terreno no seu cemitério.]]></LOCALISED_TEXT>
+    <CONTINUOUS_ACTION layer="7C">
+    local total = 0  
+    local filter = Object():GetFilter()  
+    filter:Clear()    
+    filter:SetZone( ZONE_GRAVEYARD )      
+    filter:AddCardType( CARD_TYPE_LAND ) 
+    filter:SetController( Object():GetController() )    
+    filter:NotTargetted()    
+    total = filter:Count()      
+    local characteristics = Object():GetCurrentCharacteristics()
+    characteristics:Power_Add(total)
+    characteristics:Toughness_Add(total)
+    </CONTINUOUS_ACTION>
+  </STATIC_ABILITY>
+  <ACTIVATED_ABILITY auto_skip="1" filter_zone="ZONE_IN_PLAY">
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[{T}, Sacrifice a Forest or Plains: Search your library for a land card, put it onto the battlefield, then shuffle your library.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[{T}, Sacrifica una Foresta o una Pianura: Passa in rassegna il tuo grimorio per una carta terra, mettila in gioco, poi rimescola il tuo grimorio.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[{T}, opfere einen Wald oder eine Ebene: Durchsuche deine Bibliothek nach einem Land, bringe es ins Spiel und mische danach deine Bibliothek.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[{T}, sacrifiez une forêt ou une plaine : Cherchez dans votre bibliothèque une carte de terrain, mettez-la en jeu, et mélangez ensuite votre bibliothèque.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[{T}, sacrificar un bosque o llanura: Busca en tu biblioteca una carta de tierra, ponla en juego, luego baraja tu biblioteca.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[{T}, 森１つか平地１つを生け贄に捧げる：あなたのライブラリーから土地カードを１枚探し、それを場に出し、その後あなたのライブラリーを切り直す。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[{T}, Sacrifice a Forest or Plains: Search your library for a land card, put it onto the battlefield, then shuffle your library.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[{T}, пожертвуйте Лес или Равнину: найдите в вашей библиотеке карту земли, положите ее в игру, затем перетасуйте вашу библиотеку.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[{T}, Sacrifique uma Floresta ou Planície: Procure em seu grimório um card de terreno, coloque-o em jogo e depois embaralhe seu grimório.]]></LOCALISED_TEXT>
+    <COST type="TapSelf" />
+    <COST type="Sacrifice" >
+      <TARGET_DEFINITION id="6">
+      local filter = Object():GetFilter()
+      filter:Clear()
+      filter:AddCardType( CARD_TYPE_LAND )
+      filter:AddSubType( LAND_TYPE_PLAINS )    
+      filter:AddSubType( LAND_TYPE_FOREST )    
+      filter:AddExtra( FILTER_EXTRA_ANY_SUB_TYPE )
+      filter:SetPlayer( EffectController() )
+      filter:SetZone( ZONE_IN_PLAY )
+      filter:SetHint( HINT_ENEMY, EffectController() )
+      filter:NotTargetted()
+      </TARGET_DEFINITION>
+      <TARGET_DETERMINATION>
+      return AtLeastOneTargetFromDefinition(6)
+      </TARGET_DETERMINATION>
+      <PLAYTIME>
+      EffectController():ChooseTarget( 6, "CARD_QUERY_CHOOSE_LAND_TO_SACRIFICE", EffectDC():Make_Targets(0) )
+      </PLAYTIME>
+    </COST>
+    <RESOLUTION_TIME_ACTION>
+    local filter = Object():GetFilter()
+    local player = EffectController()
+    player:MarkSearchedLibrary() 
+    filter:Clear()
+    filter:NotTargetted()
+    filter:AddCardType( CARD_TYPE_LAND ) 
+    filter:May()
+    filter:SetZone( ZONE_LIBRARY )
+    filter:SetPlayer( player )        
+    EffectController():ChooseTarget( 0, "CARD_QUERY_CHOOSE_LAND_TO_PUT_ONTO_BATTLEFIELD", EffectDC():Make_Targets(0) )
+    </RESOLUTION_TIME_ACTION>
+    <RESOLUTION_TIME_ACTION>
+    local target_play = EffectDC():Get_Targets(0):Get_CardPtr(0)
+    if target_play ~= nil then
+      target_play:GuidedReveal( ZONE_LIBRARY, ZONE_IN_PLAY )
+      target_play:PutIntoPlay( EffectController() )
+    end
+    </RESOLUTION_TIME_ACTION>
+    <RESOLUTION_TIME_ACTION>
+    EffectController():ShuffleLibrary()
+    </RESOLUTION_TIME_ACTION>
+  </ACTIVATED_ABILITY>
+</CARD_V2>

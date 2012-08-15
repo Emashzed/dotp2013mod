@@ -987,6 +987,18 @@
     <Cell><Data ss:Type="String">Verdeloth, o Antigo</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">PLAYER_NAME_KNIGHT_OF_THE_RELIQUARY</Data></Cell>
+    <Cell ss:Index="3"><Data ss:Type="String">Knight of the Reliquary</Data></Cell>
+    <Cell><Data ss:Type="String">Chevalière du Reliquaire</Data></Cell>
+    <Cell><Data ss:Type="String">Caballero del Relicario</Data></Cell>
+    <Cell><Data ss:Type="String">Ritter des Reliquienschreins</Data></Cell>
+    <Cell><Data ss:Type="String">Cavaliere del Reliquiario</Data></Cell>
+    <Cell ss:Index="9"><Data ss:Type="String">聖遺の騎士</Data></Cell>
+    <Cell><Data ss:Type="String">Knight of the Reliquary</Data></Cell>
+    <Cell><Data ss:Type="String">Рыцарь Реликвария</Data></Cell>
+    <Cell><Data ss:Type="String">Cavaleiro do Relicário</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
     <Cell><Data ss:Type="String">Z_DECK_AFFINITY</Data></Cell>
     <Cell ss:Index="3"><Data ss:Type="String">Affinity for Trouble</Data></Cell>
     <Cell><Data ss:Type="String">Affinité pour les Ennuis</Data></Cell>
@@ -1093,6 +1105,18 @@
     <Cell><Data ss:Type="String">Fiery Mountains</Data></Cell>
     <Cell><Data ss:Type="String">Fiery Mountains</Data></Cell>
     <Cell><Data ss:Type="String">Fiery Mountains</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Z_DECK_MAVERICK</Data></Cell>
+    <Cell ss:Index="3"><Data ss:Type="String">Maverick</Data></Cell>
+    <Cell><Data ss:Type="String">Maverick</Data></Cell>
+    <Cell><Data ss:Type="String">Maverick</Data></Cell>
+    <Cell><Data ss:Type="String">Maverick</Data></Cell>
+    <Cell><Data ss:Type="String">Maverick</Data></Cell>
+    <Cell ss:Index="9"><Data ss:Type="String">Maverick</Data></Cell>
+    <Cell><Data ss:Type="String">Maverick</Data></Cell>
+    <Cell><Data ss:Type="String">Maverick</Data></Cell>
+    <Cell><Data ss:Type="String">Maverick</Data></Cell>
    </Row>
   </Table>
   <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
