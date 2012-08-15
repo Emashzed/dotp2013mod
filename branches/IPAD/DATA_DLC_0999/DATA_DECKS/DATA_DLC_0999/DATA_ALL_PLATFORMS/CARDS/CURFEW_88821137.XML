@@ -1,0 +1,84 @@
+﻿<?xml version='1.0'?>
+<CARD_V2>
+  <FILENAME text="CURFEW_88821137" />
+  <CARDNAME text="CURFEW" />
+  <TITLE>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Curfew]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Coprifuoco]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Zapfenstreich]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Couvre-feu]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Toque de queda]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[Curfew]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[Curfew]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Curfew]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Toque de Recolher]]></LOCALISED_TEXT>
+  </TITLE>
+  <MULTIVERSEID value="88821137" />
+  <ARTID value="88821137" />
+  <ARTIST name="Randy Gallegos" />
+  <CASTING_COST cost="{U}" />
+  <FLAVOURTEXT>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[“. . . But I’m not tired”]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[“. . . Ma non sono stanco!”]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[“… aber ich bin noch gar nicht müde!“]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[“. . . But I’m not tired”]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[“. . . But I’m not tired”]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[“. . . But I’m not tired”]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[“. . . But I’m not tired”]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[“. . . But I’m not tired”]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[“. . . But I’m not tired”]]></LOCALISED_TEXT>
+  </FLAVOURTEXT>
+  <TYPE metaname="Instant" />
+  <EXPANSION value="DPG" />
+  <RARITY metaname="C" />
+  <SPELL_ABILITY dangerous="1" filter_zone="ZONE_IN_PLAY">
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Each player returns a creature he or she controls to its owner’s hand.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Ogni giocatore fa tornare una creatura che controlla in mano al suo proprietario.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Jeder Spieler bestimmt eine Kreatur, die er kontrolliert und bringt diese auf die Hand ihres Besitzers zurück.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Each player returns a creature he or she controls to its owner’s hand.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Each player returns a creature he or she controls to its owner’s hand.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[Each player returns a creature he or she controls to its owner’s hand.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[Each player returns a creature he or she controls to its owner’s hand.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Each player returns a creature he or she controls to its owner’s hand.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Each player returns a creature he or she controls to its owner’s hand.]]></LOCALISED_TEXT>
+    <RESOLUTION_TIME_ACTION repeating="1">
+    local n = MTG():GetActionRepCount()
+    local num_players = MTG():GetNumberOfPlayers()
+    local playerindex = n
+    local player = MTG():GetNthPlayer(playerindex)
+    local filter = Object():GetFilter() 
+    if player ~= nil and n &lt; num_players then
+    	-- ask the query
+    	filter:Clear()
+    	filter:NotTargetted()
+    	filter:SetPlayer( player )
+    	filter:SetZone( ZONE_IN_PLAY )
+    	filter:AddCardType( CARD_TYPE_CREATURE )
+    	filter:SetHint( HINT_ENEMY, player )
+    	player:ChooseTarget( NO_VALIDATION, "CARD_QUERY_CHOOSE_CREATURE_TO_PUT_INTO_HAND", EffectDC():Make_Targets(n) )
+    	return true
+    	
+    else 
+    	local i=0
+    	for i=0,(num_players-1) do
+    		local targetDC = EffectDC():Get_Targets(i)
+    		
+    		if targetDC ~= nil then
+    		  local target_card = targetDC:Get_CardPtr(0)
+    		  if target_card ~= nil then
+    		    target_card:PutInHand() 
+    		  end
+    		end
+    	end
+    	return false
+    end
+    </RESOLUTION_TIME_ACTION>
+  </SPELL_ABILITY>
+  <AI_AVAILABILITY type="in_response" />
+  <AI_AVAILABILITY step="begin_combat" turn="their_turn" />
+  <AI_AVAILABILITY step="main_1" turn="my_turn" />
+  <AI_AVAILABILITY step="declare_attackers" turn="their_turn" />
+  <AI_AVAILABILITY step="declare_blockers" />
+  <AI_AVAILABILITY step="end_of_turn" />
+  <AI_BASE_SCORE score="600" zone="ZONE_HAND" />
+</CARD_V2>

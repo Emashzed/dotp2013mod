@@ -1,0 +1,169 @@
+<?xml version="1.0"?>
+<?mso-application progid="Excel.Sheet"?>
+<Workbook xmlns="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:o="urn:schemas-microsoft-com:office:office"
+ xmlns:x="urn:schemas-microsoft-com:office:excel"
+ xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:html="http://www.w3.org/TR/REC-html40">
+ <DocumentProperties xmlns="urn:schemas-microsoft-com:office:office">
+  <Author>ScrollRack D13</Author>
+  <LastAuthor>ScrollRack D13</LastAuthor>
+  <Created>1980-05-23T00:00:00Z</Created>
+  <Company>Microsoft Corporation</Company>
+  <Version>14.00</Version>
+ </DocumentProperties>
+ <OfficeDocumentSettings xmlns="urn:schemas-microsoft-com:office:office">
+  <AllowPNG/>
+ </OfficeDocumentSettings>
+ <ExcelWorkbook xmlns="urn:schemas-microsoft-com:office:excel">
+  <WindowHeight>14025</WindowHeight>
+  <WindowWidth>14025</WindowWidth>
+  <WindowTopX>1965</WindowTopX>
+  <WindowTopY>1965</WindowTopY>
+  <ProtectStructure>False</ProtectStructure>
+  <ProtectWindows>False</ProtectWindows>
+ </ExcelWorkbook>
+ <Styles>
+  <Style ss:ID="Default" ss:Name="Normal">
+   <Alignment ss:Vertical="Bottom"/>
+   <Borders/>
+   <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="11" ss:Color="#000000"/>
+   <Interior/>
+   <NumberFormat/>
+   <Protection/>
+  </Style>
+  <Style ss:ID="s63">
+   <Alignment ss:Vertical="Bottom" ss:WrapText="1"/>
+  </Style>
+ </Styles>
+ <Worksheet ss:Name="Sheet4">
+  <Table ss:ExpandedColumnCount="12" ss:ExpandedRowCount="446" x:FullColumns="1"
+   x:FullRows="1" ss:DefaultRowHeight="15">
+   <Row>
+    <Cell><Data ss:Type="String">Ident</Data></Cell>
+    <Cell><Data ss:Type="String">Comment</Data></Cell>
+    <Cell><Data ss:Type="String">Master Text</Data></Cell>
+    <Cell><Data ss:Type="String">French</Data></Cell>
+    <Cell><Data ss:Type="String">Spanish</Data></Cell>
+    <Cell><Data ss:Type="String">German</Data></Cell>
+    <Cell><Data ss:Type="String">Italian</Data></Cell>
+    <Cell ss:Index="9"><Data ss:Type="String">Japanese</Data></Cell>
+    <Cell><Data ss:Type="String">Korean</Data></Cell>
+    <Cell><Data ss:Type="String">Russian</Data></Cell>
+    <Cell><Data ss:Type="String">Portuguese (Brazil)</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">CARD_QUERY_CHOOSE_CREATURE_TO_GET_2_4</Data></Cell>
+    <Cell ss:Index="3"><Data ss:Type="String">Choose a creature to get +2/+4.</Data></Cell>
+    <Cell><Data ss:Type="String">Choisissez une créature pour lui faire gagner +2/+4.</Data></Cell>
+    <Cell><Data ss:Type="String">Elige una criatura para que obtenga +2/+4.</Data></Cell>
+    <Cell><Data ss:Type="String">Bestimme eine Kreatur, die +2/+4 erhalten soll.</Data></Cell>
+    <Cell><Data ss:Type="String">Scegli una creatura che prende +2/+4.</Data></Cell>
+    <Cell ss:Index="9"><Data ss:Type="String">+2/+4?????????????????</Data></Cell>
+    <Cell><Data ss:Type="String">+2/+4? ?? ?? ? ?? ?????.</Data></Cell>
+    <Cell><Data ss:Type="String">???????? ????????, ??????? ??????? +2/+4.</Data></Cell>
+    <Cell><Data ss:Type="String">Escolha uma criatura para receber +2/+4.</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">CARD_QUERY_CHOOSE_ENCHANTMENT_TO_EXILE</Data></Cell>
+    <Cell ss:Index="3"><Data ss:Type="String">Choose an enchantment to exile.</Data></Cell>
+    <Cell><Data ss:Type="String">Choisissez un enchantement à exiler.</Data></Cell>
+    <Cell><Data ss:Type="String">Elige un encantamiento para exiliar.</Data></Cell>
+    <Cell><Data ss:Type="String">Bestimme eine Karte, die ins Exil geschickt werden soll.</Data></Cell>
+    <Cell><Data ss:Type="String">Scegli un incantesimo da esiliare.</Data></Cell>
+    <Cell ss:Index="9"><Data ss:Type="String">???????????</Data></Cell>
+    <Cell><Data ss:Type="String">??? ??? ? ? ?????.</Data></Cell>
+    <Cell><Data ss:Type="String">???????? ????? ??? ????????.</Data></Cell>
+    <Cell><Data ss:Type="String">Escolha um encantamento para exilar.</Data></Cell>
+   </Row> 
+   <Row>
+    <Cell><Data ss:Type="String">CARD_QUERY_CHOOSE_CREATURE_GAIN_MUST_BLOCK</Data></Cell>
+    <Cell ss:Index="3"><Data ss:Type="String">Choose a creature to cause to block this turn.</Data></Cell>
+    <Cell><Data ss:Type="String">Choisissez une créature pour la faire bloquer ce tour-ci.</Data></Cell>
+    <Cell><Data ss:Type="String">Elige una criatura para que bloquear este turno.</Data></Cell>
+    <Cell><Data ss:Type="String">Choose a creature to cause to block this turn.</Data></Cell>
+    <Cell><Data ss:Type="String">Scegli una creatura da far bloccare in questo turno.</Data></Cell>
+    <Cell ss:Index="9"><Data ss:Type="String">Choose a creature to cause to block this turn.</Data></Cell>
+    <Cell><Data ss:Type="String">Choose a creature to cause to block this turn.</Data></Cell>
+    <Cell><Data ss:Type="String">Choose a creature to cause to block this turn.</Data></Cell>
+    <Cell><Data ss:Type="String">Escolha uma criatura para bloquear neste turno.</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">CARD_QUERY_CHOOSE_CREATURE_OR_ARTIFACT_TO_ENCHANT</Data></Cell>
+    <Cell ss:Index="3"><Data ss:Type="String">Choose an artifact or creature to enchant.</Data></Cell>
+    <Cell><Data ss:Type="String">Choisissez un permanent pour l'enchanter.</Data></Cell>
+    <Cell><Data ss:Type="String">Elige un permanente para encantarlo.</Data></Cell>
+    <Cell><Data ss:Type="String">Bestimme eine bleibende Karte, die verzaubert werden soll.</Data></Cell>
+    <Cell><Data ss:Type="String">Scegli un permanente da incantare.</Data></Cell>
+    <Cell ss:Index="9"><Data ss:Type="String">??????????????????</Data></Cell>
+    <Cell><Data ss:Type="String">??? ??? ???? ?????.</Data></Cell>
+    <Cell><Data ss:Type="String">???????? ????????? ??? ???????????.</Data></Cell>
+    <Cell><Data ss:Type="String">Escolha uma permanente para encantar.</Data></Cell>
+   </Row>
+  </Table>
+  <Row>
+    <Cell><Data ss:Type="String">CARD_QUERY_CHOOSE_INSTANT_OR_SORCERY_TO_EXILE_COPY</Data></Cell>
+    <Cell ss:Index="3"><Data ss:Type="String">Choose an instant or sorcery card to exile and copy.</Data></Cell>
+    <Cell><Data ss:Type="String">Choisissez un éphémère ou un rituel pour le lancer.</Data></Cell>
+    <Cell><Data ss:Type="String">Elige un instantáneo o conjuro para lanzar.</Data></Cell>
+    <Cell><Data ss:Type="String">Bestimme einen Spontanzauber oder eine Hexerei, den bzw. die du wirken willst.</Data></Cell>
+    <Cell><Data ss:Type="String">Scegli un istantaneo o una stregoneria da lanciare.</Data></Cell>
+    <Cell ss:Index="9"><Data ss:Type="String">???????????????????</Data></Cell>
+    <Cell><Data ss:Type="String">??? ?????? ???? ? ?? ?????.</Data></Cell>
+    <Cell><Data ss:Type="String">???????? ?????????? ?????????? ??? ?????????? ??? ????????????.</Data></Cell>
+    <Cell><Data ss:Type="String">Escolha uma mágica instantânea ou um feitiço para conjurar.</Data></Cell>
+   </Row>
+  <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+   <PageSetup>
+    <Header x:Margin="0.3"/>
+    <Footer x:Margin="0.3"/>
+    <PageMargins x:Bottom="0.75" x:Left="0.7" x:Right="0.7" x:Top="0.75"/>
+   </PageSetup>
+   <Selected/>
+   <ProtectObjects>False</ProtectObjects>
+   <ProtectScenarios>False</ProtectScenarios>
+  </WorksheetOptions>
+ </Worksheet>
+ <Worksheet ss:Name="Sheet1">
+  <Table ss:ExpandedColumnCount="1" ss:ExpandedRowCount="1" x:FullColumns="1"
+   x:FullRows="1" ss:DefaultRowHeight="15">
+  </Table>
+  <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+   <PageSetup>
+    <Header x:Margin="0.3"/>
+    <Footer x:Margin="0.3"/>
+    <PageMargins x:Bottom="0.75" x:Left="0.7" x:Right="0.7" x:Top="0.75"/>
+   </PageSetup>
+   <ProtectObjects>False</ProtectObjects>
+   <ProtectScenarios>False</ProtectScenarios>
+  </WorksheetOptions>
+ </Worksheet>
+ <Worksheet ss:Name="Sheet2">
+  <Table ss:ExpandedColumnCount="1" ss:ExpandedRowCount="1" x:FullColumns="1"
+   x:FullRows="1" ss:DefaultRowHeight="15">
+  </Table>
+  <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+   <PageSetup>
+    <Header x:Margin="0.3"/>
+    <Footer x:Margin="0.3"/>
+    <PageMargins x:Bottom="0.75" x:Left="0.7" x:Right="0.7" x:Top="0.75"/>
+   </PageSetup>
+   <ProtectObjects>False</ProtectObjects>
+   <ProtectScenarios>False</ProtectScenarios>
+  </WorksheetOptions>
+ </Worksheet>
+ <Worksheet ss:Name="Sheet3">
+  <Table ss:ExpandedColumnCount="1" ss:ExpandedRowCount="1" x:FullColumns="1"
+   x:FullRows="1" ss:DefaultRowHeight="15">
+  </Table>
+  <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+   <PageSetup>
+    <Header x:Margin="0.3"/>
+    <Footer x:Margin="0.3"/>
+    <PageMargins x:Bottom="0.75" x:Left="0.7" x:Right="0.7" x:Top="0.75"/>
+   </PageSetup>
+   <ProtectObjects>False</ProtectObjects>
+   <ProtectScenarios>False</ProtectScenarios>
+  </WorksheetOptions>
+ </Worksheet>
+</Workbook>

@@ -1,0 +1,71 @@
+<?xml version='1.0'?>
+<CARD_V2>
+  <FILENAME text="RITE_OF_REPLICATION_276971" />
+  <CARDNAME text="RITE_OF_REPLICATION" />
+  <TITLE>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Rite of Replication]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Rite de duplication]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Rito de replicación]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Replikationsritual]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Rito di Riproduzione]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[複製の儀式]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[복제의 의식]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Обряд Репликации]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Rito de Replicação]]></LOCALISED_TEXT>
+  </TITLE>
+  <MULTIVERSEID value="276971" />
+  <ARTID value="123785" />
+  <ARTIST name="Matt Cavotta" />
+  <CASTING_COST cost="{2}{U}{U}" />
+  <TYPE metaname="Sorcery" />
+  <EXPANSION value="DPG" />
+  <RARITY metaname="R" />
+  <UTILITY_ABILITY filter_zone="ZONE_IN_PLAY">
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Kicker {5}]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Kick {5}]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Estímulo {5}.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Bonus {5}]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Potenziamento {5}]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[キッカー {5}]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[향상 {5}]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Усилитель {5}]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Reforçar {5}]]></LOCALISED_TEXT>
+    <COST type="Mana" cost="{5}" qualifier="Kicker" />
+  </UTILITY_ABILITY>
+  <SPELL_ABILITY filter_zone="ZONE_IN_PLAY">
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Put a token onto the battlefield that’s a copy of target creature. If Rite of Replication was kicked, put five of those tokens onto the battlefield instead.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Mettez sur le champ de bataille un jeton qui est une copie de la créature ciblée. Si le Rite de duplication a été kické, mettez sur le champ de bataille cinq de ces jetons à la place.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Pon en el campo de batalla una ficha que es una copia de la criatura objetivo. Si el Rito de replicación fue estimulado, en vez de eso, pon en el campo de batalla cinco de esas fichas.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Bringe einen Spielstein ins Spiel, der eine Kopie einer Kreatur deiner Wahl ist. Falls die Bonuskosten von Replikationsritual bezahlt wurden, bringe stattdessen fünf dieser Spielsteine ins Spiel.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Metti sul campo di battaglia una pedina che è una copia di una creatura bersaglio. Se il Rito di Riproduzione è stato potenziato, metti invece cinque di quelle pedine sul campo di battaglia.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[クリーチャー１体を対象とし、それのコピーであるトークンを１体戦場に出す。 複製の儀式がキッカーされている場合、代わりにそのトークンを５体戦場に出す。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[생물 한 개를 목표로 정한다. 그 생물의 복사본인 토큰 한 개를 전장에 놓는다. 복제의 의식이 향상되었다면, 대신 그 생물의 복사본인 토큰 다섯 개를 전장에 놓는다.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Положите на поле битвы фишку, являющуюся копией целевого существа. Если Обряд Репликации получил Усилитель, положите на поле битвы пять таких фишек вместо этого.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Coloque uma ficha no campo de batalha que seja uma cópia da criatura alvo. Se Rito de Replicação foi reforçado, em vez disso, coloque cinco dessa fichas no campo de batalha.]]></LOCALISED_TEXT>
+    <TARGET_DEFINITION id="0">
+    local filter = Object():GetFilter()
+    filter:Clear()
+    filter:AddCardType( CARD_TYPE_CREATURE )
+    filter:SetZone( ZONE_IN_PLAY )
+    filter:SetHint( HINT_NEUTRAL, EffectController() )
+    </TARGET_DEFINITION>
+    <TARGET_DETERMINATION>
+    return AtLeastOneTargetFromDefinition(0)
+    </TARGET_DETERMINATION>
+    <PLAY_TIME_ACTION target_choosing="1">
+    EffectController():ChooseTarget( 0, "CARD_QUERY_CHOOSE_CREATURE_TO_COPY", EffectDC():Make_Targets(0) )
+    </PLAY_TIME_ACTION>
+    <RESOLUTION_TIME_ACTION>
+    local targetCard = Object():GetTargetCard()
+    if targetCard ~= nil then
+      if Object():Kicked() ~= 0 then
+        MTG():PutTokensIntoPlayFromSpec( targetCard:GetSpec(), 5, EffectController() )
+      else
+    	MTG():PutTokensIntoPlayFromSpec( targetCard:GetSpec(), 1, EffectController() )
+      end
+    end
+    </RESOLUTION_TIME_ACTION>
+  </SPELL_ABILITY>
+  <HELP title="MORE_INFO_TITLE_KICKER" body="MORE_INFO_BODY_KICKER" zone="ZONE_ANY" />
+  <AI_BASE_SCORE score="1500" zone="ZONE_HAND" />
+</CARD_V2>

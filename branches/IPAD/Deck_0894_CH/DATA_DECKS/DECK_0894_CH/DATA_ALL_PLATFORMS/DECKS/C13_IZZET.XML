@@ -1,0 +1,43 @@
+<DECK personality="C13_IZZET_DEFAULT.XML" deck_box_image="D13_Izzet" deck_box_image_locked="locked" content_pack="0" uid="894" preview_card="mindstorms" is_blue="true" is_red="true">
+  <DECKSTATISTICS Size="2" Speed="4" Flex="8" Syn="8" />
+  <LandConfig minIsland="5" minMountain="5" numSpellsThatCountAsLand="4" />
+  <CARD name="LIGHTNING_ELEMENTAL_276942" deckOrderId="0" />
+  <CARD name="LIGHTNING_ELEMENTAL_276942" deckOrderId="1" />
+  <CARD name="NIVMIZZET_THE_FIREMIND_276957" deckOrderId="2" />
+  <CARD name="WEE_DRAGONAUTS_277386" deckOrderId="3" />
+  <CARD name="WEE_DRAGONAUTS_277386" deckOrderId="4" />
+  <CARD name="WEE_DRAGONAUTS_277386" deckOrderId="5" />
+  <CARD name="ARC_LIGHTNING_277388@3" deckOrderId="6" />
+  <CARD name="ARC_LIGHTNING_277388@3" deckOrderId="7" />
+  <CARD name="SCHISMOTIVATE_277387" deckOrderId="8" />
+  <CARD name="PETRAHYDROX_280240" deckOrderId="9" />
+  <CARD name="PETRAHYDROX_280240" deckOrderId="10" />
+  <CARD name="PETRAHYDROX_280240" deckOrderId="11" />
+  <CARD name="INVOKE_THE_FIREMIND_277024@2" deckOrderId="12" />
+  <CARD name="ELECTROLYZE_277023@2" deckOrderId="13" />
+  <CARD name="ELECTROLYZE_277023@2" deckOrderId="14" />
+  <CARD name="SPELLBOUND_DRAGON_277385" deckOrderId="15" />
+  <CARD name="SPELLBOUND_DRAGON_277385" deckOrderId="16" />
+  <CARD name="VOLCANIC_GEYSER_278130" deckOrderId="17" />
+  <CARD name="MANA_LEAK_277114@3" deckOrderId="18" />
+  <CARD name="BEACON_OF_DESTRUCTION_277379" deckOrderId="19" />
+  <CARD name="REVERBERATE_277384" deckOrderId="20" />
+  <CARD name="PROPHETIC_BOLT_276739@3" deckOrderId="21" />
+  <CARD name="PROPHETIC_BOLT_276739@3" deckOrderId="22" />
+  <CARD name="COMPULSIVE_RESEARCH_281261@3" deckOrderId="23" />
+  <CARD name="COMPULSIVE_RESEARCH_281261@3" deckOrderId="24" />
+  <CARD name="COMPULSIVE_RESEARCH_281261@3" deckOrderId="25" />
+  <CARD name="DOMINUS_OF_FEALTY_280049" deckOrderId="26" />
+  <CARD name="DJINN_OF_WISHES_276899" deckOrderId="27" />
+  <CARD name="THUNDER_STRIKE_277392" deckOrderId="28" />
+  <CARD name="THUNDER_STRIKE_277392" deckOrderId="29" />
+  <CARD name="STEAMCORE_WEIRD_278136@2" deckOrderId="30" />
+  <CARD name="STEAMCORE_WEIRD_278136@2" deckOrderId="31" />
+  <CARD name="LIVING_INFERNO_278135" deckOrderId="32" />
+  <CARD name="RAZORFIN_HUNTER_277382@3" deckOrderId="33" />
+  <CARD name="RAZORFIN_HUNTER_277382@3" deckOrderId="34" />
+  <CARD name="TERRAMORPHIC_EXPANSE_276987" deckOrderId="35" />
+  <CARD name="TERRAMORPHIC_EXPANSE_276987" deckOrderId="36" />
+  <CARD name="TERRAMORPHIC_EXPANSE_276987" deckOrderId="37" />
+  <CARD name="TERRAMORPHIC_EXPANSE_276987" deckOrderId="38" />
+</DECK>

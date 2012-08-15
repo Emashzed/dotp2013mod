@@ -1,0 +1,95 @@
+﻿<?xml version='1.0'?>
+<CARD_V2>
+  <FILENAME text="RHYS_THE_REDEEMED_888147393" />
+  <CARDNAME text="RHYS_THE_REDEEMED" />
+  <TITLE>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Rhys the Redeemed]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Rhys il Redento]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Rhys der Rehabilitierte]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Rhys l'Affranchi]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Rhys el redimido]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[贖われし者、ライズ]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[Rhys the Redeemed]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Риз Возвращенный]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Rhys, o Redimido]]></LOCALISED_TEXT>
+  </TITLE>
+  <MULTIVERSEID value="888147393" />
+  <ARTID value="888147393" />
+  <ARTIST name="Steve Prescott" />
+  <CASTING_COST cost="{G/W}" />
+  <FLAVOURTEXT>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Whole again in honor and horn.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Di nuovo intero, in corna e onore.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Ehre und Hörner sind wiederhergestellt.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Enfin complet par honneur et par corne.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Nuevamente completo, en honor y en cuernos.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[名誉と角を再びすべて取り戻す。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[Whole again in honor and horn.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[И вот опять он цел и невредим, почет ему и слава.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Inteiro novamente, honra e chifre.]]></LOCALISED_TEXT>
+  </FLAVOURTEXT>
+  <SUPERTYPE metaname="Legendary" />
+  <TYPE metaname="Creature" />
+  <SUB_TYPE metaname="Elf" order_de-DE="0" order_es-ES="0" order_fr-FR="0" order_it-IT="0" order_jp-JA="0" order_ko-KR="0" order_pt-BR="0" order_ru-RU="0" />
+  <SUB_TYPE metaname="Warrior" order_de-DE="0" order_es-ES="0" order_fr-FR="0" order_it-IT="0" order_jp-JA="0" order_ko-KR="0" order_pt-BR="0" order_ru-RU="0" />
+  <EXPANSION value="DPG" />
+  <RARITY metaname="R" />
+  <POWER value="1" />
+  <TOUGHNESS value="1" />
+  <ACTIVATED_ABILITY auto_skip="1" filter_zone="ZONE_IN_PLAY">
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[{2}{d}, {T}: Put a 1/1 green and white Elf Warrior creature token onto the battlefield.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[{2}{d}, {T}: Metti in gioco una pedina creatura Guerriero Elfo 1/1 bianca e verde.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[{2}{d}, {T}: Bringe einen 1/1 grünen und weißen (Elf, Krieger)-Kreaturenspielstein ins Spiel.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[{2}{d}, {T} : Mettez en jeu un jeton de créature 1/1 verte et blanche Elfe et Guerrier.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[{2}{d}, {T}: Pon en juego una ficha de criatura Guerrero Elfo verde y blanca 1/1.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[{2}{d}, {T}：緑であり白である１/１のエルフ・戦士・クリーチャー・トークンを１体場に出す。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[{2}{d}, {T}: Put a 1/1 green and white Elf Warrior creature token onto the battlefield.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[{2}{d}, {T}: положите в игру одну фишку существа 1/1 зеленый и белый Эльф Воин.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[{2}{d}, {T}: Coloque em jogo uma ficha de criatura verde e branca 1/1 do tipo Elfo Guerreiro.]]></LOCALISED_TEXT>
+    <COST type="Mana" cost="{2}{G/W}" />
+	<COST type="TapSelf" />
+	<RESOLUTION_TIME_ACTION>
+    local token_count = 1
+    if token_count &gt; 0 then
+    	MTG():PutTokensIntoPlay( "TOKEN_ELF_WARRIOR_1_1_GW_888280316", token_count, EffectController() )
+    end
+    </RESOLUTION_TIME_ACTION>
+	<AI_AVAILABILITY step="end_of_turn" turn="their_turn" />
+    <AI_AVAILABILITY step="declare_attackers" turn="their_turn" />
+    <AI_AVAILABILITY type="in_response_dangerous" />
+    <AI_AVAILABILITY step="declare_blockers" blocking_or_blocked="1" />
+  </ACTIVATED_ABILITY>
+  <ACTIVATED_ABILITY auto_skip="1" filter_zone="ZONE_IN_PLAY">
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[{4}{d}{d}, {T}: For each creature token you control, put a token that's a copy of that creature onto the battlefield.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[{4}{d}{d}, {T}: Per ogni pedina creatura che controlli, metti in gioco una pedina che è una copia di quella creatura.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[{4}{d}{d}, {T}: Bringe für jeden Kreaturenspielstein, den du kontrollierst, einen Spielstein ins Spiel, der eine Kopie dieser Kreatur ist.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[{4}{d}{d}, {T} : Pour chaque jeton de créature que vous contrôlez, mettez en jeu un jeton qui est une copie de cette créature.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[{4}{d}{d}, {T}: Por cada ficha de criatura que controles, pon en juego una ficha que es una copia de esa criatura.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[{4}{d}{d}, {T}：あなたがコントロールするクリーチャー・トークン１体につき、そのクリーチャーのコピーであるトークンを１体場に出す。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[{4}{d}{d}, {T}: For each creature token you control, put a token that's a copy of that creature onto the battlefield.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[{4}{d}{d}, {T}: за каждую фишку существа под вашим контролем положите в игру одну фишку, являющуюся копией того существа.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[{4}{d}{d}, {T}: Para cada ficha de criatura que você controla, coloque em jogo uma ficha que seja uma cópia daquela criatura.]]></LOCALISED_TEXT>
+    <COST type="Mana" cost="{4}{G/W}{G/W}" />
+	<COST type="TapSelf" />
+	<FILTER>
+    return (FilteredCard() ~= nil and 
+    FilteredCard():GetCardType():Test( CARD_TYPE_CREATURE ) ~= 0 and 
+    FilteredCard():GetZone() == ZONE_IN_PLAY and  
+    FilteredCard():IsToken() == 1 and
+    FilteredCard():GetPlayer() == Object():GetPlayer())
+    </FILTER>
+	<RESOLUTION_TIME_ACTION>
+	if FilteredCard() ~= nil then
+		MTG():PutTokensIntoPlayFromSpec( FilteredCard():GetSpec(), 1, EffectController() )
+	end
+    </RESOLUTION_TIME_ACTION>
+	<AI_AVAILABILITY step="end_of_turn" turn="their_turn" />
+    <AI_AVAILABILITY step="declare_attackers" turn="their_turn" />
+    <AI_AVAILABILITY type="in_response_dangerous" />
+    <AI_AVAILABILITY step="declare_blockers" blocking_or_blocked="1" />
+  </ACTIVATED_ABILITY>
+  <TOKEN_REGISTRATION reservation="1" type="TOKEN_ELF_WARRIOR_1_1_GW_888280316" />
+  <SFX text="COMBAT_BLADE_LARGE_ATTACK" power_boundary_min="4" power_boundary_max="-1" />
+  <SFX text="COMBAT_BLADE_SMALL_ATTACK" power_boundary_min="1" power_boundary_max="3" />
+  <AI_BASE_SCORE score="750" zone="ZONE_IN_PLAY" />
+</CARD_V2>

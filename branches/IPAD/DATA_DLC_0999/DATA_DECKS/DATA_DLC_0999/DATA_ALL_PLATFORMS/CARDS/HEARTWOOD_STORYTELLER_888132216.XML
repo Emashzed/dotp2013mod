@@ -1,0 +1,80 @@
+﻿<?xml version='1.0'?>
+<CARD_V2>
+  <FILENAME text="HEARTWOOD_STORYTELLER_888132216" />
+  <CARDNAME text="HEARTWOOD_STORYTELLER" />
+  <TITLE>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Heartwood Storyteller]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Cantastorie di Duramen]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Düsterwald-Märchenerzähler]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Conteur de Boiscœur]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Narrador del bosque Alma]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[ハートウッドの語り部]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[Heartwood Storyteller]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Хартвудский Рассказчик]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Menestrel de Heartwood]]></LOCALISED_TEXT>
+  </TITLE>
+  <MULTIVERSEID value="888132216" />
+  <ARTID value="888132216" />
+  <ARTIST name="Anthony S. Waters" />
+  <CASTING_COST cost="{1}{G}{G}" />
+  <FLAVOURTEXT>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[His roots reach deep, nurtured not by soil and rain, but by millennia of experience.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Le sue radici scendono in profondità, nutrite non solo dal terreno e dalla pioggia, ma da millenni di esperienza.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Seine Wurzeln reichen tief und werden nicht von Erde und Regen gestärkt, sondern von Jahrtausenden an Erfahrung.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Ses racines, plus nourries par des millénaires d’expérience que par l’humus et la pluie, sont profondément enfouies.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Sus raíces son profundas, y se nutren no de tierra y lluvia, sino de milenios de experiencia.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[その根は深く、泥や雨からではなく数千年もの経験から滋養を得ている。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[His roots reach deep, nurtured not by soil and rain, but by millennia of experience.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Глубоко залегают его корни, питаемые не почвой и дождевой водой, а тысячелетним опытом.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Suas raízes são profundas, alimentadas não por solo ou chuva, mas por milênios de experiência.]]></LOCALISED_TEXT>
+  </FLAVOURTEXT>
+  <TYPE metaname="Creature" />
+  <SUB_TYPE metaname="Treefolk" />
+  <EXPANSION value="DPG" />
+  <RARITY metaname="R" />
+  <POWER value="2" />
+  <TOUGHNESS value="3" />
+  <TRIGGERED_ABILITY auto_skip="1" filter_zone="ZONE_IN_PLAY">
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Whenever a player casts a noncreature spell, each of that player’s opponents may draw a card.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[À chaque fois qu’un joueur lance un sort non-créature, chacun des adversaires de ce joueur peut piocher une carte.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Immer wenn ein Spieler einen Zauberspruch wirkt, der keine Kreatur ist, kann jeder Gegner dieses Spielers eine Karte ziehen.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Siempre que un jugador lance un hechizo que no sea de criatura, cada uno de los oponentes de ese jugador puede robar una carta.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Ogniqualvolta un giocatore lancia una magia non creatura, ognuno degli avversari di quel giocatore può pescare una carta.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[いずれかのプレイヤーがクリーチャーでない呪文を１つ唱えるたび、そのプレイヤーの各対戦相手はカードを１枚引いてもよい。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[Whenever a player casts a noncreature spell, each of that player’s opponents may draw a card.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Каждый раз, когда игрок разыгрывает не являющееся существом заклинание, каждый из оппонентов того игрока может взять карту.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Toda vez que um jogador conjura uma mágica que não seja de criatura, cada oponente daquele jogador pode comprar um card.]]></LOCALISED_TEXT>
+    <TRIGGER value="SPELL_PLAYED">
+    return (TriggerObject():GetCardType():Test( CARD_TYPE_CREATURE ) == 0)
+    </TRIGGER>
+    <RESOLUTION_TIME_ACTION repeating="1">
+    local effectplayer = TriggerObject():GetPlayer()
+    local n = MTG():GetActionRepCount()
+    local parity = n % 2
+    local num_players = MTG():GetNumberOfPlayers()
+    local player = MTG():GetNthPlayer(n/2)
+    if player ~= nil and n &lt; num_players*2 then
+    	if player:GetTeam() ~= effectplayer:GetTeam() then
+			if parity == 0 then
+				-- ask question
+				player:BeginNewMultipleChoice()
+				player:AddMultipleChoiceAnswer( "CARD_QUERY_OPTION_YES" )
+				player:AddMultipleChoiceAnswer( "CARD_QUERY_OPTION_NO" )
+				player:AskMultipleChoiceQuestion( "CARD_QUERY_DRAW_A_CARD" )
+			else
+				-- draw
+				local decision = Object():GetMultipleChoiceResult()
+				if decision == 0 then
+					PlayerDrawCards( player, 1 )
+				end
+			end
+    	end
+    	return true
+    else
+    	return false
+    end
+    </RESOLUTION_TIME_ACTION>
+  </TRIGGERED_ABILITY>
+  <SFX text="COMBAT_BLUNT_LARGE_ATTACK" power_boundary_min="4" power_boundary_max="-1" />
+  <SFX text="COMBAT_BLUNT_SMALL_ATTACK" power_boundary_min="1" power_boundary_max="3" />
+</CARD_V2>

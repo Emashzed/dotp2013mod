@@ -1,0 +1,169 @@
+<?xml version='1.0'?>
+<CARD_V2>
+  <FILENAME text="VORACIOUS_DRAGON_281286" />
+  <CARDNAME text="VORACIOUS_DRAGON" />
+  <TITLE>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Voracious Dragon]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Dragon vorace]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Dragón voraz]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Gefräßiger Drache]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Drago Famelico]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[大食のドラゴン]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[게걸스러운 용]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Прожорливый Дракон]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Dragão Voraz]]></LOCALISED_TEXT>
+  </TITLE>
+  <MULTIVERSEID value="281286" />
+  <ARTID value="118782" />
+  <ARTIST name="Dominick Domingo" />
+  <CASTING_COST cost="{3}{R}{R}" />
+  <TYPE metaname="Creature" />
+  <SUB_TYPE metaname="Dragon" order_de-DE="0" order_es-ES="0" order_fr-FR="0" order_it-IT="0" order_jp-JA="0" order_ko-KR="0" order_pt-BR="0" order_ru-RU="0" />
+  <EXPANSION value="DPG" />
+  <RARITY metaname="R" />
+  <POWER value="4" />
+  <TOUGHNESS value="4" />
+  <STATIC_ABILITY>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Flying]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Vol]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Vuela.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Fliegend]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Volare]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[飛行]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[비행]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Полет]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Voar]]></LOCALISED_TEXT>
+    <CONTINUOUS_ACTION>
+    local characteristics = Object():GetCurrentCharacteristics()
+    characteristics:Characteristic_Set( CHARACTERISTIC_FLYING, 1 )
+    </CONTINUOUS_ACTION>
+  </STATIC_ABILITY>
+  <TRIGGERED_ABILITY replacement_query="1" filter_zone="ZONE_IN_PLAY" active_zone="ZONE_TRANSITION">
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Devour 1]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Dévorement 1]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Devorar 1.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Verschlingen 1]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Divorare 1]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[貪食 １]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[포식 1]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Пожирание 1]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Devorar 1]]></LOCALISED_TEXT>
+    <TRIGGER value="ZONECHANGE_TRANSITION" simple_qualifier="self" to_zone="ZONE_IN_PLAY" />
+    <TARGET_DEFINITION id="0">
+    local filter = Object():GetFilter()
+    filter:Clear()
+    filter:AddCardType( CARD_TYPE_CREATURE )
+    filter:SetPlayer( EffectController() )
+    filter:May()
+    filter:SetZone( ZONE_IN_PLAY )
+    filter:SetHint( HINT_ENEMY, EffectController() )
+    filter:AIMay()
+    filter:IgnoreIfChangingZone()
+    </TARGET_DEFINITION>
+    <TARGET_DETERMINATION>
+    return AtLeastOneTargetFromDefinition(0)
+    </TARGET_DETERMINATION>
+    <PLAY_TIME_ACTION>
+    local filter = Object():LoadTargetDefinition(0)
+    local max_victims = filter:Count()
+    local player = EffectController()
+    		
+    if max_victims &gt; 0 then
+    	player:SetTargetCount(max_victims)
+    	for i=0,max_victims-1 do
+    		player:SetTargetPrompt( i, "CARD_QUERY_CHOOSE_CREATURE_TO_DEVOUR_1" )
+    	end  
+    	player:ChooseTargets( 0, EffectDC():Make_Targets(0) )
+    end
+    </PLAY_TIME_ACTION>
+    <RESOLUTION_TIME_ACTION>
+    local num_goblins = 0
+    local targets = EffectDC():Get_Targets(0)
+    if targets ~= nil then
+    	local target_card = targets:Get_CardPtr(0)
+    	local j = 0
+    	while target_card ~= nil do
+    		if target_card:GetSubType():Test( CREATURE_TYPE_GOBLIN ) == 1 then
+    			num_goblins = num_goblins+1
+    		end
+    		j=j+1
+    		target_card = targets:Get_CardPtr(j)
+    	end
+    end
+    local delayDC = EffectDC():Make_Chest(1)
+    delayDC:Set_Int(1, num_goblins)
+        
+    MTG():CreateDelayedTrigger(1, delayDC)
+    </RESOLUTION_TIME_ACTION>
+    <RESOLUTION_TIME_ACTION>
+    local filter = Object():LoadTargetDefinition(0)
+    local max_victims = filter:Count()
+    local player = EffectController()
+    local devour_count = 0
+    		
+    for i=0,max_victims-1 do
+    	local victim = EffectDC():Get_Targets(0):Get_CardPtr(i)
+    	if victim ~= nil then
+    		player:Sacrifice(victim)
+    		devour_count = devour_count + 1
+    	end
+    end
+    		
+    if EffectSource() ~= nil then
+    	EffectSource():AddCounters( MTG():PlusOnePlusOneCounters(), devour_count )
+    end
+    </RESOLUTION_TIME_ACTION>
+  </TRIGGERED_ABILITY>
+  <TRIGGERED_ABILITY LKI_shield_effect_source="1" dangerous="1" filter_zone="ZONE_IN_PLAY">
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[When Voracious Dragon enters the battlefield, it deals damage to target creature or player equal to twice the number of Goblins it devoured.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Quand le Dragon vorace arrive sur le champ de bataille, il inflige à une cible, créature ou joueur, un nombre de blessures égal au double du nombre de gobelins qu’il a dévorés.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Cuando el Dragón voraz entre al campo de batalla, hace daño a la criatura o jugador objetivo igual al doble del número de Trasgos que devoró.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Wenn der Gefräßige Drache ins Spiel kommt, fügt er einer Kreatur oder einem Spieler deiner Wahl doppelt so viele Schadenspunkte zu, wie er Goblins verschlungen hat.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Quando il Drago Famelico entra nel campo di battaglia, infligge danno a una creatura o a un giocatore bersaglio pari al doppio dei Goblin che ha divorato.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[大食のドラゴンが戦場に出たとき、クリーチャー１体かプレイヤー１人を対象とする。大食のドラゴンはそれに、自身が貪食したゴブリンの数の２倍に等しい点数のダメージを与える。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[게걸스러운 용이 전장에 들어올 때, 생물 한 개나 플레이어 한 명을 목표로 정한다. 게걸스러운 용은 그 목표에게 자신이 포식한 고블린의 개수의 두 배만큼의 피해를 입힌다.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Когда Прожорливый Дракон входит в игру, он наносит целевому существу или игроку повреждения, равные удвоенному количеству пожранных им Гоблинов.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Quando Dragão Voraz entra no campo de batalha, ele causa dano à criatura ou ao jogador alvo igual a duas vezes o número de Goblins que devorou.]]></LOCALISED_TEXT>
+    <TRIGGER value="CLASH" />
+  </TRIGGERED_ABILITY>
+  <TRIGGERED_ABILITY resource_id="1" LKI_shield_effect_source="1">
+    <TRIGGER value="ZONECHANGE_END" simple_qualifier="self" to_zone="ZONE_IN_PLAY" />
+    <TARGET_DEFINITION id="0">
+    local filter = Object():GetFilter()
+    filter:Clear()
+    filter:SetFilterType( FILTER_TYPE_CARDS + FILTER_TYPE_PLAYERS )
+    filter:SetZone( ZONE_IN_PLAY )
+    filter:SetHint( HINT_ENEMY_ONLY, EffectController() )
+    filter:AddCardType( CARD_TYPE_CREATURE )
+    </TARGET_DEFINITION>
+    <TARGET_DETERMINATION>
+    return AtLeastOneTargetFromDefinition(0)
+    </TARGET_DETERMINATION>
+    <PLAY_TIME_ACTION target_choosing="1">
+    EffectController():ChooseTarget( 0, "CARD_QUERY_CHOOSE_DEAL_TWICE_GOBLINS_DAMAGE", EffectDC():Make_Targets(0) )
+    </PLAY_TIME_ACTION>
+    <RESOLUTION_TIME_ACTION>
+    local goblins = EffectDC():Get_Int(1)
+    local target_creature = EffectDC():Get_Targets(0):Get_CardPtr(0)
+    local target_player = EffectDC():Get_Targets(0):Get_PlayerPtr(0)
+        
+    local source = EffectSource()
+    if source == nil then
+      source = Object()
+    end
+        
+    if ( target_creature ~= nil ) then   
+    	target_creature:DealDamage( goblins*2, source )  
+    elseif 
+    	( target_player ~= nil ) then   
+    	target_player:DealDamage( goblins*2, source )  
+    end
+    </RESOLUTION_TIME_ACTION>
+    <CLEANUP fire_once="1" />
+  </TRIGGERED_ABILITY>
+  <HELP title="MORE_INFO_BADGE_TITLE_10" body="MORE_INFO_BADGE_BODY_10" zone="ZONE_ANY" />
+  <HELP title="MORE_INFO_TITLE_DEVOUR" body="MORE_INFO_BODY_DEVOUR" zone="ZONE_ANY" />
+  <SFX text="COMBAT_DRAGON_LARGE_ATTACK" power_boundary_min="4" power_boundary_max="-1" />
+  <SFX text="COMBAT_DRAGON_SMALL_ATTACK" power_boundary_min="1" power_boundary_max="3" />
+  <AI_BASE_SCORE score="1200" zone="ZONE_HAND" />
+</CARD_V2>

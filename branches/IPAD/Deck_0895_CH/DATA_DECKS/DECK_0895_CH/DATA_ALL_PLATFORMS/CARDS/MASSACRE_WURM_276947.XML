@@ -1,0 +1,74 @@
+<?xml version='1.0'?>
+<CARD_V2>
+  <FILENAME text="MASSACRE_WURM_276947" />
+  <CARDNAME text="MASSACRE_WURM" />
+  <TITLE>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Massacre Wurm]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Guivre du massacre]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Sierpe de la masacre]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Massakerwurm]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Wurm della Strage]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[虐殺のワーム]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[학살자 웜]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Вурм Побоища]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Vorme do Massacre]]></LOCALISED_TEXT>
+  </TITLE>
+  <MULTIVERSEID value="276947" />
+  <ARTID value="131726" />
+  <ARTIST name="Jason Chan" />
+  <CASTING_COST cost="{3}{B}{B}{B}" />
+  <TYPE metaname="Creature" />
+  <SUB_TYPE metaname="Wurm" order_de-DE="0" order_es-ES="0" order_fr-FR="0" order_it-IT="0" order_jp-JA="0" order_ko-KR="0" order_pt-BR="0" order_ru-RU="0" />
+  <EXPANSION value="DPG" />
+  <RARITY metaname="M" />
+  <POWER value="6" />
+  <TOUGHNESS value="5" />
+  <TRIGGERED_ABILITY dangerous="1" filter_zone="ZONE_IN_PLAY">
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[When Massacre Wurm enters the battlefield, creatures your opponents control get -2/-2 until end of turn.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Quand la Guivre du massacre arrive sur le champ de bataille, les créatures que vos adversaires contrôlent gagnent -2/-2 jusqu’à la fin du tour.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Cuando la Sierpe de la masacre entre al campo de batalla, las criaturas que controlan tus oponentes obtienen -2/-2 hasta el final del turno.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Wenn der Massakerwurm ins Spiel kommt, erhalten alle Kreaturen, die deine Gegner kontrollieren, -2/-2 bis zum Ende des Zuges.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Quando il Wurm della Strage entra nel campo di battaglia, le creature controllate dai tuoi avversari prendono -2/-2 fino alla fine del turno.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[虐殺のワームが戦場に出たとき、あなたの対戦相手がコントロールするクリーチャーはターン終了時まで－２/－２の修整を受ける。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[학살자 웜이 전장에 들어올 때, 상대가 조종하는 생물들은 턴종료까지 -2/-2를 받는다.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Когда Вурм Побоища выходит на поле битвы, существа под контролем ваших оппонентов получают -2/-2 до конца хода.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Quando Vorme do Massacre entra no campo de batalha, as criaturas que seus oponentes controlam recebem -2/-2 até o final do turno.]]></LOCALISED_TEXT>
+    <TRIGGER value="ZONECHANGE_END" simple_qualifier="self" to_zone="ZONE_IN_PLAY" />
+    <FILTER>
+    return (FilteredCard() ~= nil and 
+    FilteredCard():GetCardType():Test( CARD_TYPE_CREATURE ) ~= 0 and 
+    FilteredCard():GetZone() == ZONE_IN_PLAY  and 
+    FilteredCard():GetController():GetTeam() ~= Object():GetController():GetTeam())  
+    </FILTER>
+    <CONTINUOUS_ACTION layer="7C">
+    if FilteredCard() ~= nil then
+    	local characteristics = FilteredCard():GetCurrentCharacteristics()
+    	if characteristics ~= nil then
+    		characteristics:Power_Add( -2 )
+    		characteristics:Toughness_Add( -2 )
+    	end
+    end
+    </CONTINUOUS_ACTION>
+    <DURATION simple_duration="UntilEOT" />
+  </TRIGGERED_ABILITY>
+  <TRIGGERED_ABILITY dangerous="1" filter_zone="ZONE_IN_PLAY">
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Whenever a creature an opponent controls dies, that player loses 2 life.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[À chaque fois qu’une créature qu’un adversaire contrôle meurt, ce joueur perd 2 points de vie.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Siempre que una criatura que controle un oponente muera, ese jugador pierde 2 vidas.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Immer wenn eine Kreatur stirbt, die ein Gegner kontrolliert, verliert dieser Spieler 2 Lebenspunkte.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Ogniqualvolta una creatura controllata da un avversario muore, quel giocatore perde 2 punti vita.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[いずれかの対戦相手がコントロールするクリーチャーが１体死亡するたび、そのプレイヤーは２点のライフを失う。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[상대가 조종하는 생물이 죽을 때마다, 그 플레이어는 생명 2점을 잃는다.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Каждый раз, когда существо под контролем оппонента умирает, тот игрок теряет 2 жизни.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Toda vez que uma criatura que um oponente controla morre, aquele jogador perde 2 pontos de vida.]]></LOCALISED_TEXT>
+    <TRIGGER value="ZONECHANGE_BEGIN" to_zone="ZONE_GRAVEYARD" from_zone="ZONE_IN_PLAY">
+    return (TriggerObject():GetPlayer():GetTeam() ~= EffectController():GetTeam() and TriggerObject():GetCardType():Test( CARD_TYPE_CREATURE ) ~= 0)
+    </TRIGGER>
+    <RESOLUTION_TIME_ACTION>
+    TriggerObject():GetPlayer():LoseLife(2)
+    </RESOLUTION_TIME_ACTION>
+  </TRIGGERED_ABILITY>
+  <SFX text="COMBAT_BITE_LARGE_ATTACK" power_boundary_min="4" power_boundary_max="-1" />
+  <SFX text="COMBAT_BITE_SMALL_ATTACK" power_boundary_min="1" power_boundary_max="3" />
+  <AI_BASE_SCORE score="1500" zone="ZONE_HAND" />
+</CARD_V2>

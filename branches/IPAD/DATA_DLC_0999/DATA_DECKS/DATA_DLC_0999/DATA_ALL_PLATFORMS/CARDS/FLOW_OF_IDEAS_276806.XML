@@ -1,0 +1,67 @@
+<?xml version='1.0'?>
+<CARD_V2>
+  <FILENAME text="FLOW_OF_IDEAS_276806" />
+  <CARDNAME text="FLOW_OF_IDEAS" />
+  <TITLE>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Flow of Ideas]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Flot d’idées]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Flujo de ideas]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Ideenfluss]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Flusso di Idee]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[発想の流れ]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[생각의 흐름]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Поток Идей]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Fluxo de Ideias]]></LOCALISED_TEXT>
+  </TITLE>
+  <MULTIVERSEID value="276806" />
+  <ARTID value="111852" />
+  <ARTIST name="Mike Dringenberg" />
+  <CASTING_COST cost="{5}{U}" />
+  <FLAVOURTEXT>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[“Beware the merrows, whose envy and covetousness surpasses even that of the ravenous whirlpools where they dwell.”
+—The Book of Other Folk]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[« Prenez garde aux suires, dont l’envie et l’avidité surpassent l’appétit des tourbillons dans lesquels ils se terrent. »
+—Le Livre des Autres]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[“Ten cuidado de los merrow, cuya envidia y avaricia es mayor incluso que la de los remolinos en los que habitan.”
+—El Libro de Otros Pueblos]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[„Vorsicht vor den Merrow, deren Gier und Habsucht selbst die der gefräßigen Strudel übertrifft, in denen sie leben.“
+—Das Buch der anderen Völker]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[“Diffida dei merrow, le cui invidia e avidità superano persino quelle dei vortici affamati in cui vivono.”
+—Il Tomo delle Altre Genti]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[「メロウどもに気をつけよ。その嫉妬や強欲さは、奴らの住む貪欲な渦をも超える。」
+—「他族の書」]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[“머로우들을 조심하라. 그들의 시기심과 탐욕은 그들이 사는 소용돌이보다 더 지독하다.”
+—타종족 백서]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[«Остерегайся мерроу, чья зависть и алчность страшнее, чем ненасытность омутов, в которых они обитают».
+— Книга о других народах]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[“Cuidado com os sirenídeos, cuja inveja e ganância superam até mesmo a dos vorazes redemoinhos em que moram.”
+— O Livro dos Outros Povos]]></LOCALISED_TEXT>
+  </FLAVOURTEXT>
+  <TYPE metaname="Sorcery" />
+  <EXPANSION value="DPG" />
+  <RARITY metaname="U" />
+  <SPELL_ABILITY>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Draw a card for each Island you control.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Piochez une carte pour chaque île que vous contrôlez.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Roba una carta por cada isla que controles.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Ziehe für jede Insel, die du kontrollierst, eine Karte.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Pesca una carta per ogni Isola che controlli.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[あなたがコントロールする島１つにつきカードを１枚引く。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[당신이 조종하는 섬 한 개당 카드 한 장을 뽑는다.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Возьмите одну карту за каждый Остров под вашим контролем.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Compre um card para cada Ilha que você controla.]]></LOCALISED_TEXT>
+    <RESOLUTION_TIME_ACTION>
+    local filter = Object():GetFilter()
+    filter:Clear()
+    filter:SetController( EffectController() )
+    filter:SetZone( ZONE_IN_PLAY )
+    filter:AddSubType( LAND_TYPE_ISLAND )
+    filter:NotTargetted()
+    local NumCards = filter:Count()
+    while (NumCards &gt; 0) do
+    	NumCards = NumCards - 1
+    	EffectController():DrawCard()
+    end
+    </RESOLUTION_TIME_ACTION>
+  </SPELL_ABILITY>
+</CARD_V2>

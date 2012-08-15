@@ -1,0 +1,78 @@
+﻿<?xml version='1.0'?>
+<CARD_V2>
+  <FILENAME text="SLAGSTORM_888214054" />
+  <CARDNAME text="SLAGSTORM" />
+  <TITLE>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Slagstorm]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Tempesta di Scorie]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Schlackesturm]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Tempête de scories]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Tormenta de escoria]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[金屑の嵐]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[Slagstorm]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Шлаковый Штурм]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Chuva de Escórias]]></LOCALISED_TEXT>
+  </TITLE>
+  <MULTIVERSEID value="888214054" />
+  <ARTID value="888214054" />
+  <ARTIST name="Dan Scott" />
+  <CASTING_COST cost="{1}{R}{R}" />
+  <FLAVOURTEXT>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA["As long as we have the will to fight, we are never without weapons."
+—Koth of the Hammer]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA["Finché avremo la volontà di combattere, non saremo mai senz'armi."
+—Koth del Martello]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[„So lange wir noch Kampfeswillen haben, werden uns auch nie die Waffen ausgehen."
+—Koth vom Hammerclan]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[« Tant que nous aurons la volonté de combattre, nous ne manquerons jamais d'armes. »
+—Koth du Marteau]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA["Mientras tengamos la voluntad de luchar, nunca dejaremos de tener armas."
+—Koth del Martillo]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[「戦う意志があるかぎり、武器が尽きることはない。」
+――槌のコス]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA["As long as we have the will to fight, we are never without weapons."
+—Koth of the Hammer]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[«Покуда у нас есть воля к борьбе, у нас всегда будет оружие».
+— Кос из племени Молота]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA["Enquanto tivermos a força para lutar, nunca estaremos desarmados."
+— Koth do Martelo]]></LOCALISED_TEXT>
+  </FLAVOURTEXT>
+  <TYPE metaname="Sorcery" />
+  <EXPANSION value="DPG" />
+  <RARITY metaname="R" />
+  <SPELL_ABILITY dangerous="1" filter_zone="ZONE_IN_PLAY_AND_PLAYERS" active_zone="ZONE_IN_PLAY_AND_PLAYERS">
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Choose one — Slagstorm deals 3 damage to each creature; or Slagstorm deals 3 damage to each player.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Scegli uno — La Tempesta di Scorie infligge 3 danni a ogni creatura; oppure la Tempesta di Scorie infligge 3 danni a ogni giocatore.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Bestimme eines — Der Schlackesturm fügt allen Kreaturen 3 Schadenspunkte zu; oder der Schlackesturm fügt allen Spielern 3 Schadenspunkte zu.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Choisissez l'un — La Tempête de scories inflige 3 blessures à chaque créature ; ou la Tempête de scories inflige 3 blessures à chaque joueur.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Elige uno: La Tormenta de escoria hace 3 puntos de daño a cada criatura; o la Tormenta de escoria hace 3 puntos de daño a cada jugador.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[以下の２つから１つを選ぶ。「金屑の嵐は各クリーチャーにそれぞれ３点のダメージを与える。」「金屑の嵐は各プレイヤーにそれぞれ３点のダメージを与える。」]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[Choose one — Slagstorm deals 3 damage to each creature; or Slagstorm deals 3 damage to each player.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Выберите одно — Шлаковый Штурм наносит 3 повреждения каждому существу; или Шлаковый Штурм наносит 3 повреждения каждому игроку.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Escolha um — Chuva de Escórias causa 3 pontos de dano a cada criatura; ou Chuva de Escórias causa 3 pontos de dano a cada jogador.]]></LOCALISED_TEXT>
+    <PLAY_TIME_ACTION>
+    local player = EffectController()
+    if player ~= nil then
+       	player:BeginNewMultipleChoice()   
+        player:AddMultipleChoiceAnswer( "CARD_QUERY_OPTION_DEAL_3_DAMAGE_TO_EACH_CREATURE" )   
+    	player:AddMultipleChoiceAnswer( "CARD_QUERY_OPTION_DEAL_3_DAMAGE_TO_EACH_PLAYER" )   
+        player:AskMultipleChoiceQuestion( "CARD_QUERY_MC_DEAL_DAMAGE_TO_CREATURES_OR_PLAYERS" )
+    end
+    </PLAY_TIME_ACTION>
+	<FILTER>
+    return (FilteredCard() ~= nil and
+    FilteredCard():GetCardType():Test( CARD_TYPE_CREATURE ) ~= 0 and
+    FilteredCard():GetZone() == ZONE_IN_PLAY) or (FilteredPlayer() ~= nil)
+    </FILTER>
+    <RESOLUTION_TIME_ACTION>
+	local decision = Object():GetMultipleChoiceResult()
+    if (FilteredPlayer() ~= nil and decision == 1) then
+    	FilteredPlayer():DealDamage(3, Object())  
+    elseif (FilteredCard() ~= nil and decision == 0) then
+		FilteredCard():DealDamage(3, Object())  
+    end  
+    </RESOLUTION_TIME_ACTION>
+	<SFX text="GLOBAL_MAGMA_PLAY" />
+  </SPELL_ABILITY>
+  <AI_BASE_SCORE score="1500" zone="ZONE_HAND" />
+</CARD_V2>

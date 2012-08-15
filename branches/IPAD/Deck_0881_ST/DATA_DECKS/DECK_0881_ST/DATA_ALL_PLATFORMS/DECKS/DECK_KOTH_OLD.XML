@@ -1,0 +1,38 @@
+<DECK personality="D13_KOTH_OLD_DEFAULT.XML" deck_box_image="D13_KOTH_OLD" deck_box_image_locked="locked" content_pack="0" uid="881" preview_card="slagstorm" is_red="true">
+  <DECKSTATISTICS Size="7" Speed="4" Flex="6" Syn="6" />
+  <CARD name="GRIM_LAVAMANCER_888234428" deckOrderId="0" />
+  <CARD name="SPITTING_EARTH_888242739" deckOrderId="1" />
+  <CARD name="SPITTING_EARTH_888242739" deckOrderId="2" />
+  <CARD name="SPITTING_EARTH_888242739" deckOrderId="3" />
+  <CARD name="MOLTEN_RAVAGER_888191359" deckOrderId="4" />
+  <CARD name="MOLTEN_RAVAGER_888191359" deckOrderId="5" />
+  <CARD name="CLAWS_OF_VALAKUT_888243489" deckOrderId="6" />
+  <CARD name="CLAWS_OF_VALAKUT_888243489" deckOrderId="7" />
+  <CARD name="EARTH_SERVANT_888204986" deckOrderId="8" />
+  <CARD name="SPIKESHOT_ELDER_276982" deckOrderId="9" />
+  <CARD name="VULSHOK_HEARTSTOKER_888194320" deckOrderId="10" />
+  <CARD name="VULSHOK_HEARTSTOKER_888194320" deckOrderId="11" />
+  <CARD name="OXIDDA_SCRAPMELTER_277301" deckOrderId="12" />
+  <CARD name="OXIDDA_SCRAPMELTER_277301" deckOrderId="13" />
+  <CARD name="SPIRE_BARRAGE_888180495" deckOrderId="14" />
+  <CARD name="SPIRE_BARRAGE_888180495" deckOrderId="15" />
+  <CARD name="ACT_OF_TREASON_277101" deckOrderId="16" />
+  <CARD name="ACT_OF_TREASON_277101" deckOrderId="17" />
+  <CARD name="ROCKSLIDE_ELEMENTAL_281251" deckOrderId="18" />
+  <CARD name="ROCKSLIDE_ELEMENTAL_281251" deckOrderId="19" />
+  <CARD name="FAULT_LINE_8888867" deckOrderId="20" />
+  <CARD name="BLOODFIRE_COLOSSUS_88828807" deckOrderId="21" />
+  <CARD name="TEPHRADERM_88839659" deckOrderId="22" />
+  <CARD name="TEPHRADERM_88839659" deckOrderId="23" />
+  <CARD name="DARKSTEEL_AXE_281245" deckOrderId="24" />
+  <CARD name="DARKSTEEL_AXE_281245" deckOrderId="25" />
+  <CARD name="FLOWSTONE_OVERSEER_88821351" deckOrderId="26" />
+  <CARD name="LAVABORN_MUSE_88844842" deckOrderId="27" />
+  <CARD name="MAGMA_PHOENIX_288701" deckOrderId="28" />
+  <CARD name="CONQUERING_MANTICORE_278139" deckOrderId="29" />
+  <CARD name="HERO_OF_OXID_RIDGE_888214028" deckOrderId="30" />
+  <CARD name="CEREBRAL_ERUPTION_888215073" deckOrderId="31" />
+  <CARD name="SLAGSTORM_888214054" deckOrderId="32" />
+  <CARD name="SLAGSTORM_888214054" deckOrderId="33" />
+  <CARD name="CYCLOPS_GLADIATOR_888205107" deckOrderId="34" />
+</DECK>

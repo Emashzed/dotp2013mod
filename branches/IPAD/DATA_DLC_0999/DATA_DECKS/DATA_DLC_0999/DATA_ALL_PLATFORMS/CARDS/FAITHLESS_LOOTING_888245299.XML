@@ -1,0 +1,68 @@
+﻿<?xml version='1.0'?>
+<CARD_V2>
+  <FILENAME text="FAITHLESS_LOOTING_888245299" />
+  <CARDNAME text="FAITHLESS_LOOTING" />
+  <TITLE>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Faithless Looting]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Saccheggio degli Infedeli]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Treuloses Plündern]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Pillage sans foi]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Saqueo infiel]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[信仰無き物あさり]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[믿음 없는 약탈]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Безбожное Разграбление]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Pilhagem Infiel]]></LOCALISED_TEXT>
+  </TITLE>
+  <MULTIVERSEID value="888245299" />
+  <ARTID value="888245299" />
+  <ARTIST name="Gabor Szikszai" />
+  <CASTING_COST cost="{R}" />
+  <FLASHBACK_COST cost="{2}{R}" />
+  <FLAVOURTEXT>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA["Avacyn has abandoned us! We have nothing left except what we can take!"]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA["Avacyn ci ha abbandonato! Non ci rimane nulla se non ciò che riusciamo a prendere!"]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[„Avacyn hat uns verlassen! Uns bleibt nur noch das, was wir mitnehmen können."]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[« Avacyn nous a abandonnés ! Il ne nous reste rien, excepté ce que nous pouvons prendre ! »]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA["¡Avacyn nos ha abandonado! ¡No nos queda nada salvo lo que podamos tomar!"]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[「アヴァシンは我々を見捨てたのだ！ 我々に残されたものは、自分で掴み取れる物だけだ！」]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA["아바신은 우리를 버렸다! 지금 가져가는 게 우리가 가진 전부다!"]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[«Авацина покинула нас! У нас не осталось ничего: только то, что мы можем взять сами!»]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA["Avacyn nos abandonou! Não nos resta nada além do que pudermos levar!"]]></LOCALISED_TEXT>
+  </FLAVOURTEXT>
+  <TYPE metaname="Sorcery" />
+  <EXPANSION value="DPG" />
+  <RARITY metaname="C" />
+  <SPELL_ABILITY>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Draw two cards, then discard two cards.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Pesca due carte, poi scarta due carte.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Ziehe zwei Karten und wirf dann zwei Karten aus deiner Hand ab.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Piochez deux cartes, puis défaussez-vous de deux cartes.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Roba dos cartas, luego descarta dos cartas.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[カードを２枚引き、その後カードを２枚捨てる。フラッシュバック {2}{R} （あなたはフラッシュバック・コストで、このカードをあなたの墓地からプレイしてもよい。その後、それを追放する。）]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[카드 두 장을 뽑은 후 카드 두 장을 버린다.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Возьмите две карты, затем сбросьте две карты.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Compre dois cards e depois descarte dois cards.]]></LOCALISED_TEXT>
+	<RESOLUTION_TIME_ACTION>
+    if EffectController() ~= nil then
+    	PlayerDrawCards( EffectController(), 2 )
+    end
+    </RESOLUTION_TIME_ACTION>
+	<RESOLUTION_TIME_ACTION>
+    if EffectController() ~= nil then
+    	EffectController():DiscardNCards(2, "CARD_QUERY_CHOOSE_CARD_TO_DISCARD")
+    end
+    </RESOLUTION_TIME_ACTION>
+  </SPELL_ABILITY>
+  <UTILITY_ABILITY>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Flashback {2}{R} (You may cast this card from your graveyard for its flashback cost. Then exile it.)]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Flashback {2}{R} (Puoi lanciare questa carta dal tuo cimitero pagando il suo costo di flashback. Poi esiliala.)]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Rückblende {2}{B} (Du kannst diese Karte aus deinem Friedhof für ihre Rückblendekosten wirken. Schicke sie danach ins Exil.)]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Flashback {2}{R} (Vous pouvez lancer cette carte depuis votre cimetière pour son coût de flashback. Exilez-la ensuite.)]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Retrospectiva {2}{R}. (Puedes lanzar esta carta desde tu cementerio pagando su coste de retrospectiva. Luego exíliala.)]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[Flashback {2}{R} (You may cast this card from your graveyard for its flashback cost. Then exile it.)]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[회상 {2}{B} (당신은 이 카드의 회상 비용을 지불해 이 카드를 당신의 무덤에서 발동할 수 있다. 그 후, 이 카드를 추방한다.)]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Воспоминание {2}{R} (Вы можете разыграть эту карту из вашего кладбища за ее стоимость Воспоминания. Затем изгоните ее.)]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Recapitular {2}{R} (Você pode conjurar este card de seu cemitério pagando seu custo de recapitular. Depois, exile-o.)]]></LOCALISED_TEXT>
+  </UTILITY_ABILITY>
+  <AI_BASE_SCORE score="-50" zone="ZONE_GRAVEYARD" />
+</CARD_V2>

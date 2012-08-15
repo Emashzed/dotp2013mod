@@ -1,0 +1,94 @@
+﻿<?xml version='1.0'?>
+<CARD_V2>
+  <FILENAME text="TARMOGOYF_136142" />
+  <CARDNAME text="TARMOGOYF" />
+  <TITLE>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Tarmogoyf]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Tarmogoyf]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Tarmogoyf]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Tarmogoyf]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Tarmogoyf]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[タルモゴイフ]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[Tarmogoyf]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Тармогойф]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Tarmogoyf]]></LOCALISED_TEXT>
+  </TITLE>
+  <MULTIVERSEID value="136142" />
+  <ARTID value="888136142" />
+  <ARTIST name="Justin Murray" />
+  <CASTING_COST cost="{1}{G}" />
+  <TYPE metaname="Creature" order_de-DE="0" order_es-ES="0" order_fr-FR="0" order_it-IT="0" order_jp-JA="0" />
+  <SUB_TYPE metaname="Lhurgoyf" order_de-DE="0" order_es-ES="0" order_fr-FR="0" order_it-IT="0" order_jp-JA="0" />
+  <EXPANSION value="DPG" />
+  <RARITY metaname="R" />
+  <POWER value="*" />
+  <TOUGHNESS value="*" />
+  <STATIC_ABILITY internal="1">
+    <CONTINUOUS_ACTION>
+      local LANDX = 0
+      local ARTIFACTX = 0
+      local CREATUREX = 0
+      local ENCHANTMENTX = 0
+      local INSTANTX = 0
+      local SORCERYX = 0
+      local TRIBALX = 0
+
+      Object():GetFilter():Clear()
+      Object():GetFilter():SetZone( ZONE_GRAVEYARD )
+      Object():GetFilter():AddCardType( CARD_TYPE_LAND )
+      if Object():GetFilter():Count() &gt; 0 then  LANDX = 1 else LANDX = 0 end
+
+      Object():GetFilter():Clear()
+      Object():GetFilter():SetZone( ZONE_GRAVEYARD )
+      Object():GetFilter():AddCardType( CARD_TYPE_ARTIFACT )
+      if Object():GetFilter():Count() &gt; 0 then ARTIFACTX = 1 else ARTIFACTX = 0 end
+
+      Object():GetFilter():Clear()
+      Object():GetFilter():SetZone( ZONE_GRAVEYARD )
+      Object():GetFilter():AddCardType( CARD_TYPE_CREATURE )
+      if Object():GetFilter():Count() &gt; 0 then CREATUREX = 1 else CREATUREX = 0 end
+
+      Object():GetFilter():Clear()
+      Object():GetFilter():SetZone( ZONE_GRAVEYARD )
+      Object():GetFilter():AddCardType( CARD_TYPE_ENCHANTMENT )
+      if Object():GetFilter():Count() &gt; 0 then ENCHANTMENTX = 1 else ENCHANTMENTX = 0 end
+
+      Object():GetFilter():Clear()
+      Object():GetFilter():SetZone( ZONE_GRAVEYARD )
+      Object():GetFilter():AddCardType( CARD_TYPE_INSTANT )
+      if Object():GetFilter():Count() &gt; 0 then INSTANTX = 1 else INSTANTX = 0 end
+
+      Object():GetFilter():Clear()
+      Object():GetFilter():SetZone( ZONE_GRAVEYARD )
+      Object():GetFilter():AddCardType( CARD_TYPE_SORCERY )
+      if Object():GetFilter():Count() &gt; 0 then SORCERYX = 1 else SORCERYX = 0 end
+
+      Object():GetFilter():Clear()
+      Object():GetFilter():SetZone( ZONE_GRAVEYARD )
+      Object():GetFilter():AddCardType( CARD_TYPE_TRIBAL )
+      Object():GetFilter():AddSecondCardType( CARD_TYPE_LAND )
+      Object():GetFilter():AddExtra( FILTER_EXTRA_FLIP_SECOND_CARD_TYPES )
+      if Object():GetFilter():Count() &gt; 0 then TRIBALX = 1 else TRIBALX = 0 end
+
+      MTG():ObjectDataChest():Int_Set( 1, LANDX + ARTIFACTX + CREATUREX + ENCHANTMENTX + INSTANTX + SORCERYX + TRIBALX)
+    </CONTINUOUS_ACTION>
+  </STATIC_ABILITY>
+  <STATIC_ABILITY influencing_zone="in_play" layer="7A">
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Tarmogoyf's power is equal to the number of card types among cards in all graveyards and its toughness is equal to that number plus 1. (Artifact, creature, enchantment, instant, land, planeswalker, sorcery, and tribal are card types.)]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[La forza del Tarmogoyf è pari al numero di tipi di carta tra le carte in tutti i cimiteri e la sua costituzione è pari a quel numero più 1. (I tipi di carta sono artefatto, creatura, incantesimo, istantaneo, stregoneria, terra, tribale e viandante.)]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Die Stärke des Tarmogoyfs ist gleich der Anzahl der Kartentypen in allen Friedhöfen, und seine Widerstandskraft ist gleich dieser Zahl plus 1. (Die Kartentypen sind Artefakt, Kreatur, Verzauberung, Spontanzauber, Land, Weltenwanderer, Hexerei und Stammeskarte.)]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[La force du Tarmogoyf est égale au nombre de types de carte des cartes de tous les cimetières et son endurance est égale à ce nombre plus 1. (Les types de carte sont artefact, créature, enchantement, éphémère, terrain, arpenteur, rituel et tribal.)]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[La fuerza del Tarmogoyf es igual a la cantidad de tipos de carta entre las cartas en todos los cementerios y su resistencia es igual a ese número más 1. (Los tipos de carta son artefacto, criatura, encantamiento, instantáneo, tierra, caminante de planos, conjuro y tribal.)]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[タルモゴイフのパワーは、すべての墓地にあるカードのカード・タイプの総数に等しく、タフネスはその値に１を加えたものに等しい。 （カード・タイプは、アーティファクトかクリーチャーかエンチャントかインスタントか土地かプレインズウォーカーかソーサリーか部族である。）]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[Tarmogoyf's power is equal to the number of card types among cards in all graveyards and its toughness is equal to that number plus 1. (Artifact, creature, enchantment, instant, land, planeswalker, sorcery, and tribal are card types.)]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Сила Тармогойфа равна количеству типов карт среди карт на всех кладбищах, а его выносливость на 1 больше этого числа. (Типы карт: артефакт, существо, чары, мгновенное заклинание, земля, мироходец, волшебство и племенной.)]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[O poder de Tarmogoyf é igual ao número de tipos de cards em todos os cemitérios e sua resistência é igual àquele número mais 1. (Os tipos de cards são artefato, criatura, encantamento, mágica instantânea, terreno, planinauta, feitiço e tribal.)]]></LOCALISED_TEXT>
+    <CONTINUOUS_ACTION>
+      local characteristics = Object():GetCurrentCharacteristics()
+      characteristics:Power_Set(MTG():ObjectDataChest():Int_Get(1))
+      characteristics:Toughness_Set(1 + MTG():ObjectDataChest():Int_Get(1))
+    </CONTINUOUS_ACTION>
+  </STATIC_ABILITY>
+  <SFX text="COMBAT_CLAW_LARGE_ATTACK" power_boundary_min="4" power_boundary_max="-1" />
+  <SFX text="COMBAT_CLAW_SMALL_ATTACK" power_boundary_min="1" power_boundary_max="3" />
+</CARD_V2>

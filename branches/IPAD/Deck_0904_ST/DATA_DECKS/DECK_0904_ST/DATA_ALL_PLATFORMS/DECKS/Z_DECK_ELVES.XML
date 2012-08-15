@@ -1,0 +1,43 @@
+<DECK personality="D13_IMPERIOUS_PERFECT.XML" deck_box_image="D13_ELVES" deck_box_image_locked="locked" content_pack="0" uid="904" preview_card="blanko" always_available="true" is_green="true" >
+  <DECKSTATISTICS Size="6" Speed="8" Flex="4" Syn="6" />
+  <CARD name="FYNDHORN_ELVES_159228" deckOrderId="0" />
+  <CARD name="FYNDHORN_ELVES_159228" deckOrderId="1" />
+  <CARD name="FYNDHORN_ELVES_159228" deckOrderId="2" />
+  <CARD name="FYNDHORN_ELVES_159228" deckOrderId="3" />
+  <CARD name="HEEDLESS_ONE_888158113" deckOrderId="4" />
+  <CARD name="HEEDLESS_ONE_888158113" deckOrderId="5" />
+  <CARD name="HEEDLESS_ONE_888158113" deckOrderId="6" />
+  <CARD name="HEEDLESS_ONE_888158113" deckOrderId="7" />
+  <CARD name="ELVISH_CHAMPION_88845442" deckOrderId="8" />
+  <CARD name="ELVISH_CHAMPION_88845442" deckOrderId="9" />
+  <CARD name="ELVISH_CHAMPION_88845442" deckOrderId="10" />
+  <CARD name="ELVISH_CHAMPION_88845442" deckOrderId="11" />
+  <CARD name="ELVISH_WARRIOR_39927" deckOrderId="12" />
+  <CARD name="ELVISH_WARRIOR_39927" deckOrderId="13" />
+  <CARD name="ELVISH_WARRIOR_39927" deckOrderId="14" />
+  <CARD name="ELVISH_WARRIOR_39927" deckOrderId="15" />
+  <CARD name="IMPERIOUS_PERFECT_888158123" deckOrderId="16" />
+  <CARD name="IMPERIOUS_PERFECT_888158123" deckOrderId="17" />
+  <CARD name="IMPERIOUS_PERFECT_888158123" deckOrderId="18" />
+  <CARD name="IMPERIOUS_PERFECT_888158123" deckOrderId="19" />
+  <CARD name="LLANOWAR_ELVES_888221892" deckOrderId="20" />
+  <CARD name="LLANOWAR_ELVES_888221892" deckOrderId="21" />
+  <CARD name="LLANOWAR_ELVES_888221892" deckOrderId="22" />
+  <CARD name="LLANOWAR_ELVES_888221892" deckOrderId="23" />
+  <CARD name="DOUBLING_SEASON_112272" deckOrderId="24" />
+  <CARD name="DOUBLING_SEASON_112272" deckOrderId="25" />
+  <CARD name="DOUBLING_SEASON_112272" deckOrderId="26" />
+  <CARD name="WELLWISHER_888158109" deckOrderId="27" />
+  <CARD name="WELLWISHER_888158109" deckOrderId="28" />
+  <CARD name="WELLWISHER_888158109" deckOrderId="29" />
+  <CARD name="ELVISH_PROMENADE_888159030" deckOrderId="30" />
+  <CARD name="ELVISH_PROMENADE_888159030" deckOrderId="31" />
+  <CARD name="ELVISH_PROMENADE_888159030" deckOrderId="32" />
+  <CARD name="LURE_764" deckOrderId="33" />
+  <CARD name="LURE_764" deckOrderId="34" />
+  <CARD name="QUEST_FOR_RENEWAL_194007" deckOrderId="35" />
+  <CARD name="QUEST_FOR_RENEWAL_194007" deckOrderId="36" />
+  <CARD name="QUEST_FOR_RENEWAL_194007" deckOrderId="37" />
+  <CARD name="RITE_OF_PASSAGE_51163" deckOrderId="38" />
+  <CARD name="RITE_OF_PASSAGE_51163" deckOrderId="39" />
+</DECK>

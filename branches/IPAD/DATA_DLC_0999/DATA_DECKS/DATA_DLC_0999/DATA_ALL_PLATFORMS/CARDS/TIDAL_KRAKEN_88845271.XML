@@ -1,0 +1,55 @@
+﻿<?xml version='1.0'?>
+<CARD_V2>
+  <FILENAME text="TIDAL_KRAKEN_88845271" />
+  <CARDNAME text="TIDAL_KRAKEN" />
+  <TITLE>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Tidal Kraken]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Kraken delle Maree]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Gezeitenkrake]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Kraken des marées]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Kraken de la marea]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[高潮のクラーケン]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[Tidal Kraken]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Приливный кракен]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Kraken das Marés]]></LOCALISED_TEXT>
+  </TITLE>
+  <MULTIVERSEID value="88845271" />
+  <ARTID value="88845271" />
+  <ARTIST name="Christopher Moeller" />
+  <CASTING_COST cost="{5}{U}{U}{U}" />
+  <FLAVOURTEXT>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[To merfolk, pirates are a nuisance. To pirates, merfolk are a threat. To the kraken, they're both appetizers.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Per i tritoni, i pirati sono una seccatura. Per i pirati, i tritoni sono una minaccia. Per il kraken, sono entrambi degli spuntini.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Für Meermänner sind Piraten lästig. Für Piraten sind Meermänner gefährlich. Für den Kraken sind sie alle nur lecker.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Pour les ondins, les pirates sont une nuisance. Pour les pirates, les ondins sont une menace. Pour le kraken, pirates et ondins sont des amuse-gueule.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Para los tritones, los piratas son una molestia. Para los piratas, los tritones son una amenaza. Para el kraken, ambos son aperitivos.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[マーフォークにとって海賊は厄介者だ。 海賊にとってマーフォークは脅威だ。 しかしクラーケンにとって、そのどちらも食欲を増進させるオードブルのようなものだ。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[To merfolk, pirates are a nuisance. To pirates, merfolk are a threat. To the kraken, they're both appetizers.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Для обитателей моря пираты — неприятность. Для пиратов обитатели моря — опасность. Для кракена и те, и другие — вкусный обед.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Para os tritões, os piratas são um incômodo. Para os piratas, os tritões são uma ameaça. Para os krakens, são ambos aperitivos.]]></LOCALISED_TEXT>
+  </FLAVOURTEXT>
+  <TYPE metaname="Creature" />
+  <SUB_TYPE metaname="Kraken" order_de-DE="0" order_es-ES="0" order_fr-FR="0" order_it-IT="0" order_jp-JA="0" order_ko-KR="0" order_pt-BR="0" order_ru-RU="0" />
+  <EXPANSION value="DPG" />
+  <RARITY metaname="R" />
+  <POWER value="6" />
+  <TOUGHNESS value="6" />
+  <STATIC_ABILITY filter_zone="ZONE_IN_PLAY">
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Tidal Kraken is unblockable.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Il Kraken delle Maree non può essere bloccato.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Der Gezeitenkrake ist unblockbar.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Le Kraken des marées est imblocable.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[El Kraken de la marea es imbloqueable.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[高潮のクラーケンはブロックされない。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[Tidal Kraken is unblockable.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Приливного кракена невозможно блокировать.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Kraken das Marés não pode ser bloqueado.]]></LOCALISED_TEXT>
+    <CONTINUOUS_ACTION>
+    local characteristics = Object():GetCurrentCharacteristics()
+    characteristics:Characteristic_Set( CHARACTERISTIC_UNBLOCKABLE, 1 )
+    </CONTINUOUS_ACTION>
+  </STATIC_ABILITY>
+  <HELP title="MORE_INFO_BADGE_TITLE_9" body="MORE_INFO_BADGE_BODY_9" zone="ZONE_ANY" />
+  <SFX text="COMBAT_KRAKEN_LARGE_ATTACK" power_boundary_min="4" power_boundary_max="-1" />
+  <SFX text="COMBAT_KRAKEN_SMALL_ATTACK" power_boundary_min="1" power_boundary_max="3" />
+</CARD_V2>

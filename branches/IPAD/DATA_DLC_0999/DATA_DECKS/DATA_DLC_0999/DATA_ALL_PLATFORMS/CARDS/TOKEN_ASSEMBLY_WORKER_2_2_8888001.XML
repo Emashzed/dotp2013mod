@@ -1,0 +1,29 @@
+﻿<?xml version='1.0'?>
+<CARD_V2>
+  <FILENAME text="TOKEN_ASSEMBLY_WORKER_2_2_8888001" />
+  <CARDNAME text="ASSEMBLY_WORKER" />
+  <TITLE>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[ASSEMBLY-WORKER]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[OUVRIER SPÉCIALISÉ]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[OPERARIO]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[MONTAGEARBEITER]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[ADDETTO-AL-MONTAGGIO]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[組立作業員]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[조립꾼]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[РАБОЧИЙ-СБОРЩИК]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[OPERÁRIO DE LINHA DE MONTAGEM]]></LOCALISED_TEXT>
+  </TITLE>
+  <MULTIVERSEID value="8888001" />
+  <ARTID value="8888001" />
+  <ARTIST name="Mark Tedin" />
+  <CASTING_COST cost="" />
+  <TYPE metaname="Artifact" />
+  <TYPE metaname="Creature" />
+  <SUB_TYPE metaname="Assembly_Worker" />
+  <EXPANSION value="DPG" />
+  <RARITY metaname="T" />
+  <POWER value="2" />
+  <TOUGHNESS value="2" />
+  <TOKEN />  <SFX text="COMBAT_BLUNT_LARGE_ATTACK" power_boundary_min="4" power_boundary_max="-1" />
+  <SFX text="COMBAT_BLUNT_SMALL_ATTACK" power_boundary_min="1" power_boundary_max="3" />
+</CARD_V2>

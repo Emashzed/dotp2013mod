@@ -1,0 +1,39 @@
+<DECK personality="D12GARRUK.XML" deck_box_image="D12GARRUK" deck_box_image_locked="locked" content_pack="0" uid="882" preview_card="thrun" is_green="true">
+  <DECKSTATISTICS Size="7" Speed="6" Flex="3" Syn="5" />
+  <CARD name="NATURES_LORE_276955" deckOrderId="0" />
+  <CARD name="NATURES_LORE_276955" deckOrderId="1" />
+  <CARD name="GARRUKS_COMPANION_288705" deckOrderId="2" />
+  <CARD name="GARRUKS_COMPANION_288705" deckOrderId="3" />
+  <CARD name="CUDGEL_TROLL_288703" deckOrderId="4" />
+  <CARD name="CUDGEL_TROLL_288703" deckOrderId="5" />
+  <CARD name="OVERRUN_276960" deckOrderId="6" />
+  <CARD name="OVERRUN_276960" deckOrderId="7" />
+  <CARD name="GARRUKS_PACKLEADER_276920" deckOrderId="8" />
+  <CARD name="GARRUKS_PACKLEADER_276920" deckOrderId="9" />
+  <CARD name="LEATHERBACK_BALOTH_276940" deckOrderId="10" />
+  <CARD name="WOLFBRIAR_ELEMENTAL_277361" deckOrderId="11" />
+  <CARD name="ENGULFING_SLAGWURM_276909" deckOrderId="12" />
+  <CARD name="BORDERLAND_RANGER_888189905" deckOrderId="13" />
+  <CARD name="BORDERLAND_RANGER_888189905" deckOrderId="14" />
+  <CARD name="BORDERLAND_RANGER_888189905" deckOrderId="15" />
+  <CARD name="GIANT_GROWTH_276921" deckOrderId="16" />
+  <CARD name="GIANT_GROWTH_276921" deckOrderId="17" />
+  <CARD name="GIANT_GROWTH_276921" deckOrderId="18" />
+  <CARD name="RUNECLAW_BEAR_276972" deckOrderId="19" />
+  <CARD name="RUNECLAW_BEAR_276972" deckOrderId="20" />
+  <CARD name="TERRA_STOMPER_288687" deckOrderId="21" />
+  <CARD name="THRUN_THE_LAST_TROLL_888214050" deckOrderId="22" />
+  <CARD name="LEAD_THE_STAMPEDE_888249369" deckOrderId="23" />
+  <CARD name="LEAD_THE_STAMPEDE_888249369" deckOrderId="24" />
+  <CARD name="ELEPHANT_GUIDE_888201832" deckOrderId="25" />
+  <CARD name="DUNGROVE_ELDER_280058" deckOrderId="26" />
+  <CARD name="HEARTWOOD_STORYTELLER_888132216" deckOrderId="27" />
+  <CARD name="HEARTWOOD_STORYTELLER_888132216" deckOrderId="28" />
+  <CARD name="GAEAS_REVENGE_294526" deckOrderId="29" />
+  <CARD name="FRESH_MEAT_888218051" deckOrderId="30" />
+  <CARD name="GIANT_SPIDER_280061" deckOrderId="31" />
+  <CARD name="GIANT_SPIDER_280061" deckOrderId="32" />
+  <CARD name="GRAZING_GLADEHART_888249378" deckOrderId="33" />
+  <CARD name="GRAZING_GLADEHART_888249378" deckOrderId="34" />
+  <CARD name="GRAZING_GLADEHART_888249378" deckOrderId="35" />
+</DECK>

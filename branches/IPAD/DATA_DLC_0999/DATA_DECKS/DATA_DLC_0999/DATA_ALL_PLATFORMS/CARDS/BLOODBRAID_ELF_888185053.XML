@@ -1,0 +1,122 @@
+﻿<?xml version='1.0'?>
+<CARD_V2>
+  <FILENAME text="BLOODBRAID_ELF_888185053" />
+  <CARDNAME text="BLOODBRAID_ELF" />
+  <TITLE>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Bloodbraid Elf]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Elfa dalle Trecce Rosse]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Blutzopf-Elf]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Elfe aux Nattes sanguinolentes]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Elfo trenzas sangrientas]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[血編み髪のエルフ]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[Bloodbraid Elf]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Кровавокосый Эльф]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Elfo Tranças-de-Sangue]]></LOCALISED_TEXT>
+  </TITLE>
+  <MULTIVERSEID value="888185053" />
+  <ARTID value="888185053" />
+  <ARTIST name="Dominick Domingo" />
+  <CASTING_COST cost="{2}{R}{G}" />
+  <TYPE metaname="Creature" />
+  <SUB_TYPE metaname="Elf" order_de-DE="0" order_es-ES="1" order_fr-FR="0" order_it-IT="1" order_jp-JA="0" order_ko-KR="0" order_pt-BR="0" order_ru-RU="0" />
+  <SUB_TYPE metaname="Berserker" order_de-DE="1" order_es-ES="0" order_fr-FR="1" order_it-IT="0" order_jp-JA="1" order_ko-KR="1" order_pt-BR="1" order_ru-RU="1" />
+  <EXPANSION value="DPG" />
+  <RARITY metaname="U" />
+  <POWER value="3" />
+  <TOUGHNESS value="2" />
+  <STATIC_ABILITY>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Haste]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Rapidità]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Eile]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Célérité]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Prisa.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[速攻]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[Haste]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Ускорение]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Ímpeto]]></LOCALISED_TEXT>
+    <CONTINUOUS_ACTION>
+    local characteritics = Object():GetCurrentCharacteristics()
+    characteritics:Characteristic_Set( CHARACTERISTIC_HASTE, 1 )
+    </CONTINUOUS_ACTION>
+  </STATIC_ABILITY>
+  <TRIGGERED_ABILITY active_zone="ZONE_STACK">
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Cascade |(When you cast this spell, exile cards from the top of your library until you exile a nonland card that costs less. You may cast it without paying its mana cost. Put the exiled cards on the bottom in a random order.)|]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Cascata |(Quando lanci questa magia, esilia carte dalla cima del tuo grimorio finché non esili una carta non terra che costa meno. Puoi lanciarla senza pagare il suo costo di mana. Metti le carte esiliate in fondo al tuo grimorio in ordine casuale.)|]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Kaskade |(Wenn du diesen Zauberspruch wirkst, schicke solange die oberste Karte deiner Bibliothek ins Exil, bis du eine Karte aufdeckst, die weniger kostet als diese und die kein Land ist. Du kannst sie wirken, ohne ihre Manakosten zu bezahlen. Lege die so ins Exil geschickten Karten in zufälliger Reihenfolge unter deine Bibliothek.)|]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Cascade |(Quand vous lancez ce sort, exilez les cartes du dessus de votre bibliothèque jusqu’à ce que vous exiliez une carte non-terrain d’un coût inférieur. Vous pouvez la lancer sans payer son coût de mana. Mettez les cartes exilées au-dessous de la bibliothèque dans un ordre aléatoire.)|]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Cascada. |(Cuando lances este hechizo, exilia las primeras cartas de tu biblioteca hasta que exilies una carta que no sea tierra que cueste menos. Puedes lanzar esa carta sin pagar su coste de maná. Pon las cartas exiliadas en el fondo de tu biblioteca en un orden aleatorio.)|]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[続唱 （あなたがこの呪文を唱えたとき、あなたのライブラリーの一番上のカードを、コストがより低い土地でないカードが追放されるまで追放する。 あなたはそれをそのマナ・コストを支払うことなく唱えてもよい。その追放したカードを、無作為の順番で一番下に置く。）]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[Cascade |(When you cast this spell, exile cards from the top of your library until you exile a nonland card that costs less. You may cast it without paying its mana cost. Put the exiled cards on the bottom in a random order.)|]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Каскад |(Когда вы разыгрываете это заклинание, удаляйте карты с верха вашей библиотеки из игры до тех пор, пока вы не удалите не являющуюся землей и стоящую меньше карту. Вы можете разыграть ее без уплаты ее мана-стоимости. Положите удаленные карты в низ вашей библиотеки в cлучайном порядке.)|]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Cascata |(Quando jogar esta mágica, remova do jogo cards do topo de seu grimório até remover um que não seja terreno e que tenha custo inferior. Você pode jogá-lo sem pagar seu custo de mana. Coloque os cards removidos no fundo de forma aleatória.)|]]></LOCALISED_TEXT>
+    <TRIGGER value="SPELL_PLAYED" simple_qualifier="self" />
+    <PLAY_TIME_ACTION>
+    local spell = TriggerObject()
+    if spell ~= nil then
+    	EffectDC():Set_Int(5, spell:GetConvertedManaCost())
+    end
+    </PLAY_TIME_ACTION>
+    <RESOLUTION_TIME_ACTION>
+    local card = EffectController():Library_GetNth(0)
+    local objectCMC = EffectDC():Get_Int(5) 
+    local player = EffectController()
+    local exile_chest = EffectDC():Make_Chest(1)
+    local cascade_spell = EffectDC():Make_Chest(2)
+    local i = 1
+    while card ~= nil do
+    	if  ((card:GetCardType():Test( CARD_TYPE_LAND ) == 0) and (card:GetConvertedManaCost() &lt; objectCMC )) then
+    		card:RemoveFromGame()
+    		cascade_spell:Set_CardPtr(0, card)
+    		exile_chest:Set_CardPtr(0, card)
+    		return
+    	else
+    		card:RemoveFromGame()
+    		exile_chest:Set_CardPtr(i, card)
+    		EffectDC():Set_Int(3, i)
+    		i = i+1
+    	end
+    	card = EffectController():Library_GetNth(0)
+    end
+    </RESOLUTION_TIME_ACTION>
+    <RESOLUTION_TIME_ACTION>
+    local browser = EffectDC():Get_Chest(2)
+    local player = EffectController()
+    if player ~= nil then 
+    	if browser ~= nil then
+    		player:SetTargetCount( 1 )
+    		player:SetTargetPrompt( 0, "CARD_QUERY_PLAY_OR_BOTTOM_LIBRARY" )
+    		player:ChooseTargetsFromDCWithFlags( NO_VALIDATION, browser, EffectDC():Make_Targets(0), QUERY_FLAG_CAN_BE_FINISHED_EARLY + QUERY_FLAG_CAN_BE_FINISHED_EARLY_FOR_AI_AS_WELL )
+    	end
+    end
+    </RESOLUTION_TIME_ACTION>
+    <RESOLUTION_TIME_ACTION>
+    local cascadeSpell = EffectDC():Get_Targets(0):Get_CardPtr(0)   
+    local player = EffectController()
+    local exile_chest = EffectDC():Get_Chest(1)
+    if (cascadeSpell ~= nil and player ~= nil) then   
+    	cascadeSpell:PlayFreeFromAnywhere( player )  
+    	if exile_chest ~= nil then
+    		exile_chest:Set_CardPtr(0, nil)
+    	end
+    end
+    </RESOLUTION_TIME_ACTION>
+    <RESOLUTION_TIME_ACTION>
+    local exile_chest = EffectDC():Get_Chest(1)
+    local card_count = EffectDC():Get_Int(3)
+    	
+    if exile_chest ~= nil then 
+    	for i = 0,card_count do
+    		local exiledCard = exile_chest:Get_CardPtr( i )  
+    		if exiledCard ~= nil then
+    			exiledCard:GuidedReveal( ZONE_LIBRARY, ZONE_LIBRARY)
+    			exiledCard:PutInLibrary( -1 )
+    		end
+    	end
+    end
+    </RESOLUTION_TIME_ACTION>
+  </TRIGGERED_ABILITY>
+  <HELP title="MORE_INFO_BADGE_TITLE_14" body="MORE_INFO_BADGE_BODY_14" zone="ZONE_ANY" />
+  <HELP title="MORE_INFO_TITLE_CASCADE" body="MORE_INFO_BODY_CASCADE" zone="ZONE_ANY" />
+  <SFX text="COMBAT_BLADE_LARGE_ATTACK" power_boundary_min="4" power_boundary_max="-1" />
+  <SFX text="COMBAT_BLADE_SMALL_ATTACK" power_boundary_min="1" power_boundary_max="3" />
+</CARD_V2>

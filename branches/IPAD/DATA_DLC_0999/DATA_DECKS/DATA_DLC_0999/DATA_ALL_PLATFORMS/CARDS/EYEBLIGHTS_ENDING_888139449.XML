@@ -1,0 +1,85 @@
+﻿<?xml version='1.0'?>
+<CARD_V2>
+  <FILENAME text="EYEBLIGHTS_ENDING_888139449" />
+  <CARDNAME text="EYEBLIGHTS_ENDING" />
+  <TITLE>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Eyeblight’s Ending]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Fine del Mal’Occhio]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Ende des Augenwehs]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Fin du dysmèle]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Fin de la desgracia visual]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[眼腐りの終焉]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[Eyeblight’s Ending]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Конец Порчеглаза]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Fim do Seca-Olho]]></LOCALISED_TEXT>
+  </TITLE>
+  <MULTIVERSEID value="888139449" />
+  <ARTID value="888139449" />
+  <ARTIST name="Ron Spears" />
+  <CASTING_COST cost="{2}{B}" />
+  <FLAVOURTEXT>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[“Those without beauty are Lorwyn’s greatest tumor. The winnowers have an unpleasant duty, but a necessary one.”
+—Eidren, perfect of Lys Alana]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[“Quelli privi di bellezza sono il tumore più grande di Lorwyn. I setacciatori hanno un compito spiacevole, ma necessario.”
+—Eidren, perfetto di Lys Alana]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[„Diejenigen, denen es an Schönheit mangelt, sind der größte Tumor, an dem Lorwyn krankt. Die Ausdünner haben eine unangenehme Aufgabe, aber sie ist notwendig.”
+—Eidren, Perfekter von Lys Alana]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[« Les êtres sans beauté sont les tumeurs les plus noires de Lorwyn. Les vanneurs ont un devoir déplaisant, mais nécessaire. »
+—Eidren, parfait de Lys Alana]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[“Aquellos que carecen de belleza son el mayor tumor de Lorwyn. Los aventadores tienen una tarea desagradable, pero necesaria.”
+—Éidren, perfecto de Lys Alana]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[「美無き者たちはローウィン最大の膿だ。 選別者の仕事は望まれざるが、必要なものだ。」
+――リス・アラナの完全者、エイドレン]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[“Those without beauty are Lorwyn’s greatest tumor. The winnowers have an unpleasant duty, but a necessary one.”
+—Eidren, perfect of Lys Alana]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[“Лишенные красоты — самая мерзкая опухоль на теле Лорвина. Работа отсеивателей неприятна, но крайне необходима”.
+— Эйдрен, совершенный эльф Лиз-Аланы]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[“Os desprovidos de beleza são o maior tumor de Lorwyn. Os peneiradores têm uma desagradável mas indispensável tarefa.”
+— Eidren, perfeito de Lys Alana]]></LOCALISED_TEXT>
+  </FLAVOURTEXT>
+  <TYPE metaname="Tribal" />
+  <TYPE metaname="Instant" />
+  <SUB_TYPE metaname="Elf" />
+  <EXPANSION value="DPG" />
+  <RARITY metaname="C" />
+  <SPELL_ABILITY dangerous="1">
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Destroy target non-Elf creature.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Distruggi una creatura non Elfo bersaglio.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Zerstöre eine Nicht-Elfenkreatur deiner Wahl.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Détruisez la créature non-elfe ciblée.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Destruye la criatura objetivo que no sea Elfo.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[エルフでないクリーチャー１体を対象とし、それを破壊する。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[Destroy target non-Elf creature.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Уничтожьте целевое существо, не являющееся Эльфом.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Destrua a criatura alvo que não seja Elfo.]]></LOCALISED_TEXT>
+    <TARGET_DEFINITION id="0">
+    local filter = Object():GetFilter()
+    filter:Clear()
+    filter:AddCardType( CARD_TYPE_CREATURE )
+    filter:AddSubType( CREATURE_TYPE_ELF )
+    filter:AddExtra( FILTER_EXTRA_FLIP_SUB_TYPES )
+    filter:SetHint( HINT_ENEMY_ONLY, EffectController() )
+    filter:SetZone( ZONE_IN_PLAY )
+    </TARGET_DEFINITION>
+    <TARGET_DETERMINATION>
+    return AtLeastOneTargetFromDefinition(0)
+    </TARGET_DETERMINATION>
+    <PLAY_TIME_ACTION target_choosing="1">
+    EffectController():ChooseTarget( 0, "CARD_QUERY_CHOOSE_CREATURE_TO_DESTROY", EffectDC():Make_Targets(0) )
+    </PLAY_TIME_ACTION>
+    <RESOLUTION_TIME_ACTION ignore_filter="1">
+    local target = EffectDC():Get_Targets(0):Get_NthCardPtr(0)
+    if target ~= nil then   
+    	target:Destroy()  
+    end
+    </RESOLUTION_TIME_ACTION>
+    <SFX text="TARGET_BLADE_PLAY" />
+  </SPELL_ABILITY>
+  <AI_AVAILABILITY type="in_response" />
+  <AI_AVAILABILITY step="begin_combat" turn="their_turn" />
+  <AI_AVAILABILITY step="main_1" turn="my_turn" />
+  <AI_AVAILABILITY step="declare_attackers" turn="their_turn" />
+  <AI_AVAILABILITY step="declare_blockers" />
+  <AI_AVAILABILITY step="end_of_turn" />
+  <AI_BASE_SCORE score="1200" zone="ZONE_HAND" />
+</CARD_V2>

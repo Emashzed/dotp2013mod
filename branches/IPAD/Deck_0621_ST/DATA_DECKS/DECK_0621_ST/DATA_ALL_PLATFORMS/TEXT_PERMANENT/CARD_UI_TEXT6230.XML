@@ -1,0 +1,1605 @@
+<?xml version="1.0"?>
+<?mso-application progid="Excel.Sheet"?>
+<Workbook xmlns="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:o="urn:schemas-microsoft-com:office:office"
+ xmlns:x="urn:schemas-microsoft-com:office:excel"
+ xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:html="http://www.w3.org/TR/REC-html40">
+ <DocumentProperties xmlns="urn:schemas-microsoft-com:office:office">
+  <Author>ScrollRack D13</Author>
+  <LastAuthor>Administrator</LastAuthor>
+  <Created>1980-05-23T00:00:00Z</Created>
+  <LastSaved>2012-07-27T19:02:05Z</LastSaved>
+  <Company>Microsoft Corporation</Company>
+  <Version>14.00</Version>
+ </DocumentProperties>
+ <OfficeDocumentSettings xmlns="urn:schemas-microsoft-com:office:office">
+  <AllowPNG/>
+ </OfficeDocumentSettings>
+ <ExcelWorkbook xmlns="urn:schemas-microsoft-com:office:excel">
+  <WindowHeight>13695</WindowHeight>
+  <WindowWidth>14025</WindowWidth>
+  <WindowTopX>1965</WindowTopX>
+  <WindowTopY>2295</WindowTopY>
+  <TabRatio>390</TabRatio>
+  <ProtectStructure>False</ProtectStructure>
+  <ProtectWindows>False</ProtectWindows>
+ </ExcelWorkbook>
+ <Styles>
+  <Style ss:ID="Default" ss:Name="Normal">
+   <Alignment ss:Vertical="Bottom"/>
+   <Borders/>
+   <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="11" ss:Color="#000000"/>
+   <Interior/>
+   <NumberFormat/>
+   <Protection/>
+  </Style>
+  <Style ss:ID="s63">
+   <Alignment ss:Vertical="Bottom" ss:WrapText="1"/>
+  </Style>
+ </Styles>
+ <Worksheet ss:Name="Sheet4">
+  <Table ss:ExpandedColumnCount="12" ss:ExpandedRowCount="511" x:FullColumns="1"
+   x:FullRows="1" ss:DefaultRowHeight="15">
+   <Column ss:AutoFitWidth="0" ss:Width="330"/>
+   <Column ss:Index="3" ss:AutoFitWidth="0" ss:Width="420"/>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Ident</Data></Cell>
+    <Cell><Data ss:Type="String">Comment</Data></Cell>
+    <Cell><Data ss:Type="String">Master Text</Data></Cell>
+    <Cell><Data ss:Type="String">French</Data></Cell>
+    <Cell><Data ss:Type="String">Spanish</Data></Cell>
+    <Cell><Data ss:Type="String">German</Data></Cell>
+    <Cell><Data ss:Type="String">Italian</Data></Cell>
+    <Cell ss:Index="9"><Data ss:Type="String">Japanese</Data></Cell>
+    <Cell><Data ss:Type="String">Korean</Data></Cell>
+    <Cell><Data ss:Type="String">Russian</Data></Cell>
+    <Cell><Data ss:Type="String">Portuguese (Brazil)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">PLAYER_NAME_KIORA</Data></Cell>
+    <Cell ss:Index="3"><Data ss:Type="String">Kiora Atua</Data></Cell>
+    <Cell><Data ss:Type="String">Kiora Atua</Data></Cell>
+    <Cell><Data ss:Type="String">Kiora Atua</Data></Cell>
+    <Cell><Data ss:Type="String">Kiora Atua</Data></Cell>
+    <Cell><Data ss:Type="String">Kiora Atua</Data></Cell>
+    <Cell ss:Index="9"><Data ss:Type="String">Kiora Atua</Data></Cell>
+    <Cell><Data ss:Type="String">Kiora Atua</Data></Cell>
+    <Cell><Data ss:Type="String">Kiora Atua</Data></Cell>
+    <Cell><Data ss:Type="String">Kiora Atua</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">DECK_OCTOMANCY</Data></Cell>
+    <Cell ss:Index="3"><Data ss:Type="String">Ancient Depths</Data></Cell>
+    <Cell><Data ss:Type="String">Ancient Depths</Data></Cell>
+    <Cell><Data ss:Type="String">Ancient Depths</Data></Cell>
+    <Cell><Data ss:Type="String">Ancient Depths</Data></Cell>
+    <Cell><Data ss:Type="String">Ancient Depths</Data></Cell>
+    <Cell ss:Index="9"><Data ss:Type="String">Ancient Depths</Data></Cell>
+    <Cell><Data ss:Type="String">Ancient Depths</Data></Cell>
+    <Cell><Data ss:Type="String">Ancient Depths</Data></Cell>
+    <Cell><Data ss:Type="String">Ancient Depths</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">PLAYER_NAME_TEZZERET</Data></Cell>
+    <Cell ss:Index="3"><Data ss:Type="String">Tezzeret</Data></Cell>
+    <Cell><Data ss:Type="String">Tezzeret</Data></Cell>
+    <Cell><Data ss:Type="String">Tezzeret</Data></Cell>
+    <Cell><Data ss:Type="String">Tezzeret</Data></Cell>
+    <Cell><Data ss:Type="String">Tezzeret</Data></Cell>
+    <Cell ss:Index="9"><Data ss:Type="String">Tezzeret</Data></Cell>
+    <Cell><Data ss:Type="String">Tezzeret</Data></Cell>
+    <Cell><Data ss:Type="String">Tezzeret</Data></Cell>
+    <Cell><Data ss:Type="String">Tezzeret</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">DECK_TEZZERET</Data></Cell>
+    <Cell ss:Index="3"><Data ss:Type="String">Machinations</Data></Cell>
+    <Cell><Data ss:Type="String">Machinations</Data></Cell>
+    <Cell><Data ss:Type="String">Machinations</Data></Cell>
+    <Cell><Data ss:Type="String">Machinations</Data></Cell>
+    <Cell><Data ss:Type="String">Machinations</Data></Cell>
+    <Cell ss:Index="9"><Data ss:Type="String">Machinations</Data></Cell>
+    <Cell><Data ss:Type="String">Machinations</Data></Cell>
+    <Cell><Data ss:Type="String">Machinations</Data></Cell>
+    <Cell><Data ss:Type="String">Machinations</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">PLAYER_NAME_GIDEON</Data></Cell>
+    <Cell ss:Index="3"><Data ss:Type="String">Gideon Jura</Data></Cell>
+    <Cell><Data ss:Type="String">Gideon Jura</Data></Cell>
+    <Cell><Data ss:Type="String">Gideon Jura</Data></Cell>
+    <Cell><Data ss:Type="String">Gideon Jura</Data></Cell>
+    <Cell><Data ss:Type="String">Gideon Jura</Data></Cell>
+    <Cell ss:Index="9"><Data ss:Type="String">Gideon Jura</Data></Cell>
+    <Cell><Data ss:Type="String">Gideon Jura</Data></Cell>
+    <Cell><Data ss:Type="String">Gideon Jura</Data></Cell>
+    <Cell><Data ss:Type="String">Gideon Jura</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">DECK_GIDEON</Data></Cell>
+    <Cell ss:Index="3"><Data ss:Type="String">Wielding Steel</Data></Cell>
+    <Cell><Data ss:Type="String">Wielding Steel</Data></Cell>
+    <Cell><Data ss:Type="String">Wielding Steel</Data></Cell>
+    <Cell><Data ss:Type="String">Wielding Steel</Data></Cell>
+    <Cell><Data ss:Type="String">Wielding Steel</Data></Cell>
+    <Cell ss:Index="9"><Data ss:Type="String">Wielding Steel</Data></Cell>
+    <Cell><Data ss:Type="String">Wielding Steel</Data></Cell>
+    <Cell><Data ss:Type="String">Wielding Steel</Data></Cell>
+    <Cell><Data ss:Type="String">Wielding Steel</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">PLAYER_NAME_FALLEN_ANGEL</Data></Cell>
+    <Cell ss:Index="3"><Data ss:Type="String">Fallen Angel</Data></Cell>
+    <Cell><Data ss:Type="String">Fallen Angel</Data></Cell>
+    <Cell><Data ss:Type="String">Fallen Angel</Data></Cell>
+    <Cell><Data ss:Type="String">Fallen Angel</Data></Cell>
+    <Cell><Data ss:Type="String">Fallen Angel</Data></Cell>
+    <Cell ss:Index="9"><Data ss:Type="String">Fallen Angel</Data></Cell>
+    <Cell><Data ss:Type="String">Fallen Angel</Data></Cell>
+    <Cell><Data ss:Type="String">Fallen Angel</Data></Cell>
+    <Cell><Data ss:Type="String">Fallen Angel</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">DECK_FALLEN_ANGEL</Data></Cell>
+    <Cell ss:Index="3"><Data ss:Type="String">Dark Heavens</Data></Cell>
+    <Cell><Data ss:Type="String">Dark Heavens</Data></Cell>
+    <Cell><Data ss:Type="String">Dark Heavens</Data></Cell>
+    <Cell><Data ss:Type="String">Dark Heavens</Data></Cell>
+    <Cell><Data ss:Type="String">Dark Heavens</Data></Cell>
+    <Cell ss:Index="9"><Data ss:Type="String">Dark Heavens</Data></Cell>
+    <Cell><Data ss:Type="String">Dark Heavens</Data></Cell>
+    <Cell><Data ss:Type="String">Dark Heavens</Data></Cell>
+    <Cell><Data ss:Type="String">Dark Heavens</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">PLAYER_NAME_SORIN</Data></Cell>
+    <Cell ss:Index="3"><Data ss:Type="String">Sorin Markov</Data></Cell>
+    <Cell><Data ss:Type="String">Sorin Markov</Data></Cell>
+    <Cell><Data ss:Type="String">Sorin Markov</Data></Cell>
+    <Cell><Data ss:Type="String">Sorin Markov</Data></Cell>
+    <Cell><Data ss:Type="String">Sorin Markov</Data></Cell>
+    <Cell ss:Index="9"><Data ss:Type="String">Sorin Markov</Data></Cell>
+    <Cell><Data ss:Type="String">Sorin Markov</Data></Cell>
+    <Cell><Data ss:Type="String">Sorin Markov</Data></Cell>
+    <Cell><Data ss:Type="String">Sorin Markov</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">DECK_SORIN</Data></Cell>
+    <Cell ss:Index="3"><Data ss:Type="String">Blood Hunger</Data></Cell>
+    <Cell><Data ss:Type="String">Blood Hunger</Data></Cell>
+    <Cell><Data ss:Type="String">Blood Hunger</Data></Cell>
+    <Cell><Data ss:Type="String">Blood Hunger</Data></Cell>
+    <Cell><Data ss:Type="String">Blood Hunger</Data></Cell>
+    <Cell ss:Index="9"><Data ss:Type="String">Blood Hunger</Data></Cell>
+    <Cell><Data ss:Type="String">Blood Hunger</Data></Cell>
+    <Cell><Data ss:Type="String">Blood Hunger</Data></Cell>
+    <Cell><Data ss:Type="String">Blood Hunger</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">PLAYER_NAME_WAR</Data></Cell>
+    <Cell ss:Index="3"><Data ss:Type="String">Ajani Goldmane</Data></Cell>
+    <Cell><Data ss:Type="String">Ajani Goldmane</Data></Cell>
+    <Cell><Data ss:Type="String">Ajani Goldmane</Data></Cell>
+    <Cell><Data ss:Type="String">Ajani Goldmane</Data></Cell>
+    <Cell><Data ss:Type="String">Ajani Goldmane</Data></Cell>
+    <Cell ss:Index="9"><Data ss:Type="String">Ajani Goldmane</Data></Cell>
+    <Cell><Data ss:Type="String">Ajani Goldmane</Data></Cell>
+    <Cell><Data ss:Type="String">Ajani Goldmane</Data></Cell>
+    <Cell><Data ss:Type="String">Ajani Goldmane</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">DECK_WAR</Data></Cell>
+    <Cell ss:Index="3"><Data ss:Type="String">March to War</Data></Cell>
+    <Cell><Data ss:Type="String">March to War</Data></Cell>
+    <Cell><Data ss:Type="String">March to War</Data></Cell>
+    <Cell><Data ss:Type="String">March to War</Data></Cell>
+    <Cell><Data ss:Type="String">March to War</Data></Cell>
+    <Cell ss:Index="9"><Data ss:Type="String">March to War</Data></Cell>
+    <Cell><Data ss:Type="String">March to War</Data></Cell>
+    <Cell><Data ss:Type="String">March to War</Data></Cell>
+    <Cell><Data ss:Type="String">March to War</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">PLAYER_NAME_GETH</Data></Cell>
+    <Cell ss:Index="3"><Data ss:Type="String">Geth, Lord of the Vault</Data></Cell>
+    <Cell><Data ss:Type="String">Geth, Lord of the Vault</Data></Cell>
+    <Cell><Data ss:Type="String">Geth, Lord of the Vault</Data></Cell>
+    <Cell><Data ss:Type="String">Geth, Lord of the Vault</Data></Cell>
+    <Cell><Data ss:Type="String">Geth, Lord of the Vault</Data></Cell>
+    <Cell ss:Index="9"><Data ss:Type="String">Geth, Lord of the Vault</Data></Cell>
+    <Cell><Data ss:Type="String">Geth, Lord of the Vault</Data></Cell>
+    <Cell><Data ss:Type="String">Geth, Lord of the Vault</Data></Cell>
+    <Cell><Data ss:Type="String">Geth, Lord of the Vault</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">DECK_GETH</Data></Cell>
+    <Cell ss:Index="3"><Data ss:Type="String">Ghoulkeeper</Data></Cell>
+    <Cell><Data ss:Type="String">Ghoulkeeper</Data></Cell>
+    <Cell><Data ss:Type="String">Ghoulkeeper</Data></Cell>
+    <Cell><Data ss:Type="String">Ghoulkeeper</Data></Cell>
+    <Cell><Data ss:Type="String">Ghoulkeeper</Data></Cell>
+    <Cell ss:Index="9"><Data ss:Type="String">Ghoulkeeper</Data></Cell>
+    <Cell><Data ss:Type="String">Ghoulkeeper</Data></Cell>
+    <Cell><Data ss:Type="String">Ghoulkeeper</Data></Cell>
+    <Cell><Data ss:Type="String">Ghoulkeeper</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">PLAYER_NAME_MS_JACE</Data></Cell>
+    <Cell ss:Index="3"><Data ss:Type="String">Jace, the Mind Sculptor</Data></Cell>
+    <Cell><Data ss:Type="String">Jace, the Mind Sculptor</Data></Cell>
+    <Cell><Data ss:Type="String">Jace, the Mind Sculptor</Data></Cell>
+    <Cell><Data ss:Type="String">Jace, the Mind Sculptor</Data></Cell>
+    <Cell><Data ss:Type="String">Jace, the Mind Sculptor</Data></Cell>
+    <Cell ss:Index="9"><Data ss:Type="String">Jace, the Mind Sculptor</Data></Cell>
+    <Cell><Data ss:Type="String">Jace, the Mind Sculptor</Data></Cell>
+    <Cell><Data ss:Type="String">Jace, the Mind Sculptor</Data></Cell>
+    <Cell><Data ss:Type="String">Jace, the Mind Sculptor</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">DECK_MS_JACE</Data></Cell>
+    <Cell ss:Index="3"><Data ss:Type="String">Realm of Illusion</Data></Cell>
+    <Cell><Data ss:Type="String">Realm of Illusion</Data></Cell>
+    <Cell><Data ss:Type="String">Realm of Illusion</Data></Cell>
+    <Cell><Data ss:Type="String">Realm of Illusion</Data></Cell>
+    <Cell><Data ss:Type="String">Realm of Illusion</Data></Cell>
+    <Cell ss:Index="9"><Data ss:Type="String">Realm of Illusion</Data></Cell>
+    <Cell><Data ss:Type="String">Realm of Illusion</Data></Cell>
+    <Cell><Data ss:Type="String">Realm of Illusion</Data></Cell>
+    <Cell><Data ss:Type="String">Realm of Illusion</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">PLAYER_NAME_NISSA</Data></Cell>
+    <Cell ss:Index="3"><Data ss:Type="String">Nissa Revane</Data></Cell>
+    <Cell><Data ss:Type="String">Nissa Revane</Data></Cell>
+    <Cell><Data ss:Type="String">Nissa Revane</Data></Cell>
+    <Cell><Data ss:Type="String">Nissa Revane</Data></Cell>
+    <Cell><Data ss:Type="String">Nissa Revane</Data></Cell>
+    <Cell ss:Index="9"><Data ss:Type="String">Nissa Revane</Data></Cell>
+    <Cell><Data ss:Type="String">Nissa Revane</Data></Cell>
+    <Cell><Data ss:Type="String">Nissa Revane</Data></Cell>
+    <Cell><Data ss:Type="String">Nissa Revane</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">DECK_NISSA</Data></Cell>
+    <Cell ss:Index="3"><Data ss:Type="String">Guardians of the Wood</Data></Cell>
+    <Cell><Data ss:Type="String">Guardians of the Wood</Data></Cell>
+    <Cell><Data ss:Type="String">Guardians of the Wood</Data></Cell>
+    <Cell><Data ss:Type="String">Guardians of the Wood</Data></Cell>
+    <Cell><Data ss:Type="String">Guardians of the Wood</Data></Cell>
+    <Cell ss:Index="9"><Data ss:Type="String">Guardians of the Wood</Data></Cell>
+    <Cell><Data ss:Type="String">Guardians of the Wood</Data></Cell>
+    <Cell><Data ss:Type="String">Guardians of the Wood</Data></Cell>
+    <Cell><Data ss:Type="String">Guardians of the Wood</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">PLAYER_NAME_KOTH</Data></Cell>
+    <Cell ss:Index="3"><Data ss:Type="String">Koth</Data></Cell>
+    <Cell><Data ss:Type="String">Koth</Data></Cell>
+    <Cell><Data ss:Type="String">Koth</Data></Cell>
+    <Cell><Data ss:Type="String">Koth</Data></Cell>
+    <Cell><Data ss:Type="String">Koth</Data></Cell>
+    <Cell ss:Index="9"><Data ss:Type="String">Koth</Data></Cell>
+    <Cell><Data ss:Type="String">Koth</Data></Cell>
+    <Cell><Data ss:Type="String">Koth</Data></Cell>
+    <Cell><Data ss:Type="String">Koth</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">DECK_KOTH</Data></Cell>
+    <Cell ss:Index="3"><Data ss:Type="String">Strength of Stone</Data></Cell>
+    <Cell><Data ss:Type="String">Strength of Stone</Data></Cell>
+    <Cell><Data ss:Type="String">Strength of Stone</Data></Cell>
+    <Cell><Data ss:Type="String">Strength of Stone</Data></Cell>
+    <Cell><Data ss:Type="String">Strength of Stone</Data></Cell>
+    <Cell ss:Index="9"><Data ss:Type="String">Strength of Stone</Data></Cell>
+    <Cell><Data ss:Type="String">Strength of Stone</Data></Cell>
+    <Cell><Data ss:Type="String">Strength of Stone</Data></Cell>
+    <Cell><Data ss:Type="String">Strength of Stone</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">PLAYER_NAME_GARRUKB</Data></Cell>
+    <Cell ss:Index="3"><Data ss:Type="String">Garruk Relentless</Data></Cell>
+    <Cell><Data ss:Type="String">Garruk Relentless</Data></Cell>
+    <Cell><Data ss:Type="String">Garruk Relentless</Data></Cell>
+    <Cell><Data ss:Type="String">Garruk Relentless</Data></Cell>
+    <Cell><Data ss:Type="String">Garruk Relentless</Data></Cell>
+    <Cell ss:Index="9"><Data ss:Type="String">Garruk Relentless</Data></Cell>
+    <Cell><Data ss:Type="String">Garruk Relentless</Data></Cell>
+    <Cell><Data ss:Type="String">Garruk Relentless</Data></Cell>
+    <Cell><Data ss:Type="String">Garruk Relentless</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">DECK_GARRUKB</Data></Cell>
+    <Cell ss:Index="3"><Data ss:Type="String">Apex Perdators</Data></Cell>
+    <Cell><Data ss:Type="String">Apex Perdators</Data></Cell>
+    <Cell><Data ss:Type="String">Apex Perdators</Data></Cell>
+    <Cell><Data ss:Type="String">Apex Perdators</Data></Cell>
+    <Cell><Data ss:Type="String">Apex Perdators</Data></Cell>
+    <Cell ss:Index="9"><Data ss:Type="String">Apex Perdators</Data></Cell>
+    <Cell><Data ss:Type="String">Apex Perdators</Data></Cell>
+    <Cell><Data ss:Type="String">Apex Perdators</Data></Cell>
+    <Cell><Data ss:Type="String">Apex Perdators</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">PLAYER_NAME_ELSPETH</Data></Cell>
+    <Cell ss:Index="3"><Data ss:Type="String">Knight Exemplar</Data></Cell>
+    <Cell><Data ss:Type="String">Knight Exemplar</Data></Cell>
+    <Cell><Data ss:Type="String">Knight Exemplar</Data></Cell>
+    <Cell><Data ss:Type="String">Knight Exemplar</Data></Cell>
+    <Cell><Data ss:Type="String">Knight Exemplar</Data></Cell>
+    <Cell ss:Index="9"><Data ss:Type="String">Knight Exemplar</Data></Cell>
+    <Cell><Data ss:Type="String">Knight Exemplar</Data></Cell>
+    <Cell><Data ss:Type="String">Knight Exemplar</Data></Cell>
+    <Cell><Data ss:Type="String">Knight Exemplar</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">DECK_ELSPETH</Data></Cell>
+    <Cell ss:Index="3"><Data ss:Type="String">Beknighted</Data></Cell>
+    <Cell><Data ss:Type="String">Beknighted</Data></Cell>
+    <Cell><Data ss:Type="String">Beknighted</Data></Cell>
+    <Cell><Data ss:Type="String">Beknighted</Data></Cell>
+    <Cell><Data ss:Type="String">Beknighted</Data></Cell>
+    <Cell ss:Index="9"><Data ss:Type="String">Beknighted</Data></Cell>
+    <Cell><Data ss:Type="String">Beknighted</Data></Cell>
+    <Cell><Data ss:Type="String">Beknighted</Data></Cell>
+    <Cell><Data ss:Type="String">Beknighted</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">PLAYER_NAME_RIKU</Data></Cell>
+    <Cell ss:Index="3"><Data ss:Type="String">Riku of Two Reflections</Data></Cell>
+    <Cell><Data ss:Type="String">Riku of Two Reflections</Data></Cell>
+    <Cell><Data ss:Type="String">Riku of Two Reflections</Data></Cell>
+    <Cell><Data ss:Type="String">Riku of Two Reflections</Data></Cell>
+    <Cell><Data ss:Type="String">Riku of Two Reflections</Data></Cell>
+    <Cell ss:Index="9"><Data ss:Type="String">Riku of Two Reflections</Data></Cell>
+    <Cell><Data ss:Type="String">Riku of Two Reflections</Data></Cell>
+    <Cell><Data ss:Type="String">Riku of Two Reflections</Data></Cell>
+    <Cell><Data ss:Type="String">Riku of Two Reflections</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">DECK_RIKU</Data></Cell>
+    <Cell ss:Index="3"><Data ss:Type="String">Trinity of Elements</Data></Cell>
+    <Cell><Data ss:Type="String">Trinity of Elements</Data></Cell>
+    <Cell><Data ss:Type="String">Trinity of Elements</Data></Cell>
+    <Cell><Data ss:Type="String">Trinity of Elements</Data></Cell>
+    <Cell><Data ss:Type="String">Trinity of Elements</Data></Cell>
+    <Cell ss:Index="9"><Data ss:Type="String">Trinity of Elements</Data></Cell>
+    <Cell><Data ss:Type="String">Trinity of Elements</Data></Cell>
+    <Cell><Data ss:Type="String">Trinity of Elements</Data></Cell>
+    <Cell><Data ss:Type="String">Trinity of Elements</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">PLAYER_NAME_CHANDRAN</Data></Cell>
+    <Cell ss:Index="3"><Data ss:Type="String">Chandra Nalaar</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">DECK_CHANDRAN</Data></Cell>
+    <Cell ss:Index="3"><Data ss:Type="String">Unquenchable Fire</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">PLAYER_NAME_SARKHAN</Data></Cell>
+    <Cell ss:Index="3"><Data ss:Type="String">Sarkhan Vol</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">DECK_SARKHAN</Data></Cell>
+    <Cell ss:Index="3"><Data ss:Type="String">Dragon’s Roar</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">PLAYER_NAME_LILIANAV</Data></Cell>
+    <Cell ss:Index="3"><Data ss:Type="String">Liliana Vess</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">DECK_LILIANAV</Data></Cell>
+    <Cell ss:Index="3"><Data ss:Type="String">Grave Whispers</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">PLAYER_NAME_SILVOS</Data></Cell>
+    <Cell ss:Index="3" ss:HRef="http://magiccards.info/fvl/en/3.html"><Data
+      ss:Type="String">Doran, the Siege Tower</Data></Cell>
+    <Cell ss:HRef="http://magiccards.info/fvl/en/3.html"><Data ss:Type="String">Doran, the Siege Tower</Data></Cell>
+    <Cell ss:HRef="http://magiccards.info/fvl/en/3.html"><Data ss:Type="String">Doran, the Siege Tower</Data></Cell>
+    <Cell ss:HRef="http://magiccards.info/fvl/en/3.html"><Data ss:Type="String">Doran, the Siege Tower</Data></Cell>
+    <Cell ss:HRef="http://magiccards.info/fvl/en/3.html"><Data ss:Type="String">Doran, the Siege Tower</Data></Cell>
+    <Cell ss:Index="9" ss:HRef="http://magiccards.info/fvl/en/3.html"><Data
+      ss:Type="String">Doran, the Siege Tower</Data></Cell>
+    <Cell ss:HRef="http://magiccards.info/fvl/en/3.html"><Data ss:Type="String">Doran, the Siege Tower</Data></Cell>
+    <Cell ss:HRef="http://magiccards.info/fvl/en/3.html"><Data ss:Type="String">Doran, the Siege Tower</Data></Cell>
+    <Cell ss:HRef="http://magiccards.info/fvl/en/3.html"><Data ss:Type="String">Doran, the Siege Tower</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">DECK_SILVOS</Data></Cell>
+    <Cell ss:Index="3"><Data ss:Type="String">Forest’s Fury</Data></Cell>
+    <Cell><Data ss:Type="String">Forest’s Fury</Data></Cell>
+    <Cell><Data ss:Type="String">Forest’s Fury</Data></Cell>
+    <Cell><Data ss:Type="String">Forest’s Fury</Data></Cell>
+    <Cell><Data ss:Type="String">Forest’s Fury</Data></Cell>
+    <Cell ss:Index="9"><Data ss:Type="String">Forest’s Fury</Data></Cell>
+    <Cell><Data ss:Type="String">Forest’s Fury</Data></Cell>
+    <Cell><Data ss:Type="String">Forest’s Fury</Data></Cell>
+    <Cell><Data ss:Type="String">Forest’s Fury</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">PLAYER_NAME_KARN</Data></Cell>
+    <Cell ss:Index="3"><Data ss:Type="String">Karn</Data></Cell>
+    <Cell><Data ss:Type="String">Karn</Data></Cell>
+    <Cell><Data ss:Type="String">Karn</Data></Cell>
+    <Cell><Data ss:Type="String">Karn</Data></Cell>
+    <Cell><Data ss:Type="String">Karn</Data></Cell>
+    <Cell ss:Index="9"><Data ss:Type="String">Karn</Data></Cell>
+    <Cell><Data ss:Type="String">Karn</Data></Cell>
+    <Cell><Data ss:Type="String">Karn</Data></Cell>
+    <Cell><Data ss:Type="String">Karn</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">DECK_KARN</Data></Cell>
+    <Cell ss:Index="3"><Data ss:Type="String">Relics of Antiquity</Data></Cell>
+    <Cell><Data ss:Type="String">Relics of Antiquity</Data></Cell>
+    <Cell><Data ss:Type="String">Relics of Antiquity</Data></Cell>
+    <Cell><Data ss:Type="String">Relics of Antiquity</Data></Cell>
+    <Cell><Data ss:Type="String">Relics of Antiquity</Data></Cell>
+    <Cell ss:Index="9"><Data ss:Type="String">Relics of Antiquity</Data></Cell>
+    <Cell><Data ss:Type="String">Relics of Antiquity</Data></Cell>
+    <Cell><Data ss:Type="String">Relics of Antiquity</Data></Cell>
+    <Cell><Data ss:Type="String">Relics of Antiquity</Data></Cell>
+   </Row>
+   <Row ss:Index="39" ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">PLAYER_NAME_MBINFECT62</Data></Cell>
+    <Cell ss:Index="3"><Data ss:Type="String">Blighted Agent (noAI)</Data></Cell>
+    <Cell><Data ss:Type="String">Blighted Agent (noAI)</Data></Cell>
+    <Cell><Data ss:Type="String">Blighted Agent (noAI)</Data></Cell>
+    <Cell><Data ss:Type="String">Blighted Agent (noAI)</Data></Cell>
+    <Cell><Data ss:Type="String">Blighted Agent (noAI)</Data></Cell>
+    <Cell ss:Index="9"><Data ss:Type="String">Blighted Agent (noAI)</Data></Cell>
+    <Cell><Data ss:Type="String">Blighted Agent (noAI)</Data></Cell>
+    <Cell><Data ss:Type="String">Blighted Agent (noAI)</Data></Cell>
+    <Cell><Data ss:Type="String">Blighted Agent (noAI)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">DECK_MBINFECT62</Data></Cell>
+    <Cell ss:Index="3"><Data ss:Type="String">Momoblue Infect</Data></Cell>
+    <Cell><Data ss:Type="String">Momoblue Infect</Data></Cell>
+    <Cell><Data ss:Type="String">Momoblue Infect</Data></Cell>
+    <Cell><Data ss:Type="String">Momoblue Infect</Data></Cell>
+    <Cell><Data ss:Type="String">Momoblue Infect</Data></Cell>
+    <Cell ss:Index="9"><Data ss:Type="String">Momoblue Infect</Data></Cell>
+    <Cell><Data ss:Type="String">Momoblue Infect</Data></Cell>
+    <Cell><Data ss:Type="String">Momoblue Infect</Data></Cell>
+    <Cell><Data ss:Type="String">Momoblue Infect</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">PLAYER_NAME_HAUNTED62</Data></Cell>
+    <Cell ss:Index="3"><Data ss:Type="String">Geist of Saint Traft</Data></Cell>
+    <Cell><Data ss:Type="String">Geist of Saint Traft</Data></Cell>
+    <Cell><Data ss:Type="String">Geist of Saint Traft</Data></Cell>
+    <Cell><Data ss:Type="String">Geist of Saint Traft</Data></Cell>
+    <Cell><Data ss:Type="String">Geist of Saint Traft</Data></Cell>
+    <Cell ss:Index="9"><Data ss:Type="String">Geist of Saint Traft</Data></Cell>
+    <Cell><Data ss:Type="String">Geist of Saint Traft</Data></Cell>
+    <Cell><Data ss:Type="String">Geist of Saint Traft</Data></Cell>
+    <Cell><Data ss:Type="String">Geist of Saint Traft</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">DECK_HAUNTED_HUMANS62</Data></Cell>
+    <Cell ss:Index="3"><Data ss:Type="String">Haunted Humans</Data></Cell>
+    <Cell><Data ss:Type="String">Haunted Humans</Data></Cell>
+    <Cell><Data ss:Type="String">Haunted Humans</Data></Cell>
+    <Cell><Data ss:Type="String">Haunted Humans</Data></Cell>
+    <Cell><Data ss:Type="String">Haunted Humans</Data></Cell>
+    <Cell ss:Index="9"><Data ss:Type="String">Haunted Humans</Data></Cell>
+    <Cell><Data ss:Type="String">Haunted Humans</Data></Cell>
+    <Cell><Data ss:Type="String">Haunted Humans</Data></Cell>
+    <Cell><Data ss:Type="String">Haunted Humans</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">PLAYER_NAME_MERFOLK62</Data></Cell>
+    <Cell ss:Index="3"><Data ss:Type="String">Merfolk Sovereign</Data></Cell>
+    <Cell><Data ss:Type="String">Merfolk Sovereign</Data></Cell>
+    <Cell><Data ss:Type="String">Merfolk Sovereign</Data></Cell>
+    <Cell><Data ss:Type="String">Merfolk Sovereign</Data></Cell>
+    <Cell><Data ss:Type="String">Merfolk Sovereign</Data></Cell>
+    <Cell ss:Index="9"><Data ss:Type="String">Merfolk Sovereign</Data></Cell>
+    <Cell><Data ss:Type="String">Merfolk Sovereign</Data></Cell>
+    <Cell><Data ss:Type="String">Merfolk Sovereign</Data></Cell>
+    <Cell><Data ss:Type="String">Merfolk Sovereign</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">DECK_MERFOLK62</Data></Cell>
+    <Cell ss:Index="3"><Data ss:Type="String">Merfolk</Data></Cell>
+    <Cell><Data ss:Type="String">Merfolk</Data></Cell>
+    <Cell><Data ss:Type="String">Merfolk</Data></Cell>
+    <Cell><Data ss:Type="String">Merfolk</Data></Cell>
+    <Cell><Data ss:Type="String">Merfolk</Data></Cell>
+    <Cell ss:Index="9"><Data ss:Type="String">Merfolk</Data></Cell>
+    <Cell><Data ss:Type="String">Merfolk</Data></Cell>
+    <Cell><Data ss:Type="String">Merfolk</Data></Cell>
+    <Cell><Data ss:Type="String">Merfolk</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">PLAYER_NAME_GOBLINS62</Data></Cell>
+    <Cell ss:Index="3"><Data ss:Type="String">Kiki-Jiki, Mirror Breaker</Data></Cell>
+    <Cell><Data ss:Type="String">Kiki-Jiki, Mirror Breaker</Data></Cell>
+    <Cell><Data ss:Type="String">Kiki-Jiki, Mirror Breaker</Data></Cell>
+    <Cell><Data ss:Type="String">Kiki-Jiki, Mirror Breaker</Data></Cell>
+    <Cell><Data ss:Type="String">Kiki-Jiki, Mirror Breaker</Data></Cell>
+    <Cell ss:Index="9"><Data ss:Type="String">Kiki-Jiki, Mirror Breaker</Data></Cell>
+    <Cell><Data ss:Type="String">Kiki-Jiki, Mirror Breaker</Data></Cell>
+    <Cell><Data ss:Type="String">Kiki-Jiki, Mirror Breaker</Data></Cell>
+    <Cell><Data ss:Type="String">Kiki-Jiki, Mirror Breaker</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">DECK_GOBLINS62</Data></Cell>
+    <Cell ss:Index="3"><Data ss:Type="String">Goblins</Data></Cell>
+    <Cell><Data ss:Type="String">Goblins</Data></Cell>
+    <Cell><Data ss:Type="String">Goblins</Data></Cell>
+    <Cell><Data ss:Type="String">Goblins</Data></Cell>
+    <Cell><Data ss:Type="String">Goblins</Data></Cell>
+    <Cell ss:Index="9"><Data ss:Type="String">Goblins</Data></Cell>
+    <Cell><Data ss:Type="String">Goblins</Data></Cell>
+    <Cell><Data ss:Type="String">Goblins</Data></Cell>
+    <Cell><Data ss:Type="String">Goblins</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">PLAYER_NAME_FAERIE62</Data></Cell>
+    <Cell ss:Index="3"><Data ss:Type="String">Vendilion Clique</Data></Cell>
+    <Cell><Data ss:Type="String">Vendilion Clique</Data></Cell>
+    <Cell><Data ss:Type="String">Vendilion Clique</Data></Cell>
+    <Cell><Data ss:Type="String">Vendilion Clique</Data></Cell>
+    <Cell><Data ss:Type="String">Vendilion Clique</Data></Cell>
+    <Cell ss:Index="9"><Data ss:Type="String">Vendilion Clique</Data></Cell>
+    <Cell><Data ss:Type="String">Vendilion Clique</Data></Cell>
+    <Cell><Data ss:Type="String">Vendilion Clique</Data></Cell>
+    <Cell><Data ss:Type="String">Vendilion Clique</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">DECK_FAERIE62</Data></Cell>
+    <Cell ss:Index="3"><Data ss:Type="String">Faerie</Data></Cell>
+    <Cell><Data ss:Type="String">Faerie</Data></Cell>
+    <Cell><Data ss:Type="String">Faerie</Data></Cell>
+    <Cell><Data ss:Type="String">Faerie</Data></Cell>
+    <Cell><Data ss:Type="String">Faerie</Data></Cell>
+    <Cell ss:Index="9"><Data ss:Type="String">Faerie</Data></Cell>
+    <Cell><Data ss:Type="String">Faerie</Data></Cell>
+    <Cell><Data ss:Type="String">Faerie</Data></Cell>
+    <Cell><Data ss:Type="String">Faerie</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">PLAYER_NAME_TEST_62</Data></Cell>
+    <Cell ss:Index="3"><Data ss:Type="String">Sumomole</Data></Cell>
+    <Cell><Data ss:Type="String">Sumomole</Data></Cell>
+    <Cell><Data ss:Type="String">Sumomole</Data></Cell>
+    <Cell><Data ss:Type="String">Sumomole</Data></Cell>
+    <Cell><Data ss:Type="String">Sumomole</Data></Cell>
+    <Cell ss:Index="9"><Data ss:Type="String">Sumomole</Data></Cell>
+    <Cell><Data ss:Type="String">Sumomole</Data></Cell>
+    <Cell><Data ss:Type="String">Sumomole</Data></Cell>
+    <Cell><Data ss:Type="String">Sumomole</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">DECK_TEST_62</Data></Cell>
+    <Cell ss:Index="3"><Data ss:Type="String">Test Deck</Data></Cell>
+    <Cell><Data ss:Type="String">Test Deck</Data></Cell>
+    <Cell><Data ss:Type="String">Test Deck</Data></Cell>
+    <Cell><Data ss:Type="String">Test Deck</Data></Cell>
+    <Cell><Data ss:Type="String">Test Deck</Data></Cell>
+    <Cell ss:Index="9"><Data ss:Type="String">Test Deck</Data></Cell>
+    <Cell><Data ss:Type="String">Test Deck</Data></Cell>
+    <Cell><Data ss:Type="String">Test Deck</Data></Cell>
+    <Cell><Data ss:Type="String">Test Deck</Data></Cell>
+   </Row>
+   <Row ss:Index="52" ss:AutoFitHeight="0" ss:Height="18">
+    <Cell><Data ss:Type="String">CARD_QUERY_CHOOSE_CARD_GAIN_FLASHBACK</Data></Cell>
+    <Cell ss:Index="3"><Data ss:Type="String">Choose a instant or sorcery card to gains flashback until end of turn</Data></Cell>
+    <Cell><Data ss:Type="String">Choose a instant or sorcery card to gains flashback until end of turn</Data></Cell>
+    <Cell><Data ss:Type="String">Choose a instant or sorcery card to gains flashback until end of turn</Data></Cell>
+    <Cell><Data ss:Type="String">Choose a instant or sorcery card to gains flashback until end of turn</Data></Cell>
+    <Cell><Data ss:Type="String">Choose a instant or sorcery card to gains flashback until end of turn</Data></Cell>
+    <Cell ss:Index="9"><Data ss:Type="String">Choose a instant or sorcery card to gains flashback until end of turn</Data></Cell>
+    <Cell><Data ss:Type="String">Choose a instant or sorcery card to gains flashback until end of turn</Data></Cell>
+    <Cell><Data ss:Type="String">Choose a instant or sorcery card to gains flashback until end of turn</Data></Cell>
+    <Cell><Data ss:Type="String">Choose a instant or sorcery card to gains flashback until end of turn</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">CARD_QUERY_CHOOSE_PLAYER_DISCARD</Data></Cell>
+    <Cell ss:Index="3"><Data ss:Type="String">Choose a player to discard cards from his or her hand.</Data></Cell>
+    <Cell><Data ss:Type="String">Choose a player to discard cards from his or her hand.</Data></Cell>
+    <Cell><Data ss:Type="String">Choose a player to discard cards from his or her hand.</Data></Cell>
+    <Cell><Data ss:Type="String">Choose a player to discard cards from his or her hand.</Data></Cell>
+    <Cell><Data ss:Type="String">Choose a player to discard cards from his or her hand.</Data></Cell>
+    <Cell ss:Index="9"><Data ss:Type="String">Choose a player to discard cards from his or her hand.</Data></Cell>
+    <Cell><Data ss:Type="String">Choose a player to discard cards from his or her hand.</Data></Cell>
+    <Cell><Data ss:Type="String">Choose a player to discard cards from his or her hand.</Data></Cell>
+    <Cell><Data ss:Type="String">Choose a player to discard cards from his or her hand.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">CARD_QUERY_CHOOSE_CREATURE_GAIN_HEXPROOF</Data></Cell>
+    <Cell ss:Index="3"><Data ss:Type="String">Choose a creature to gain hexproof.</Data></Cell>
+    <Cell><Data ss:Type="String">Choose a creature to gain hexproof.</Data></Cell>
+    <Cell><Data ss:Type="String">Choose a creature to gain hexproof.</Data></Cell>
+    <Cell><Data ss:Type="String">Choose a creature to gain hexproof.</Data></Cell>
+    <Cell><Data ss:Type="String">Choose a creature to gain hexproof.</Data></Cell>
+    <Cell ss:Index="9"><Data ss:Type="String">Choose a creature to gain hexproof.</Data></Cell>
+    <Cell><Data ss:Type="String">Choose a creature to gain hexproof.</Data></Cell>
+    <Cell><Data ss:Type="String">Choose a creature to gain hexproof.</Data></Cell>
+    <Cell><Data ss:Type="String">Choose a creature to gain hexproof.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">CARD_QUERY_CHOOSE_CREATURE_TO_GET_1_1_HEXPROOF</Data></Cell>
+    <Cell ss:Index="3"><Data ss:Type="String">Choose a creature to get +1/+1 and gain hexproof.</Data></Cell>
+    <Cell><Data ss:Type="String">Choose a creature to get +1/+1 and gain hexproof.</Data></Cell>
+    <Cell><Data ss:Type="String">Choose a creature to get +1/+1 and gain hexproof.</Data></Cell>
+    <Cell><Data ss:Type="String">Choose a creature to get +1/+1 and gain hexproof.</Data></Cell>
+    <Cell><Data ss:Type="String">Choose a creature to get +1/+1 and gain hexproof.</Data></Cell>
+    <Cell ss:Index="9"><Data ss:Type="String">Choose a creature to get +1/+1 and gain hexproof.</Data></Cell>
+    <Cell><Data ss:Type="String">Choose a creature to get +1/+1 and gain hexproof.</Data></Cell>
+    <Cell><Data ss:Type="String">Choose a creature to get +1/+1 and gain hexproof.</Data></Cell>
+    <Cell><Data ss:Type="String">Choose a creature to get +1/+1 and gain hexproof.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">CARD_QUERY_CHOOSE_CREATURE_TO_GET_1_1_TRAMPLE</Data></Cell>
+    <Cell ss:Index="3"><Data ss:Type="String">Choose a creature to get +1/+1 and gain trample.</Data></Cell>
+    <Cell><Data ss:Type="String">Choose a creature to get +1/+1 and gain trample.</Data></Cell>
+    <Cell><Data ss:Type="String">Choose a creature to get +1/+1 and gain trample.</Data></Cell>
+    <Cell><Data ss:Type="String">Choose a creature to get +1/+1 and gain trample.</Data></Cell>
+    <Cell><Data ss:Type="String">Choose a creature to get +1/+1 and gain trample.</Data></Cell>
+    <Cell ss:Index="9"><Data ss:Type="String">Choose a creature to get +1/+1 and gain trample.</Data></Cell>
+    <Cell><Data ss:Type="String">Choose a creature to get +1/+1 and gain trample.</Data></Cell>
+    <Cell><Data ss:Type="String">Choose a creature to get +1/+1 and gain trample.</Data></Cell>
+    <Cell><Data ss:Type="String">Choose a creature to get +1/+1 and gain trample.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">CARD_QUERY_CHOOSE_CREATURE_TO_GET_X_X_TRAMPLE</Data></Cell>
+    <Cell ss:Index="3"><Data ss:Type="String">Choose a creature to get +X/+X and gain trample.</Data></Cell>
+    <Cell><Data ss:Type="String">Choose a creature to get +X/+X and gain trample.</Data></Cell>
+    <Cell><Data ss:Type="String">Choose a creature to get +X/+X and gain trample.</Data></Cell>
+    <Cell><Data ss:Type="String">Choose a creature to get +X/+X and gain trample.</Data></Cell>
+    <Cell><Data ss:Type="String">Choose a creature to get +X/+X and gain trample.</Data></Cell>
+    <Cell ss:Index="9"><Data ss:Type="String">Choose a creature to get +X/+X and gain trample.</Data></Cell>
+    <Cell><Data ss:Type="String">Choose a creature to get +X/+X and gain trample.</Data></Cell>
+    <Cell><Data ss:Type="String">Choose a creature to get +X/+X and gain trample.</Data></Cell>
+    <Cell><Data ss:Type="String">Choose a creature to get +X/+X and gain trample.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">CARD_QUERY_CHOOSE_CREATURE_TO_GET_6_6_TRAMPLE_BLOCKABLE</Data></Cell>
+    <Cell ss:Index="3"><Data ss:Type="String">Choose a creature to get +6/+6 and gain trample, and all creatures able to block it this turn do so.</Data></Cell>
+    <Cell><Data ss:Type="String">Choose a creature to get +6/+6 and gain trample, and all creatures able to block it this turn do so.</Data></Cell>
+    <Cell><Data ss:Type="String">Choose a creature to get +6/+6 and gain trample, and all creatures able to block it this turn do so.</Data></Cell>
+    <Cell><Data ss:Type="String">Choose a creature to get +6/+6 and gain trample, and all creatures able to block it this turn do so.</Data></Cell>
+    <Cell><Data ss:Type="String">Choose a creature to get +6/+6 and gain trample, and all creatures able to block it this turn do so.</Data></Cell>
+    <Cell ss:Index="9"><Data ss:Type="String">Choose a creature to get +6/+6 and gain trample, and all creatures able to block it this turn do so.</Data></Cell>
+    <Cell><Data ss:Type="String">Choose a creature to get +6/+6 and gain trample, and all creatures able to block it this turn do so.</Data></Cell>
+    <Cell><Data ss:Type="String">Choose a creature to get +6/+6 and gain trample, and all creatures able to block it this turn do so.</Data></Cell>
+    <Cell><Data ss:Type="String">Choose a creature to get +6/+6 and gain trample, and all creatures able to block it this turn do so.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">CARD_QUERY_CHOOSE_PERMANENT_GAIN_PROTECTION_FROM_COLOUR_OR_ARTIFACT</Data></Cell>
+    <Cell ss:Index="3"><Data ss:Type="String">Choose a permanent to gain protection from the artifacts or chosen color.</Data></Cell>
+    <Cell><Data ss:Type="String">Choose a permanent to gain protection from the artifacts or chosen color.</Data></Cell>
+    <Cell><Data ss:Type="String">Choose a permanent to gain protection from the artifacts or chosen color.</Data></Cell>
+    <Cell><Data ss:Type="String">Choose a permanent to gain protection from the artifacts or chosen color.</Data></Cell>
+    <Cell><Data ss:Type="String">Choose a permanent to gain protection from the artifacts or chosen color.</Data></Cell>
+    <Cell ss:Index="9"><Data ss:Type="String">Choose a permanent to gain protection from the artifacts or chosen color.</Data></Cell>
+    <Cell><Data ss:Type="String">Choose a permanent to gain protection from the artifacts or chosen color.</Data></Cell>
+    <Cell><Data ss:Type="String">Choose a permanent to gain protection from the artifacts or chosen color.</Data></Cell>
+    <Cell><Data ss:Type="String">Choose a permanent to gain protection from the artifacts or chosen color.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">CARD_QUERY_OPTION_ARTIFACT</Data></Cell>
+    <Cell ss:Index="3"><Data ss:Type="String">Protection from the artifacts</Data></Cell>
+    <Cell><Data ss:Type="String">Protection from the artifacts</Data></Cell>
+    <Cell><Data ss:Type="String">Protection from the artifacts</Data></Cell>
+    <Cell><Data ss:Type="String">Protection from the artifacts</Data></Cell>
+    <Cell><Data ss:Type="String">Protection from the artifacts</Data></Cell>
+    <Cell ss:Index="9"><Data ss:Type="String">Protection from the artifacts</Data></Cell>
+    <Cell><Data ss:Type="String">Protection from the artifacts</Data></Cell>
+    <Cell><Data ss:Type="String">Protection from the artifacts</Data></Cell>
+    <Cell><Data ss:Type="String">Protection from the artifacts</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">CARD_QUERY_OPTION_PROTECTION_FROM_COLOUR</Data></Cell>
+    <Cell ss:Index="3"><Data ss:Type="String">Protection from the chosen color</Data></Cell>
+    <Cell><Data ss:Type="String">Protection from the chosen color</Data></Cell>
+    <Cell><Data ss:Type="String">Protection from the chosen color</Data></Cell>
+    <Cell><Data ss:Type="String">Protection from the chosen color</Data></Cell>
+    <Cell><Data ss:Type="String">Protection from the chosen color</Data></Cell>
+    <Cell ss:Index="9"><Data ss:Type="String">Protection from the chosen color</Data></Cell>
+    <Cell><Data ss:Type="String">Protection from the chosen color</Data></Cell>
+    <Cell><Data ss:Type="String">Protection from the chosen color</Data></Cell>
+    <Cell><Data ss:Type="String">Protection from the chosen color</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">CARD_QUERY_MC_TO_SHUFFLE</Data></Cell>
+    <Cell ss:Index="3"><Data ss:Type="String">Do you want to shuffle your library?</Data></Cell>
+    <Cell><Data ss:Type="String">Do you want to shuffle your library?</Data></Cell>
+    <Cell><Data ss:Type="String">Do you want to shuffle your library?</Data></Cell>
+    <Cell><Data ss:Type="String">Do you want to shuffle your library?</Data></Cell>
+    <Cell><Data ss:Type="String">Do you want to shuffle your library?</Data></Cell>
+    <Cell ss:Index="9"><Data ss:Type="String">Do you want to shuffle your library?</Data></Cell>
+    <Cell><Data ss:Type="String">Do you want to shuffle your library?</Data></Cell>
+    <Cell><Data ss:Type="String">Do you want to shuffle your library?</Data></Cell>
+    <Cell><Data ss:Type="String">Do you want to shuffle your library?</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">CARD_QUERY_OPTION_MANA_W</Data></Cell>
+    <Cell ss:Index="3"><Data ss:Type="String">Add {W} to your mana pool.</Data></Cell>
+    <Cell><Data ss:Type="String">Add {W} to your mana pool.</Data></Cell>
+    <Cell><Data ss:Type="String">Add {W} to your mana pool.</Data></Cell>
+    <Cell><Data ss:Type="String">Add {W} to your mana pool.</Data></Cell>
+    <Cell><Data ss:Type="String">Add {W} to your mana pool.</Data></Cell>
+    <Cell ss:Index="9"><Data ss:Type="String">Add {W} to your mana pool.</Data></Cell>
+    <Cell><Data ss:Type="String">Add {W} to your mana pool.</Data></Cell>
+    <Cell><Data ss:Type="String">Add {W} to your mana pool.</Data></Cell>
+    <Cell><Data ss:Type="String">Add {W} to your mana pool.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">CARD_QUERY_OPTION_MANA_U</Data></Cell>
+    <Cell ss:Index="3"><Data ss:Type="String">Add {U} to your mana pool.</Data></Cell>
+    <Cell><Data ss:Type="String">Add {U} to your mana pool.</Data></Cell>
+    <Cell><Data ss:Type="String">Add {U} to your mana pool.</Data></Cell>
+    <Cell><Data ss:Type="String">Add {U} to your mana pool.</Data></Cell>
+    <Cell><Data ss:Type="String">Add {U} to your mana pool.</Data></Cell>
+    <Cell ss:Index="9"><Data ss:Type="String">Add {U} to your mana pool.</Data></Cell>
+    <Cell><Data ss:Type="String">Add {U} to your mana pool.</Data></Cell>
+    <Cell><Data ss:Type="String">Add {U} to your mana pool.</Data></Cell>
+    <Cell><Data ss:Type="String">Add {U} to your mana pool.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">CARD_QUERY_OPTION_MANA_B</Data></Cell>
+    <Cell ss:Index="3"><Data ss:Type="String">Add {B} to your mana pool.</Data></Cell>
+    <Cell><Data ss:Type="String">Add {B} to your mana pool.</Data></Cell>
+    <Cell><Data ss:Type="String">Add {B} to your mana pool.</Data></Cell>
+    <Cell><Data ss:Type="String">Add {B} to your mana pool.</Data></Cell>
+    <Cell><Data ss:Type="String">Add {B} to your mana pool.</Data></Cell>
+    <Cell ss:Index="9"><Data ss:Type="String">Add {B} to your mana pool.</Data></Cell>
+    <Cell><Data ss:Type="String">Add {B} to your mana pool.</Data></Cell>
+    <Cell><Data ss:Type="String">Add {B} to your mana pool.</Data></Cell>
+    <Cell><Data ss:Type="String">Add {B} to your mana pool.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">CARD_QUERY_OPTION_MANA_R</Data></Cell>
+    <Cell ss:Index="3"><Data ss:Type="String">Add {R} to your mana pool.</Data></Cell>
+    <Cell><Data ss:Type="String">Add {R} to your mana pool.</Data></Cell>
+    <Cell><Data ss:Type="String">Add {R} to your mana pool.</Data></Cell>
+    <Cell><Data ss:Type="String">Add {R} to your mana pool.</Data></Cell>
+    <Cell><Data ss:Type="String">Add {R} to your mana pool.</Data></Cell>
+    <Cell ss:Index="9"><Data ss:Type="String">Add {R} to your mana pool.</Data></Cell>
+    <Cell><Data ss:Type="String">Add {R} to your mana pool.</Data></Cell>
+    <Cell><Data ss:Type="String">Add {R} to your mana pool.</Data></Cell>
+    <Cell><Data ss:Type="String">Add {R} to your mana pool.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">CARD_QUERY_OPTION_MANA_G</Data></Cell>
+    <Cell ss:Index="3"><Data ss:Type="String">Add {G} to your mana pool.</Data></Cell>
+    <Cell><Data ss:Type="String">Add {G} to your mana pool.</Data></Cell>
+    <Cell><Data ss:Type="String">Add {G} to your mana pool.</Data></Cell>
+    <Cell><Data ss:Type="String">Add {G} to your mana pool.</Data></Cell>
+    <Cell><Data ss:Type="String">Add {G} to your mana pool.</Data></Cell>
+    <Cell ss:Index="9"><Data ss:Type="String">Add {G} to your mana pool.</Data></Cell>
+    <Cell><Data ss:Type="String">Add {G} to your mana pool.</Data></Cell>
+    <Cell><Data ss:Type="String">Add {G} to your mana pool.</Data></Cell>
+    <Cell><Data ss:Type="String">Add {G} to your mana pool.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">CARD_QUERY_OPTION_MANA_C</Data></Cell>
+    <Cell ss:Index="3"><Data ss:Type="String">Add {1} to your mana pool.</Data></Cell>
+    <Cell><Data ss:Type="String">Add {1} to your mana pool.</Data></Cell>
+    <Cell><Data ss:Type="String">Add {1} to your mana pool.</Data></Cell>
+    <Cell><Data ss:Type="String">Add {1} to your mana pool.</Data></Cell>
+    <Cell><Data ss:Type="String">Add {1} to your mana pool.</Data></Cell>
+    <Cell ss:Index="9"><Data ss:Type="String">Add {1} to your mana pool.</Data></Cell>
+    <Cell><Data ss:Type="String">Add {1} to your mana pool.</Data></Cell>
+    <Cell><Data ss:Type="String">Add {1} to your mana pool.</Data></Cell>
+    <Cell><Data ss:Type="String">Add {1} to your mana pool.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">CARD_QUERY_MC_MANA_MODAL</Data></Cell>
+    <Cell ss:Index="3"><Data ss:Type="String">Choose a colour.</Data></Cell>
+    <Cell><Data ss:Type="String">Choose a colour.</Data></Cell>
+    <Cell><Data ss:Type="String">Choose a colour.</Data></Cell>
+    <Cell><Data ss:Type="String">Choose a colour.</Data></Cell>
+    <Cell><Data ss:Type="String">Choose a colour.</Data></Cell>
+    <Cell ss:Index="9"><Data ss:Type="String">Choose a colour.</Data></Cell>
+    <Cell><Data ss:Type="String">Choose a colour.</Data></Cell>
+    <Cell><Data ss:Type="String">Choose a colour.</Data></Cell>
+    <Cell><Data ss:Type="String">Choose a colour.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">CARD_QUERY_CHOOSE_CREATURE_GAIN_HEXPROOF</Data></Cell>
+    <Cell ss:Index="3"><Data ss:Type="String">Choose a creature to gain hexproof.</Data></Cell>
+    <Cell><Data ss:Type="String">Choose a creature to gain hexproof.</Data></Cell>
+    <Cell><Data ss:Type="String">Choose a creature to gain hexproof.</Data></Cell>
+    <Cell><Data ss:Type="String">Choose a creature to gain hexproof.</Data></Cell>
+    <Cell><Data ss:Type="String">Choose a creature to gain hexproof.</Data></Cell>
+    <Cell ss:Index="9"><Data ss:Type="String">Choose a creature to gain hexproof.</Data></Cell>
+    <Cell><Data ss:Type="String">Choose a creature to gain hexproof.</Data></Cell>
+    <Cell><Data ss:Type="String">Choose a creature to gain hexproof.</Data></Cell>
+    <Cell><Data ss:Type="String">Choose a creature to gain hexproof.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">CARD_QUERY_CHOOSE_CREATURE_TO_UNTAP_AND_GET_2_0</Data></Cell>
+    <Cell ss:Index="3"><Data ss:Type="String">Choose a creature to untap and get +2/+0.</Data></Cell>
+    <Cell><Data ss:Type="String">Choose a creature to untap and get +2/+0.</Data></Cell>
+    <Cell><Data ss:Type="String">Choose a creature to untap and get +2/+0.</Data></Cell>
+    <Cell><Data ss:Type="String">Choose a creature to untap and get +2/+0.</Data></Cell>
+    <Cell><Data ss:Type="String">Choose a creature to untap and get +2/+0.</Data></Cell>
+    <Cell ss:Index="9"><Data ss:Type="String">Choose a creature to untap and get +2/+0.</Data></Cell>
+    <Cell><Data ss:Type="String">Choose a creature to untap and get +2/+0.</Data></Cell>
+    <Cell><Data ss:Type="String">Choose a creature to untap and get +2/+0.</Data></Cell>
+    <Cell><Data ss:Type="String">Choose a creature to untap and get +2/+0.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">CARD_MESSAGE_MASTER_WARCRAFT</Data></Cell>
+    <Cell ss:Index="3"><Data ss:Type="String">You choose how each creature attacks and  blocks this combat.</Data></Cell>
+    <Cell><Data ss:Type="String">You choose how each creature attacks and  blocks this combat.</Data></Cell>
+    <Cell><Data ss:Type="String">You choose how each creature attacks and  blocks this combat.</Data></Cell>
+    <Cell><Data ss:Type="String">You choose how each creature attacks and  blocks this combat.</Data></Cell>
+    <Cell><Data ss:Type="String">You choose how each creature attacks and  blocks this combat.</Data></Cell>
+    <Cell ss:Index="9"><Data ss:Type="String">You choose how each creature attacks and  blocks this combat.</Data></Cell>
+    <Cell><Data ss:Type="String">You choose how each creature attacks and  blocks this combat.</Data></Cell>
+    <Cell><Data ss:Type="String">You choose how each creature attacks and  blocks this combat.</Data></Cell>
+    <Cell><Data ss:Type="String">You choose how each creature attacks and  blocks this combat.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">CARD_QUERY_CHOOSE_ARTIFACT_OR_CREATURE_TO_PUT_ONTO_BATTLEFIELD</Data></Cell>
+    <Cell ss:Index="3"><Data ss:Type="String">Choose an artifact or creature to put onto the battlefield.</Data></Cell>
+    <Cell><Data ss:Type="String">Choose an artifact or creature to put onto the battlefield.</Data></Cell>
+    <Cell><Data ss:Type="String">Choose an artifact or creature to put onto the battlefield.</Data></Cell>
+    <Cell><Data ss:Type="String">Choose an artifact or creature to put onto the battlefield.</Data></Cell>
+    <Cell><Data ss:Type="String">Choose an artifact or creature to put onto the battlefield.</Data></Cell>
+    <Cell ss:Index="9"><Data ss:Type="String">Choose an artifact or creature to put onto the battlefield.</Data></Cell>
+    <Cell><Data ss:Type="String">Choose an artifact or creature to put onto the battlefield.</Data></Cell>
+    <Cell><Data ss:Type="String">Choose an artifact or creature to put onto the battlefield.</Data></Cell>
+    <Cell><Data ss:Type="String">Choose an artifact or creature to put onto the battlefield.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">ALTERNATE_COST_PAY_FOUR_LIFE</Data></Cell>
+    <Cell ss:Index="3"><Data ss:Type="String">Pay 4 life.</Data></Cell>
+    <Cell><Data ss:Type="String">Pay 4 life.</Data></Cell>
+    <Cell><Data ss:Type="String">Pay 4 life.</Data></Cell>
+    <Cell><Data ss:Type="String">Pay 4 life.</Data></Cell>
+    <Cell><Data ss:Type="String">Pay 4 life.</Data></Cell>
+    <Cell ss:Index="9"><Data ss:Type="String">Pay 4 life.</Data></Cell>
+    <Cell><Data ss:Type="String">Pay 4 life.</Data></Cell>
+    <Cell><Data ss:Type="String">Pay 4 life.</Data></Cell>
+    <Cell><Data ss:Type="String">Pay 4 life.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">ALTERNATE_COST_PAY_SIX_LIFE</Data></Cell>
+    <Cell ss:Index="3"><Data ss:Type="String">Pay 6 life and sacrifice three black creatures.</Data></Cell>
+    <Cell><Data ss:Type="String">Pay 6 life and sacrifice three black creatures.</Data></Cell>
+    <Cell><Data ss:Type="String">Pay 6 life and sacrifice three black creatures.</Data></Cell>
+    <Cell><Data ss:Type="String">Pay 6 life and sacrifice three black creatures.</Data></Cell>
+    <Cell><Data ss:Type="String">Pay 6 life and sacrifice three black creatures.</Data></Cell>
+    <Cell ss:Index="9"><Data ss:Type="String">Pay 6 life and sacrifice three black creatures.</Data></Cell>
+    <Cell><Data ss:Type="String">Pay 6 life and sacrifice three black creatures.</Data></Cell>
+    <Cell><Data ss:Type="String">Pay 6 life and sacrifice three black creatures.</Data></Cell>
+    <Cell><Data ss:Type="String">Pay 6 life and sacrifice three black creatures.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">ALTERNATE_COST_MOV_THREE_GRV</Data></Cell>
+    <Cell ss:Index="3"><Data ss:Type="String">Exile the top three black cards of your graveyard.</Data></Cell>
+    <Cell><Data ss:Type="String">Exile the top three black cards of your graveyard.</Data></Cell>
+    <Cell><Data ss:Type="String">Exile the top three black cards of your graveyard.</Data></Cell>
+    <Cell><Data ss:Type="String">Exile the top three black cards of your graveyard.</Data></Cell>
+    <Cell><Data ss:Type="String">Exile the top three black cards of your graveyard.</Data></Cell>
+    <Cell ss:Index="9"><Data ss:Type="String">Exile the top three black cards of your graveyard.</Data></Cell>
+    <Cell><Data ss:Type="String">Exile the top three black cards of your graveyard.</Data></Cell>
+    <Cell><Data ss:Type="String">Exile the top three black cards of your graveyard.</Data></Cell>
+    <Cell><Data ss:Type="String">Exile the top three black cards of your graveyard.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">ALTERNATE_COST_FOW</Data></Cell>
+    <Cell ss:Index="3"><Data ss:Type="String">Pay 1 life and remove a blue card in your hand from the game.</Data></Cell>
+    <Cell><Data ss:Type="String">Pay 1 life and remove a blue card in your hand from the game.</Data></Cell>
+    <Cell><Data ss:Type="String">Pay 1 life and remove a blue card in your hand from the game.</Data></Cell>
+    <Cell><Data ss:Type="String">Pay 1 life and remove a blue card in your hand from the game.</Data></Cell>
+    <Cell><Data ss:Type="String">Pay 1 life and remove a blue card in your hand from the game.</Data></Cell>
+    <Cell ss:Index="9"><Data ss:Type="String">Pay 1 life and remove a blue card in your hand from the game.</Data></Cell>
+    <Cell><Data ss:Type="String">Pay 1 life and remove a blue card in your hand from the game.</Data></Cell>
+    <Cell><Data ss:Type="String">Pay 1 life and remove a blue card in your hand from the game.</Data></Cell>
+    <Cell><Data ss:Type="String">Pay 1 life and remove a blue card in your hand from the game.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">ALTERNATE_COST_DAZE</Data></Cell>
+    <Cell ss:Index="3"><Data ss:Type="String">Return an Island you control to its owner's hand.</Data></Cell>
+    <Cell><Data ss:Type="String">Return an Island you control to its owner's hand.</Data></Cell>
+    <Cell><Data ss:Type="String">Return an Island you control to its owner's hand.</Data></Cell>
+    <Cell><Data ss:Type="String">Return an Island you control to its owner's hand.</Data></Cell>
+    <Cell><Data ss:Type="String">Return an Island you control to its owner's hand.</Data></Cell>
+    <Cell ss:Index="9"><Data ss:Type="String">Return an Island you control to its owner's hand.</Data></Cell>
+    <Cell><Data ss:Type="String">Return an Island you control to its owner's hand.</Data></Cell>
+    <Cell><Data ss:Type="String">Return an Island you control to its owner's hand.</Data></Cell>
+    <Cell><Data ss:Type="String">Return an Island you control to its owner's hand.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">ALTERNATE_COST_GUSH</Data></Cell>
+    <Cell ss:Index="3"><Data ss:Type="String">Return two Islands you control to its owner's hand.</Data></Cell>
+    <Cell><Data ss:Type="String">Return two Islands you control to its owner's hand.</Data></Cell>
+    <Cell><Data ss:Type="String">Return two Islands you control to its owner's hand.</Data></Cell>
+    <Cell><Data ss:Type="String">Return two Islands you control to its owner's hand.</Data></Cell>
+    <Cell><Data ss:Type="String">Return two Islands you control to its owner's hand.</Data></Cell>
+    <Cell ss:Index="9"><Data ss:Type="String">Return two Islands you control to its owner's hand.</Data></Cell>
+    <Cell><Data ss:Type="String">Return two Islands you control to its owner's hand.</Data></Cell>
+    <Cell><Data ss:Type="String">Return two Islands you control to its owner's hand.</Data></Cell>
+    <Cell><Data ss:Type="String">Return two Islands you control to its owner's hand.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">ALTERNATE_COST_EXILE_CARD_WITH_MANA_X</Data></Cell>
+    <Cell ss:Index="3"><Data ss:Type="String">Exile a card with same colour.</Data></Cell>
+    <Cell><Data ss:Type="String">Exile a card with same colour.</Data></Cell>
+    <Cell><Data ss:Type="String">Exile a card with same colour.</Data></Cell>
+    <Cell><Data ss:Type="String">Exile a card with same colour.</Data></Cell>
+    <Cell><Data ss:Type="String">Exile a card with same colour.</Data></Cell>
+    <Cell><Data ss:Type="String">Exile a card with same colour.</Data></Cell>
+    <Cell><Data ss:Type="String">Exile a card with same colour.</Data></Cell>
+    <Cell><Data ss:Type="String">Exile a card with same colour.</Data></Cell>
+    <Cell><Data ss:Type="String">Exile a card with same colour.</Data></Cell>
+    <Cell><Data ss:Type="String">Exile a card with same colour.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">CARD_QUERY_CHOOSE_SOURCE_DAMAGE_PREVENTED</Data></Cell>
+    <Cell ss:Index="3"><Data ss:Type="String">Choose a source to prevent damage that would deal to you this turn.</Data></Cell>
+    <Cell><Data ss:Type="String">Choose a source to prevent damage that would deal damage to you this turn.</Data></Cell>
+    <Cell><Data ss:Type="String">Choose a source to prevent damage that would deal damage to you this turn.</Data></Cell>
+    <Cell><Data ss:Type="String">Choose a source to prevent damage that would deal damage to you this turn.</Data></Cell>
+    <Cell><Data ss:Type="String">Choose a source to prevent damage that would deal damage to you this turn.</Data></Cell>
+    <Cell ss:Index="9"><Data ss:Type="String">Choose a source to prevent damage that would deal damage to you this turn.</Data></Cell>
+    <Cell><Data ss:Type="String">Choose a source to prevent damage that would deal damage to you this turn.</Data></Cell>
+    <Cell><Data ss:Type="String">Choose a source to prevent damage that would deal damage to you this turn.</Data></Cell>
+    <Cell><Data ss:Type="String">Choose a source to prevent damage that would deal damage to you this turn.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">CARD_QUERY_CHOOSE_CREATURE_GAIN_PERSIST</Data></Cell>
+    <Cell ss:Index="3"><Data ss:Type="String">Choose creatures to gain persist.</Data></Cell>
+    <Cell><Data ss:Type="String">Choose creatures to gain persist.</Data></Cell>
+    <Cell><Data ss:Type="String">Choose creatures to gain persist.</Data></Cell>
+    <Cell><Data ss:Type="String">Choose creatures to gain persist.</Data></Cell>
+    <Cell><Data ss:Type="String">Choose creatures to gain persist.</Data></Cell>
+    <Cell ss:Index="9"><Data ss:Type="String">Choose creatures to gain persist.</Data></Cell>
+    <Cell><Data ss:Type="String">Choose creatures to gain persist.</Data></Cell>
+    <Cell><Data ss:Type="String">Choose creatures to gain persist.</Data></Cell>
+    <Cell><Data ss:Type="String">Choose creatures to gain persist.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">CARD_QUERY_CHOOSE_NONLEGENDARY_CREATURE_COPY</Data></Cell>
+    <Cell ss:Index="3"><Data ss:Type="String">Choose a nonlegendary creature to copy.</Data></Cell>
+    <Cell><Data ss:Type="String">Choose a nonlegendary creature to copy.</Data></Cell>
+    <Cell><Data ss:Type="String">Choose a nonlegendary creature to copy.</Data></Cell>
+    <Cell><Data ss:Type="String">Choose a nonlegendary creature to copy.</Data></Cell>
+    <Cell><Data ss:Type="String">Choose a nonlegendary creature to copy.</Data></Cell>
+    <Cell ss:Index="9"><Data ss:Type="String">Choose a nonlegendary creature to copy.</Data></Cell>
+    <Cell><Data ss:Type="String">Choose a nonlegendary creature to copy.</Data></Cell>
+    <Cell><Data ss:Type="String">Choose a nonlegendary creature to copy.</Data></Cell>
+    <Cell><Data ss:Type="String">Choose a nonlegendary creature to copy.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">CARD_QUERY_CHOOSE_CREATURE_BECOME_COPY</Data></Cell>
+    <Cell ss:Index="3"><Data ss:Type="String">Choose a creature becomes a copy of other.</Data></Cell>
+    <Cell><Data ss:Type="String">Choose a creature becomes a copy of other.</Data></Cell>
+    <Cell><Data ss:Type="String">Choose a creature becomes a copy of other.</Data></Cell>
+    <Cell><Data ss:Type="String">Choose a creature becomes a copy of other.</Data></Cell>
+    <Cell><Data ss:Type="String">Choose a creature becomes a copy of other.</Data></Cell>
+    <Cell ss:Index="9"><Data ss:Type="String">Choose a creature becomes a copy of other.</Data></Cell>
+    <Cell><Data ss:Type="String">Choose a creature becomes a copy of other.</Data></Cell>
+    <Cell><Data ss:Type="String">Choose a creature becomes a copy of other.</Data></Cell>
+    <Cell><Data ss:Type="String">Choose a creature becomes a copy of other.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">CARD_QUERY_OPTION_DISCARD_HAND</Data></Cell>
+    <Cell ss:Index="3"><Data ss:Type="String">Discards your hand.</Data></Cell>
+    <Cell><Data ss:Type="String">Discards your hand.</Data></Cell>
+    <Cell><Data ss:Type="String">Discards your hand.</Data></Cell>
+    <Cell><Data ss:Type="String">Discards your hand.</Data></Cell>
+    <Cell><Data ss:Type="String">Discards your hand.</Data></Cell>
+    <Cell ss:Index="9"><Data ss:Type="String">Discards your hand.</Data></Cell>
+    <Cell><Data ss:Type="String">Discards your hand.</Data></Cell>
+    <Cell><Data ss:Type="String">Discards your hand.</Data></Cell>
+    <Cell><Data ss:Type="String">Discards your hand.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">CARD_QUERY_MC_PERPLEX</Data></Cell>
+    <Cell ss:Index="3"><Data ss:Type="String">Do you want to discards your hand? (If you don't, the spell will be countered.)</Data></Cell>
+    <Cell><Data ss:Type="String">Do you want to discards your hand? (If you don't, the spell will be countered.)</Data></Cell>
+    <Cell><Data ss:Type="String">Do you want to discards your hand? (If you don't, the spell will be countered.)</Data></Cell>
+    <Cell><Data ss:Type="String">Do you want to discards your hand? (If you don't, the spell will be countered.)</Data></Cell>
+    <Cell><Data ss:Type="String">Do you want to discards your hand? (If you don't, the spell will be countered.)</Data></Cell>
+    <Cell ss:Index="9"><Data ss:Type="String">Do you want to discards your hand? (If you don't, the spell will be countered.)</Data></Cell>
+    <Cell><Data ss:Type="String">Do you want to discards your hand? (If you don't, the spell will be countered.)</Data></Cell>
+    <Cell><Data ss:Type="String">Do you want to discards your hand? (If you don't, the spell will be countered.)</Data></Cell>
+    <Cell><Data ss:Type="String">Do you want to discards your hand? (If you don't, the spell will be countered.)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">CARD_QUERY_MC_SPELL_PIERCE</Data></Cell>
+    <Cell ss:Index="3"><Data ss:Type="String">Do you want to pay {2}? (If you don't, the spell will be countered.)</Data></Cell>
+    <Cell><Data ss:Type="String">Do you want to pay {2}? (If you don't, the spell will be countered.)</Data></Cell>
+    <Cell><Data ss:Type="String">Do you want to pay {2}? (If you don't, the spell will be countered.)</Data></Cell>
+    <Cell><Data ss:Type="String">Do you want to pay {2}? (If you don't, the spell will be countered.)</Data></Cell>
+    <Cell><Data ss:Type="String">Do you want to pay {2}? (If you don't, the spell will be countered.)</Data></Cell>
+    <Cell ss:Index="9"><Data ss:Type="String">Do you want to pay {2}? (If you don't, the spell will be countered.)</Data></Cell>
+    <Cell><Data ss:Type="String">Do you want to pay {2}? (If you don't, the spell will be countered.)</Data></Cell>
+    <Cell><Data ss:Type="String">Do you want to pay {2}? (If you don't, the spell will be countered.)</Data></Cell>
+    <Cell><Data ss:Type="String">Do you want to pay {2}? (If you don't, the spell will be countered.)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">CARD_QUERY_CHOOSE_LAND_ELEMENTAL</Data></Cell>
+    <Cell ss:Index="3"><Data ss:Type="String">Choose choose any number of target lands you control become 8/8 green Elemental creature.</Data></Cell>
+    <Cell><Data ss:Type="String">Choose choose any number of target lands you control become 8/8 green Elemental creature.</Data></Cell>
+    <Cell><Data ss:Type="String">Choose choose any number of target lands you control become 8/8 green Elemental creature.</Data></Cell>
+    <Cell><Data ss:Type="String">Choose choose any number of target lands you control become 8/8 green Elemental creature.</Data></Cell>
+    <Cell><Data ss:Type="String">Choose choose any number of target lands you control become 8/8 green Elemental creature.</Data></Cell>
+    <Cell ss:Index="9"><Data ss:Type="String">Choose choose any number of target lands you control become 8/8 green Elemental creature.</Data></Cell>
+    <Cell><Data ss:Type="String">Choose choose any number of target lands you control become 8/8 green Elemental creature.</Data></Cell>
+    <Cell><Data ss:Type="String">Choose choose any number of target lands you control become 8/8 green Elemental creature.</Data></Cell>
+    <Cell><Data ss:Type="String">Choose choose any number of target lands you control become 8/8 green Elemental creature.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">CARD_QUERY_CHOOSE_ARTIFACT_OR_CREATURE_TO_DESTROY</Data></Cell>
+    <Cell ss:Index="3"><Data ss:Type="String">Choose an artifact or creature to destroy.</Data></Cell>
+    <Cell><Data ss:Type="String">Choose an artifact or creature to destroy.</Data></Cell>
+    <Cell><Data ss:Type="String">Choose an artifact or creature to destroy.</Data></Cell>
+    <Cell><Data ss:Type="String">Choose an artifact or creature to destroy.</Data></Cell>
+    <Cell><Data ss:Type="String">Choose an artifact or creature to destroy.</Data></Cell>
+    <Cell ss:Index="9"><Data ss:Type="String">Choose an artifact or creature to destroy.</Data></Cell>
+    <Cell><Data ss:Type="String">Choose an artifact or creature to destroy.</Data></Cell>
+    <Cell><Data ss:Type="String">Choose an artifact or creature to destroy.</Data></Cell>
+    <Cell><Data ss:Type="String">Choose an artifact or creature to destroy.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">COMPOUND_TYPE_SNOW_CREATURE</Data></Cell>
+    <Cell ss:Index="3"><Data ss:Type="String">Snow Creature</Data></Cell>
+    <Cell><Data ss:Type="String">Snow Creature</Data></Cell>
+    <Cell><Data ss:Type="String">Snow Creature</Data></Cell>
+    <Cell><Data ss:Type="String">Snow Creature</Data></Cell>
+    <Cell><Data ss:Type="String">Snow Creature</Data></Cell>
+    <Cell ss:Index="9"><Data ss:Type="String">Snow Creature</Data></Cell>
+    <Cell><Data ss:Type="String">Snow Creature</Data></Cell>
+    <Cell><Data ss:Type="String">Snow Creature</Data></Cell>
+    <Cell><Data ss:Type="String">Snow Creature</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">COMPOUND_TYPE_CREATURE_LAND</Data></Cell>
+    <Cell ss:Index="3"><Data ss:Type="String">Land Creature</Data></Cell>
+    <Cell><Data ss:Type="String">Land Creature</Data></Cell>
+    <Cell><Data ss:Type="String">Land Creature</Data></Cell>
+    <Cell><Data ss:Type="String">Land Creature</Data></Cell>
+    <Cell><Data ss:Type="String">Land Creature</Data></Cell>
+    <Cell ss:Index="9"><Data ss:Type="String">Land Creature</Data></Cell>
+    <Cell><Data ss:Type="String">Land Creature</Data></Cell>
+    <Cell><Data ss:Type="String">Land Creature</Data></Cell>
+    <Cell><Data ss:Type="String">Land Creature</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">COMPOUND_TYPE_ARTIFACT_LAND</Data></Cell>
+    <Cell><Data ss:Type="String">This string is for card type lines - please localise as if appeared on a card's type line - DON'T JUST TRANSLATE.</Data></Cell>
+    <Cell><Data ss:Type="String">Artifact Land</Data></Cell>
+    <Cell><Data ss:Type="String">Artifact Land</Data></Cell>
+    <Cell><Data ss:Type="String">Artifact Land</Data></Cell>
+    <Cell><Data ss:Type="String">Artifact Land</Data></Cell>
+    <Cell><Data ss:Type="String">Artifact Land</Data></Cell>
+    <Cell ss:Index="9"><Data ss:Type="String">Artifact Land</Data></Cell>
+    <Cell><Data ss:Type="String">Artifact Land</Data></Cell>
+    <Cell><Data ss:Type="String">Artifact Land</Data></Cell>
+    <Cell><Data ss:Type="String">Artifact Land</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">COMPOUND_TYPE_LEGENDARY_LAND</Data></Cell>
+    <Cell><Data ss:Type="String">This string is for card type lines - please localise as if appeared on a card's type line - DON'T JUST TRANSLATE.</Data></Cell>
+    <Cell><Data ss:Type="String">Legendary Land</Data></Cell>
+    <Cell><Data ss:Type="String">Legendary Land</Data></Cell>
+    <Cell><Data ss:Type="String">Legendary Land</Data></Cell>
+    <Cell><Data ss:Type="String">Legendary Land</Data></Cell>
+    <Cell><Data ss:Type="String">Legendary Land</Data></Cell>
+    <Cell ss:Index="9"><Data ss:Type="String">Legendary Land</Data></Cell>
+    <Cell><Data ss:Type="String">Legendary Land</Data></Cell>
+    <Cell><Data ss:Type="String">Legendary Land</Data></Cell>
+    <Cell><Data ss:Type="String">Legendary Land</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">KICKER_QUERY_MOLD_SHAMBLER_KICKED</Data></Cell>
+    <Cell ss:Index="3"><Data ss:Type="String">Cast Mold Shambler and destroy target noncreature permanent.</Data></Cell>
+    <Cell><Data ss:Type="String">Cast Mold Shambler and destroy target noncreature permanent.</Data></Cell>
+    <Cell><Data ss:Type="String">Cast Mold Shambler and destroy target noncreature permanent.</Data></Cell>
+    <Cell><Data ss:Type="String">Cast Mold Shambler and destroy target noncreature permanent.</Data></Cell>
+    <Cell><Data ss:Type="String">Cast Mold Shambler and destroy target noncreature permanent.</Data></Cell>
+    <Cell ss:Index="9"><Data ss:Type="String">Cast Mold Shambler and destroy target noncreature permanent.</Data></Cell>
+    <Cell><Data ss:Type="String">Cast Mold Shambler and destroy target noncreature permanent.</Data></Cell>
+    <Cell><Data ss:Type="String">Cast Mold Shambler and destroy target noncreature permanent.</Data></Cell>
+    <Cell><Data ss:Type="String">Cast Mold Shambler and destroy target noncreature permanent.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">KICKER_QUERY_MOLD_SHAMBLER_UNKICKED</Data></Cell>
+    <Cell ss:Index="3"><Data ss:Type="String">Cast Mold Shambler.</Data></Cell>
+    <Cell><Data ss:Type="String">Cast Mold Shambler.</Data></Cell>
+    <Cell><Data ss:Type="String">Cast Mold Shambler.</Data></Cell>
+    <Cell><Data ss:Type="String">Cast Mold Shambler.</Data></Cell>
+    <Cell><Data ss:Type="String">Cast Mold Shambler.</Data></Cell>
+    <Cell ss:Index="9"><Data ss:Type="String">Cast Mold Shambler.</Data></Cell>
+    <Cell><Data ss:Type="String">Cast Mold Shambler.</Data></Cell>
+    <Cell><Data ss:Type="String">Cast Mold Shambler.</Data></Cell>
+    <Cell><Data ss:Type="String">Cast Mold Shambler.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">KICKER_QUERY_MARSH_CASUALTIES_KICKED</Data></Cell>
+    <Cell ss:Index="3"><Data ss:Type="String">Creatures target player controls get -2/-2 until end of turn.</Data></Cell>
+    <Cell><Data ss:Type="String">Creatures target player controls get -2/-2 until end of turn.</Data></Cell>
+    <Cell><Data ss:Type="String">Creatures target player controls get -2/-2 until end of turn.</Data></Cell>
+    <Cell><Data ss:Type="String">Creatures target player controls get -2/-2 until end of turn.</Data></Cell>
+    <Cell><Data ss:Type="String">Creatures target player controls get -2/-2 until end of turn.</Data></Cell>
+    <Cell ss:Index="9"><Data ss:Type="String">Creatures target player controls get -2/-2 until end of turn.</Data></Cell>
+    <Cell><Data ss:Type="String">Creatures target player controls get -2/-2 until end of turn.</Data></Cell>
+    <Cell><Data ss:Type="String">Creatures target player controls get -2/-2 until end of turn.</Data></Cell>
+    <Cell><Data ss:Type="String">Creatures target player controls get -2/-2 until end of turn.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">KICKER_QUERY_MARSH_CASUALTIES_UNKICKED</Data></Cell>
+    <Cell ss:Index="3"><Data ss:Type="String">Creatures target player controls get -1/-1 until end of turn.</Data></Cell>
+    <Cell><Data ss:Type="String">Creatures target player controls get -1/-1 until end of turn.</Data></Cell>
+    <Cell><Data ss:Type="String">Creatures target player controls get -1/-1 until end of turn.</Data></Cell>
+    <Cell><Data ss:Type="String">Creatures target player controls get -1/-1 until end of turn.</Data></Cell>
+    <Cell><Data ss:Type="String">Creatures target player controls get -1/-1 until end of turn.</Data></Cell>
+    <Cell ss:Index="9"><Data ss:Type="String">Creatures target player controls get -1/-1 until end of turn.</Data></Cell>
+    <Cell><Data ss:Type="String">Creatures target player controls get -1/-1 until end of turn.</Data></Cell>
+    <Cell><Data ss:Type="String">Creatures target player controls get -1/-1 until end of turn.</Data></Cell>
+    <Cell><Data ss:Type="String">Creatures target player controls get -1/-1 until end of turn.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">KICKER_QUERY_BURST_LIGHTNING_KICKED</Data></Cell>
+    <Cell ss:Index="3"><Data ss:Type="String">Deal 4 damage to a creature or player.</Data></Cell>
+    <Cell><Data ss:Type="String">Deal 4 damage to a creature or player.</Data></Cell>
+    <Cell><Data ss:Type="String">Deal 4 damage to a creature or player.</Data></Cell>
+    <Cell><Data ss:Type="String">Deal 4 damage to a creature or player.</Data></Cell>
+    <Cell><Data ss:Type="String">Deal 4 damage to a creature or player.</Data></Cell>
+    <Cell ss:Index="9"><Data ss:Type="String">Deal 4 damage to a creature or player.</Data></Cell>
+    <Cell><Data ss:Type="String">Deal 4 damage to a creature or player.</Data></Cell>
+    <Cell><Data ss:Type="String">Deal 4 damage to a creature or player.</Data></Cell>
+    <Cell><Data ss:Type="String">Deal 4 damage to a creature or player.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">KICKER_QUERY_BURST_LIGHTNING_UNKICKED</Data></Cell>
+    <Cell ss:Index="3"><Data ss:Type="String">Deal 2 damage to a creature or player.</Data></Cell>
+    <Cell><Data ss:Type="String">Deal 2 damage to a creature or player.</Data></Cell>
+    <Cell><Data ss:Type="String">Deal 2 damage to a creature or player.</Data></Cell>
+    <Cell><Data ss:Type="String">Deal 2 damage to a creature or player.</Data></Cell>
+    <Cell><Data ss:Type="String">Deal 2 damage to a creature or player.</Data></Cell>
+    <Cell ss:Index="9"><Data ss:Type="String">Deal 2 damage to a creature or player.</Data></Cell>
+    <Cell><Data ss:Type="String">Deal 2 damage to a creature or player.</Data></Cell>
+    <Cell><Data ss:Type="String">Deal 2 damage to a creature or player.</Data></Cell>
+    <Cell><Data ss:Type="String">Deal 2 damage to a creature or player.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">KICKER_QUERY_AETHER_FIGMENT_KICKED</Data></Cell>
+    <Cell ss:Index="3"><Data ss:Type="String">Cast Æther Figment and put two +1/+1 counters on it.</Data></Cell>
+    <Cell><Data ss:Type="String">Cast Æther Figment and put two +1/+1 counters on it.</Data></Cell>
+    <Cell><Data ss:Type="String">Cast Æther Figment and put two +1/+1 counters on it.</Data></Cell>
+    <Cell><Data ss:Type="String">Cast Æther Figment and put two +1/+1 counters on it.</Data></Cell>
+    <Cell><Data ss:Type="String">Cast Æther Figment and put two +1/+1 counters on it.</Data></Cell>
+    <Cell ss:Index="9"><Data ss:Type="String">Cast Æther Figment and put two +1/+1 counters on it.</Data></Cell>
+    <Cell><Data ss:Type="String">Cast Æther Figment and put two +1/+1 counters on it.</Data></Cell>
+    <Cell><Data ss:Type="String">Cast Æther Figment and put two +1/+1 counters on it.</Data></Cell>
+    <Cell><Data ss:Type="String">Cast Æther Figment and put two +1/+1 counters on it.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">KICKER_QUERY_AETHER_FIGMENT_UNKICKED</Data></Cell>
+    <Cell ss:Index="3"><Data ss:Type="String">Cast Æther Figment.</Data></Cell>
+    <Cell><Data ss:Type="String">Cast Æther Figment.</Data></Cell>
+    <Cell><Data ss:Type="String">Cast Æther Figment.</Data></Cell>
+    <Cell><Data ss:Type="String">Cast Æther Figment.</Data></Cell>
+    <Cell><Data ss:Type="String">Cast Æther Figment.</Data></Cell>
+    <Cell ss:Index="9"><Data ss:Type="String">Cast Æther Figment.</Data></Cell>
+    <Cell><Data ss:Type="String">Cast Æther Figment.</Data></Cell>
+    <Cell><Data ss:Type="String">Cast Æther Figment.</Data></Cell>
+    <Cell><Data ss:Type="String">Cast Æther Figment.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">KICKER_QUERY_VAMPIRES_BITE_KICKED</Data></Cell>
+    <Cell ss:Index="3"><Data ss:Type="String">Target creature gets +3/+0 and gains lifelink until end of turn.</Data></Cell>
+    <Cell><Data ss:Type="String">Target creature gets +3/+0 and gains lifelink until end of turn.</Data></Cell>
+    <Cell><Data ss:Type="String">Target creature gets +3/+0 and gains lifelink until end of turn.</Data></Cell>
+    <Cell><Data ss:Type="String">Target creature gets +3/+0 and gains lifelink until end of turn.</Data></Cell>
+    <Cell><Data ss:Type="String">Target creature gets +3/+0 and gains lifelink until end of turn.</Data></Cell>
+    <Cell ss:Index="9"><Data ss:Type="String">Target creature gets +3/+0 and gains lifelink until end of turn.</Data></Cell>
+    <Cell><Data ss:Type="String">Target creature gets +3/+0 and gains lifelink until end of turn.</Data></Cell>
+    <Cell><Data ss:Type="String">Target creature gets +3/+0 and gains lifelink until end of turn.</Data></Cell>
+    <Cell><Data ss:Type="String">Target creature gets +3/+0 and gains lifelink until end of turn.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">KICKER_QUERY_VAMPIRES_BITE_UNKICKED</Data></Cell>
+    <Cell ss:Index="3"><Data ss:Type="String">Target creature gets +3/+0 until end of turn.</Data></Cell>
+    <Cell><Data ss:Type="String">Target creature gets +3/+0 until end of turn.</Data></Cell>
+    <Cell><Data ss:Type="String">Target creature gets +3/+0 until end of turn.</Data></Cell>
+    <Cell><Data ss:Type="String">Target creature gets +3/+0 until end of turn.</Data></Cell>
+    <Cell><Data ss:Type="String">Target creature gets +3/+0 until end of turn.</Data></Cell>
+    <Cell ss:Index="9"><Data ss:Type="String">Target creature gets +3/+0 until end of turn.</Data></Cell>
+    <Cell><Data ss:Type="String">Target creature gets +3/+0 until end of turn.</Data></Cell>
+    <Cell><Data ss:Type="String">Target creature gets +3/+0 until end of turn.</Data></Cell>
+    <Cell><Data ss:Type="String">Target creature gets +3/+0 until end of turn.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">KICKER_QUERY_CONQUERORS_PLEDGE_KICKED</Data></Cell>
+    <Cell ss:Index="3"><Data ss:Type="String">Put twelve 1/1 white Kor Soldier creature tokens onto the battlefield.</Data></Cell>
+    <Cell><Data ss:Type="String">Put twelve 1/1 white Kor Soldier creature tokens onto the battlefield.</Data></Cell>
+    <Cell><Data ss:Type="String">Put twelve 1/1 white Kor Soldier creature tokens onto the battlefield.</Data></Cell>
+    <Cell><Data ss:Type="String">Put twelve 1/1 white Kor Soldier creature tokens onto the battlefield.</Data></Cell>
+    <Cell><Data ss:Type="String">Put twelve 1/1 white Kor Soldier creature tokens onto the battlefield.</Data></Cell>
+    <Cell ss:Index="9"><Data ss:Type="String">Put twelve 1/1 white Kor Soldier creature tokens onto the battlefield.</Data></Cell>
+    <Cell><Data ss:Type="String">Put twelve 1/1 white Kor Soldier creature tokens onto the battlefield.</Data></Cell>
+    <Cell><Data ss:Type="String">Put twelve 1/1 white Kor Soldier creature tokens onto the battlefield.</Data></Cell>
+    <Cell><Data ss:Type="String">Put twelve 1/1 white Kor Soldier creature tokens onto the battlefield.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">KICKER_QUERY_CONQUERORS_PLEDGE_UNKICKED</Data></Cell>
+    <Cell ss:Index="3"><Data ss:Type="String">Put six 1/1 white Kor Soldier creature tokens onto the battlefield.</Data></Cell>
+    <Cell><Data ss:Type="String">Put six 1/1 white Kor Soldier creature tokens onto the battlefield.</Data></Cell>
+    <Cell><Data ss:Type="String">Put six 1/1 white Kor Soldier creature tokens onto the battlefield.</Data></Cell>
+    <Cell><Data ss:Type="String">Put six 1/1 white Kor Soldier creature tokens onto the battlefield.</Data></Cell>
+    <Cell><Data ss:Type="String">Put six 1/1 white Kor Soldier creature tokens onto the battlefield.</Data></Cell>
+    <Cell ss:Index="9"><Data ss:Type="String">Put six 1/1 white Kor Soldier creature tokens onto the battlefield.</Data></Cell>
+    <Cell><Data ss:Type="String">Put six 1/1 white Kor Soldier creature tokens onto the battlefield.</Data></Cell>
+    <Cell><Data ss:Type="String">Put six 1/1 white Kor Soldier creature tokens onto the battlefield.</Data></Cell>
+    <Cell><Data ss:Type="String">Put six 1/1 white Kor Soldier creature tokens onto the battlefield.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">KICKER_QUERY_LIGHTKEEPER_OF_EMERIA_MULTIKICKER</Data></Cell>
+    <Cell ss:Index="3"><Data ss:Type="String">How many times would you like to kick Lightkeeper of Emeria?</Data></Cell>
+    <Cell><Data ss:Type="String">How many times would you like to kick Lightkeeper of Emeria</Data></Cell>
+    <Cell><Data ss:Type="String">How many times would you like to kick Lightkeeper of Emeria</Data></Cell>
+    <Cell><Data ss:Type="String">How many times would you like to kick Lightkeeper of Emeria</Data></Cell>
+    <Cell><Data ss:Type="String">How many times would you like to kick Lightkeeper of Emeria</Data></Cell>
+    <Cell ss:Index="9"><Data ss:Type="String">How many times would you like to kick Lightkeeper of Emeria</Data></Cell>
+    <Cell><Data ss:Type="String">How many times would you like to kick Lightkeeper of Emeria</Data></Cell>
+    <Cell><Data ss:Type="String">How many times would you like to kick Lightkeeper of Emeria</Data></Cell>
+    <Cell><Data ss:Type="String">How many times would you like to kick Lightkeeper of Emeria</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">KICKER_QUERY_QUAG_VAMPIRES_MULTIKICKER</Data></Cell>
+    <Cell ss:Index="3"><Data ss:Type="String">How many times would you like to kick Quag Vampires?</Data></Cell>
+    <Cell><Data ss:Type="String">How many times would you like to kick Quag Vampires</Data></Cell>
+    <Cell><Data ss:Type="String">How many times would you like to kick Quag Vampires</Data></Cell>
+    <Cell><Data ss:Type="String">How many times would you like to kick Quag Vampires</Data></Cell>
+    <Cell><Data ss:Type="String">How many times would you like to kick Quag Vampires</Data></Cell>
+    <Cell ss:Index="9"><Data ss:Type="String">How many times would you like to kick Quag Vampires</Data></Cell>
+    <Cell><Data ss:Type="String">How many times would you like to kick Quag Vampires</Data></Cell>
+    <Cell><Data ss:Type="String">How many times would you like to kick Quag Vampires</Data></Cell>
+    <Cell><Data ss:Type="String">How many times would you like to kick Quag Vampires</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">KICKER_QUERY_QUAG_BLOODHUSK_RITUALIST</Data></Cell>
+    <Cell ss:Index="3"><Data ss:Type="String">How many times would you like to kick Bloodhusk Ritualist?</Data></Cell>
+    <Cell><Data ss:Type="String">How many times would you like to kick Bloodhusk Ritualist</Data></Cell>
+    <Cell><Data ss:Type="String">How many times would you like to kick Bloodhusk Ritualist</Data></Cell>
+    <Cell><Data ss:Type="String">How many times would you like to kick Bloodhusk Ritualist</Data></Cell>
+    <Cell><Data ss:Type="String">How many times would you like to kick Bloodhusk Ritualist</Data></Cell>
+    <Cell ss:Index="9"><Data ss:Type="String">How many times would you like to kick Bloodhusk Ritualist</Data></Cell>
+    <Cell><Data ss:Type="String">How many times would you like to kick Bloodhusk Ritualist</Data></Cell>
+    <Cell><Data ss:Type="String">How many times would you like to kick Bloodhusk Ritualist</Data></Cell>
+    <Cell><Data ss:Type="String">How many times would you like to kick Bloodhusk Ritualist</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">CARD_QUERY_OPTION_TOKEN_OGRE</Data></Cell>
+    <Cell ss:Index="3"><Data ss:Type="String">Put a 3/3 red Ogre creature token onto the battlefield.</Data></Cell>
+    <Cell><Data ss:Type="String">Put a 3/3 red Ogre creature token onto the battlefield.</Data></Cell>
+    <Cell><Data ss:Type="String">Put a 3/3 red Ogre creature token onto the battlefield.</Data></Cell>
+    <Cell><Data ss:Type="String">Put a 3/3 red Ogre creature token onto the battlefield.</Data></Cell>
+    <Cell><Data ss:Type="String">Put a 3/3 red Ogre creature token onto the battlefield.</Data></Cell>
+    <Cell ss:Index="9"><Data ss:Type="String">Put a 3/3 red Ogre creature token onto the battlefield.</Data></Cell>
+    <Cell><Data ss:Type="String">Put a 3/3 red Ogre creature token onto the battlefield.</Data></Cell>
+    <Cell><Data ss:Type="String">Put a 3/3 red Ogre creature token onto the battlefield.</Data></Cell>
+    <Cell><Data ss:Type="String">Put a 3/3 red Ogre creature token onto the battlefield.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">CARD_QUERY_MC_KAZUUL_TYRANT_OF_THE_CLIFFS</Data></Cell>
+    <Cell ss:Index="3"><Data ss:Type="String">Do you want to pay {3}? (If you don't, the ability will put a 3/3 red Ogre creature token onto the battlefield.)</Data></Cell>
+    <Cell><Data ss:Type="String">Do you want to pay {3}? (If you don't, the ability will put a 3/3 red Ogre creature token onto the battlefield.)</Data></Cell>
+    <Cell><Data ss:Type="String">Do you want to pay {3}? (If you don't, the ability will put a 3/3 red Ogre creature token onto the battlefield.)</Data></Cell>
+    <Cell><Data ss:Type="String">Do you want to pay {3}? (If you don't, the ability will put a 3/3 red Ogre creature token onto the battlefield.)</Data></Cell>
+    <Cell><Data ss:Type="String">Do you want to pay {3}? (If you don't, the ability will put a 3/3 red Ogre creature token onto the battlefield.)</Data></Cell>
+    <Cell ss:Index="9"><Data ss:Type="String">Do you want to pay {3}? (If you don't, the ability will put a 3/3 red Ogre creature token onto the battlefield.)</Data></Cell>
+    <Cell><Data ss:Type="String">Do you want to pay {3}? (If you don't, the ability will put a 3/3 red Ogre creature token onto the battlefield.)</Data></Cell>
+    <Cell><Data ss:Type="String">Do you want to pay {3}? (If you don't, the ability will put a 3/3 red Ogre creature token onto the battlefield.)</Data></Cell>
+    <Cell><Data ss:Type="String">Do you want to pay {3}? (If you don't, the ability will put a 3/3 red Ogre creature token onto the battlefield.)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">CARD_QUERY_MC_PUT_COUNTER</Data></Cell>
+    <Cell ss:Index="3"><Data ss:Type="String">Do you want to put a counter on this card?</Data></Cell>
+    <Cell><Data ss:Type="String">Do you want to put a counter on this card?</Data></Cell>
+    <Cell><Data ss:Type="String">Do you want to put a counter on this card?</Data></Cell>
+    <Cell><Data ss:Type="String">Do you want to put a counter on this card?</Data></Cell>
+    <Cell><Data ss:Type="String">Do you want to put a counter on this card?</Data></Cell>
+    <Cell ss:Index="9"><Data ss:Type="String">Do you want to put a counter on this card?</Data></Cell>
+    <Cell><Data ss:Type="String">Do you want to put a counter on this card?</Data></Cell>
+    <Cell><Data ss:Type="String">Do you want to put a counter on this card?</Data></Cell>
+    <Cell><Data ss:Type="String">Do you want to put a counter on this card?</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">CARD_QUERY_CHOOSE_NOBASIC_LAND_TO_DESTROY</Data></Cell>
+    <Cell ss:Index="3"><Data ss:Type="String">Choose a nonbasic land to destroy.</Data></Cell>
+    <Cell><Data ss:Type="String">Choose a nonbasic land to destroy.</Data></Cell>
+    <Cell><Data ss:Type="String">Choose a nonbasic land to destroy.</Data></Cell>
+    <Cell><Data ss:Type="String">Choose a nonbasic land to destroy.</Data></Cell>
+    <Cell><Data ss:Type="String">Choose a nonbasic land to destroy.</Data></Cell>
+    <Cell ss:Index="9"><Data ss:Type="String">Choose a nonbasic land to destroy.</Data></Cell>
+    <Cell><Data ss:Type="String">Choose a nonbasic land to destroy.</Data></Cell>
+    <Cell><Data ss:Type="String">Choose a nonbasic land to destroy.</Data></Cell>
+    <Cell><Data ss:Type="String">Choose a nonbasic land to destroy.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">CARD_QUERY_CHOOSE_PLAYER_MILL_10</Data></Cell>
+    <Cell ss:Index="3"><Data ss:Type="String">Choose a player to put ten cards from the top of his or her library into his or her graveyard.</Data></Cell>
+    <Cell><Data ss:Type="String">Choose a player to put ten cards from the top of his or her library into his or her graveyard.</Data></Cell>
+    <Cell><Data ss:Type="String">Choose a player to put ten cards from the top of his or her library into his or her graveyard.</Data></Cell>
+    <Cell><Data ss:Type="String">Choose a player to put ten cards from the top of his or her library into his or her graveyard.</Data></Cell>
+    <Cell><Data ss:Type="String">Choose a player to put ten cards from the top of his or her library into his or her graveyard.</Data></Cell>
+    <Cell ss:Index="9"><Data ss:Type="String">Choose a player to put ten cards from the top of his or her library into his or her graveyard.</Data></Cell>
+    <Cell><Data ss:Type="String">Choose a player to put ten cards from the top of his or her library into his or her graveyard.</Data></Cell>
+    <Cell><Data ss:Type="String">Choose a player to put ten cards from the top of his or her library into his or her graveyard.</Data></Cell>
+    <Cell><Data ss:Type="String">Choose a player to put ten cards from the top of his or her library into his or her graveyard.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">CARD_QUERY_CHOOSE_PLAYER_MILL_4</Data></Cell>
+    <Cell ss:Index="3"><Data ss:Type="String">Choose a player to put four cards from the top of his or her library into his or her graveyard.</Data></Cell>
+    <Cell><Data ss:Type="String">Choose a player to put four cards from the top of his or her library into his or her graveyard.</Data></Cell>
+    <Cell><Data ss:Type="String">Choose a player to put four cards from the top of his or her library into his or her graveyard.</Data></Cell>
+    <Cell><Data ss:Type="String">Choose a player to put four cards from the top of his or her library into his or her graveyard.</Data></Cell>
+    <Cell><Data ss:Type="String">Choose a player to put four cards from the top of his or her library into his or her graveyard.</Data></Cell>
+    <Cell ss:Index="9"><Data ss:Type="String">Choose a player to put four cards from the top of his or her library into his or her graveyard.</Data></Cell>
+    <Cell><Data ss:Type="String">Choose a player to put four cards from the top of his or her library into his or her graveyard.</Data></Cell>
+    <Cell><Data ss:Type="String">Choose a player to put four cards from the top of his or her library into his or her graveyard.</Data></Cell>
+    <Cell><Data ss:Type="String">Choose a player to put four cards from the top of his or her library into his or her graveyard.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">CARD_QUERY_CHOOSE_LIBRARY</Data></Cell>
+    <Cell ss:Index="3"><Data ss:Type="String">Choose library.</Data></Cell>
+    <Cell><Data ss:Type="String">Choose library.</Data></Cell>
+    <Cell><Data ss:Type="String">Choose library.</Data></Cell>
+    <Cell><Data ss:Type="String">Choose library.</Data></Cell>
+    <Cell><Data ss:Type="String">Choose library.</Data></Cell>
+    <Cell ss:Index="9"><Data ss:Type="String">Choose library.</Data></Cell>
+    <Cell><Data ss:Type="String">Choose library.</Data></Cell>
+    <Cell><Data ss:Type="String">Choose library.</Data></Cell>
+    <Cell><Data ss:Type="String">Choose library.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">CARD_QUERY_CHOOSE_GOBLIN_TO_PUT_INTO_HAND</Data></Cell>
+    <Cell ss:Index="3"><Data ss:Type="String">Choose a Goblin card to put into your hand.</Data></Cell>
+    <Cell><Data ss:Type="String">Choose a Goblin card to put into your hand.</Data></Cell>
+    <Cell><Data ss:Type="String">Choose a Goblin card to put into your hand.</Data></Cell>
+    <Cell><Data ss:Type="String">Choose a Goblin card to put into your hand.</Data></Cell>
+    <Cell><Data ss:Type="String">Choose a Goblin card to put into your hand.</Data></Cell>
+    <Cell ss:Index="9"><Data ss:Type="String">Choose a Goblin card to put into your hand.</Data></Cell>
+    <Cell><Data ss:Type="String">Choose a Goblin card to put into your hand.</Data></Cell>
+    <Cell><Data ss:Type="String">Choose a Goblin card to put into your hand.</Data></Cell>
+    <Cell><Data ss:Type="String">Choose a Goblin card to put into your hand.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">CARD_QUERY_CHOOSE_GOBLIN_TO_PUT_ONTO_LIBRARY</Data></Cell>
+    <Cell ss:Index="3"><Data ss:Type="String">Choose a Goblin card to put on the top of your library.</Data></Cell>
+    <Cell><Data ss:Type="String">Choose a Goblin card to put on the top of your library.</Data></Cell>
+    <Cell><Data ss:Type="String">Choose a Goblin card to put on the top of your library.</Data></Cell>
+    <Cell><Data ss:Type="String">Choose a Goblin card to put on the top of your library.</Data></Cell>
+    <Cell><Data ss:Type="String">Choose a Goblin card to put on the top of your library.</Data></Cell>
+    <Cell ss:Index="9"><Data ss:Type="String">Choose a Goblin card to put on the top of your library.</Data></Cell>
+    <Cell><Data ss:Type="String">Choose a Goblin card to put on the top of your library.</Data></Cell>
+    <Cell><Data ss:Type="String">Choose a Goblin card to put on the top of your library.</Data></Cell>
+    <Cell><Data ss:Type="String">Choose a Goblin card to put on the top of your library.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">CARD_QUERY_CHOOSE_FAERIE_TO_EXILE</Data></Cell>
+    <Cell ss:Index="3"><Data ss:Type="String">Choose a Faerie card to exile.</Data></Cell>
+    <Cell><Data ss:Type="String">Choose a Faerie card to exile.</Data></Cell>
+    <Cell><Data ss:Type="String">Choose a Faerie card to exile.</Data></Cell>
+    <Cell><Data ss:Type="String">Choose a Faerie card to exile.</Data></Cell>
+    <Cell><Data ss:Type="String">Choose a Faerie card to exile.</Data></Cell>
+    <Cell ss:Index="9"><Data ss:Type="String">Choose a Faerie card to exile.</Data></Cell>
+    <Cell><Data ss:Type="String">Choose a Faerie card to exile.</Data></Cell>
+    <Cell><Data ss:Type="String">Choose a Faerie card to exile.</Data></Cell>
+    <Cell><Data ss:Type="String">Choose a Faerie card to exile.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">CARD_QUERY_CHOOSE_PLAYER_TO_TAP_LAND</Data></Cell>
+    <Cell ss:Index="3"><Data ss:Type="String">Choose a player to tap all lands he or she controls.</Data></Cell>
+    <Cell><Data ss:Type="String">Choose a player to tap all lands he or she controls.</Data></Cell>
+    <Cell><Data ss:Type="String">Choose a player to tap all lands he or she controls.</Data></Cell>
+    <Cell><Data ss:Type="String">Choose a player to tap all lands he or she controls.</Data></Cell>
+    <Cell><Data ss:Type="String">Choose a player to tap all lands he or she controls.</Data></Cell>
+    <Cell ss:Index="9"><Data ss:Type="String">Choose a player to tap all lands he or she controls.</Data></Cell>
+    <Cell><Data ss:Type="String">Choose a player to tap all lands he or she controls.</Data></Cell>
+    <Cell><Data ss:Type="String">Choose a player to tap all lands he or she controls.</Data></Cell>
+    <Cell><Data ss:Type="String">Choose a player to tap all lands he or she controls.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">CARD_QUERY_MC_KEEP_TAPED</Data></Cell>
+    <Cell ss:Index="3"><Data ss:Type="String">Do you want to keep this card tapped?</Data></Cell>
+    <Cell><Data ss:Type="String">Do you want to keep this card tapped?</Data></Cell>
+    <Cell><Data ss:Type="String">Do you want to keep this card tapped?</Data></Cell>
+    <Cell><Data ss:Type="String">Do you want to keep this card tapped?</Data></Cell>
+    <Cell><Data ss:Type="String">Do you want to keep this card tapped?</Data></Cell>
+    <Cell ss:Index="9"><Data ss:Type="String">Do you want to keep this card tapped?</Data></Cell>
+    <Cell><Data ss:Type="String">Do you want to keep this card tapped?</Data></Cell>
+    <Cell><Data ss:Type="String">Do you want to keep this card tapped?</Data></Cell>
+    <Cell><Data ss:Type="String">Do you want to keep this card tapped?</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">CARD_QUERY_CHOOSE_NONLAND_PERMANENT_TO_PUT_ONTO_LIBRARY</Data></Cell>
+    <Cell ss:Index="3"><Data ss:Type="String">Choose a nonland permanent to put on the top of its owner’s library.</Data></Cell>
+    <Cell><Data ss:Type="String">Choose a nonland permanent to put on the top of its owner’s library.</Data></Cell>
+    <Cell><Data ss:Type="String">Choose a nonland permanent to put on the top of its owner’s library.</Data></Cell>
+    <Cell><Data ss:Type="String">Choose a nonland permanent to put on the top of its owner’s library.</Data></Cell>
+    <Cell><Data ss:Type="String">Choose a nonland permanent to put on the top of its owner’s library.</Data></Cell>
+    <Cell ss:Index="9"><Data ss:Type="String">Choose a nonland permanent to put on the top of its owner’s library.</Data></Cell>
+    <Cell><Data ss:Type="String">Choose a nonland permanent to put on the top of its owner’s library.</Data></Cell>
+    <Cell><Data ss:Type="String">Choose a nonland permanent to put on the top of its owner’s library.</Data></Cell>
+    <Cell><Data ss:Type="String">Choose a nonland permanent to put on the top of its owner’s library.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">CARD_QUERY_CHOOSE_PLAYER_DEAL_X_DAMAGE</Data></Cell>
+    <Cell ss:Index="3"><Data ss:Type="String">Choose a player to deal X damage to.</Data></Cell>
+    <Cell><Data ss:Type="String">Choose a player to deal X damage to.</Data></Cell>
+    <Cell><Data ss:Type="String">Choose a player to deal X damage to.</Data></Cell>
+    <Cell><Data ss:Type="String">Choose a player to deal X damage to.</Data></Cell>
+    <Cell><Data ss:Type="String">Choose a player to deal X damage to.</Data></Cell>
+    <Cell ss:Index="9"><Data ss:Type="String">Choose a player to deal X damage to.</Data></Cell>
+    <Cell><Data ss:Type="String">Choose a player to deal X damage to.</Data></Cell>
+    <Cell><Data ss:Type="String">Choose a player to deal X damage to.</Data></Cell>
+    <Cell><Data ss:Type="String">Choose a player to deal X damage to.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">CARD_QUERY_CHOOSE_CREATURE_TO_GET_1_2</Data></Cell>
+    <Cell ss:Index="3"><Data ss:Type="String">Choose a 1/1 creature to get +1/+2.</Data></Cell>
+    <Cell><Data ss:Type="String">Choose a 1/1 creature to get +1/+2.</Data></Cell>
+    <Cell><Data ss:Type="String">Choose a 1/1 creature to get +1/+2.</Data></Cell>
+    <Cell><Data ss:Type="String">Choose a 1/1 creature to get +1/+2.</Data></Cell>
+    <Cell><Data ss:Type="String">Choose a 1/1 creature to get +1/+2.</Data></Cell>
+    <Cell ss:Index="9"><Data ss:Type="String">Choose a 1/1 creature to get +1/+2.</Data></Cell>
+    <Cell><Data ss:Type="String">Choose a 1/1 creature to get +1/+2.</Data></Cell>
+    <Cell><Data ss:Type="String">Choose a 1/1 creature to get +1/+2.</Data></Cell>
+    <Cell><Data ss:Type="String">Choose a 1/1 creature to get +1/+2.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">CARD_QUERY_CHOOSE_CREATURE_TO_PAIR</Data></Cell>
+    <Cell ss:Index="3"><Data ss:Type="String">Choose a creature to pair.</Data></Cell>
+    <Cell><Data ss:Type="String">Choose a creature to pair.</Data></Cell>
+    <Cell><Data ss:Type="String">Choose a creature to pair.</Data></Cell>
+    <Cell><Data ss:Type="String">Choose a creature to pair.</Data></Cell>
+    <Cell><Data ss:Type="String">Choose a creature to pair.</Data></Cell>
+    <Cell ss:Index="9"><Data ss:Type="String">Choose a creature to pair.</Data></Cell>
+    <Cell><Data ss:Type="String">Choose a creature to pair.</Data></Cell>
+    <Cell><Data ss:Type="String">Choose a creature to pair.</Data></Cell>
+    <Cell><Data ss:Type="String">Choose a creature to pair.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">CARD_QUERY_TAKE_5_DAMAGE</Data></Cell>
+    <Cell ss:Index="3"><Data ss:Type="String">Take 5 damage.</Data></Cell>
+    <Cell><Data ss:Type="String">Take 5 damage.</Data></Cell>
+    <Cell><Data ss:Type="String">Take 5 damage.</Data></Cell>
+    <Cell><Data ss:Type="String">Take 5 damage.</Data></Cell>
+    <Cell><Data ss:Type="String">Take 5 damage.</Data></Cell>
+    <Cell ss:Index="9"><Data ss:Type="String">Take 5 damage.</Data></Cell>
+    <Cell><Data ss:Type="String">Take 5 damage.</Data></Cell>
+    <Cell><Data ss:Type="String">Take 5 damage.</Data></Cell>
+    <Cell><Data ss:Type="String">Take 5 damage.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">CARD_QUERY_MC_BROWBEAT</Data></Cell>
+    <Cell ss:Index="3"><Data ss:Type="String">You may choose to take 5 damage to have Browbeat no effect.</Data></Cell>
+    <Cell><Data ss:Type="String">You may choose to take 5 damage to have Browbeat no effect.</Data></Cell>
+    <Cell><Data ss:Type="String">You may choose to take 5 damage to have Browbeat no effect.</Data></Cell>
+    <Cell><Data ss:Type="String">You may choose to take 5 damage to have Browbeat no effect.</Data></Cell>
+    <Cell><Data ss:Type="String">You may choose to take 5 damage to have Browbeat no effect.</Data></Cell>
+    <Cell ss:Index="9"><Data ss:Type="String">You may choose to take 5 damage to have Browbeat no effect.</Data></Cell>
+    <Cell><Data ss:Type="String">You may choose to take 5 damage to have Browbeat no effect.</Data></Cell>
+    <Cell><Data ss:Type="String">You may choose to take 5 damage to have Browbeat no effect.</Data></Cell>
+    <Cell><Data ss:Type="String">You may choose to take 5 damage to have Browbeat no effect.</Data></Cell>
+   </Row>
+   <Row ss:Index="128" ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">MORE_INFO_BADGE_TITLE_170</Data></Cell>
+    <Cell ss:Index="3"><Data ss:Type="String">Soulbond</Data></Cell>
+    <Cell><Data ss:Type="String">Soulbond</Data></Cell>
+    <Cell><Data ss:Type="String">Soulbond</Data></Cell>
+    <Cell><Data ss:Type="String">Soulbond</Data></Cell>
+    <Cell><Data ss:Type="String">Soulbond</Data></Cell>
+    <Cell ss:Index="9"><Data ss:Type="String">Soulbond</Data></Cell>
+    <Cell><Data ss:Type="String">Soulbond</Data></Cell>
+    <Cell><Data ss:Type="String">Soulbond</Data></Cell>
+    <Cell><Data ss:Type="String">Soulbond</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">MORE_INFO_BADGE_BODY_170</Data></Cell>
+    <Cell ss:Index="3"><Data ss:Type="String">You may pair this creature with another unpaired creature when either enters the battlefield. They remain paired for as long as you control both of them. As long as this creature is paired with another creature, each of those creatures gets buff.</Data></Cell>
+    <Cell><Data ss:Type="String">You may pair this creature with another unpaired creature when either enters the battlefield. They remain paired for as long as you control both of them. As long as this creature is paired with another creature, each of those creatures gets buff.</Data></Cell>
+    <Cell><Data ss:Type="String">You may pair this creature with another unpaired creature when either enters the battlefield. They remain paired for as long as you control both of them. As long as this creature is paired with another creature, each of those creatures gets buff.</Data></Cell>
+    <Cell><Data ss:Type="String">You may pair this creature with another unpaired creature when either enters the battlefield. They remain paired for as long as you control both of them. As long as this creature is paired with another creature, each of those creatures gets buff.</Data></Cell>
+    <Cell><Data ss:Type="String">You may pair this creature with another unpaired creature when either enters the battlefield. They remain paired for as long as you control both of them. As long as this creature is paired with another creature, each of those creatures gets buff.</Data></Cell>
+    <Cell ss:Index="9"><Data ss:Type="String">You may pair this creature with another unpaired creature when either enters the battlefield. They remain paired for as long as you control both of them. As long as this creature is paired with another creature, each of those creatures gets buff.</Data></Cell>
+    <Cell><Data ss:Type="String">You may pair this creature with another unpaired creature when either enters the battlefield. They remain paired for as long as you control both of them. As long as this creature is paired with another creature, each of those creatures gets buff.</Data></Cell>
+    <Cell><Data ss:Type="String">You may pair this creature with another unpaired creature when either enters the battlefield. They remain paired for as long as you control both of them. As long as this creature is paired with another creature, each of those creatures gets buff.</Data></Cell>
+    <Cell><Data ss:Type="String">You may pair this creature with another unpaired creature when either enters the battlefield. They remain paired for as long as you control both of them. As long as this creature is paired with another creature, each of those creatures gets buff.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">PLAYER_CURSED_ICON</Data></Cell>
+    <Cell ss:Index="3"><Data ss:Type="String">Cursed player</Data></Cell>
+    <Cell><Data ss:Type="String">Cursed player</Data></Cell>
+    <Cell><Data ss:Type="String">Cursed player</Data></Cell>
+    <Cell><Data ss:Type="String">Cursed player</Data></Cell>
+    <Cell><Data ss:Type="String">Cursed player</Data></Cell>
+    <Cell ss:Index="9"><Data ss:Type="String">Cursed player</Data></Cell>
+    <Cell><Data ss:Type="String">Cursed player</Data></Cell>
+    <Cell><Data ss:Type="String">Cursed player</Data></Cell>
+    <Cell><Data ss:Type="String">Cursed player</Data></Cell>
+   </Row>
+   <Row ss:Index="511" ss:AutoFitHeight="0" ss:Height="195">
+    <Cell ss:Index="6" ss:StyleID="s63"/>
+   </Row>
+  </Table>
+  <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+   <PageSetup>
+    <Header x:Margin="0.3"/>
+    <Footer x:Margin="0.3"/>
+    <PageMargins x:Bottom="0.75" x:Left="0.7" x:Right="0.7" x:Top="0.75"/>
+   </PageSetup>
+   <Unsynced/>
+   <Print>
+    <ValidPrinterInfo/>
+    <PaperSizeIndex>9</PaperSizeIndex>
+    <HorizontalResolution>600</HorizontalResolution>
+    <VerticalResolution>600</VerticalResolution>
+   </Print>
+   <Selected/>
+   <TopRowVisible>117</TopRowVisible>
+   <Panes>
+    <Pane>
+     <Number>3</Number>
+     <ActiveRow>129</ActiveRow>
+    </Pane>
+   </Panes>
+   <ProtectObjects>False</ProtectObjects>
+   <ProtectScenarios>False</ProtectScenarios>
+  </WorksheetOptions>
+ </Worksheet>
+ <Worksheet ss:Name="Sheet1">
+  <Table ss:ExpandedColumnCount="1" ss:ExpandedRowCount="1" x:FullColumns="1"
+   x:FullRows="1" ss:DefaultRowHeight="15">
+   <Row ss:AutoFitHeight="0"/>
+  </Table>
+  <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+   <PageSetup>
+    <Header x:Margin="0.3"/>
+    <Footer x:Margin="0.3"/>
+    <PageMargins x:Bottom="0.75" x:Left="0.7" x:Right="0.7" x:Top="0.75"/>
+   </PageSetup>
+   <Unsynced/>
+   <ProtectObjects>False</ProtectObjects>
+   <ProtectScenarios>False</ProtectScenarios>
+  </WorksheetOptions>
+ </Worksheet>
+ <Worksheet ss:Name="Sheet2">
+  <Table ss:ExpandedColumnCount="1" ss:ExpandedRowCount="1" x:FullColumns="1"
+   x:FullRows="1" ss:DefaultRowHeight="15">
+   <Row ss:AutoFitHeight="0"/>
+  </Table>
+  <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+   <PageSetup>
+    <Header x:Margin="0.3"/>
+    <Footer x:Margin="0.3"/>
+    <PageMargins x:Bottom="0.75" x:Left="0.7" x:Right="0.7" x:Top="0.75"/>
+   </PageSetup>
+   <Unsynced/>
+   <ProtectObjects>False</ProtectObjects>
+   <ProtectScenarios>False</ProtectScenarios>
+  </WorksheetOptions>
+ </Worksheet>
+ <Worksheet ss:Name="Sheet3">
+  <Table ss:ExpandedColumnCount="1" ss:ExpandedRowCount="1" x:FullColumns="1"
+   x:FullRows="1" ss:DefaultRowHeight="15">
+   <Row ss:AutoFitHeight="0"/>
+  </Table>
+  <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+   <PageSetup>
+    <Header x:Margin="0.3"/>
+    <Footer x:Margin="0.3"/>
+    <PageMargins x:Bottom="0.75" x:Left="0.7" x:Right="0.7" x:Top="0.75"/>
+   </PageSetup>
+   <Unsynced/>
+   <ProtectObjects>False</ProtectObjects>
+   <ProtectScenarios>False</ProtectScenarios>
+  </WorksheetOptions>
+ </Worksheet>
+</Workbook>

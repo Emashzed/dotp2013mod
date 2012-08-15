@@ -1,0 +1,47 @@
+<DECK personality="D13_VALAKUT.XML" deck_box_image="D13_VALAKUT" deck_box_image_locked="locked" content_pack="0" uid="902" preview_card="blanko" always_available="true" is_red="true" is_green="true">
+  <DECKSTATISTICS Size="6" Speed="8" Flex="4" Syn="6" />
+  <LandConfig minMountain="12" />
+  <CARD name="TERRAMORPHIC_EXPANSE_276987" deckOrderId="0" />
+  <CARD name="TERRAMORPHIC_EXPANSE_276987" deckOrderId="1" />
+  <CARD name="TERRAMORPHIC_EXPANSE_276987" deckOrderId="2" />
+  <CARD name="EVOLVING_WILDS_276846" deckOrderId="3" />
+  <CARD name="EVOLVING_WILDS_276846" deckOrderId="4" />
+  <CARD name="PRIMEVAL_TITAN_276965" deckOrderId="5" />
+  <CARD name="PRIMEVAL_TITAN_276965" deckOrderId="6" />
+  <CARD name="PRIMEVAL_TITAN_276965" deckOrderId="7" />
+  <CARD name="PRIMEVAL_TITAN_276965" deckOrderId="8" />
+  <CARD name="WURMCOIL_ENGINE_888207875" deckOrderId="9" />
+  <CARD name="WURMCOIL_ENGINE_888207875" deckOrderId="10" />
+  <CARD name="ORACLE_OF_MUL_DAYA_277371" deckOrderId="11" />
+  <CARD name="ORACLE_OF_MUL_DAYA_277371" deckOrderId="12" />
+  <CARD name="CULTIVATE_276891" deckOrderId="13" />
+  <CARD name="CULTIVATE_276891" deckOrderId="14" />
+  <CARD name="CULTIVATE_276891" deckOrderId="15" />
+  <CARD name="CULTIVATE_276891" deckOrderId="16" />
+  <CARD name="EXPLORE_888201578" deckOrderId="17" />
+  <CARD name="EXPLORE_888201578" deckOrderId="18" />
+  <CARD name="EXPLORE_888201578" deckOrderId="19" />
+  <CARD name="EXPLORE_888201578" deckOrderId="20" />
+  <CARD name="LIGHTNING_BOLT_276941" deckOrderId="21" />
+  <CARD name="LIGHTNING_BOLT_276941" deckOrderId="22" />
+  <CARD name="LIGHTNING_BOLT_276941" deckOrderId="23" />
+  <CARD name="LIGHTNING_BOLT_276941" deckOrderId="24" />
+  <CARD name="HARROW_180408" deckOrderId="25" />
+  <CARD name="HARROW_180408" deckOrderId="26" />
+  <CARD name="HARROW_180408" deckOrderId="27" />
+  <CARD name="AVENGER_OF_ZENDIKAR_277352" deckOrderId="28" />
+  <CARD name="AVENGER_OF_ZENDIKAR_277352" deckOrderId="29" />
+  <CARD name="AVENGER_OF_ZENDIKAR_277352" deckOrderId="30" />
+  <CARD name="VALAKUT_THE_MOLTEN_PINNACLE_190400" deckOrderId="31" />
+  <CARD name="VALAKUT_THE_MOLTEN_PINNACLE_190400" deckOrderId="32" />
+  <CARD name="VALAKUT_THE_MOLTEN_PINNACLE_190400" deckOrderId="33" />
+  <CARD name="VALAKUT_THE_MOLTEN_PINNACLE_190400" deckOrderId="34" />
+  <CARD name="KHALNI_HEART_EXPEDITION_186320" deckOrderId="35" />
+  <CARD name="KHALNI_HEART_EXPEDITION_186320" deckOrderId="36" />
+  <CARD name="KHALNI_HEART_EXPEDITION_186320" deckOrderId="37" />
+  <CARD name="KHALNI_HEART_EXPEDITION_186320" deckOrderId="38" />
+  <CARD name="WOODED_FOOTHILLS_39506" deckOrderId="39" />
+  <CARD name="WOODED_FOOTHILLS_39506" deckOrderId="40" />
+  <CARD name="WOODED_FOOTHILLS_39506" deckOrderId="41" />
+  <CARD name="WOODED_FOOTHILLS_39506" deckOrderId="42" />
+</DECK>

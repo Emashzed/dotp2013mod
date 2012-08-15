@@ -1,0 +1,80 @@
+﻿<?xml version='1.0'?>
+<CARD_V2>
+  <FILENAME text="MERCY_KILLING_888158771" />
+  <CARDNAME text="MERCY_KILLING" />
+  <TITLE>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Mercy Killing]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Uccisione Misericordiosa]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Gnadentod]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Euthanasie]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Muerte piadosa]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[安楽死]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[Mercy Killing]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Убийство из Сострадания]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Assassinato por Misericórdia]]></LOCALISED_TEXT>
+  </TITLE>
+  <MULTIVERSEID value="888158771" />
+  <ARTID value="888158771" />
+  <ARTIST name="Dave Kendall" />
+  <CASTING_COST cost="{2}{G/W}" />
+  <FLAVOURTEXT>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA["We will give you the peace you seek, though you may not yet know you seek it."]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA["Ti daremo la pace che stai cercando, anche se non ti sei ancora accorto di cercarla davvero."]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[„Wir geben dir den Frieden, den du suchst, auch wenn du noch nicht weißt, dass du ihn suchst."]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[« Nous vous donnerons la paix que vous cherchez, même si vous ignorez encore que vous la cherchez. »]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA["Te daremos la paz que buscas, aunque todavía no sepas que la buscas."]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[「お前が求めている平安を与えよう。もっとも、それを求めていることをまだ知りはしないだろうが。」]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA["We will give you the peace you seek, though you may not yet know you seek it."]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[«Мы подарим вам мир, который вы стремитесь обрести, хотя, может быть, пока сами того не знаете».]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA["Ele lhe dará a paz que procura, embora você possa ainda não saber que a procura."]]></LOCALISED_TEXT>
+  </FLAVOURTEXT>
+  <TYPE metaname="Instant" />
+  <EXPANSION value="DPG" />
+  <RARITY metaname="U" />
+  <SPELL_ABILITY dangerous="1" filter_zone="ZONE_IN_PLAY">
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Target creature's controller sacrifices it, then puts X 1/1 green and white Elf Warrior creature tokens onto the battlefield, where X is that creature's power.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Il controllore di una creatura bersaglio la sacrifica, poi mette in gioco X pedine creatura Guerriero Elfo 1/1 bianche e verdi, dove X è la forza di quella creatura.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Der Beherrscher einer Kreatur deiner Wahl opfert sie und bringt dann X 1/1 grüne und weiße (Elf, Krieger)-Kreaturenspielsteine ins Spiel, wobei X gleich der Stärke der Kreatur ist.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Le contrôleur de la créature ciblée la sacrifie, puis il met en jeu X jetons de créature 1/1 verte et blanche Elfe et Guerrier, X étant la force de cette créature.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[El controlador de la criatura objetivo la sacrifica, luego pone en juego X fichas de criatura Guerrero Elfo verdes y blancas 1/1, donde X es la fuerza de esa criatura.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[クリーチャー１体を対象とする。そのクリーチャーのコントローラーはそれを生け贄に捧げる。その後、緑であり白である１/１のエルフ・戦士・クリーチャー・トークンをＸ体場に出す。Ｘはそのクリーチャーのパワーに等しい。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[Target creature's controller sacrifices it, then puts X 1/1 green and white Elf Warrior creature tokens onto the battlefield, where X is that creature's power.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Игрок, контролирующий целевое существо, приносит его в жертву, затем кладет в игру X фишек существа 1/1 зеленый и белый Эльф Воин, где X — значение силы того существа.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[O controlador da criatura alvo sacrifica-a e coloca em jogo X fichas de criatura verde e branca 1/1 do tipo Elfo Guerreiro, sendo X igual ao poder daquela criatura.]]></LOCALISED_TEXT>
+    <TARGET_DEFINITION id="0">
+    local filter = Object():GetFilter()
+    filter:Clear()
+    filter:AddCardType( CARD_TYPE_CREATURE )
+    filter:SetHint( HINT_NEUTRAL, EffectController() )
+    filter:SetZone( ZONE_IN_PLAY )
+    </TARGET_DEFINITION>
+    <TARGET_DETERMINATION>
+    return AtLeastOneTargetFromDefinition(0)
+    </TARGET_DETERMINATION>
+    <PLAY_TIME_ACTION target_choosing="1">
+    EffectController():ChooseTarget( 0, "CARD_QUERY_CHOOSE_CREATURE_SACRIFICE_BY_CONTROLLER", EffectDC():Make_Targets(0) )
+    </PLAY_TIME_ACTION>
+    <RESOLUTION_TIME_ACTION>
+    local target = EffectDC():Get_Targets(0):Get_NthCardPtr(0)
+    local player = target:GetController()
+    if (target ~= nil and player ~= nil) then   
+		local token_count = target:GetCurrentPower()
+		target:Sacrifice(player)  
+		if token_count &gt; 0 then
+			MTG():PutTokensIntoPlay( "TOKEN_ELF_WARRIOR_1_1_GW_888280316", token_count, player )
+		end
+    end
+    </RESOLUTION_TIME_ACTION>
+  </SPELL_ABILITY>
+  <AI_AVAILABILITY type="in_response" />
+  <AI_AVAILABILITY step="begin_combat" turn="their_turn" />
+  <AI_AVAILABILITY step="main_1" turn="my_turn" />
+  <AI_AVAILABILITY step="declare_attackers" turn="their_turn" />
+  <AI_AVAILABILITY step="declare_blockers" />
+  <AI_AVAILABILITY step="end_of_turn" />
+  <AI_AVAILABILITY step="end_of_turn" turn="their_turn" />
+  <AI_AVAILABILITY step="declare_attackers" turn="their_turn" />
+  <AI_AVAILABILITY type="in_response_dangerous" />
+  <TOKEN_REGISTRATION reservation="1" type="TOKEN_ELF_WARRIOR_1_1_GW_888280316" />
+  <AI_BASE_SCORE score="1350" zone="ZONE_HAND" />
+</CARD_V2>

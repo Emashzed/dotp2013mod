@@ -1,0 +1,84 @@
+<?xml version='1.0'?>
+<CARD_V2>
+  <FILENAME text="STEAMCORE_WEIRD_278136" />
+  <CARDNAME text="STEAMCORE_WEIRD" />
+  <TITLE>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Steamcore Weird]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Anomalie au noyau de vapeur]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Extraño núcleo de vapor]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Dampfkern-Seltsamkeit]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Bizzarria Vapornucleo]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[蒸気核の奇魔]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[증기기관 위어드]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Парожарная Диковина]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Bizarro Âmago de Vapor]]></LOCALISED_TEXT>
+  </TITLE>
+  <MULTIVERSEID value="278136" />
+  <ARTID value="91811" />
+  <ARTIST name="Justin Norman" />
+  <CASTING_COST cost="{3}{U}" />
+  <FLAVOURTEXT>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Like many Izzet creations, weirds are based on wild contradictions yet somehow manage to work.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Comme beaucoup de créations des Izzet, les anomalies sont basées sur des contradictions naturelles, qui pourtant semblent fonctionner.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Al igual que muchas creaciones ízzet, los extraños se basan en contradicciones disparatadas, pero de alguna manera se las arreglan para funcionar.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Wie die meisten Geschöpfe der Izzet liegen auch den Seltsamkeiten wilde Theorien zugrunde, die aber irgendwie zu einem Ergebnis geführt haben.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Al pari di molte creazioni Izzet, le bizzarrie sono basate su feroci contraddizioni che tuttavia in un modo o nell’altro riescono a funzionare.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[他の多くのイゼットの製作物と同様に、奇魔はでたらめな矛盾をなんとか動くようにしたものだ。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[이젯 길드의 피조물이 원래 그렇듯이, 위어드는 모순되는 이론으로 만들어졌음에도 불구하고 신기하게도 제대로 작동한다.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Как и многие другие создания Иззетов, диковины основаны на жутких противоречиях, и все же они каким-то образом ухитряются работать.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Assim como várias criações Izzet, os bizarros são baseados em contradições espantosas, e ainda assim dão certo.]]></LOCALISED_TEXT>
+  </FLAVOURTEXT>
+  <TYPE metaname="Creature" />
+  <SUB_TYPE metaname="Weird" order_de-DE="0" order_es-ES="0" order_fr-FR="0" order_it-IT="0" order_jp-JA="0" order_ko-KR="0" order_pt-BR="0" order_ru-RU="0" />
+  <EXPANSION value="DPG" />
+  <RARITY metaname="C" />
+  <POWER value="1" />
+  <TOUGHNESS value="3" />
+  <TRIGGERED_ABILITY LKI_shield_effect_source="1" dangerous="1">
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[When Steamcore Weird enters the battlefield, if {R} was spent to cast Steamcore Weird, it deals 2 damage to target creature or player.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Quand l’Anomalie au noyau de vapeur arrive sur le champ de bataille, si {R} a été utilisé pour lancer l’Anomalie au noyau de vapeur, elle inflige 2 blessures à une cible, créature ou joueur.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Cuando el Extraño núcleo de vapor entre al campo de batalla, si se usó {R} para lanzarlo, le hace 2 puntos de daño a la criatura o jugador objetivo.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Wenn die Dampfkern-Seltsamkeit ins Spiel kommt, fügt sie einer Kreatur oder einem Spieler deiner Wahl 2 Schadenspunkte zu, falls {R} ausgegeben wurde, um die Dampfkern-Seltsamkeit zu wirken.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Quando la Bizzarria Vapornucleo entra nel campo di battaglia, se è stato speso {R} per lanciarla, infligge 2 danni a una creatura o a un giocatore bersaglio.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[蒸気核の奇魔が戦場に出たとき、蒸気核の奇魔を唱えるために{R}が支払われている場合、クリーチャー１体かプレイヤー１人を対象とする。蒸気核の奇魔はそれに２点のダメージを与える。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[증기기관 위어드가 전장에 들어올 때, 증기기관 위어드를 발동하는데 {R}를 지불했다면, 생물 한 개나 플레이어 한 명을 목표로 정한다. 증기기관 위어드는 그 목표에게 피해 2점을 입힌다.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Когда Парожарная Диковина выходит на поле битвы, если на ее разыгрывание была потрачена {R}, Парожарная Диковина наносит 2 повреждения целевому существу или игроку.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Quando Bizarro Âmago de Vapor entra no campo de batalha, se {R} tiver sido gasto para conjurar Bizarro Âmago de Vapor, ele causa 2 pontos de dano à criatura ou jogador alvo.]]></LOCALISED_TEXT>
+    <TRIGGER value="ZONECHANGE_END" simple_qualifier="self" to_zone="ZONE_IN_PLAY" from_zone="ZONE_ANY">
+    return Object():PaidForWithColour( COLOUR_RED ) == 1
+    </TRIGGER>
+    <TARGET_DEFINITION id="0">
+    local filter = Object():GetFilter()
+    filter:Clear()
+    filter:SetFilterType( FILTER_TYPE_CARDS + FILTER_TYPE_PLAYERS )
+    filter:SetZone( ZONE_IN_PLAY )
+    filter:SetHint( HINT_ENEMY_ONLY, EffectController() )
+    filter:AddCardType( CARD_TYPE_CREATURE )
+    </TARGET_DEFINITION>
+    <TARGET_DETERMINATION>
+    return AtLeastOneTargetFromDefinition(0)
+    </TARGET_DETERMINATION>
+    <PLAY_TIME_ACTION target_choosing="1">
+    EffectController():ChooseTarget( 0, "CARD_QUERY_CHOOSE_DEAL_2_DAMAGE", EffectDC():Make_Targets(0) )
+    </PLAY_TIME_ACTION>
+    <RESOLUTION_TIME_ACTION>
+    if Object():PaidForWithColour( COLOUR_RED ) then
+    	local target_creature = EffectDC():Get_Targets(0):Get_CardPtr(0)
+    	local target_player = EffectDC():Get_Targets(0):Get_PlayerPtr(0)
+    	local source = EffectSource()
+    	if source == nil then
+    	  source = Object()
+    	end
+    	if ( target_creature ~= nil ) then   
+    		target_creature:DealDamage(2, source)  
+    	elseif 
+    		( target_player ~= nil ) then   
+    		target_player:DealDamage(2, source)  
+    	end
+    end
+    </RESOLUTION_TIME_ACTION>
+  </TRIGGERED_ABILITY>
+  <SFX text="COMBAT_BLUNT_LARGE_ATTACK" power_boundary_min="4" power_boundary_max="-1" />
+  <SFX text="COMBAT_BLUNT_SMALL_ATTACK" power_boundary_min="1" power_boundary_max="3" />
+  <AI_BASE_SCORE score="600" zone="ZONE_HAND" />
+</CARD_V2>

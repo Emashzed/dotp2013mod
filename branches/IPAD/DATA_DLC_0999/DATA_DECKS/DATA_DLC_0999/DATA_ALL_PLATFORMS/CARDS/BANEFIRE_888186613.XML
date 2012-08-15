@@ -1,0 +1,100 @@
+﻿<?xml version='1.0'?>
+<CARD_V2>
+  <FILENAME text="BANEFIRE_888186613" />
+  <CARDNAME text="BANEFIRE" />
+  <TITLE>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Banefire]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Fuoco di Sventura]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Bannfeuer]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Pestefeu]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Fuego devastador]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[苦悩火]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[Banefire]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Губительное Пламя]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Fogo Devastador]]></LOCALISED_TEXT>
+  </TITLE>
+  <MULTIVERSEID value="888186613" />
+  <ARTID value="888186613" />
+  <ARTIST name="Raymond Swanland" />
+  <CASTING_COST cost="{X}{R}" />
+  <FLAVOURTEXT>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[For Sarkhan Vol, the dragon is the purest expression of life’s savage splendor.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Per Sarkhan Vol, il drago è la manifestazione più pura dello splendore selvaggio insito in ogni essenza vitale.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Für Sarkhan Vol ist ein Drache der reinste Ausdruck der Herrlichkeit des wilden Lebens.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Pour Sarkhan Vol, le dragon est l’expression la plus pure de la splendeur sauvage de la vie.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Para Sarkhan Vol, el dragón es la expresión más pura del esplendor de la vida salvaje.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[サルカン・ヴォルにとっては、ドラゴンは生命の野蛮な輝きの純然たる発現だ。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[For Sarkhan Vol, the dragon is the purest expression of life’s savage splendor.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Для Сархана Воля дракон — это чистейшее выражение дикого великолепия жизни.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Para Sarkhan Vol, o dragão é a expressão mais pura do esplendor selvagem da vida.]]></LOCALISED_TEXT>
+  </FLAVOURTEXT>
+  <TYPE metaname="Sorcery" />
+  <EXPANSION value="DPG" />
+  <RARITY metaname="R" />
+  <SPELL_ABILITY dangerous="1" filter_zone="ZONE_IN_PLAY">
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Banefire deals X damage to target creature or player.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Il Fuoco di Sventura infligge X danni a una creatura o a un giocatore bersaglio.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Das Bannfeuer fügt einer Kreatur oder einem Spieler deiner Wahl X Schadenspunkte zu.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[La Pestefeu inflige X blessures à une cible, créature ou joueur.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[El Fuego devastador hace X puntos de daño a la criatura o jugador objetivo.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[クリーチャー１体かプレイヤー１人を対象とする。苦悩火はそれにＸ点のダメージを与える。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[Banefire deals X damage to target creature or player.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Губительное Пламя наносит X повреждений целевому существу или игроку.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Fogo Devastador causa X pontos de dano à criatura ou ao jogador alvo.]]></LOCALISED_TEXT>
+    <TARGET_DEFINITION id="0">
+    local filter = Object():GetFilter()
+    filter:Clear()
+    filter:SetFilterType( FILTER_TYPE_CARDS + FILTER_TYPE_PLAYERS )
+    filter:SetZone( ZONE_IN_PLAY )
+    filter:SetHint( HINT_ENEMY_ONLY, EffectController() )
+    filter:AddCardType( CARD_TYPE_CREATURE )
+    </TARGET_DEFINITION>
+    <TARGET_DETERMINATION>
+    return AtLeastOneTargetFromDefinition(0)
+    </TARGET_DETERMINATION>
+    <PLAY_TIME_ACTION target_choosing="1">
+    EffectController():ChooseTarget( 0, "CARD_QUERY_CHOOSE_DEAL_X_DAMAGE", EffectDC():Make_Targets(0) )
+    </PLAY_TIME_ACTION>
+    <RESOLUTION_TIME_ACTION>
+    local target_creature = EffectDC():Get_Targets(0):Get_CardPtr(0)
+    local target_player = Object():GetTargetPlayer()
+    local source = EffectSource()
+    local damage = GetObjectX()
+    if source == nil then
+    	source = Object()
+    end
+    if damage &gt; 4 then
+    	if ( target_creature ~= nil ) then   
+    		target_creature:DealDamageFullParams(damage, source, 0, 1)  
+    	elseif ( target_player ~= nil ) then   
+    		target_player:DealDamageFullParams(damage, source, 0, 1)  
+    	end
+    else
+    	if ( target_creature ~= nil ) then   
+    		target_creature:DealDamage(damage, source)  
+    	elseif ( target_player ~= nil ) then   
+		target_player:DealDamage(damage, source)  
+    	end
+    end
+    </RESOLUTION_TIME_ACTION>
+    <SFX text="TARGET_FIREBALL_PLAY" />
+  </SPELL_ABILITY>
+  <STATIC_ABILITY filter_zone="ZONE_ANY" active_zone="ZONE_STACK">
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[If X is 5 or more, Banefire can’t be countered by spells or abilities and the damage can’t be prevented.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Se X è pari o superiore a 5, il Fuoco di Sventura non può essere neutralizzato da magie o abilità e il danno non può essere prevenuto.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Falls X 5 oder mehr beträgt, kann das Bannfeuer nicht von Zaubersprüchen oder Fähigkeiten neutralisiert werden, und der Schaden kann nicht verhindert werden.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Si X est supérieur ou égal à 5, la Pestefeu ne peut pas être contrecarrée par des sorts ou des capacités et les blessures ne peuvent pas être prévenues.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Si X es 5 o más, el Fuego devastador no puede ser contrarrestado por hechizos o habilidades y el daño no puede ser prevenido.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[Ｘが５以上である場合、苦悩火は呪文や能力によって打ち消されず、そのダメージは軽減されない。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[If X is 5 or more, Banefire can’t be countered by spells or abilities and the damage can’t be prevented.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Если X равен или превышает 5, Губительное Пламя не может быть отменено заклинаниями или способностями, и повреждения не могут быть предотвращены.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Se X for maior ou igual a 5, Fogo Devastador não poderá ser anulado por mágicas nem habilidades e o dano não poderá ser prevenido.]]></LOCALISED_TEXT>
+    <CONTINUOUS_ACTION>
+    if GetObjectX() &gt; 4 then
+    	local characteristics = Object():GetCurrentCharacteristics()
+    	characteristics:Characteristic_Set( CHARACTERISTIC_CANT_BE_COUNTERED, 1 )
+    end
+    </CONTINUOUS_ACTION>
+  </STATIC_ABILITY>
+  <AI_BASE_SCORE score="1200" zone="ZONE_HAND" />
+</CARD_V2>

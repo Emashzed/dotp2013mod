@@ -1,0 +1,68 @@
+﻿<?xml version='1.0'?>
+<CARD_V2>
+  <FILENAME text="PALADIN_EN_VEC_888129668" />
+  <CARDNAME text="PALADIN_EN_VEC" />
+  <TITLE>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Paladin en-Vec]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Paladino en-Vec]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Paladin en-Vec]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Paladin en-Vec]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Paladín en-Vec]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[ヴェクの聖騎士]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[Paladin en-Vec]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Паладин эн-Век]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Paladino en-Vec]]></LOCALISED_TEXT>
+  </TITLE>
+  <MULTIVERSEID value="888129668" />
+  <ARTID value="888129668" />
+  <ARTIST name="Dave Kendall" />
+  <CASTING_COST cost="{1}{W}{W}" />
+  <FLAVOURTEXT>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[“I do not consider myself a hero. I know only what the Vec teach: justice must always be served and corruption must always be opposed.”]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[“Non mi considero un eroe. So solo quello che insegnano i Vec: servi sempre la giustizia e combatti sempre la corruzione.”]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[„Ich halte mich nicht für einen Helden. Ich weiß nur, was die Vec mich gelehrt haben: Der Gerechtigkeit muss immer Genüge getan werden, die Korruption immer bekämpft.”]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[« Je ne me considère pas comme un héros. Je ne fais qu’appliquer les enseignements des Vecs : la justice doit toujours être servie et la corruption doit toujours être confrontée. »]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[“No me considero un héroe. Sólo sé lo que enseñan los Vec: la justicia debe defenderse y la corrupción debe ser enfrentada.”]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[自分が英雄とは思いません。 ただヴェクの教えを知るのみです。正義には仕えよ、堕落には対せよ、と。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[“I do not consider myself a hero. I know only what the Vec teach: justice must always be served and corruption must always be opposed.”]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[“Я не считаю себя героем. Я знаю только то, чему учат у Веков: всегда стоять на страже правосудия и всегда противостоять коррупции”.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[“Não me considero um herói. Sei apenas o que os Vec ensinam: a justiça deve ser sempre feita e a corrupção deve ser sempre combatida.”]]></LOCALISED_TEXT>
+  </FLAVOURTEXT>
+  <TYPE metaname="Creature" />
+  <SUB_TYPE metaname="Human" order_de-DE="0" order_es-ES="1" order_fr-FR="0" order_it-IT="1" order_jp-JA="0" order_ko-KR="0" order_pt-BR="0" order_ru-RU="0" />
+  <SUB_TYPE metaname="Knight" order_de-DE="1" order_es-ES="0" order_fr-FR="1" order_it-IT="0" order_jp-JA="1" order_ko-KR="1" order_pt-BR="1" order_ru-RU="1" />
+  <EXPANSION value="DPG" />
+  <RARITY metaname="R" />
+  <POWER value="2" />
+  <TOUGHNESS value="2" />
+  <STATIC_ABILITY>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[First strike, protection from black and from red |(This creature deals combat damage before creatures without first strike. It can’t be blocked, targeted, dealt damage, or enchanted by anything black or red.)|]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Attacco improvviso, protezione dal nero, protezione dal rosso |(Questa creatura infligge danno da combattimento prima delle creature senza attacco improvviso. Non può essere bloccata, bersagliata, non le può essere inflitto danno, né può essere incantata da nulla di nero o rosso.)|]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Erstschlag, Schutz vor Schwarz, Schutz vor Rot |(Diese Kreatur fügt Kampfschaden vor Kreaturen ohne Erstschlag zu. Sie kann von nichts Schwarzem oder Rotem geblockt oder als Ziel bestimmt werden, von ihm Schaden zugefügt bekommen oder von ihm verzaubert werden.)|]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Initiative, protection contre le noir, protection contre le rouge |(Cette créature inflige des blessures de combat avant les créatures sans l’initiative. Elle ne peut pas être bloquée, ciblée, blessée ou enchantée par une source noire ou rouge.)|]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Daña primero, protección contra negro, protección contra rojo. |(Esta criatura hace daño de combate antes que las criaturas sin la habilidad de dañar primero. Esta criatura no puede ser bloqueada, hecha objetivo, recibir daño de o estar encantada por nada negro o rojo.)|]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[先制攻撃、プロテクション（黒）、プロテクション（赤） （このクリーチャーは先制攻撃を持たないクリーチャーよりも先に戦闘ダメージを与える。 それは黒や赤の何かによって、ブロックされず、対象にならず、ダメージを与えられず、エンチャントされない。）]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[First strike, protection from black and from red |(This creature deals combat damage before creatures without first strike. It can’t be blocked, targeted, dealt damage, or enchanted by anything black or red.)|]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Первый удар, Защита от черного, Защита от красного |(Это существо наносит боевые повреждения раньше существ без Первого удара. Ни один черный или красный объект не может блокировать это существо, делать его своей целью, наносить ему повреждения и зачаровывать его.)|]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Iniciativa, proteção contra o preto, proteção contra o vermelho |(Esta criatura causa dano de combate antes de criaturas sem a habilidade de iniciativa. Esta criatura não pode ser bloqueada, ser alvo, sofrer dano, ou ser encantada por algo que seja preto ou vermelho.)|]]></LOCALISED_TEXT>
+    <CONTINUOUS_ACTION>
+    local characteristics = Object():GetCurrentCharacteristics()
+    characteristics:Characteristic_Set( CHARACTERISTIC_FIRST_STRIKE, 1 )
+    </CONTINUOUS_ACTION>
+  </STATIC_ABILITY>
+  <STATIC_ABILITY filter_zone="ZONE_IN_PLAY">
+    <CONTINUOUS_ACTION>
+    local filter = Object():GetFilter()
+    filter:Clear()
+    filter:AddColour( COLOUR_RED )
+    filter:AddColour( COLOUR_BLACK )
+    Object():Protection()
+    </CONTINUOUS_ACTION>
+  </STATIC_ABILITY>
+  <HELP title="MORE_INFO_BADGE_TITLE_0" body="MORE_INFO_BADGE_BODY_0" zone="ZONE_ANY" />
+  <HELP title="MORE_INFO_PROTECTION_BLACK_TITLE" body="MORE_INFO_PROTECTION_BLACK_BODY" zone="ZONE_IN_PLAY" zone_reverse="1" />
+  <HELP title="MORE_INFO_PROTECTION_RED_TITLE" body="MORE_INFO_PROTECTION_RED_BODY" zone="ZONE_IN_PLAY" zone_reverse="1" />
+  <SFX text="COMBAT_BLADE_LARGE_ATTACK" power_boundary_min="4" power_boundary_max="-1" />
+  <SFX text="COMBAT_BLADE_SMALL_ATTACK" power_boundary_min="1" power_boundary_max="3" />
+  <AI_BASE_SCORE score="450" zone="ZONE_IN_PLAY" />
+</CARD_V2>

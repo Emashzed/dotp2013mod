@@ -1,0 +1,87 @@
+<?xml version='1.0'?>
+<CARD_V2>
+  <FILENAME text="BLOODGHAST_284526" />
+  <CARDNAME text="BLOODGHAST" />
+  <TITLE>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Bloodghast]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Exécration de sang]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Espanto sangriento]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Blutschauderer]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Orrore Sanguinario]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[恐血鬼]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[블러드개스트]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Кровавый Призрак]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Terror Sanguinário]]></LOCALISED_TEXT>
+  </TITLE>
+  <MULTIVERSEID value="284526" />
+  <ARTID value="123734" />
+  <ARTIST name="Daarken" />
+  <CASTING_COST cost="{B}{B}" />
+  <TYPE metaname="Creature" />
+  <SUB_TYPE metaname="Vampire" order_de-DE="0" order_es-ES="1" order_fr-FR="0" order_it-IT="1" order_jp-JA="0" order_ko-KR="0" order_pt-BR="0" order_ru-RU="0" />
+  <SUB_TYPE metaname="Spirit" order_de-DE="1" order_es-ES="0" order_fr-FR="1" order_it-IT="0" order_jp-JA="1" order_ko-KR="1" order_pt-BR="1" order_ru-RU="1" />
+  <EXPANSION value="DPG" />
+  <RARITY metaname="R" />
+  <POWER value="2" />
+  <TOUGHNESS value="1" />
+  <STATIC_ABILITY filter_zone="ZONE_IN_PLAY">
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Bloodghast can’t block.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[L’Exécration de sang ne peut pas bloquer.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[El Espanto sangriento no puede bloquear.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Der Blutschauderer kann nicht blocken.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[L’Orrore Sanguinario non può bloccare.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[恐血鬼ではブロックできない。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[블러드개스트는 방어할 수 없다.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Кровавый Призрак не может блокировать.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Terror Sanguinário não pode bloquear.]]></LOCALISED_TEXT>
+    <CONTINUOUS_ACTION>
+    local characteristics = Object():GetCurrentCharacteristics()
+    characteristics:Characteristic_Set( CHARACTERISTIC_CANT_BLOCK, 1 )
+    </CONTINUOUS_ACTION>
+  </STATIC_ABILITY>
+  <STATIC_ABILITY filter_zone="ZONE_IN_PLAY">
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Bloodghast has haste as long as an opponent has 10 or less life.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[L’Exécration de sang a la célérité tant qu’un adversaire a 10 points de vie ou moins.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[El Espanto sangriento tiene la habilidad de prisa mientras un oponente tenga 10 o menos vidas.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Der Blutschauderer hat Eile, solange mindestens ein Gegner 10 Lebenspunkte oder weniger hat.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[L’Orrore Sanguinario ha rapidità fintanto che un avversario ha 10 o meno punti vita.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[恐血鬼は、いずれかの対戦相手のライフが10点以下であるかぎり速攻を持つ。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[어느 상대의 생명이 10점 이하인 한, 블러드개스트는 신속 능력을 가진다.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Кровавый Призрак имеет Ускорение, пока у оппонента не более 10 жизней.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Terror Sanguinário terá ímpeto enquanto um oponente tiver 10 ou menos pontos de vida.]]></LOCALISED_TEXT>
+    <CONTINUOUS_ACTION layer="6">
+    if AnyOpponentBloodied( Object():GetPlayer() ) then
+    	local characteristics = Object():GetCurrentCharacteristics()  
+    	characteristics:Characteristic_Set( CHARACTERISTIC_HASTE, 1 )  
+    end
+    </CONTINUOUS_ACTION>
+  </STATIC_ABILITY>
+  <TRIGGERED_ABILITY filter_zone="ZONE_IN_PLAY" active_zone="ZONE_GRAVEYARD">
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[|Landfall| — Whenever a land enters the battlefield under your control, you may return Bloodghast from your graveyard to the battlefield.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[|Toucheterre| — À chaque fois qu’un terrain arrive sur le champ de bataille sous votre contrôle, vous pouvez renvoyer l’Exécration de sang depuis votre cimetière sur le champ de bataille.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[|Aterrizaje| — Siempre que una tierra entre al campo de batalla bajo tu control, puedes regresar el Espanto sangriento de tu cementerio al campo de batalla.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[|Landung| — Immer wenn ein Land unter deiner Kontrolle ins Spiel kommt, kannst du den Blutschauderer aus deinem Friedhof zurück ins Spiel bringen.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[|Terraferma| — Ogniqualvolta una terra entra nel campo di battaglia sotto il tuo controllo, puoi rimettere sul campo di battaglia dal tuo cimitero l’Orrore Sanguinario.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[上陸 ― 土地が１つあなたのコントロール下で戦場に出るたび、あなたはあなたの墓地にある恐血鬼を戦場に戻してもよい。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[|상륙| — 대지가 당신의 조종하에 전장에 들어올 때마다, 당신은 블러드개스트를 당신의 무덤에서 전장으로 되돌릴 수 있다.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[|Землепад| — Каждый раз, когда земля выходит на поле битвы под вашим контролем, вы можете вернуть Кровавого Призрака из вашего кладбища на поле битвы.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[|Aterragem| — Toda vez que um terreno entra no campo de batalha sob o seu controle, você pode devolver Terror Sanguinário de seu cemitério para o campo de batalha.]]></LOCALISED_TEXT>
+    <RESOLUTION_TIME_ACTION>
+    if Object():GetZone() == ZONE_GRAVEYARD then     
+    	Object():PutIntoPlay( Object():GetOwner() )  
+    end
+    </RESOLUTION_TIME_ACTION>
+    <TRIGGER value="ZONECHANGE_END" to_zone="ZONE_IN_PLAY">
+    return (TriggerObject():GetCardType():Test( CARD_TYPE_LAND ) ~= 0 and TriggerObject():GetPlayer() == EffectController())
+    </TRIGGER>
+  </TRIGGERED_ABILITY>
+  <AI_CUSTOM_SCORE>
+  return -60
+  </AI_CUSTOM_SCORE>
+  <HELP title="MORE_INFO_BADGE_TITLE_14" body="MORE_INFO_BADGE_BODY_14" zone="ZONE_ANY" />
+  <SFX text="COMBAT_FANG_LARGE_ATTACK" power_boundary_min="4" power_boundary_max="-1" />
+  <SFX text="COMBAT_FANG_SMALL_ATTACK" power_boundary_min="1" power_boundary_max="3" />
+  <AI_BASE_SCORE score="-300" zone="ZONE_IN_PLAY" />
+  <AI_BASE_SCORE score="-150" zone="ZONE_GRAVEYARD" />
+  <AI_BASE_SCORE score="-1500" zone="ZONE_HAND" />
+</CARD_V2>

@@ -1,0 +1,70 @@
+﻿<?xml version='1.0'?>
+<CARD_V2>
+  <FILENAME text="BLACK_SUNS_ZENITH_888214061" />
+  <CARDNAME text="BLACK_SUNS_ZENITH" />
+  <TITLE>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Black Sun’s Zenith]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Zenit der Schwarzen Sonne]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Cenit del sol negro]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Zénith de Noirsoleil]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Zenit del Sole Nero]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[黒(くろ)の太(たい)陽(よう)の頂(ちょう)点(てん)]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[Black Sun’s Zenith]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Зенит Черного Солнца]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Zênite do Sol Negro]]></LOCALISED_TEXT>
+  </TITLE>
+  <MULTIVERSEID value="888214061" />
+  <ARTID value="888214061" />
+  <ARTIST name="Daniel Ljunggren" />
+  <CASTING_COST cost="{X}{B}{B}" />
+  <FLAVOURTEXT>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[“Under the suns, Mirrodin kneels and begs us for perfection.”
+—Geth, Lord of the Vault]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[“Sotto i soli, Mirrodin si inginocchia e ci supplica di mostrargli la perfezione.”
+—Geth, Signore della Cripta]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[„Unter den Sonnen geht Mirrodin in die Knie und bettelt uns nach Perfektion an.”
+—Geth, Fürst der Gruft]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[« Sous les soleils, Mirrodin se prosterne et nous supplie de lui apporter la perfection. »
+—Geth, seigneur du Caveau]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[“Bajo los soles, Mirrodin se arrodilla y nos ruega perfección.”
+—Geth, Señor de la Bóveda]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[「この太陽の下で、ミラディンはひざまずき完成を請うであろう。」
+――大霊堂の王、ゲス]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[“Under the suns, Mirrodin kneels and begs us for perfection.”
+—Geth, Lord of the Vault]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[«Под лучами своих солнц Мирродин падает на колени и умоляет нас о совершенстве».
+— Гет, повелитель Подземелья]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[“Sob os sóis, Mirrodin ajoelha-se e nos implora pela perfeição.”
+— Geth, Senhor da Câmara]]></LOCALISED_TEXT>
+  </FLAVOURTEXT>
+  <TYPE metaname="Sorcery" />
+  <EXPANSION value="DPG" />
+  <RARITY metaname="R" />
+  <SPELL_ABILITY dangerous="1" filter_zone="ZONE_IN_PLAY">
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Put X -1/-1 counters on each creature. Shuffle Black Sun’s Zenith into its owner’s library.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Lege X -1/-1-Marken auf alle Kreaturen. Mische den Zenit der Schwarzen Sonne in die Bibliothek seines Besitzers.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Mettez X marqueurs -1/-1 sur chaque créature. Mélangez le Zénith de Noirsoleil dans la bibliothèque de son propriétaire.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Pon X contadores -1/-1 sobre cada criatura. Baraja el Cenit del sol negro en la biblioteca de su propietario.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Metti X segnalini -1/-1 su ogni creatura. Rimescola lo Zenit del Sole Nero nel grimorio del suo proprietario.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[各クリーチャーの上に－１/－１カウンターをＸ個ずつ置く。 黒の太陽の頂点をオーナーのライブラリーに加えて切り直す。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[Put X -1/-1 counters on each creature. Shuffle Black Sun’s Zenith into its owner’s library.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Положите X жетонов -1/-1 на каждое существо. Втасуйте Зенит Черного Солнца в библиотеку его владельца.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Coloque X marcadores -1/-1 sobre cada criatura. Embaralhe Zênite do Sol Negro no grimório de seu dono.]]></LOCALISED_TEXT>
+    <FILTER>
+    return (FilteredCard() ~= nil and 
+    FilteredCard():GetCardType():Test( CARD_TYPE_CREATURE ) ~= 0 and 
+    FilteredCard():GetZone() == (ZONE_IN_PLAY))
+    </FILTER>
+    <RESOLUTION_TIME_ACTION>
+    local counters = GetObjectX()
+    if FilteredCard() ~= nil then
+    	FilteredCard():AddCounters( MTG():MinusOneMinusOneCounters(), counters )
+    end
+    </RESOLUTION_TIME_ACTION>
+    <RESOLUTION_TIME_ACTION ignore_filter="1">
+    Object():SetResolutionZone(ZONE_LIBRARY)
+    </RESOLUTION_TIME_ACTION>
+    <SFX text="GLOBAL_DEATH_PLAY" />
+  </SPELL_ABILITY>
+  <AI_BASE_SCORE score="1800" zone="ZONE_HAND" />
+</CARD_V2>

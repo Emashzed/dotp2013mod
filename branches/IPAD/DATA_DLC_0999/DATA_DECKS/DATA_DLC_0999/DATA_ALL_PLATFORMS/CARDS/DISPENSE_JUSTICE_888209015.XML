@@ -1,0 +1,115 @@
+﻿<?xml version='1.0'?>
+<CARD_V2>
+  <FILENAME text="DISPENSE_JUSTICE_888209015" />
+  <CARDNAME text="DISPENSE_JUSTICE" />
+  <TITLE>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Dispense Justice]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Dispensare Giustizia]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Recht sprechen]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Prononcer la justice]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Dispensar justicia]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[正義の施行]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[Dispense Justice]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Вершить Правосудие]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Fazer Justiça]]></LOCALISED_TEXT>
+  </TITLE>
+  <MULTIVERSEID value="888209015" />
+  <ARTID value="888209015" />
+  <ARTIST name="Austin Hsu" />
+  <CASTING_COST cost="{2}{W}" />
+  <FLAVOURTEXT>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[The Accorders never strike first, but they always strike back.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[I Concordi non colpiscono mai per primi, ma restituiscono sempre il colpo.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Die Harmonier schlagen nie zuerst zu, aber immer zurück.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Les Accordeurs ne frappent jamais les premiers, mais ils ripostent toujours.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Los acordantes nunca golpean primero, pero siempre devuelven el golpe.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[調和者隊は先制攻撃に出ることは無いが、確実に反撃する。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[The Accorders never strike first, but they always strike back.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Согласители никогда не наносят первый удар, но всегда наносят ответный.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Os Concordantes nunca atacam primeiro, mas sempre revidam o ataque.]]></LOCALISED_TEXT>
+  </FLAVOURTEXT>
+  <TYPE metaname="Instant" />
+  <EXPANSION value="DPG" />
+  <RARITY metaname="U" />
+  <SPELL_ABILITY dangerous="1" filter_zone="ZONE_IN_PLAY">
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Target player sacrifices an attacking creature.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Un giocatore bersaglio sacrifica una creatura attaccante.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Ein Spieler deiner Wahl opfert eine angreifende Kreatur.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Le joueur ciblé sacrifie une créature attaquante.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[El jugador objetivo sacrifica una criatura atacante.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[プレイヤー１人を対象とする。そのプレイヤーは攻撃クリーチャーを１体生け贄に捧げる。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[Target player sacrifices an attacking creature.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Целевой игрок приносит в жертву атакующее существо.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[O jogador alvo sacrifica uma criatura atacante.]]></LOCALISED_TEXT>
+    <TARGET_DEFINITION id="0">
+    local filter = Object():GetFilter()
+    filter:Clear()
+    filter:SetFilterType( FILTER_TYPE_PLAYERS )
+    filter:SetHint( HINT_ENEMY_ONLY, EffectController() )
+    </TARGET_DEFINITION>
+    <TARGET_DETERMINATION>
+    return AtLeastOneTargetFromDefinition(0)
+    </TARGET_DETERMINATION>
+    <PLAY_TIME_ACTION target_choosing="1">
+    EffectController():ChooseTarget( 0, "CARD_QUERY_CHOOSE_PLAYER_TO_SACRIFICE_ATTACKING_CREATURE", EffectDC():Make_Targets(0) )
+    </PLAY_TIME_ACTION>
+    <RESOLUTION_TIME_ACTION>
+    local total = 0
+    local filter = Object():GetFilter()
+    filter:Clear()
+    filter:SetZone( ZONE_IN_PLAY )
+    filter:AddCardType( CARD_TYPE_ARTIFACT )
+    filter:SetController( EffectController() )
+    filter:NotTargetted()
+    total = filter:CountStopAt( 3 )
+    local player = EffectDC():Get_Targets(0):Get_PlayerPtr(0)
+	if (player ~= nil) then
+		filter:Clear()
+		filter:SetPlayer( player )
+		filter:SetZone( ZONE_IN_PLAY )
+		filter:AddCardType( CARD_TYPE_CREATURE )
+		filter:AddExtra( FILTER_EXTRA_CREATURE_ATTACKING )
+		filter:NotTargetted()
+		filter:SetHint( HINT_ENEMY, player )
+		if total == 3 then 
+			player:SetTargetCount(2)
+			player:SetTargetPrompt( 0, "CARD_QUERY_CHOOSE_CREATURE_TO_SACRIFICE" )
+			player:SetTargetPrompt( 1, "CARD_QUERY_CHOOSE_ANOTHER_CREATURE_TO_SACRIFICE" )
+			player:ChooseTargets( NO_VALIDATION, EffectDC():Make_Targets(1) )
+		else
+			player:SetTargetCount(1)
+			player:SetTargetPrompt( 0, "CARD_QUERY_CHOOSE_CREATURE_TO_SACRIFICE" )
+			player:ChooseTargets( NO_VALIDATION, EffectDC():Make_Targets(1) )
+		end
+	end
+    </RESOLUTION_TIME_ACTION>
+    <RESOLUTION_TIME_ACTION>
+    local target_array = {}    
+    for i=0,1 do    
+    	target_array[i] = EffectDC():Get_Targets(1):Get_NthCardPtr(i)  
+    end    
+    for i=0,1 do    
+    	if target_array[i] ~= nil then
+		local player = target_array[i]:GetPlayer()
+    		target_array[i]:Sacrifice(player) 
+    	end  
+    end
+    </RESOLUTION_TIME_ACTION>
+  </SPELL_ABILITY>
+  <SPELL_ABILITY internal="1">
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[|Metalcraft| — That player sacrifices two attacking creatures instead if you control three or more artifacts.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[|Metallurgia| — Quel giocatore sacrifica invece due creature attaccanti se controlli tre o più artefatti.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[|Metallkunst| — Falls du drei oder mehr Artefakte kontrollierst, opfert dieser Spieler stattdessen zwei angreifende Kreaturen.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[|Art des métaux| — Ce joueur sacrifie deux créatures attaquantes à la place si vous contrôlez au moins trois artefacts.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[|Metalurgia| — Ese jugador sacrifica dos criaturas atacantes en vez de eso si tú controlas tres o más artefactos.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[金属術 ― あなたが３つ以上のアーティファクトをコントロールしている場合、代わりにそのプレイヤーは攻撃クリーチャーを２体生け贄に捧げる。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[|Metalcraft| — That player sacrifices two attacking creatures instead if you control three or more artifacts.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[|Работа по металлу| — Тот игрок приносит в жертву два атакующих существа вместо этого, если вы контролируете не менее трех артефактов.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[|Maestria com Metais| — Se você controlar três ou mais artefatos, em vez disso, aquele jogador sacrificará duas criaturas atacantes.]]></LOCALISED_TEXT>
+  </SPELL_ABILITY>
+  <AI_AVAILABILITY type="in_response" />
+  <AI_AVAILABILITY step="begin_combat" turn="their_turn" />
+  <AI_AVAILABILITY step="declare_attackers" turn="their_turn" />
+  <AI_AVAILABILITY step="declare_blockers" />
+  <AI_BASE_SCORE score="1200" zone="ZONE_HAND" />
+</CARD_V2>

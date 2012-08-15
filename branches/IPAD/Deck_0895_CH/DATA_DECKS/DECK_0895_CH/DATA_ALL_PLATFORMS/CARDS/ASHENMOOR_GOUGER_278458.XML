@@ -1,0 +1,55 @@
+<?xml version='1.0'?>
+<CARD_V2>
+  <FILENAME text="ASHENMOOR_GOUGER_278458" />
+  <CARDNAME text="ASHENMOOR_GOUGER" />
+  <TITLE>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Ashenmoor Gouger]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Évideur de Cendrelande]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Mellador de Páramo Ceniciento]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Aschenmoorgauner]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Perforatore della Brughiera Grigia]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[アッシェンムーアの抉り出し]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[애쉔무어 송곳손]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Бурав Выжженной Пустоши]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Goivador do Pântano das Cinzas]]></LOCALISED_TEXT>
+  </TITLE>
+  <MULTIVERSEID value="278458" />
+  <ARTID value="111890" />
+  <ARTIST name="Matt Cavotta" />
+  <CASTING_COST cost="{B/R}{B/R}{B/R}" />
+  <FLAVOURTEXT>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[After his hands had crumbled away, leaving only wickedly sharp points, he decided his only purpose was war.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Quand ses mains furent tombées en cendres, ne lui laissant que des os griffus, il décida qu’il n’avait plus qu’une fonction : la guerre.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Después de que sus manos se gastaron, dejándolo sólo con puntas afiladas, decidió que su único propósito sería la guerra.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Nachdem seine Hände abgefallen waren und nur noch spitze Enden hervorragten, beschloss er, dass sein einziges Lebensziel ab jetzt der Krieg war.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Dopo che le sue mani si furono sbriciolate, lasciandogli crudeli punte affilate, decise che il suo unico scopo sarebbe stato la guerra.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[手が崩れ去り、尖った先のみが奇妙にも残されたと知ったとき、彼は自身の目的は戦争しかないと決めた。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[그 정령은 자신의 손이 부스러져 무시무시하게 날카로운 모습으로 바뀌자 자신에게 남은 유일한 목적은 전쟁이라고 믿게 되었다.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[После того как руки его искрошились, и вместо них остались лишь ужасные заостренные концы, он решил, что его единственным делом будет война.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Depois que suas mãos se fragmentaram, deixando apenas terríveis pontas afiadas, ele decidiu que seu único propósito era a guerra.]]></LOCALISED_TEXT>
+  </FLAVOURTEXT>
+  <TYPE metaname="Creature" />
+  <SUB_TYPE metaname="Elemental" order_de-DE="0" order_es-ES="1" order_fr-FR="0" order_it-IT="1" order_jp-JA="0" order_ko-KR="0" order_pt-BR="0" order_ru-RU="0" />
+  <SUB_TYPE metaname="Warrior" order_de-DE="1" order_es-ES="0" order_fr-FR="1" order_it-IT="0" order_jp-JA="1" order_ko-KR="1" order_pt-BR="1" order_ru-RU="1" />
+  <EXPANSION value="DPG" />
+  <RARITY metaname="U" />
+  <POWER value="4" />
+  <TOUGHNESS value="4" />
+  <STATIC_ABILITY filter_zone="ZONE_IN_PLAY">
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Ashenmoor Gouger can’t block.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[L’Évideur de Cendrelande ne peut pas bloquer.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[El Mellador de Páramo Ceniciento no puede bloquear.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Der Aschenmoorgauner kann nicht blocken.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Il Perforatore della Brughiera Grigia non può bloccare.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[アッシェンムーアの抉り出しではブロックできない。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[애쉔무어 송곳손은 방어할 수 없다.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Бурав Выжженной Пустоши не может блокировать.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Goivador do Pântano das Cinzas não pode bloquear.]]></LOCALISED_TEXT>
+    <CONTINUOUS_ACTION>
+    local characteristics = Object():GetCurrentCharacteristics()
+    characteristics:Characteristic_Set( CHARACTERISTIC_CANT_BLOCK, 1 )
+    </CONTINUOUS_ACTION>
+  </STATIC_ABILITY>
+  <SFX text="COMBAT_CLAW_LARGE_ATTACK" power_boundary_min="4" power_boundary_max="-1" />
+  <SFX text="COMBAT_CLAW_SMALL_ATTACK" power_boundary_min="1" power_boundary_max="3" />
+</CARD_V2>

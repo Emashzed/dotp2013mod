@@ -1,0 +1,186 @@
+﻿<?xml version='1.0'?>
+<CARD_V2>
+  <FILENAME text="SUNDERING_TITAN_888220533" />
+  <CARDNAME text="SUNDERING_TITAN" />
+  <TITLE>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Sundering Titan]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Titano Frantumatore]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Trennender Titan]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Titan morceleur]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Titán quebrador]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[隔離するタイタン]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[Sundering Titan]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Sundering Titan]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Titã Esfacelador]]></LOCALISED_TEXT>
+  </TITLE>
+  <MULTIVERSEID value="888220533" />
+  <ARTID value="888220533" />
+  <ARTIST name="Jim Murray" />
+  <CASTING_COST cost="{8}" />
+  <TYPE metaname="Artifact" />
+  <TYPE metaname="Creature" />
+  <SUB_TYPE metaname="Golem" order_de-DE="0" order_es-ES="0" order_fr-FR="0" order_it-IT="0" order_jp-JA="0" order_ko-KR="0" order_pt-BR="0" order_ru-RU="0" />
+  <EXPANSION value="DPG" />
+  <RARITY metaname="R" />
+  <POWER value="7" />
+  <TOUGHNESS value="10" />
+  <TRIGGERED_ABILITY dangerous="1" filter_zone="ZONE_IN_PLAY">
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[When Sundering Titan enters the battlefield or leaves the battlefield, choose a land of each basic land type, then destroy those lands.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Quando il Titano Frantumatore entra in gioco, scegli una terra di ciascun tipo di terra base, poi distruggi quelle terre.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Wenn der Trennende Titan ins Spiel kommt, bestimme ein Land jedes Standardlandtyps und zerstöre dann diese Länder.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Quand le Titan morceleur arrive en jeu, choisissez un terrain de chaque type de terrain de base, puis détruisez ces terrains.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Cuando el Titán quebrador entre en juego, elige una tierra de cada tipo de tierra básico y luego destruye esas tierras.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[隔離するタイタンが場に出たとき、各基本地形タイプの土地をそれぞれ１枚ずつ選び、その後それらの土地を破壊する。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[When Sundering Titan enters the battlefield or leaves the battlefield, choose a land of each basic land type, then destroy those lands.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[When Sundering Titan enters the battlefield or leaves the battlefield, choose a land of each basic land type, then destroy those lands.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Quando Titã Esfacelador entra em jogo, escolha um terreno de cada um dos tipos de terreno básico e depois destrua aqueles terrenos.]]></LOCALISED_TEXT>
+    <TRIGGER value="ZONECHANGE_END" simple_qualifier="self" to_zone="ZONE_IN_PLAY" />
+	<TARGET_DEFINITION id="0">
+    local filter = Object():GetFilter()
+    filter:Clear()
+    filter:NotTargetted()
+    filter:AddSubType( LAND_TYPE_PLAINS )
+    filter:SetZone( ZONE_IN_PLAY )
+    filter:SetHint( HINT_NEUTRAL, EffectController() )
+    </TARGET_DEFINITION>
+	<TARGET_DEFINITION id="1">
+    local filter = Object():GetFilter()
+    filter:Clear()
+    filter:NotTargetted()
+    filter:AddSubType( LAND_TYPE_ISLAND )
+    filter:SetZone( ZONE_IN_PLAY )
+    filter:SetHint( HINT_NEUTRAL, EffectController() )
+    </TARGET_DEFINITION>
+	<TARGET_DEFINITION id="2">
+    local filter = Object():GetFilter()
+    filter:Clear()
+    filter:NotTargetted()
+    filter:AddSubType( LAND_TYPE_SWAMP )
+    filter:SetZone( ZONE_IN_PLAY )
+    filter:SetHint( HINT_NEUTRAL, EffectController() )
+    </TARGET_DEFINITION>
+	<TARGET_DEFINITION id="3">
+    local filter = Object():GetFilter()
+    filter:Clear()
+    filter:NotTargetted()
+    filter:AddSubType( LAND_TYPE_MOUNTAIN )
+    filter:SetZone( ZONE_IN_PLAY )
+    filter:SetHint( HINT_NEUTRAL, EffectController() )
+    </TARGET_DEFINITION>
+	<TARGET_DEFINITION id="4">
+    local filter = Object():GetFilter()
+    filter:Clear()
+    filter:NotTargetted()
+    filter:AddSubType( LAND_TYPE_FOREST )
+    filter:SetZone( ZONE_IN_PLAY )
+    filter:SetHint( HINT_NEUTRAL, EffectController() )
+    </TARGET_DEFINITION>
+	<RESOLUTION_TIME_ACTION target_choosing="1">
+    local effectController = EffectController()                        
+    effectController:ChooseTarget( 0, "CARD_QUERY_CHOOSE_LAND_PLAINS_TO_DESTROY", EffectDC():Make_Targets( 0 ) )
+    </RESOLUTION_TIME_ACTION>
+	<RESOLUTION_TIME_ACTION target_choosing="1">
+    local effectController = EffectController()                        
+    effectController:ChooseTarget( 1, "CARD_QUERY_CHOOSE_LAND_ISLAND_TO_DESTROY", EffectDC():Make_Targets( 1 ) )
+    </RESOLUTION_TIME_ACTION>
+	<RESOLUTION_TIME_ACTION target_choosing="1">
+    local effectController = EffectController()                        
+    effectController:ChooseTarget( 2, "CARD_QUERY_CHOOSE_LAND_SWAMP_TO_DESTROY", EffectDC():Make_Targets( 2 ) )
+    </RESOLUTION_TIME_ACTION>
+	<RESOLUTION_TIME_ACTION target_choosing="1">
+    local effectController = EffectController()                        
+    effectController:ChooseTarget( 3, "CARD_QUERY_CHOOSE_LAND_MOUNTAIN_TO_DESTROY", EffectDC():Make_Targets( 3 ) )
+    </RESOLUTION_TIME_ACTION>
+	<RESOLUTION_TIME_ACTION target_choosing="1">
+    local effectController = EffectController()                        
+    effectController:ChooseTarget( 4, "CARD_QUERY_CHOOSE_LAND_FOREST_TO_DESTROY", EffectDC():Make_Targets( 4 ) )
+    </RESOLUTION_TIME_ACTION>
+	<RESOLUTION_TIME_ACTION>
+	  local target_array = {}    
+      for i=0,4 do    
+		target_array[i] = EffectDC():Get_Targets(i):Get_NthCardPtr(0)  
+      end    
+      for i=0,4 do    
+		if target_array[i] ~= nil then
+			target_array[i]:Destroy()
+		end  
+      end
+    </RESOLUTION_TIME_ACTION>
+  </TRIGGERED_ABILITY>
+  <TRIGGERED_ABILITY dangerous="1" filter_zone="ZONE_IN_PLAY" active_zone="ZONE_ANY">
+    <TRIGGER value="ZONECHANGE_END" simple_qualifier="self" to_zone="ZONE_ANY" from_zone="ZONE_IN_PLAY" />
+	<TARGET_DEFINITION id="0">
+    local filter = Object():GetFilter()
+    filter:Clear()
+    filter:NotTargetted()
+    filter:AddSubType( LAND_TYPE_PLAINS )
+    filter:SetZone( ZONE_IN_PLAY )
+    filter:SetHint( HINT_NEUTRAL, EffectController() )
+    </TARGET_DEFINITION>
+	<TARGET_DEFINITION id="1">
+    local filter = Object():GetFilter()
+    filter:Clear()
+    filter:NotTargetted()
+    filter:AddSubType( LAND_TYPE_ISLAND )
+    filter:SetZone( ZONE_IN_PLAY )
+    filter:SetHint( HINT_NEUTRAL, EffectController() )
+    </TARGET_DEFINITION>
+	<TARGET_DEFINITION id="2">
+    local filter = Object():GetFilter()
+    filter:Clear()
+    filter:NotTargetted()
+    filter:AddSubType( LAND_TYPE_SWAMP )
+    filter:SetZone( ZONE_IN_PLAY )
+    filter:SetHint( HINT_NEUTRAL, EffectController() )
+    </TARGET_DEFINITION>
+	<TARGET_DEFINITION id="3">
+    local filter = Object():GetFilter()
+    filter:Clear()
+    filter:NotTargetted()
+    filter:AddSubType( LAND_TYPE_MOUNTAIN )
+    filter:SetZone( ZONE_IN_PLAY )
+    filter:SetHint( HINT_NEUTRAL, EffectController() )
+    </TARGET_DEFINITION>
+	<TARGET_DEFINITION id="4">
+    local filter = Object():GetFilter()
+    filter:Clear()
+    filter:NotTargetted()
+    filter:AddSubType( LAND_TYPE_FOREST )
+    filter:SetZone( ZONE_IN_PLAY )
+    filter:SetHint( HINT_NEUTRAL, EffectController() )
+    </TARGET_DEFINITION>
+	<RESOLUTION_TIME_ACTION target_choosing="1">
+    local effectController = EffectController()                        
+    effectController:ChooseTarget( 0, "CARD_QUERY_CHOOSE_LAND_PLAINS_TO_DESTROY", EffectDC():Make_Targets( 0 ) )
+    </RESOLUTION_TIME_ACTION>
+	<RESOLUTION_TIME_ACTION target_choosing="1">
+    local effectController = EffectController()                        
+    effectController:ChooseTarget( 1, "CARD_QUERY_CHOOSE_LAND_ISLAND_TO_DESTROY", EffectDC():Make_Targets( 1 ) )
+    </RESOLUTION_TIME_ACTION>
+	<RESOLUTION_TIME_ACTION target_choosing="1">
+    local effectController = EffectController()                        
+    effectController:ChooseTarget( 2, "CARD_QUERY_CHOOSE_LAND_SWAMP_TO_DESTROY", EffectDC():Make_Targets( 2 ) )
+    </RESOLUTION_TIME_ACTION>
+	<RESOLUTION_TIME_ACTION target_choosing="1">
+    local effectController = EffectController()                        
+    effectController:ChooseTarget( 3, "CARD_QUERY_CHOOSE_LAND_MOUNTAIN_TO_DESTROY", EffectDC():Make_Targets( 3 ) )
+    </RESOLUTION_TIME_ACTION>
+	<RESOLUTION_TIME_ACTION target_choosing="1">
+    local effectController = EffectController()                        
+    effectController:ChooseTarget( 4, "CARD_QUERY_CHOOSE_LAND_FOREST_TO_DESTROY", EffectDC():Make_Targets( 4 ) )
+    </RESOLUTION_TIME_ACTION>
+	<RESOLUTION_TIME_ACTION>
+	  local target_array = {}    
+      for i=0,4 do    
+		target_array[i] = EffectDC():Get_Targets(i):Get_NthCardPtr(0)  
+      end    
+      for i=0,4 do    
+		if target_array[i] ~= nil then
+			target_array[i]:Destroy()
+		end  
+      end
+    </RESOLUTION_TIME_ACTION>
+  </TRIGGERED_ABILITY>
+  <SFX text="COMBAT_CHOP_LARGE_ATTACK" power_boundary_min="4" power_boundary_max="-1" />
+  <SFX text="COMBAT_CHOP_SMALL_ATTACK" power_boundary_min="1" power_boundary_max="3" />
+</CARD_V2>

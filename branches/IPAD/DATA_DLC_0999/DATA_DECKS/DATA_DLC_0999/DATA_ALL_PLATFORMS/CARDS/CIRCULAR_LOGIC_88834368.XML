@@ -1,0 +1,127 @@
+﻿<?xml version='1.0'?>
+<CARD_V2>
+  <FILENAME text="CIRCULAR_LOGIC_88834368" />
+  <CARDNAME text="CIRCULAR_LOGIC" />
+  <TITLE>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Circular Logic]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Logica Circolare]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Kreisende Logik]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Logique circulaire]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Lógica circular]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[Circular Logic]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[Circular Logic]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Circular Logic]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Lógica Circular]]></LOCALISED_TEXT>
+  </TITLE>
+  <MULTIVERSEID value="88834368" />
+  <ARTID value="88834368" />
+  <ARTIST name="Anthony S. Waters" />
+  <CASTING_COST cost="{2}{U}" />
+  <TYPE metaname="Instant" />
+  <EXPANSION value="DPG" />
+  <RARITY metaname="U" />
+  <SPELL_ABILITY filter_zone="ZONE_IN_PLAY">
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Counter target spell unless its controller pays {1} for each card in your graveyard.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Neutralizza una magia bersaglio a meno che il suo controllore spenda {1} per ogni carta presente nel tuo cimitero.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Neutralisiere einen Zauberspruch deiner Wahl, falls dessen Beherrscher nicht für jede Karte in deinem Friedhof {1} bezahlt.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Contrecarrez le sort ciblé à moins que son contrôleur ne paye {1} pour chaque carte dans votre cimetière.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Contrarresta el hechizo objetivo a menos que su controlador pague {1} por cada carta que haya en tu cementerio.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[Counter target spell unless its controller pays {1} for each card in your graveyard.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[Counter target spell unless its controller pays {1} for each card in your graveyard.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Counter target spell unless its controller pays {1} for each card in your graveyard.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Anula a mágica alvo a menos que seu controlador pague {1} para cada card em seu cemitério.]]></LOCALISED_TEXT>
+    <TARGET_DEFINITION id="0">
+    local filter = Object():GetFilter()
+    filter:Clear()
+    filter:SetZone( ZONE_STACK )
+    filter:SetStackObjectType( STACK_OBJECT_CARD )
+    filter:SetHint( HINT_ENEMY_ONLY, EffectController() )
+    </TARGET_DEFINITION>
+    <TARGET_DETERMINATION>
+    return AtLeastOneTargetFromDefinition(0)
+    </TARGET_DETERMINATION>
+    <PLAY_TIME_ACTION target_choosing="1">
+    EffectController():ChooseTarget( 0, "CARD_QUERY_CHOOSE_SPELL_TO_COUNTER", EffectDC():Make_Targets(1) )
+    </PLAY_TIME_ACTION>
+    <RESOLUTION_TIME_ACTION>
+	local amount = CountCardsInGraveyard( EffectController() )
+    local target_spell = EffectDC():Get_Targets(1):Get_CardPtr(0)
+    local player = target_spell:GetPlayer()
+    if player ~= nil then
+		player:SetCustomQueryInstructionValue( amount )
+    	if player:CanAfford("{"..amount.."}") == 1 then
+    		player:BeginNewMultipleChoice()   
+    		player:AddMultipleChoiceAnswer( "CARD_QUERY_OPTION_CIRCULAR_LOGIC" )   
+    		player:AddMultipleChoiceAnswer( "CARD_QUERY_OPTION_IS_COUNTERED" )   
+    		player:AskMultipleChoiceQuestion( "CARD_QUERY_MC_CIRCULAR_LOGIC" )
+    	end
+    end
+    </RESOLUTION_TIME_ACTION>
+    <RESOLUTION_TIME_ACTION>
+	local amount = CountCardsInGraveyard( EffectController() )
+    local target_spell = EffectDC():Get_Targets(1):Get_CardPtr(0)
+    local player = target_spell:GetPlayer()
+    local decision = Object():GetMultipleChoiceResult()
+    if player ~= nil then
+    if player:CanAfford("{"..amount.."}") == 1 then
+      if decision ~= 1 then
+        player:TapLand("{"..amount.."}")
+      else
+    	target_spell:CounterSpell()
+      end
+      
+    else
+      target_spell:CounterSpell()
+    end
+    end
+    </RESOLUTION_TIME_ACTION>
+  </SPELL_ABILITY>
+  <TRIGGERED_ABILITY auto_skip="1" filter_zone="ZONE_IN_PLAY" active_zone="ZONE_ANY">
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Madness {U} (If you discard this card, you may cast it for its madness cost instead of putting it into your graveyard.)]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Follia {U} (puoi giocare questa carta per il suo costo di follia nel momento in cui la scarti dalla tua mano).]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Wahnsinn {U} (Du kannst diese Karte zu dem Zeitpunkt, an dem du sie aus deiner Hand abwirfst, für ihre Wahnsinn-Kosten spielen.)]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Folie {U} (Vous pouvez jouer cette carte pour son coût de folie au moment où vous vous en défaussez de votre main.)]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Demencia {U}. (Puedes jugar esta carta pagando su coste de demencia en el momento en que la descartes de tu mano.)]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[Madness {U} (If you discard this card, you may cast it for its madness cost instead of putting it into your graveyard.)]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[Madness {U} (If you discard this card, you may cast it for its madness cost instead of putting it into your graveyard.)]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Madness {U} (If you discard this card, you may cast it for its madness cost instead of putting it into your graveyard.)]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Loucura {U} (Você pode jogar este card pagando seu custo de loucura no momento em que o descarta de sua mão.)]]></LOCALISED_TEXT>
+    <TRIGGER value="DISCARD" simple_qualifier="self">
+    if EffectController():CanAfford("{U}") == 1 then
+		ObjectDC():Set_CardPtr(0, Object())
+		ObjectDC():Protect_CardPtr(0)
+		Object():RemoveFromGame()
+		return true
+	end
+    </TRIGGER>
+	<RESOLUTION_TIME_ACTION>
+    EffectController():BeginNewMultipleChoice()    
+    EffectController():AddMultipleChoiceAnswer( "CARD_QUERY_OPTION_NO" )    
+    EffectController():AddMultipleChoiceAnswer( "CARD_QUERY_OPTION_YES" )    
+    EffectController():AskMultipleChoiceQuestion( "CARD_QUERY_MC_PAY_MADNESS_COST")
+    </RESOLUTION_TIME_ACTION>
+	<RESOLUTION_TIME_ACTION>
+	local decision = Object():GetMultipleChoiceResult()
+	local player = EffectController()
+	local spell = ObjectDC():Get_CardPtr(0)
+	
+	if player:CanAfford("{U}") == 1 then
+    	if decision == 1 then
+    		player:TapLand("{U}")
+			if spell ~= nil then
+				spell:PlayFreeFromAnywhere( player )
+			end
+		else
+			if spell ~= nil then
+				spell:PutInGraveyard()
+			end
+		end
+	else
+		if spell ~= nil then
+			spell:PutInGraveyard()
+		end
+	end        
+    </RESOLUTION_TIME_ACTION>
+  </TRIGGERED_ABILITY>
+  <AI_BASE_SCORE score="750" zone="ZONE_HAND" />
+</CARD_V2>

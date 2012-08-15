@@ -1,0 +1,159 @@
+﻿<?xml version='1.0'?>
+<CARD_V2>
+  <FILENAME text="ULAMOG_THE_INFINITE_GYRE_888261321" />
+  <CARDNAME text="ULAMOG_THE_INFINITE_GYRE" />
+  <TITLE>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Ulamog, the Infinite Gyre]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Ulamog, il Cerchio Infinito]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Ulamog, der unendliche Wirbel]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Ulamog, l'Épicycle Infini]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Ulamog, la espiral infinita]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[無限に廻るもの、ウラモグ]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[Ulamog, the Infinite Gyre]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Уламог, Бесконечный Вихрь]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Ulamog, o Vórtice Infinito]]></LOCALISED_TEXT>
+  </TITLE>
+  <MULTIVERSEID value="888261321" />
+  <ARTID value="888261321" />
+  <ARTIST name="Aleksi Briclot" />
+  <CASTING_COST cost="{11}" />
+  <SUPERTYPE metaname="Legendary" />
+  <TYPE metaname="Creature" />
+  <SUB_TYPE metaname="Eldrazi" order_de-DE="0" order_es-ES="0" order_fr-FR="0" order_it-IT="0" order_jp-JA="0" order_ko-KR="0" order_pt-BR="0" order_ru-RU="0" />
+  <EXPANSION value="DPG" />
+  <RARITY metaname="M" />
+  <POWER value="10" />
+  <TOUGHNESS value="10" />
+  <TRIGGERED_ABILITY filter_zone="ZONE_IN_PLAY" active_zone="ZONE_STACK">
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[When you cast Ulamog, the Infinite Gyre, destroy target permanent.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Quando lanci Ulamog, il Cerchio Infinito distruggi un permanente bersaglio.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Wenn du Ulamog, den unendlichen Wirbel, wirkst, zerstöre eine bleibende Karte deiner Wahl.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Quand vous lancez Ulamog, l'Épicycle Infini, détruisez un permanent ciblé.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Cuando lances a Ulamog, la espiral infinita, destruye el permanente objetivo.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[あなたが無限に廻るもの、ウラモグを唱えたとき、パーマネント１つを対象とし、それを破壊する。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[When you cast Ulamog, the Infinite Gyre, destroy target permanent.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Когда вы разыгрываете Уламога, Бесконечный Вихрь, уничтожьте целевой перманент.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Quando conjurar Ulamog, o Vórtice Infinito, destrua a permanente alvo.]]></LOCALISED_TEXT>
+    <TRIGGER value="SPELL_PLAYED" simple_qualifier="self" />
+	<TARGET_DEFINITION id="0">
+    local filter = Object():GetFilter()
+    filter:Clear()
+	filter:AddCardType( CARD_TYPE_ARTIFACT )
+    filter:AddCardType( CARD_TYPE_ENCHANTMENT )
+    filter:AddCardType( CARD_TYPE_LAND )
+    filter:AddCardType( CARD_TYPE_CREATURE )
+    filter:AddCardType( CARD_TYPE_PLANESWALKER )
+    filter:SetZone( ZONE_IN_PLAY )
+    filter:SetHint( HINT_ENEMY_ONLY, EffectController() )
+    </TARGET_DEFINITION>
+    <TARGET_DETERMINATION>
+    return AtLeastOneTargetFromDefinition(0)
+    </TARGET_DETERMINATION>
+    <PLAY_TIME_ACTION target_choosing="1">
+    EffectController():ChooseTarget( 0, "CARD_QUERY_CHOOSE_PERMANENT_TO_DESTROY", EffectDC():Make_Targets(0) )
+    </PLAY_TIME_ACTION>
+    <RESOLUTION_TIME_ACTION ignore_filter="1">
+    local target = EffectDC():Get_Targets(0):Get_NthCardPtr(0)
+    if target ~= nil then   
+    	target:Destroy()  
+    end
+    </RESOLUTION_TIME_ACTION>
+    <SFX text="TARGET_CLAW_PLAY" />
+  </TRIGGERED_ABILITY>
+  <TRIGGERED_ABILITY badge="BADGE_ANNIHILATOR" dangerous="1" filter_zone="ZONE_IN_PLAY">
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Annihilator 4 (Whenever this creature attacks, defending player sacrifices four permanents.)]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Annientatore 4 (Ogniqualvolta questa creatura attacca, il giocatore in difesa sacrifica quattro permanenti.)]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Vernichter 4 (Immer wenn diese Kreatur angreift, opfert der verteidigende Spieler vier bleibende Karten.)]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Annihilateur 4 (À chaque fois que cette créature attaque, le joueur défenseur sacrifie quatre permanents.)]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Aniquilador 4. (Siempre que esta criatura ataque, el jugador defensor sacrifica cuatro permanentes.)]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[滅殺 ４ （このクリーチャーが攻撃するたび、防御プレイヤーはパーマネントを４つ生け贄に捧げる。）]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[Annihilator 4 (Whenever this creature attacks, defending player sacrifices four permanents.)]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Аннигилятор 4 (Каждый раз когда это существо атакует, защищающийся игрок приносит в жертву четыре перманента.)]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Aniquilador 4 (Toda vez que esta criatura ataca, o jogador defensor sacrifica quatro permanentes.)]]></LOCALISED_TEXT>
+    <TRIGGER value="ATTACKING" simple_qualifier="self" />
+    <RESOLUTION_TIME_ACTION>
+    local defendingPlayer = Object():GetPlayerAttacked()
+    local filter = Object():GetFilter()
+    filter:Clear()
+	filter:AddCardType( CARD_TYPE_ARTIFACT )
+    filter:AddCardType( CARD_TYPE_ENCHANTMENT )
+    filter:AddCardType( CARD_TYPE_LAND )
+    filter:AddCardType( CARD_TYPE_CREATURE )
+    filter:AddCardType( CARD_TYPE_PLANESWALKER )
+    filter:NotTargetted()
+    filter:SetController( defendingPlayer )
+    filter:SetZone( ZONE_IN_PLAY )
+    filter:SetHint( HINT_ENEMY, defendingPlayer )
+	local numberOfTargets = filter:CountStopAt( 4 )
+	if numberOfTargets &gt; 0 then 
+    	defendingPlayer:SetTargetCount( numberOfTargets ) 
+    	defendingPlayer:SetTargetPrompt( 0, "CARD_QUERY_ANNIHILATOR_CHOOSE_PERMANENT_ONE_OF_FOUR" ) 
+    	
+    	if numberOfTargets &gt; 1 then 
+    		defendingPlayer:SetTargetPrompt( 1, "CARD_QUERY_ANNIHILATOR_CHOOSE_PERMANENT_TWO_OF_FOUR" ) 
+    	end 
+    	
+    	if numberOfTargets &gt; 2 then 
+    		defendingPlayer:SetTargetPrompt( 2, "CARD_QUERY_ANNIHILATOR_CHOOSE_PERMANENT_THREE_OF_FOUR" ) 
+    	end 
+    	
+    	if numberOfTargets &gt; 3 then 
+    		defendingPlayer:SetTargetPrompt( 3, "CARD_QUERY_ANNIHILATOR_CHOOSE_PERMANENT_FOUR_OF_FOUR" ) 
+    	end 
+    	
+    	defendingPlayer:ChooseTargets( NO_VALIDATION, EffectDC():Make_Targets(1) ) 
+    end
+    </RESOLUTION_TIME_ACTION>
+    <RESOLUTION_TIME_ACTION>
+	local target_array = {}    
+    for i=0,3 do    
+    	target_array[i] = EffectDC():Get_Targets(1):Get_NthCardPtr(i)  
+    end    
+    for i=0,3 do    
+    	if target_array[i] ~= nil then
+			local player = target_array[i]:GetPlayer()
+    		target_array[i]:Sacrifice(player) 
+    	end  
+    end
+    </RESOLUTION_TIME_ACTION>
+  </TRIGGERED_ABILITY>
+  <STATIC_ABILITY filter_zone="ZONE_IN_PLAY">
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Ulamog is indestructible.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Ulamog è indistruttibile.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Ulamog ist unzerstörbar.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Ulamog est indestructible.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Ulamog es indestructible.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[無限に廻るもの、ウラモグは破壊されない。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[Ulamog is indestructible.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Уламог не может быть уничтожен.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Ulamog é indestrutível.]]></LOCALISED_TEXT>
+    <CONTINUOUS_ACTION>
+    local characteristics = Object():GetCurrentCharacteristics()
+    characteristics:Characteristic_Set( CHARACTERISTIC_INDESTRUCTIBLE, 1 )
+    </CONTINUOUS_ACTION>
+  </STATIC_ABILITY>
+  <TRIGGERED_ABILITY auto_skip="1" filter_zone="ZONE_IN_PLAY" active_zone="ZONE_GRAVEYARD">
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[When Ulamog is put into a graveyard from anywhere, its owner shuffles his or her graveyard into his or her library.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Quando Ulamog viene messo in un cimitero da qualsiasi zona, il suo proprietario rimescola il suo cimitero nel suo grimorio.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Wenn Ulamog von irgendwoher auf den Friedhof gelegt wird, mischt sein Besitzer seinen Friedhof in seine Bibliothek.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Quand Ulamog est mis dans un cimetière depuis n'importe où, son propriétaire mélange son cimetière à sa bibliothèque.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Cuando Ulamog vaya a un cementerio desde cualquier parte, su propietario baraja su cementerio en su biblioteca.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[無限に廻るもの、ウラモグがいずれかの領域からいずれかの墓地に置かれたとき、そのオーナーは自分の墓地を自分のライブラリーに加えて切り直す。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[When Ulamog is put into a graveyard from anywhere, its owner shuffles his or her graveyard into his or her library.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Когда Уламог попадает откуда-либо на кладбище, его владелец втасовывает свое кладбище в свою библиотеку.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Quando Ulamog é colocado num cemitério vindo de qualquer lugar, seu dono embaralha seu próprio cemitério em seu próprio grimório.]]></LOCALISED_TEXT>
+    <TRIGGER value="ZONECHANGE_END" simple_qualifier="self" to_zone="ZONE_GRAVEYARD" from_zone="ZONE_ANY" />
+	<RESOLUTION_TIME_ACTION>
+	local owner = Object():GetOwner()
+	if (owner ~= nil) then
+		owner:MoveLocalZone( ZONE_GRAVEYARD, ZONE_LIBRARY )
+		owner:ShuffleLibrary()
+	end
+	</RESOLUTION_TIME_ACTION>
+  </TRIGGERED_ABILITY>
+  <HELP title="MORE_INFO_BADGE_TITLE_8" body="MORE_INFO_BADGE_BODY_8" zone="ZONE_ANY" />
+  <HELP title="MORE_INFO_TITLE_ANNIHILATOR" body="MORE_INFO_BODY_ANNIHILATOR" zone="ZONE_ANY" />
+  <SFX text="COMBAT_ELDRAZI_ATTACK" power_boundary_min="1" power_boundary_max="-1" />
+  <AI_BASE_SCORE score="1200" zone="ZONE_IN_PLAY" />
+  <AI_BASE_SCORE score="1200" zone="ZONE_HAND" />
+</CARD_V2>

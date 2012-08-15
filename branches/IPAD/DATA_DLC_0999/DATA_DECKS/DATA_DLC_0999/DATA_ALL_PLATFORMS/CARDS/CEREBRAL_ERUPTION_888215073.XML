@@ -1,0 +1,74 @@
+﻿<?xml version='1.0'?>
+<CARD_V2>
+  <FILENAME text="CEREBRAL_ERUPTION_888215073" />
+  <CARDNAME text="CEREBRAL_ERUPTION" />
+  <TITLE>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Cerebral Eruption]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Eruzione Cerebrale]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Gehirnausbruch]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Éruption cérébrale]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Erupción cerebral]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[知性の爆発]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[Cerebral Eruption]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Мозговое Извержение]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Erupção Cerebral]]></LOCALISED_TEXT>
+  </TITLE>
+  <MULTIVERSEID value="888215073" />
+  <ARTID value="888215073" />
+  <ARTIST name="Kev Walker" />
+  <CASTING_COST cost="{2}{R}{R}" />
+  <TYPE metaname="Sorcery" />
+  <EXPANSION value="DPG" />
+  <RARITY metaname="R" />
+  <SPELL_ABILITY filter_zone="ZONE_IN_PLAY">
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Target opponent reveals the top card of his or her library. Cerebral Eruption deals damage equal to the revealed card’s converted mana cost to that player and each creature he or she controls. If a land card is revealed this way, return Cerebral Eruption to its owner’s hand.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Un avversario bersaglio rivela la prima carta del suo grimorio. L’Eruzione Cerebrale infligge danno pari al costo di mana convertito della carta rivelata a quel giocatore e a ogni creatura che controlla. Se una carta terra viene rivelata in questo modo, fai tornare l’Eruzione Cerebrale in mano al suo proprietario.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Ein Gegner deiner Wahl zeigt die oberste Karte seiner Bibliothek offen vor. Der Gehirnausbruch fügt diesem Spieler und allen Kreaturen, die er kontrolliert, so viele Schadenspunkte zu, wie die umgewandelten Manakosten der vorgezeigten Karte betragen. Falls auf diese Weise ein Land vorgezeigt wird, bringe den Gehirnausbruch auf die Hand seines Besitzers zurück.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[L’adversaire ciblé révèle la carte du dessus de sa bibliothèque. L’Éruption cérébrale inflige un nombre de blessures égal au coût converti de mana de la carte révélée à ce joueur et à chaque créature qu’il contrôle. Si une carte de terrain est révélée de cette manière, renvoyez l’Éruption cérébrale dans la main de son propriétaire.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[El oponente objetivo muestra la primera carta de su biblioteca. La Erupción cerebral hace daño igual al coste de maná convertido de la carta mostrada a ese jugador y a cada criatura que controla. Si se muestra una carta de tierra de esta manera, regresa la Erupción cerebral a la mano de su propietario.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[対戦相手１人を対象とする。そのプレイヤーは自分のライブラリーの一番上のカードを公開する。 知性の爆発はそのプレイヤーとそのプレイヤーがコントロールする各クリーチャーに、その公開されたカードの点数で見たマナ・コストに等しい点数のダメージを与える。 これにより土地カードが公開された場合、知性の爆発をオーナーの手札に戻す。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[Target opponent reveals the top card of his or her library. Cerebral Eruption deals damage equal to the revealed card’s converted mana cost to that player and each creature he or she controls. If a land card is revealed this way, return Cerebral Eruption to its owner’s hand.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Целевой оппонент показывает верхнюю карту своей библиотеки. Мозговое Извержение наносит повреждения, равные конвертированной мана-стоимости показанной карты, тому игроку и каждому существу под его контролем. Если таким образом показывается карта земли, верните Мозговое Извержение в руку его владельца.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[O oponente alvo revela o primeiro card do topo de seu próprio grimório. Erupção Cerebral causa uma quantidade de dano àquele jogador, e a cada criatura que ele controla, igual ao custo de mana convertido do card revelado. Se um card de terreno for revelado dessa maneira, devolva Erupção Cerebral para a mão de seu dono.]]></LOCALISED_TEXT>
+    <TARGET_DEFINITION id="0">
+    local filter = Object():GetFilter()
+    filter:Clear()
+    filter:SetFilterType( FILTER_TYPE_PLAYERS + FILTER_TYPE_OPPONENTS)
+    filter:SetOwner( EffectController() )
+    filter:SetHint( HINT_ENEMY_ONLY, EffectController() )
+    </TARGET_DEFINITION>
+    <TARGET_DETERMINATION>
+    return AtLeastOneTargetFromDefinition(0)
+    </TARGET_DETERMINATION>
+    <PLAY_TIME_ACTION target_choosing="1">
+    EffectController():ChooseTarget( 0, "CARD_QUERY_CHOOSE_PLAYER", EffectDC():Make_Targets(0) )
+    </PLAY_TIME_ACTION>
+    <RESOLUTION_TIME_ACTION>
+    local target_player = EffectDC():Get_Targets(0):Get_PlayerPtr(0)
+    if target_player ~= nil then
+    	local card = target_player:Library_GetNth(0) 
+        if card ~= nil then 
+		ObjectDC():Set_Int(0, card:GetConvertedManaCost())
+		if card:GetCardType():Test(CARD_TYPE_LAND) ~= 0 then
+			Object():SetResolutionZone(ZONE_HAND)
+		end
+        end
+    end
+    </RESOLUTION_TIME_ACTION>
+  </SPELL_ABILITY>
+  <SPELL_ABILITY dangerous="1" filter_zone="ZONE_IN_PLAY_AND_PLAYERS" active_zone="ZONE_IN_PLAY_AND_PLAYERS">
+    <FILTER>
+    return TargetPlayer() or CreaturesTargetPlayerControls()
+    </FILTER>
+    <RESOLUTION_TIME_ACTION>
+    local damage = ObjectDC():Get_Int(1)
+    if (FilteredPlayer() ~= nil) then
+    	FilteredPlayer():DealDamage(damage, Object())
+    elseif (FilteredCard() ~= nil)
+    	FilteredCard():DealDamage(damage, Object())
+    end
+    </RESOLUTION_TIME_ACTION>
+    <SFX text="GLOBAL_MAGMA_PLAY" />
+  </SPELL_ABILITY>
+  <AI_BASE_SCORE score="1200" zone="ZONE_HAND" />
+</CARD_V2>

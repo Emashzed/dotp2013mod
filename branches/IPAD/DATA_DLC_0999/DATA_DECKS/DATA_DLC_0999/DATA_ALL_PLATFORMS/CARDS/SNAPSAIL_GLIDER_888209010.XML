@@ -1,0 +1,66 @@
+﻿<?xml version='1.0'?>
+<CARD_V2>
+  <FILENAME text="SNAPSAIL_GLIDER_888209010" />
+  <CARDNAME text="SNAPSAIL_GLIDER" />
+  <TITLE>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Snapsail Glider]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Aliante con Vele a Scatto]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Klappsegelgleiter]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Planeur claquevoile]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Deslizador velachasquido]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[嵌め乗りの滑空者]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[Snapsail Glider]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Летяга Щелкающих Парусов]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Planador de Aerovelas]]></LOCALISED_TEXT>
+  </TITLE>
+  <MULTIVERSEID value="888209010" />
+  <ARTID value="888209010" />
+  <ARTIST name="Efrem Palacios" />
+  <CASTING_COST cost="{3}" />
+  <FLAVOURTEXT>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Built from a reconfigured thresher, it charges with light reflected off the golden plain, ready to take to the air in case of danger.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Costruito da una trebbiatrice riconfigurata, si carica con la luce riflessa dalle pianure dorate, sempre pronto a prendere il volo in caso di pericolo.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Er wird aus einem umgestalteten Drescher gebaut und greift mit Licht an, das von der goldenen Ebene reflektiert wird; droht Gefahr, erhebt er sich schnell in die Luft.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Construit à partir d'une batteuse recyclée, il se recharge avec la lumière reflétée par la plaine dorée, prêt à prendre les airs en cas de danger.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Construido con un trillador reconfigurado, se carga con luz reflejada de la llanura dorada, listo para salir volando en caso de peligro.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[打つものを再構成して作られたそれは、金色の平原に光る反射を合図に突撃し、危険の際に空から駆けつける。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[Built from a reconfigured thresher, it charges with light reflected off the golden plain, ready to take to the air in case of danger.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Созданная из переделанной молотилки, она заряжается светом, отражающимся от золотой равнины, готовая взлететь в случае приближения опасности.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Construído a partir de um debulhador reconfigurado, ele ataca com luz refletida do descampado dourado, pronto para alçar voo em caso de perigo.]]></LOCALISED_TEXT>
+  </FLAVOURTEXT>
+  <TYPE metaname="Artifact" />
+  <TYPE metaname="Creature" />
+  <SUB_TYPE metaname="Construct" order_de-DE="0" order_es-ES="0" order_fr-FR="0" order_it-IT="0" order_jp-JA="0" order_ko-KR="0" order_pt-BR="0" order_ru-RU="0" />
+  <EXPANSION value="DPG" />
+  <RARITY metaname="C" />
+  <POWER value="2" />
+  <TOUGHNESS value="2" />
+  <STATIC_ABILITY>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Metalcraft — Snapsail Glider has flying as long as you control three or more artifacts.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Metallurgia — L'Aliante con Vele a Scatto ha volare fintanto che controlli tre o più artefatti.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Metallkunst — Der Klappsegelgleiter hat Flugfähigkeit, solange du drei oder mehr Artefakte kontrollierst.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Art des métaux — Le Planeur claquevoile a le vol tant que vous contrôlez au moins trois artefacts.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Metalurgia — El Deslizador velachasquido tiene la habilidad de volar mientras controles tres o más artefactos.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[金属術 ― 嵌め乗りの滑空者は、あなたが３つ以上のアーティファクトをコントロールしているかぎり飛行を持つ。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[Metalcraft — Snapsail Glider has flying as long as you control three or more artifacts.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Работа по металлу — Летяга Щелкающих Парусов имеет Полет, пока вы контролируете не менее трех артефактов.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Maestria com Metais — Planador de Aerovelas terá voar enquanto você controlar três ou mais artefatos.]]></LOCALISED_TEXT>
+    <CONTINUOUS_ACTION layer="6">
+	local total = 0
+    local filter = Object():GetFilter()
+    filter:Clear()
+    filter:SetZone( ZONE_IN_PLAY )
+    filter:AddCardType( CARD_TYPE_ARTIFACT )
+    filter:SetController( EffectController() )
+    filter:NotTargetted()
+    total = filter:CountStopAt( 3 )
+    if total &gt; 2 then
+		local characteristics = Object():GetCurrentCharacteristics()
+		characteristics:Characteristic_Set( CHARACTERISTIC_FLYING, 1 )
+	end
+    </CONTINUOUS_ACTION>
+  </STATIC_ABILITY>
+  <SFX text="COMBAT_BLADE_LARGE_ATTACK" power_boundary_min="4" power_boundary_max="-1" />
+  <SFX text="COMBAT_BLADE_SMALL_ATTACK" power_boundary_min="1" power_boundary_max="3" />
+  <AI_BASE_SCORE score="150" zone="ZONE_IN_PLAY" />
+</CARD_V2>

@@ -1,0 +1,122 @@
+<?xml version='1.0'?>
+<CARD_V2>
+  <FILENAME text="FIREBLAST_277349" />
+  <CARDNAME text="FIREBLAST" />
+  <TITLE>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Fireblast]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Salve de feu]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Ráfaga ardiente]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Feuerstoß]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Esplosione di Fuoco]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[火炎破]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[화염폭풍]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Огненный Взрыв]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Explosão de Fogo]]></LOCALISED_TEXT>
+  </TITLE>
+  <MULTIVERSEID value="277349" />
+  <ARTID value="143949" />
+  <ARTIST name="Mike Bierek" />
+  <CASTING_COST cost="{4}{R}{R}" />
+  <FLAVOURTEXT>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Embermages aren’t well known for their diplomatic skills.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Les brandemages ne sont pas connus pour leurs talents de diplomates.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Los magos ígneos no son famosos por sus aptitudes diplomáticas.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Funkenmagier sind nicht unbedingt für diplomatischen Stil bekannt.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[I maghi delle braci non sono esattamente famosi per la loro diplomazia.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[燃えさし魔道士たちは、交渉の手腕で名高いわけではない。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[화염마도사들은 능수능란한 외교술과는 거리가 멀다.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Угольные маги — плохие дипломаты.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Os magos ígneos não são conhecidos pelas habilidades diplomáticas.]]></LOCALISED_TEXT>
+  </FLAVOURTEXT>
+  <TYPE metaname="Instant" />
+  <EXPANSION value="DPG" />
+  <RARITY metaname="C" />
+  <UTILITY_ABILITY filter_zone="ZONE_IN_PLAY">
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[You may sacrifice two Mountains rather than pay Fireblast’s mana cost.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Vous pouvez sacrifier deux montagnes à la place de payer le coût de mana de la Salve de feu.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Puedes sacrificar dos montañas en lugar de pagar el coste de maná de la Ráfaga ardiente.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Du kannst zwei Gebirge opfern, anstatt die Spruchkosten des Feuerstoßes zu bezahlen.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Puoi sacrificare due Montagne invece di pagare il costo di mana dell’Esplosione di Fuoco.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[あなたは火炎破のマナ・コストを支払うのではなく、山を２つ生け贄に捧げてもよい。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[당신은 화염폭풍의 마나비용을 지불하는 대신에 산 두 개를 희생할 수 있다.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Вы можете пожертвовать две Горы вместо уплаты мана-стоимости Огненного Взрыва.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Você pode sacrificar duas Montanhas em vez de pagar o custo de mana de Explosão de Fogo.]]></LOCALISED_TEXT>
+    <COST type="generic" qualifier="alternate" tag="ALTERNATE_COST_SAC_TWO_MOUNTAINS">
+      <TARGET_DEFINITION id="6">
+      local filter = Object():GetFilter()
+      filter:Clear()
+      filter:AddCardType( CARD_TYPE_LAND )
+      filter:AddSubType( LAND_TYPE_MOUNTAIN )
+      filter:SetPlayer( EffectController() )
+      filter:SetZone( ZONE_IN_PLAY )
+      filter:NotTargetted()
+      </TARGET_DEFINITION>
+      <TARGET_DETERMINATION>
+      return AtLeastNTargetsFromDefinition(6, 2)
+      </TARGET_DETERMINATION>
+      <PLAY_TIME_ACTION>
+      EffectController():SetTargetCount( 2 )
+      for i = 0,1 do
+      	EffectController():SetTargetPrompt( i, "CARD_QUERY_CHOOSE_LAND_TO_SACRIFICE")
+      end
+      EffectController():ChooseTargets( 6, EffectDC():Make_Targets(0) )	
+      </PLAY_TIME_ACTION>
+      <RESOLUTION_TIME_ACTION>
+      local target_one = EffectDC():Get_Targets(0):Get_NthCardPtr(0)
+      local target_two = EffectDC():Get_Targets(0):Get_NthCardPtr(1)
+      if target_one ~= nil then 
+      	target_one:Sacrifice(EffectController())
+      end
+      if target_two ~= nil then 
+      	target_two:Sacrifice(EffectController())
+      end
+      </RESOLUTION_TIME_ACTION></COST>
+  </UTILITY_ABILITY>
+  <SPELL_ABILITY dangerous="1" filter_zone="ZONE_IN_PLAY">
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Fireblast deals 4 damage to target creature or player.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[La Salve de feu inflige 4 blessures à une cible, créature ou joueur.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[La Ráfaga ardiente hace 4 puntos de daño a la criatura o jugador objetivo.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Der Feuerstoß fügt einer Kreatur oder einem Spieler deiner Wahl 4 Schadenspunkte zu.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[L’Esplosione di Fuoco infligge 4 danni a una creatura o a un giocatore bersaglio.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[クリーチャー１体かプレイヤー１人を対象とする。火炎破はそれに４点のダメージを与える。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[생물 한 개나 플레이어 한 명을 목표로 정한다. 화염폭풍은 그 목표에게 피해 4점을 입힌다.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Огненный Взрыв наносит 4 повреждения целевому существу или игроку.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Explosão de Fogo causa 4 ponto de dano à criatura ou jogador alvo.]]></LOCALISED_TEXT>
+    <TARGET_DEFINITION id="0">
+    local filter = Object():GetFilter()
+    filter:Clear()
+    filter:SetFilterType( FILTER_TYPE_CARDS + FILTER_TYPE_PLAYERS )
+    filter:SetZone( ZONE_IN_PLAY )
+    filter:SetHint( HINT_ENEMY_ONLY, EffectController() )
+    filter:AddCardType( CARD_TYPE_CREATURE )
+    </TARGET_DEFINITION>
+    <TARGET_DETERMINATION>
+    return AtLeastOneTargetFromDefinition(0)
+    </TARGET_DETERMINATION>
+    <PLAY_TIME_ACTION target_choosing="1">
+    EffectController():ChooseTarget( 0, "CARD_QUERY_CHOOSE_DEAL_4_DAMAGE", EffectDC():Make_Targets(1) )
+    </PLAY_TIME_ACTION>
+    <RESOLUTION_TIME_ACTION>
+    local target_creature = EffectDC():Get_Targets(1):Get_CardPtr(0)
+    local target_player = EffectDC():Get_Targets(1):Get_PlayerPtr(0)
+    local source = EffectSource()
+    if source == nil then
+      source = Object()
+    end
+    if ( target_creature ~= nil ) then   
+    	target_creature:DealDamage(4, source)  
+    elseif 
+    	( target_player ~= nil ) then   
+    	target_player:DealDamage(4, source)  
+    end
+    </RESOLUTION_TIME_ACTION>
+    <SFX text="TARGET_FIREBALL_PLAY" />
+  </SPELL_ABILITY>
+  <AI_AVAILABILITY type="in_response" />
+  <AI_AVAILABILITY step="begin_combat" turn="their_turn" />
+  <AI_AVAILABILITY step="main_1" turn="my_turn" />
+  <AI_AVAILABILITY step="declare_attackers" turn="their_turn" />
+  <AI_AVAILABILITY step="declare_blockers" />
+  <AI_AVAILABILITY step="end_of_turn" />
+  <AI_BASE_SCORE score="1200" zone="ZONE_HAND" />
+</CARD_V2>

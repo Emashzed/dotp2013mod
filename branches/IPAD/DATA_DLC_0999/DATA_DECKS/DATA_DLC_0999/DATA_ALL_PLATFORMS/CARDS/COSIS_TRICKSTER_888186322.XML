@@ -1,0 +1,65 @@
+﻿<?xml version='1.0'?>
+<CARD_V2>
+  <FILENAME text="COSIS_TRICKSTER_888186322" />
+  <CARDNAME text="COSIS_TRICKSTER" />
+  <TITLE>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Cosi’s Trickster]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Imbrogliona di Cosi]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Cosis Gauner]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Escroc de Cosi]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Embustera de Cosi]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[コーシのペテン師]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[Cosi’s Trickster]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Хитроумная Служительница Коси]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Trapaceira de Cosi]]></LOCALISED_TEXT>
+  </TITLE>
+  <MULTIVERSEID value="888186322" />
+  <ARTID value="888186322" />
+  <ARTIST name="Igor Kieryluk" />
+  <CASTING_COST cost="{U}" />
+  <FLAVOURTEXT>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[She watches the chaos created by the Roil, seeking strength in the patterns of anarchy.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Sorveglia il caos creato dal Torbido, cercando forza negli schemi dell’anarchia.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Sie beobachtet das Chaos, das durch die Turbulenz verursacht wird, und tankt aus der Anarchie der Muster Kraft.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Elle observe le chaos créé par le Roulis, cherchant la force dans la structure de l’anarchie.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Ella observa el caos creado por la Turbulencia, buscando fuerza en los patrones de la anarquía.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[彼女は乱動が生み出した混沌を観察し、無秩序の法則の中にある力を求めている。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[She watches the chaos created by the Roil, seeking strength in the patterns of anarchy.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Она наблюдает за хаосом, порожденным Великим Валом, и ищет силу в закономерностях анархии.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Ela observa o caos criado pelo Turbilhão, procurando força na estrutura da anarquia.]]></LOCALISED_TEXT>
+  </FLAVOURTEXT>
+  <TYPE metaname="Creature" />
+  <SUB_TYPE metaname="Merfolk" order_de-DE="0" order_es-ES="1" order_fr-FR="0" order_it-IT="1" order_jp-JA="0" order_ko-KR="0" order_pt-BR="0" order_ru-RU="0" />
+  <SUB_TYPE metaname="Wizard" order_de-DE="1" order_es-ES="0" order_fr-FR="1" order_it-IT="0" order_jp-JA="1" order_ko-KR="1" order_pt-BR="1" order_ru-RU="1" />
+  <EXPANSION value="DPG" />
+  <RARITY metaname="R" />
+  <POWER value="1" />
+  <TOUGHNESS value="1" />
+  <TRIGGERED_ABILITY filter_zone="ZONE_IN_PLAY">
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Whenever an opponent shuffles his or her library, you may put a +1/+1 counter on Cosi’s Trickster.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Ogniqualvolta un avversario rimescola il suo grimorio, puoi mettere un segnalino +1/+1 sull’Imbrogliona di Cosi.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Immer wenn ein Gegner seine Bibliothek mischt, kannst du eine +1/+1-Marke auf Cosis Gauner legen.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[À chaque fois qu’un adversaire mélange sa bibliothèque, vous pouvez mettre un marqueur +1/+1 sur l’Escroc de Cosi.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Siempre que un oponente baraje su biblioteca, puedes poner un contador +1/+1 sobre la Embustera de Cosi.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[いずれかの対戦相手が自分のライブラリーを切り直すたび、あなたはコーシのペテン師の上に＋１/＋１カウンターを１個置いてもよい。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[Whenever an opponent shuffles his or her library, you may put a +1/+1 counter on Cosi’s Trickster.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Каждый раз, когда оппонент тасует свою библиотеку, вы можете положить один жетон +1/+1 на Хитроумную Служительницу Коси.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Toda vez que um oponente embaralha seu próprio grimório, você pode colocar um marcador +1/+1 em Trapaceira de Cosi.]]></LOCALISED_TEXT>
+    <TRIGGER value="SPELL_OR_ABILITY_CAUSED_SHUFFLE">
+    local player = TriggerPlayer()
+    if player ~= nil then
+    	if EffectController():GetTeam() ~= player:GetTeam() then
+    		return true
+    	end
+    end
+    return false
+    </TRIGGER>
+    <RESOLUTION_TIME_ACTION>
+    if EffectSource() ~= nil then
+    	EffectSource():AddCounters( MTG():PlusOnePlusOneCounters(), 1 )
+    end
+    </RESOLUTION_TIME_ACTION>
+  </TRIGGERED_ABILITY>
+  <SFX text="COMBAT_PLASMA_LARGE_ATTACK" power_boundary_min="4" power_boundary_max="-1" />
+  <SFX text="COMBAT_PLASMA_SMALL_ATTACK" power_boundary_min="1" power_boundary_max="3" />
+</CARD_V2>

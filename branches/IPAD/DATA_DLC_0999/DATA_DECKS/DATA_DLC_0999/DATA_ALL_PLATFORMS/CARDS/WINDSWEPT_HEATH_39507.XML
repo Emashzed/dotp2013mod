@@ -1,0 +1,60 @@
+<?xml version='1.0'?>
+<CARD_V2>
+  <FILENAME text="WINDSWEPT_HEATH_39507" />
+  <CARDNAME text="WINDSWEPT_HEATH" />
+  <TITLE>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Windswept Heath]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Landa Ventosa]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Zerzauste Heide]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Lande venteuse]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Brezal azotado por el viento]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[Windswept Heath]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[Windswept Heath]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Windswept Heath]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Charneca Ventosa]]></LOCALISED_TEXT>
+  </TITLE>
+  <MULTIVERSEID value="39507" />
+  <ARTID value="88839507" />
+  <ARTIST name="Anthony S. Waters" />
+  <CASTING_COST cost="" />
+  <TYPE metaname="Land" />
+  <EXPANSION value="DPG" />
+  <RARITY metaname="R" />
+  <ACTIVATED_ABILITY filter_zone="ZONE_IN_PLAY">
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[{T}, Pay 1 life, Sacrifice Windswept Heath: Search your library for a Forest or Plains card and put it onto the battlefield. Then shuffle your library.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[{T}, Paga 1 punto vita, Sacrifica la Landa Ventosa: Passa in rassegna il tuo grimorio, scegli una carta foresta o pianura e mettila in gioco. Poi rimescola il tuo grimorio.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[{T}, bezahle 1 Lebenspunkt, opfere die Zerzauste Heide: Durchsuche deine Bibliothek nach einer Waldkarte oder einer Ebenenkarte und bringe diese ins Spiel. Mische danach deine Bibliothek.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[{T}, payez 1 point de vie, sacrifiez la Lande venteuse : Cherchez dans votre librairie une carte forêt ou plaine et mettez-la en jeu. Mélangez ensuite votre bibliothèque.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[{T}, pagar 1 vida, sacrificar el Brezal azotado por el viento: Busca en tu biblioteca una carta de bosque o de llanura y ponla en juego. Luego baraja tu biblioteca.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[{T}, Pay 1 life, Sacrifice Windswept Heath: Search your library for a Forest or Plains card and put it onto the battlefield. Then shuffle your library.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[{T}, Pay 1 life, Sacrifice Windswept Heath: Search your library for a Forest or Plains card and put it onto the battlefield. Then shuffle your library.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[{T}, Pay 1 life, Sacrifice Windswept Heath: Search your library for a Forest or Plains card and put it onto the battlefield. Then shuffle your library.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[{T}, Pague 1 ponto de vida, Sacrifique Charneca Ventosa: Procure em seu deck por um card de floresta ou de planície e coloque-o em jogo. Depois, embaralhe seu grimório.]]></LOCALISED_TEXT>
+    <COST type="life" points="1" />
+    <COST type="SacrificeSelf" />
+    <RESOLUTION_TIME_ACTION>
+    local filter = Object():GetFilter()
+    local effectController = EffectController()
+    effectController:MarkSearchedLibrary()
+    filter:Clear()
+    filter:NotTargetted()
+    filter:AddCardType( CARD_TYPE_LAND )
+    filter:AddSubType( LAND_TYPE_FOREST )
+    filter:AddSubType( LAND_TYPE_PLAINS )
+    filter:AddExtra( FILTER_EXTRA_ANY_SUB_TYPE )
+    filter:May()
+    filter:SetZone( ZONE_LIBRARY )
+    filter:SetPlayer( effectController )
+    effectController:ChooseTarget( NO_VALIDATION, "CARD_QUERY_CHOOSE_LAND_TO_PUT_ONTO_BATTLEFIELD", EffectDC():Make_Targets(0) )
+    </RESOLUTION_TIME_ACTION>
+    <RESOLUTION_TIME_ACTION>
+    local target = EffectDC():Get_Targets(0):Get_CardPtr(0)
+    if  target ~= nil then
+       target:PutIntoPlay( EffectController() )
+    end
+    </RESOLUTION_TIME_ACTION>
+    <RESOLUTION_TIME_ACTION>
+    EffectController():ShuffleLibrary()
+    </RESOLUTION_TIME_ACTION>
+    </ACTIVATED_ABILITY>
+</CARD_V2>

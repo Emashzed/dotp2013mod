@@ -1,0 +1,49 @@
+﻿<?xml version='1.0'?>
+<CARD_V2>
+  <FILENAME text="SHADOWBLOOD_RIDGE_88829794" />
+  <CARDNAME text="SHADOWBLOOD_RIDGE" />
+  <TITLE>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Shadowblood Ridge]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Costa di Sangueombra]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Schattenblut-Grat]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Contreforts d'Ombresang]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Cordillera Sangresombra]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[Shadowblood Ridge]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[Shadowblood Ridge]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Shadowblood Ridge]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Serra de Shadowblood]]></LOCALISED_TEXT>
+  </TITLE>
+  <MULTIVERSEID value="88829794" />
+  <ARTID value="88829794" />
+  <ARTIST name="Glen Angus" />
+  <CASTING_COST cost="" />
+  <FLAVOURTEXT>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[The carnage of conflicts long past still stains the Otarian soil.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Le carneficine dei conflitti di tempi lontani macchiano ancora il terreno di Otaria.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Der Boden Otarias zeigt immer noch die Spuren von Gemetzeln längst vergangener Konflikte.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Le sang des conflits d'autrefois souille encore le sol d'Otaria.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[La masacre de conflictos pasados aún mancha la tierra otariana.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[The carnage of conflicts long past still stains the Otarian soil.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[The carnage of conflicts long past still stains the Otarian soil.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[The carnage of conflicts long past still stains the Otarian soil.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[A carnificina dos conflitos há muito encerrados ainda macula o solo Otariano.]]></LOCALISED_TEXT>
+  </FLAVOURTEXT>
+  <TYPE metaname="Land" />
+  <EXPANSION value="DPG" />
+  <RARITY metaname="R" />
+  <MANA_ABILITY auto_skip="1">
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[{1}, {T}: Add {B}{R} to your mana pool.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[{1}, {T}: Aggiungi {B}{R} alla tua riserva di mana.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[{1}, {T}: Erhöhe deinen Manavorrat um {B}{R}.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[{1}, {T}: Ajoutez {B}{R} à votre réserve.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[{1}, {T}: Agrega {B}{R} a tu reserva de maná.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[{1}, {T}: Add {B}{R} to your mana pool.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[{1}, {T}: Add {B}{R} to your mana pool.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[{1}, {T}: Add {B}{R} to your mana pool.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[{1}, {T}: Adiciona {B}{R} a sua reserva de mana.]]></LOCALISED_TEXT>
+	<COST type="Mana" cost="{1}" />
+    <COST type="TapSelf" />
+    <PRODUCES amount="{B}" />
+	<PRODUCES amount="{R}" />
+  </MANA_ABILITY>
+</CARD_V2>

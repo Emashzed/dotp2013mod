@@ -1,0 +1,1170 @@
+<?xml version="1.0"?>
+<?mso-application progid="Excel.Sheet"?>
+<Workbook xmlns="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:o="urn:schemas-microsoft-com:office:office"
+ xmlns:x="urn:schemas-microsoft-com:office:excel"
+ xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:html="http://www.w3.org/TR/REC-html40">
+ <DocumentProperties xmlns="urn:schemas-microsoft-com:office:office">
+  <Author>ScrollRack D13</Author>
+  <LastAuthor>DaenonX4</LastAuthor>
+  <Created>1980-05-23T00:00:00Z</Created>
+  <LastSaved>2012-08-15T08:58:45Z</LastSaved>
+  <Company>Microsoft Corporation</Company>
+  <Version>14.00</Version>
+ </DocumentProperties>
+ <OfficeDocumentSettings xmlns="urn:schemas-microsoft-com:office:office">
+  <AllowPNG/>
+ </OfficeDocumentSettings>
+ <ExcelWorkbook xmlns="urn:schemas-microsoft-com:office:excel">
+  <WindowHeight>10380</WindowHeight>
+  <WindowWidth>14025</WindowWidth>
+  <WindowTopX>1965</WindowTopX>
+  <WindowTopY>3345</WindowTopY>
+  <ProtectStructure>False</ProtectStructure>
+  <ProtectWindows>False</ProtectWindows>
+ </ExcelWorkbook>
+ <Styles>
+  <Style ss:ID="Default" ss:Name="Normal">
+   <Alignment ss:Vertical="Bottom"/>
+   <Borders/>
+   <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="11" ss:Color="#000000"/>
+   <Interior/>
+   <NumberFormat/>
+   <Protection/>
+  </Style>
+ </Styles>
+ <Worksheet ss:Name="Sheet4">
+  <Table ss:ExpandedColumnCount="256" ss:ExpandedRowCount="87" x:FullColumns="1"
+   x:FullRows="1" ss:DefaultColumnWidth="66" ss:DefaultRowHeight="15">
+   <Column ss:Width="216.75"/>
+   <Column ss:Width="54"/>
+   <Column ss:Width="142.5"/>
+   <Column ss:Width="152.25"/>
+   <Column ss:Width="147.75"/>
+   <Column ss:Width="170.25"/>
+   <Column ss:Width="145.5"/>
+   <Column ss:AutoFitWidth="0" ss:Width="65.25"/>
+   <Column ss:Width="165"/>
+   <Column ss:Width="124.5"/>
+   <Column ss:Width="183"/>
+   <Column ss:Width="151.5"/>
+   <Column ss:AutoFitWidth="0" ss:Width="65.25" ss:Span="243"/>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Ident</Data></Cell>
+    <Cell><Data ss:Type="String">Comment</Data></Cell>
+    <Cell><Data ss:Type="String">Master Text</Data></Cell>
+    <Cell><Data ss:Type="String">French</Data></Cell>
+    <Cell><Data ss:Type="String">Spanish</Data></Cell>
+    <Cell><Data ss:Type="String">German</Data></Cell>
+    <Cell><Data ss:Type="String">Italian</Data></Cell>
+    <Cell ss:Index="9"><Data ss:Type="String">Japanese</Data></Cell>
+    <Cell><Data ss:Type="String">Korean</Data></Cell>
+    <Cell><Data ss:Type="String">Russian</Data></Cell>
+    <Cell><Data ss:Type="String">Portuguese (Brazil)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">C13_AZORIUS</Data></Cell>
+    <Cell ss:Index="3"><Data ss:Type="String">Aura Servants</Data></Cell>
+    <Cell><Data ss:Type="String">Serviteurs de l'aura</Data></Cell>
+    <Cell><Data ss:Type="String">Aura Servants</Data></Cell>
+    <Cell><Data ss:Type="String">Aurendiener</Data></Cell>
+    <Cell><Data ss:Type="String">Aura Servants</Data></Cell>
+    <Cell ss:Index="9"><Data ss:Type="String">Aura Servants</Data></Cell>
+    <Cell><Data ss:Type="String">Aura Servants</Data></Cell>
+    <Cell><Data ss:Type="String">Aura Servants</Data></Cell>
+    <Cell><Data ss:Type="String">Aura Servants</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">C13_GOLGARI</Data></Cell>
+    <Cell ss:Index="3"><Data ss:Type="String">Sepulchral Strength</Data></Cell>
+    <Cell><Data ss:Type="String">Force sépulcrale</Data></Cell>
+    <Cell><Data ss:Type="String">Sepulchral Strength</Data></Cell>
+    <Cell><Data ss:Type="String">Grabesstärke</Data></Cell>
+    <Cell><Data ss:Type="String">Sepulchral Strength</Data></Cell>
+    <Cell ss:Index="9"><Data ss:Type="String">Sepulchral Strength</Data></Cell>
+    <Cell><Data ss:Type="String">Sepulchral Strength</Data></Cell>
+    <Cell><Data ss:Type="String">Sepulchral Strength</Data></Cell>
+    <Cell><Data ss:Type="String">Sepulchral Strength</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">C13_IZZET</Data></Cell>
+    <Cell ss:Index="3"><Data ss:Type="String">Mindstorms</Data></Cell>
+    <Cell><Data ss:Type="String">Tempêtes cérébrales</Data></Cell>
+    <Cell><Data ss:Type="String">Mindstorms</Data></Cell>
+    <Cell><Data ss:Type="String">Gedankenstürme</Data></Cell>
+    <Cell><Data ss:Type="String">Mindstorms</Data></Cell>
+    <Cell ss:Index="9"><Data ss:Type="String">Mindstorms</Data></Cell>
+    <Cell><Data ss:Type="String">Mindstorms</Data></Cell>
+    <Cell><Data ss:Type="String">Mindstorms</Data></Cell>
+    <Cell><Data ss:Type="String">Mindstorms</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">C13_RAKDOS</Data></Cell>
+    <Cell ss:Index="3"><Data ss:Type="String">Grinning Malice</Data></Cell>
+    <Cell><Data ss:Type="String">Malice grimaçante</Data></Cell>
+    <Cell><Data ss:Type="String">Grinning Malice</Data></Cell>
+    <Cell><Data ss:Type="String">Grinsende Bosheit</Data></Cell>
+    <Cell><Data ss:Type="String">Grinning Malice</Data></Cell>
+    <Cell ss:Index="9"><Data ss:Type="String">Grinning Malice</Data></Cell>
+    <Cell><Data ss:Type="String">Grinning Malice</Data></Cell>
+    <Cell><Data ss:Type="String">Grinning Malice</Data></Cell>
+    <Cell><Data ss:Type="String">Grinning Malice</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">C13_SELESNYA</Data></Cell>
+    <Cell ss:Index="3"><Data ss:Type="String">Collective Might</Data></Cell>
+    <Cell><Data ss:Type="String">Puissance collective</Data></Cell>
+    <Cell><Data ss:Type="String">Collective Might</Data></Cell>
+    <Cell><Data ss:Type="String">Kollektive Kräfte</Data></Cell>
+    <Cell><Data ss:Type="String">Collective Might</Data></Cell>
+    <Cell ss:Index="9"><Data ss:Type="String">Collective Might</Data></Cell>
+    <Cell><Data ss:Type="String">Collective Might</Data></Cell>
+    <Cell><Data ss:Type="String">Collective Might</Data></Cell>
+    <Cell><Data ss:Type="String">Collective Might</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">D12AOD</Data></Cell>
+    <Cell ss:Index="3"><Data ss:Type="String">Dark Heavens</Data></Cell>
+    <Cell><Data ss:Type="String">Cieux obscurs</Data></Cell>
+    <Cell><Data ss:Type="String">Cielos oscuros</Data></Cell>
+    <Cell><Data ss:Type="String">Dunkler Himmel</Data></Cell>
+    <Cell><Data ss:Type="String">Paradisi Oscuri</Data></Cell>
+    <Cell ss:Index="9"><Data ss:Type="String">暗黒の天国</Data></Cell>
+    <Cell><Data ss:Type="String">Dark Heavens</Data></Cell>
+    <Cell><Data ss:Type="String">Dark Heavens</Data></Cell>
+    <Cell><Data ss:Type="String">Dark Heavens</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">D12BEKNIGHTED</Data></Cell>
+    <Cell ss:Index="3"><Data ss:Type="String">Beknighted</Data></Cell>
+    <Cell><Data ss:Type="String">Sacré chevalier</Data></Cell>
+    <Cell><Data ss:Type="String">Caballeresco</Data></Cell>
+    <Cell><Data ss:Type="String">Ritterdämmerung</Data></Cell>
+    <Cell><Data ss:Type="String">Cavalierato</Data></Cell>
+    <Cell ss:Index="9"><Data ss:Type="String">悪しき騎士</Data></Cell>
+    <Cell><Data ss:Type="String">Beknighted</Data></Cell>
+    <Cell><Data ss:Type="String">Beknighted</Data></Cell>
+    <Cell><Data ss:Type="String">Beknighted</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">D12CHANDRA</Data></Cell>
+    <Cell ss:Index="3"><Data ss:Type="String">Unquenchable Fire</Data></Cell>
+    <Cell><Data ss:Type="String">Feu inextinguible</Data></Cell>
+    <Cell><Data ss:Type="String">Fuego inextinguible</Data></Cell>
+    <Cell><Data ss:Type="String">Unlöschbares Feuer</Data></Cell>
+    <Cell><Data ss:Type="String">Fuoco Inestinguibile</Data></Cell>
+    <Cell ss:Index="9"><Data ss:Type="String">燃え尽きぬ炎</Data></Cell>
+    <Cell><Data ss:Type="String">Unquenchable Fire</Data></Cell>
+    <Cell><Data ss:Type="String">Unquenchable Fire</Data></Cell>
+    <Cell><Data ss:Type="String">Unquenchable Fire</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">D12DD</Data></Cell>
+    <Cell ss:Index="3"><Data ss:Type="String">Forest’s Fury</Data></Cell>
+    <Cell><Data ss:Type="String">Furie de la forêt</Data></Cell>
+    <Cell><Data ss:Type="String">Furia del bosque</Data></Cell>
+    <Cell><Data ss:Type="String">Wut des Waldes</Data></Cell>
+    <Cell><Data ss:Type="String">Collera della Foresta</Data></Cell>
+    <Cell ss:Index="9"><Data ss:Type="String">森の怒り</Data></Cell>
+    <Cell><Data ss:Type="String">Forest’s Fury</Data></Cell>
+    <Cell><Data ss:Type="String">Forest’s Fury</Data></Cell>
+    <Cell><Data ss:Type="String">Forest’s Fury</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">D12GARRUK</Data></Cell>
+    <Cell ss:Index="3"><Data ss:Type="String">Apex Predators</Data></Cell>
+    <Cell><Data ss:Type="String">Prédateurs du zénith</Data></Cell>
+    <Cell><Data ss:Type="String">Depredadores del cenit</Data></Cell>
+    <Cell><Data ss:Type="String">Gipfel-Raubtiere</Data></Cell>
+    <Cell><Data ss:Type="String">Predatori all'Apice</Data></Cell>
+    <Cell ss:Index="9"><Data ss:Type="String">捕食者の頂点</Data></Cell>
+    <Cell><Data ss:Type="String">Apex Predators</Data></Cell>
+    <Cell><Data ss:Type="String">Apex Predators</Data></Cell>
+    <Cell><Data ss:Type="String">Apex Predators</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">D12GK</Data></Cell>
+    <Cell ss:Index="3"><Data ss:Type="String">Ghoulkeeper</Data></Cell>
+    <Cell><Data ss:Type="String">Gardien de goule</Data></Cell>
+    <Cell><Data ss:Type="String">Necroguardián</Data></Cell>
+    <Cell><Data ss:Type="String">Hüter der Ghule</Data></Cell>
+    <Cell><Data ss:Type="String">Custode di Ghoul</Data></Cell>
+    <Cell ss:Index="9"><Data ss:Type="String">グールの守り手</Data></Cell>
+    <Cell><Data ss:Type="String">Ghoulkeeper</Data></Cell>
+    <Cell><Data ss:Type="String">Ghoulkeeper</Data></Cell>
+    <Cell><Data ss:Type="String">Ghoulkeeper</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">D12JACE</Data></Cell>
+    <Cell ss:Index="3"><Data ss:Type="String">Realm of Illusion</Data></Cell>
+    <Cell><Data ss:Type="String">Royaume de l'illusion</Data></Cell>
+    <Cell><Data ss:Type="String">Reino de ilusión</Data></Cell>
+    <Cell><Data ss:Type="String">Reich der Illusionen</Data></Cell>
+    <Cell><Data ss:Type="String">Regno dell'Illusione</Data></Cell>
+    <Cell ss:Index="9"><Data ss:Type="String">幻影の国</Data></Cell>
+    <Cell><Data ss:Type="String">Realm of Illusion</Data></Cell>
+    <Cell><Data ss:Type="String">Realm of Illusion</Data></Cell>
+    <Cell><Data ss:Type="String">Realm of Illusion</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">D12JURA</Data></Cell>
+    <Cell ss:Index="3"><Data ss:Type="String">Wielding Steel</Data></Cell>
+    <Cell><Data ss:Type="String">Armé d'acier</Data></Cell>
+    <Cell><Data ss:Type="String">Esgrimiendo acero</Data></Cell>
+    <Cell><Data ss:Type="String">Gezückter Stahl</Data></Cell>
+    <Cell><Data ss:Type="String">Brandire l'Acciaio</Data></Cell>
+    <Cell ss:Index="9"><Data ss:Type="String">鋼の行使</Data></Cell>
+    <Cell><Data ss:Type="String">Wielding Steel</Data></Cell>
+    <Cell><Data ss:Type="String">Wielding Steel</Data></Cell>
+    <Cell><Data ss:Type="String">Wielding Steel</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">D12KARN</Data></Cell>
+    <Cell ss:Index="3"><Data ss:Type="String">Relics of Antiquity</Data></Cell>
+    <Cell><Data ss:Type="String">Reliques de l'antiquité</Data></Cell>
+    <Cell><Data ss:Type="String">Reliquias antiguas</Data></Cell>
+    <Cell><Data ss:Type="String">Antike Reliquien</Data></Cell>
+    <Cell><Data ss:Type="String">Reliquie dell'Antichità</Data></Cell>
+    <Cell ss:Index="9"><Data ss:Type="String">古代の遺物</Data></Cell>
+    <Cell><Data ss:Type="String">Relics of Antiquity</Data></Cell>
+    <Cell><Data ss:Type="String">Relics of Antiquity</Data></Cell>
+    <Cell><Data ss:Type="String">Relics of Antiquity</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">D12KIORA</Data></Cell>
+    <Cell ss:Index="3"><Data ss:Type="String">Ancient Depths</Data></Cell>
+    <Cell><Data ss:Type="String">Anciennes profondeurs</Data></Cell>
+    <Cell><Data ss:Type="String">Profundidades antiguas</Data></Cell>
+    <Cell><Data ss:Type="String">Uralte Tiefen</Data></Cell>
+    <Cell><Data ss:Type="String">Antiche Profondità</Data></Cell>
+    <Cell ss:Index="9"><Data ss:Type="String">古えの深み</Data></Cell>
+    <Cell><Data ss:Type="String">Ancient Depths</Data></Cell>
+    <Cell><Data ss:Type="String">Ancient Depths</Data></Cell>
+    <Cell><Data ss:Type="String">Ancient Depths</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">D12NISSA</Data></Cell>
+    <Cell ss:Index="3"><Data ss:Type="String">Guardians of the Wood</Data></Cell>
+    <Cell><Data ss:Type="String">Gardiens des bois</Data></Cell>
+    <Cell><Data ss:Type="String">Guardianes del bosque</Data></Cell>
+    <Cell><Data ss:Type="String">Wächter des Waldes</Data></Cell>
+    <Cell><Data ss:Type="String">Guardiani del Bosco</Data></Cell>
+    <Cell ss:Index="9"><Data ss:Type="String">森の守護者</Data></Cell>
+    <Cell><Data ss:Type="String">Guardians of the Wood</Data></Cell>
+    <Cell><Data ss:Type="String">Guardians of the Wood</Data></Cell>
+    <Cell><Data ss:Type="String">Guardians of the Wood</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">D12RAKKA</Data></Cell>
+    <Cell ss:Index="3"><Data ss:Type="String">Trinity of Elements</Data></Cell>
+    <Cell><Data ss:Type="String">Trinité d'éléments</Data></Cell>
+    <Cell><Data ss:Type="String">Trinidad elemental</Data></Cell>
+    <Cell><Data ss:Type="String">Dreiheit der Elemente</Data></Cell>
+    <Cell><Data ss:Type="String">Trinità degli Elementi</Data></Cell>
+    <Cell ss:Index="9"><Data ss:Type="String">三なる精霊</Data></Cell>
+    <Cell><Data ss:Type="String">Trinity of Elements</Data></Cell>
+    <Cell><Data ss:Type="String">Trinity of Elements</Data></Cell>
+    <Cell><Data ss:Type="String">Trinity of Elements</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">D12SARKHAN</Data></Cell>
+    <Cell ss:Index="3"><Data ss:Type="String">Dragons Roar</Data></Cell>
+    <Cell><Data ss:Type="String">Rugissement du dragon</Data></Cell>
+    <Cell><Data ss:Type="String">Rugido del dragón</Data></Cell>
+    <Cell><Data ss:Type="String">Drachenschrei</Data></Cell>
+    <Cell><Data ss:Type="String">Ruggito del Drago</Data></Cell>
+    <Cell ss:Index="9"><Data ss:Type="String">ドラゴンの咆哮</Data></Cell>
+    <Cell><Data ss:Type="String">Dragons Roar</Data></Cell>
+    <Cell><Data ss:Type="String">Dragons Roar</Data></Cell>
+    <Cell><Data ss:Type="String">Dragons Roar</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">D12SE</Data></Cell>
+    <Cell ss:Index="3"><Data ss:Type="String">March to War</Data></Cell>
+    <Cell><Data ss:Type="String">Marche vers la guerre</Data></Cell>
+    <Cell><Data ss:Type="String">Marcha bélica</Data></Cell>
+    <Cell><Data ss:Type="String">In den Krieg ziehen</Data></Cell>
+    <Cell><Data ss:Type="String">Marciare in Guerra</Data></Cell>
+    <Cell ss:Index="9"><Data ss:Type="String">戦争への進軍</Data></Cell>
+    <Cell><Data ss:Type="String">March to War</Data></Cell>
+    <Cell><Data ss:Type="String">March to War</Data></Cell>
+    <Cell><Data ss:Type="String">March to War</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">D12SORIN</Data></Cell>
+    <Cell ss:Index="3"><Data ss:Type="String">Blood Hunger</Data></Cell>
+    <Cell><Data ss:Type="String">Faim sanguinaire</Data></Cell>
+    <Cell><Data ss:Type="String">Hambre de sangre</Data></Cell>
+    <Cell><Data ss:Type="String">Bluthunger</Data></Cell>
+    <Cell><Data ss:Type="String">Brama di Sangue</Data></Cell>
+    <Cell ss:Index="9"><Data ss:Type="String">血の飢え</Data></Cell>
+    <Cell><Data ss:Type="String">Blood Hunger</Data></Cell>
+    <Cell><Data ss:Type="String">Blood Hunger</Data></Cell>
+    <Cell><Data ss:Type="String">Blood Hunger</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">D12TEZZ</Data></Cell>
+    <Cell ss:Index="3"><Data ss:Type="String">Machinations</Data></Cell>
+    <Cell><Data ss:Type="String">Machinations</Data></Cell>
+    <Cell><Data ss:Type="String">Maquinaciones</Data></Cell>
+    <Cell><Data ss:Type="String">Machenschaften</Data></Cell>
+    <Cell><Data ss:Type="String">Macchinazioni</Data></Cell>
+    <Cell ss:Index="9"><Data ss:Type="String">策謀</Data></Cell>
+    <Cell><Data ss:Type="String">Machinations</Data></Cell>
+    <Cell><Data ss:Type="String">Machinations</Data></Cell>
+    <Cell><Data ss:Type="String">Machinations</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">D13_GNS</Data></Cell>
+    <Cell ss:Index="3"><Data ss:Type="String">Madness</Data></Cell>
+    <Cell><Data ss:Type="String">Folie</Data></Cell>
+    <Cell><Data ss:Type="String">Madness</Data></Cell>
+    <Cell><Data ss:Type="String">Wahnsinn</Data></Cell>
+    <Cell><Data ss:Type="String">Madness</Data></Cell>
+    <Cell ss:Index="9"><Data ss:Type="String">Madness</Data></Cell>
+    <Cell><Data ss:Type="String">Madness</Data></Cell>
+    <Cell><Data ss:Type="String">Madness</Data></Cell>
+    <Cell><Data ss:Type="String">Madness</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">D13_GRISEL</Data></Cell>
+    <Cell ss:Index="3"><Data ss:Type="String">Reanimator</Data></Cell>
+    <Cell><Data ss:Type="String">Reanimateur</Data></Cell>
+    <Cell><Data ss:Type="String">Reanimator</Data></Cell>
+    <Cell><Data ss:Type="String">Reanimator</Data></Cell>
+    <Cell><Data ss:Type="String">Reanimator</Data></Cell>
+    <Cell ss:Index="9"><Data ss:Type="String">Reanimator</Data></Cell>
+    <Cell><Data ss:Type="String">Reanimator</Data></Cell>
+    <Cell><Data ss:Type="String">Reanimator</Data></Cell>
+    <Cell><Data ss:Type="String">Reanimator</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">D13_HYPNO</Data></Cell>
+    <Cell ss:Index="3"><Data ss:Type="String">Hypnosis</Data></Cell>
+    <Cell><Data ss:Type="String">Hypnose</Data></Cell>
+    <Cell><Data ss:Type="String">Hypnosis</Data></Cell>
+    <Cell><Data ss:Type="String">Hypnose</Data></Cell>
+    <Cell><Data ss:Type="String">Hypnosis</Data></Cell>
+    <Cell ss:Index="9"><Data ss:Type="String">Hypnosis</Data></Cell>
+    <Cell><Data ss:Type="String">Hypnosis</Data></Cell>
+    <Cell><Data ss:Type="String">Hypnosis</Data></Cell>
+    <Cell><Data ss:Type="String">Hypnosis</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">D13_KARNSILVER</Data></Cell>
+    <Cell ss:Index="3"><Data ss:Type="String">Cloud Nine</Data></Cell>
+    <Cell><Data ss:Type="String">Septième Ciel</Data></Cell>
+    <Cell><Data ss:Type="String">Cloud Nine</Data></Cell>
+    <Cell><Data ss:Type="String">Wolke Neun</Data></Cell>
+    <Cell><Data ss:Type="String">Cloud Nine</Data></Cell>
+    <Cell ss:Index="9"><Data ss:Type="String">Cloud Nine</Data></Cell>
+    <Cell><Data ss:Type="String">Cloud Nine</Data></Cell>
+    <Cell><Data ss:Type="String">Cloud Nine</Data></Cell>
+    <Cell><Data ss:Type="String">Cloud Nine</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">D13_MERF</Data></Cell>
+    <Cell ss:Index="3"><Data ss:Type="String">Pirates</Data></Cell>
+    <Cell><Data ss:Type="String">Pirates</Data></Cell>
+    <Cell><Data ss:Type="String">Pirates</Data></Cell>
+    <Cell><Data ss:Type="String">Piraten</Data></Cell>
+    <Cell><Data ss:Type="String">Pirates</Data></Cell>
+    <Cell ss:Index="9"><Data ss:Type="String">Pirates</Data></Cell>
+    <Cell><Data ss:Type="String">Pirates</Data></Cell>
+    <Cell><Data ss:Type="String">Pirates</Data></Cell>
+    <Cell><Data ss:Type="String">Pirates</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">D13_MESA</Data></Cell>
+    <Cell ss:Index="3"><Data ss:Type="String">Enchanter</Data></Cell>
+    <Cell><Data ss:Type="String">Enchantresse</Data></Cell>
+    <Cell><Data ss:Type="String">Enchanter</Data></Cell>
+    <Cell><Data ss:Type="String">Ausrüster</Data></Cell>
+    <Cell><Data ss:Type="String">Enchanter</Data></Cell>
+    <Cell ss:Index="9"><Data ss:Type="String">Enchanter</Data></Cell>
+    <Cell><Data ss:Type="String">Enchanter</Data></Cell>
+    <Cell><Data ss:Type="String">Enchanter</Data></Cell>
+    <Cell><Data ss:Type="String">Enchanter</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">D13_NICOL_REVENGE</Data></Cell>
+    <Cell ss:Index="3"><Data ss:Type="String">Mastermind Revenge</Data></Cell>
+    <Cell><Data ss:Type="String">Génie du mal</Data></Cell>
+    <Cell><Data ss:Type="String">Mente maestra</Data></Cell>
+    <Cell><Data ss:Type="String">Superhirns Rache</Data></Cell>
+    <Cell><Data ss:Type="String">Genio</Data></Cell>
+    <Cell ss:Index="9"><Data ss:Type="String">真の黒幕</Data></Cell>
+    <Cell><Data ss:Type="String">마스터마인드</Data></Cell>
+    <Cell><Data ss:Type="String">Вдохновляющий разум</Data></Cell>
+    <Cell><Data ss:Type="String">Mente Mestre</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">D13_TITANRAMP</Data></Cell>
+    <Cell ss:Index="3"><Data ss:Type="String">Titan Ramp</Data></Cell>
+    <Cell><Data ss:Type="String">Croissance Titanesque</Data></Cell>
+    <Cell><Data ss:Type="String">Titan Ramp</Data></Cell>
+    <Cell><Data ss:Type="String">Die Bühne des Titanen</Data></Cell>
+    <Cell><Data ss:Type="String">Titan Ramp</Data></Cell>
+    <Cell ss:Index="9"><Data ss:Type="String">Titan Ramp</Data></Cell>
+    <Cell><Data ss:Type="String">Titan Ramp</Data></Cell>
+    <Cell><Data ss:Type="String">Titan Ramp</Data></Cell>
+    <Cell><Data ss:Type="String">Titan Ramp</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">D13_URA</Data></Cell>
+    <Cell ss:Index="3"><Data ss:Type="String">Stryker</Data></Cell>
+    <Cell><Data ss:Type="String">Fracasseur</Data></Cell>
+    <Cell><Data ss:Type="String">Stryker</Data></Cell>
+    <Cell><Data ss:Type="String">Stryker</Data></Cell>
+    <Cell><Data ss:Type="String">Stryker</Data></Cell>
+    <Cell ss:Index="9"><Data ss:Type="String">Stryker</Data></Cell>
+    <Cell><Data ss:Type="String">Stryker</Data></Cell>
+    <Cell><Data ss:Type="String">Stryker</Data></Cell>
+    <Cell><Data ss:Type="String">Stryker</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">D13_VERDE</Data></Cell>
+    <Cell ss:Index="3"><Data ss:Type="String">Unrooted</Data></Cell>
+    <Cell><Data ss:Type="String">Déraciné</Data></Cell>
+    <Cell><Data ss:Type="String">Unrooted</Data></Cell>
+    <Cell><Data ss:Type="String">Entwurzelt</Data></Cell>
+    <Cell><Data ss:Type="String">Unrooted</Data></Cell>
+    <Cell ss:Index="9"><Data ss:Type="String">Unrooted</Data></Cell>
+    <Cell><Data ss:Type="String">Unrooted</Data></Cell>
+    <Cell><Data ss:Type="String">Unrooted</Data></Cell>
+    <Cell><Data ss:Type="String">Unrooted</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">DECK_ANGELIC_MIGHT</Data></Cell>
+    <Cell ss:Index="3"><Data ss:Type="String">Angelic Might</Data></Cell>
+    <Cell><Data ss:Type="String">Angélique Might</Data></Cell>
+    <Cell><Data ss:Type="String">Angélica Might</Data></Cell>
+    <Cell><Data ss:Type="String">Engelhafte Macht</Data></Cell>
+    <Cell><Data ss:Type="String">Angelic Potere</Data></Cell>
+    <Cell ss:Index="9"><Data ss:Type="String">天使はマイト</Data></Cell>
+    <Cell><Data ss:Type="String">천사하는데</Data></Cell>
+    <Cell><Data ss:Type="String">Ангельские Мощи</Data></Cell>
+    <Cell><Data ss:Type="String">Angélico Poder</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">DECK_KOTH_OLD</Data></Cell>
+    <Cell ss:Index="3"><Data ss:Type="String">Strength of Stone</Data></Cell>
+    <Cell><Data ss:Type="String">Force de la pierre</Data></Cell>
+    <Cell><Data ss:Type="String">Fuerza de la piedra</Data></Cell>
+    <Cell><Data ss:Type="String">Stärke des Steins</Data></Cell>
+    <Cell><Data ss:Type="String">Forza della Pietra</Data></Cell>
+    <Cell ss:Index="9"><Data ss:Type="String">石の力</Data></Cell>
+    <Cell><Data ss:Type="String">Strength of Stone</Data></Cell>
+    <Cell><Data ss:Type="String">Strength of Stone</Data></Cell>
+    <Cell><Data ss:Type="String">Strength of Stone</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">DECK_SOLITARY_FIENDS</Data></Cell>
+    <Cell ss:Index="3"><Data ss:Type="String">Solitary Fiends</Data></Cell>
+    <Cell><Data ss:Type="String">Démons Solitaires</Data></Cell>
+    <Cell><Data ss:Type="String">Demonios Solitarios</Data></Cell>
+    <Cell><Data ss:Type="String">Einsame Unholde</Data></Cell>
+    <Cell><Data ss:Type="String">Demoni Solitari</Data></Cell>
+    <Cell ss:Index="9"><Data ss:Type="String">孤独なフィーンド</Data></Cell>
+    <Cell><Data ss:Type="String">독방에 걸린</Data></Cell>
+    <Cell><Data ss:Type="String">Одиночной Изверги</Data></Cell>
+    <Cell><Data ss:Type="String">Demônios Solitários</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">PLAYER_NAME_ANGELIC_MIGHT</Data></Cell>
+    <Cell ss:Index="3"><Data ss:Type="String">Serra Angel</Data></Cell>
+    <Cell><Data ss:Type="String">Ange de Serra</Data></Cell>
+    <Cell><Data ss:Type="String">Ángel de Serra</Data></Cell>
+    <Cell><Data ss:Type="String">Serra-Engel</Data></Cell>
+    <Cell><Data ss:Type="String">Angelo di Serra</Data></Cell>
+    <Cell ss:Index="9"><Data ss:Type="String">セラの天使</Data></Cell>
+    <Cell><Data ss:Type="String">세라 천사</Data></Cell>
+    <Cell><Data ss:Type="String">Ангел Серры</Data></Cell>
+    <Cell><Data ss:Type="String">Anjo Serra</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">PLAYER_NAME_CAZORIUS</Data></Cell>
+    <Cell ss:Index="3"><Data ss:Type="String">Kor Spiritdancer</Data></Cell>
+    <Cell><Data ss:Type="String">Danseuse d'esprit kor</Data></Cell>
+    <Cell><Data ss:Type="String">Bailarina espiritual kor</Data></Cell>
+    <Cell><Data ss:Type="String">Kor-Geistertänzerin</Data></Cell>
+    <Cell><Data ss:Type="String">Danzatrice Spirituale Kor</Data></Cell>
+    <Cell ss:Index="9"><Data ss:Type="String">コーの精霊の踊り手</Data></Cell>
+    <Cell><Data ss:Type="String">Kor Spiritdancer</Data></Cell>
+    <Cell><Data ss:Type="String">Кор, Танцующая с Духами</Data></Cell>
+    <Cell><Data ss:Type="String">Dançarina dos Espíritos Kor</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">PLAYER_NAME_CGOLGARI</Data></Cell>
+    <Cell ss:Index="3"><Data ss:Type="String">Vulturous Zombie</Data></Cell>
+    <Cell><Data ss:Type="String">Zombie rapace</Data></Cell>
+    <Cell><Data ss:Type="String">Zombie abuitrado</Data></Cell>
+    <Cell><Data ss:Type="String">Geiernder Zombie</Data></Cell>
+    <Cell><Data ss:Type="String">Zombie Rapace</Data></Cell>
+    <Cell ss:Index="9"><Data ss:Type="String">禿鷹ゾンビ</Data></Cell>
+    <Cell><Data ss:Type="String">Vulturous Zombie</Data></Cell>
+    <Cell><Data ss:Type="String">Зомби-стервятник</Data></Cell>
+    <Cell><Data ss:Type="String">Zumbi Predador</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">PLAYER_NAME_CIZZET</Data></Cell>
+    <Cell ss:Index="3"><Data ss:Type="String">Niv-mizzet, the Firemind</Data></Cell>
+    <Cell><Data ss:Type="String">Niv-Mizzet, le Cérébropyre</Data></Cell>
+    <Cell><Data ss:Type="String">Niv-Mízzet, la Mente ardiente</Data></Cell>
+    <Cell><Data ss:Type="String">Niv-Mizzet, das Feuerhirn</Data></Cell>
+    <Cell><Data ss:Type="String">Niv-Mizzet, il Mentefiamma</Data></Cell>
+    <Cell ss:Index="9"><Data ss:Type="String">火想者ニヴ＝ミゼット</Data></Cell>
+    <Cell><Data ss:Type="String">Niv-mizzet, the Firemind</Data></Cell>
+    <Cell><Data ss:Type="String">Нив-Миззет, Огненный разум</Data></Cell>
+    <Cell><Data ss:Type="String">Niv-Mizzet, o Mente de Fogo</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">PLAYER_NAME_CRAKDOS</Data></Cell>
+    <Cell ss:Index="3"><Data ss:Type="String">Rakdos the Defiler</Data></Cell>
+    <Cell><Data ss:Type="String">Rakdos le Contaminateur</Data></Cell>
+    <Cell><Data ss:Type="String">Rakdos el profanador</Data></Cell>
+    <Cell><Data ss:Type="String">Rakdos der Schänder</Data></Cell>
+    <Cell><Data ss:Type="String">Rakdos il Contaminatore</Data></Cell>
+    <Cell ss:Index="9"><Data ss:Type="String">穢すものラクドス</Data></Cell>
+    <Cell><Data ss:Type="String">Rakdos the Defiler</Data></Cell>
+    <Cell><Data ss:Type="String">Ракдос Осквернитель</Data></Cell>
+    <Cell><Data ss:Type="String">Rakdos, o Profanador</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">PLAYER_NAME_CSELESNYA</Data></Cell>
+    <Cell ss:Index="3"><Data ss:Type="String">Selesnya Guildmage</Data></Cell>
+    <Cell><Data ss:Type="String">Ghildmage de Selesnya</Data></Cell>
+    <Cell><Data ss:Type="String">Mago del Gremio Selesnya</Data></Cell>
+    <Cell><Data ss:Type="String">Selesnija-Gildenmagier</Data></Cell>
+    <Cell><Data ss:Type="String">Mago della Gilda di Selesnya</Data></Cell>
+    <Cell ss:Index="9"><Data ss:Type="String">セレズニアのギルド魔道士</Data></Cell>
+    <Cell><Data ss:Type="String">Selesnya Guildmage</Data></Cell>
+    <Cell><Data ss:Type="String">Маг гильдии Селезнии</Data></Cell>
+    <Cell><Data ss:Type="String">Mago da Guilda Selesnya</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">PLAYER_NAME_D12AOD</Data></Cell>
+    <Cell ss:Index="3"><Data ss:Type="String">Angel of Despair</Data></Cell>
+    <Cell><Data ss:Type="String">Ange du désespoir</Data></Cell>
+    <Cell><Data ss:Type="String">Ángel de desesperación</Data></Cell>
+    <Cell><Data ss:Type="String">Engel der Verzweiflung</Data></Cell>
+    <Cell><Data ss:Type="String">Angelo della Disperazione</Data></Cell>
+    <Cell ss:Index="9"><Data ss:Type="String">絶望の天使</Data></Cell>
+    <Cell><Data ss:Type="String">Angel of Despair</Data></Cell>
+    <Cell><Data ss:Type="String">Ангел отчаяния</Data></Cell>
+    <Cell><Data ss:Type="String">Anjo do Desespero</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">PLAYER_NAME_D12BEKNIGHTED</Data></Cell>
+    <Cell ss:Index="3"><Data ss:Type="String">Accorder Paladin</Data></Cell>
+    <Cell><Data ss:Type="String">Paladin des Accordeurs</Data></Cell>
+    <Cell><Data ss:Type="String">Paladín de los acordantes</Data></Cell>
+    <Cell><Data ss:Type="String">Paladin der Harmonier</Data></Cell>
+    <Cell><Data ss:Type="String">Concorde Paladino</Data></Cell>
+    <Cell ss:Index="9"><Data ss:Type="String">調和者隊の聖騎士</Data></Cell>
+    <Cell><Data ss:Type="String">Paladin</Data></Cell>
+    <Cell><Data ss:Type="String">Паладин-Согласитель</Data></Cell>
+    <Cell><Data ss:Type="String">Paladino dos Concordantes</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">PLAYER_NAME_D12CHANDRA</Data></Cell>
+    <Cell ss:Index="3"><Data ss:Type="String">Chandra Nalaar</Data></Cell>
+    <Cell><Data ss:Type="String">Chandra Nalaàr</Data></Cell>
+    <Cell><Data ss:Type="String">Chandra Nalaar</Data></Cell>
+    <Cell><Data ss:Type="String">Chandra Nalaar</Data></Cell>
+    <Cell><Data ss:Type="String">Chandra Nalaar</Data></Cell>
+    <Cell ss:Index="9"><Data ss:Type="String">チャンドラ・ナラー</Data></Cell>
+    <Cell><Data ss:Type="String">Chandra Nalaar</Data></Cell>
+    <Cell><Data ss:Type="String">Чандра Налаар</Data></Cell>
+    <Cell><Data ss:Type="String">Chandra Nalaar</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">PLAYER_NAME_D12DD</Data></Cell>
+    <Cell ss:Index="3"><Data ss:Type="String">Dauntless Dourbark</Data></Cell>
+    <Cell><Data ss:Type="String">Durécorce intrépide</Data></Cell>
+    <Cell><Data ss:Type="String">Cortezadura intrépido</Data></Cell>
+    <Cell><Data ss:Type="String">Furchtloser Hartborker</Data></Cell>
+    <Cell><Data ss:Type="String">Cortecciadura Intrepido</Data></Cell>
+    <Cell ss:Index="9"><Data ss:Type="String">不屈の頑固皮</Data></Cell>
+    <Cell><Data ss:Type="String">Dauntless Dourbark</Data></Cell>
+    <Cell><Data ss:Type="String">Неустрашимый Мрачнодрев</Data></Cell>
+    <Cell><Data ss:Type="String">Troncoscuro Destemido</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">PLAYER_NAME_D12GARRUK</Data></Cell>
+    <Cell ss:Index="3"><Data ss:Type="String">Garruk Wildspeaker</Data></Cell>
+    <Cell><Data ss:Type="String">Garruk Languebestion</Data></Cell>
+    <Cell><Data ss:Type="String">Garruk Portavoz Salvaje</Data></Cell>
+    <Cell><Data ss:Type="String">Garruk Wildsprecher</Data></Cell>
+    <Cell><Data ss:Type="String">Garruk Lingua Selvaggia</Data></Cell>
+    <Cell ss:Index="9"><Data ss:Type="String">野生語りのガラク</Data></Cell>
+    <Cell><Data ss:Type="String">Garruk Wildspeaker</Data></Cell>
+    <Cell><Data ss:Type="String">Гаррук Дикоречивый</Data></Cell>
+    <Cell><Data ss:Type="String">Garruk Falabravo</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">PLAYER_NAME_D12GK</Data></Cell>
+    <Cell ss:Index="3"><Data ss:Type="String">Grave Titan</Data></Cell>
+    <Cell><Data ss:Type="String">Titan des tombes</Data></Cell>
+    <Cell><Data ss:Type="String">Titán de la tumba</Data></Cell>
+    <Cell><Data ss:Type="String">Grabes-Titan</Data></Cell>
+    <Cell><Data ss:Type="String">Titano Sepolcrale</Data></Cell>
+    <Cell ss:Index="9"><Data ss:Type="String">墓所のタイタン</Data></Cell>
+    <Cell><Data ss:Type="String">Grave</Data></Cell>
+    <Cell><Data ss:Type="String">Могильный Титан</Data></Cell>
+    <Cell><Data ss:Type="String">Titã do Túmulo</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">PLAYER_NAME_D12JACE</Data></Cell>
+    <Cell ss:Index="3"><Data ss:Type="String">Jace Beleren</Data></Cell>
+    <Cell><Data ss:Type="String">Jace Beleren</Data></Cell>
+    <Cell><Data ss:Type="String">Jace Beleren</Data></Cell>
+    <Cell><Data ss:Type="String">Jace Beleren</Data></Cell>
+    <Cell><Data ss:Type="String">Jace Beleren</Data></Cell>
+    <Cell ss:Index="9"><Data ss:Type="String">ジェイス・ベレレン</Data></Cell>
+    <Cell><Data ss:Type="String">Jace Beleren</Data></Cell>
+    <Cell><Data ss:Type="String">Джейс Белерен</Data></Cell>
+    <Cell><Data ss:Type="String">Jace Beleren</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">PLAYER_NAME_D12JURA</Data></Cell>
+    <Cell ss:Index="3"><Data ss:Type="String">Gideon Jura</Data></Cell>
+    <Cell><Data ss:Type="String">Gideon Jura</Data></Cell>
+    <Cell><Data ss:Type="String">Gideon Jura</Data></Cell>
+    <Cell><Data ss:Type="String">Gideon Jura</Data></Cell>
+    <Cell><Data ss:Type="String">Gideon Jura</Data></Cell>
+    <Cell ss:Index="9"><Data ss:Type="String">ギデオン・ジュラ</Data></Cell>
+    <Cell><Data ss:Type="String">Gideon Jura</Data></Cell>
+    <Cell><Data ss:Type="String">Гидеон Джура</Data></Cell>
+    <Cell><Data ss:Type="String">Gideon Jura</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">PLAYER_NAME_D12KARN</Data></Cell>
+    <Cell ss:Index="3"><Data ss:Type="String">Karn Liberated</Data></Cell>
+    <Cell><Data ss:Type="String">Karn libéré</Data></Cell>
+    <Cell><Data ss:Type="String">Karn liberado</Data></Cell>
+    <Cell><Data ss:Type="String">Karn der Befreite</Data></Cell>
+    <Cell><Data ss:Type="String">Karn Liberato</Data></Cell>
+    <Cell ss:Index="9"><Data ss:Type="String">解放された者、カーン</Data></Cell>
+    <Cell><Data ss:Type="String">Karn Liberated</Data></Cell>
+    <Cell><Data ss:Type="String">Карн Освобожденный</Data></Cell>
+    <Cell><Data ss:Type="String">Karn Liberto</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">PLAYER_NAME_D12KIORA</Data></Cell>
+    <Cell ss:Index="3"><Data ss:Type="String">Kiora Atua</Data></Cell>
+    <Cell><Data ss:Type="String">Kiora Atua</Data></Cell>
+    <Cell><Data ss:Type="String">Kiora Atua</Data></Cell>
+    <Cell><Data ss:Type="String">Kiora Atua</Data></Cell>
+    <Cell><Data ss:Type="String">Kiora Atua</Data></Cell>
+    <Cell ss:Index="9"><Data ss:Type="String">キオーラ・アトゥア</Data></Cell>
+    <Cell><Data ss:Type="String">Kiora Atua</Data></Cell>
+    <Cell><Data ss:Type="String">Kiora Atua</Data></Cell>
+    <Cell><Data ss:Type="String">Kiora Atua</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">PLAYER_NAME_D12NISSA</Data></Cell>
+    <Cell ss:Index="3"><Data ss:Type="String">Nissa Revane</Data></Cell>
+    <Cell><Data ss:Type="String">Nissa Revane</Data></Cell>
+    <Cell><Data ss:Type="String">Nissa Revane</Data></Cell>
+    <Cell><Data ss:Type="String">Nissa Revane</Data></Cell>
+    <Cell><Data ss:Type="String">Nissa Revane</Data></Cell>
+    <Cell ss:Index="9"><Data ss:Type="String">ニッサ・レヴェイン</Data></Cell>
+    <Cell><Data ss:Type="String">Nissa Revane</Data></Cell>
+    <Cell><Data ss:Type="String">Нисса Ревейн</Data></Cell>
+    <Cell><Data ss:Type="String">Nissa Revane</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">PLAYER_NAME_D12RAKKA</Data></Cell>
+    <Cell ss:Index="3"><Data ss:Type="String">Rakka Mar</Data></Cell>
+    <Cell><Data ss:Type="String">Rakka Mar</Data></Cell>
+    <Cell><Data ss:Type="String">Rakka Mar</Data></Cell>
+    <Cell><Data ss:Type="String">Rakka Mar</Data></Cell>
+    <Cell><Data ss:Type="String">Rakka Mar</Data></Cell>
+    <Cell ss:Index="9"><Data ss:Type="String">ラッカ・マー</Data></Cell>
+    <Cell><Data ss:Type="String">Ракка Мар</Data></Cell>
+    <Cell><Data ss:Type="String">Rakka Mar</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">PLAYER_NAME_D12SARKHAN</Data></Cell>
+    <Cell ss:Index="3"><Data ss:Type="String">Sarkhan Vol</Data></Cell>
+    <Cell><Data ss:Type="String">Sarkhan Vol</Data></Cell>
+    <Cell><Data ss:Type="String">Sarkhan Vol</Data></Cell>
+    <Cell><Data ss:Type="String">Sarkhan Vol</Data></Cell>
+    <Cell><Data ss:Type="String">Sarkhan Vol</Data></Cell>
+    <Cell ss:Index="9"><Data ss:Type="String">サルカン・ヴォル</Data></Cell>
+    <Cell><Data ss:Type="String">Sarkhan Vol</Data></Cell>
+    <Cell><Data ss:Type="String">Сархан Воль</Data></Cell>
+    <Cell><Data ss:Type="String">Sarkhan Vol</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">PLAYER_NAME_D12SE</Data></Cell>
+    <Cell ss:Index="3"><Data ss:Type="String">Sunhome Enforcer</Data></Cell>
+    <Cell><Data ss:Type="String">Argousin de Solcastel</Data></Cell>
+    <Cell><Data ss:Type="String">Coaccionador de Casa Solar</Data></Cell>
+    <Cell><Data ss:Type="String">Sonnenheim-Vollstrecker</Data></Cell>
+    <Cell><Data ss:Type="String">Tutore di Sol-Dimora</Data></Cell>
+    <Cell ss:Index="9"><Data ss:Type="String">サンホームの処罰者</Data></Cell>
+    <Cell><Data ss:Type="String">Sunhome</Data></Cell>
+    <Cell><Data ss:Type="String">Воитель Дома Солнца</Data></Cell>
+    <Cell><Data ss:Type="String">Impositor da Morada do Sol</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">PLAYER_NAME_D12SORIN</Data></Cell>
+    <Cell ss:Index="3"><Data ss:Type="String">Sorin Markov</Data></Cell>
+    <Cell><Data ss:Type="String">Sorin Markov</Data></Cell>
+    <Cell><Data ss:Type="String">Sorin Markov</Data></Cell>
+    <Cell><Data ss:Type="String">Sorin Markov</Data></Cell>
+    <Cell><Data ss:Type="String">Sorin Markov</Data></Cell>
+    <Cell ss:Index="9"><Data ss:Type="String">ソリン・マルコフ</Data></Cell>
+    <Cell><Data ss:Type="String">Sorin Markov</Data></Cell>
+    <Cell><Data ss:Type="String">Сорин Марков</Data></Cell>
+    <Cell><Data ss:Type="String">Sorin Markov</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">PLAYER_NAME_D12TEZZ</Data></Cell>
+    <Cell ss:Index="3"><Data ss:Type="String">Tezzeret the Seeker</Data></Cell>
+    <Cell><Data ss:Type="String">Tezzeret le Chercheur</Data></Cell>
+    <Cell><Data ss:Type="String">Tezzeret El Buscador</Data></Cell>
+    <Cell><Data ss:Type="String">Tezzeret der Sucher</Data></Cell>
+    <Cell><Data ss:Type="String">Tezzeret il Cercatore</Data></Cell>
+    <Cell ss:Index="9"><Data ss:Type="String">求道者テゼレット</Data></Cell>
+    <Cell><Data ss:Type="String">Tezzeret the Seeker</Data></Cell>
+    <Cell><Data ss:Type="String">Теззерет Искатель</Data></Cell>
+    <Cell><Data ss:Type="String">Tezzeret, o Perseguidor</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">PLAYER_NAME_D13GNS</Data></Cell>
+    <Cell ss:Index="3"><Data ss:Type="String">Genesis</Data></Cell>
+    <Cell><Data ss:Type="String">La Genèse</Data></Cell>
+    <Cell><Data ss:Type="String">Génesis</Data></Cell>
+    <Cell><Data ss:Type="String">Die Entstehung</Data></Cell>
+    <Cell><Data ss:Type="String">La Genesi</Data></Cell>
+    <Cell ss:Index="9"><Data ss:Type="String">Genesis</Data></Cell>
+    <Cell><Data ss:Type="String">Genesis</Data></Cell>
+    <Cell><Data ss:Type="String">Genesis</Data></Cell>
+    <Cell><Data ss:Type="String">Gênese</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">PLAYER_NAME_D13GRISEL</Data></Cell>
+    <Cell ss:Index="3"><Data ss:Type="String">Griselbrand</Data></Cell>
+    <Cell><Data ss:Type="String">Griselbrand</Data></Cell>
+    <Cell><Data ss:Type="String">Griselbrand</Data></Cell>
+    <Cell><Data ss:Type="String">Griselbrand</Data></Cell>
+    <Cell><Data ss:Type="String">Griselbrand</Data></Cell>
+    <Cell ss:Index="9"><Data ss:Type="String">グリセルブランド</Data></Cell>
+    <Cell><Data ss:Type="String">Griselbrand</Data></Cell>
+    <Cell><Data ss:Type="String">Гризельбранд</Data></Cell>
+    <Cell><Data ss:Type="String">Griselbrand</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">PLAYER_NAME_ETCHED_CHAMPION</Data></Cell>
+    <Cell ss:Index="3"><Data ss:Type="String">Etched Champion</Data></Cell>
+    <Cell><Data ss:Type="String">Champion gravé</Data></Cell>
+    <Cell><Data ss:Type="String">Campeón grabado</Data></Cell>
+    <Cell><Data ss:Type="String">Geätzter Champion</Data></Cell>
+    <Cell><Data ss:Type="String">Campione Inciso</Data></Cell>
+    <Cell ss:Index="9"><Data ss:Type="String">刻まれた勇者</Data></Cell>
+    <Cell><Data ss:Type="String">Etched Champion</Data></Cell>
+    <Cell><Data ss:Type="String">Гравированный Борец</Data></Cell>
+    <Cell><Data ss:Type="String">Campeão Entalhado</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">PLAYER_NAME_GLISTENER_ELF</Data></Cell>
+    <Cell ss:Index="3"><Data ss:Type="String">Glistener Elf</Data></Cell>
+    <Cell><Data ss:Type="String">Elfe luisant</Data></Cell>
+    <Cell><Data ss:Type="String">Elfo iridiscente</Data></Cell>
+    <Cell><Data ss:Type="String">Glitzernde Elfin</Data></Cell>
+    <Cell><Data ss:Type="String">Elfa Scintillante</Data></Cell>
+    <Cell ss:Index="9"><Data ss:Type="String">ぎらつかせのエルフ</Data></Cell>
+    <Cell><Data ss:Type="String">Glistener Elf</Data></Cell>
+    <Cell><Data ss:Type="String">Эльф-Умаслитель</Data></Cell>
+    <Cell><Data ss:Type="String">Elfo Brilhante</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">PLAYER_NAME_GOBLIN_WARDRIVER</Data></Cell>
+    <Cell ss:Index="3"><Data ss:Type="String">Metal Gob</Data></Cell>
+    <Cell><Data ss:Type="String">Trublion de guerre gobelin</Data></Cell>
+    <Cell><Data ss:Type="String">Líder de guerra trasgo</Data></Cell>
+    <Cell><Data ss:Type="String">Goblin-Kriegstreiber</Data></Cell>
+    <Cell><Data ss:Type="String">Pilota di Guerra Goblin</Data></Cell>
+    <Cell ss:Index="9"><Data ss:Type="String">ゴブリンの戦煽り</Data></Cell>
+    <Cell><Data ss:Type="String">Metal Gob</Data></Cell>
+    <Cell><Data ss:Type="String">Гоблинский Военный Погоняла</Data></Cell>
+    <Cell><Data ss:Type="String">Fomentador de Guerra Goblin</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">PLAYER_NAME_HYPNO</Data></Cell>
+    <Cell ss:Index="3"><Data ss:Type="String">Ob Nixilis, the Fallen</Data></Cell>
+    <Cell><Data ss:Type="String">Ob Nixilis, le Déchu</Data></Cell>
+    <Cell><Data ss:Type="String">Ob Nixilis, el caído</Data></Cell>
+    <Cell><Data ss:Type="String">Ob Nixilis, der Gefallene</Data></Cell>
+    <Cell><Data ss:Type="String">Ob Nixilis, il Caduto</Data></Cell>
+    <Cell ss:Index="9"><Data ss:Type="String">堕ちたる者、オブ・ニクシリス</Data></Cell>
+    <Cell><Data ss:Type="String">Ob Nixilis, le Déchu</Data></Cell>
+    <Cell><Data ss:Type="String">Об-Никсилис, Падший</Data></Cell>
+    <Cell><Data ss:Type="String">Ob Nixilis, o Caído</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">PLAYER_NAME_IMPERIOUS_PERFECT</Data></Cell>
+    <Cell ss:Index="3"><Data ss:Type="String">Imperious Perfect</Data></Cell>
+    <Cell><Data ss:Type="String">Parfaite impérieuse</Data></Cell>
+    <Cell><Data ss:Type="String">Perfecta arrogante</Data></Cell>
+    <Cell><Data ss:Type="String">Gebieterischer Perfekter</Data></Cell>
+    <Cell><Data ss:Type="String">Perfetta Autoritaria</Data></Cell>
+    <Cell ss:Index="9"><Data ss:Type="String">傲慢な完全者</Data></Cell>
+    <Cell><Data ss:Type="String">Imperious Perfect</Data></Cell>
+    <Cell><Data ss:Type="String">Совершенная Повелительница</Data></Cell>
+    <Cell><Data ss:Type="String">Perfeita Imperiosa</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">PLAYER_NAME_KARNSILVER</Data></Cell>
+    <Cell ss:Index="3"><Data ss:Type="String">Karn, Silver Golem</Data></Cell>
+    <Cell><Data ss:Type="String">Karn, Silver Golem</Data></Cell>
+    <Cell><Data ss:Type="String">Karn, Silver Golem</Data></Cell>
+    <Cell><Data ss:Type="String">Karn der Silbergolem</Data></Cell>
+    <Cell><Data ss:Type="String">Karn, Silver Golem</Data></Cell>
+    <Cell ss:Index="9"><Data ss:Type="String">Karn, Silver Golem</Data></Cell>
+    <Cell><Data ss:Type="String">Karn, Silver Golem</Data></Cell>
+    <Cell><Data ss:Type="String">Karn, Silver Golem</Data></Cell>
+    <Cell><Data ss:Type="String">Karn, Silver Golem</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">PLAYER_NAME_KILN_FIEND</Data></Cell>
+    <Cell ss:Index="3"><Data ss:Type="String">Kiln Fiend</Data></Cell>
+    <Cell><Data ss:Type="String">Fielleux du four</Data></Cell>
+    <Cell><Data ss:Type="String">Demonio del horno</Data></Cell>
+    <Cell><Data ss:Type="String">Meiler-Unhold</Data></Cell>
+    <Cell><Data ss:Type="String">Immondo della Fornace</Data></Cell>
+    <Cell ss:Index="9"><Data ss:Type="String">窯の悪鬼</Data></Cell>
+    <Cell><Data ss:Type="String">Kiln Fiend</Data></Cell>
+    <Cell><Data ss:Type="String">Демон Обжига</Data></Cell>
+    <Cell><Data ss:Type="String">Demônio Fornalha</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">PLAYER_NAME_KNIGHT_EXEMPLAR</Data></Cell>
+    <Cell ss:Index="3"><Data ss:Type="String">Knight Exemplar</Data></Cell>
+    <Cell><Data ss:Type="String">Archétype de chevalier</Data></Cell>
+    <Cell><Data ss:Type="String">Caballero ejemplar</Data></Cell>
+    <Cell><Data ss:Type="String">Vorbildlicher Ritter</Data></Cell>
+    <Cell><Data ss:Type="String">Cavaliera Esemplare</Data></Cell>
+    <Cell ss:Index="9"><Data ss:Type="String">模範の騎士</Data></Cell>
+    <Cell><Data ss:Type="String">Knight Exemplar</Data></Cell>
+    <Cell><Data ss:Type="String">Образцовый Рыцарь</Data></Cell>
+    <Cell><Data ss:Type="String">Exemplar Cavaleiro</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">PLAYER_NAME_KOTH_OLD</Data></Cell>
+    <Cell ss:Index="3"><Data ss:Type="String">Koth of the Hammer</Data></Cell>
+    <Cell><Data ss:Type="String">Koth du Marteau</Data></Cell>
+    <Cell><Data ss:Type="String">Koth del Martillo</Data></Cell>
+    <Cell><Data ss:Type="String">Koth vom Hammerclan</Data></Cell>
+    <Cell><Data ss:Type="String">Koth del Martello</Data></Cell>
+    <Cell ss:Index="9"><Data ss:Type="String">槌のコス</Data></Cell>
+    <Cell><Data ss:Type="String">Koth of the Hammer</Data></Cell>
+    <Cell><Data ss:Type="String">Кос из Племени Молота</Data></Cell>
+    <Cell><Data ss:Type="String">Koth do Martelo</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">PLAYER_NAME_MERF</Data></Cell>
+    <Cell ss:Index="3"><Data ss:Type="String">Merfolk Soverign</Data></Cell>
+    <Cell><Data ss:Type="String">Souveraine ondine</Data></Cell>
+    <Cell><Data ss:Type="String">Tritón soberano</Data></Cell>
+    <Cell><Data ss:Type="String">Meervolk-Souverän</Data></Cell>
+    <Cell><Data ss:Type="String">Sovrana dei Tritoni</Data></Cell>
+    <Cell ss:Index="9"><Data ss:Type="String">Sovrana dei Tritoni</Data></Cell>
+    <Cell><Data ss:Type="String">Merfolk Soverign</Data></Cell>
+    <Cell><Data ss:Type="String">Мерфолк-Владыка</Data></Cell>
+    <Cell><Data ss:Type="String">Tritão Soberano</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">PLAYER_NAME_MESA</Data></Cell>
+    <Cell ss:Index="3"><Data ss:Type="String">Mesa Enchantress</Data></Cell>
+    <Cell><Data ss:Type="String">Enchanteresse de la Mesa</Data></Cell>
+    <Cell><Data ss:Type="String">Encantadora de la meseta</Data></Cell>
+    <Cell><Data ss:Type="String">Tafelberg-Zauberin</Data></Cell>
+    <Cell><Data ss:Type="String">Incantatrice della Mesa</Data></Cell>
+    <Cell ss:Index="9"><Data ss:Type="String">メサの女魔術師</Data></Cell>
+    <Cell><Data ss:Type="String">Mesa Enchantress</Data></Cell>
+    <Cell><Data ss:Type="String">Горная Чародейка</Data></Cell>
+    <Cell><Data ss:Type="String">Encantadora de Meseta</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">PLAYER_NAME_NICOL_BOLAS</Data></Cell>
+    <Cell ss:Index="3"><Data ss:Type="String">Nicol Bolas</Data></Cell>
+    <Cell><Data ss:Type="String">Nicol Bolas</Data></Cell>
+    <Cell><Data ss:Type="String">Nicol Bolas</Data></Cell>
+    <Cell><Data ss:Type="String">Nicol Bolas</Data></Cell>
+    <Cell><Data ss:Type="String">Nicol Bolas</Data></Cell>
+    <Cell ss:Index="9"><Data ss:Type="String">ニコル・ボーラス</Data></Cell>
+    <Cell><Data ss:Type="String">니콜 볼라스</Data></Cell>
+    <Cell><Data ss:Type="String">Никол Болас</Data></Cell>
+    <Cell><Data ss:Type="String">Nicol Bolas</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">PLAYER_NAME_SOLITARY_FIENDS</Data></Cell>
+    <Cell ss:Index="3"><Data ss:Type="String">Havengul Skaab</Data></Cell>
+    <Cell><Data ss:Type="String">Skaab de Havengul</Data></Cell>
+    <Cell><Data ss:Type="String">Skaab de Havengul</Data></Cell>
+    <Cell><Data ss:Type="String">Skaab aus Pfuhlhaven</Data></Cell>
+    <Cell><Data ss:Type="String">Skaab di Havengul</Data></Cell>
+    <Cell ss:Index="9"><Data ss:Type="String">ヘイヴングルのスカーブ</Data></Cell>
+    <Cell><Data ss:Type="String">헤이븐굴 스캅</Data></Cell>
+    <Cell><Data ss:Type="String">Хавенгульский Скааб</Data></Cell>
+    <Cell><Data ss:Type="String">Skaab de Havengul</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">PLAYER_NAME_STONEFORGE_MYSTIC</Data></Cell>
+    <Cell ss:Index="3"><Data ss:Type="String">Stoneforge Mystic</Data></Cell>
+    <Cell><Data ss:Type="String">Mystique forgepierre</Data></Cell>
+    <Cell><Data ss:Type="String">Mística fragua de piedra</Data></Cell>
+    <Cell><Data ss:Type="String">Steinschmelz-Mystiker</Data></Cell>
+    <Cell><Data ss:Type="String">Mistica Forgiapietra</Data></Cell>
+    <Cell ss:Index="9"><Data ss:Type="String">石鍛冶の神秘家</Data></Cell>
+    <Cell><Data ss:Type="String">Stoneforge Mystic</Data></Cell>
+    <Cell><Data ss:Type="String">Мистик-Кователь Камней</Data></Cell>
+    <Cell><Data ss:Type="String">Místico Litoforjador</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">PLAYER_NAME_TERRA_STOMPER</Data></Cell>
+    <Cell ss:Index="3"><Data ss:Type="String">Terra Stomper</Data></Cell>
+    <Cell><Data ss:Type="String">Piétineur terrestre</Data></Cell>
+    <Cell><Data ss:Type="String">Aplastatierra</Data></Cell>
+    <Cell><Data ss:Type="String">Festlandzertreter</Data></Cell>
+    <Cell><Data ss:Type="String">Calcaterra</Data></Cell>
+    <Cell ss:Index="9"><Data ss:Type="String">土を踏み付けるもの</Data></Cell>
+    <Cell><Data ss:Type="String">Terra Stomper</Data></Cell>
+    <Cell><Data ss:Type="String">Земной Тяжелоступ</Data></Cell>
+    <Cell><Data ss:Type="String">Pisoteador de Terreno</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">PLAYER_NAME_TITANRAMP</Data></Cell>
+    <Cell ss:Index="3"><Data ss:Type="String">Vine Trellis</Data></Cell>
+    <Cell><Data ss:Type="String">Treille</Data></Cell>
+    <Cell><Data ss:Type="String">Espaldar</Data></Cell>
+    <Cell><Data ss:Type="String">Rankende Reben</Data></Cell>
+    <Cell><Data ss:Type="String">Tralicci Rampicanti</Data></Cell>
+    <Cell ss:Index="9"><Data ss:Type="String">Vine Trellis</Data></Cell>
+    <Cell><Data ss:Type="String">Vine Trellis</Data></Cell>
+    <Cell><Data ss:Type="String">Vine Trellis</Data></Cell>
+    <Cell><Data ss:Type="String">Rede de Trepadeiras</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">PLAYER_NAME_URA</Data></Cell>
+    <Cell ss:Index="3"><Data ss:Type="String">Urabrask the Hidden</Data></Cell>
+    <Cell><Data ss:Type="String">Urabrask le Secret</Data></Cell>
+    <Cell><Data ss:Type="String">Úrabrask el Oculto</Data></Cell>
+    <Cell><Data ss:Type="String">Urabrask der Versteckte</Data></Cell>
+    <Cell><Data ss:Type="String">Urabrask il Nascosto</Data></Cell>
+    <Cell ss:Index="9"><Data ss:Type="String">隠れしウラブラスク</Data></Cell>
+    <Cell><Data ss:Type="String">Urabrask the Hidden</Data></Cell>
+    <Cell><Data ss:Type="String">Урабраск Скрывающийся</Data></Cell>
+    <Cell><Data ss:Type="String">Urabrask, o Oculto</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">PLAYER_NAME_VALAKUT</Data></Cell>
+    <Cell ss:Index="3"><Data ss:Type="String">Valakut, the Molten Pinnacle</Data></Cell>
+    <Cell><Data ss:Type="String">Valakut, la Cime en fusion</Data></Cell>
+    <Cell><Data ss:Type="String">Valakut, el Pináculo Fundido</Data></Cell>
+    <Cell><Data ss:Type="String">Valakut, die geschmolzene Zinne</Data></Cell>
+    <Cell><Data ss:Type="String">Valakut, il Pinnacolo Fuso</Data></Cell>
+    <Cell ss:Index="9"><Data ss:Type="String">溶鉄の尖峰、ヴァラクート</Data></Cell>
+    <Cell><Data ss:Type="String">Valakut</Data></Cell>
+    <Cell><Data ss:Type="String">Валакут, Расплавленная Вершина</Data></Cell>
+    <Cell><Data ss:Type="String">Valakut, o Pináculo Derretido</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">PLAYER_NAME_VERDE</Data></Cell>
+    <Cell ss:Index="3"><Data ss:Type="String">Verdeloth the Ancient</Data></Cell>
+    <Cell><Data ss:Type="String">Verdeloss l'ancien</Data></Cell>
+    <Cell><Data ss:Type="String">Verdeloth el antiguo</Data></Cell>
+    <Cell><Data ss:Type="String">Verdeloth der Uralte</Data></Cell>
+    <Cell><Data ss:Type="String">Verdeloth l'Antico</Data></Cell>
+    <Cell ss:Index="9"><Data ss:Type="String">古木のヴァーデロス</Data></Cell>
+    <Cell><Data ss:Type="String">Verdeloth the Ancient</Data></Cell>
+    <Cell><Data ss:Type="String">Древний Верделот</Data></Cell>
+    <Cell><Data ss:Type="String">Verdeloth, o Antigo</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Z_DECK_AFFINITY</Data></Cell>
+    <Cell ss:Index="3"><Data ss:Type="String">Affinity for Trouble</Data></Cell>
+    <Cell><Data ss:Type="String">Affinité pour les Ennuis</Data></Cell>
+    <Cell><Data ss:Type="String">Affinity for Trouble</Data></Cell>
+    <Cell><Data ss:Type="String">Affinität für Ärger</Data></Cell>
+    <Cell><Data ss:Type="String">Affinity for Trouble</Data></Cell>
+    <Cell ss:Index="9"><Data ss:Type="String">Affinity for Trouble</Data></Cell>
+    <Cell><Data ss:Type="String">Affinity for Trouble</Data></Cell>
+    <Cell><Data ss:Type="String">Affinity for Trouble</Data></Cell>
+    <Cell><Data ss:Type="String">Affinity for Trouble</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Z_DECK_ELVES</Data></Cell>
+    <Cell ss:Index="3"><Data ss:Type="String">Elvish Army</Data></Cell>
+    <Cell><Data ss:Type="String">Armée Elfe</Data></Cell>
+    <Cell><Data ss:Type="String">Elvish Army</Data></Cell>
+    <Cell><Data ss:Type="String">Elfenarmee</Data></Cell>
+    <Cell><Data ss:Type="String">Elvish Army</Data></Cell>
+    <Cell ss:Index="9"><Data ss:Type="String">Elvish Army</Data></Cell>
+    <Cell><Data ss:Type="String">Elvish Army</Data></Cell>
+    <Cell><Data ss:Type="String">Elvish Army</Data></Cell>
+    <Cell><Data ss:Type="String">Elvish Army</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Z_DECK_KNIGHTS</Data></Cell>
+    <Cell ss:Index="3"><Data ss:Type="String">White Knight Rises</Data></Cell>
+    <Cell><Data ss:Type="String">Ascension du Chevalier Blanc</Data></Cell>
+    <Cell><Data ss:Type="String">White Knight Rises</Data></Cell>
+    <Cell><Data ss:Type="String">Der Aufstieg der weißen Soldaten</Data></Cell>
+    <Cell><Data ss:Type="String">White Knight Rises</Data></Cell>
+    <Cell ss:Index="9"><Data ss:Type="String">White Knight Rises</Data></Cell>
+    <Cell><Data ss:Type="String">White Knight Rises</Data></Cell>
+    <Cell><Data ss:Type="String">White Knight Rises</Data></Cell>
+    <Cell><Data ss:Type="String">White Knight Rises</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Z_DECK_METALGOB</Data></Cell>
+    <Cell ss:Index="3"><Data ss:Type="String">Full Metal Goblins</Data></Cell>
+    <Cell><Data ss:Type="String">Goblins Metalliques</Data></Cell>
+    <Cell><Data ss:Type="String">Metal Gob</Data></Cell>
+    <Cell><Data ss:Type="String">Full Metal Goblins</Data></Cell>
+    <Cell><Data ss:Type="String">Metal Gob</Data></Cell>
+    <Cell ss:Index="9"><Data ss:Type="String">Metal Gob</Data></Cell>
+    <Cell><Data ss:Type="String">Metal Gob</Data></Cell>
+    <Cell><Data ss:Type="String">Metal Gob</Data></Cell>
+    <Cell><Data ss:Type="String">Metal Gob</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Z_DECK_QUEST</Data></Cell>
+    <Cell ss:Index="3"><Data ss:Type="String">Quest for Metal</Data></Cell>
+    <Cell><Data ss:Type="String">Quête du Métal</Data></Cell>
+    <Cell><Data ss:Type="String">Quest for Metal</Data></Cell>
+    <Cell><Data ss:Type="String">Die Suche nach Metall</Data></Cell>
+    <Cell><Data ss:Type="String">Quest for Metal</Data></Cell>
+    <Cell ss:Index="9"><Data ss:Type="String">Quest for Metal</Data></Cell>
+    <Cell><Data ss:Type="String">Quest for Metal</Data></Cell>
+    <Cell><Data ss:Type="String">Quest for Metal</Data></Cell>
+    <Cell><Data ss:Type="String">Quest for Metal</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Z_DECK_STROBE_RED</Data></Cell>
+    <Cell ss:Index="3"><Data ss:Type="String">Strobe Red</Data></Cell>
+    <Cell><Data ss:Type="String">Pulsation Rouge</Data></Cell>
+    <Cell><Data ss:Type="String">Strobe Red</Data></Cell>
+    <Cell><Data ss:Type="String">Roter Blitz</Data></Cell>
+    <Cell><Data ss:Type="String">Strobe Red</Data></Cell>
+    <Cell ss:Index="9"><Data ss:Type="String">Strobe Red</Data></Cell>
+    <Cell><Data ss:Type="String">Strobe Red</Data></Cell>
+    <Cell><Data ss:Type="String">Strobe Red</Data></Cell>
+    <Cell><Data ss:Type="String">Strobe Red</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Z_DECK_TRAMPLING_MOB</Data></Cell>
+    <Cell ss:Index="3"><Data ss:Type="String">Trampling Mob</Data></Cell>
+    <Cell><Data ss:Type="String">Horde Ecrasante</Data></Cell>
+    <Cell><Data ss:Type="String">Trampling Mob</Data></Cell>
+    <Cell><Data ss:Type="String">Trampelnder Mob</Data></Cell>
+    <Cell><Data ss:Type="String">Trampling Mob</Data></Cell>
+    <Cell ss:Index="9"><Data ss:Type="String">Trampling Mob</Data></Cell>
+    <Cell><Data ss:Type="String">Trampling Mob</Data></Cell>
+    <Cell><Data ss:Type="String">Trampling Mob</Data></Cell>
+    <Cell><Data ss:Type="String">Trampling Mob</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Z_DECK_TURBO_INFECT</Data></Cell>
+    <Cell ss:Index="3"><Data ss:Type="String">Turbo Infect</Data></Cell>
+    <Cell><Data ss:Type="String">Turbo Infection</Data></Cell>
+    <Cell><Data ss:Type="String">Turbo Infect</Data></Cell>
+    <Cell><Data ss:Type="String">Schnelles Gift</Data></Cell>
+    <Cell><Data ss:Type="String">Turbo Infect</Data></Cell>
+    <Cell ss:Index="9"><Data ss:Type="String">Turbo Infect</Data></Cell>
+    <Cell><Data ss:Type="String">Turbo Infect</Data></Cell>
+    <Cell><Data ss:Type="String">Turbo Infect</Data></Cell>
+    <Cell><Data ss:Type="String">Turbo Infect</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Z_DECK_VALAKUT</Data></Cell>
+    <Cell ss:Index="3"><Data ss:Type="String">Fiery Mountains</Data></Cell>
+    <Cell><Data ss:Type="String">Montagnes Incandescentes</Data></Cell>
+    <Cell><Data ss:Type="String">Fiery Mountains</Data></Cell>
+    <Cell><Data ss:Type="String">Feurige Berge</Data></Cell>
+    <Cell><Data ss:Type="String">Fiery Mountains</Data></Cell>
+    <Cell ss:Index="9"><Data ss:Type="String">Fiery Mountains</Data></Cell>
+    <Cell><Data ss:Type="String">Fiery Mountains</Data></Cell>
+    <Cell><Data ss:Type="String">Fiery Mountains</Data></Cell>
+    <Cell><Data ss:Type="String">Fiery Mountains</Data></Cell>
+   </Row>
+  </Table>
+  <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+   <PageSetup>
+    <Header x:Margin="0.3"/>
+    <Footer x:Margin="0.3"/>
+    <PageMargins x:Bottom="0.75" x:Left="0.7" x:Right="0.7" x:Top="0.75"/>
+   </PageSetup>
+   <Unsynced/>
+   <Print>
+    <ValidPrinterInfo/>
+    <HorizontalResolution>600</HorizontalResolution>
+    <VerticalResolution>600</VerticalResolution>
+   </Print>
+   <Selected/>
+   <Panes>
+    <Pane>
+     <Number>3</Number>
+     <ActiveRow>1</ActiveRow>
+     <RangeSelection>R2C1:R87C12</RangeSelection>
+    </Pane>
+   </Panes>
+   <ProtectObjects>False</ProtectObjects>
+   <ProtectScenarios>False</ProtectScenarios>
+  </WorksheetOptions>
+ </Worksheet>
+ <Worksheet ss:Name="Sheet1">
+  <Table ss:ExpandedColumnCount="1" ss:ExpandedRowCount="1" x:FullColumns="1"
+   x:FullRows="1" ss:DefaultColumnWidth="66" ss:DefaultRowHeight="15">
+   <Row ss:AutoFitHeight="0"/>
+  </Table>
+  <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+   <PageSetup>
+    <Header x:Margin="0.3"/>
+    <Footer x:Margin="0.3"/>
+    <PageMargins x:Bottom="0.75" x:Left="0.7" x:Right="0.7" x:Top="0.75"/>
+   </PageSetup>
+   <Unsynced/>
+   <ProtectObjects>False</ProtectObjects>
+   <ProtectScenarios>False</ProtectScenarios>
+  </WorksheetOptions>
+ </Worksheet>
+ <Worksheet ss:Name="Sheet2">
+  <Table ss:ExpandedColumnCount="1" ss:ExpandedRowCount="1" x:FullColumns="1"
+   x:FullRows="1" ss:DefaultColumnWidth="66" ss:DefaultRowHeight="15">
+   <Row ss:AutoFitHeight="0"/>
+  </Table>
+  <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+   <PageSetup>
+    <Header x:Margin="0.3"/>
+    <Footer x:Margin="0.3"/>
+    <PageMargins x:Bottom="0.75" x:Left="0.7" x:Right="0.7" x:Top="0.75"/>
+   </PageSetup>
+   <Unsynced/>
+   <ProtectObjects>False</ProtectObjects>
+   <ProtectScenarios>False</ProtectScenarios>
+  </WorksheetOptions>
+ </Worksheet>
+ <Worksheet ss:Name="Sheet3">
+  <Table ss:ExpandedColumnCount="1" ss:ExpandedRowCount="1" x:FullColumns="1"
+   x:FullRows="1" ss:DefaultColumnWidth="66" ss:DefaultRowHeight="15">
+   <Row ss:AutoFitHeight="0"/>
+  </Table>
+  <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+   <PageSetup>
+    <Header x:Margin="0.3"/>
+    <Footer x:Margin="0.3"/>
+    <PageMargins x:Bottom="0.75" x:Left="0.7" x:Right="0.7" x:Top="0.75"/>
+   </PageSetup>
+   <Unsynced/>
+   <ProtectObjects>False</ProtectObjects>
+   <ProtectScenarios>False</ProtectScenarios>
+  </WorksheetOptions>
+ </Worksheet>
+</Workbook>

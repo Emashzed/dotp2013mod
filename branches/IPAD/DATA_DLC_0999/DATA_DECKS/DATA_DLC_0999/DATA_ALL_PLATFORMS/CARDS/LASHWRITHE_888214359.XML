@@ -1,0 +1,110 @@
+﻿<?xml version='1.0'?>
+<CARD_V2>
+  <FILENAME text="LASHWRITHE_888214359" />
+  <CARDNAME text="LASHWRITHE" />
+  <TITLE>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Lashwrithe]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Contorcisferza]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Zuckpeitsche]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Fouet serpentiforme]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Retuercelátigo]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[鞭打ち悶え]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[Lashwrithe]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Корчехлыст]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Chicote Serpeante]]></LOCALISED_TEXT>
+  </TITLE>
+  <MULTIVERSEID value="888214359" />
+  <ARTID value="888214359" />
+  <ARTIST name="Jason Felix" />
+  <CASTING_COST cost="{4}" />
+  <TYPE metaname="Artifact" />
+  <SUB_TYPE metaname="Equipment" order_de-DE="0" order_es-ES="0" order_fr-FR="0" order_it-IT="0" order_jp-JA="0" order_ko-KR="0" order_pt-BR="0" order_ru-RU="0" />
+  <EXPANSION value="DPG" />
+  <RARITY metaname="R" />
+  <TRIGGERED_ABILITY auto_skip="1" filter_zone="ZONE_IN_PLAY">
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Living weapon (When this Equipment enters the battlefield, put a 0/0 black Germ creature token onto the battlefield, then attach this to it.)]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Arma vivente (Quando questo Equipaggiamento entra nel campo di battaglia, metti sul campo di battaglia una pedina creatura Microbo 0/0 nera, poi assegnalo ad essa.)]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Lebende Waffe (Wenn diese Ausrüstung ins Spiel kommt, bringe einen 0/0 schwarzen Keim-Kreaturenspielstein ins Spiel und lege sie dann an ihn an.)]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Arme vivante (Quand cet équipement arrive sur le champ de bataille, mettez sur le champ de bataille un jeton de créature 0/0 noire Germe, puis attachez-lui cet équipement.) La créature équipée gagne +1/+1 pour chaque marais que vous contrôlez.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Arma viviente. (Cuando este equipo entre al campo de batalla, pon en el campo de batalla una ficha de criatura negra Germen 0/0, luego anéxalo a ella.)]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[生体武器 （この装備品が戦場に出たとき、黒の０/０の細菌・クリーチャー・トークンを１体戦場に出し、その後これをそれにつける。）]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[Living weapon (When this Equipment enters the battlefield, put a 0/0 black Germ creature token onto the battlefield, then attach this to it.)]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Живое оружие (Когда это Снаряжение выходит на поле битвы, положите на поле битвы одну фишку существа 0/0 черный Микроб, затем прикрепите к ней это Снаряжение.)]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Arma viva (Quando este Equipamento entrar no campo de batalha, coloque no campo de batalha uma ficha de criatura preta 0/0 do tipo Germe e anexe-o a ela.)]]></LOCALISED_TEXT>
+    <TRIGGER value="ZONECHANGE_END" simple_qualifier="self" to_zone="ZONE_IN_PLAY" />
+    <RESOLUTION_TIME_ACTION>
+    MTG():PutTokensIntoPlay( "TOKEN_GERM_0_0_288726", 1, EffectController(), EffectDC():Make_Chest(0) )
+    </RESOLUTION_TIME_ACTION>
+    <RESOLUTION_TIME_ACTION>
+    local token_chest = EffectDC():Get_Chest(0)
+    if EffectSource() ~= nil and token_chest ~= nil and token_chest:Get_CardPtr(0) ~= nil then
+       EffectSource():Attach( token_chest:Get_CardPtr(0) )
+    end
+    </RESOLUTION_TIME_ACTION>
+  </TRIGGERED_ABILITY>
+  <STATIC_ABILITY filter_zone="ZONE_IN_PLAY">
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Equipped creature gets +1/+1 for each Swamp you control.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[La creatura equipaggiata prende +1/+1 per ogni Palude che controlli.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Die ausgerüstete Kreatur erhält +1/+1 für jeden Sumpf, den du kontrollierst.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Équipement {J}{J} ({J} peut être payé au choix avec {B} ou 2 points de vie.)]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[La criatura equipada obtiene +1/+1 por cada pantano que controles.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[装備しているクリーチャーは、あなたがコントロールする沼１つにつき＋１/＋１の修整を受ける。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[Equipped creature gets +1/+1 for each Swamp you control.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Снаряженное существо получает +1/+1 за каждое Болото под вашим контролем.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[A criatura equipada recebe +1/+1 para cada Pântano que você controla.]]></LOCALISED_TEXT>
+	<CONTINUOUS_ACTION layer="7C">
+	local total = 0  
+    local filter = Object():GetFilter() 
+    local parent = Object():GetParent()
+    if parent ~= nil then
+		filter:Clear()    
+    	filter:SetZone( ZONE_IN_PLAY )      
+    	filter:AddSubType( LAND_TYPE_SWAMP )    
+    	filter:SetController( Object():GetController() )    
+    	filter:NotTargetted()    
+    	total = filter:Count()
+    	parent:GetCurrentCharacteristics():Power_Add( total )
+    	parent:GetCurrentCharacteristics():Toughness_Add( total )
+    end
+    </CONTINUOUS_ACTION>
+  </STATIC_ABILITY>
+  <ACTIVATED_ABILITY sorcery_time="1" filter_zone="ZONE_IN_PLAY">
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Equip {J}{J} ({J} can be paid with either {B} or 2 life.)]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Equipaggiare {J}{J} ({J} può essere pagato con {B} o con 2 punti vita.)]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Ausrüsten {J}{J} ({J} kann entweder mit {B} oder 2 Lebenspunkten bezahlt werden.)]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Equip {J}{J} ({J} can be paid with either {B} or 2 life.)]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Equipar {J}{J}. ({J} puede pagarse con {B} o con 2 vidas.)]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[装備 {J}{J} （{J}は{B}でも２点のライフでも支払うことができる。）]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[Equip {J}{J} ({J} can be paid with either {B} or 2 life.)]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Снарядить {J}{J} (За {J} можно заплатить либо {B}, либо 2 жизни.)]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Equipar {J}{J} ({J} pode ser pago com {B} ou 2 pontos de vida.)]]></LOCALISED_TEXT>
+    <COST type="Mana" cost="{B/P}{B/P}" />
+    <TARGET_DEFINITION id="0">
+    local filter = Object():GetFilter()
+    filter:Clear()
+    filter:AddCardType( CARD_TYPE_CREATURE )
+    filter:SetZone( ZONE_IN_PLAY )
+    filter:SetController( EffectController() )
+    -- AI 'cannot reequip' exemption 
+    local parent = Object():GetParent()
+    if parent ~= nil and EffectController():IsAI() ~= 0 then
+    	filter:SetCardInstance(parent)
+    	filter:AddExtra(FILTER_EXTRA_FLIP_CARD_INSTANCE)
+    end
+    </TARGET_DEFINITION>
+    <TARGET_DETERMINATION>
+    return AtLeastOneTargetFromDefinition(0)
+    </TARGET_DETERMINATION>
+    <PLAY_TIME_ACTION target_choosing="1">
+    EffectController():ChooseTarget( 0, "CARD_QUERY_CHOOSE_CREATURE_TO_EQUIP", EffectDC():Make_Targets(0) )
+    </PLAY_TIME_ACTION>
+    <RESOLUTION_TIME_ACTION>
+    local target_card = EffectDC():Get_Targets(0):Get_CardPtr(0)
+    if (target_card ~= nil and EffectSource() ~= nil) then
+    	EffectSource():Attach( target_card )	
+    end
+    </RESOLUTION_TIME_ACTION>
+    <AI_AVAILABILITY type="equip" />
+  </ACTIVATED_ABILITY>
+  <TOKEN_REGISTRATION reservation="1" type="TOKEN_GERM_0_0_288726" />
+</CARD_V2>

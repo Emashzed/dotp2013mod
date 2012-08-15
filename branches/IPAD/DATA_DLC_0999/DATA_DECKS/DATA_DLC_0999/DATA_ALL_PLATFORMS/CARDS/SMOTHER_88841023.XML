@@ -1,0 +1,81 @@
+﻿<?xml version='1.0'?>
+<CARD_V2>
+  <FILENAME text="SMOTHER_88841023" />
+  <CARDNAME text="SMOTHER" />
+  <TITLE>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Smother]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Strangolare]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Ersticken]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Étouffer]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Producir asfixia]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[燻し]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[Smother]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Удушение]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Sufocamento]]></LOCALISED_TEXT>
+  </TITLE>
+  <MULTIVERSEID value="88841023" />
+  <ARTID value="88841023" />
+  <ARTIST name="Carl Critchlow" />
+  <CASTING_COST cost="{1}{B}" />
+  <FLAVOURTEXT>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA["Before I hire new recruits, I test how long they can hold their breath. You'd be surprised how often it comes up."
+—Zahr Gada, Halimar expedition leader]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA["Prima di assumere nuove reclute, verifico sempre quanto sono in grado di trattenere il respiro. Non hai idea di quanto spesso sia indispensabile farlo."
+—Zahr Gada, capo spedizione di Halimar]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[„Bevor ich neue Rekruten einstelle, teste ich, wie lange sie den Atem anhalten können. Du glaubst gar nicht, wie oft man das braucht."
+—Zahr Gada, Expeditionsführer aus Halimar]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[« Avant d'engager de nouvelles recrues, je vérifie combien de temps elles peuvent retenir leur respiration. Vous seriez surpris d'apprendre à quel point c'est utile. »
+—Zahr Gada, chef de l'expédition d'Halimar]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA["Antes de contratar nuevos reclutas, pruebo cuánto pueden contener la respiración. Podría sorprenderte las veces que esto es importante."
+—Zahr Gada, líder de expedición de Halimar]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[「新しいのを雇う前は、奴らがどれだけ息を止めていられるかの試験をする。 これが意外と重要なんだ。」
+――ハリマー探検隊長、ザール・ガーダ]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA["Before I hire new recruits, I test how long they can hold their breath. You'd be surprised how often it comes up."
+—Zahr Gada, Halimar expedition leader]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[«Прежде чем набрать новую команду, я проверяю, умеют ли они надолго задерживать дыхание. Вы не поверите, как часто это пригождается».
+— Зар Гэда, глава экспедиции с Халимарского побережья]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA["Antes de empregar novos recrutas, testo por quanto tempo eles podem reter o fôlego. Você não imagina quantos superam o teste."
+— Zahr Gada, líder de expedição de Halimar]]></LOCALISED_TEXT>
+  </FLAVOURTEXT>
+  <TYPE metaname="Instant" />
+  <EXPANSION value="DPG" />
+  <RARITY metaname="U" />
+  <SPELL_ABILITY dangerous="1" filter_zone="ZONE_IN_PLAY">
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Destroy target creature with converted mana cost 3 or less. It can't be regenerated.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Distruggi una creatura bersaglio con costo di mana convertito pari o inferiore a 3. Non può essere rigenerata.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Zerstöre eine Kreatur deiner Wahl mit umgewandelten Manakosten von 3 oder weniger. Sie kann nicht regeneriert werden.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Détruisez la créature ciblée dont le coût converti de mana est inférieur ou égal à 3. Elle ne peut pas être régénérée.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Destruye la criatura objetivo con coste de maná convertido de 3 o menos. No puede ser regenerada.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[点数で見たマナ・コストが３以下のクリーチャー１体を対象とし、それを破壊する。 それは再生できない。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[Destroy target creature with converted mana cost 3 or less. It can't be regenerated.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Уничтожьте целевое существо с конвертированной мана-стоимостью 3 или меньше. Оно не может быть регенерировано.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Destrua a criatura alvo com custo de mana convertido menor ou igual a 3. Ela não pode ser regenerada.]]></LOCALISED_TEXT>
+    <TARGET_DEFINITION id="0">
+    local filter = Object():GetFilter()
+    filter:Clear()
+    filter:AddCardType( CARD_TYPE_CREATURE )
+	filter:SetConvertedCostMax(3)
+    filter:SetZone( ZONE_IN_PLAY )
+    filter:SetHint( HINT_ENEMY_ONLY, EffectController() )
+    </TARGET_DEFINITION>
+    <TARGET_DETERMINATION>
+    return AtLeastOneTargetFromDefinition(0)
+    </TARGET_DETERMINATION>
+    <PLAY_TIME_ACTION target_choosing="1">
+    EffectController():ChooseTarget( 0, "CARD_QUERY_CHOOSE_CREATURE_TO_DESTROY", EffectDC():Make_Targets(0) )
+    </PLAY_TIME_ACTION>
+    <RESOLUTION_TIME_ACTION ignore_filter="1">
+    local target = EffectDC():Get_Targets(0):Get_NthCardPtr(0)
+    if target ~= nil then   
+    	target:DestroyWithoutRegenerate()  
+    end
+    </RESOLUTION_TIME_ACTION>
+  </SPELL_ABILITY>
+  <AI_AVAILABILITY type="in_response" />
+  <AI_AVAILABILITY step="begin_combat" turn="their_turn" />
+  <AI_AVAILABILITY step="main_1" turn="my_turn" />
+  <AI_AVAILABILITY step="declare_attackers" turn="their_turn" />
+  <AI_AVAILABILITY step="declare_blockers" />
+  <AI_AVAILABILITY step="end_of_turn" />
+  <AI_BASE_SCORE score="1200" zone="ZONE_HAND" />
+</CARD_V2>

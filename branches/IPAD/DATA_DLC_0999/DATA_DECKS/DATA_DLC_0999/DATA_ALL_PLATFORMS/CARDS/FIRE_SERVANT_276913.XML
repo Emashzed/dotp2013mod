@@ -1,0 +1,80 @@
+<?xml version='1.0'?>
+<CARD_V2>
+  <FILENAME text="FIRE_SERVANT_276913" />
+  <CARDNAME text="FIRE_SERVANT" />
+  <TITLE>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Fire Servant]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Servant de feu]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Sirviente de fuego]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Diener des Feuers]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Servitore di Fuoco]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[火の召使い]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[불의 수하]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Огненный Слуга]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Servo do Fogo]]></LOCALISED_TEXT>
+  </TITLE>
+  <MULTIVERSEID value="276913" />
+  <ARTID value="129085" />
+  <ARTIST name="Ryan Yee" />
+  <CASTING_COST cost="{3}{R}{R}" />
+  <FLAVOURTEXT>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[“Elemental fire shimmers with rose hues and, unlike terrestrial blazes, smolders long after it’s extinguished.”
+—Jestus Dreya, Of Elements and Eternity]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[« Le feu élémentaire a des scintillements rosés et, contrairement aux brasiers terrestres, il fume longtemps après avoir été éteint. »
+—Jestus Dreya, Des éléments et de l’éternité]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[“El fuego elemental brilla con tonos rosados y, al contrario de las llamaradas terrenales, sigue humeando después de haberse apagado.”
+—Jestus Dreya, Sobre los elementos y la eternidad]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[„Elementarfeuer schimmert mit rosaroten Untertönen und schwelt im Gegensatz zu weltlichen Feuern noch lange nach seiner Löschung.“
+—Jestus Dreya, Über Elemente und die Ewigkeit]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[“L’elementale del fuoco brilla con sfumature rosate e, a differenza delle fiamme terrestri, brucia a lungo dopo essersi spento.”
+—Jestus Dreya, Gli Elementi e l’Eternità]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[「精霊の火は薔薇色に揺らめくが、地上の炎と異なり、消された後も長く燻り続ける。」
+—ジェスタス・ドレイヤ「元素と永遠と」]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[“정령의 불꽃은 장밋빛이며, 지상의 불과는 달리 꺼지고도 한참동안 연기를 내뿜는다.”
+—제스투스 드레야, 원소와 영속성에 대한 고찰]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[«Огонь элементалей мерцает розоватыми отблесками и, в отличие от обычного пламени, долго тлеет после того, как его погасили».
+— Джестус Дрейя, О стихии и вечности]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[“O fogo elemental cintila com colorações rosadas e, ao contrário das fogueiras terrestres, arde por muito tempo depois de extinto.”
+— Jestus Dreya, Sobre os Elementos e a Eternidade]]></LOCALISED_TEXT>
+  </FLAVOURTEXT>
+  <TYPE metaname="Creature" />
+  <SUB_TYPE metaname="Elemental" order_de-DE="0" order_es-ES="0" order_fr-FR="0" order_it-IT="0" order_jp-JA="0" order_ko-KR="0" order_pt-BR="0" order_ru-RU="0" />
+  <EXPANSION value="DPG" />
+  <RARITY metaname="U" />
+  <POWER value="4" />
+  <TOUGHNESS value="3" />
+  <TRIGGERED_ABILITY internal="1" pre_trigger="1" filter_zone="ZONE_IN_PLAY">
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[If a red instant or sorcery spell you control would deal damage, it deals double that damage instead.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Si un sort d’éphémère ou de rituel rouge que vous contrôlez devait infliger des blessures, il inflige le double de ces blessures à la place.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Si un hechizo instantáneo o conjuro rojo que controlas fuera a hacer daño, en vez de eso, hace el doble de ese daño.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Falls ein roter Spontanzauber oder eine rote Hexerei, den bzw. die du kontrollierst, Schaden zufügen würde, fügt er bzw. sie stattdessen doppelt so viel Schaden zu.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Se una magia istantaneo o stregoneria rossa che controlli sta per infliggere danno, infligge invece il doppio di quel danno.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[あなたがコントロールする赤のインスタント呪文か赤のソーサリー呪文がダメージを与える場合、代わりにそれはその２倍のダメージを与える。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[당신이 조종하는 적색 순간마법이나 집중마법이 피해를 입히려고 하면, 그 대신에 그 주문은 그 피해를 두 배로 입힌다.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Если красное мгновенное заклинание или заклинание волшебства под вашим контролем должно нанести повреждения, вместо этого оно наносит те повреждения в двойном размере.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Se uma mágica instantânea ou um feitiço vermelho que você controla for causar dano, em vez disso, ela causa o dobro daquele dano.]]></LOCALISED_TEXT>
+    <TRIGGER value="PLAYER_TOOK_DAMAGE">
+    return ((Damage():GetSource():GetCardType():Test( CARD_TYPE_INSTANT ) ~= 0 or
+    Damage():GetSource():GetCardType():Test( CARD_TYPE_SORCERY ) ~= 0) and
+    (Damage():GetSource():GetColour():Test( COLOUR_RED ) ~=0) and
+    (Damage():GetSource():GetPlayer() == EffectController()))
+    </TRIGGER>
+    <RESOLUTION_TIME_ACTION>
+    Damage():SetAmount( Damage():GetAmount() * 2 )
+    </RESOLUTION_TIME_ACTION>
+  </TRIGGERED_ABILITY>
+  <TRIGGERED_ABILITY internal="1" pre_trigger="1" filter_zone="ZONE_IN_PLAY">
+    <TRIGGER value="CREATURE_TOOK_DAMAGE">
+    return ((Damage():GetSource():GetCardType():Test( CARD_TYPE_INSTANT ) ~= 0 or
+    Damage():GetSource():GetCardType():Test( CARD_TYPE_SORCERY ) ~= 0) and
+    (Damage():GetSource():GetColour():Test( COLOUR_RED ) ~=0) and 
+    (Damage():GetSource():GetController() == EffectController()))
+    </TRIGGER>
+    <RESOLUTION_TIME_ACTION>
+    Damage():SetAmount( Damage():GetAmount() * 2 )
+    </RESOLUTION_TIME_ACTION>
+  </TRIGGERED_ABILITY>
+  <SFX text="COMBAT_FLAME_LARGE_ATTACK" power_boundary_min="4" power_boundary_max="-1" />
+  <SFX text="COMBAT_FLAME_SMALL_ATTACK" power_boundary_min="1" power_boundary_max="3" />
+  <AI_BASE_SCORE score="600" zone="ZONE_IN_PLAY" />
+</CARD_V2>

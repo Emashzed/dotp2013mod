@@ -1,0 +1,146 @@
+<?xml version='1.0'?>
+<CARD_V2>
+  <FILENAME text="BITUMINOUS_BLAST_276743" />
+  <CARDNAME text="BITUMINOUS_BLAST" />
+  <TITLE>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Bituminous Blast]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Salve bitumeuse]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Ráfaga bituminosa]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Pechhaltiger Strahl]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Esplosione di Bitume]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[瀝青破]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[역청 폭발]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Битуминозная Волна]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Explosão Betuminosa]]></LOCALISED_TEXT>
+  </TITLE>
+  <MULTIVERSEID value="276743" />
+  <ARTID value="121045" />
+  <ARTIST name="Raymond Swanland" />
+  <CASTING_COST cost="{3}{B}{R}" />
+  <TYPE metaname="Instant" />
+  <EXPANSION value="DPG" />
+  <RARITY metaname="U" />
+  <TRIGGERED_ABILITY active_zone="ZONE_STACK">
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Cascade]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Cascade]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Cascada]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Kaskade]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Cascata]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[続唱]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[캐스케이드]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Каскад]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Cascata]]></LOCALISED_TEXT>
+    <TRIGGER value="SPELL_PLAYED" simple_qualifier="self" />
+    <PLAY_TIME_ACTION>
+    local spell = TriggerObject()
+    if spell ~= nil then
+    	EffectDC():Set_Int(5, spell:GetConvertedManaCost())
+    end
+    </PLAY_TIME_ACTION>
+    <RESOLUTION_TIME_ACTION>
+    local card = EffectController():Library_GetNth(0)
+    local objectCMC = EffectDC():Get_Int(5) 
+    local player = EffectController()
+    local exile_chest = EffectDC():Make_Chest(1)
+    local cascade_spell = EffectDC():Make_Chest(2)
+    local i = 1
+    while card ~= nil do
+    	if  ((card:GetCardType():Test( CARD_TYPE_LAND ) == 0) and (card:GetConvertedManaCost() &lt; objectCMC )) then
+    		card:RemoveFromGame()
+    		cascade_spell:Set_CardPtr(0, card)
+    		exile_chest:Set_CardPtr(0, card)
+    		return
+    	else
+    		card:RemoveFromGame()
+    		exile_chest:Set_CardPtr(i, card)
+    		EffectDC():Set_Int(3, i)
+    		i = i+1
+    	end
+    	card = EffectController():Library_GetNth(0)
+    end
+    </RESOLUTION_TIME_ACTION>
+    <RESOLUTION_TIME_ACTION>
+    local browser = EffectDC():Get_Chest(2)
+    local player = EffectController()
+    if player ~= nil then 
+    	if browser ~= nil then
+    		player:SetTargetCount( 1 )
+    		player:SetTargetPrompt( 0, "CARD_QUERY_PLAY_OR_BOTTOM_LIBRARY" )
+    		player:ChooseTargetsFromDCWithFlags( NO_VALIDATION, browser, EffectDC():Make_Targets(0), QUERY_FLAG_CAN_BE_FINISHED_EARLY + QUERY_FLAG_CAN_BE_FINISHED_EARLY_FOR_AI_AS_WELL )
+    	end
+    end
+    </RESOLUTION_TIME_ACTION>
+    <RESOLUTION_TIME_ACTION>
+    local cascadeSpell = EffectDC():Get_Targets(0):Get_CardPtr(0)   
+    local player = EffectController()
+    local exile_chest = EffectDC():Get_Chest(1)
+    if (cascadeSpell ~= nil and player ~= nil) then   
+    	cascadeSpell:PlayFreeFromAnywhere( player )  
+    	if exile_chest ~= nil then
+    		exile_chest:Set_CardPtr(0, nil)
+    	end
+    end
+    </RESOLUTION_TIME_ACTION>
+    <RESOLUTION_TIME_ACTION>
+    local exile_chest = EffectDC():Get_Chest(1)
+    local card_count = EffectDC():Get_Int(3)
+    	
+    if exile_chest ~= nil then 
+    	for i = 0,card_count do
+    		local exiledCard = exile_chest:Get_CardPtr( i )  
+    		if exiledCard ~= nil then
+    			exiledCard:GuidedReveal( ZONE_LIBRARY, ZONE_LIBRARY)
+    			exiledCard:PutInLibrary( -1 )
+    		end
+    	end
+    end
+    </RESOLUTION_TIME_ACTION>
+  </TRIGGERED_ABILITY>
+  <SPELL_ABILITY dangerous="1" filter_zone="ZONE_IN_PLAY">
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Bituminous Blast deals 4 damage to target creature.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[La Salve bitumeuse inflige 4 blessures à la créature ciblée.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[La Ráfaga bituminosa hace 4 puntos de daño a la criatura objetivo.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Der Pechhaltige Strahl fügt einer Kreatur deiner Wahl 4 Schadenspunkte zu.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[L’Esplosione di Bitume infligge 4 danni a una creatura bersaglio.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[クリーチャー１体を対象とする。瀝青破はそれに４点のダメージを与える。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[생물 한 개를 목표로 정한다. 역청 폭발은 그 생물에게 피해 4점을 입힌다.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Битуминозная Волна наносит 4 повреждения целевому существу.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Explosão Betuminosa causa 4 pontos de dano à criatura alvo.]]></LOCALISED_TEXT>
+    <TARGET_DEFINITION id="0">
+    local filter = Object():GetFilter()
+    filter:Clear()
+    filter:AddCardType( CARD_TYPE_CREATURE )
+    filter:SetZone( ZONE_IN_PLAY )
+    filter:SetHint( HINT_ENEMY_ONLY, EffectController() )
+    </TARGET_DEFINITION>
+    <TARGET_DETERMINATION>
+    return AtLeastOneTargetFromDefinition(0)
+    </TARGET_DETERMINATION>
+    <PLAY_TIME_ACTION target_choosing="1">
+    EffectController():ChooseTarget( 0, "CARD_QUERY_CHOOSE_CREATURE_DEAL_4_DAMAGE", EffectDC():Make_Targets(0) )
+    </PLAY_TIME_ACTION>
+    <RESOLUTION_TIME_ACTION>
+    local target_creature = EffectDC():Get_Targets(0):Get_CardPtr(0)
+    local target_player = EffectDC():Get_Targets(0):Get_PlayerPtr(0)
+    local source = EffectSource()
+    if source == nil then
+      source = Object()
+    end
+    if ( target_creature ~= nil ) then   
+    	target_creature:DealDamage(4, source)  
+    elseif 
+    	( target_player ~= nil ) then   
+    	target_player:DealDamage(4, source)  
+    end
+    </RESOLUTION_TIME_ACTION>
+    <SFX text="TARGET_FIREBALL_PLAY" />
+  </SPELL_ABILITY>
+  <AI_AVAILABILITY type="in_response" />
+  <AI_AVAILABILITY step="begin_combat" turn="their_turn" />
+  <AI_AVAILABILITY step="main_1" turn="my_turn" />
+  <AI_AVAILABILITY step="declare_attackers" turn="their_turn" />
+  <AI_AVAILABILITY step="declare_blockers" />
+  <AI_AVAILABILITY step="end_of_turn" />
+  <HELP title="MORE_INFO_TITLE_CASCADE" body="MORE_INFO_BODY_CASCADE" zone="ZONE_ANY" />
+  <AI_BASE_SCORE score="1200" zone="ZONE_HAND" />
+</CARD_V2>

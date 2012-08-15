@@ -1,0 +1,120 @@
+﻿<?xml version='1.0'?>
+<CARD_V2>
+  <FILENAME text="SICKENING_DREAMS_888270460" />
+  <CARDNAME text="SICKENING_DREAMS" />
+  <TITLE>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Sickening Dreams]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Sogni Disgustosi]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Krankmachende Träume]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Rêves maladifs]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Sueños repugnantes]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[Sickening Dreams]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[Sickening Dreams]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Sickening Dreams]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Sonhos Revoltantes]]></LOCALISED_TEXT>
+  </TITLE>
+  <MULTIVERSEID value="888270460" />
+  <ARTID value="888270460" />
+  <ARTIST name="Scott M. Fischer" />
+  <CASTING_COST cost="{1}{B}" />
+  <FLAVOURTEXT>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[The Patriarch dreams of vile plague.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Il Patriarca sogna l'impietosa pestilenza.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Der Patriarch träumt von abscheulichen Krankheiten.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Le Patriarche rêve d'abominables pestes.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[El patriarca sueña con peste repugnante.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[The Patriarch dreams of vile plague.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[The Patriarch dreams of vile plague.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[The Patriarch dreams of vile plague.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[O Patriarca sonha com uma praga vil.]]></LOCALISED_TEXT>
+  </FLAVOURTEXT>
+  <TYPE metaname="Sorcery" />
+  <EXPANSION value="DPG" />
+  <RARITY metaname="U" />
+  <UTILITY_ABILITY>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[As an additional cost to cast Sickening Dreams, discard X cards.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Come costo addizionale per giocare i Sogni Disgustosi, scarta X carte dalla tua mano.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Wirf als zusätzliche Kosten, um Krankma-chende Träume zu spielen, X Karten aus deiner Hand ab.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[En tant que coût supplémentaire pour jouer ces Rêves maladifs, défaussez-vous de X cartes de votre main.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Como coste adicional para jugar los Sueños repugnantes, descarta X cartas de tu mano.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[As an additional cost to cast Sickening Dreams, discard X cards.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[As an additional cost to cast Sickening Dreams, discard X cards.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[As an additional cost to cast Sickening Dreams, discard X cards.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Como um custo adicional para jogar Sonhos Revoltantes, descarte X cards de sua mão.]]></LOCALISED_TEXT>
+	<COST type="Generic" qualifier="Additional">
+	<TARGET_DEFINITION id="6">
+      local filter = Object():GetFilter()
+      filter:Clear()
+      filter:SetPlayer( EffectController() )
+      filter:SetZone( ZONE_HAND )
+	  filter:May()
+	  filter:AIMay()
+	  filter:SetCardInstance( Object() )
+      filter:AddExtra( FILTER_EXTRA_FLIP_CARD_INSTANCE )
+      filter:SetHint( HINT_ENEMY, EffectController() )
+      filter:NotTargetted()
+      </TARGET_DEFINITION>
+      <TARGET_DETERMINATION>
+      return AtLeastOneTargetFromDefinition(6)
+      </TARGET_DETERMINATION>
+      <PLAY_TIME_ACTION>
+		local filter = Object():LoadTargetDefinition(6)
+		local max_discard = filter:Count()
+		local player = EffectController()
+    		
+		if max_discard &gt; 0 then
+			player:SetTargetCount(max_discard)
+			for i=0,max_discard-1 do
+				player:SetTargetPrompt( i, "CARD_QUERY_CHOOSE_CARD_TO_DISCARD" )
+			end  
+			player:ChooseTargets( 0, EffectDC():Make_Targets(0) )
+		end
+      </PLAY_TIME_ACTION>
+      <RESOLUTION_TIME_ACTION>
+		local filter = Object():LoadTargetDefinition(6)
+		local max_discard = filter:Count()
+		local discard_count = 0
+    		
+		for i=0,max_discard-1 do
+			local card = EffectDC():Get_Targets(0):Get_CardPtr(i)
+			if card ~= nil then
+				card:Discard()
+				discard_count = discard_count + 1
+			end
+		end
+    		
+		ObjectDC():Set_Int(1, discard_count)
+      </RESOLUTION_TIME_ACTION></COST>
+  </UTILITY_ABILITY>
+  <SPELL_ABILITY dangerous="1" filter_zone="ZONE_IN_PLAY_AND_PLAYERS">
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Sickening Dreams deals X damage to each creature and each player.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[I Sogni Disgustosi infliggono X danni a ogni creatura e a ogni giocatore.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Krankmachende Träume fügen jeder Kreatur und jedem Spieler X Schadenspunkte zu.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Ces Rêves maladifs infligent X blessures à chaque créature et à chaque joueur.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Los Sueños repugnantes hacen X puntos de daño a cada criatura y a cada jugador.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[Sickening Dreams deals X damage to each creature and each player.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[Sickening Dreams deals X damage to each creature and each player.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Sickening Dreams deals X damage to each creature and each player.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Sonhos Revoltantes causa X pontos de dano a cada criatura e a cada jogador]]></LOCALISED_TEXT>
+    <FILTER>
+    return (FilteredCard() ~= nil and
+    FilteredCard():GetCardType():Test( CARD_TYPE_CREATURE ) ~= 0 and
+    (FilteredCard():GetZone() == ZONE_IN_PLAY)) or
+    (FilteredPlayer() ~= nil)
+    </FILTER>
+    <RESOLUTION_TIME_ACTION>
+	local damage = ObjectDC():Get_Int(1)
+    local source = EffectSource()
+    if source == nil then
+      source = Object()
+    end
+    if (FilteredPlayer() ~= nil) then   
+    	FilteredPlayer():DealDamage( damage, source )  
+    elseif (FilteredCard() ~= nil) then   
+    	FilteredCard():DealDamage( damage, source )  
+    end
+    </RESOLUTION_TIME_ACTION>
+    <SFX text="GLOBAL_DEATH_PLAY" />
+  </SPELL_ABILITY>
+  <AI_BASE_SCORE score="1200" zone="ZONE_HAND" />
+</CARD_V2>

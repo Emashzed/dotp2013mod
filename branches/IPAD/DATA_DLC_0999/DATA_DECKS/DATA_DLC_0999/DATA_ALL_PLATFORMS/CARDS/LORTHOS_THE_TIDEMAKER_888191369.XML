@@ -1,0 +1,89 @@
+﻿<?xml version='1.0'?>
+<CARD_V2>
+  <FILENAME text="LORTHOS_THE_TIDEMAKER_888191369" />
+  <CARDNAME text="LORTHOS_THE_TIDEMAKER" />
+  <TITLE>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Lorthos, the Tidemaker]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Lorthos, lo Spostamaree]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Lorthos, der Gezeitenmacher]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Lorthos, le Faiseur de marées]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Lorthos, el creador de mareas]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[潮汐を作るもの、ロートス]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[Lorthos, the Tidemaker]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Лортос, Творец Приливов]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Lorthos, o Forma-Maré]]></LOCALISED_TEXT>
+  </TITLE>
+  <MULTIVERSEID value="888191369" />
+  <ARTID value="888191369" />
+  <ARTIST name="Kekai Kotaki" />
+  <CASTING_COST cost="{5}{U}{U}{U}" />
+  <FLAVOURTEXT>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[When Lorthos emerges from his deepwater realm, the tides bow to his will and the coastline cowers in his presence.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Quando Lorthos emerge dal suo reame delle profondità, le maree si inchinano al suo volere e la costa si prostra alla sua presenza.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Wenn Lorthos aus seinem Tiefseereich auftaucht, fügt sich die Flut seinem Willen, und die Küste zieht sich zurück.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Quand Lorthos surgit des profondeurs de son royaume, les marées se plient à ses désirs et la côte tremble en sa présence.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Cuando Lorthos emerge de su reino en las profundidades, las mareas se inclinan a su voluntad y la costa se acobarda ante su presencia.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[ロートスが深海の王国から姿を現す時、潮流は彼の意志に頭を下げ、海岸は彼の存在に恐れおののく。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[When Lorthos emerges from his deepwater realm, the tides bow to his will and the coastline cowers in his presence.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Когда Лортос поднимается на поверхность из своего глубоководного царства, приливы подчиняются его воле, а побережье сжимается от страха.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Quando Lorthos emerge de seu reino abissal, as marés curvam-se ao seu comando e o litoral encolhe-se em sua presença.]]></LOCALISED_TEXT>
+  </FLAVOURTEXT>
+  <SUPERTYPE metaname="Legendary" />
+  <TYPE metaname="Creature" />
+  <SUB_TYPE metaname="Octopus" order_de-DE="0" order_es-ES="0" order_fr-FR="0" order_it-IT="0" order_jp-JA="0" order_ko-KR="0" order_pt-BR="0" order_ru-RU="0" />
+  <EXPANSION value="DPG" />
+  <RARITY metaname="M" />
+  <POWER value="8" />
+  <TOUGHNESS value="8" />
+  <TRIGGERED_ABILITY dangerous="1" filter_zone="ZONE_IN_PLAY">
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Whenever Lorthos, the Tidemaker attacks, you may pay {8}. If you do, tap up to eight target permanents. Those permanents don't untap during their controllers' next untap steps.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Ogniqualvolta Lorthos, lo Spostamaree attacca, puoi pagare {8}. Se lo fai, TAPpa fino a otto permanenti bersaglio. Quei permanenti non STAPpano durante i prossimi STAP dei loro controllori.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Immer wenn Lorthos der Gezeitenmacher angreift, kannst du {8} bezahlen. Falls du das tust, tappe bis zu acht bleibende Karten deiner Wahl. Diese bleibenden Karten enttappen nicht während des nächsten Enttappsegments ihrer Besitzer.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[À chaque fois que Lorthos, le Faiseur de marées attaque, vous pouvez payer {8}. Si vous faites ainsi, engagez jusqu'à huit permanents ciblés. Ces permanents ne se dégagent pas pendant les prochaines étapes de dégagement de leurs contrôleurs.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Siempre que Lorthos, el creador de mareas, ataque, puedes pagar {8}. Si lo haces, gira hasta ocho permanentes objetivo. Esos permanentes no se enderezan durante el próximo paso de enderezar de sus controladores.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[潮汐を作るもの、ロートスが攻撃するたび、最大８つまでのパーマネントを対象とする。あなたは{8}を支払ってもよい。 そうした場合、それらのパーマネントをタップする。 それらのパーマネントは、それらのパーマネントのコントローラーの次のアンタップ・ステップにアンタップしない。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[Whenever Lorthos, the Tidemaker attacks, you may pay {8}. If you do, tap up to eight target permanents. Those permanents don't untap during their controllers' next untap steps.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Каждый раз, когда Лортос, Творец Приливов атакует, вы можете заплатить {8}. Если вы это делаете, поверните не более восьми целевых перманентов. Те перманенты не разворачиваются во время следующих шагов разворота контролирующих их игроков.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Toda vez que Lorthos, o Forma-Maré, ataca, você pode pagar {8}. Se fizer isso, vire até oito permanentes alvo. Essas permanentes não desviram durante a próxima etapa de desvirar de seus controladores.]]></LOCALISED_TEXT>
+    <TRIGGER value="ATTACKING" simple_qualifier="self">
+    return EffectController():CanAfford("{8}") == 1
+    </TRIGGER>
+	<COST type="Mana" cost="{8}" qualifier="conditional" />
+	<TARGET_DEFINITION id="0">
+    local filter = Object():GetFilter()
+    filter:Clear()
+    filter:AddCardType( CARD_TYPE_ARTIFACT )
+    filter:AddCardType( CARD_TYPE_ENCHANTMENT )
+    filter:AddCardType( CARD_TYPE_LAND )
+    filter:AddCardType( CARD_TYPE_CREATURE )
+    filter:AddCardType( CARD_TYPE_PLANESWALKER )
+    filter:SetHint( HINT_ENEMY_ONLY, EffectController() )
+    filter:SetZone( ZONE_IN_PLAY )
+    </TARGET_DEFINITION>
+    <TARGET_DETERMINATION>
+    return AtLeastOneTargetFromDefinition(0)
+    </TARGET_DETERMINATION>
+	<PLAY_TIME_ACTION target_choosing="1">
+    local player = EffectController()
+    player:SetTargetCount( 8 )
+	for i = 0,7 do
+    	player:SetTargetPrompt( i, "CARD_QUERY_CHOOSE_PERMANENT_TO_TAP_AND_HOLD" )
+    end
+    player:ChooseTargetsWithFlags( 0, EffectDC():Make_Targets(0), QUERY_FLAG_CAN_BE_FINISHED_EARLY + QUERY_FLAG_CAN_BE_FINISHED_EARLY_FOR_AI_AS_WELL)
+    </PLAY_TIME_ACTION>
+	<RESOLUTION_TIME_ACTION conditional="if">
+	local target_array = {}    
+    for i=0,7 do    
+    	target_array[i] = EffectDC():Get_Targets(0):Get_NthCardPtr(i)  
+    end    
+    for i=0,7 do    
+    	if target_array[i] ~= nil then
+    		target_array[i]:TapAndHold()
+    	end  
+    end
+    </RESOLUTION_TIME_ACTION>
+  </TRIGGERED_ABILITY>
+  <SFX text="COMBAT_KRAKEN_LARGE_ATTACK" power_boundary_min="4" power_boundary_max="-1" />
+  <SFX text="COMBAT_KRAKEN_SMALL_ATTACK" power_boundary_min="1" power_boundary_max="3" />
+  <AI_BASE_SCORE score="2400" zone="ZONE_IN_PLAY" />
+</CARD_V2>

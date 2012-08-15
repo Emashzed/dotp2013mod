@@ -1,0 +1,215 @@
+﻿<?xml version='1.0'?>
+<CARD_V2>
+  <FILENAME text="EMRAKUL_THE_AEONS_TORN_888193452" />
+  <CARDNAME text="EMRAKUL_THE_AEONS_TORN" />
+  <TITLE>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Emrakul, the Aeons Torn]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Emrakul, lo Strazio Eterno]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Emrakul, die zerfetzten Zeitalter]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Emrakul, Déchirure des Éons]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Emrakul, los eones desgarrados]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[引き裂かれし永劫、エムラクール]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[Emrakul, the Aeons Torn]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Эмракул, Изорванная Вечность]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Emrakul, o Fragmento dos Éons]]></LOCALISED_TEXT>
+  </TITLE>
+  <MULTIVERSEID value="888193452" />
+  <ARTID value="888193452" />
+  <ARTIST name="Mark Tedin" />
+  <CASTING_COST cost="{15}" />
+  <SUPERTYPE metaname="Legendary" />
+  <TYPE metaname="Creature" />
+  <SUB_TYPE metaname="Eldrazi" />
+  <EXPANSION value="DPG" />
+  <RARITY metaname="M" />
+  <POWER value="15" />
+  <TOUGHNESS value="15" />
+  <STATIC_ABILITY filter_zone="ZONE_ANY" active_zone="ZONE_STACK">
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Emrakul, the Aeons Torn can't be countered.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Emrakul, lo Strazio Eterno non può essere neutralizzato.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Emrakul, die zerfetzten Zeitalter kann nicht neutralisiert werden.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Emrakul, Déchirure des Éons ne peut pas être contrecarré.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Emrakul, los eones desgarrados no puede ser contrarrestado.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[引き裂かれし永劫、エムラクールは打ち消されない。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[Emrakul, the Aeons Torn can't be countered.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Эмракул, Изорванная Вечность не может быть отменен.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Emrakul, o Fragmento dos Éons, não pode ser anulado.]]></LOCALISED_TEXT>
+    <CONTINUOUS_ACTION>
+    local characteristics = Object():GetCurrentCharacteristics()
+    characteristics:Characteristic_Set( CHARACTERISTIC_CANT_BE_COUNTERED, 1 )
+    </CONTINUOUS_ACTION>
+  </STATIC_ABILITY>
+  <TRIGGERED_ABILITY auto_skip="1" filter_zone="ZONE_IN_PLAY" active_zone="ZONE_STACK">
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[When you cast Emrakul, take an extra turn after this one.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Quando lanci Emrakul, gioca un altro turno dopo questo.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Wenn du Emrakul wirkst, erhältst du nach diesem Zug einen zusätzlichen Zug.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Quand vous lancez Emrakul, jouez un tour supplémentaire après celui-ci.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Cuando lances a Emrakul, toma un turno adicional después de éste.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[あなたが引き裂かれし永劫、エムラクールを唱えたとき、このターンに続いて追加の１ターンを行う。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[When you cast Emrakul, take an extra turn after this one.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Когда вы разыгрываете Эмракула, сделайте дополнительный ход вслед за этим.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Quando conjurar Emrakul, jogue um turno extra após este.]]></LOCALISED_TEXT>
+    <TRIGGER value="SPELL_PLAYED" simple_qualifier="self" />
+	<RESOLUTION_TIME_ACTION>
+    local target_player = EffectController()
+    if target_player ~= nil then
+    	target_player:GetTeam():TakeExtraTurn()  
+    end
+    </RESOLUTION_TIME_ACTION>
+    <SFX text="GLOBAL_WARP_PLAY" />
+  </TRIGGERED_ABILITY>
+  <STATIC_ABILITY>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Flying, protection from colored spells, annihilator 6]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Volare, protezione dalle magie colorate, annientatore 6]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Fliegend, Schutz vor farbigen Zaubersprüchen, Vernichter 6]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Vol, protection contre les sorts colorés, annihilateur 6]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Vuela, protección contra hechizos de color, aniquilador 6.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[飛行、プロテクション（有色の呪文）、滅殺 ６]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[Flying, protection from colored spells, annihilator 6]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Полет, Защита от цветных заклинаний, Аннигилятор 6]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Voar, proteção contra mágicas coloridas, aniquilador 6]]></LOCALISED_TEXT>
+	<CONTINUOUS_ACTION>
+    local characteristics = Object():GetCurrentCharacteristics()
+    characteristics:Characteristic_Set( CHARACTERISTIC_FLYING, 1 )
+    </CONTINUOUS_ACTION>
+  </STATIC_ABILITY>
+  <STATIC_ABILITY filter_zone="ZONE_IN_PLAY">
+    <CONTINUOUS_ACTION>
+    local filter = Object():GetFilter()
+    filter:Clear()
+    if ObjectDC():Get_CardPtr(1) ~= nil then
+    	filter:SetCardInstance(ObjectDC():Get_CardPtr(1))
+    	filter:AddExtra(FILTER_EXTRA_FLIP_CARD_INSTANCE)
+    end
+    filter:AddCardName( "GHOSTFIRE" )
+    filter:AddExtra( FILTER_EXTRA_FLIP_NAMES )
+    filter:AddCardType( CARD_TYPE_SORCERY ) 
+    filter:AddCardType( CARD_TYPE_INSTANT ) 
+    Object():Protection()
+    </CONTINUOUS_ACTION>
+  </STATIC_ABILITY>  
+  <TRIGGERED_ABILITY internal="1">
+    <TRIGGER value="CYCLED">
+    if (TriggerObject():GetCardType():Test( CARD_TYPE_INSTANT ) ~= 0 or 
+    TriggerObject():GetCardType():Test( CARD_TYPE_SORCERY ) ~= 0) then
+      ObjectDC():Set_CardPtr(1, TriggerObject())
+    	ObjectDC():Protect_CardPtr(1)
+    	return true
+    else
+    	return false
+    end
+    </TRIGGER>
+  </TRIGGERED_ABILITY>
+  <TRIGGERED_ABILITY internal="1">
+    <TRIGGER value="ABILITY_RESOLVED">
+    if TriggerObject() == ObjectDC():Get_CardPtr(1) then
+    ObjectDC():Set_CardPtr(1, nil)
+    return true
+    else
+    return false
+    end
+    </TRIGGER>
+  </TRIGGERED_ABILITY>  
+  <TRIGGERED_ABILITY internal="1" pre_trigger="1">
+    <TRIGGER value="CARD_CONSIDERED_FOR_TARGETTING" simple_qualifier="self">
+    return ( SecondaryObject():GetZone() == ZONE_STACK and 
+    SecondaryObject():WasCast() ~= 0 and 
+    (SecondaryObject():GetColour():Test( COLOUR_WHITE ) ~= 0 or 
+    SecondaryObject():GetColour():Test( COLOUR_BLUE ) ~= 0 or 
+    SecondaryObject():GetColour():Test( COLOUR_BLACK ) ~= 0 or 
+    SecondaryObject():GetColour():Test( COLOUR_RED ) ~= 0 or 
+    SecondaryObject():GetColour():Test( COLOUR_GREEN ) ~= 0))
+    </TRIGGER>
+  </TRIGGERED_ABILITY>  
+  <TRIGGERED_ABILITY internal="1" pre_trigger="1">
+    <TRIGGER value="CARD_CONSIDERED_FOR_TARGETTING" simple_qualifier="self">
+    return ( SecondaryObject():GetZone() ~= ZONE_IN_PLAY and 
+    SecondaryObject():GetSubType():Test( ENCHANTMENT_TYPE_AURA ) ~= 0 and 
+    (SecondaryObject():GetColour():Test( COLOUR_WHITE ) ~= 0 or 
+    SecondaryObject():GetColour():Test( COLOUR_BLUE ) ~= 0 or 
+    SecondaryObject():GetColour():Test( COLOUR_BLACK ) ~= 0 or 
+    SecondaryObject():GetColour():Test( COLOUR_RED ) ~= 0 or 
+    SecondaryObject():GetColour():Test( COLOUR_GREEN ) ~= 0))
+    </TRIGGER>
+  </TRIGGERED_ABILITY>  
+  <TRIGGERED_ABILITY badge="BADGE_ANNIHILATOR" dangerous="1" filter_zone="ZONE_IN_PLAY">
+    <TRIGGER value="ATTACKING" simple_qualifier="self" />
+    <RESOLUTION_TIME_ACTION>
+    local defendingPlayer = Object():GetPlayerAttacked()
+    local filter = Object():GetFilter()
+    filter:Clear()
+    filter:AddCardType( CARD_TYPE_ARTIFACT )
+    filter:AddCardType( CARD_TYPE_ENCHANTMENT )
+    filter:AddCardType( CARD_TYPE_LAND )
+    filter:AddCardType( CARD_TYPE_CREATURE )
+    filter:AddCardType( CARD_TYPE_PLANESWALKER )
+    filter:NotTargetted()
+    filter:SetController( defendingPlayer )
+    filter:SetZone( ZONE_IN_PLAY )
+    filter:SetHint( HINT_ENEMY, defendingPlayer )
+    local numberOfTargets = filter:CountStopAt( 6 )
+    if numberOfTargets &gt; 0 then 
+    	defendingPlayer:SetTargetCount( numberOfTargets ) 
+    	defendingPlayer:SetTargetPrompt( 0, "CARD_QUERY_ANNIHILATOR_CHOOSE_PERMANENT_ONE_OF_SIX" ) 
+    	
+    	if numberOfTargets &gt; 1 then 
+    		defendingPlayer:SetTargetPrompt( 1, "CARD_QUERY_ANNIHILATOR_CHOOSE_PERMANENT_TWO_OF_SIX" ) 
+    	end 
+    	
+    	if numberOfTargets &gt; 2 then 
+    		defendingPlayer:SetTargetPrompt( 2, "CARD_QUERY_ANNIHILATOR_CHOOSE_PERMANENT_THREE_OF_SIX" ) 
+    	end 
+    	
+    	if numberOfTargets &gt; 3 then 
+    		defendingPlayer:SetTargetPrompt( 3, "CARD_QUERY_ANNIHILATOR_CHOOSE_PERMANENT_FOUR_OF_SIX" ) 
+    	end 
+    	
+		if numberOfTargets &gt; 4 then 
+    		defendingPlayer:SetTargetPrompt( 4, "CARD_QUERY_ANNIHILATOR_CHOOSE_PERMANENT_FIVE_OF_SIX" ) 
+    	end 
+		
+		if numberOfTargets &gt; 5 then 
+    		defendingPlayer:SetTargetPrompt( 5, "CARD_QUERY_ANNIHILATOR_CHOOSE_PERMANENT_SIX_OF_SIX" ) 
+    	end 
+		
+    	defendingPlayer:ChooseTargets( NO_VALIDATION, EffectDC():Make_Targets(1) ) 
+    end
+    </RESOLUTION_TIME_ACTION>
+    <RESOLUTION_TIME_ACTION>
+    local target_array = {}    
+    for i=0,5 do    
+    	target_array[i] = EffectDC():Get_Targets(1):Get_NthCardPtr(i)  
+    end    
+    for i=0,5 do    
+    	if target_array[i] ~= nil then
+    		local player = target_array[i]:GetPlayer()
+    		target_array[i]:Sacrifice(player) 
+    	end  
+    end
+    </RESOLUTION_TIME_ACTION>
+  </TRIGGERED_ABILITY>
+  <TRIGGERED_ABILITY auto_skip="1" filter_zone="ZONE_IN_PLAY" active_zone="ZONE_GRAVEYARD">
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[When Emrakul is put into a graveyard from anywhere, its owner shuffles his or her graveyard into his or her library.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Quando Emrakul viene messo in un cimitero da qualsiasi zona, il suo proprietario rimescola il suo cimitero nel suo grimorio.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Wenn Emrakul von irgendwoher auf den Friedhof gelegt wird, mischt sein Besitzer seinen Friedhof in seine Bibliothek.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Quand Emrakul est mis dans un cimetière depuis n'importe où, son propriétaire mélange son cimetière à sa bibliothèque.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Cuando Emrakul vaya a un cementerio desde cualquier parte, su propietario baraja su cementerio en su biblioteca.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[引き裂かれし永劫、エムラクールがいずれかの領域からいずれかの墓地に置かれたとき、オーナーは自分の墓地を自分のライブラリーに加えて切り直す。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[When Emrakul is put into a graveyard from anywhere, its owner shuffles his or her graveyard into his or her library.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Когда Эмракул попадает откуда-либо на кладбище, его владелец втасовывает свое кладбище в свою библиотеку.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Quando Emrakul é colocado num cemitério vindo de qualquer lugar, seu dono embaralha seu próprio cemitério em seu próprio grimório.]]></LOCALISED_TEXT>
+    <TRIGGER value="ZONECHANGE_END" simple_qualifier="self" to_zone="ZONE_GRAVEYARD" from_zone="ZONE_ANY" />
+    <RESOLUTION_TIME_ACTION>
+    local owner = Object():GetOwner()
+    if (owner ~= nil) then
+    	owner:MoveLocalZone( ZONE_GRAVEYARD, ZONE_LIBRARY )
+    	owner:ShuffleLibrary()
+    end
+    </RESOLUTION_TIME_ACTION>
+  </TRIGGERED_ABILITY>
+  <HELP title="MORE_INFO_BADGE_TITLE_10" body="MORE_INFO_BADGE_BODY_10" zone="ZONE_ANY" />
+  <HELP title="MORE_INFO_BADGE_TITLE_25" body="MORE_INFO_BADGE_BODY_25" zone="ZONE_ANY" />
+  <HELP title="MORE_INFO_TITLE_PROTECTION" body="MORE_INFO_BODY_PROTECTION" zone="ZONE_ANY" />
+  <SFX text="COMBAT_ELDRAZI_ATTACK" power_boundary_min="1" power_boundary_max="-1" />
+  <AI_BASE_SCORE score="1500" zone="ZONE_IN_PLAY" />
+</CARD_V2>

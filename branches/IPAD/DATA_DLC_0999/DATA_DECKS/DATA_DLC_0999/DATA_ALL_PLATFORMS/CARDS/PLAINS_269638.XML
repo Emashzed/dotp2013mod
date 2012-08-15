@@ -1,0 +1,26 @@
+﻿<?xml version='1.0'?>
+<CARD_V2>
+  <LAND_GROUP value="888001"/>
+  <FILENAME text="PLAINS_269638" />
+  <CARDNAME text="PLAINS" />
+  <TITLE>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Plains]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Plaine]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Llanura]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Ebene]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Pianura]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[平地]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[들]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Равнина]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Planície]]></LOCALISED_TEXT>
+  </TITLE>
+  <MULTIVERSEID value="269638" />
+  <ARTID value="888269638" />
+  <ARTIST name="Eytan Zana" />
+  <CASTING_COST cost="" />
+  <SUPERTYPE metaname="Basic" />
+  <TYPE metaname="Land" />
+  <SUB_TYPE metaname="Plains" />
+  <EXPANSION value="DPG" />
+  <RARITY metaname="C" />
+</CARD_V2>

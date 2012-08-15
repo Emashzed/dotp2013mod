@@ -1,0 +1,89 @@
+﻿<?xml version='1.0'?>
+<CARD_V2>
+  <FILENAME text="PATH_TO_EXILE_888220511" />
+  <CARDNAME text="PATH_TO_EXILE" />
+  <TITLE>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Path to Exile]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Sentiero dell'Esilio]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Weg ins Exil]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Chemin vers l'exil]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Camino al exilio]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[流刑への道]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[Path to Exile]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Дорога Изгнания]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Caminho para o Exílio]]></LOCALISED_TEXT>
+  </TITLE>
+  <MULTIVERSEID value="888220511" />
+  <ARTID value="888220511" />
+  <ARTIST name="Todd Lockwood" />
+  <CASTING_COST cost="{W}" />
+  <TYPE metaname="Instant" />
+  <EXPANSION value="DPG" />
+  <RARITY metaname="U" />
+  <SPELL_ABILITY dangerous="1" filter_zone="ZONE_IN_PLAY">
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Exile target creature. Its controller may search his or her library for a basic land card, put that card onto the battlefield tapped, then shuffle his or her library.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Rimuovi dal gioco una creatura bersaglio. Il suo controllore può passare in rassegna il suo grimorio per una carta terra base e metterla in gioco TAPpata, poi rimescola il suo grimorio.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Entferne eine Kreatur deiner Wahl ganz aus dem Spiel. Ihr Beherrscher kann seine Bibliothek nach einem Standardland durchsuchen, dieses getappt ins Spiel bringen und dann seine Bibliothek mischen.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Retirez la créature ciblée de la partie. Son contrôleur peut chercher une carte de terrain de base dans sa bibliothèque, la mettre en jeu engagée et mélanger ensuite sa bibliothèque.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Remueve del juego la criatura objetivo. Su controlador puede buscar en su biblioteca una carta de tierra básica, ponerla en juego girada y luego barajar su biblioteca.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[クリーチャー１体を対象とし、それをゲームから取り除く。 それのコントローラーは自分のライブラリーから基本土地カードを１枚探してもよい。そうしたなら、そのプレイヤーはそのカードをタップ状態で場に出し、自分のライブラリーを切り直す。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[Exile target creature. Its controller may search his or her library for a basic land card, put that card onto the battlefield tapped, then shuffle his or her library.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Удалите целевое существо из игры. Контролирующий его игрок может найти в своей библиотеке карту базовой земли, положить ту карту в игру повернутой, затем перетасовать свою библиотеку.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Remova do jogo a criatura alvo. Seu controlador pode procurar em seu próprio grimório um card de terreno básico, colocá-lo em jogo virado, e então embaralhar seu próprio grimório.]]></LOCALISED_TEXT>
+    <TARGET_DEFINITION id="0">
+    local filter = Object():GetFilter()
+    filter:Clear()
+    filter:AddCardType( CARD_TYPE_CREATURE )
+    filter:SetZone( ZONE_IN_PLAY )
+    filter:SetHint( HINT_ENEMY, EffectController() )
+    </TARGET_DEFINITION>
+    <TARGET_DETERMINATION>
+    return AtLeastOneTargetFromDefinition(0)
+    </TARGET_DETERMINATION>
+    <PLAY_TIME_ACTION target_choosing="1">
+    EffectController():ChooseTarget( 0, "CARD_QUERY_CHOOSE_CREATURE_TO_EXILE", EffectDC():Make_Targets(0) )
+    </PLAY_TIME_ACTION>
+    <RESOLUTION_TIME_ACTION>
+    local target = EffectDC():Get_Targets(0):Get_NthCardPtr(0)
+    if target ~= nil then
+		EffectDC():Set_PlayerPtr(1, target:GetController())
+    	target:RemoveFromGame() 
+    end
+    </RESOLUTION_TIME_ACTION>
+	<RESOLUTION_TIME_ACTION>
+    local player = EffectDC():Get_PlayerPtr(1)
+    if player ~= nil then
+    	local filter = Object():GetFilter()
+		player:MarkSearchedLibrary() 
+		filter:Clear()
+		filter:NotTargetted()
+		filter:AddSupertype( SUPERTYPE_BASIC ) 
+		filter:AddCardType( CARD_TYPE_LAND )
+		filter:May()
+		filter:SetZone( ZONE_LIBRARY )
+		filter:SetPlayer( player )                           
+		player:ChooseTarget( NO_VALIDATION, "CARD_QUERY_CHOOSE_LAND_TO_PUT_ONTO_BATTLEFIELD", EffectDC():Make_Targets(2) )
+    end
+    </RESOLUTION_TIME_ACTION>
+    <RESOLUTION_TIME_ACTION>
+	local player = EffectDC():Get_PlayerPtr(1)
+    local target = EffectDC():Get_Targets(2):Get_CardPtr(0)
+    if target ~= nil and player ~= nil then
+    	target:PutIntoPlayTapped( player )
+    end  
+    </RESOLUTION_TIME_ACTION>
+    <RESOLUTION_TIME_ACTION>
+	local player = EffectDC():Get_PlayerPtr(1)
+    if player ~= nil then
+		player:ShuffleLibrary()
+	end
+    </RESOLUTION_TIME_ACTION>
+  </SPELL_ABILITY>
+  <AI_AVAILABILITY type="in_response" />
+  <AI_AVAILABILITY step="begin_combat" turn="their_turn" />
+  <AI_AVAILABILITY step="main_1" turn="my_turn" />
+  <AI_AVAILABILITY step="declare_attackers" turn="their_turn" />
+  <AI_AVAILABILITY step="declare_blockers" />
+  <AI_AVAILABILITY step="end_of_turn" />
+  <AI_BASE_SCORE score="1500" zone="ZONE_HAND" />
+</CARD_V2>

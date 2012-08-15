@@ -1,0 +1,84 @@
+﻿<?xml version='1.0'?>
+<CARD_V2>
+  <FILENAME text="BURIED_ALIVE_888247342" />
+  <CARDNAME text="BURIED_ALIVE" />
+  <TITLE>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Buried Alive]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Sepolto Vivo]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Lebendig begraben]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Enterré vivant]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Entierro en vida]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[生き埋め]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[Buried Alive]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Buried Alive]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Buried Alive]]></LOCALISED_TEXT>
+  </TITLE>
+  <MULTIVERSEID value="888247342" />
+  <ARTID value="888247342" />
+  <ARTIST name="Greg Staples" />
+  <CASTING_COST cost="{2}{B}" />
+  <FLAVOURTEXT>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[The scrape of shovels and the tumble of cold dirt soon muffled their pleas.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[I colpi della pala e i tonfi della terra umida coprirono presto le loro grida imploranti.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Das Kratzen der Schaufeln und der Fall der kalten Erdklumpen erstickten bald das Flehen.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Le raclement des pelles et les fournées de terre étouffèrent rapidement leurs plaintes.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[El ruido de las palas y el crujido de la tierra fría pronto atenuaron sus súplicas.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[シャベルの音と冷たい土の崩れる音で、彼らの哀願の声はすぐにかき消されてしまった。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[The scrape of shovels and the tumble of cold dirt soon muffled their pleas.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[The scrape of shovels and the tumble of cold dirt soon muffled their pleas.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[The scrape of shovels and the tumble of cold dirt soon muffled their pleas.]]></LOCALISED_TEXT>
+ </FLAVOURTEXT>
+  <TYPE metaname="Sorcery" />
+  <EXPANSION value="DPG" />
+  <RARITY metaname="U" />
+  <SPELL_ABILITY dangerous="1" filter_zone="ZONE_IN_PLAY">
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Search your library for up to three creature cards and put them into your graveyard. Then shuffle your library.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Passa in rassegna il tuo grimorio per trovare fino a tre carte creatura e mettile nel tuo cimitero. Poi rimescola il tuo grimorio.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Durchsuche deine Bibliothek nach bis zu drei Kreaturenkarten und lege diese auf deinen Friedhof. Mische danach deine Bibliothek.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Cherchez jusqu'à trois cartes de créature dans votre bibliothèque et mettez-les dans votre cimetière. Mélangez ensuite votre bibliothèque.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Busca en tu biblioteca hasta tres cartas de criatura y ponlas en tu cementerio. Luego baraja tu biblioteca.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[あなたのライブラリーからクリーチャー・カードを最大３枚まで探し、それらをあなたの墓地に置く。 その後あなたのライブラリーを切り直す。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[Search your library for up to three creature cards and put them into your graveyard. Then shuffle your library.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Search your library for up to three creature cards and put them into your graveyard. Then shuffle your library.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Search your library for up to three creature cards and put them into your graveyard. Then shuffle your library.]]></LOCALISED_TEXT>
+   <RESOLUTION_TIME_ACTION>
+    local filter = Object():GetFilter()
+    local player = EffectController()
+    player:MarkSearchedLibrary()
+    filter:Clear()
+    filter:NotTargetted()
+	filter:May()
+	if EffectController():IsAI() ~= 0 then
+	filter:AddCardName( "DOOMED_NECROMANCER" )
+    filter:AddExtra( FILTER_EXTRA_FLIP_NAMES )
+	end
+    filter:SetZone( ZONE_LIBRARY )
+    filter:SetPlayer( player )
+    filter:AddCardType( CARD_TYPE_CREATURE )
+	local sorter = MTG():GetTargetSorter()
+	sorter:Clear()
+    sorter:Add(TARGET_SORT_TYPE_SCORE, TARGET_SORT_POLARITY_ALLIED)
+	sorter:SetAIWidth(1)
+    player:SetTargetCount( 3 )
+    player:SetTargetPrompt( 0, "CARD_QUERY_CHOOSE_CARD_TO_PUT_INTO_GRAVEYARD" )   
+    player:SetTargetPrompt( 1, "CARD_QUERY_CHOOSE_CARD_TO_PUT_INTO_GRAVEYARD" )   
+    player:SetTargetPrompt( 2, "CARD_QUERY_CHOOSE_CARD_TO_PUT_INTO_GRAVEYARD" ) 
+    player:ChooseTargetsWithFlags( NO_VALIDATION, EffectDC():Make_Targets(0), QUERY_FLAG_USE_TARGET_SORTER )
+    </RESOLUTION_TIME_ACTION>
+    <RESOLUTION_TIME_ACTION>
+    for i = 0,2 do
+    	local target = EffectDC():Get_Targets(0):Get_NthCardPtr(0)
+    	local player = EffectController()
+    	if (target~= nil and player ~= nil) then
+    		target:GuidedReveal( ZONE_LIBRARY, ZONE_GRAVEYARD )
+    		target:PutInGraveyard()
+    	end
+    end
+    </RESOLUTION_TIME_ACTION>
+    <RESOLUTION_TIME_ACTION>
+    EffectController():ShuffleLibrary()
+    </RESOLUTION_TIME_ACTION>
+  </SPELL_ABILITY>
+  <AI_BASE_SCORE score="-150" zone="ZONE_HAND" />
+  <AI_BASE_SCORE score="-150" zone="ZONE_GRAVEYARD" />
+</CARD_V2>

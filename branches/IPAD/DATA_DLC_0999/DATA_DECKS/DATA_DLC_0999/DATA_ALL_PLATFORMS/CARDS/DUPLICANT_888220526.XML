@@ -1,0 +1,125 @@
+﻿<?xml version='1.0'?>
+<CARD_V2>
+  <FILENAME text="DUPLICANT_888220526" />
+  <CARDNAME text="DUPLICANT" />
+  <TITLE>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Duplicant]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Replicatore]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Duplikant]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Répliquant]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Duplicante]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[映し身人形]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[Duplicant]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Duplicant]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Duplicante]]></LOCALISED_TEXT>
+  </TITLE>
+  <MULTIVERSEID value="888220526" />
+  <ARTID value="888220526" />
+  <ARTIST name="Thomas M. Baxa" />
+  <CASTING_COST cost="{6}" />
+  <TYPE metaname="Artifact" />
+  <TYPE metaname="Creature" />
+  <SUB_TYPE metaname="Shapeshifter" />
+  <EXPANSION value="DPG" />
+  <RARITY metaname="R" />
+  <POWER value="2" />
+  <TOUGHNESS value="4" />
+  <TRIGGERED_ABILITY dangerous="1" filter_zone="ZONE_IN_PLAY">
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[|Imprint| — When Duplicant enters the battlefield, you may exile target nontoken creature.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[|Empreinte| — Quand le Répliquant arrive sur le champ de bataille, vous pouvez exiler une créature non-jeton ciblée.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[|Einprägen| — Wenn der Duplikant ins Spiel kommt, kannst du eine Kreatur deiner Wahl, die kein Spielstein ist, ins Exil schicken.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[|Estampa| — Cuando el Duplicante entre al campo de batalla, puedes exiliar la criatura objetivo que no sea ficha.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[|Imprimere| — Quando il Replicatore entra nel campo di battaglia, puoi esiliare una creatura non pedina bersaglio.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[刻印 ― 映し身人形が戦場に出たとき、トークンでないクリーチャー１体を対象とする。あなたはそれを追放してもよい。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[|Imprint| — When Duplicant enters the battlefield, you may exile target nontoken creature.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[|Imprint| — When Duplicant enters the battlefield, you may exile target nontoken creature.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[|Estampar| — Quando Duplicante entra no campo de batalha, você pode exilar a criatura alvo que não seja uma ficha.]]></LOCALISED_TEXT>
+    <TRIGGER value="ZONECHANGE_END" simple_qualifier="self" to_zone="ZONE_IN_PLAY" />
+    <TARGET_DEFINITION id="0">
+    local filter = Object():GetFilter()
+    filter:Clear()
+    filter:May()
+    filter:AddExtra(FILTER_EXTRA_NOT_TOKEN)
+    filter:AddCardType( CARD_TYPE_CREATURE )
+    filter:SetZone( ZONE_IN_PLAY )
+    filter:SetHint( HINT_ENEMY_ONLY, EffectController() )
+    if EffectController():IsAI() ~= 0 then
+    	filter:SetCardInstance( Object() )
+    	filter:AddExtra( FILTER_EXTRA_FLIP_CARD_INSTANCE )
+    	filter:SetCardRef( Object():GetSpec() )
+    	filter:AddExtra(FILTER_EXTRA_FLIP_CARD_REF)
+    end
+    </TARGET_DEFINITION>
+    <TARGET_DETERMINATION>
+    return AtLeastOneTargetFromDefinition(0)
+    </TARGET_DETERMINATION>
+    <PLAY_TIME_ACTION target_choosing="1">
+    EffectController():ChooseTarget( 0, "CARD_QUERY_CHOOSE_CREATURE_TO_EXILE", EffectDC():Make_Targets(0) )
+    </PLAY_TIME_ACTION>
+    <RESOLUTION_TIME_ACTION>
+    local target = EffectDC():Get_Targets(0):Get_CardPtr(0)
+    local source = EffectSource()
+    ObjectDC():Free_Compartment(0)
+    if target ~= nil then
+    	if source ~= nil then
+    		-- source still in play, so we need to track it for the linked ability
+    		ObjectDC():Set_CardPtr(0, target)
+    		ObjectDC():Protect_CardPtr(0)
+    	end
+    	
+    	target:RemoveFromGame()
+    end
+    </RESOLUTION_TIME_ACTION>
+    <RESOLUTION_TIME_ACTION>
+    local target = ObjectDC():Get_CardPtr(0)
+    local source = EffectSource()
+    if target ~= nil and source ~= nil then
+    	target:NailOnto(source)
+    end
+    </RESOLUTION_TIME_ACTION>
+  </TRIGGERED_ABILITY>
+  <STATIC_ABILITY filter_zone="ZONE_IN_PLAY">
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[As long as the exiled card is a creature card, Duplicant has that card’s power, toughness, and creature types. It’s still a Shapeshifter.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Fintanto che la carta creatura è impressa sul Replicatore, il Replicatore ha la forza, la costituzione e i tipi di creatura di quella carta. È ancora un Polimorfo.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Solange eine Kreaturenkarte auf dem Duplikant eingeprägt ist, hat der Duplikant die Stärke, Widerstandskraft und Kreaturentypen dieser Karte. Er ist immer noch ein Gestaltwandler.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Tant que le Répliquant a l’empreinte d’une carte de créature, il a la force, l’endurance et les types de créature de cette carte. C’est toujours aussi un changeforme.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Cuando una carta de criatura esté estampada en el Duplicante, éste tiene la fuerza, resistencia y tipo de criatura de esa carta. Aún se considera un metamorfo.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[クリーチャー・カードが映し身人形に刻印されているかぎり、映し身人形は刻印されているカードのパワーとタフネスとクリーチャー・タイプを持つ。 それは多相の戦士でもある。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[As long as the exiled card is a creature card, Duplicant has that card’s power, toughness, and creature types. It’s still a Shapeshifter.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[As long as the exiled card is a creature card, Duplicant has that card’s power, toughness, and creature types. It’s still a Shapeshifter.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Enquanto o card de criatura estiver estampado em Duplicante, Duplicante tem o poder, a resistência e todos os tipos de criatura daquele card. Ele ainda é um Metamorfo.]]></LOCALISED_TEXT>
+    <CONTINUOUS_ACTION layer="7B">
+    if (ObjectDC() ~= nil) then
+    	local imprintedCard = ObjectDC():Get_CardPtr(0)
+    	if(imprintedCard ~= nil) then
+    		
+    		local dupChars = Object():GetCurrentCharacteristics()
+    		local impCardChars = imprintedCard:GetCurrentCharacteristics()
+    		
+    		dupChars:Power_Set( impCardChars:Power_Get() )
+    		dupChars:Toughness_Set( impCardChars:Toughness_Get() )
+    		
+    	end
+    end
+    </CONTINUOUS_ACTION>
+    <CONTINUOUS_ACTION layer="4">
+    if (ObjectDC() ~= nil) then
+    	local imprintedCard = ObjectDC():Get_CardPtr(0)
+    	if(imprintedCard ~= nil) then
+    		
+    		local dupChars = Object():GetCurrentCharacteristics()
+    		
+    		local impSubTypes = imprintedCard:GetSubType()
+    		local dupSubTypes = dupChars:SubType_GetWritable(Object())
+    			
+    		dupSubTypes:Set(impSubTypes)
+    		dupSubTypes:Add( CREATURE_TYPE_SHAPESHIFTER, Object() )
+    		
+    	end
+    end
+    </CONTINUOUS_ACTION>
+  </STATIC_ABILITY>
+  <SFX text="COMBAT_BLUNT_LARGE_ATTACK" power_boundary_min="4" power_boundary_max="-1" />
+  <SFX text="COMBAT_BLUNT_SMALL_ATTACK" power_boundary_min="1" power_boundary_max="3" />
+  <AI_BASE_SCORE score="900" zone="ZONE_HAND" />
+</CARD_V2>

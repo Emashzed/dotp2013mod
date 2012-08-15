@@ -1,0 +1,75 @@
+﻿<?xml version='1.0'?>
+<CARD_V2>
+  <FILENAME text="FAULT_LINE_8888867" />
+  <CARDNAME text="FAULT_LINE" />
+  <TITLE>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Fault Line]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Bruchlinie]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Falla]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Ligne de faille]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Linea di Demarcazione]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[断(だん)層(そう)]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[Fault Line]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Fault Line]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Paráclase]]></LOCALISED_TEXT>
+  </TITLE>
+  <MULTIVERSEID value="8888867" />
+  <ARTID value="8888867" />
+  <ARTIST name="Ron Spencer" />
+  <CASTING_COST cost="{X}{R}{R}" />
+  <FLAVOURTEXT>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[We live on the serpent’s back.
+—Viashino saying]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Wir leben auf dem Rücken der Schlange.
+—Redewendung der Viashino]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Vivimos en la espalda de la serpiente.
+—Refrán viashino]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Nous vivons sur le dos d'un serpent.
+—Dicton viashino]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Viviamo sulla schiena del serpente.
+—detto Viashino]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[我々は大海蛇の背中に住んでいる。
+――ヴィーアシーノの格言]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[We live on the serpent’s back.
+—Viashino saying]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[We live on the serpent’s back.
+—Viashino saying]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[We live on the serpent’s back.
+—Viashino saying]]></LOCALISED_TEXT>
+  </FLAVOURTEXT>
+  <TYPE metaname="Instant" />
+  <EXPANSION value="DPG" />
+  <RARITY metaname="R" />
+  <SPELL_ABILITY dangerous="1" filter_zone="ZONE_IN_PLAY_AND_PLAYERS">
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Fault Line deals X damage to each creature without flying and each player.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[La Ligne de faille inflige X blessures à chaque créature sans le vol et à chaque joueur.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Die Bruchlinie fügt allen nichtfliegenden Kreaturen und allen Spielern X Schadenspunkte zu.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[La Falla hace X puntos de daño a cada criatura que no tenga la habilidad de volar y a cada jugador.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[La Linea di Demarcazione infligge X danni a ogni creatura senza volare e a ogni giocatore.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[断層は飛行を持たない各クリーチャーと各プレイヤーに、それぞれＸ点のダメージを与える。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[Fault Line deals X damage to each creature without flying and each player.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Fault Line deals X damage to each creature without flying and each player.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Fault Line deals X damage to each creature without flying and each player.]]></LOCALISED_TEXT>
+    <FILTER>
+    return (FilteredCard() ~= nil and
+    FilteredCard():GetCardType():Test( CARD_TYPE_CREATURE ) ~= 0 and
+    FilteredCard():GetZone() == ZONE_IN_PLAY and 
+    FilteredCard():GetCurrentCharacteristics():Characteristic_Get( CHARACTERISTIC_FLYING ) == 0) or (FilteredPlayer() ~= nil)
+    </FILTER>
+    <RESOLUTION_TIME_ACTION>
+    if (FilteredPlayer() ~= nil) then
+    	FilteredPlayer():DealDamage(GetObjectX(), Object())
+    elseif (FilteredCard() ~= nil) then
+    	FilteredCard():DealDamage(GetObjectX(), Object())
+    end
+    </RESOLUTION_TIME_ACTION>
+    <SFX text="GLOBAL_LAVA_PLAY" />
+  </SPELL_ABILITY>
+  <AI_AVAILABILITY type="in_response" />
+  <AI_AVAILABILITY step="begin_combat" turn="their_turn" />
+  <AI_AVAILABILITY step="main_1" turn="my_turn" />
+  <AI_AVAILABILITY step="declare_attackers" turn="their_turn" />
+  <AI_AVAILABILITY step="declare_blockers" />
+  <AI_AVAILABILITY step="end_of_turn" />
+  <AI_BASE_SCORE score="1200" zone="ZONE_HAND" />
+</CARD_V2>

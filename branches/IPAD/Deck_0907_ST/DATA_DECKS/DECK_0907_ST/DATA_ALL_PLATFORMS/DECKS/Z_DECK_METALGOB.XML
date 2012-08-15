@@ -1,0 +1,46 @@
+<DECK personality="D13_GOBLIN_WARDRIVER.XML" deck_box_image="D13_METALGOB" deck_box_image_locked="locked" content_pack="0" uid="907" preview_card="blanko" always_available="true" is_red="true" >
+  <DECKSTATISTICS Size="6" Speed="8" Flex="4" Syn="6" />
+  <CARD name="GOBLIN_GUIDE_277366" deckOrderId="0" />
+  <CARD name="GOBLIN_GUIDE_277366" deckOrderId="1" />
+  <CARD name="GOBLIN_GUIDE_277366" deckOrderId="2" />
+  <CARD name="GOBLIN_GUIDE_277366" deckOrderId="3" />
+  <CARD name="GOBLIN_WARDRIVER_276926" deckOrderId="4" />
+  <CARD name="GOBLIN_WARDRIVER_276926" deckOrderId="5" />
+  <CARD name="GOBLIN_WARDRIVER_276926" deckOrderId="6" />
+  <CARD name="GOBLIN_WARDRIVER_276926" deckOrderId="7" />
+  <CARD name="ORNITHOPTER_888206331" deckOrderId="8" />
+  <CARD name="ORNITHOPTER_888206331" deckOrderId="9" />
+  <CARD name="ORNITHOPTER_888206331" deckOrderId="10" />
+  <CARD name="ORNITHOPTER_888206331" deckOrderId="11" />
+  <CARD name="MEMNITE_194078" deckOrderId="12" />
+  <CARD name="MEMNITE_194078" deckOrderId="13" />
+  <CARD name="MEMNITE_194078" deckOrderId="14" />
+  <CARD name="MEMNITE_194078" deckOrderId="15" />
+  <CARD name="SIGNAL_PEST_888213773" deckOrderId="16" />
+  <CARD name="SIGNAL_PEST_888213773" deckOrderId="17" />
+  <CARD name="SIGNAL_PEST_888213773" deckOrderId="18" />
+  <CARD name="SIGNAL_PEST_888213773" deckOrderId="19" />
+  <CARD name="GOBLIN_BUSHWHACKER_277365" deckOrderId="20" />
+  <CARD name="GOBLIN_BUSHWHACKER_277365" deckOrderId="21" />
+  <CARD name="GOBLIN_BUSHWHACKER_277365" deckOrderId="22" />
+  <CARD name="GOBLIN_BUSHWHACKER_277365" deckOrderId="23" />
+  <CARD name="GOBLIN_CHIEFTAIN_276832" deckOrderId="24" />
+  <CARD name="GOBLIN_CHIEFTAIN_276832" deckOrderId="25" />
+  <CARD name="GOBLIN_CHIEFTAIN_276832" deckOrderId="26" />
+  <CARD name="GOBLIN_CHIEFTAIN_276832" deckOrderId="27" />
+  <CARD name="LIGHTNING_BOLT_276941" deckOrderId="28" />
+  <CARD name="LIGHTNING_BOLT_276941" deckOrderId="29" />
+  <CARD name="LIGHTNING_BOLT_276941" deckOrderId="30" />
+  <CARD name="LIGHTNING_BOLT_276941" deckOrderId="31" />
+  <CARD name="CONTESTED_WAR_ZONE_213775" deckOrderId="32" />
+  <CARD name="CONTESTED_WAR_ZONE_213775" deckOrderId="33" />
+  <CARD name="CONTESTED_WAR_ZONE_213775" deckOrderId="34" />
+  <CARD name="CONTESTED_WAR_ZONE_213775" deckOrderId="35" />
+  <CARD name="KULDOTHA_REBIRTH_194239" deckOrderId="36" />
+  <CARD name="KULDOTHA_REBIRTH_194239" deckOrderId="37" />
+  <CARD name="KULDOTHA_REBIRTH_194239" deckOrderId="38" />
+  <CARD name="KULDOTHA_REBIRTH_194239" deckOrderId="39" />
+  <CARD name="MYR_SIRE_213734" deckOrderId="40" />
+  <CARD name="MYR_SIRE_213734" deckOrderId="41" />
+  <CARD name="MYR_SIRE_213734" deckOrderId="42" />
+</DECK>

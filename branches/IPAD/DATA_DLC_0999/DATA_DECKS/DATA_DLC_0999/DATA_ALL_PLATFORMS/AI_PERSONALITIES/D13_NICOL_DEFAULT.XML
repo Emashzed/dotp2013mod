@@ -1,0 +1,8 @@
+<CONFIG>
+  <PLANESWALKER_NAME_TAG string="PLAYER_NAME_NICOL_BOLAS" />
+  <LARGE_AVATAR_IMAGE string="118790" />
+  <MEDIUM_AVATAR_IMAGE string="PW_bolas" />
+  <SMALL_AVATAR_IMAGE string="PW_bolas" />
+  <SMALL_AVATAR_IMAGE_LOCKED string="PW_bolas_locked" />
+  <MUSIC string="BOLAS_MIX" />
+</CONFIG>

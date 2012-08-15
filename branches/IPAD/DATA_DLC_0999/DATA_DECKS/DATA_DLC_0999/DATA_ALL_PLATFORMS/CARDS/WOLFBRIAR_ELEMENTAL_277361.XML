@@ -1,0 +1,60 @@
+<?xml version='1.0'?>
+<CARD_V2>
+  <FILENAME text="WOLFBRIAR_ELEMENTAL_277361" />
+  <CARDNAME text="WOLFBRIAR_ELEMENTAL" />
+  <TITLE>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Wolfbriar Elemental]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Élémental de bruyère au loup]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Elemental lobo de brezo]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Dornenwolfelementar]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Elementale Rovo dei Lupi]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[狼茨の精霊]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[늑대찔레 정령]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Элементаль Волчьего Терна]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Elemental do Covil de Espinhos]]></LOCALISED_TEXT>
+  </TITLE>
+  <MULTIVERSEID value="277361" />
+  <ARTID value="126583" />
+  <ARTIST name="Chippy" />
+  <CASTING_COST cost="{2}{G}{G}" />
+  <TYPE metaname="Creature" />
+  <SUB_TYPE metaname="Elemental" order_de-DE="0" order_es-ES="0" order_fr-FR="0" order_it-IT="0" order_jp-JA="0" order_ko-KR="0" order_pt-BR="0" order_ru-RU="0" />
+  <EXPANSION value="DPG" />
+  <RARITY metaname="R" />
+  <POWER value="4" />
+  <TOUGHNESS value="4" />
+  <UTILITY_ABILITY filter_zone="ZONE_IN_PLAY">
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Multikicker {G}]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Multikick {G}]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Multiestímulo {G}.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Multibonus {G}]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Multipotenziamento {G}]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[多重キッカー {G}]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[다중향상 {G}]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Мультиусилитель {G}]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Multirreforçar {G}]]></LOCALISED_TEXT>
+    <COST type="mana" cost="{G}" qualifier="Multikicker" />
+  </UTILITY_ABILITY>
+  <TRIGGERED_ABILITY auto_skip="1" LKI_shield_effect_source="1" filter_zone="ZONE_IN_PLAY">
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[When Wolfbriar Elemental enters the battlefield, put a 2/2 green Wolf creature token onto the battlefield for each time it was kicked.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Quand l’Élémental de bruyère au loup arrive sur le champ de bataille, mettez sur le champ de bataille un jeton de créature 2/2 verte Loup pour chaque fois qu’il a été kické.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Cuando el Elemental lobo de brezo entre al campo de batalla, pon en el campo de batalla una ficha de criatura Lobo verde 2/2 por cada vez que fue estimulado.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Wenn das Dornenwolfelementar ins Spiel kommt, bringe für jedes Mal, dass du seine Bonuskosten bezahlt hast, einen 2/2 grünen Wolf-Kreaturenspielstein ins Spiel.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Quando l’Elementale Rovo dei Lupi entra nel campo di battaglia, metti sul campo di battaglia una pedina creatura Lupo 2/2 verde per ogni volta che è stato potenziato.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[狼茨の精霊が戦場に出たとき、それがキッカーされている１回につき、緑の２/２の狼・クリーチャー・トークンを１体戦場に出す。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[늑대찔레 정령이 전장에 들어올 때, 늑대찔레 정령이 향상된 횟수만큼의 2/2 녹색 늑대 생물 토큰을 전장에 놓는다.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Когда Элементаль Волчьего Терна выходит на поле битвы, положите на поле битвы одну фишку существа 2/2 зеленый Волк за каждый полученный им Усилитель.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Quando Elemental do Covil de Espinhos entrar no campo de batalha, coloque no campo de batalha uma ficha de criatura verde 2/2 do tipo Lobo para cada vez que ele tiver sido reforçado.]]></LOCALISED_TEXT>
+    <TRIGGER value="ZONECHANGE_END" simple_qualifier="self" to_zone="ZONE_IN_PLAY" />
+    <RESOLUTION_TIME_ACTION>
+    if (EffectSource() ~= nil and EffectSource():Kicked() &gt; 0) then
+    	MTG():PutTokensIntoPlay( "TOKEN_WOLF_2_2_277478", EffectSource():Kicked(), EffectController() )
+    end
+    </RESOLUTION_TIME_ACTION>
+  </TRIGGERED_ABILITY>
+  <TOKEN_REGISTRATION reservation="1" type="TOKEN_WOLF_2_2_277478" />
+  <HELP title="MORE_INFO_TITLE_KICKER" body="MORE_INFO_BODY_KICKER" zone="ZONE_ANY" />
+  <SFX text="COMBAT_BITE_LARGE_ATTACK" power_boundary_min="4" power_boundary_max="-1" />
+  <SFX text="COMBAT_BITE_SMALL_ATTACK" power_boundary_min="1" power_boundary_max="3" />
+  <AI_BASE_SCORE score="1800" zone="ZONE_HAND" />
+</CARD_V2>

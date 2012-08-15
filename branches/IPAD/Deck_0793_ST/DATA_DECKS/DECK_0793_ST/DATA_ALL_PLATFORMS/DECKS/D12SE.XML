@@ -1,0 +1,40 @@
+<DECK personality="D12SE.XML" deck_box_image="D12SE" deck_box_image_locked="locked" content_pack="0" uid="793" preview_card="hob" is_white="true" is_red="true">
+  <DECKSTATISTICS Size="7" Speed="7" Flex="5" Syn="5" />
+  <LandConfig minMountain="4" />
+  <CARD name="BOROS_SWIFTBLADE_888205359" deckOrderId="0" />
+  <CARD name="BOROS_SWIFTBLADE_888205359" deckOrderId="1" />
+  <CARD name="SOUL_WARDEN_277957" deckOrderId="2" />
+  <CARD name="SOUL_WARDEN_277957" deckOrderId="3" />
+  <CARD name="SOUL_WARDEN_277957" deckOrderId="4" />
+  <CARD name="PATH_TO_EXILE_888220511" deckOrderId="5" />
+  <CARD name="PATH_TO_EXILE_888220511" deckOrderId="6" />
+  <CARD name="PATH_TO_EXILE_888220511" deckOrderId="7" />
+  <CARD name="RAISE_THE_ALARM_277159" deckOrderId="8" />
+  <CARD name="RAISE_THE_ALARM_277159" deckOrderId="9" />
+  <CARD name="RAISE_THE_ALARM_277159" deckOrderId="10" />
+  <CARD name="RAISE_THE_ALARM_277159" deckOrderId="11" />
+  <CARD name="SQUADRON_HAWK_277095" deckOrderId="12" />
+  <CARD name="SQUADRON_HAWK_277095" deckOrderId="13" />
+  <CARD name="CERODON_YEARLING_888180604" deckOrderId="14" />
+  <CARD name="CERODON_YEARLING_888180604" deckOrderId="15" />
+  <CARD name="CERODON_YEARLING_888180604" deckOrderId="16" />
+  <CARD name="RECUMBENT_BLISS_280235" deckOrderId="17" />
+  <CARD name="RECUMBENT_BLISS_280235" deckOrderId="18" />
+  <CARD name="WHITE_SUNS_ZENITH_280075" deckOrderId="19" />
+  <CARD name="SKYKNIGHT_LEGIONNAIRE_888109082" deckOrderId="20" />
+  <CARD name="SKYKNIGHT_LEGIONNAIRE_888109082" deckOrderId="21" />
+  <CARD name="SUNHOME_ENFORCER_88889070" deckOrderId="22" />
+  <CARD name="SUNHOME_ENFORCER_88889070" deckOrderId="23" />
+  <CARD name="BULL_CERODON_888205321" deckOrderId="24" />
+  <CARD name="BULL_CERODON_888205321" deckOrderId="25" />
+  <CARD name="DARKSTEEL_AXE_281245" deckOrderId="26" />
+  <CARD name="DARKSTEEL_AXE_281245" deckOrderId="27" />
+  <CARD name="SWORD_OF_FIRE_AND_ICE_88846429" deckOrderId="28" />
+  <CARD name="SWORD_OF_FIRE_AND_ICE_88846429" deckOrderId="29" />
+  <CARD name="LIGHTNING_HELIX_888276789" deckOrderId="30" />
+  <CARD name="LIGHTNING_HELIX_888276789" deckOrderId="31" />
+  <CARD name="LIGHTNING_HELIX_888276789" deckOrderId="32" />
+  <CARD name="HERO_OF_BLADEHOLD_277131" deckOrderId="33" />
+  <CARD name="HERO_OF_BLADEHOLD_277131" deckOrderId="34" />
+  <CARD name="HERO_OF_BLADEHOLD_277131" deckOrderId="35" />
+</DECK>

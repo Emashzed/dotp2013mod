@@ -1,0 +1,115 @@
+﻿<?xml version='1.0'?>
+<CARD_V2>
+  <FILENAME text="EZURI_RENEGADE_LEADER_888194243" />
+  <CARDNAME text="EZURI_RENEGADE_LEADER" />
+  <TITLE>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Ezuri, Renegade Leader]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Ezuri, Capo Rinnegato]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Ezuri, Anführer der Renegaten]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Ezuri, chef renégat]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Ezuri, líder renegado]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[背教の主導者、エズーリ]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[Ezuri, Renegade Leader]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Эзури, Вожак-Ренегат]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Ezuri, Líder Renegado]]></LOCALISED_TEXT>
+  </TITLE>
+  <MULTIVERSEID value="888194243" />
+  <ARTID value="888194243" />
+  <ARTIST name="Karl Kopinski" />
+  <CASTING_COST cost="{1}{G}{G}" />
+  <FLAVOURTEXT>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[The infamous Ezuri commands the highest bounty the vedalken have ever placed upon an outlaw.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[L’infame Ezuri esige la più alta taglia che i vedalken abbiano mai messo su un fuorilegge.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Auf den berüchtigten Ezuri ist das höchste Kopfgeld ausgesetzt, das die Vedalken je für einen Gesetzlosen geboten haben.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[La capture du célèbre Ezuri rapporterait la plus forte récompense jamais attribuée pour un hors-la-loi par les vedalkens.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[El infame Ezuri tiene el honor de llevar sobre sus hombros la mayor recompensa que los vedalken ofrecieron jamás por un renegado.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[悪名高きエズーリにかけられた賞金は、ヴィダルケンがこれまでにお尋ね者にかけた中でも最高のものだ。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[The infamous Ezuri commands the highest bounty the vedalken have ever placed upon an outlaw.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[За печально известного Эзури объявлено самое высокое вознаграждение, которое ведалкены когда-либо объявляли за лицо вне закона.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[O infame Ezuri é digno da maior recompensa que os vedalkeanos já ofereceram para a captura de um criminoso.]]></LOCALISED_TEXT>
+  </FLAVOURTEXT>
+  <SUPERTYPE metaname="Legendary" />
+  <TYPE metaname="Creature" />
+  <SUB_TYPE metaname="Elf" order_de-DE="0" order_es-ES="1" order_fr-FR="0" order_it-IT="1" order_jp-JA="0" order_ko-KR="0" order_pt-BR="0" order_ru-RU="0" />
+  <SUB_TYPE metaname="Warrior" order_de-DE="1" order_es-ES="0" order_fr-FR="1" order_it-IT="0" order_jp-JA="1" order_ko-KR="1" order_pt-BR="1" order_ru-RU="1" />
+  <EXPANSION value="DPG" />
+  <RARITY metaname="R" />
+  <POWER value="2" />
+  <TOUGHNESS value="2" />
+  <ACTIVATED_ABILITY hint_name="HINT_REGENERATION" filter_zone="ZONE_IN_PLAY">
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[{G}: Regenerate another target Elf.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[{G}: Rigenera un altro Elfo bersaglio.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[{G}: Regeneriere einen anderen Elfen deiner Wahl.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[{G} : Régénérez un autre elfe ciblé.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[{G}: Regenera otro Elfo objetivo.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[{G}：他のエルフ１体を対象とし、それを再生する。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[{G}: Regenerate another target Elf.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[{G}: регенерируйте другого целевого Эльфа.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[{G}: Regenere outro Elfo alvo.]]></LOCALISED_TEXT>
+    <COST type="Mana" cost="{G}" />
+    <TARGET_DEFINITION id="0">
+    local filter = Object():GetFilter()
+    filter:Clear()
+    filter:AddSubType( CREATURE_TYPE_ELF )
+    filter:SetCardInstance( Object() )
+    filter:AddExtra( FILTER_EXTRA_FLIP_CARD_INSTANCE ) 
+    filter:SetZone( ZONE_IN_PLAY )
+    filter:May()
+    filter:SetHint( HINT_ALLIED_ONLY, EffectController() )
+    </TARGET_DEFINITION>
+    <TARGET_DETERMINATION>
+    return AtLeastOneTargetFromDefinition(0)
+    </TARGET_DETERMINATION>
+    <PLAY_TIME_ACTION target_choosing="1">
+    EffectController():ChooseTarget( 0, "CARD_QUERY_CHOOSE_CREATURE_REGENERATE", EffectDC():Make_Targets(0) )
+    </PLAY_TIME_ACTION>
+    <RESOLUTION_TIME_ACTION>
+    local target = EffectDC():Get_Targets(0):Get_CardPtr(0) 
+    if target ~= nil then   
+    	target:GiveRegeneration()  
+    end
+    </RESOLUTION_TIME_ACTION>
+    <AI_AVAILABILITY step="declare_blockers" />
+    <AI_AVAILABILITY type="regeneration" and="1" />
+    <AI_AVAILABILITY type="in_response_dangerous" />
+  </ACTIVATED_ABILITY>
+  <ACTIVATED_ABILITY filter_zone="ZONE_IN_PLAY">
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[{2}{G}{G}{G}: Elf creatures you control get +3/+3 and gain trample until end of turn.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[{2}{G}{G}{G}: Le creature Elfo che controlli prendono +3/+3 e hanno travolgere fino alla fine del turno.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[{2}{G}{G}{G}: Bis zum Ende des Zuges erhalten Elf-Kreaturen, die du kontrollierst, +3/+3 und verursachen Trampelschaden.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[{2}{G}{G}{G} : Les créatures Elfe que vous contrôlez gagnent +3/+3 et acquièrent le piétinement jusqu’à la fin du tour.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[{2}{G}{G}{G}: Las criaturas Elfo que controlas obtienen +3/+3 y ganan la habilidad de arrollar hasta el final del turno.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[{2}{G}{G}{G}：あなたがコントロールするエルフ・クリーチャーは、ターン終了時まで＋３/＋３の修整を受けるとともにトランプルを得る。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[{2}{G}{G}{G}: Elf creatures you control get +3/+3 and gain trample until end of turn.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[{2}{G}{G}{G}: существа-Эльфы под вашим контролем получают +3/+3 и Пробивной удар до конца хода.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[{2}{G}{G}{G}: As criaturas do tipo Elfo que você controla recebem +3/+3 e ganham atropelar até o final do turno.]]></LOCALISED_TEXT>
+    <COST type="Mana" cost="{2}{G}{G}{G}" />
+    <FILTER>
+    return CreaturesYouControlOfType( CREATURE_TYPE_ELF )
+    </FILTER>
+    <CONTINUOUS_ACTION layer="7C">
+    if FilteredCard() ~= nil then
+    	local characteristics = FilteredCard():GetCurrentCharacteristics()
+    	if characteristics ~= nil then
+    		characteristics:Power_Add( 3 )
+    		characteristics:Toughness_Add( 3 )
+    	end
+    end
+    </CONTINUOUS_ACTION>
+    <CONTINUOUS_ACTION layer="6">
+    local filtered_obj = FilteredCard()
+    if (filtered_obj ~= nil) then
+    	filtered_obj:GetCurrentCharacteristics():Characteristic_Set( CHARACTERISTIC_TRAMPLE, 1 )
+    end
+    </CONTINUOUS_ACTION>
+    <DURATION simple_duration="UntilEOT" />
+    <SFX text="888_EZURI_BUFF_ABILITY_PLAY" />
+    <AI_AVAILABILITY step="declare_blockers" />
+    <AI_AVAILABILITY type="in_response_dangerous" />
+  </ACTIVATED_ABILITY>
+  <HELP title="MORE_INFO_BADGE_TITLE_1" body="MORE_INFO_BADGE_BODY_1" zone="ZONE_ANY" />
+  <HELP title="MORE_INFO_TITLE_REGENERATE" body="MORE_INFO_BODY_REGENERATE" zone="ZONE_ANY" />
+  <SFX text="COMBAT_BLADE_LARGE_ATTACK" power_boundary_min="4" power_boundary_max="-1" />
+  <SFX text="COMBAT_BLADE_SMALL_ATTACK" power_boundary_min="1" power_boundary_max="3" />
+  <AI_BASE_SCORE score="900" zone="ZONE_IN_PLAY" />
+</CARD_V2>

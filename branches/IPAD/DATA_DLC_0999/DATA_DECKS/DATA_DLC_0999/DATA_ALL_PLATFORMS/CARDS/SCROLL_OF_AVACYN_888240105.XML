@@ -1,0 +1,68 @@
+﻿<?xml version='1.0'?>
+<CARD_V2>
+  <FILENAME text="SCROLL_OF_AVACYN_888240105" />
+  <CARDNAME text="SCROLL_OF_AVACYN" />
+  <TITLE>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Scroll of Avacyn]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Pergamena di Avacyn]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Avacyns Schriftrolle]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Parchemin d’Avacyn]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Pergamino de Avacyn]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[アヴァシンの巻物]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[아바신의 두루마리]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Свиток Авацины]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Pergaminho de Avacyn]]></LOCALISED_TEXT>
+  </TITLE>
+  <MULTIVERSEID value="888240105" />
+  <ARTID value="888240105" />
+  <ARTIST name="Cliff Childs" />
+  <CASTING_COST cost="{1}" />
+  <FLAVOURTEXT>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Words to bless the eye that reads them, telling of a future beyond the reach of fear.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Parole benedette per l’occhio che le legge, che rivelano un futuro oltre la morsa della paura.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Sie enthält Worte, die das Auge des Lesers segnen und von einer Zukunft erzählen, in der die Angst keine Macht hat.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Des mots pour bénir l’œil qui les lit et évoquer un avenir par-delà les peurs.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Palabras que bendicen los ojos que las leen y que hablan de un futuro al que el miedo no puede alcanzar.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[読む者に祝福を与える言葉の数々、恐怖を超えて未来を語る。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[이 두루마리의 문구는 읽는 자에게 축복을 주고 공포가 없는 미래를 알려준다.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Эти слова должен прочесть каждый, ибо ведают они о будущей жизни, не охваченной оковами страха.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Palavras para abençoar os olhos que as lerem, falando de um futuro além do alcance do medo.]]></LOCALISED_TEXT>
+  </FLAVOURTEXT>
+  <TYPE metaname="Artifact" />
+  <EXPANSION value="DPG" />
+  <RARITY metaname="C" />
+  <ACTIVATED_ABILITY auto_skip="1" filter_zone="ZONE_IN_PLAY">
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[{1}, Sacrifice Scroll of Avacyn: Draw a card. If you control an Angel, you gain 5 life.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[{1}, Sacrifica la Pergamena di Avacyn: Pesca una carta. Se controlli un Angelo, guadagni 5 punti vita.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[{1}, opfere Avacyns Schriftrolle: Ziehe eine Karte. Falls du einen Engel kontrollierst, erhältst du 5 Lebenspunkte dazu.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[{1}, sacrifiez le Parchemin d’Avacyn : Piochez une carte. Si vous contrôlez un ange, vous gagnez 5 points de vie.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[{1}, sacrificar el Pergamino de Avacyn: Roba una carta. Si controlas un Ángel, ganas 5 vidas.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[{1}, アヴァシンの巻物を生け贄に捧げる：カードを１枚引く。あなたが天使をコントロールしている場合、あなたは５点のライフを得る。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[{1}, 아바신의 두루마리를 희생한다: 카드 한 장을 뽑는다. 당신이 천사를 조종한다면, 당신은 생명 5점을 얻는다.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[{1}, пожертвуйте Свиток Авацины: возьмите карту. Если под вашим контролем есть Ангел, вы получаете 5 жизней.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[{1}, Sacrifique Pergaminho de Avacyn: Compre um card. Se você controla um Anjo, você ganha 5 pontos de vida.]]></LOCALISED_TEXT>
+    <COST type="Mana" cost="{1}" />
+    <COST type="SacrificeSelf" />
+    <RESOLUTION_TIME_ACTION>
+    local NumCards = 1
+    while (NumCards &gt; 0) do
+    	NumCards = NumCards - 1
+    	EffectController():DrawCard()
+    end
+    </RESOLUTION_TIME_ACTION>
+	<RESOLUTION_TIME_ACTION>
+	local filter = Object():GetFilter()
+    filter:Clear()
+    filter:AddSubType( CREATURE_TYPE_ANGEL )
+    filter:SetZone( ZONE_IN_PLAY )
+	filter:SetController( EffectController() )
+    local angel_count = filter:CountStopAt(1)
+    if angel_count == 1 then
+    	local player = EffectController()
+		if (player ~= nil) then
+			player:GainLife(5)
+		end
+    end
+	</RESOLUTION_TIME_ACTION>
+  </ACTIVATED_ABILITY>
+</CARD_V2>

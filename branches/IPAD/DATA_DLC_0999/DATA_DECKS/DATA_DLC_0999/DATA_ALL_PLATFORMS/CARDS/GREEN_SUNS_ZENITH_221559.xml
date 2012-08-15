@@ -1,0 +1,78 @@
+﻿<?xml version='1.0'?>
+<CARD_V2>
+  <FILENAME text="GREEN_SUNS_ZENITH_221559" />
+  <CARDNAME text="GREEN_SUNS_ZENITH" />
+  <TITLE>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Green Sun’s Zenith]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Zenit del Sole Verde]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Zenit der Grünen Sonne]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Zénith de Vertsoleil]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Cenit del sol verde]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[緑の太陽の頂点]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[Green Sun’s Zenith]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Зенит Зеленого Солнца]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Zênite do Sol Verde]]></LOCALISED_TEXT>
+  </TITLE>
+  <MULTIVERSEID value="221559" />
+  <ARTID value="888221559" />
+  <ARTIST name="David Rapoza" />
+  <CASTING_COST cost="{X}{G}" />
+  <FLAVOURTEXT>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[As the green sun crowned, Phyrexian prophecies glowed on the Tree of Tales.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Mentre il sole verde saliva, le profezie di Phyrexia brillavano sull’Albero dei Racconti.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Als die Grüne Sonne ihren höchsten Stand erreichte, glühten phyrexianische Prophezeiungen am Baum der Sagen.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Quand Vertsoleil fut à son zénith, des prophéties phyrexianes brillèrent sur l’Arbre de Récits.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Mientras se coronaba el sol verde, las profecías pirexianas brillaban en el Árbol de los Cuentos.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[緑の太陽が頂点にかかると、ファイレクシアの預言は伝承の樹の上で熱を帯びた。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[As the green sun crowned, Phyrexian prophecies glowed on the Tree of Tales.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Когда зеленое солнце достигло вершины, фирексийские пророчества засветились на Древе Преданий.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Conforme o sol verde se alçou, as profecias phyrexianas se iluminaram na Árvore das Lendas.]]></LOCALISED_TEXT>
+  </FLAVOURTEXT>
+  <TYPE metaname="Sorcery" />
+  <EXPANSION value="MBS" />
+  <RARITY metaname="R" />
+  <SPELL_ABILITY>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Search your library for a green creature card with converted mana cost X or less, put it onto the battlefield, then shuffle your library. Shuffle Green Sun’s Zenith into its owner’s library.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Passa in rassegna il tuo grimorio per una carta creatura verde con costo di mana convertito pari o inferiore a X, mettila sul campo di battaglia, poi rimescola il tuo grimorio. Rimescola lo Zenit del Sole Verde nel grimorio del suo proprietario.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Durchsuche deine Bibliothek nach einer grünen Kreaturenkarte mit umgewandelten Manakosten von X oder weniger, bringe sie ins Spiel und mische dann deine Bibliothek. Mische den Zenit der Grünen Sonne in die Bibliothek seines Besitzers.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Cherchez dans votre bibliothèque une carte de créature verte avec un coût converti de mana inférieur ou égal à X, mettez-la sur le champ de bataille et mélangez ensuite votre bibliothèque. Mélangez le Zénith de Vertsoleil dans la bibliothèque de son propriétaire.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Busca en tu biblioteca una carta de criatura verde con coste de maná convertido de X o menos, ponla en el campo de batalla y luego baraja tu biblioteca. Baraja el Cenit del sol verde en la biblioteca de su propietario.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[あなたのライブラリーから、点数で見たマナ・コストがＸ以下の緑のクリーチャー・カードを１枚探し、それを戦場に出し、その後あなたのライブラリーを切り直す。 緑の太陽の頂点をオーナーのライブラリーに加えて切り直す。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[Search your library for a green creature card with converted mana cost X or less, put it onto the battlefield, then shuffle your library. Shuffle Green Sun’s Zenith into its owner’s library.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Найдите в вашей библиотеке карту зеленого существа с конвертированной мана-стоимостью Х или меньше, положите ее на поле битвы, затем перетасуйте вашу библиотеку. Втасуйте Зенит Зеленого Солнца в библиотеку его владельца.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Procure em seu grimório um card de criatura verde com custo de mana convertido menor ou igual a X, coloque-o no campo de batalha e depois embaralhe seu grimório. Embaralhe Zênite do Sol Verde no grimório de seu dono.]]></LOCALISED_TEXT>
+    <RESOLUTION_TIME_ACTION>
+    local filter = Object():GetFilter()
+    EffectController():MarkSearchedLibrary()
+    filter:Clear()
+    filter:NotTargetted()
+    filter:AddCardType( CARD_TYPE_CREATURE )
+    filter:AddColour( COLOUR_GREEN )
+    filter:SetZone( ZONE_LIBRARY )
+    filter:SetPlayer( EffectController() )
+    filter:SetConvertedCostMax( GetObjectX() )
+    local sorter = MTG():GetTargetSorter()
+    sorter:Clear()
+    sorter:Add( TARGET_SORT_TYPE_SCORE, TARGET_SORT_POLARITY_ALLIED )
+    sorter:SetAIWidth(1)
+    EffectController():SetTargetCount(1)
+    EffectController():SetTargetPrompt( 0, "CARD_QUERY_CHOOSE_CREATURE_TO_PUT_ONTO_BATTLEFIELD" )
+    EffectController():ChooseTargetsWithFlags( NO_VALIDATION, EffectDC():Make_Targets(0), QUERY_FLAG_USE_TARGET_SORTER )
+    </RESOLUTION_TIME_ACTION>
+    <RESOLUTION_TIME_ACTION>
+    if EffectDC() ~= nil then
+    	local target = EffectDC():Get_Targets(0):Get_CardPtr(0)
+    	if target ~= nil then
+    		target:PutIntoPlay( EffectController() )
+    	end
+    end
+    </RESOLUTION_TIME_ACTION>
+    <RESOLUTION_TIME_ACTION>
+    EffectController():ShuffleLibrary()
+    </RESOLUTION_TIME_ACTION>
+    <RESOLUTION_TIME_ACTION>
+    Object():SetResolutionZone( ZONE_LIBRARY )
+    </RESOLUTION_TIME_ACTION>
+  </SPELL_ABILITY>
+  <AI_BASE_SCORE score="1200" zone="ZONE_HAND" />
+</CARD_V2>

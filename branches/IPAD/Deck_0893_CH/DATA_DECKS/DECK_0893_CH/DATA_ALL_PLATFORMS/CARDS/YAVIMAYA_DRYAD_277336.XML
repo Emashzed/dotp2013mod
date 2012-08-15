@@ -1,0 +1,103 @@
+<?xml version='1.0'?>
+<CARD_V2>
+  <FILENAME text="YAVIMAYA_DRYAD_277336" />
+  <CARDNAME text="YAVIMAYA_DRYAD" />
+  <TITLE>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Yavimaya Dryad]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Dryade de la Yavimaya]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Dríada de Yavimaya]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Yavimayadryade]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Driade di Yavimaya]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[ヤヴィマヤのドライアド]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[야비마야 드라이어드]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Явимайская Дриада]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Dríade de Yavimaya]]></LOCALISED_TEXT>
+  </TITLE>
+  <MULTIVERSEID value="277336" />
+  <ARTID value="97511" />
+  <ARTIST name="Rebecca Guay" />
+  <CASTING_COST cost="{1}{G}{G}" />
+  <FLAVOURTEXT>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[The parched earth still shielded those few souls with the heart to call it home.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[La terre ravagée protégeait toujours les quelques malheureux qui la considéraient encore comme leur foyer.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[La tierra devastada todavía protege a las pocas almas que se atreven a llamarla hogar.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Die ausgetrocknete Erde beschützte immer noch die wenigen Seelen, die das Herz hatten, sie ihre Heimat zu nennen.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[La terra inaridita proteggeva ancora quelle poche anime che avessero il coraggio di chiamarla casa.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[荒廃した大地も、そこを故郷と思う数少ない魂を守り続けている。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[대지는 바짝 말랐지만, 아직 그곳을 떠나지 않은 몇 안 되는 생물에게는 안식처를 제공했다.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Выжженная земля до сих пор защищала те немногие души, которые называли ее домом.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[A terra ressecada ainda protegia aquelas poucas almas capazes de considerá-la como sua casa.]]></LOCALISED_TEXT>
+  </FLAVOURTEXT>
+  <TYPE metaname="Creature" />
+  <SUB_TYPE metaname="Dryad" order_de-DE="0" order_es-ES="0" order_fr-FR="0" order_it-IT="0" order_jp-JA="0" order_ko-KR="0" order_pt-BR="0" order_ru-RU="0" />
+  <EXPANSION value="DPG" />
+  <RARITY metaname="U" />
+  <POWER value="2" />
+  <TOUGHNESS value="1" />
+  <STATIC_ABILITY>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Forestwalk]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Traversée des forêts]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Cruza bosques.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Waldtarnung]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Passa-Foreste]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[森渡り]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[숲잠입]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Знание Лесов]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Travessia de floresta]]></LOCALISED_TEXT>
+    <CONTINUOUS_ACTION>
+    local characteristics = Object():GetCurrentCharacteristics()
+    characteristics:Characteristic_Set( CHARACTERISTIC_FORESTWALK, 1 )
+    </CONTINUOUS_ACTION>
+  </STATIC_ABILITY>
+  <TRIGGERED_ABILITY auto_skip="1">
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[When Yavimaya Dryad enters the battlefield, you may search your library for a Forest card and put it onto the battlefield tapped under target player’s control. If you do, shuffle your library.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Quand la Dryade de la Yavimaya arrive sur le champ de bataille, vous pouvez chercher dans votre bibliothèque une carte de forêt et la mettre sur le champ de bataille engagée, sous le contrôle du joueur ciblé. Si vous faites ainsi, mélangez ensuite votre bibliothèque.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Cuando la Dríada de Yavimaya entre al campo de batalla, puedes buscar en tu biblioteca una carta de bosque y ponerla en el campo de batalla girada bajo el control del jugador objetivo. Si lo haces, baraja tu biblioteca.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Wenn die Yavimayadryade ins Spiel kommt, kannst du deine Bibliothek nach einem Wald durchsuchen und ihn getappt unter der Kontrolle eines Spielers deiner Wahl ins Spiel bringen. Falls du dies tust, mische danach deine Bibliothek.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Quando la Driade di Yavimaya entra nel campo di battaglia, puoi passare in rassegna il tuo grimorio per una carta Foresta e metterla sul campo di battaglia TAPpata sotto il controllo di un giocatore bersaglio. Se lo fai, rimescola il tuo grimorio.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[ヤヴィマヤのドライアドが戦場に出たとき、プレイヤー１人を対象とする。あなたは自分のライブラリーから森カードを１枚探してそのプレイヤーのコントロール下で戦場に出してもよい。 そうした場合、あなたのライブラリーを切り直す。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[야비마야 드라이어드가 전장에 들어올 때, 플레이어 한 명을 목표로 정한다. 당신은 당신의 서고에서 숲 카드 한 장을 찾아 그 플레이어의 조종하에 탭된 채로 전장에 놓을 수 있다. 그렇게 할 경우, 당신의 서고를 섞는다.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Когда Явимайская Дриада выходит на поле битвы, вы можете найти в вашей библиотеке карту Леса и положить ее на поле битвы повернутой под контролем целевого игрока. Если вы это делаете, перетасуйте вашу библиотеку.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Quando Dríade de Yavimaya entra no campo de batalha, você pode procurar em seu grimório por um card de Floresta e colocá-lo no campo de batalha virado sob o controle do jogador alvo. Se fizer isso, embaralhe seu grimório.]]></LOCALISED_TEXT>
+    <TRIGGER value="ZONECHANGE_END" simple_qualifier="self" to_zone="ZONE_IN_PLAY" />
+    <TARGET_DEFINITION id="0">
+    local filter = Object():GetFilter()
+    filter:Clear()
+    filter:SetFilterType( FILTER_TYPE_PLAYERS )
+    filter:SetHint( HINT_ALLIED, EffectController() )
+    </TARGET_DEFINITION>
+    <TARGET_DETERMINATION>
+    return AtLeastOneTargetFromDefinition(0)
+    </TARGET_DETERMINATION>
+    <PLAY_TIME_ACTION target_choosing="1">
+    EffectController():ChooseTarget( 0, "CARD_QUERY_CHOOSE_PLAYER", EffectDC():Make_Targets(0) )
+    </PLAY_TIME_ACTION>
+    <RESOLUTION_TIME_ACTION>
+    local filter = Object():GetFilter()
+    local effectController = EffectController()
+    effectController:MarkSearchedLibrary() 
+    filter:Clear()
+    filter:NotTargetted()
+    filter:AddSubType( LAND_TYPE_FOREST ) 
+    filter:May()
+    filter:SetZone( ZONE_LIBRARY )
+    filter:SetPlayer( effectController )                           
+    effectController:ChooseTarget( NO_VALIDATION, "CARD_QUERY_CHOOSE_LAND_FOREST_TO_PUT_ONTO_BATTLEFIELD", EffectDC():Make_Targets( 1 ) )
+    </RESOLUTION_TIME_ACTION>
+    <RESOLUTION_TIME_ACTION>
+    local player = EffectDC():Get_Targets(0):Get_PlayerPtr(0)
+    if player ~= nil then 
+    	local target = EffectDC():Get_Targets(1):Get_CardPtr(0)
+    	if  target ~= nil then
+    		target:PutIntoPlayTapped( player )
+    	end
+    end
+    </RESOLUTION_TIME_ACTION>
+    <RESOLUTION_TIME_ACTION>
+    EffectController():ShuffleLibrary()
+    </RESOLUTION_TIME_ACTION>
+  </TRIGGERED_ABILITY>
+  <HELP title="MORE_INFO_BADGE_TITLE_20" body="MORE_INFO_BADGE_BODY_20" zone="ZONE_ANY" />
+  <SFX text="COMBAT_GREEN_MAGIC_LARGE_ATTACK" power_boundary_min="4" power_boundary_max="-1" />
+  <SFX text="COMBAT_GREEN_MAGIC_SMALL_ATTACK" power_boundary_min="1" power_boundary_max="3" />
+</CARD_V2>

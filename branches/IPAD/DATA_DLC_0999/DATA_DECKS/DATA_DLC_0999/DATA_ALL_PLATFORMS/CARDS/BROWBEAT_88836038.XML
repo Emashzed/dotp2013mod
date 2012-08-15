@@ -1,0 +1,105 @@
+﻿<?xml version='1.0'?>
+<CARD_V2>
+  <FILENAME text="BROWBEAT_88836038" />
+  <CARDNAME text="BROWBEAT" />
+  <TITLE>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Browbeat]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Tiranneggiare]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Tyrannisieren]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Rudoiement]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Amedrentar]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[怒鳴りつけ]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[Browbeat]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Застращать]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Intimidar]]></LOCALISED_TEXT>
+  </TITLE>
+  <MULTIVERSEID value="88836038" />
+  <ARTID value="88836038" />
+  <ARTIST name="Mark Tedin" />
+  <CASTING_COST cost="{2}{R}" />
+  <FLAVOURTEXT>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[“Even the threat of power has power.”
+—Jeska, warrior adept]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[“Anche la minaccia del potere ha potere.”
+— Jeska, guerriera provetta]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[„Selbst mit Druck zu drohen erzeugt schon Gegendruck.”
+—Jeska die Meisterkriegerin]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[« Même la menace est déjà un châtiment. »
+— Jeska, guerrière experte]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[“Incluso la amenaza del poder es poderosa.”
+—Jeska, guerrera experta]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[力は脅しだけでも力になるわね。
+――熟達の戦士ジェスカ]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[“Even the threat of power has power.”
+—Jeska, warrior adept]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[«Даже угроза властью дает власть», — Джеска, адепт войны.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[“Até mesmo a ameaça de poder tem poder.”
+— Jeska, guerreira adepta]]></LOCALISED_TEXT>
+  </FLAVOURTEXT>
+  <TYPE metaname="Sorcery" />
+  <EXPANSION value="DPG" />
+  <RARITY metaname="U" />
+  <SPELL_ABILITY filter_zone="ZONE_IN_PLAY">
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Any player may have Browbeat deal 5 damage to him or her. If no one does, target player draws three cards.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Qualsiasi giocatore può farsi infliggere 5 danni dal Tiranneggiare. Se nessuno lo fa, un giocatore bersaglio pesca tre carte.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Jeder Gegner darf entscheiden, sich von Tyrannisieren 5 Schadenspunkte zufügen zu lassen. Falls niemand dies tut, zieht ein Spieler deiner Wahl drei Karten.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[N’importe quel joueur peut faire que le Rudoiement lui inflige 5 blessures. Si personne ne le fait, le joueur ciblé pioche trois cartes.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Cualquier jugador puede hacer que Amedrentar le haga 5 puntos de daño. Si nadie lo hace, el jugador objetivo roba tres cartas.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[プレイヤー1人を対象とする。いずれのプレイヤーも、「怒鳴りつけは自分に５点のダメージを与える。」を選んでよい。 誰もそうしない場合、対象となったプレイヤーはカードを３枚引く。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[Any player may have Browbeat deal 5 damage to him or her. If no one does, target player draws three cards.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Любой игрок может выбрать, чтобы Застращать нанес ему или ей 5 повреждений. Если никто этого не сделает, то целевой игрок берет три карты.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Qualquer jogador pode fazer com que Intimidar cause 5 pontos de dano a ele próprio. Se ninguém fizer isso, o jogador alvo comprará três cards.]]></LOCALISED_TEXT>
+    <TARGET_DEFINITION id="0">
+    local filter = Object():GetFilter()
+    filter:Clear()
+    filter:SetFilterType( FILTER_TYPE_PLAYERS )
+    filter:SetHint( HINT_ALLIED_ONLY, EffectController() )
+    </TARGET_DEFINITION>
+    <TARGET_DETERMINATION>
+    return AtLeastOneTargetFromDefinition(0)
+    </TARGET_DETERMINATION>
+    <PLAY_TIME_ACTION target_choosing="1">
+    EffectController():ChooseTarget( 0, "CARD_QUERY_CHOOSE_PLAYER_DRAW_CARDS", EffectDC():Make_Targets(0) )
+    </PLAY_TIME_ACTION>
+    <RESOLUTION_TIME_ACTION repeating="1">
+    local n = MTG():GetActionRepCount()
+    local num_players = MTG():GetNumberOfPlayers()
+    local playerindex = n/2
+    local parity = n % 2
+    local player = MTG():GetNthPlayer(playerindex)
+    if player ~= nil and n &lt; num_players*2 then
+    	if parity == 0 then
+    		player:BeginNewMultipleChoice()   
+    		player:AddMultipleChoiceAnswer( "CARD_QUERY_TAKE_5_DAMAGE" )   
+    		player:AddMultipleChoiceAnswer( "CARD_QUERY_DO_NOTHING" )   
+    		player:AskMultipleChoiceQuestion( "CARD_QUERY_MC_BROWBEAT" )
+    	else
+    		if Object():GetMultipleChoiceResult() == 0 then
+    			local source = EffectSource()
+    			if source == nil then
+    				source = Object()
+    			end
+    			if player ~= nil then 
+    				player:DealDamage(5, source)
+    				EffectDC():Set_Int(0, 1)
+    			end
+    			return false 
+    		end
+    	end
+    	return true
+    else
+    	return false
+    end
+    </RESOLUTION_TIME_ACTION>
+  </SPELL_ABILITY>
+  <SPELL_ABILITY>
+    <RESOLUTION_TIME_ACTION>
+    if (EffectDC():Get_Int(0) == nil) or (EffectDC():Get_Int(0) ~= nil and EffectDC():Get_Int(0) ~= 1) then
+    	local target = EffectDC():Get_Targets(0):Get_PlayerPtr(0)
+	if target ~= nil then
+		PlayerDrawCards( target, 3 )
+	end
+    end
+    </RESOLUTION_TIME_ACTION>
+  </SPELL_ABILITY>
+</CARD_V2>

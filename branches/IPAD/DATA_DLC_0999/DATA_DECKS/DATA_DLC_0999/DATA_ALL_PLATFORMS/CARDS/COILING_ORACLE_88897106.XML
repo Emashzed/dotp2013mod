@@ -1,0 +1,65 @@
+﻿<?xml version='1.0'?>
+<CARD_V2>
+  <FILENAME text="COILING_ORACLE_88897106" />
+  <CARDNAME text="COILING_ORACLE" />
+  <TITLE>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Coiling Oracle]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Gewundenes Orakel]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Oráculo serpenteante]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Oracle annelé]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Oracolo Acciambellato]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[とぐろ巻(ま)きの巫(み)女(こ)]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[Coiling Oracle]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Извивающийся оракул]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Oráculo Enroscado]]></LOCALISED_TEXT>
+  </TITLE>
+  <MULTIVERSEID value="88897106" />
+  <ARTID value="88897106" />
+  <ARTIST name="Mark Zug" />
+  <CASTING_COST cost="{G}{U}" />
+  <FLAVOURTEXT>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Snaking remnants of nature directed by a body of thought and progress, the oracles embody all that is Simic.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Das Orakel verkörpert alles, was für Simic typisch ist: Häutung bedeutet ewigen Fortschritt.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Restos serpentinos de la naturaleza dirigidos por un cuerpo de pensamiento y progreso, los oráculos son la viva representación de todo lo simic.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Une nature reptilienne et un corps de pensées et de progrès : les oracles étaient à l'image de Simic.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Sinuose vestigia della natura controllate da un corpo di pensieri e sviluppo; gli oracoli incarnano tutto ciò che è Simic.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[曲がりくねる自然の面影が思考と進歩へとつながっている巫女の姿は、まさしくシミックそのものだ。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[Snaking remnants of nature directed by a body of thought and progress, the oracles embody all that is Simic.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Эти оракулы воплощают суть Симиков — останки змеи, ведомые телом, полным мысли и прогресса.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Remanescentes angüiformes da natureza dominados por um corpo de pensamentos e progresso, os oráculos representam tudo o que é Simic.]]></LOCALISED_TEXT>
+  </FLAVOURTEXT>
+  <TYPE metaname="Creature" />
+  <SUB_TYPE metaname="Snake" order_de-DE="0" order_es-ES="2" order_fr-FR="0" order_it-IT="2" order_jp-JA="0" order_ko-KR="0" order_pt-BR="0" order_ru-RU="0" />
+  <SUB_TYPE metaname="Elf" order_de-DE="1" order_es-ES="1" order_fr-FR="1" order_it-IT="1" order_jp-JA="1" order_ko-KR="1" order_pt-BR="1" order_ru-RU="1" />
+  <SUB_TYPE metaname="Druid" order_de-DE="2" order_es-ES="0" order_fr-FR="2" order_it-IT="0" order_jp-JA="2" order_ko-KR="2" order_pt-BR="2" order_ru-RU="2" />
+  <EXPANSION value="DPG" />
+  <RARITY metaname="C" />
+  <POWER value="1" />
+  <TOUGHNESS value="1" />
+  <TRIGGERED_ABILITY auto_skip="1" filter_zone="ZONE_IN_PLAY">
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[When Coiling Oracle enters the battlefield, reveal the top card of your library. If it’s a land card, put it onto the battlefield. Otherwise, put that card into your hand.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Quand l'Oracle annelé arrive sur le champ de bataille, révélez la carte du dessus de votre bibliothèque. Si c'est une carte de terrain, mettez-la sur le champ de bataille. Sinon, mettez cette carte dans votre main.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Wenn das Gewundene Orakel ins Spiel kommt, zeige die oberste Karte deiner Bibliothek offen vor. Falls es ein Land ist, bringe es ins Spiel. Nimm die Karte andernfalls auf deine Hand.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Cuando el Oráculo serpenteante entre al campo de batalla, muestra la primera carta de tu biblioteca. Si es una carta de tierra, ponla en el campo de batalla. De lo contrario, pon esa carta en tu mano.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Quando l'Oracolo Acciambellato entra nel campo di battaglia, rivela la prima carta del tuo grimorio. Se è una carta terra, mettila sul campo di battaglia. Altrimenti, aggiungila alla tua mano.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[とぐろ巻きの巫女が戦場に出たとき、あなたのライブラリーの一番上のカードを公開する。 それが土地カードである場合、それを戦場に出す。 そうでない場合、そのカードをあなたの手札に加える。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[When Coiling Oracle enters the battlefield, reveal the top card of your library. If it’s a land card, put it onto the battlefield. Otherwise, put that card into your hand.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Когда Извивающийся оракул входит в игру, покажите верхнюю карту своей библиотеки. Если это карта земли, введите ее в игру. В противном случае поместите эту карту в свою руку.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Quando Oráculo Enroscado entrar no campo de batalha, revele o card do topo de seu grimório. Se este for um card de terreno, coloque-o em jogo. Do contrário, coloque-o em sua mão.]]></LOCALISED_TEXT>
+    <TRIGGER value="ZONECHANGE_END" simple_qualifier="self" to_zone="ZONE_IN_PLAY" />
+    <RESOLUTION_TIME_ACTION>
+    local top_card = EffectController():Library_GetNth(0)
+    if (top_card ~= nil and top_card:GetZone() == ZONE_LIBRARY) then
+	if (top_card:GetCardType():Test(CARD_TYPE_LAND) == 1) then
+    		top_card:GuidedReveal( ZONE_LIBRARY, ZONE_IN_PLAY )
+    		top_card:PutIntoPlay( EffectController() ) 
+    	else
+    		top_card:GuidedReveal( ZONE_LIBRARY, ZONE_HAND )
+		top_card:PutInHand()
+    	end	
+    end
+    </RESOLUTION_TIME_ACTION>
+  </TRIGGERED_ABILITY>
+  <SFX text="COMBAT_FANG_LARGE_ATTACK" power_boundary_min="4" power_boundary_max="-1" />
+  <SFX text="COMBAT_FANG_SMALL_ATTACK" power_boundary_min="1" power_boundary_max="3" />
+</CARD_V2>

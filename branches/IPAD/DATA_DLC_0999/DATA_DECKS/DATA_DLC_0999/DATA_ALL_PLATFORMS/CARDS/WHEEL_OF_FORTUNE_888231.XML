@@ -1,0 +1,46 @@
+﻿<?xml version='1.0'?>
+<CARD_V2>
+  <FILENAME text="WHEEL_OF_FORTUNE_888231" />
+  <CARDNAME text="WHEEL_OF_FORTUNE" />
+  <TITLE>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Wheel of Fortune]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Ruota della Fortuna]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Glücksrad]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Roue de la fortune]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Wheel of Fortune]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[Wheel of Fortune]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[Wheel of Fortune]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Wheel of Fortune]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Wheel of Fortune]]></LOCALISED_TEXT>
+  </TITLE>
+  <MULTIVERSEID value="888231" />
+  <ARTID value="888231" />
+  <ARTIST name="Daniel Gelon" />
+  <CASTING_COST cost="{2}{R}" />
+  <TYPE metaname="Sorcery" />
+  <EXPANSION value="DPG" />
+  <RARITY metaname="R" />
+  <SPELL_ABILITY dangerous="1" filter_zone="ZONE_IN_PLAY">
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Each player discards his or her hand and draws seven cards.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Each player discards his or her hand and draws seven cards.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Alle Spieler müssen ihr Blatt abwerfen und sieben neue Karten ziehen.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Chaque joueur doit se défausser de toutes les cartes de sa main et en piocher sept nouvelles.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Each player discards his or her hand and draws seven cards.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[Each player discards his or her hand and draws seven cards.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[Each player discards his or her hand and draws seven cards.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Each player discards his or her hand and draws seven cards.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Each player discards his or her hand and draws seven cards.]]></LOCALISED_TEXT>
+	<RESOLUTION_TIME_ACTION>
+    local num_players = MTG():GetNumberOfPlayers()
+    for i=0,num_players-1 do
+    	local player = MTG():GetNthPlayer(i)
+    	if player ~= nil then
+    		DiscardHand(player)
+    		PlayerDrawCards( player, 7 )
+    	end
+    end
+    </RESOLUTION_TIME_ACTION>
+	<SFX text="GLOBAL_WARP_PLAY" />
+  </SPELL_ABILITY>
+  <AI_BASE_SCORE score="450" zone="ZONE_HAND" />
+</CARD_V2>

@@ -1,0 +1,44 @@
+<DECK personality="C13_AZORIUS_DEFAULT.XML" deck_box_image="D13_Azorias" deck_box_image_locked="locked" content_pack="0" uid="892" preview_card="aura_servants" is_white="true" is_blue="true">
+  <DECKSTATISTICS Size="6" Speed="4" Flex="4" Syn="8" />
+  <LandConfig minPlains="5" minIsland="5" numSpellsThatCountAsLand="4" />
+  <CARD name="INVISIBLE_STALKER_277041" deckOrderId="0" />
+  <CARD name="INVISIBLE_STALKER_277041" deckOrderId="1" />
+  <CARD name="AVEN_FLEETWING_277102" deckOrderId="2" />
+  <CARD name="AVEN_FLEETWING_277102" deckOrderId="3" />
+  <CARD name="KOR_SPIRITDANCER_276938@3" deckOrderId="4" />
+  <CARD name="KOR_SPIRITDANCER_276938@3" deckOrderId="5" />
+  <CARD name="KOR_SPIRITDANCER_276938@3" deckOrderId="6" />
+  <CARD name="TOTEMGUIDE_HARTEBEEST_277267@3" deckOrderId="7" />
+  <CARD name="TOTEMGUIDE_HARTEBEEST_277267@3" deckOrderId="8" />
+  <CARD name="AURATOUCHED_MAGE_277222@2" deckOrderId="9" />
+  <CARD name="AURATOUCHED_MAGE_277222@2" deckOrderId="10" />
+  <CARD name="TALON_TROOPER_276757" deckOrderId="11" />
+  <CARD name="TALON_TROOPER_276757" deckOrderId="12" />
+  <CARD name="TALON_TROOPER_276757" deckOrderId="13" />
+  <CARD name="CELESTIAL_ANCIENT_280081" deckOrderId="14" />
+  <CARD name="ACADEMY_RESEARCHERS_276683" deckOrderId="15" />
+  <CARD name="AURAMANCER_278429@3" deckOrderId="16" />
+  <CARD name="AURAMANCER_278429@3" deckOrderId="17" />
+  <CARD name="THREE_DREAMS_277241" deckOrderId="18" />
+  <CARD name="PACIFISM_276961" deckOrderId="19" />
+  <CARD name="PACIFISM_276961" deckOrderId="20" />
+  <CARD name="DAYBREAK_CORONET_277018" deckOrderId="21" />
+  <CARD name="MIND_CONTROL_276949@3" deckOrderId="22" />
+  <CARD name="DRAKE_UMBRA_276904" deckOrderId="23" />
+  <CARD name="AVEN_MIMEOMANCER_281240" deckOrderId="24" />
+  <CARD name="AVEN_MIMEOMANCER_281240" deckOrderId="25" />
+  <CARD name="GRAND_ARBITER_AUGUSTIN_IV_281277@2" deckOrderId="26" />
+  <CARD name="GRIFFIN_GUIDE_276928@2" deckOrderId="27" />
+  <CARD name="CELESTIAL_ANCIENT_280081" deckOrderId="28" />
+  <CARD name="SIGIL_OF_THE_EMPTY_THRONE_280294" deckOrderId="29" />
+  <CARD name="OPHIDIAN_EYE_280086" deckOrderId="30" />
+  <CARD name="GIFT_OF_GRANITE_280266" deckOrderId="31" />
+  <CARD name="MAMMOTH_UMBRA_280258" deckOrderId="32" />
+  <CARD name="MAMMOTH_UMBRA_280258" deckOrderId="33" />
+  <CARD name="OCULAR_HALO_276794" deckOrderId="34" />
+  <CARD name="LIFELINK_280062" deckOrderId="35" />
+  <CARD name="EVOLVING_WILDS_276846" deckOrderId="36" />
+  <CARD name="EVOLVING_WILDS_276846" deckOrderId="37" />
+  <CARD name="EVOLVING_WILDS_276846" deckOrderId="38" />
+  <CARD name="EVOLVING_WILDS_276846" deckOrderId="39" />
+</DECK>

@@ -1,0 +1,79 @@
+﻿<?xml version='1.0'?>
+<CARD_V2>
+  <FILENAME text="UNBREATHING_HORDE_888230786" />
+  <CARDNAME text="UNBREATHING_HORDE" />
+  <TITLE>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Unbreathing Horde]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Orda Senza Respiro]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Atemlose Horde]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Horde sans souffle]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Horda sin aliento]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[息せぬ群れ]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[Unbreathing Horde]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Бездыханная Орда]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Horda Sem Respiro]]></LOCALISED_TEXT>
+  </TITLE>
+  <MULTIVERSEID value="888230786" />
+  <ARTID value="888230786" />
+  <ARTIST name="Dave Kendall" />
+  <CASTING_COST cost="{2}{B}" />
+  <TYPE metaname="Creature" />
+  <SUB_TYPE metaname="Zombie" order_de-DE="0" order_es-ES="0" order_fr-FR="0" order_it-IT="0" order_jp-JA="0" order_ko-KR="0" order_pt-BR="0" order_ru-RU="0" />
+  <EXPANSION value="DPG" />
+  <RARITY metaname="R" />
+  <POWER value="0" />
+  <TOUGHNESS value="0" />
+  <TRIGGERED_ABILITY internal="1" pre_trigger="1" filter_zone="ZONE_IN_PLAY" active_zone="ZONE_TRANSITION">
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Unbreathing Horde enters the battlefield with a +1/+1 counter on it for each other Zombie you control and each Zombie card in your graveyard.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[L'Orda Senza Respiro entra nel campo di battaglia con un segnalino +1/+1 per ogni altro Zombie che controlli e per ogni carta Zombie nel tuo cimitero.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Die Atemlose Horde kommt mit jeweils einer +1/+1-Marke für jede Zombie-Karte in deinem Friedhof und für jeden anderen Zombie, den du kontrollierst, ins Spiel.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[La Horde sans souffle arrive sur le champ de bataille avec, sur elle, un marqueur +1/+1 pour chaque autre zombie que vous contrôlez et chaque carte de zombie dans votre cimetière.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[La Horda sin aliento entra al campo de batalla con un contador +1/+1 sobre ella por cada otro Zombie que controlas y cada carta de Zombie en tu cementerio.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[息せぬ群れは、あなたがコントロールしている他のゾンビ・クリーチャー１体およびあなたの墓地にあるゾンビ・カード１枚につき、＋１/＋１カウンターが１個置かれた状態で戦場に出る。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[Unbreathing Horde enters the battlefield with a +1/+1 counter on it for each other Zombie you control and each Zombie card in your graveyard.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Бездыханная Орда выходит на поле битвы с одним жетоном +1/+1 на ней за каждого другого Зомби под вашим контролем и каждую карту Зомби на вашем кладбище.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Horda Sem Respiro entra no campo de batalha com um marcador +1/+1 sobre ele para cada outro Zumbi que você controla e cada card do tipo Zumbi no seu cemitério.]]></LOCALISED_TEXT>
+    <TRIGGER value="ZONECHANGE_TRANSITION" simple_qualifier="self" to_zone="ZONE_IN_PLAY" />
+    <RESOLUTION_TIME_ACTION>
+	local counters = 0
+	local zombie_play = 0
+	local filter = Object():GetFilter()
+    filter:Clear()
+    filter:AddSubType( CREATURE_TYPE_ZOMBIE )
+	filter:SetCardInstance( Object() )
+    filter:AddExtra( FILTER_EXTRA_FLIP_CARD_INSTANCE )
+    filter:SetZone( ZONE_IN_PLAY )
+    filter:SetController( EffectController() )
+	filter:NotTargetted()
+    zombie_play = filter:Count()
+	local zombie_grave = CountCardsInYourGraveyardOfType( CREATURE_TYPE_ZOMBIE )
+	counters = zombie_play + zombie_grave
+    Object():AddCounters( MTG():PlusOnePlusOneCounters(), counters )
+    </RESOLUTION_TIME_ACTION>
+  </TRIGGERED_ABILITY>
+  <TRIGGERED_ABILITY internal="1" pre_trigger="1">
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[If Unbreathing Horde would be dealt damage, prevent that damage and remove a +1/+1 counter from it.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Se all'Orda Senza Respiro sta per essere inflitto danno, previeni quel danno e rimuovi da essa un segnalino +1/+1.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Falls der Atemlosen Horde Schaden zugefügt würde, verhindere diesen Schaden und entferne eine +1/+1-Marke von ihr.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Si la Horde sans souffle devait subir des blessures, prévenez ces blessures et retirez-lui un marqueur +1/+1.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Si la Horda sin aliento fuera a recibir daño, prevén ese daño y remueve un contador +1/+1 de ella.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[息せぬ群れにダメージが与えられる場合、そのダメージを軽減し、それの上から＋１/＋１カウンターを１個取り除く。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[If Unbreathing Horde would be dealt damage, prevent that damage and remove a +1/+1 counter from it.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Если Бездыханной Орде должны быть нанесены повреждения, предотвратите те повреждения и удалите с нее один жетон +1/+1.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Se Horda Sem Respiro for sofrer dano, previna aquele dano e remova um marcador +1/+1 dele.]]></LOCALISED_TEXT>
+    <TRIGGER value="CREATURE_TOOK_DAMAGE" simple_qualifier="self" />
+	<RESOLUTION_TIME_ACTION>
+    local card = EffectSource()
+    if card ~= nil then 
+    	local damage_amount = Damage():GetAmount()
+    	if damage_amount &gt; 0 then
+    		Damage():SetAmount(0)
+    		card:RemoveCounters( MTG():PlusOnePlusOneCounters(), 1 )
+    	end
+    end
+    </RESOLUTION_TIME_ACTION>
+  </TRIGGERED_ABILITY>
+  <SFX text="COMBAT_BITE_LARGE_ATTACK" power_boundary_min="4" power_boundary_max="-1" />
+  <SFX text="COMBAT_BITE_SMALL_ATTACK" power_boundary_min="1" power_boundary_max="3" />
+  <AI_BASE_SCORE score="450" zone="ZONE_IN_PLAY" />
+</CARD_V2>

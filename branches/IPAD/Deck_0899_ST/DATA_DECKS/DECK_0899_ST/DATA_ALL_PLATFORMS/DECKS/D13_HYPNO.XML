@@ -1,0 +1,41 @@
+<DECK personality="D13_HYPNO_DEFAULT.XML" deck_box_image="D13_HYPNO" deck_box_image_locked="locked" content_pack="0" always_available="true" uid="899" preview_card="nyxathid" is_black="true">
+  <DECKSTATISTICS Size="5" Speed="5" Flex="6" Syn="8" />
+  <LandConfig minSwamp="23" />
+  <CARD name="OONAS_GATEWARDEN_888141975" deckOrderId="0" />
+  <CARD name="OONAS_GATEWARDEN_888141975" deckOrderId="1" />
+  <CARD name="OONAS_GATEWARDEN_888141975" deckOrderId="2" />
+  <CARD name="OONAS_GATEWARDEN_888141975" deckOrderId="3" />
+  <CARD name="HYPNOTIC_SPECTER_888190566" deckOrderId="4" />
+  <CARD name="HYPNOTIC_SPECTER_888190566" deckOrderId="5" />
+  <CARD name="HYPNOTIC_SPECTER_888190566" deckOrderId="6" />
+  <CARD name="HYPNOTIC_SPECTER_888190566" deckOrderId="7" />
+  <CARD name="VAMPIRE_NIGHTHAWK_276992" deckOrderId="8" />
+  <CARD name="VAMPIRE_NIGHTHAWK_276992" deckOrderId="9" />
+  <CARD name="VAMPIRE_NIGHTHAWK_276992" deckOrderId="10" />
+  <CARD name="VAMPIRE_NIGHTHAWK_276992" deckOrderId="11" />
+  <CARD name="OB_NIXILIS_THE_FALLEN_888192219" deckOrderId="12" />
+  <CARD name="MASSACRE_WURM_276947" deckOrderId="13" />
+  <CARD name="DREAD_276804" deckOrderId="14" />
+  <CARD name="THE_RACK_243109" deckOrderId="15" />
+  <CARD name="THE_RACK_243109" deckOrderId="16" />
+  <CARD name="THE_RACK_243109" deckOrderId="17" />
+  <CARD name="THE_RACK_243109" deckOrderId="18" />
+  <CARD name="HYMN_TO_TOURACH_8881851" deckOrderId="19" />
+  <CARD name="HYMN_TO_TOURACH_8881851" deckOrderId="20" />
+  <CARD name="HYMN_TO_TOURACH_8881851" deckOrderId="21" />
+  <CARD name="HYMN_TO_TOURACH_8881851" deckOrderId="22" />
+  <CARD name="DIABOLIC_EDICT_277317" deckOrderId="23" />
+  <CARD name="DIABOLIC_EDICT_277317" deckOrderId="24" />
+  <CARD name="DIABOLIC_EDICT_277317" deckOrderId="25" />
+  <CARD name="DIABOLIC_EDICT_277317" deckOrderId="26" />
+  <CARD name="LASHWRITHE_888214359" deckOrderId="27" />
+  <CARD name="LASHWRITHE_888214359" deckOrderId="28" />
+  <CARD name="LASHWRITHE_888214359" deckOrderId="29" />
+  <CARD name="LASHWRITHE_888214359" deckOrderId="30" />
+  <CARD name="PHYREXIAN_ARENA_88827663" deckOrderId="31" />
+  <CARD name="JET_MEDALLION_281273" deckOrderId="32" />
+  <CARD name="NYXATHID_888186616" deckOrderId="33" />
+  <CARD name="NYXATHID_888186616" deckOrderId="34" />
+  <CARD name="NYXATHID_888186616" deckOrderId="35" />
+  <CARD name="NYXATHID_888186616" deckOrderId="36" />
+</DECK>

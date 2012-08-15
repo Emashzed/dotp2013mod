@@ -1,0 +1,42 @@
+<DECK personality="D12RAKKA.XML" deck_box_image="D12RAKKA" deck_box_image_locked="locked" content_pack="0" uid="796" preview_card="blitzhell" is_blue="true" is_red="true" is_green="true">
+  <DECKSTATISTICS Size="7" Speed="6" Flex="6" Syn="6" />
+  <LandConfig minIsland="4" minMountain="5" minForest="6" numSpellsThatCountAsLand="3" />
+  <CARD name="HELLSPARK_ELEMENTAL_888174799" deckOrderId="0" />
+  <CARD name="HELLSPARK_ELEMENTAL_888174799" deckOrderId="1" />
+  <CARD name="HELLSPARK_ELEMENTAL_888174799" deckOrderId="2" />
+  <CARD name="RIPCLAN_CRASHER_888177600" deckOrderId="3" />
+  <CARD name="RIPCLAN_CRASHER_888177600" deckOrderId="4" />
+  <CARD name="RIPCLAN_CRASHER_888177600" deckOrderId="5" />
+  <CARD name="PRIMAL_FORCEMAGE_888110508" deckOrderId="6" />
+  <CARD name="PRIMAL_FORCEMAGE_888110508" deckOrderId="7" />
+  <CARD name="PRIMAL_FORCEMAGE_888110508" deckOrderId="8" />
+  <CARD name="MANOWAR_88821138" deckOrderId="9" />
+  <CARD name="MANOWAR_88821138" deckOrderId="10" />
+  <CARD name="FARHAVEN_ELF_888153289" deckOrderId="11" />
+  <CARD name="FARHAVEN_ELF_888153289" deckOrderId="12" />
+  <CARD name="VULSHOK_BERSERKER_888208011" deckOrderId="13" />
+  <CARD name="VULSHOK_BERSERKER_888208011" deckOrderId="14" />
+  <CARD name="RAGING_KAVU_88823148" deckOrderId="15" />
+  <CARD name="RAKKA_MAR_888185810" deckOrderId="16" />
+  <CARD name="BLITZ_HELLION_888179406" deckOrderId="17" />
+  <CARD name="BLITZ_HELLION_888179406" deckOrderId="18" />
+  <CARD name="GAEAS_REVENGE_294526" deckOrderId="19" />
+  <CARD name="FIRES_OF_YAVIMAYA_888220500" deckOrderId="20" />
+  <CARD name="FIRES_OF_YAVIMAYA_888220500" deckOrderId="21" />
+  <CARD name="CULTIVATE_276891" deckOrderId="22" />
+  <CARD name="CULTIVATE_276891" deckOrderId="23" />
+  <CARD name="CULTIVATE_276891" deckOrderId="24" />
+  <CARD name="DIVINATION_888262848" deckOrderId="25" />
+  <CARD name="DIVINATION_888262848" deckOrderId="26" />
+  <CARD name="REGRESS_888193603" deckOrderId="27" />
+  <CARD name="REGRESS_888193603" deckOrderId="28" />
+  <CARD name="RONIN_WARCLUB_88874473" deckOrderId="29" />
+  <CARD name="RONIN_WARCLUB_88874473" deckOrderId="30" />
+  <CARD name="RAMPANT_GROWTH_888233231" deckOrderId="31" />
+  <CARD name="RAMPANT_GROWTH_888233231" deckOrderId="32" />
+  <CARD name="RAMPANT_GROWTH_888233231" deckOrderId="33" />
+  <CARD name="PANDEMONIUM_8886126" deckOrderId="34" />
+  <CARD name="EVOLVING_WILDS_276846" deckOrderId="35" />
+  <CARD name="EVOLVING_WILDS_276846" deckOrderId="36" />
+  <CARD name="EVOLVING_WILDS_276846" deckOrderId="37" />
+</DECK>

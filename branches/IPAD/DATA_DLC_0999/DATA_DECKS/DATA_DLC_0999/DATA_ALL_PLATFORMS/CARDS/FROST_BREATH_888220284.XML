@@ -1,0 +1,73 @@
+﻿<?xml version='1.0'?>
+<CARD_V2>
+  <FILENAME text="FROST_BREATH_888220284" />
+  <CARDNAME text="FROST_BREATH" />
+  <TITLE>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Frost Breath]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Soffio Gelato]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Frosthauch]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Souffle de givre]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Aliento escarchado]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[霜のブレス]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[Frost Breath]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Морозное Дыхание]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Hálito Congelador]]></LOCALISED_TEXT>
+  </TITLE>
+  <MULTIVERSEID value="888220284" />
+  <ARTID value="888220284" />
+  <ARTIST name="Mike Bierek" />
+  <CASTING_COST cost="{2}{U}" />
+  <FLAVOURTEXT>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[If you have to be stuck somewhere for a while, it’s better to be stuck there with a friend.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Se devi rimanere bloccato da qualche parte per un po’, meglio rimanere bloccato con un amico.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Wenn du irgendwo für eine Weile festhängst, ist es besser, einen Freund dabeizuhaben.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Tant qu’à être coincé pour un bout de temps quelque part, autant que ce soit en compagnie d’un ami.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Si tienes que quedarte allí por un tiempo, mejor que sea junto a un amigo.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[動きが取れなくなるのなら、友と一緒の方がいい。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[If you have to be stuck somewhere for a while, it’s better to be stuck there with a friend.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Если пришлось надолго где-то застрять, лучше застрять там с другом.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Se você tem de ficar preso num lugar por algum tempo, é melhor que seja com um amigo.]]></LOCALISED_TEXT>
+  </FLAVOURTEXT>
+  <TYPE metaname="Instant" />
+  <EXPANSION value="DPG" />
+  <RARITY metaname="C" />
+  <SPELL_ABILITY dangerous="1" filter_zone="ZONE_IN_PLAY">
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Tap up to two target creatures. Those creatures don’t untap during their controller’s next untap step.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[TAPpa fino a due creature bersaglio. Quelle creature non STAPpano durante il prossimo STAP del loro controllore.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Tappe bis zu zwei Kreaturen deiner Wahl. Diese Kreaturen enttappen nicht während des nächsten Enttappsegments ihres Beherrschers.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Engagez jusqu’à deux créatures ciblées. Ces créatures ne se dégagent pas pendant la prochaine étape de dégagement de leur contrôleur.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Gira hasta dos criaturas objetivo. Esas criaturas no se enderezan durante el próximo paso de enderezar de su controlador.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[クリーチャーを最大２体まで対象とし、それらをタップする。 そのクリーチャーは、それのコントローラーの次のアンタップ・ステップにアンタップしない。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[Tap up to two target creatures. Those creatures don’t untap during their controller’s next untap step.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Поверните не более двух целевых существ. Те существа не разворачиваются во время следующего шага разворота контролирующего их игрока.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Vire até duas criaturas alvo. Estas criaturas não são desviradas durante a próxima etapa de desvirar de seus controladores.]]></LOCALISED_TEXT>
+    <TARGET_DEFINITION id="0">
+    local filter = Object():GetFilter()
+    filter:Clear()
+    filter:AddCardType( CARD_TYPE_CREATURE )
+    filter:SetZone( ZONE_IN_PLAY )
+    filter:SetHint( HINT_ENEMY, EffectController() )
+    </TARGET_DEFINITION>
+    <TARGET_DETERMINATION>
+    return AtLeastOneTargetFromDefinition(0)
+    </TARGET_DETERMINATION>
+    <PLAY_TIME_ACTION target_choosing="1">
+    local player = EffectController()
+    player:SetTargetCount( 2 )
+    player:SetTargetPrompt( 0, "CARD_QUERY_CHOOSE_CREATURE_TAPHOLD" )
+    player:SetTargetPrompt( 1, "CARD_QUERY_CHOOSE_CREATURE_TAPHOLD" )
+    EffectController():ChooseTargetsWithFlags( 0, EffectDC():Make_Targets(0), QUERY_FLAG_CAN_BE_FINISHED_EARLY + QUERY_FLAG_CAN_BE_FINISHED_EARLY_FOR_AI_AS_WELL)
+    </PLAY_TIME_ACTION>
+    <RESOLUTION_TIME_ACTION>
+    for i = 0,1 do
+       	local target = EffectDC():Get_Targets(0):Get_NthCardPtr(i)
+       	if (target ~= nil ) then   
+    		target:TapAndHold()  
+    	end
+    end
+    </RESOLUTION_TIME_ACTION>
+  </SPELL_ABILITY>
+  <AI_AVAILABILITY step="end_of_turn" turn="their_turn" />
+  <AI_AVAILABILITY step="begin_combat" />
+  <AI_BASE_SCORE score="750" zone="ZONE_HAND" />
+</CARD_V2>

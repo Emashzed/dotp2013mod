@@ -1,0 +1,68 @@
+﻿<?xml version='1.0'?>
+<CARD_V2>
+  <FILENAME text="LEAFCROWNED_ELDER_888152682" />
+  <CARDNAME text="LEAFCROWNED_ELDER" />
+  <TITLE>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Leaf-Crowned Elder]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Anziano Fogliacorona]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Laubkronen-Ältester]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Doyen à couronne de feuilles]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Anciano coronado de hojas]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[葉冠の古老]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[Leaf-Crowned Elder]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Увенчанный Листьями Старец]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Ancião Coroa-de-Folhas]]></LOCALISED_TEXT>
+  </TITLE>
+  <MULTIVERSEID value="888152682" />
+  <ARTID value="888152682" />
+  <ARTIST name="Wayne Reynolds" />
+  <CASTING_COST cost="{2}{G}{G}" />
+  <TYPE metaname="Creature" />
+  <SUB_TYPE metaname="Treefolk" order_de-DE="0" order_es-ES="0" order_fr-FR="0" order_it-IT="0" order_jp-JA="0" order_ko-KR="0" order_pt-BR="0" order_ru-RU="0" />
+  <SUB_TYPE metaname="Shaman" order_de-DE="0" order_es-ES="0" order_fr-FR="0" order_it-IT="0" order_jp-JA="0" order_ko-KR="0" order_pt-BR="0" order_ru-RU="0" />
+  <EXPANSION value="DPG" />
+  <RARITY metaname="R" />
+  <POWER value="3" />
+  <TOUGHNESS value="5" />
+  <TRIGGERED_ABILITY>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Kinship — At the beginning of your upkeep, you may look at the top card of your library. If it shares a creature type with Leaf-Crowned Elder, you may reveal it. If you do, you may play that card without paying its mana cost.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Parentela — All'inizio del tuo mantenimento, puoi guardare la prima carta del tuo grimorio. Se condivide un tipo di creatura con l'Anziano Fogliacorona, puoi rivelarla. Se lo fai, puoi giocarla senza pagare il suo costo di mana.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Verwandtschaft — Zu Beginn deines Versorgungssegments kannst du dir die oberste Karte deiner Bibliothek anschauen. Hat sie mindestens einen Kreaturentyp mit dem Laubkronen-Ältesten gemeinsam, kannst du sie offen vorzeigen. Falls du dies tust, kannst du diese Karte spielen, ohne ihre Manakosten zu bezahlen.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Parenté — Au début de votre entretien, vous pouvez regarder la carte du dessus de votre bibliothèque. Si elle partage un type de créature avec le Doyen à couronne de feuilles, vous pouvez la révéler. Si vous faites ainsi, vous pouvez jouer cette carte sans payer son coût de mana.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Hermandad — Al comienzo de tu mantenimiento, puedes mirar la primera carta de tu biblioteca. Si comparte un tipo de criatura con el Anciano coronado de hojas, puedes mostrarla. Si lo haces, puedes jugar esa carta sin pagar su coste de maná.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[族系 ― あなたのアップキープの開始時に、あなたはあなたのライブラリーの一番上のカードを見てもよい。 それが葉冠の古老と共通のクリーチャー・タイプを持つ場合、あなたはそれを公開してもよい。 そうした場合、あなたはそのカードをマナ・コストを支払うことなくプレイしてもよい。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[Kinship — At the beginning of your upkeep, you may look at the top card of your library. If it shares a creature type with Leaf-Crowned Elder, you may reveal it. If you do, you may play that card without paying its mana cost.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Сходство — В начале вашего шага поддержки вы можете посмотреть верхнюю карту вашей библиотеки. Если у нее есть такой же тип существа, как у Увенчанного Листьями Старца, вы можете ее показать. Если вы это делаете, вы можете разыграть ту карту без уплаты ее мана-стоимости.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Parentesco — No início de sua manutenção, você pode olhar o card do topo do seu grimório. Se ele compartilhar um tipo de criatura com Ancião Coroa-de-Folhas, você poderá revelá-lo. Se fizer isso, você poderá jogar aquele card sem pagar seu custo de mana.]]></LOCALISED_TEXT>
+    <TRIGGER value="BEGINNING_OF_STEP" simple_qualifier="controller">
+    return ( (MTG():GetStep() == STEP_UPKEEP) and (TriggerPlayer() == EffectController()) and (TriggerPlayer():MyTurn() ~= 0) and (TriggerPlayer():Library_GetNth(0) ~= nil))
+    </TRIGGER>
+	<RESOLUTION_TIME_ACTION>
+    local filter = Object():GetFilter()  
+    local player = EffectController()    
+    filter:Clear()  
+    filter:NotTargetted()  
+    filter:SetPlayer( player )  
+    filter:SetZone( ZONE_LIBRARY )  
+    filter:SetPortion( 1 )  
+    player:SetTargetCount( 1 )  
+    player:SetTargetPrompt( 0, "CARD_QUERY_PLAY" )  
+    player:ChooseTargetsWithFlags( NO_VALIDATION, EffectDC():Make_Targets(0), QUERY_FLAG_CAN_BE_FINISHED_EARLY + QUERY_FLAG_CAN_BE_FINISHED_EARLY_FOR_AI_AS_WELL )    
+    </RESOLUTION_TIME_ACTION>
+    <RESOLUTION_TIME_ACTION>
+    local spell = EffectDC():Get_Targets(0):Get_CardPtr(0)   
+    local player = EffectController()
+    if ( spell ~= nil ) then   
+		local effectSource = Object()
+		if TopCardHasKinshipWith( effectSource ) then
+			if spell:CanBePlayed( player ) then
+				spell:PlayFreeFromAnywhere( player )
+			end
+		end
+    end
+    </RESOLUTION_TIME_ACTION>
+  </TRIGGERED_ABILITY>
+  <SFX text="COMBAT_BLUNT_LARGE_ATTACK" power_boundary_min="4" power_boundary_max="-1" />
+  <SFX text="COMBAT_BLUNT_SMALL_ATTACK" power_boundary_min="1" power_boundary_max="3" />
+  <AI_BASE_SCORE score="600" zone="ZONE_IN_PLAY" />
+</CARD_V2>

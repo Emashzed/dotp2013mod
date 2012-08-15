@@ -1,0 +1,156 @@
+<?xml version='1.0'?>
+<CARD_V2>
+  <FILENAME text="RAKDOS_THE_DEFILER_276798" />
+  <CARDNAME text="RAKDOS_THE_DEFILER" />
+  <TITLE>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Rakdos the Defiler]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Rakdos le Contaminateur]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Rakdos el profanador]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Rakdos der Schänder]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Rakdos il Contaminatore]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[穢すものラクドス]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[모독자 락도스]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Ракдос Осквернитель]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Rakdos, o Profanador]]></LOCALISED_TEXT>
+  </TITLE>
+  <MULTIVERSEID value="276798" />
+  <ARTID value="94497" />
+  <ARTIST name="Zoltan Boros &amp; Gabor Szikszai" />
+  <CASTING_COST cost="{2}{B}{B}{R}{R}" />
+  <SUPERTYPE metaname="Legendary" />
+  <TYPE metaname="Creature" />
+  <SUB_TYPE metaname="Demon" order_de-DE="0" order_es-ES="0" order_fr-FR="0" order_it-IT="0" order_jp-JA="0" order_ko-KR="0" order_pt-BR="0" order_ru-RU="0" />
+  <EXPANSION value="DPG" />
+  <RARITY metaname="R" />
+  <POWER value="7" />
+  <TOUGHNESS value="6" />
+  <STATIC_ABILITY>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Flying]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Vol]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Vuela]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Fliegend]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Volare]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[飛行]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[비행]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Полет]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Voar]]></LOCALISED_TEXT>
+    <CONTINUOUS_ACTION>
+    local characteristics = Object():GetCurrentCharacteristics()
+    characteristics:Characteristic_Set( CHARACTERISTIC_FLYING, 1 )
+    </CONTINUOUS_ACTION>
+  </STATIC_ABILITY>
+  <STATIC_ABILITY filter_zone="ZONE_IN_PLAY" commaspace="1">
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[trample]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[piétinement]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[arrolla.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[verursacht Trampelschaden]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[travolgere]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[トランプル]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[돌진]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Пробивной удар]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[atropelar]]></LOCALISED_TEXT>
+    <CONTINUOUS_ACTION>
+    local characteristics = Object():GetCurrentCharacteristics()  
+    characteristics:Characteristic_Set( CHARACTERISTIC_TRAMPLE, 1 )
+    </CONTINUOUS_ACTION>
+  </STATIC_ABILITY>
+  <TRIGGERED_ABILITY dangerous="1" filter_zone="ZONE_IN_PLAY" active_zone="ZONE_IN_PLAY">
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Whenever Rakdos the Defiler attacks, sacrifice half the non-Demon permanents you control, rounded up.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[À chaque fois que Rakdos le Contaminateur attaque, sacrifiez la moitié des permanents non-Démon que vous contrôlez, arrondie à l’unité supérieure.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Siempre que Rakdos el profanador ataque, sacrifica la mitad de los permanentes que controles que no sean Demonios, redondeando hacia arriba.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Immer wenn Rakdos der Schänder angreift, opfere die Hälfte  deiner bleibenden Karten, die keine Dämonen sind.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Ogniqualvolta Rakdos il Contaminatore attacca, sacrifica metà dei permanenti non Demone che controlli, arrotondata per eccesso.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[穢すものラクドスが攻撃するたび、あなたがコントロールするデーモンでないパーマネントのうち端数を切り上げた半数を生け贄に捧げる。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[모독자 락도스가 공격할 때마다, 당신이 조종하는 지속물 중 악마가 아닌 지속물의 절반을 반올림해서 희생한다.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Каждый раз, когда Ракдос Осквернитель атакует, пожертвуйте половину не являющихся Демонами перманентов под вашим контролем с округлением в большую сторону.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Toda vez que Rakdos, o Profanador, atacar, sacrifique metade das permanentes que você controla que não sejam Demônios, arredondada para cima.]]></LOCALISED_TEXT>
+    <TRIGGER value="ATTACKING" simple_qualifier="self" />
+    <RESOLUTION_TIME_ACTION>
+    local filter = Object():GetFilter()
+    local total = 0
+    local player = EffectController()
+    filter:Clear()
+    filter:NotTargetted()
+    filter:SetZone( ZONE_IN_PLAY )
+    filter:SetPlayer( player )
+    filter:AddSubType( CREATURE_TYPE_DEMON )
+    filter:AddExtra( FILTER_EXTRA_FLIP_SUB_TYPES )
+    local sorter = MTG():GetTargetSorter()
+    sorter:Clear()
+    sorter:Add(TARGET_SORT_TYPE_SCORE, TARGET_SORT_POLARITY_ENEMY)
+    sorter:SetAIWidth(1)
+    total = filter:Count()
+    total = math.ceil(total/2)
+    player:SetTargetCount( total )
+    for i=0, total-1 do 
+    	player:SetTargetPrompt( i, "CARD_QUERY_CHOOSE_PERMANENT_TO_SACRIFICE" )
+    end
+    player:ChooseTargetsWithFlags( NO_VALIDATION, EffectDC():Make_Targets(0), QUERY_FLAG_USE_TARGET_SORTER )
+    </RESOLUTION_TIME_ACTION>
+    <RESOLUTION_TIME_ACTION>
+    local player = EffectController()
+    local i = 1
+    local target_DC = EffectDC():Get_Targets(0)
+    if target_DC ~= nil then
+    	local target_card = target_DC:Get_CardPtr(0)
+    	while (target_card ~= nil) do
+    		target_card:Sacrifice( EffectController() )
+    		target_card = target_DC:Get_CardPtr(i)
+    		i=i+1
+    	end
+    end
+    </RESOLUTION_TIME_ACTION>
+  </TRIGGERED_ABILITY>
+  <TRIGGERED_ABILITY dangerous="1" filter_zone="ZONE_IN_PLAY" active_zone="ZONE_IN_PLAY">
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Whenever Rakdos deals combat damage to a player, that player sacrifices half the non-Demon permanents he or she controls, rounded up.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[À chaque fois que Rakdos inflige des blessures de combat à un joueur, ce joueur sacrifie la moitié des permanents non-Démon qu’il contrôle, arrondie à l’unité supérieure.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Siempre que Rakdos haga daño de combate a un jugador, ese jugador sacrifica la mitad de los permanentes que controle que no sean Demonios, redondeando hacia arriba.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Immer wenn Rakdos einem Spieler Kampfschaden zufügt, opfert dieser Spieler die Hälfte  seiner bleibenden Karten, die keine Dämonen sind.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Ogniqualvolta Rakdos infligge danno da combattimento a un giocatore, quel giocatore sacrifica metà dei permanenti non Demone che controlla, arrotondata per eccesso.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[穢すものラクドスがいずれかのプレイヤーに戦闘ダメージを与えるたび、そのプレイヤーは自分がコントロールするデーモンでないパーマネントのうち端数を切り上げた半数を生け贄に捧げる。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[모독자 락도스가 플레이어에게 전투피해를 입힐 때마다, 그 플레이어는 자신이 조종하는 지속물 중 악마가 아닌 지속물의 절반을 반올림해서 희생한다.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Каждый раз, когда Ракдос наносит боевые повреждения игроку, тот игрок жертвует половину не являющихся Демонами перманентов под его контролем с округлением в большую сторону.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Toda vez que Rakdos causa dano de combate a um jogador, aquele jogador sacrifica metade das permanentes que ele controla que não sejam Demônios, arredondada para cima.]]></LOCALISED_TEXT>
+    <TRIGGER value="CREATURE_DEALS_COMBAT_DAMAGE_TO_PLAYER" simple_qualifier="self" />
+    <RESOLUTION_TIME_ACTION>
+    local filter = Object():GetFilter()
+    local total = 0
+    local player = TriggerPlayer()
+    filter:Clear()
+    filter:NotTargetted()
+    filter:SetZone( ZONE_IN_PLAY )
+    filter:SetPlayer( player )
+    filter:AddSubType( CREATURE_TYPE_DEMON )
+    filter:AddExtra( FILTER_EXTRA_FLIP_SUB_TYPES )
+    local sorter = MTG():GetTargetSorter()
+    sorter:Clear()
+    sorter:Add(TARGET_SORT_TYPE_SCORE, TARGET_SORT_POLARITY_ENEMY)
+    sorter:SetAIWidth(1)
+    total = filter:Count()
+    total = math.ceil(total/2)
+    player:SetTargetCount( total )
+    for i=0, total-1 do 
+    	player:SetTargetPrompt( i, "CARD_QUERY_CHOOSE_PERMANENT_TO_SACRIFICE" )
+    end
+    player:ChooseTargetsWithFlags( NO_VALIDATION, EffectDC():Make_Targets(0), QUERY_FLAG_USE_TARGET_SORTER )
+    </RESOLUTION_TIME_ACTION>
+    <RESOLUTION_TIME_ACTION>
+    local player = TriggerPlayer()
+    local i = 1
+    local target_DC = EffectDC():Get_Targets(0)
+    if target_DC ~= nil then
+    	local target_card = target_DC:Get_CardPtr(0)
+    	while (target_card ~= nil) do
+    		target_card:Sacrifice( player )
+    		target_card = target_DC:Get_CardPtr(i)
+    		i=i+1
+    	end
+    end
+    </RESOLUTION_TIME_ACTION>
+  </TRIGGERED_ABILITY>
+  <HELP title="MORE_INFO_BADGE_TITLE_1" body="MORE_INFO_BADGE_BODY_1" zone="ZONE_ANY" />
+  <HELP title="MORE_INFO_BADGE_TITLE_10" body="MORE_INFO_BADGE_BODY_10" zone="ZONE_ANY" />
+  <SFX text="COMBAT_CLAW_LARGE_ATTACK" power_boundary_min="4" power_boundary_max="-1" />
+  <SFX text="COMBAT_CLAW_SMALL_ATTACK" power_boundary_min="1" power_boundary_max="3" />
+  <AI_BASE_SCORE score="600" zone="ZONE_IN_PLAY" />
+</CARD_V2>

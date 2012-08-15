@@ -1,0 +1,48 @@
+<DECK personality="D13_TERRA_STOMPER.XML" deck_box_image="D13_MOB" deck_box_image_locked="locked" content_pack="0" uid="908" preview_card="blanko" always_available="true" is_white="true"  is_green="true">
+  <DECKSTATISTICS Size="6" Speed="8" Flex="4" Syn="6" />
+  <LandConfig minForest="13" minPlains="3" numSpellsThatCountAsLand="8" />
+  <CARD name="GREEN_SUNS_ZENITH_221559" deckOrderId="0" />
+  <CARD name="GREEN_SUNS_ZENITH_221559" deckOrderId="1" />
+  <CARD name="GREEN_SUNS_ZENITH_221559" deckOrderId="2" />
+  <CARD name="GREEN_SUNS_ZENITH_221559" deckOrderId="3" />
+  <CARD name="LLANOWAR_ELVES_888221892" deckOrderId="4" />
+  <CARD name="LLANOWAR_ELVES_888221892" deckOrderId="5" />
+  <CARD name="LLANOWAR_ELVES_888221892" deckOrderId="6" />
+  <CARD name="LLANOWAR_ELVES_888221892" deckOrderId="7" />
+  <CARD name="AVACYNS_PILGRIM_243212" deckOrderId="8" />
+  <CARD name="AVACYNS_PILGRIM_243212" deckOrderId="9" />
+  <CARD name="AVACYNS_PILGRIM_243212" deckOrderId="10" />
+  <CARD name="AVACYNS_PILGRIM_243212" deckOrderId="11" />
+  <CARD name="LEATHERBACK_BALOTH_276940" deckOrderId="12" />
+  <CARD name="LEATHERBACK_BALOTH_276940" deckOrderId="13" />
+  <CARD name="LEATHERBACK_BALOTH_276940" deckOrderId="14" />
+  <CARD name="LEATHERBACK_BALOTH_276940" deckOrderId="15" />
+  <CARD name="TERRA_STOMPER_288687" deckOrderId="16" />
+  <CARD name="TERRA_STOMPER_288687" deckOrderId="17" />
+  <CARD name="TERRA_STOMPER_288687" deckOrderId="18" />
+  <CARD name="TERRA_STOMPER_288687" deckOrderId="19" />
+  <CARD name="SWORDS_TO_PLOWSHARES_276786" deckOrderId="20" />
+  <CARD name="SWORDS_TO_PLOWSHARES_276786" deckOrderId="21" />
+  <CARD name="SWORDS_TO_PLOWSHARES_276786" deckOrderId="22" />
+  <CARD name="SWORDS_TO_PLOWSHARES_276786" deckOrderId="23" />
+  <CARD name="JOURNEY_TO_NOWHERE_276937" deckOrderId="24" />
+  <CARD name="JOURNEY_TO_NOWHERE_276937" deckOrderId="25" />
+  <CARD name="JOURNEY_TO_NOWHERE_276937" deckOrderId="26" />
+  <CARD name="WINDSWEPT_HEATH_39507" deckOrderId="27" />
+  <CARD name="WINDSWEPT_HEATH_39507" deckOrderId="28" />
+  <CARD name="WINDSWEPT_HEATH_39507" deckOrderId="29" />
+  <CARD name="WINDSWEPT_HEATH_39507" deckOrderId="30" />
+  <CARD name="CULTIVATE_276891" deckOrderId="31" />
+  <CARD name="CULTIVATE_276891" deckOrderId="32" />
+  <CARD name="CULTIVATE_276891" deckOrderId="33" />
+  <CARD name="EXPLORE_888201578" deckOrderId="34" />
+  <CARD name="EXPLORE_888201578" deckOrderId="35" />
+  <CARD name="EXPLORE_888201578" deckOrderId="36" />
+  <CARD name="GROUNDSWELL_193998" deckOrderId="37" />
+  <CARD name="GROUNDSWELL_193998" deckOrderId="38" />
+  <CARD name="GROUNDSWELL_193998" deckOrderId="39" />
+  <CARD name="OVERWHELMING_STAMPEDE_205003" deckOrderId="40" />
+  <CARD name="OVERWHELMING_STAMPEDE_205003" deckOrderId="41" />
+  <CARD name="OVERWHELMING_STAMPEDE_205003" deckOrderId="42" />
+  <CARD name="OVERWHELMING_STAMPEDE_205003" deckOrderId="43" />
+</DECK>

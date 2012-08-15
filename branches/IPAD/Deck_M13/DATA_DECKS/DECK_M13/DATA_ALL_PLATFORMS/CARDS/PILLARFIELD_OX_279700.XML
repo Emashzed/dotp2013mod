@@ -1,0 +1,48 @@
+﻿<?xml version='1.0'?>
+<CARD_V2>
+  <FILENAME text="PILLARFIELD_OX_279700" />
+  <CARDNAME text="PILLARFIELD_OX" />
+  <TITLE>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Pillarfield Ox]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Bue del Campo dei Pilastri]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Säulenfeld-Ochse]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Buffle des champs de piliers]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Buey del campo de pilares]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[柱平原の雄牛]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[기둥밭 황소]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Бык Столбового Поля]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Boi do Vale dos Pilares]]></LOCALISED_TEXT>
+  </TITLE>
+  <MULTIVERSEID value="279700" />
+  <ARTID value="279700" />
+  <ARTIST name="Andrew Robinson" />
+  <CASTING_COST cost="{3}{W}" />
+  <FLAVOURTEXT>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA["May starving fleas birth a thousand generations on your stubborn hide, cow!"
+—Bruse Tarl, Goma Fada nomad]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA["Possano le pulci fameliche dare vita a mille generazioni sulla tua cocciuta pelle, vacca!"
+—Bruse Tarl, nomade di Goma Fada]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[„Mögen ausgehungerte Flöhe tausend Generationen in deinem Fell gebären, Kuh!"
+—Bruse Tarl, Nomade aus Goma Fada]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[« Puissent les puces affamées qui peuplent ton cuir puant donner naissance à mille générations, vache bornée ! »
+—Bruse Tarl, nomade de Goma Fada]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA["Que unas pulgas famélicas engendren mil generaciones en tu testaruda piel, vaca!"
+—Bruse Tarl, nómada de Goma Fada]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[「その石頭の図体の上で腹を空かせた蚤が千代に栄えんことを、この雌牛め！」
+――ゴーマ・ファーダの遊牧民、ブルース・タール]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA["굶주린 벼룩들이 네 가죽에 새끼나 틀어버려라, 이 망할 놈의 소야!"
+—고마 파다 유목민 브루스 타를]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[«Чтоб в твоей упрямой шкуре поселилась тысяча поколений голодных блох, корова!»
+— Бруз Тарл, кочевник из Гома-Фада]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA["Que as pulgas famintas tenham mil crias no seu couro teimoso, vaca!"
+— Bruse Tarl, nômade de Goma Fada]]></LOCALISED_TEXT>
+  </FLAVOURTEXT>
+  <TYPE metaname="Creature" />
+  <SUB_TYPE metaname="Ox" />
+  <EXPANSION value="DPG" />
+  <RARITY metaname="C" />
+  <POWER value="2" />
+  <TOUGHNESS value="4" />
+  <SFX text="COMBAT_BLUNT_LARGE_ATTACK" power_boundary_min="4" power_boundary_max="-1" />
+  <SFX text="COMBAT_BLUNT_SMALL_ATTACK" power_boundary_min="1" power_boundary_max="3" />
+</CARD_V2>

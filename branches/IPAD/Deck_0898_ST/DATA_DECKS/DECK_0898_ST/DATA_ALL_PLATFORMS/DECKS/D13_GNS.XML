@@ -1,0 +1,45 @@
+<DECK personality="D13_GNS.XML" deck_box_image="D13_GNS" deck_box_image_locked="locked" content_pack="0" always_available="true" uid="898" preview_card="intuition" is_green="true" is_blue="true">
+  <DECKSTATISTICS Size="6" Speed="6" Flex="5" Syn="7" />
+  <LandConfig minIsland="11" minForest="8" numSpellsThatCountAsLand="3" />
+  <CARD name="BASKING_ROOTWALLA_888201836" deckOrderId="0" />
+  <CARD name="BASKING_ROOTWALLA_888201836" deckOrderId="1" />
+  <CARD name="BASKING_ROOTWALLA_888201836" deckOrderId="2" />
+  <CARD name="BASKING_ROOTWALLA_888201836" deckOrderId="3" />
+  <CARD name="WILD_MONGREL_888201826@2" deckOrderId="4" />
+  <CARD name="WILD_MONGREL_888201826@2" deckOrderId="5" />
+  <CARD name="WILD_MONGREL_888201826" deckOrderId="6" />
+  <CARD name="WILD_MONGREL_888201826" deckOrderId="7" />
+  <CARD name="AQUAMOEBA_88834465@2" deckOrderId="8" />
+  <CARD name="AQUAMOEBA_88834465@2" deckOrderId="9" />
+  <CARD name="AQUAMOEBA_88834465" deckOrderId="10" />
+  <CARD name="AQUAMOEBA_88834465" deckOrderId="11" />
+  <CARD name="ARROGANT_WURM_88812623" deckOrderId="12" />
+  <CARD name="ARROGANT_WURM_88812623" deckOrderId="13" />
+  <CARD name="ARROGANT_WURM_88812623" deckOrderId="14" />
+  <CARD name="WONDER_88833720" deckOrderId="15" />
+  <CARD name="WONDER_88833720" deckOrderId="16" />
+  <CARD name="GENESIS_88834833" deckOrderId="17" />
+  <CARD name="CAREFUL_STUDY_88829727@2" deckOrderId="18" />
+  <CARD name="CAREFUL_STUDY_88829727@2" deckOrderId="19" />
+  <CARD name="CAREFUL_STUDY_88829727" deckOrderId="20" />
+  <CARD name="CAREFUL_STUDY_88829727" deckOrderId="21" />
+  <CARD name="CIRCULAR_LOGIC_88834368" deckOrderId="22" />
+  <CARD name="CIRCULAR_LOGIC_88834368" deckOrderId="23" />
+  <CARD name="CIRCULAR_LOGIC_88834368" deckOrderId="24" />
+  <CARD name="CIRCULAR_LOGIC_88834368" deckOrderId="25" />
+  <CARD name="BRAINSTORM_88827246" deckOrderId="26" />
+  <CARD name="BRAINSTORM_88827246" deckOrderId="27" />
+  <CARD name="INTUITION_8884707" deckOrderId="28" />
+  <CARD name="DAZE_888189255" deckOrderId="29" />
+  <CARD name="DAZE_888189255" deckOrderId="30" />
+  <CARD name="MANA_LEAK_277114" deckOrderId="31" />
+  <CARD name="ROAR_OF_THE_WURM_88829881" deckOrderId="32" />
+  <CARD name="ROAR_OF_THE_WURM_88829881" deckOrderId="33" />
+  <CARD name="ROAR_OF_THE_WURM_88829881" deckOrderId="34" />
+  <CARD name="UNSUMMON_276822" deckOrderId="35" />
+  <CARD name="UNSUMMON_276822" deckOrderId="36" />
+  <CARD name="UNSUMMON_276822" deckOrderId="37" />
+  <CARD name="BANT_PANORAMA_888174842" deckOrderId="38" />
+  <CARD name="BANT_PANORAMA_888174842" deckOrderId="39" />
+  <CARD name="BANT_PANORAMA_888174842" deckOrderId="40" />
+</DECK>

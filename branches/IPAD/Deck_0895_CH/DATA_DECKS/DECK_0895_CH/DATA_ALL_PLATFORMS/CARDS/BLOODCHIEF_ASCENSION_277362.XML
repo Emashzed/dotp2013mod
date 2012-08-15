@@ -1,0 +1,84 @@
+<?xml version='1.0'?>
+<CARD_V2>
+  <FILENAME text="BLOODCHIEF_ASCENSION_277362" />
+  <CARDNAME text="BLOODCHIEF_ASCENSION" />
+  <TITLE>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Bloodchief Ascension]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Ascension du chef de sang]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Ascenso del jefe de sangre]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Aufstieg des Bluthäuptlings]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Ascensione del Capo Sanguinario]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[血の長の昇天]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[혈족장 등극]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Возвышение Кровавого Вождя]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Ascensão do Grão-Vampiro]]></LOCALISED_TEXT>
+  </TITLE>
+  <MULTIVERSEID value="277362" />
+  <ARTID value="125087" />
+  <ARTIST name="Adi Granov" />
+  <CASTING_COST cost="{B}" />
+  <TYPE metaname="Enchantment" />
+  <EXPANSION value="DPG" />
+  <RARITY metaname="R" />
+  <TRIGGERED_ABILITY auto_skip="1">
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[At the beginning of each end step, if an opponent lost 2 or more life this turn, you may put a quest counter on Bloodchief Ascension.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Au début de chaque étape de fin, si un adversaire a perdu au moins 2 points de vie ce tour-ci, vous pouvez mettre un marqueur « quête » sur l’Ascension du chef de sang.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Al comienzo de cada paso final, si un oponente perdió 2 o más vidas este turno, puedes poner un contador de búsqueda sobre el Ascenso del jefe de sangre.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Zu Beginn jedes Endsegments kannst du eine Quest-Marke auf den Aufstieg des Bluthäuptlings legen, falls ein Gegner in diesem Zug 2 Lebenspunkte oder mehr verloren hat.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[All’inizio di ogni sottofase finale, se un avversario ha perso 2 o più punti vita in questo turno, puoi mettere un segnalino ricerca sull’Ascensione del Capo Sanguinario.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[各終了ステップの開始時に、このターンいずれかの対戦相手が２点以上のライフを失っている場合、あなたは血の長の昇天の上に探索カウンターを１個置いてもよい。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[각 종료단 시작에, 상대가 이 턴에 생명 2점 이상을 잃었다면, 당신은 혈족장 등극에 탐험 카운터 한 개를 올려놓을 수 있다.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[В начале каждого заключительного шага, если оппонент потерял 2 или более жизни в этом ходу, вы можете положить жетон странствий на Возвышение Кровавого Вождя.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[No início de cada etapa final, se um oponente perdeu 2 ou mais pontos de vida neste turno, você pode colocar um marcador de busca em Ascensão do Grão-Vampiro.]]></LOCALISED_TEXT>
+    <TRIGGER value="BEGINNING_OF_STEP" simple_qualifier="controller">
+    if ( MTG():GetStep() == STEP_END_OF_TURN ) then
+        local num_players = MTG():GetNumberOfPlayers()
+    	for i=0,num_players-1 do
+    	    local player = MTG():GetNthPlayer(i)
+    		
+    		if player:GetTeam() ~= EffectController():GetTeam() and (MTG():Interrogate_LifeLostThisTurn(player)) &gt; 1 then 
+    			return true
+    		end
+    	end
+    	
+    end
+    return false
+    </TRIGGER>
+    <RESOLUTION_TIME_ACTION>
+    local num_players = MTG():GetNumberOfPlayers()
+    for i=0,num_players-1 do
+        local player = MTG():GetNthPlayer(i)
+    	if player:GetTeam() ~= EffectController():GetTeam() and (MTG():Interrogate_LifeLostThisTurn(player)) &gt; 1 then 
+    		Object():AddCounters( MTG():GetCountersType("QUEST_COUNTER"), 1 )
+    		return
+    	end
+    end
+    </RESOLUTION_TIME_ACTION>
+  </TRIGGERED_ABILITY>
+  <TRIGGERED_ABILITY dangerous="1">
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Whenever a card is put into an opponent’s graveyard from anywhere, if Bloodchief Ascension has three or more quest counters on it, you may have that player lose 2 life. If you do, you gain 2 life.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[À chaque fois qu’une carte est mise dans le cimetière d’un adversaire d’où qu’elle vienne, si l’Ascension du chef de sang a au moins trois marqueurs « quête » sur elle, vous pouvez faire que ce joueur perde 2 points de vie. Si vous faites ainsi, vous gagnez 2 point de vie.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Siempre que una carta vaya al cementerio de un oponente desde cualquier parte, si el Ascenso del jefe de sangre tiene tres o más contadores de búsqueda sobre él, puedes hacer que ese jugador pierda 2 vidas. Si lo haces, ganas 2 vidas.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Immer wenn eine Karte von irgendwoher auf den Friedhof eines Gegners gelegt wird, kannst du diesen Spieler 2 Lebenspunkte verlieren lassen, falls auf dem Aufstieg des Bluthäuptlings drei oder mehr Quest-Marken liegen. Falls du dies tust, erhältst du 2 Lebenspunkte dazu.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Ogniqualvolta una carta viene messa nel cimitero di un avversario da qualsiasi zona, se l’Ascensione del Capo Sanguinario ha tre o più segnalini ricerca, puoi far perdere 2 punti vita a quel giocatore. Se lo fai, guadagni 2 punti vita.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[カードが１枚いずれかの領域からいずれかの対戦相手の墓地に置かれるたび、血の長の昇天の上に探索カウンターが３個以上置かれている場合、あなたは「そのプレイヤーは２点のライフを失う。」を選んでもよい。 そうした場合、あなたは２点のライフを得る。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[어디서부터든 상대의 무덤에 카드가 들어갈 때마다, 만약 혈족장 등극이 탐험 카운터 세 개 이상을 가지고 있다면, 당신은 그 플레이어로 하여금 생명 2점을 잃도록 할 수 있다. 그렇게 한다면, 당신은 생명 2점을 얻는다.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Каждый раз, когда карта попадает откуда-либо на кладбище оппонента, если на Возвышении Кровавого Вождя есть не менее трех жетонов странствий, вы можете заставить того игрока потерять 2 жизни. Если вы это делаете, вы получаете 2 жизни.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Toda vez que um card for colocado no cemitério do oponente vindo de qualquer lugar, se Ascensão do Grão-Vampiro tiver três ou mais marcadores de busca nele, você poderá fazer com que aquele jogador perca 2 pontos de vida. Se fizer isso, você ganhará 2 pontos de vida.]]></LOCALISED_TEXT>
+    <TRIGGER value="ZONECHANGE_END" to_zone="ZONE_GRAVEYARD" from_zone="ZONE_ANY">
+    return (Object():CountCounters(MTG():GetCountersType("QUEST_COUNTER")) &gt; 2) and
+    (TriggerObject():GetOwner():GetTeam() ~= EffectController():GetTeam())  
+    </TRIGGER>
+    <RESOLUTION_TIME_ACTION>
+    local player = TriggerObject():GetOwner()
+    if player ~= nil then
+    	if (Object():CountCounters(MTG():GetCountersType("QUEST_COUNTER")) &gt; 2) then
+    		player:LoseLife( 2 )
+    		EffectController():GainLife( 2 )
+    	end
+    end
+    </RESOLUTION_TIME_ACTION>
+  </TRIGGERED_ABILITY>
+  <AI_COUNTER_SCORE type="QUEST_COUNTER" score="400" max_counters="3" />
+  <AI_BASE_SCORE score="600" zone="ZONE_IN_PLAY" />
+</CARD_V2>

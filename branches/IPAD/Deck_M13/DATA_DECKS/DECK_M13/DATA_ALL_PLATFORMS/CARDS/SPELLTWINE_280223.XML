@@ -1,0 +1,109 @@
+﻿<?xml version='1.0'?>
+<CARD_V2>
+  <FILENAME text="SPELLTWINE_280223" />
+  <CARDNAME text="SPELLTWINE" />
+  <TITLE>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Spelltwine]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Torcimagia]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Zauberwindung]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Entrelacs de sorts]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Entrelazahechizo]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[呪文ねじり]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[주문 엮기]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Переплетение Заклинаний]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Entrelace de Mágicas]]></LOCALISED_TEXT>
+  </TITLE>
+  <MULTIVERSEID value="280223" />
+  <ARTID value="280223" />
+  <ARTIST name="Noah Bradley" />
+  <CASTING_COST cost="{5}{U}" />
+  <TYPE metaname="Sorcery" />
+  <EXPANSION value="DPG" />
+  <RARITY metaname="R" />
+  <SPELL_ABILITY dangerous="1">
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Exile target instant or sorcery card from your graveyard and target instant or sorcery card from an opponent's graveyard. Copy those cards. Cast the copies if able without paying their mana costs. Exile Spelltwine.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Esilia una carta istantaneo o stregoneria bersaglio dal tuo cimitero e una carta istantaneo o stregoneria bersaglio dal cimitero di un avversario. Copia quelle carte. Lancia le copie, se puoi farlo, senza pagare il loro costo di mana. Esilia la Torcimagia.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Schicke eine Spontanzauber- oder Hexereikarte deiner Wahl aus deinem Friedhof und eine Spontanzauber- oder Hexereikarte deiner Wahl aus dem Friedhof eines Gegners ins Exil. Kopiere diese Karten. Wirke die Kopien, falls möglich, ohne ihre Manakosten zu bezahlen. Schicke die Zauberwindung ins Exil.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Exilez une carte d'éphémère ou de rituel ciblée de votre cimetière et une carte d'éphémère ou de rituel ciblée du cimetière d'un adversaire. Copiez ces cartes. Si possible, lancez les copies sans payer leur coût de mana. Exilez l'Entrelacs de sorts.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Exilia la carta de instantáneo o de conjuro objetivo de tu cementerio y la carta de instantáneo o de conjuro objetivo del cementerio de un oponente. Copia esas cartas. Si puedes, lanza las copias sin pagar sus costes de maná. Exilia el Entrelazahechizo.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[あなたの墓地にあるインスタント・カード１枚かソーサリー・カード１枚と、いずれかの対戦相手の墓地にあるインスタント・カード１枚かソーサリー・カード１枚を対象とし、それらを追放する。それらのカードをコピーする。可能ならば、それらのコピーをマナ・コストを支払うことなく唱える。呪文ねじりを追放する。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[당신의 무덤에 있는 순간마법이나 집중마법 카드 한 장과 상대의 무덤에 있는 순간마법이나 집중마법 카드 한 장을 목표로 정한다. 그 카드들을 추방한 후 복사한다. 가능하면 마나비용을 지불하지 않고 그 복사본들을 발동한다. 주문 엮기를 추방한다.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Изгоните целевую карту мгновенного заклинания или волшебства из вашего кладбища и целевую карту мгновенного заклинания или волшебства из кладбища оппонента. Скопируйте те карты. Разыграйте те копии, если можете, без уплаты их мана-стоимости. Изгоните Переплетение Заклинаний.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Exile o card de mágica instantânea ou feitiço alvo do seu cemitério e o card de mágica instantânea ou feitiço alvo do cemitério de um oponente. Copie os dois cards. Conjure as cópias se estiver apto sem pagar seus custos de mana. Exile Entrelace de Mágicas.]]></LOCALISED_TEXT>
+	<TARGET_DEFINITION id="0">
+    local filter = Object():GetFilter()
+    filter:Clear()
+    filter:AddCardType( CARD_TYPE_INSTANT )
+	filter:AddCardType( CARD_TYPE_SORCERY )
+    filter:SetPlayer( EffectController() )
+    filter:SetZone( ZONE_GRAVEYARD )
+    </TARGET_DEFINITION>
+    <TARGET_DEFINITION id="1">
+    local filter = Object():GetFilter()
+    filter:Clear()
+    filter:AddCardType( CARD_TYPE_INSTANT )
+    filter:AddCardType( CARD_TYPE_SORCERY )
+    filter:SetZone( ZONE_GRAVEYARD )
+    filter:SetControllersTeam( EffectController():GetTeam() )
+    filter:AddExtra( FILTER_EXTRA_FLIP_TEAM )
+    </TARGET_DEFINITION>
+    <TARGET_DETERMINATION>
+    local has_first = AtLeastOneTargetFromDefinition(0)
+    local has_second = AtLeastOneTargetFromDefinition(1)
+    if (has_first ~= 0 and has_second ~= 0) then
+    	return 1
+    else
+    	return 0
+    end
+    </TARGET_DETERMINATION>
+    <PLAY_TIME_ACTION target_choosing="1">
+    EffectController():ChooseTarget( 0, "CARD_QUERY_CHOOSE_INSTANT_OR_SORCERY_TO_EXILE_COPY", EffectDC():Make_Targets(0) )
+    </PLAY_TIME_ACTION>
+    <PLAY_TIME_ACTION target_choosing="1">
+	local player = EffectController()
+    player:SetTargetCount( 1 )
+    player:SetTargetPrompt( 0, "CARD_QUERY_CHOOSE_WHICH_PLAYERS_GRAVEYARD" )
+    player:SetTargetPrompt( 1, "CARD_QUERY_CHOOSE_INSTANT_OR_SORCERY_TO_EXILE_COPY" )
+    player:ChooseTargets( 0, EffectDC():Make_Targets(1) )
+    </PLAY_TIME_ACTION>
+    <RESOLUTION_TIME_ACTION ignore_filter="1">
+    local spellA = EffectDC():Get_Targets(0):Get_CardPtr(0)
+    local spellB = EffectDC():Get_Targets(1):Get_CardPtr(0)
+	local browser = EffectDC():Make_Chest(0)
+	local i = 0
+    if (spellA ~= nil)
+		spellA:RemoveFromGame()
+		browser:Set_CardPtr(i, spellA)
+		i=i+1
+	end
+	if (spellB ~= nil)
+		spellB:RemoveFromGame()
+		browser:Set_CardPtr(i, spellB)
+	end
+    </RESOLUTION_TIME_ACTION>
+	<RESOLUTION_TIME_ACTION ignore_filter="1">
+	local browser = EffectDC():Get_Chest(0)
+    local player = EffectController()
+    if player ~= nil then 
+    	if browser ~= nil then
+    		player:SetTargetCount( 2 )
+    		for i=0,1 do
+    			player:SetTargetPrompt( i, "CARD_QUERY_CHOOSE_SPELL_TO_COPY" )
+    		end
+    		player:ChooseTargetsFromDC( NO_VALIDATION, browser, EffectDC():Make_Targets(2) )
+    	end
+    end
+	</RESOLUTION_TIME_ACTION>
+	<RESOLUTION_TIME_ACTION ignore_filter="1">
+    local spell_DC = EffectDC():Get_Targets(2)
+    local spell = spell_DC:Get_CardPtr(0)
+    local i = 0
+    while spell ~= nil do
+		EffectController():CopySpellAndCastIt( spell )
+    	i=i+1
+    	spell = spell_DC:Get_CardPtr(i)
+    end
+    </RESOLUTION_TIME_ACTION>
+  </SPELL_ABILITY>
+  <AI_BASE_SCORE score="800" zone="ZONE_HAND" />
+</CARD_V2>

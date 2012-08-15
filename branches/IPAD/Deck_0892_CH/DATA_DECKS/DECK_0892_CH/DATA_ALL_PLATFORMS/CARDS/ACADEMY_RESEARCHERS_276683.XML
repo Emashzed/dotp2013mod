@@ -1,0 +1,91 @@
+<?xml version='1.0'?>
+<CARD_V2>
+  <FILENAME text="ACADEMY_RESEARCHERS_276683" />
+  <CARDNAME text="ACADEMY_RESEARCHERS" />
+  <TITLE>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Academy Researchers]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Chercheurs de l’académie]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Investigadores de la Academia]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Forscher der Akademie]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Ricercatori dell’Accademia]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[アカデミーの研究者]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[아카데미 연구팀]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Исследователи из Академии]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Pesquisadores da Academia]]></LOCALISED_TEXT>
+  </TITLE>
+  <MULTIVERSEID value="276683" />
+  <ARTID value="8695" />
+  <ARTIST name="Stephen Daniele" />
+  <CASTING_COST cost="{1}{U}{U}" />
+  <FLAVOURTEXT>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[They brandish their latest theories as warriors would wield weapons.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Ils agitent leurs nouvelles théories comme des guerriers brandiraient leurs armes.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Esgrimen sus últimas teorías como los guerreros harían con sus armas.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Sie werfen mit Theorien um sich wie Meuchler mit Wurfmessern.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Brandiscono le loro più recenti teorie come i guerrieri impugnerebbero le armi.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[彼らが最新の学説を振りかざすさまは、まるで戦士の武器のようだ。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[그들은 마치 전사가 무기를 휘두르듯 자신들의 이론을 들이댄다.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Они орудуют своими последними теориями, словно воины оружием.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Eles brandiam suas últimas teorias como os guerreiros fariam com suas armas.]]></LOCALISED_TEXT>
+  </FLAVOURTEXT>
+  <TYPE metaname="Creature" />
+  <SUB_TYPE metaname="Human" order_de-DE="0" order_es-ES="1" order_fr-FR="0" order_it-IT="1" order_jp-JA="0" order_ko-KR="0" order_pt-BR="0" order_ru-RU="0" />
+  <SUB_TYPE metaname="Wizard" order_de-DE="1" order_es-ES="0" order_fr-FR="1" order_it-IT="0" order_jp-JA="1" order_ko-KR="1" order_pt-BR="1" order_ru-RU="1" />
+  <EXPANSION value="DPG" />
+  <RARITY metaname="U" />
+  <POWER value="2" />
+  <TOUGHNESS value="2" />
+  <TRIGGERED_ABILITY filter_zone="ZONE_IN_PLAY">
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[When Academy Researchers enters the battlefield, you may put an Aura card from your hand onto the battlefield attached to Academy Researchers.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Quand les Chercheurs de l’académie arrivent sur le champ de bataille, vous pouvez mettre sur le champ de bataille, attachée aux Chercheurs de l’académie, une carte d’aura de votre main.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Cuando los Investigadores de la Academia entren al campo de batalla, puedes poner en el campo de batalla una carta de aura de tu mano anexada a los Investigadores de la Academia.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Wenn die Forscher der Akademie ins Spiel kommen, kannst du eine Aurakarte aus deiner Hand an die Forscher der Akademie angelegt ins Spiel bringen.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Quando i Ricercatori dell’Accademia entrano nel campo di battaglia, puoi mettere sul campo di battaglia una carta Aura dalla tua mano assegnata ai Ricercatori dell’Accademia.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[アカデミーの研究者が戦場に出たとき、あなたは自分の手札にあるオーラ･カードを１枚、アカデミーの研究者につけられた状態で戦場に出してもよい。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[아카데미 연구팀이 전장에 들어올 때, 당신은 당신의 손에 있는 마법진 카드 한 장을 아카데미 연구팀에 부착한 채로 전장에 놓을 수 있다.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Когда Исследователи из Академии выходят на поле битвы, вы можете положить карту Ауры из вашей руки на поле битвы прикрепленной к Исследователям из Академии.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Quando Pesquisadores da Academia entra no campo de batalha, você pode colocar um card de Aura de sua mão no campo de batalha anexado a Pesquisadores da Academia.]]></LOCALISED_TEXT>
+    <TRIGGER value="ZONECHANGE_END" simple_qualifier="self" to_zone="ZONE_IN_PLAY" />
+    <RESOLUTION_TIME_ACTION ignore_filter="1">
+    local filter = Object():GetFilter()
+    filter:Clear()
+    filter:AddCardType( CARD_TYPE_ENCHANTMENT )
+    filter:AddSubType( ENCHANTMENT_TYPE_AURA )
+    filter:SetPlayer( EffectController() ) 
+    filter:SetZone( ZONE_HAND )
+    filter:SetUnique()
+    filter:NotTargetted()
+    filter:May()
+    local filter_count = filter:EvaluateObjects()
+    if filter_count &gt; 0 then
+    	
+    	local candidateDC = EffectDC():Make_Chest(2)
+    	local candidateCount = 0
+    	
+    	for i=0,filter_count-1 do
+    		local candidate = filter:GetNthEvaluatedObject(i)
+    		if candidate:CanAttachTo(EffectSource()) ~= 0 then
+    			candidateDC:Set_CardPtr( candidateCount, candidate )
+    			candidateCount = candidateCount + 1
+    		end
+    	end
+    	EffectDC():Set_Int(1, candidateCount)
+    	if candidateCount &gt; 0 then
+    		EffectController():ChooseTargetFromDCWithFlags( NO_VALIDATION, "CARD_QUERY_CHOOSE_AURA_TO_RESEARCHERS", candidateDC, EffectDC():Make_Targets(3), QUERY_FLAG_CAN_BE_FINISHED_EARLY )
+    	end
+    end
+    </RESOLUTION_TIME_ACTION>
+    <RESOLUTION_TIME_ACTION>
+    local aura_chest = EffectDC():Get_Targets(3)
+    if aura_chest ~= nil then 
+    	local aura = aura_chest:Get_CardPtr(0)
+    	if aura ~= nil then
+    		aura:PutIntoPlayAttachedTo( EffectController(), EffectSource() )
+    	end
+    end
+    </RESOLUTION_TIME_ACTION>
+  </TRIGGERED_ABILITY>
+  <SFX text="COMBAT_PLASMA_LARGE_ATTACK" power_boundary_min="4" power_boundary_max="-1" />
+  <SFX text="COMBAT_PLASMA_SMALL_ATTACK" power_boundary_min="1" power_boundary_max="3" />
+  <AI_BASE_SCORE score="600" zone="ZONE_HAND" />
+</CARD_V2>

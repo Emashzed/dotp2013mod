@@ -1,0 +1,67 @@
+﻿<?xml version='1.0'?>
+<CARD_V2>
+  <FILENAME text="RAZORFIELD_RHINO_888213815" />
+  <CARDNAME text="RAZORFIELD_RHINO" />
+  <TITLE>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Razorfield Rhino]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Rinoceronte dei Campi Taglienti]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Rasierklingenfeld-Nashorn]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Rhinocéros des Champs de Rasoirs]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Rinoceronte de los Campos Navaja]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[剃刀ヶ原のサイ]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[Razorfield Rhino]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Носорог Бритвенных Полей]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Rinoceronte de Campos Cortantes]]></LOCALISED_TEXT>
+  </TITLE>
+  <MULTIVERSEID value="888213815" />
+  <ARTID value="888213815" />
+  <ARTIST name="Kekai Kotaki" />
+  <CASTING_COST cost="{6}" />
+  <FLAVOURTEXT>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Adapted to tread on razorgrass, the rhino proved adept at treading on Phyrexians as well.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Adattatosi a calpestare l'erba tagliente, il rinoceronte si dimostrò capace anche di calpestare i Phyrexian.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Es ist gewohnt, über Klingengras zu trampeln, und stört sich daher auch nicht daran, auf Phyrexianer zu treten.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Parfaitement adapté pour piétiner les rasherbes, le rhino se montra tout aussi apte à piétiner les Phyrexians.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Adaptado a caminar en pasto navaja, el rinoceronte demostró ser capaz de caminar también entre pirexianos.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[剃刀草を踏みしだくことを身につけたサイは、ファイレクシア人を踏みしだくことをも身につけていることを示した。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[Adapted to tread on razorgrass, the rhino proved adept at treading on Phyrexians as well.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Привыкший передвигаться по бритвенной траве, носорог также оказался способным растаптывать фирексийцев.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Adaptado para percorrer a grama cortante, o rinoceronte demonstrou ser especialista em caminhar sobre os phyrexianos também.]]></LOCALISED_TEXT>
+  </FLAVOURTEXT>
+  <TYPE metaname="Artifact" />
+  <TYPE metaname="Creature" />
+  <SUB_TYPE metaname="Rhino" order_de-DE="0" order_es-ES="0" order_fr-FR="0" order_it-IT="0" order_jp-JA="0" order_ko-KR="0" order_pt-BR="0" order_ru-RU="0" />
+  <EXPANSION value="DPG" />
+  <RARITY metaname="C" />
+  <POWER value="4" />
+  <TOUGHNESS value="4" />
+  <STATIC_ABILITY filter_zone="ZONE_IN_PLAY">
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Metalcraft — Razorfield Rhino gets +2/+2 as long as you control three or more artifacts.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Metallurgia — Il Rinoceronte dei Campi Taglienti prende +2/+2 fintanto che controlli tre o più artefatti.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Metallkunst — Das Rasierklingenfeld-Nashorn erhält +2/+2, solange du drei oder mehr Artefakte kontrollierst.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Art des métaux — Le Rhinocéros des Champs de Rasoirs gagne +2/+2 tant que vous contrôlez au moins trois artefacts.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Metalurgia — El Rinoceronte de los Campos Navaja obtiene +2/+2 mientras controles tres o más artefactos.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[金属術 ― 剃刀ヶ原のサイは、あなたが３つ以上のアーティファクトをコントロールしているかぎり＋２/＋２の修整を受ける。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[Metalcraft — Razorfield Rhino gets +2/+2 as long as you control three or more artifacts.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Работа по металлу — Носорог Бритвенных Полей получает +2/+2, пока вы контролируете не менее трех артефактов.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Maestria com Metais — Rinoceronte de Campos Cortantes receberá +2/+2 enquanto você controlar três ou mais artefatos.]]></LOCALISED_TEXT>
+    <CONTINUOUS_ACTION layer="7C">
+	local total = 0
+    local filter = Object():GetFilter()
+    filter:Clear()
+    filter:SetZone( ZONE_IN_PLAY )
+    filter:AddCardType( CARD_TYPE_ARTIFACT )
+    filter:SetController( EffectController() )
+    filter:NotTargetted()
+    total = filter:CountStopAt( 3 )
+    if total &gt; 2 then
+    	local characteristics = Object():GetCurrentCharacteristics()
+    	characteristics:Power_Add( 2 )
+    	characteristics:Toughness_Add( 2 )
+    end
+    </CONTINUOUS_ACTION>
+  </STATIC_ABILITY>
+  <SFX text="COMBAT_BLUNT_LARGE_ATTACK" power_boundary_min="4" power_boundary_max="-1" />
+  <SFX text="COMBAT_BLUNT_SMALL_ATTACK" power_boundary_min="1" power_boundary_max="3" />
+  <AI_BASE_SCORE score="150" zone="ZONE_IN_PLAY" />
+</CARD_V2>

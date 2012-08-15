@@ -1,0 +1,82 @@
+﻿<?xml version='1.0'?>
+<CARD_V2>
+  <FILENAME text="SPIRE_BARRAGE_888180495" />
+  <CARDNAME text="SPIRE_BARRAGE" />
+  <TITLE>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Spire Barrage]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Sbarramento di Guglie]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Zacken-Bombardierung]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Barrage de cimes]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Andanada de cúspides]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[尖塔の連射]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[Spire Barrage]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Град Остроконечных Глыб]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Bombardeio Pontiagudo]]></LOCALISED_TEXT>
+  </TITLE>
+  <MULTIVERSEID value="888180495" />
+  <ARTID value="888180495" />
+  <ARTIST name="Ryan Pancoast" />
+  <CASTING_COST cost="{4}{R}" />
+  <FLAVOURTEXT>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Goblin lessons include the 2,071 tips for survival. Frek only remembered 2,070.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Le lezioni dei goblin comprendono i 2.071 consigli per la sopravvivenza. Frek ne ricordava solo 2.070.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Goblins lernen 2.071 Überlebensstrategien in der Schule. Frek konnte sich nur an 2.070 davon erinnern.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Le Manuel du parfait gobelin contient 2 071 conseils de survie. Frek ne se souvenait que de 2 070 d'entre eux.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Las lecciones de los trasgos incluyen 2.071 consejos para sobrevivir. Frek sólo recordaba 2.070.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[ゴブリンの教室では、2,071個の生き残りのためのコツが教えられる。 フレックが覚えていたのは2,070個だけだった。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[Goblin lessons include the 2,071 tips for survival. Frek only remembered 2,070.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Гоблинские уроки содержат 2071 совет как выжить. Фрек же помнил только 2070 из них.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Os ensinamentos goblin incluem as 2.071 dicas de sobrevivência. Frek lembrava-se somente de 2.070.]]></LOCALISED_TEXT>
+  </FLAVOURTEXT>
+  <TYPE metaname="Sorcery" />
+  <EXPANSION value="DPG" />
+  <RARITY metaname="C" />
+  <SPELL_ABILITY dangerous="1" filter_zone="ZONE_IN_PLAY">
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Spire Barrage deals damage to target creature or player equal to the number of Mountains you control.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Lo Sbarramento di Guglie infligge danno a una creatura o a un giocatore bersaglio pari al numero di Montagne che controlli.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Zacken-Bombardierung fügt einer Kreatur oder einem Spieler deiner Wahl so viele Schadenspunkte zu, wie du Gebirge kontrollierst.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Le Barrage de cimes inflige à une cible, créature ou joueur, un nombre de blessures égal au nombre de montagnes que vous contrôlez.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[La Andanada de cúspides hace daño a la criatura o jugador objetivo igual al número de montañas que controlas.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[クリーチャー１体かプレイヤー１人を対象とする。尖塔の連射はそれに、あなたがコントロールする山の総数に等しい点数のダメージを与える。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[Spire Barrage deals damage to target creature or player equal to the number of Mountains you control.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Град Остроконечных Глыб наносит целевому существу или игроку повреждения, равные количеству Гор под вашим контролем.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Bombardeio Pontiagudo causa dano à criatura ou ao jogador alvo igual ao número de Montanhas que você controla.]]></LOCALISED_TEXT>
+    <TARGET_DEFINITION id="0">
+    local filter = Object():GetFilter()
+    filter:Clear()
+    filter:SetFilterType( FILTER_TYPE_CARDS + FILTER_TYPE_PLAYERS )
+    filter:SetZone( ZONE_IN_PLAY )
+    filter:SetHint( HINT_ENEMY_ONLY, EffectController() )
+    filter:AddCardType( CARD_TYPE_CREATURE )
+    </TARGET_DEFINITION>
+    <TARGET_DETERMINATION>
+    return AtLeastOneTargetFromDefinition(0)
+    </TARGET_DETERMINATION>
+    <PLAY_TIME_ACTION target_choosing="1">
+    EffectController():ChooseTarget( 0, "CARD_QUERY_CHOOSE_DEAL_MOUNTAINS_DAMAGE", EffectDC():Make_Targets(0) )
+    </PLAY_TIME_ACTION>
+    <RESOLUTION_TIME_ACTION>
+	local filter = Object():GetFilter()
+    filter:Clear()
+    filter:AddSubType( LAND_TYPE_MOUNTAIN )
+    filter:SetZone( ZONE_IN_PLAY )
+    filter:SetPlayer( EffectController() )
+    filter:NotTargetted()
+    local total = (filter:Count())
+    local target_creature = EffectDC():Get_Targets(0):Get_CardPtr(0)
+    local target_player = EffectDC():Get_Targets(0):Get_PlayerPtr(0)
+    local source = EffectSource()
+    if source == nil then
+      source = Object()
+    end
+    if ( target_creature ~= nil ) then   
+    	target_creature:DealDamage(total, source)  
+    elseif 
+    	( target_player ~= nil ) then   
+    	target_player:DealDamage(total, source)  
+    end
+    </RESOLUTION_TIME_ACTION>
+    <SFX text="TARGET_BLUNT_PLAY" />
+  </SPELL_ABILITY>
+  <AI_BASE_SCORE score="1500" zone="ZONE_HAND" />
+</CARD_V2>

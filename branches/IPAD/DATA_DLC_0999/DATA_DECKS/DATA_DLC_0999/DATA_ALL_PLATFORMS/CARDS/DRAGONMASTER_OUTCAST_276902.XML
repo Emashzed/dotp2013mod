@@ -1,0 +1,83 @@
+<?xml version='1.0'?>
+<CARD_V2>
+  <FILENAME text="DRAGONMASTER_OUTCAST_276902" />
+  <CARDNAME text="DRAGONMASTER_OUTCAST" />
+  <TITLE>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Dragonmaster Outcast]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Proscrite maître-dragon]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Paria maestro de dragones]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Ausgestoßener Drachenmeister]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Dragoniere Reietto]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[竜使いののけ者]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[추방당한 용의 지배자]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Изгнанный Повелитель Драконов]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Pária Mestre de Dragões]]></LOCALISED_TEXT>
+  </TITLE>
+  <MULTIVERSEID value="276902" />
+  <ARTID value="126481" />
+  <ARTIST name="Raymond Swanland" />
+  <CASTING_COST cost="{R}" />
+  <FLAVOURTEXT>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[“Cast out by my tribe, I am a pariah trapped in this mammal’s carcass. Only my true kin hear my cries.”]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[« Bannie par ma tribu, je suis une paria, prisonnière de cette carcasse de mammifère. Seuls mes véritables pairs entendent ma plainte. »]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[“Arrojado de mi tribu, soy un paria atrapado en este caparazón de mamífero. Sólo mis verdaderos hermanos escuchan mi llanto.”]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[„Ich wurde von meinem Stamm ausgestoßen und bin nun im Körper dieses Säugetiers gefangen. Nur meine wahren Brüder hören meine Schreie.“]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[“Esiliato dalla mia tribù, sono un paria rinchiuso in questa carcassa di mammifero. Solo la mia vera stirpe mi ascolta.”]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[「私は自分の部族から追い立てられ、この動物の死骸の中に捕らえられた最下層の者です。 私の嘆きを耳にするのは、真の血族だけです。」]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[“나는 부족에서 추방당한, 이 포유동물의 시체에 갇혀 있는 신세다. 진정한 내 동족만이 내 목소리를 듣는구나.”]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[«Отвергнутый соплеменниками, я стал изгоем, замурованным в остове этого зверя. Лишь мои настоящие родичи слышат мой глас».]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[“Fui expulso pela minha tribo e agora sou um pária aprisionado nesta carcaça de mamífero. Somente os meus verdadeiros semelhantes ouvem meu pranto.”]]></LOCALISED_TEXT>
+  </FLAVOURTEXT>
+  <TYPE metaname="Creature" />
+  <SUB_TYPE metaname="Human" order_de-DE="0" order_es-ES="1" order_fr-FR="0" order_it-IT="1" order_jp-JA="0" order_ko-KR="0" order_pt-BR="0" order_ru-RU="0" />
+  <SUB_TYPE metaname="Shaman" order_de-DE="1" order_es-ES="0" order_fr-FR="1" order_it-IT="0" order_jp-JA="1" order_ko-KR="1" order_pt-BR="1" order_ru-RU="1" />
+  <EXPANSION value="DPG" />
+  <RARITY metaname="M" />
+  <POWER value="1" />
+  <TOUGHNESS value="1" />
+  <TRIGGERED_ABILITY auto_skip="1">
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[At the beginning of your upkeep, if you control six or more lands, put a 5/5 red Dragon creature token with flying onto the battlefield.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Au début de votre entretien, si vous contrôlez au moins six terrains, mettez sur le champ de bataille un jeton de créature 5/5 rouge Dragon avec le vol.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Al comienzo de tu mantenimiento, si controlas seis o más tierras, pon en el campo de batalla una ficha de criatura Dragón roja 5/5 con la habilidad de volar.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Bringe zu Beginn deines Versorgungssegments einen 5/5 roten Drachen-Kreaturenspielstein mit Flugfähigkeit ins Spiel, falls du sechs oder mehr Länder kontrollierst.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[All’inizio del tuo mantenimento, se controlli sei o più terre, metti sul campo di battaglia una pedina creatura Drago 5/5 rossa con volare.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[あなたのアップキープの開始時に、あなたが６つ以上の土地をコントロールしている場合、飛行を持つ赤の５/５のドラゴン・クリーチャー・トークンを１体戦場に出す。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[당신의 유지단 시작에, 당신이 대지를 여섯 개 이상 조종한다면, 비행 능력을 가진 5/5 적색 용 생물 토큰 한 개를 전장에 놓는다.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[В начале вашего шага поддержки, если под вашим контролем есть не менее шести земель, положите на поле битвы одну фишку существа 5/5 красный Дракон с Полетом.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[No início de sua manutenção, se você controlar seis ou mais terrenos, coloque no campo de batalha uma ficha de criatura vermelha 5/5 do tipo Dragão com voar.]]></LOCALISED_TEXT>
+    <TRIGGER value="BEGINNING_OF_STEP" simple_qualifier="controller">
+    local player = EffectController()
+    if ((MTG():GetStep() == STEP_UPKEEP) and (player:MyTurn() ~= 0)) then
+    	local filter = Object():GetFilter()
+    	filter:Clear()
+    	filter:SetPlayer(player)
+    	filter:SetZone( ZONE_IN_PLAY )
+    	filter:AddCardType( CARD_TYPE_LAND ) 
+    	filter:NotTargetted()
+    	local total = filter:Count()
+    	if total &gt; 5 then
+    		return true
+    	end
+    end
+    return false
+    </TRIGGER>
+    <RESOLUTION_TIME_ACTION>
+    local player = EffectController()
+    local filter = Object():GetFilter()
+    filter:Clear()
+    filter:SetPlayer(player)
+    filter:SetZone( ZONE_IN_PLAY )
+    filter:AddCardType( CARD_TYPE_LAND ) 
+    filter:NotTargetted()
+    local total = filter:Count()
+    if total &gt; 5 then
+    	MTG():PutTokensIntoPlay( "TOKEN_DRAGON_5_5_F_277452", 1, EffectController() )
+    end
+    </RESOLUTION_TIME_ACTION>
+  </TRIGGERED_ABILITY>
+  <TOKEN_REGISTRATION reservation="1" type="TOKEN_DRAGON_5_5_F_277452" />
+  <HELP title="MORE_INFO_BADGE_TITLE_10" body="MORE_INFO_BADGE_BODY_10" zone="ZONE_ANY" />
+  <SFX text="COMBAT_FIREBALL_LARGE_ATTACK" power_boundary_min="4" power_boundary_max="-1" />
+  <SFX text="COMBAT_FIREBALL_SMALL_ATTACK" power_boundary_min="1" power_boundary_max="3" />
+  <AI_BASE_SCORE score="750" zone="ZONE_IN_PLAY" />
+</CARD_V2>

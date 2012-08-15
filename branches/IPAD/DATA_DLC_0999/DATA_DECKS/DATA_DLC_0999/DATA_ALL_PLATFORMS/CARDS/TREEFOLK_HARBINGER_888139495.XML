@@ -1,0 +1,64 @@
+﻿<?xml version='1.0'?>
+<CARD_V2>
+  <FILENAME text="TREEFOLK_HARBINGER_888139495" />
+  <CARDNAME text="TREEFOLK_HARBINGER" />
+  <TITLE>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Treefolk Harbinger]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Araldo Silvantropo]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Baumhirten-Vorbote]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Annonciatrice sylvine]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Heraldo pueblo arbóreo]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[ツリーフォークの先触れ]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[Treefolk Harbinger]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Лесовик-Предвестница]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Anunciadora Ent]]></LOCALISED_TEXT>
+  </TITLE>
+  <MULTIVERSEID value="888139495" />
+  <ARTID value="888139495" />
+  <ARTIST name="Larry MacDougall" />
+  <CASTING_COST cost="{G}" />
+  <TYPE metaname="Creature" />
+  <SUB_TYPE metaname="Treefolk" order_de-DE="0" order_es-ES="0" order_fr-FR="0" order_it-IT="0" order_jp-JA="0" order_ko-KR="0" order_pt-BR="0" order_ru-RU="0" />
+  <SUB_TYPE metaname="Druid" order_de-DE="0" order_es-ES="0" order_fr-FR="0" order_it-IT="0" order_jp-JA="0" order_ko-KR="0" order_pt-BR="0" order_ru-RU="0" />
+  <EXPANSION value="DPG" />
+  <RARITY metaname="U" />
+  <POWER value="0" />
+  <TOUGHNESS value="3" />
+  <TRIGGERED_ABILITY filter_zone="ZONE_IN_PLAY">
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[When Treefolk Harbinger enters the battlefield, you may search your library for a Treefolk or Forest card, reveal it, then shuffle your library and put that card on top of it.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Quando l'Araldo Silvantropo entra in gioco, puoi passare in rassegna il tuo grimorio per una carta Silvantropo o Foresta, rivelarla, poi rimescolare il tuo grimorio e mettere quella carta in cima.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Wenn der Baumhirten-Vorbote ins Spiel kommt, kannst du deine Bibliothek nach einer Baumhirten- oder Waldkarte durchsuchen, sie offen vorzeigen, deine Bibliothek mischen und die Karte oben darauf legen.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Quand l'Annonciatrice sylvine arrive en jeu, vous pouvez chercher dans votre bibliothèque une carte de sylvin ou de forêt, la révéler, puis mélanger votre bibliothèque et mettre cette carte au-dessus de celle-ci.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Cuando el Heraldo pueblo arbóreo entre en juego, puedes buscar en tu biblioteca una carta de Pueblo-arbóreo, mostrarla, barajar tu biblioteca y poner esa carta en su parte superior.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[ツリーフォークの先触れが場に出たとき、あなたはあなたのライブラリーからツリーフォーク・カード１枚か森カードを１枚探してもよい。そうしたなら、それを公開し、その後あなたのライブラリーを切り直し、その一番上にそのカードを置く。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[When Treefolk Harbinger enters the battlefield, you may search your library for a Treefolk or Forest card, reveal it, then shuffle your library and put that card on top of it.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Когда Лесовик-Предвестница входит в игру, вы можете найти в вашей библиотеке карту Лесовика или Леса, показать ее, затем перетасовать вашу библиотеку и положить ту карту на верх вашей библиотеки.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Quando Anunciadora Ent entra em jogo, você pode procurar em seu grimório um card de Ent ou Floresta, revelá-lo, e então embaralhar seu grimório e colocar aquele card no topo.]]></LOCALISED_TEXT>
+    <TRIGGER value="ZONECHANGE_END" simple_qualifier="self" to_zone="ZONE_IN_PLAY" />
+    <RESOLUTION_TIME_ACTION>
+    local filter = Object():GetFilter()
+    local effectController = EffectController()
+    effectController:MarkSearchedLibrary() 
+    filter:Clear()
+    filter:NotTargetted()
+    filter:AddSubType( LAND_TYPE_FOREST ) 
+    filter:AddSubType( CREATURE_TYPE_TREEFOLK )  
+    filter:AddExtra( FILTER_EXTRA_ANY_SUB_TYPE )
+    filter:May()
+    filter:SetZone( ZONE_LIBRARY )
+    filter:SetPlayer( effectController )                           
+    effectController:ChooseTarget( NO_VALIDATION, "CARD_QUERY_CHOOSE_FOREST_OR_TREEFOLK_TO_PUT_ON_LIBRARY", EffectDC():Make_Targets(0) )
+    </RESOLUTION_TIME_ACTION>
+	<RESOLUTION_TIME_ACTION>
+    EffectController():ShuffleLibrary()
+    </RESOLUTION_TIME_ACTION>
+    <RESOLUTION_TIME_ACTION>
+    if Object():GetTargetCard() ~= nil then  
+    	Object():GetTargetCard():GuidedReveal( ZONE_LIBRARY, ZONE_LIBRARY )  
+    	Object():GetTargetCard():PutInLibrary(0) 
+    end
+    </RESOLUTION_TIME_ACTION>
+  </TRIGGERED_ABILITY>
+  <SFX text="COMBAT_GREEN_MAGIC_LARGE_ATTACK" power_boundary_min="4" power_boundary_max="-1" />
+  <SFX text="COMBAT_GREEN_MAGIC_SMALL_ATTACK" power_boundary_min="1" power_boundary_max="3" />
+</CARD_V2>
