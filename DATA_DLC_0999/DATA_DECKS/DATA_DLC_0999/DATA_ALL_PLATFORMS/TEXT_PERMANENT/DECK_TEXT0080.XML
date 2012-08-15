@@ -11,7 +11,7 @@
   <Created>1980-05-23T00:00:00Z</Created>
   <LastSaved>2012-08-15T08:58:45Z</LastSaved>
   <Company>Microsoft Corporation</Company>
-  <Version>11.9999</Version>
+  <Version>14.00</Version>
  </DocumentProperties>
  <OfficeDocumentSettings xmlns="urn:schemas-microsoft-com:office:office">
   <AllowPNG/>
@@ -35,7 +35,7 @@
   </Style>
  </Styles>
  <Worksheet ss:Name="Sheet4">
-  <Table ss:ExpandedColumnCount="256" ss:ExpandedRowCount="85" x:FullColumns="1"
+  <Table ss:ExpandedColumnCount="256" ss:ExpandedRowCount="87" x:FullColumns="1"
    x:FullRows="1" ss:DefaultColumnWidth="66" ss:DefaultRowHeight="15">
    <Column ss:Width="216.75"/>
    <Column ss:Width="54"/>
@@ -458,6 +458,18 @@
     <Cell><Data ss:Type="String">Strength of Stone</Data></Cell>
     <Cell><Data ss:Type="String">Strength of Stone</Data></Cell>
     <Cell><Data ss:Type="String">Strength of Stone</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">DECK_SOLITARY_FIENDS</Data></Cell>
+    <Cell ss:Index="3"><Data ss:Type="String">Solitary Fiends</Data></Cell>
+    <Cell><Data ss:Type="String">Démons Solitaires</Data></Cell>
+    <Cell><Data ss:Type="String">Demonios Solitarios</Data></Cell>
+    <Cell><Data ss:Type="String">Einzelhaft Unholde</Data></Cell>
+    <Cell><Data ss:Type="String">Demoni Solitari</Data></Cell>
+    <Cell ss:Index="9"><Data ss:Type="String">孤独なフィーンド</Data></Cell>
+    <Cell><Data ss:Type="String">독방에 걸린</Data></Cell>
+    <Cell><Data ss:Type="String">Одиночной Изверги</Data></Cell>
+    <Cell><Data ss:Type="String">Demônios Solitários</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
     <Cell><Data ss:Type="String">PLAYER_NAME_ANGELIC_MIGHT</Data></Cell>
@@ -891,6 +903,18 @@
     <Cell><Data ss:Type="String">Nicol Bolas</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">PLAYER_NAME_SOLITARY_FIENDS</Data></Cell>
+    <Cell ss:Index="3"><Data ss:Type="String">Havengul Skaab</Data></Cell>
+    <Cell><Data ss:Type="String">Skaab de Havengul</Data></Cell>
+    <Cell><Data ss:Type="String">Skaab de Havengul</Data></Cell>
+    <Cell><Data ss:Type="String">Skaab aus Pfuhlhaven</Data></Cell>
+    <Cell><Data ss:Type="String">Skaab di Havengul</Data></Cell>
+    <Cell ss:Index="9"><Data ss:Type="String">ヘイヴングルのスカーブ</Data></Cell>
+    <Cell><Data ss:Type="String">헤이븐굴 스캅</Data></Cell>
+    <Cell><Data ss:Type="String">Хавенгульский Скааб</Data></Cell>
+    <Cell><Data ss:Type="String">Skaab de Havengul</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
     <Cell><Data ss:Type="String">PLAYER_NAME_STONEFORGE_MYSTIC</Data></Cell>
     <Cell ss:Index="3"><Data ss:Type="String">Stoneforge Mystic</Data></Cell>
     <Cell><Data ss:Type="String">Mystique forgepierre</Data></Cell>
@@ -1084,13 +1108,22 @@
     <VerticalResolution>600</VerticalResolution>
    </Print>
    <Selected/>
+   <Panes>
+    <Pane>
+     <Number>3</Number>
+     <ActiveRow>1</ActiveRow>
+     <RangeSelection>R2C1:R87C12</RangeSelection>
+    </Pane>
+   </Panes>
    <ProtectObjects>False</ProtectObjects>
    <ProtectScenarios>False</ProtectScenarios>
   </WorksheetOptions>
  </Worksheet>
  <Worksheet ss:Name="Sheet1">
-  <Table ss:ExpandedColumnCount="0" ss:ExpandedRowCount="0" x:FullColumns="1"
-   x:FullRows="1" ss:DefaultColumnWidth="66" ss:DefaultRowHeight="15"/>
+  <Table ss:ExpandedColumnCount="1" ss:ExpandedRowCount="1" x:FullColumns="1"
+   x:FullRows="1" ss:DefaultColumnWidth="66" ss:DefaultRowHeight="15">
+   <Row ss:AutoFitHeight="0"/>
+  </Table>
   <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
    <PageSetup>
     <Header x:Margin="0.3"/>
@@ -1103,8 +1136,10 @@
   </WorksheetOptions>
  </Worksheet>
  <Worksheet ss:Name="Sheet2">
-  <Table ss:ExpandedColumnCount="0" ss:ExpandedRowCount="0" x:FullColumns="1"
-   x:FullRows="1" ss:DefaultColumnWidth="66" ss:DefaultRowHeight="15"/>
+  <Table ss:ExpandedColumnCount="1" ss:ExpandedRowCount="1" x:FullColumns="1"
+   x:FullRows="1" ss:DefaultColumnWidth="66" ss:DefaultRowHeight="15">
+   <Row ss:AutoFitHeight="0"/>
+  </Table>
   <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
    <PageSetup>
     <Header x:Margin="0.3"/>
@@ -1117,8 +1152,10 @@
   </WorksheetOptions>
  </Worksheet>
  <Worksheet ss:Name="Sheet3">
-  <Table ss:ExpandedColumnCount="0" ss:ExpandedRowCount="0" x:FullColumns="1"
-   x:FullRows="1" ss:DefaultColumnWidth="66" ss:DefaultRowHeight="15"/>
+  <Table ss:ExpandedColumnCount="1" ss:ExpandedRowCount="1" x:FullColumns="1"
+   x:FullRows="1" ss:DefaultColumnWidth="66" ss:DefaultRowHeight="15">
+   <Row ss:AutoFitHeight="0"/>
+  </Table>
   <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
    <PageSetup>
     <Header x:Margin="0.3"/>
@@ -1131,4 +1168,3 @@
   </WorksheetOptions>
  </Worksheet>
 </Workbook>
-
