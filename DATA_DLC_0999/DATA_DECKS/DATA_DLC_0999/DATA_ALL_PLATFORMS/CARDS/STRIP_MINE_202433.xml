@@ -54,6 +54,7 @@
     <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[{T}, Sacrifice Strip Mine: Destroy target land.]]></LOCALISED_TEXT>
     <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[{T}, Sacrifice Strip Mine: Destroy target land.]]></LOCALISED_TEXT>
     <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[{T}, Sacrifice Strip Mine: Destroy target land.]]></LOCALISED_TEXT>
+    <COST type="TapSelf" />
     <COST type="SacrificeSelf" />
     <TARGET_DEFINITION id="0">
     local filter = Object():GetFilter()
