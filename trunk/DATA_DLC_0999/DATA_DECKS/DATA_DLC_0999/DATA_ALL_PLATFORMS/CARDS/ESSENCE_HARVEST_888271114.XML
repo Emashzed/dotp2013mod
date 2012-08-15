@@ -1,0 +1,83 @@
+﻿<?xml version='1.0'?>
+<CARD_V2>
+  <FILENAME text="ESSENCE_HARVEST_888271114" />
+  <CARDNAME text="ESSENCE_HARVEST" />
+  <TITLE>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Essence Harvest]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Raccolto dell’Essenza]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Essenzernte]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Récolte d’essence]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Cosecha vital]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[本質の収穫]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[정수 채취]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Жатва Душ]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Colheita de Essência]]></LOCALISED_TEXT>
+  </TITLE>
+  <MULTIVERSEID value="888271114" />
+  <ARTID value="888271114" />
+  <ARTIST name="Daarken" />
+  <CASTING_COST cost="{2}{B}" />
+  <FLAVOURTEXT>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Captain Lewenheart uncovered evidence of a demon cult among the clergy. The Skirsdag never gave him a chance to prove his case.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Il Capitano Lewenheart scoprì le prove di un culto demoniaco diffuso nel clero. Gli Skirsdag non gli diedero mai l’opportunità di rivelare ciò che aveva scoperto.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Hauptmann Lewenhart fand Beweise für einen Dämonenkult in den Reihen der Kleriker. Die Skirsdag ließen ihm nicht die Gelegenheit, seine Vermutung zu belegen.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Le capitaine Lewenheart découvrit la preuve de l’existence d’un culte démoniaque au sein du clergé. Les serviteurs de Skirsdag ne lui donnèrent pas l’occasion de voir aboutir son enquête.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[El capitán Lewenhart descubrió pruebas de una secta demoníaca en el seno del clero. Los Skirsdag no le dieron oportunidad de demostrarlo.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[ルーエンハート隊長は聖職者の中で悪魔信仰が行われている証拠を突き止めた。 だがスカースダグはそれを立証する機会を彼に与えなかった。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[루엔하트 대장은 성직자 중에 악마 숭배자들이 있다는 증거를 잡았다. 그러나 스커스대그 집단은 그가 그 사실을 공개하기 전에 미리 손을 써버렸다.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Капитан Левенхарт вышел на след демонопоклонников среди духовенства. Последователи культа Скирдаг не дали ему ни единого шанса доказать это.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[O Capitão Lewenheart encontrou provas de um culto demoníaco no seio do clero. Os Skirsdag jamais lhe deram a chance de apresentá-las.]]></LOCALISED_TEXT>
+  </FLAVOURTEXT>
+  <TYPE metaname="Sorcery" />
+  <EXPANSION value="DPG" />
+  <RARITY metaname="C" />
+  <SPELL_ABILITY dangerous="1" filter_zone="ZONE_IN_PLAY">
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Target player loses X life and you gain X life, where X is the greatest power among creatures you control.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Un giocatore bersaglio perde X punti vita e tu guadagni X punti vita, dove X è pari alla forza maggiore tra le creature che controlli.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Ein Spieler deiner Wahl verliert X Lebenspunkte und du erhältst X Lebenspunkte dazu, wobei X die höchste Stärke unter den Kreaturen ist, die du kontrollierst.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Le joueur ciblé perd X points de vie et vous gagnez X points de vie, X étant la force la plus élevée parmi les créatures que vous contrôlez.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[El jugador objetivo pierde X vidas y tú ganas X vidas, donde X es la mayor fuerza entre las criaturas que controlas.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[プレイヤー１人を対象とする。そのプレイヤーはＸ点のライフを失い、あなたはＸ点のライフを得る。Ｘはあなたがコントロールするクリーチャーの中で最大のパワーの値に等しい。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[플레이어 한 명을 목표로 정한다. 그 플레이어는 생명 X점을 잃고 당신은 생명 X점을 얻는다. X는 당신이 조종하는 생물 중 제일 공격력이 높은 생물의 공격력이다.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Целевой игрок теряет X жизней, а вы получаете X жизней, где X — наибольшее значение силы среди существ под вашим контролем.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[O jogador alvo perde X pontos de vida e você ganha X pontos de vida, sendo X igual ao maior poder entre as criaturas que você controla.]]></LOCALISED_TEXT>
+    <TRIGGER value="ZONECHANGE_END" simple_qualifier="self" to_zone="ZONE_IN_PLAY" />
+    <TARGET_DEFINITION id="0">
+    local filter = Object():GetFilter()
+    filter:Clear()
+    filter:SetFilterType( FILTER_TYPE_PLAYERS )
+    filter:SetHint( HINT_ENEMY_ONLY, EffectController() )
+    </TARGET_DEFINITION>
+    <TARGET_DETERMINATION>
+    return AtLeastOneTargetFromDefinition(0)
+    </TARGET_DETERMINATION>
+    <PLAY_TIME_ACTION target_choosing="1">
+    EffectController():ChooseTarget( 0, "CARD_QUERY_CHOOSE_PLAYER_TO_VESTIGE_ROT", EffectDC():Make_Targets(0) )
+    </PLAY_TIME_ACTION>
+    <RESOLUTION_TIME_ACTION>
+	local filter = Object():GetFilter()
+    filter:Clear()
+    filter:AddCardType( CARD_TYPE_CREATURE )
+    filter:SetZone( ZONE_IN_PLAY )
+	filter:SetController( EffectController() )
+    local any_creature = filter:CountStopAt(1)
+    if any_creature == 1 then
+    	local power = -1
+    	while filter:CountStopAt(1) == 1 do
+    		power = power + 1
+    		filter:SetPowerMin( power+1 )
+    	end
+    	-- now "power" is equal to the greatest power
+    	if power &gt; 0 then
+			local target_player = EffectDC():Get_Targets(0):Get_PlayerPtr(0)
+			if target_player ~= nil then
+				target_player:LoseLife( power )
+				EffectController():GainLife( power )
+			end
+    	end
+    end
+    </RESOLUTION_TIME_ACTION>
+	<SFX text="TARGET_PESTS_PLAY" />
+  </SPELL_ABILITY>
+  <AI_BASE_SCORE score="900" zone="ZONE_HAND" />
+</CARD_V2>

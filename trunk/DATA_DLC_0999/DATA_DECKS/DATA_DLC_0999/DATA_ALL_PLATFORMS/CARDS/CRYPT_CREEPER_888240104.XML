@@ -1,0 +1,78 @@
+﻿<?xml version='1.0'?>
+<CARD_V2>
+  <FILENAME text="CRYPT_CREEPER_888240104" />
+  <CARDNAME text="CRYPT_CREEPER" />
+  <TITLE>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Crypt Creeper]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Strisciante della Cripta]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Kryptenkriecher]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Fureteur des cryptes]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Rastrero de la cripta]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[墓所を歩くもの]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[무덤 괴물]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Могильный Ползун]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Rastejador da Cripta]]></LOCALISED_TEXT>
+  </TITLE>
+  <MULTIVERSEID value="888240104" />
+  <ARTID value="888240104" />
+  <ARTIST name="Scott Chou" />
+  <CASTING_COST cost="{1}{B}" />
+  <FLAVOURTEXT>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[“I guess what they say is true. What doesn’t kill you makes you stronger. Or at least stranger.”
+—Captain Eberhart]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[“Dev’essere vero. Ciò che non ti uccide ti rende più forte. O almeno più strano.”
+—Capitano Eberhart]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[„Die Gerüchte stimmen wohl. Was einen nicht tötet, macht einen stärker. Oder zumindest merkwürdiger.”
+—Kapitän Eberhart]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[« C’est donc vrai, ce que l’on raconte. Ce qui ne nous tue pas nous rend plus forts. Ou, à tout le moins, plus étranges. »
+—Capitaine Eberhart]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[“Supongo que es verdad eso que dicen. Lo que no te mata te hace más fuerte. O al menos más extraño.”
+—Capitán Eberhart]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[「確かに一理あるな。 困難に耐えることで人は強靱になるって言うだろ。 少なくとも狂人にはなれる。」
+――エバハート船長]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[“옛말이 틀린 게 없어. 버텨내기만 하면 더 강해진다지? 죽지 않고 버티면 하다못해 더 이상하게라도 변하는군.”
+—에버하트 선장]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[«Думаю, это верные слова. То, что тебя не убивает, делает тебя сильнее. Или чуднее».
+— капитан Эберхарт]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[“Acho que é verdade o que dizem. O que não te mata te deixa mais forte. Ou ao menos mais estranho.”
+— Capitão Eberhart]]></LOCALISED_TEXT>
+  </FLAVOURTEXT>
+  <TYPE metaname="Creature" />
+  <SUB_TYPE metaname="Zombie" />
+  <EXPANSION value="DPG" />
+  <RARITY metaname="C" />
+  <POWER value="2" />
+  <TOUGHNESS value="1" />
+  <ACTIVATED_ABILITY filter_zone="ZONE_IN_PLAY">
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Sacrifice Crypt Creeper: Exile target card from a graveyard.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Sacrifica la Strisciante della Cripta: Esilia una carta bersaglio da un cimitero.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Opfere den Kryptenkriecher: Schicke eine Karte deiner Wahl aus einem Friedhof ins Exil.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Sacrifiez le Fureteur des cryptes : Exilez une carte ciblée d’un cimetière.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Sacrificar el Rastrero de la cripta: Exilia la carta objetivo de un cementerio.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[墓所を歩くものを生け贄に捧げる：いずれかの墓地にあるカード１枚を対象とし、それを追放する。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[무덤 괴물을 희생한다: 무덤에 있는 카드 한 장을 목표로 정한다. 그 카드를 추방한다.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Пожертвуйте Могильного Ползуна: изгоните целевую карту из кладбища.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Sacrifique Rastejador da Cripta: Exile o card alvo de um cemitério.]]></LOCALISED_TEXT>
+    <COST type="SacrificeSelf" />
+    <TARGET_DEFINITION id="0">
+    local filter = Object():GetFilter()
+    filter:Clear()
+    filter:SetZone( ZONE_GRAVEYARD )
+    filter:SetHint( HINT_ENEMY, EffectController() )
+    </TARGET_DEFINITION>
+    <TARGET_DETERMINATION>
+    return AtLeastOneTargetFromDefinition(0)
+    </TARGET_DETERMINATION>
+    <PLAY_TIME_ACTION target_choosing="1">
+    EffectController():ChooseTarget( 0, "CARD_QUERY_CHOOSE_CARD_TO_EXILE", EffectDC():Make_Targets(0) )
+    </PLAY_TIME_ACTION>
+    <RESOLUTION_TIME_ACTION>
+    local target = EffectDC():Get_Targets(0):Get_NthCardPtr(0)
+    if target ~= nil then
+    	target:RemoveFromGame()
+    end
+    </RESOLUTION_TIME_ACTION>
+  </ACTIVATED_ABILITY>
+  <SFX text="COMBAT_BITE_LARGE_ATTACK" power_boundary_min="4" power_boundary_max="-1" />
+  <SFX text="COMBAT_BITE_SMALL_ATTACK" power_boundary_min="1" power_boundary_max="3" />
+</CARD_V2>
