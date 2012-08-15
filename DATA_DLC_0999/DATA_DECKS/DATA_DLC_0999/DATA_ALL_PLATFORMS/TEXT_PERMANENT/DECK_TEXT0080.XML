@@ -7,11 +7,11 @@
  xmlns:html="http://www.w3.org/TR/REC-html40">
  <DocumentProperties xmlns="urn:schemas-microsoft-com:office:office">
   <Author>ScrollRack D13</Author>
-  <LastAuthor>Anthony</LastAuthor>
+  <LastAuthor>DaenonX4</LastAuthor>
   <Created>1980-05-23T00:00:00Z</Created>
-  <LastSaved>2012-08-14T08:03:32Z</LastSaved>
+  <LastSaved>2012-08-15T08:58:45Z</LastSaved>
   <Company>Microsoft Corporation</Company>
-  <Version>14.00</Version>
+  <Version>11.9999</Version>
  </DocumentProperties>
  <OfficeDocumentSettings xmlns="urn:schemas-microsoft-com:office:office">
   <AllowPNG/>
@@ -35,8 +35,21 @@
   </Style>
  </Styles>
  <Worksheet ss:Name="Sheet4">
-  <Table ss:ExpandedColumnCount="12" ss:ExpandedRowCount="85" x:FullColumns="1"
-   x:FullRows="1" ss:DefaultRowHeight="15">
+  <Table ss:ExpandedColumnCount="256" ss:ExpandedRowCount="85" x:FullColumns="1"
+   x:FullRows="1" ss:DefaultColumnWidth="66" ss:DefaultRowHeight="15">
+   <Column ss:Width="216.75"/>
+   <Column ss:Width="54"/>
+   <Column ss:Width="142.5"/>
+   <Column ss:Width="152.25"/>
+   <Column ss:Width="147.75"/>
+   <Column ss:Width="170.25"/>
+   <Column ss:Width="145.5"/>
+   <Column ss:AutoFitWidth="0" ss:Width="65.25"/>
+   <Column ss:Width="165"/>
+   <Column ss:Width="124.5"/>
+   <Column ss:Width="183"/>
+   <Column ss:Width="151.5"/>
+   <Column ss:AutoFitWidth="0" ss:Width="65.25" ss:Span="243"/>
    <Row ss:AutoFitHeight="0">
     <Cell><Data ss:Type="String">Ident</Data></Cell>
     <Cell><Data ss:Type="String">Comment</Data></Cell>
@@ -55,7 +68,7 @@
     <Cell ss:Index="3"><Data ss:Type="String">Aura Servants</Data></Cell>
     <Cell><Data ss:Type="String">Serviteurs de l'aura</Data></Cell>
     <Cell><Data ss:Type="String">Aura Servants</Data></Cell>
-    <Cell><Data ss:Type="String">Aura Servants</Data></Cell>
+    <Cell><Data ss:Type="String">Aurendiener</Data></Cell>
     <Cell><Data ss:Type="String">Aura Servants</Data></Cell>
     <Cell ss:Index="9"><Data ss:Type="String">Aura Servants</Data></Cell>
     <Cell><Data ss:Type="String">Aura Servants</Data></Cell>
@@ -67,7 +80,7 @@
     <Cell ss:Index="3"><Data ss:Type="String">Sepulchral Strength</Data></Cell>
     <Cell><Data ss:Type="String">Force sépulcrale</Data></Cell>
     <Cell><Data ss:Type="String">Sepulchral Strength</Data></Cell>
-    <Cell><Data ss:Type="String">Sepulchral Strength</Data></Cell>
+    <Cell><Data ss:Type="String">Grabesstärke</Data></Cell>
     <Cell><Data ss:Type="String">Sepulchral Strength</Data></Cell>
     <Cell ss:Index="9"><Data ss:Type="String">Sepulchral Strength</Data></Cell>
     <Cell><Data ss:Type="String">Sepulchral Strength</Data></Cell>
@@ -79,7 +92,7 @@
     <Cell ss:Index="3"><Data ss:Type="String">Mindstorms</Data></Cell>
     <Cell><Data ss:Type="String">Tempêtes cérébrales</Data></Cell>
     <Cell><Data ss:Type="String">Mindstorms</Data></Cell>
-    <Cell><Data ss:Type="String">Mindstorms</Data></Cell>
+    <Cell><Data ss:Type="String">Gedankenstürme</Data></Cell>
     <Cell><Data ss:Type="String">Mindstorms</Data></Cell>
     <Cell ss:Index="9"><Data ss:Type="String">Mindstorms</Data></Cell>
     <Cell><Data ss:Type="String">Mindstorms</Data></Cell>
@@ -91,7 +104,7 @@
     <Cell ss:Index="3"><Data ss:Type="String">Grinning Malice</Data></Cell>
     <Cell><Data ss:Type="String">Malice grimaçante</Data></Cell>
     <Cell><Data ss:Type="String">Grinning Malice</Data></Cell>
-    <Cell><Data ss:Type="String">Grinning Malice</Data></Cell>
+    <Cell><Data ss:Type="String">Grinsende Bosheit</Data></Cell>
     <Cell><Data ss:Type="String">Grinning Malice</Data></Cell>
     <Cell ss:Index="9"><Data ss:Type="String">Grinning Malice</Data></Cell>
     <Cell><Data ss:Type="String">Grinning Malice</Data></Cell>
@@ -103,7 +116,7 @@
     <Cell ss:Index="3"><Data ss:Type="String">Collective Might</Data></Cell>
     <Cell><Data ss:Type="String">Puissance collective</Data></Cell>
     <Cell><Data ss:Type="String">Collective Might</Data></Cell>
-    <Cell><Data ss:Type="String">Collective Might</Data></Cell>
+    <Cell><Data ss:Type="String">Kollektive Kräfte</Data></Cell>
     <Cell><Data ss:Type="String">Collective Might</Data></Cell>
     <Cell ss:Index="9"><Data ss:Type="String">Collective Might</Data></Cell>
     <Cell><Data ss:Type="String">Collective Might</Data></Cell>
@@ -307,7 +320,7 @@
     <Cell ss:Index="3"><Data ss:Type="String">Madness</Data></Cell>
     <Cell><Data ss:Type="String">Folie</Data></Cell>
     <Cell><Data ss:Type="String">Madness</Data></Cell>
-    <Cell><Data ss:Type="String">Madness</Data></Cell>
+    <Cell><Data ss:Type="String">Wahnsinn</Data></Cell>
     <Cell><Data ss:Type="String">Madness</Data></Cell>
     <Cell ss:Index="9"><Data ss:Type="String">Madness</Data></Cell>
     <Cell><Data ss:Type="String">Madness</Data></Cell>
@@ -331,7 +344,7 @@
     <Cell ss:Index="3"><Data ss:Type="String">Hypnosis</Data></Cell>
     <Cell><Data ss:Type="String">Hypnose</Data></Cell>
     <Cell><Data ss:Type="String">Hypnosis</Data></Cell>
-    <Cell><Data ss:Type="String">Hypnosis</Data></Cell>
+    <Cell><Data ss:Type="String">Hypnose</Data></Cell>
     <Cell><Data ss:Type="String">Hypnosis</Data></Cell>
     <Cell ss:Index="9"><Data ss:Type="String">Hypnosis</Data></Cell>
     <Cell><Data ss:Type="String">Hypnosis</Data></Cell>
@@ -343,7 +356,7 @@
     <Cell ss:Index="3"><Data ss:Type="String">Cloud Nine</Data></Cell>
     <Cell><Data ss:Type="String">Septième Ciel</Data></Cell>
     <Cell><Data ss:Type="String">Cloud Nine</Data></Cell>
-    <Cell><Data ss:Type="String">Cloud Nine</Data></Cell>
+    <Cell><Data ss:Type="String">Wolke Neun</Data></Cell>
     <Cell><Data ss:Type="String">Cloud Nine</Data></Cell>
     <Cell ss:Index="9"><Data ss:Type="String">Cloud Nine</Data></Cell>
     <Cell><Data ss:Type="String">Cloud Nine</Data></Cell>
@@ -355,7 +368,7 @@
     <Cell ss:Index="3"><Data ss:Type="String">Pirates</Data></Cell>
     <Cell><Data ss:Type="String">Pirates</Data></Cell>
     <Cell><Data ss:Type="String">Pirates</Data></Cell>
-    <Cell><Data ss:Type="String">Pirates</Data></Cell>
+    <Cell><Data ss:Type="String">Piraten</Data></Cell>
     <Cell><Data ss:Type="String">Pirates</Data></Cell>
     <Cell ss:Index="9"><Data ss:Type="String">Pirates</Data></Cell>
     <Cell><Data ss:Type="String">Pirates</Data></Cell>
@@ -367,7 +380,7 @@
     <Cell ss:Index="3"><Data ss:Type="String">Enchanter</Data></Cell>
     <Cell><Data ss:Type="String">Enchantresse</Data></Cell>
     <Cell><Data ss:Type="String">Enchanter</Data></Cell>
-    <Cell><Data ss:Type="String">Enchanter</Data></Cell>
+    <Cell><Data ss:Type="String">Ausrüster</Data></Cell>
     <Cell><Data ss:Type="String">Enchanter</Data></Cell>
     <Cell ss:Index="9"><Data ss:Type="String">Enchanter</Data></Cell>
     <Cell><Data ss:Type="String">Enchanter</Data></Cell>
@@ -379,7 +392,7 @@
     <Cell ss:Index="3"><Data ss:Type="String">Mastermind Revenge</Data></Cell>
     <Cell><Data ss:Type="String">Génie du mal</Data></Cell>
     <Cell><Data ss:Type="String">Mente maestra</Data></Cell>
-    <Cell><Data ss:Type="String">Superhirn</Data></Cell>
+    <Cell><Data ss:Type="String">Superhirns Rache</Data></Cell>
     <Cell><Data ss:Type="String">Genio</Data></Cell>
     <Cell ss:Index="9"><Data ss:Type="String">真の黒幕</Data></Cell>
     <Cell><Data ss:Type="String">마스터마인드</Data></Cell>
@@ -391,7 +404,7 @@
     <Cell ss:Index="3"><Data ss:Type="String">Titan Ramp</Data></Cell>
     <Cell><Data ss:Type="String">Croissance Titanesque</Data></Cell>
     <Cell><Data ss:Type="String">Titan Ramp</Data></Cell>
-    <Cell><Data ss:Type="String">Titan Ramp</Data></Cell>
+    <Cell><Data ss:Type="String">Die Bühne des Titanen</Data></Cell>
     <Cell><Data ss:Type="String">Titan Ramp</Data></Cell>
     <Cell ss:Index="9"><Data ss:Type="String">Titan Ramp</Data></Cell>
     <Cell><Data ss:Type="String">Titan Ramp</Data></Cell>
@@ -415,7 +428,7 @@
     <Cell ss:Index="3"><Data ss:Type="String">Unrooted</Data></Cell>
     <Cell><Data ss:Type="String">Déraciné</Data></Cell>
     <Cell><Data ss:Type="String">Unrooted</Data></Cell>
-    <Cell><Data ss:Type="String">Unrooted</Data></Cell>
+    <Cell><Data ss:Type="String">Entwurzelt</Data></Cell>
     <Cell><Data ss:Type="String">Unrooted</Data></Cell>
     <Cell ss:Index="9"><Data ss:Type="String">Unrooted</Data></Cell>
     <Cell><Data ss:Type="String">Unrooted</Data></Cell>
@@ -427,7 +440,7 @@
     <Cell ss:Index="3"><Data ss:Type="String">Angelic Might</Data></Cell>
     <Cell><Data ss:Type="String">Angélique Might</Data></Cell>
     <Cell><Data ss:Type="String">Angélica Might</Data></Cell>
-    <Cell><Data ss:Type="String">Angelic Might</Data></Cell>
+    <Cell><Data ss:Type="String">Engelhafte Macht</Data></Cell>
     <Cell><Data ss:Type="String">Angelic Potere</Data></Cell>
     <Cell ss:Index="9"><Data ss:Type="String">天使はマイト</Data></Cell>
     <Cell><Data ss:Type="String">천사하는데</Data></Cell>
@@ -954,7 +967,7 @@
     <Cell ss:Index="3"><Data ss:Type="String">Affinity for Trouble</Data></Cell>
     <Cell><Data ss:Type="String">Affinité pour les Ennuis</Data></Cell>
     <Cell><Data ss:Type="String">Affinity for Trouble</Data></Cell>
-    <Cell><Data ss:Type="String">Affinity for Trouble</Data></Cell>
+    <Cell><Data ss:Type="String">Affinität für Ärger</Data></Cell>
     <Cell><Data ss:Type="String">Affinity for Trouble</Data></Cell>
     <Cell ss:Index="9"><Data ss:Type="String">Affinity for Trouble</Data></Cell>
     <Cell><Data ss:Type="String">Affinity for Trouble</Data></Cell>
@@ -966,7 +979,7 @@
     <Cell ss:Index="3"><Data ss:Type="String">Elvish Army</Data></Cell>
     <Cell><Data ss:Type="String">Armée Elfe</Data></Cell>
     <Cell><Data ss:Type="String">Elvish Army</Data></Cell>
-    <Cell><Data ss:Type="String">Elvish Army</Data></Cell>
+    <Cell><Data ss:Type="String">Elfenarmee</Data></Cell>
     <Cell><Data ss:Type="String">Elvish Army</Data></Cell>
     <Cell ss:Index="9"><Data ss:Type="String">Elvish Army</Data></Cell>
     <Cell><Data ss:Type="String">Elvish Army</Data></Cell>
@@ -978,7 +991,7 @@
     <Cell ss:Index="3"><Data ss:Type="String">White Knight Rises</Data></Cell>
     <Cell><Data ss:Type="String">Ascension du Chevalier Blanc</Data></Cell>
     <Cell><Data ss:Type="String">White Knight Rises</Data></Cell>
-    <Cell><Data ss:Type="String">White Knight Rises</Data></Cell>
+    <Cell><Data ss:Type="String">Der Aufstieg der weißen Soldaten</Data></Cell>
     <Cell><Data ss:Type="String">White Knight Rises</Data></Cell>
     <Cell ss:Index="9"><Data ss:Type="String">White Knight Rises</Data></Cell>
     <Cell><Data ss:Type="String">White Knight Rises</Data></Cell>
@@ -990,7 +1003,7 @@
     <Cell ss:Index="3"><Data ss:Type="String">Full Metal Goblins</Data></Cell>
     <Cell><Data ss:Type="String">Goblins Metalliques</Data></Cell>
     <Cell><Data ss:Type="String">Metal Gob</Data></Cell>
-    <Cell><Data ss:Type="String">Metal Gob</Data></Cell>
+    <Cell><Data ss:Type="String">Full Metal Goblins</Data></Cell>
     <Cell><Data ss:Type="String">Metal Gob</Data></Cell>
     <Cell ss:Index="9"><Data ss:Type="String">Metal Gob</Data></Cell>
     <Cell><Data ss:Type="String">Metal Gob</Data></Cell>
@@ -1002,7 +1015,7 @@
     <Cell ss:Index="3"><Data ss:Type="String">Quest for Metal</Data></Cell>
     <Cell><Data ss:Type="String">Quête du Métal</Data></Cell>
     <Cell><Data ss:Type="String">Quest for Metal</Data></Cell>
-    <Cell><Data ss:Type="String">Quest for Metal</Data></Cell>
+    <Cell><Data ss:Type="String">Die Suche nach Metall</Data></Cell>
     <Cell><Data ss:Type="String">Quest for Metal</Data></Cell>
     <Cell ss:Index="9"><Data ss:Type="String">Quest for Metal</Data></Cell>
     <Cell><Data ss:Type="String">Quest for Metal</Data></Cell>
@@ -1014,7 +1027,7 @@
     <Cell ss:Index="3"><Data ss:Type="String">Strobe Red</Data></Cell>
     <Cell><Data ss:Type="String">Pulsation Rouge</Data></Cell>
     <Cell><Data ss:Type="String">Strobe Red</Data></Cell>
-    <Cell><Data ss:Type="String">Strobe Red</Data></Cell>
+    <Cell><Data ss:Type="String">Roter Blitz</Data></Cell>
     <Cell><Data ss:Type="String">Strobe Red</Data></Cell>
     <Cell ss:Index="9"><Data ss:Type="String">Strobe Red</Data></Cell>
     <Cell><Data ss:Type="String">Strobe Red</Data></Cell>
@@ -1026,7 +1039,7 @@
     <Cell ss:Index="3"><Data ss:Type="String">Trampling Mob</Data></Cell>
     <Cell><Data ss:Type="String">Horde Ecrasante</Data></Cell>
     <Cell><Data ss:Type="String">Trampling Mob</Data></Cell>
-    <Cell><Data ss:Type="String">Trampling Mob</Data></Cell>
+    <Cell><Data ss:Type="String">Trampelnder Mob</Data></Cell>
     <Cell><Data ss:Type="String">Trampling Mob</Data></Cell>
     <Cell ss:Index="9"><Data ss:Type="String">Trampling Mob</Data></Cell>
     <Cell><Data ss:Type="String">Trampling Mob</Data></Cell>
@@ -1038,7 +1051,7 @@
     <Cell ss:Index="3"><Data ss:Type="String">Turbo Infect</Data></Cell>
     <Cell><Data ss:Type="String">Turbo Infection</Data></Cell>
     <Cell><Data ss:Type="String">Turbo Infect</Data></Cell>
-    <Cell><Data ss:Type="String">Turbo Infect</Data></Cell>
+    <Cell><Data ss:Type="String">Schnelles Gift</Data></Cell>
     <Cell><Data ss:Type="String">Turbo Infect</Data></Cell>
     <Cell ss:Index="9"><Data ss:Type="String">Turbo Infect</Data></Cell>
     <Cell><Data ss:Type="String">Turbo Infect</Data></Cell>
@@ -1050,7 +1063,7 @@
     <Cell ss:Index="3"><Data ss:Type="String">Fiery Mountains</Data></Cell>
     <Cell><Data ss:Type="String">Montagnes Incandescentes</Data></Cell>
     <Cell><Data ss:Type="String">Fiery Mountains</Data></Cell>
-    <Cell><Data ss:Type="String">Fiery Mountains</Data></Cell>
+    <Cell><Data ss:Type="String">Feurige Berge</Data></Cell>
     <Cell><Data ss:Type="String">Fiery Mountains</Data></Cell>
     <Cell ss:Index="9"><Data ss:Type="String">Fiery Mountains</Data></Cell>
     <Cell><Data ss:Type="String">Fiery Mountains</Data></Cell>
@@ -1071,21 +1084,13 @@
     <VerticalResolution>600</VerticalResolution>
    </Print>
    <Selected/>
-   <Panes>
-    <Pane>
-     <Number>3</Number>
-     <ActiveRow>85</ActiveRow>
-    </Pane>
-   </Panes>
    <ProtectObjects>False</ProtectObjects>
    <ProtectScenarios>False</ProtectScenarios>
   </WorksheetOptions>
  </Worksheet>
  <Worksheet ss:Name="Sheet1">
-  <Table ss:ExpandedColumnCount="1" ss:ExpandedRowCount="1" x:FullColumns="1"
-   x:FullRows="1" ss:DefaultRowHeight="15">
-   <Row ss:AutoFitHeight="0"/>
-  </Table>
+  <Table ss:ExpandedColumnCount="0" ss:ExpandedRowCount="0" x:FullColumns="1"
+   x:FullRows="1" ss:DefaultColumnWidth="66" ss:DefaultRowHeight="15"/>
   <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
    <PageSetup>
     <Header x:Margin="0.3"/>
@@ -1098,10 +1103,8 @@
   </WorksheetOptions>
  </Worksheet>
  <Worksheet ss:Name="Sheet2">
-  <Table ss:ExpandedColumnCount="1" ss:ExpandedRowCount="1" x:FullColumns="1"
-   x:FullRows="1" ss:DefaultRowHeight="15">
-   <Row ss:AutoFitHeight="0"/>
-  </Table>
+  <Table ss:ExpandedColumnCount="0" ss:ExpandedRowCount="0" x:FullColumns="1"
+   x:FullRows="1" ss:DefaultColumnWidth="66" ss:DefaultRowHeight="15"/>
   <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
    <PageSetup>
     <Header x:Margin="0.3"/>
@@ -1114,10 +1117,8 @@
   </WorksheetOptions>
  </Worksheet>
  <Worksheet ss:Name="Sheet3">
-  <Table ss:ExpandedColumnCount="1" ss:ExpandedRowCount="1" x:FullColumns="1"
-   x:FullRows="1" ss:DefaultRowHeight="15">
-   <Row ss:AutoFitHeight="0"/>
-  </Table>
+  <Table ss:ExpandedColumnCount="0" ss:ExpandedRowCount="0" x:FullColumns="1"
+   x:FullRows="1" ss:DefaultColumnWidth="66" ss:DefaultRowHeight="15"/>
   <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
    <PageSetup>
     <Header x:Margin="0.3"/>
@@ -1130,3 +1131,4 @@
   </WorksheetOptions>
  </Worksheet>
 </Workbook>
+
