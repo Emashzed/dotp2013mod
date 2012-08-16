@@ -1,0 +1,39 @@
+<DECK personality="D13_CHAMPION_OF_THE_PARISH.XML" deck_box_image="D13_HOLD_THE_LINE" deck_box_image_locked="locked" content_pack="0" uid="910" preview_card="blanko" always_available="true" is_white="true" >
+  <DECKSTATISTICS Size="6" Speed="8" Flex="4" Syn="6" />
+  <CARD name="ACCORDER_PALADIN_277124" deckOrderId="0" />
+  <CARD name="ACCORDER_PALADIN_277124" deckOrderId="1" />
+  <CARD name="ACCORDER_PALADIN_277124" deckOrderId="2" />
+  <CARD name="ACCORDER_PALADIN_277124" deckOrderId="3" />
+  <CARD name="CHAMPION_OF_THE_PARISH_262861" deckOrderId="4" />
+  <CARD name="DOOMED_TRAVELER_277035" deckOrderId="5" />
+  <CARD name="DOOMED_TRAVELER_277035" deckOrderId="6" />
+  <CARD name="DOOMED_TRAVELER_277035" deckOrderId="7" />
+  <CARD name="DOOMED_TRAVELER_277035" deckOrderId="8" />
+  <CARD name="ELITE_INQUISITOR_246949" deckOrderId="9" />
+  <CARD name="ELITE_VANGUARD_276907" deckOrderId="10" />
+  <CARD name="ELITE_VANGUARD_276907" deckOrderId="11" />
+  <CARD name="FIEND_HUNTER_277036" deckOrderId="12" />
+  <CARD name="FIEND_HUNTER_277036" deckOrderId="13" />
+  <CARD name="FIEND_HUNTER_277036" deckOrderId="14" />
+  <CARD name="FIEND_HUNTER_277036" deckOrderId="15" />
+  <CARD name="GIDEONS_LAWKEEPER_888228122" deckOrderId="16" />
+  <CARD name="GIDEONS_LAWKEEPER_888228122" deckOrderId="17" />
+  <CARD name="GIDEONS_LAWKEEPER_888228122" deckOrderId="18" />
+  <CARD name="GIDEONS_LAWKEEPER_888228122" deckOrderId="19" />
+  <CARD name="MIRRAN_CRUSADER_888213802" deckOrderId="20" />
+  <CARD name="MIRRAN_CRUSADER_888213802" deckOrderId="21" />
+  <CARD name="BONDS_OF_FAITH_221216" deckOrderId="22" />
+  <CARD name="BONDS_OF_FAITH_221216" deckOrderId="23" />
+  <CARD name="BONDS_OF_FAITH_221216" deckOrderId="24" />
+  <CARD name="BONDS_OF_FAITH_221216" deckOrderId="25" />
+  <CARD name="BUTCHERS_CLEAVER_220049" deckOrderId="26" />
+  <CARD name="BUTCHERS_CLEAVER_220049" deckOrderId="27" />
+  <CARD name="HONOR_OF_THE_PURE_277112" deckOrderId="28" />
+  <CARD name="HONOR_OF_THE_PURE_277112" deckOrderId="29" />
+  <CARD name="OBLIVION_RING_276959" deckOrderId="30" />
+  <CARD name="OBLIVION_RING_276959" deckOrderId="31" />
+  <CARD name="OBLIVION_RING_276959" deckOrderId="32" />
+  <CARD name="OBLIVION_RING_276959" deckOrderId="33" />
+  <CARD name="SILVER_INLAID_DAGGER_222190" deckOrderId="34" />
+  <CARD name="SILVER_INLAID_DAGGER_222190" deckOrderId="35" />
+</DECK>

@@ -1,0 +1,108 @@
+<?xml version='1.0'?>
+<CARD_V2>
+  <FILENAME text="BUTCHERS_CLEAVER_220049" />
+  <CARDNAME text="BUTCHERS_CLEAVER" />
+  <TITLE>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Butcher's Cleaver]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Mannaia da Macellaio]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Fleischerbeil]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Hachoir de boucher]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Cuchilla del carnicero]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[肉屋の包丁]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[Butcher's Cleaver]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Секач Мясника]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Cutelo de Açougueiro]]></LOCALISED_TEXT>
+  </TITLE>
+  <MULTIVERSEID value="220049" />
+  <ARTID value="888220049" />
+  <ARTIST name="Jason Felix" />
+  <CASTING_COST cost="{3}" />
+  <FLAVOURTEXT>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Outside the safety of Thraben, there is little distinction between tool and weapon.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Fuori dalla sicurezza di Thraben, non c'è una gran distinzione tra arma e arnese.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Wenn man nicht mehr in der Sicherheit von Thraben ist, gibt es keinen Unterschied zwischen Werkzeug und Waffe mehr.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[En dehors de la sécurité de Thraben, on ne fait pas la distinction entre un outil et une arme.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Fuera de la seguridad de Thraben, hay poca diferencia entre herramienta y arma.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[スレイベンに守られている外では、道具と武器の間にはほとんど違いが無い。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[Outside the safety of Thraben, there is little distinction between tool and weapon.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[За пределами безопасного Трейбена между инструментом и оружием практически нет различий.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Fora da segurança de Thraben, não há muita distinção entre ferramenta e arma.]]></LOCALISED_TEXT>
+  </FLAVOURTEXT>
+  <TYPE metaname="Artifact" />
+  <SUB_TYPE metaname="Equipment" order_de-DE="0" order_es-ES="0" order_fr-FR="0" order_it-IT="0" order_jp-JA="0" order_ko-KR="0" order_pt-BR="0" order_ru-RU="0" />
+  <EXPANSION value="DPG" />
+  <RARITY metaname="U" />
+  <STATIC_ABILITY filter_zone="ZONE_IN_PLAY">
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Equipped creature gets +3/+0.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[La creatura equipaggiata prende +3/+0.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Die ausgerüstete Kreatur erhält +3/+0.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[La créature équipée gagne +3/+0.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[La criatura equipada obtiene +3/+0.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[装備しているクリーチャーは＋３/＋０の修整を受ける。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[Equipped creature gets +3/+0.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Снаряженное существо получает +3/+0.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[A criatura equipada recebe +3/+0.]]></LOCALISED_TEXT>
+    <CONTINUOUS_ACTION layer="7C">
+    local parent = Object():GetParent()
+    if parent ~= nil then
+    	parent:GetCurrentCharacteristics():Power_Add( 3 )
+    	parent:GetCurrentCharacteristics():Toughness_Add( 0 )
+    end
+    </CONTINUOUS_ACTION>
+  </STATIC_ABILITY>
+  <STATIC_ABILITY filter_zone="ZONE_IN_PLAY">
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[As long as equipped creature is a Human, it has lifelink.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Fintanto che la creatura equipaggiata è un Umano, ha legame vitale.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Solange die ausgerüstete Kreatur ein Mensch ist, hat sie Lebensverknüpfung.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Tant que la créature équipée est un humain, elle a le lien de vie.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Mientras la criatura equipada sea Humano, tiene la habilidad de vínculo vital.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[装備しているクリーチャーが人間であるかぎり、それは絆魂を持つ。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[As long as equipped creature is a Human, it has lifelink.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Пока снаряженное существо является Человеком, у него есть Цепь жизни.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Enquanto a criatura equipada for do tipo Humano, ela terá vínculo com a vida.]]></LOCALISED_TEXT>
+    <CONTINUOUS_ACTION layer="6">
+    local parent = Object():GetParent()
+    if parent ~= nil and (parent:GetSubType():Test( CREATURE_TYPE_HUMAN ) ~= 0) then
+    	parent:GetCurrentCharacteristics():Characteristic_Set( CHARACTERISTIC_LIFELINK, 1 )
+    end
+    </CONTINUOUS_ACTION>
+  </STATIC_ABILITY>
+  <ACTIVATED_ABILITY sorcery_time="1" filter_zone="ZONE_IN_PLAY">
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Equip {3}]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Equipaggiare {3}]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Ausrüsten {3}]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Équipement {3}]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Equipar {3}.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[装備 {3}]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[Equip {3}]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Снарядить {3}]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Equipar {3}]]></LOCALISED_TEXT>
+    <COST type="Mana" cost="{3}" />
+    <TARGET_DEFINITION id="0">
+    local filter = Object():GetFilter()
+    filter:Clear()
+    filter:AddCardType( CARD_TYPE_CREATURE )
+    filter:SetZone( ZONE_IN_PLAY )
+    filter:SetController( EffectController() )
+    -- AI 'cannot reequip' exemption 
+    local parent = Object():GetParent()
+    if parent ~= nil and EffectController():IsAI() ~= 0 then
+    	filter:SetCardInstance(parent)
+    	filter:AddExtra(FILTER_EXTRA_FLIP_CARD_INSTANCE)
+    end
+    </TARGET_DEFINITION>
+    <TARGET_DETERMINATION>
+    return AtLeastOneTargetFromDefinition(0)
+    </TARGET_DETERMINATION>
+    <PLAY_TIME_ACTION target_choosing="1">
+    EffectController():ChooseTarget( 0, "CARD_QUERY_CHOOSE_CREATURE_TO_EQUIP", EffectDC():Make_Targets(0) )
+    </PLAY_TIME_ACTION>
+    <RESOLUTION_TIME_ACTION>
+    local target_card = EffectDC():Get_Targets(0):Get_CardPtr(0)
+    if (target_card ~= nil and EffectSource() ~= nil) then
+    	EffectSource():Attach( target_card )	
+    end
+    </RESOLUTION_TIME_ACTION>
+    <AI_AVAILABILITY type="equip" />
+  </ACTIVATED_ABILITY>
+</CARD_V2>
