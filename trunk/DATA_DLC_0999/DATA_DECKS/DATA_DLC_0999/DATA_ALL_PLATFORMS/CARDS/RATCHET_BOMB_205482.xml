@@ -47,17 +47,27 @@
     <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[{T}, пожертвуйте Бомбу-Трещотку: уничтожьте каждый не являющийся землей перманент с конвертированной мана-стоимостью, равной количеству жетонов заряда на Бомбе-Трещотке.]]></LOCALISED_TEXT>
     <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[{T}, Sacrifique Bomba de Catraca: Destrua cada permanente que não seja um terreno com custo de mana convertido igual ao número de marcadores de carga sobre Bomba de Catraca.]]></LOCALISED_TEXT>
     <COST type="TapSelf" />
-    <COST type="SacrificeSelf" />
-    <FILTER>
-    return FilteredCard() ~= nil and
-           FilteredCard():GetCardType():Test( CARD_TYPE_LAND ) == 0 and 
-           FilteredCard():GetZone() == ZONE_IN_PLAY and 
-           FilteredCard():GetConvertedManaCost() == GetObjectX()
-    </FILTER>
-    <RESOLUTION_TIME_ACTION>
-    if FilteredCard() ~= nil then
-       FilteredCard():Destroy()
+   <RESOLUTION_TIME_ACTION>
+   	local counters = Object():CountCounters( MTG():ChargeCounters() )
+    local filter = Object():GetFilter()
+    filter:Clear()
+    filter:SetZone( ZONE_IN_PLAY )
+    filter:AddCardType( CARD_TYPE_LAND )
+    filter:AddExtra( FILTER_EXTRA_FLIP_CARD_TYPES )
+    filter:SetConvertedCostValue( counters )
+    local count = filter:EvaluateObjects()
+    if (count &gt; 0) then
+       for j=0,count-1 do
+          local card = filter:GetNthEvaluatedObject( j )
+          if (card ~= nil) then
+             card:Destroy() 
+          end
+       end
     end
+    </RESOLUTION_TIME_ACTION>
+    <RESOLUTION_TIME_ACTION>
+    local player = EffectController()
+    Object():Sacrifice(player)
     </RESOLUTION_TIME_ACTION>
   </ACTIVATED_ABILITY>
 </CARD_V2>
