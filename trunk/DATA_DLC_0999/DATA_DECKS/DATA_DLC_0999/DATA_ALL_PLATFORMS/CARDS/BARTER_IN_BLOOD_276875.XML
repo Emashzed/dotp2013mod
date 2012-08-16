@@ -1,0 +1,94 @@
+<?xml version='1.0'?>
+<CARD_V2>
+  <FILENAME text="BARTER_IN_BLOOD_276875" />
+  <CARDNAME text="BARTER_IN_BLOOD" />
+  <TITLE>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Barter in Blood]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Échange sanglant]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Trueque en sangre]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Blutiger Tauschhandel]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Baratto di Sangue]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[血のやりとり]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[유혈의 교환]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Кровавый Обмен]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Escambo de Sangue]]></LOCALISED_TEXT>
+  </TITLE>
+  <MULTIVERSEID value="276875" />
+  <ARTID value="51089" />
+  <ARTIST name="Parente" />
+  <CASTING_COST cost="{2}{B}{B}" />
+  <FLAVOURTEXT>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[“In the game of conquest, who cares about the pawns if the king yet reigns?”
+—Geth, keeper of the Vault]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[« Qu’importe les pions, si le roi règne toujours ? »
+—Geth, gardien du Caveau]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[“En el juego de la conquista, ¿a quién le importan los peones si el rey aún no ha sido derrocado?”
+—Geth, guardián de la Bóveda]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[„Im Spiel der Eroberungen kümmert sich niemand um das Wohlergehen der Bauern, solange der König noch regiert.“
+—Geth, Hüter der Gruft]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[“Nei giochi di conquista, a chi importa delle pedine se il re è ancora al potere?”
+— Geth, custode della Volta]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[「征服と言う名のゲームで、王が生きていさえすれば誰が兵卒を気にするかね？」
+—大霊堂の守り手、ゲス]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[“왕이 건재하다면 졸이 죽는다 해서 무슨 상관인가?”
+—볼트의 간수 게스]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[«Кого волнует судьба пешек в борьбе за власть, пока король остается на троне?»
+— Гет, хранитель Подземелья]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[“No jogo da conquista, quem se importa com os peões se o rei ainda reina?”
+— Geth, custódio da Câmara]]></LOCALISED_TEXT>
+  </FLAVOURTEXT>
+  <TYPE metaname="Sorcery" />
+  <EXPANSION value="DPG" />
+  <RARITY metaname="U" />
+  <SPELL_ABILITY dangerous="1" filter_zone="ZONE_IN_PLAY">
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Each player sacrifices two creatures.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Chaque joueur sacrifie deux créatures.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Cada jugador sacrifica dos criaturas.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Jeder Spieler opfert zwei Kreaturen.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Ogni giocatore sacrifica due creature.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[各プレイヤーはクリーチャーを２体生け贄に捧げる。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[각 플레이어는 생물 두 개를 희생한다.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Каждый игрок приносит в жертву два существа.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Cada jogador sacrifica duas criaturas.]]></LOCALISED_TEXT>
+    <RESOLUTION_TIME_ACTION repeating="1">
+    local n = MTG():GetActionRepCount()
+    local num_players = MTG():GetNumberOfPlayers()
+    local playerindex = n
+    local player = MTG():GetNthPlayer(playerindex)
+    local filter = Object():GetFilter() 
+    if player ~= nil and n &lt; num_players then
+    	-- ask the query
+    	filter:Clear()
+    	filter:NotTargetted()
+    	filter:SetPlayer( player )
+    	filter:SetZone( ZONE_IN_PLAY )
+    	filter:AddCardType( CARD_TYPE_CREATURE )
+    	filter:SetHint( HINT_ENEMY, player )
+    	player:SetTargetCount(2)
+    	for i=0,2-1 do
+    		player:SetTargetPrompt( i, "CARD_QUERY_CHOOSE_CREATURE_TO_SACRIFICE" )
+    	end
+    	player:ChooseTargets( NO_VALIDATION, EffectDC():Make_Targets(n) )
+    	return true
+    	
+    else 
+    	local i=0
+    	for i=0,(num_players-1) do
+    		local targetDC = EffectDC():Get_Targets(i)
+    		
+    		if targetDC ~= nil then
+    		  for j=0,(2) do
+    			local target_card = targetDC:Get_CardPtr(j)
+    			if target_card ~= nil then
+    			  target_card:Sacrifice( target_card:GetPlayer() )
+    			end
+    		  end
+    		end
+    	end
+    	return false
+    end
+    </RESOLUTION_TIME_ACTION>
+    <SFX text="GLOBAL_DEATH_PLAY" />
+  </SPELL_ABILITY>
+  <AI_BASE_SCORE score="1200" zone="ZONE_HAND" />
+</CARD_V2>

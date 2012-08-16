@@ -1,0 +1,73 @@
+﻿<?xml version='1.0'?>
+<CARD_V2>
+  <FILENAME text="DRIVER_OF_THE_DEAD_888239963" />
+  <CARDNAME text="DRIVER_OF_THE_DEAD" />
+  <TITLE>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Driver of the Dead]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Auriga dei Morti]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Fahrer der Toten]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Cocher des morts]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Porteador de los muertos]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[死体の運び屋]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[망자의 운전수]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Перевозчик Мертвецов]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Condutor dos Mortos]]></LOCALISED_TEXT>
+  </TITLE>
+  <MULTIVERSEID value="888239963" />
+  <ARTID value="888239963" />
+  <ARTIST name="James Ryman" />
+  <CASTING_COST cost="{3}{B}" />
+  <FLAVOURTEXT>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Some vampires resorted to corpse trading after cathars burned their estates and drove them from their ancestral feeding grounds.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Alcuni vampiri si dedicarono al traffico di cadaveri dopo che i catari ne bruciarono i possedimenti e li bandirono dai territori di caccia ancestrali.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Nachdem Katharer ihnen die Wohnhäuser in Brand gesetzt und sie aus ihren traditionellen Jagdgründen vertrieben hatten, wandten sich einige Vampire dem Leichenhandel zu.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Boutés hors de leurs terrains de chasse ancestraux, certains vampires eurent recours au commerce de cadavres après avoir vu leurs domaines incendiés par les cathares.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Algunos vampiros recurrieron al comercio de cuerpos cuando los cátaros quemaron sus tierras y los echaron de sus zonas de alimentación ancestrales.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[聖戦士に屋敷を焼かれ、先祖代々の餌場を追われた吸血鬼の一部は、死体売買に身をやつすこととなった。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[카타르들에게 저택과 사냥 구역을 빼앗긴 흡혈귀들 중 일부는 시체 밀거래에 뛰어들었다.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Когда катары выгнали вампиров из родовых имений и наследных охотничьих угодий, часть кровопийцев занялись торговлей трупами.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Alguns vampiros recorreram ao comércio de cadáveres depois que os cátaros queimaram suas propriedades e os expulsaram de seus antigos territórios de caça.]]></LOCALISED_TEXT>
+  </FLAVOURTEXT>
+  <TYPE metaname="Creature" />
+  <SUB_TYPE metaname="Vampire" />
+  <EXPANSION value="DPG" />
+  <RARITY metaname="C" />
+  <POWER value="3" />
+  <TOUGHNESS value="2" />
+  <TRIGGERED_ABILITY filter_zone="ZONE_IN_PLAY">
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[When Driver of the Dead dies, return target creature card with converted mana cost 2 or less from your graveyard to the battlefield.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Quando l’Auriga dei Morti muore, rimetti sul campo di battaglia una carta creatura bersaglio con costo di mana convertito pari o inferiore a 2 dal tuo cimitero.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Immer wenn der Fahrer der Toten stirbt, bringe eine Kreaturenkarte deiner Wahl mit umgewandelten Manakosten von 2 oder weniger aus deinem Friedhof ins Spiel zurück.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Quand le Cocher des morts meurt, renvoyez sur le champ de bataille depuis votre cimetière la carte de créature ciblée de coût converti de mana inférieur ou égal à 2.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Cuando el Porteador de los muertos muera, regresa la carta de criatura objetivo con coste de maná convertido de 2 o menos de tu cementerio al campo de batalla.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[死体の運び屋が死亡したとき、あなたの墓地にある点数で見たマナ・コストが２以下のクリーチャー・カード１枚を対象とし、それを戦場に戻す。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[망자의 운전수가 죽을 때, 당신의 무덤에 있는 전환마나비용이 2 이하인 생물 카드 한 장을 목표로 정한다. 그 생물 카드를 전장으로 되돌린다.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Когда Перевозчик Мертвецов умирает, верните целевую карту существа с конвертированной мана-стоимостью 2 или меньше из вашего кладбища на поле битвы.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Quando Condutor dos Mortos morrer, devolva o card de criatura alvo com custo de mana convertido igual a 2 ou menos de seu cemitério para o campo de batalha.]]></LOCALISED_TEXT>
+    <TRIGGER value="ZONECHANGE_BEGIN" simple_qualifier="self" to_zone="ZONE_GRAVEYARD" from_zone="ZONE_IN_PLAY" />
+    <TARGET_DEFINITION id="0">
+    local filter = Object():GetFilter()
+    filter:Clear()
+    filter:SetZone( ZONE_GRAVEYARD ) 
+    filter:AddCardType( CARD_TYPE_CREATURE )
+    filter:SetConvertedCostMax(2)
+    filter:SetPlayer( EffectController() )
+    filter:SetHint( HINT_ALLIED, EffectController() )
+    </TARGET_DEFINITION>
+    <TARGET_DETERMINATION>
+    return AtLeastOneTargetFromDefinition(0)
+    </TARGET_DETERMINATION>
+    <PLAY_TIME_ACTION target_choosing="1">
+    EffectController():ChooseTarget( 0, "CARD_QUERY_CHOOSE_CREATURE_TO_PUT_ONTO_BATTLEFIELD", EffectDC():Make_Targets(0) )
+    </PLAY_TIME_ACTION>
+    <RESOLUTION_TIME_ACTION>
+    local target = EffectDC():Get_Targets(0):Get_CardPtr(0)
+    if target ~= nil and target:GetZone() == ZONE_GRAVEYARD then
+    	EffectDC():Get_Targets(0):Protect_CardPtr(0)
+    	target:PutIntoPlay( EffectController() ) 
+    end
+    </RESOLUTION_TIME_ACTION>
+  </TRIGGERED_ABILITY>
+  <SFX text="COMBAT_BITE_LARGE_ATTACK" power_boundary_min="4" power_boundary_max="-1" />
+  <SFX text="COMBAT_BITE_SMALL_ATTACK" power_boundary_min="1" power_boundary_max="3" />
+</CARD_V2>
