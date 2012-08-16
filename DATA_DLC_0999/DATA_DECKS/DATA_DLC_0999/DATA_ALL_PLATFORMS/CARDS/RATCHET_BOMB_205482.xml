@@ -1,0 +1,73 @@
+<?xml version='1.0'?>
+<CARD_V2>
+  <FILENAME text="RATCHET_BOMB_205482" />
+  <CARDNAME text="RATCHET_BOMB" />
+  <TITLE>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Ratchet Bomb]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Bomba a Cricchetto]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Knarrenbombe]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Bombe à rochet]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Bomba trinquete]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[漸増爆弾]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[Ratchet Bomb]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Бомба-Трещотка]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Bomba de Catraca]]></LOCALISED_TEXT>
+  </TITLE>
+  <MULTIVERSEID value="205482" />
+  <ARTID value="888205482" />
+  <ARTIST name="Austin Hsu" />
+  <CASTING_COST cost="{2}" />
+  <TYPE metaname="Artifact" />
+  <EXPANSION value="DPG" />
+  <RARITY metaname="R" />
+  <ACTIVATED_ABILITY auto_skip="1" filter_zone="ZONE_IN_PLAY">
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[{T}: Put a charge counter on Ratchet Bomb.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[{T}: Metti un segnalino carica sulla Bomba a Cricchetto.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[{T}: Lege eine Ladungsmarke auf die Knarrenbombe.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[{T} : Mettez un marqueur « charge » sur la Bombe à rochet.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[{T}: Pon un contador de carga sobre la Bomba trinquete.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[{T}：漸増爆弾の上に蓄積カウンターを１個置く。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[{T}: Put a charge counter on Ratchet Bomb.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[{T}: положите один жетон заряда на Бомбу-Трещотку.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[{T}: Coloque um marcador de carga sobre Bomba de Catraca.]]></LOCALISED_TEXT>
+    <COST type="TapSelf" />
+    <RESOLUTION_TIME_ACTION>
+    Object():AddCounters( MTG():ChargeCounters(), 1 )
+    </RESOLUTION_TIME_ACTION>
+    <AI_AVAILABILITY step="end_of_turn" turn="their_turn" />
+  </ACTIVATED_ABILITY>
+  <ACTIVATED_ABILITY filter_zone="ZONE_IN_PLAY">
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[{T}, Sacrifice Ratchet Bomb: Destroy each nonland permanent with converted mana cost equal to the number of charge counters on Ratchet Bomb.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[{T}, Sacrifica la Bomba a Cricchetto: Distruggi ogni permanente non terra con costo di mana convertito pari al numero di segnalini carica sulla Bomba a Cricchetto.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[{T}, opfere die Knarrenbombe: Zerstöre alle bleibenden Karten, die keine Länder sind und deren umgewandelte Manakosten gleich der Anzahl der Ladungsmarken auf der Knarrenbombe sind.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[{T}, sacrifiez la Bombe à rochet : Détruisez chaque permanent non-terrain ayant un coût converti de mana égal au nombre de marqueurs « charge » sur la Bombe à rochet.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[{T}, sacrificar la Bomba trinquete: Destruye cada permanente que no sea tierra con coste de maná convertido igual a la cantidad de contadores de carga sobre la Bomba trinquete.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[{T}, 漸増爆弾を生け贄に捧げる：点数で見たマナ・コストが漸増爆弾の上に置かれていた蓄積カウンターの数に等しい土地でない各パーマネントを破壊する。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[{T}, Sacrifice Ratchet Bomb: Destroy each nonland permanent with converted mana cost equal to the number of charge counters on Ratchet Bomb.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[{T}, пожертвуйте Бомбу-Трещотку: уничтожьте каждый не являющийся землей перманент с конвертированной мана-стоимостью, равной количеству жетонов заряда на Бомбе-Трещотке.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[{T}, Sacrifique Bomba de Catraca: Destrua cada permanente que não seja um terreno com custo de mana convertido igual ao número de marcadores de carga sobre Bomba de Catraca.]]></LOCALISED_TEXT>
+    <COST type="TapSelf" />
+   <RESOLUTION_TIME_ACTION>
+   	local counters = Object():CountCounters( MTG():ChargeCounters() )
+    local filter = Object():GetFilter()
+    filter:Clear()
+    filter:SetZone( ZONE_IN_PLAY )
+    filter:AddCardType( CARD_TYPE_LAND )
+    filter:AddExtra( FILTER_EXTRA_FLIP_CARD_TYPES )
+    filter:SetConvertedCostValue( counters )
+    local count = filter:EvaluateObjects()
+    if (count &gt; 0) then
+       for j=0,count-1 do
+          local card = filter:GetNthEvaluatedObject( j )
+          if (card ~= nil) then
+             card:Destroy() 
+          end
+       end
+    end
+    </RESOLUTION_TIME_ACTION>
+    <RESOLUTION_TIME_ACTION>
+    local player = EffectController()
+    Object():Sacrifice(player)
+    </RESOLUTION_TIME_ACTION>
+  </ACTIVATED_ABILITY>
+</CARD_V2>
