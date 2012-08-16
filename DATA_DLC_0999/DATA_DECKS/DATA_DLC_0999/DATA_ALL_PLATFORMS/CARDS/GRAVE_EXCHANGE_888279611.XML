@@ -1,0 +1,107 @@
+﻿<?xml version='1.0'?>
+<CARD_V2>
+  <FILENAME text="GRAVE_EXCHANGE_888279611" />
+  <CARDNAME text="GRAVE_EXCHANGE" />
+  <TITLE>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Grave Exchange]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Scambio di Tombe]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Grabtausch]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Tombes musicales]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Intercambio de sepulcro]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[墓の入れ替え]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[무덤 교환]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Обмен Трупов]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Permuta do Túmulo]]></LOCALISED_TEXT>
+  </TITLE>
+  <MULTIVERSEID value="888279611" />
+  <ARTID value="888279611" />
+  <ARTIST name="Sam Wolfe Connelly" />
+  <CASTING_COST cost="{4}{B}{B}" />
+  <FLAVOURTEXT>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[“It’s a cold, dark journey either way.”
+—Eruth of Lambholt]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[“È un viaggio buio e freddo in un senso o nell’altro.”
+—Eruth di Lambholt]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[„Ob rein oder raus, beides ist eine kalte, finstere Reise.”
+—Eruth von Lammholt]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[« Dans un sens ou dans l’autre, c’est un voyage dans le froid et les ténèbres. »
+—Eruth de Lambholt]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[“Es un viaje frío y oscuro en ambas direcciones.”
+—Eruth de Lambholt]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[「いずれにしろ冷たく、暗い旅路です。」
+――ラムホルトのエルス]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[“어느 쪽이든 춥고 암울한 여행길이지.”
+—램홀트의 에루스]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[«В этом странствии вас неизбежно донимает холод и окружает тьма».
+— Эрут из Ламбхольта]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[“É uma jornada fria e sombria de qualquer forma.”
+— Eruth de Lambholt]]></LOCALISED_TEXT>
+  </FLAVOURTEXT>
+  <TYPE metaname="Sorcery" />
+  <EXPANSION value="DPG" />
+  <RARITY metaname="C" />
+  <SPELL_ABILITY dangerous="1">
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Return target creature card from your graveyard to your hand. Target player sacrifices a creature.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Riprendi in mano una carta creatura bersaglio dal tuo cimitero. Un giocatore bersaglio sacrifica una creatura.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Bringe eine Kreaturenkarte deiner Wahl aus deinem Friedhof auf deine Hand zurück. Ein Spieler deiner Wahl opfert eine Kreatur.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Renvoyez une carte de créature ciblée depuis votre cimetière dans votre main. Le joueur ciblé sacrifie une créature.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Regresa la carta de criatura objetivo de tu cementerio a tu mano. El jugador objetivo sacrifica una criatura.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[あなたの墓地にあるクリーチャー・カード１枚とプレイヤー１人を対象とする。その前者をあなたの手札に戻し、その後者はクリーチャーを１体生け贄に捧げる。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[플레이어 한 명과 당신의 무덤에 있는 생물 카드 한 장을 목표로 정한다. 그 생물 카드를 당신의 손으로 되돌리고, 그 플레이어는 생물 한 개를 희생한다.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Верните целевую карту существа из вашего кладбища в вашу руку. Целевой игрок приносит в жертву существо.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Devolva o card de criatura alvo de seu cemitério para sua mão. O jogador alvo sacrifica uma criatura.]]></LOCALISED_TEXT>
+    <TARGET_DEFINITION id="0">
+    local filter = Object():GetFilter()
+    filter:Clear()
+    filter:AddCardType( CARD_TYPE_CREATURE )
+    filter:SetZone( ZONE_GRAVEYARD )
+    filter:SetPlayer( EffectController() )
+    filter:SetHint( HINT_ALLIED, EffectController() )
+    </TARGET_DEFINITION>
+    <TARGET_DEFINITION id="1">
+    local filter = Object():GetFilter()
+    filter:Clear()
+    filter:SetFilterType( FILTER_TYPE_PLAYERS )
+    filter:SetHint( HINT_ENEMY_ONLY, EffectController() )
+    </TARGET_DEFINITION>
+    <TARGET_DETERMINATION>
+    return AtLeastOneTargetFromDefinition(0) and AtLeastOneTargetFromDefinition(1)
+    </TARGET_DETERMINATION>
+    <PLAY_TIME_ACTION target_choosing="1">
+    EffectController():ChooseTarget( 0, "CARD_QUERY_CHOOSE_CARD_TO_PUT_INTO_HAND", EffectDC():Make_Targets(0) )
+    </PLAY_TIME_ACTION>
+    <PLAY_TIME_ACTION target_choosing="1">
+    EffectController():ChooseTarget( 1, "CARD_QUERY_CHOOSE_PLAYER_TO_SACRIFICE_CREATURE", EffectDC():Make_Targets(1) )
+    </PLAY_TIME_ACTION>
+    <RESOLUTION_TIME_ACTION>
+    local target_card = EffectDC():Get_Targets(0):Get_CardPtr(0)
+    if target_card ~= nil then
+    	target_card:GuidedReveal( ZONE_GRAVEYARD, ZONE_HAND )
+    	target_card:PutInHand()
+    end
+    </RESOLUTION_TIME_ACTION>
+    <RESOLUTION_TIME_ACTION>
+    local target_player = EffectDC():Get_Targets(1):Get_PlayerPtr(0)
+    if target_player ~= nil then
+    	local filter = Object():GetFilter()
+    	filter:Clear()
+    	filter:SetPlayer( target_player )
+    	filter:SetZone( ZONE_IN_PLAY )
+    	filter:AddCardType( CARD_TYPE_CREATURE )
+    	filter:NotTargetted()
+    	filter:SetHint( HINT_ENEMY, target_player )
+    	target_player:ChooseTarget( NO_VALIDATION, "CARD_QUERY_CHOOSE_CREATURE_TO_SACRIFICE", EffectDC():Make_Targets(2) )
+    end
+    </RESOLUTION_TIME_ACTION>
+    <RESOLUTION_TIME_ACTION>
+    local targetDC = EffectDC():Get_Targets(2)
+    if targetDC ~= nil then
+    	local target_creature = targetDC:Get_CardPtr(0)
+    	if target_creature ~= nil then
+    		target_creature:Sacrifice( target_creature:GetPlayer() )
+    	end
+    end
+    </RESOLUTION_TIME_ACTION>
+  </SPELL_ABILITY>
+  <AI_BASE_SCORE score="900" zone="ZONE_HAND" />
+</CARD_V2>

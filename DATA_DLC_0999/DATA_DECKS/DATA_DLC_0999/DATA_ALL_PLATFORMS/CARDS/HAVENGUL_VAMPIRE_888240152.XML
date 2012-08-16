@@ -1,0 +1,76 @@
+﻿<?xml version='1.0'?>
+<CARD_V2>
+  <FILENAME text="HAVENGUL_VAMPIRE_888240152" />
+  <CARDNAME text="HAVENGUL_VAMPIRE" />
+  <TITLE>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Havengul Vampire]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Vampiro di Havengul]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Vampir aus Pfuhlhaven]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Vampire de Havengul]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Vampiro de Havengul]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[ヘイヴングルの吸血鬼]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[헤이븐굴 흡혈귀]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Хавенгульский Вампир]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Vampiro de Havengul]]></LOCALISED_TEXT>
+  </TITLE>
+  <MULTIVERSEID value="888240152" />
+  <ARTID value="888240152" />
+  <ARTIST name="James Ryman" />
+  <CASTING_COST cost="{3}{R}" />
+  <FLAVOURTEXT>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[“That slowly decreasing pulse—that’s the beat I waltz to.”]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[“Quei battiti che rallentano pian piano... sono la musica che mi accompagna.”]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[„Der langsam schwächer werdende Puls – das ist der Rhythmus, zu dem ich tanze.”]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[« Ce pouls qui décroît peu à peu... c’est la valse sur laquelle j’aime danser. »]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[“Un pulso que se desvanece lentamente... Ese es el ritmo al que me gusta bailar.”]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[「あの弱まりゆく脈動――あれが私にワルツを舞わせるのだよ。」]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[“나는 천천히 느려지는 맥박에 맞춰 왈츠를 추지.”]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[«Ах, это затихающее биение сердца, оно звучит музыкой в моих ушах».]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[“Esse pulso cada vez mais lento... é o compasso da minha valsa.”]]></LOCALISED_TEXT>
+  </FLAVOURTEXT>
+  <TYPE metaname="Creature" />
+  <SUB_TYPE metaname="Vampire" />
+  <EXPANSION value="DPG" />
+  <RARITY metaname="U" />
+  <POWER value="2" />
+  <TOUGHNESS value="2" />
+  <TRIGGERED_ABILITY filter_zone="ZONE_IN_PLAY">
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Whenever Havengul Vampire deals combat damage to a player, put a +1/+1 counter on it.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Ogniqualvolta il Vampiro di Havengul infligge danno da combattimento a un giocatore, metti un segnalino +1/+1 su di esso.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Immer wenn der Vampir aus Pfuhlhaven einem Spieler Kampfschaden zufügt, lege eine +1/+1-Marke auf ihn.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[À chaque fois que le Vampire de Havengul inflige des blessures de combat à un joueur, mettez un marqueur +1/+1 sur lui.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Siempre que el Vampiro de Havengul haga daño de combate a un jugador, pon un contador +1/+1 sobre él.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[ヘイヴングルの吸血鬼がいずれかのプレイヤーに戦闘ダメージを与えるたび、これの上に＋１/＋１カウンターを１個置く。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[헤이븐굴 흡혈귀가 플레이어에게 전투피해를 입힐 때마다, 헤이븐굴 흡혈귀에 +1/+1 카운터 한 개를 올려놓는다.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Каждый раз, когда Хавенгульский Вампир наносит боевые повреждения игроку, положите на него один жетон +1/+1.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Toda vez que Vampiro de Havengul causar dano de combate a um jogador, coloque um marcador +1/+1 sobre ele.]]></LOCALISED_TEXT>
+    <TRIGGER value="CREATURE_DEALS_COMBAT_DAMAGE_TO_PLAYER" simple_qualifier="self" />
+    <RESOLUTION_TIME_ACTION>
+    if EffectSource() ~= nil then
+    	EffectSource():AddCounters( MTG():PlusOnePlusOneCounters(), 1 )
+    end
+    </RESOLUTION_TIME_ACTION>
+  </TRIGGERED_ABILITY>
+  <TRIGGERED_ABILITY filter_zone="ZONE_IN_PLAY">
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Whenever another creature dies, put a +1/+1 counter on Havengul Vampire.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Ogniqualvolta un’altra creatura muore, metti un segnalino +1/+1 sul Vampiro di Havengul.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Immer wenn eine andere Kreatur stirbt, lege eine +1/+1-Marke auf den Vampir aus Pfuhlhaven.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[À chaque fois qu’une autre créature meurt, mettez un marqueur +1/+1 sur le Vampire de Havengul.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Siempre que otra criatura muera, pon un contador +1/+1 sobre el Vampiro de Havengul.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[他のクリーチャーが１体死亡するたび、ヘイヴングルの吸血鬼の上に＋１/＋１カウンターを１個置く。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[다른 생물이 죽을 때마다, 헤이븐굴 흡혈귀에 +1/+1 카운터 한 개를 올려놓는다.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Каждый раз, когда другое существо умирает, положите один жетон +1/+1 на Хавенгульского Вампира.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Toda vez que outra criatura morrer, coloque um marcador +1/+1 sobre Vampiro de Havengul.]]></LOCALISED_TEXT>
+    <TRIGGER value="ZONECHANGE_BEGIN" simple_qualifier="another" to_zone="ZONE_GRAVEYARD" from_zone="ZONE_IN_PLAY">
+    return (TriggerObject() ~= Object() and TriggerObject():GetCardType():Test( CARD_TYPE_CREATURE ) ~= 0)
+    </TRIGGER>
+    <RESOLUTION_TIME_ACTION>
+    if EffectSource() ~= nil then
+    	EffectSource():AddCounters( MTG():PlusOnePlusOneCounters(), 1 )
+    end
+    </RESOLUTION_TIME_ACTION>
+  </TRIGGERED_ABILITY>
+  <SFX text="COMBAT_FANG_LARGE_ATTACK" power_boundary_min="4" power_boundary_max="-1" />
+  <SFX text="COMBAT_FANG_SMALL_ATTACK" power_boundary_min="1" power_boundary_max="3" />
+  <AI_BASE_SCORE score="450" zone="ZONE_IN_PLAY" />
+</CARD_V2>

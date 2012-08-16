@@ -1,0 +1,100 @@
+﻿<?xml version='1.0'?>
+<CARD_V2>
+  <FILENAME text="DEMONIC_TASKMASTER_888271092" />
+  <CARDNAME text="DEMONIC_TASKMASTER" />
+  <TITLE>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Demonic Taskmaster]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Sorvegliante Demoniaco]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Dämonischer Scherge]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Surveillant démoniaque]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Capataz demoníaco]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[悪魔の監督官]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[악마 감독관]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Демон-Десятник]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Capataz Demoníaco]]></LOCALISED_TEXT>
+  </TITLE>
+  <MULTIVERSEID value="888271092" />
+  <ARTID value="888271092" />
+  <ARTIST name="Chris Rahn" />
+  <CASTING_COST cost="{2}{B}" />
+  <FLAVOURTEXT>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Subservience to greater power is the only law in the pit.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[La sottomissione a un potere più immenso è l’unica legge nell’abisso.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Unterwürfigkeit gegenüber den Stärkeren ist das einzige Gesetz der Grube.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[La soumission à une puissance supérieure est la seule loi qui prévale aux abysses.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[La sumisión a un poder mayor es la única ley en el abismo.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[より強大な力に隷属すること。それが奈落における唯一の法だ。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[자기보다 강한 자에게 복종하는 것이 지옥의 유일한 법이다.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Единственный закон Ямы — власть принадлежит сильнейшему.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[A subserviência ao poder superior é a única lei no inferno.]]></LOCALISED_TEXT>
+  </FLAVOURTEXT>
+  <TYPE metaname="Creature" />
+  <SUB_TYPE metaname="Demon" />
+  <EXPANSION value="DPG" />
+  <RARITY metaname="U" />
+  <POWER value="4" />
+  <TOUGHNESS value="3" />
+  <STATIC_ABILITY>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Flying]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Volare]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Fliegend]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Vol]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Vuela.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[飛行]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[비행]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Полет]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Voar]]></LOCALISED_TEXT>
+    <CONTINUOUS_ACTION>
+    local characteristics = Object():GetCurrentCharacteristics()
+    characteristics:Characteristic_Set( CHARACTERISTIC_FLYING, 1 )
+    </CONTINUOUS_ACTION>
+  </STATIC_ABILITY>
+  <TRIGGERED_ABILITY filter_zone="ZONE_IN_PLAY">
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[At the beginning of your upkeep, sacrifice a creature other than Demonic Taskmaster.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[All’inizio del tuo mantenimento, sacrifica una creatura diversa dal Sorvegliante Demoniaco.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Opfere zu Beginn deines Versorgungssegments eine Kreatur außer dem Dämonischen Schergen.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Au début de votre entretien, sacrifiez une créature autre que le Surveillant démoniaque.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Al comienzo de tu mantenimiento, sacrifica una criatura que no sea el Capataz demoníaco.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[あなたのアップキープの開始時に、悪魔の監督官以外のクリーチャーを１体生け贄に捧げる。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[당신의 유지단 시작에, 악마 감독관이 아닌 생물 한 개를 희생한다.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[В начале вашего шага поддержки пожертвуйте существо, отличное от Демона-Десятника.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[No início de sua manutenção, sacrifique uma criatura que não seja Capataz Demoníaco.]]></LOCALISED_TEXT>
+    <TRIGGER value="BEGINNING_OF_STEP" simple_qualifier="controller">
+    local filter = Object():GetFilter()
+    filter:Clear()
+    filter:SetPlayer( EffectController() )
+    filter:SetZone( ZONE_IN_PLAY )
+    filter:AddCardType( CARD_TYPE_CREATURE )
+    filter:SetCardInstance(Object())
+    filter:AddExtra(FILTER_EXTRA_FLIP_CARD_INSTANCE)
+    filter:NotTargetted()
+    local total = filter:CountStopAt( 1 )
+    if total &gt; 0 then
+      return ( EffectController():MyTurn() ~= 0 ) and ( MTG():GetStep() == STEP_UPKEEP )
+    else    
+      return false    
+    end
+    </TRIGGER> 
+    <RESOLUTION_TIME_ACTION>
+    local filter = Object():GetFilter()
+    filter:Clear()
+    filter:SetPlayer( EffectController() )
+    filter:SetZone( ZONE_IN_PLAY )
+    filter:AddCardType( CARD_TYPE_CREATURE )
+    filter:SetCardInstance(Object())
+    filter:AddExtra(FILTER_EXTRA_FLIP_CARD_INSTANCE)
+    filter:NotTargetted()
+    filter:SetHint( HINT_ENEMY, EffectController() )
+    EffectController():ChooseTarget( NO_VALIDATION, "CARD_QUERY_CHOOSE_CREATURE_TO_SACRIFICE", EffectDC():Make_Targets(0) )
+    </RESOLUTION_TIME_ACTION>
+    <RESOLUTION_TIME_ACTION>
+    local target = EffectDC():Get_Targets(0):Get_CardPtr(0)
+    if target ~= nil then 
+    	target:Sacrifice(EffectController())  
+    end
+    </RESOLUTION_TIME_ACTION>
+  </TRIGGERED_ABILITY>
+  <HELP title="MORE_INFO_BADGE_TITLE_10" body="MORE_INFO_BADGE_BODY_10" zone="ZONE_ANY" />
+  <SFX text="COMBAT_PIERCE_LARGE_ATTACK" power_boundary_min="4" power_boundary_max="-1" />
+  <SFX text="COMBAT_PIERCE_SMALL_ATTACK" power_boundary_min="1" power_boundary_max="3" />
+</CARD_V2>

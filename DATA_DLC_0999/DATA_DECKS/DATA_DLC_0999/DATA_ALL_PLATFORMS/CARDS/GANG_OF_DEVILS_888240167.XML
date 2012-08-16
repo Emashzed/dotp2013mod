@@ -1,0 +1,122 @@
+﻿<?xml version='1.0'?>
+<CARD_V2>
+  <FILENAME text="GANG_OF_DEVILS_888240167" />
+  <CARDNAME text="GANG_OF_DEVILS" />
+  <TITLE>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Gang of Devils]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Masnada di Diavoli]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Teufelsbande]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Gang de diables]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Banda de diablos]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[小悪魔の一団]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[악령 패거리]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Шайка Дьяволов]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Gangue de Diabos]]></LOCALISED_TEXT>
+  </TITLE>
+  <MULTIVERSEID value="888240167" />
+  <ARTID value="888240167" />
+  <ARTIST name="Erica Yang" />
+  <CASTING_COST cost="{5}{R}" />
+  <FLAVOURTEXT>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[“Well, how could I know they’d explode?”
+—Gregel, township militia]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[“Beh, come facevo a sapere che sarebbero esplosi?”
+—Gregel, milizia del distretto]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[„Woher hätte ich denn wissen sollen, dass die explodieren?”
+—Gregel, Dorfmilizionär]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[« Comment j’aurais pu savoir qu’ils allaient exploser ? »
+—Gregel, milicien de la comté]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[“¿Cómo iba yo a saber que explotarían?”
+—Gregel, milicia del municipio]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[「でもよ、あいつらが爆発するなんて思いもしないだろ？」
+――居住区の民兵、グリーゲル]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[“놈들이 폭발할 줄 내가 어떻게 알았겠어?”
+—민병대원 그레겔]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[«Ну и откуда мне было знать, что они взорвутся?»
+— Грегил, городской ополченец]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[“Ora, como eu poderia saber que eles explodiriam?”
+— Gregel, miliciano do condado]]></LOCALISED_TEXT>
+  </FLAVOURTEXT>
+  <TYPE metaname="Creature" />
+  <SUB_TYPE metaname="Devil" />
+  <EXPANSION value="DPG" />
+  <RARITY metaname="U" />
+  <POWER value="3" />
+  <TOUGHNESS value="3" />
+  <TRIGGERED_ABILITY filter_zone="ZONE_IN_PLAY">
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[When Gang of Devils dies, it deals 3 damage divided as you choose among one, two, or three target creatures and/or players.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Quando la Masnada di Diavoli muore, infligge 3 danni suddivisi a tua scelta tra una, due o tre creature e/o giocatori bersaglio.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Wenn die Teufelsbande stirbt, fügt sie 3 Schadenspunkte zu, deren Aufteilung auf ein, zwei oder drei Ziele deiner Wahl, die Kreaturen und/oder Spieler sein können, du bestimmst.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Quand le Gang de diables meurt, il inflige 3 blessures réparties comme vous le désirez entre une, deux ou trois cibles, créatures et/ou joueurs.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Cuando la Banda de diablos muera, hace 3 puntos de daño divididos como elijas entre una, dos o tres criaturas y/o jugadores objetivo.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[小悪魔の一団が死亡したとき、クリーチャーやプレイヤーを、１つまたは望む組み合わせで２つか３つ対象とする。小悪魔の一団はそれらに、３点のダメージをあなたの好きなように割り振って与える。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[악령 패거리가 죽을 때, 생물 및/또는 플레이어를 대상으로 최대 셋까지의 목표를 정한다. 악령 패거리는 그 목표들에게 당신이 배분한 대로 피해 3점을 입힌다.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Когда Шайка Дьяволов умирает, она наносит 3 повреждения, разделенные по вашему выбору между одним, двумя или тремя целевыми существами и (или) игроками.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Quando Gangue de Diabos morre, ela causa 3 pontos de dano distribuídos à sua escolha entre uma, duas ou três criaturas e/ou jogadores alvo.]]></LOCALISED_TEXT>
+    <TRIGGER value="ZONECHANGE_BEGIN" simple_qualifier="self" to_zone="ZONE_GRAVEYARD" from_zone="ZONE_IN_PLAY" />
+    <TARGET_DEFINITION id="0">
+    local filter = Object():GetFilter()
+    filter:Clear()
+    filter:SetFilterType( FILTER_TYPE_CARDS + FILTER_TYPE_PLAYERS )
+    filter:SetZone( ZONE_IN_PLAY )
+    filter:SetHint( HINT_ENEMY_ONLY, EffectController() )
+    filter:AddCardType( CARD_TYPE_CREATURE )
+    filter:SetEquivalenceDepth(3)
+    </TARGET_DEFINITION>
+    <TARGET_DETERMINATION>
+    return AtLeastOneTargetFromDefinition(0)
+    </TARGET_DETERMINATION>
+    <PLAY_TIME_ACTION target_choosing="1">
+    EffectController():ChooseTarget( 0, "CARD_QUERY_CHOOSE_DEAL_1_DAMAGE", EffectDC():Make_Targets( 0 ))
+    </PLAY_TIME_ACTION>
+    <PLAY_TIME_ACTION target_choosing="1">
+    EffectController():ChooseTarget( 0, "CARD_QUERY_CHOOSE_DEAL_1_DAMAGE", EffectDC():Make_Targets( 1 ))
+    </PLAY_TIME_ACTION>
+    <PLAY_TIME_ACTION target_choosing="1">
+    EffectController():ChooseTarget( 0, "CARD_QUERY_CHOOSE_DEAL_1_DAMAGE", EffectDC():Make_Targets( 2 ))
+    </PLAY_TIME_ACTION>
+    <RESOLUTION_TIME_ACTION>
+    local i=0
+    while MTG():EffectDataChest():Get_Targets(i) ~= nil do
+    	local target_chest = MTG():EffectDataChest():Get_Targets(i)
+    	local target_card = target_chest:Get_CardPtr(0)    
+    	local target_player = target_chest:Get_PlayerPtr(0)        
+    	if target_card ~= nil or target_player ~= nil then            
+    		local damage_to_deal = 1        
+    		local j = i+1         
+    		while MTG():EffectDataChest():Get_Targets(j) ~= nil do         
+    		
+    			if target_card ~= nil then      
+    				if target_card == MTG():EffectDataChest():Get_Targets(j):Get_CardPtr(0) then     
+    					damage_to_deal = damage_to_deal+1     
+    					MTG():EffectDataChest():Get_Targets(j):Set_CardPtr(0, nil)      	
+    				end    
+    			elseif target_player ~= nil then      
+    				if target_player == MTG():EffectDataChest():Get_Targets(j):Get_PlayerPtr(0) then     
+    					damage_to_deal = damage_to_deal+1     
+    					MTG():EffectDataChest():Get_Targets(j):Set_PlayerPtr(0, nil)      				
+    				end    
+    			end        
+    			
+    			j=j+1     
+    		end
+    			
+    		local source = EffectSource()
+    		if source == nil then
+    			source = Object()
+    		end
+    	
+    		if target_card ~= nil then    
+    			target_card:DealDamage( damage_to_deal, source )     
+    		elseif target_player ~= nil then    
+    			target_player:DealDamage( damage_to_deal, source )     
+    		end        
+    	end        
+    	i=i+1  
+    end
+    </RESOLUTION_TIME_ACTION>
+    <SFX text="TARGET_BITE_PLAY" />
+  </TRIGGERED_ABILITY>
+  <SFX text="COMBAT_BITE_LARGE_ATTACK" power_boundary_min="4" power_boundary_max="-1" />
+  <SFX text="COMBAT_BITE_SMALL_ATTACK" power_boundary_min="1" power_boundary_max="3" />
+</CARD_V2>

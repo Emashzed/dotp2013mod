@@ -1,0 +1,75 @@
+﻿<?xml version='1.0'?>
+<CARD_V2>
+  <FILENAME text="SCROLL_OF_GRISELBRAND_888240177" />
+  <CARDNAME text="SCROLL_OF_GRISELBRAND" />
+  <TITLE>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Scroll of Griselbrand]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Pergamena di Griselbrand]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Griselbrands Schriftrolle]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Parchemin de Griselbrand]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Pergamino de Griselbrand]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[グリセルブランドの巻物]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[그리즐브랜드의 두루마리]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Свиток Гризельбранда]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Pergaminho de Griselbrand]]></LOCALISED_TEXT>
+  </TITLE>
+  <MULTIVERSEID value="888240177" />
+  <ARTID value="888240177" />
+  <ARTIST name="Cliff Childs" />
+  <CASTING_COST cost="{1}" />
+  <FLAVOURTEXT>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Words no eyes should see, telling of things no sane mind could fathom.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Parole su cui nessun occhio dovrebbe posarsi, che rivelano cose che nessuna mente sana potrebbe comprendere.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Sie enthält Worte, die kein Auge sehen sollte und die von Dingen erzählen, die kein gesunder Geist begreifen könnte.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Des mots que nul œil ne devrait voir, évoquant des choses inenvisageables par un esprit sain.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Palabras que los ojos no deberían ver y que hablan de cosas que una mente cuerda no podría comprender.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[目にすべきではない言葉の数々、正気では推し量れない事柄を語る。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[누구도 봐서는 안 되며, 온전한 정신을 가진 자는 이해할 수 없는 글이다.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Эти слова не должен видеть никто, ибо ведают они о вещах, которые нельзя осознать, находясь в здравом уме.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Palavras que ninguém deveria ver, falando de coisas que nenhuma mente sã compreenderia.]]></LOCALISED_TEXT>
+  </FLAVOURTEXT>
+  <TYPE metaname="Artifact" />
+  <EXPANSION value="DPG" />
+  <RARITY metaname="C" />
+  <ACTIVATED_ABILITY dangerous="1" filter_zone="ZONE_IN_PLAY">
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[{1}, Sacrifice Scroll of Griselbrand: Target opponent discards a card. If you control a Demon, that player loses 3 life.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[{1}, Sacrifica la Pergamena di Griselbrand: Un avversario bersaglio scarta una carta. Se controlli un Demone, quel giocatore perde 3 punti vita.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[{1}, opfere Griselbrands Schriftrolle: Ein Gegner deiner Wahl wirft eine Karte aus seiner Hand ab. Falls du einen Dämon kontrollierst, verliert dieser Spieler 3 Lebenspunkte.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[{1}, sacrifiez le Parchemin de Griselbrand : L’adversaire ciblé se défausse d’une carte. Si vous contrôlez un démon, ce joueur perd 3 points de vie.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[{1}, sacrificar el Pergamino de Griselbrand: El oponente objetivo descarta una carta. Si controlas un Demonio, ese jugador pierde 3 vidas.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[{1}, グリセルブランドの巻物を生け贄に捧げる：対戦相手１人を対象とする。そのプレイヤーはカードを１枚捨てる。あなたがデーモンをコントロールしている場合、そのプレイヤーは３点のライフを失う。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[{1}, 그리즐브랜드의 두루마리를 희생한다: 상대 한 명을 목표로 정한다. 그 플레이어는 카드 한 장을 버린다. 당신이 악마를 조종한다면, 그 플레이어는 생명 3점을 잃는다.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[{1}, пожертвуйте Свиток Гризельбранда: целевой оппонент сбрасывает карту. Если под вашим контролем есть Демон, тот игрок теряет 3 жизни.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[{1}, Sacrifique Pergaminho de Griselbrand: O oponente alvo descarta um card. Se você controla um Demônio, aquele jogador perde 3 pontos de vida.]]></LOCALISED_TEXT>
+    <COST type="Mana" cost="{1}" />
+    <COST type="SacrificeSelf" />
+    <TARGET_DEFINITION id="0">
+    local filter = Object():GetFilter()
+    filter:Clear()
+    filter:SetFilterType( FILTER_TYPE_PLAYERS + FILTER_TYPE_OPPONENTS)
+    filter:SetOwner( EffectController() )
+    filter:SetHint( HINT_ENEMY_ONLY, EffectController() )
+    </TARGET_DEFINITION>
+    <TARGET_DETERMINATION>
+    return AtLeastOneTargetFromDefinition(0)
+    </TARGET_DETERMINATION>
+    <PLAY_TIME_ACTION target_choosing="1">
+    EffectController():ChooseTarget( 0, "CARD_QUERY_CHOOSE_PLAYER_DISCARD_1", EffectDC():Make_Targets(0) )
+    </PLAY_TIME_ACTION>
+    <RESOLUTION_TIME_ACTION>
+    local player = EffectDC():Get_Targets(0):Get_PlayerPtr(0)
+    local filter = Object():GetFilter()
+    filter:Clear()
+    filter:AddSubType( CREATURE_TYPE_DEMON )
+    filter:SetZone( ZONE_IN_PLAY )
+	filter:SetController( EffectController() )
+    local demon_count = filter:CountStopAt(1)
+    if player ~= nil then
+       player:DiscardNCards( 1, "CARD_QUERY_CHOOSE_CARD_TO_DISCARD" )
+       if demon_count == 1 then
+          player:LoseLife( 3 )
+       end
+    end
+    </RESOLUTION_TIME_ACTION>
+  </ACTIVATED_ABILITY>
+</CARD_V2>
