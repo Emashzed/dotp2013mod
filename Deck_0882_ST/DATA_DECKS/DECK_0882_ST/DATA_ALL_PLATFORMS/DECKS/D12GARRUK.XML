@@ -1,4 +1,4 @@
-<DECK personality="D12GARRUK.XML" deck_box_image="D12GARRUK" deck_box_image_locked="locked" content_pack="0" uid="882" preview_card="thrun" is_green="true">
+<DECK personality="D12GARRUK.XML" deck_box_image="D12GARRUK" deck_box_image_locked="locked" content_pack="0" always_available="true" uid="882" preview_card="thrun" is_green="true">
   <DECKSTATISTICS Size="7" Speed="6" Flex="3" Syn="5" />
   <CARD name="NATURES_LORE_276955" deckOrderId="0" />
   <CARD name="NATURES_LORE_276955" deckOrderId="1" />

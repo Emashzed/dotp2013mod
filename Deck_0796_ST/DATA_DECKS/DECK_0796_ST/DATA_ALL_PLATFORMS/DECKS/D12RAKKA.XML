@@ -1,4 +1,4 @@
-<DECK personality="D12RAKKA.XML" deck_box_image="D12RAKKA" deck_box_image_locked="locked" content_pack="0" uid="796" preview_card="blitzhell" is_blue="true" is_red="true" is_green="true">
+<DECK personality="D12RAKKA.XML" deck_box_image="D12RAKKA" deck_box_image_locked="locked" content_pack="0" uid="796" always_available="true" preview_card="blitzhell" is_blue="true" is_red="true" is_green="true">
   <DECKSTATISTICS Size="7" Speed="6" Flex="6" Syn="6" />
   <LandConfig minIsland="4" minMountain="5" minForest="6" numSpellsThatCountAsLand="3" />
   <CARD name="HELLSPARK_ELEMENTAL_888174799" deckOrderId="0" />

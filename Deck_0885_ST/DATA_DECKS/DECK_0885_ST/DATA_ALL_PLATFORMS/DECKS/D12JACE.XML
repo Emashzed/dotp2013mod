@@ -1,4 +1,4 @@
-<DECK personality="D12JACE.XML" deck_box_image="D12JACE" deck_box_image_locked="locked" content_pack="0" uid="885" preview_card="illusory" is_blue="true">
+<DECK personality="D12JACE.XML" deck_box_image="D12JACE" deck_box_image_locked="locked" content_pack="0" always_available="true" uid="885" preview_card="illusory" is_blue="true">
   <DECKSTATISTICS Size="8" Speed="7" Flex="4" Syn="4" />
   <CARD name="PHANTASMAL_BEAR_888220251" deckOrderId="0" />
   <CARD name="PHANTASMAL_BEAR_888220251" deckOrderId="1" />

@@ -1,4 +1,4 @@
-<DECK personality="C13_GOLGARI_DEFAULT.XML" deck_box_image="D13_Golgari" deck_box_image_locked="locked" content_pack="0" uid="893" preview_card="sepulchral_strength" is_black="true" is_green="true">
+<DECK personality="C13_GOLGARI_DEFAULT.XML" deck_box_image="D13_Golgari" deck_box_image_locked="locked" content_pack="0" uid="893" always_available="true" preview_card="sepulchral_strength" is_black="true" is_green="true">
   <DECKSTATISTICS Size="6" Speed="4" Flex="6" Syn="8" />
   <LandConfig minSwamp="5" minForest="5" numSpellsThatCountAsLand="4" />
   <CARD name="VULTUROUS_ZOMBIE_277248@2" deckOrderId="0" />

@@ -1,4 +1,4 @@
-<DECK personality="D12SORIN.XML" deck_box_image="D12SORIN" deck_box_image_locked="locked" content_pack="0" uid="888" preview_card="nocturnus" is_black="true">
+<DECK personality="D12SORIN.XML" deck_box_image="D12SORIN" deck_box_image_locked="locked" content_pack="0" uid="888" always_available="true" preview_card="nocturnus" is_black="true">
   <DECKSTATISTICS Size="8" Speed="7" Flex="6" Syn="6" />
   <CARD name="VAMPIRE_LACERATOR_888192225" deckOrderId="0" />
   <CARD name="VAMPIRE_LACERATOR_888192225" deckOrderId="1" />

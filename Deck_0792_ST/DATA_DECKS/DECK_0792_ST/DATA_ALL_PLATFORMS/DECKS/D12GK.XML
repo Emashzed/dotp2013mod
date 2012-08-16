@@ -1,4 +1,4 @@
-<DECK personality="D12GK.XML" deck_box_image="D12GK" deck_box_image_locked="locked" content_pack="0" uid="792" preview_card="gm" is_black="true">
+<DECK personality="D12GK.XML" deck_box_image="D12GK" deck_box_image_locked="locked" content_pack="0" always_available="true" uid="792" preview_card="gm" is_black="true">
   <DECKSTATISTICS Size="8" Speed="6" Flex="4" Syn="4" />
   <CARD name="DEATH_BARON_888205322" deckOrderId="0" />
   <CARD name="DEATH_BARON_888205322" deckOrderId="1" />

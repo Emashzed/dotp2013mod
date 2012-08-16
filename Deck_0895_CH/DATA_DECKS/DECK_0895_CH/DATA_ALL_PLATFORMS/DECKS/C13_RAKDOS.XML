@@ -1,4 +1,4 @@
-<DECK personality="C13_RAKDOS_DEFAULT.XML" deck_box_image="D13_Rakdos" deck_box_image_locked="locked" content_pack="0" uid="895" preview_card="grinning_malice" is_black="true" is_red="true">
+<DECK personality="C13_RAKDOS_DEFAULT.XML" deck_box_image="D13_Rakdos" deck_box_image_locked="locked" content_pack="0" uid="895" always_available="true" preview_card="grinning_malice" is_black="true" is_red="true">
   <DECKSTATISTICS Size="6" Speed="6" Flex="8" Syn="4" />
   <LandConfig minSwamp="5" minMountain="5" numSpellsThatCountAsLand="4" />
   <CARD name="HELLHOLE_RATS_276791@3" deckOrderId="0" />
