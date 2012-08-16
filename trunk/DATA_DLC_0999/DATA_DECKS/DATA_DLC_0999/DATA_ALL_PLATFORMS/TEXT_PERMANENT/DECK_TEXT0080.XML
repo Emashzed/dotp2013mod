@@ -35,7 +35,7 @@
   </Style>
  </Styles>
  <Worksheet ss:Name="Sheet4">
-  <Table ss:ExpandedColumnCount="256" ss:ExpandedRowCount="87" x:FullColumns="1"
+  <Table ss:ExpandedColumnCount="256" ss:ExpandedRowCount="91" x:FullColumns="1"
    x:FullRows="1" ss:DefaultColumnWidth="66" ss:DefaultRowHeight="15">
    <Column ss:Width="216.75"/>
    <Column ss:Width="54"/>
@@ -460,6 +460,18 @@
     <Cell><Data ss:Type="String">Strength of Stone</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">DECK_SLAUGHTERHOUSE</Data></Cell>
+    <Cell ss:Index="3"><Data ss:Type="String">Slaughterhouse</Data></Cell>
+    <Cell><Data ss:Type="String">Abattoir</Data></Cell>
+    <Cell><Data ss:Type="String">Matadero</Data></Cell>
+    <Cell><Data ss:Type="String">Schlachthaus</Data></Cell>
+    <Cell><Data ss:Type="String">Macello</Data></Cell>
+    <Cell ss:Index="9"><Data ss:Type="String">食肉処理場</Data></Cell>
+    <Cell><Data ss:Type="String">도살장</Data></Cell>
+    <Cell><Data ss:Type="String">Cкотобойня</Data></Cell>
+    <Cell><Data ss:Type="String">Matadouro</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
     <Cell><Data ss:Type="String">DECK_SOLITARY_FIENDS</Data></Cell>
     <Cell ss:Index="3"><Data ss:Type="String">Solitary Fiends</Data></Cell>
     <Cell><Data ss:Type="String">Démons Solitaires</Data></Cell>
@@ -855,6 +867,18 @@
     <Cell><Data ss:Type="String">Exemplar Cavaleiro</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">PLAYER_NAME_KNIGHT_OF_THE_RELIQUARY</Data></Cell>
+    <Cell ss:Index="3"><Data ss:Type="String">Knight of the Reliquary</Data></Cell>
+    <Cell><Data ss:Type="String">Chevalière du Reliquaire</Data></Cell>
+    <Cell><Data ss:Type="String">Caballero del Relicario</Data></Cell>
+    <Cell><Data ss:Type="String">Ritter des Reliquienschreins</Data></Cell>
+    <Cell><Data ss:Type="String">Cavaliere del Reliquiario</Data></Cell>
+    <Cell ss:Index="9"><Data ss:Type="String">聖遺の騎士</Data></Cell>
+    <Cell><Data ss:Type="String">Knight of the Reliquary</Data></Cell>
+    <Cell><Data ss:Type="String">Рыцарь Реликвария</Data></Cell>
+    <Cell><Data ss:Type="String">Cavaleiro do Relicário</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
     <Cell><Data ss:Type="String">PLAYER_NAME_KOTH_OLD</Data></Cell>
     <Cell ss:Index="3"><Data ss:Type="String">Koth of the Hammer</Data></Cell>
     <Cell><Data ss:Type="String">Koth du Marteau</Data></Cell>
@@ -901,6 +925,18 @@
     <Cell><Data ss:Type="String">니콜 볼라스</Data></Cell>
     <Cell><Data ss:Type="String">Никол Болас</Data></Cell>
     <Cell><Data ss:Type="String">Nicol Bolas</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">PLAYER_NAME_SLAUGHTERHOUSE</Data></Cell>
+    <Cell ss:Index="3"><Data ss:Type="String">Demonlord of Ashmouth</Data></Cell>
+    <Cell><Data ss:Type="String">Seigneur démon de Cendregueule</Data></Cell>
+    <Cell><Data ss:Type="String">Señor demonio de Bocaceniza</Data></Cell>
+    <Cell><Data ss:Type="String">Dämonenfürst des Aschenmauls</Data></Cell>
+    <Cell><Data ss:Type="String">Signore dei Demoni di Fauci di Cenere</Data></Cell>
+    <Cell ss:Index="9"><Data ss:Type="String">灰口の悪魔王</Data></Cell>
+    <Cell><Data ss:Type="String">애쉬마우스의 악마군주</Data></Cell>
+    <Cell><Data ss:Type="String">Владыка Пепельной Пропасти</Data></Cell>
+    <Cell><Data ss:Type="String">Senhor Demônio de Boca Cinzenta</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
     <Cell><Data ss:Type="String">PLAYER_NAME_SOLITARY_FIENDS</Data></Cell>
@@ -987,18 +1023,6 @@
     <Cell><Data ss:Type="String">Verdeloth, o Antigo</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
-    <Cell><Data ss:Type="String">PLAYER_NAME_KNIGHT_OF_THE_RELIQUARY</Data></Cell>
-    <Cell ss:Index="3"><Data ss:Type="String">Knight of the Reliquary</Data></Cell>
-    <Cell><Data ss:Type="String">Chevalière du Reliquaire</Data></Cell>
-    <Cell><Data ss:Type="String">Caballero del Relicario</Data></Cell>
-    <Cell><Data ss:Type="String">Ritter des Reliquienschreins</Data></Cell>
-    <Cell><Data ss:Type="String">Cavaliere del Reliquiario</Data></Cell>
-    <Cell ss:Index="9"><Data ss:Type="String">聖遺の騎士</Data></Cell>
-    <Cell><Data ss:Type="String">Knight of the Reliquary</Data></Cell>
-    <Cell><Data ss:Type="String">Рыцарь Реликвария</Data></Cell>
-    <Cell><Data ss:Type="String">Cavaleiro do Relicário</Data></Cell>
-   </Row>
-   <Row ss:AutoFitHeight="0">
     <Cell><Data ss:Type="String">Z_DECK_AFFINITY</Data></Cell>
     <Cell ss:Index="3"><Data ss:Type="String">Affinity for Trouble</Data></Cell>
     <Cell><Data ss:Type="String">Affinité pour les Ennuis</Data></Cell>
@@ -1033,6 +1057,18 @@
     <Cell><Data ss:Type="String">White Knight Rises</Data></Cell>
     <Cell><Data ss:Type="String">White Knight Rises</Data></Cell>
     <Cell><Data ss:Type="String">White Knight Rises</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Z_DECK_MAVERICK</Data></Cell>
+    <Cell ss:Index="3"><Data ss:Type="String">Maverick</Data></Cell>
+    <Cell><Data ss:Type="String">Maverick</Data></Cell>
+    <Cell><Data ss:Type="String">Maverick</Data></Cell>
+    <Cell><Data ss:Type="String">Maverick</Data></Cell>
+    <Cell><Data ss:Type="String">Maverick</Data></Cell>
+    <Cell ss:Index="9"><Data ss:Type="String">Maverick</Data></Cell>
+    <Cell><Data ss:Type="String">Maverick</Data></Cell>
+    <Cell><Data ss:Type="String">Maverick</Data></Cell>
+    <Cell><Data ss:Type="String">Maverick</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
     <Cell><Data ss:Type="String">Z_DECK_METALGOB</Data></Cell>
@@ -1106,18 +1142,6 @@
     <Cell><Data ss:Type="String">Fiery Mountains</Data></Cell>
     <Cell><Data ss:Type="String">Fiery Mountains</Data></Cell>
    </Row>
-   <Row ss:AutoFitHeight="0">
-    <Cell><Data ss:Type="String">Z_DECK_MAVERICK</Data></Cell>
-    <Cell ss:Index="3"><Data ss:Type="String">Maverick</Data></Cell>
-    <Cell><Data ss:Type="String">Maverick</Data></Cell>
-    <Cell><Data ss:Type="String">Maverick</Data></Cell>
-    <Cell><Data ss:Type="String">Maverick</Data></Cell>
-    <Cell><Data ss:Type="String">Maverick</Data></Cell>
-    <Cell ss:Index="9"><Data ss:Type="String">Maverick</Data></Cell>
-    <Cell><Data ss:Type="String">Maverick</Data></Cell>
-    <Cell><Data ss:Type="String">Maverick</Data></Cell>
-    <Cell><Data ss:Type="String">Maverick</Data></Cell>
-   </Row>
   </Table>
   <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
    <PageSetup>
@@ -1132,11 +1156,11 @@
     <VerticalResolution>600</VerticalResolution>
    </Print>
    <Selected/>
+   <TopRowVisible>75</TopRowVisible>
    <Panes>
     <Pane>
      <Number>3</Number>
-     <ActiveRow>1</ActiveRow>
-     <RangeSelection>R2C1:R87C12</RangeSelection>
+     <ActiveRow>92</ActiveRow>
     </Pane>
    </Panes>
    <ProtectObjects>False</ProtectObjects>
