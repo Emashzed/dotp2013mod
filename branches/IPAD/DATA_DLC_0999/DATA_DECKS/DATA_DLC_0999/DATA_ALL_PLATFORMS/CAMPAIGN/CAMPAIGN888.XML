@@ -5,8 +5,8 @@
 	</node>
 	
 	<node id="2" type = "two player duel" trial="true" name_tag="PLAYER_NAME_KOTH_OLD" locked_description_tag="CAMPAIGN_NODE_DESCRIPTION_LOCKED_GENERIC" available_description_tag="CAMPAIGN_NODE_DESCRIPTION_AVAILABLE_PLANESWALKER_DECK_UNLOCK" complete_description_tag="CAMPAIGN_NODE_DESCRIPTION_COMPLETE_GENERIC" x="-261" small_x = "-601" size = "2" plane = "1" always_available = "true">
-		<opponent name="PLAYER_NAME_KOTH_OLD" deck="DECK_KOTH_OLD" planeswalker_desc = "PLANESWALKER_DESC_GARRUK_WILDSPEAKER_1" />
-		<unlock deck="DECK_KOTH_OLD" />
+		<opponent name="PLAYER_NAME_KOTH_OLD" deck="D12KOTH_OLD" planeswalker_desc = "PLANESWALKER_DESC_GARRUK_WILDSPEAKER_1" />
+		<unlock deck="D12KOTH_OLD" />
 	</node>
 	
 	<node id="3" trial="true" type = "two player duel"  name_tag="PLAYER_NAME_D12BEKNIGHTED" locked_description_tag="CAMPAIGN_NODE_DESCRIPTION_LOCKED_GENERIC" available_description_tag="CAMPAIGN_NODE_DESCRIPTION_AVAILABLE_PLANESWALKER_DECK_UNLOCK" complete_description_tag="CAMPAIGN_NODE_DESCRIPTION_COMPLETE_GENERIC" x="-76" small_x = "-554" size = "1" plane = "1" >

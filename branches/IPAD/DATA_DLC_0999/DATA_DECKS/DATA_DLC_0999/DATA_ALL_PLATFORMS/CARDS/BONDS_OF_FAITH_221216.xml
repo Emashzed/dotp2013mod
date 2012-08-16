@@ -1,0 +1,94 @@
+<?xml version='1.0'?>
+<CARD_V2>
+  <FILENAME text="BONDS_OF_FAITH_221216" />
+  <CARDNAME text="BONDS_OF_FAITH" />
+  <TITLE>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Bonds of Faith]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Schiavitù della Fede]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Bindungen des Glaubens]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Liens de foi]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Vínculos de fe]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[信仰の縛め]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[Bonds of Faith]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Узы Веры]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Laços de Fé]]></LOCALISED_TEXT>
+  </TITLE>
+  <MULTIVERSEID value="221216" />
+  <ARTID value="888221216" />
+  <ARTIST name="Steve Argyle" />
+  <CASTING_COST cost="{1}{W}" />
+  <FLAVOURTEXT>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA["What cannot be destroyed will be bound."—Oath of Avacyn]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA["Ciò che non può essere distrutto sarà costretto in schiavitù."—Giuramento di Avacyn]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[„Was nicht zerstört werden kann, wird gebunden."—Avacyns Eid]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[« Ce qui ne peut être détruit sera emprisonné. »—Serment d'Avacyn]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA["Lo que no puede ser destruido, será atado."—Juramento de Avacyn]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[「破壊し得ぬ物は縛られるであろう。」アヴァシンの誓約]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA["What cannot be destroyed will be bound."—Oath of Avacyn]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[«Что не может быть уничтожено, будет заковано».— Клятва Авацины]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA["O que não puder ser destruído será amarrado."— Juramento de Avacyn]]></LOCALISED_TEXT>
+  </FLAVOURTEXT>
+  <TYPE metaname="Enchantment" />
+  <SUB_TYPE metaname="Aura" order_de-DE="0" order_es-ES="0" order_fr-FR="0" order_it-IT="0" order_jp-JA="0" order_ko-KR="0" order_pt-BR="0" order_ru-RU="0" />
+  <EXPANSION value="DPG" />
+  <RARITY metaname="C" />
+  <STATIC_ABILITY attach_filter="1" filter_zone="ZONE_IN_PLAY">
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Enchant creature]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Incanta creatura]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Kreaturenverzauberung]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Enchanter : créature]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Encantar criatura.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[エンチャント（クリーチャー）]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[Enchant creature]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Зачаровать существо]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Encantar criatura]]></LOCALISED_TEXT>
+    <CONTINUOUS_ACTION>
+    local attach_filter = Object():AttachmentFilter_Get()
+    attach_filter:Clear()
+    attach_filter:AddCardType( CARD_TYPE_CREATURE )
+    </CONTINUOUS_ACTION>
+  </STATIC_ABILITY>
+  <STATIC_ABILITY filter_zone="ZONE_IN_PLAY">
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Enchanted creature gets +2/+2 as long as it's a Human. Otherwise, it can't attack or block.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[La creatura incantata prende +2/+2 fintanto che è un Umano. Altrimenti, non può attaccare o bloccare.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Die verzauberte Kreatur erhält +2/+2, solange sie ein Mensch ist. Anderenfalls kann sie nicht angreifen oder blocken.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[La créature enchantée gagne +2/+2 tant qu'elle est un humain. Sinon, elle ne peut ni attaquer ni bloquer.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[La criatura encantada obtiene +2/+2 mientras sea Humano. De lo contrario, no puede atacar o bloquear.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[エンチャントされているクリーチャーは、それが人間であるかぎり＋２/＋２の修整を受ける。 そうでないかぎり、それは攻撃したりブロックしたりできない。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[Enchanted creature gets +2/+2 as long as it's a Human. Otherwise, it can't attack or block.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Зачарованное существо получает +2/+2, пока оно является Человеком. В противном случае оно не может атаковать или блокировать.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[A criatura encantada recebe +2/+2 enquanto é do tipo Humano. Do contrário, ela não pode atacar nem bloquear.]]></LOCALISED_TEXT>
+	<CONTINUOUS_ACTION layer="6">
+    local parent = Object():GetParent()
+    if parent ~= nil then
+		if (parent:GetSubType():Test( CREATURE_TYPE_HUMAN ) ~= 0) then
+            parent:GetCurrentCharacteristics():Power_Add( 2 )
+            parent:GetCurrentCharacteristics():Toughness_Add( 2 )
+        else
+            parent:GetCurrentCharacteristics():Characteristic_Set( CHARACTERISTIC_CANT_ATTACK, 1 )
+            parent:GetCurrentCharacteristics():Characteristic_Set( CHARACTERISTIC_CANT_BLOCK, 1 )
+		end
+    end
+    </CONTINUOUS_ACTION>
+  </STATIC_ABILITY>
+  <SPELL_ABILITY attach_filter="1" dangerous="1" filter_zone="ZONE_IN_PLAY">
+    <TARGET_DEFINITION id="0">
+    local filter = Object():GetFilter()
+    filter:Clear()
+    filter:AddCardType( CARD_TYPE_CREATURE )
+    filter:SetZone( ZONE_IN_PLAY )
+    </TARGET_DEFINITION>
+    <TARGET_DETERMINATION>
+    return AtLeastOneTargetFromDefinition(0)
+    </TARGET_DETERMINATION>
+    <PLAY_TIME_ACTION target_choosing="1">
+    EffectController():ChooseTarget( 0, "CARD_QUERY_CHOOSE_CREATURE_TO_ENCHANT", EffectDC():Make_Targets(0) )
+    </PLAY_TIME_ACTION>
+    <RESOLUTION_TIME_ACTION>
+    local target_card = EffectDC():Get_Targets(0):Get_CardPtr(0)
+    if target_card ~= nil then
+    	Object():Enchant( target_card )
+    end
+    </RESOLUTION_TIME_ACTION>
+  </SPELL_ABILITY>
+</CARD_V2>
