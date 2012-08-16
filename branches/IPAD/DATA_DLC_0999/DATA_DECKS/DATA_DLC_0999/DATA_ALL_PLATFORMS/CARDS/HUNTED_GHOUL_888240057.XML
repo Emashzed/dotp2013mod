@@ -1,0 +1,58 @@
+﻿<?xml version='1.0'?>
+<CARD_V2>
+  <FILENAME text="HUNTED_GHOUL_888240057" />
+  <CARDNAME text="HUNTED_GHOUL" />
+  <TITLE>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Hunted Ghoul]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Ghoul Braccato]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Gejagter Ghul]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Goule au rabais]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Necrófago perseguido]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[狩り立てられたグール]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[쫓기는 악귀]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Преследуемый Упырь]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Carniçal Caçado]]></LOCALISED_TEXT>
+  </TITLE>
+  <MULTIVERSEID value="888240057" />
+  <ARTID value="888240057" />
+  <ARTIST name="Ryan Pancoast" />
+  <CASTING_COST cost="{B}" />
+  <FLAVOURTEXT>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Even after Hanweir was saved, Gisa’s lost ghouls would shamble through, still following the twisted orders of their imprisoned master.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Persino dopo che Hanweir fu salva, i ghoul disorientati di Gisa si trascinavano seguendo gli ordini contorti della loro signora, nonostante languisse in prigione.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Selbst nachdem Hennweier gerettet war, schlurften Gisas verlorene Ghule hindurch, um die wirren Befehle ihrer eingesperrten Meisterin zu befolgen.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Le sauvetage de Hanweir n’empêcha pas les goules perdues de Gisa de poursuivre leur errance, obéissant toujours aux instructions tordues d’une maîtresse désormais sous les verrous.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Incluso tras la salvación de Hanweir, los necrófagos perdidos de Gisa seguían merodeando en cumplimiento de las retorcidas órdenes de su ama encerrada.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[ギサのグールは、ハンウィアーが救われた後も徘徊している。牢獄に入れられた主人の屈折した命令に今でも従っているのだ。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[한웨이르가 구조된 후에도 감금된 기샤의 명령에 따라 방랑하는 악귀들이 종종 목격되었다.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Даже после спасения Ханвира разбежавшиеся упыри Джизы бродили по округе, пытаясь выполнить последние приказы схваченной госпожи.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Mesmo depois de Hanweir ser salva, os carniçais perdidos de Gisa ainda vagaram, seguindo as ordens doentias de sua mestra encarcerada.]]></LOCALISED_TEXT>
+  </FLAVOURTEXT>
+  <TYPE metaname="Creature" />
+  <SUB_TYPE metaname="Zombie" />
+  <EXPANSION value="DPG" />
+  <RARITY metaname="C" />
+  <POWER value="1" />
+  <TOUGHNESS value="2" />
+  <TRIGGERED_ABILITY internal="1" pre_trigger="1">
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Hunted Ghoul can’t block Humans.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Il Ghoul Braccato non può bloccare Umani.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Der Gejagte Ghul kann Menschen nicht blocken.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[La Goule au rabais ne peut pas bloquer les humains.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[El Necrófago perseguido no puede bloquear Humanos.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[狩り立てられたグールでは人間をブロックできない。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[쫓기는 악귀는 인간을 방어할 수 없다.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Преследуемый Упырь не может блокировать существ с типом Человек.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Carniçal Caçado não pode bloquear Humanos.]]></LOCALISED_TEXT>
+    <TRIGGER value="EVASION_TEST">
+    if TriggerObject():GetSubType():Test( CREATURE_TYPE_HUMAN ) ~= 0 then
+    	if SecondaryObject() == Object() then
+    		return true
+    	end
+    end
+    return false
+    </TRIGGER>
+  </TRIGGERED_ABILITY>
+  <SFX text="COMBAT_BITE_LARGE_ATTACK" power_boundary_min="4" power_boundary_max="-1" />
+  <SFX text="COMBAT_BITE_SMALL_ATTACK" power_boundary_min="1" power_boundary_max="3" />
+</CARD_V2>

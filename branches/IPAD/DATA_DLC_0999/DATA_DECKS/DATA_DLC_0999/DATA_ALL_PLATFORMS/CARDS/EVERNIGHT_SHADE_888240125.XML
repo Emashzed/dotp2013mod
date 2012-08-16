@@ -1,0 +1,77 @@
+﻿<?xml version='1.0'?>
+<CARD_V2>
+  <FILENAME text="EVERNIGHT_SHADE_888240125" />
+  <CARDNAME text="EVERNIGHT_SHADE" />
+  <TITLE>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Evernight Shade]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Ombra della Notte Eterna]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Dauernacht-Schatten]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Ombre de la nuit pérenne]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Sombra de la noche eterna]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[常夜の影]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[영원한 밤의 그림자]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Тень Вечной Ночи]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Sombra da Noite Perene]]></LOCALISED_TEXT>
+  </TITLE>
+  <MULTIVERSEID value="888240125" />
+  <ARTID value="888240125" />
+  <ARTIST name="Nic Klein" />
+  <CASTING_COST cost="{3}{B}" />
+  <TYPE metaname="Creature" />
+  <SUB_TYPE metaname="Shade" />
+  <EXPANSION value="DPG" />
+  <RARITY metaname="U" />
+  <POWER value="1" />
+  <TOUGHNESS value="1" />
+  <ACTIVATED_ABILITY firebreathing="1" filter_zone="ZONE_IN_PLAY">
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[{B}: Evernight Shade gets +1/+1 until end of turn.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[{B}: L’Ombra della Notte Eterna prende +1/+1 fino alla fine del turno.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[{B}: Der Dauernacht-Schatten erhält +1/+1 bis zum Ende des Zuges.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[{B} : L’Ombre de la nuit pérenne gagne +1/+1 jusqu’à la fin du tour.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[{B}: La Sombra de la noche eterna obtiene +1/+1 hasta el final del turno.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[{B}：常夜の影はターン終了時まで＋１/＋１の修整を受ける。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[{B}: 영원한 밤의 그림자는 턴종료까지 +1/+1을 받는다.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[{B}: Тень Вечной Ночи получает +1/+1 до конца хода.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[{B}: Sombra da Noite Perene recebe +1/+1 até o final do turno.]]></LOCALISED_TEXT>
+    <COST type="Mana" cost="{B}" />
+    <CONTINUOUS_ACTION layer="7C">
+    local characteristics = Object():GetCurrentCharacteristics()  characteristics:Power_Add( 1 )  characteristics:Toughness_Add( 1 )
+    </CONTINUOUS_ACTION>
+    <DURATION simple_duration="UntilEOT" />
+    <AI_AVAILABILITY step="declare_blockers" />
+    <AI_AVAILABILITY type="in_response_dangerous" />
+  </ACTIVATED_ABILITY>
+  <TRIGGERED_ABILITY badge="BADGE_UNDYING" filter_zone="ZONE_IN_PLAY">
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Undying |(When this creature dies, if it had no +1/+1 counters on it, return it to the battlefield under its owner’s control with a +1/+1 counter on it.)|]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Immortale |(Quando questa creatura muore, se non aveva segnalini +1/+1, rimettila sul campo di battaglia sotto il controllo del suo proprietario con un segnalino +1/+1.)|]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Unverwüstlich |(Wenn diese Kreatur stirbt und keine +1/+1-Marke auf ihr lag, bringe sie mit einer +1/+1-Marke unter der Kontrolle ihres Besitzers ins Spiel zurück.)|]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Survivance |(Quand cette créature meurt, si elle n’avait pas de marqueurs +1/+1 sur elle, renvoyez-la sur le champ de bataille sous le contrôle de son propriétaire avec un marqueur +1/+1 sur elle.)|]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Resiliencia. |(Cuando esta criatura muera, si no tenía contadores +1/+1 sobre ella, regrésala al campo de batalla bajo el control de su propietario con un contador +1/+1.)|]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[不死 （このクリーチャーが死亡したとき、それの上に＋１/＋１カウンターが置かれていなかった場合、それを＋１/＋１カウンターが１個置かれた状態でオーナーのコントロール下で戦場に戻す。）]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[불사 (이 생물이 죽을 때 +1/+1 카운터를 가지고 있지 않았다면, 이 생물을 +1/+1 카운터 한 개를 가진 채로 소유자의 조종하에 전장으로 되돌린다.)]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Нетленность |(Когда это существо умирает, если на нем не было ни одного жетона +1/+1, верните его на поле битвы под контролем его владельца с одним жетоном +1/+1 на нем.)|]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Imortal |(Quando esta criatura morrer, se ela não tiver nenhum marcador +1/+1, devolva-a ao campo de batalha sob o controle de seu dono com um marcador +1/+1.)|]]></LOCALISED_TEXT>
+    <TRIGGER value="ZONECHANGE_BEGIN" simple_qualifier="self" to_zone="ZONE_GRAVEYARD" from_zone="ZONE_IN_PLAY">
+    if (Object():CountCounters( MTG():PlusOnePlusOneCounters() ) == 0) then
+      EffectDC():Protect_CardPtr(COMPARTMENT_ID_EFFECT_SOURCE)
+      return true
+    else
+      return false
+    end
+    </TRIGGER>
+    <RESOLUTION_TIME_ACTION>
+    if EffectSource() ~= nil then
+    	EffectDC():Protect_CardPtr(COMPARTMENT_ID_EFFECT_SOURCE)
+    	EffectSource():PutIntoPlay( EffectSource():GetOwner() )     
+    end
+    </RESOLUTION_TIME_ACTION>
+    <RESOLUTION_TIME_ACTION>
+    if EffectSource() ~= nil then
+    	EffectSource():AddCounters( MTG():PlusOnePlusOneCounters(), 1 )
+    end
+    </RESOLUTION_TIME_ACTION>
+  </TRIGGERED_ABILITY>
+  <HELP title="MORE_INFO_BADGE_TITLE_34" body="MORE_INFO_BADGE_BODY_34" zone="ZONE_ANY" />
+  <SFX text="COMBAT_BITE_LARGE_ATTACK" power_boundary_min="4" power_boundary_max="-1" />
+  <SFX text="COMBAT_BITE_SMALL_ATTACK" power_boundary_min="1" power_boundary_max="3" />
+</CARD_V2>

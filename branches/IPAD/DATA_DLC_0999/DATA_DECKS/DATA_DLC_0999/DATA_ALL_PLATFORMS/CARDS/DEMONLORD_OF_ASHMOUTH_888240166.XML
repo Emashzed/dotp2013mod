@@ -1,0 +1,117 @@
+﻿<?xml version='1.0'?>
+<CARD_V2>
+  <FILENAME text="DEMONLORD_OF_ASHMOUTH_888240166" />
+  <CARDNAME text="DEMONLORD_OF_ASHMOUTH" />
+  <TITLE>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Demonlord of Ashmouth]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Signore dei Demoni di Fauci di Cenere]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Dämonenfürst des Aschenmauls]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Seigneur démon de Cendregueule]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Señor demonio de Bocaceniza]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[灰口の悪魔王]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[애쉬마우스의 악마군주]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Владыка Пепельной Пропасти]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Senhor Demônio de Boca Cinzenta]]></LOCALISED_TEXT>
+  </TITLE>
+  <MULTIVERSEID value="888240166" />
+  <ARTID value="888240166" />
+  <ARTIST name="Lucas Graciano" />
+  <CASTING_COST cost="{2}{B}{B}" />
+  <TYPE metaname="Creature" />
+  <SUB_TYPE metaname="Demon" />
+  <EXPANSION value="DPG" />
+  <RARITY metaname="R" />
+  <POWER value="5" />
+  <TOUGHNESS value="4" />
+  <STATIC_ABILITY>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Flying]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Volare]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Fliegend]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Vol]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Vuela.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[飛行]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[비행]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Полет]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Voar]]></LOCALISED_TEXT>
+    <CONTINUOUS_ACTION>
+    local characteristics = Object():GetCurrentCharacteristics()
+    characteristics:Characteristic_Set( CHARACTERISTIC_FLYING, 1 )
+    </CONTINUOUS_ACTION>
+  </STATIC_ABILITY>
+  <TRIGGERED_ABILITY>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[When Demonlord of Ashmouth enters the battlefield, exile it unless you sacrifice another creature.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Quando il Signore dei Demoni di Fauci di Cenere entra nel campo di battaglia, esilialo a meno che non sacrifichi un’altra creatura.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Wenn der Dämonenfürst des Aschenmauls ins Spiel kommt, schicke ihn ins Exil, falls du nicht eine andere Kreatur opferst.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Quand le Seigneur démon de Cendregueule arrive sur le champ de bataille, exilez-le à moins que vous ne sacrifiiez une autre créature.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Cuando el Señor demonio de Bocaceniza entre al campo de batalla, exílialo a menos que sacrifiques otra criatura.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[灰口の悪魔王が戦場に出たとき、あなたが他のクリーチャーを１体生け贄に捧げないかぎり、それを追放する。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[애쉬마우스의 악마군주가 전장에 들어올 때, 당신이 다른 생물 한 개를 희생하지 않으면 애쉬마우스의 악마군주를 추방한다.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Когда Владыка Пепельной Пропасти выходит на поле боя, изгоните его, если только вы не пожертвуете другое существо.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Quando Senhor Demônio de Boca Cinzenta entrar no campo de batalha, exile-o, a menos que sacrifique outra criatura.]]></LOCALISED_TEXT>
+    <TRIGGER value="ZONECHANGE_END" simple_qualifier="self" to_zone="ZONE_IN_PLAY" />
+    <COST type="generic" qualifier="conditional">
+      <TARGET_DEFINITION id="0">
+      local filter = Object():GetFilter()
+      filter:Clear()
+      filter:AddCardType( CARD_TYPE_CREATURE )
+      filter:SetPlayer( EffectController() )
+      filter:SetZone( ZONE_IN_PLAY )
+      filter:SetHint( HINT_ALLIED, EffectController() )
+      filter:SetCardInstance( Object() )
+      filter:AddExtra( FILTER_EXTRA_FLIP_CARD_INSTANCE )
+      </TARGET_DEFINITION>
+      <TARGET_DETERMINATION>
+      return AtLeastOneTargetFromDefinition(0)
+      </TARGET_DETERMINATION>
+      <PLAY_TIME_ACTION target_choosing="1">
+      EffectController():ChooseTarget( 0, "CARD_QUERY_CHOOSE_ANOTHER_CREATURE_TO_SACRIFICE", EffectDC():Make_Targets(0) )
+      </PLAY_TIME_ACTION>
+      <RESOLUTION_TIME_ACTION>
+      local target = EffectDC():Get_Targets(0):Get_CardPtr(0)
+      local player = EffectController()
+      if target ~= nil then 
+        target:Sacrifice(player)  
+      end
+      </RESOLUTION_TIME_ACTION></COST>
+    <RESOLUTION_TIME_ACTION conditional="else">
+    local creature = EffectSource()
+    if creature ~= nil then 
+       creature:RemoveFromGame()
+    end
+    </RESOLUTION_TIME_ACTION>
+  </TRIGGERED_ABILITY>
+  <TRIGGERED_ABILITY badge="BADGE_UNDYING" filter_zone="ZONE_IN_PLAY">
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Undying |(When this creature dies, if it had no +1/+1 counters on it, return it to the battlefield under its owner’s control with a +1/+1 counter on it.)|]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Immortale |(Quando questa creatura muore, se non aveva segnalini +1/+1, rimettila sul campo di battaglia sotto il controllo del suo proprietario con un segnalino +1/+1.)|]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Unverwüstlich |(Wenn diese Kreatur stirbt und keine +1/+1-Marke auf ihr lag, bringe sie mit einer +1/+1-Marke unter der Kontrolle ihres Besitzers ins Spiel zurück.)|]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Survivance |(Quand cette créature meurt, si elle n’avait pas de marqueurs +1/+1 sur elle, renvoyez-la sur le champ de bataille sous le contrôle de son propriétaire avec un marqueur +1/+1 sur elle.)|]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Resiliencia. |(Cuando esta criatura muera, si no tenía contadores +1/+1 sobre ella, regrésala al campo de batalla bajo el control de su propietario con un contador +1/+1.)|]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[不死 （このクリーチャーが死亡したとき、それの上に＋１/＋１カウンターが置かれていなかった場合、それを＋１/＋１カウンターが１個置かれた状態でオーナーのコントロール下で戦場に戻す。）]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[불사 (이 생물이 죽을 때 +1/+1 카운터를 가지고 있지 않았다면, 이 생물을 +1/+1 카운터 한 개를 가진 채로 소유자의 조종하에 전장으로 되돌린다.)]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Нетленность |(Когда это существо умирает, если на нем не было ни одного жетона +1/+1, верните его на поле битвы под контролем его владельца с одним жетоном +1/+1 на нем.)|]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Imortal |(Quando esta criatura morrer, se ela não tiver nenhum marcador +1/+1, devolva-a ao campo de batalha sob o controle de seu dono com um marcador +1/+1.)|]]></LOCALISED_TEXT>
+    <TRIGGER value="ZONECHANGE_BEGIN" simple_qualifier="self" to_zone="ZONE_GRAVEYARD" from_zone="ZONE_IN_PLAY">
+    if (Object():CountCounters( MTG():PlusOnePlusOneCounters() ) == 0) then
+      EffectDC():Protect_CardPtr(COMPARTMENT_ID_EFFECT_SOURCE)
+      return true
+    else
+      return false
+    end
+    </TRIGGER>
+    <RESOLUTION_TIME_ACTION>
+    if EffectSource() ~= nil then
+    	EffectDC():Protect_CardPtr(COMPARTMENT_ID_EFFECT_SOURCE)
+    	EffectSource():PutIntoPlay( EffectSource():GetOwner() )     
+    end
+    </RESOLUTION_TIME_ACTION>
+    <RESOLUTION_TIME_ACTION>
+    if EffectSource() ~= nil then
+    	EffectSource():AddCounters( MTG():PlusOnePlusOneCounters(), 1 )
+    end
+    </RESOLUTION_TIME_ACTION>
+  </TRIGGERED_ABILITY>
+  <HELP title="MORE_INFO_BADGE_TITLE_10" body="MORE_INFO_BADGE_BODY_10" zone="ZONE_ANY" />
+  <HELP title="MORE_INFO_BADGE_TITLE_34" body="MORE_INFO_BADGE_BODY_34" zone="ZONE_ANY" />
+  <SFX text="COMBAT_CHOP_LARGE_ATTACK" power_boundary_min="4" power_boundary_max="-1" />
+  <SFX text="COMBAT_CHOP_SMALL_ATTACK" power_boundary_min="1" power_boundary_max="3" />
+</CARD_V2>
