@@ -1,0 +1,39 @@
+﻿<?xml version='1.0'?>
+<CARD_V2>
+  <FILENAME text="RAGING_POLTERGEIST_888240188" />
+  <CARDNAME text="RAGING_POLTERGEIST" />
+  <TITLE>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Raging Poltergeist]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Poltergeist Rabbioso]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Tobender Poltergeist]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Poltergeist enragé]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Poltergeist furioso]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[怒れるポルターガイスト]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[분노한 폴터가이스트]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Разъяренный Полтергейст]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Poltergeist Furioso]]></LOCALISED_TEXT>
+  </TITLE>
+  <MULTIVERSEID value="888240188" />
+  <ARTID value="888240188" />
+  <ARTIST name="Slawomir Maniak" />
+  <CASTING_COST cost="{4}{R}" />
+  <FLAVOURTEXT>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Some tried cremating their dead to stop the ghoulcallers. But the dead returned, furious about their fate.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Alcuni cremarono i loro morti per tentare di fermare gli evocaghoul. Ma i morti ritornarono, infuriati per la propria sorte.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Einige versuchten, ihre Toten zu verbrennen, um die Ghulrufer aufzuhalten. Doch die Toten kehrten zurück und waren über ihr Schicksal schrecklich wütend.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Certains incinérèrent leurs morts pour tenter de mettre un terme aux méfaits des meneurs de goule. Mais les morts revinrent quand même, furieux du sort qu’on leur avait fait subir.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Algunos quemaron a sus muertos para tratar de detener a los llamamuertos. Pero los muertos regresaron, enfurecidos por su destino.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[グール呼びを押しとどめるために死者を火葬にしようとする者もいた。 それでも死者は蘇り、己の境遇に怒り狂っていた。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[일부 사람들은 악귀소환술사들이 시신을 되살리지 못하도록 시체를 불태웠지만, 시체들은 불타고 열이 단단히 오른 채로 되살아났다.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Многие сжигали трупы мертвецов, чтобы остановить призывателей упырей. Но мертвые возвращались, очень недовольные своей судьбой.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Alguns tentaram queimar seus mortos para deter os invocadores de carniçais. Porém, os mortos voltaram, furiosos com o próprio destino.]]></LOCALISED_TEXT>
+  </FLAVOURTEXT>
+  <TYPE metaname="Creature" />
+  <SUB_TYPE metaname="Spirit" />
+  <EXPANSION value="DPG" />
+  <RARITY metaname="C" />
+  <POWER value="6" />
+  <TOUGHNESS value="1" />
+  <SFX text="COMBAT_FIREBALL_LARGE_ATTACK" power_boundary_min="4" power_boundary_max="-1" />
+  <SFX text="COMBAT_FIREBALL_SMALL_ATTACK" power_boundary_min="1" power_boundary_max="3" />
+</CARD_V2>
