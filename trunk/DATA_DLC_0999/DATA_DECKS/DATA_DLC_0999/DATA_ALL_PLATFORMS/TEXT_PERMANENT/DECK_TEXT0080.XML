@@ -244,6 +244,18 @@
     <Cell><Data ss:Type="String">Ancient Depths</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">D12KOTH_OLD</Data></Cell>
+    <Cell ss:Index="3"><Data ss:Type="String">Strength of Stone</Data></Cell>
+    <Cell><Data ss:Type="String">Force de la pierre</Data></Cell>
+    <Cell><Data ss:Type="String">Fuerza de la piedra</Data></Cell>
+    <Cell><Data ss:Type="String">Stärke des Steins</Data></Cell>
+    <Cell><Data ss:Type="String">Forza della Pietra</Data></Cell>
+    <Cell ss:Index="9"><Data ss:Type="String">石の力</Data></Cell>
+    <Cell><Data ss:Type="String">Strength of Stone</Data></Cell>
+    <Cell><Data ss:Type="String">Strength of Stone</Data></Cell>
+    <Cell><Data ss:Type="String">Strength of Stone</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
     <Cell><Data ss:Type="String">D12NISSA</Data></Cell>
     <Cell ss:Index="3"><Data ss:Type="String">Guardians of the Wood</Data></Cell>
     <Cell><Data ss:Type="String">Gardiens des bois</Data></Cell>
@@ -446,18 +458,6 @@
     <Cell><Data ss:Type="String">천사하는데</Data></Cell>
     <Cell><Data ss:Type="String">Ангельские Мощи</Data></Cell>
     <Cell><Data ss:Type="String">Angélico Poder</Data></Cell>
-   </Row>
-   <Row ss:AutoFitHeight="0">
-    <Cell><Data ss:Type="String">DECK_KOTH_OLD</Data></Cell>
-    <Cell ss:Index="3"><Data ss:Type="String">Strength of Stone</Data></Cell>
-    <Cell><Data ss:Type="String">Force de la pierre</Data></Cell>
-    <Cell><Data ss:Type="String">Fuerza de la piedra</Data></Cell>
-    <Cell><Data ss:Type="String">Stärke des Steins</Data></Cell>
-    <Cell><Data ss:Type="String">Forza della Pietra</Data></Cell>
-    <Cell ss:Index="9"><Data ss:Type="String">石の力</Data></Cell>
-    <Cell><Data ss:Type="String">Strength of Stone</Data></Cell>
-    <Cell><Data ss:Type="String">Strength of Stone</Data></Cell>
-    <Cell><Data ss:Type="String">Strength of Stone</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
     <Cell><Data ss:Type="String">DECK_SLAUGHTERHOUSE</Data></Cell>
