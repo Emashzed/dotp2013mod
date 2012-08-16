@@ -1,0 +1,61 @@
+<?xml version='1.0'?>
+<CARD_V2>
+  <FILENAME text="GNAW_TO_THE_BONE_247420" />
+  <CARDNAME text="GNAW_TO_THE_BONE" />
+  <TITLE>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Gnaw to the Bone]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Rosicchiare Fino all'Osso]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Bis auf die Knochen abnagen]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Ronger jusqu'à l'os]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Roer hasta el hueso]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[骨までの齧りつき]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[Gnaw to the Bone]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Обгладывание Костей]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Roer até os Ossos]]></LOCALISED_TEXT>
+  </TITLE>
+  <MULTIVERSEID value="247420" />
+  <ARTID value="888247420" />
+  <ARTIST name="Scott Chou" />
+  <CASTING_COST cost="{2}{G}" />
+  <FLASHBACK_COST cost="{2}{G}" />
+  <TYPE metaname="Instant" />
+  <EXPANSION value="DPG" />
+  <RARITY metaname="C" />
+  <SPELL_ABILITY>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[You gain 2 life for each creature card in your graveyard.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Guadagni 2 punti vita per ogni carta creatura nel tuo cimitero.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Du erhältst für jede Kreatur-Karte auf deinem Friedhof 2 Lebenspunkte dazu.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Vous gagnez 2 points de vie pour chaque carte de créature dans votre cimetière.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Gana 2 vidas por cada carta de criatura que haya en tu cementerio.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[あなたは、あなたの墓地にあるクリーチャー・カード１枚につき２点のライフを得る。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[You gain 2 life for each creature card in your graveyard.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Вы получаете 2 жизни за каждую карту существа на вашем кладбище.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Você ganha 2 pontos de vida para cada card de criatura no seu cemitério.]]></LOCALISED_TEXT>
+    <RESOLUTION_TIME_ACTION>
+    local player = EffectController()
+    local filter = Object():GetFilter()
+    local creature_count
+    filter:Clear()
+    filter:AddCardType(CARD_TYPE_CREATURE)
+    filter:SetZone(ZONE_GRAVEYARD)
+    filter:SetPlayer( player )
+    creature_count = filter:Count()
+    if creature_count ~= 0 then
+      if (player ~= nil) then
+         player:GainLife(creature_count * 2)
+      end
+    end
+    </RESOLUTION_TIME_ACTION>
+  </SPELL_ABILITY>
+  <SPELL_ABILITY>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Flashback {2}{G} (You may cast this card from your graveyard for its flashback cost. Then exile it.)]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Flashback {2}{G} (Puoi lanciare questa carta dal tuo cimitero pagando il suo costo di flashback. Poi esiliala.)]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Rückblende {2}{G} (Du kannst diese Karte aus deinem Friedhof für ihre Rückblendekosten wirken. Schicke sie danach ins Exil.)]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Flashback {2}{G} (Vous pouvez lancer cette carte depuis votre cimetière pour son coût de flashback. Puis exilez-la.)]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Retrospectiva {2}{G}. (Puedes lanzar esta carta desde tu cementerio pagando su coste de retrospectiva. Luego exíliala.)]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[フラッシュバック {2}{G} （あなたはフラッシュバック・コストで、このカードをあなたの墓地から唱えてもよい。その後、それを追放する。）]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[Flashback {2}{G} (You may cast this card from your graveyard for its flashback cost. Then exile it.)]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Воспоминание {2}{G} (Вы можете разыграть эту карту из вашего кладбища за ее стоимость Воспоминания. Затем изгоните ее.)]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Recapitular {2}{G} (Você pode conjurar este card de seu cemitério pagando seu custo de recapitular. Depois, exile-o.)]]></LOCALISED_TEXT>
+  </SPELL_ABILITY>
+</CARD_V2>

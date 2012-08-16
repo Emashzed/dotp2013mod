@@ -1,0 +1,41 @@
+<DECK personality="D13_BONEHOARD.XML" deck_box_image="ED_DEATHFED" deck_box_image_locked="locked" content_pack="0" uid="912" preview_card="blanko" always_available="true" is_blue="true" is_green="true" >
+  <DECKSTATISTICS Size="8" Speed="2" Flex="2" Syn="6" />
+  <LandConfig minSwamp="3"/>
+  <CARD name="MISTY_RAINFOREST_190413" deckOrderId="0" />
+  <CARD name="ACIDIC_SLIME_277100" deckOrderId="1" />
+  <CARD name="ACIDIC_SLIME_277100" deckOrderId="2" />
+  <CARD name="ARMORED_SKAAB_244685" deckOrderId="3" />
+  <CARD name="ARMORED_SKAAB_244685" deckOrderId="4" />
+  <CARD name="ARMORED_SKAAB_244685" deckOrderId="5" />
+  <CARD name="ARMORED_SKAAB_244685" deckOrderId="6" />
+  <CARD name="BONEYARD_WURM_220050" deckOrderId="7" />
+  <CARD name="BONEYARD_WURM_220050" deckOrderId="8" />
+  <CARD name="BONEYARD_WURM_220050" deckOrderId="9" />
+  <CARD name="BONEYARD_WURM_220050" deckOrderId="10" />
+  <CARD name="LLANOWAR_ELVES_888221892" deckOrderId="11" />
+  <CARD name="LLANOWAR_ELVES_888221892" deckOrderId="12" />
+  <CARD name="LLANOWAR_ELVES_888221892" deckOrderId="13" />
+  <CARD name="LLANOWAR_ELVES_888221892" deckOrderId="14" />
+  <CARD name="MERFOLK_LOOTER_888220179" deckOrderId="15" />
+  <CARD name="MERFOLK_LOOTER_888220179" deckOrderId="16" />
+  <CARD name="SPLINTERFRIGHT_227301" deckOrderId="17" />
+  <CARD name="SPLINTERFRIGHT_227301" deckOrderId="18" />
+  <CARD name="VIRIDIAN_EMISSARY_277141" deckOrderId="19" />
+  <CARD name="VIRIDIAN_EMISSARY_277141" deckOrderId="20" />
+  <CARD name="VIRIDIAN_EMISSARY_277141" deckOrderId="21" />
+  <CARD name="BONEHOARD_214040" deckOrderId="22" />
+  <CARD name="BONEHOARD_214040" deckOrderId="23" />
+  <CARD name="FORBIDDEN_ALCHEMY_226758" deckOrderId="24" />
+  <CARD name="FORBIDDEN_ALCHEMY_226758" deckOrderId="25" />
+  <CARD name="FORBIDDEN_ALCHEMY_226758" deckOrderId="26" />
+  <CARD name="FORBIDDEN_ALCHEMY_226758" deckOrderId="27" />
+  <CARD name="GNAW_TO_THE_BONE_247420" deckOrderId="28" />
+  <CARD name="GREEN_SUNS_ZENITH_221559" deckOrderId="29" />
+  <CARD name="MULCH_5194" deckOrderId="30" />
+  <CARD name="MULCH_5194" deckOrderId="31" />
+  <CARD name="MULCH_5194" deckOrderId="32" />
+  <CARD name="MULCH_5194" deckOrderId="33" />
+  <CARD name="RATCHET_BOMB_205482" deckOrderId="34" />
+  <CARD name="SPIDER_SPAWNING_222175" deckOrderId="35" />
+  <CARD name="SPIDER_SPAWNING_222175" deckOrderId="36" />
+</DECK>

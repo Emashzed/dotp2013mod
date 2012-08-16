@@ -43,36 +43,30 @@
     <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Procure em seu grimório um card de criatura verde com custo de mana convertido menor ou igual a X, coloque-o no campo de batalha e depois embaralhe seu grimório. Embaralhe Zênite do Sol Verde no grimório de seu dono.]]></LOCALISED_TEXT>
     <RESOLUTION_TIME_ACTION>
     local filter = Object():GetFilter()
-    EffectController():MarkSearchedLibrary()
+    local effectController = EffectController()
+    effectController:MarkSearchedLibrary()
     filter:Clear()
     filter:NotTargetted()
-    filter:AddCardType( CARD_TYPE_CREATURE )
+    filter:AddCardType( CARD_TYPE_CREATURE ) 
     filter:AddColour( COLOUR_GREEN )
-    filter:SetZone( ZONE_LIBRARY )
-    filter:SetPlayer( EffectController() )
     filter:SetConvertedCostMax( GetObjectX() )
-    local sorter = MTG():GetTargetSorter()
-    sorter:Clear()
-    sorter:Add( TARGET_SORT_TYPE_SCORE, TARGET_SORT_POLARITY_ALLIED )
-    sorter:SetAIWidth(1)
-    EffectController():SetTargetCount(1)
-    EffectController():SetTargetPrompt( 0, "CARD_QUERY_CHOOSE_CREATURE_TO_PUT_ONTO_BATTLEFIELD" )
-    EffectController():ChooseTargetsWithFlags( NO_VALIDATION, EffectDC():Make_Targets(0), QUERY_FLAG_USE_TARGET_SORTER )
+    filter:SetZone( ZONE_LIBRARY )
+    filter:SetPlayer( effectController )                           
+    effectController:ChooseTarget( NO_VALIDATION, "CARD_QUERY_CHOOSE_CREATURE_TO_PUT_ONTO_BATTLEFIELD", EffectDC():Make_Targets(0) )
     </RESOLUTION_TIME_ACTION>
     <RESOLUTION_TIME_ACTION>
-    if EffectDC() ~= nil then
+    if EffectDC() ~= nil then 
     	local target = EffectDC():Get_Targets(0):Get_CardPtr(0)
-    	if target ~= nil then
+    	if  target ~= nil then
     		target:PutIntoPlay( EffectController() )
     	end
     end
     </RESOLUTION_TIME_ACTION>
     <RESOLUTION_TIME_ACTION>
-    EffectController():ShuffleLibrary()
+    Object():SetResolutionZone(ZONE_LIBRARY)
     </RESOLUTION_TIME_ACTION>
     <RESOLUTION_TIME_ACTION>
-    Object():SetResolutionZone( ZONE_LIBRARY )
+    EffectController():ShuffleLibrary()
     </RESOLUTION_TIME_ACTION>
   </SPELL_ABILITY>
-  <AI_BASE_SCORE score="1200" zone="ZONE_HAND" />
 </CARD_V2>

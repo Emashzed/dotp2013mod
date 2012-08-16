@@ -1,0 +1,73 @@
+<?xml version='1.0'?>
+<CARD_V2>
+  <FILENAME text="FORBIDDEN_ALCHEMY_226758" />
+  <CARDNAME text="FORBIDDEN_ALCHEMY" />
+  <TITLE>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Forbidden Alchemy]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Alchimia Proibita]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Verbotene Alchemie]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Alchimie interdite]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Alquimia prohibida]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[禁忌の錬金術]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[Forbidden Alchemy]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Запретная Алхимия]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Alquimia Proibida]]></LOCALISED_TEXT>
+  </TITLE>
+  <MULTIVERSEID value="226758" />
+  <ARTID value="888226758" />
+  <ARTIST name="David Rapoza" />
+  <CASTING_COST cost="{2}{U}" />
+  <FLASHBACK_COST cost="{6}{B}" />
+  <TYPE metaname="Instant" />
+  <EXPANSION value="DPG" />
+  <RARITY metaname="C" />
+  <SPELL_ABILITY>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Look at the top four cards of your library. Put one of them into your hand and the rest into your graveyard.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Guarda le prime quattro carte del tuo grimorio. Aggiungine una alla tua mano e metti le altre nel tuo cimitero.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Schaue dir die obersten vier Karten deiner Bibliothek an. Nimm eine davon auf deine Hand und lege den Rest auf deinen Friedhof.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Regardez les quatre cartes du dessus de votre bibliothèque. Mettez l'une d'entre elles dans votre main et le reste dans votre cimetière.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Mira las primeras cuatro cartas de tu biblioteca. Pon una de ellas en tu mano y el resto en tu cementerio.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[あなたのライブラリーの一番上から４枚のカードを見る。 そのうち１枚をあなたの手札に加え、残りをあなたの墓地に置く。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[Look at the top four cards of your library. Put one of them into your hand and the rest into your graveyard.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Посмотрите четыре верхние карты вашей библиотеки. Положите одну из них в вашу руку, а остальные — на ваше кладбище.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Olhe os quatro cards do topo de seu grimório. Coloque um deles na sua mão e o restante em seu cemitério.]]></LOCALISED_TEXT>
+   <RESOLUTION_TIME_ACTION>
+    local filter = Object():GetFilter()
+    local player = EffectController()
+    filter:Clear()
+    filter:NotTargetted()
+    filter:SetPlayer( player )
+    filter:SetZone( ZONE_LIBRARY )
+    filter:SetPortion( 4 )
+    player:SetTargetCount( 1 )
+    player:ChooseTarget( NO_VALIDATION, "CARD_QUERY_CHOOSE_CARD_TO_PUT_INTO_HAND", EffectDC():Make_Targets( 1 ) )
+    </RESOLUTION_TIME_ACTION>
+    <RESOLUTION_TIME_ACTION>
+    local targetDC = EffectDC():Get_Targets(1)
+    if targetDC ~= nil then
+       local target_card = targetDC:Get_NthCardPtr(0)
+       for i=0,3 do
+          local card = Object():GetPlayer():Library_GetNth(0)
+          if card ~= nil then
+             if card == target_card then
+                card:PutInHand()
+             else
+                card:PutInGraveyard()
+             end
+          end
+       end
+    end
+    </RESOLUTION_TIME_ACTION>
+  </SPELL_ABILITY>
+  <SPELL_ABILITY>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Flashback {6}{B} (You may cast this card from your graveyard for its flashback cost. Then exile it.)]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Flashback {6}{B} (Puoi lanciare questa carta dal tuo cimitero pagando il suo costo di flashback. Poi esiliala.)]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Rückblende {6}{B} (Du kannst diese Karte aus deinem Friedhof für ihre Rückblendekosten wirken. Schicke sie danach ins Exil.)]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Flashback {6}{B} (Vous pouvez lancer cette carte depuis votre cimetière pour son coût de flashback. Puis exilez-la.)]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Retrospectiva {6}{B}. (Puedes lanzar esta carta desde tu cementerio pagando su coste de retrospectiva. Luego exíliala.)]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[フラッシュバック {6}{B} （あなたはフラッシュバック・コストで、このカードをあなたの墓地から唱えてもよい。その後、それを追放する。）]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[Flashback {6}{B} (You may cast this card from your graveyard for its flashback cost. Then exile it.)]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Воспоминание {6}{B} (Вы можете разыграть эту карту из вашего кладбища за ее стоимость Воспоминания. Затем изгоните ее.)]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Recapitular {6}{B} (Você pode conjurar este card de seu cemitério pagando seu custo de recapitular. Depois, exile-o.)]]></LOCALISED_TEXT>
+  </SPELL_ABILITY>
+</CARD_V2>

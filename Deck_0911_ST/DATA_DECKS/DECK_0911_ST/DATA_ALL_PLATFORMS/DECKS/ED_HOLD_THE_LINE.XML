@@ -1,4 +1,4 @@
-<DECK personality="D13_CHAMPION_OF_THE_PARISH.XML" deck_box_image="D13_HOLD_THE_LINE" deck_box_image_locked="locked" content_pack="0" uid="910" preview_card="blanko" always_available="true" is_white="true" >
+<DECK personality="D13_CHAMPION_OF_THE_PARISH.XML" deck_box_image="D13_HOLD_THE_LINE" deck_box_image_locked="locked" content_pack="0" uid="911" preview_card="blanko" always_available="true" is_white="true" >
   <DECKSTATISTICS Size="6" Speed="8" Flex="4" Syn="6" />
   <CARD name="ACCORDER_PALADIN_277124" deckOrderId="0" />
   <CARD name="ACCORDER_PALADIN_277124" deckOrderId="1" />
