@@ -1,0 +1,60 @@
+﻿<?xml version='1.0'?>
+<CARD_V2>
+  <FILENAME text="SPIDER_SPAWNING_222175" />
+  <CARDNAME text="SPIDER_SPAWNING" />
+  <TITLE>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Spider Spawning]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Proliferazione di Ragni]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Spinnenvermehrung]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Frayère de l’araignée]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Desove arácnido]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[蜘蛛の発生]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[Spider Spawning]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Рассадник Пауков]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Procriação de Aranha]]></LOCALISED_TEXT>
+  </TITLE>
+  <MULTIVERSEID value="222175" />
+  <ARTID value="888222175" />
+  <ARTIST name="Daniel Ljunggren" />
+  <CASTING_COST cost="{4}{G}" />
+  <FLASHBACK_COST cost="{6}{B}" />
+  <TYPE metaname="Sorcery" />
+  <EXPANSION value="ISD" />
+  <RARITY metaname="U" />
+  <SPELL_ABILITY filter_zone="ZONE_IN_PLAY">
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Put a 1/2 green Spider creature token with reach onto the battlefield for each creature card in your graveyard.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Metti sul campo di battaglia una pedina creatura Ragno 1/2 verde con raggiungere per ogni carta creatura nel tuo cimitero.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Bringe für jede Kreatur-Karte in deinem Friedhof einen 1/2 grünen Spinne-Kreaturenspielstein mit Reichweite ins Spiel.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Mettez sur le champ de bataille un jeton de créature 1/2 verte Araignée avec la portée pour chaque carte de créature dans votre cimetière.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Pon en el campo de batalla una ficha de criatura Araña verde 1/2 con la habilidad de alcance por cada carta de criatura en tu cementerio.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[あなたの墓地にあるクリーチャー・カード１枚につき、到達を持つ緑の１/２の蜘蛛・クリーチャー・トークンを１体戦場に出す。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[Put a 1/2 green Spider creature token with reach onto the battlefield for each creature card in your graveyard.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Положите на поле битвы одну фишку существа 1/2 зеленый Паук с Захватом за каждую карту существа на вашем кладбище.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Coloque no campo de batalha uma ficha de criatura verde 1/2 do tipo Aranha com alcance para cada card de criatura no seu cemitério.]]></LOCALISED_TEXT>
+    <RESOLUTION_TIME_ACTION>
+    local filter = Object():GetFilter()
+    filter:Clear()
+    filter:AddCardType( CARD_TYPE_CREATURE )
+    filter:SetZone( ZONE_GRAVEYARD )
+    filter:SetPlayer( EffectController() )
+    filter:NotTargetted()
+    local total = filter:Count()
+    if total &gt; 0 then
+    	MTG():PutTokensIntoPlay( "TOKEN_SPIDER_1_2_R_888222175", total, EffectController() )
+    end
+    </RESOLUTION_TIME_ACTION>
+  </SPELL_ABILITY>
+  <SPELL_ABILITY internal="1">
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Flashback {6}{B}]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Flashback {6}{B}]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Rückblende {6}{B}]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Flashback {6}{B}]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Retrospectiva {6}{B}.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[フラッシュバック {6}{B}]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[회상 {6}{B}]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Воспоминание {6}{B}]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Recapitular {6}{B}]]></LOCALISED_TEXT>
+  </SPELL_ABILITY>
+  <TOKEN_REGISTRATION reservation="1" type="TOKEN_SPIDER_1_2_R_888222175" />
+  <HELP title="MORE_INFO_TITLE_FLASHBACK" body="MORE_INFO_BODY_FLASHBACK" zone="ZONE_ANY" />
+</CARD_V2>
