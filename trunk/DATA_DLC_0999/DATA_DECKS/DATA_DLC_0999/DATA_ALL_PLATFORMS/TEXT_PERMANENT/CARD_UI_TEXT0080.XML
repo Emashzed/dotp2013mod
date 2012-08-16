@@ -35,7 +35,7 @@
   </Style>
  </Styles>
  <Worksheet ss:Name="Sheet4">
-  <Table ss:ExpandedColumnCount="12" ss:ExpandedRowCount="59" x:FullColumns="1"
+  <Table ss:ExpandedColumnCount="12" ss:ExpandedRowCount="60" x:FullColumns="1"
    x:FullRows="1" ss:DefaultRowHeight="15">
    <Row ss:AutoFitHeight="0">
     <Cell><Data ss:Type="String">Ident</Data></Cell>
@@ -674,6 +674,18 @@
     <Cell><Data ss:Type="String">Wayback 2012</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">DEADEYE_NAVIGATOR_GRANTED_ABILITY</Data></Cell>
+    <Cell ss:Index="3"><Data ss:Type="String">{1}{U}: Exile this creature, then return it to the battlefield under your control.</Data></Cell>
+    <Cell><Data ss:Type="String">{1}{U} : Exilez cette créature, puis renvoyez-la sur le champ de bataille sous votre contrôle.</Data></Cell>
+    <Cell><Data ss:Type="String">{1}{U}: Exilia a esta criatura, luego regrésala al campo de batalla bajo tu control.</Data></Cell>
+    <Cell><Data ss:Type="String">{1}{U}: Schicke diese Kreatur ins Exil und bringe sie dann unter deiner Kontrolle ins Spiel zurück.</Data></Cell>
+    <Cell><Data ss:Type="String">{1}{U}: Esilia questa creatura, poi rimettila sul campo di battaglia sotto il tuo controllo</Data></Cell>
+    <Cell ss:Index="9"><Data ss:Type="String">{1}{U}: あなたはこのクリーチャーを追放し、その後それをあなたのコントロール下で戦場に戻す。</Data></Cell>
+    <Cell><Data ss:Type="String">{1}{U}: 이 생물을 추방한 후 당신의 조종하에 전장으로 되돌린다.</Data></Cell>
+    <Cell><Data ss:Type="String">{1}{U}: изгоните это существо, затем верните его на поле битвы под вашим контролем.</Data></Cell>
+    <Cell><Data ss:Type="String">{1}{U}: Exile esta criatura e depois a devolva ao campo de batalha sob o seu controle.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
     <Cell><Data ss:Type="String">KICKER_QUERY_BURST_LIGHTNING_KICKED</Data></Cell>
     <Cell ss:Index="3"><Data ss:Type="String">Deal 4 damage to a creature or player.</Data></Cell>
     <Cell><Data ss:Type="String">Infligez 4 blessures à une cible, créature ou joueur.</Data></Cell>
@@ -771,11 +783,11 @@
     <VerticalResolution>600</VerticalResolution>
    </Print>
    <Selected/>
-   <TopRowVisible>21</TopRowVisible>
+   <TopRowVisible>42</TopRowVisible>
    <Panes>
     <Pane>
      <Number>3</Number>
-     <ActiveRow>35</ActiveRow>
+     <ActiveRow>60</ActiveRow>
     </Pane>
    </Panes>
    <ProtectObjects>False</ProtectObjects>
