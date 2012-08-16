@@ -1,0 +1,60 @@
+<?xml version='1.0'?>
+<CARD_V2>
+  <FILENAME text="CHAMPION_OF_THE_PARISH_262861" />
+  <CARDNAME text="CHAMPION_OF_THE_PARISH" />
+  <TITLE>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Champion of the Parish]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Campione del Popolo]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Champion des Sprengels]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Champion de la paroisse]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Campeón de la parroquia]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[教区の勇者]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[Champion of the Parish]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Приходской Заступник]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Campeão da Paróquia]]></LOCALISED_TEXT>
+  </TITLE>
+  <MULTIVERSEID value="262861" />
+  <ARTID value="888262861" />
+  <ARTIST name="Svetlin Velinov" />
+  <CASTING_COST cost="{W}" />
+  <FLAVOURTEXT>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA["I stand for every cobbler, tanner, and fool in this town—and they stand for me."]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA["Rappresento ogni ciabattino, conciatore e sempliciotto di questa città... e loro mi sostengono."]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[„Ich kämpfe für jeden Schuster, jeden Gerber und jeden Dummkopf in dieser Stadt – und sie kämpfen für mich."]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[« Je défends chaque cordonnier, tanneur, et idiot de cette ville, et chacun d'eux fait de même pour moi. »]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA["Estoy aquí por cada zapatero, curtidor y bufón de este pueblo... y ellos están aquí por mí."]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[「私はこの町の靴屋や皮職人や愚か者のために戦う――そして、彼らも私のために戦ってくれる。」]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA["I stand for every cobbler, tanner, and fool in this town—and they stand for me."]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[«Я стою за каждого сапожника, кожевника и юродивого в этом городе, а они стоят за меня».]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA["Eu defendo cada sapateiro, curtidor e tolo nesta cidade — e eles me defendem."]]></LOCALISED_TEXT>
+  </FLAVOURTEXT>
+  <TYPE metaname="Creature" />
+  <SUB_TYPE metaname="Human" order_de-DE="0" order_es-ES="0" order_fr-FR="0" order_it-IT="0" order_jp-JA="0" order_ko-KR="0" order_pt-BR="0" order_ru-RU="0" />
+  <SUB_TYPE metaname="Soldier" order_de-DE="1" order_es-ES="1" order_fr-FR="1" order_it-IT="1" order_jp-JA="1" order_ko-KR="1" order_pt-BR="1" order_ru-RU="1" />
+  <EXPANSION value="DPG" />
+  <RARITY metaname="R" />
+  <POWER value="1" />
+  <TOUGHNESS value="1" />
+  <TRIGGERED_ABILITY filter_zone="ZONE_IN_PLAY">
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Whenever another Human enters the battlefield under your control, put a +1/+1 counter on Champion of the Parish.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Ogniqualvolta un altro Umano entra nel campo di battaglia sotto il tuo controllo, metti un segnalino +1/+1 sul Campione del Popolo.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Immer wenn ein anderer Mensch unter deiner Kontrolle ins Spiel kommt, lege eine +1/+1-Marke auf den Champion des Sprengels.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[À chaque fois qu'un autre humain arrive sur le champ de bataille sous votre contrôle, mettez un marqueur +1/+1 sur le Champion de la paroisse.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Siempre que otro Humano entre al campo de batalla bajo tu control, pon un contador +1/+1 sobre el Campeón de la parroquia.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[他の人間があなたのコントロール下で１体戦場に出るたび、教区の勇者の上に＋１/＋１カウンターを１個置く。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[Whenever another Human enters the battlefield under your control, put a +1/+1 counter on Champion of the Parish.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Каждый раз когда другой Человек выходит на поле битвы под вашим контролем, положите один жетон +1/+1 на Приходского Заступника.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Toda vez que outro Humano entrar no campo de batalha sob o seu controle, coloque um marcador +1/+1 sobre Campeão da Paróquia.]]></LOCALISED_TEXT>
+    <TRIGGER value="ZONECHANGE_END" to_zone="ZONE_IN_PLAY">
+    return (TriggerObject() ~= Object() 
+        and TriggerObject():GetCardType():Test( CARD_TYPE_CREATURE ) ~= 0 
+        and TriggerObject():GetSubType():Test( CREATURE_TYPE_HUMAN ) ~= 0 
+        and TriggerObject():GetPlayer() == EffectController())
+    </TRIGGER>
+    <RESOLUTION_TIME_ACTION>
+    if EffectSource() ~= nil then
+       EffectSource():AddCounters( MTG():PlusOnePlusOneCounters(), 1 )
+    end
+    </RESOLUTION_TIME_ACTION>
+  </TRIGGERED_ABILITY>
+</CARD_V2>

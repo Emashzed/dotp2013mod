@@ -520,6 +520,18 @@
     <Cell><Data ss:Type="String">Zumbi Predador</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">PLAYER_NAME_CHAMPION_OF_THE_PARISH</Data></Cell>
+    <Cell ss:Index="3"><Data ss:Type="String">Champion of the Parish</Data></Cell>
+    <Cell><Data ss:Type="String">Champion de la paroisse</Data></Cell>
+    <Cell><Data ss:Type="String">Campeón de la parroquia</Data></Cell>
+    <Cell><Data ss:Type="String">Champion des Sprengels</Data></Cell>
+    <Cell><Data ss:Type="String">Campione del Popolo</Data></Cell>
+    <Cell ss:Index="9"><Data ss:Type="String">教区の勇者</Data></Cell>
+    <Cell><Data ss:Type="String">Champion of the Parish</Data></Cell>
+    <Cell><Data ss:Type="String">Приходской Заступник</Data></Cell>
+    <Cell><Data ss:Type="String">Campeão da Paróquia</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
     <Cell><Data ss:Type="String">PLAYER_NAME_CIZZET</Data></Cell>
     <Cell ss:Index="3"><Data ss:Type="String">Niv-mizzet, the Firemind</Data></Cell>
     <Cell><Data ss:Type="String">Niv-Mizzet, le Cérébropyre</Data></Cell>
@@ -1021,6 +1033,18 @@
     <Cell><Data ss:Type="String">Verdeloth the Ancient</Data></Cell>
     <Cell><Data ss:Type="String">Древний Верделот</Data></Cell>
     <Cell><Data ss:Type="String">Verdeloth, o Antigo</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">ED_HOLD_THE_LINE</Data></Cell>
+    <Cell ss:Index="3"><Data ss:Type="String">Hold the Line</Data></Cell>
+    <Cell><Data ss:Type="String">Tenir la Position</Data></Cell>
+    <Cell><Data ss:Type="String">Hold the Line</Data></Cell>
+    <Cell><Data ss:Type="String">Hold the Line</Data></Cell>
+    <Cell><Data ss:Type="String">Hold the Line</Data></Cell>
+    <Cell ss:Index="9"><Data ss:Type="String">Hold the Line</Data></Cell>
+    <Cell><Data ss:Type="String">Hold the Line</Data></Cell>
+    <Cell><Data ss:Type="String">Hold the Line</Data></Cell>
+    <Cell><Data ss:Type="String">Hold the Line</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
     <Cell><Data ss:Type="String">Z_DECK_AFFINITY</Data></Cell>
