@@ -1,0 +1,46 @@
+﻿<?xml version='1.0'?>
+<CARD_V2>
+  <FILENAME text="TOKEN_SPIDER_1_2_R_888222175" />
+  <CARDNAME text="SPIDER" />
+  <TITLE>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[SPIDER]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[ARAIGNÉE]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[ARAÑA]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[SPINNE]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[RAGNO]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[蜘蛛]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[거미]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Паук]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[ARANHA]]></LOCALISED_TEXT>
+  </TITLE>
+  <MULTIVERSEID value="888222175" />
+  <ARTID value="S888222175" />
+  <COLOUR value="G" />
+  <ARTIST name="Daniel Ljunggren" />
+  <CASTING_COST cost="" />
+  <TYPE metaname="Creature" />
+  <SUB_TYPE metaname="Spider" />
+  <EXPANSION value="DPG" />
+  <RARITY metaname="T" />
+  <POWER value="1" />
+  <TOUGHNESS value="2" />
+  <TOKEN />
+  <STATIC_ABILITY>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Reach]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Portée]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Alcance.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Reichweite]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Raggiungere]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[到達]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[대공]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Захват]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Alcance]]></LOCALISED_TEXT>
+    <CONTINUOUS_ACTION>
+    local characteristics = Object():GetCurrentCharacteristics()  
+    characteristics:Characteristic_Set( CHARACTERISTIC_REACH, 1 ) 
+    </CONTINUOUS_ACTION>
+  </STATIC_ABILITY>
+  <HELP title="MORE_INFO_BADGE_TITLE_5" body="MORE_INFO_BADGE_BODY_5" zone="ZONE_ANY" />
+  <SFX text="COMBAT_BITE_LARGE_ATTACK" power_boundary_min="4" power_boundary_max="-1" />
+  <SFX text="COMBAT_BITE_SMALL_ATTACK" power_boundary_min="1" power_boundary_max="3" />
+</CARD_V2>

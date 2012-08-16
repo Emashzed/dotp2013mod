@@ -484,6 +484,18 @@
     <Cell><Data ss:Type="String">Demônios Solitários</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">PLAYER_NAME_BONEHOARD</Data></Cell>
+    <Cell ss:Index="3"><Data ss:Type="String">Bonehoard</Data></Cell>
+    <Cell><Data ss:Type="String">Récoltos</Data></Cell>
+    <Cell><Data ss:Type="String">Huesotesoro</Data></Cell>
+    <Cell><Data ss:Type="String">Knochenhort</Data></Cell>
+    <Cell><Data ss:Type="String">Mucchio d'Ossa</Data></Cell>
+    <Cell ss:Index="9"><Data ss:Type="String">骨溜め</Data></Cell>
+    <Cell><Data ss:Type="String">Bonehoard</Data></Cell>
+    <Cell><Data ss:Type="String">Костоклад</Data></Cell>
+    <Cell><Data ss:Type="String">Aglomerado de Ossos</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
     <Cell><Data ss:Type="String">PLAYER_NAME_ANGELIC_MIGHT</Data></Cell>
     <Cell ss:Index="3"><Data ss:Type="String">Serra Angel</Data></Cell>
     <Cell><Data ss:Type="String">Ange de Serra</Data></Cell>
@@ -1033,6 +1045,18 @@
     <Cell><Data ss:Type="String">Verdeloth the Ancient</Data></Cell>
     <Cell><Data ss:Type="String">Древний Верделот</Data></Cell>
     <Cell><Data ss:Type="String">Verdeloth, o Antigo</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">ED_DEATHFED</Data></Cell>
+    <Cell ss:Index="3"><Data ss:Type="String">Deathfed</Data></Cell>
+    <Cell><Data ss:Type="String">Epandage de mort</Data></Cell>
+    <Cell><Data ss:Type="String">Deathfed</Data></Cell>
+    <Cell><Data ss:Type="String">Deathfed</Data></Cell>
+    <Cell><Data ss:Type="String">Deathfed</Data></Cell>
+    <Cell ss:Index="9"><Data ss:Type="String">Deathfed</Data></Cell>
+    <Cell><Data ss:Type="String">Deathfed</Data></Cell>
+    <Cell><Data ss:Type="String">Deathfed</Data></Cell>
+    <Cell><Data ss:Type="String">Deathfed</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
     <Cell><Data ss:Type="String">ED_HOLD_THE_LINE</Data></Cell>
