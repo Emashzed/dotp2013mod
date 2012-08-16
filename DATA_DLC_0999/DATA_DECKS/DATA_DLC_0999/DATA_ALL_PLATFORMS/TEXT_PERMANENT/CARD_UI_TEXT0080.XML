@@ -9,7 +9,7 @@
   <Author>ScrollRack D13</Author>
   <LastAuthor>Anthony</LastAuthor>
   <Created>1980-05-23T00:00:00Z</Created>
-  <LastSaved>2012-07-23T09:03:19Z</LastSaved>
+  <LastSaved>2012-08-16T09:05:42Z</LastSaved>
   <Company>Microsoft Corporation</Company>
   <Version>14.00</Version>
  </DocumentProperties>
@@ -17,10 +17,10 @@
   <AllowPNG/>
  </OfficeDocumentSettings>
  <ExcelWorkbook xmlns="urn:schemas-microsoft-com:office:excel">
-  <WindowHeight>10500</WindowHeight>
+  <WindowHeight>10440</WindowHeight>
   <WindowWidth>14025</WindowWidth>
   <WindowTopX>1965</WindowTopX>
-  <WindowTopY>3225</WindowTopY>
+  <WindowTopY>3285</WindowTopY>
   <ProtectStructure>False</ProtectStructure>
   <ProtectWindows>False</ProtectWindows>
  </ExcelWorkbook>
@@ -35,7 +35,7 @@
   </Style>
  </Styles>
  <Worksheet ss:Name="Sheet4">
-  <Table ss:ExpandedColumnCount="12" ss:ExpandedRowCount="58" x:FullColumns="1"
+  <Table ss:ExpandedColumnCount="12" ss:ExpandedRowCount="59" x:FullColumns="1"
    x:FullRows="1" ss:DefaultRowHeight="15">
    <Row ss:AutoFitHeight="0">
     <Cell><Data ss:Type="String">Ident</Data></Cell>
@@ -460,6 +460,19 @@
     <Cell><Data ss:Type="String">Gostaria que o jogador descartar um card?</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">CARD_QUERY_MC_SOULBOUND</Data></Cell>
+    <Cell><Data ss:Type="String">Mutiple choice title for soulbound</Data></Cell>
+    <Cell><Data ss:Type="String">Do you want to bind with %d ?</Data></Cell>
+    <Cell><Data ss:Type="String">Voulez-vous lier avec %d ?</Data></Cell>
+    <Cell><Data ss:Type="String">¿Quieres enlazar con %d ?</Data></Cell>
+    <Cell><Data ss:Type="String">Wollen Sie mit zu binden %d ?</Data></Cell>
+    <Cell><Data ss:Type="String">Non si desidera associare con %d ?</Data></Cell>
+    <Cell ss:Index="9"><Data ss:Type="String">あなたは %d とのバインドにしたいですか？</Data></Cell>
+    <Cell><Data ss:Type="String">당신이 %d 로 바인딩 하시겠습니까?</Data></Cell>
+    <Cell><Data ss:Type="String">Вы хотите связываться с %d ?</Data></Cell>
+    <Cell><Data ss:Type="String">Você deseja vincular com %d ?</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
     <Cell><Data ss:Type="String">CARD_QUERY_OPTION_CIRCULAR_LOGIC</Data></Cell>
     <Cell ss:Index="3"><Data ss:Type="String">Pay {%d}</Data></Cell>
     <Cell><Data ss:Type="String">Payer {%d}</Data></Cell>
@@ -758,11 +771,11 @@
     <VerticalResolution>600</VerticalResolution>
    </Print>
    <Selected/>
-   <TopRowVisible>36</TopRowVisible>
+   <TopRowVisible>21</TopRowVisible>
    <Panes>
     <Pane>
      <Number>3</Number>
-     <ActiveRow>31</ActiveRow>
+     <ActiveRow>35</ActiveRow>
     </Pane>
    </Panes>
    <ProtectObjects>False</ProtectObjects>
