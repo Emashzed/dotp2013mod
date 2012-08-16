@@ -1,4 +1,4 @@
-<DECK personality="D12NISSA.XML" deck_box_image="D12NISSA" deck_box_image_locked="locked" content_pack="0" uid="889" preview_card="nath" is_green="true" is_black="true">
+<DECK personality="D12NISSA.XML" deck_box_image="D12NISSA" deck_box_image_locked="locked" content_pack="0" uid="889" always_available="true" preview_card="nath" is_green="true" is_black="true">
   <DECKSTATISTICS Size="?" Speed="6" Flex="4" Syn="6" />
   <LandConfig minSwamp="6" minForest="17" />
   <CARD name="IMMACULATE_MAGISTRATE_888139721" deckOrderId="0" />

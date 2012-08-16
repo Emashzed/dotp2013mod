@@ -1,4 +1,4 @@
-<DECK personality="D12KARN.XML" deck_box_image="D12KARN" deck_box_image_locked="locked" content_pack="0" never_available="true" uid="891" preview_card="blanko" is_blue="true">
+<DECK personality="D12KARN.XML" deck_box_image="D12KARN" deck_box_image_locked="locked" content_pack="0" uid="891" always_available="true" preview_card="blanko" is_blue="true">
   <DECKSTATISTICS Size="?" Speed="?" Flex="?" Syn="?" />
   <LandConfig numSpellsThatCountAsLand="4" />
   <CARD name="DARKSTEEL_COLOSSUS_88848158" deckOrderId="0" />

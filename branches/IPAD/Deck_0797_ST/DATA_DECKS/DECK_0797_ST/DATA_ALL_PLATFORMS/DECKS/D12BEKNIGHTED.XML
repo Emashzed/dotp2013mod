@@ -1,4 +1,4 @@
-<DECK personality="D12BEKNIGHTED.XML" deck_box_image="D12BEKNIGHTED" deck_box_image_locked="locked" content_pack="0" uid="797" preview_card="exemplar" is_white="true">
+<DECK personality="D12BEKNIGHTED.XML" deck_box_image="D12BEKNIGHTED" deck_box_image_locked="locked" content_pack="0" always_available="true" uid="797" preview_card="exemplar" is_white="true">
   <DECKSTATISTICS Size="8" Speed="6" Flex="5" Syn="7" />
   <CARD name="ARMORED_ASCENSION_888193738" deckOrderId="0" />
   <CARD name="YOUTHFUL_KNIGHT_8885274" deckOrderId="1" />

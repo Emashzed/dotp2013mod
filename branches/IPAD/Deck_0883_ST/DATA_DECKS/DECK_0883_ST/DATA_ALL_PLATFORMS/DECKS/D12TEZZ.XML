@@ -1,4 +1,4 @@
-<DECK personality="D12TEZZ.XML" deck_box_image="D12TEZZ" deck_box_image_locked="locked" content_pack="0" uid="883" preview_card="magister" is_black="true" is_blue="true" is_white="true">
+<DECK personality="D12TEZZ.XML" deck_box_image="D12TEZZ" deck_box_image_locked="locked" content_pack="0" always_available="true" uid="883" preview_card="magister" is_black="true" is_blue="true" is_white="true">
   <DECKSTATISTICS Size="6" Speed="5" Flex="6" Syn="7" />
   <LandConfig minPlains="3" numSpellsThatCountAsLand="4" />
   <CARD name="TERRAMORPHIC_EXPANSE_276987" deckOrderId="0" />

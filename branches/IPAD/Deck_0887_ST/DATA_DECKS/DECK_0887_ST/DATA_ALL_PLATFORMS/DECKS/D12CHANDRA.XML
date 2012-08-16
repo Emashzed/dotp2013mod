@@ -1,4 +1,4 @@
-<DECK personality="D12CHANDRA.XML" deck_box_image="D12CHANDRA" deck_box_image_locked="locked" content_pack="0" uid="887" preview_card="ballz" is_red="true">
+<DECK personality="D12CHANDRA.XML" deck_box_image="D12CHANDRA" deck_box_image_locked="locked" content_pack="0" always_available="true" uid="887" preview_card="ballz" is_red="true">
   <DECKSTATISTICS Size="6" Speed="6" Flex="8" Syn="4" />
   <CARD name="BANEFIRE_888186613" deckOrderId="0" />
   <CARD name="CHANDRAS_OUTRAGE_277103" deckOrderId="1" />

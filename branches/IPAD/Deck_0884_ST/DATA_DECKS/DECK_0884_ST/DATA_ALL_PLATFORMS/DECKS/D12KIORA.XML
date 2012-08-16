@@ -1,4 +1,4 @@
-<DECK personality="D12KIORA.XML" deck_box_image="D12KIORA" deck_box_image_locked="locked" content_pack="0" uid="884" preview_card="simic" is_blue="true" is_green="true">
+<DECK personality="D12KIORA.XML" deck_box_image="D12KIORA" deck_box_image_locked="locked" content_pack="0" always_available="true" uid="884" preview_card="simic" is_blue="true" is_green="true">
   <DECKSTATISTICS Size="4" Speed="7" Flex="6" Syn="8" />
   <CARD name="COILING_ORACLE_88897106" deckOrderId="0" />
   <CARD name="COILING_ORACLE_88897106" deckOrderId="1" />

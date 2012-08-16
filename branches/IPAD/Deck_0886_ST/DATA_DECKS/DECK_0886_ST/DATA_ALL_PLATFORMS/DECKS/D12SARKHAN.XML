@@ -1,4 +1,4 @@
-<DECK personality="D12SARKHAN.XML" deck_box_image="D12SARKHAN" deck_box_image_locked="locked" content_pack="0" uid="886" preview_card="malfe" is_black="true" is_red="true">
+<DECK personality="D12SARKHAN.XML" deck_box_image="D12SARKHAN" deck_box_image_locked="locked" content_pack="0" always_available="true" uid="886" preview_card="malfe" is_black="true" is_red="true">
   <DECKSTATISTICS Size="6" Speed="4" Flex="7" Syn="7" />
   <CARD name="FURYBORN_HELLKITE_888220103" deckOrderId="0" />
   <CARD name="FESTERING_GOBLIN_888220489" deckOrderId="1" />

@@ -1,4 +1,4 @@
-<DECK personality="D12JURA.XML" deck_box_image="D12JURA" deck_box_image_locked="locked" content_pack="0" uid="890" preview_card="mystic" is_white="true">
+<DECK personality="D12JURA.XML" deck_box_image="D12JURA" deck_box_image_locked="locked" content_pack="0" uid="890" always_available="true" preview_card="mystic" is_white="true">
   <DECKSTATISTICS Size="6" Speed="?" Flex="3" Syn="4" />
   <LandConfig minPlains="6" numSpellsThatCountAsLand="4" />
   <CARD name="ORNITHOPTER_888206331" deckOrderId="0" />
