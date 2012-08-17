@@ -35,7 +35,7 @@
   </Style>
  </Styles>
  <Worksheet ss:Name="Sheet4">
-  <Table ss:ExpandedColumnCount="256" ss:ExpandedRowCount="95" x:FullColumns="1"
+  <Table ss:ExpandedColumnCount="256" ss:ExpandedRowCount="97" x:FullColumns="1"
    x:FullRows="1" ss:DefaultColumnWidth="66" ss:DefaultRowHeight="15">
    <Column ss:Width="216.75"/>
    <Column ss:Width="54"/>
@@ -460,6 +460,18 @@
     <Cell><Data ss:Type="String">Angélico Poder</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">DECK_BOUND_BY_STRENGTH</Data></Cell>
+    <Cell ss:Index="3"><Data ss:Type="String">Bound by Strength</Data></Cell>
+    <Cell><Data ss:Type="String">Liés par la Force</Data></Cell>
+    <Cell><Data ss:Type="String">Obligado por la Fuerza</Data></Cell>
+    <Cell><Data ss:Type="String">Gebunden durch Stärke</Data></Cell>
+    <Cell><Data ss:Type="String">Vincolati da Forza</Data></Cell>
+    <Cell ss:Index="9"><Data ss:Type="String">強さに縛られ</Data></Cell>
+    <Cell><Data ss:Type="String">강도 구속</Data></Cell>
+    <Cell><Data ss:Type="String">Связанные Cилы</Data></Cell>
+    <Cell><Data ss:Type="String">Vinculados por Força</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
     <Cell><Data ss:Type="String">DECK_SLAUGHTERHOUSE</Data></Cell>
     <Cell ss:Index="3"><Data ss:Type="String">Slaughterhouse</Data></Cell>
     <Cell><Data ss:Type="String">Abattoir</Data></Cell>
@@ -530,6 +542,18 @@
     <Cell><Data ss:Type="String">Bonehoard</Data></Cell>
     <Cell><Data ss:Type="String">Костоклад</Data></Cell>
     <Cell><Data ss:Type="String">Aglomerado de Ossos</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">PLAYER_NAME_BOUND_BY_STRENGTH</Data></Cell>
+    <Cell ss:Index="3"><Data ss:Type="String">Elgaud Shieldmate</Data></Cell>
+    <Cell><Data ss:Type="String">Compagnon bouclier d’Elgaud</Data></Cell>
+    <Cell><Data ss:Type="String">Escudante de Elgaud</Data></Cell>
+    <Cell><Data ss:Type="String">Schildmaid aus Ellgau</Data></Cell>
+    <Cell><Data ss:Type="String">Scutifera di Elgaud</Data></Cell>
+    <Cell ss:Index="9"><Data ss:Type="String">エルゴードの盾の仲間</Data></Cell>
+    <Cell><Data ss:Type="String">엘고드 방패병</Data></Cell>
+    <Cell><Data ss:Type="String">Элгодская Заступница</Data></Cell>
+    <Cell><Data ss:Type="String">Escudeiro de Elgaud</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
     <Cell><Data ss:Type="String">PLAYER_NAME_CAZORIUS</Data></Cell>
@@ -1204,11 +1228,10 @@
     <VerticalResolution>600</VerticalResolution>
    </Print>
    <Selected/>
-   <TopRowVisible>80</TopRowVisible>
    <Panes>
     <Pane>
      <Number>3</Number>
-     <ActiveRow>95</ActiveRow>
+     <ActiveRow>1</ActiveRow>
     </Pane>
    </Panes>
    <ProtectObjects>False</ProtectObjects>
