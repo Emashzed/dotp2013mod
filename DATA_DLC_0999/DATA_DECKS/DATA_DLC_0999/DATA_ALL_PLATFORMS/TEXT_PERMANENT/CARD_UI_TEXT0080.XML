@@ -35,7 +35,7 @@
   </Style>
  </Styles>
  <Worksheet ss:Name="Sheet4">
-  <Table ss:ExpandedColumnCount="12" ss:ExpandedRowCount="60" x:FullColumns="1"
+  <Table ss:ExpandedColumnCount="12" ss:ExpandedRowCount="61" x:FullColumns="1"
    x:FullRows="1" ss:DefaultRowHeight="15">
    <Row ss:AutoFitHeight="0">
     <Cell><Data ss:Type="String">Ident</Data></Cell>
@@ -242,6 +242,18 @@
     <Cell><Data ss:Type="String">Choose a creature to get hexproof.</Data></Cell>
     <Cell><Data ss:Type="String">Choose a creature to get hexproof.</Data></Cell>
     <Cell><Data ss:Type="String">Choose a creature to get hexproof.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">CARD_QUERY_CHOOSE_CREATURE_TO_SOULBOND_WITH</Data></Cell>
+    <Cell ss:Index="3"><Data ss:Type="String">Choose a creature to bond with %d .</Data></Cell>
+    <Cell><Data ss:Type="String">Choisissez une créature à se lier avec %d .</Data></Cell>
+    <Cell><Data ss:Type="String">Elige una criatura para vincularse con la %d .</Data></Cell>
+    <Cell><Data ss:Type="String">Wählen Sie eine Kreatur auf die Rentenmärkte mit %d .</Data></Cell>
+    <Cell><Data ss:Type="String">Scegli una creatura di legame con %d .</Data></Cell>
+    <Cell ss:Index="9"><Data ss:Type="String">%d 付社債にクリーチャーを選択してください。</Data></Cell>
+    <Cell><Data ss:Type="String">%d 로 결합으로 생물을 선택합니다.</Data></Cell>
+    <Cell><Data ss:Type="String">Выберите существо связи с %d .</Data></Cell>
+    <Cell><Data ss:Type="String">Escolha uma criatura de vínculo com %d .</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
     <Cell><Data ss:Type="String">CARD_QUERY_CHOOSE_GCARD_TO_PUT_INTO_HAND</Data></Cell>
@@ -783,11 +795,11 @@
     <VerticalResolution>600</VerticalResolution>
    </Print>
    <Selected/>
-   <TopRowVisible>42</TopRowVisible>
+   <TopRowVisible>12</TopRowVisible>
    <Panes>
     <Pane>
      <Number>3</Number>
-     <ActiveRow>60</ActiveRow>
+     <ActiveRow>17</ActiveRow>
     </Pane>
    </Panes>
    <ProtectObjects>False</ProtectObjects>
