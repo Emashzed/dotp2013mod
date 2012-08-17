@@ -7,7 +7,7 @@
  xmlns:html="http://www.w3.org/TR/REC-html40">
  <DocumentProperties xmlns="urn:schemas-microsoft-com:office:office">
   <Author>ScrollRack D13</Author>
-  <LastAuthor>DaenonX4</LastAuthor>
+  <LastAuthor>Anthony</LastAuthor>
   <Created>1980-05-23T00:00:00Z</Created>
   <LastSaved>2012-08-15T08:58:45Z</LastSaved>
   <Company>Microsoft Corporation</Company>
@@ -35,7 +35,7 @@
   </Style>
  </Styles>
  <Worksheet ss:Name="Sheet4">
-  <Table ss:ExpandedColumnCount="256" ss:ExpandedRowCount="91" x:FullColumns="1"
+  <Table ss:ExpandedColumnCount="256" ss:ExpandedRowCount="95" x:FullColumns="1"
    x:FullRows="1" ss:DefaultColumnWidth="66" ss:DefaultRowHeight="15">
    <Column ss:Width="216.75"/>
    <Column ss:Width="54"/>
@@ -484,16 +484,28 @@
     <Cell><Data ss:Type="String">Demônios Solitários</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
-    <Cell><Data ss:Type="String">PLAYER_NAME_BONEHOARD</Data></Cell>
-    <Cell ss:Index="3"><Data ss:Type="String">Bonehoard</Data></Cell>
-    <Cell><Data ss:Type="String">Récoltos</Data></Cell>
-    <Cell><Data ss:Type="String">Huesotesoro</Data></Cell>
-    <Cell><Data ss:Type="String">Knochenhort</Data></Cell>
-    <Cell><Data ss:Type="String">Mucchio d'Ossa</Data></Cell>
-    <Cell ss:Index="9"><Data ss:Type="String">骨溜め</Data></Cell>
-    <Cell><Data ss:Type="String">Bonehoard</Data></Cell>
-    <Cell><Data ss:Type="String">Костоклад</Data></Cell>
-    <Cell><Data ss:Type="String">Aglomerado de Ossos</Data></Cell>
+    <Cell><Data ss:Type="String">ED_DEATHFED</Data></Cell>
+    <Cell ss:Index="3"><Data ss:Type="String">Deathfed</Data></Cell>
+    <Cell><Data ss:Type="String">Epandage de mort</Data></Cell>
+    <Cell><Data ss:Type="String">Deathfed</Data></Cell>
+    <Cell><Data ss:Type="String">Deathfed</Data></Cell>
+    <Cell><Data ss:Type="String">Deathfed</Data></Cell>
+    <Cell ss:Index="9"><Data ss:Type="String">Deathfed</Data></Cell>
+    <Cell><Data ss:Type="String">Deathfed</Data></Cell>
+    <Cell><Data ss:Type="String">Deathfed</Data></Cell>
+    <Cell><Data ss:Type="String">Deathfed</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">ED_HOLD_THE_LINE</Data></Cell>
+    <Cell ss:Index="3"><Data ss:Type="String">Hold the Line</Data></Cell>
+    <Cell><Data ss:Type="String">Tenir la Position</Data></Cell>
+    <Cell><Data ss:Type="String">Hold the Line</Data></Cell>
+    <Cell><Data ss:Type="String">Hold the Line</Data></Cell>
+    <Cell><Data ss:Type="String">Hold the Line</Data></Cell>
+    <Cell ss:Index="9"><Data ss:Type="String">Hold the Line</Data></Cell>
+    <Cell><Data ss:Type="String">Hold the Line</Data></Cell>
+    <Cell><Data ss:Type="String">Hold the Line</Data></Cell>
+    <Cell><Data ss:Type="String">Hold the Line</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
     <Cell><Data ss:Type="String">PLAYER_NAME_ANGELIC_MIGHT</Data></Cell>
@@ -506,6 +518,18 @@
     <Cell><Data ss:Type="String">세라 천사</Data></Cell>
     <Cell><Data ss:Type="String">Ангел Серры</Data></Cell>
     <Cell><Data ss:Type="String">Anjo Serra</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">PLAYER_NAME_BONEHOARD</Data></Cell>
+    <Cell ss:Index="3"><Data ss:Type="String">Bonehoard</Data></Cell>
+    <Cell><Data ss:Type="String">Récoltos</Data></Cell>
+    <Cell><Data ss:Type="String">Huesotesoro</Data></Cell>
+    <Cell><Data ss:Type="String">Knochenhort</Data></Cell>
+    <Cell><Data ss:Type="String">Mucchio d'Ossa</Data></Cell>
+    <Cell ss:Index="9"><Data ss:Type="String">骨溜め</Data></Cell>
+    <Cell><Data ss:Type="String">Bonehoard</Data></Cell>
+    <Cell><Data ss:Type="String">Костоклад</Data></Cell>
+    <Cell><Data ss:Type="String">Aglomerado de Ossos</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
     <Cell><Data ss:Type="String">PLAYER_NAME_CAZORIUS</Data></Cell>
@@ -1047,30 +1071,6 @@
     <Cell><Data ss:Type="String">Verdeloth, o Antigo</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
-    <Cell><Data ss:Type="String">ED_DEATHFED</Data></Cell>
-    <Cell ss:Index="3"><Data ss:Type="String">Deathfed</Data></Cell>
-    <Cell><Data ss:Type="String">Epandage de mort</Data></Cell>
-    <Cell><Data ss:Type="String">Deathfed</Data></Cell>
-    <Cell><Data ss:Type="String">Deathfed</Data></Cell>
-    <Cell><Data ss:Type="String">Deathfed</Data></Cell>
-    <Cell ss:Index="9"><Data ss:Type="String">Deathfed</Data></Cell>
-    <Cell><Data ss:Type="String">Deathfed</Data></Cell>
-    <Cell><Data ss:Type="String">Deathfed</Data></Cell>
-    <Cell><Data ss:Type="String">Deathfed</Data></Cell>
-   </Row>
-   <Row ss:AutoFitHeight="0">
-    <Cell><Data ss:Type="String">ED_HOLD_THE_LINE</Data></Cell>
-    <Cell ss:Index="3"><Data ss:Type="String">Hold the Line</Data></Cell>
-    <Cell><Data ss:Type="String">Tenir la Position</Data></Cell>
-    <Cell><Data ss:Type="String">Hold the Line</Data></Cell>
-    <Cell><Data ss:Type="String">Hold the Line</Data></Cell>
-    <Cell><Data ss:Type="String">Hold the Line</Data></Cell>
-    <Cell ss:Index="9"><Data ss:Type="String">Hold the Line</Data></Cell>
-    <Cell><Data ss:Type="String">Hold the Line</Data></Cell>
-    <Cell><Data ss:Type="String">Hold the Line</Data></Cell>
-    <Cell><Data ss:Type="String">Hold the Line</Data></Cell>
-   </Row>
-   <Row ss:AutoFitHeight="0">
     <Cell><Data ss:Type="String">Z_DECK_AFFINITY</Data></Cell>
     <Cell ss:Index="3"><Data ss:Type="String">Affinity for Trouble</Data></Cell>
     <Cell><Data ss:Type="String">Affinité pour les Ennuis</Data></Cell>
@@ -1204,11 +1204,11 @@
     <VerticalResolution>600</VerticalResolution>
    </Print>
    <Selected/>
-   <TopRowVisible>75</TopRowVisible>
+   <TopRowVisible>80</TopRowVisible>
    <Panes>
     <Pane>
      <Number>3</Number>
-     <ActiveRow>92</ActiveRow>
+     <ActiveRow>95</ActiveRow>
     </Pane>
    </Panes>
    <ProtectObjects>False</ProtectObjects>
