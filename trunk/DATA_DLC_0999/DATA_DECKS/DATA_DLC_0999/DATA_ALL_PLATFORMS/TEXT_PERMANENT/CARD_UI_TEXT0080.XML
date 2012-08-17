@@ -9,7 +9,7 @@
   <Author>ScrollRack D13</Author>
   <LastAuthor>Anthony</LastAuthor>
   <Created>1980-05-23T00:00:00Z</Created>
-  <LastSaved>2012-08-16T09:05:42Z</LastSaved>
+  <LastSaved>2012-08-17T07:54:36Z</LastSaved>
   <Company>Microsoft Corporation</Company>
   <Version>14.00</Version>
  </DocumentProperties>
@@ -35,7 +35,7 @@
   </Style>
  </Styles>
  <Worksheet ss:Name="Sheet4">
-  <Table ss:ExpandedColumnCount="12" ss:ExpandedRowCount="61" x:FullColumns="1"
+  <Table ss:ExpandedColumnCount="12" ss:ExpandedRowCount="62" x:FullColumns="1"
    x:FullRows="1" ss:DefaultRowHeight="15">
    <Row ss:AutoFitHeight="0">
     <Cell><Data ss:Type="String">Ident</Data></Cell>
@@ -781,6 +781,18 @@
     <Cell><Data ss:Type="String">Когда это существо становится целью заклинания или способности, пожертвуйте его.</Data></Cell>
     <Cell><Data ss:Type="String">Quando esta criatura se tornar alvo de uma mágica ou habilidade, sacrifique-a.</Data></Cell>
    </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">TANDEM_LOOKOUT_GRANTED_ABILITY</Data></Cell>
+    <Cell ss:Index="3"><Data ss:Type="String">Whenever this creature deals damage to an opponent, draw a card.</Data></Cell>
+    <Cell><Data ss:Type="String">À chaque fois que cette créature inflige des blessures à un adversaire, piochez une carte.</Data></Cell>
+    <Cell><Data ss:Type="String">Siempre que esta criatura haga daño a un oponente, roba una carta.</Data></Cell>
+    <Cell><Data ss:Type="String">Immer wenn diese Kreatur einem Gegner Schaden zufügt, ziehe eine Karte</Data></Cell>
+    <Cell><Data ss:Type="String">Ogniqualvolta questa creatura infligge danno a un avversario, pesca una carta.</Data></Cell>
+    <Cell ss:Index="9"><Data ss:Type="String">このクリーチャーがいずれかの対戦相手にダメージを与えるたび、カードを１枚引く。</Data></Cell>
+    <Cell><Data ss:Type="String">이 생물이 상대에게 피해를 입힐 때마다, 카드 한 장을 뽑는다</Data></Cell>
+    <Cell><Data ss:Type="String">Каждый раз, когда это существо наносит повреждения оппоненту, возьмите карту</Data></Cell>
+    <Cell><Data ss:Type="String">Toda vez que esta criatura causar dano a um oponente, compre um card.</Data></Cell>
+   </Row>
   </Table>
   <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
    <PageSetup>
@@ -795,11 +807,11 @@
     <VerticalResolution>600</VerticalResolution>
    </Print>
    <Selected/>
-   <TopRowVisible>12</TopRowVisible>
+   <TopRowVisible>45</TopRowVisible>
    <Panes>
     <Pane>
      <Number>3</Number>
-     <ActiveRow>17</ActiveRow>
+     <ActiveRow>62</ActiveRow>
     </Pane>
    </Panes>
    <ProtectObjects>False</ProtectObjects>
