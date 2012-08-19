@@ -7,11 +7,11 @@
  xmlns:html="http://www.w3.org/TR/REC-html40">
  <DocumentProperties xmlns="urn:schemas-microsoft-com:office:office">
   <Author>ScrollRack D13</Author>
-  <LastAuthor>Anthony</LastAuthor>
+  <LastAuthor>DaenonX4</LastAuthor>
   <Created>1980-05-23T00:00:00Z</Created>
-  <LastSaved>2012-08-16T09:05:42Z</LastSaved>
+  <LastSaved>2012-08-17T12:23:42Z</LastSaved>
   <Company>Microsoft Corporation</Company>
-  <Version>14.00</Version>
+  <Version>11.9999</Version>
  </DocumentProperties>
  <OfficeDocumentSettings xmlns="urn:schemas-microsoft-com:office:office">
   <AllowPNG/>
@@ -33,11 +33,31 @@
    <NumberFormat/>
    <Protection/>
   </Style>
+  <Style ss:ID="s21">
+   <Font ss:FontName="Times New Roman" x:Family="Roman" ss:Size="8"
+    ss:Color="#000000"/>
+  </Style>
+  <Style ss:ID="s22">
+   <Font ss:FontName="Times New Roman" x:Family="Roman" ss:Size="12"
+    ss:Color="#000000"/>
+  </Style>
  </Styles>
  <Worksheet ss:Name="Sheet4">
-  <Table ss:ExpandedColumnCount="12" ss:ExpandedRowCount="60" x:FullColumns="1"
-   x:FullRows="1" ss:DefaultRowHeight="15">
-   <Row ss:AutoFitHeight="0">
+  <Table ss:ExpandedColumnCount="12" ss:ExpandedRowCount="62" x:FullColumns="1"
+   x:FullRows="1" ss:StyleID="s22" ss:DefaultColumnWidth="66"
+   ss:DefaultRowHeight="15.75">
+   <Column ss:StyleID="s22" ss:Width="537.75"/>
+   <Column ss:StyleID="s22" ss:Width="538.5"/>
+   <Column ss:StyleID="s22" ss:Width="607.5"/>
+   <Column ss:StyleID="s22" ss:Width="731.25"/>
+   <Column ss:StyleID="s22" ss:Width="666.75"/>
+   <Column ss:StyleID="s22" ss:Width="721.5"/>
+   <Column ss:StyleID="s22" ss:Width="677.25"/>
+   <Column ss:Index="9" ss:StyleID="s22" ss:Width="969"/>
+   <Column ss:StyleID="s22" ss:Width="578.25"/>
+   <Column ss:StyleID="s22" ss:Width="713.25"/>
+   <Column ss:StyleID="s22" ss:Width="645.75"/>
+   <Row ss:Height="11.25" ss:StyleID="s21">
     <Cell><Data ss:Type="String">Ident</Data></Cell>
     <Cell><Data ss:Type="String">Comment</Data></Cell>
     <Cell><Data ss:Type="String">Master Text</Data></Cell>
@@ -50,164 +70,164 @@
     <Cell><Data ss:Type="String">Russian</Data></Cell>
     <Cell><Data ss:Type="String">Portuguese (Brazil)</Data></Cell>
    </Row>
-   <Row ss:AutoFitHeight="0">
+   <Row>
     <Cell><Data ss:Type="String">ALTERNATE_COST_DISCARD_SHARED_COLOR</Data></Cell>
     <Cell ss:Index="3"><Data ss:Type="String">Discard a card that shares a color with this spell</Data></Cell>
     <Cell><Data ss:Type="String">Défaussez vous d'une carte qui partage une couleur avec ce sort</Data></Cell>
     <Cell><Data ss:Type="String">Descartar una carta que comparta un color con este hechizo</Data></Cell>
-    <Cell><Data ss:Type="String">Wirf eine Karte, die eine Farbe teilt mit diesem Zauber</Data></Cell>
+    <Cell><Data ss:Type="String">Wirf eine Karte ab. Diese muß eine Farbe mit diesem Zauber teilen.</Data></Cell>
     <Cell><Data ss:Type="String">Scarta una carta che condivide un colore con questo incantesimo</Data></Cell>
     <Cell ss:Index="9"><Data ss:Type="String">この呪文で色を共有しているカードを捨てる</Data></Cell>
     <Cell><Data ss:Type="String">이 주문과 색상을 가지고 있고 카드를 취소</Data></Cell>
     <Cell><Data ss:Type="String">Сбросьте карту, которая разделяет цвета с этого заклинания</Data></Cell>
     <Cell><Data ss:Type="String">Descarte um card que compartilha uma cor com essa magia</Data></Cell>
    </Row>
-   <Row ss:AutoFitHeight="0">
+   <Row>
     <Cell><Data ss:Type="String">ALTERNATE_COST_LIFE_EXILE_BLUE</Data></Cell>
     <Cell ss:Index="3"><Data ss:Type="String">Pay 1 life and exile a blue card in your hand</Data></Cell>
     <Cell><Data ss:Type="String">Payez 1 point de vie et exilez une carte bleue dans votre main</Data></Cell>
     <Cell><Data ss:Type="String">Pagar 1 vida y el exilio de una tarjeta de bue en la mano</Data></Cell>
-    <Cell><Data ss:Type="String">Bezahle 1 Leben und exiliere eine blaue Karte in Deiner Hand</Data></Cell>
+    <Cell><Data ss:Type="String">Bezahle 1 Leben und exiliere eine blaue Karte in Deiner Hand.</Data></Cell>
     <Cell><Data ss:Type="String">Paga 1 punto vita e l'esilio una carta di bue in mano</Data></Cell>
     <Cell ss:Index="9"><Data ss:Type="String">あなたの手に1点のライフと亡命ブエカードを支払う</Data></Cell>
     <Cell><Data ss:Type="String">손에 한 삶과 망명 bue 카드 지불</Data></Cell>
     <Cell><Data ss:Type="String">Оплата 1 жизнь и ссылки BUE карты в руки</Data></Cell>
     <Cell><Data ss:Type="String">Pague 1 ponto de vida e um cartão de exílio bue em sua mão</Data></Cell>
    </Row>
-   <Row ss:AutoFitHeight="0">
+   <Row>
     <Cell><Data ss:Type="String">ALTERNATE_COST_RETURN_ISLAND</Data></Cell>
     <Cell ss:Index="3"><Data ss:Type="String">Return an Island you control to its owner’s hand</Data></Cell>
     <Cell><Data ss:Type="String">Renvoyez une île que vous contrôlez dans la main de son propriétaire</Data></Cell>
     <Cell><Data ss:Type="String">Volver una isla que controles a la mano de su propietario</Data></Cell>
-    <Cell><Data ss:Type="String">Liefert ein Insel, die du kontrollierst, auf die Hand seines Besitzers</Data></Cell>
+    <Cell><Data ss:Type="String">Wähle eine Insel die du kontrollierst. Diese wird in die Hand ihres Besitzers gelegt.</Data></Cell>
     <Cell><Data ss:Type="String">Restituisce un Isola che controlli in mano al suo proprietario</Data></Cell>
     <Cell ss:Index="9"><Data ss:Type="String">あなたはそのオーナーの手札にコントロールする島を返します。</Data></Cell>
     <Cell><Data ss:Type="String">당신이 그 소유자의 손에 제어 섬 반환을</Data></Cell>
     <Cell><Data ss:Type="String">Вернуться Остров под вашим контролем в руку ее владельца</Data></Cell>
     <Cell><Data ss:Type="String">Retornar uma Ilha que você controla para a mão de seu dono</Data></Cell>
    </Row>
-   <Row ss:AutoFitHeight="0">
+   <Row>
     <Cell><Data ss:Type="String">CAMPAIGN_NODE_DESCRIPTION_AVAILABLE_WAYBACK_FINAL</Data></Cell>
     <Cell><Data ss:Type="String">complete revenge campaign on a campaign node</Data></Cell>
     <Cell><Data ss:Type="String">Defeat this opponent to complete the Wayback 2012 campaign!</Data></Cell>
     <Cell><Data ss:Type="String">Vaincre cet adversaire pour terminer la campagne Wayback 2012!</Data></Cell>
     <Cell><Data ss:Type="String">Derrota a este oponente para completar la campaña de Wayback 2012!</Data></Cell>
-    <Cell><Data ss:Type="String">Besiege diese Gegners, um die Wayback-Kampagne 2012 zu vervollständigen!</Data></Cell>
+    <Cell><Data ss:Type="String">Besiege diesen Gegner um die Wayback-Kampagne 2012 zu vervollständigen!</Data></Cell>
     <Cell><Data ss:Type="String">Sconfiggi l'avversario per completare la campagna di Wayback 2012!</Data></Cell>
     <Cell ss:Index="9"><Data ss:Type="String">ウェイバック2012キャンペーンを完了するには、この敵を倒せ！</Data></Cell>
     <Cell><Data ss:Type="String">뒤로 2012 캠페인을 완료하기 위해이 상대를 패배!</Data></Cell>
     <Cell><Data ss:Type="String">Победить этого соперника для завершения кампании Wayback 2012!</Data></Cell>
     <Cell><Data ss:Type="String">Derrotar este adversário para completar a Wayback campanha de 2012!</Data></Cell>
    </Row>
-   <Row ss:AutoFitHeight="0">
+   <Row>
     <Cell><Data ss:Type="String">CARD_QUERY_CHOOSE_ANY_LAND_TO_DESTROY</Data></Cell>
     <Cell ss:Index="3"><Data ss:Type="String">Choose a land to destroy.</Data></Cell>
     <Cell><Data ss:Type="String">Choisissez un terrain à détruire.</Data></Cell>
     <Cell><Data ss:Type="String">Elija un país para destruir.</Data></Cell>
-    <Cell><Data ss:Type="String">Wählen Sie ein Land zu zerstören.</Data></Cell>
+    <Cell><Data ss:Type="String">Wähle ein Land um es zu zerstören.</Data></Cell>
     <Cell><Data ss:Type="String">Scegliere una terra per distruggere.</Data></Cell>
     <Cell ss:Index="9"><Data ss:Type="String">破壊するために土地を選択してください。</Data></Cell>
     <Cell><Data ss:Type="String">파괴 토지를 선택합니다.</Data></Cell>
     <Cell><Data ss:Type="String">Выберите землю уничтожить.</Data></Cell>
     <Cell><Data ss:Type="String">Escolha uma terra para destruir.</Data></Cell>
    </Row>
-   <Row ss:AutoFitHeight="0">
+   <Row>
     <Cell><Data ss:Type="String">CARD_QUERY_CHOOSE_ARTIFACT_CREATURE_MODULAR_AMOUNT</Data></Cell>
     <Cell ss:Index="3"><Data ss:Type="String">Choose an artifact creature to gain %d +1/+1 counters.</Data></Cell>
     <Cell><Data ss:Type="String">Choisissez une créature artifact pour recevoir %d compteurs +1/+1.</Data></Cell>
     <Cell><Data ss:Type="String">Choose an artifact creature to gain %d +1/+1 counters.</Data></Cell>
-    <Cell><Data ss:Type="String">Choose an artifact creature to gain %d +1/+1 counters.</Data></Cell>
+    <Cell><Data ss:Type="String">Wähle eine Artefakt Kreatur Diese bekommt %d +1/+1 Counter.</Data></Cell>
     <Cell><Data ss:Type="String">Scegli una creatura artefatto che ottiene %d segnalini +1/+1.</Data></Cell>
     <Cell ss:Index="9"><Data ss:Type="String">Choose an artifact creature to gain %d +1/+1 counters.</Data></Cell>
     <Cell><Data ss:Type="String">Choose an artifact creature to gain %d +1/+1 counters.</Data></Cell>
     <Cell><Data ss:Type="String">Choose an artifact creature to gain %d +1/+1 counters.</Data></Cell>
     <Cell><Data ss:Type="String">Choose an artifact creature to gain %d +1/+1 counters.</Data></Cell>
    </Row>
-   <Row ss:AutoFitHeight="0">
+   <Row>
     <Cell><Data ss:Type="String">CARD_QUERY_CHOOSE_ARTIFACT_TO_CREATURE_CMC</Data></Cell>
     <Cell ss:Index="3"><Data ss:Type="String">Choose an artifact to become an artifact creature with power and toughness each equal to its converted mana cost until end of turn.</Data></Cell>
     <Cell><Data ss:Type="String">Choisissez un artefact à transformer jusqu'à la fin du tour en une créature artefact avec une force et une endurance chacune égale à son coût converti de mana.</Data></Cell>
     <Cell><Data ss:Type="String">Elija un artefacto para convertirse en una criatura artefacto con fuerza y resistencia iguales a su coste de maná convertido hasta el final del turno.</Data></Cell>
-    <Cell><Data ss:Type="String">Wähle ein Artefakt, um eine Artefaktkreatur mit Stärke und Widerstandskraft gleich ihre umgewandelten Manakosten bis zum Ende des Zuges zu werden.</Data></Cell>
+    <Cell><Data ss:Type="String">Wähle ein Artefakt, um bis zum Ende des Zuges eine Artefaktkreatur zu werden. Stärke und Widerstandskraft sind gleich ihre umgewandelten Manakosten.</Data></Cell>
     <Cell><Data ss:Type="String">Scegli un artefatto per diventare una creatura artefatto con forza e costituzione pari ciascuna al suo costo di mana convertito fino alla fine del turno.</Data></Cell>
     <Cell ss:Index="9"><Data ss:Type="String">パワーとターン終了時まで、その点数で見たマナ·コストにそれぞれ等しいタフネスを持つアーティファクト·クリーチャーになるようにアーティファクトを選択してください。</Data></Cell>
     <Cell><Data ss:Type="String">파워와 회전 월말까지 자사의 변환 mana 비용은 각 동등한 인성과 유물 생물되기 위해 유물을 선택하십시오.</Data></Cell>
     <Cell><Data ss:Type="String">Выберите артефакт станет артефактом существо с силой и прочностью каждая из которых равна ее мановой стоимостью до конца хода.</Data></Cell>
     <Cell><Data ss:Type="String">Escolha um artefato para se tornar uma criatura artefato com poder e resistência igual ao seu custo de mana convertido até o final do turno.</Data></Cell>
    </Row>
-   <Row ss:AutoFitHeight="0">
+   <Row>
     <Cell><Data ss:Type="String">CARD_QUERY_CHOOSE_ATTACKING_PLAYER_LOSE_LIFE</Data></Cell>
     <Cell ss:Index="3"><Data ss:Type="String">Choose attacking player to lose life.</Data></Cell>
     <Cell><Data ss:Type="String">Choisissez le joueur attaquant de perdre la vie.</Data></Cell>
     <Cell><Data ss:Type="String">Elige el jugador atacante que perder la vida.</Data></Cell>
-    <Cell><Data ss:Type="String">Wählen Sie angreifende Spieler zum Leben zu verlieren.</Data></Cell>
+    <Cell><Data ss:Type="String">Wähle einen angreifenden Spieler. Dieser verliert Leben.</Data></Cell>
     <Cell><Data ss:Type="String">Scegli attaccare giocatore a perdere la vita.</Data></Cell>
     <Cell ss:Index="9"><Data ss:Type="String">命を失うことにプレイヤーを攻撃して選択します。</Data></Cell>
     <Cell><Data ss:Type="String">생명을 잃고 플레이어를 공격하고 선택합니다.</Data></Cell>
     <Cell><Data ss:Type="String">Выберите атакующего игрока потерять жизнь.</Data></Cell>
     <Cell><Data ss:Type="String">Escolha um jogador atacante a perder a vida.</Data></Cell>
    </Row>
-   <Row ss:AutoFitHeight="0">
+   <Row>
     <Cell><Data ss:Type="String">CARD_QUERY_CHOOSE_BCARD_TO_PUT_INTO_HAND</Data></Cell>
     <Cell ss:Index="3"><Data ss:Type="String">Choose a black card to put into its owner’s hand.</Data></Cell>
     <Cell><Data ss:Type="String">Choisissez une carte noire à retourner dans la main de son propriétaire.</Data></Cell>
     <Cell><Data ss:Type="String">Elegir una tarjeta de negro para poner en la mano de su propietario.</Data></Cell>
-    <Cell><Data ss:Type="String">Wählen Sie eine schwarze Karte um in die Hand ihres Besitzers gelegt zu werden.</Data></Cell>
+    <Cell><Data ss:Type="String">Wähle eine schwarze Karte. Diese wird in die Hand ihres Besitzers gelegt.</Data></Cell>
     <Cell><Data ss:Type="String">Scegli una carta nera da mettere in mano al suo proprietario.</Data></Cell>
     <Cell ss:Index="9"><Data ss:Type="String">そのオーナーの手札に入れ、黒いカードを選択します。</Data></Cell>
     <Cell><Data ss:Type="String">주인의 손에 넣고있는 검은색 카드를 선택합니다.</Data></Cell>
     <Cell><Data ss:Type="String">Выберите черный карты положить в руку его владельца.</Data></Cell>
     <Cell><Data ss:Type="String">Escolha um cartão preto para colocar na mão de seu dono.</Data></Cell>
    </Row>
-   <Row ss:AutoFitHeight="0">
+   <Row>
     <Cell><Data ss:Type="String">CARD_QUERY_CHOOSE_CARD_TO_PUT_INTO_GRAVEYARD</Data></Cell>
     <Cell ss:Index="3"><Data ss:Type="String">Choose a card to put into its owner’s graveyard.</Data></Cell>
     <Cell><Data ss:Type="String">Choisissez une carte à mettre dans le cimetière de son propriétaire.</Data></Cell>
     <Cell><Data ss:Type="String">Elegir una tarjeta que pone en el cementerio de su propietario.</Data></Cell>
-    <Cell><Data ss:Type="String">Wählen Sie eine Karte um sie in den Friedhof ihres Besitzers zu legen.</Data></Cell>
+    <Cell><Data ss:Type="String">Wählen Sie eine Karte. Diese wird in den Friedhof ihres Besitzers gelegt.</Data></Cell>
     <Cell><Data ss:Type="String">Scegliere una carta messa nel cimitero del suo proprietario.</Data></Cell>
     <Cell ss:Index="9"><Data ss:Type="String">そのオーナーの墓地に置くためにカードを選択します。</Data></Cell>
     <Cell><Data ss:Type="String">주인의 묘지에 투입하는 카드를 선택합니다.</Data></Cell>
     <Cell><Data ss:Type="String">Выберите карту, чтобы положить на кладбище своего владельца.</Data></Cell>
     <Cell><Data ss:Type="String">Escolha um cartão para colocar no cemitério de seu dono.</Data></Cell>
    </Row>
-   <Row ss:AutoFitHeight="0">
+   <Row>
     <Cell><Data ss:Type="String">CARD_QUERY_CHOOSE_CREATURE_PLUS1_PLUS1_COUNTER_FOR_EACH_ELF_YOUCONTROL</Data></Cell>
     <Cell ss:Index="3"><Data ss:Type="String">Choose a creature to get a +1/+1 counter for each elf you control.</Data></Cell>
     <Cell><Data ss:Type="String">Choisissez une créature pour obtenir un marqueur +1/+1 pour chaque elfe que vous contrôlez.</Data></Cell>
     <Cell><Data ss:Type="String">Elige una criatura para conseguir un contador +1/+1 por cada Elfo que controlas.</Data></Cell>
-    <Cell><Data ss:Type="String">Wählen Sie eine Kreatur, eine +1/+1 Marke für jeden Elfen, die du kontrollierst.</Data></Cell>
+    <Cell><Data ss:Type="String">Wähle eine Kreatur. Diese bekommt eine +1/+1 Marke für jeden Elfen den du kontrollierst.</Data></Cell>
     <Cell><Data ss:Type="String">Scegli una creatura per ottenere un segnalino +1/+1 per ogni Elfo che controlli.</Data></Cell>
     <Cell ss:Index="9"><Data ss:Type="String">あなたがコントロールするエルフ1つにつき+1 /+1カウンターを1個取得するクリーチャーを選択してください。</Data></Cell>
     <Cell><Data ss:Type="String">당신이 조절할 각각의 요정을위한 1 / 1 카운터를 얻는 생물을 선택합니다.</Data></Cell>
     <Cell><Data ss:Type="String">Выберите существо, чтобы получить жетон +1/+1 для каждого Эльфа под вашим контролем.</Data></Cell>
     <Cell><Data ss:Type="String">Escolha uma criatura para obter um marcador +1/+1 para cada Elfo que você controla.</Data></Cell>
    </Row>
-   <Row ss:AutoFitHeight="0">
+   <Row>
     <Cell><Data ss:Type="String">CARD_QUERY_CHOOSE_CREATURE_SACRIFICE_BY_CONTROLLER</Data></Cell>
     <Cell ss:Index="3"><Data ss:Type="String">Choose target creature to sacrifice by its controller.</Data></Cell>
     <Cell><Data ss:Type="String">Choisissez une créature ciblée à sacrifier par son contrôleur.</Data></Cell>
     <Cell><Data ss:Type="String">Elige la criatura objetivo a sacrificar por su controlador.</Data></Cell>
-    <Cell><Data ss:Type="String">Wähle eine Kreatur deiner Wahl, die von seinem Beherscher geopfert wird.</Data></Cell>
+    <Cell><Data ss:Type="String">Wähle eine Kreatur. Diese wird  von seinem Beherrscher geopfert.</Data></Cell>
     <Cell><Data ss:Type="String">Scegli una creatura bersaglio a sacrificarsi per il suo controllore.</Data></Cell>
     <Cell ss:Index="9"><Data ss:Type="String">そのコントローラによって犠牲にするクリーチャーを選択します。</Data></Cell>
     <Cell><Data ss:Type="String">해당 컨트롤러에 의해 희생 대상 생물을 선택합니다.</Data></Cell>
     <Cell><Data ss:Type="String">Выберите целевое существо пожертвовать своим контроллером.</Data></Cell>
     <Cell><Data ss:Type="String">Escolha a criatura alvo para sacrificar pelo seu controlador.</Data></Cell>
    </Row>
-   <Row ss:AutoFitHeight="0">
+   <Row>
     <Cell><Data ss:Type="String">CARD_QUERY_CHOOSE_CREATURE_TO_GET_1_0_PER_MOUNTAIN_FS</Data></Cell>
     <Cell ss:Index="3"><Data ss:Type="String">Choose a creature to get +1/+0 for each mountain you control and gain first strike.</Data></Cell>
     <Cell><Data ss:Type="String">Choisissez une créature pour obtenir +1/+0 pour chaque montagne que vous contrôlez et acquérir l'initiative.</Data></Cell>
     <Cell><Data ss:Type="String">Elige una criatura obtiene +1/+0 por cada montaña que controlar y ganar primer ataque.</Data></Cell>
-    <Cell><Data ss:Type="String">Wählen Sie eine Kreatur +1/+0 für jeden Berg, die du kontrollierst und gewinnen Erstschlag zu bekommen.</Data></Cell>
+    <Cell><Data ss:Type="String">Wähle eine Kreatur. Diese bekommt Erstschlag und +1/+0 für jeden Berg den Du kontrollierst.</Data></Cell>
     <Cell><Data ss:Type="String">Scegli una creatura per ottenere +1/+0 per ogni montagna, di controllare e acquisire primo colpo.</Data></Cell>
     <Cell ss:Index="9"><Data ss:Type="String">あなたがコントロールすると先制攻撃を得るごとに山1つにつき+1 /+0の修整を受けるためにクリーチャーを選択してください。</Data></Cell>
     <Cell><Data ss:Type="String">당신이 제어하고 첫 번째 미사일을 얻을 각 산에 대해 1 / 0를 얻는 생물을 선택합니다.</Data></Cell>
     <Cell><Data ss:Type="String">Выберите существо получают +1/+0 для каждого горного вам управлять и получить первый удар.</Data></Cell>
     <Cell><Data ss:Type="String">Escolha uma criatura para obter +1/+0 para cada montanha que você controlar e ganhar o primeiro ataque.</Data></Cell>
    </Row>
-   <Row ss:AutoFitHeight="0">
+   <Row>
     <Cell><Data ss:Type="String">CARD_QUERY_CHOOSE_CREATURE_TO_GET_4_4</Data></Cell>
     <Cell ss:Index="3"><Data ss:Type="String">Choose a creature to get +4/+4.</Data></Cell>
     <Cell><Data ss:Type="String">Choisissez une créature pour lui faire gagner +4/+4.</Data></Cell>
@@ -219,199 +239,211 @@
     <Cell><Data ss:Type="String">Выберите существо, которое получит +4/+4.</Data></Cell>
     <Cell><Data ss:Type="String">Escolha uma criatura para receber +4/+4.</Data></Cell>
    </Row>
-   <Row ss:AutoFitHeight="0">
+   <Row>
     <Cell><Data ss:Type="String">CARD_QUERY_CHOOSE_CREATURE_TO_GET_4_4_HEXPROOF</Data></Cell>
     <Cell ss:Index="3"><Data ss:Type="String">Choose a creature to get +4/+4 and hexproof.</Data></Cell>
     <Cell><Data ss:Type="String">Choisissez une créature pour lui faire gagner +4/+4 et la défense talismanique.</Data></Cell>
     <Cell><Data ss:Type="String">Choose a creature to get +4/+4 and hexproof.</Data></Cell>
-    <Cell><Data ss:Type="String">Bestimme eine Kreatur, die +4/+4 und hexproof erhalten soll.</Data></Cell>
+    <Cell><Data ss:Type="String">Bestimme eine Kreatur, die +4/+4 erhalten und Fluchsicher werden soll.</Data></Cell>
     <Cell><Data ss:Type="String">Choose a creature to get +4/+4 and hexproof.</Data></Cell>
     <Cell ss:Index="9"><Data ss:Type="String">Choose a creature to get +4/+4 and hexproof.</Data></Cell>
     <Cell><Data ss:Type="String">Choose a creature to get +4/+4 and hexproof.</Data></Cell>
     <Cell><Data ss:Type="String">Choose a creature to get +4/+4 and hexproof.</Data></Cell>
     <Cell><Data ss:Type="String">Choose a creature to get +4/+4 and hexproof.</Data></Cell>
    </Row>
-   <Row ss:AutoFitHeight="0">
+   <Row>
     <Cell><Data ss:Type="String">CARD_QUERY_CHOOSE_CREATURE_TO_GET_HEXPROOF</Data></Cell>
     <Cell ss:Index="3"><Data ss:Type="String">Choose a creature to get hexproof.</Data></Cell>
     <Cell><Data ss:Type="String">Choisissez une créature pour lui faire gagner la défense talismanique.</Data></Cell>
     <Cell><Data ss:Type="String">Choose a creature to get hexproof.</Data></Cell>
-    <Cell><Data ss:Type="String">Choose a creature to get hexproof.</Data></Cell>
+    <Cell><Data ss:Type="String">Bestimme eine Kreatur, die Fluchsicher werden soll.</Data></Cell>
     <Cell><Data ss:Type="String">Choose a creature to get hexproof.</Data></Cell>
     <Cell ss:Index="9"><Data ss:Type="String">Choose a creature to get hexproof.</Data></Cell>
     <Cell><Data ss:Type="String">Choose a creature to get hexproof.</Data></Cell>
     <Cell><Data ss:Type="String">Choose a creature to get hexproof.</Data></Cell>
     <Cell><Data ss:Type="String">Choose a creature to get hexproof.</Data></Cell>
    </Row>
-   <Row ss:AutoFitHeight="0">
+   <Row>
+    <Cell><Data ss:Type="String">CARD_QUERY_CHOOSE_CREATURE_TO_SOULBOND_WITH</Data></Cell>
+    <Cell ss:Index="3"><Data ss:Type="String">Choose a creature to bond with %d .</Data></Cell>
+    <Cell><Data ss:Type="String">Choisissez une créature à se lier avec %d .</Data></Cell>
+    <Cell><Data ss:Type="String">Elige una criatura para vincularse con la %d .</Data></Cell>
+    <Cell><Data ss:Type="String">Wähle eine Kreatur welche an %d gebunden wird .</Data></Cell>
+    <Cell><Data ss:Type="String">Scegli una creatura di legame con %d .</Data></Cell>
+    <Cell ss:Index="9"><Data ss:Type="String">%d 付社債にクリーチャーを選択してください。</Data></Cell>
+    <Cell><Data ss:Type="String">%d 로 결합으로 생물을 선택합니다.</Data></Cell>
+    <Cell><Data ss:Type="String">Выберите существо связи с %d .</Data></Cell>
+    <Cell><Data ss:Type="String">Escolha uma criatura de vínculo com %d .</Data></Cell>
+   </Row>
+   <Row>
     <Cell><Data ss:Type="String">CARD_QUERY_CHOOSE_GCARD_TO_PUT_INTO_HAND</Data></Cell>
     <Cell ss:Index="3"><Data ss:Type="String">Choose a green card to put into its owner’s hand.</Data></Cell>
     <Cell><Data ss:Type="String">Choisissez une carte verte à retourner dans la main de son propriétaire.</Data></Cell>
     <Cell><Data ss:Type="String">Elegir una tarjeta verde para poner en mano de su propietario.</Data></Cell>
-    <Cell><Data ss:Type="String">Wählen Sie eine grüne Karte in die Hand ihres Besitzers gelegt.</Data></Cell>
+    <Cell><Data ss:Type="String">Wähle eine grüne Karte. Diese wird in die Hand ihres Besitzers gelegt.</Data></Cell>
     <Cell><Data ss:Type="String">Scegli una carta verde da mettere in mano al suo proprietario.</Data></Cell>
     <Cell ss:Index="9"><Data ss:Type="String">そのオーナーの手札に入れて緑のカードを選択します。</Data></Cell>
     <Cell><Data ss:Type="String">주인의 손을 투입하는 녹색 카드를 선택합니다.</Data></Cell>
     <Cell><Data ss:Type="String">Выберите зеленую карту положить в руку его владельца.</Data></Cell>
     <Cell><Data ss:Type="String">Escolha um cartão verde para colocar na mão de seu dono.</Data></Cell>
    </Row>
-   <Row ss:AutoFitHeight="0">
+   <Row>
     <Cell><Data ss:Type="String">CARD_QUERY_CHOOSE_PLAYER_DISCARD_2_RANDOM</Data></Cell>
     <Cell ss:Index="3"><Data ss:Type="String">Choose target player to discard two cards from his or her hand at random.</Data></Cell>
     <Cell><Data ss:Type="String">Choisissez un joueur pour qu'il se défausse de deux cartes au hasard.</Data></Cell>
     <Cell><Data ss:Type="String">Elige el jugador objetivo para descartar dos cartas de su mano al azar.</Data></Cell>
-    <Cell><Data ss:Type="String">Wählen Sie ein Spieler deiner Wahl auf zwei Karten aus seiner Hand nach dem Zufallsprinzip zu verwerfen.</Data></Cell>
+    <Cell><Data ss:Type="String">Wähle einen Spieler. Dieser wirft zwei zufällige Karten aus seiner Hand ab.</Data></Cell>
     <Cell><Data ss:Type="String">Scegli un giocatore bersaglio di scartare due carte dalla propria mano a caso.</Data></Cell>
     <Cell ss:Index="9"><Data ss:Type="String">ランダムに2人からカードや手札を捨てるために、ターゲットプレイヤーを選択してください。</Data></Cell>
     <Cell><Data ss:Type="String">랜덤에 두명의 자신의 카드 또는 그녀의 손에를 삭제하 대상 플레이어를 선택합니다.</Data></Cell>
     <Cell><Data ss:Type="String">Выбор целевого игрока сбросить две карты из своей руки наугад.</Data></Cell>
     <Cell><Data ss:Type="String">Escolha o jogador alvo para descartar dois cards de sua mão de forma aleatória.</Data></Cell>
    </Row>
-   <Row ss:AutoFitHeight="0">
+   <Row>
     <Cell><Data ss:Type="String">CARD_QUERY_CHOOSE_PLAYER_DISCARD_ATRANDOM_NATH</Data></Cell>
     <Cell ss:Index="3"><Data ss:Type="String">Choose target player to discard a card at random from his or her hand.</Data></Cell>
     <Cell><Data ss:Type="String">Choisissez un joueur pour qu'il se défausse d'une carte au hasard.</Data></Cell>
     <Cell><Data ss:Type="String">Elige el jugador objetivo para descartar una carta al azar de su mano.</Data></Cell>
-    <Cell><Data ss:Type="String">Wählen Sie ein Spieler deiner Wahl, um eine zufällig bestimmte Karte aus seiner Hand abwerfen.</Data></Cell>
+    <Cell><Data ss:Type="String">Wähle einen Spieler. Dieser wirft eine zufällig Karte aus seiner Hand ab.</Data></Cell>
     <Cell><Data ss:Type="String">Scegli il giocatore bersaglio scarta una carta a caso dalla sua mano.</Data></Cell>
     <Cell ss:Index="9"><Data ss:Type="String">自分の手札からカードを1枚無作為に選んで破棄する対象のプレイヤーを選択してください。</Data></Cell>
     <Cell><Data ss:Type="String">자신의 손에서 무작위로 카드를 폐기하기 위해 대상 플레이어를 선택합니다.</Data></Cell>
     <Cell><Data ss:Type="String">Выбор целевого игрока сбросить карты наугад из своих рук.</Data></Cell>
     <Cell><Data ss:Type="String">Escolha o jogador alvo para descartar um card aleatoriamente de sua mão.</Data></Cell>
    </Row>
-   <Row ss:AutoFitHeight="0">
+   <Row>
     <Cell><Data ss:Type="String">CARD_QUERY_CHOOSE_RCARD_TO_PUT_INTO_HAND</Data></Cell>
     <Cell ss:Index="3"><Data ss:Type="String">Choose a red card to put into its owner’s hand.</Data></Cell>
     <Cell><Data ss:Type="String">Choisissez une carte rouge à retourner dans la main de son propriétaire.</Data></Cell>
     <Cell><Data ss:Type="String">Elegir una tarjeta roja para poner en mano de su propietario.</Data></Cell>
-    <Cell><Data ss:Type="String">Wählen Sie eine rote Karte in die Hand ihres Besitzers gelegt.</Data></Cell>
+    <Cell><Data ss:Type="String">Wähle eine rote Karte. Diese wird in die Hand ihres Besitzers gelegt.</Data></Cell>
     <Cell><Data ss:Type="String">Scegli un cartellino rosso per mettere in mano al suo proprietario.</Data></Cell>
     <Cell ss:Index="9"><Data ss:Type="String">そのオーナーの手札に入れてレッドカードを選択してください。</Data></Cell>
     <Cell><Data ss:Type="String">주인의 손을 넣어하는 레드 카드를 선택합니다.</Data></Cell>
     <Cell><Data ss:Type="String">Выберите красную карточку, положить в руку его владельца.</Data></Cell>
     <Cell><Data ss:Type="String">Escolha um cartão vermelho para colocar na mão de seu dono.</Data></Cell>
    </Row>
-   <Row ss:AutoFitHeight="0">
+   <Row>
     <Cell><Data ss:Type="String">CARD_QUERY_CHOOSE_UCARD_TO_PUT_INTO_HAND</Data></Cell>
     <Cell ss:Index="3"><Data ss:Type="String">Choose a blue card to put into its owner’s hand.</Data></Cell>
     <Cell><Data ss:Type="String">Choisissez une carte bleue à retourner dans la main de son propriétaire.</Data></Cell>
     <Cell><Data ss:Type="String">Elegir una tarjeta azul para poner en mano de su propietario.</Data></Cell>
-    <Cell><Data ss:Type="String">Wählen Sie eine blaue Karte in die Hand ihres Besitzers gelegt.</Data></Cell>
+    <Cell><Data ss:Type="String">Wähle eine blaue Karte. Diese wird in die Hand ihres Besitzers gelegt.</Data></Cell>
     <Cell><Data ss:Type="String">Scegli una carta blu per mettere in mano al suo proprietario.</Data></Cell>
     <Cell ss:Index="9"><Data ss:Type="String">そのオーナーの手札に入れ、青いカードを選択します。</Data></Cell>
     <Cell><Data ss:Type="String">주인의 손에 넣고있는 파란색 카드를 선택합니다.</Data></Cell>
     <Cell><Data ss:Type="String">Выберите синюю карту положить в руку его владельца.</Data></Cell>
     <Cell><Data ss:Type="String">Escolha um cartão azul para colocar na mão de seu dono.</Data></Cell>
    </Row>
-   <Row ss:AutoFitHeight="0">
+   <Row>
     <Cell><Data ss:Type="String">CARD_QUERY_CHOOSE_WCARD_TO_PUT_INTO_HAND</Data></Cell>
     <Cell ss:Index="3"><Data ss:Type="String">Choose a white card to put into its owner’s hand.</Data></Cell>
     <Cell><Data ss:Type="String">Choisissez une carte blanche à retourner dans la main de son propriétaire.</Data></Cell>
     <Cell><Data ss:Type="String">Elegir una tarjeta blanca para poner en mano de su propietario.</Data></Cell>
-    <Cell><Data ss:Type="String">Wählen Sie eine weiße Karte in die Hand ihres Besitzers gelegt.</Data></Cell>
+    <Cell><Data ss:Type="String">Wähle eine weiße Karte. Diese wird in die Hand ihres Besitzers gelegt.</Data></Cell>
     <Cell><Data ss:Type="String">Scegli una carta bianca per mettere in mano al suo proprietario.</Data></Cell>
     <Cell ss:Index="9"><Data ss:Type="String">そのオーナーの手札に入れて白いカードを選択します。</Data></Cell>
     <Cell><Data ss:Type="String">주인의 손을 넣어하는 흰색 카드를 선택합니다.</Data></Cell>
     <Cell><Data ss:Type="String">Выберите белый карту положить в руку его владельца.</Data></Cell>
     <Cell><Data ss:Type="String">Escolha um cartão branco para colocar na mão de seu dono.</Data></Cell>
    </Row>
-   <Row ss:AutoFitHeight="0">
+   <Row>
     <Cell><Data ss:Type="String">CARD_QUERY_CHOOSE_YOUR_CREATURE_GAIN_PROTECTION_FROM_COLOUR</Data></Cell>
     <Cell ss:Index="3"><Data ss:Type="String">Choose target creature you control to gain protection from the chosen color.</Data></Cell>
     <Cell><Data ss:Type="String">Choisissez une créature que vous contrôlez pour obtenir la protection contre la couleur choisie.</Data></Cell>
     <Cell><Data ss:Type="String">Elige la criatura objetivo que controles a acceder a la protección contra el color elegido.</Data></Cell>
-    <Cell><Data ss:Type="String">Wählen Sie eine Kreatur deiner Wahl, die du kontrollierst, um Schutz vor der gewählten Farbe zu gewinnen.</Data></Cell>
+    <Cell><Data ss:Type="String">Wähle eine Kreatur die du kontrollierst, um Schutz vor der gewählten Farbe zu gewinnen.</Data></Cell>
     <Cell><Data ss:Type="String">Scegli una creatura bersaglio che controlli per ottenere protezione dal colore scelto.</Data></Cell>
     <Cell ss:Index="9"><Data ss:Type="String">あなたは選ばれた色に対するプロテクションを得るために、制御対象のクリーチャーを選択します。</Data></Cell>
     <Cell><Data ss:Type="String">당신이 선택한 색상의 보호를 얻기 위해 통제 대상 생물을 선택합니다.</Data></Cell>
     <Cell><Data ss:Type="String">Выберите целевую существо под вашим контролем, чтобы получить защиту от выбранного цвета.</Data></Cell>
     <Cell><Data ss:Type="String">Escolha a criatura alvo que você controla para obter proteção contra a cor escolhida.</Data></Cell>
    </Row>
-   <Row ss:AutoFitHeight="0">
+   <Row>
     <Cell><Data ss:Type="String">CARD_QUERY_CHOOSE_ZOMBIE_TO_PUT_INTO_HAND</Data></Cell>
     <Cell ss:Index="3"><Data ss:Type="String">Choose a Zombie card to put into its owner’s hand.</Data></Cell>
     <Cell><Data ss:Type="String">Choisissez une carte Zombie à retourner dans la main de son propriétaire.</Data></Cell>
     <Cell><Data ss:Type="String">Elegir una tarjeta de Zombie de poner en mano de su propietario.</Data></Cell>
-    <Cell><Data ss:Type="String">Wählen Sie eine Zombie-Karte in die Hand ihres Besitzers gelegt.</Data></Cell>
+    <Cell><Data ss:Type="String">Wähle eine Zombie-Karte. Diese wird in die Hand ihres Besitzers gelegt.</Data></Cell>
     <Cell><Data ss:Type="String">Scegli una carta Zombie di mettere in mano al suo proprietario.</Data></Cell>
     <Cell ss:Index="9"><Data ss:Type="String">そのオーナーの手札に入れてゾンビカードを選択します。</Data></Cell>
     <Cell><Data ss:Type="String">주인의 손에 넣고있는 좀비 카드를 선택합니다.</Data></Cell>
     <Cell><Data ss:Type="String">Выберите Zombie карты положить в руку его владельца.</Data></Cell>
     <Cell><Data ss:Type="String">Escolha um card de Zumbi para colocar na mão de seu dono.</Data></Cell>
    </Row>
-   <Row ss:AutoFitHeight="0">
+   <Row>
     <Cell><Data ss:Type="String">CARD_QUERY_MC_ANIMATE_THIS_CARD</Data></Cell>
     <Cell ss:Index="3"><Data ss:Type="String">Do you want to animate this card?</Data></Cell>
     <Cell><Data ss:Type="String">Souhaitez-vous animer cette carte?</Data></Cell>
     <Cell><Data ss:Type="String">¿Quieres animar esta tarjeta?</Data></Cell>
-    <Cell><Data ss:Type="String">Wollen Sie diese Karte zu animieren?</Data></Cell>
+    <Cell><Data ss:Type="String">Willst Du diese Karte animieren?</Data></Cell>
     <Cell><Data ss:Type="String">Vuoi animare questa scheda?</Data></Cell>
     <Cell ss:Index="9"><Data ss:Type="String">あなたはこのカードをアニメートしたいですか？</Data></Cell>
     <Cell><Data ss:Type="String">이 카드를 애니메이션시겠습니까?</Data></Cell>
     <Cell><Data ss:Type="String">Вы хотите, чтобы оживить эту карту?</Data></Cell>
     <Cell><Data ss:Type="String">Você quer animar este cartão?</Data></Cell>
    </Row>
-   <Row ss:AutoFitHeight="0">
+   <Row>
     <Cell><Data ss:Type="String">CARD_QUERY_MC_BROWBEAT</Data></Cell>
     <Cell ss:Index="3"><Data ss:Type="String">You may choose to take 5 damage to prevent target player to draw three cards.</Data></Cell>
     <Cell><Data ss:Type="String">Vous pouvez choisir de subir 5 blessures pour empêcher le joueur ciblé de tirer trois cartes.</Data></Cell>
     <Cell><Data ss:Type="String">Usted puede optar por tener 5 puntos de daño para evitar que el jugador objetivo elaborar tres cartas.</Data></Cell>
-    <Cell><Data ss:Type="String">Sie können wählen, 5 Schaden zu nehmen, um ein Spieler deiner Wahl verhindern zu drei Karten zu ziehen.</Data></Cell>
+    <Cell><Data ss:Type="String">Nehme 5 Schadenspunkte um zu verhindern, das der Spieler 3 Karten zieht.</Data></Cell>
     <Cell><Data ss:Type="String">Si può scegliere di prendere 5 danni per evitare che un giocatore bersaglio per disegnare tre carte.</Data></Cell>
     <Cell ss:Index="9"><Data ss:Type="String">次の3つのカードを引くために、ターゲットプレイヤーを防ぐために、5ダメージを受けることを選択できます。</Data></Cell>
     <Cell><Data ss:Type="String">당신은 세 카드를 그릴 대상 플레이어를 방지하기 위해 5 손상을 선택할 수 있습니다.</Data></Cell>
     <Cell><Data ss:Type="String">Вы можете принять 5 урона для предотвращения целевого игрока сделать три карты.</Data></Cell>
     <Cell><Data ss:Type="String">Você pode optar por tomar 5 de dano para impedir o jogador alvo de três cartas.</Data></Cell>
    </Row>
-   <Row ss:AutoFitHeight="0">
+   <Row>
     <Cell><Data ss:Type="String">CARD_QUERY_MC_CIRCULAR_LOGIC</Data></Cell>
     <Cell ss:Index="3"><Data ss:Type="String">Do you want to pay {%d}? (If you don't, the spell will be countered.)</Data></Cell>
     <Cell><Data ss:Type="String">Voulez-vous payer {%d}? (Si vous ne le faites pas, le sort sera contrecarré.)</Data></Cell>
     <Cell><Data ss:Type="String">¿Quieres pagar {%d}? (Si no lo hace, el hechizo será contrarrestado.)</Data></Cell>
-    <Cell><Data ss:Type="String">Wollen Sie {%d} zahlen? (Wenn Sie nicht tun, wird der Zauberspruch neutralisiert werden.)</Data></Cell>
+    <Cell><Data ss:Type="String">Wenn Du nicht {%d} bezahlst wird der Zauberspruch verhindert.</Data></Cell>
     <Cell><Data ss:Type="String">Vuoi pagare {%d}? (Se non lo fate, la magia viene neutralizzata.)</Data></Cell>
     <Cell ss:Index="9"><Data ss:Type="String">あなたは{%d}を支払ってしたいですか？ （そうでない場合、その呪文は打ち消されます。）</Data></Cell>
     <Cell><Data ss:Type="String">당신은 {%d} 대가를 지불하길 원하는 겁니까? (그렇지 않으면, 주문이 반박됩니다.)</Data></Cell>
     <Cell><Data ss:Type="String">Вы хотите заплатить {%d}? (Если вы не сделаете этого, заклинание будет противопоставить.)</Data></Cell>
     <Cell><Data ss:Type="String">Você quer pagar {%d}? (Se você não fizer isso, o feitiço vai ser anulado.)</Data></Cell>
    </Row>
-   <Row ss:AutoFitHeight="0">
+   <Row>
     <Cell><Data ss:Type="String">CARD_QUERY_MC_OPTION_NO</Data></Cell>
     <Cell ss:Index="3"><Data ss:Type="String">No</Data></Cell>
     <Cell><Data ss:Type="String">non</Data></Cell>
     <Cell><Data ss:Type="String">no</Data></Cell>
-    <Cell><Data ss:Type="String">kein</Data></Cell>
+    <Cell><Data ss:Type="String">Nein</Data></Cell>
     <Cell><Data ss:Type="String">no</Data></Cell>
     <Cell ss:Index="9"><Data ss:Type="String">なし</Data></Cell>
     <Cell><Data ss:Type="String">아니</Data></Cell>
     <Cell><Data ss:Type="String">нет</Data></Cell>
     <Cell><Data ss:Type="String">não</Data></Cell>
    </Row>
-   <Row ss:AutoFitHeight="0">
+   <Row>
     <Cell><Data ss:Type="String">CARD_QUERY_MC_OPTION_YES</Data></Cell>
     <Cell ss:Index="3"><Data ss:Type="String">Yes</Data></Cell>
     <Cell><Data ss:Type="String">oui</Data></Cell>
     <Cell><Data ss:Type="String">sí</Data></Cell>
-    <Cell><Data ss:Type="String">ja</Data></Cell>
+    <Cell><Data ss:Type="String">Ja</Data></Cell>
     <Cell><Data ss:Type="String">sì</Data></Cell>
     <Cell ss:Index="9"><Data ss:Type="String">はい</Data></Cell>
     <Cell><Data ss:Type="String">예</Data></Cell>
     <Cell><Data ss:Type="String">да</Data></Cell>
     <Cell><Data ss:Type="String">sim</Data></Cell>
    </Row>
-   <Row ss:AutoFitHeight="0">
+   <Row>
     <Cell><Data ss:Type="String">CARD_QUERY_MC_PAY_MADNESS_COST</Data></Cell>
     <Cell ss:Index="3"><Data ss:Type="String">Do you want to pay madness cost?</Data></Cell>
     <Cell><Data ss:Type="String">Voulez-vous payer le coût de la folie?</Data></Cell>
     <Cell><Data ss:Type="String">¿Quieres pagar el coste de la locura?</Data></Cell>
-    <Cell><Data ss:Type="String">Wollen Sie Wahnsinn-Kosten bezahlen?</Data></Cell>
+    <Cell><Data ss:Type="String">Willst Du die Wahnsinns-Kosten bezahlen?</Data></Cell>
     <Cell><Data ss:Type="String">Vuoi pagare il costo di follia?</Data></Cell>
     <Cell ss:Index="9"><Data ss:Type="String">あなたは、マッドネスコストを支払うことにしたいですか？</Data></Cell>
     <Cell><Data ss:Type="String">당신은 광기 비용을 지불 하시겠습니까?</Data></Cell>
     <Cell><Data ss:Type="String">Вы хотите оплатить стоимость безумие?</Data></Cell>
     <Cell><Data ss:Type="String">Você quer pagar o custo de loucura?</Data></Cell>
    </Row>
-   <Row ss:AutoFitHeight="0">
+   <Row>
     <Cell><Data ss:Type="String">CARD_QUERY_MC_PAY_MANA_AMOUNT</Data></Cell>
     <Cell ss:Index="3"><Data ss:Type="String">Do you want to pay {%d}?</Data></Cell>
     <Cell><Data ss:Type="String">Voulez-vous payer {%d}?</Data></Cell>
@@ -423,19 +455,19 @@
     <Cell><Data ss:Type="String">Вы хотите заплатить {%d}?</Data></Cell>
     <Cell><Data ss:Type="String">Deseja pagar {%d}?</Data></Cell>
    </Row>
-   <Row ss:AutoFitHeight="0">
+   <Row>
     <Cell><Data ss:Type="String">CARD_QUERY_MC_ROOTWATER_THIEF</Data></Cell>
     <Cell ss:Index="3"><Data ss:Type="String">You may pay {2} to exile a card from defending player’s library.</Data></Cell>
     <Cell><Data ss:Type="String">Vous pouvez payer {2} pour exiler une carte de la bibliothèque du joueur défenseur.</Data></Cell>
     <Cell><Data ss:Type="String">Puedes pagar {2} al exilio de una tarjeta de la defensa de la biblioteca del jugador.</Data></Cell>
-    <Cell><Data ss:Type="String">Sie können {2}, um eine Karte aus dem Exil verteidigenden Spieler der Bibliothek bezahlen.</Data></Cell>
+    <Cell><Data ss:Type="String">Bezahle {2}: Schicke eine Karte aus der Bibliotek des verteidigenden Spielers ins Exil.</Data></Cell>
     <Cell><Data ss:Type="String">Puoi pagare {2} all'esilio una carta dalla difesa biblioteca giocatore.</Data></Cell>
     <Cell ss:Index="9"><Data ss:Type="String">あなたはプレイヤーのライブラリーを守るから{2}追放にカードを支払ってもよい。</Data></Cell>
     <Cell><Data ss:Type="String">당신은 플레이어의 라이브러리를 방어에서 {2} 추방 카드로 지불할 수 있습니다.</Data></Cell>
     <Cell><Data ss:Type="String">Вы можете заплатить {2} в изгнании карты защищать библиотеки проигрывателя.</Data></Cell>
     <Cell><Data ss:Type="String">Você pode pagar {2} para o exílio um cartão de defender biblioteca jogador.</Data></Cell>
    </Row>
-   <Row ss:AutoFitHeight="0">
+   <Row>
     <Cell><Data ss:Type="String">CARD_QUERY_MC_SHUFFLE_LIBRARY</Data></Cell>
     <Cell ss:Index="3"><Data ss:Type="String">Do you want to shuffle your library?</Data></Cell>
     <Cell><Data ss:Type="String">Voulez-vous mélangez votre bibliothèque?</Data></Cell>
@@ -447,56 +479,56 @@
     <Cell><Data ss:Type="String">Вы хотите, чтобы перетасовать вашу библиотеку?</Data></Cell>
     <Cell><Data ss:Type="String">Você quer embaralhar seu grimório?</Data></Cell>
    </Row>
-   <Row ss:AutoFitHeight="0">
+   <Row>
     <Cell><Data ss:Type="String">CARD_QUERY_MC_SLAVERING_NULL_ABILITY</Data></Cell>
     <Cell ss:Index="3"><Data ss:Type="String">Would you like that player to discard a card?</Data></Cell>
     <Cell><Data ss:Type="String">Aimeriez-vous que ce joueur se défausse d'une carte?</Data></Cell>
     <Cell><Data ss:Type="String">¿Te gustaría que ese jugador descarta una carta?</Data></Cell>
-    <Cell><Data ss:Type="String">Möchten Sie, dass Spieler eine Karte abwerfen?</Data></Cell>
+    <Cell><Data ss:Type="String">Soll der Spieler eine Karte abwerfen?</Data></Cell>
     <Cell><Data ss:Type="String">Ti piacerebbe che quel giocatore scarta una carta?</Data></Cell>
     <Cell ss:Index="9"><Data ss:Type="String">あなたはそのプレイヤーはカードを破棄したいですか？</Data></Cell>
     <Cell><Data ss:Type="String">그 플레이어가 카드를 삭제하시겠습니까?</Data></Cell>
     <Cell><Data ss:Type="String">Хотели бы вы, что игрок отказаться от карты?</Data></Cell>
     <Cell><Data ss:Type="String">Gostaria que o jogador descartar um card?</Data></Cell>
    </Row>
-   <Row ss:AutoFitHeight="0">
+   <Row>
     <Cell><Data ss:Type="String">CARD_QUERY_MC_SOULBOUND</Data></Cell>
     <Cell><Data ss:Type="String">Mutiple choice title for soulbound</Data></Cell>
     <Cell><Data ss:Type="String">Do you want to bind with %d ?</Data></Cell>
     <Cell><Data ss:Type="String">Voulez-vous lier avec %d ?</Data></Cell>
     <Cell><Data ss:Type="String">¿Quieres enlazar con %d ?</Data></Cell>
-    <Cell><Data ss:Type="String">Wollen Sie mit zu binden %d ?</Data></Cell>
+    <Cell><Data ss:Type="String">Willst Du die Karte mit %d Seelenbinden ?</Data></Cell>
     <Cell><Data ss:Type="String">Non si desidera associare con %d ?</Data></Cell>
     <Cell ss:Index="9"><Data ss:Type="String">あなたは %d とのバインドにしたいですか？</Data></Cell>
     <Cell><Data ss:Type="String">당신이 %d 로 바인딩 하시겠습니까?</Data></Cell>
     <Cell><Data ss:Type="String">Вы хотите связываться с %d ?</Data></Cell>
     <Cell><Data ss:Type="String">Você deseja vincular com %d ?</Data></Cell>
    </Row>
-   <Row ss:AutoFitHeight="0">
+   <Row>
     <Cell><Data ss:Type="String">CARD_QUERY_OPTION_CIRCULAR_LOGIC</Data></Cell>
     <Cell ss:Index="3"><Data ss:Type="String">Pay {%d}</Data></Cell>
     <Cell><Data ss:Type="String">Payer {%d}</Data></Cell>
     <Cell><Data ss:Type="String">Pagar {%d}</Data></Cell>
-    <Cell><Data ss:Type="String">Pay {%d}</Data></Cell>
+    <Cell><Data ss:Type="String">Zahle {%d}</Data></Cell>
     <Cell><Data ss:Type="String">Pay {%d}</Data></Cell>
     <Cell ss:Index="9"><Data ss:Type="String">支払い{%d}形式</Data></Cell>
     <Cell><Data ss:Type="String">유료 {%d}</Data></Cell>
     <Cell><Data ss:Type="String">Обратите {%d}</Data></Cell>
     <Cell><Data ss:Type="String">Pagar {%d}</Data></Cell>
    </Row>
-   <Row ss:AutoFitHeight="0">
+   <Row>
     <Cell><Data ss:Type="String">CARD_QUERY_OPTION_TAP_TARGET_PERMANENT</Data></Cell>
     <Cell ss:Index="3"><Data ss:Type="String">Tap a permanent.</Data></Cell>
     <Cell><Data ss:Type="String">Engagez un permanent.</Data></Cell>
     <Cell><Data ss:Type="String">Toque en una permanente.</Data></Cell>
-    <Cell><Data ss:Type="String">Tippen Sie auf eine bleibende Karte.</Data></Cell>
+    <Cell><Data ss:Type="String">Tappe eine bleibende Karte.</Data></Cell>
     <Cell><Data ss:Type="String">Toccare un permanente.</Data></Cell>
     <Cell ss:Index="9"><Data ss:Type="String">パーマネントをタップします。</Data></Cell>
     <Cell><Data ss:Type="String">영구를 누릅니다.</Data></Cell>
     <Cell><Data ss:Type="String">Нажмите на постоянные.</Data></Cell>
     <Cell><Data ss:Type="String">Toque em um permanente.</Data></Cell>
    </Row>
-   <Row ss:AutoFitHeight="0">
+   <Row>
     <Cell><Data ss:Type="String">CARD_QUERY_OPTION_UNTAP_TARGET_PERMANENT</Data></Cell>
     <Cell ss:Index="3"><Data ss:Type="String">Untap a permanent.</Data></Cell>
     <Cell><Data ss:Type="String">Dégagez un permanent.</Data></Cell>
@@ -508,20 +540,20 @@
     <Cell><Data ss:Type="String">Развернуть постоянно.</Data></Cell>
     <Cell><Data ss:Type="String">Desvirar uma permanente.</Data></Cell>
    </Row>
-   <Row ss:AutoFitHeight="0">
+   <Row>
     <Cell><Data ss:Type="String">CARD_QUERY_TAKE_5_DAMAGE</Data></Cell>
     <Cell><Data ss:Type="String">&quot;Take 5 damage&quot; card query option</Data></Cell>
     <Cell><Data ss:Type="String">Take 5 damage.</Data></Cell>
     <Cell><Data ss:Type="String">Subir 5 blessures.</Data></Cell>
     <Cell><Data ss:Type="String">Recibir 5 puntos de daño.</Data></Cell>
-    <Cell><Data ss:Type="String">Dir 5 Schadenspunkte zuweisen.</Data></Cell>
+    <Cell><Data ss:Type="String">Nehme 5 Schadenspunkte.</Data></Cell>
     <Cell><Data ss:Type="String">Subisci 5 danni.</Data></Cell>
     <Cell ss:Index="9"><Data ss:Type="String">5点のダメージを受ける。</Data></Cell>
     <Cell><Data ss:Type="String">피해 5점을 입습니다.</Data></Cell>
     <Cell><Data ss:Type="String">Получить 5 повреждений.</Data></Cell>
     <Cell><Data ss:Type="String">Receba 5 de dano.</Data></Cell>
    </Row>
-   <Row ss:AutoFitHeight="0">
+   <Row>
     <Cell><Data ss:Type="String">CARD_SUBTYPE_ASSEMBLY_WORKER</Data></Cell>
     <Cell><Data ss:Type="String">Subtype Text for Assembly_worker</Data></Cell>
     <Cell><Data ss:Type="String">Assembly-Worker</Data></Cell>
@@ -534,7 +566,7 @@
     <Cell><Data ss:Type="String">Рабочий_сборщик</Data></Cell>
     <Cell><Data ss:Type="String">Operário de Linha de Montagem</Data></Cell>
    </Row>
-   <Row ss:AutoFitHeight="0">
+   <Row>
     <Cell><Data ss:Type="String">CARD_SUBTYPE_URZAS</Data></Cell>
     <Cell><Data ss:Type="String">Subtype Text for Urzas</Data></Cell>
     <Cell><Data ss:Type="String">Urza’s</Data></Cell>
@@ -547,33 +579,33 @@
     <Cell><Data ss:Type="String">Урзы</Data></Cell>
     <Cell><Data ss:Type="String">Urza</Data></Cell>
    </Row>
-   <Row ss:AutoFitHeight="0">
+   <Row>
     <Cell><Data ss:Type="String">COMPOUND_TYPE_ARTIFACT_ENCHANTMENT</Data></Cell>
     <Cell><Data ss:Type="String">Card Compound Type Line</Data></Cell>
     <Cell><Data ss:Type="String">Artifact Enchantment</Data></Cell>
     <Cell><Data ss:Type="String">Artifact Enchantment</Data></Cell>
     <Cell><Data ss:Type="String">Artifact Enchantment</Data></Cell>
-    <Cell><Data ss:Type="String">Artifact Enchantment</Data></Cell>
+    <Cell><Data ss:Type="String">Artefakt, Verzauberung</Data></Cell>
     <Cell><Data ss:Type="String">Artifact Enchantment</Data></Cell>
     <Cell ss:Index="9"><Data ss:Type="String">Artifact Enchantment</Data></Cell>
     <Cell><Data ss:Type="String">Artifact Enchantment</Data></Cell>
     <Cell><Data ss:Type="String">Artifact Enchantment</Data></Cell>
     <Cell><Data ss:Type="String">Artifact Enchantment</Data></Cell>
    </Row>
-   <Row ss:AutoFitHeight="0">
+   <Row>
     <Cell><Data ss:Type="String">COMPOUND_TYPE_ARTIFACT_ENCHANTMENT_TRIBAL</Data></Cell>
     <Cell><Data ss:Type="String">Card Compound Type Line</Data></Cell>
     <Cell><Data ss:Type="String">Tribal Artifact Enchantment</Data></Cell>
     <Cell><Data ss:Type="String">Tribal Artifact Enchantment</Data></Cell>
     <Cell><Data ss:Type="String">Tribal Artifact Enchantment</Data></Cell>
-    <Cell><Data ss:Type="String">Tribal Artifact Enchantment</Data></Cell>
+    <Cell><Data ss:Type="String">Stammeshexerei, Artefakt, Verzauberung</Data></Cell>
     <Cell><Data ss:Type="String">Tribal Artifact Enchantment</Data></Cell>
     <Cell ss:Index="9"><Data ss:Type="String">Tribal Artifact Enchantment</Data></Cell>
     <Cell><Data ss:Type="String">Tribal Artifact Enchantment</Data></Cell>
     <Cell><Data ss:Type="String">Tribal Artifact Enchantment</Data></Cell>
     <Cell><Data ss:Type="String">Tribal Artifact Enchantment</Data></Cell>
    </Row>
-   <Row ss:AutoFitHeight="0">
+   <Row>
     <Cell><Data ss:Type="String">COMPOUND_TYPE_ARTIFACT_LAND</Data></Cell>
     <Cell><Data ss:Type="String">This string is for card type lines - please localise as if appeared on a card's type line - DON'T JUST TRANSLATE.</Data></Cell>
     <Cell><Data ss:Type="String">Artifact Land</Data></Cell>
@@ -586,19 +618,19 @@
     <Cell><Data ss:Type="String">Артефактное Земля</Data></Cell>
     <Cell><Data ss:Type="String">Artefato Terreno</Data></Cell>
    </Row>
-   <Row ss:AutoFitHeight="0">
+   <Row>
     <Cell><Data ss:Type="String">COMPOUND_TYPE_CREATURE_ENCHANTMENT</Data></Cell>
     <Cell ss:Index="3"><Data ss:Type="String">Enchantment Creature</Data></Cell>
     <Cell><Data ss:Type="String">Enchantment Créature</Data></Cell>
     <Cell><Data ss:Type="String">Enchantment Creature</Data></Cell>
-    <Cell><Data ss:Type="String">Enchantment Creature</Data></Cell>
+    <Cell><Data ss:Type="String">Verzauberung, Kreatur</Data></Cell>
     <Cell><Data ss:Type="String">Enchantment Creature</Data></Cell>
     <Cell ss:Index="9"><Data ss:Type="String">Enchantment Creature</Data></Cell>
     <Cell><Data ss:Type="String">Enchantment Creature</Data></Cell>
     <Cell><Data ss:Type="String">Enchantment Creature</Data></Cell>
     <Cell><Data ss:Type="String">Enchantment Creature</Data></Cell>
    </Row>
-   <Row ss:AutoFitHeight="0">
+   <Row>
     <Cell><Data ss:Type="String">COMPOUND_TYPE_CREATURE_LAND</Data></Cell>
     <Cell ss:Index="3"><Data ss:Type="String">Land Creature</Data></Cell>
     <Cell><Data ss:Type="String">Créature-terrain</Data></Cell>
@@ -610,70 +642,70 @@
     <Cell><Data ss:Type="String">Земля Существо</Data></Cell>
     <Cell><Data ss:Type="String">Terreno Criatura</Data></Cell>
    </Row>
-   <Row ss:AutoFitHeight="0">
+   <Row>
     <Cell><Data ss:Type="String">COMPOUND_TYPE_ENCHANTMENT_WORLD</Data></Cell>
     <Cell><Data ss:Type="String">Card Compound Type Line</Data></Cell>
     <Cell><Data ss:Type="String">World Enchantment</Data></Cell>
     <Cell><Data ss:Type="String">Enchanter Monde</Data></Cell>
     <Cell><Data ss:Type="String">Encantar Mundo</Data></Cell>
-    <Cell><Data ss:Type="String">Weltverzauberung</Data></Cell>
+    <Cell><Data ss:Type="String">Weltenverzauberung</Data></Cell>
     <Cell><Data ss:Type="String">Incanta Mondo</Data></Cell>
     <Cell ss:Index="9"><Data ss:Type="String">エンチャント（ワールド）</Data></Cell>
     <Cell><Data ss:Type="String">세계 에게 부여</Data></Cell>
     <Cell><Data ss:Type="String">Зачаровать Всемирные</Data></Cell>
     <Cell><Data ss:Type="String">Encantar Mundo</Data></Cell>
    </Row>
-   <Row ss:AutoFitHeight="0">
+   <Row>
     <Cell><Data ss:Type="String">COMPOUND_TYPE_LEGENDARY_LAND</Data></Cell>
     <Cell ss:Index="3"><Data ss:Type="String">Legendary Land</Data></Cell>
     <Cell><Data ss:Type="String">Terrain légendaire</Data></Cell>
     <Cell><Data ss:Type="String">Tierra legendaria</Data></Cell>
-    <Cell><Data ss:Type="String">Legendäre Land</Data></Cell>
+    <Cell><Data ss:Type="String">Legendäres Land</Data></Cell>
     <Cell><Data ss:Type="String">Terra Leggendaria</Data></Cell>
     <Cell ss:Index="9"><Data ss:Type="String">伝説の土地</Data></Cell>
     <Cell><Data ss:Type="String">전설의 땅</Data></Cell>
     <Cell><Data ss:Type="String">Легендарная Земля</Data></Cell>
     <Cell><Data ss:Type="String">Terreno Lendária</Data></Cell>
    </Row>
-   <Row ss:AutoFitHeight="0">
+   <Row>
     <Cell><Data ss:Type="String">COMPOUND_TYPE_WORLD_ARTIFACT_ENCHANTMENT</Data></Cell>
     <Cell><Data ss:Type="String">Card Compound Type Line</Data></Cell>
     <Cell><Data ss:Type="String">World Artifact Enchantment</Data></Cell>
     <Cell><Data ss:Type="String">World Artifact Enchantment</Data></Cell>
     <Cell><Data ss:Type="String">World Artifact Enchantment</Data></Cell>
-    <Cell><Data ss:Type="String">World Artifact Enchantment</Data></Cell>
+    <Cell><Data ss:Type="String">Weltenverzauberung Artefakt</Data></Cell>
     <Cell><Data ss:Type="String">World Artifact Enchantment</Data></Cell>
     <Cell ss:Index="9"><Data ss:Type="String">World Artifact Enchantment</Data></Cell>
     <Cell><Data ss:Type="String">World Artifact Enchantment</Data></Cell>
     <Cell><Data ss:Type="String">World Artifact Enchantment</Data></Cell>
     <Cell><Data ss:Type="String">World Artifact Enchantment</Data></Cell>
    </Row>
-   <Row ss:AutoFitHeight="0">
+   <Row>
     <Cell><Data ss:Type="String">COMPOUND_TYPE_WORLD_ENCHANTMENT</Data></Cell>
     <Cell><Data ss:Type="String">Card Compound Type Line</Data></Cell>
     <Cell><Data ss:Type="String">World Enchantment</Data></Cell>
     <Cell><Data ss:Type="String">Enchanter Monde</Data></Cell>
     <Cell><Data ss:Type="String">Encantar Mundo</Data></Cell>
-    <Cell><Data ss:Type="String">Weltverzauberung</Data></Cell>
+    <Cell><Data ss:Type="String">Weltenverzauberung</Data></Cell>
     <Cell><Data ss:Type="String">Incanta Mondo</Data></Cell>
     <Cell ss:Index="9"><Data ss:Type="String">エンチャント（ワールド）</Data></Cell>
     <Cell><Data ss:Type="String">세계 에게 부여</Data></Cell>
     <Cell><Data ss:Type="String">Зачаровать Всемирные</Data></Cell>
     <Cell><Data ss:Type="String">Encantar Mundo</Data></Cell>
    </Row>
-   <Row ss:AutoFitHeight="0">
+   <Row>
     <Cell><Data ss:Type="String">CORE_CAMPAIGN_NAME_KEV</Data></Cell>
     <Cell ss:Index="3"><Data ss:Type="String">Wayback 2012</Data></Cell>
     <Cell><Data ss:Type="String">Wayback 2012</Data></Cell>
     <Cell><Data ss:Type="String">Wayback 2012</Data></Cell>
-    <Cell><Data ss:Type="String">Wayback 2012</Data></Cell>
+    <Cell><Data ss:Type="String">Rückweg 2012</Data></Cell>
     <Cell><Data ss:Type="String">Wayback 2012</Data></Cell>
     <Cell ss:Index="9"><Data ss:Type="String">Wayback 2012</Data></Cell>
     <Cell><Data ss:Type="String">Wayback 2012</Data></Cell>
     <Cell><Data ss:Type="String">Wayback 2012</Data></Cell>
     <Cell><Data ss:Type="String">Wayback 2012</Data></Cell>
    </Row>
-   <Row ss:AutoFitHeight="0">
+   <Row>
     <Cell><Data ss:Type="String">DEADEYE_NAVIGATOR_GRANTED_ABILITY</Data></Cell>
     <Cell ss:Index="3"><Data ss:Type="String">{1}{U}: Exile this creature, then return it to the battlefield under your control.</Data></Cell>
     <Cell><Data ss:Type="String">{1}{U} : Exilez cette créature, puis renvoyez-la sur le champ de bataille sous votre contrôle.</Data></Cell>
@@ -685,7 +717,7 @@
     <Cell><Data ss:Type="String">{1}{U}: изгоните это существо, затем верните его на поле битвы под вашим контролем.</Data></Cell>
     <Cell><Data ss:Type="String">{1}{U}: Exile esta criatura e depois a devolva ao campo de batalha sob o seu controle.</Data></Cell>
    </Row>
-   <Row ss:AutoFitHeight="0">
+   <Row>
     <Cell><Data ss:Type="String">KICKER_QUERY_BURST_LIGHTNING_KICKED</Data></Cell>
     <Cell ss:Index="3"><Data ss:Type="String">Deal 4 damage to a creature or player.</Data></Cell>
     <Cell><Data ss:Type="String">Infligez 4 blessures à une cible, créature ou joueur.</Data></Cell>
@@ -697,7 +729,7 @@
     <Cell><Data ss:Type="String">Сделка 4 повреждения существу или игроку.</Data></Cell>
     <Cell><Data ss:Type="String">Lidar 4 pontos de dano a uma criatura ou jogador.</Data></Cell>
    </Row>
-   <Row ss:AutoFitHeight="0">
+   <Row>
     <Cell><Data ss:Type="String">KICKER_QUERY_BURST_LIGHTNING_UNKICKED</Data></Cell>
     <Cell ss:Index="3"><Data ss:Type="String">Deal 2 damage to a creature or player.</Data></Cell>
     <Cell><Data ss:Type="String">Infligez 2 blessures à une cible, créature ou joueur.</Data></Cell>
@@ -709,19 +741,19 @@
     <Cell><Data ss:Type="String">Сделка 2 повреждения существу или игроку.</Data></Cell>
     <Cell><Data ss:Type="String">Lide 2 pontos de dano a uma criatura ou jogador.</Data></Cell>
    </Row>
-   <Row ss:AutoFitHeight="0">
+   <Row>
     <Cell><Data ss:Type="String">KICKER_QUERY_MOLD_SHAMBLER_KICKED</Data></Cell>
     <Cell ss:Index="3"><Data ss:Type="String">Cast Mold Shambler and destroy a noncreature permanent.</Data></Cell>
     <Cell><Data ss:Type="String">Lancez l'Escogriffe de moisissure et détruisez un permanent non-créature.</Data></Cell>
     <Cell><Data ss:Type="String">Lanza el Desollador de moho y destruye un permanente que no sea criatura.</Data></Cell>
-    <Cell><Data ss:Type="String">Wirke den Schimmelschlurfer und zerstöre eine bleibende Karte außer einer Kreatur.</Data></Cell>
+    <Cell><Data ss:Type="String">Wirke den Schimmelschlurfer und zerstöre eine bleibende Karte die keine Kreatur ist.</Data></Cell>
     <Cell><Data ss:Type="String">Lancia l'Errante di Muffa e distruggi un permanente non creatura.</Data></Cell>
     <Cell ss:Index="9"><Data ss:Type="String">《カビのシャンブラー》を唱え、クリーチャーでないパーマネントを１つ破壊する。</Data></Cell>
     <Cell><Data ss:Type="String">금형 휘청 거림을 캐스팅하고 이외의 생물 영구적인 파괴.</Data></Cell>
     <Cell><Data ss:Type="String">Литой Mold Shambler и уничтожить noncreature постоянно.</Data></Cell>
     <Cell><Data ss:Type="String">Elenco Shambler Mold e destruir um que não seja criatura permanente.</Data></Cell>
    </Row>
-   <Row ss:AutoFitHeight="0">
+   <Row>
     <Cell><Data ss:Type="String">KICKER_QUERY_MOLD_SHAMBLER_UNKICKED</Data></Cell>
     <Cell ss:Index="3"><Data ss:Type="String">Cast Mold Shambler.</Data></Cell>
     <Cell><Data ss:Type="String">Lancez l'Escogriffe de moisissure.</Data></Cell>
@@ -733,31 +765,31 @@
     <Cell><Data ss:Type="String">Литой Mold Shambler.</Data></Cell>
     <Cell><Data ss:Type="String">Elenco Shambler Mold.</Data></Cell>
    </Row>
-   <Row ss:AutoFitHeight="0">
+   <Row>
     <Cell><Data ss:Type="String">KICKER_QUERY_VINES_OF_VASTWOOD_KICKED</Data></Cell>
     <Cell ss:Index="3"><Data ss:Type="String">Target creature has opponent shroud and gets +4/+4 until end of turn.</Data></Cell>
     <Cell><Data ss:Type="String">La créature ciblée gagne la défense talismanique et +4/+4 jusqu'à la fin du tour.</Data></Cell>
     <Cell><Data ss:Type="String">Target creature has opponent shroud and gets +4/+4 until end of turn.</Data></Cell>
-    <Cell><Data ss:Type="String">Target creature has opponent shroud and gets +4/+4 until end of turn.</Data></Cell>
+    <Cell><Data ss:Type="String">Wähle eine Kreatur: Diese ist Fluchsicher und bekommt +4/+4 bis zum Ende des Zuges</Data></Cell>
     <Cell><Data ss:Type="String">Target creature has opponent shroud and gets +4/+4 until end of turn.</Data></Cell>
     <Cell ss:Index="9"><Data ss:Type="String">Target creature has opponent shroud and gets +4/+4 until end of turn.</Data></Cell>
     <Cell><Data ss:Type="String">Target creature has opponent shroud and gets +4/+4 until end of turn.</Data></Cell>
     <Cell><Data ss:Type="String">Target creature has opponent shroud and gets +4/+4 until end of turn.</Data></Cell>
     <Cell><Data ss:Type="String">Target creature has opponent shroud and gets +4/+4 until end of turn.</Data></Cell>
    </Row>
-   <Row ss:AutoFitHeight="0">
+   <Row>
     <Cell><Data ss:Type="String">KICKER_QUERY_VINES_OF_VASTWOOD_UNKICKED</Data></Cell>
     <Cell ss:Index="3"><Data ss:Type="String">Target creature has opponent shroud until end of turn.</Data></Cell>
     <Cell><Data ss:Type="String">La créature ciblée gagne la défense talismanique jusqu'à la fin du tour.</Data></Cell>
     <Cell><Data ss:Type="String">Target creature has opponent shroud until end of turn.</Data></Cell>
-    <Cell><Data ss:Type="String">Target creature has opponent shroud until end of turn.</Data></Cell>
+    <Cell><Data ss:Type="String">Wähle eine Kreatur: Diese ist Fluchsicher bis zum Ende des Zuges</Data></Cell>
     <Cell><Data ss:Type="String">Target creature has opponent shroud until end of turn.</Data></Cell>
     <Cell ss:Index="9"><Data ss:Type="String">Target creature has opponent shroud until end of turn.</Data></Cell>
     <Cell><Data ss:Type="String">Target creature has opponent shroud until end of turn.</Data></Cell>
     <Cell><Data ss:Type="String">Target creature has opponent shroud until end of turn.</Data></Cell>
     <Cell><Data ss:Type="String">Target creature has opponent shroud until end of turn.</Data></Cell>
    </Row>
-   <Row ss:AutoFitHeight="0">
+   <Row>
     <Cell><Data ss:Type="String">PHANTASMAL_IMAGE_GRANTED_ABILITY</Data></Cell>
     <Cell ss:Index="3"><Data ss:Type="String">When this creature becomes the target of a spell or ability, sacrifice it.</Data></Cell>
     <Cell><Data ss:Type="String">Quand cette créature devient la cible d'un sort ou une capacité, sacrifiez la.</Data></Cell>
@@ -769,6 +801,18 @@
     <Cell><Data ss:Type="String">Когда это существо становится целью заклинания или способности, пожертвуйте его.</Data></Cell>
     <Cell><Data ss:Type="String">Quando esta criatura se tornar alvo de uma mágica ou habilidade, sacrifique-a.</Data></Cell>
    </Row>
+   <Row>
+    <Cell><Data ss:Type="String">TANDEM_LOOKOUT_GRANTED_ABILITY</Data></Cell>
+    <Cell ss:Index="3"><Data ss:Type="String">Whenever this creature deals damage to an opponent, draw a card.</Data></Cell>
+    <Cell><Data ss:Type="String">À chaque fois que cette créature inflige des blessures à un adversaire, piochez une carte.</Data></Cell>
+    <Cell><Data ss:Type="String">Siempre que esta criatura haga daño a un oponente, roba una carta.</Data></Cell>
+    <Cell><Data ss:Type="String">Immer wenn diese Kreatur einem Gegner Schaden zufügt, ziehe eine Karte</Data></Cell>
+    <Cell><Data ss:Type="String">Ogniqualvolta questa creatura infligge danno a un avversario, pesca una carta.</Data></Cell>
+    <Cell ss:Index="9"><Data ss:Type="String">このクリーチャーがいずれかの対戦相手にダメージを与えるたび、カードを１枚引く。</Data></Cell>
+    <Cell><Data ss:Type="String">이 생물이 상대에게 피해를 입힐 때마다, 카드 한 장을 뽑는다</Data></Cell>
+    <Cell><Data ss:Type="String">Каждый раз, когда это существо наносит повреждения оппоненту, возьмите карту</Data></Cell>
+    <Cell><Data ss:Type="String">Toda vez que esta criatura causar dano a um oponente, compre um card.</Data></Cell>
+   </Row>
   </Table>
   <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
    <PageSetup>
@@ -776,29 +820,22 @@
     <Footer x:Margin="0.3"/>
     <PageMargins x:Bottom="0.75" x:Left="0.7" x:Right="0.7" x:Top="0.75"/>
    </PageSetup>
-   <Unsynced/>
    <Print>
     <ValidPrinterInfo/>
     <HorizontalResolution>600</HorizontalResolution>
     <VerticalResolution>600</VerticalResolution>
    </Print>
    <Selected/>
-   <TopRowVisible>42</TopRowVisible>
-   <Panes>
-    <Pane>
-     <Number>3</Number>
-     <ActiveRow>60</ActiveRow>
-    </Pane>
-   </Panes>
    <ProtectObjects>False</ProtectObjects>
    <ProtectScenarios>False</ProtectScenarios>
   </WorksheetOptions>
+  <Sorting xmlns="urn:schemas-microsoft-com:office:excel">
+   <Sort>Ident</Sort>
+  </Sorting>
  </Worksheet>
  <Worksheet ss:Name="Sheet1">
-  <Table ss:ExpandedColumnCount="1" ss:ExpandedRowCount="1" x:FullColumns="1"
-   x:FullRows="1" ss:DefaultRowHeight="15">
-   <Row ss:AutoFitHeight="0"/>
-  </Table>
+  <Table ss:ExpandedColumnCount="0" ss:ExpandedRowCount="0" x:FullColumns="1"
+   x:FullRows="1" ss:DefaultColumnWidth="66" ss:DefaultRowHeight="15"/>
   <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
    <PageSetup>
     <Header x:Margin="0.3"/>
@@ -811,10 +848,8 @@
   </WorksheetOptions>
  </Worksheet>
  <Worksheet ss:Name="Sheet2">
-  <Table ss:ExpandedColumnCount="1" ss:ExpandedRowCount="1" x:FullColumns="1"
-   x:FullRows="1" ss:DefaultRowHeight="15">
-   <Row ss:AutoFitHeight="0"/>
-  </Table>
+  <Table ss:ExpandedColumnCount="0" ss:ExpandedRowCount="0" x:FullColumns="1"
+   x:FullRows="1" ss:DefaultColumnWidth="66" ss:DefaultRowHeight="15"/>
   <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
    <PageSetup>
     <Header x:Margin="0.3"/>
@@ -827,10 +862,8 @@
   </WorksheetOptions>
  </Worksheet>
  <Worksheet ss:Name="Sheet3">
-  <Table ss:ExpandedColumnCount="1" ss:ExpandedRowCount="1" x:FullColumns="1"
-   x:FullRows="1" ss:DefaultRowHeight="15">
-   <Row ss:AutoFitHeight="0"/>
-  </Table>
+  <Table ss:ExpandedColumnCount="0" ss:ExpandedRowCount="0" x:FullColumns="1"
+   x:FullRows="1" ss:DefaultColumnWidth="66" ss:DefaultRowHeight="15"/>
   <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
    <PageSetup>
     <Header x:Margin="0.3"/>
@@ -843,3 +876,4 @@
   </WorksheetOptions>
  </Worksheet>
 </Workbook>
+
