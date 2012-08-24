@@ -468,6 +468,18 @@
     <Cell><Data ss:Type="String">Você quer pagar {%d}? (Se você não fizer isso, o feitiço vai ser anulado.)</Data></Cell>
    </Row>
    <Row>
+    <Cell><Data ss:Type="String">CARD_QUERY_MC_CHOOSE_ONE</Data></Cell>
+    <Cell ss:Index="3"><Data ss:Type="String">Choose one.</Data></Cell>
+    <Cell><Data ss:Type="String">Choisissez l'un.</Data></Cell>
+    <Cell><Data ss:Type="String">Elige uno.</Data></Cell>
+    <Cell><Data ss:Type="String">Bestimme eines.</Data></Cell>
+    <Cell><Data ss:Type="String">Scegli uno.</Data></Cell>
+    <Cell ss:Index="9"><Data ss:Type="String">以下の３つから１つを選ぶ。</Data></Cell>
+    <Cell><Data ss:Type="String">Choose one.</Data></Cell>
+    <Cell><Data ss:Type="String">Выберите одно.</Data></Cell>
+    <Cell><Data ss:Type="String">Escolha um.</Data></Cell>
+   </Row>
+   <Row>
     <Cell><Data ss:Type="String">CARD_QUERY_MC_OPTION_NO</Data></Cell>
     <Cell ss:Index="3"><Data ss:Type="String">No</Data></Cell>
     <Cell><Data ss:Type="String">non</Data></Cell>
@@ -587,6 +599,42 @@
     <Cell><Data ss:Type="String">The spell from opponent's graveyard.</Data></Cell>
     <Cell><Data ss:Type="String">The spell from opponent's graveyard.</Data></Cell>
     <Cell><Data ss:Type="String">The spell from opponent's graveyard.</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">CARD_QUERY_OPTION_EXILE_ALL_CARDS_FROM_TARGET_PLAYER_GRAVEYARD</Data></Cell>
+    <Cell ss:Index="3"><Data ss:Type="String">Exile all cards from target player's graveyard.</Data></Cell>
+    <Cell><Data ss:Type="String">Exilez toutes les cartes du cimetière du joueur ciblé.</Data></Cell>
+    <Cell><Data ss:Type="String">Exilia todas las cartas del cementerio del jugador objetivo.</Data></Cell>
+    <Cell><Data ss:Type="String">Schicke alle Karten aus dem Friedhof eines Spielers deiner Wahl ins Exil.</Data></Cell>
+    <Cell><Data ss:Type="String">Esilia tutte le carte dal cimitero di un giocatore bersaglio.</Data></Cell>
+    <Cell ss:Index="9"><Data ss:Type="String">プレイヤー１人を対象とし、そのプレイヤーの墓地にあるすべてのカードを追放する。</Data></Cell>
+    <Cell><Data ss:Type="String">Exile all cards from target player's graveyard.</Data></Cell>
+    <Cell><Data ss:Type="String">изгоните все карты из кладбища целевого игрока.</Data></Cell>
+    <Cell><Data ss:Type="String">Exile todos os cards do cemitério do jogador alvo.</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">CARD_QUERY_OPTION_JUND_CHARM_DEALS_2_DAMAGE_TO_EACH_CREATURE</Data></Cell>
+    <Cell ss:Index="3"><Data ss:Type="String">Jund Charm deals 2 damage to each creature.</Data></Cell>
+    <Cell><Data ss:Type="String">Le Charme de Jund inflige 2 blessures à chaque créature.</Data></Cell>
+    <Cell><Data ss:Type="String">El Amuleto jundiano le hace 2 puntos de daño a cada criatura.</Data></Cell>
+    <Cell><Data ss:Type="String">Das Amulett aus Jund fügt jeder Kreatur 2 Schadenspunkte zu.</Data></Cell>
+    <Cell><Data ss:Type="String">Il Monile di Jund infligge 2 danni a ogni creatura.</Data></Cell>
+    <Cell ss:Index="9"><Data ss:Type="String">ジャンドの魔除けは各クリーチャーに、それぞれ２点のダメージを与える。.</Data></Cell>
+    <Cell><Data ss:Type="String">Jund Charm deals 2 damage to each creature.</Data></Cell>
+    <Cell><Data ss:Type="String">Талисман Джанда наносит 2 повреждения каждому существу.</Data></Cell>
+    <Cell><Data ss:Type="String">Medalhão de Jund causa 2 pontos de dano a cada criatura.</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">CARD_QUERY_OPTION_PUT_TWO_1_1_COUNTERS_ON_TARGET_CREATURE</Data></Cell>
+    <Cell ss:Index="3"><Data ss:Type="String">Put two +1/+1 counters on target creature.</Data></Cell>
+    <Cell><Data ss:Type="String">Mettez deux marqueurs +1/+1 sur la créature ciblée.</Data></Cell>
+    <Cell><Data ss:Type="String">Pon dos contadores +1/+1 sobre la criatura objetivo.</Data></Cell>
+    <Cell><Data ss:Type="String">Lege zwei +1/+1-Marken auf eine Kreatur deiner Wahl.</Data></Cell>
+    <Cell><Data ss:Type="String">Metti due segnalini +1/+1 su una creatura bersaglio.</Data></Cell>
+    <Cell ss:Index="9"><Data ss:Type="String">クリーチャー１体を対象とし、それの上に＋１/＋１カウンターを２個置く。</Data></Cell>
+    <Cell><Data ss:Type="String">Put two +1/+1 counters on target creature.</Data></Cell>
+    <Cell><Data ss:Type="String">положите два жетона +1/+1 на целевое существо.</Data></Cell>
+    <Cell><Data ss:Type="String">Coloque dois marcadores +1/+1 na criatura alvo.</Data></Cell>
    </Row>
    <Row>
     <Cell><Data ss:Type="String">CARD_QUERY_OPTION_CIRCULAR_LOGIC</Data></Cell>
