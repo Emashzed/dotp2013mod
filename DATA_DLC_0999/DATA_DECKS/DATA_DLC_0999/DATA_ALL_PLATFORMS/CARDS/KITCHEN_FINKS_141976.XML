@@ -1,0 +1,88 @@
+﻿<?xml version='1.0'?>
+<CARD_V2>
+  <FILENAME text="KITCHEN_FINKS_141976" />
+  <CARDNAME text="KITCHEN_FINKS" />
+  <TITLE>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Kitchen Finks]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Crumiri della Cucina]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Küchenhutzel]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Fourbes de cuisine]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Despreciables de cocina]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[台所の嫌がらせ屋]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[Kitchen Finks]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Кухонные Прохвосты]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Informantes de Cozinha]]></LOCALISED_TEXT>
+  </TITLE>
+  <MULTIVERSEID value="141976" />
+  <ARTID value="888141976" />
+  <ARTIST name="Kev Walker" />
+  <CASTING_COST cost="{1}{G/W}{G/W}" />
+  <FLAVOURTEXT>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Accept one favor from an ouphe, and you’re doomed to accept another.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Accetta un favore da un ouphe e sarai destinato a doverne accettare ancora.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Nimm eine gute Tat eines Bubohs an, und du bist gezwungen, auch noch eine zweite über dich ergehen zu lassen.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Acceptez une faveur d’un orphe, et vous êtes condamné à le faire à nouveau.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Acepta un favor de un oufé y estás condenado a aceptar otro.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[アウフの頼みを一つ引き受たら、さらに引き受ける羽目になる。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[Accept one favor from an ouphe, and you’re doomed to accept another.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Если позволить уфу сделать одно одолжение, то второго не избежать.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Aceite um favor de um trasgo e você estará fadado a aceitar outro.]]></LOCALISED_TEXT>
+  </FLAVOURTEXT>
+  <TYPE metaname="Creature" />
+  <SUB_TYPE metaname="Ouphe" order_de-DE="0" order_es-ES="0" order_fr-FR="0" order_it-IT="0" order_jp-JA="0" order_ko-KR="0" order_pt-BR="0" order_ru-RU="0" />
+  <EXPANSION value="DPG" />
+  <RARITY metaname="U" />
+  <POWER value="3" />
+  <TOUGHNESS value="2" />
+  <TRIGGERED_ABILITY auto_skip="1" filter_zone="ZONE_IN_PLAY">
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[When Kitchen Finks enters the battlefield, you gain 2 life.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Quando i Crumiri della Cucina entrano in gioco, guadagni 2 punti vita.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Wenn die Küchenhutzel ins Spiel kommen, erhältst du 2 Lebenspunkte dazu.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Quand les Fourbes de cuisine arrivent en jeu, vous gagnez 2 points de vie.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Cuando los Despreciables de cocina entren en juego, gana 2 vidas.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[台所の嫌がらせ屋が場に出たとき、あなたは２点のライフを得る。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[When Kitchen Finks enters the battlefield, you gain 2 life.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Когда Кухонные Прохвосты входят в игру, вы получаете 2 жизни.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Quando Informantes de Cozinha entra em jogo, você ganha 2 pontos de vida.]]></LOCALISED_TEXT>
+    <TRIGGER value="ZONECHANGE_END" simple_qualifier="self" to_zone="ZONE_IN_PLAY" />
+    <RESOLUTION_TIME_ACTION>
+    local player = EffectController()
+    if (player ~= nil) then
+    	player:GainLife(2)
+    end
+    </RESOLUTION_TIME_ACTION>
+  </TRIGGERED_ABILITY>
+  <TRIGGERED_ABILITY filter_zone="ZONE_IN_PLAY">
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Persist]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Persistance]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Persistir.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Beharrlichkeit]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Persistere]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[頑強]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[Persist]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Упорство]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Persistir]]></LOCALISED_TEXT>
+    <TRIGGER value="ZONECHANGE_BEGIN" simple_qualifier="self" to_zone="ZONE_GRAVEYARD" from_zone="ZONE_IN_PLAY">
+    if (Object():CountCounters( MTG():MinusOneMinusOneCounters() ) == 0) then
+      EffectDC():Protect_CardPtr(COMPARTMENT_ID_EFFECT_SOURCE)
+      return true
+    else
+      return false
+    end
+    </TRIGGER>
+    <RESOLUTION_TIME_ACTION>
+    if EffectSource() ~= nil then
+    	EffectDC():Protect_CardPtr(COMPARTMENT_ID_EFFECT_SOURCE)
+    	EffectSource():PutIntoPlay( EffectSource():GetOwner() )     
+    end
+    </RESOLUTION_TIME_ACTION>
+    <RESOLUTION_TIME_ACTION>
+    if EffectSource() ~= nil then
+    	EffectSource():AddCounters( MTG():MinusOneMinusOneCounters(), 1 )
+    end
+    </RESOLUTION_TIME_ACTION>
+  </TRIGGERED_ABILITY>
+  <HELP title="MORE_INFO_BADGE_TITLE_11381" body="MORE_INFO_BADGE_BODY_11381" zone="ZONE_ANY" />
+  <SFX text="COMBAT_BITE_LARGE_ATTACK" power_boundary_min="4" power_boundary_max="-1" />
+  <SFX text="COMBAT_BITE_SMALL_ATTACK" power_boundary_min="1" power_boundary_max="3" />
+</CARD_V2>
