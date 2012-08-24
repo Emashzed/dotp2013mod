@@ -192,6 +192,30 @@
     <Cell><Data ss:Type="String">Escolha um cartão para colocar no cemitério de seu dono.</Data></Cell>
    </Row>
    <Row>
+    <Cell><Data ss:Type="String">CARD_QUERY_CHOOSE_CREATURE_GAIN_MUST_BLOCK</Data></Cell>
+    <Cell ss:Index="3"><Data ss:Type="String">Choose a creature to cause to block this turn.</Data></Cell>
+    <Cell><Data ss:Type="String">Choisissez une créature pour la faire bloquer ce tour-ci.</Data></Cell>
+    <Cell><Data ss:Type="String">Elige una criatura para que bloquear este turno.</Data></Cell>
+    <Cell><Data ss:Type="String">Choose a creature to cause to block this turn.</Data></Cell>
+    <Cell><Data ss:Type="String">Scegli una creatura da far bloccare in questo turno.</Data></Cell>
+    <Cell ss:Index="9"><Data ss:Type="String">Choose a creature to cause to block this turn.</Data></Cell>
+    <Cell><Data ss:Type="String">Choose a creature to cause to block this turn.</Data></Cell>
+    <Cell><Data ss:Type="String">Choose a creature to cause to block this turn.</Data></Cell>
+    <Cell><Data ss:Type="String">Escolha uma criatura para bloquear neste turno.</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">CARD_QUERY_CHOOSE_CREATURE_OR_ARTIFACT_TO_ENCHANT</Data></Cell>
+    <Cell ss:Index="3"><Data ss:Type="String">Choose an artifact or creature to enchant.</Data></Cell>
+    <Cell><Data ss:Type="String">Choisissez un permanent pour l'enchanter.</Data></Cell>
+    <Cell><Data ss:Type="String">Elige un permanente para encantarlo.</Data></Cell>
+    <Cell><Data ss:Type="String">Bestimme eine bleibende Karte, die verzaubert werden soll.</Data></Cell>
+    <Cell><Data ss:Type="String">Scegli un permanente da incantare.</Data></Cell>
+    <Cell ss:Index="9"><Data ss:Type="String">Choose an artifact or creature to enchant.</Data></Cell>
+    <Cell><Data ss:Type="String">Choose an artifact or creature to enchant.</Data></Cell>
+    <Cell><Data ss:Type="String">Choose an artifact or creature to enchant.</Data></Cell>
+    <Cell><Data ss:Type="String">Escolha uma permanente para encantar.</Data></Cell>
+   </Row>
+   <Row>
     <Cell><Data ss:Type="String">CARD_QUERY_CHOOSE_CREATURE_PLUS1_PLUS1_COUNTER_FOR_EACH_ELF_YOUCONTROL</Data></Cell>
     <Cell ss:Index="3"><Data ss:Type="String">Choose a creature to get a +1/+1 counter for each elf you control.</Data></Cell>
     <Cell><Data ss:Type="String">Choisissez une créature pour obtenir un marqueur +1/+1 pour chaque elfe que vous contrôlez.</Data></Cell>
@@ -226,6 +250,18 @@
     <Cell><Data ss:Type="String">당신이 제어하고 첫 번째 미사일을 얻을 각 산에 대해 1 / 0를 얻는 생물을 선택합니다.</Data></Cell>
     <Cell><Data ss:Type="String">Выберите существо получают +1/+0 для каждого горного вам управлять и получить первый удар.</Data></Cell>
     <Cell><Data ss:Type="String">Escolha uma criatura para obter +1/+0 para cada montanha que você controlar e ganhar o primeiro ataque.</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">CARD_QUERY_CHOOSE_CREATURE_TO_GET_2_4</Data></Cell>
+    <Cell ss:Index="3"><Data ss:Type="String">Choose a creature to get +2/+4.</Data></Cell>
+    <Cell><Data ss:Type="String">Choisissez une créature pour lui faire gagner +2/+4.</Data></Cell>
+    <Cell><Data ss:Type="String">Elige una criatura para que obtenga +2/+4.</Data></Cell>
+    <Cell><Data ss:Type="String">Bestimme eine Kreatur, die +2/+4 erhalten soll.</Data></Cell>
+    <Cell><Data ss:Type="String">Scegli una creatura che prende +2/+4.</Data></Cell>
+    <Cell ss:Index="9"><Data ss:Type="String">＋2/＋4の修整を受けるクリーチャーを選択。</Data></Cell>
+    <Cell><Data ss:Type="String">+2/+43을 받을 생물 한 개를 고르십시오.</Data></Cell>
+    <Cell><Data ss:Type="String">Выберите существо, которое получит +2/+4.</Data></Cell>
+    <Cell><Data ss:Type="String">Escolha uma criatura para receber +2/+4.</Data></Cell>
    </Row>
    <Row>
     <Cell><Data ss:Type="String">CARD_QUERY_CHOOSE_CREATURE_TO_GET_4_4</Data></Cell>
@@ -276,6 +312,18 @@
     <Cell><Data ss:Type="String">Escolha uma criatura de vínculo com %d .</Data></Cell>
    </Row>
    <Row>
+    <Cell><Data ss:Type="String">CARD_QUERY_CHOOSE_ENCHANTMENT_TO_EXILE</Data></Cell>
+    <Cell ss:Index="3"><Data ss:Type="String">Choose an enchantment to exile.</Data></Cell>
+    <Cell><Data ss:Type="String">Choisissez un enchantement à exiler.</Data></Cell>
+    <Cell><Data ss:Type="String">Elige un encantamiento para exiliar.</Data></Cell>
+    <Cell><Data ss:Type="String">Bestimme eine Karte, die ins Exil geschickt werden soll.</Data></Cell>
+    <Cell><Data ss:Type="String">Scegli un incantesimo da esiliare.</Data></Cell>
+    <Cell ss:Index="9"><Data ss:Type="String">Choose an enchantment to exile.</Data></Cell>
+    <Cell><Data ss:Type="String">Choose an enchantment to exile.</Data></Cell>
+    <Cell><Data ss:Type="String">Choose an enchantment to exile.</Data></Cell>
+    <Cell><Data ss:Type="String">Escolha um encantamento para exilar.</Data></Cell>
+   </Row>
+   <Row>
     <Cell><Data ss:Type="String">CARD_QUERY_CHOOSE_GCARD_TO_PUT_INTO_HAND</Data></Cell>
     <Cell ss:Index="3"><Data ss:Type="String">Choose a green card to put into its owner’s hand.</Data></Cell>
     <Cell><Data ss:Type="String">Choisissez une carte verte à retourner dans la main de son propriétaire.</Data></Cell>
@@ -286,6 +334,18 @@
     <Cell><Data ss:Type="String">주인의 손을 투입하는 녹색 카드를 선택합니다.</Data></Cell>
     <Cell><Data ss:Type="String">Выберите зеленую карту положить в руку его владельца.</Data></Cell>
     <Cell><Data ss:Type="String">Escolha um cartão verde para colocar na mão de seu dono.</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">CARD_QUERY_CHOOSE_INSTANT_OR_SORCERY_TO_EXILE_COPY</Data></Cell>
+    <Cell ss:Index="3"><Data ss:Type="String">Choose an instant or sorcery card to exile and copy.</Data></Cell>
+    <Cell><Data ss:Type="String">Choisissez un éphémère ou un rituel pour le lancer.</Data></Cell>
+    <Cell><Data ss:Type="String">Elige un instantáneo o conjuro para lanzar.</Data></Cell>
+    <Cell><Data ss:Type="String">Bestimme einen Spontanzauber oder eine Hexerei, den bzw. die du wirken willst.</Data></Cell>
+    <Cell><Data ss:Type="String">Scegli un istantaneo o una stregoneria da lanciare.</Data></Cell>
+    <Cell ss:Index="9"><Data ss:Type="String">Choose an instant or sorcery card to exile and copy.</Data></Cell>
+    <Cell><Data ss:Type="String">Choose an instant or sorcery card to exile and copy.</Data></Cell>
+    <Cell><Data ss:Type="String">Choose an instant or sorcery card to exile and copy.</Data></Cell>
+    <Cell><Data ss:Type="String">Escolha uma mágica instantânea ou um feitiço para conjurar.</Data></Cell>
    </Row>
    <Row>
     <Cell><Data ss:Type="String">CARD_QUERY_CHOOSE_PLAYER_DISCARD_2_RANDOM</Data></Cell>
@@ -505,6 +565,30 @@
     <Cell><Data ss:Type="String">Você deseja vincular com %d ?</Data></Cell>
    </Row>
    <Row>
+    <Cell><Data ss:Type="String">CARD_QUERY_MC_SPELLTWINE</Data></Cell>
+    <Cell ss:Index="3"><Data ss:Type="String">Choose which spell you want to resolve (take effect) first.</Data></Cell>
+    <Cell><Data ss:Type="String">Choose which spell you want to resolve (take effect) first.</Data></Cell>
+    <Cell><Data ss:Type="String">Choose which spell you want to resolve (take effect) first.</Data></Cell>
+    <Cell><Data ss:Type="String">Choose which spell you want to resolve (take effect) first.</Data></Cell>
+    <Cell><Data ss:Type="String">Choose which spell you want to resolve (take effect) first.</Data></Cell>
+    <Cell ss:Index="9"><Data ss:Type="String">Choose which spell you want to resolve (take effect) first.</Data></Cell>
+    <Cell><Data ss:Type="String">Choose which spell you want to resolve (take effect) first.</Data></Cell>
+    <Cell><Data ss:Type="String">Choose which spell you want to resolve (take effect) first.</Data></Cell>
+    <Cell><Data ss:Type="String">Choose which spell you want to resolve (take effect) first.</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">CARD_QUERY_OPPS_FIRST</Data></Cell>
+    <Cell ss:Index="3"><Data ss:Type="String">The spell from opponent's graveyard.</Data></Cell>
+    <Cell><Data ss:Type="String">The spell from opponent's graveyard.</Data></Cell>
+    <Cell><Data ss:Type="String">The spell from opponent's graveyard.</Data></Cell>
+    <Cell><Data ss:Type="String">The spell from opponent's graveyard.</Data></Cell>
+    <Cell><Data ss:Type="String">The spell from opponent's graveyard.</Data></Cell>
+    <Cell ss:Index="9"><Data ss:Type="String">The spell from opponent's graveyard.</Data></Cell>
+    <Cell><Data ss:Type="String">The spell from opponent's graveyard.</Data></Cell>
+    <Cell><Data ss:Type="String">The spell from opponent's graveyard.</Data></Cell>
+    <Cell><Data ss:Type="String">The spell from opponent's graveyard.</Data></Cell>
+   </Row>
+   <Row>
     <Cell><Data ss:Type="String">CARD_QUERY_OPTION_CIRCULAR_LOGIC</Data></Cell>
     <Cell ss:Index="3"><Data ss:Type="String">Pay {%d}</Data></Cell>
     <Cell><Data ss:Type="String">Payer {%d}</Data></Cell>
@@ -552,6 +636,18 @@
     <Cell><Data ss:Type="String">피해 5점을 입습니다.</Data></Cell>
     <Cell><Data ss:Type="String">Получить 5 повреждений.</Data></Cell>
     <Cell><Data ss:Type="String">Receba 5 de dano.</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">CARD_QUERY_YOURS_FIRST</Data></Cell>
+    <Cell ss:Index="3"><Cell><Data ss:Type="String">The spell from your graveyard.</Data></Cell>
+    <Cell><Data ss:Type="String">The spell from your graveyard.</Data></Cell>
+    <Cell><Data ss:Type="String">The spell from your graveyard.</Data></Cell>
+    <Cell><Data ss:Type="String">The spell from your graveyard.</Data></Cell>
+    <Cell><Data ss:Type="String">The spell from your graveyard.</Data></Cell>
+    <Cell ss:Index="9"><Data ss:Type="String">The spell from your graveyard.</Data></Cell>
+    <Cell><Data ss:Type="String">The spell from your graveyard.</Data></Cell>
+    <Cell><Data ss:Type="String">The spell from your graveyard.</Data></Cell>
+    <Cell><Data ss:Type="String">The spell from your graveyard.</Data></Cell>
    </Row>
    <Row>
     <Cell><Data ss:Type="String">CARD_SUBTYPE_ASSEMBLY_WORKER</Data></Cell>
