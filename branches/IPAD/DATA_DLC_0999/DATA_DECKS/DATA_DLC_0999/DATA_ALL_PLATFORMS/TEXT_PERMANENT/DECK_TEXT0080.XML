@@ -537,6 +537,18 @@
     <Cell><Data ss:Type="String">Anjo Serra</Data></Cell>
    </Row>
    <Row>
+    <Cell><Data ss:Type="String">PLAYER_NAME_BLOODBRAID_ELF</Data></Cell>
+    <Cell ss:Index="3"><Data ss:Type="String">Bloodbraid Elf</Data></Cell>
+    <Cell><Data ss:Type="String">Elfe aux Nattes sanguinolentes</Data></Cell>
+    <Cell><Data ss:Type="String">Elfo trenzas sangrientas</Data></Cell>
+    <Cell><Data ss:Type="String">Blutzopf-Elf</Data></Cell>
+    <Cell><Data ss:Type="String">Elfa dalle Trecce Rosse</Data></Cell>
+    <Cell ss:Index="9"><Data ss:Type="String">血編み髪のエルフ</Data></Cell>
+    <Cell><Data ss:Type="String">Bloodbraid Elf</Data></Cell>
+    <Cell><Data ss:Type="String">Кровавокосый Эльф</Data></Cell>
+    <Cell><Data ss:Type="String">Elfo Tranças-de-Sangue</Data></Cell>
+   </Row>
+   <Row>
     <Cell><Data ss:Type="String">PLAYER_NAME_BONEHOARD</Data></Cell>
     <Cell ss:Index="3"><Data ss:Type="String">Bonehoard</Data></Cell>
     <Cell><Data ss:Type="String">Récoltos</Data></Cell>
@@ -1122,6 +1134,18 @@
     <Cell><Data ss:Type="String">Elvish Army</Data></Cell>
     <Cell><Data ss:Type="String">Elvish Army</Data></Cell>
     <Cell><Data ss:Type="String">Elvish Army</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Z_DECK_JUND</Data></Cell>
+    <Cell ss:Index="3"><Data ss:Type="String">Jund</Data></Cell>
+    <Cell><Data ss:Type="String">Jund</Data></Cell>
+    <Cell><Data ss:Type="String">Jund</Data></Cell>
+    <Cell><Data ss:Type="String">Jund</Data></Cell>
+    <Cell><Data ss:Type="String">Jund</Data></Cell>
+    <Cell ss:Index="9"><Data ss:Type="String">Jund</Data></Cell>
+    <Cell><Data ss:Type="String">Jund</Data></Cell>
+    <Cell><Data ss:Type="String">Jund</Data></Cell>
+    <Cell><Data ss:Type="String">Jund</Data></Cell>
    </Row>
    <Row>
     <Cell><Data ss:Type="String">Z_DECK_KNIGHTS</Data></Cell>
