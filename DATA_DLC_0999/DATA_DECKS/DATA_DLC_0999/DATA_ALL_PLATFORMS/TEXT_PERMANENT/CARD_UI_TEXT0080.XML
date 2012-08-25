@@ -300,6 +300,18 @@
     <Cell><Data ss:Type="String">Choose a creature to get hexproof.</Data></Cell>
    </Row>
    <Row>
+    <Cell><Data ss:Type="String">CARD_QUERY_CHOOSE_CREATURE_TO_SHUFFLE</Data></Cell>
+    <Cell ss:Index="3"><Data ss:Type="String">Choose a creature to shuffle into it's owner's library.</Data></Cell>
+    <Cell><Data ss:Type="String">Choisissez un permanent pour le mélanger dans la bibliothèque de son propriétaire.</Data></Cell>
+    <Cell><Data ss:Type="String">Elige un permanente para barajarlo en la biblioteca de su propietario.</Data></Cell>
+    <Cell><Data ss:Type="String">Bestimme eine bleibende Karte, die in die Bibliothek ihres Besitzers gemischt werden soll.</Data></Cell>
+    <Cell><Data ss:Type="String">Scegli un permanente da rimescolare nel grimorio del suo proprietario.</Data></Cell>
+    <Cell ss:Index="9"><Data ss:Type="String">オーナーのライブラリーに加えて切り直すパーマネントを選択。</Data></Cell>
+    <Cell><Data ss:Type="String">소유자의 서고에 넣고 섞을 지속물 한 개를 고르십시오.</Data></Cell>
+    <Cell><Data ss:Type="String">Выберите перманент, который нужно втасовать в библиотеку его владельца.</Data></Cell>
+    <Cell><Data ss:Type="String">Escolha uma permanente  para embaralhar no grimório de seu dono.</Data></Cell>
+   </Row>
+   <Row>
     <Cell><Data ss:Type="String">CARD_QUERY_CHOOSE_CREATURE_TO_SOULBOND_WITH</Data></Cell>
     <Cell ss:Index="3"><Data ss:Type="String">Choose a creature to bond with %d .</Data></Cell>
     <Cell><Data ss:Type="String">Choisissez une créature à se lier avec %d .</Data></Cell>
