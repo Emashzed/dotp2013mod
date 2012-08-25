@@ -61,7 +61,7 @@
     local filtered_obj = FilteredCard()
     if filtered_obj ~= nil then
 		if filtered_obj:GetCardType():Test( CARD_TYPE_ENCHANTMENT ) ~= 0 and filtered_obj:GetSubType():Test( ENCHANTMENT_TYPE_AURA ) ~= 0 then
-			if card:CanBePlayed( EffectController() ) then
+			if filtered_obj:CanBePlayed( EffectController() ) then
     			EffectController():PseudoPlaySpell( filtered_obj )
     		end
     	else
