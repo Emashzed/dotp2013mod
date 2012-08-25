@@ -60,22 +60,23 @@
     end
     </RESOLUTION_TIME_ACTION>
     <RESOLUTION_TIME_ACTION>
+	local player = EffectController()
     local filter = Object():GetFilter()  
-    filter:Clear()  
-    filter:NotTargetted()   
+    filter:Clear()
+	filter:NotTargetted()
+	filter:May() 
+	filter:SetZone( ZONE_IN_PLAY )
     filter:AddCardType( CARD_TYPE_LAND )     
-    filter:SetZone( ZONE_IN_PLAY ) 
-	filter:SetHint( HINT_ALLIED, EffectController() )
 	player:SetTargetCount( 4 )
-	player:SetTargetPrompt( 0, "CARD_QUERY_CHOOSE_LAND_TO_UNTAP" )
-    player:SetTargetPrompt( 1, "CARD_QUERY_CHOOSE_LAND_TO_UNTAP" )
-    player:SetTargetPrompt( 2, "CARD_QUERY_CHOOSE_LAND_TO_UNTAP" )
-	player:SetTargetPrompt( 3, "CARD_QUERY_CHOOSE_LAND_TO_UNTAP" )
-    player:ChooseTargetsWithFlags( 0, EffectDC():Make_Targets(2), QUERY_FLAG_CAN_BE_FINISHED_EARLY + QUERY_FLAG_CAN_BE_FINISHED_EARLY_FOR_AI_AS_WELL)
+	player:SetTargetPrompt( 0, "CARD_QUERY_CHOOSE_LAND_TO_UNTAP" )   
+    player:SetTargetPrompt( 1, "CARD_QUERY_CHOOSE_LAND_TO_UNTAP" )   
+    player:SetTargetPrompt( 2, "CARD_QUERY_CHOOSE_LAND_TO_UNTAP" ) 
+    player:SetTargetPrompt( 3, "CARD_QUERY_CHOOSE_LAND_TO_UNTAP" )       
+    player:ChooseTargetsWithFlags( NO_VALIDATION, EffectDC():Make_Targets(1), QUERY_FLAG_CAN_BE_FINISHED_EARLY + QUERY_FLAG_CAN_BE_FINISHED_EARLY_FOR_AI_AS_WELL )
     </RESOLUTION_TIME_ACTION>
     <RESOLUTION_TIME_ACTION>
 	for i = 0,3 do
-    	local target = EffectDC():Get_Targets(2):Get_NthCardPtr(i)
+    	local target = EffectDC():Get_Targets(1):Get_NthCardPtr(i)
     	if target ~= nil then
     		target:Untap()
     	end
