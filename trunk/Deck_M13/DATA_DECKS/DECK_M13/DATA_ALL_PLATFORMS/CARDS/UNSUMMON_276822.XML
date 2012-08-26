@@ -18,7 +18,7 @@
   <ARTIST name="Izzy" />
   <CASTING_COST cost="{U}" />
   <FLAVOURTEXT>
-    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Mages routinely summon creatures from the Æther. It’s only fair that they occasionally throw one back.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Not to be. That is the answer.]]></LOCALISED_TEXT>
     <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Les mages invoquent régulièrement des créatures de l’Æther. Il est logique qu’ils en renvoient une de temps à autre.]]></LOCALISED_TEXT>
     <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Los magos regularmente invocan criaturas desde el éter. Es justo que de vez en cuando devuelvan una.]]></LOCALISED_TEXT>
     <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Magier beschwören routiniert Kreaturen aus dem Äther. Es ist daher nur fair, dass sie ab und zu auch eine zurückwerfen.]]></LOCALISED_TEXT>
