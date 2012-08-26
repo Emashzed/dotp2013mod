@@ -1,0 +1,110 @@
+<?xml version='1.0'?>
+<CARD_V2>
+  <FILENAME text="DIABOLIC_REVELATION_301080" />
+  <CARDNAME text="DIABOLIC_REVELATION" />
+  <TITLE>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Diabolic Revelation]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Révélation diabolique]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Revelación diabólica]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Teuflische Offenbarung]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Rivelazione Diabolica]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[魔性の天啓]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[극악한 계시]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Дьявольское Открытие]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Revelação Diabólica]]></LOCALISED_TEXT>
+  </TITLE>
+  <MULTIVERSEID value="301080" />
+  <ARTID value="278196" />
+  <ARTIST name="Raymond Swanland" />
+  <CASTING_COST cost="{X}{3}{B}{B}" />
+  <FLAVOURTEXT>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[“There are some secrets so dark no human mind should ever contain them. Interested?”
+—Nefarox, Overlord of Grixis]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[« Il existe des secrets si noirs qu’aucun esprit humain ne devrait jamais les connaître. Intéressé ? »
+—Nefarox, suzerain de Grixis]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[“Hay secretos tan oscuros que ninguna mente humana debería poseerlos. ¿Te interesa?”
+—Néfarox, jefe supremo de Grixis]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[„Ich weiß Geheimnisse, die so düster sind, dass kein menschlicher Verstand sie je kennen sollte. Willst du sie wissen?“
+—Nefarox, Oberkommandant von Grixis]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[“Vi sono alcuni segreti così oscuri che nessuna mente umana dovrebbe mai tenerli. Ti interessa?”
+—Nefarox, Signore Supremo di Grixis]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[「人間の心にあるべきではないほどに暗い秘密というものが存在する。 興味深いだろう？」
+—グリクシスの首領、ネファロックス]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[“인간의 머릿속에 절대 들어가서는 안 되는 비밀들도 존재하지. 구미가 당기나?”
+—그릭시스의 지배자 네파록스]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[«Некоторые тайны настолько темные, что человеческий разум просто не должен ими владеть. Хотите?»
+— Нефарокс, Повелитель Гриксиса]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[“Alguns segredos são tão sombrios que nenhuma mente humana deveria contê-los. Interessado?”
+— Nefarox, Soberano de Grixis]]></LOCALISED_TEXT>
+  </FLAVOURTEXT>
+  <TYPE metaname="Sorcery" />
+  <EXPANSION value="DPG" />
+  <RARITY metaname="R" />
+  <SPELL_ABILITY filter_zone="ZONE_IN_PLAY">
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Search your library for up to X cards and put those cards into your hand. Then shuffle your library.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Cherchez dans votre bibliothèque jusqu’à X cartes et mettez-les dans votre main. Mélangez ensuite votre bibliothèque.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Busca en tu biblioteca hasta X cartas y ponlas en tu mano. Luego baraja tu biblioteca.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Durchsuche deine Bibliothek nach bis zu X Karten und nimm diese Karten auf deine Hand. Mische danach deine Bibliothek.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Passa in rassegna il tuo grimorio per trovare fino a X carte e aggiungile alla tua mano. Poi rimescola il tuo grimorio.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[あなたのライブラリーからカードをX枚探し、それをあなたの手札に加える。 その後あなたのライブラリーを切り直す。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[당신의 서고에서 최대 X장의 카드를 찾아 당신의 손으로 가져간다. 그러고 나서 당신의 서고를 섞는다.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Найдите в вашей библиотеке не более X карт и положите те карты в вашу руку. Затем перетасуйте вашу библиотеку.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Procure em seu grimório até X cards e coloque-os na sua mão. Depois, embaralhe seu grimório.]]></LOCALISED_TEXT>
+    <RESOLUTION_TIME_ACTION>
+    local Xvalue = GetEffectX()
+    local filter = Object():GetFilter()
+    local player = EffectController()
+    player:MarkSearchedLibrary()
+    if player:IsAI() == 0 then
+    	-- human behaviour (perform the search)
+    	filter:Clear()
+    	filter:NotTargetted()
+    	filter:May()
+    	filter:SetZone( ZONE_LIBRARY )
+    	filter:SetPlayer( player )     
+    	player:SetTargetCount( Xvalue )
+    	
+    	for i=0,Xvalue-1 do
+    		player:SetTargetPrompt( i, "CARD_QUERY_CHOOSE_CARD_TO_PUT_INTO_HAND")
+    	end
+    	
+    	player:ChooseTargetsWithFlags( NO_VALIDATION, EffectDC():Make_Targets(0), QUERY_FLAG_CAN_BE_FINISHED_EARLY )
+    else
+    	-- AI behaviour (approximate the search)
+    	local i=0
+    	local n=0
+    	local targetDC = EffectDC():Make_Targets(0)
+    	
+    	while (i&lt;Xvalue) do
+    		local candidate_card = player:Library_GetNth(n)
+    		n = n+1
+    		
+    		if candidate_card == nil then
+    			-- we're done here - no more suitable cards we'd want to tutor
+    			return
+    		else
+    			if candidate_card:GetCardType():Test( CARD_TYPE_LAND ) == 0 and candidate_card:GetCardType():Test( CARD_TYPE_ARTIFACT ) == 0 then
+    			
+    				-- suitable - load 'er up
+    				targetDC:Set_CardPtr(i, candidate_card)
+    				i = i+1
+    			end
+    		end
+    	end
+    end
+    </RESOLUTION_TIME_ACTION>
+    <RESOLUTION_TIME_ACTION>
+    local Xvalue = GetEffectX()
+    for i = 0,(Xvalue-1) do
+    	local target = EffectDC():Get_Targets(0):Get_NthCardPtr(0)
+    	local player = EffectController()
+    	if (target~= nil and player ~= nil) then
+    		target:PutInHand()
+    	end
+    end
+    </RESOLUTION_TIME_ACTION>
+    <RESOLUTION_TIME_ACTION>
+    EffectController():ShuffleLibrary()
+    </RESOLUTION_TIME_ACTION>
+  </SPELL_ABILITY>
+</CARD_V2>

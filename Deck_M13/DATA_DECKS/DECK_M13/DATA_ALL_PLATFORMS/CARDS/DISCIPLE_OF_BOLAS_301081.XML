@@ -1,0 +1,79 @@
+<?xml version='1.0'?>
+<CARD_V2>
+  <FILENAME text="DISCIPLE_OF_BOLAS_301081" />
+  <CARDNAME text="DISCIPLE_OF_BOLAS" />
+  <TITLE>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Disciple of Bolas]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Disciple de Bolas]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Discípulo de Nicol Bolas]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Bolas’ Schülerin]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Discepola di Bolas]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[ボーラスの信奉者]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[니콜 볼라스의 사도]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Приверженец Боласа]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Discípulo de Nicol Bolas]]></LOCALISED_TEXT>
+  </TITLE>
+  <MULTIVERSEID value="301081" />
+  <ARTID value="253694" />
+  <ARTIST name="Slawomir Maniak" />
+  <CASTING_COST cost="{3}{B}" />
+  <FLAVOURTEXT>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[“Lord Bolas has shown me how each miserable little life holds untold resources.”]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[« Le Seigneur Bolas m’a montré comment chaque petite vie misérable pouvait renfermer des ressources considérables. »]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[“Mi Señor Nicol Bolas me ha mostrado que cada pequeña y miserable vida tiene sus recursos ocultos.”]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[„Fürst Bolas hat mir gezeigt, welch wertvolle Rohstoffe noch im kleinsten Lebewesen stecken.“]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[“Lord Bolas mi ha mostrato come ogni piccola vita miserabile contiene risorse inaudite.”]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[「ボーラス卿は私に、哀れな小さき生命がどれほどの勝ちを秘めているかを教えてくれました」]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[“볼라스님께서는 하찮은 생명 하나에 얼마나 무궁무진한 잠재적 자원이 있는지를 나에게 가르쳐주셨다.”]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[«Повелитель Болас показал мне, что в каждой никчемной и жалкой жизни есть скрытые возможности».]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[“O Senhor Bolas me mostrou como cada vida miserável encerra incríveis recursos.”]]></LOCALISED_TEXT>
+  </FLAVOURTEXT>
+  <TYPE metaname="Creature" />
+  <SUB_TYPE metaname="Human" order_de-DE="1" order_es-ES="0" order_fr-FR="1" order_it-IT="0" order_jp-JA="1" order_ko-KR="1" order_pt-BR="1" order_ru-RU="1" />
+  <SUB_TYPE metaname="Wizard" order_de-DE="0" order_es-ES="1" order_fr-FR="0" order_it-IT="1" order_jp-JA="0" order_ko-KR="0" order_pt-BR="0" order_ru-RU="0" />
+  <EXPANSION value="DPG" />
+  <RARITY metaname="R" />
+  <POWER value="2" />
+  <TOUGHNESS value="1" />
+  <TRIGGERED_ABILITY auto_skip="1">
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[When Disciple of Bolas enters the battlefield, sacrifice another creature. You gain X life and draw X cards, where X is that creature’s power.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Quand la Disciple de Bolas arrive sur le champ de bataille, sacrifiez une autre créature. Vous gagnez X points de vie et vous piochez X cartes, X étant la force de cette créature.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Cuando el Discípulo de Nicol Bolas entre al campo de batalla, sacrifica otra criatura. Ganas X vidas y robas X cartas, donde X es la fuerza de esa criatura.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Wenn Bolas’ Schülerin ins Spiel kommt, opfere eine andere Kreatur. Du erhältst X Lebenspunkte dazu und ziehst X Karten, wobei X gleich der Stärke dieser Kreatur ist.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Quando la Discepola di Bolas entra nel campo di battaglia, sacrifica un'altra creatura. Guadagni X punti vita e peschi X carte, dove X è la forza di quella creatura.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[《ボーラスの信奉者》が戦場に出たとき、他のクリーチャーを１体生け贄に捧げる。あなたはX点のライフを得て、カードをX枚引く。Xはそのクリーチャーのパワーに等しい。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[니콜 볼라스의 사도가 전장에 들어올 때, 다른 생물 한 개를 희생한다. 당신은 생명 X점을 얻고 카드 X장을 뽑는다. X는 희생된 생물의 공격력이다.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Когда Приверженец Боласа выходит на поле битвы, пожертвуйте другое существо. Вы получаете X жизней и берете X карт, где X — сила того существа.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Quando Discípulo de Nicol Bolas entrar no campo de batalha, sacrifique outra criatura. Você ganha X pontos de vida e compra X cards, sendo X igual ao poder daquela criatura.]]></LOCALISED_TEXT>
+    <TRIGGER value="ZONECHANGE_END" simple_qualifier="self" to_zone="ZONE_IN_PLAY" />
+    <TARGET_DEFINITION id="0">
+    local filter = Object():GetFilter()
+    filter:Clear()
+    filter:AddCardType( CARD_TYPE_CREATURE )
+    filter:SetPlayer( EffectController() )
+    filter:SetZone( ZONE_IN_PLAY )
+    filter:SetHint( HINT_ALLIED, EffectController() )
+    filter:SetCardInstance( Object() )
+    filter:AddExtra( FILTER_EXTRA_FLIP_CARD_INSTANCE )
+    </TARGET_DEFINITION>
+    <TARGET_DETERMINATION>
+    return AtLeastOneTargetFromDefinition(0)
+    </TARGET_DETERMINATION>
+    <PLAY_TIME_ACTION target_choosing="1">
+    EffectController():ChooseTarget( 0, "CARD_QUERY_CHOOSE_ANOTHER_CREATURE_TO_SACRIFICE", EffectDC():Make_Targets(0) )
+    </PLAY_TIME_ACTION>
+    <RESOLUTION_TIME_ACTION>
+    local target = EffectDC():Get_Targets(0):Get_CardPtr(0)
+    local player = EffectController()
+    if target ~= nil then 
+    	local amount = target:GetCurrentPower()
+    	target:Sacrifice(player)  
+    	PlayerDrawCards( player, amount )
+    	player:GainLife(amount)
+    end
+    </RESOLUTION_TIME_ACTION>
+  </TRIGGERED_ABILITY>
+  <SFX text="COMBAT_PESTS_LARGE_ATTACK" power_boundary_min="4" power_boundary_max="-1" />
+  <SFX text="COMBAT_PESTS_SMALL_ATTACK" power_boundary_min="1" power_boundary_max="3" />
+  <AI_BASE_SCORE score="600" zone="ZONE_HAND" />
+</CARD_V2>

@@ -18,7 +18,7 @@
   <ARTIST name="Dan Scott" />
   <CASTING_COST cost="{3}{U}" />
   <FLAVOURTEXT>
-    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Their denial reaches far into your future.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA["Don't get any ideas."]]></LOCALISED_TEXT>
     <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Leur dénégation va loin dans votre avenir.]]></LOCALISED_TEXT>
     <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Su negación llega a lo más lejano de tu futuro.]]></LOCALISED_TEXT>
     <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Ihre Ablehnung reicht weit in die Zukunft.]]></LOCALISED_TEXT>

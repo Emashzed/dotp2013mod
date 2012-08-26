@@ -59,7 +59,7 @@
     end
     </CONTINUOUS_ACTION>
   </STATIC_ABILITY>
-  <MANA_ABILITY filter_zone="ZONE_IN_PLAY">
+  <ACTIVATED_ABILITY forced_skip="1" filter_zone="ZONE_IN_PLAY" resource_id="1">
     <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[{T}: Add {U} to your mana pool.]]></LOCALISED_TEXT>
     <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[{T}: Ajoutez {U} à votre réserve.]]></LOCALISED_TEXT>
     <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[{T}: Agrega {U} a tu reserva de maná.]]></LOCALISED_TEXT>
@@ -70,8 +70,10 @@
     <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[{T}: добавьте {U} в ваше хранилище маны.]]></LOCALISED_TEXT>
     <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[{T}: Adicione {U} à sua reserva de mana.]]></LOCALISED_TEXT>
     <COST type="TapSelf" />
-    <PRODUCES amount="{U}" />
-  </MANA_ABILITY>
+	<RESOLUTION_TIME_ACTION>
+		ProduceMana("U",1)
+	</RESOLUTION_TIME_ACTION>
+  </ACTIVATED_ABILITY>
   <STATIC_ABILITY>
     <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Creatures without flying or islandwalk can't attack.]]></LOCALISED_TEXT>
     <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Le creature senza volare o passa-Isole non possono attaccare.]]></LOCALISED_TEXT>
