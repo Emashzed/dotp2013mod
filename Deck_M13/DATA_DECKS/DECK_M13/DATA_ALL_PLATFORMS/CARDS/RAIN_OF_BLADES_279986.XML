@@ -29,7 +29,7 @@
     <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Alguns dizem que são as armas dos heróis tombados em batalha, ávidas por uma última chance de glória.]]></LOCALISED_TEXT>
   </FLAVOURTEXT>
   <TYPE metaname="Instant" />
-  <EXPANSION value="DPG" />
+  <EXPANSION value="M13" />
   <RARITY metaname="U" />
   <SPELL_ABILITY dangerous="1">
     <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Rain of Blades deals 1 damage to each attacking creature.]]></LOCALISED_TEXT>

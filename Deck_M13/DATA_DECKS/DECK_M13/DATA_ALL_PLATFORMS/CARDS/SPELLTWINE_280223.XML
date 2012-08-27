@@ -18,7 +18,7 @@
   <ARTIST name="Noah Bradley" />
   <CASTING_COST cost="{5}{U}" />
   <TYPE metaname="Sorcery" />
-  <EXPANSION value="DPG" />
+  <EXPANSION value="M13" />
   <RARITY metaname="R" />
   <SPELL_ABILITY dangerous="1">
     <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Exile target instant or sorcery card from your graveyard and target instant or sorcery card from an opponent's graveyard. Copy those cards. Cast the copies if able without paying their mana costs. Exile Spelltwine.]]></LOCALISED_TEXT>

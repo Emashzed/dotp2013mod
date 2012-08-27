@@ -29,7 +29,7 @@
     <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA["De que serve ter todas as respostas certas se você as tem no momento errado?"]]></LOCALISED_TEXT>
   </FLAVOURTEXT>
   <TYPE metaname="Sorcery" />
-  <EXPANSION value="DPG" />
+  <EXPANSION value="M13" />
   <RARITY metaname="C" />
   <SPELL_ABILITY>
     <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Look at the top five cards of your library, then put them back in any order.]]></LOCALISED_TEXT>

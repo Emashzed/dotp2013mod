@@ -38,7 +38,7 @@
 — Ajani Juba D'ouro]]></LOCALISED_TEXT>
   </FLAVOURTEXT>
   <TYPE metaname="Instant" />
-  <EXPANSION value="DPG" />
+  <EXPANSION value="M13" />
   <RARITY metaname="C" />
   <SPELL_ABILITY filter_zone="ZONE_IN_PLAY">
     <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Target creature gets +2/+4 until end of turn.]]></LOCALISED_TEXT>

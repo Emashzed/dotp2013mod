@@ -29,7 +29,7 @@
     <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Não há ambição mais imponente do que a busca pelo conhecimento.]]></LOCALISED_TEXT>
   </FLAVOURTEXT>
   <TYPE metaname="Enchantment" />
-  <EXPANSION value="DPG" />
+  <EXPANSION value="M13" />
   <RARITY metaname="R" />
   <TRIGGERED_ABILITY>
     <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[At the beginning of your upkeep, if you have 200 or more cards in your library, you win the game.]]></LOCALISED_TEXT>

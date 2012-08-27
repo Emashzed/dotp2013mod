@@ -18,7 +18,7 @@
   <ARTIST name="Michael Komarck" />
   <CASTING_COST cost="{3}{W}{W}{W}" />
   <TYPE metaname="Sorcery" />
-  <EXPANSION value="DPG" />
+  <EXPANSION value="M13" />
   <RARITY metaname="R" />
   <SPELL_ABILITY dangerous="1" filter_zone="ZONE_IN_PLAY">
     <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Destroy all nonland permanents.]]></LOCALISED_TEXT>

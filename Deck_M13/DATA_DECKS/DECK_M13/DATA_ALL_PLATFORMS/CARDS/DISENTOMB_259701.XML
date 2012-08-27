@@ -38,7 +38,7 @@
 —Nevinyrral, necromancer]]></LOCALISED_TEXT>
   </FLAVOURTEXT>
   <TYPE metaname="Sorcery" />
-  <EXPANSION value="DPG" />
+  <EXPANSION value="M13" />
   <RARITY metaname="C" />
   <SPELL_ABILITY>
     <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Return target creature card from your graveyard to your hand.]]></LOCALISED_TEXT>
