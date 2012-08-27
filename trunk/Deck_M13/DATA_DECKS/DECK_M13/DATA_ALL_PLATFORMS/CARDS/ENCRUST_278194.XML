@@ -39,7 +39,7 @@
   </FLAVOURTEXT>
   <TYPE metaname="Enchantment" />
   <SUB_TYPE metaname="Aura" />
-  <EXPANSION value="DPG" />
+  <EXPANSION value="M13" />
   <RARITY metaname="C" />
   <STATIC_ABILITY attach_filter="1" filter_zone="ZONE_IN_PLAY">
     <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Enchant artifact or creature]]></LOCALISED_TEXT>

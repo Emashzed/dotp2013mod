@@ -29,7 +29,7 @@
     <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Os mestres do arcano apreciam uma deliciosa ironia. Seus estudos dos profundos e complexos ensinamentos arcanos levam a um simplicíssimo final: a capacidade de dizer meramente sim ou não.]]></LOCALISED_TEXT>
   </FLAVOURTEXT>
   <TYPE metaname="Instant" />
-  <EXPANSION value="DPG" />
+  <EXPANSION value="M13" />
   <RARITY metaname="C" />
   <SPELL_ABILITY>
     <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Counter target noncreature spell.]]></LOCALISED_TEXT>
