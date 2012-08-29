@@ -1,4 +1,4 @@
-<DECK personality="D13_TEST_62_DEFAULT.XML" deck_box_image="D13_Test62" deck_box_image_locked="locked" content_pack="0" always_available="true" uid="6299" preview_card="entreat_the_angels" is_blue="true" is_white="true" is_red="true">
+<DECK personality="D13_TEST_62_DEFAULT.XML" deck_box_image="D13_Test62" deck_box_image_locked="locked" content_pack="0" always_available="true" uid="6298" preview_card="test" is_blue="true" is_white="true" is_red="true">
   <DECKSTATISTICS Size="0" Speed="4" Flex="10" Syn="10" />
   <LandConfig minPlains="6" minIsland="7" minMountain="2" />
   <CARD name="TEMPORAL_MASTERY_623708" deckOrderId="0" />
