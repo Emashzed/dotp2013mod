@@ -4,14 +4,14 @@
   <CARDNAME text="TEMPORAL_MASTERY" />
   <TITLE>
     <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Temporal Mastery]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Dominio Temporale]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Zeitliche Überlegenheit]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Maîtrise temporelle]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Maestría del tiempo]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[時間の熟達]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[시간의 지배]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Управление Временем]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Maestria Temporal]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Temporal Mastery]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Temporal Mastery]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Temporal Mastery]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Temporal Mastery]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[Temporal Mastery]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[Temporal Mastery]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Temporal Mastery]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Temporal Mastery]]></LOCALISED_TEXT>
   </TITLE>
   <MULTIVERSEID value="623708" />
   <ARTID value="623708" />
@@ -19,28 +19,28 @@
   <CASTING_COST cost="{5}{U}{U}" />
   <FLAVOURTEXT>
     <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Time is a marvelous plaything.]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Il tempo è un giocattolo prodigioso.]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Zeit ist ein wundersames Spielzeug.]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Le temps est un merveilleux terrain de jeu.]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[El tiempo es un juguete maravilloso.]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[時間とは素晴らしい遊び道具である。]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[시간은 놀라운 장난감이다.]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Время — чудесная игрушка.]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[O tempo é um brinquedo maravilhoso.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Time is a marvelous plaything.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Time is a marvelous plaything.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Time is a marvelous plaything.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Time is a marvelous plaything.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[Time is a marvelous plaything.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[Time is a marvelous plaything.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Time is a marvelous plaything.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Time is a marvelous plaything.]]></LOCALISED_TEXT>
   </FLAVOURTEXT>
   <TYPE metaname="Sorcery" />
   <EXPANSION value="DPG" />
   <RARITY metaname="M" />
   <SPELL_ABILITY filter_zone="ZONE_IN_PLAY">
     <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Take an extra turn after this one. Exile Temporal Mastery.]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Gioca un altro turno dopo questo. Esilia il Dominio Temporale.]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Du erhältst nach diesem Zug einen weiteren Zug. Schicke Zeitliche Überlegenheit ins Exil.]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Jouez un tour supplémentaire après celui-ci. Exilez la Maîtrise temporelle.]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Toma un turno adicional después de éste. Exilia la Maestría del tiempo.]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[このターンの後に追加の１ターンを行う。 時間の熟達を追放する。]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[이 턴이 끝난 후 추가로 턴을 가진다. 시간의 지배를 추방한다.]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Сделайте дополнительный ход вслед за этим. Изгоните Управление Временем.]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Jogue um turno extra após este. Exile Maestria Temporal.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Take an extra turn after this one. Exile Temporal Mastery.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Take an extra turn after this one. Exile Temporal Mastery.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Take an extra turn after this one. Exile Temporal Mastery.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Take an extra turn after this one. Exile Temporal Mastery.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[Take an extra turn after this one. Exile Temporal Mastery.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[Take an extra turn after this one. Exile Temporal Mastery.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Take an extra turn after this one. Exile Temporal Mastery.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Take an extra turn after this one. Exile Temporal Mastery.]]></LOCALISED_TEXT>
     <RESOLUTION_TIME_ACTION>
     local player = EffectController()
     if player ~= nil then
@@ -52,16 +52,16 @@
     </RESOLUTION_TIME_ACTION>
     <SFX text="GLOBAL_WARP_PLAY" />
   </SPELL_ABILITY>
-  <TRIGGERED_ABILITY auto_skip="1" filter_zone="ZONE_IN_PLAY" active_zone="ZONE_HAND">
-    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Miracle {1}{U} (You may cast this card for its miracle cost when you draw it if it's the first card you drew this turn.)]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Miracolo {1}{U} (Puoi lanciare questa carta pagando il suo costo di miracolo quando la peschi, se è la prima che hai pescato in questo turno.)]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Mirakulum {1}{U} (Du kannst diese Karte zu ihren Mirakulum-Kosten wirken, wenn du sie ziehst, falls es die erste Karte ist, die du in diesem Zug gezogen hast.)]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Miracle {1}{U} (Vous pouvez lancer cette carte pour son coût de miracle quand vous la piochez si c'est la première carte que vous avez piochée ce tour-ci.)]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Milagro {1}{U}. (Puedes lanzar esta carta pagando su coste de milagro cuando la robes si es la primera carta que robaste este turno.)]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[奇跡 {1}{U} （あなたがこのカードを引いたとき、これがこのターンに最初に引いたカードだった場合、あなたはこれの奇跡コストを支払うことでこれを唱えてもよい。）]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[기적 {1}{U} (당신이 이 카드를 뽑을 때, 이 카드가 당신이 이번 턴에 뽑은 첫 번째 카드라면 당신은 기적 비용을 지불하고 이 카드를 발동할 수 있다.)]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Чудо {1}{U} (Вы можете разыграть эту карту за ее стоимость Чуда, когда вы берете ее, если это первая карта, которую вы взяли в этом ходу).]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Milagre {1}{U} (Você pode conjurar este card pagando seu custo de milagre ao comprá-lo se este for o primeiro card que você compra neste turno.)]]></LOCALISED_TEXT>
+  <TRIGGERED_ABILITY forced_skip="1" filter_zone="ZONE_IN_PLAY" active_zone="ZONE_HAND">
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Miracle {1}{U} |(You may cast this card for its miracle cost when you draw it if it’s the first card you drew this turn.)|]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Miracle {1}{U} |(You may cast this card for its miracle cost when you draw it if it’s the first card you drew this turn.)|]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Miracle {1}{U} |(You may cast this card for its miracle cost when you draw it if it’s the first card you drew this turn.)|]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Miracle {1}{U} |(You may cast this card for its miracle cost when you draw it if it’s the first card you drew this turn.)|]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Miracle {1}{U} |(You may cast this card for its miracle cost when you draw it if it’s the first card you drew this turn.)|]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[Miracle {1}{U} |(You may cast this card for its miracle cost when you draw it if it’s the first card you drew this turn.)|]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[Miracle {1}{U} |(You may cast this card for its miracle cost when you draw it if it’s the first card you drew this turn.)|]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Miracle {1}{U} |(You may cast this card for its miracle cost when you draw it if it’s the first card you drew this turn.)|]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Miracle {1}{U} |(You may cast this card for its miracle cost when you draw it if it’s the first card you drew this turn.)|]]></LOCALISED_TEXT>
     <TRIGGER value="DREW_CARD" simple_qualifier="controller">
     local drawCard = MTG():Interrogate_CardsDrawnThisTurn(EffectController())
     if ObjectDC():Get_Int(0) == 1 and drawCard == 1 then
@@ -71,6 +71,15 @@
     	return false
     end
     </TRIGGER>
+    <TARGET_DETERMINATION>
+    if Object():GetZone() == ZONE_HAND then
+      -- success
+    	return 1
+    else
+      -- fail
+      return 0
+    end
+    </TARGET_DETERMINATION>
     <COST type="mana" cost="{1}{U}" qualifier="conditional" />
     <RESOLUTION_TIME_ACTION conditional="if">
     if Object():GetZone() == ZONE_HAND then

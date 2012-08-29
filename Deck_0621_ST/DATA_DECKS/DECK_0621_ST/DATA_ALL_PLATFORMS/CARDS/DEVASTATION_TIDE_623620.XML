@@ -4,43 +4,43 @@
   <CARDNAME text="DEVASTATION_TIDE" />
   <TITLE>
     <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Devastation Tide]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Marea Devastatrice]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Verwüstende Flut]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Marée dévastatrice]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Marea devastadora]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[壊滅的大潮]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[황폐의 물결]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Опустошающий Прилив]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Maré da Devastação]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Devastation Tide]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Devastation Tide]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Devastation Tide]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Devastation Tide]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[Devastation Tide]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[Devastation Tide]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Devastation Tide]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Devastation Tide]]></LOCALISED_TEXT>
   </TITLE>
   <MULTIVERSEID value="623620" />
   <ARTID value="623620" />
   <ARTIST name="Raymond Swanland" />
   <CASTING_COST cost="{3}{U}{U}" />
   <FLAVOURTEXT>
-    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[It's hard to argue with a force made of divine will.]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[È difficile discutere con una forza pervasa di volontà divina.]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Mit etwas, das aus göttlichem Willen erschaffen wurde, lässt sich nur schwer streiten.]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Difficile de lutter contre une force née d'une volonté divine.]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Cuesta mucho discutir con una fuerza que está hecha de voluntad divina.]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[神聖な意志から生まれた力に抵抗するのは困難である。]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[신의 힘에 대항하기란 쉽지 않다.]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Сложно спорить с божественной волей.]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[É difícil argumentar com uma força composta da vontade divina.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[It’s hard to argue with a force made of divine will.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[It’s hard to argue with a force made of divine will.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[It’s hard to argue with a force made of divine will.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[It’s hard to argue with a force made of divine will.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[It’s hard to argue with a force made of divine will.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[It’s hard to argue with a force made of divine will.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[It’s hard to argue with a force made of divine will.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[It’s hard to argue with a force made of divine will.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[It’s hard to argue with a force made of divine will.]]></LOCALISED_TEXT>
   </FLAVOURTEXT>
   <TYPE metaname="Sorcery" />
   <EXPANSION value="DPG" />
   <RARITY metaname="R" />
   <SPELL_ABILITY dangerous="1" filter_zone="ZONE_IN_PLAY">
-    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Return all nonland permanents to their owners' hands.]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Fai tornare tutti i permanenti non terra in mano ai rispettivi proprietari.]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Bringe alle bleibenden Karten, die kein Land sind, auf die Hand ihrer Besitzer zurück.]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Renvoyez tous les permanents non-terrain dans les mains de leurs propriétaires.]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Regresa todos los permanentes que no sean tierra a las manos de sus propietarios.]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[すべての土地でないパーマネントをオーナーの手札に戻す。]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[대지가 아닌 모든 지속물을 소유자의 손으로 되돌린다.]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Верните все перманенты, не являющиеся землями, в руки их владельцев.]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Devolva todas as permanentes que não sejam terrenos para as mãos de seus donos.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Return all nonland permanents to their owners’ hands.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Return all nonland permanents to their owners’ hands.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Return all nonland permanents to their owners’ hands.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Return all nonland permanents to their owners’ hands.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Return all nonland permanents to their owners’ hands.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[Return all nonland permanents to their owners’ hands.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[Return all nonland permanents to their owners’ hands.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Return all nonland permanents to their owners’ hands.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Return all nonland permanents to their owners’ hands.]]></LOCALISED_TEXT>
     <FILTER>
     return (FilteredCard() ~= nil and 
     FilteredCard():GetCardType():Test( CARD_TYPE_LAND ) == 0 and 
@@ -51,16 +51,16 @@
     </RESOLUTION_TIME_ACTION>
     <SFX text="GLOBAL_WARP_PLAY" />
   </SPELL_ABILITY>
-  <TRIGGERED_ABILITY auto_skip="1" filter_zone="ZONE_IN_PLAY" active_zone="ZONE_HAND">
-    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Miracle {1}{U} (You may cast this card for its miracle cost when you draw it if it's the first card you drew this turn.)]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Miracolo {1}{U} (Puoi lanciare questa carta pagando il suo costo di miracolo quando la peschi, se è la prima che hai pescato in questo turno.)]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Mirakulum {1}{U} (Du kannst diese Karte zu ihren Mirakulum-Kosten wirken, wenn du sie ziehst, falls es die erste Karte ist, die du in diesem Zug gezogen hast.)]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Miracle {1}{U} (Vous pouvez lancer cette carte pour son coût de miracle quand vous la piochez si c'est la première carte que vous avez piochée ce tour-ci.)]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Milagro {1}{U}. (Puedes lanzar esta carta pagando su coste de milagro cuando la robes si es la primera carta que robaste este turno.)]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[奇跡 {1}{U} （あなたがこのカードを引いたとき、これがこのターンに最初に引いたカードだった場合、あなたはこれの奇跡コストを支払うことでこれを唱えてもよい。）]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[기적 {1}{U} (당신이 이 카드를 뽑을 때, 이 카드가 당신이 이번 턴에 뽑은 첫 번째 카드라면 당신은 기적 비용을 지불하고 이 카드를 발동할 수 있다.)]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Чудо {1}{U} (Вы можете разыграть эту карту за ее стоимость Чуда, когда вы берете ее, если это первая карта, которую вы взяли в этом ходу).]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Milagre {1}{U} (Você pode conjurar este card pagando seu custo de milagre ao comprá-lo se este for o primeiro card que você compra neste turno.)]]></LOCALISED_TEXT>
+  <TRIGGERED_ABILITY forced_skip="1" filter_zone="ZONE_IN_PLAY" active_zone="ZONE_HAND">
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Miracle {1}{U} |(You may cast this card for its miracle cost when you draw it if it’s the first card you drew this turn.)|]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Miracle {1}{U} |(You may cast this card for its miracle cost when you draw it if it’s the first card you drew this turn.)|]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Miracle {1}{U} |(You may cast this card for its miracle cost when you draw it if it’s the first card you drew this turn.)|]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Miracle {1}{U} |(You may cast this card for its miracle cost when you draw it if it’s the first card you drew this turn.)|]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Miracle {1}{U} |(You may cast this card for its miracle cost when you draw it if it’s the first card you drew this turn.)|]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[Miracle {1}{U} |(You may cast this card for its miracle cost when you draw it if it’s the first card you drew this turn.)|]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[Miracle {1}{U} |(You may cast this card for its miracle cost when you draw it if it’s the first card you drew this turn.)|]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Miracle {1}{U} |(You may cast this card for its miracle cost when you draw it if it’s the first card you drew this turn.)|]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Miracle {1}{U} |(You may cast this card for its miracle cost when you draw it if it’s the first card you drew this turn.)|]]></LOCALISED_TEXT>
     <TRIGGER value="DREW_CARD" simple_qualifier="controller">
     local drawCard = MTG():Interrogate_CardsDrawnThisTurn(EffectController())
     if ObjectDC():Get_Int(0) == 1 and drawCard == 1 then
@@ -70,6 +70,15 @@
     	return false
     end
     </TRIGGER>
+    <TARGET_DETERMINATION>
+    if Object():GetZone() == ZONE_HAND then
+      -- success
+    	return 1
+    else
+      -- fail
+      return 0
+    end
+    </TARGET_DETERMINATION>
     <COST type="mana" cost="{1}{U}" qualifier="conditional" />
     <RESOLUTION_TIME_ACTION conditional="if">
     if Object():GetZone() == ZONE_HAND then
