@@ -1141,34 +1141,50 @@
    <Row ss:AutoFitHeight="0">
     <Cell><Data ss:Type="String">PLAYER_NAME_BELCHER62</Data></Cell>
     <Cell ss:Index="3"><Data ss:Type="String">Belcher (noAI)</Data></Cell>
+    <Cell><Data ss:Type="String">Belcher (noAI)</Data></Cell>
+    <Cell><Data ss:Type="String">Belcher (noAI)</Data></Cell>
+    <Cell><Data ss:Type="String">Belcher (noAI)</Data></Cell>
+    <Cell><Data ss:Type="String">Belcher (noAI)</Data></Cell>
+    <Cell ss:Index="9"><Data ss:Type="String">Belcher (noAI)</Data></Cell>
+    <Cell><Data ss:Type="String">Belcher (noAI)</Data></Cell>
+    <Cell><Data ss:Type="String">Belcher (noAI)</Data></Cell>
+    <Cell><Data ss:Type="String">Belcher (noAI)</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
     <Cell><Data ss:Type="String">DECK_BELCHER62</Data></Cell>
     <Cell ss:Index="3"><Data ss:Type="String">Goblin Charbelcher</Data></Cell>
+    <Cell><Data ss:Type="String">Goblin Charbelcher</Data></Cell>
+    <Cell><Data ss:Type="String">Goblin Charbelcher</Data></Cell>
+    <Cell><Data ss:Type="String">Goblin Charbelcher</Data></Cell>
+    <Cell><Data ss:Type="String">Goblin Charbelcher</Data></Cell>
+    <Cell ss:Index="9"><Data ss:Type="String">Goblin Charbelcher</Data></Cell>
+    <Cell><Data ss:Type="String">Goblin Charbelcher</Data></Cell>
+    <Cell><Data ss:Type="String">Goblin Charbelcher</Data></Cell>
+    <Cell><Data ss:Type="String">Goblin Charbelcher</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
     <Cell><Data ss:Type="String">PLAYER_NAME_TEST_62</Data></Cell>
-    <Cell ss:Index="3"><Data ss:Type="String">Sumomole</Data></Cell>
-    <Cell><Data ss:Type="String">Sumomole</Data></Cell>
-    <Cell><Data ss:Type="String">Sumomole</Data></Cell>
-    <Cell><Data ss:Type="String">Sumomole</Data></Cell>
-    <Cell><Data ss:Type="String">Sumomole</Data></Cell>
-    <Cell ss:Index="9"><Data ss:Type="String">Sumomole</Data></Cell>
-    <Cell><Data ss:Type="String">Sumomole</Data></Cell>
-    <Cell><Data ss:Type="String">Sumomole</Data></Cell>
-    <Cell><Data ss:Type="String">Sumomole</Data></Cell>
+    <Cell ss:Index="3"><Data ss:Type="String">Avacyn (noAI)</Data></Cell>
+    <Cell><Data ss:Type="String">Avacyn (noAI)</Data></Cell>
+    <Cell><Data ss:Type="String">Avacyn (noAI)</Data></Cell>
+    <Cell><Data ss:Type="String">Avacyn (noAI)</Data></Cell>
+    <Cell><Data ss:Type="String">Avacyn (noAI)</Data></Cell>
+    <Cell ss:Index="9"><Data ss:Type="String">Avacyn (noAI)</Data></Cell>
+    <Cell><Data ss:Type="String">Avacyn (noAI)</Data></Cell>
+    <Cell><Data ss:Type="String">Avacyn (noAI)</Data></Cell>
+    <Cell><Data ss:Type="String">Avacyn (noAI)</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
     <Cell><Data ss:Type="String">DECK_TEST_62</Data></Cell>
-    <Cell ss:Index="3"><Data ss:Type="String">Test Deck</Data></Cell>
-    <Cell><Data ss:Type="String">Test Deck</Data></Cell>
-    <Cell><Data ss:Type="String">Test Deck</Data></Cell>
-    <Cell><Data ss:Type="String">Test Deck</Data></Cell>
-    <Cell><Data ss:Type="String">Test Deck</Data></Cell>
-    <Cell ss:Index="9"><Data ss:Type="String">Test Deck</Data></Cell>
-    <Cell><Data ss:Type="String">Test Deck</Data></Cell>
-    <Cell><Data ss:Type="String">Test Deck</Data></Cell>
-    <Cell><Data ss:Type="String">Test Deck</Data></Cell>
+    <Cell ss:Index="3"><Data ss:Type="String">Entreat the Miracle</Data></Cell>
+    <Cell><Data ss:Type="String">Entreat the Miracle</Data></Cell>
+    <Cell><Data ss:Type="String">Entreat the Miracle</Data></Cell>
+    <Cell><Data ss:Type="String">Entreat the Miracle</Data></Cell>
+    <Cell><Data ss:Type="String">Entreat the Miracle</Data></Cell>
+    <Cell ss:Index="9"><Data ss:Type="String">Entreat the Miracle</Data></Cell>
+    <Cell><Data ss:Type="String">Entreat the Miracle</Data></Cell>
+    <Cell><Data ss:Type="String">Entreat the Miracle</Data></Cell>
+    <Cell><Data ss:Type="String">Entreat the Miracle</Data></Cell>
    </Row>
    <Row ss:Index="98" ss:AutoFitHeight="0" ss:Height="18">
     <Cell><Data ss:Type="String">CARD_QUERY_CHOOSE_CARD_GAIN_FLASHBACK</Data></Cell>
@@ -3112,12 +3128,13 @@
     <VerticalResolution>600</VerticalResolution>
    </Print>
    <Selected/>
-   <TopRowVisible>64</TopRowVisible>
+   <TopRowVisible>70</TopRowVisible>
    <Panes>
     <Pane>
      <Number>3</Number>
-     <ActiveRow>94</ActiveRow>
-     <ActiveCol>2</ActiveCol>
+     <ActiveRow>92</ActiveRow>
+     <ActiveCol>7</ActiveCol>
+     <RangeSelection>R93C8:R96C8</RangeSelection>
     </Pane>
    </Panes>
    <ProtectObjects>False</ProtectObjects>
