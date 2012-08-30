@@ -18,7 +18,7 @@
   <ARTIST name="Allen Williams" />
   <CASTING_COST cost="{1}{B}" />
   <FLAVOURTEXT>
-    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[When he began to curse what he held holy, his strength grew unrivaled.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[When he began to curse what he held  holy, his strength grew unrivaled.]]></LOCALISED_TEXT>
     <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[When he began to curse what he held holy, his strength grew unrivaled.]]></LOCALISED_TEXT>
     <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[When he began to curse what he held holy, his strength grew unrivaled.]]></LOCALISED_TEXT>
     <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[When he began to curse what he held holy, his strength grew unrivaled.]]></LOCALISED_TEXT>
@@ -49,7 +49,7 @@
     </CONTINUOUS_ACTION>
   </STATIC_ABILITY>
   <TRIGGERED_ABILITY auto_skip="1" filter_zone="ZONE_IN_PLAY">
-    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[When Dark Favor enters the battlefield, you lose 1 life.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[When Dark Favor enters the  battlefield, you lose 1 life.]]></LOCALISED_TEXT>
     <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[When Dark Favor enters the battlefield, you lose 1 life.]]></LOCALISED_TEXT>
     <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[When Dark Favor enters the battlefield, you lose 1 life.]]></LOCALISED_TEXT>
     <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[When Dark Favor enters the battlefield, you lose 1 life.]]></LOCALISED_TEXT>

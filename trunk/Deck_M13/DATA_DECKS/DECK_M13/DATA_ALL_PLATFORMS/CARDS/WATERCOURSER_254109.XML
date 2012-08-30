@@ -44,7 +44,7 @@
   <POWER value="2" />
   <TOUGHNESS value="3" />
   <ACTIVATED_ABILITY auto_skip="1">
-    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[{U}: Watercourser gets +1/-1 until end of turn.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[{U}: Watercourser gets +1/-1 until end  of turn.]]></LOCALISED_TEXT>
     <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[{U}: Watercourser gets +1/-1 until end of turn.]]></LOCALISED_TEXT>
     <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[{U}: Watercourser gets +1/-1 until end of turn.]]></LOCALISED_TEXT>
     <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[{U}: Watercourser gets +1/-1 until end of turn.]]></LOCALISED_TEXT>

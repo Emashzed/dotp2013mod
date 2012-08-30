@@ -18,7 +18,7 @@
   <ARTIST name="Chris Rahn" />
   <CASTING_COST cost="{2}{U}{U}" />
   <FLAVOURTEXT>
-    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[“I give them dreams so wondrous that they hesitate to return to the world of the conscious.”
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[“I give them dreams so wondrous that  they hesitate to return to the world of the conscious.”
 —Garild, merfolk mage]]></LOCALISED_TEXT>
     <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[« Je leur donne des rêves si merveilleux qu’ils hésitent à revenir dans le monde conscient. »
 —Garild, mage ondin]]></LOCALISED_TEXT>
@@ -41,7 +41,7 @@
   <EXPANSION value="M13" />
   <RARITY metaname="U" />
   <SPELL_ABILITY dangerous="1" filter_zone="ZONE_IN_PLAY">
-    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Tap all creatures target player controls. Those creatures don’t untap during that player’s next untap step.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Tap all creatures target player controls. Those creatures don’t untap during  that player’s next untap step.]]></LOCALISED_TEXT>
     <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Engagez toutes les créatures que le joueur ciblé contrôle. Ces créatures ne se dégagent pas pendant la prochaine étape de dégagement de ce joueur.]]></LOCALISED_TEXT>
     <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Gira todas las criaturas que controla el jugador objetivo. Esas criaturas no se enderezan durante el próximo paso de enderezar de ese jugador.]]></LOCALISED_TEXT>
     <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Tappe alle Kreaturen, die ein Spieler deiner Wahl kontrolliert. Diese Kreaturen enttappen während des nächsten Enttappsegments dieses Spielers nicht.]]></LOCALISED_TEXT>

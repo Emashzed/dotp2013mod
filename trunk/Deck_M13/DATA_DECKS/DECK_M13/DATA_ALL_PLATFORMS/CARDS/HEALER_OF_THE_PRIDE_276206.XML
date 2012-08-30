@@ -36,7 +36,7 @@
   <POWER value="2" />
   <TOUGHNESS value="3" />
   <TRIGGERED_ABILITY auto_skip="1" filter_zone="ZONE_IN_PLAY">
-    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Whenever another creature enters the battlefield under your control, you gain 2 life.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Whenever another creature enters     the battlefield under your control,    you gain 2 life.]]></LOCALISED_TEXT>
     <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Ogniqualvolta un'altra creatura entra nel campo di battaglia sotto il tuo controllo, guadagni 2 punti vita.]]></LOCALISED_TEXT>
     <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Immer wenn eine andere Kreatur unter deiner Kontrolle ins Spiel kommt, erhältst du 2 Lebenspunkte dazu.]]></LOCALISED_TEXT>
     <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[À chaque fois qu'une autre créature arrive sur le champ de bataille sous votre contrôle, vous gagnez 2 points de vie.]]></LOCALISED_TEXT>

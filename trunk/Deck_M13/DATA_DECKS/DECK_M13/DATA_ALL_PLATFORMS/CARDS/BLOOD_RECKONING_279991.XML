@@ -41,7 +41,7 @@
   <EXPANSION value="M13" />
   <RARITY metaname="U" />
   <TRIGGERED_ABILITY auto_skip="1" filter_zone="ZONE_IN_PLAY">
-    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Whenever a creature attacks you or a planeswalker you control, that creature’s controller loses 1 life.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Whenever a creature attacks you         or a planeswalker you control, that creature’s controller loses 1 life.]]></LOCALISED_TEXT>
     <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Whenever a creature attacks you or a planeswalker you control, that creature’s controller loses 1 life.]]></LOCALISED_TEXT>
     <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Whenever a creature attacks you or a planeswalker you control, that creature’s controller loses 1 life.]]></LOCALISED_TEXT>
     <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Whenever a creature attacks you or a planeswalker you control, that creature’s controller loses 1 life.]]></LOCALISED_TEXT>

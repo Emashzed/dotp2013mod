@@ -25,7 +25,7 @@
   <POWER value="1" />
   <TOUGHNESS value="3" />
   <TRIGGERED_ABILITY auto_skip="1">
-    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[When Augur of Bolas enters the battlefield, look at the top three cards of your library. You may reveal an instant or sorcery card from among them and put it into your hand. Put the rest on the bottom of your library in any order.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[When Augur of Bolas enters the battlefield, look at the top three     cards of your library. You may reveal  an instant or sorcery card from among them and put it into your hand. Put  the rest on the bottom of your library  in any order.]]></LOCALISED_TEXT>
     <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Quand l’Augure de Bolas arrive sur le champ de bataille, regardez les trois cartes du dessus de votre bibliothèque. Vous pouvez révéler une carte d’éphémère ou de rituel parmi elles et la mettre dans votre main. Mettez le reste au-dessous de votre bibliothèque, dans n’importe quel ordre.]]></LOCALISED_TEXT>
     <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Cuando el Presagio de Nicol Bolas entre al campo de batalla, mira las primeras tres cartas de tu biblioteca. Puedes mostrar una carta de instantáneo o de conjuro que se encuentre entre ellas y ponerla en tu mano. Pon el resto en el fondo de tu biblioteca en cualquier orden.]]></LOCALISED_TEXT>
     <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Wenn Bolas’ Augur ins Spiel kommt, schaue dir die obersten drei Karten deiner Bibliothek an. Du kannst eine Spontanzauber- oder Hexereikarte darunter offen vorzeigen und sie auf deine Hand nehmen. Lege den Rest in beliebiger Reihenfolge unter deine Bibliothek.]]></LOCALISED_TEXT>

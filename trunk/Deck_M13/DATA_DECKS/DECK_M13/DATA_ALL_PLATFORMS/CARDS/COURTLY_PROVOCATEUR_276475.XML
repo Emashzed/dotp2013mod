@@ -18,7 +18,7 @@
   <ARTIST name="James Ryman" />
   <CASTING_COST cost="{2}{U}" />
   <FLAVOURTEXT>
-    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA["My one regret is that I have mastered an art that leaves its audience unable to applaud."]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA["My one regret is that I have mastered   an art that leaves its audience unable to applaud."]]></LOCALISED_TEXT>
     <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA["Il mio unico rimpianto è di padroneggiare un'arte che lascia il pubblico incapace di applaudire."]]></LOCALISED_TEXT>
     <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[„Manchmal bereue ich ein wenig, dass am Ende keiner meiner Zuschauer mehr applaudieren kann."]]></LOCALISED_TEXT>
     <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[« Mon seul regret : avoir maîtrisé un art qui laisse l'auditoire dans l'incapacité d'applaudir. »]]></LOCALISED_TEXT>

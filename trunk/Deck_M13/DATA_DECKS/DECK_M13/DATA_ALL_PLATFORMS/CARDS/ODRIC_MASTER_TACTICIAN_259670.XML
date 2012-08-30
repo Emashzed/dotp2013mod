@@ -52,7 +52,7 @@
     </CONTINUOUS_ACTION>
   </STATIC_ABILITY>
   <TRIGGERED_ABILITY filter_zone="ZONE_IN_PLAY">
-    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Whenever Odric, Master Tactician and at least three other creatures attack, you choose which creatures block this combat and how those creatures block.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Whenever Odric, Master Tactician and at least three other creatures attack,  you choose which creatures block this combat and how those creatures block.]]></LOCALISED_TEXT>
     <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[À chaque fois qu’Odric, maître tacticien et au moins trois autres créatures attaquent, vous choisissez quelles créatures bloquent ce combat et comment elles bloquent.]]></LOCALISED_TEXT>
     <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Siempre que Odric, maestro estratega y al menos otras tres criaturas ataquen, tú eliges qué criaturas bloquean este combate y cómo bloquean esas criaturas.]]></LOCALISED_TEXT>
     <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Immer wenn Odric der Meistertaktiker und mindestens drei andere Kreaturen angreifen, bestimmst du, welche Kreaturen in diesem Kampf blocken und wie sie blocken.]]></LOCALISED_TEXT>

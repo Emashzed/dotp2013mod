@@ -24,7 +24,7 @@
   <POWER value="3" />
   <TOUGHNESS value="3" />
   <STATIC_ABILITY active_zone="ZONE_HAND" filter_zone="ZONE_HAND">
-    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[You can’t cast Serra Avenger during your first, second, or third turns of the game.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[You can’t cast Serra Avenger during your first, second, or third turns of    the game.]]></LOCALISED_TEXT>
     <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Non puoi lanciare la Vendicatrice di Serra durante il tuo primo, secondo o terzo turno di gioco.]]></LOCALISED_TEXT>
     <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Du kannst Serras Rächer nicht in deinem ersten, zweiten oder dritten Zug des Spiels wirken.]]></LOCALISED_TEXT>
     <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Vous ne pouvez pas lancer la Vengeresse de Serra pendant votre premier, deuxième ou troisième tour de la partie.]]></LOCALISED_TEXT>

@@ -18,7 +18,7 @@
   <ARTIST name="Wesley Burt" />
   <CASTING_COST cost="{3}{W}" />
   <FLAVOURTEXT>
-    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Rhoxes who live long enough to retire from war lend support with their extensive knowledge of combat injuries.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Rhoxes who live long enough to retire  from war lend support with their extensive knowledge of combat injuries.]]></LOCALISED_TEXT>
     <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Les rhoxs qui vivent suffisamment vieux pour prendre leur retraite soutiennent toujours l’effort de guerre en y contribuant leurs vastes connaissances des blessures de combat.]]></LOCALISED_TEXT>
     <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Los rhox que viven lo suficiente como para retirarse de la guerra dan su apoyo con su gran conocimiento de las heridas de combate.]]></LOCALISED_TEXT>
     <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Rhoxe, die lange genug leben, um zu alt für das Kriegshandwerk zu sein, dienen mit ihrem umfangreichen Wissen über Kampfverletzungen.]]></LOCALISED_TEXT>

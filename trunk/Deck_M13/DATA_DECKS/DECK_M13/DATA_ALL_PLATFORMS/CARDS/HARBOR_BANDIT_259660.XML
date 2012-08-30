@@ -1,0 +1,98 @@
+﻿<?xml version='1.0'?>
+<CARD_V2>
+  <FILENAME text="HARBOR_BANDIT_259660" />
+  <CARDNAME text="HARBOR_BANDIT" />
+  <TITLE>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Harbor Bandit]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Harbor Bandit]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Harbor Bandit]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Harbor Bandit]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Harbor Bandit]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[Harbor Bandit]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[Harbor Bandit]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Harbor Bandit]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Harbor Bandit]]></LOCALISED_TEXT>
+  </TITLE>
+  <MULTIVERSEID value="259660" />
+  <ARTID value="259660" />
+  <ARTIST name="Jesper Ejsing" />
+  <CASTING_COST cost="{2}{B}" />
+  <FLAVOURTEXT>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[He always drops a little trinket into the bay as thanks to the merfolk who taught him all his best tricks.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[He always drops a little trinket into the bay as thanks to the merfolk who taught him all his best tricks.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[He always drops a little trinket into the bay as thanks to the merfolk who taught him all his best tricks.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[He always drops a little trinket into the bay as thanks to the merfolk who taught him all his best tricks.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[He always drops a little trinket into the bay as thanks to the merfolk who taught him all his best tricks.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[He always drops a little trinket into the bay as thanks to the merfolk who taught him all his best tricks.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[He always drops a little trinket into the bay as thanks to the merfolk who taught him all his best tricks.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[He always drops a little trinket into the bay as thanks to the merfolk who taught him all his best tricks.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[He always drops a little trinket into the bay as thanks to the merfolk who taught him all his best tricks.]]></LOCALISED_TEXT>
+  </FLAVOURTEXT>
+  <TYPE metaname="Creature" />
+  <SUB_TYPE metaname="Human" order_de-DE="0" order_es-ES="1" order_fr-FR="0" order_it-IT="1" order_jp-JA="0" order_ko-KR="0" order_pt-BR="0" order_ru-RU="0" />
+  <SUB_TYPE metaname="Rogue" order_de-DE="1" order_es-ES="0" order_fr-FR="1" order_it-IT="0" order_jp-JA="1" order_ko-KR="1" order_pt-BR="1" order_ru-RU="1" />
+  <EXPANSION value="M13" />
+  <RARITY metaname="U" />
+  <POWER value="2" />
+  <TOUGHNESS value="2" />
+  <STATIC_ABILITY filter_zone="ZONE_IN_PLAY">
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Harbor Bandit gets +1/+1 as long as you control an Island.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Harbor Bandit gets +1/+1 as long as you control an Island.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Harbor Bandit gets +1/+1 as long as you control an Island.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Harbor Bandit gets +1/+1 as long as you control an Island.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Harbor Bandit gets +1/+1 as long as you control an Island.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[Harbor Bandit gets +1/+1 as long as you control an Island.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[Harbor Bandit gets +1/+1 as long as you control an Island.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Harbor Bandit gets +1/+1 as long as you control an Island.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Harbor Bandit gets +1/+1 as long as you control an Island.]]></LOCALISED_TEXT>
+	<CONTINUOUS_ACTION layer="7C">
+	local total = 0
+    local filter = Object():GetFilter()
+    filter:Clear()
+    filter:SetZone( ZONE_IN_PLAY )
+    filter:AddSubType( LAND_TYPE_ISLAND )
+    filter:SetController( EffectController() )  
+    filter:NotTargetted()
+    total = filter:CountStopAt( 1 )
+    if total &gt; 0 then
+    	local characteristics = Object():GetCurrentCharacteristics()
+    	characteristics:Power_Add( 1 )
+    	characteristics:Toughness_Add( 1 )
+    end
+    </CONTINUOUS_ACTION>
+  </STATIC_ABILITY>
+  <ACTIVATED_ABILITY dangerous="1" filter_zone="ZONE_IN_PLAY">
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[{1}{U}: Harbor Bandit is unblockable this turn.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[{1}{U}: Harbor Bandit is unblockable this turn.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[{1}{U}: Harbor Bandit is unblockable this turn.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[{1}{U}: Harbor Bandit is unblockable this turn.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[{1}{U}: Harbor Bandit is unblockable this turn.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[{1}{U}: Harbor Bandit is unblockable this turn.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[{1}{U}: Harbor Bandit is unblockable this turn.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[{1}{U}: Harbor Bandit is unblockable this turn.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[{1}{U}: Harbor Bandit is unblockable this turn.]]></LOCALISED_TEXT>
+	<COST type="Mana" cost="{1}{U}" />
+	<CONTINUOUS_ACTION layer="6">
+    local characteristics = Object():GetCurrentCharacteristics()  
+    characteristics:Characteristic_Set( CHARACTERISTIC_UNBLOCKABLE, 1 )
+    </CONTINUOUS_ACTION>
+    <DURATION simple_duration="UntilEOT" />
+    <AI_AVAILABILITY step="declare_attackers" />
+  </ACTIVATED_ABILITY>
+  <AI_CUSTOM_SCORE zone="ZONE_IN_PLAY">
+  local total = 0
+  local filter = Object():GetFilter()
+  filter:Clear()
+  filter:SetZone( ZONE_IN_PLAY )
+  filter:AddSubType( LAND_TYPE_ISLAND )
+  filter:SetController( EffectController() )  
+  filter:NotTargetted()
+  total = filter:CountStopAt( 1 )
+  if total &gt; 0 then
+  	Object():AddScore(200)
+  end
+  </AI_CUSTOM_SCORE>
+  <HELP title="MORE_INFO_BADGE_TITLE_9" body="MORE_INFO_BADGE_BODY_9" zone="ZONE_ANY" />
+  <SFX text="COMBAT_BLADE_LARGE_ATTACK" power_boundary_min="4" power_boundary_max="-1" />
+  <SFX text="COMBAT_BLADE_SMALL_ATTACK" power_boundary_min="1" power_boundary_max="3" />
+</CARD_V2>

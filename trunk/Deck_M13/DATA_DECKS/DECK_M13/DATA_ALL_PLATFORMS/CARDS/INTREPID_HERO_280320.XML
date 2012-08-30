@@ -36,7 +36,7 @@
   <POWER value="1" />
   <TOUGHNESS value="1" />
   <ACTIVATED_ABILITY dangerous="1">
-    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[{T}: Destroy target creature with power 4 or greater.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[{T}: Destroy target creature with    power 4 or greater.]]></LOCALISED_TEXT>
     <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[{T}: Détruisez la créature ciblée de force supérieure ou égale à 4.]]></LOCALISED_TEXT>
     <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[{T}: Destruye la criatura objetivo con fuerza de 4 o más.]]></LOCALISED_TEXT>
     <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[{T}: Zerstöre eine Kreatur deiner Wahl mit Stärke 4 oder mehr.]]></LOCALISED_TEXT>

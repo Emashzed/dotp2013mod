@@ -18,24 +18,15 @@
   <ARTIST name="Steven Belledin" />
   <CASTING_COST cost="{B}" />
   <FLAVOURTEXT>
-    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[“Don’t worry. I’m not going to deprive you of all your secrets. Just your most precious one.”
-—Liliana Vess]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[“Don’t worry. I’m not going to deprive you of all your secrets. Just your most precious one.”
-—Liliana Vess]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[“Don’t worry. I’m not going to deprive you of all your secrets. Just your most precious one.”
-—Liliana Vess]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[“Don’t worry. I’m not going to deprive you of all your secrets. Just your most precious one.”
-—Liliana Vess]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[“Don’t worry. I’m not going to deprive you of all your secrets. Just your most precious one.”
-—Liliana Vess]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[“Don’t worry. I’m not going to deprive you of all your secrets. Just your most precious one.”
-—Liliana Vess]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[“Don’t worry. I’m not going to deprive you of all your secrets. Just your most precious one.”
-—Liliana Vess]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[“Don’t worry. I’m not going to deprive you of all your secrets. Just your most precious one.”
-—Liliana Vess]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[“Don’t worry. I’m not going to deprive you of all your secrets. Just your most precious one.”
-—Liliana Vess]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[“Don’t worry. I’m not going to deprive you of all your secrets. Just your most precious one.” —Liliana Vess]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[“Don’t worry. I’m not going to deprive you of all your secrets. Just your most precious one.” —Liliana Vess]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[“Don’t worry. I’m not going to deprive you of all your secrets. Just your most precious one.” —Liliana Vess]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[“Don’t worry. I’m not going to deprive you of all your secrets. Just your most precious one.” —Liliana Vess]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[“Don’t worry. I’m not going to deprive you of all your secrets. Just your most precious one.” —Liliana Vess]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[“Don’t worry. I’m not going to deprive you of all your secrets. Just your most precious one.” —Liliana Vess]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[“Don’t worry. I’m not going to deprive you of all your secrets. Just your most precious one.” —Liliana Vess]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[“Don’t worry. I’m not going to deprive you of all your secrets. Just your most precious one.” —Liliana Vess]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[“Don’t worry. I’m not going to deprive you of all your secrets. Just your most precious one.” —Liliana Vess]]></LOCALISED_TEXT>
   </FLAVOURTEXT>
   <TYPE metaname="Sorcery" />
   <EXPANSION value="M13" />

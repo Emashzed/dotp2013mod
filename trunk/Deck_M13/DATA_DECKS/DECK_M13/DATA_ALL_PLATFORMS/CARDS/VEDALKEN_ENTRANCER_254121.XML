@@ -36,7 +36,7 @@
   <POWER value="1" />
   <TOUGHNESS value="4" />
   <ACTIVATED_ABILITY filter_zone="ZONE_IN_PLAY">
-    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[{U}, {T}: Target player puts the top two cards of his or her library into his or her graveyard.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[{U}, {T}: Target player puts the top two cards of his or  her library into his or her graveyard.]]></LOCALISED_TEXT>
     <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[{U}, {T}: Le joueur ciblé met les deux cartes du dessus de sa bibliothèque dans son cimetière.]]></LOCALISED_TEXT>
     <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[{U}, {T}: El jugador objetivo pone las dos primeras cartas de su biblioteca en su cementerio.]]></LOCALISED_TEXT>
     <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[{U}, {T}: Ein Spieler deiner Wahl legt die obersten zwei Karten seiner Bibliothek in seinen Friedhof.]]></LOCALISED_TEXT>

@@ -21,7 +21,7 @@
   <EXPANSION value="M13" />
   <RARITY metaname="U" />
   <TRIGGERED_ABILITY dangerous="1" filter_zone="ZONE_IN_PLAY" active_zone="ZONE_IN_PLAY">
-    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[When Oblivion Ring enters the battlefield, exile another target nonland permanent.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[When Oblivion Ring enters the battlefield, exile another target  nonland permanent.]]></LOCALISED_TEXT>
     <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Quand le Cercle de l’oubli arrive sur le champ de bataille, exilez un autre permanent non-terrain ciblé.]]></LOCALISED_TEXT>
     <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Cuando el Anillo del olvido entre al campo de batalla, exilia otro permanente objetivo que no sea tierra.]]></LOCALISED_TEXT>
     <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Wenn der Vergessenheitsring ins Spiel kommt, schicke eine andere bleibende Karte deiner Wahl ins Exil, die kein Land ist.]]></LOCALISED_TEXT>
@@ -74,7 +74,7 @@
     </RESOLUTION_TIME_ACTION>
   </TRIGGERED_ABILITY>
   <TRIGGERED_ABILITY filter_zone="ZONE_IN_PLAY" active_zone="ZONE_IN_PLAY">
-    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[When Oblivion Ring leaves the battlefield, return the exiled card to the battlefield under its owner’s control.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[When Oblivion Ring leaves the battlefield, return the exiled card        to the battlefield under its owner’s control.]]></LOCALISED_TEXT>
     <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Quand le Cercle de l’oubli quitte le champ de bataille, renvoyez, sous le contrôle de son propriétaire, la carte exilée sur le champ de bataille.]]></LOCALISED_TEXT>
     <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Cuando el Anillo del olvido deje el campo de batalla, regresa la carta exiliada al campo de batalla bajo el control de su propietario.]]></LOCALISED_TEXT>
     <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Wenn der Vergessenheitsring das Spiel verlässt, bringe die ins Exil geschickte Karte unter der Kontrolle ihres Besitzers ins Spiel zurück.]]></LOCALISED_TEXT>

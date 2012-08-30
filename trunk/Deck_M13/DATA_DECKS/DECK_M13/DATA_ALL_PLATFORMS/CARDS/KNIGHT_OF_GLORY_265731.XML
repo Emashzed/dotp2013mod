@@ -18,7 +18,7 @@
   <ARTIST name="Peter Mohrbacher" />
   <CASTING_COST cost="{1}{W}" />
   <FLAVOURTEXT>
-    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[“I will uphold the law, and no manner of foe will stop me.”]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[“I will uphold the law, and no manner    of foe will stop me.”]]></LOCALISED_TEXT>
     <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[« Je ferai respecter la loi et nul adversaire ne pourra m’arrêter. »]]></LOCALISED_TEXT>
     <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[“Defenderé la ley, y ningún malvado me detendrá.”]]></LOCALISED_TEXT>
     <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[„Ich wahre das Recht, und kein Gegner kann mich aufhalten.“]]></LOCALISED_TEXT>

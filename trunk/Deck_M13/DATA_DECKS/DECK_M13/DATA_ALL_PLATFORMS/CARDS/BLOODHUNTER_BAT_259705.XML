@@ -50,7 +50,7 @@
     </CONTINUOUS_ACTION>
   </STATIC_ABILITY>
   <TRIGGERED_ABILITY dangerous="1" filter_zone="ZONE_IN_PLAY">
-    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[When Bloodhunter Bat enters the battlefield, target player loses 2 life and you gain 2 life.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[When Bloodhunter Bat enters the battlefield, target player loses 2 life   and you gain 2 life.]]></LOCALISED_TEXT>
     <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Quand la Chauve-souris chassesang arrive sur le champ de bataille, le joueur ciblé perd 2 points de vie et vous gagnez 2 points de vie.]]></LOCALISED_TEXT>
     <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Cuando el Murciélago cazasangre entre al campo de batalla, el jugador objetivo pierde 2 vidas y tú ganas 2 vidas.]]></LOCALISED_TEXT>
     <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Wenn die Blutjäger-Fledermaus ins Spiel kommt, verliert ein Spieler deiner Wahl 2 Lebenspunkte, und du erhältst 2 Lebenspunkte dazu.]]></LOCALISED_TEXT>

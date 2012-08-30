@@ -41,7 +41,7 @@
   <EXPANSION value="M13" />
   <RARITY metaname="C" />
   <SPELL_ABILITY filter_zone="ZONE_IN_PLAY">
-    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Target creature gets -5/-0 until end of turn.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Target creature gets -5/-0 until end     of turn.]]></LOCALISED_TEXT>
     <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[La créature ciblée gagne -5/-0 jusqu’à la fin du tour.]]></LOCALISED_TEXT>
     <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[La criatura objetivo obtiene -5/-0 hasta el final del turno.]]></LOCALISED_TEXT>
     <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Eine Kreatur deiner Wahl erhält -5/-0 bis zum Ende des Zuges.]]></LOCALISED_TEXT>

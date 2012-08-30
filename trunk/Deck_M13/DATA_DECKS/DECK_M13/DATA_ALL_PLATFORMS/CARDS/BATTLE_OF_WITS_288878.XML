@@ -32,7 +32,7 @@
   <EXPANSION value="M13" />
   <RARITY metaname="R" />
   <TRIGGERED_ABILITY>
-    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[At the beginning of your upkeep, if you have 200 or more cards in your library, you win the game.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[At the beginning of your upkeep, if   you have 200 or more cards in your library, you win the game.]]></LOCALISED_TEXT>
     <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[All'inizio del tuo mantenimento, se hai 200 o più carte nel tuo grimorio, vinci la partita.]]></LOCALISED_TEXT>
     <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Falls du zu Beginn deines Versorgungssegments 200 oder mehr Karten in deiner Bibliothek hast, gewinnst du das Spiel.]]></LOCALISED_TEXT>
     <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Au début de votre entretien, si vous avez au moins 200 cartes dans votre bibliothèque, vous gagnez la partie.]]></LOCALISED_TEXT>

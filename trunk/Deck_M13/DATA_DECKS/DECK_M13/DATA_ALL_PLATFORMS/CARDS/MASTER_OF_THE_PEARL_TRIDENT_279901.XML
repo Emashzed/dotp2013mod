@@ -18,7 +18,7 @@
   <ARTIST name="Ryan Pancoast" />
   <CASTING_COST cost="{U}{U}" />
   <FLAVOURTEXT>
-    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[“Let the land dwellers know the coast is no longer the border between our realms. A new age of empire has begun.”]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[“Let the land dwellers know the coast is  no longer the border between our realms.  A new age of empire has begun.”]]></LOCALISED_TEXT>
     <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[“Che gli abitanti della terra sappiano che le coste non sono più il confine tra i nostri regni. L’era di un nuovo impero sta sorgendo.”]]></LOCALISED_TEXT>
     <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[„Lasst die Landbewohner wissen, dass die Küste nicht länger die Grenze zwischen unseren Reichen ist. Ein neues imperiales Zeitalter hat begonnen.”]]></LOCALISED_TEXT>
     <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[« Faites savoir aux habitants des terres que la côte n’est plus la frontière entre nos royaumes respectifs. Une nouvelle ère commence pour notre empire. »]]></LOCALISED_TEXT>
@@ -35,7 +35,7 @@
   <POWER value="2" />
   <TOUGHNESS value="2" />
   <STATIC_ABILITY filter_zone="ZONE_IN_PLAY">
-    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Other Merfolk creatures you control get +1/+1 and have islandwalk.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Other Merfolk creatures you control  get +1/+1 and have islandwalk.]]></LOCALISED_TEXT>
     <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Le altre creature Tritone che controlli prendono +1/+1 e hanno passa-Isole.]]></LOCALISED_TEXT>
     <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Andere Meervolk-Kreaturen, die du kontrollierst, erhalten +1/+1 und haben Inseltarnung.]]></LOCALISED_TEXT>
     <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Les autres créatures Ondin que vous contrôlez gagnent +1/+1 et ont la traversée des îles.]]></LOCALISED_TEXT>
