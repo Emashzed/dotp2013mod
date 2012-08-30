@@ -32,7 +32,7 @@
   <EXPANSION value="M13" />
   <RARITY metaname="C" />
   <SPELL_ABILITY filter_zone="ZONE_IN_PLAY">
-    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Prevent all damage that would be dealt to you and creatures you control this turn.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Prevent all damage that would            be dealt to you and creatures you control this turn.]]></LOCALISED_TEXT>
     <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Prévenez toutes les blessures qui devraient être infligées à vous et aux créatures que vous contrôlez ce tour-ci.]]></LOCALISED_TEXT>
     <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Prevén todo el daño que se te fuera a hacer a ti y a las criaturas que controlas este turno.]]></LOCALISED_TEXT>
     <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Verhindere allen Schaden, der dir und Kreaturen, die du kontrollierst, in diesem Zug zugefügt würde.]]></LOCALISED_TEXT>

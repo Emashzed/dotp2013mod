@@ -18,7 +18,7 @@
   <ARTIST name="Howard Lyon" />
   <CASTING_COST cost="{1}{U}" />
   <FLAVOURTEXT>
-    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[“The union of sea and sky makes a perfect cover.”
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[“The union of sea and sky makes a  perfect cover.”
 —Talrand, sky summoner]]></LOCALISED_TEXT>
     <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[« L’union de la mer et du ciel fournit une couverture parfaite. »
 —Talrand, invocateur céleste]]></LOCALISED_TEXT>

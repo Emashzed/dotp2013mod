@@ -18,7 +18,7 @@
   <ARTIST name="Zoltan Boros" />
   <CASTING_COST cost="{2}{U}{U}" />
   <FLAVOURTEXT>
-    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[“Words of power never disappear. They sleep, awaiting those with the will to rouse them.”]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[“Words of power never disappear. They sleep, awaiting those with the will to   rouse them.”]]></LOCALISED_TEXT>
     <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[« Les mots de pouvoir ne meurent jamais. Ils sommeillent, attendant quiconque aura la volonté de les réveiller. »]]></LOCALISED_TEXT>
     <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[“Las palabras de poder nunca desaparecen. Duermen, esperando a aquellos que tengan el valor de despertarlas.”]]></LOCALISED_TEXT>
     <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[„Worte der Macht verschwinden nie. Sie warten ruhend auf diejenigen, die wissen, wie man sie spricht.“]]></LOCALISED_TEXT>

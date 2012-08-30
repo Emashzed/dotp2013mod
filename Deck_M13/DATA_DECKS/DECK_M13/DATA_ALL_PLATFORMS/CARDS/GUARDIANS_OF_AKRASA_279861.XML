@@ -19,15 +19,15 @@
   <CASTING_COST cost="{2}{W}" />
   <FLAVOURTEXT>
     <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[“Only by the bravery of those who put loyalty above glory is our home kept safe.”
-—Elspeth]]></LOCALISED_TEXT>
+—Elspeth Tirel]]></LOCALISED_TEXT>
     <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[« C’est uniquement la bravoure de ceux qui chérissent la loyauté plus que la gloire qui protège notre foyer. »
-—Elspeth]]></LOCALISED_TEXT>
+—Elspeth Tirel]]></LOCALISED_TEXT>
     <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[“Sólo la valentía de aquellos que anteponen la lealtad a la gloria protegerá nuestro hogar.”
-—Elspeth]]></LOCALISED_TEXT>
+—Elspeth Tirel]]></LOCALISED_TEXT>
     <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[„Nur der Tapferkeit derer, denen Treue wichtiger war als Ruhm, verdanken wir es, dass unsere Heimat unzerstört blieb.“
-—Elspeth]]></LOCALISED_TEXT>
+—Elspeth Tirel]]></LOCALISED_TEXT>
     <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[“È solo grazie al coraggio di quanti mettono la lealtà al di sopra della gloria che la nostra casa è al sicuro.”
-—Elspeth]]></LOCALISED_TEXT>
+—Elspeth Tirel]]></LOCALISED_TEXT>
     <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[「栄光よりも忠誠を上とする勇気だけがあれば、我々の家は安全なのです。」
 —エルズペス]]></LOCALISED_TEXT>
     <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[“영광보다 충성심을 앞세우는 자들의 용기만이 우리의 고향을 지켜냈다.”
@@ -35,7 +35,7 @@
     <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[«Только благодаря храбрости тех, кто ставит преданность выше славы, наш дом остается в безопасности».
 — Элспет]]></LOCALISED_TEXT>
     <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[“Somente a bravura daqueles que colocam a lealdade acima da glória protege agora nosso lar.”
-— Elspeth]]></LOCALISED_TEXT>
+— Elspeth Tirel]]></LOCALISED_TEXT>
   </FLAVOURTEXT>
   <TYPE metaname="Creature" />
   <SUB_TYPE metaname="Human" order_de-DE="0" order_es-ES="1" order_fr-FR="0" order_it-IT="1" order_jp-JA="0" order_ko-KR="0" order_pt-BR="0" order_ru-RU="0" />

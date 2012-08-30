@@ -59,7 +59,7 @@
     </CONTINUOUS_ACTION>
   </STATIC_ABILITY>
   <STATIC_ABILITY>
-    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Enchanted permanent doesn't untap during its controller's untap step and its activated abilities can't be activated.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Enchanted permanent doesn't untap during its controller's untap step and  its activated abilities can't be activated.]]></LOCALISED_TEXT>
     <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Il permanente incantato non STAPpa durante lo STAP del suo controllore e le sue abilità attivate non possono essere attivate.]]></LOCALISED_TEXT>
     <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Die verzauberte bleibende Karte enttappt nicht während des Enttappsegments ihres Beherrschers, und ihre aktivierten Fähigkeiten können nicht aktiviert werden.]]></LOCALISED_TEXT>
     <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Le permanent enchanté ne se dégage pas pendant l'étape de dégagement de son contrôleur et ses capacités activées ne peuvent pas être activées.]]></LOCALISED_TEXT>

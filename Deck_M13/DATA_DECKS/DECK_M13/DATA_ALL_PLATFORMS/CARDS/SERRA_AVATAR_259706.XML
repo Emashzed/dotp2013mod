@@ -35,7 +35,7 @@
   <POWER value="*" />
   <TOUGHNESS value="*" />
   <STATIC_ABILITY filter_zone="ZONE_IN_PLAY">
-    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Serra Avatar’s power and toughness are each equal to your life total.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Serra Avatar’s power and toughness  are each equal to your life total.]]></LOCALISED_TEXT>
     <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[La force et l’endurance de l’Avatar de Serra sont chacune égales à votre total de points de vie.]]></LOCALISED_TEXT>
     <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Tanto la fuerza como la resistencia del Avatar de Serra son iguales a tu total de vidas.]]></LOCALISED_TEXT>
     <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Stärke und Widerstandskraft von Serras Avatar sind gleich deinem Lebenspunktestand.]]></LOCALISED_TEXT>
@@ -54,7 +54,7 @@
     </CONTINUOUS_ACTION>
   </STATIC_ABILITY>
   <TRIGGERED_ABILITY filter_zone="ZONE_IN_PLAY" active_zone="ZONE_GRAVEYARD">
-    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[When Serra Avatar is put into a graveyard from anywhere, shuffle it into its owner’s library.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[When Serra Avatar is put into a graveyard from anywhere, shuffle it  into its owner’s library.]]></LOCALISED_TEXT>
     <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Quand l’Avatar de Serra est mis dans un cimetière d’où qu’il vienne, mélangez-le dans la bibliothèque de son propriétaire.]]></LOCALISED_TEXT>
     <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Cuando el Avatar de Serra vaya a un cementerio desde cualquier parte, barájalo en la biblioteca de su propietario.]]></LOCALISED_TEXT>
     <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Wenn Serras Avatar von egal woher in einen Friedhof gelegt würde, mische ihn in die Bibliothek seines Besitzers.]]></LOCALISED_TEXT>

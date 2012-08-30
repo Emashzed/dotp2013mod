@@ -18,7 +18,7 @@
   <ARTIST name="David Palumbo" />
   <CASTING_COST cost="{1}{W}" />
   <FLAVOURTEXT>
-    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[When the meek charge into battle, courage becomes infectious.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[When the meek charge into battle,  courage becomes infectious.]]></LOCALISED_TEXT>
     <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Quand les humbles chargent au combat, le courage devient contagieux.]]></LOCALISED_TEXT>
     <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Cuando los mansos cargan en la batalla, el coraje es contagioso.]]></LOCALISED_TEXT>
     <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Wenn die Schwachen sich in den Kampf stürzen, wirkt ihr Mut ansteckend.]]></LOCALISED_TEXT>

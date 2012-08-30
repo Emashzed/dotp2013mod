@@ -18,7 +18,7 @@
   <ARTIST name="Michael Komarck" />
   <CASTING_COST cost="{2}{W}" />
   <FLAVOURTEXT>
-    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[“We are Odric’s sword. We strike without fear, for his mind has divined how our foe will be slain.”]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[“We are Odric’s sword. We strike   without fear, for his mind has divined  how our foe will be slain.”]]></LOCALISED_TEXT>
     <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[« Nous sommes l’épée d’Odric. Nous frappons sans crainte, car il a prédit la manière dont notre ennemi sera tué. »]]></LOCALISED_TEXT>
     <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[“Somos la espada de Odric. Atacamos sin miedo, porque su mente ha previsto cómo caerá nuestro enemigo.”]]></LOCALISED_TEXT>
     <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[„Wir sind Odrics Schwert. Wir kämpfen ohne Furcht, da er prophezeit hat, wie unser Feind besiegt werden wird.“]]></LOCALISED_TEXT>
@@ -36,7 +36,7 @@
   <POWER value="*" />
   <TOUGHNESS value="*" />
   <STATIC_ABILITY filter_zone="ZONE_IN_PLAY">
-    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Crusader of Odric’s power and toughness are each equal to the number of creatures you control.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Crusader of Odric’s power and toughness are each equal to the  number of creatures you control.]]></LOCALISED_TEXT>
     <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[La force et l’endurance de la Croisée d’Odric sont chacune égales au nombre de créatures que vous contrôlez.]]></LOCALISED_TEXT>
     <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Tanto la fuerza como la resistencia del Cruzado de Odric es igual al número de criaturas que controlas.]]></LOCALISED_TEXT>
     <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Stärke und Widerstandskraft von Odrics Kreuzrittern sind gleich der Anzahl der Kreaturen, die du kontrollierst.]]></LOCALISED_TEXT>

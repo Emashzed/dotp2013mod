@@ -18,7 +18,7 @@
   <ARTIST name="Svetlin Velinov" />
   <CASTING_COST cost="{2}{U}{U}" />
   <FLAVOURTEXT>
-    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[“The seas are vast, but the skies are even more so. Why be content with one kingdom when I can rule them both?”]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[“The seas are vast, but the skies are    even more so. Why be content with one kingdom when I can rule them both?”]]></LOCALISED_TEXT>
     <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[« La mer est vaste, mais bien moins que le ciel. Pourquoi se contenter d’un royaume quand je peux régner sur les deux ? »]]></LOCALISED_TEXT>
     <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[“Los mares son vastos, pero los cielos lo son más todavía. ¿Por qué contentarse con un reino si puedes dominar ambos?”]]></LOCALISED_TEXT>
     <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[„Die Ozenae sind riesig, doch der Himmel ist noch größer. Warum sollte ich mich mit einem zufriedengeben, wo ich doch über beide regieren kann?“]]></LOCALISED_TEXT>

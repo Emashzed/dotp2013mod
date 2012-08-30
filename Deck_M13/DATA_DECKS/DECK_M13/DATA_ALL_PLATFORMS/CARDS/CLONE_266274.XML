@@ -35,7 +35,7 @@
   <POWER value="0" />
   <TOUGHNESS value="0" />
   <TRIGGERED_ABILITY replacement_query="1" filter_zone="ZONE_IN_PLAY" active_zone="ZONE_TRANSITION">
-    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[You may have Clone enter the battlefield as a copy of any creature on the battlefield.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[You may have Clone enter the battlefield as a copy of any creature    on the battlefield.]]></LOCALISED_TEXT>
     <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Vous pouvez faire que le Clone arrive sur le champ de bataille comme une copie de n’importe quelle créature sur le champ de bataille.]]></LOCALISED_TEXT>
     <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Puedes hacer que el Clon entre al campo de batalla como una copia de cualquier criatura en el campo de batalla.]]></LOCALISED_TEXT>
     <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Du kannst den Klon als Kopie einer beliebigen Kreatur, die sich im Spiel befindet, ins Spiel kommen lassen.]]></LOCALISED_TEXT>

@@ -41,7 +41,7 @@
   <EXPANSION value="M13" />
   <RARITY metaname="C" />
   <SPELL_ABILITY>
-    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Target opponent puts the top seven cards of his or her library into his or her graveyard.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Target opponent puts the top seven cards of his or her library into his or  her graveyard.]]></LOCALISED_TEXT>
     <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[L’adversaire ciblé met les sept cartes du dessus de sa bibliothèque dans son cimetière.]]></LOCALISED_TEXT>
     <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[El oponente objetivo pone las primeras siete cartas de su biblioteca en su cementerio.]]></LOCALISED_TEXT>
     <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Ein Gegner deiner Wahl legt die obersten sieben Karten seiner Bibliothek auf seinen Friedhof.]]></LOCALISED_TEXT>

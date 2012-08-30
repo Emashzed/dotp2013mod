@@ -18,7 +18,7 @@
   <ARTIST name="Alex Horley-Orlandelli" />
   <CASTING_COST cost="{2}{U}" />
   <FLAVOURTEXT>
-    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[The arcane academies along the coast were powerless to protect themselves from the brazen raiders of the Kapsho Seas.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[The arcane academies along the coast  were powerless to protect themselves from the brazen raiders of the Kapsho Seas.]]></LOCALISED_TEXT>
     <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Le accademie arcane sulla costa erano incapaci di difendersi dalla sfrontatezza dei predatori dei Mari Kapsho.]]></LOCALISED_TEXT>
     <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Die arkanen Akademien entlang der Küste waren machtlos gegen die frechen Plünderer aus dem Kapshomeer.]]></LOCALISED_TEXT>
     <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Les académies de magie situées sur la côte étaient impuissantes face aux raids orchestrés par les pillards intrépides des Mers de Kapsho.]]></LOCALISED_TEXT>

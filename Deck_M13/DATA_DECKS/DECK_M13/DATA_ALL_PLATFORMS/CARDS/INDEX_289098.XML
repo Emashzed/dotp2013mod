@@ -18,7 +18,7 @@
   <ARTIST name="Kev Walker" />
   <CASTING_COST cost="{U}" />
   <FLAVOURTEXT>
-    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA["What good is having all the right answers if you have them at all the wrong times?"]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA["What good is having all the right  answers if you have them at all the   wrong times?"]]></LOCALISED_TEXT>
     <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA["Che senso ha possedere le risposte esatte se le hai nei momenti più sbagliati?"]]></LOCALISED_TEXT>
     <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[„Was bringt es schon, die richtigen Antworten zu kennen, wenn man sie immer zur falschen Zeit hat?"]]></LOCALISED_TEXT>
     <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[« À quoi bon avoir toutes les réponses appropriées si elles ne fusent pas au moment opportun ? »]]></LOCALISED_TEXT>

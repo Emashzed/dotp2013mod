@@ -36,7 +36,7 @@
   <POWER value="2" />
   <TOUGHNESS value="2" />
   <TRIGGERED_ABILITY dangerous="1" filter_zone="ZONE_IN_PLAY">
-    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[When War Priest of Thune enters the battlefield, you may destroy target enchantment.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[When War Priest of Thune enters     the battlefield, you may destroy target enchantment.]]></LOCALISED_TEXT>
     <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Quand le Prêtre de guerre de Thiune arrive sur le champ de bataille, vous pouvez détruire l’enchantement ciblé.]]></LOCALISED_TEXT>
     <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Cuando el Sacerdote guerrero de Thune entre al campo de batalla, puedes destruir el encantamiento objetivo.]]></LOCALISED_TEXT>
     <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Wenn der Kriegspriester von Thune ins Spiel kommt, kannst du eine Verzauberung deiner Wahl zerstören.]]></LOCALISED_TEXT>

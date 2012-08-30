@@ -58,7 +58,7 @@
     </CONTINUOUS_ACTION>
   </STATIC_ABILITY>
   <STATIC_ABILITY filter_zone="ZONE_IN_PLAY">
-    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Enchanted creature gets -1/-1 and can’t block.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Enchanted creature gets -1/-1 and  can’t block.]]></LOCALISED_TEXT>
     <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[La créature enchantée gagne -1/-1 et ne peut pas bloquer.]]></LOCALISED_TEXT>
     <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[La criatura encantada obtiene -1/-1 y no puede bloquear.]]></LOCALISED_TEXT>
     <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Die verzauberte Kreatur erhält -1/-1 und kann nicht blocken.]]></LOCALISED_TEXT>
