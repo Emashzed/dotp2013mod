@@ -1,0 +1,39 @@
+﻿<?xml version='1.0'?>
+<CARD_V2 custom="true">
+  <FILENAME text="MARKOVS_SERVANT_244712" />
+  <CARDNAME text="MARKOVS_SERVANT" />
+  <TITLE>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Markov’s Servant]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Servitrice di Markov]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Markovs Dienerin]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Servante de Markov]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Sirvienta de Markov]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[マルコフの召使い]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[마르코프의 수하]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Служанка Марковых]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Serva de Markov]]></LOCALISED_TEXT>
+  </TITLE>
+  <MULTIVERSEID value="244712" />
+  <ARTID value="888244712" />
+  <COLOUR value="B" />
+  <ARTIST name="Steve Argyle" />
+  <CASTING_COST cost="" />
+  <FLAVOURTEXT>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[“. . . and for that I shall be eternally grateful.”]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[“. . . e per questo le sarò eternamente grata.”]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[”. . . „... und dafür werde ich ewig dankbar sein.”]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[« . . . et je lui serai éternellement reconnaissante. »]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[“. . . y por eso estaré eternamente agradecida.”]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[「……そして、永遠の感謝を捧げる者として。」]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[“. . . 영원히 이 은혜를 잊지 않을 것입니다.”]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[«... и за это я буду вечно благодарна».]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[“... e serei eternamente grata por isso.”]]></LOCALISED_TEXT>
+  </FLAVOURTEXT>
+  <TYPE metaname="" />
+  <EXPANSION value="DKA" />
+  <RARITY metaname="C" />
+  <POWER value="4" />
+  <TOUGHNESS value="4" />
+  <SFX text="COMBAT_FANG_LARGE_ATTACK" power_boundary_min="4" power_boundary_max="-1" />
+  <SFX text="COMBAT_FANG_SMALL_ATTACK" power_boundary_min="1" power_boundary_max="3" />
+</CARD_V2>

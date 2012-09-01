@@ -1,0 +1,106 @@
+﻿<?xml version='1.0'?>
+<CARD_V2>
+  <FILENAME text="CHOSEN_OF_MARKOV_243229" />
+  <CARDNAME text="CHOSEN_OF_MARKOV" />
+  <TITLE>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Chosen of Markov]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Prescelta di Markov]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Markovs Auserwählte]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Élue de Markov]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Elegida de Markov]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[マルコフに選ばれし者]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[마르코프가 선택한 자]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Избранница Марковых]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Escolhida de Markov]]></LOCALISED_TEXT>
+  </TITLE>
+  <MULTIVERSEID value="243229" />
+  <ARTID value="888243229" />
+  <ARTIST name="Steve Argyle" />
+  <CASTING_COST cost="{2}{B}" />
+  <FLAVOURTEXT>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[“I have been found worthy by this great house. . .”]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[“Questa grande casata mi ha considerata degna. . .”]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[„Ich wurde für würdig erachtet, diesem großartigen Haus dienen zu dürfen...”]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[« On m’a estimée digne de cette grande maison. . . »]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[“Ahora soy digna de esta gran casa...”]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[「この偉大なる一族の御眼鏡に適う者として……」]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[“이 위대한 가문의 선택을 받은 것은 저에게 크나큰 영광이며 . . .”]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[«Я была признана достойной этого великого дома...»]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[“Fui considerada digna por este grande clã...”]]></LOCALISED_TEXT>
+  </FLAVOURTEXT>
+  <TYPE metaname="Creature" />
+  <SUB_TYPE metaname="Human" />
+  <EXPANSION value="DKA" />
+  <RARITY metaname="C" />
+  <POWER value="2" />
+  <TOUGHNESS value="2" />
+  <TOKEN_REGISTRATION reservation="1" type="MARKOVS_SERVANT_244712" />
+  <TRIGGERED_ABILITY internal="1" active_zone="ZONE_ANY">
+    <TRIGGER value="ZONECHANGE_BEGIN" simple_qualifier="self" to_zone="ZONE_IN_PLAY" />
+    <RESOLUTION_TIME_ACTION>
+    MTG():CreateDelayedTrigger(1, nil)
+    </RESOLUTION_TIME_ACTION>
+  </TRIGGERED_ABILITY>
+  <TRIGGERED_ABILITY resource_id="1" forced_skip="1" filter_zone="ZONE_IN_PLAY">
+    <CLEANUP fire_once="1" />
+    <TRIGGER value="ZONECHANGE_END" simple_qualifier="self" to_zone="ZONE_IN_PLAY" />
+    <RESOLUTION_TIME_ACTION>
+    GetTransformData_Step1("MARKOVS_SERVANT_244712")
+    </RESOLUTION_TIME_ACTION>
+    <RESOLUTION_TIME_ACTION>
+    GetTransformData_Step2()
+    </RESOLUTION_TIME_ACTION>
+  </TRIGGERED_ABILITY>
+  <STATIC_ABILITY filter_zone="ZONE_IN_PLAY">
+    <CONTINUOUS_ACTION layer="1">
+    if IsTransformed( Object() ) then
+    	ApplyTransformation( 1, 1, CARD_TYPE_CREATURE, CREATURE_TYPE_VAMPIRE )
+    end
+    </CONTINUOUS_ACTION>
+  </STATIC_ABILITY>
+  <ACTIVATED_ABILITY filter_zone="ZONE_IN_PLAY">
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[{T}, Tap an untapped Vampire you control: Transform Chosen of Markov.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[{T}, TAPpa un Vampiro STAPpato che controlli: Trasforma la Prescelta di Markov.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[{T}, tappe einen ungetappten Vampir, den du kontrollierst: Transformiere Markovs Auserwählte.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[{T}, engagez un vampire dégagé que vous contrôlez : Transformez l’Élue de Markov.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[{T}, girar un Vampiro enderezado que controlas: Transforma a la Elegida de Markov.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[{T}, あなたがコントロールするアンタップ状態の吸血鬼１体をタップする：マルコフに選ばれし者を変身させる。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[{T}, 당신이 조종하는 언탭된 흡혈귀 지속물 한 개를 탭한다: 마르코프가 선택한 자를 변신시킨다.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[{T}, поверните неповернутого Вампира под вашим контролем: трансформируйте Избранницу Марковых.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[{T}, Vire um Vampiro desvirado que você controla: Transforme Escolhida de Markov.]]></LOCALISED_TEXT>
+    <AVAILABILITY>
+    return not IsTransformed( Object() )
+    </AVAILABILITY>
+    <COST type="TapSelf" />
+    <COST type="tap">
+      <TARGET_DEFINITION id="6">
+      local filter = Object():GetFilter()
+      filter:Clear()
+      filter:SetZone( ZONE_IN_PLAY )
+      filter:SetPlayer( EffectController() )
+      filter:AddSubType( CREATURE_TYPE_VAMPIRE )
+      filter:SetHint( HINT_ENEMY, EffectController() )
+      filter:SetCardInstance( Object() )
+      filter:AddExtra( FILTER_EXTRA_CREATURE_UNTAPPED + FILTER_EXTRA_FLIP_CARD_INSTANCE )
+      filter:NotTargetted()
+      </TARGET_DEFINITION>
+      <TARGET_DETERMINATION>
+      return AtLeastOneTargetFromDefinition(6)
+      </TARGET_DETERMINATION>
+      <PLAYTIME>
+      EffectController():ChooseTarget( 6, "CARD_QUERY_CHOOSE_CREATURE_TAP", EffectDC():Make_Targets(0) )
+      </PLAYTIME>
+    </COST>
+    <RESOLUTION_TIME_ACTION>
+    Transform( Object() )
+    </RESOLUTION_TIME_ACTION>
+    <AI_AVAILABILITY type="in_response" />
+    <AI_AVAILABILITY type="in_response_dangerous" />
+    <AI_AVAILABILITY step="main_1" turn="my_turn" />
+    <AI_AVAILABILITY step="declare_attackers" turn="their_turn" />
+    <AI_AVAILABILITY step="declare_blockers" />
+    <AI_AVAILABILITY step="end_of_turn" />
+  </ACTIVATED_ABILITY>
+  <SFX text="COMBAT_BLUNT_LARGE_ATTACK" power_boundary_min="4" power_boundary_max="-1" />
+  <SFX text="COMBAT_BLUNT_SMALL_ATTACK" power_boundary_min="1" power_boundary_max="3" />
+</CARD_V2>

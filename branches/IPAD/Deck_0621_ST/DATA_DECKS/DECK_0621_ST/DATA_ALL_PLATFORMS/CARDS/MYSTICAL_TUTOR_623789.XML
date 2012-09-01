@@ -1,0 +1,82 @@
+﻿<?xml version='1.0'?>
+<CARD_V2>
+  <FILENAME text="MYSTICAL_TUTOR_623789" />
+  <CARDNAME text="MYSTICAL_TUTOR" />
+  <TITLE>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Mystical Tutor]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Mystical Tutor]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Mystical Tutor]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Mystical Tutor]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Mystical Tutor]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[Mystical Tutor]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[Mystical Tutor]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Mystical Tutor]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Mystical Tutor]]></LOCALISED_TEXT>
+  </TITLE>
+  <MULTIVERSEID value="623789" />
+  <ARTID value="623789" />
+  <ARTIST name="David O’Connor" />
+  <CASTING_COST cost="{U}" />
+  <FLAVOURTEXT>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[“To the tutors, a ‘poem of sand’ was of little account, a ‘poem of ivory,’ priceless.”
+—Afari, Tales]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[“To the tutors, a ‘poem of sand’ was of little account, a ‘poem of ivory,’ priceless.”
+—Afari, Tales]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[“To the tutors, a ‘poem of sand’ was of little account, a ‘poem of ivory,’ priceless.”
+—Afari, Tales]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[“To the tutors, a ‘poem of sand’ was of little account, a ‘poem of ivory,’ priceless.”
+—Afari, Tales]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[“To the tutors, a ‘poem of sand’ was of little account, a ‘poem of ivory,’ priceless.”
+—Afari, Tales]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[“To the tutors, a ‘poem of sand’ was of little account, a ‘poem of ivory,’ priceless.”
+—Afari, Tales]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[“To the tutors, a ‘poem of sand’ was of little account, a ‘poem of ivory,’ priceless.”
+—Afari, Tales]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[“To the tutors, a ‘poem of sand’ was of little account, a ‘poem of ivory,’ priceless.”
+—Afari, Tales]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[“To the tutors, a ‘poem of sand’ was of little account, a ‘poem of ivory,’ priceless.”
+—Afari, Tales]]></LOCALISED_TEXT>
+  </FLAVOURTEXT>
+  <TYPE metaname="Instant" />
+  <EXPANSION value="DPG" />
+  <RARITY metaname="U" />
+  <SPELL_ABILITY filter_zone="ZONE_IN_PLAY">
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Search your library for an instant or sorcery card and reveal that card. Shuffle your library, then put the card on top of it.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Search your library for an instant or sorcery card and reveal that card. Shuffle your library, then put the card on top of it.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Search your library for an instant or sorcery card and reveal that card. Shuffle your library, then put the card on top of it.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Search your library for an instant or sorcery card and reveal that card. Shuffle your library, then put the card on top of it.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Search your library for an instant or sorcery card and reveal that card. Shuffle your library, then put the card on top of it.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[Search your library for an instant or sorcery card and reveal that card. Shuffle your library, then put the card on top of it.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[Search your library for an instant or sorcery card and reveal that card. Shuffle your library, then put the card on top of it.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Search your library for an instant or sorcery card and reveal that card. Shuffle your library, then put the card on top of it.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Search your library for an instant or sorcery card and reveal that card. Shuffle your library, then put the card on top of it.]]></LOCALISED_TEXT>
+    <RESOLUTION_TIME_ACTION>
+    local filter = Object():GetFilter()
+    local effectController = EffectController()
+    effectController:MarkSearchedLibrary() 
+    filter:Clear()
+    filter:NotTargetted()
+	  filter:AddCardType( CARD_TYPE_INSTANT )
+	  filter:AddCardType( CARD_TYPE_SORCERY )
+    filter:SetZone( ZONE_LIBRARY )
+    filter:SetPlayer( effectController ) 
+    effectController:ChooseTarget( NO_VALIDATION, "CARD_QUERY_CHOOSE_CARD_TO_PUT_ONTO_LIBRARY", EffectDC():Make_Targets(0) )
+    </RESOLUTION_TIME_ACTION>
+    <RESOLUTION_TIME_ACTION>
+    EffectController():ShuffleLibrary()
+    </RESOLUTION_TIME_ACTION>
+    <RESOLUTION_TIME_ACTION>
+    if EffectDC() ~= nil then 
+    	local target = EffectDC():Get_Targets(0):Get_CardPtr(0)
+    	if  target ~= nil then
+    	  target:GuidedReveal( ZONE_LIBRARY , ZONE_LIBRARY )
+    		target:PutOnTopOfLibrary()
+    	end
+    end
+    </RESOLUTION_TIME_ACTION>
+  </SPELL_ABILITY>
+  <AI_AVAILABILITY type="in_response" />
+  <AI_AVAILABILITY step="end_of_turn" turn="their_turn" />
+  <AI_AVAILABILITY step="main_1" turn="my_turn" />
+  <AI_AVAILABILITY step="main_2" turn="my_turn" />
+</CARD_V2>

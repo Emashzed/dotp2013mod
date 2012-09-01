@@ -29,7 +29,7 @@
     <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Say hello to your new friend.]]></LOCALISED_TEXT>
   </FLAVOURTEXT>
   <TYPE metaname="Sorcery" />
-  <EXPANSION value="DPG" />
+  <EXPANSION value="M13" />
   <RARITY metaname="U" />
   <SPELL_ABILITY dangerous="1">
     <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Exchange control of two target creatures.]]></LOCALISED_TEXT>

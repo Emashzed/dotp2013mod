@@ -30,12 +30,12 @@
   </FLAVOURTEXT>
   <TYPE metaname="Creature" />
   <SUB_TYPE metaname="Elemental" />
-  <EXPANSION value="DPG" />
+  <EXPANSION value="M13" />
   <RARITY metaname="R" />
   <POWER value="2" />
   <TOUGHNESS value="1" />
   <ACTIVATED_ABILITY dangerous="1">
-    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[{2}{U}, {T}: Put Void Stalker and target creature on top of their owners’ libraries, then those players shuffle their libraries.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[{2}{U}, {T}: Put Void Stalker and target creature on top of their owners’ libraries, then those players shuffle  their libraries.]]></LOCALISED_TEXT>
     <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[{2}{U}, {T}: Put Void Stalker and target creature on top of their owners’ libraries, then those players shuffle their libraries.]]></LOCALISED_TEXT>
     <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[{2}{U}, {T}: Put Void Stalker and target creature on top of their owners’ libraries, then those players shuffle their libraries.]]></LOCALISED_TEXT>
     <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[{2}{U}, {T}: Put Void Stalker and target creature on top of their owners’ libraries, then those players shuffle their libraries.]]></LOCALISED_TEXT>

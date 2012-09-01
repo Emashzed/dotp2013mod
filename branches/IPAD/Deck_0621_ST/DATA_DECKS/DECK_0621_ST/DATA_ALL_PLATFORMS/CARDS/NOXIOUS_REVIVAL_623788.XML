@@ -1,0 +1,88 @@
+﻿<?xml version='1.0'?>
+<CARD_V2>
+  <FILENAME text="NOXIOUS_REVIVAL_623788" />
+  <CARDNAME text="NOXIOUS_REVIVAL" />
+  <TITLE>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Noxious Revival]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Noxious Revival]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Noxious Revival]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Noxious Revival]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Noxious Revival]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[Noxious Revival]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[Noxious Revival]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Noxious Revival]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Noxious Revival]]></LOCALISED_TEXT>
+  </TITLE>
+  <MULTIVERSEID value="623788" />
+  <ARTID value="623788" />
+  <ARTIST name="Matt Stewart" />
+  <CASTING_COST cost="{G/P}" />
+  <FLAVOURTEXT>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[“Dead or alive, my creations are stronger than Jin-Gitaxias’s septic minions.”
+—Vorinclex, Voice of Hunger]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[“Dead or alive, my creations are stronger than Jin-Gitaxias’s septic minions.”
+—Vorinclex, Voice of Hunger]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[“Dead or alive, my creations are stronger than Jin-Gitaxias’s septic minions.”
+—Vorinclex, Voice of Hunger]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[“Dead or alive, my creations are stronger than Jin-Gitaxias’s septic minions.”
+—Vorinclex, Voice of Hunger]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[“Dead or alive, my creations are stronger than Jin-Gitaxias’s septic minions.”
+—Vorinclex, Voice of Hunger]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[“Dead or alive, my creations are stronger than Jin-Gitaxias’s septic minions.”
+—Vorinclex, Voice of Hunger]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[“Dead or alive, my creations are stronger than Jin-Gitaxias’s septic minions.”
+—Vorinclex, Voice of Hunger]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[“Dead or alive, my creations are stronger than Jin-Gitaxias’s septic minions.”
+—Vorinclex, Voice of Hunger]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[“Dead or alive, my creations are stronger than Jin-Gitaxias’s septic minions.”
+—Vorinclex, Voice of Hunger]]></LOCALISED_TEXT>
+  </FLAVOURTEXT>
+  <TYPE metaname="Instant" />
+  <EXPANSION value="DPG" />
+  <RARITY metaname="U" />
+  <SPELL_ABILITY>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[|(|{L} |can be paid with either| {G} |or 2 life.)|]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[|(|{L} |can be paid with either| {G} |or 2 life.)|]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[|(|{L} |can be paid with either| {G} |or 2 life.)|]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[|(|{L} |can be paid with either| {G} |or 2 life.)|]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[|(|{L} |can be paid with either| {G} |or 2 life.)|]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[|(|{L} |can be paid with either| {G} |or 2 life.)|]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[|(|{L} |can be paid with either| {G} |or 2 life.)|]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[|(|{L} |can be paid with either| {G} |or 2 life.)|]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[|(|{L} |can be paid with either| {G} |or 2 life.)|]]></LOCALISED_TEXT>
+  </SPELL_ABILITY>
+  <SPELL_ABILITY filter_zone="ZONE_IN_PLAY">
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Put target card from a graveyard on top of its owner’s library.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Put target card from a graveyard on top of its owner’s library.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Put target card from a graveyard on top of its owner’s library.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Put target card from a graveyard on top of its owner’s library.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Put target card from a graveyard on top of its owner’s library.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[Put target card from a graveyard on top of its owner’s library.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[Put target card from a graveyard on top of its owner’s library.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Put target card from a graveyard on top of its owner’s library.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Put target card from a graveyard on top of its owner’s library.]]></LOCALISED_TEXT>
+    <TARGET_DEFINITION id="0">
+    local filter = Object():GetFilter()
+    filter:Clear()
+    filter:SetZone( ZONE_GRAVEYARD )
+    filter:SetHint( HINT_ALLIED, EffectController() )
+    </TARGET_DEFINITION>
+    <TARGET_DETERMINATION>
+    return AtLeastOneTargetFromDefinition(0)
+    </TARGET_DETERMINATION>
+    <PLAY_TIME_ACTION target_choosing="1">
+    EffectController():ChooseTarget( 0, "CARD_QUERY_CHOOSE_CARD_TO_PUT_ONTO_LIBRARY", EffectDC():Make_Targets(0) )
+    </PLAY_TIME_ACTION>
+    <RESOLUTION_TIME_ACTION>
+    local target = EffectDC():Get_Targets(0):Get_CardPtr(0)
+    if  target ~= nil then
+    	target:GuidedReveal( ZONE_GRAVEYARD , ZONE_LIBRARY )
+    	target:PutOnTopOfLibrary()
+    end
+    </RESOLUTION_TIME_ACTION>
+  </SPELL_ABILITY>
+  <AI_AVAILABILITY type="in_response" />
+  <AI_AVAILABILITY step="end_of_turn" turn="their_turn" />
+  <AI_AVAILABILITY step="main_1" turn="my_turn" />
+  <AI_AVAILABILITY step="main_2" turn="my_turn" />
+</CARD_V2>

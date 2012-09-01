@@ -860,6 +860,18 @@
     <Cell><Data ss:Type="String">Griselbrand</Data></Cell>
    </Row>
    <Row>
+    <Cell><Data ss:Type="String">PLAYER_NAME_DELVER_OF_SECRETS</Data></Cell>
+    <Cell ss:Index="3"><Data ss:Type="String">Delver of Secrets</Data></Cell>
+    <Cell><Data ss:Type="String">Sondeur de secrets</Data></Cell>
+    <Cell><Data ss:Type="String">Indagador de secretos</Data></Cell>
+    <Cell><Data ss:Type="String">Geheimnisstöberer</Data></Cell>
+    <Cell><Data ss:Type="String">Scopritore di Segreti</Data></Cell>
+    <Cell ss:Index="9"><Data ss:Type="String">秘密を掘り下げる者</Data></Cell>
+    <Cell><Data ss:Type="String">Delver of Secrets</Data></Cell>
+    <Cell><Data ss:Type="String">Разыскиватель Тайн</Data></Cell>
+    <Cell><Data ss:Type="String">Investigador de Segredos</Data></Cell>
+   </Row>
+   <Row>
     <Cell><Data ss:Type="String">PLAYER_NAME_ETCHED_CHAMPION</Data></Cell>
     <Cell ss:Index="3"><Data ss:Type="String">Etched Champion</Data></Cell>
     <Cell><Data ss:Type="String">Champion gravé</Data></Cell>
@@ -894,6 +906,18 @@
     <Cell><Data ss:Type="String">Metal Gob</Data></Cell>
     <Cell><Data ss:Type="String">Гоблинский Военный Погоняла</Data></Cell>
     <Cell><Data ss:Type="String">Fomentador de Guerra Goblin</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">PLAYER_NAME_HUNTMASTER_OF_THE_FELLS</Data></Cell>
+    <Cell ss:Index="3"><Data ss:Type="String">Huntmaster of the Fells</Data></Cell>
+    <Cell><Data ss:Type="String">Maître-chasseur de la lande</Data></Cell>
+    <Cell><Data ss:Type="String">Maestro de caza de las colinas</Data></Cell>
+    <Cell><Data ss:Type="String">Jagdmeister vom Kahlenberg</Data></Cell>
+    <Cell><Data ss:Type="String">Capocaccia delle Colline</Data></Cell>
+    <Cell ss:Index="9"><Data ss:Type="String">高原の狩りの達人</Data></Cell>
+    <Cell><Data ss:Type="String">Huntmaster of the Fells</Data></Cell>
+    <Cell><Data ss:Type="String">Ловчий Каменистых Холмов</Data></Cell>
+    <Cell><Data ss:Type="String">Mestre de Caça da Derrubada</Data></Cell>
    </Row>
    <Row>
     <Cell><Data ss:Type="String">PLAYER_NAME_HYPNO</Data></Cell>
@@ -1026,6 +1050,18 @@
     <Cell><Data ss:Type="String">애쉬마우스의 악마군주</Data></Cell>
     <Cell><Data ss:Type="String">Владыка Пепельной Пропасти</Data></Cell>
     <Cell><Data ss:Type="String">Senhor Demônio de Boca Cinzenta</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">PLAYER_NAME_SOLEMN_SIMULACRUM</Data></Cell>
+    <Cell ss:Index="3"><Data ss:Type="String">Solemn Simulacrum</Data></Cell>
+    <Cell><Data ss:Type="String">Simulacre solennel</Data></Cell>
+    <Cell><Data ss:Type="String">Simulacro solemne</Data></Cell>
+    <Cell><Data ss:Type="String">Erhabenes Scheinbild</Data></Cell>
+    <Cell><Data ss:Type="String">Simulacro Solenne</Data></Cell>
+    <Cell ss:Index="9"><Data ss:Type="String">真面目な身代わり</Data></Cell>
+    <Cell><Data ss:Type="String">Solemn Simulacrum</Data></Cell>
+    <Cell><Data ss:Type="String">Величественный Симулякр</Data></Cell>
+    <Cell><Data ss:Type="String">Simulacro Solene</Data></Cell>
    </Row>
    <Row>
     <Cell><Data ss:Type="String">PLAYER_NAME_SOLITARY_FIENDS</Data></Cell>
@@ -1242,6 +1278,42 @@
     <Cell><Data ss:Type="String">Fiery Mountains</Data></Cell>
     <Cell><Data ss:Type="String">Fiery Mountains</Data></Cell>
     <Cell><Data ss:Type="String">Fiery Mountains</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">ZDECKTECH_DELVER</Data></Cell>
+    <Cell ss:Index="3"><Data ss:Type="String">Delving into Memories</Data></Cell>
+    <Cell><Data ss:Type="String">Sondage de Souvenirs</Data></Cell>
+    <Cell><Data ss:Type="String">Delving into Memories</Data></Cell>
+    <Cell><Data ss:Type="String">Delving into Memories</Data></Cell>
+    <Cell><Data ss:Type="String">Delving into Memories</Data></Cell>
+    <Cell ss:Index="9"><Data ss:Type="String">Delving into Memories</Data></Cell>
+    <Cell><Data ss:Type="String">Delving into Memories</Data></Cell>
+    <Cell><Data ss:Type="String">Delving into Memories</Data></Cell>
+    <Cell><Data ss:Type="String">Delving into Memories</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">ZDECKTECH_WOLF_RUN_RAMP</Data></Cell>
+    <Cell ss:Index="3"><Data ss:Type="String">Wolf Pack</Data></Cell>
+    <Cell><Data ss:Type="String">Meute de Loups</Data></Cell>
+    <Cell><Data ss:Type="String">Wolf Pack</Data></Cell>
+    <Cell><Data ss:Type="String">Wolf Pack</Data></Cell>
+    <Cell><Data ss:Type="String">Wolf Pack</Data></Cell>
+    <Cell ss:Index="9"><Data ss:Type="String">Wolf Pack</Data></Cell>
+    <Cell><Data ss:Type="String">Wolf Pack</Data></Cell>
+    <Cell><Data ss:Type="String">Wolf Pack</Data></Cell>
+    <Cell><Data ss:Type="String">Wolf Pack</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">ZDECKTECH_TRADING_POST</Data></Cell>
+    <Cell ss:Index="3"><Data ss:Type="String">Trading Post</Data></Cell>
+    <Cell><Data ss:Type="String">Comptoir de Commerce</Data></Cell>
+    <Cell><Data ss:Type="String">Puesto Comercial</Data></Cell>
+    <Cell><Data ss:Type="String">Handelsposten</Data></Cell>
+    <Cell><Data ss:Type="String">Stazione Commerciale</Data></Cell>
+    <Cell ss:Index="9"><Data ss:Type="String">交易所</Data></Cell>
+    <Cell><Data ss:Type="String">Trading Post</Data></Cell>
+    <Cell><Data ss:Type="String">Торговый Пост</Data></Cell>
+    <Cell><Data ss:Type="String">Entreposto</Data></Cell>
    </Row>
   </Table>
   <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">

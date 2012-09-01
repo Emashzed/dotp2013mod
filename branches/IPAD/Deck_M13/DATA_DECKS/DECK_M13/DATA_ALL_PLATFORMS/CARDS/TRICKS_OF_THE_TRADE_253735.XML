@@ -18,7 +18,7 @@
   <ARTIST name="Steven Belledin" />
   <CASTING_COST cost="{3}{U}" />
   <FLAVOURTEXT>
-    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[“Pathetic. You might as well have protected your treasures with a paper box and some string.”]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[“Pathetic. You might as well have protected your treasures with a paper     box and some string.”]]></LOCALISED_TEXT>
     <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[“Pathetic. You might as well have protected your treasures with a paper box and some string.”]]></LOCALISED_TEXT>
     <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[“Pathetic. You might as well have protected your treasures with a paper box and some string.”]]></LOCALISED_TEXT>
     <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[“Pathetic. You might as well have protected your treasures with a paper box and some string.”]]></LOCALISED_TEXT>
@@ -30,7 +30,7 @@
   </FLAVOURTEXT>
   <TYPE metaname="Enchantment" />
   <SUB_TYPE metaname="Aura" />
-  <EXPANSION value="DPG" />
+  <EXPANSION value="M13" />
   <RARITY metaname="C" />
   <STATIC_ABILITY attach_filter="1" filter_zone="ZONE_IN_PLAY">
     <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Enchant creature]]></LOCALISED_TEXT>

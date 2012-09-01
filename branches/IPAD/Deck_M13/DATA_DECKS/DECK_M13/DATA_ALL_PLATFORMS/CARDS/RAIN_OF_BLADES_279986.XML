@@ -18,7 +18,7 @@
   <ARTIST name="Rob Alexander" />
   <CASTING_COST cost="{W}" />
   <FLAVOURTEXT>
-    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Some say they are the weapons of heroes fallen in battle, eager for one last chance at glory.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Some say they are the weapons of heroes fallen in battle, eager for one last chance  at glory.]]></LOCALISED_TEXT>
     <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Alcuni dicono che siano le armi degli eroi caduti in battaglia, assetate di un'ultima occasione di gloria.]]></LOCALISED_TEXT>
     <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Einige behaupten, dies seien die Waffen der im Kampf gefallenen Helden, die nach einer letzten Chance auf Ruhm dürsten.]]></LOCALISED_TEXT>
     <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[La légende veut que ce soient les armes des héros tombés au champ d'honneur, venues chercher une dernière heure de gloire.]]></LOCALISED_TEXT>
@@ -29,10 +29,10 @@
     <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Alguns dizem que são as armas dos heróis tombados em batalha, ávidas por uma última chance de glória.]]></LOCALISED_TEXT>
   </FLAVOURTEXT>
   <TYPE metaname="Instant" />
-  <EXPANSION value="DPG" />
+  <EXPANSION value="M13" />
   <RARITY metaname="U" />
   <SPELL_ABILITY dangerous="1">
-    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Rain of Blades deals 1 damage to each attacking creature.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Rain of Blades deals 1 damage to    each attacking creature.]]></LOCALISED_TEXT>
     <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[La Pioggia di Lame infligge 1 danno a ogni creatura attaccante.]]></LOCALISED_TEXT>
     <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Der Klingenschauer fügt jeder angreifenden Kreatur 1 Schadenspunkt zu.]]></LOCALISED_TEXT>
     <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[La Pluie de lames inflige 1 blessure à chaque créature attaquante.]]></LOCALISED_TEXT>

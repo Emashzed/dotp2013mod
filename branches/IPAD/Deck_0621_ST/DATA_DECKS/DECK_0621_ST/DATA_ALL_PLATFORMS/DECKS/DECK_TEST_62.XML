@@ -1,40 +1,49 @@
-<DECK personality="D13_TEST_62_DEFAULT.XML" deck_box_image="D13_Test62" deck_box_image_locked="locked" content_pack="0" always_available="true" uid="6299" preview_card="test">
-  <DECKSTATISTICS Size="?" Speed="?" Flex="?" Syn="?" />
-  <LandConfig minPlains="6" minIsland="6" minSwamp="6" minMountain="6" minForest="6" />
+<DECK personality="D13_TEST_62_DEFAULT.XML" deck_box_image="D13_Test62" deck_box_image_locked="locked" content_pack="0" always_available="true" uid="6298" preview_card="test" is_blue="true" is_white="true" is_red="true">
+  <DECKSTATISTICS Size="0" Speed="4" Flex="10" Syn="10" />
+  <LandConfig minPlains="6" minIsland="7" minMountain="2" />
   <CARD name="TEMPORAL_MASTERY_623708" deckOrderId="0" />
   <CARD name="TEMPORAL_MASTERY_623708" deckOrderId="1" />
   <CARD name="TEMPORAL_MASTERY_623708" deckOrderId="2" />
   <CARD name="TEMPORAL_MASTERY_623708" deckOrderId="3" />
-  <CARD name="BRAINSTORM_623657" deckOrderId="4" />
-  <CARD name="BRAINSTORM_623657" deckOrderId="5" />
-  <CARD name="BRAINSTORM_623657" deckOrderId="6" />
-  <CARD name="BRAINSTORM_623657" deckOrderId="7" />
-  <CARD name="BRAINSTORM_623657" deckOrderId="8" />
-  <CARD name="BRAINSTORM_623657" deckOrderId="9" />
-  <CARD name="BRAINSTORM_623657" deckOrderId="10" />
-  <CARD name="BRAINSTORM_623657" deckOrderId="11" />
-  <CARD name="BRAINSTORM_623657" deckOrderId="12" />
-  <CARD name="BRAINSTORM_623657" deckOrderId="13" />
-  <CARD name="BRAINSTORM_623657" deckOrderId="14" />
-  <CARD name="BRAINSTORM_623657" deckOrderId="15" />
-  <CARD name="BRAINSTORM_623657" deckOrderId="16" />
-  <CARD name="BRAINSTORM_623657" deckOrderId="17" />
-  <CARD name="BRAINSTORM_623657" deckOrderId="18" />
-  <CARD name="BRAINSTORM_623657" deckOrderId="19" />
-  <CARD name="PONDER_623646" deckOrderId="20" />
-  <CARD name="PONDER_623646" deckOrderId="21" />
-  <CARD name="PONDER_623646" deckOrderId="22" />
-  <CARD name="PONDER_623646" deckOrderId="23" />
-  <CARD name="PONDER_623646" deckOrderId="24" />
-  <CARD name="PONDER_623646" deckOrderId="25" />
-  <CARD name="PONDER_623646" deckOrderId="26" />
-  <CARD name="PONDER_623646" deckOrderId="27" />
-  <CARD name="PONDER_623646" deckOrderId="28" />
-  <CARD name="PONDER_623646" deckOrderId="29" />
-  <CARD name="PONDER_623646" deckOrderId="30" />
-  <CARD name="PONDER_623646" deckOrderId="31" />
-  <CARD name="PONDER_623646" deckOrderId="32" />
+  <CARD name="DEVASTATION_TIDE_623620" deckOrderId="4" />
+  <CARD name="DEVASTATION_TIDE_623620" deckOrderId="5" />
+  <CARD name="DEVASTATION_TIDE_623620" deckOrderId="6" />
+  <CARD name="DEVASTATION_TIDE_623620" deckOrderId="7" />
+  <CARD name="ENTREAT_THE_ANGELS_623689" deckOrderId="8" />
+  <CARD name="ENTREAT_THE_ANGELS_623689" deckOrderId="9" />
+  <CARD name="ENTREAT_THE_ANGELS_623689" deckOrderId="10" />
+  <CARD name="ENTREAT_THE_ANGELS_623689" deckOrderId="11" />
+  <CARD name="TERMINUS_623749" deckOrderId="12" />
+  <CARD name="TERMINUS_623749" deckOrderId="13" />
+  <CARD name="TERMINUS_623749" deckOrderId="14" />
+  <CARD name="TERMINUS_623749" deckOrderId="15" />
+  <CARD name="BONFIRE_OF_THE_DAMNED_623705" deckOrderId="16" />
+  <CARD name="BONFIRE_OF_THE_DAMNED_623705" deckOrderId="17" />
+  <CARD name="BONFIRE_OF_THE_DAMNED_623705" deckOrderId="18" />
+  <CARD name="REFORGE_THE_SOUL_623630" deckOrderId="19" />
+  <CARD name="REFORGE_THE_SOUL_623630" deckOrderId="20" />
+  <CARD name="MYSTICAL_TUTOR_623789" deckOrderId="21" />
+  <CARD name="BRAINSTORM_623657" deckOrderId="22" />
+  <CARD name="BRAINSTORM_623657" deckOrderId="23" />
+  <CARD name="BRAINSTORM_623657" deckOrderId="24" />
+  <CARD name="BRAINSTORM_623657" deckOrderId="25" />
+  <CARD name="THINK_TWICE_623787" deckOrderId="26" />
+  <CARD name="SENSEIS_DIVINING_TOP_623381" deckOrderId="27" />
+  <CARD name="WRATH_OF_GOD_623753" deckOrderId="28" />
+  <CARD name="FEELING_OF_DREAD_623786" deckOrderId="29" />
+  <CARD name="FEELING_OF_DREAD_623786" deckOrderId="30" />
+  <CARD name="FEELING_OF_DREAD_623786" deckOrderId="31" />
+  <CARD name="NOXIOUS_REVIVAL_623788" deckOrderId="32" />
   <CARD name="PONDER_623646" deckOrderId="33" />
   <CARD name="PONDER_623646" deckOrderId="34" />
   <CARD name="PONDER_623646" deckOrderId="35" />
+  <CARD name="PONDER_623646" deckOrderId="36" />
+  <CARD name="ARID_MESA_624098" deckOrderId="37" />
+  <CARD name="ARID_MESA_624098" deckOrderId="38" />
+  <CARD name="FLOODED_STRAND_624090" deckOrderId="39" />
+  <CARD name="FLOODED_STRAND_624090" deckOrderId="40" />
+  <CARD name="FLOODED_STRAND_624090" deckOrderId="41" />
+  <CARD name="SCALDING_TARN_624096" deckOrderId="42" />
+  <CARD name="SCALDING_TARN_624096" deckOrderId="43" />
+  <CARD name="EVOLVING_WILDS_276846" deckOrderId="44" />
 </DECK>

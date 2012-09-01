@@ -38,7 +38,7 @@
 — Laikas, monge eruniano]]></LOCALISED_TEXT>
   </FLAVOURTEXT>
   <TYPE metaname="Enchantment" />
-  <EXPANSION value="DPG" />
+  <EXPANSION value="M13" />
   <RARITY metaname="R" />
   <TRIGGERED_ABILITY filter_zone="ZONE_IN_PLAY">
     <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[At the beginning of your upkeep, count the number of permanents you control. Your life total becomes that number.]]></LOCALISED_TEXT>
