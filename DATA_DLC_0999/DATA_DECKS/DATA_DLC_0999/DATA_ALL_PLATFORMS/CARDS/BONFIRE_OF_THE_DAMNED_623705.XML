@@ -1,0 +1,138 @@
+<?xml version='1.0'?>
+<CARD_V2>
+  <FILENAME text="BONFIRE_OF_THE_DAMNED_623705" />
+  <CARDNAME text="BONFIRE_OF_THE_DAMNED" />
+  <TITLE>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Bonfire of the Damned]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Falò dei Dannati]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Leuchtfeuer der Verdammten]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Bûcher des damnés]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Hoguera de los condenados]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[忌むべき者のかがり火]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[저주받은 자들의 불길]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Костер Проклятых]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Fogueira dos Malditos]]></LOCALISED_TEXT>
+  </TITLE>
+  <MULTIVERSEID value="623705" />
+  <ARTID value="623705" />
+  <ARTIST name="James Paick" />
+  <CASTING_COST cost="{X}{X}{R} " />
+  <TYPE metaname="Sorcery" />
+  <EXPANSION value="DPG" />
+  <RARITY metaname="M" />
+  <SPELL_ABILITY dangerous="1" filter_zone="ZONE_IN_PLAY_AND_PLAYERS">
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Bonfire of the Damned deals X damage to target player and each creature he or she controls.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Il Falò dei Dannati infligge X danni a un giocatore bersaglio e a ogni creatura che controlla.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Das Leuchtfeuer der Verdammten fügt einem Spieler deiner Wahl und allen Kreaturen, die er kontrolliert, X Schadenspunkte zu.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Le Bûcher des damnés inflige X blessures au joueur ciblé et à chaque créature qu'il contrôle.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[La Hoguera de los condenados hace X puntos de daño al jugador objetivo y a cada criatura que controla.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[プレイヤー１人を対象とする。忌むべき者のかがり火はそのプレイヤーとそのプレイヤーがコントロールする各クリーチャーにそれぞれＸ点のダメージを与える。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[플레이어 한 명을 목표로 정한다. 저주받은 자들의 불길은 그 플레이어와 그 플레이어가 조종하는 각 생물에게 피해 X점씩을 입힌다.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Костер Проклятых наносит Х повреждений целевому игроку и каждому существу под его контролем.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Fogueira dos Malditos causa X pontos de dano ao jogador alvo e a cada criatura que ele controle.]]></LOCALISED_TEXT>
+    <TARGET_DEFINITION id="0">
+    local filter = Object():GetFilter()
+    filter:Clear()
+    filter:SetFilterType( FILTER_TYPE_PLAYERS )
+    filter:SetHint( HINT_ENEMY_ONLY, EffectController() )
+    </TARGET_DEFINITION>
+    <TARGET_DETERMINATION>
+    return AtLeastOneTargetFromDefinition(0)
+    </TARGET_DETERMINATION>
+    <PLAY_TIME_ACTION target_choosing="1">
+    EffectController():ChooseTarget( 0, "CARD_QUERY_CHOOSE_PLAYER_DEAL_X_DAMAGE", EffectDC():Make_Targets(0) )
+    </PLAY_TIME_ACTION>
+    <RESOLUTION_TIME_ACTION ignore_filter="1">
+    if GetObjectX() &gt; 0 then 
+      ObjectDC():Set_Int( 1, GetObjectX() )
+    end
+    </RESOLUTION_TIME_ACTION>
+    <FILTER>
+    local target_player = EffectDC():Get_Targets(0):Get_PlayerPtr(0)
+    if (target_player ~= nil) then
+      return (FilteredCard() ~= nil and
+      FilteredCard():GetCardType():Test( CARD_TYPE_CREATURE ) ~= 0 and
+      FilteredCard():GetZone() == ZONE_IN_PLAY and 
+      FilteredCard():GetController() == target_player) or (FilteredPlayer() == target_player)
+    else
+      return false
+    end  
+    </FILTER>
+    <RESOLUTION_TIME_ACTION>
+    local damage = ObjectDC():Get_Int(1)
+    if (FilteredPlayer() ~= nil) then
+    	FilteredPlayer():DealDamage(damage , Object())  
+    else FilteredCard():DealDamage(damage , Object())  
+    end  
+    </RESOLUTION_TIME_ACTION>
+    <SFX text="GLOBAL_LAVA_PLAY" />
+  </SPELL_ABILITY>
+  <TRIGGERED_ABILITY forced_skip="1" filter_zone="ZONE_IN_PLAY" active_zone="ZONE_HAND">
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Miracle {X}{R} (You may cast this card for its miracle cost when you draw it if it's the first card you drew this turn.)]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Miracolo {X}{R} (Puoi lanciare questa carta pagando il suo costo di miracolo quando la peschi, se è la prima che hai pescato in questo turno.)]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Mirakulum {X}{R} (Du kannst diese Karte zu ihren Mirakulum-Kosten wirken, wenn du sie ziehst, falls es die erste Karte ist, die du in diesem Zug gezogen hast.)]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Miracle {X}{R} (Vous pouvez lancer cette carte pour son coût de miracle quand vous la piochez si c'est la première carte que vous avez piochée ce tour-ci.)]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Milagro {X}{R}. (Puedes lanzar esta carta pagando su coste de milagro cuando la robes si es la primera carta que robaste este turno.)]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[奇跡 {X}{R} （あなたがこのカードを引いたとき、これがこのターンに最初に引いたカードだった場合、あなたはこれの奇跡コストを支払うことでこれを唱えてもよい。）]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[기적 {X}{R} (당신이 이 카드를 뽑을 때, 이 카드가 당신이 이번 턴에 뽑은 첫 번째 카드라면 당신은 기적 비용을 지불하고 이 카드를 발동할 수 있다.)]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Чудо {X}{R} (Вы можете разыграть эту карту за ее стоимость Чуда, когда вы берете ее, если это первая карта, которую вы взяли в этом ходу).]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Milagre {X}{R} (Você pode conjurar este card pagando seu custo de milagre ao comprá-lo se este for o primeiro card que você compra neste turno.)]]></LOCALISED_TEXT>
+    <TRIGGER value="DREW_CARD" simple_qualifier="controller">
+    local drawCard = MTG():Interrogate_CardsDrawnThisTurn(EffectController())
+    if ObjectDC():Get_Int(0) == 1 and drawCard == 1 then
+      ObjectDC():Set_Int( 0, 0 )
+      return TriggerPlayer() == EffectController()
+    else
+    	return false
+    end
+    </TRIGGER>
+    <TARGET_DETERMINATION>
+    local filter = Object():GetFilter()
+    filter:Clear()
+    filter:SetFilterType( FILTER_TYPE_PLAYERS )
+    local total = filter:CountStopAt( 1 )
+    if total == 1 and Object():GetZone() == ZONE_HAND then
+      -- success
+    	return 1
+    else
+      -- fail
+      return 0
+    end
+    </TARGET_DETERMINATION>
+    <COST type="mana" cost="{R}" qualifier="conditional" />
+    <RESOLUTION_TIME_ACTION conditional="if">
+    if Object():GetZone() == ZONE_HAND then
+      EffectController():BeginNewNumericalChoice()
+      EffectController():AddNumericalChoiceAnswer(EffectController():GetTotalMana())
+      EffectController():AskNumericalChoiceQuestion("CARD_QUERY_WELL_OF_LOST_DREAMS")
+    end
+    </RESOLUTION_TIME_ACTION>
+    <RESOLUTION_TIME_ACTION conditional="if">
+    if EffectController():CanAfford("{"..Object():GetNumericalChoiceResult().."}") == 1 then
+      ObjectDC():Set_Int(1, Object():GetNumericalChoiceResult())
+      EffectController():TapLand("{"..Object():GetNumericalChoiceResult().."}")
+      Object():PlayFreeFromAnywhere( EffectController() ) 
+    end
+    </RESOLUTION_TIME_ACTION>
+  </TRIGGERED_ABILITY>  
+  <TRIGGERED_ABILITY internal="1" pre_trigger="1" priority="-1" active_zone="ZONE_LIBRARY">
+    <TRIGGER value="DREW_CARD" simple_qualifier="controller">
+    local card = EffectController():Library_GetNth(0) 
+    local source = Object()
+    local drawCard = MTG():Interrogate_CardsDrawnThisTurn(EffectController())
+    if card ~= nil and source ~= nil then 
+      if card == source and drawCard == 0 then
+    	  return TriggerPlayer() == EffectController()
+      else
+    	  return false
+      end
+    else
+    	return false
+    end
+    </TRIGGER>
+    <RESOLUTION_TIME_ACTION>
+    ObjectDC():Set_Int( 0, 1 )
+    </RESOLUTION_TIME_ACTION>
+  </TRIGGERED_ABILITY>
+  <AI_BASE_SCORE score="1200" zone="ZONE_HAND" />
+</CARD_V2>

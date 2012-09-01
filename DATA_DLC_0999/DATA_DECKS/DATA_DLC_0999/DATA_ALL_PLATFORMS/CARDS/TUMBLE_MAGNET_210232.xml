@@ -1,0 +1,86 @@
+<?xml version='1.0'?>
+<CARD_V2>
+  <FILENAME text="TUMBLE_MAGNET_210232" />
+  <CARDNAME text="TUMBLE_MAGNET" />
+  <TITLE>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Tumble Magnet]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Magnete del Crollo]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Magnet des Taumelns]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Aimant de culbute]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Magneto tumbante]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[転倒の磁石]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[Tumble Magnet]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Опрокидывающий Магнит]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Ímã do Tombo]]></LOCALISED_TEXT>
+  </TITLE>
+  <MULTIVERSEID value="210232" />
+  <ARTID value="888210232" />
+  <ARTIST name="Drew Baker" />
+  <CASTING_COST cost="{3}" />
+  <FLAVOURTEXT>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Magnetic devices that keep massive golems and structures standing can also be used for the opposite purpose.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[I congegni magnetici che tengono in piedi golem e strutture massicce possono anche essere usati allo scopo contrario.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Magneten, die verwendet werden, um Golems und Konstrukte aufrecht zu halten, können auch für das Gegenteil verwendet werden.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Les appareils magnétiques qui permettent aux golems et aux autres structures massives de se tenir debout peuvent aussi avoir l'effet contraire.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Los aparatos magnéticos que mantienen en pie enormes gólems y estructuras también pueden usarse para el propósito opuesto.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[巨大なゴーレムや構築物を立たせるための磁力の道具は、逆の目的にも使える。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[Magnetic devices that keep massive golems and structures standing can also be used for the opposite purpose.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Магнитные приспособления, удерживающие громадных големов и строения на ногах, можно также использовать с противоположной целью.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Dispositivos magnéticos que mantêm golens e estruturas gigantescas de pé também podem ser utilizados para o propósito oposto.]]></LOCALISED_TEXT>
+  </FLAVOURTEXT>
+  <TYPE metaname="Artifact" />
+  <EXPANSION value="DPG" />
+  <RARITY metaname="C" />
+  <TRIGGERED_ABILITY internal="1" pre_trigger="1" filter_zone="ZONE_IN_PLAY" active_zone="ZONE_TRANSITION">
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Tumble Magnet enters the battlefield with three charge counters on it.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Il Magnete del Crollo entra nel campo di battaglia con tre segnalini carica.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Der Magnet des Taumelns kommt mit drei Ladungsmarken ins Spiel.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[L'Aimant de culbute arrive sur le champ de bataille avec, sur lui, trois marqueurs « charge ».]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[El Magneto tumbante entra al campo de batalla con tres contadores de carga sobre él.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[転倒の磁石は、蓄積カウンターが３個置かれた状態で戦場に出る。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[Tumble Magnet enters the battlefield with three charge counters on it.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Опрокидывающий Магнит выходит на поле битвы с тремя жетонами заряда на нем.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Ímã do Tombo entra no campo de batalha com três marcadores de carga sobre ele.]]></LOCALISED_TEXT>
+    <TRIGGER value="ZONECHANGE_TRANSITION" simple_qualifier="self" to_zone="ZONE_IN_PLAY" />
+    <RESOLUTION_TIME_ACTION>
+    Object():AddCounters( MTG():ChargeCounters(), 3 )
+    </RESOLUTION_TIME_ACTION>
+  </TRIGGERED_ABILITY>
+  <ACTIVATED_ABILITY filter_zone="ZONE_IN_PLAY">
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[{T}, Remove a charge counter from Tumble Magnet: Tap target artifact or creature.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[{T}, Rimuovi un segnalino carica dal Magnete del Crollo: TAPpa un artefatto o una creatura bersaglio.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[{T}, entferne eine Ladungsmarke vom Magnet des Taumelns: Tappe ein Artefakt oder eine Kreatur deiner Wahl.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[{T}, retirez un marqueur « charge » de l'Aimant de culbute : Engagez un artefact ciblé ou une créature ciblée.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[{T}, remover un contador de carga del Magneto tumbante: Gira la criatura o artefacto objetivo.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[{T}, 転倒の磁石から蓄積カウンターを１個取り除く：アーティファクト１つかクリーチャー１体を対象とし、それをタップする。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[{T}, Remove a charge counter from Tumble Magnet: Tap target artifact or creature.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[{T}, удалите один жетон заряда с Опрокидывающего Магнита: поверните целевой артефакт или существо.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[{T}, Remova um marcador de carga de Ímã do Tombo: Vire o artefato ou a criatura alvo.]]></LOCALISED_TEXT>
+    <COST type="TapSelf" />
+    <COST type="countersself" name="charge" number="-1" />
+    <TARGET_DEFINITION id="0">
+    local filter = Object():GetFilter()
+    filter:Clear()
+    filter:AddCardType( CARD_TYPE_ARTIFACT )
+    filter:AddCardType( CARD_TYPE_CREATURE )
+    filter:SetZone( ZONE_IN_PLAY )
+    filter:SetHint( HINT_ENEMY_ONLY, EffectController() )
+    </TARGET_DEFINITION>
+    <TARGET_DETERMINATION>
+    return AtLeastOneTargetFromDefinition(0)
+    </TARGET_DETERMINATION>
+    <PLAY_TIME_ACTION target_choosing="1">
+    EffectController():ChooseTarget( 0, "CARD_QUERY_CHOOSE_ARTIFACT_CREATURE_TO_TAP", EffectDC():Make_Targets(0) )
+    </PLAY_TIME_ACTION>
+    <RESOLUTION_TIME_ACTION>
+    local target_card = EffectDC():Get_Targets(0):Get_CardPtr(0)
+    if target_card ~= nil then  
+       target_card:Tap()  
+    end
+    </RESOLUTION_TIME_ACTION>
+    <AI_AVAILABILITY step="begin_combat" />
+    <AI_AVAILABILITY step="end_of_turn" turn="their_turn" />
+    <AI_AVAILABILITY type="in_response_dangerous" />
+    <AI_AVAILABILITY step="declare_blockers" blocking_or_blocked="1" />
+  </ACTIVATED_ABILITY>
+</CARD_V2>

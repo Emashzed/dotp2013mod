@@ -1,0 +1,109 @@
+﻿<?xml version='1.0'?>
+<CARD_V2>
+  <FILENAME text="SCREECHING_BAT_221211" />
+  <CARDNAME text="SCREECHING_BAT" />
+  <TITLE>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Screeching Bat]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Pipistrello Urlante]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Kreischende Fledermaus]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Chauve-souris grinçante]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Murciélago chillón]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[金切り声のコウモリ]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[Screeching Bat]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Визжащий Нетопырь]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Morcego Guinchante]]></LOCALISED_TEXT>
+  </TITLE>
+  <MULTIVERSEID value="221211" />
+  <ARTID value="888221211" />
+  <ARTIST name="Slawomir Maniak" />
+  <CASTING_COST cost="{2}{B}" />
+  <FLAVOURTEXT>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[The bat has such clarity of hearing that simple sounds become symphonies.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Il pipistrello ha un udito così limpido che anche i suoni più semplici sono per lui vere sinfonie.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Die Fledermaus hat so einen reinen Hörsinn, dass einfache Geräusche zu Symphonien werden.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[La chauve-souris a l’ouïe tellement fine que de simples sons deviennent des symphonies.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[El murciélago tiene tal claridad auditiva que para él los sonidos simples son sinfonías.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[コウモリの聴覚の鋭さは、単なる音を交響曲にする。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[The bat has such clarity of hearing that simple sounds become symphonies.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Летучая мышь обладает таким четким слухом, что простые звуки становятся симфониями.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[O morcego tem uma audição tão apurada que até os sons mais simples soam como uma sinfonia em seus ouvidos.]]></LOCALISED_TEXT>
+  </FLAVOURTEXT>
+  <TYPE metaname="Creature" />
+  <SUB_TYPE metaname="Bat" />
+  <EXPANSION value="ISD" />
+  <RARITY metaname="U" />
+  <POWER value="2" />
+  <TOUGHNESS value="2" />
+  <TOKEN_REGISTRATION reservation="1" type="STALKING_VAMPIRE_221215" />
+  <TRIGGERED_ABILITY internal="1" active_zone="ZONE_ANY">
+    <TRIGGER value="ZONECHANGE_BEGIN" simple_qualifier="self" to_zone="ZONE_IN_PLAY" />
+    <RESOLUTION_TIME_ACTION>
+    MTG():CreateDelayedTrigger(1, nil)
+    </RESOLUTION_TIME_ACTION>
+  </TRIGGERED_ABILITY>
+  <TRIGGERED_ABILITY resource_id="1" forced_skip="1" filter_zone="ZONE_IN_PLAY">
+    <CLEANUP fire_once="1" />
+    <TRIGGER value="ZONECHANGE_END" simple_qualifier="self" to_zone="ZONE_IN_PLAY" />
+    <RESOLUTION_TIME_ACTION>
+    GetTransformData_Step1("STALKING_VAMPIRE_221215")
+    </RESOLUTION_TIME_ACTION>
+    <RESOLUTION_TIME_ACTION>
+    GetTransformData_Step2()
+    </RESOLUTION_TIME_ACTION>
+  </TRIGGERED_ABILITY>
+  <STATIC_ABILITY filter_zone="ZONE_IN_PLAY">
+    <CONTINUOUS_ACTION layer="1">
+    if IsTransformed( Object() ) then
+    	ApplyTransformation( 1, 1, CARD_TYPE_CREATURE, CREATURE_TYPE_VAMPIRE )
+    end
+    </CONTINUOUS_ACTION>
+  </STATIC_ABILITY>
+  <STATIC_ABILITY>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Flying]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Vol]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Vuela.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Fliegend]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Volare]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[飛行]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[비행]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Полет]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Voar]]></LOCALISED_TEXT>
+    <CONTINUOUS_ACTION>
+    local characteristics = Object():GetCurrentCharacteristics()
+    characteristics:Characteristic_Set( CHARACTERISTIC_FLYING, 1 )
+    </CONTINUOUS_ACTION>
+  </STATIC_ABILITY>
+  <TRIGGERED_ABILITY filter_zone="ZONE_IN_PLAY">
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[At the beginning of your upkeep, you may pay {2}{B}{B}. If you do, transform Screeching Bat.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[All’inizio del tuo mantenimento, puoi pagare {2}{B}{B}. Se lo fai, trasforma il Pipistrello Urlante.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Zu Beginn deines Versorgungssegments kannst du {2}{B}{B} bezahlen. Falls du dies tust, transformiere die Kreischende Fledermaus.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Au début de votre entretien, vous pouvez payer {2}{B}{B}. Si vous faites ainsi, transformez la Chauve-souris grinçante.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Al comienzo de tu mantenimiento, puedes pagar {2}{B}{B}. Si lo haces, transforma al Murciélago chillón.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[あなたのアップキープの開始時に、あなたは{2}{B}{B}を支払ってもよい。 そうした場合、金切り声のコウモリを変身させる。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[At the beginning of your upkeep, you may pay {2}{B}{B}. If you do, transform Screeching Bat.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[В начале вашего шага поддержки вы можете заплатить {2}{B}{B}. Если вы это делаете, трансформируйте Визжащего Нетопыря.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[No início de sua manutenção, você pode pagar {2}{B}{B}. Se fizer isso, transforme Morcego Guinchante.]]></LOCALISED_TEXT>
+    <TRIGGER value="BEGINNING_OF_STEP" simple_qualifier="controller">
+    return MTG():GetStep() == STEP_UPKEEP and EffectController():MyTurn() ~= 0 and (not IsTransformed(Object()))
+    </TRIGGER>
+    <RESOLUTION_TIME_ACTION>
+    local player = EffectController()
+    if player ~= nil and player:CanAfford("{2}{B}{B}") == 1 then
+    	player:BeginNewMultipleChoice()
+    	player:AddMultipleChoiceAnswer( "CARD_QUERY_OPTION_YES" )
+    	player:AddMultipleChoiceAnswer( "CARD_QUERY_OPTION_NO" )
+    	player:AskMultipleChoiceQuestion( "CARD_QUERY_MC_PAY_2BB" )
+    end
+    </RESOLUTION_TIME_ACTION>
+    <RESOLUTION_TIME_ACTION>
+    local player = EffectController()
+    if player ~= nil and player:CanAfford("{2}{B}{B}") == 1 and Object():GetMultipleChoiceResult() == 0 then
+    	player:TapLand("{2}{B}{B}")
+    	Transform( Object() )
+    end
+    </RESOLUTION_TIME_ACTION>
+  </TRIGGERED_ABILITY>
+  <HELP title="MORE_INFO_BADGE_TITLE_10" body="MORE_INFO_BADGE_BODY_10" zone="ZONE_ANY" />
+  <SFX text="COMBAT_FANG_LARGE_ATTACK" power_boundary_min="4" power_boundary_max="-1" />
+  <SFX text="COMBAT_FANG_SMALL_ATTACK" power_boundary_min="1" power_boundary_max="3" />
+</CARD_V2>
