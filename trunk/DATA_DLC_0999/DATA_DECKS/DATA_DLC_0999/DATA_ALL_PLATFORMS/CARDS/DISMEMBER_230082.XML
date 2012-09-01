@@ -32,15 +32,15 @@
   <EXPANSION value="DPG" />
   <RARITY metaname="U" />
   <SPELL_ABILITY>
-    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[({BP} can be paid with either {B} or 2 life.)]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[({BP} può essere pagato con {B} o con 2 punti vita.)]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[({BP} kann entweder mit {B} oder 2 Lebenspunkten bezahlt werden.)]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[({BP} peut être payé au choix avec {B} ou 2 points de vie.)]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[({BP} puede pagarse con {B} o con 2 vidas.)]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[（{BP}は{B}でも２点のライフでも支払うことができる。）]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[({BP} can be paid with either {B} or 2 life.)]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[(За {BP} можно заплатить либо {B}, либо 2 жизни.)]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[({BP} pode ser pago com {B} ou 2 pontos de vida.)]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[({J} can be paid with either {B} or 2 life.)]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[({J} può essere pagato con {B} o con 2 punti vita.)]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[({J} kann entweder mit {B} oder 2 Lebenspunkten bezahlt werden.)]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[({J} peut être payé au choix avec {B} ou 2 points de vie.)]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[({J} puede pagarse con {B} o con 2 vidas.)]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[（{J}は{B}でも２点のライフでも支払うことができる。）]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[({J} can be paid with either {B} or 2 life.)]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[(За {J} можно заплатить либо {B}, либо 2 жизни.)]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[({J} pode ser pago com {B} ou 2 pontos de vida.)]]></LOCALISED_TEXT>
   </SPELL_ABILITY>
   <SPELL_ABILITY>
     <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Target creature gets -5/-5 until end of turn.]]></LOCALISED_TEXT>

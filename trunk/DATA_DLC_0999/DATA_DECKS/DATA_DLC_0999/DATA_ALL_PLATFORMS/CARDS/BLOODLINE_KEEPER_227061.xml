@@ -1,0 +1,124 @@
+﻿<?xml version='1.0'?>
+<CARD_V2>
+  <FILENAME text="BLOODLINE_KEEPER_227061" />
+  <CARDNAME text="BLOODLINE_KEEPER" />
+  <TITLE>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Bloodline Keeper]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Custode della Stirpe]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Blutlinien-Bewahrer]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Gardien de la lignée]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Guardián de la línea de sangre]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[血統の守り手]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[Bloodline Keeper]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Хранитель Кровной Линии]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Guardião da Estirpe]]></LOCALISED_TEXT>
+  </TITLE>
+  <MULTIVERSEID value="227061" />
+  <ARTID value="888227061" />
+  <ARTIST name="Jason Chan" />
+  <CASTING_COST cost="{2}{B}{B}" />
+  <TYPE metaname="Creature" />
+  <SUB_TYPE metaname="Vampire" />
+  <EXPANSION value="ISD" />
+  <RARITY metaname="R" />
+  <POWER value="3" />
+  <TOUGHNESS value="3" />
+  <TOKEN_REGISTRATION reservation="1" type="LORD_OF_LINEAGE_227072" />
+  <TOKEN_REGISTRATION reservation="2" type="TOKEN_VAMPIRE_2_2_F_19990120" />
+  <TRIGGERED_ABILITY internal="1" active_zone="ZONE_ANY">
+    <TRIGGER value="ZONECHANGE_BEGIN" simple_qualifier="self" to_zone="ZONE_IN_PLAY" />
+    <RESOLUTION_TIME_ACTION>
+    MTG():CreateDelayedTrigger(1, nil)
+    </RESOLUTION_TIME_ACTION>
+  </TRIGGERED_ABILITY>
+  <TRIGGERED_ABILITY resource_id="1" forced_skip="1" filter_zone="ZONE_IN_PLAY">
+    <CLEANUP fire_once="1" />
+    <TRIGGER value="ZONECHANGE_END" simple_qualifier="self" to_zone="ZONE_IN_PLAY" />
+    <RESOLUTION_TIME_ACTION>
+    GetTransformData_Step1("LORD_OF_LINEAGE_227072")
+    </RESOLUTION_TIME_ACTION>
+    <RESOLUTION_TIME_ACTION>
+    GetTransformData_Step2()
+    </RESOLUTION_TIME_ACTION>
+  </TRIGGERED_ABILITY>
+  <STATIC_ABILITY filter_zone="ZONE_IN_PLAY">
+    <CONTINUOUS_ACTION layer="1">
+    if IsTransformed( Object() ) then
+    	ApplyTransformation( 1, 1, CARD_TYPE_CREATURE, CREATURE_TYPE_VAMPIRE )
+    end
+    </CONTINUOUS_ACTION>
+  </STATIC_ABILITY>
+  <STATIC_ABILITY>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Flying]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Vol]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Vuela.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Fliegend]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Volare]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[飛行]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[비행]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Полет]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Voar]]></LOCALISED_TEXT>
+    <CONTINUOUS_ACTION>
+    local characteristics = Object():GetCurrentCharacteristics()
+    characteristics:Characteristic_Set( CHARACTERISTIC_FLYING, 1 )
+    </CONTINUOUS_ACTION>
+  </STATIC_ABILITY>
+  <ACTIVATED_ABILITY auto_skip="1" filter_zone="ZONE_IN_PLAY">
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[{T}: Put a 2/2 black Vampire creature token with flying onto the battlefield.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[{T}: Metti sul campo di battaglia una pedina creatura Vampiro 2/2 nera con volare.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[{T}: Bringe einen 2/2 schwarzen Vampir-Kreaturenspielstein mit Flugfähigkeit ins Spiel.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[{T} : Mettez sur le champ de bataille un jeton de créature 2/2 noire Vampire avec le vol.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[{T}: Pon en el campo de batalla una ficha de criatura Vampiro negra 2/2 con la habilidad de volar.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[{T}：飛行を持つ黒の２/２の吸血鬼・クリーチャー・トークンを１体戦場に出す。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[{T}: Put a 2/2 black Vampire creature token with flying onto the battlefield.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[{T}: положите на поле битвы одну фишку существа 2/2 черный Вампир с Полетом.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[{T}: Coloque no campo de batalha uma ficha de criatura preta 2/2 do tipo Vampiro com voar.]]></LOCALISED_TEXT>
+    <COST type="TapSelf" />
+    <RESOLUTION_TIME_ACTION>
+    local token_count = 1
+    if token_count &gt; 0 then
+    	MTG():PutTokensIntoPlay( "TOKEN_VAMPIRE_2_2_F_19990120", token_count, EffectController() )
+    end
+    </RESOLUTION_TIME_ACTION>
+    <AI_AVAILABILITY step="end_of_turn" turn="their_turn" />
+    <AI_AVAILABILITY step="declare_attackers" turn="their_turn" />
+    <AI_AVAILABILITY type="in_response_dangerous" />
+    <AI_AVAILABILITY step="declare_blockers" blocking_or_blocked="1" />
+  </ACTIVATED_ABILITY>
+  <ACTIVATED_ABILITY filter_zone="ZONE_IN_PLAY">
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[{B}: Transform Bloodline Keeper. Activate this ability only if you control five or more Vampires.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[{B}: Trasforma il Custode della Stirpe. Attiva questa abilità solo se controlli cinque o più Vampiri.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[{B}: Transformiere den Blutlinien-Bewahrer. Aktiviere diese Fähigkeit nur, falls du fünf oder mehr Vampire kontrollierst.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[{B} : Transformez le Gardien de la lignée. N’activez cette capacité que si vous contrôlez au moins cinq vampires.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[{B}: Transforma al Guardián de la línea de sangre. Activa esta habilidad sólo si controlas cinco o más Vampiros.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[{B}：血統の守り手を変身させる。 この能力は、あなたが５体以上の吸血鬼をコントロールしている場合にのみ起動できる。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[{B}: Transform Bloodline Keeper. Activate this ability only if you control five or more Vampires.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[{B}: трансформируйте Хранителя Кровной Линии. Активируйте эту способность, только если вы контролируете не менее пяти Вампиров.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[{B}: Transforme Guardião da Estirpe. Ative esta habilidade somente se você controlar cinco ou mais Vampiros.]]></LOCALISED_TEXT>
+    <COST type="Mana" cost="{B}" />
+    <AVAILABILITY>
+    if not IsTransformed( Object() ) then
+    	local filter = Object():GetFilter()
+    	filter:Clear()
+    	filter:SetZone( ZONE_IN_PLAY )
+    	filter:AddSubType( CREATURE_TYPE_VAMPIRE )
+    	filter:SetController( EffectController() )
+    	filter:NotTargetted()
+    	return filter:CountStopAt( 5 ) == 5
+    end
+    return false
+    </AVAILABILITY>
+    <RESOLUTION_TIME_ACTION>
+    Transform( Object() )
+    </RESOLUTION_TIME_ACTION>
+    <AI_AVAILABILITY type="in_response" />
+    <AI_AVAILABILITY type="in_response_dangerous" />
+    <AI_AVAILABILITY step="main_1" turn="my_turn" />
+    <AI_AVAILABILITY step="declare_attackers" turn="their_turn" />
+    <AI_AVAILABILITY step="declare_blockers" />
+    <AI_AVAILABILITY step="end_of_turn" />
+  </ACTIVATED_ABILITY>
+  <HELP title="MORE_INFO_BADGE_TITLE_10" body="MORE_INFO_BADGE_BODY_10" zone="ZONE_ANY" />
+  <SFX text="COMBAT_FANG_LARGE_ATTACK" power_boundary_min="4" power_boundary_max="-1" />
+  <SFX text="COMBAT_FANG_SMALL_ATTACK" power_boundary_min="1" power_boundary_max="3" />
+</CARD_V2>
