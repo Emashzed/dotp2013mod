@@ -18,18 +18,25 @@
   <ARTIST name="Andrew Robinson" />
   <CASTING_COST cost="{2}{W}{W}" />
   <FLAVOURTEXT>
-    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA["I understand your fears. I pity your doubts. I absolve you of both."]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA["Comprendo i tuoi timori. Ho pietà dei tuoi dubbi. Ti assolvo da entrambi."]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[„Ich verstehe eure Ängste. Ich bedauere eure Zweifel. Ich werde euch von beidem befreien."]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[« Je comprends vos peurs. J'ai pitié de vos doutes. Je vous absous des unes et des autres. »]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA["Comprendo sus temores. Compadezco sus dudas. Los absuelvo de ambas."]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[「恐いのは分かります。 疑いにも同情します。 そのいずれも、赦しましょう。」]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA["네 두려움을 이해하고, 네 의구심에 동정을 느낀다. 내가 이 두 가지 죄를 사해주마."]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[«Я понимаю твои страхи. Я сожалею о твоих сомнениях. Я избавлю тебя и от того, и от другого».]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA["Compreendo teus medos. Compadeço-me de tuas dúvidas. Absolvo-te de ambos."]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA["She rose above me, and in that moment Varrik the Bloody died and I was born."
+—Varrik the Just]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA["Si elevò sopra di me e in quel momento Varrik il Sanguinario morì e nacqui io."
+—Varrik il Giusto]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[„Sie schwebte über mich, und in diesem Moment starb Varrik der Blutige und ich wurde geboren."
+—Varrik der Gerechte]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[« Elle a pris son essor. Varrik le Sanguinaire m'a alors donné le jour en cessant de vivre. »
+—Varrik le Juste]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA["Ella se alzó ante mí, y en aquel momento Varrik el Sangriento murió y yo nací."
+—Varrik el Justo]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[「就在她降臨的刹那，嗜血瓦黎死去，而我就此誕生。」～正義瓦黎]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA["그녀가 내 위로 날아올랐을 때, 피투성이 바릭은 죽고 내가 태어났다."
+—정의로운 바릭]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[«Она поднялась надо мной, и в этот миг Варрик Кровавый умер, и родился я».
+— Варрик Праведный]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA["Ela se ergueu sobre mim, e naquele momento, Varrik, o Sanguinário, morreu e eu nasci." — Varrik, o Justo]]></LOCALISED_TEXT>
   </FLAVOURTEXT>
   <TYPE metaname="Instant" />
-  <EXPANSION value="DPG" />
+  <EXPANSION value="M13" />
   <RARITY metaname="C" />
   <SPELL_ABILITY>
     <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[You gain 7 life.]]></LOCALISED_TEXT>

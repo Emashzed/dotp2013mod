@@ -1,0 +1,63 @@
+﻿<?xml version='1.0'?>
+<CARD_V2>
+  <FILENAME text="INSECTILE_ABERRATION_226755" />
+  <CARDNAME text="INSECTILE_ABERRATION" />
+  <TITLE>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Insectile Aberration]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Insetto Aberrante]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Insekten-Scheußlichkeit]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Aberration insectoïde]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Aberración insectoide]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[昆虫の逸脱者]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[Insectile Aberration]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Насекомовидная Тварь]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Aberração Insetídea]]></LOCALISED_TEXT>
+  </TITLE>
+  <MULTIVERSEID value="226755" />
+  <ARTID value="888226755" />
+  <COLOUR value="U" />
+  <ARTIST name="Nils Hamm" />
+  <CASTING_COST cost="" />
+  <FLAVOURTEXT>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[“Unfortunately, all my test animals have died or escaped, so I shall be the final subject. I feel no fear. This is a momentous night.”
+—Laboratory notes, final entry]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[“Purtroppo, tutte le mie cavie sono morte o scappate, così sarò io il soggetto finale. Non ho alcuna paura. Questa è una notte importante.”
+—Appunti di laboratorio, ultima annotazione]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[„Leider sind alle meine Versuchstiere gestorben oder entflohen, daher bin ich selber das letzte Testobjekt. Ich habe keine Angst. Dies ist eine bedeutsame Nacht.”
+—Versuchsnotizen, letzter Eintrag]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[« Malheureusement, tous mes animaux de tests sont morts ou se sont échappés, alors je serai le dernier cobaye. Je ne ressens aucune peur. La nuit s’annonce grisante. »
+—Notes de laboratoire, dernière entrée]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[“Por desgracia, todos mis animales de prueba murieron o escaparon, así que yo seré el último especimen. No tengo miedo. Esta es una noche memorable.”
+—Notas de laboratorio, último apunte]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[「残念ながら、私の実験動物はすべて死ぬか逃げるかしてしまった。ならば私が最後の実験台となろう。 恐れは無い。 重大な夜となるだろう。」
+――研究記録、最後の書き込み]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[“Unfortunately, all my test animals have died or escaped, so I shall be the final subject. I feel no fear. This is a momentous night.”
+—Laboratory notes, final entry]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[«Увы, все мои подопытные животные либо сдохли, либо убежали, поэтому последний эксперимент я поставлю на самом себе. Я не боюсь. Это историческая ночь».
+— последняя запись в лабораторном журнале]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[“Infelizmente, todas as minhas cobaias morreram ou fugiram, portanto eu serei a cobaia final. Não tenho medo. Esta será uma noite memorável.”
+— Notas de laboratório, último registro]]></LOCALISED_TEXT>
+  </FLAVOURTEXT>
+  <TYPE metaname="" />
+  <EXPANSION value="ISD" />
+  <RARITY metaname="C" />
+  <POWER value="3" />
+  <TOUGHNESS value="2" />
+  <STATIC_ABILITY>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Flying]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Vol]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Vuela.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Fliegend]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Volare]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[飛行]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[비행]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Полет]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Voar]]></LOCALISED_TEXT>
+    <CONTINUOUS_ACTION>
+    local characteristics = Object():GetCurrentCharacteristics()
+    characteristics:Characteristic_Set( CHARACTERISTIC_FLYING, 1 )
+    </CONTINUOUS_ACTION>
+  </STATIC_ABILITY>
+  <SFX text="COMBAT_BITE_LARGE_ATTACK" power_boundary_min="4" power_boundary_max="-1" />
+  <SFX text="COMBAT_BITE_SMALL_ATTACK" power_boundary_min="1" power_boundary_max="3" />
+</CARD_V2>

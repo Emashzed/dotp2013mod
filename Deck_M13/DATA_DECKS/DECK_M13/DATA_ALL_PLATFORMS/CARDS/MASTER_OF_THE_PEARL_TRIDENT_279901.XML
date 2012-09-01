@@ -18,7 +18,7 @@
   <ARTIST name="Ryan Pancoast" />
   <CASTING_COST cost="{U}{U}" />
   <FLAVOURTEXT>
-    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[“Let the land dwellers know the coast is no longer the border between our realms. A new age of empire has begun.”]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[“Let the land dwellers know the coast is  no longer the border between our realms.  A new age of empire has begun.”]]></LOCALISED_TEXT>
     <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[“Che gli abitanti della terra sappiano che le coste non sono più il confine tra i nostri regni. L’era di un nuovo impero sta sorgendo.”]]></LOCALISED_TEXT>
     <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[„Lasst die Landbewohner wissen, dass die Küste nicht länger die Grenze zwischen unseren Reichen ist. Ein neues imperiales Zeitalter hat begonnen.”]]></LOCALISED_TEXT>
     <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[« Faites savoir aux habitants des terres que la côte n’est plus la frontière entre nos royaumes respectifs. Une nouvelle ère commence pour notre empire. »]]></LOCALISED_TEXT>
@@ -30,19 +30,19 @@
   </FLAVOURTEXT>
   <TYPE metaname="Creature" />
   <SUB_TYPE metaname="Merfolk" order_de-DE="0" order_es-ES="1" order_fr-FR="0" order_it-IT="1" order_jp-JA="0" order_ko-KR="0" order_pt-BR="0" order_ru-RU="0" />
-  <EXPANSION value="DPG" />
+  <EXPANSION value="M13" />
   <RARITY metaname="R" />
   <POWER value="2" />
   <TOUGHNESS value="2" />
   <STATIC_ABILITY filter_zone="ZONE_IN_PLAY">
-    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Other Merfolk creatures you control get +1/+1 and have islandwalk.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Other Merfolk creatures you control  get +1/+1 and have islandwalk.]]></LOCALISED_TEXT>
     <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Le altre creature Tritone che controlli prendono +1/+1 e hanno passa-Isole.]]></LOCALISED_TEXT>
     <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Andere Meervolk-Kreaturen, die du kontrollierst, erhalten +1/+1 und haben Inseltarnung.]]></LOCALISED_TEXT>
     <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Les autres créatures Ondin que vous contrôlez gagnent +1/+1 et ont la traversée des îles.]]></LOCALISED_TEXT>
     <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Las otras criaturas Tritón que controlas obtienen +1/+1 y tienen la habilidad de cruzar islas.]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[あなたがコントロールする他のマーフォーク・クリーチャーは、＋１/＋１の修整を受けるとともに島渡りを持つ。（それらは防御プレイヤーが島をコントロールしているかぎりブロックされない。）]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[당신이 조종하는 다른 인어 생물들은 +1/+1을 받고 섬잠입 능력을 가진다. (수비플레이어가 섬을 조종하는 한, 그 생물들은 방어될 수 없다.)]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Другие существа-Мерфолки под вашим контролем получают +1/+1 и имеют Знание Островов. ]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[あなたがコントロールする他のマーフォーク・クリーチャーは、＋１/＋１の修整を受けるとともに島渡りを持つ。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[당신이 조종하는 다른 인어 생물들은 +1/+1을 받고 섬잠입 능력을 가진다.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Другие существа-Мерфолки под вашим контролем получают +1/+1 и имеют Знание Островов.]]></LOCALISED_TEXT>
     <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[As outras criaturas do tipo Tritão que você controla recebem +1/+1 e têm travessia de ilha.]]></LOCALISED_TEXT>
     <FILTER>
     return OtherCreaturesInPlayYouControlOfType( CREATURE_TYPE_MERFOLK )

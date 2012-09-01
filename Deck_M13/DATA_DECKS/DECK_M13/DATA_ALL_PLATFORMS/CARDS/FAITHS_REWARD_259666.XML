@@ -18,7 +18,7 @@
   <ARTIST name="Raymond Swanland" />
   <CASTING_COST cost="{3}{W}" />
   <FLAVOURTEXT>
-    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA["I thought the wind was ushering me to my final destination, but it lifted me to my feet and I fought on."
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA["I thought the wind was ushering me to my final destination, but it lifted me to   my feet and I fought on."
 —Idrus, war priest of Thune]]></LOCALISED_TEXT>
     <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA["Credevo che il vento mi stesse accompagnando verso la mia destinazione finale, invece mi rimise in piedi e io continuai a combattere."
 —Idrus, sacerdote guerriero di Thune]]></LOCALISED_TEXT>
@@ -38,7 +38,7 @@
 — Idrus, sacerdote de guerra de Thune]]></LOCALISED_TEXT>
   </FLAVOURTEXT>
   <TYPE metaname="Instant" />
-  <EXPANSION value="DPG" />
+  <EXPANSION value="M13" />
   <RARITY metaname="R" />
   <SPELL_ABILITY filter_zone="ZONE_GRAVEYARD">
     <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Return to the battlefield all permanent cards in your graveyard that were put there from the battlefield this turn.]]></LOCALISED_TEXT>

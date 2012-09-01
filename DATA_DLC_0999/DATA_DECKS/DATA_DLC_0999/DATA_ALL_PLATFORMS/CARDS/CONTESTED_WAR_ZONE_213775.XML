@@ -62,9 +62,6 @@
     <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[{1}, {T}: As criaturas atacantes recebem +1/+0 até o final do turno.]]></LOCALISED_TEXT>
     <COST type="TapSelf" />
     <COST type="Mana" cost="{1}" />
-    <AVAILABILITY>
-    return EffectController():CanAfford("{2}")
-    </AVAILABILITY>
     <FILTER>
     return FilteredCard() ~= nil and
       FilteredCard():GetZone() == ZONE_IN_PLAY and

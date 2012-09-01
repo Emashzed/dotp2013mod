@@ -18,10 +18,10 @@
   <ARTIST name="Noah Bradley" />
   <CASTING_COST cost="{5}{U}" />
   <TYPE metaname="Sorcery" />
-  <EXPANSION value="DPG" />
+  <EXPANSION value="M13" />
   <RARITY metaname="R" />
   <SPELL_ABILITY dangerous="1">
-    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Exile target instant or sorcery card from your graveyard and target instant or sorcery card from an opponent's graveyard. Copy those cards. Cast the copies if able without paying their mana costs. Exile Spelltwine.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Exile target instant or sorcery card  from your graveyard and target instant or sorcery card from an opponent's graveyard. Copy those cards. Cast the copies if able without paying their mana costs. Exile Spelltwine.]]></LOCALISED_TEXT>
     <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Esilia una carta istantaneo o stregoneria bersaglio dal tuo cimitero e una carta istantaneo o stregoneria bersaglio dal cimitero di un avversario. Copia quelle carte. Lancia le copie, se puoi farlo, senza pagare il loro costo di mana. Esilia la Torcimagia.]]></LOCALISED_TEXT>
     <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Schicke eine Spontanzauber- oder Hexereikarte deiner Wahl aus deinem Friedhof und eine Spontanzauber- oder Hexereikarte deiner Wahl aus dem Friedhof eines Gegners ins Exil. Kopiere diese Karten. Wirke die Kopien, falls möglich, ohne ihre Manakosten zu bezahlen. Schicke die Zauberwindung ins Exil.]]></LOCALISED_TEXT>
     <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Exilez une carte d'éphémère ou de rituel ciblée de votre cimetière et une carte d'éphémère ou de rituel ciblée du cimetière d'un adversaire. Copiez ces cartes. Si possible, lancez les copies sans payer leur coût de mana. Exilez l'Entrelacs de sorts.]]></LOCALISED_TEXT>

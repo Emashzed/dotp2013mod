@@ -18,7 +18,7 @@
   <ARTIST name="Anthony Palumbo" />
   <CASTING_COST cost="{1}{W}" />
   <FLAVOURTEXT>
-    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA["Duty, honor, and valor are either in your heart or they are not. You will never know for certain until you are tested."
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA["Duty, honor, and valor are either in  your heart or they are not. You will never know for certain until you are tested."
 —Ajani Goldmane]]></LOCALISED_TEXT>
     <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA["Dovere, onore, valore... O albergano nel tuo cuore o non li possiedi affatto. Non lo saprai mai finché non verrai messo alla prova."
 —Ajani Criniera D'Oro]]></LOCALISED_TEXT>
@@ -38,7 +38,7 @@
 — Ajani Juba D'ouro]]></LOCALISED_TEXT>
   </FLAVOURTEXT>
   <TYPE metaname="Instant" />
-  <EXPANSION value="DPG" />
+  <EXPANSION value="M13" />
   <RARITY metaname="C" />
   <SPELL_ABILITY filter_zone="ZONE_IN_PLAY">
     <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Target creature gets +2/+4 until end of turn.]]></LOCALISED_TEXT>

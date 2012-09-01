@@ -18,7 +18,7 @@
   <ARTIST name="Dermot Power" />
   <CASTING_COST cost="{2}{U}{U}" />
   <FLAVOURTEXT>
-    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA["The best denials are simply that: a beginning and end unchanged, a dream with no memory."]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA["The best denials are simply that—a beginning and end unchanged, a dream with no memory."]]></LOCALISED_TEXT>
     <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA["Il miglior diniego è semplicemente questo: un inizio e una fine immutati, un sogno di cui non si serbano ricordi."]]></LOCALISED_TEXT>
     <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[„Die besten Verweigerungszauber funktionieren ganz einfach: Sie rauben die Erinnerung und lassen das Umfeld intakt."]]></LOCALISED_TEXT>
     <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[« Le meilleur déni se résume ainsi : un commencement et une fin inchangés, un rêve qui ne laisse pas de trace dans la mémoire. »]]></LOCALISED_TEXT>
@@ -29,10 +29,10 @@
     <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA["As melhores negações são simplesmente isso: um começo e fim inalterados, um sonho sem memória."]]></LOCALISED_TEXT>
   </FLAVOURTEXT>
   <TYPE metaname="Instant" />
-  <EXPANSION value="DPG" />
+  <EXPANSION value="M13" />
   <RARITY metaname="U" />
   <SPELL_ABILITY filter_zone="ZONE_IN_PLAY">
-    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Counter target spell. Untap up to four lands.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Counter target spell. Untap up to    four lands.]]></LOCALISED_TEXT>
     <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Neutralizza una magia bersaglio. STAPpa fino a quattro terre.]]></LOCALISED_TEXT>
     <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Neutralisiere einen Zauberspruch deiner Wahl. Enttappe bis zu vier Länder.]]></LOCALISED_TEXT>
     <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Contrecarrez le sort ciblé. Dégagez jusqu'à quatre terrains.]]></LOCALISED_TEXT>

@@ -51,7 +51,7 @@
     filter:Clear()
     filter:AddCardType( CARD_TYPE_CREATURE )
     filter:SetZone( ZONE_IN_PLAY )
-    filter:SetHint( HINT_ENEMY_ONLY, EffectController() )
+    filter:SetHint( HINT_ALLIED_ONLY, EffectController() )
     </TARGET_DEFINITION>
     <PLAY_TIME_ACTION>
     local player = EffectController()

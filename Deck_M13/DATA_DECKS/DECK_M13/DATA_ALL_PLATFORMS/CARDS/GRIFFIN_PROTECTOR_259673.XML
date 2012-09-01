@@ -18,7 +18,7 @@
   <ARTIST name="Christopher Moeller" />
   <CASTING_COST cost="{3}{W}" />
   <FLAVOURTEXT>
-    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[The drums of war stir the hearts of all who fight for righteousness.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[The drums of war stir the hearts of all  who fight for righteousness.]]></LOCALISED_TEXT>
     <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[I tamburi di guerra infiammano i cuori di tutti coloro che combattono per la giustizia.]]></LOCALISED_TEXT>
     <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Die Kriegstrommeln feuern die Herzen all jener an, die für die Gerechtigkeit kämpfen.]]></LOCALISED_TEXT>
     <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[L'écho des tambours de guerre donne du cœur à tous ceux qui se battent au nom de la justice.]]></LOCALISED_TEXT>
@@ -30,7 +30,7 @@
   </FLAVOURTEXT>
   <TYPE metaname="Creature" />
   <SUB_TYPE metaname="Griffin" />
-  <EXPANSION value="DPG" />
+  <EXPANSION value="M13" />
   <RARITY metaname="C" />
   <POWER value="2" />
   <TOUGHNESS value="3" />
