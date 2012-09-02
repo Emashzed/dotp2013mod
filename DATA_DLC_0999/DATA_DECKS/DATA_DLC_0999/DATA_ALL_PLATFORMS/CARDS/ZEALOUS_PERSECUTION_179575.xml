@@ -1,0 +1,79 @@
+<?xml version='1.0'?>
+<CARD_V2>
+  <FILENAME text="ZEALOUS_PERSECUTION_179575" />
+  <CARDNAME text="ZEALOUS_PERSECUTION" />
+  <TITLE>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Zealous Persecution]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Persecuzione Zelante]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Fanatische Verfolgung]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Persécution zélée]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Persecusión ferviente]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[盲信的迫害]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[Zealous Persecution]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Ярое Гонение]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Perseguição Fervorosa]]></LOCALISED_TEXT>
+  </TITLE>
+  <MULTIVERSEID value="179575" />
+  <ARTID value="888179575" />
+  <ARTIST name="Christopher Moeller" />
+  <CASTING_COST cost="{W}{B}" />
+  <FLAVOURTEXT>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA["Jharic returned from Grixis changed, a haunted look in her eyes. She destroyed them with an unholy glee that made me shudder."—Knight-Captain Wyhorn]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA["Jharic fece ritorno cambiata da Grixis, con una luce posseduta negli occhi. Li distrusse con una gioia talmente insana da farmi rabbrividire."—Capitano Wyhorn]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[„Jharic kehrte verändert aus Grixis zurück, sie hatte so einen Blick in den Augen. Sie zerstörte die Wesen mit einer so unheiligen Freude, dass es mich schaudern ließ."—Rittmeister Wyhorn]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[« Jharic revint de Grixis changée, le regard hanté. Elle les détruisit avec une sinistre joie qui me fit trembler. »—Capitaine de chevalerie Wykorn]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA["Jharic regresó de Grixis cambiada, con la mirada perdida. Los destruyó con un regocijo impío que me dio escalofríos."—Caballero capitán Wyhorn]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[「グリクシスから戻ったジャリクは変わってしまったよ。彼女の目は取り憑かれたようだった。 奴らをその不浄の笑みで殺したんだよ。ぞっとするな。」――ワイホーン騎士長]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA["Jharic returned from Grixis changed, a haunted look in her eyes. She destroyed them with an unholy glee that made me shudder."—Knight-Captain Wyhorn]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[«Джарик вернулась из Гриксиса другой. Во взгляде царило безумство. Она уничтожила их в дьявольском ликовании, от которого бросало в дрожь».— Рыцарь-капитан Уайгорн]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA["Jharic voltou de Grixis mudada, com um olhar assombroso. Ela os destruiu com uma alegria macabra que me deu arrepios."— Cavaleiro-Capitão Wyhorn]]></LOCALISED_TEXT>
+  </FLAVOURTEXT>
+  <TYPE metaname="Instant" />
+  <EXPANSION value="DPG" />
+  <RARITY metaname="U" />
+  <SPELL_ABILITY>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Until end of turn, creatures you control get +1/+1 and creatures your opponents control get -1/-1.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Fino alla fine del turno, le creature che controlli prendono +1/+1 e le creature controllate dai tuoi avversari prendono -1/-1.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Bis zum Ende des Zuges erhalten alle Kreaturen, die du kontrollierst, +1/+1, und alle Kreaturen, die deine Gegner kontrollieren, -1/-1.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Jusqu'à la fin du tour, les créatures que vous contrôlez gagnent +1/+1 et les créatures que vos adversaires contrôlent gagnent -1/-1.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Hasta el final del turno, las criaturas que controlas obtienen +1/+1 y las criaturas que controlan tus oponentes obtienen -1/-1.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[ターン終了時まで、あなたがコントロールするクリーチャーは＋１/＋１の修整を受け、あなたの対戦相手がコントロールするクリーチャーは－１/－１の修整を受ける。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[Until end of turn, creatures you control get +1/+1 and creatures your opponents control get -1/-1.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[До конца хода существа под вашим контролем получают +1/+1 и существа под контролем ваших оппонентов получают -1/-1.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Até o final do turno, as criaturas que você controla recebem +1/+1 e as criaturas que seus oponentes controlam recebem -1/-1.]]></LOCALISED_TEXT>
+    <FILTER>
+    return (FilteredCard() ~= nil and 
+    FilteredCard():GetCardType():Test( CARD_TYPE_CREATURE ) ~= 0 and 
+    FilteredCard():GetZone() == ZONE_IN_PLAY and  
+    FilteredCard():GetPlayer() == Object():GetPlayer())
+    </FILTER>
+    <CONTINUOUS_ACTION layer="7C">
+    if FilteredCard() ~= nil then
+       local characteristics = FilteredCard():GetCurrentCharacteristics()
+       if characteristics ~= nil then
+          characteristics:Power_Add( 1 )
+          characteristics:Toughness_Add( 1 )
+       end
+    end
+    </CONTINUOUS_ACTION>
+    <DURATION simple_duration="UntilEOT" />
+  </SPELL_ABILITY>
+  <SPELL_ABILITY>
+    <FILTER>
+    return (FilteredCard() ~= nil and 
+    FilteredCard():GetCardType():Test( CARD_TYPE_CREATURE ) ~= 0 and 
+    FilteredCard():GetZone() == ZONE_IN_PLAY  and 
+    FilteredCard():GetController():GetTeam() ~= Object():GetController():GetTeam())  
+    </FILTER>
+    <CONTINUOUS_ACTION layer="7C">
+    if FilteredCard() ~= nil then
+       local characteristics = FilteredCard():GetCurrentCharacteristics()
+       if characteristics ~= nil then
+          characteristics:Power_Add( -1 )
+          characteristics:Toughness_Add( -1 )
+       end
+    end
+    </CONTINUOUS_ACTION>
+    <DURATION simple_duration="UntilEOT" />
+  </SPELL_ABILITY>
+</CARD_V2>
