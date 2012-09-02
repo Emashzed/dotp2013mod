@@ -1,0 +1,57 @@
+<?xml version='1.0'?>
+<CARD_V2>
+  <FILENAME text="STEPPE_LYNX_171012" />
+  <CARDNAME text="STEPPE_LYNX" />
+  <TITLE>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Steppe Lynx]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Lince della Steppa]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Steppenluchs]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Lynx des steppes]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Lince de la estepa]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[ステップのオオヤマネコ]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[Steppe Lynx]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Степная Рысь]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Lince de Estepe]]></LOCALISED_TEXT>
+  </TITLE>
+  <MULTIVERSEID value="171012" />
+  <ARTID value="888171012" />
+  <ARTIST name="Nic Klein" />
+  <CASTING_COST cost="{W}" />
+  <FLAVOURTEXT>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Nothing quickens the predator's blood like the unfamiliar scents of new hunting grounds and the mewling cries of new prey.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Nulla accelera il sangue del predatore quanto gli odori sconosciuti dei nuovi terreni di caccia e le grida lamentose delle nuove prede.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Nichts lässt das Blut des Raubtiers schneller schlagen als die ungewohnten Gerüche eines neuen Jagdreviers und das Quieken der neuen Beute.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Rien ne fait plus bouillir le sang du prédateur que les senteurs inconnues de nouvelles terres de chasse et les cris apeurés d'une nouvelle proie.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Nada acelera la sangre del depredador como el aroma desconocido de nuevos terrenos de caza y los llantos de una nueva presa.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[新たな狩場での嗅いだ事の無い匂いや新たな獲物のか細い泣き声ほど、捕食者の血を掻き立てるものは無い。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[Nothing quickens the predator's blood like the unfamiliar scents of new hunting grounds and the mewling cries of new prey.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Ничто так не волнует кровь хищника, как незнакомые запахи нового места охоты и жалобное мяуканье новой добычи.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Nada acelera o sangue do predador como o odor incomum de novos campos de caça e os gritos lamuriantes de novas presas.]]></LOCALISED_TEXT>
+  </FLAVOURTEXT>
+  <TYPE metaname="Creature" />
+  <SUB_TYPE metaname="Cat" order_de-DE="0" order_es-ES="0" order_fr-FR="0" order_it-IT="0" order_jp-JA="0" order_ko-KR="0" order_pt-BR="0" order_ru-RU="0" />
+  <EXPANSION value="DPG" />
+  <RARITY metaname="C" />
+  <POWER value="0" />
+  <TOUGHNESS value="1" />
+  <TRIGGERED_ABILITY auto_skip="1" filter_zone="ZONE_IN_PLAY">
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Landfall — Whenever a land enters the battlefield under your control, Steppe Lynx gets +2/+2 until end of turn.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Terraferma — Ogniqualvolta una terra entra nel campo di battaglia sotto il tuo controllo, la Lince della Steppa prende +2/+2 fino alla fine del turno.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Landung — Immer wenn ein Land unter deiner Kontrolle ins Spiel kommt, erhält der Steppenluchs +2/+2 bis zum Ende des Zuges.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Toucheterre — À chaque fois qu'un terrain arrive sur le champ de bataille sous votre contrôle, le Lynx des steppes gagne +2/+2 jusqu'à la fin du tour.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Aterrizaje — Siempre que una tierra entre al campo de batalla bajo tu control, el Lince de la estepa obtiene +2/+2 hasta el final del turno.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[上陸 ― 土地が１つあなたのコントロール下で戦場に出るたび、ステップのオオヤマネコはターン終了時まで＋２/＋２の修整を受ける。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[Landfall — Whenever a land enters the battlefield under your control, Steppe Lynx gets +2/+2 until end of turn.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Землепад — Каждый раз, когда земля выходит на поле битвы под вашим контролем, Степная Рысь получает +2/+2 до конца хода.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Aterragem — Toda vez que um terreno entra no campo de batalha sob o seu controle, Lince de Estepe recebe +2/+2 até o final do turno.]]></LOCALISED_TEXT>
+    <TRIGGER value="ZONECHANGE_END" simple_qualifier="objectyoucontrol" to_zone="ZONE_IN_PLAY">
+    return TriggerObject():GetCardType():Test( CARD_TYPE_LAND ) ~= 0
+    </TRIGGER>
+    <CONTINUOUS_ACTION layer="7C">
+    local characteristics = Object():GetCurrentCharacteristics()
+    characteristics:Power_Add( 2 )
+    characteristics:Toughness_Add( 2 )
+    </CONTINUOUS_ACTION>
+    <DURATION simple_duration="UntilEOT" />
+  </TRIGGERED_ABILITY>
+</CARD_V2>

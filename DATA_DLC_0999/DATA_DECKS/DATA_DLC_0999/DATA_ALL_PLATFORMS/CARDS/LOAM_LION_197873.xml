@@ -1,0 +1,63 @@
+<?xml version='1.0'?>
+<CARD_V2>
+  <FILENAME text="LOAM_LION_197873" />
+  <CARDNAME text="LOAM_LION" />
+  <TITLE>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Loam Lion]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Leone d'Argilla]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Lehmlöwe]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Lion du terreau]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[León del barro]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[壌土のライオン]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[Loam Lion]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Глинистый Лев]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Leão de Argila]]></LOCALISED_TEXT>
+  </TITLE>
+  <MULTIVERSEID value="197873" />
+  <ARTID value="888197873" />
+  <ARTIST name="Daniel Ljunggren" />
+  <CASTING_COST cost="{W}" />
+  <FLAVOURTEXT>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[In Zendikar, today's grassland could be tomorrow's jungle, and hunting grounds change as quickly as the weather.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[In Zendikar, i pascoli di oggi saranno le giungle di domani e i terreni di caccia cambieranno con la rapidità del tempo.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[In Zendikar kann eine Weide schon morgen ein Dschungel sein, und Jagdgebiete ändern sich so häufig wie das Wetter.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Sur Zendikar, les plaines herbeuses d'aujourd'hui pourraient devenir les jungles de demain, et les terrains de chasse changent aussi vite que les intempéries.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[En Zendikar, el pasto de hoy podría ser la selva de mañana, y los terrenos de caza cambian rápido como el clima.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[ゼンディカーでは、今日の草原は明日の密林であり、狩場も天気と同じぐらいにすぐ変わってしまう。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[In Zendikar, today's grassland could be tomorrow's jungle, and hunting grounds change as quickly as the weather.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[В Зендикаре сегодняшняя степь может завтра превратиться в джунгли, и места охоты изменяются так же быстро, как и погода.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Em Zendikar, o pasto de hoje pode ser a selva de amanhã, e os campos de caça mudam tão rapidamente quanto o clima.]]></LOCALISED_TEXT>
+  </FLAVOURTEXT>
+  <TYPE metaname="Creature" />
+  <SUB_TYPE metaname="Cat" order_de-DE="0" order_es-ES="0" order_fr-FR="0" order_it-IT="0" order_jp-JA="0" order_ko-KR="0" order_pt-BR="0" order_ru-RU="0" />
+  <EXPANSION value="DPG" />
+  <RARITY metaname="U" />
+  <POWER value="1" />
+  <TOUGHNESS value="1" />
+  <STATIC_ABILITY filter_zone="ZONE_IN_PLAY">
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Loam Lion gets +1/+2 as long as you control a Forest.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Il Leone d'Argilla prende +1/+2 fintanto che controlli una Foresta.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Der Lehmlöwe erhält +1/+2, solange du einen Wald kontrollierst.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Le Lion du terreau gagne +1/+2 tant que vous contrôlez une forêt.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[El León del barro obtiene +1/+2 mientras controles un bosque.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[壌土のライオンは、あなたが森をコントロールしているかぎり＋１/＋２の修整を受ける。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[Loam Lion gets +1/+2 as long as you control a Forest.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Глинистый Лев получает +1/+2, пока вы контролируете Лес.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Leão de Argila recebe +1/+2 enquanto você controlar uma Floresta.]]></LOCALISED_TEXT>
+    <CONTINUOUS_ACTION layer="7C">
+    local total = 0
+     local filter = Object():GetFilter()
+     filter:Clear()
+     filter:SetZone( ZONE_IN_PLAY )
+     filter:AddSubType( LAND_TYPE_FOREST )
+     filter:SetController( EffectController() )  
+     filter:NotTargetted()
+     total = filter:CountStopAt( 1 )
+     if total &gt; 0 then
+        local characteristics = Object():GetCurrentCharacteristics()
+        characteristics:Power_Add( 1 )
+        characteristics:Toughness_Add( 2 )
+     end
+     </CONTINUOUS_ACTION>
+  </STATIC_ABILITY>
+</CARD_V2>
