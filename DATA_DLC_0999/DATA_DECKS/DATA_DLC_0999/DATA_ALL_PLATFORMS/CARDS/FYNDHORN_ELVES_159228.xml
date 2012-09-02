@@ -18,15 +18,24 @@
   <ARTIST name="Justin Hampton" />
   <CASTING_COST cost="{G}" />
   <FLAVOURTEXT>
-    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA["Living side by side with the Elves for so long leaves me with no doubt that we serve the same goddess."—Kolbjörn, Elder Druid of the Juniper Order]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA["Living side by side with the Elves for so long leaves me with no doubt that we serve the same goddess."—Kolbjörn, Elder Druid of the Juniper Order]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA["Jetzt, da ich nun so lange unter Elfen gelebt habe, weiß ich, dass wir der selben Göttin dienen.“ -Kolbjörn, Altdruide des Juniperordens]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA["Living side by side with the Elves for so long leaves me with no doubt that we serve the same goddess."—Kolbjörn, Elder Druid of the Juniper Order]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA["Living side by side with the Elves for so long leaves me with no doubt that we serve the same goddess."—Kolbjörn, Elder Druid of the Juniper Order]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA["Living side by side with the Elves for so long leaves me with no doubt that we serve the same goddess."—Kolbjörn, Elder Druid of the Juniper Order]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA["Living side by side with the Elves for so long leaves me with no doubt that we serve the same goddess."—Kolbjörn, Elder Druid of the Juniper Order]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA["Living side by side with the Elves for so long leaves me with no doubt that we serve the same goddess."—Kolbjörn, Elder Druid of the Juniper Order]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA["Living side by side with the Elves for so long leaves me with no doubt that we serve the same goddess."—Kolbjörn, Elder Druid of the Juniper Order]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA["Living side by side with the Elves for so long leaves me with no doubt that we serve the same goddess."
+—Kolbjörn, Elder Druid of the Juniper Order]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA["Living side by side with the Elves for so long leaves me with no doubt that we serve the same goddess."
+—Kolbjörn, Elder Druid of the Juniper Order]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA["Jetzt, da ich nun so lange unter Elfen gelebt habe, weiß ich, dass wir der selben Göttin dienen.“ 
+-Kolbjörn, Altdruide des Juniperordens]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA["Living side by side with the Elves for so long leaves me with no doubt that we serve the same goddess."
+—Kolbjörn, Elder Druid of the Juniper Order]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA["Living side by side with the Elves for so long leaves me with no doubt that we serve the same goddess."
+—Kolbjörn, Elder Druid of the Juniper Order]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA["Living side by side with the Elves for so long leaves me with no doubt that we serve the same goddess."
+—Kolbjörn, Elder Druid of the Juniper Order]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA["Living side by side with the Elves for so long leaves me with no doubt that we serve the same goddess."
+—Kolbjörn, Elder Druid of the Juniper Order]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA["Living side by side with the Elves for so long leaves me with no doubt that we serve the same goddess."
+—Kolbjörn, Elder Druid of the Juniper Order]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA["Living side by side with the Elves for so long leaves me with no doubt that we serve the same goddess."
+—Kolbjörn, Elder Druid of the Juniper Order]]></LOCALISED_TEXT>
   </FLAVOURTEXT>
   <TYPE metaname="Creature" />
   <SUB_TYPE metaname="Elf" order_de-DE="0" order_es-ES="0" order_fr-FR="1" order_it-IT="0" order_jp-JA="0" order_ko-KR="0" order_pt-BR="0" order_ru-RU="0" />

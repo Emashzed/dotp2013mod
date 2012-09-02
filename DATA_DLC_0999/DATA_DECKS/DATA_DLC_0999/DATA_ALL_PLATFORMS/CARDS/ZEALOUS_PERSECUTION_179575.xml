@@ -18,15 +18,24 @@
   <ARTIST name="Christopher Moeller" />
   <CASTING_COST cost="{W}{B}" />
   <FLAVOURTEXT>
-    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA["Jharic returned from Grixis changed, a haunted look in her eyes. She destroyed them with an unholy glee that made me shudder."—Knight-Captain Wyhorn]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA["Jharic fece ritorno cambiata da Grixis, con una luce posseduta negli occhi. Li distrusse con una gioia talmente insana da farmi rabbrividire."—Capitano Wyhorn]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[„Jharic kehrte verändert aus Grixis zurück, sie hatte so einen Blick in den Augen. Sie zerstörte die Wesen mit einer so unheiligen Freude, dass es mich schaudern ließ."—Rittmeister Wyhorn]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[« Jharic revint de Grixis changée, le regard hanté. Elle les détruisit avec une sinistre joie qui me fit trembler. »—Capitaine de chevalerie Wykorn]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA["Jharic regresó de Grixis cambiada, con la mirada perdida. Los destruyó con un regocijo impío que me dio escalofríos."—Caballero capitán Wyhorn]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[「グリクシスから戻ったジャリクは変わってしまったよ。彼女の目は取り憑かれたようだった。 奴らをその不浄の笑みで殺したんだよ。ぞっとするな。」――ワイホーン騎士長]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA["Jharic returned from Grixis changed, a haunted look in her eyes. She destroyed them with an unholy glee that made me shudder."—Knight-Captain Wyhorn]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[«Джарик вернулась из Гриксиса другой. Во взгляде царило безумство. Она уничтожила их в дьявольском ликовании, от которого бросало в дрожь».— Рыцарь-капитан Уайгорн]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA["Jharic voltou de Grixis mudada, com um olhar assombroso. Ela os destruiu com uma alegria macabra que me deu arrepios."— Cavaleiro-Capitão Wyhorn]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA["Jharic returned from Grixis changed, a haunted look in her eyes. She destroyed them with an unholy glee that made me shudder."
+—Knight-Captain Wyhorn]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA["Jharic fece ritorno cambiata da Grixis, con una luce posseduta negli occhi. Li distrusse con una gioia talmente insana da farmi rabbrividire."
+—Capitano Wyhorn]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[„Jharic kehrte verändert aus Grixis zurück, sie hatte so einen Blick in den Augen. Sie zerstörte die Wesen mit einer so unheiligen Freude, dass es mich schaudern ließ."
+—Rittmeister Wyhorn]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[« Jharic revint de Grixis changée, le regard hanté. Elle les détruisit avec une sinistre joie qui me fit trembler. »
+—Capitaine de chevalerie Wykorn]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA["Jharic regresó de Grixis cambiada, con la mirada perdida. Los destruyó con un regocijo impío que me dio escalofríos."
+—Caballero capitán Wyhorn]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[「グリクシスから戻ったジャリクは変わってしまったよ。彼女の目は取り憑かれたようだった。 奴らをその不浄の笑みで殺したんだよ。ぞっとするな。」
+――ワイホーン騎士長]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA["Jharic returned from Grixis changed, a haunted look in her eyes. She destroyed them with an unholy glee that made me shudder."
+—Knight-Captain Wyhorn]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[«Джарик вернулась из Гриксиса другой. Во взгляде царило безумство. Она уничтожила их в дьявольском ликовании, от которого бросало в дрожь».
+— Рыцарь-капитан Уайгорн]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA["Jharic voltou de Grixis mudada, com um olhar assombroso. Ela os destruiu com uma alegria macabra que me deu arrepios."
+— Cavaleiro-Capitão Wyhorn]]></LOCALISED_TEXT>
   </FLAVOURTEXT>
   <TYPE metaname="Instant" />
   <EXPANSION value="DPG" />

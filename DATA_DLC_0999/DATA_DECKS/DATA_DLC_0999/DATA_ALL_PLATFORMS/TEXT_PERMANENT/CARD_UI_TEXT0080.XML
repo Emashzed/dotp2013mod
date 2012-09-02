@@ -384,6 +384,18 @@
     <Cell><Data ss:Type="String">Escolha o jogador alvo para descartar dois cards de sua mão de forma aleatória.</Data></Cell>
    </Row>
    <Row>
+    <Cell><Data ss:Type="String">CARD_QUERY_CHOOSE_PERMANENT_TAPHOLD</Data></Cell>
+    <Cell ss:Index="3"><Data ss:Type="String">Choose a permanent to tap. It won’t untap during its controller’s next untap step.</Data></Cell>
+    <Cell><Data ss:Type="String">Choisissez un permanent pour l'engager. Il ne se dégagera pas pendant la prochaine étape de dégagement de son contrôleur.</Data></Cell>
+    <Cell><Data ss:Type="String">Elige una permanente para girarle. No se enderezará durante el próximo paso de enderezar de su controlador.</Data></Cell>
+    <Cell><Data ss:Type="String">Bestimme eine Karte, die getappt werden soll. Sie enttappt nicht während des nächsten Enttappsegments ihres Beherrschers.</Data></Cell>
+    <Cell><Data ss:Type="String">Scegli una permanente da TAPpare. Non STAPperà durante il prossimo STAP del suo controllore.</Data></Cell>
+    <Cell ss:Index="9"><Data ss:Type="String">Choose a permanent to tap. It won’t untap during its controller’s next untap step.</Data></Cell>
+    <Cell><Data ss:Type="String">Choose a permanent to tap. It won’t untap during its controller’s next untap step.</Data></Cell>
+    <Cell><Data ss:Type="String">Choose a permanent to tap. It won’t untap during its controller’s next untap step.</Data></Cell>
+    <Cell><Data ss:Type="String">Escolha uma permanente para virar. El não desvira durante a próxima etapa de desvirar de seu controlador.</Data></Cell>
+   </Row>
+   <Row>
     <Cell><Data ss:Type="String">CARD_QUERY_CHOOSE_PLAYER_DISCARD_ATRANDOM_NATH</Data></Cell>
     <Cell ss:Index="3"><Data ss:Type="String">Choose target player to discard a card at random from his or her hand.</Data></Cell>
     <Cell><Data ss:Type="String">Choisissez un joueur pour qu'il se défausse d'une carte au hasard.</Data></Cell>
@@ -454,6 +466,18 @@
     <Cell><Data ss:Type="String">주인의 손에 넣고있는 좀비 카드를 선택합니다.</Data></Cell>
     <Cell><Data ss:Type="String">Выберите Zombie карты положить в руку его владельца.</Data></Cell>
     <Cell><Data ss:Type="String">Escolha um card de Zumbi para colocar na mão de seu dono.</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">CARD_QUERY_MC_COUNTER_UNLESS_PAY_2</Data></Cell>
+    <Cell ss:Index="3"><Data ss:Type="String">Do you want to pay {2}? (If you don't, the spell will be countered.)</Data></Cell>
+    <Cell><Data ss:Type="String">Voulez-vous payer {2}&#160;? (Si vous ne le faites pas, le sort sera contrecarré.)</Data></Cell>
+    <Cell><Data ss:Type="String">¿Quieres pagar {2}? (Si no lo haces, el hechizo será contrarrestado.)</Data></Cell>
+    <Cell><Data ss:Type="String">Willst du {2} bezahlen? (Falls nicht, wird der Zauberspruch neutralisiert.)</Data></Cell>
+    <Cell><Data ss:Type="String">Vuoi pagare {2}? (Se non lo fai, la magia verrà neutralizzata.)</Data></Cell>
+    <Cell ss:Index="9"><Data ss:Type="String">{2}を支払いますか？（支払わない場合、この呪文は打ち消されます。）</Data></Cell>
+    <Cell><Data ss:Type="String">{2}을 지불하시겠습니까? 지불하시지 않으면 주문이 무효화됩니다.</Data></Cell>
+    <Cell><Data ss:Type="String">Вы хотите заплатить {2}? (Если вы не заплатите, заклинание будет отменено.)</Data></Cell>
+    <Cell><Data ss:Type="String">Deseja pagar {2}? (Se não fizer isso, a mágica será anulada.)</Data></Cell>
    </Row>
    <Row>
     <Cell><Data ss:Type="String">CARD_QUERY_MC_ANIMATE_THIS_CARD</Data></Cell>

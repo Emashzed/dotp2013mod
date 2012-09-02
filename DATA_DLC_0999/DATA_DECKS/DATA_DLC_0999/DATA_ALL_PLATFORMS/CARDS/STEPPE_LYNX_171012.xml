@@ -35,15 +35,15 @@
   <POWER value="0" />
   <TOUGHNESS value="1" />
   <TRIGGERED_ABILITY auto_skip="1" filter_zone="ZONE_IN_PLAY">
-    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Landfall — Whenever a land enters the battlefield under your control, Steppe Lynx gets +2/+2 until end of turn.]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Terraferma — Ogniqualvolta una terra entra nel campo di battaglia sotto il tuo controllo, la Lince della Steppa prende +2/+2 fino alla fine del turno.]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Landung — Immer wenn ein Land unter deiner Kontrolle ins Spiel kommt, erhält der Steppenluchs +2/+2 bis zum Ende des Zuges.]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Toucheterre — À chaque fois qu'un terrain arrive sur le champ de bataille sous votre contrôle, le Lynx des steppes gagne +2/+2 jusqu'à la fin du tour.]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Aterrizaje — Siempre que una tierra entre al campo de batalla bajo tu control, el Lince de la estepa obtiene +2/+2 hasta el final del turno.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[|Landfall| — Whenever a land enters the battlefield under your control, Steppe Lynx gets +2/+2 until end of turn.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[|Terraferma| — Ogniqualvolta una terra entra nel campo di battaglia sotto il tuo controllo, la Lince della Steppa prende +2/+2 fino alla fine del turno.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[|Landung| — Immer wenn ein Land unter deiner Kontrolle ins Spiel kommt, erhält der Steppenluchs +2/+2 bis zum Ende des Zuges.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[|Toucheterre| — À chaque fois qu'un terrain arrive sur le champ de bataille sous votre contrôle, le Lynx des steppes gagne +2/+2 jusqu'à la fin du tour.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[|Aterrizaje| — Siempre que una tierra entre al campo de batalla bajo tu control, el Lince de la estepa obtiene +2/+2 hasta el final del turno.]]></LOCALISED_TEXT>
     <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[上陸 ― 土地が１つあなたのコントロール下で戦場に出るたび、ステップのオオヤマネコはターン終了時まで＋２/＋２の修整を受ける。]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[Landfall — Whenever a land enters the battlefield under your control, Steppe Lynx gets +2/+2 until end of turn.]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Землепад — Каждый раз, когда земля выходит на поле битвы под вашим контролем, Степная Рысь получает +2/+2 до конца хода.]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Aterragem — Toda vez que um terreno entra no campo de batalha sob o seu controle, Lince de Estepe recebe +2/+2 até o final do turno.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[|Landfall| — Whenever a land enters the battlefield under your control, Steppe Lynx gets +2/+2 until end of turn.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[|Землепад| — Каждый раз, когда земля выходит на поле битвы под вашим контролем, Степная Рысь получает +2/+2 до конца хода.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[|Aterragem| — Toda vez que um terreno entra no campo de batalha sob o seu controle, Lince de Estepe recebe +2/+2 até o final do turno.]]></LOCALISED_TEXT>
     <TRIGGER value="ZONECHANGE_END" simple_qualifier="objectyoucontrol" to_zone="ZONE_IN_PLAY">
     return TriggerObject():GetCardType():Test( CARD_TYPE_LAND ) ~= 0
     </TRIGGER>

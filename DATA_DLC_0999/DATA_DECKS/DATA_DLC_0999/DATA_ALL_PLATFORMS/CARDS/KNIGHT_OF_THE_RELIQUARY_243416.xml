@@ -18,15 +18,24 @@
   <ARTIST name="Michael Komarck" />
   <CASTING_COST cost="{1}{W}{G}" />
   <FLAVOURTEXT>
-    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA["Knowledge of Bant's landscape and ruins is a weapon that the invaders can't comprehend."—Elspeth]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA["La conoscenza del territorio e delle rovine di Bant è un'arma che gli invasori non possono neanche comprendere."—Elspeth]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[„Das Wissen über die Landschaften und Ruinen von Bant ist eine Waffe, die die Eindringlinge nicht verstehen."—Elspeth]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[« La connaissance du paysage et des ruines de Bant est une arme que les envahisseurs ne sauraient comprendre. »—Elspeth]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA["El conocimiento del paisaje de Bant y sus ruinas es un arma que los invasores no pueden entender."—Elspeth]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[「バントの地勢や廃墟に関する知識は、侵略者には理解し得ない武器なのです。」――エルズペス]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA["Knowledge of Bant's landscape and ruins is a weapon that the invaders can't comprehend."—Elspeth]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[«Знание бэнтского ладшафта и руин — это оружие, которое не дано захватчикам».— Элспет]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA["O conhecimento do terreno e das ruínas de Bant é uma arma que os invasores não podem compreender."— Elspeth]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA["Knowledge of Bant's landscape and ruins is a weapon that the invaders can't comprehend."
+—Elspeth]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA["La conoscenza del territorio e delle rovine di Bant è un'arma che gli invasori non possono neanche comprendere."
+—Elspeth]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[„Das Wissen über die Landschaften und Ruinen von Bant ist eine Waffe, die die Eindringlinge nicht verstehen."
+—Elspeth]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[« La connaissance du paysage et des ruines de Bant est une arme que les envahisseurs ne sauraient comprendre. »
+—Elspeth]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA["El conocimiento del paisaje de Bant y sus ruinas es un arma que los invasores no pueden entender."
+—Elspeth]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[「バントの地勢や廃墟に関する知識は、侵略者には理解し得ない武器なのです。」
+――エルズペス]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA["Knowledge of Bant's landscape and ruins is a weapon that the invaders can't comprehend."
+—Elspeth]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[«Знание бэнтского ладшафта и руин — это оружие, которое не дано захватчикам».
+— Элспет]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA["O conhecimento do terreno e das ruínas de Bant é uma arma que os invasores não podem compreender."
+— Elspeth]]></LOCALISED_TEXT>
   </FLAVOURTEXT>
   <TYPE metaname="Creature" />
   <SUB_TYPE metaname="Human" order_de-DE="0" order_es-ES="0" order_fr-FR="0" order_it-IT="0" order_jp-JA="0" order_ko-KR="0" order_pt-BR="0" order_ru-RU="0" />

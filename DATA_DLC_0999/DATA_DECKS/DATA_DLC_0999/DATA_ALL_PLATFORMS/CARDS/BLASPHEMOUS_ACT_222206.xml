@@ -18,15 +18,24 @@
   <ARTIST name="Daarken" />
   <CASTING_COST cost="{8}{R}" />
   <FLAVOURTEXT>
-    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA["Holy places are no longer sanctuary from death, and death is no longer sanctuary from anything."—Thalia, Knight-Cathar]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA["I luoghi sacri non offrono più rifugio dalla morte e la morte non offre più rifugio da nulla."—Thalia, Cavaliera Catara]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[„Heilige Orte schützen nicht mehr vor dem Tod, und der Tod schützt auch nicht mehr vor allem."—Thalia, Katharer-Ritterin]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[« Les lieux sacrés ne sont plus un sanctuaire contre la mort, et la mort n'est plus un sanctuaire du tout. »—Thalia, chevalière cathare]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA["Los lugares sagrados ya no son un santuario contra la muerte, y la muerte ya no es un santuario contra nada."—Thalia, Caballero Cátaro]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[「聖なる地は、すでに死からの安住の地ではありません。そして死は、すでにあらゆるものにとっての安住の地ではありません。」――聖戦騎士、サリア]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA["Holy places are no longer sanctuary from death, and death is no longer sanctuary from anything."—Thalia, Knight-Cathar]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[«Святые места больше не служат убежищем от смерти, а смерть больше не является убежищем ни от чего».— Талия, рыцарь-катар]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA["Os lugares sagrados não são mais refúgios contra a morte, e a morte não é mais refúgio contra nada."— Thalia, Cátara Cavaleira]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA["Holy places are no longer sanctuary from death, and death is no longer sanctuary from anything."
+—Thalia, Knight-Cathar]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA["I luoghi sacri non offrono più rifugio dalla morte e la morte non offre più rifugio da nulla."
+—Thalia, Cavaliera Catara]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[„Heilige Orte schützen nicht mehr vor dem Tod, und der Tod schützt auch nicht mehr vor allem."
+—Thalia, Katharer-Ritterin]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[« Les lieux sacrés ne sont plus un sanctuaire contre la mort, et la mort n'est plus un sanctuaire du tout. »
+—Thalia, chevalière cathare]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA["Los lugares sagrados ya no son un santuario contra la muerte, y la muerte ya no es un santuario contra nada."
+Thalia, Caballero Cátaro]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[「聖なる地は、すでに死からの安住の地ではありません。そして死は、すでにあらゆるものにとっての安住の地ではありません。」
+――聖戦騎士、サリア]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA["Holy places are no longer sanctuary from death, and death is no longer sanctuary from anything."
+—Thalia, Knight-Cathar]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[«Святые места больше не служат убежищем от смерти, а смерть больше не является убежищем ни от чего».
+— Талия, рыцарь-катар]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA["Os lugares sagrados não são mais refúgios contra a morte, e a morte não é mais refúgio contra nada."
+— Thalia, Cátara Cavaleira]]></LOCALISED_TEXT>
   </FLAVOURTEXT>
   <TYPE metaname="Sorcery" />
   <EXPANSION value="DPG" />

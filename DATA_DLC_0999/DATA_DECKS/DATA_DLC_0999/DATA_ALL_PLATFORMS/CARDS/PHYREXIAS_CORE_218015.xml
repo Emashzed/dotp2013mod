@@ -18,15 +18,24 @@
   <ARTIST name="Franz Vohwinkel" />
   <CASTING_COST cost="" />
   <FLAVOURTEXT>
-    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA["So even the heart of our world has succumbed."—Koth of the Hammer]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA["Quindi anche il cuore del nostro mondo ha ceduto."—Koth del Martello]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[„Also ist selbst das Herz unserer Welt verfallen."—Koth vom Hammerclan]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[« Donc, même le cœur de notre monde a succombé. »—Koth du Marteau]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA["Así que incluso el corazón de nuestro mundo ha caído."—Koth del Martillo]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[「我らの世界の中心すら屈服してしまった。」――槌のコス]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA["So even the heart of our world has succumbed."—Koth of the Hammer]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[«Итак, даже сердце нашего мира не устояло пред врагом».— Кос из племени Молота]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA["Foi então que até mesmo o coração de nosso mundo sucumbiu."— Koth do Martelo]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA["So even the heart of our world has succumbed."
+—Koth of the Hammer]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA["Quindi anche il cuore del nostro mondo ha ceduto."
+—Koth del Martello]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[„Also ist selbst das Herz unserer Welt verfallen."
+—Koth vom Hammerclan]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[« Donc, même le cœur de notre monde a succombé. »
+—Koth du Marteau]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA["Así que incluso el corazón de nuestro mundo ha caído."
+—Koth del Martillo]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[「我らの世界の中心すら屈服してしまった。」
+――槌のコス]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA["So even the heart of our world has succumbed."
+—Koth of the Hammer]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[«Итак, даже сердце нашего мира не устояло пред врагом».
+— Кос из племени Молота]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA["Foi então que até mesmo o coração de nosso mundo sucumbiu."
+— Koth do Martelo]]></LOCALISED_TEXT>
   </FLAVOURTEXT>
   <TYPE metaname="Land" />
   <EXPANSION value="DPG" />
