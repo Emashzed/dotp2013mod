@@ -1,0 +1,82 @@
+<?xml version='1.0'?>
+<CARD_V2>
+  <FILENAME text="ENLIGHTENED_TUTOR_3489" />
+  <CARDNAME text="ENLIGHTENED_TUTOR" />
+  <TITLE>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Enlightened Tutor]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Tutore Illuminato]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Erleuchteter Lehrmeister]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Préceptrice éclairée]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Tutora inspirada]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[Enlightened Tutor]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[Enlightened Tutor]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Enlightened Tutor]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Tutor Esclarecido]]></LOCALISED_TEXT>
+  </TITLE>
+  <MULTIVERSEID value="3489" />
+  <ARTID value="8883489" />
+  <ARTIST name="Dan Frazier" />
+  <CASTING_COST cost="{W}" />
+  <FLAVOURTEXT>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA["I do not teach. I simply reveal."
+—Daudi, Femeref tutor]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA["I do not teach. I simply reveal."
+—Daudi, Femeref tutor]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA["Ich lehre nicht. Ich offenbare einfach“ 
+-Daudi, Lehrmeister der Femeref]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA["I do not teach. I simply reveal."
+—Daudi, Femeref tutor]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA["I do not teach. I simply reveal."
+—Daudi, Femeref tutor]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA["I do not teach. I simply reveal."
+—Daudi, Femeref tutor]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA["I do not teach. I simply reveal."
+—Daudi, Femeref tutor]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA["I do not teach. I simply reveal."
+—Daudi, Femeref tutor]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA["I do not teach. I simply reveal."
+—Daudi, Femeref tutor]]></LOCALISED_TEXT>
+  </FLAVOURTEXT>
+  <TYPE metaname="Instant" />
+  <EXPANSION value="DPG" />
+  <RARITY metaname="U" />
+  <SPELL_ABILITY>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Search your library for an artifact or enchantment card and reveal that card. Shuffle your library, then put the card on top of it.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Search your library for an artifact or enchantment card and reveal that card. Shuffle your library, then put the card on top of it.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Durchsuche Deine Bibliothek nach einer Artefaktoder einer Verzauberungskarte und zeige sie allen Spielern. Mische danach Deine Bibliothek neu und lege die gezeigte Karte oben auf Deine Bibliothek.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Search your library for an artifact or enchantment card and reveal that card. Shuffle your library, then put the card on top of it.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Search your library for an artifact or enchantment card and reveal that card. Shuffle your library, then put the card on top of it.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[Search your library for an artifact or enchantment card and reveal that card. Shuffle your library, then put the card on top of it.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[Search your library for an artifact or enchantment card and reveal that card. Shuffle your library, then put the card on top of it.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Search your library for an artifact or enchantment card and reveal that card. Shuffle your library, then put the card on top of it.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Search your library for an artifact or enchantment card and reveal that card. Shuffle your library, then put the card on top of it.]]></LOCALISED_TEXT>
+    <RESOLUTION_TIME_ACTION>
+    local filter = Object():GetFilter()
+    local effectController = EffectController()
+    effectController:MarkSearchedLibrary() 
+    filter:Clear()
+    filter:NotTargetted()
+    filter:AddCardType( CARD_TYPE_ARTIFACT )
+    filter:AddCardType( CARD_TYPE_ENCHANTMENT )
+    filter:SetZone( ZONE_LIBRARY )
+    filter:SetPlayer( effectController ) 
+    effectController:ChooseTarget( NO_VALIDATION, "CARD_QUERY_CHOOSE_CARD_TO_PUT_ONTO_LIBRARY", EffectDC():Make_Targets(0) )
+    </RESOLUTION_TIME_ACTION>
+    <RESOLUTION_TIME_ACTION>
+    EffectController():ShuffleLibrary()
+    </RESOLUTION_TIME_ACTION>
+    <RESOLUTION_TIME_ACTION>
+    if EffectDC() ~= nil then 
+    	local target = EffectDC():Get_Targets(0):Get_CardPtr(0)
+    	if  target ~= nil then
+    	  target:GuidedReveal( ZONE_LIBRARY , ZONE_LIBRARY )
+    		target:PutOnTopOfLibrary()
+    	end
+    end
+    </RESOLUTION_TIME_ACTION>
+  </SPELL_ABILITY>
+  <AI_AVAILABILITY type="in_response" />
+  <AI_AVAILABILITY step="end_of_turn" turn="their_turn" />
+  <AI_AVAILABILITY step="main_1" turn="my_turn" />
+  <AI_AVAILABILITY step="main_2" turn="my_turn" />
+</CARD_V2>
