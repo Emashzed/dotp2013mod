@@ -18,15 +18,24 @@
   <ARTIST name="Todd Lockwood" />
   <CASTING_COST cost="{1}{G}" />
   <FLAVOURTEXT>
-    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA["Never underestimate the ability of natural forces to adapt to unnatural influences."—Molimo, maro-sorcerer]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA["Mai sottovalutare la capacità delle forze naturali di adattarsi alle influenze artificiali."—Molimo, stregone maro]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[„Unterschätze nie die die Fähigkeit von Naturmächten, sich unnatürlichen Einflüssen anzupassen."—Molimo, Maro-Hexer]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[« Ne sous-estimez jamais la nature. Elle sait s'adapter au surnaturel. »—Molimo, maro-sorcier]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA["Nunca subestimes la habilidad de las fuerzas naturales para adaptarse a influencias antinaturales."—Molimo, hechicero maro]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[「自然外の影響に順応した自然の力を侮るべからず。」――マローの魔術師モリモ]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA["섭리에 맞지 않는 변화에도 적응하는 자연의 힘을 과소평가하지 말도록." —마로 법사 몰리모]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[«Не стоит недооценивать способность естественных сил приспосабливаться к неестественным воздействиям».— Молимо, маро-волшебник]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA["Nunca subestime a habilidade das forças naturais de se adaptarem a influências sobrenaturais."— Molimo, feiticeiro maro]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA["Never underestimate the ability of natural forces to adapt to unnatural influences."
+—Molimo, maro-sorcerer]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA["Mai sottovalutare la capacità delle forze naturali di adattarsi alle influenze artificiali."
+—Molimo, stregone maro]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[„Unterschätze nie die die Fähigkeit von Naturmächten, sich unnatürlichen Einflüssen anzupassen."
+—Molimo, Maro-Hexer]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[« Ne sous-estimez jamais la nature. Elle sait s'adapter au surnaturel. »
+—Molimo, maro-sorcier]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA["Nunca subestimes la habilidad de las fuerzas naturales para adaptarse a influencias antinaturales."
+—Molimo, hechicero maro]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[「自然外の影響に順応した自然の力を侮るべからず。」
+――マローの魔術師モリモ]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA["섭리에 맞지 않는 변화에도 적응하는 자연의 힘을 과소평가하지 말도록." 
+—마로 법사 몰리모]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[«Не стоит недооценивать способность естественных сил приспосабливаться к неестественным воздействиям».
+— Молимо, маро-волшебник]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA["Nunca subestime a habilidade das forças naturais de se adaptarem a influências sobrenaturais."
+— Molimo, feiticeiro maro]]></LOCALISED_TEXT>
   </FLAVOURTEXT>
   <TYPE metaname="Creature" />
   <SUB_TYPE metaname="Dryad" order_de-DE="0" order_es-ES="0" order_fr-FR="0" order_it-IT="0" order_jp-JA="0" order_ko-KR="0" order_pt-BR="0" order_ru-RU="0" />

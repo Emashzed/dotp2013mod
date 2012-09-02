@@ -18,15 +18,24 @@
   <ARTIST name="Chris Rahn" />
   <CASTING_COST cost="{2}{U}" />
   <FLAVOURTEXT>
-    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA["I wonder how it feels to be bored."—Jhoira, artificer]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA["I wonder how it feels to be bored."—Jhoira, artificer]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA["Langeweile? Kenne ich nicht." -Jhoira, Künstlerin]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA["I wonder how it feels to be bored."—Jhoira, artificer]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA["I wonder how it feels to be bored."—Jhoira, artificer]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA["I wonder how it feels to be bored."—Jhoira, artificer]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA["I wonder how it feels to be bored."—Jhoira, artificer]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA["I wonder how it feels to be bored."—Jhoira, artificer]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA["I wonder how it feels to be bored."—Jhoira, artificer]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA["I wonder how it feels to be bored."
+—Jhoira, artificer]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA["I wonder how it feels to be bored."
+—Jhoira, artificer]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA["Langeweile? Kenne ich nicht." 
+-Jhoira, Künstlerin]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA["I wonder how it feels to be bored."
+—Jhoira, artificer]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA["I wonder how it feels to be bored."
+—Jhoira, artificer]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA["I wonder how it feels to be bored."
+—Jhoira, artificer]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA["I wonder how it feels to be bored."
+—Jhoira, artificer]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA["I wonder how it feels to be bored."
+—Jhoira, artificer]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA["I wonder how it feels to be bored."
+—Jhoira, artificer]]></LOCALISED_TEXT>
   </FLAVOURTEXT>
   <TYPE metaname="Sorcery" />
   <EXPANSION value="DPG" />

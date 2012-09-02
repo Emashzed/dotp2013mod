@@ -18,15 +18,24 @@
   <ARTIST name="Franz Vohwinkel" />
   <CASTING_COST cost="{0}" />
   <FLAVOURTEXT>
-    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA["It has been my honor to improve on the Thran's original design. Perhaps history will remember me in some small part for my work."—Urza, in his apprenticeship]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA["Ho avuto l'onore di migliorare il progetto originale di Thran. Forse qualcosa di me rimarrà nella storia grazie al mio lavoro."—Urza, durante il proprio apprendistato]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[„Es war mir eine Ehre, den ursprünglichen Entwurf der Thran zu verbessern. Vielleicht wird mein Werk später ein wenig in die Geschichte eingehen."—Urza, als Lehrling]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[« Ce fut un honneur d'améliorer la conception thran originale. Peut-être l'histoire gardera-t-elle une trace de mon travail ? »—Urza, pendant son apprentissage]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA["Fue un honor para mí mejorar el diseño thran original. Tal vez la historia me recuerde en algún pequeño aspecto por mi trabajo."—Urza, durante su aprendizaje]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[スラン帝国の遺物の改良を任せていただき、これほど光栄なことはありません。 この業績によってわたしの名が歴史の片隅に残ることになれば、それは望外の幸せ。――徒弟時代のウルザ]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA["It has been my honor to improve on the Thran's original design. Perhaps history will remember me in some small part for my work."—Urza, in his apprenticeship]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA["Я гордился тем, что улучшил конструкцию Трана. Может хоть крупица моей работы останется в истории".— Урза, в ученичестве]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA["Tive a honra de fazer melhorias no projeto de Thran. Talvez a história me dê algum crédito pelo meu trabalho."— Urza, durante seu aprendizado]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA["It has been my honor to improve on the Thran's original design. Perhaps history will remember me in some small part for my work."
+—Urza, in his apprenticeship]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA["Ho avuto l'onore di migliorare il progetto originale di Thran. Forse qualcosa di me rimarrà nella storia grazie al mio lavoro."
+—Urza, durante il proprio apprendistato]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[„Es war mir eine Ehre, den ursprünglichen Entwurf der Thran zu verbessern. Vielleicht wird mein Werk später ein wenig in die Geschichte eingehen."
+—Urza, als Lehrling]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[« Ce fut un honneur d'améliorer la conception thran originale. Peut-être l'histoire gardera-t-elle une trace de mon travail ? »
+—Urza, pendant son apprentissage]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA["Fue un honor para mí mejorar el diseño thran original. Tal vez la historia me recuerde en algún pequeño aspecto por mi trabajo."
+—Urza, durante su aprendizaje]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[スラン帝国の遺物の改良を任せていただき、これほど光栄なことはありません。 この業績によってわたしの名が歴史の片隅に残ることになれば、それは望外の幸せ。
+――徒弟時代のウルザ]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA["It has been my honor to improve on the Thran's original design. Perhaps history will remember me in some small part for my work."
+—Urza, in his apprenticeship]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA["Я гордился тем, что улучшил конструкцию Трана. Может хоть крупица моей работы останется в истории".
+— Урза, в ученичестве]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA["Tive a honra de fazer melhorias no projeto de Thran. Talvez a história me dê algum crédito pelo meu trabalho."
+— Urza, durante seu aprendizado]]></LOCALISED_TEXT>
   </FLAVOURTEXT>
   <TYPE metaname="Artifact" />
   <TYPE metaname="Creature" />

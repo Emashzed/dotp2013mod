@@ -19,15 +19,24 @@
   <CASTING_COST cost="" />
   <COLOUR value="G" />
   <FLAVOURTEXT>
-    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA["Touch no tree, break no branch, and speak only the question you wish answered."—Von Yomm, elder druid, to her initiates]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA["Non toccate gli alberi, non rompete le cortecce e ponete solo la domanda a cui volete risposta."—Von Yomm, druido anziano, ai suoi iniziati]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[„Berühre keinen Baum, brich keinen Zweig ab und stelle nur die Frage, die du beantwortet bekommen willst."—Von Yomm, Altdruidin, zu ihren Novizen]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[« Ne touchez pas d'arbre, ne brisez pas de branche, posez uniquement votre question. »—Von Yomm, doyenne druide, à ses adeptes]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA["No toquen ningún árbol, no rompan ninguna rama, hagan sólo la pregunta que desean sea respondida." —Von Yomm, alto druida, a sus iniciados]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[樹触れるべからず、枝折るべからず、答を望む問いのみを発せよ。――ドルイドの古老、ヴォン・ヨムから彼女の信徒へ]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA["Touch no tree, break no branch, and speak only the question you wish answered."—Von Yomm, elder druid, to her initiates]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA["Не касайтесь деревьев, не ломайте ветвей, и задавайте только те вопросы, на которые не боитесь получить ответ."—Обращение Вон Йомм, старшей друидессы, к своим ученикам]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA["Não toquem nas árvores, não quebrem seus galhos e digam apenas a pergunta para qual buscam resposta."— Von Yomm, druida anciã, para seus pupilos]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA["Touch no tree, break no branch, and speak only the question you wish answered."
+—Von Yomm, elder druid, to her initiates]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA["Non toccate gli alberi, non rompete le cortecce e ponete solo la domanda a cui volete risposta."
+—Von Yomm, druido anziano, ai suoi iniziati]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[„Berühre keinen Baum, brich keinen Zweig ab und stelle nur die Frage, die du beantwortet bekommen willst."
+—Von Yomm, Altdruidin, zu ihren Novizen]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[« Ne touchez pas d'arbre, ne brisez pas de branche, posez uniquement votre question. »
+—Von Yomm, doyenne druide, à ses adeptes]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA["No toquen ningún árbol, no rompan ninguna rama, hagan sólo la pregunta que desean sea respondida." 
+—Von Yomm, alto druida, a sus iniciados]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[樹触れるべからず、枝折るべからず、答を望む問いのみを発せよ。
+――ドルイドの古老、ヴォン・ヨムから彼女の信徒へ]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA["Touch no tree, break no branch, and speak only the question you wish answered."
+—Von Yomm, elder druid, to her initiates]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA["Не касайтесь деревьев, не ломайте ветвей, и задавайте только те вопросы, на которые не боитесь получить ответ."
+—Обращение Вон Йомм, старшей друидессы, к своим ученикам]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA["Não toquem nas árvores, não quebrem seus galhos e digam apenas a pergunta para qual buscam resposta."
+— Von Yomm, druida anciã, para seus pupilos]]></LOCALISED_TEXT>
   </FLAVOURTEXT>
   <TYPE metaname="Land" />
   <TYPE metaname="Creature" />

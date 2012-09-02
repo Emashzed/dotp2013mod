@@ -18,15 +18,24 @@
   <ARTIST name="Steven Belledin" />
   <CASTING_COST cost="{2}" />
   <FLAVOURTEXT>
-    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA["Our glorious infection has taken hold."—Elesh Norn, Grand Cenobite]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA["La nostra gloriosa infezione ha fatto presa."—Elesh Norn, Grande Cenobita]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[„Unsere glorreiche Infektion hat sich verfestigt."—Elesh Norn, Hohe Zönobitin]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[« Notre glorieuse infection a fait souche. »—Elesh Norn, Grand Cénobite]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA["Nuestra gloriosa infección se ha extendido."—Elesh Norn, Gran Cenobita]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[「我らが輝かしき感染は根付きつつある。」――大修道士、エリシュ・ノーン]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA["Our glorious infection has taken hold."—Elesh Norn, Grand Cenobite]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[«Наша чудесная инфекция прижилась».— Элиш Норн, Великая Инокиня]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA["Nossa gloriosa infecção assumiu o controle."— Elesh Norn, Cenobita-Mor]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA["Our glorious infection has taken hold."
+—Elesh Norn, Grand Cenobite]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA["La nostra gloriosa infezione ha fatto presa."
+—Elesh Norn, Grande Cenobita]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[„Unsere glorreiche Infektion hat sich verfestigt."
+—Elesh Norn, Hohe Zönobitin]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[« Notre glorieuse infection a fait souche. »
+—Elesh Norn, Grand Cénobite]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA["Nuestra gloriosa infección se ha extendido."
+—Elesh Norn, Gran Cenobita]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[「我らが輝かしき感染は根付きつつある。」
+――大修道士、エリシュ・ノーン]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA["Our glorious infection has taken hold."
+—Elesh Norn, Grand Cenobite]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[«Наша чудесная инфекция прижилась».
+— Элиш Норн, Великая Инокиня]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA["Nossa gloriosa infecção assumiu o controle."
+— Elesh Norn, Cenobita-Mor]]></LOCALISED_TEXT>
   </FLAVOURTEXT>
   <TYPE metaname="Artifact" />
   <EXPANSION value="DPG" />
