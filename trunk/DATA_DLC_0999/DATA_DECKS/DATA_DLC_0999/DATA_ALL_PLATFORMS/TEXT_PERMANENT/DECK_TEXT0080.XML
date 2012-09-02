@@ -1160,6 +1160,18 @@
     <Cell><Data ss:Type="String">Verdeloth, o Antigo</Data></Cell>
    </Row>
    <Row>
+    <Cell><Data ss:Type="String">PLAYER_NAME_PLATED_GEOPEDE</Data></Cell>
+    <Cell ss:Index="3"><Data ss:Type="String">Plated Geopede</Data></Cell>
+    <Cell><Data ss:Type="String">Géopède à plaques</Data></Cell>
+    <Cell><Data ss:Type="String">Geópodo laminado</Data></Cell>
+    <Cell><Data ss:Type="String">Gepanzerter Geoped</Data></Cell>
+    <Cell><Data ss:Type="String">Geopiede Corazzato</Data></Cell>
+    <Cell ss:Index="9"><Data ss:Type="String">板金鎧の土百足</Data></Cell>
+    <Cell><Data ss:Type="String">Plated Geopede</Data></Cell>
+    <Cell><Data ss:Type="String">Покрытая Броней Земленожка</Data></Cell>
+    <Cell><Data ss:Type="String">Geopede Blindado</Data></Cell>
+   </Row>
+   <Row>
     <Cell><Data ss:Type="String">Z_DECK_AFFINITY</Data></Cell>
     <Cell ss:Index="3"><Data ss:Type="String">Affinity for Trouble</Data></Cell>
     <Cell><Data ss:Type="String">Affinité pour les Ennuis</Data></Cell>
@@ -1290,6 +1302,18 @@
     <Cell><Data ss:Type="String">Fiery Mountains</Data></Cell>
     <Cell><Data ss:Type="String">Fiery Mountains</Data></Cell>
     <Cell><Data ss:Type="String">Fiery Mountains</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Z_DECK_ZOO</Data></Cell>
+    <Cell ss:Index="3"><Data ss:Type="String">Zoo</Data></Cell>
+    <Cell><Data ss:Type="String">Zoo</Data></Cell>
+    <Cell><Data ss:Type="String">Zoo</Data></Cell>
+    <Cell><Data ss:Type="String">Zoo</Data></Cell>
+    <Cell><Data ss:Type="String">Zoo</Data></Cell>
+    <Cell ss:Index="9"><Data ss:Type="String">Zoo</Data></Cell>
+    <Cell><Data ss:Type="String">Zoo</Data></Cell>
+    <Cell><Data ss:Type="String">Zoo</Data></Cell>
+    <Cell><Data ss:Type="String">Zoo</Data></Cell>
    </Row>
    <Row>
     <Cell><Data ss:Type="String">ZDECKTECH_BWTOKEN</Data></Cell>

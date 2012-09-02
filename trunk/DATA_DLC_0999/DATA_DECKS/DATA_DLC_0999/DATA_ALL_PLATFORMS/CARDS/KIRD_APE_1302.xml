@@ -1,0 +1,63 @@
+<?xml version='1.0'?>
+<CARD_V2>
+  <FILENAME text="KIRD_APE_1302" />
+  <CARDNAME text="KIRD_APE" />
+  <TITLE>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Kird Ape]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Gorilla di Kird]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Kird der Menschenaffe]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Gorille beringeï]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Simio de Kird]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[密林の猿人]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[Kird Ape]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Обезьяна Кирд]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Símio Kird]]></LOCALISED_TEXT>
+  </TITLE>
+  <MULTIVERSEID value="1302" />
+  <ARTID value="8881302" />
+  <ARTIST name="Terese Nielsen" />
+  <CASTING_COST cost="{R}" />
+  <FLAVOURTEXT>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[It puts the "fur" in "fury."]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Una massa di pelo e ferocia.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Sein Zorn ist so legendär wie seine Zotteln.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[La « fourrure » en « furie. »]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Le pone la piel a la pelea.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[体毛の下の獰猛。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[It puts the "fur" in "fury."]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Она превращает "зверя" в "зверство".]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Ele é tão "peludo" quanto "perigoso".]]></LOCALISED_TEXT>
+  </FLAVOURTEXT>
+  <TYPE metaname="Creature" />
+  <SUB_TYPE metaname="Ape" order_de-DE="0" order_es-ES="0" order_fr-FR="0" order_it-IT="0" order_jp-JA="0" order_ko-KR="0" order_pt-BR="0" order_ru-RU="0" />
+  <EXPANSION value="DPG" />
+  <RARITY metaname="U" />
+  <POWER value="1" />
+  <TOUGHNESS value="1" />
+  <STATIC_ABILITY filter_zone="ZONE_IN_PLAY">
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Kird Ape gets +1/+2 as long as you control a Forest.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Il Gorilla di Kird prende +1/+2 fintanto che controlli almeno una Foresta.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Kird der Menschenaffe erhält +1/+2, solange du einen Wald kontrollierst.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Le Gorille beringeï gagne +1/+2 tant que vous contrôlez une forêt.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[El Simio de Kird obtiene +1/+2 mientras controles un bosque.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[密林の猿人は、あなたが森をコントロールしているかぎり+1/+2の修整を受ける。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[Kird Ape gets +1/+2 as long as you control a Forest.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Обезьяна Кирд получает +1/+2, пока вы контролируете Лес.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Símio Kird recebe +1/+2 desde que você controle uma Floresta.]]></LOCALISED_TEXT>
+    <CONTINUOUS_ACTION layer="7C">
+    local total = 0
+     local filter = Object():GetFilter()
+     filter:Clear()
+     filter:SetZone( ZONE_IN_PLAY )
+     filter:AddSubType( LAND_TYPE_FOREST )
+     filter:SetController( EffectController() )  
+     filter:NotTargetted()
+     total = filter:CountStopAt( 1 )
+     if total &gt; 0 then
+        local characteristics = Object():GetCurrentCharacteristics()
+        characteristics:Power_Add( 1 )
+        characteristics:Toughness_Add( 2 )
+     end
+     </CONTINUOUS_ACTION>
+  </STATIC_ABILITY>
+</CARD_V2>

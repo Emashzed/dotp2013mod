@@ -1,0 +1,100 @@
+<?xml version='1.0'?>
+<CARD_V2>
+  <FILENAME text="CHAIN_LIGHTNING_217977" />
+  <CARDNAME text="CHAIN_LIGHTNING" />
+  <TITLE>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Chain Lightning]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Fulmini a Catena]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Chain Lightning]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Chain Lightning]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Chain Lightning]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[Chain Lightning]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[Chain Lightning]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Chain Lightning]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Chain Lightning]]></LOCALISED_TEXT>
+  </TITLE>
+  <MULTIVERSEID value="217977" />
+  <ARTID value="888217977" />
+  <FRAMECOLOUR name="R" />
+  <COLOUR value="R" />
+  <ARTIST name="Christopher Moeller" />
+  <CASTING_COST cost="{R}" />
+  <TYPE metaname="Sorcery" order_de-DE="0" order_es-ES="0" order_fr-FR="0" order_it-IT="0" order_jp-JA="0" />
+  <EXPANSION value="DPE" />
+  <RARITY metaname="C" />  
+  <SPELL_ABILITY>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Chain Lightning deals 3 damage to target creature or player. Then that player or that creature's controller may pay {R}{R}. If the player does, he or she may copy this spell and may choose a new target for that copy.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Chain Lightning deals 3 damage to target creature or player. Then that player or that creature's controller may pay {R}{R}. If the player does, he or she may copy this spell and may choose a new target for that copy.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Chain Lightning deals 3 damage to target creature or player. Then that player or that creature's controller may pay {R}{R}. If the player does, he or she may copy this spell and may choose a new target for that copy.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Chain Lightning deals 3 damage to target creature or player. Then that player or that creature's controller may pay {R}{R}. If the player does, he or she may copy this spell and may choose a new target for that copy.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Chain Lightning deals 3 damage to target creature or player. Then that player or that creature's controller may pay {R}{R}. If the player does, he or she may copy this spell and may choose a new target for that copy.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[Chain Lightning deals 3 damage to target creature or player. Then that player or that creature's controller may pay {R}{R}. If the player does, he or she may copy this spell and may choose a new target for that copy.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[Chain Lightning deals 3 damage to target creature or player. Then that player or that creature's controller may pay {R}{R}. If the player does, he or she may copy this spell and may choose a new target for that copy.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Chain Lightning deals 3 damage to target creature or player. Then that player or that creature's controller may pay {R}{R}. If the player does, he or she may copy this spell and may choose a new target for that copy.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Chain Lightning deals 3 damage to target creature or player. Then that player or that creature's controller may pay {R}{R}. If the player does, he or she may copy this spell and may choose a new target for that copy.]]></LOCALISED_TEXT>
+    <TARGET_DEFINITION id="0">
+    local filter = Object():GetFilter()
+    filter:Clear()
+    filter:SetFilterType( FILTER_TYPE_CARDS + FILTER_TYPE_PLAYERS )
+    filter:SetZone( ZONE_IN_PLAY )
+    filter:SetHint( HINT_ENEMY_ONLY, EffectController() )
+    filter:AddCardType( CARD_TYPE_CREATURE )
+    </TARGET_DEFINITION>
+    <TARGET_DETERMINATION>
+    return AtLeastOneTargetFromDefinition(0)
+    </TARGET_DETERMINATION>
+    <PLAY_TIME_ACTION target_choosing="1">
+    EffectController():ChooseTarget( 0, "CARD_QUERY_CHOOSE_DEAL_3_DAMAGE", EffectDC():Make_Targets(0) )
+    </PLAY_TIME_ACTION>
+    <RESOLUTION_TIME_ACTION>
+    local target_creature = EffectDC():Get_Targets(0):Get_CardPtr(0)
+    local target_player = EffectDC():Get_Targets(0):Get_PlayerPtr(0)
+    local source = EffectSource()
+    if source == nil then
+      source = Object()
+    end
+    if ( target_creature ~= nil ) then   
+    	target_creature:DealDamage(3, source)  
+    elseif 
+    	( target_player ~= nil ) then   
+    	target_player:DealDamage(3, source)  
+    end
+    </RESOLUTION_TIME_ACTION>
+	<RESOLUTION_TIME_ACTION>
+    local target_creature = EffectDC():Get_Targets(0):Get_CardPtr(0)
+    local target_player = EffectDC():Get_Targets(0):Get_PlayerPtr(0)
+    if 	( target_creature ~= nil ) then
+		local player = target_creature:GetController()
+		if player:CanAfford("{R}{R}") == 1 then
+    		player:BeginNewMultipleChoice()
+    		player:AddMultipleChoiceAnswer( "CARD_QUERY_OPTION_YES" )
+    		player:AddMultipleChoiceAnswer( "CARD_QUERY_OPTION_NO" )
+    		player:AskMultipleChoiceQuestion( "CARD_QUERY_CHAIN_LIGHTNING" )
+    	end
+    elseif 	( target_player ~= nil ) then
+		local player = target_player
+		if player:CanAfford("{R}{R}") == 1 then
+    		player:BeginNewMultipleChoice()
+    		player:AddMultipleChoiceAnswer( "CARD_QUERY_OPTION_YES" )
+    		player:AddMultipleChoiceAnswer( "CARD_QUERY_OPTION_NO" )
+    		player:AskMultipleChoiceQuestion( "CARD_QUERY_CHAIN_LIGHTNING" )
+    	end
+    end
+    </RESOLUTION_TIME_ACTION>
+    <RESOLUTION_TIME_ACTION>
+    local target_creature = EffectDC():Get_Targets(0):Get_CardPtr(0)
+    local target_player = EffectDC():Get_Targets(0):Get_PlayerPtr(0)
+    if 	Object():GetMultipleChoiceResult() == 0 then 
+	    if 	( target_creature ~= nil and target_creature:GetController():CanAfford("{R}{R}") == 1 ) then
+			target_creature:GetController():TapLand("{R}{R}")
+			target_creature:GetController():CopySpellWithNewTargets( Object() )
+		elseif 	( target_player ~= nil and target_player:CanAfford("{R}{R}") == 1 ) then
+			target_player:TapLand("{R}{R}")
+    	    target_player:CopySpellWithNewTargets( Object() )
+		end
+    end
+    </RESOLUTION_TIME_ACTION>
+	<SFX text="TARGET_LIGHTNING_PLAY" />
+    <AI_BASE_SCORE score="1050" zone="hand" />
+  </SPELL_ABILITY>
+</CARD_V2>
