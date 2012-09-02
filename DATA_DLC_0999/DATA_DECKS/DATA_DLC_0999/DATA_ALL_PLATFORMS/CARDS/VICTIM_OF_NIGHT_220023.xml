@@ -54,6 +54,7 @@
     local filter = Object():GetFilter()
     filter:Clear()
     filter:AddExtra( FILTER_EXTRA_FLIP_SUB_TYPES )
+    filter:AddCardType( CARD_TYPE_CREATURE )
     filter:AddSubType( CREATURE_TYPE_VAMPIRE )
     filter:AddSubType( CREATURE_TYPE_WEREWOLF )
     filter:AddSubType( CREATURE_TYPE_ZOMBIE )
