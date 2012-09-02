@@ -1,0 +1,72 @@
+<?xml version='1.0'?>
+<CARD_V2>
+  <FILENAME text="NATURES_SPIRAL_207338" />
+  <CARDNAME text="NATURES_SPIRAL" />
+  <TITLE>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Nature's Spiral]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Spirale della Natura]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Spirale der Natur]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Spirale de la nature]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Espiral de la naturaleza]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[自然のらせん]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[Nature's Spiral]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Завиток Природы]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Espiral da Natureza]]></LOCALISED_TEXT>
+  </TITLE>
+  <MULTIVERSEID value="207338" />
+  <ARTID value="888207338" />
+  <ARTIST name="Terese Nielsen" />
+  <CASTING_COST cost="{1}{G}" />
+  <FLAVOURTEXT>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Snail shell, fern, tornado—the world connects all things in form.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Guscio di lumaca, felce, tornado... il mondo collega tutte le cose in una sola forma.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Schneckenhäuser, Farne, Wirbelstürme – die Welt sorgt dafür, dass sich alles dreht.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Coquille d'escargot, fougère, tornade — le monde unit toutes choses dans la forme.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Caracolas, helechos, tornados... el mundo conecta todas las cosas en su forma.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[カタツムリの殻、シダ、竜巻――世界はあらゆる物をその形でつなげている。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[Snail shell, fern, tornado—the world connects all things in form.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Панцирь улитки, побег папоротника, смерч — мир связует все сущее формой.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Caracol, samambaia, tornado — o mundo conecta todas as coisas através da forma.]]></LOCALISED_TEXT>
+  </FLAVOURTEXT>
+  <TYPE metaname="Sorcery" />
+  <EXPANSION value="DPG" />
+  <RARITY metaname="U" />
+  <SPELL_ABILITY>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Return target permanent card from your graveyard to your hand. (A permanent card is an artifact, creature, enchantment, land, or planeswalker card.)]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Riprendi in mano una carta permanente bersaglio dal tuo cimitero. (Una carta permanente è una carta artefatto, creatura, incantesimo, terra o planeswalker.)]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Bringe eine bleibende Karte deiner Wahl aus deinem Friedhof auf deine Hand zurück. (Eine bleibende Karte ist ein Artefakt, eine Kreatur, eine Verzauberung, ein Land oder ein Planeswalker.)]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Renvoyez une carte de permanent ciblée depuis votre cimetière dans votre main. (Une carte de permanent est une carte d'artefact, de créature, d'enchantement, de planeswalker ou de terrain.)]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Regresa la carta de permanente objetivo de tu cementerio a tu mano. (Una carta de permanente es una carta de artefacto, criatura, encantamiento, tierra o planeswalker.)]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[あなたの墓地にあるパーマネント・カード１枚を対象とし、それをあなたの手札に戻す。 （パーマネント・カードとは、アーティファクト・カードかクリーチャー・カードかエンチャント・カードか土地カードかプレインズウォーカー・カードである。）]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[Return target permanent card from your graveyard to your hand. (A permanent card is an artifact, creature, enchantment, land, or planeswalker card.)]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Верните целевую карту перманента из вашего кладбища в вашу руку. (Карта перманента — это карта артефакта, существа, чар, земли или planeswalker-а.)]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Devolva o card de permanente alvo de seu cemitério para sua mão. (Um card de permanente é um card de artefato, criatura, encantamento, terreno ou planeswalker.)]]></LOCALISED_TEXT>
+    <TARGET_DEFINITION id="0">
+    local filter = Object():GetFilter()
+    filter:Clear()
+    filter:May()
+    filter:SetPlayer( EffectController() )
+    filter:SetZone( ZONE_GRAVEYARD )
+    filter:AddCardType( CARD_TYPE_CREATURE )
+    filter:AddCardType( CARD_TYPE_ARTIFACT )
+    filter:AddCardType( CARD_TYPE_ENCHANTMENT )
+    filter:AddCardType( CARD_TYPE_LAND )
+    filter:SetHint( HINT_ALLIED, EffectController() )
+    </TARGET_DEFINITION>
+    <TARGET_DETERMINATION>
+    return AtLeastOneTargetFromDefinition(0)
+    </TARGET_DETERMINATION>
+    <PLAY_TIME_ACTION target_choosing="1">
+    EffectController():ChooseTarget( 0, "CARD_QUERY_CHOOSE_CARD_TO_PUT_INTO_HAND", EffectDC():Make_Targets(0) )
+    </PLAY_TIME_ACTION>
+    <RESOLUTION_TIME_ACTION>
+    if EffectDC() ~= nil then 
+       local target = EffectDC():Get_Targets(0):Get_CardPtr(0)
+       if target ~= nil then
+          target:GuidedReveal( ZONE_GRAVEYARD , ZONE_HAND )
+          target:PutInHand()
+       end
+    end
+    </RESOLUTION_TIME_ACTION>
+  </SPELL_ABILITY>
+</CARD_V2>

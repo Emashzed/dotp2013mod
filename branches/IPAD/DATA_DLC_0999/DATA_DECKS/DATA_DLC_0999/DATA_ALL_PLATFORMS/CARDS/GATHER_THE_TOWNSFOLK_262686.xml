@@ -1,0 +1,69 @@
+<?xml version='1.0'?>
+<CARD_V2>
+  <FILENAME text="GATHER_THE_TOWNSFOLK_262686" />
+  <CARDNAME text="GATHER_THE_TOWNSFOLK" />
+  <TITLE>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Gather the Townsfolk]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Radunare i Cittadini]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Die Bürger versammeln]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Rassemblement des citadins]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Reunir a los aldeanos]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[町民の結集]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[주민 소집]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Сбор Горожан]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Reunir o Povo]]></LOCALISED_TEXT>
+  </TITLE>
+  <MULTIVERSEID value="262686" />
+  <ARTID value="888262686" />
+  <ARTIST name="Dan Scott" />
+  <CASTING_COST cost="{1}{W}" />
+  <FLAVOURTEXT>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[In the memories of those they lost lies the strength needed to defend their city.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Nei ricordi di coloro che hanno perso trovano la forza necessaria a difendere la loro città.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Aus der Erinnerung an die Gefallenen holen sie die Stärke, die sie zur Verteidigung ihrer Stadt benötigen.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Dans les souvenirs de ceux qu'ils ont perdus réside la force nécessaire pour défendre leur ville.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[En el recuerdo de aquellos que perdieron está la fortaleza para defender su ciudad.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[彼らが失った仲間への想いの中には、街を守るために必要な力がある。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[그들은 잃어버린 자들을 기억하며 도시를 지키는 데 필요한 힘을 얻는다.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[В памяти о тех, кого они потеряли, заключается сила, необходимая для защиты их города.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Nas lembranças dos entes queridos eles encontram as forças de que precisam para defender a sua cidade.]]></LOCALISED_TEXT>
+  </FLAVOURTEXT>
+  <TYPE metaname="Sorcery" />
+  <EXPANSION value="DPG" />
+  <RARITY metaname="C" />
+  <SPELL_ABILITY>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Put two 1/1 white Human creature tokens onto the battlefield.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Metti sul campo di battaglia due pedine creatura Umano 1/1 bianche.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Bringe zwei 1/1 weiße Mensch-Kreaturenspielsteine ins Spiel.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Mettez sur le champ de bataille deux jetons de créature 1/1 blanche Humain.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Pon en el campo de batalla dos fichas de criatura Humano blancas 1/1.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[白の１/１の人間・クリーチャー・トークンを２体戦場に出す。窮地 ― あなたのライフが５点以下である場合、代わりにそれらのトークンを５体戦場に出す。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[1/1 백색 인간 생물 토큰 두 개를 전장에 놓는다.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Положите на поле битвы две фишки существа 1/1 белый Человек.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Coloque no campo de batalha duas fichas de criatura brancas 1/1 do tipo Humano.]]></LOCALISED_TEXT>
+  </SPELL_ABILITY>
+  <SPELL_ABILITY>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Fateful hour — If you have 5 or less life, put five of those tokens onto the battlefield instead.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Ora fatidica — Se hai 5 o meno punti vita, metti invece sul campo di battaglia cinque di quelle pedine.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Schicksalsstunde — Falls du 5 Lebenspunkte oder weniger hast, bringe stattdessen fünf dieser Spielsteine ins Spiel.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Heure fatidique — Si vous avez 5 points de vie ou moins, mettez sur le champ de bataille cinq de ces jetons à la place.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Hora fatídica — Si tienes 5 vidas o menos, en vez de eso, pon en el campo de batalla cinco de esas fichas.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[Fateful hour — If you have 5 or less life, put five of those tokens onto the battlefield instead.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[운명의 시간 — 만약 당신의 생명이 5점 이하라면, 대신에 그런 토큰 다섯 개를 전장에 놓는다.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Роковой час — Если количество ваших жизней меньше или равно 5, положите на поле битвы пять таких фишек вместо этого.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Hora fatal — Se você tiver 5 ou menos pontos de vida, em vez disso, coloque cinco dessas fichas no campo de batalha.]]></LOCALISED_TEXT>
+    <RESOLUTION_TIME_ACTION>
+    local token_count
+    if EffectController():GetLifeTotal() &gt; 5 then
+       token_count = 2
+    else
+       token_count = 5
+    end
+    if token_count &gt; 0 then
+       MTG():PutTokensIntoPlay( "TOKEN_HUMAN_WHITE_1_1_888139867", token_count, EffectController() )
+    end
+    </RESOLUTION_TIME_ACTION>
+  </SPELL_ABILITY>
+  <TOKEN_REGISTRATION reservation="1" type="TOKEN_HUMAN_WHITE_1_1_888139867" />
+  <AI_BASE_SCORE score="600" zone="ZONE_HAND" />
+</CARD_V2>

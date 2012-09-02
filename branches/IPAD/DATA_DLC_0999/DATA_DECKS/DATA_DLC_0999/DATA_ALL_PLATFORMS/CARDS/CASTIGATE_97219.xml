@@ -1,0 +1,94 @@
+<?xml version='1.0'?>
+<CARD_V2>
+  <FILENAME text="CASTIGATE_97219" />
+  <CARDNAME text="CASTIGATE" />
+  <TITLE>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Castigate]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Punire]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Geißeln]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Expiation]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Castigar]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[酷評]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[Castigate]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Бичевание]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Castigar]]></LOCALISED_TEXT>
+  </TITLE>
+  <MULTIVERSEID value="97219" />
+  <ARTID value="88897219" />
+  <ARTIST name="Darrell Riche" />
+  <CASTING_COST cost="{W}{B}" />
+  <FLAVOURTEXT>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA["We have no need for military might. We wield two of the sharpest swords ever forged: Faith in our left hand, Wealth in our right."
+—Vuliev of the Ghost Council]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA["Non abbiamo bisogno di una forza militare. Impugniamo due delle spade più affilate mai forgiate: la Fede nella mano sinistra, la Ricchezza in quella destra."
+—Vuliev del Concilio Fantasma]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[„Wir brauchen keine militärische Macht. Wir haben zwei der schärfsten Schwerter, die je geschmiedet wurden: Vertrauen in unserer linken Hand, Wohlstand in unserer rechten."
+—Vuliev vom Geister-Rat]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[« Nous n'avons nul besoin de puissance militaire. Nous brandissons deux des épées les plus puissantes jamais forgées : la Foi dans notre main gauche, et la Richesse dans la droite. »
+—Vuliev du Conseil fantôme]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA["No necesitamos poderío militar. Tenemos dos de las espadas más afiladas jamás forjadas: Fe en nuestra izquierda, y Riqueza en nuestra derecha."
+—Vúliev del Concilio fantasmal]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[軍事的強さなど必要ない。 我々は今まで鍛えられた中で最も鋭い二本の剣を携えている。左手に信仰、右手に富だ。
+――霊議会のヴリエフ]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA["We have no need for military might. We wield two of the sharpest swords ever forged: Faith in our left hand, Wealth in our right."
+—Vuliev of the Ghost Council]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA["Нам ни к чему боевая мощь. Мы владеем двумя мечами, острее которых никогда не бывало: в левой руке у нас Вера, а в правой — Богатство".
+— Вулиев из Призрачного совета]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA["Não precisamos de poderio militar. Nós empunhamos duas das espadas mais afiadas já forjadas: a Fé em nossa mão esquerda e a Riqueza em nossa mão direita."
+—Vuliev, do Conselho Fantasma]]></LOCALISED_TEXT>
+  </FLAVOURTEXT>
+  <TYPE metaname="Sorcery" />
+  <EXPANSION value="DPG" />
+  <RARITY metaname="C" />
+  <SPELL_ABILITY>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Target opponent reveals his or her hand. You choose a nonland card from it and exile that card.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[L'avversario bersaglio rivela la propria mano. Scegli una carta non terra da essa. Rimuovi dal gioco quella carta.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Ein Gegner deiner Wahl zeigt die Karten auf seiner Hand offen vor. Bestimme eine Karte davon, die kein Land ist. Entferne diese Karte ganz aus dem Spiel.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[L'adversaire ciblé révèle sa main. Choisissez-y une carte non-terrain. Retirez cette carte de la partie.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[El oponente objetivo muestra su mano. Eliges de ahí una carta que no sea de tierra. Remueve del juego esa carta.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[対戦相手１人を対象とする。そのプレイヤーは手札を公開する。 その中の土地でないカードを１枚選ぶ。 そのカードをゲームから取り除く。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[Target opponent reveals his or her hand. You choose a nonland card from it and exile that card.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Целевой оппонент открывает свою руку. Выберите карту не земли из руки оппонента. Выведите эту карту из игры.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[O oponente alvo revela sua própria mão. Escolha um card que não seja um terreno. Remova de jogo aquele card.]]></LOCALISED_TEXT>
+    <TARGET_DEFINITION id="0">
+    local filter = Object():GetFilter()
+    filter:Clear()
+    filter:SetFilterType( FILTER_TYPE_PLAYERS + FILTER_TYPE_OPPONENTS)
+    filter:SetOwner( EffectController() )
+    filter:SetHint( HINT_ENEMY_ONLY, EffectController() )
+    </TARGET_DEFINITION>
+    <TARGET_DETERMINATION>
+    return AtLeastOneTargetFromDefinition(0)
+    </TARGET_DETERMINATION>
+    <PLAY_TIME_ACTION target_choosing="1">
+    EffectController():ChooseTarget( 0, "CARD_QUERY_CHOOSE_OPPONENT", EffectDC():Make_Targets(0) )
+    </PLAY_TIME_ACTION>
+    <RESOLUTION_TIME_ACTION>
+    local target = EffectDC():Get_Targets(0):Get_PlayerPtr(0)
+    if target ~= nil then
+       target:RevealHand()
+    end
+    </RESOLUTION_TIME_ACTION>
+    <RESOLUTION_TIME_ACTION>
+    local player = EffectDC():Get_Targets(0):Get_PlayerPtr(0)
+    local filter = Object():GetFilter()    
+    if player ~= nil then    
+       filter:Clear()    
+       filter:SetPlayer( player )    
+       filter:SetZone( ZONE_HAND )    
+       filter:AddExtra( FILTER_EXTRA_FLIP_CARD_TYPES )
+       filter:AddCardType( CARD_TYPE_LAND )
+       filter:SetHint( HINT_ENEMY, EffectController() )    
+       filter:NotTargetted()      
+       EffectController():SetTargetCount( 1 )    
+       EffectController():ChooseTarget( NO_VALIDATION, "CARD_QUERY_CHOOSE_CARD_TO_DISCARD", EffectDC():Make_Targets(1))    
+    end
+    </RESOLUTION_TIME_ACTION>
+    <RESOLUTION_TIME_ACTION>
+    local target_card = EffectDC():Get_Targets(1):Get_CardPtr(0)
+    if target_card ~= nil then
+       target_card:RemoveFromGame()
+    end
+    </RESOLUTION_TIME_ACTION>
+  </SPELL_ABILITY>
+</CARD_V2>
