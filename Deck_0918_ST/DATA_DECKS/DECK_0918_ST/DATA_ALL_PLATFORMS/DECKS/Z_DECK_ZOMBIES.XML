@@ -1,0 +1,43 @@
+<DECK personality="D13_BLOOD_ARTIST.XML" deck_box_image="D13_BLOOD_ARTIST" deck_box_image_locked="locked" content_pack="0" uid="918" preview_card="blanko" always_available="true" is_black="true" >
+  <DECKSTATISTICS Size="8" Speed="2" Flex="2" Syn="6" />
+  <CARD name="FALKENRATH_NOBLE_226751" deckOrderId="0" />
+  <CARD name="FALKENRATH_NOBLE_226751" deckOrderId="1" />
+  <CARD name="DIREGRAF_GHOUL_226747" deckOrderId="2" />
+  <CARD name="DIREGRAF_GHOUL_226747" deckOrderId="3" />
+  <CARD name="DIREGRAF_GHOUL_226747" deckOrderId="4" />
+  <CARD name="DIREGRAF_GHOUL_226747" deckOrderId="5" />
+  <CARD name="GRAVECRAWLER_222902" deckOrderId="6" />
+  <CARD name="GRAVECRAWLER_222902" deckOrderId="7" />
+  <CARD name="GRAVECRAWLER_222902" deckOrderId="8" />
+  <CARD name="GRAVECRAWLER_222902" deckOrderId="9" />
+  <CARD name="HIGHBORN_GHOUL_242503" deckOrderId="10" />
+  <CARD name="HIGHBORN_GHOUL_242503" deckOrderId="11" />
+  <CARD name="HIGHBORN_GHOUL_242503" deckOrderId="12" />
+  <CARD name="HIGHBORN_GHOUL_242503" deckOrderId="13" />
+  <CARD name="BLOOD_ARTIST_281485" deckOrderId="14" />
+  <CARD name="BLOOD_ARTIST_281485" deckOrderId="15" />
+  <CARD name="BLOOD_ARTIST_281485" deckOrderId="16" />
+  <CARD name="BLOOD_ARTIST_281485" deckOrderId="17" />
+  <CARD name="SKIRSDAG_HIGH_PRIEST_230794" deckOrderId="18" />
+  <CARD name="SKIRSDAG_HIGH_PRIEST_230794" deckOrderId="19" />
+  <CARD name="SKIRSDAG_HIGH_PRIEST_230794" deckOrderId="20" />
+  <CARD name="BUTCHER_GHOUL_888271115" deckOrderId="21" />
+  <CARD name="BUTCHER_GHOUL_888271115" deckOrderId="22" />
+  <CARD name="BLOODFLOW_CONNOISSEUR_280303" deckOrderId="23" />
+  <CARD name="BLOODFLOW_CONNOISSEUR_280303" deckOrderId="24" />
+  <CARD name="BLOODFLOW_CONNOISSEUR_280303" deckOrderId="25" />
+  <CARD name="GERALFS_MESSENGER_888243250" deckOrderId="26" />
+  <CARD name="GERALFS_MESSENGER_888243250" deckOrderId="27" />
+  <CARD name="GERALFS_MESSENGER_888243250" deckOrderId="28" />
+  <CARD name="GERALFS_MESSENGER_888243250" deckOrderId="29" />
+  <CARD name="DEAD_WEIGHT_220393" deckOrderId="30" />
+  <CARD name="DEAD_WEIGHT_220393" deckOrderId="31" />
+  <CARD name="DEAD_WEIGHT_220393" deckOrderId="32" />
+  <CARD name="VICTIM_OF_NIGHT_220023" deckOrderId="33" />
+  <CARD name="VICTIM_OF_NIGHT_220023" deckOrderId="34" />
+  <CARD name="VICTIM_OF_NIGHT_220023" deckOrderId="35" />
+  <CARD name="TRAGIC_SLIP_242500" deckOrderId="36" />
+  <CARD name="TRAGIC_SLIP_242500" deckOrderId="37" />
+  <CARD name="DAMNATION_276893" deckOrderId="38" />
+  <CARD name="DAMNATION_276893" deckOrderId="39" />
+</DECK>

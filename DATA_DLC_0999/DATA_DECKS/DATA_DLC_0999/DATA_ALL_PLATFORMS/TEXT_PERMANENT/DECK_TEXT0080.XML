@@ -537,6 +537,18 @@
     <Cell><Data ss:Type="String">Anjo Serra</Data></Cell>
    </Row>
    <Row>
+    <Cell><Data ss:Type="String">PLAYER_NAME_BLOOD_ARTIST</Data></Cell>
+    <Cell ss:Index="3"><Data ss:Type="String">Blood Artist</Data></Cell>
+    <Cell><Data ss:Type="String">Artiste de sang</Data></Cell>
+    <Cell><Data ss:Type="String">Artista de la sangre</Data></Cell>
+    <Cell><Data ss:Type="String">Blutkünstler</Data></Cell>
+    <Cell><Data ss:Type="String">Artista Sanguinario</Data></Cell>
+    <Cell ss:Index="9"><Data ss:Type="String">血の芸術家</Data></Cell>
+    <Cell><Data ss:Type="String">Blood Artist</Data></Cell>
+    <Cell><Data ss:Type="String">Кровавый Художник</Data></Cell>
+    <Cell><Data ss:Type="String">Artista do Sangue</Data></Cell>
+   </Row>
+   <Row>
     <Cell><Data ss:Type="String">PLAYER_NAME_BLOODBRAID_ELF</Data></Cell>
     <Cell ss:Index="3"><Data ss:Type="String">Bloodbraid Elf</Data></Cell>
     <Cell><Data ss:Type="String">Elfe aux Nattes sanguinolentes</Data></Cell>
@@ -1302,6 +1314,18 @@
     <Cell><Data ss:Type="String">Fiery Mountains</Data></Cell>
     <Cell><Data ss:Type="String">Fiery Mountains</Data></Cell>
     <Cell><Data ss:Type="String">Fiery Mountains</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Z_DECK_ZOMBIES</Data></Cell>
+    <Cell ss:Index="3"><Data ss:Type="String">Zombies</Data></Cell>
+    <Cell><Data ss:Type="String">Zombies</Data></Cell>
+    <Cell><Data ss:Type="String">Zombies</Data></Cell>
+    <Cell><Data ss:Type="String">Zombies</Data></Cell>
+    <Cell><Data ss:Type="String">Zombies</Data></Cell>
+    <Cell ss:Index="9"><Data ss:Type="String">Zombies</Data></Cell>
+    <Cell><Data ss:Type="String">Zombies</Data></Cell>
+    <Cell><Data ss:Type="String">Zombies</Data></Cell>
+    <Cell><Data ss:Type="String">Zombies</Data></Cell>
    </Row>
    <Row>
     <Cell><Data ss:Type="String">Z_DECK_ZOO</Data></Cell>
