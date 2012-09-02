@@ -872,6 +872,18 @@
     <Cell><Data ss:Type="String">Investigador de Segredos</Data></Cell>
    </Row>
    <Row>
+    <Cell><Data ss:Type="String">PLAYER_NAME_DOOMED_TRAVELER</Data></Cell>
+    <Cell ss:Index="3"><Data ss:Type="String">Doomed Traveler</Data></Cell>
+    <Cell><Data ss:Type="String">Voyageur damné</Data></Cell>
+    <Cell><Data ss:Type="String">Viajero condenado</Data></Cell>
+    <Cell><Data ss:Type="String">Todgeweihter Reisender</Data></Cell>
+    <Cell><Data ss:Type="String">Viaggiatore Condannato</Data></Cell>
+    <Cell ss:Index="9"><Data ss:Type="String">宿命の旅人</Data></Cell>
+    <Cell><Data ss:Type="String">Doomed Traveler</Data></Cell>
+    <Cell><Data ss:Type="String">Обреченный Странствователь</Data></Cell>
+    <Cell><Data ss:Type="String">Viajante Condenado</Data></Cell>
+   </Row>
+   <Row>
     <Cell><Data ss:Type="String">PLAYER_NAME_ETCHED_CHAMPION</Data></Cell>
     <Cell ss:Index="3"><Data ss:Type="String">Etched Champion</Data></Cell>
     <Cell><Data ss:Type="String">Champion gravé</Data></Cell>
@@ -1278,6 +1290,18 @@
     <Cell><Data ss:Type="String">Fiery Mountains</Data></Cell>
     <Cell><Data ss:Type="String">Fiery Mountains</Data></Cell>
     <Cell><Data ss:Type="String">Fiery Mountains</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">ZDECKTECH_BWTOKEN</Data></Cell>
+    <Cell ss:Index="3"><Data ss:Type="String">Spirits Everywhere</Data></Cell>
+    <Cell><Data ss:Type="String">Des Esprits Partout</Data></Cell>
+    <Cell><Data ss:Type="String">Spirits Everywhere</Data></Cell>
+    <Cell><Data ss:Type="String">Spirits Everywhere</Data></Cell>
+    <Cell><Data ss:Type="String">Spirits Everywhere</Data></Cell>
+    <Cell ss:Index="9"><Data ss:Type="String">Spirits Everywhere</Data></Cell>
+    <Cell><Data ss:Type="String">Spirits Everywhere</Data></Cell>
+    <Cell><Data ss:Type="String">Spirits Everywhere</Data></Cell>
+    <Cell><Data ss:Type="String">Spirits Everywhere</Data></Cell>
    </Row>
    <Row>
     <Cell><Data ss:Type="String">ZDECKTECH_DELVER</Data></Cell>

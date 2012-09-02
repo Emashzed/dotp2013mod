@@ -1,0 +1,128 @@
+<?xml version='1.0'?>
+<CARD_V2>
+  <FILENAME text="HUNTMASTER_OF_THE_FELLS_262875" />
+  <CARDNAME text="HUNTMASTER_OF_THE_FELLS" />
+  <TITLE>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Huntmaster of the Fells]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Capocaccia delle Colline]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Jagdmeister vom Kahlenberg]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Maître-chasseur de la lande]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Maestro de caza de las colinas]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[高原の狩りの達人]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[산지의 사냥꾼]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Ловчий Каменистых Холмов]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Mestre de Caça da Derrubada]]></LOCALISED_TEXT>
+  </TITLE>
+  <MULTIVERSEID value="262875" />
+  <ARTID value="888262875" />
+  <ARTIST name="Chris Rahn" />
+  <CASTING_COST cost="{R}" />
+  <TYPE metaname="Creature" />
+  <SUB_TYPE metaname="Human" order_de-DE="0" order_es-ES="0" order_fr-FR="0" order_it-IT="0" order_jp-JA="0" order_ko-KR="0" order_pt-BR="0" order_ru-RU="0" />
+  <SUB_TYPE metaname="Werewolf" order_de-DE="1" order_es-ES="1" order_fr-FR="1" order_it-IT="1" order_jp-JA="1" order_ko-KR="1" order_pt-BR="1" order_ru-RU="1" />
+  <EXPANSION value="DPG" />
+  <RARITY metaname="M" />
+  <POWER value="2" />
+  <TOUGHNESS value="2" />
+  <TRIGGERED_ABILITY internal="1" active_zone="ZONE_ANY">
+    <TRIGGER value="ZONECHANGE_BEGIN" simple_qualifier="self" to_zone="ZONE_IN_PLAY" />
+    <RESOLUTION_TIME_ACTION>
+    MTG():CreateDelayedTrigger(1, nil)
+    </RESOLUTION_TIME_ACTION>
+  </TRIGGERED_ABILITY>
+  <TRIGGERED_ABILITY resource_id="1" forced_skip="1" filter_zone="ZONE_IN_PLAY">
+    <CLEANUP fire_once="1" />
+    <TRIGGER value="ZONECHANGE_END" simple_qualifier="self" to_zone="ZONE_IN_PLAY" />
+    <RESOLUTION_TIME_ACTION>
+    GetTransformData_Step1("RAVAGER_OF_THE_FELLS_262699")
+    </RESOLUTION_TIME_ACTION>
+    <RESOLUTION_TIME_ACTION>
+    GetTransformData_Step2()
+    </RESOLUTION_TIME_ACTION>
+  </TRIGGERED_ABILITY>
+  <STATIC_ABILITY filter_zone="ZONE_IN_PLAY">
+    <CONTINUOUS_ACTION layer="1">
+    if IsTransformed( Object() ) then
+       ApplyTransformation( 1, 1, CARD_TYPE_CREATURE, CREATURE_TYPE_WEREWOLF )
+    end
+    </CONTINUOUS_ACTION>
+  </STATIC_ABILITY>
+  <TRIGGERED_ABILITY dangerous="1" filter_zone="ZONE_IN_PLAY">
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Whenever this creature enters the battlefield or transforms into Huntmaster of the Fells, put a 2/2 green Wolf creature token onto the battlefield and you gain 2 life.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Ogniqualvolta questa creatura entra nel campo di battaglia o si trasforma nel Capocaccia delle Colline, metti sul campo di battaglia una pedina creatura Lupo 2/2 verde e guadagni 2 punti vita.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Immer wenn diese Kreatur ins Spiel kommt oder in den Jagdmeister vom Kahlenberg transformiert, bringst du einen 2/2 grünen Wolf-Kreaturenspielstein ins Spiel und erhältst 2 Lebenspunkte dazu.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[À chaque fois que cette créature arrive sur le champ de bataille ou qu'elle se transforme en Maître-chasseur de la lande, mettez sur le champ de bataille un jeton de créature 2/2 verte Loup et vous gagnez 2 points de vie.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Siempre que esta criatura entre al campo de batalla o se transforme en el Maestro de caza de las colinas, pon en el campo de batalla una ficha de criatura Lobo verde 2/2 y gana 2 vidas.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[このクリーチャーが戦場に出るか高原の狩りの達人に変身するたび、緑の２/２の狼・クリーチャー・トークンを１体戦場に出し、あなたは２点のライフを得る。各アップキープの開始時に、直前のターンに呪文が唱えられていなかった場合、高原の狩りの達人を変身させる。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[이 생물이 전장에 들어오거나 산지의 사냥꾼으로 변신할 때마다, 2/2 녹색 늑대 생물 토큰 한 개를 전장에 놓는고 당신은 생명 2점을 얻는다.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Каждый раз когда это существо выходит на поле битвы или трансформируется в Ловчего Каменистых Холмов, положите на поле битвы одну фишку существа 2/2 зеленый Волк, и вы получаете 2 жизни.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Toda vez que esta criatura entra no campo de batalha ou se transforma em Mestre de Caça da Derrubada, você coloca no campo de batalha uma ficha de criatura verde 2/2 do tipo Lobo e ganha 2 pontos de vida.]]></LOCALISED_TEXT>
+    <TRIGGER value="ZONECHANGE_END" simple_qualifier="self" to_zone="ZONE_IN_PLAY" />
+    <RESOLUTION_TIME_ACTION>
+    MTG():PutTokensIntoPlay( "TOKEN_WOLF_2_2_299998", 1, EffectController() )
+    EffectController():GainLife( 2 )
+    </RESOLUTION_TIME_ACTION>
+  </TRIGGERED_ABILITY>
+  <TRIGGERED_ABILITY auto_skip="1" filter_zone="ZONE_IN_PLAY">
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[At the beginning of each upkeep, if no spells were cast last turn, transform Huntmaster of the Fells.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[All'inizio di ogni mantenimento, se nell'ultimo turno non sono state lanciate magie, trasforma il Capocaccia delle Colline.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Transformiere zu Beginn jedes Versorgungssegments den Jagdmeister vom Kahlenberg, falls im letzten Zug keine Zaubersprüche gewirkt wurden.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Au début de chaque entretien, si aucun sort n'a été lancé au tour précédent, transformez le Maître-chasseur de la lande.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Al comienzo de cada mantenimiento, si no se lanzaron hechizos en el último turno, transforma al Maestro de caza de las colinas.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[At the beginning of each upkeep, if no spells were cast last turn, transform Huntmaster of the Fells.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[각 유지단 시작에, 만약 지난 턴에 아무 주문도 발동되지 않았다면, 산지의 사냥꾼을 변신시킨다.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[В начале каждого шага поддержки, если в предыдущем ходу не было разыграно ни одного заклинания, трансформируйте Ловчего Каменистых Холмов.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[No início de cada manutenção, se nenhuma mágica tiver sido conjurada no último turno, transforme Mestre de Caça da Derrubada.]]></LOCALISED_TEXT>
+    <TRIGGER value="BEGINNING_OF_STEP">
+    return MTG():GetStep() == STEP_UPKEEP and 1==0
+    </TRIGGER>
+    <RESOLUTION_TIME_ACTION>
+    Transform( Object() )
+    </RESOLUTION_TIME_ACTION>
+  </TRIGGERED_ABILITY>
+  <ACTIVATED_ABILITY filter_zone="ZONE_IN_PLAY">
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Transform Huntmaster of the Fells.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Trasforma il Capocaccia delle Colline.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Transform Huntmaster of the Fells.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Transformez le Maître-chasseur de la lande.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Transforma al Devastador de las Maestro de caza de las colinas.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[Transform Huntmaster of the Fells.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[Transform Huntmaster of the Fells.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Трансформируйте Ловчего Каменистых Холмов.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Transforme Mestre de Caça da Derrubada.]]></LOCALISED_TEXT>
+    <COST type="Mana" cost="{0}" />
+    <RESOLUTION_TIME_ACTION>
+    MTG():CreateDelayedTrigger(2, nil)
+   -- Transform( Object() )
+    </RESOLUTION_TIME_ACTION>
+  </ACTIVATED_ABILITY>
+  <TRIGGERED_ABILITY resource_id="2" forced_skip="1" filter_zone="ZONE_IN_PLAY">
+    <CLEANUP fire_once="1" />
+    <TRIGGER value="ZONECHANGE_END" simple_qualifier="self" to_zone="ZONE_IN_PLAY" />
+    <TARGET_DEFINITION id="0">
+    local filter = Object():GetFilter()
+    filter:Clear()
+    filter:AddCardType( CARD_TYPE_CREATURE )
+    filter:SetHint( HINT_ENEMY_ONLY, EffectController() )
+    filter:SetZone( ZONE_IN_PLAY )
+    </TARGET_DEFINITION>
+    <TARGET_DETERMINATION>
+    return AtLeastOneTargetFromDefinition(0)
+    </TARGET_DETERMINATION>
+    <PLAY_TIME_ACTION target_choosing="1">
+    EffectController():ChooseTarget( 0, "CARD_QUERY_CHOOSE_CREATURE_DEAL_2_DAMAGE", EffectDC():Make_Targets(0) )
+    </PLAY_TIME_ACTION>
+    <RESOLUTION_TIME_ACTION>
+    local target = EffectDC():Get_Targets(0):Get_CardPtr(0)
+    local source = EffectSource()
+    if source == nil then
+       source = Object()
+    end
+    if target ~= nil then   
+       target:DealDamage( 2, source )  
+    end
+    </RESOLUTION_TIME_ACTION>
+  </TRIGGERED_ABILITY>
+  <TOKEN_REGISTRATION reservation="1" type="TOKEN_WOLF_2_2_299998" />
+  <TOKEN_REGISTRATION reservation="1" type="RAVAGER_OF_THE_FELLS_262699" />
+</CARD_V2>
