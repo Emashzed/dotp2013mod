@@ -18,15 +18,24 @@
   <ARTIST name="Terese Nielsen" />
   <CASTING_COST cost="{1}{B/P}{B/P}" />
   <FLAVOURTEXT>
-    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA["You serve Phyrexia. Your pieces would better serve Phyrexia elsewhere."—Azax-Azog, the Demon Thane]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA["Tu servi Phyrexia. I tuoi pezzi servirebbero meglio Phyrexia altrove."—Azax-Azog, il Demone Thane]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[„Du dienst Phyrexia. Doch deine Einzelteile würden Phyrexia anderswo besser dienen."—Azax-Azog, der Than der Dämonen]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[« Tu sers Phyrexia. Tes fragments le serviront mieux autre part. »—Azax-Azog, thane démon]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA["Sirves a Pirexia. Tus piezas servirán mejor a Pirexia en otro lado."—Azax-Azog, el barón demonio]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[「お前はファイレクシアに仕える。 お前の部品はファイレクシアの別などこかに仕えた方が良かろう。」――悪魔の長、アザックス＝アザグ]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA["You serve Phyrexia. Your pieces would better serve Phyrexia elsewhere."—Azax-Azog, the Demon Thane]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[«Ты служишь Фирексии. Куски тебя послужат Фирексии где-нибудь в другом месте».— Азакс-Азог, тан-демон]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA["Você serve à Phyrexia. Suas partes serão mais úteis à Phyrexia em outro lugar."— Azax-Azog, o Thane Demoníaco]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA["You serve Phyrexia. Your pieces would better serve Phyrexia elsewhere."
+—Azax-Azog, the Demon Thane]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA["Tu servi Phyrexia. I tuoi pezzi servirebbero meglio Phyrexia altrove."
+—Azax-Azog, il Demone Thane]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[„Du dienst Phyrexia. Doch deine Einzelteile würden Phyrexia anderswo besser dienen."
+—Azax-Azog, der Than der Dämonen]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[« Tu sers Phyrexia. Tes fragments le serviront mieux autre part. »
+—Azax-Azog, thane démon]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA["Sirves a Pirexia. Tus piezas servirán mejor a Pirexia en otro lado."
+—Azax-Azog, el barón demonio]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[「お前はファイレクシアに仕える。 お前の部品はファイレクシアの別などこかに仕えた方が良かろう。」
+――悪魔の長、アザックス＝アザグ]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA["You serve Phyrexia. Your pieces would better serve Phyrexia elsewhere."
+—Azax-Azog, the Demon Thane]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[«Ты служишь Фирексии. Куски тебя послужат Фирексии где-нибудь в другом месте».
+— Азакс-Азог, тан-демон]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA["Você serve à Phyrexia. Suas partes serão mais úteis à Phyrexia em outro lugar."
+— Azax-Azog, o Thane Demoníaco]]></LOCALISED_TEXT>
   </FLAVOURTEXT>
   <TYPE metaname="Instant" />
   <EXPANSION value="DPG" />

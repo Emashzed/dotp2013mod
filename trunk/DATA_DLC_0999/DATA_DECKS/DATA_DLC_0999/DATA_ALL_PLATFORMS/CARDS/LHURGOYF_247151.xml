@@ -18,15 +18,24 @@
   <ARTIST name="Pete Venters" />
   <CASTING_COST cost="{2}{G}{G}" />
   <FLAVOURTEXT>
-    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA["Ach! Hans, run! It's the lhurgoyf!"—Saffi Eriksdotter, last words]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA["Ack! Corri, Hans! È il lhurgoyf!"—Saffi Eriksdotter, ultime parole]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[„Lauf! Hans, lauf! Es ist der Lhurgoyf!"—Saffi Eriksdotter, ihre letzten Worte]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[« Ach ! Hans, fuis ! C'est le lhurgoyf ! »— Saffi Eriksdotter, derniers mots]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA["¡Ach! ¡Corre, Hans! ¡Es el lhurgoyf!"—Últimas palabras de Saffi Eriksdotter]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[「ああ！ ハンス、逃げて！ ルアゴイフよ！」――サッフィー・エリクスドッターの最期の言葉]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA["Ach! Hans, run! It's the lhurgoyf!"—Saffi Eriksdotter, last words]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA["Ach! Hans, run! It's the lhurgoyf!"—Saffi Eriksdotter, last words]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA["Ach! Hans, run! It's the lhurgoyf!"—Saffi Eriksdotter, last words]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA["Ach! Hans, run! It's the lhurgoyf!"
+—Saffi Eriksdotter, last words]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA["Ack! Corri, Hans! È il lhurgoyf!"
+—Saffi Eriksdotter, ultime parole]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[„Lauf! Hans, lauf! Es ist der Lhurgoyf!"
+—Saffi Eriksdotter, ihre letzten Worte]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[« Ach ! Hans, fuis ! C'est le lhurgoyf ! »
+— Saffi Eriksdotter, derniers mots]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA["¡Ach! ¡Corre, Hans! ¡Es el lhurgoyf!"
+—Últimas palabras de Saffi Eriksdotter]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[「ああ！ ハンス、逃げて！ ルアゴイフよ！」
+――サッフィー・エリクスドッターの最期の言葉]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA["Ach! Hans, run! It's the lhurgoyf!"
+—Saffi Eriksdotter, last words]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA["Ach! Hans, run! It's the lhurgoyf!"
+—Saffi Eriksdotter, last words]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA["Ach! Hans, run! It's the lhurgoyf!"
+—Saffi Eriksdotter, last words]]></LOCALISED_TEXT>
   </FLAVOURTEXT>
   <TYPE metaname="Creature" />
   <SUB_TYPE metaname="Lhurgoyf" order_de-DE="0" order_es-ES="0" order_fr-FR="0" order_it-IT="0" order_jp-JA="0" order_ko-KR="0" order_pt-BR="0" order_ru-RU="0" />

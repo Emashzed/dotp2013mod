@@ -18,15 +18,24 @@
   <ARTIST name="Erica Yang" />
   <CASTING_COST cost="{U/P}" />
   <FLAVOURTEXT>
-    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA["Your first mistake was thinking I would let you live long enough to make a second."—Sarnvax, Gitaxian sective]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA["Il tuo primo errore è stato di pensare che ti avrei lasciato vivere abbastanza a lungo da farne un secondo."—Sarnvax, settario Gitaxian]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[„Dein erster Fehler war, dass du dachtest, ich würde dich lange genug überleben lassen, um einen zweiten machen zu können."—Sarnvax aus Gitaxias Forscherteam]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[« Votre première erreur était de croire que je vous laisserais vivre suffisamment longtemps pour en commettre une seconde. »—Sarnvax, sectif gitaxien]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA["Tu primer error fue pensar que te dejaría vivir lo suficiente como para cometer un segundo."—Sarnvax, sectivo gitáxico]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[「貴様の一つ目の過ちは、貴様が二つ目を犯せる程長く生きることを私が認めると思ったことだ。」――ギタクシア派の学官、サルンヴァクス]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA["Your first mistake was thinking I would let you live long enough to make a second."—Sarnvax, Gitaxian sective]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[«Твоей первой ошибкой было подумать, что я позволю тебе жить достаточно долго, чтобы совершить вторую ошибку».— Сарнвакс, джитаксианский сектив]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA["Seu primeiro erro foi pensar que eu o deixaria viver o bastante para cometer um segundo."— Sarnvax, seitor gitaxiano]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA["Your first mistake was thinking I would let you live long enough to make a second."
+—Sarnvax, Gitaxian sective]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA["Il tuo primo errore è stato di pensare che ti avrei lasciato vivere abbastanza a lungo da farne un secondo."
+—Sarnvax, settario Gitaxian]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[„Dein erster Fehler war, dass du dachtest, ich würde dich lange genug überleben lassen, um einen zweiten machen zu können."
+—Sarnvax aus Gitaxias Forscherteam]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[« Votre première erreur était de croire que je vous laisserais vivre suffisamment longtemps pour en commettre une seconde. »
+—Sarnvax, sectif gitaxien]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA["Tu primer error fue pensar que te dejaría vivir lo suficiente como para cometer un segundo."
+—Sarnvax, sectivo gitáxico]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[「貴様の一つ目の過ちは、貴様が二つ目を犯せる程長く生きることを私が認めると思ったことだ。」
+――ギタクシア派の学官、サルンヴァクス]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA["Your first mistake was thinking I would let you live long enough to make a second."
+—Sarnvax, Gitaxian sective]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[«Твоей первой ошибкой было подумать, что я позволю тебе жить достаточно долго, чтобы совершить вторую ошибку».
+— Сарнвакс, джитаксианский сектив]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA["Seu primeiro erro foi pensar que eu o deixaria viver o bastante para cometer um segundo."
+— Sarnvax, seitor gitaxiano]]></LOCALISED_TEXT>
   </FLAVOURTEXT>
   <TYPE metaname="Instant" />
   <EXPANSION value="DPG" />

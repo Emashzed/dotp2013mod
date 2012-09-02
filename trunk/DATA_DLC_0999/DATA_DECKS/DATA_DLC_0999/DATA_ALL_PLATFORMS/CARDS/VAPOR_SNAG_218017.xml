@@ -18,15 +18,24 @@
   <ARTIST name="Raymond Swanland" />
   <CASTING_COST cost="{U}" />
   <FLAVOURTEXT>
-    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA["This creature is inadequate. Send it to the splicers for innovation."—Malcator, Executor of Synthesis]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA["Questa creatura è inadatta. Mandala ai giuntatori per rinnovarla."—Malcator, Esecutore della Sintesi]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[„Diese Kreatur ist unpassend. Schickt sie zur Überarbeitung zu den Spleißern."—Malcator, Vollstrecker der Synthese]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[« Cette créature est inadéquate. Envoyez-la aux épisseurs pour l'améliorer. »—Malcator, Exécuteur de Synthèse]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA["Esta criatura es inadecuada. Envíenla a los ensambladores para ser actualizada."—Malcator, ejecutor de síntesis]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[「この生物は未完成だ。 改良のため接合者に回せ。」――統合の実行者、マルカトール]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA["This creature is inadequate. Send it to the splicers for innovation."—Malcator, Executor of Synthesis]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[«Это существо неполноценно. Отправьте его приращивателям на усовершенствование».— Малкатор, Исполнитель Синтеза]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA["Esta criatura é inadequada. Enviem-na aos implantadores para inovação."— Malcator, Executor de Síntese]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA["This creature is inadequate. Send it to the splicers for innovation."
+—Malcator, Executor of Synthesis]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA["Questa creatura è inadatta. Mandala ai giuntatori per rinnovarla."
+—Malcator, Esecutore della Sintesi]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[„Diese Kreatur ist unpassend. Schickt sie zur Überarbeitung zu den Spleißern."
+—Malcator, Vollstrecker der Synthese]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[« Cette créature est inadéquate. Envoyez-la aux épisseurs pour l'améliorer. »
+—Malcator, Exécuteur de Synthèse]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA["Esta criatura es inadecuada. Envíenla a los ensambladores para ser actualizada."
+—Malcator, ejecutor de síntesis]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[「この生物は未完成だ。 改良のため接合者に回せ。」
+――統合の実行者、マルカトール]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA["This creature is inadequate. Send it to the splicers for innovation."
+—Malcator, Executor of Synthesis]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[«Это существо неполноценно. Отправьте его приращивателям на усовершенствование».
+— Малкатор, Исполнитель Синтеза]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA["Esta criatura é inadequada. Enviem-na aos implantadores para inovação."
+— Malcator, Executor de Síntese]]></LOCALISED_TEXT>
   </FLAVOURTEXT>
   <TYPE metaname="Instant" />
   <EXPANSION value="DPG" />

@@ -18,15 +18,24 @@
   <ARTIST name="Steve Argyle" />
   <CASTING_COST cost="{1}{W}" />
   <FLAVOURTEXT>
-    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA["What cannot be destroyed will be bound."—Oath of Avacyn]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA["Ciò che non può essere distrutto sarà costretto in schiavitù."—Giuramento di Avacyn]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[„Was nicht zerstört werden kann, wird gebunden."—Avacyns Eid]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[« Ce qui ne peut être détruit sera emprisonné. »—Serment d'Avacyn]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA["Lo que no puede ser destruido, será atado."—Juramento de Avacyn]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[「破壊し得ぬ物は縛られるであろう。」アヴァシンの誓約]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA["What cannot be destroyed will be bound."—Oath of Avacyn]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[«Что не может быть уничтожено, будет заковано».— Клятва Авацины]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA["O que não puder ser destruído será amarrado."— Juramento de Avacyn]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA["What cannot be destroyed will be bound."
+—Oath of Avacyn]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA["Ciò che non può essere distrutto sarà costretto in schiavitù."
+—Giuramento di Avacyn]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[„Was nicht zerstört werden kann, wird gebunden."
+—Avacyns Eid]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[« Ce qui ne peut être détruit sera emprisonné. »
+—Serment d'Avacyn]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA["Lo que no puede ser destruido, será atado."
+—Juramento de Avacyn]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[「破壊し得ぬ物は縛られるであろう。」
+アヴァシンの誓約]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA["What cannot be destroyed will be bound."
+—Oath of Avacyn]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[«Что не может быть уничтожено, будет заковано».
+— Клятва Авацины]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA["O que não puder ser destruído será amarrado."
+— Juramento de Avacyn]]></LOCALISED_TEXT>
   </FLAVOURTEXT>
   <TYPE metaname="Enchantment" />
   <SUB_TYPE metaname="Aura" order_de-DE="0" order_es-ES="0" order_fr-FR="0" order_it-IT="0" order_jp-JA="0" order_ko-KR="0" order_pt-BR="0" order_ru-RU="0" />

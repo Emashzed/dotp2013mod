@@ -18,15 +18,24 @@
   <ARTIST name="John Matson" />
   <CASTING_COST cost="{1}{U}{U}" />
   <FLAVOURTEXT>
-    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA["There are as many pillows of illusion as flakes in a snow-storm. We wake from one dream into another dream."—Ralph Waldo Emerson, "Illusions"]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA["Ci sono tanti cuscini di illusione quanti sono i fiocchi in una tempesta di neve. Ci svegliamo da un sogno per ritrovarci in un altro."—Ralph Waldo Emerson, "Illusioni"]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[„Illusionen dienen als Ruhekissen, und es gibt so viele wie Flocken in einem Schneesturm. Wir wachen aus einem Traum in den nächsten auf."—Ralph Waldo Emerson, „Illusionen"]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[« La crainte cherche le mal pour s'en affliger avant qu'il ne soit arrivé ; elle ne s'entretient que d'illusions et de fantômes. »—Antoine Gombaud, chevalier de Méré]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA["Hay tantas almohadas de ilusión como copos en una tormenta de nieve. Nos despertamos de un sueño a otro sueño."—Ralph Waldo Emerson, "Ilusiones"]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[この世界には吹雪の中の雪片と同じほどの幻影の床がある。 我々は一つの夢から覚めて別の夢に至るのだ。――ラルフ・ウォルド・エマーソン「幻想」]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA["There are as many pillows of illusion as flakes in a snow-storm. We wake from one dream into another dream."—Ralph Waldo Emerson, "Illusions"]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA["Иллюзий вокруг не меньше, чем хлопьев снега в метель. Просыпаясь, мы переходим из одного сна в другой".— Ральф Вальдо Эммерсон, "Иллюзии"]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA["Existem tantas almofadas de ilusão quanto flocos em uma nevasca. Nós acordamos de um sonho em outro."— Ralph Waldo Emerson, "Ilusões"]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA["There are as many pillows of illusion as flakes in a snow-storm. We wake from one dream into another dream."
+—Ralph Waldo Emerson, "Illusions"]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA["Ci sono tanti cuscini di illusione quanti sono i fiocchi in una tempesta di neve. Ci svegliamo da un sogno per ritrovarci in un altro."
+—Ralph Waldo Emerson, "Illusioni"]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[„Illusionen dienen als Ruhekissen, und es gibt so viele wie Flocken in einem Schneesturm. Wir wachen aus einem Traum in den nächsten auf."
+—Ralph Waldo Emerson, „Illusionen"]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[« La crainte cherche le mal pour s'en affliger avant qu'il ne soit arrivé ; elle ne s'entretient que d'illusions et de fantômes. »
+—Antoine Gombaud, chevalier de Méré]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA["Hay tantas almohadas de ilusión como copos en una tormenta de nieve. Nos despertamos de un sueño a otro sueño."
+—Ralph Waldo Emerson, "Ilusiones"]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[この世界には吹雪の中の雪片と同じほどの幻影の床がある。 我々は一つの夢から覚めて別の夢に至るのだ。
+――ラルフ・ウォルド・エマーソン「幻想」]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA["There are as many pillows of illusion as flakes in a snow-storm. We wake from one dream into another dream."
+—Ralph Waldo Emerson, "Illusions"]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA["Иллюзий вокруг не меньше, чем хлопьев снега в метель. Просыпаясь, мы переходим из одного сна в другой".
+— Ральф Вальдо Эммерсон, "Иллюзии"]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA["Existem tantas almofadas de ilusão quanto flocos em uma nevasca. Nós acordamos de um sonho em outro."
+— Ralph Waldo Emerson, "Ilusões"]]></LOCALISED_TEXT>
   </FLAVOURTEXT>
   <TYPE metaname="Creature" />
   <SUB_TYPE metaname="Illusion" order_de-DE="0" order_es-ES="0" order_fr-FR="0" order_it-IT="0" order_jp-JA="0" order_ko-KR="0" order_pt-BR="0" order_ru-RU="0" />
