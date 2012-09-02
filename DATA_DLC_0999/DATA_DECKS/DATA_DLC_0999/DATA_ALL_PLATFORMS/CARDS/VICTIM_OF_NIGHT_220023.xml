@@ -1,0 +1,84 @@
+<?xml version='1.0'?>
+<CARD_V2>
+  <FILENAME text="VICTIM_OF_NIGHT_220023" />
+  <CARDNAME text="VICTIM_OF_NIGHT" />
+  <TITLE>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Victim of Night]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Vittima della Notte]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Opfer der Nacht]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Victime de la nuit]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Víctima de la noche]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[夜の犠牲]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[Victim of Night]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Жертва Ночи]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Vítima da Noite]]></LOCALISED_TEXT>
+  </TITLE>
+  <MULTIVERSEID value="220023" />
+  <ARTID value="888220023" />
+  <ARTIST name="Winona Nelson" />
+  <CASTING_COST cost="{B}{B}" />
+  <FLAVOURTEXT>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA["Do not touch a drop. Not yet. I want to watch this so-called slayer's last crisis of faith."
+—Olivia Voldaren]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA["Non toccare neanche una goccia. Non ancora. Voglio guardare l'ultima crisi di fede di questo cosiddetto assassino."
+—Olivia Voldaren]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[„Berühre die Tropfen nicht. Noch nicht. Ich möchte die letzte Glaubenskrise dieses sogenannten Schlächters mit ansehen."
+—Olivia Voldaren]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[« Ne touchez pas une goutte. Pas encore. Je tiens à voir ce soi-disant tueur se remettre en question une ultime fois. »
+—Olivia Voldaren]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA["No toques una gota. No todavía. Quiero ver la última crisis de fe de este supuesto cazador."
+—Olivia Voldaren]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[「血に触っては駄目。 まだよ。 処刑者の最後の信仰の危機というのを見たいのよ。」
+――オリヴィア・ヴォルダーレン]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA["Do not touch a drop. Not yet. I want to watch this so-called slayer's last crisis of faith."
+—Olivia Voldaren]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[«Не трожь ни капли. Еще не время. Я хочу насладиться последним кризисом веры этого так называемого "истребителя"».
+— Оливия Волдарен]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA["Não toque nem uma gota. Não ainda. Eu quero assistir à última crise de fé desse suposto matador."
+— Olivia Voldaren]]></LOCALISED_TEXT>
+  </FLAVOURTEXT>
+  <TYPE metaname="Instant" />
+  <EXPANSION value="DPG" />
+  <RARITY metaname="C" />
+  <SPELL_ABILITY>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Destroy target non-Vampire, non-Werewolf, non-Zombie creature.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Distruggi una creatura non Vampiro, non Mannaro, non Zombie bersaglio.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Zerstöre eine Kreatur deiner Wahl, die weder ein Vampir noch ein Werwolf noch ein Zombie ist.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Détruisez la créature non-Vampire, non-Loup-garou, non-Zombie ciblée.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Destruye la criatura objetivo que no sea Vampiro, Licántropo o Zombie.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[吸血鬼でも狼男でもゾンビでもないクリーチャー１体を対象とし、それを破壊する。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[Destroy target non-Vampire, non-Werewolf, non-Zombie creature.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Уничтожьте целевое существо, не являющееся Вампиром, Вервольфом или Зомби.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Destrua a criatura alvo que não seja Vampiro, Lobisomem nem Zumbi.]]></LOCALISED_TEXT>
+    <TARGET_DEFINITION id="0">
+    local filter = Object():GetFilter()
+    filter:Clear()
+    filter:AddExtra( FILTER_EXTRA_FLIP_SUB_TYPES )
+    filter:AddSubType( CREATURE_TYPE_VAMPIRE )
+    filter:AddSubType( CREATURE_TYPE_WEREWOLF )
+    filter:AddSubType( CREATURE_TYPE_ZOMBIE )
+    filter:SetHint( HINT_ENEMY_ONLY, EffectController() )
+    filter:SetZone( ZONE_IN_PLAY )
+    </TARGET_DEFINITION>
+    <TARGET_DETERMINATION>
+    return AtLeastOneTargetFromDefinition(0)
+    </TARGET_DETERMINATION>
+    <PLAY_TIME_ACTION target_choosing="1">
+    EffectController():ChooseTarget( 0, "CARD_QUERY_CHOOSE_CREATURE_TO_DESTROY", EffectDC():Make_Targets(0) )
+    </PLAY_TIME_ACTION>
+    <RESOLUTION_TIME_ACTION ignore_filter="1">
+    local target = EffectDC():Get_Targets(0):Get_NthCardPtr(0)
+    if target ~= nil then   
+       target:Destroy()  
+    end
+    </RESOLUTION_TIME_ACTION>
+    <SFX text="TARGET_FANG_PLAY" />
+  </SPELL_ABILITY>
+  <AI_AVAILABILITY type="in_response" />
+  <AI_AVAILABILITY step="begin_combat" turn="their_turn" />
+  <AI_AVAILABILITY step="main_1" turn="my_turn" />
+  <AI_AVAILABILITY step="declare_attackers" turn="their_turn" />
+  <AI_AVAILABILITY step="declare_blockers" />
+  <AI_AVAILABILITY step="end_of_turn" />
+  <AI_BASE_SCORE score="1200" zone="ZONE_HAND" />
+</CARD_V2>
