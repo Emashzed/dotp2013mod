@@ -18,15 +18,24 @@
   <ARTIST name="Eric Deschamps" />
   <CASTING_COST cost="{1}{R}" />
   <FLAVOURTEXT>
-    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA["Kor armorers buy the scales and claws. Elf oracles buy the rest."—Nablus, North Hada trapper]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA["Gli armaioli kor comprano le scaglie e gli artigli. Gli oracoli elfici comprano il resto."—Nablus, trappolatore di Hada del Nord]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[„Kor-Rüstungsmeister kaufen die Schuppen und Krallen. Den Rest nehmen mir die Elfen-Orakel ab."—Nablus, Pelzjäger aus Nord-Hada]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[« Les armuriers kor achètent les écailles et les griffes. Les oracles elfes achètent le reste. »—Nablus, trappeur de Nord-Hada]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA["Los armeros kor compran las escamas y las garras. Los oráculos elfos compran el resto."—Nablus, trampero de Hada Norte]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[「こいつの鱗と爪はコーの鎧屋が買ってくれる。 残りはエルフの巫女が買うのさ。」――北ハーダの罠士、ナブルス]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA["Kor armorers buy the scales and claws. Elf oracles buy the rest."—Nablus, North Hada trapper]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[«Коры-оружейники покупают чешуйки и когти. Эльфийские оракулы покупают все остальное».— Наблус, капканщик из Северной Хады]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA["Os armeiros kor compram as escamas e as garras. Os oráculos élficos compram o restante."— Nablus, caçador de peles de Hada do Norte]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA["Kor armorers buy the scales and claws. Elf oracles buy the rest."
+—Nablus, North Hada trapper]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA["Gli armaioli kor comprano le scaglie e gli artigli. Gli oracoli elfici comprano il resto."
+—Nablus, trappolatore di Hada del Nord]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[„Kor-Rüstungsmeister kaufen die Schuppen und Krallen. Den Rest nehmen mir die Elfen-Orakel ab."
+—Nablus, Pelzjäger aus Nord-Hada]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[« Les armuriers kor achètent les écailles et les griffes. Les oracles elfes achètent le reste. »
+—Nablus, trappeur de Nord-Hada]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA["Los armeros kor compran las escamas y las garras. Los oráculos elfos compran el resto."
+—Nablus, trampero de Hada Norte]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[「こいつの鱗と爪はコーの鎧屋が買ってくれる。 残りはエルフの巫女が買うのさ。」
+――北ハーダの罠士、ナブルス]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA["Kor armorers buy the scales and claws. Elf oracles buy the rest."
+—Nablus, North Hada trapper]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[«Коры-оружейники покупают чешуйки и когти. Эльфийские оракулы покупают все остальное».
+— Наблус, капканщик из Северной Хады]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA["Os armeiros kor compram as escamas e as garras. Os oráculos élficos compram o restante."
+— Nablus, caçador de peles de Hada do Norte]]></LOCALISED_TEXT>
   </FLAVOURTEXT>
   <TYPE metaname="Creature" />
   <SUB_TYPE metaname="Insect" order_de-DE="0" order_es-ES="0" order_fr-FR="0" order_it-IT="0" order_jp-JA="0" order_ko-KR="0" order_pt-BR="0" order_ru-RU="0" />
@@ -36,12 +45,12 @@
   <TOUGHNESS value="1" />
   <STATIC_ABILITY>
     <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[First strike]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Attacco improvviso]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Erstschlag]]></LOCALISED_TEXT>
     <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Initiative]]></LOCALISED_TEXT>
     <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Daña primero.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Erstschlag]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Attacco improvviso]]></LOCALISED_TEXT>
     <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[先制攻撃]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[First strike]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[선제공격]]></LOCALISED_TEXT>
     <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Первый удар]]></LOCALISED_TEXT>
     <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Iniciativa]]></LOCALISED_TEXT>
     <CONTINUOUS_ACTION>
@@ -50,15 +59,15 @@
     </CONTINUOUS_ACTION>
   </STATIC_ABILITY>
   <TRIGGERED_ABILITY auto_skip="1" filter_zone="ZONE_IN_PLAY">
-    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Landfall — Whenever a land enters the battlefield under your control, Plated Geopede gets +2/+2 until end of turn.]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Terraferma — Ogniqualvolta una terra entra nel campo di battaglia sotto il tuo controllo, il Geopiede Corazzato prende +2/+2 fino alla fine del turno.]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Landung — Immer wenn ein Land unter deiner Kontrolle ins Spiel kommt, erhält der Gepanzerte Geoped +2/+2 bis zum Ende des Zuges.]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Toucheterre — À chaque fois qu'un terrain arrive sur le champ de bataille sous votre contrôle, le Géopède à plaques gagne +2/+2 jusqu'à la fin du tour.]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Aterrizaje — Siempre que una tierra entre al campo de batalla bajo tu control, el Geópodo laminado obtiene +2/+2 hasta el final del turno.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[|Landfall| — Whenever a land enters the battlefield under your control, Plated Geopede gets +2/+2 until end of turn.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[|Terraferma| — Ogniqualvolta una terra entra nel campo di battaglia sotto il tuo controllo, il Geopiede Corazzato prende +2/+2 fino alla fine del turno.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[|Landung| — Immer wenn ein Land unter deiner Kontrolle ins Spiel kommt, erhält der Gepanzerte Geoped +2/+2 bis zum Ende des Zuges.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[|Toucheterre| — À chaque fois qu'un terrain arrive sur le champ de bataille sous votre contrôle, le Géopède à plaques gagne +2/+2 jusqu'à la fin du tour.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[|Aterrizaje| — Siempre que una tierra entre al campo de batalla bajo tu control, el Geópodo laminado obtiene +2/+2 hasta el final del turno.]]></LOCALISED_TEXT>
     <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[上陸 ― 土地が１つあなたのコントロール下で戦場に出るたび、板金鎧の土百足はターン終了時まで＋２/＋２の修整を受ける。]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[Landfall — Whenever a land enters the battlefield under your control, Plated Geopede gets +2/+2 until end of turn.]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Землепад — Каждый раз, когда земля выходит на поле битвы под вашим контролем, Покрытая Броней Земленожка получает +2/+2 до конца хода.]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Aterragem — Toda vez que um terreno entra no campo de batalha sob o seu controle, Geopede Blindado recebe +2/+2 até o final do turno.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[|Landfall| — Whenever a land enters the battlefield under your control, Plated Geopede gets +2/+2 until end of turn.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[|Землепад| — Каждый раз, когда земля выходит на поле битвы под вашим контролем, Покрытая Броней Земленожка получает +2/+2 до конца хода.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[|Aterragem| — Toda vez que um terreno entra no campo de batalha sob o seu controle, Geopede Blindado recebe +2/+2 até o final do turno.]]></LOCALISED_TEXT>
     <TRIGGER value="ZONECHANGE_END" simple_qualifier="objectyoucontrol" to_zone="ZONE_IN_PLAY">
     return TriggerObject():GetCardType():Test( CARD_TYPE_LAND ) ~= 0
     </TRIGGER>

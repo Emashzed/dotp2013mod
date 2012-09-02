@@ -32,15 +32,15 @@
   <EXPANSION value="DPG" />
   <RARITY metaname="C" />
   <STATIC_ABILITY filter_zone="ZONE_IN_PLAY" active_zone="ZONE_HAND">
-    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Metalcraft — Stoic Rebuttal costs {1} less to cast if you control three or more artifacts.]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Metallurgia — Il Rifiuto Stoico costa {1} in meno per essere lanciato se controlli tre o più artefatti.]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Metallkunst — Stoische Zurückweisung kostet beim Wirken {1} weniger, falls du drei oder mehr Artefakte kontrollierst.]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Art des métaux — La Réfutation stoïque coûte {1} de moins à lancer si vous contrôlez au moins trois artefacts.]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Metalurgia — Cuesta {1} menos lanzar la Refutación estoica si controlas tres o más artefactos.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[|Metalcraft| — Stoic Rebuttal costs {1} less to cast if you control three or more artifacts.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[|Metallurgia| — Il Rifiuto Stoico costa {1} in meno per essere lanciato se controlli tre o più artefatti.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[|Metallkunst| — Stoische Zurückweisung kostet beim Wirken {1} weniger, falls du drei oder mehr Artefakte kontrollierst.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[|Art des métaux| — La Réfutation stoïque coûte {1} de moins à lancer si vous contrôlez au moins trois artefacts.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[|Metalurgia| — Cuesta {1} menos lanzar la Refutación estoica si controlas tres o más artefactos.]]></LOCALISED_TEXT>
     <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[金属術 ― あなたが３つ以上のアーティファクトをコントロールしている場合、冷静な反論を唱えるためのコストは{1}少なくなる。]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[Metalcraft — Stoic Rebuttal costs {1} less to cast if you control three or more artifacts.]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Работа по металлу — Разыгрывание Стоического Отпора стоит на {1} меньше, если вы контролируете не менее трех артефактов.]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Maestria com Metais — Contestação Estoica custará {1} a menos para ser conjurado se você controlar três ou mais artefatos.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[|Metalcraft| — Stoic Rebuttal costs {1} less to cast if you control three or more artifacts.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[|Работа по металлу| — Разыгрывание Стоического Отпора стоит на {1} меньше, если вы контролируете не менее трех артефактов.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[|Maestria com Metais| — Contestação Estoica custará {1} a menos para ser conjurado se você controlar três ou mais artefatos.]]></LOCALISED_TEXT>
     <CONTINUOUS_ACTION layer="8">
 	local total = 0
     local filter = Object():GetFilter()

@@ -43,15 +43,15 @@
     <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Explosão Galvânica causa 2 pontos de dano à criatura ou ao jogador alvo.]]></LOCALISED_TEXT>
   </SPELL_ABILITY>
   <SPELL_ABILITY>
-    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Metalcraft — Galvanic Blast deals 4 damage to that creature or player instead if you control three or more artifacts.]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Metallurgia — La Scarica Galvanica infligge invece 4 danni a quella creatura o a quel giocatore se controlli tre o più artefatti.]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Metallkunst — Der Elektrisierende Strahl fügt stattdessen dieser Kreatur oder diesem Spieler 4 Schadenspunkte zu, falls du drei oder mehr Artefakte kontrollierst.]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Art des métaux — La Salve zingante inflige 4 blessures à cette créature ou à ce joueur à la place si vous contrôlez au moins trois artefacts.]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Metalurgia — En vez de eso, la Ráfaga galvánica hace 4 puntos de daño a esa criatura o jugador si controlas tres o más artefactos.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[|Metalcraft| — Galvanic Blast deals 4 damage to that creature or player instead if you control three or more artifacts.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[|Metallurgia| — La Scarica Galvanica infligge invece 4 danni a quella creatura o a quel giocatore se controlli tre o più artefatti.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[|Metallkunst| — Der Elektrisierende Strahl fügt stattdessen dieser Kreatur oder diesem Spieler 4 Schadenspunkte zu, falls du drei oder mehr Artefakte kontrollierst.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[|Art des métaux| — La Salve zingante inflige 4 blessures à cette créature ou à ce joueur à la place si vous contrôlez au moins trois artefacts.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[|Metalurgia| — En vez de eso, la Ráfaga galvánica hace 4 puntos de daño a esa criatura o jugador si controlas tres o más artefactos.]]></LOCALISED_TEXT>
     <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[金属術 ― あなたが３つ以上のアーティファクトをコントロールしているかぎり、代わりに感電破はそのクリーチャーやプレイヤーに４点のダメージを与える。]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[Metalcraft — Galvanic Blast deals 4 damage to that creature or player instead if you control three or more artifacts.]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Работа по металлу — Вместо этого Гальванический Удар наносит 4 повреждения тому существу или игроку, если вы контролируете не менее трех артефактов.]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Maestria com Metais — Se você controlar três ou mais artefatos, em vez disso, Explosão Galvânica causará 4 pontos de dano àquela criatura ou àquele jogador.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[|Metalcraft| — Galvanic Blast deals 4 damage to that creature or player instead if you control three or more artifacts.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[|Работа по металлу| — Вместо этого Гальванический Удар наносит 4 повреждения тому существу или игроку, если вы контролируете не менее трех артефактов.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[|Maestria com Metais| — Se você controlar três ou mais artefatos, em vez disso, Explosão Galvânica causará 4 pontos de dano àquela criatura ou àquele jogador.]]></LOCALISED_TEXT>
     <TARGET_DEFINITION id="0">
     local filter = Object():GetFilter()
     filter:Clear()

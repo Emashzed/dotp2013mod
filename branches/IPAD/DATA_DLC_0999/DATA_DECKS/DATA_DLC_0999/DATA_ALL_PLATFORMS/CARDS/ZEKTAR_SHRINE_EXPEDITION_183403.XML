@@ -21,15 +21,15 @@
   <EXPANSION value="DPG" />
   <RARITY metaname="C" />
   <TRIGGERED_ABILITY auto_skip="1" filter_zone="ZONE_IN_PLAY">
-    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Landfall — Whenever a land enters the battlefield under your control, you may put a quest counter on Zektar Shrine Expedition.]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Terraferma — Ogniqualvolta una terra entra nel campo di battaglia sotto il tuo controllo, puoi mettere un segnalino ricerca sulla Spedizione al Santuario Zektar.]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Landung — Immer wenn ein Land unter deiner Kontrolle ins Spiel kommt, kannst du eine Quest-Marke auf die Expedition zum Zektar-Schrein legen.]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Toucheterre — À chaque fois qu'un terrain arrive sur le champ de bataille sous votre contrôle, vous pouvez mettre un marqueur « quête » sur l'Expédition du reliquaire de Zektar.]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Aterrizaje — Siempre que una tierra entre al campo de batalla bajo tu control, puedes poner un contador de búsqueda sobre la Expedición al altar Zektar.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[|Landfall| — Whenever a land enters the battlefield under your control, you may put a quest counter on Zektar Shrine Expedition.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[|Terraferma| — Ogniqualvolta una terra entra nel campo di battaglia sotto il tuo controllo, puoi mettere un segnalino ricerca sulla Spedizione al Santuario Zektar.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[|Landung| — Immer wenn ein Land unter deiner Kontrolle ins Spiel kommt, kannst du eine Quest-Marke auf die Expedition zum Zektar-Schrein legen.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[|Toucheterre| — À chaque fois qu'un terrain arrive sur le champ de bataille sous votre contrôle, vous pouvez mettre un marqueur « quête » sur l'Expédition du reliquaire de Zektar.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[|Aterrizaje| — Siempre que una tierra entre al campo de batalla bajo tu control, puedes poner un contador de búsqueda sobre la Expedición al altar Zektar.]]></LOCALISED_TEXT>
     <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[上陸 ― 土地が１つあなたのコントロール下で戦場に出るたび、あなたはゼクター祭殿の探検の上に探索カウンターを１個置いてもよい。]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[Landfall — Whenever a land enters the battlefield under your control, you may put a quest counter on Zektar Shrine Expedition.]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Землепад — Каждый раз, когда земля выходит на поле битвы под вашим контролем, вы можете положить жетон странствий на Экспедицию к Зектарской Святыне.]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Aterragem — Toda vez que um terreno entra no campo de batalha sob o seu controle, você pode colocar um marcador de busca em Expedição ao Santuário de Zektar.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[|Landfall| — Whenever a land enters the battlefield under your control, you may put a quest counter on Zektar Shrine Expedition.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[|Землепад| — Каждый раз, когда земля выходит на поле битвы под вашим контролем, вы можете положить жетон странствий на Экспедицию к Зектарской Святыне.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[|Aterragem| — Toda vez que um terreno entra no campo de batalha sob o seu controle, você pode colocar um marcador de busca em Expedição ao Santuário de Zektar.]]></LOCALISED_TEXT>
     <TRIGGER value="ZONECHANGE_END" simple_qualifier="objectyoucontrol" to_zone="ZONE_IN_PLAY">
     return TriggerObject():GetCardType():Test( CARD_TYPE_LAND ) ~= 0
     </TRIGGER>

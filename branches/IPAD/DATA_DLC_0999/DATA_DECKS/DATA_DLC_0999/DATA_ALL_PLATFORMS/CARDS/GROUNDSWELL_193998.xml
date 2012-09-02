@@ -75,15 +75,15 @@
     <DURATION simple_duration="UntilEOT" />
   </SPELL_ABILITY>
   <SPELL_ABILITY>
-    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Landfall — If you had a land enter the battlefield under your control this turn, that creature gets +4/+4 until end of turn instead.]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Terraferma — Se hai fatto entrare nel campo di battaglia una terra sotto il tuo controllo in questo turno, quella creatura prende invece +4/+4 fino alla fine del turno.]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Landung — Falls ein Land unter deiner Kontrolle in diesem Zug ins Spiel gekommen ist, erhält diese Kreatur stattdessen +4/+4 bis zum Ende des Zuges.]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Toucheterre — Si vous avez fait arriver un terrain sur le champ de bataille sous votre contrôle ce tour-ci, cette créature gagne +4/+4 jusqu'à la fin du tour à la place.]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Aterrizaje — Si una tierra entró al campo de batalla bajo tu control este turno, en vez de eso, esa criatura obtiene +4/+4 hasta el final del turno.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[|Landfall| — If you had a land enter the battlefield under your control this turn, that creature gets +4/+4 until end of turn instead.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[|Terraferma| — Se hai fatto entrare nel campo di battaglia una terra sotto il tuo controllo in questo turno, quella creatura prende invece +4/+4 fino alla fine del turno.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[|Landung| — Falls ein Land unter deiner Kontrolle in diesem Zug ins Spiel gekommen ist, erhält diese Kreatur stattdessen +4/+4 bis zum Ende des Zuges.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[|Toucheterre| — Si vous avez fait arriver un terrain sur le champ de bataille sous votre contrôle ce tour-ci, cette créature gagne +4/+4 jusqu'à la fin du tour à la place.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[|Aterrizaje| — Si una tierra entró al campo de batalla bajo tu control este turno, en vez de eso, esa criatura obtiene +4/+4 hasta el final del turno.]]></LOCALISED_TEXT>
     <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[上陸 ― このターン、あなたのコントロール下で土地が戦場に出ている場合、代わりにそのクリーチャーはターン終了時まで＋４/＋４の修整を受ける。]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[Landfall - If you had a land enter the battlefield under your control this turn, that creature gets +4/+4 until end of turn instead.]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Землепад — Если земля вышла на поле битвы под вашим контролем в этом ходу, то вместо этого то существо получает +4/+4 до конца хода.]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Aterragem — Se você teve um terreno que entrou no campo de batalha sob o seu controle neste turno, em vez disso, aquela criatura recebe +4/+4 até o final do turno.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[|Landfall| - If you had a land enter the battlefield under your control this turn, that creature gets +4/+4 until end of turn instead.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[|Землепад| — Если земля вышла на поле битвы под вашим контролем в этом ходу, то вместо этого то существо получает +4/+4 до конца хода.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[|Aterragem| — Se você teve um terreno que entrou no campo de batalha sob o seu controle neste turno, em vez disso, aquela criatura recebe +4/+4 até o final do turno.]]></LOCALISED_TEXT>
   </SPELL_ABILITY>
   <AI_AVAILABILITY step="declare_blockers" />
   <AI_AVAILABILITY type="in_response_dangerous" />

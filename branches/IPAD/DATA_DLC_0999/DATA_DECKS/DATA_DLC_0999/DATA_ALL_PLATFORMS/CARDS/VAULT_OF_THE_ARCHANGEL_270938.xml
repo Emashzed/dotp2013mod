@@ -18,15 +18,24 @@
   <ARTIST name="John Avon" />
   <CASTING_COST cost="" />
   <FLAVOURTEXT>
-    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA["For centuries my creation kept this world in balance. Now only her shadow remains."—Sorin Markov]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA["Per secoli la mia creazione ha mantenuto in equilibrio questo mondo. Ora rimane solo la sua ombra."—Sorin Markov]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[„Über Jahrhunderte hinweg hielt meine Kreation diese Welt im Gleichgewicht. Doch jetzt ist nur noch ihr Schatten da."—Sorin Markov]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[« Pendant des siècles, ma création a maintenu l'équilibre de ce monde. Désormais, seule son ombre subsiste. »—Sorin Markov]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA["Por siglos mi creación mantuvo este mundo en equilibrio. Ahora solo queda su sombra."—Sorin Markov]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[「何世紀もの間、我が造物はこの世界の均衡を保ってきた。今では彼女の影が残るのみだ。」――ソリン・マルコフ]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA["나의 피조물은 몇 백 년 동안 이 세상의 균형을 유지했지만 이제는 그녀의 그림자만이 남아있군."—소린 마르코프]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[«Веками мое творение держало этот мир в равновесии. Теперь от нее осталась лишь тень».— Сорин Марков]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA["Durante séculos, minha criação manteve este mundo em equilíbrio. Agora, resta apenas sua sombra."— Sorin Markov]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA["For centuries my creation kept this world in balance. Now only her shadow remains."
+—Sorin Markov]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA["Per secoli la mia creazione ha mantenuto in equilibrio questo mondo. Ora rimane solo la sua ombra."
+—Sorin Markov]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[„Über Jahrhunderte hinweg hielt meine Kreation diese Welt im Gleichgewicht. Doch jetzt ist nur noch ihr Schatten da."
+—Sorin Markov]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[« Pendant des siècles, ma création a maintenu l'équilibre de ce monde. Désormais, seule son ombre subsiste. »
+—Sorin Markov]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA["Por siglos mi creación mantuvo este mundo en equilibrio. Ahora solo queda su sombra."
+—Sorin Markov]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[「何世紀もの間、我が造物はこの世界の均衡を保ってきた。今では彼女の影が残るのみだ。」
+――ソリン・マルコフ]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA["나의 피조물은 몇 백 년 동안 이 세상의 균형을 유지했지만 이제는 그녀의 그림자만이 남아있군."
+—소린 마르코프]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[«Веками мое творение держало этот мир в равновесии. Теперь от нее осталась лишь тень».
+— Сорин Марков]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA["Durante séculos, minha criação manteve este mundo em equilíbrio. Agora, resta apenas sua sombra."
+— Sorin Markov]]></LOCALISED_TEXT>
   </FLAVOURTEXT>
   <TYPE metaname="Land" />
   <EXPANSION value="DPG" />

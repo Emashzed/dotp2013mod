@@ -18,15 +18,24 @@
   <ARTIST name="Una Fricker" />
   <CASTING_COST cost="" />
   <FLAVOURTEXT>
-    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA["The land promises nothing and keeps its promise."—Oracle en-Vec]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA["The land promises nothing and keeps its promise."—Oracle en-Vec]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA["Das Land verspricht nichts und es hält dieses Versprechen.“ -Das Orakel en-Vec]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA["The land promises nothing and keeps its promise."—Oracle en-Vec]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA["The land promises nothing and keeps its promise."—Oracle en-Vec]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA["The land promises nothing and keeps its promise."—Oracle en-Vec]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA["The land promises nothing and keeps its promise."—Oracle en-Vec]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA["The land promises nothing and keeps its promise."—Oracle en-Vec]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA["The land promises nothing and keeps its promise."—Oracle en-Vec]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA["The land promises nothing and keeps its promise."
+—Oracle en-Vec]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA["The land promises nothing and keeps its promise."
+—Oracle en-Vec]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA["Das Land verspricht nichts und es hält dieses Versprechen.“ 
+-Das Orakel en-Vec]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA["The land promises nothing and keeps its promise."
+—Oracle en-Vec]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA["The land promises nothing and keeps its promise."
+—Oracle en-Vec]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA["The land promises nothing and keeps its promise."
+—Oracle en-Vec]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA["The land promises nothing and keeps its promise."
+—Oracle en-Vec]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA["The land promises nothing and keeps its promise."
+—Oracle en-Vec]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA["The land promises nothing and keeps its promise."
+—Oracle en-Vec]]></LOCALISED_TEXT>
   </FLAVOURTEXT>
   <TYPE metaname="Land" />
   <EXPANSION value="DPG" />

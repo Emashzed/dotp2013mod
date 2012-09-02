@@ -18,15 +18,24 @@
   <ARTIST name="Chippy" />
   <CASTING_COST cost="{U/P}" />
   <FLAVOURTEXT>
-    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA["My flesh holds no secrets, monster. The spirit of Mirrodin will fight on."—Vy Covalt, Mirran resistance]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA["La mia carne non ha segreti, mostro. Lo spirito di Mirrodin continuerà a lottare."—Vy Covalt, resistenza Mirran]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[„Mein Fleisch verbirgt keine Geheimnisse, du Monster. Der Geist von Mirrodin wird weiterkämpfen."—Vy Covalt, Mirran-Widerständler]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[« Ma chair ne dissimule aucun secret, monstre. L'esprit de Mirrodin continuera la lutte. »—Vy Covalt, résistance mirrane]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA["Mi carne no esconde secretos, monstruo. El espíritu de Mirrodin seguirá luchando."—Vy Covalt, resistencia mirrodiana]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[「私の肉体に秘密など無いぞ、怪物めが。 戦い続けるのはミラディンの魂だ。」――ミラディン人の抵抗勢力、ヴァイ・コヴァルト]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA["My flesh holds no secrets, monster. The spirit of Mirrodin will fight on."—Vy Covalt, Mirran resistance]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[«Моя плоть не таит секретов, чудовище. Дух Мирродина будет продолжать борьбу».— Вай Ковальт, мирродинское сопротивление]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA["Minha carne não tem segredos, monstro. O espírito de Mirrodin continuará lutando."— Vy Covalt, resistência mirraniana]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA["My flesh holds no secrets, monster. The spirit of Mirrodin will fight on."
+—Vy Covalt, Mirran resistance]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA["La mia carne non ha segreti, mostro. Lo spirito di Mirrodin continuerà a lottare."
+—Vy Covalt, resistenza Mirran]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[„Mein Fleisch verbirgt keine Geheimnisse, du Monster. Der Geist von Mirrodin wird weiterkämpfen."
+—Vy Covalt, Mirran-Widerständler]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[« Ma chair ne dissimule aucun secret, monstre. L'esprit de Mirrodin continuera la lutte. »
+—Vy Covalt, résistance mirrane]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA["Mi carne no esconde secretos, monstruo. El espíritu de Mirrodin seguirá luchando."
+—Vy Covalt, resistencia mirrodiana]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[「私の肉体に秘密など無いぞ、怪物めが。 戦い続けるのはミラディンの魂だ。」
+――ミラディン人の抵抗勢力、ヴァイ・コヴァルト]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA["My flesh holds no secrets, monster. The spirit of Mirrodin will fight on."
+—Vy Covalt, Mirran resistance]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[«Моя плоть не таит секретов, чудовище. Дух Мирродина будет продолжать борьбу».
+— Вай Ковальт, мирродинское сопротивление]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA["Minha carne não tem segredos, monstro. O espírito de Mirrodin continuará lutando."
+— Vy Covalt, resistência mirraniana]]></LOCALISED_TEXT>
   </FLAVOURTEXT>
   <TYPE metaname="Sorcery" />
   <EXPANSION value="DPG" />

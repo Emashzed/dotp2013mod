@@ -1,0 +1,73 @@
+<?xml version='1.0'?>
+<CARD_V2>
+  <FILENAME text="BLUE_SUNS_ZENITH_221556" />
+  <CARDNAME text="BLUE_SUNS_ZENITH" />
+  <TITLE>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Blue Sun's Zenith]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Zenit del Sole Blu]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Zenit der Blauen Sonne]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Zénith de Bleusoleil]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Cenit del sol azul]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[青の太陽の頂点]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[Blue Sun's Zenith]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Зенит Синего Солнца]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Zênite do Sol Azul]]></LOCALISED_TEXT>
+  </TITLE>
+  <MULTIVERSEID value="221556" />
+  <ARTID value="888221556" />
+  <ARTIST name="Izzy" />
+  <CASTING_COST cost="{X}{U}{U}{U}" />
+  <FLAVOURTEXT>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA["The Origin Query will wait. We must ensure we survive to return to it."
+—Pelyus, vedalken ordinar]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA["Il Quesito dell'Origine attenderà. Dobbiamo assicurarci di sopravvivere per ritornare ad esso."
+—Pelyus, ordinario vedalken]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[„Die Ursprungsfrage muss warten. Wir müssen erst unser Überleben sichern, um auf sie zurückkommen zu können."
+—Pelyus, Vedalkenordinar]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[« La Demande Originelle devra attendre. Nous devons assurer notre survie afin de reprendre son étude. »
+—Pelyus, ordinar vedalken]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA["La Búsqueda del Origen esperará. Debemos asegurarnos de que sobreviviremos para volver a ocuparnos de ella."
+—Pelyus, ordinal vedalken]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[「原初の疑念は待っている。 我々は生き残ってそこへと戻る事を確かにせねばならぬ。」
+――ヴィダルケンのオーディナー、ペリュス]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA["The Origin Query will wait. We must ensure we survive to return to it."
+—Pelyus, vedalken ordinar]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[«Вопрос о Происхождении подождет. Мы должны позаботиться о нашем выживании, чтобы потом к нему вернуться».
+— Пелиус, ведалкенский ординарий]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA["A Busca pela Origem aguardará. Precisamos garantir nossa sobrevivência para voltar a ela."
+— Pelyus, ordinar vedalkeano]]></LOCALISED_TEXT>
+  </FLAVOURTEXT>
+  <TYPE metaname="Instant" />
+  <EXPANSION value="DPG" />
+  <RARITY metaname="R" />
+  <SPELL_ABILITY filter_zone="ZONE_IN_PLAY">
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Target player draws X cards. Shuffle Blue Sun's Zenith into its owner's library.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Un giocatore bersaglio pesca X carte. Rimescola lo Zenit del Sole Blu nel grimorio del suo proprietario.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Ein Spieler deiner Wahl zieht X Karten. Mische den Zenit der Blauen Sonne in die Bibliothek seines Besitzers.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Le joueur ciblé pioche X cartes. Mélangez le Zénith de Bleusoleil dans la bibliothèque de son propriétaire.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[El jugador objetivo roba X cartas. Baraja el Cenit del sol azul en la biblioteca de su propietario.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[プレイヤー１人を対象とする。そのプレイヤーはカードをＸ枚引く。 青の太陽の頂点をオーナーのライブラリーに加えて切り直す。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[Target player draws X cards. Shuffle Blue Sun's Zenith into its owner's library.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Целевой игрок берет X карт. Втасуйте Зенит Синего Солнца в библиотеку его владельца.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[O jogador alvo compra X cards. Embaralhe Zênite do Sol Azul no grimório de seu dono.]]></LOCALISED_TEXT>
+    <TARGET_DEFINITION id="0">
+    local filter = Object():GetFilter()
+    filter:Clear()
+    filter:SetFilterType( FILTER_TYPE_PLAYERS )
+    filter:SetHint( HINT_ALLIED, EffectController() )
+    </TARGET_DEFINITION>
+    <TARGET_DETERMINATION>
+    return AtLeastOneTargetFromDefinition(0)
+    </TARGET_DETERMINATION>
+    <PLAY_TIME_ACTION target_choosing="1">
+    EffectController():ChooseTarget( 0, "CARD_QUERY_CHOOSE_PLAYER_DRAW_CARDS", EffectDC():Make_Targets(0) )
+    </PLAY_TIME_ACTION>
+    <RESOLUTION_TIME_ACTION>
+    local target = EffectDC():Get_Targets(0):Get_PlayerPtr(0)
+    PlayerDrawCards( target, GetEffectX() )
+    </RESOLUTION_TIME_ACTION>
+    <RESOLUTION_TIME_ACTION>
+    Object():SetResolutionZone(ZONE_LIBRARY)
+    </RESOLUTION_TIME_ACTION>
+  </SPELL_ABILITY>
+</CARD_V2>

@@ -18,15 +18,24 @@
   <ARTIST name="Anthony Francisco" />
   <CASTING_COST cost="{1}{U}" />
   <FLAVOURTEXT>
-    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA["Urabrask may suspect our surveillance, but he cannot stop it."—Avaricta, Gitaxian sective]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA["Urabrask può sospettare che lo sorvegliamo, ma non può impedirlo."—Avaricta, settaria Gitaxian]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[„Urabrask kann unsere Überwachung ahnen, aber sie nicht aufhalten."—Avaricta aus Gitaxias Forscherteam]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[« Urabrask soupçonne peut-être notre surveillance, mais il ne peut rien y faire. »—Avaricta, sective gitaxienne]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA["Úrabrask puede sospechar que lo vigilamos, pero no puede detenernos."—Avaricta, sectivo gitáxico]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[「ウラブラスクは我々の監視を怪しむかもしれないが、止められはすまい。」――ギタクシア派の学官、アヴァリクタ]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA["Urabrask may suspect our surveillance, but he cannot stop it."—Avaricta, Gitaxian sective]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[«Урабраск может заподозрить нашу слежку, но он не может ее остановить».— Аварикта, джитаксианский сектив]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA["Urabrask pode suspeitar de nossa vigilância, mas não pode impedi-la."— Avaricta, seitora gitaxiana]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA["Urabrask may suspect our surveillance, but he cannot stop it."
+—Avaricta, Gitaxian sective]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA["Urabrask può sospettare che lo sorvegliamo, ma non può impedirlo."
+—Avaricta, settaria Gitaxian]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[„Urabrask kann unsere Überwachung ahnen, aber sie nicht aufhalten."
+—Avaricta aus Gitaxias Forscherteam]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[« Urabrask soupçonne peut-être notre surveillance, mais il ne peut rien y faire. »
+—Avaricta, sective gitaxienne]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA["Úrabrask puede sospechar que lo vigilamos, pero no puede detenernos."
+—Avaricta, sectivo gitáxico]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[「ウラブラスクは我々の監視を怪しむかもしれないが、止められはすまい。」
+――ギタクシア派の学官、アヴァリクタ]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA["Urabrask may suspect our surveillance, but he cannot stop it."
+—Avaricta, Gitaxian sective]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[«Урабраск может заподозрить нашу слежку, но он не может ее остановить».
+— Аварикта, джитаксианский сектив]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA["Urabrask pode suspeitar de nossa vigilância, mas não pode impedi-la."
+— Avaricta, seitora gitaxiana]]></LOCALISED_TEXT>
   </FLAVOURTEXT>
   <TYPE metaname="Creature" />
   <SUB_TYPE metaname="Human" order_de-DE="0" order_es-ES="0" order_fr-FR="0" order_it-IT="0" order_jp-JA="0" order_ko-KR="0" order_pt-BR="0" order_ru-RU="0" />

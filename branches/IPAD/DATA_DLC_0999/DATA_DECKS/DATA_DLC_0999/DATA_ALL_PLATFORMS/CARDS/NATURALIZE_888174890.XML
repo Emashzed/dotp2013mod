@@ -18,15 +18,24 @@
   <ARTIST name="Trevor Hairsine" />
   <CASTING_COST cost="{1}{G}" />
   <FLAVOURTEXT>
-    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA["Well, it also makes a very nice flower pot. . . ."—Arcum Dagsson, Soldevi machinist]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA["E inoltre è anche un magnifico vaso per i fiori. . . ."—Arcum Dagsson, macchinista di Soldevi]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[„Nun, man kann auch einen schönen Blumentopf daraus machen ..."—Arcum Dagsson, Soldevischer Maschinist]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[« Au moins, c'est un joli pot de fleurs . . . »—Arcum Dagsson, machiniste soldevi]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA["Bueno, también podría ser un lindo florero. . . ."—Arcum Dagsson, mecánico soldevi]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[まあ、なかなかの花瓶にはなるだろうな … … 。――ソルデヴィの機械魔術師、アーカム・ダグスン]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA["어디 보자, 이것도 아주 멋진 화분이 되겠구먼 . . ."—아컴 다그슨, 솔데비 기계공]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA["Что же, из него выйдет неплохой цветочный горшок . . ."— Аркум Дагссон, сольдевский машинист]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA["Bom, ele também serve como um lindo vaso de flores. . . ."— Arcum Dagsson, maquinista Soldeviano]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA["Well, it also makes a very nice flower pot. . . ."
+—Arcum Dagsson, Soldevi machinist]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA["E inoltre è anche un magnifico vaso per i fiori. . . ."
+—Arcum Dagsson, macchinista di Soldevi]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[„Nun, man kann auch einen schönen Blumentopf daraus machen ..."
+—Arcum Dagsson, Soldevischer Maschinist]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[« Au moins, c'est un joli pot de fleurs . . . »
+—Arcum Dagsson, machiniste soldevi]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA["Bueno, también podría ser un lindo florero. . . ."
+—Arcum Dagsson, mecánico soldevi]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[まあ、なかなかの花瓶にはなるだろうな … … 。
+――ソルデヴィの機械魔術師、アーカム・ダグスン]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA["어디 보자, 이것도 아주 멋진 화분이 되겠구먼 . . ."
+—아컴 다그슨, 솔데비 기계공]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA["Что же, из него выйдет неплохой цветочный горшок . . ."
+— Аркум Дагссон, сольдевский машинист]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA["Bom, ele também serve como um lindo vaso de flores. . . ."
+— Arcum Dagsson, maquinista Soldeviano]]></LOCALISED_TEXT>
   </FLAVOURTEXT>
   <TYPE metaname="Instant" />
   <EXPANSION value="DPG" />

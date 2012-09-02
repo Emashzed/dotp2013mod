@@ -18,15 +18,24 @@
   <ARTIST name="Dave Kendall" />
   <CASTING_COST cost="{G/P}" />
   <FLAVOURTEXT>
-    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA["Sympathy is for weaklings. Whoever survives, wins."—Benzir, archdruid of Temple Might]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA["La compassione è per gli smidollati. Chiunque sopravviva, vince."—Benzir, arcidruido del Tempio Possente]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[„Sympathie ist etwas für Schwächlinge. Wer überlebt, der gewinnt."—Benzir, Erzdruide des Macht-Tempels]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[« La sympathie est pour les faibles. La victoire appartient aux survivants. »—Benzir, archidruide du Temple de la Prépotence]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA["La simpatía es para los débiles. El que sobrevive, gana."—Benzir, archidruida del Templo del Poder]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[「同情など弱者のものだ。 生き残った者が勝つのだ。」――力の寺院の大ドルイド、ベンジア]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA["Sympathy is for weaklings. Whoever survives, wins."—Benzir, archdruid of Temple Might]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[«Сочувствие — для слабаков. Побеждает тот, кто сумел выжить».— Бензир, архидруид Храма Могучести]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA["A compaixão é para os fracos. Quem sobreviver, vence."— Benzir, arqueodruida do Templo do Poder]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA["Sympathy is for weaklings. Whoever survives, wins."
+—Benzir, archdruid of Temple Might]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA["La compassione è per gli smidollati. Chiunque sopravviva, vince."
+—Benzir, arcidruido del Tempio Possente]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[„Sympathie ist etwas für Schwächlinge. Wer überlebt, der gewinnt."
+—Benzir, Erzdruide des Macht-Tempels]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[« La sympathie est pour les faibles. La victoire appartient aux survivants. »
+—Benzir, archidruide du Temple de la Prépotence]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA["La simpatía es para los débiles. El que sobrevive, gana."
+—Benzir, archidruida del Templo del Poder]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[「同情など弱者のものだ。 生き残った者が勝つのだ。」
+――力の寺院の大ドルイド、ベンジア]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA["Sympathy is for weaklings. Whoever survives, wins."
+—Benzir, archdruid of Temple Might]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[«Сочувствие — для слабаков. Побеждает тот, кто сумел выжить».
+— Бензир, архидруид Храма Могучести]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA["A compaixão é para os fracos. Quem sobreviver, vence."
+— Benzir, arqueodruida do Templo do Poder]]></LOCALISED_TEXT>
   </FLAVOURTEXT>
   <TYPE metaname="Instant" />
   <EXPANSION value="DPG" />

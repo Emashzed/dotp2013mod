@@ -36,15 +36,15 @@
   <POWER value="2" />
   <TOUGHNESS value="2" />
   <STATIC_ABILITY>
-    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Metalcraft — Snapsail Glider has flying as long as you control three or more artifacts.]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Metallurgia — L'Aliante con Vele a Scatto ha volare fintanto che controlli tre o più artefatti.]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Metallkunst — Der Klappsegelgleiter hat Flugfähigkeit, solange du drei oder mehr Artefakte kontrollierst.]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Art des métaux — Le Planeur claquevoile a le vol tant que vous contrôlez au moins trois artefacts.]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Metalurgia — El Deslizador velachasquido tiene la habilidad de volar mientras controles tres o más artefactos.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[|Metalcraft| — Snapsail Glider has flying as long as you control three or more artifacts.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[|Metallurgia| — L'Aliante con Vele a Scatto ha volare fintanto che controlli tre o più artefatti.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[|Metallkunst| — Der Klappsegelgleiter hat Flugfähigkeit, solange du drei oder mehr Artefakte kontrollierst.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[|Art des métaux| — Le Planeur claquevoile a le vol tant que vous contrôlez au moins trois artefacts.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[|Metalurgia| — El Deslizador velachasquido tiene la habilidad de volar mientras controles tres o más artefactos.]]></LOCALISED_TEXT>
     <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[金属術 ― 嵌め乗りの滑空者は、あなたが３つ以上のアーティファクトをコントロールしているかぎり飛行を持つ。]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[Metalcraft — Snapsail Glider has flying as long as you control three or more artifacts.]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Работа по металлу — Летяга Щелкающих Парусов имеет Полет, пока вы контролируете не менее трех артефактов.]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Maestria com Metais — Planador de Aerovelas terá voar enquanto você controlar três ou mais artefatos.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[|Metalcraft| — Snapsail Glider has flying as long as you control three or more artifacts.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[|Работа по металлу| — Летяга Щелкающих Парусов имеет Полет, пока вы контролируете не менее трех артефактов.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[|Maestria com Metais| — Planador de Aerovelas terá voar enquanto você controlar três ou mais artefatos.]]></LOCALISED_TEXT>
     <CONTINUOUS_ACTION layer="6">
 	local total = 0
     local filter = Object():GetFilter()

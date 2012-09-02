@@ -18,15 +18,24 @@
   <ARTIST name="Sandra Everingham" />
   <CASTING_COST cost="{0}" />
   <FLAVOURTEXT>
-    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA["I will go to any length to achieve my goal. Eternal life is worth any sacrifice."—Zur the Enchanter]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA["I will go to any length to achieve my goal. Eternal life is worth any sacrifice."—Zur the Enchanter]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA["Ich werde alles tun, um mein Ziel zu erreichen. Ewiges Leben ist jedes Opfer wert.“ -Zur, der Verzauberer]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA["I will go to any length to achieve my goal. Eternal life is worth any sacrifice."—Zur the Enchanter]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA["I will go to any length to achieve my goal. Eternal life is worth any sacrifice."—Zur the Enchanter]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA["I will go to any length to achieve my goal. Eternal life is worth any sacrifice."—Zur the Enchanter]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA["I will go to any length to achieve my goal. Eternal life is worth any sacrifice."—Zur the Enchanter]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA["I will go to any length to achieve my goal. Eternal life is worth any sacrifice."—Zur the Enchanter]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA["I will go to any length to achieve my goal. Eternal life is worth any sacrifice."—Zur the Enchanter]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA["I will go to any length to achieve my goal. Eternal life is worth any sacrifice."
+—Zur the Enchanter]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA["I will go to any length to achieve my goal. Eternal life is worth any sacrifice."
+—Zur the Enchanter]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA["Ich werde alles tun, um mein Ziel zu erreichen. Ewiges Leben ist jedes Opfer wert.“ 
+-Zur, der Verzauberer]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA["I will go to any length to achieve my goal. Eternal life is worth any sacrifice."
+—Zur the Enchanter]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA["I will go to any length to achieve my goal. Eternal life is worth any sacrifice."
+—Zur the Enchanter]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA["I will go to any length to achieve my goal. Eternal life is worth any sacrifice."
+—Zur the Enchanter]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA["I will go to any length to achieve my goal. Eternal life is worth any sacrifice."
+—Zur the Enchanter]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA["I will go to any length to achieve my goal. Eternal life is worth any sacrifice."
+—Zur the Enchanter]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA["I will go to any length to achieve my goal. Eternal life is worth any sacrifice."
+—Zur the Enchanter]]></LOCALISED_TEXT>
   </FLAVOURTEXT>
   <TYPE metaname="Artifact" />
   <EXPANSION value="DPG" />
