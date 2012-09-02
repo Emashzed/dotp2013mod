@@ -1,0 +1,101 @@
+﻿<?xml version='1.0'?>
+<CARD_V2>
+  <FILENAME text="SKIRSDAG_HIGH_PRIEST_230794" />
+  <CARDNAME text="SKIRSDAG_HIGH_PRIEST" />
+  <TITLE>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Skirsdag High Priest]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Sommo Sacerdote Skirsdag]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Skirsdag-Hohepriester]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Grand prêtre de Skirsdag]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Gran sacerdote Skirsdag]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[スカースダグの高僧]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[Skirsdag High Priest]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Верховный Жрец Скирдага]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Alto Sacerdote Skirsdag]]></LOCALISED_TEXT>
+  </TITLE>
+  <MULTIVERSEID value="230794" />
+  <ARTID value="888230794" />
+  <ARTIST name="Jason A. Engle" />
+  <CASTING_COST cost="{1}{B}" />
+  <FLAVOURTEXT>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[“Thraben’s pleas fall on deaf ears. Ours do not.”]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[“Le preghiere di Thraben rimangono inascoltate. Ma non le nostre.”]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[„Thrabens Flehen stößt auf taube Ohren. Unseres nicht.”]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[« Les supplications de Thraben sont vaines. Pas les nôtres. »]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[“Las súplicas de Thraben caen en oídos sordos. Las nuestras, no.”]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[「スレイベンの嘆願は、聞こえぬ耳には届かぬ。 我々のは届く。」]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[“Thraben’s pleas fall on deaf ears. Ours do not.”]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[«Мольбы Трейбена остаются неуслышанными. В отличие от наших».]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[“As súplicas de Thraben atingem apenas ouvidos surdos. As nossas não.”]]></LOCALISED_TEXT>
+  </FLAVOURTEXT>
+  <TYPE metaname="Creature" />
+  <SUB_TYPE metaname="Human" order_de-DE="0" order_es-ES="1" order_fr-FR="0" order_it-IT="1" order_jp-JA="0" order_ko-KR="0" order_pt-BR="0" order_ru-RU="0" />
+  <SUB_TYPE metaname="Cleric" order_de-DE="1" order_es-ES="0" order_fr-FR="1" order_it-IT="0" order_jp-JA="1" order_ko-KR="1" order_pt-BR="1" order_ru-RU="1" />
+  <EXPANSION value="ISD" />
+  <RARITY metaname="R" />
+  <POWER value="1" />
+  <TOUGHNESS value="2" />
+  <ACTIVATED_ABILITY auto_skip="1" filter_zone="ZONE_IN_PLAY">
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[|Morbid| — {T}, Tap two untapped creatures you control: Put a 5/5 black Demon creature token with flying onto the battlefield. Activate this ability only if a creature died this turn.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[|Morboso| — {T}, TAPpa due creature STAPpate che controlli: Metti sul campo di battaglia una pedina creatura Demone 5/5 nera con volare. Attiva questa abilità solo se è morta una creatura in questo turno.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[|Morbide| — {T}, tappe zwei ungetappte Kreaturen, die du kontrollierst: Bringe einen 5/5 schwarzen Dämon-Kreaturenspielstein mit Flugfähigkeit ins Spiel. Aktiviere diese Fähigkeit nur, falls in diesem Zug eine Kreatur gestorben ist.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[|Morbidité| — {T}, engagez deux créatures dégagées que vous contrôlez : Mettez sur le champ de bataille un jeton de créature 5/5 noire Démon avec le vol. N’activez cette capacité que si une créature est morte ce tour-ci.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[|Necrario| — {T}, girar dos criaturas enderezadas que controlas: Pon en el campo de batalla una ficha de criatura Demonio negra 5/5 con la habilidad de volar. Activa esta habilidad sólo si una criatura murió este turno.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[陰鬱 ― {T}, あなたがコントロールするアンタップ状態のクリーチャーを２体タップする：飛行を持つ黒の５/５のデーモン・クリーチャー・トークンを１体戦場に出す。 この能力は、このターンいずれかのクリーチャーが死亡していた場合にのみ起動できる。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[|Morbid| — {T}, Tap two untapped creatures you control: Put a 5/5 black Demon creature token with flying onto the battlefield. Activate this ability only if a creature died this turn.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[|Болезненность| — {T}, поверните два неповернутых существа под вашим контролем: положите на поле битвы одну фишку существа 5/5 черный Демон с Полетом. Активируйте эту способность, только если в этом ходу умерло существо.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[|Mórbido| — {T}, Vire duas criaturas desviradas que você controla: Coloque no campo de batalha uma ficha de criatura preta 5/5 do tipo Demônio com voar. Ative esta habilidade somente se uma criatura tiver morrido neste turno.]]></LOCALISED_TEXT>
+    <AVAILABILITY>
+    return Morbid()
+    </AVAILABILITY>
+    <COST type="TapSelf" />
+    <COST type="generic">
+      <TARGET_DEFINITION id="6">
+      local filter = Object():GetFilter()
+      filter:Clear()
+      filter:AddCardType( CARD_TYPE_CREATURE )
+      filter:SetPlayer( EffectController() )
+      filter:SetZone( ZONE_IN_PLAY )
+      filter:SetHint( HINT_ENEMY, EffectController() )
+      filter:SetCardInstance( Object() )
+      filter:AddExtra( FILTER_EXTRA_CREATURE_UNTAPPED + FILTER_EXTRA_FLIP_CARD_INSTANCE )
+      filter:NotTargetted()
+      </TARGET_DEFINITION>
+      <TARGET_DETERMINATION>
+      return AtLeastNTargetsFromDefinition(6, 2)
+      </TARGET_DETERMINATION>
+      <PLAY_TIME_ACTION>
+      local player = EffectController()
+      player:SetTargetCount( 2 )
+      for i=0,1 do
+      	player:SetTargetPrompt( i, "CARD_QUERY_CHOOSE_CREATURE_TAP" )
+      end
+      player:ChooseTargets( 0, EffectDC():Make_Targets(0) )
+      </PLAY_TIME_ACTION>
+      <RESOLUTION_TIME_ACTION>
+      local target_a = EffectDC():Get_Targets(0):Get_NthCardPtr(0)
+      local target_b = EffectDC():Get_Targets(0):Get_NthCardPtr(1)
+      if target_a ~= nil then
+      	target_a:Tap()
+      end
+      if target_b ~= nil then
+      	target_b:Tap()
+      end
+      </RESOLUTION_TIME_ACTION>
+    </COST>
+    <RESOLUTION_TIME_ACTION>
+    local token_count = 1
+    if token_count &gt; 0 then
+    	MTG():PutTokensIntoPlay( "TOKEN_DEMON_5_5_F_19990114", token_count, EffectController() )
+    end
+    </RESOLUTION_TIME_ACTION>
+    <AI_AVAILABILITY step="end_of_turn" turn="their_turn" />
+    <AI_AVAILABILITY step="declare_attackers" turn="their_turn" />
+    <AI_AVAILABILITY type="in_response_dangerous" />
+    <AI_AVAILABILITY step="declare_blockers" blocking_or_blocked="1" />
+  </ACTIVATED_ABILITY>
+  <TOKEN_REGISTRATION reservation="1" type="TOKEN_DEMON_5_5_F_19990114" />
+  <SFX text="COMBAT_PESTS_LARGE_ATTACK" power_boundary_min="4" power_boundary_max="-1" />
+  <SFX text="COMBAT_PESTS_SMALL_ATTACK" power_boundary_min="1" power_boundary_max="3" />
+  <AI_BASE_SCORE score="600" zone="ZONE_IN_PLAY" />
+</CARD_V2>
