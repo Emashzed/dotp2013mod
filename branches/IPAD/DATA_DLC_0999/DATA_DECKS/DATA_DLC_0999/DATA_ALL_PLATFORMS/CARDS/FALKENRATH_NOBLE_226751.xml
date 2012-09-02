@@ -72,12 +72,14 @@
     return AtLeastOneTargetFromDefinition(0)
     </TARGET_DETERMINATION>
     <PLAY_TIME_ACTION target_choosing="1">
-    EffectController():ChooseTarget( 0, "CARD_QUERY_CHOOSE_PLAYER_TO_SACRIFICE_CREATURE", EffectDC():Make_Targets(0) )
+    EffectController():ChooseTarget( 0, "CARD_QUERY_CHOOSE_PLAYER_LOSE_1", EffectDC():Make_Targets(0) )
     </PLAY_TIME_ACTION>
     <RESOLUTION_TIME_ACTION>
-    local player = EffectDC():Get_Targets(0):Get_PlayerPtr(0)
-    player:LoseLife(1)
-    EffectController():GainLife(1)
+    local target = EffectDC():Get_Targets(0):Get_PlayerPtr(0)
+    if target ~= nil then
+      	target:LoseLife( 1 )
+    	EffectController():GainLife( 1 )
+    end
     </RESOLUTION_TIME_ACTION>
   </TRIGGERED_ABILITY>
 </CARD_V2>
