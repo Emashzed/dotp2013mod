@@ -33,3 +33,17 @@ SourceHasAnyCreatureInPlayNotBonded = function( source )
     filter:SetMarkedObjectsOnly()
     return (filter:CountStopAt( 1 ) > 0)
 end
+
+Morbid = function()
+-- returns true if a creature died this turn
+	local num_players = MTG():GetNumberOfPlayers()
+	for i=0,num_players-1 do
+		local player = MTG():GetNthPlayer(i)
+		if player ~= nil then
+			if MTG():Interrogate_CreaturesDiedThisTurn( player ) > 0 then
+				return true
+			end
+		end
+	end
+	return false
+end

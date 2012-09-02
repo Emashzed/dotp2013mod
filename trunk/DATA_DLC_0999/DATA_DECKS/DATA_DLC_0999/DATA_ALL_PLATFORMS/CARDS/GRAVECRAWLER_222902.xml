@@ -1,0 +1,106 @@
+<?xml version='1.0'?>
+<CARD_V2>
+  <FILENAME text="GRAVECRAWLER_222902" />
+  <CARDNAME text="GRAVECRAWLER" />
+  <TITLE>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Gravecrawler]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Strisciante del Sepolcro]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Grabkriecher]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Rampeur des tombes]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Acechatumbas]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[墓所這い]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[무덤을 기어다니는 좀비]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Могильный Выползень]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Rastejador de Túmulo]]></LOCALISED_TEXT>
+  </TITLE>
+  <MULTIVERSEID value="222902" />
+  <ARTID value="888222902" />
+  <ARTIST name="Steven Belledin" />
+  <CASTING_COST cost="{B}" />
+  <FLASHBACK_COST cost="{B}" />
+  <FLAVOURTEXT>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA["Innistrad's ghoulcallers are talented enough, but let me show you what someone with real power can create."
+—Liliana Vess]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA["Gli evocaghoul di Innistrad possiedono un certo talento, ma permettimi di mostrarti cosa può creare chi ha un vero potere."
+—Liliana Vess]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[„Die Ghulrufer von Innistrad sind schon äußerst talentiert, aber ich zeige dir gerne, was jemand mit richtiger Macht alles erzeugen kann."
+—Liliana Vess]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[« Les meneurs de goules d'Innistrad sont certes doués, mais laissez-moi vous montrer ce que quelqu'un de vraiment puissant peut créer. »
+—Liliana Vess]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA["Los llamamuertos de Innistrad tienen talento, pero déjame mostrarte lo que alguien con verdadero poder puede crear."
+—Liliana Vess]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[「イニストラードのグール呼びにも才能はあるけど、本当の力を持った者が生み出すものを見せてやるよ。」
+――リリアナ・ヴェス]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA["이니스트라드의 악귀소환술사들이 재능이 없는 건 아니야. 하지만 진정한 힘을 가진 자가 만들어내는 건 수준이 다르지. 잘 봐라."
+—릴리아나 베스]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[«Иннистрадские призыватели упырей довольно талантливы, но позвольте показать вам, что может сотворить тот, кто по-настоящему могуществен».
+— Лилиана Весс]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA["Os invocadores de carniçais de Innistrad são muito habilidosos, mas me permita mostrar o que alguém com poder de verdade pode criar."
+— Liliana Vess]]></LOCALISED_TEXT>
+  </FLAVOURTEXT>
+  <TYPE metaname="Creature" />
+  <SUB_TYPE metaname="Zombie" order_de-DE="0" order_es-ES="0" order_fr-FR="0" order_it-IT="0" order_jp-JA="0" order_ko-KR="0" order_pt-BR="0" order_ru-RU="0" />
+  <EXPANSION value="DPG" />
+  <RARITY metaname="R" />
+  <POWER value="2" />
+  <TOUGHNESS value="1" />
+  <STATIC_ABILITY filter_zone="ZONE_IN_PLAY">
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Gravecrawler can't block.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Lo Strisciante del Sepolcro non può bloccare.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Der Grabkriecher kann nicht blocken.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Le Rampeur des tombes ne peut pas bloquer.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[El Acechatumbas no puede bloquear.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[墓所這いではブロックできない。あなたは、あなたがゾンビをコントロールしているかぎり、墓所這いをあなたの墓地から唱えてもよい。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[무덤을 기어다니는 좀비는 방어할 수 없다.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Могильный Выползень не может блокировать.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Rastejador de Túmulo não pode bloquear.]]></LOCALISED_TEXT>
+    <CONTINUOUS_ACTION>
+      local characteristics = Object():GetCurrentCharacteristics()
+      characteristics:Characteristic_Set( CHARACTERISTIC_CANT_BLOCK, 1 )
+    </CONTINUOUS_ACTION>
+  </STATIC_ABILITY>
+  <STATIC_ABILITY filter_zone="ZONE_GRAVEYARD">
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[You may cast Gravecrawler from your graveyard as long as you control a Zombie.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Puoi lanciare lo Strisciante del Sepolcro dal tuo cimitero fintanto che controlli uno Zombie.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Du kannst den Grabkriecher aus deinem Friedhof wirken, solange du einen Zombie kontrollierst.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Vous pouvez lancer le Rampeur des tombes depuis votre cimetière tant que vous contrôlez un zombie.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Puedes lanzar el Acechatumbas desde tu cementerio mientras controles un Zombie.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[You may cast Gravecrawler from your graveyard as long as you control a Zombie.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[당신이 좀비 지속물을 조종하는 한, 당신은 무덤 위를 기어다니는 좀비를 당신의 무덤에서 발동할 수 있다.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Вы можете разыграть Могильного Выползня из вашего кладбища, пока вы контролируете Зомби.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Você pode conjurar Rastejador de Túmulo de seu cemitério enquanto controlar um Zumbi.]]></LOCALISED_TEXT>
+    <CONTINUOUS_ACTION layer="8">
+    local filter = Object():GetFilter()
+    filter:Clear()
+    filter:SetZone(ZONE_IN_PLAY)
+    filter:AddSubType(CREATURE_TYPE_ZOMBIE)
+    filter:SetController(Object():GetOwner())
+    filter:NotTargetted()
+    if filter:CountStop(1) ~= 1 then
+      Object():GetCurrentCharacteristics():Characteristic_Set(
+        CHARACTERISTIC_CANT_BE_PLAYED, 1)
+    end
+    </CONTINUOUS_ACTION>
+  </STATIC_ABILITY>
+  <TRIGGERED_ABILITY internal="1" pre_trigger="1" active_zone="ZONE_STACK">
+    <TRIGGER value="SPELL_RESOLVED" simple_qualifier="self">
+    if Object():GetErstwhileZone() == ZONE_GRAVEYARD then
+       local delayDC = EffectDC():Make_Chest(1)
+       delayDC:Set_CardPtr(0, Object())
+       MTG():CreateDelayedTrigger(9, delayDC)
+    end
+    return false
+    </TRIGGER>
+  </TRIGGERED_ABILITY>
+  <TRIGGERED_ABILITY internal="1" pre_trigger="1" active_zone="ZONE_ANY" resource_id="9">
+    <CLEANUP fire_once="1" />
+    <TRIGGER value="ZONECHANGE_CONSIDERED" to_zone="ZONE_REMOVED_FROM_GAME" from_zone="ZONE_STACK">
+    if EffectDC() ~= nil and EffectDC():Get_CardPtr(0) ~= nil and TriggerObject() == EffectDC():Get_CardPtr(0) then
+       override = 1
+       TriggerObject():PutIntoPlay( TriggerObject():GetOwner() )
+       return true
+    end
+    return false
+    </TRIGGER>
+  </TRIGGERED_ABILITY>
+</CARD_V2>
