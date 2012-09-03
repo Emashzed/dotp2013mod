@@ -47,3 +47,35 @@ Morbid = function()
 	end
 	return false
 end
+
+function Scry(player,num)
+  local n = MTG():GetActionRepCount()
+  local message = {"CARD_QUERY_CHOOSE_CARD_TO_PUT_ON_BOTTOM_LIBRARY","CARD_QUERY_CHOOSE_CARD_TO_PUT_ONTO_LIBRARY"}
+  local cards = {}
+  if n ~= 0 then
+    local carddc = EffectDC():Get_Targets(0)
+  	for i=0,num-1 do
+  		local card = carddc:Get_CardPtr(i)
+  		if card then cards[#cards+1] = card end
+  	end
+  	for i=1,#cards do
+  		if cards[i] then cards[i]:PutInLibrary(n-2) end
+  	end
+  end
+  local remain = num - #cards
+  if n < 2 and remain > 0 then
+  	local filter = Object():GetFilter()
+  	filter:Clear()
+  	filter:NotTargetted()
+  	filter:SetPortion( remain )
+  	filter:SetPlayer( player )
+  	filter:SetZone( ZONE_LIBRARY )
+  	player:SetTargetCount( remain )
+  	for i=1,remain do
+  		player:SetTargetPrompt( i-1, message[n+1] )
+  	end
+  	player:ChooseTargetsWithFlags( NO_VALIDATION, EffectDC():Make_Targets(0), QUERY_FLAG_CAN_BE_FINISHED_EARLY + QUERY_FLAG_CAN_BE_FINISHED_EARLY_FOR_AI_AS_WELL )
+  	return true
+  end
+  return false
+end
