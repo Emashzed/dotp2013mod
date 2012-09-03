@@ -60,6 +60,7 @@
        filter:AddCardType( CARD_TYPE_ARTIFACT )
        filter:AddSubType( ARTIFACT_TYPE_EQUIPMENT )
        filter:SetController( EffectController() )
+       filter:SetZone( ZONE_IN_PLAY )
        filter:SetHint( HINT_ALLIED_ONLY, EffectController() )
        filter:May()
     </TARGET_DEFINITION>
