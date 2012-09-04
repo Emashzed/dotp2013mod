@@ -76,9 +76,8 @@
     filter:AddSubType(CREATURE_TYPE_ZOMBIE)
     filter:SetController(Object():GetOwner())
     filter:NotTargetted()
-    if filter:CountStop(1) ~= 1 then
-      Object():GetCurrentCharacteristics():Characteristic_Set(
-        CHARACTERISTIC_CANT_BE_PLAYED, 1)
+    if filter:CountStopAt(1) ~= 1 then
+      Object():GetCurrentCharacteristics():Characteristic_Set( CHARACTERISTIC_CANT_BE_PLAYED, 1 )
     end
     </CONTINUOUS_ACTION>
   </STATIC_ABILITY>

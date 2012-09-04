@@ -1,0 +1,59 @@
+<?xml version='1.0'?>
+<CARD_V2>
+  <FILENAME text="LIBRARY_OF_ALEXANDRIA_202429" />
+  <CARDNAME text="LIBRARY_OF_ALEXANDRIA" />
+  <TITLE>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Library of Alexandria]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Library of Alexandria]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Library of Alexandria]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Library of Alexandria]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Library of Alexandria]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[Library of Alexandria]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[Library of Alexandria]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Library of Alexandria]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Library of Alexandria]]></LOCALISED_TEXT>
+  </TITLE>
+  <MULTIVERSEID value="202429" />
+  <ARTID value="888202429" />
+  <ARTIST name="Mark Poole" />
+  <CASTING_COST cost="" />
+  <TYPE metaname="Land" />
+  <EXPANSION value="DPG" />
+  <RARITY metaname="U" />
+  <MANA_ABILITY>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[{T}: Add {1} to your mana pool.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[{T}: Add {1} to your mana pool.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[{T}: Add {1} to your mana pool.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[{T}: Add {1} to your mana pool.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[{T}: Add {1} to your mana pool.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[{T}: Add {1} to your mana pool.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[{T}: Add {1} to your mana pool.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[{T}: Add {1} to your mana pool.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[{T}: Add {1} to your mana pool.]]></LOCALISED_TEXT>
+    <COST type="TapSelf" />
+    <PRODUCES amount="{1}" />
+  </MANA_ABILITY>
+  <ACTIVATED_ABILITY filter_zone="ZONE_IN_PLAY">
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[{T}: Draw a card. Activate this ability only if you have exactly seven cards in hand.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[{T}: Draw a card. Activate this ability only if you have exactly seven cards in hand.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[{T}: Draw a card. Activate this ability only if you have exactly seven cards in hand.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[{T}: Draw a card. Activate this ability only if you have exactly seven cards in hand.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[{T}: Draw a card. Activate this ability only if you have exactly seven cards in hand.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[{T}: Draw a card. Activate this ability only if you have exactly seven cards in hand.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[{T}: Draw a card. Activate this ability only if you have exactly seven cards in hand.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[{T}: Draw a card. Activate this ability only if you have exactly seven cards in hand.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[{T}: Draw a card. Activate this ability only if you have exactly seven cards in hand.]]></LOCALISED_TEXT>
+    <COST type="TapSelf" />
+    <AVAILABILITY>
+    local filter = Object():GetFilter()
+    filter:Clear()
+    filter:SetZone( ZONE_HAND )
+    filter:SetPlayer( EffectController() )
+    filter:NotTargetted()
+    return filter:Count() == 7
+    </AVAILABILITY>
+    <RESOLUTION_TIME_ACTION>
+    EffectController():DrawCard()
+    </RESOLUTION_TIME_ACTION>
+  </ACTIVATED_ABILITY>
+</CARD_V2>
