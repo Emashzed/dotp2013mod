@@ -54,7 +54,10 @@
     <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[{X}{R}{G}, {T}: Target creature gets +X/+0 and gains trample until end of turn.]]></LOCALISED_TEXT>
     <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[{X}{R}{G}, {T}: целевое существо получает +X/+0 и Пробивной удар до конца хода.]]></LOCALISED_TEXT>
     <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[{X}{R}{G}, {T}: A criatura alvo recebe +X/+0 e ganha atropelar até o final do turno.]]></LOCALISED_TEXT>
-    <COST type="Mana" cost="{X}{R}{G}" />
+    <COST type="TapSelf" />
+    <AVAILABILITY>
+    return EffectController():CanAfford("{R}{G}") == 1
+    </AVAILABILITY>
     <COST type="TapSelf" />
     <TARGET_DEFINITION id="0">
     local filter = Object():GetFilter()
@@ -66,14 +69,31 @@
     <TARGET_DETERMINATION>
     return AtLeastOneTargetFromDefinition(0)
     </TARGET_DETERMINATION>
+    <PLAY_TIME_ACTION>
+    local player = EffectController()
+    player:BeginNewNumericalChoice()
+    player:AddNumericalChoiceAnswer(player:GetTotalMana() - 3)
+    player:AskNumericalChoiceQuestion("NUM_LANDS")
+    </PLAY_TIME_ACTION>
+    <PLAY_TIME_ACTION>
+    EffectDC():Set_Int( 1, Object():GetNumericalChoiceResult() )
+    </PLAY_TIME_ACTION>
     <PLAY_TIME_ACTION target_choosing="1">
     EffectController():ChooseTarget( 0, "CARD_QUERY_CHOOSE_CREATURE", EffectDC():Make_Targets(0) )
+    </PLAY_TIME_ACTION>
+    <PLAY_TIME_ACTION>
+    local amount = EffectDC():Get_Int(1) + 1
+    local mana_string = "{"..(amount).."}{R}{G}"
+    local player = EffectController()
+    if player:CanAfford(mana_string) then
+        player:TapLand(mana_string)
+    end
     </PLAY_TIME_ACTION>
     <CONTINUOUS_ACTION layer="7C">
     local target = EffectDC():Get_Targets(0):Get_CardPtr(0)
     if target ~= nil then
         local characteristics = target:GetCurrentCharacteristics()
-        characteristics:Power_Add( GetEffectX() )
+        characteristics:Power_Add( EffectDC():Get_Int(1) )
     end
     </CONTINUOUS_ACTION>
     <CONTINUOUS_ACTION layer="6">
