@@ -192,6 +192,54 @@
     <Cell><Data ss:Type="String">Escolha um cartão preto para colocar na mão de seu dono.</Data></Cell>
    </Row>
    <Row>
+    <Cell><Data ss:Type="String">CARD_QUERY_CHOOSE_CARDS_TO_EXILE_GRAVE</Data></Cell>
+    <Cell ss:Index="3"><Data ss:Type="String">Choose cards to exile. (graveyard)</Data></Cell>
+    <Cell><Data ss:Type="String">Choisissez une carte pour l'exiler.</Data></Cell>
+    <Cell><Data ss:Type="String">Elige una carta para exiliar.</Data></Cell>
+    <Cell><Data ss:Type="String">Bestimme eine Karte, die ins Exil geschickt werden soll.</Data></Cell>
+    <Cell><Data ss:Type="String">Scegli una carta da esiliare.</Data></Cell>
+    <Cell ss:Index="9"><Data ss:Type="String">追放するカードを選択。</Data></Cell>
+    <Cell><Data ss:Type="String">추방할 카드를 한 장 고르십시오.</Data></Cell>
+    <Cell><Data ss:Type="String">Выберите карту для изгнания.</Data></Cell>
+    <Cell><Data ss:Type="String">Escolha um card para exilar.</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">CARD_QUERY_CHOOSE_CARDS_TO_EXILE_HAND</Data></Cell>
+    <Cell ss:Index="3"><Data ss:Type="String">Choose cards to exile. (hand)</Data></Cell>
+    <Cell><Data ss:Type="String">Choisissez une carte pour l'exiler.</Data></Cell>
+    <Cell><Data ss:Type="String">Elige una carta para exiliar.</Data></Cell>
+    <Cell><Data ss:Type="String">Bestimme eine Karte, die ins Exil geschickt werden soll.</Data></Cell>
+    <Cell><Data ss:Type="String">Scegli una carta da esiliare.</Data></Cell>
+    <Cell ss:Index="9"><Data ss:Type="String">追放するカードを選択。</Data></Cell>
+    <Cell><Data ss:Type="String">추방할 카드를 한 장 고르십시오.</Data></Cell>
+    <Cell><Data ss:Type="String">Выберите карту для изгнания.</Data></Cell>
+    <Cell><Data ss:Type="String">Escolha um card para exilar.</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">CARD_QUERY_CHOOSE_CARDS_TO_EXILE_LIB</Data></Cell>
+    <Cell ss:Index="3"><Data ss:Type="String">Choose cards to exile. (library)</Data></Cell>
+    <Cell><Data ss:Type="String">Choisissez une carte pour l'exiler.</Data></Cell>
+    <Cell><Data ss:Type="String">Elige una carta para exiliar.</Data></Cell>
+    <Cell><Data ss:Type="String">Bestimme eine Karte, die ins Exil geschickt werden soll.</Data></Cell>
+    <Cell><Data ss:Type="String">Scegli una carta da esiliare.</Data></Cell>
+    <Cell ss:Index="9"><Data ss:Type="String">追放するカードを選択。</Data></Cell>
+    <Cell><Data ss:Type="String">추방할 카드를 한 장 고르십시오.</Data></Cell>
+    <Cell><Data ss:Type="String">Выберите карту для изгнания.</Data></Cell>
+    <Cell><Data ss:Type="String">Escolha um card para exilar.</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">CARD_QUERY_CHOOSE_CARD_TO_LOBOTOMY</Data></Cell>
+    <Cell ss:Index="3"><Data ss:Type="String">Choose a card to exile from that player's graveyard, hand and library.</Data></Cell>
+    <Cell><Data ss:Type="String">Choisissez une carte pour l'exiler.</Data></Cell>
+    <Cell><Data ss:Type="String">Elige una carta para exiliar.</Data></Cell>
+    <Cell><Data ss:Type="String">Bestimme eine Karte, die ins Exil geschickt werden soll.</Data></Cell>
+    <Cell><Data ss:Type="String">Scegli una carta da esiliare.</Data></Cell>
+    <Cell ss:Index="9"><Data ss:Type="String">追放するカードを選択。</Data></Cell>
+    <Cell><Data ss:Type="String">추방할 카드를 한 장 고르십시오.</Data></Cell>
+    <Cell><Data ss:Type="String">Выберите карту для изгнания.</Data></Cell>
+    <Cell><Data ss:Type="String">Escolha um card para exilar.</Data></Cell>
+   </Row>
+   <Row>
     <Cell><Data ss:Type="String">CARD_QUERY_CHOOSE_CARD_TO_PUT_INTO_GRAVEYARD</Data></Cell>
     <Cell ss:Index="3"><Data ss:Type="String">Choose a card to put into its owner’s graveyard.</Data></Cell>
     <Cell><Data ss:Type="String">Choisissez une carte à mettre dans le cimetière de son propriétaire.</Data></Cell>
