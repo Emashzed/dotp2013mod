@@ -1,0 +1,48 @@
+﻿<?xml version='1.0'?>
+<CARD_V2>
+  <FILENAME text="WALKING_CORPSE_260987" />
+  <CARDNAME text="WALKING_CORPSE" />
+  <TITLE>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Walking Corpse]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Walking Corpse]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Walking Corpse]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Walking Corpse]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Walking Corpse]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[Walking Corpse]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[Walking Corpse]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Walking Corpse]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Walking Corpse]]></LOCALISED_TEXT>
+  </TITLE>
+  <MULTIVERSEID value="260987" />
+  <ARTID value="260987" />
+  <ARTIST name="Igor Kieryluk" />
+  <CASTING_COST cost="{1}{B}" />
+  <FLAVOURTEXT>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[“Feeding a normal army is a constant burden. With zombies, it’s a constant motivation. Feeding is why they fight. Feeding is why they are feared.”
+—Jadar, ghoulcaller of Nephalia]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[“Feeding a normal army is a constant burden. With zombies, it’s a constant motivation. Feeding is why they fight. Feeding is why they are feared.”
+—Jadar, ghoulcaller of Nephalia]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[“Feeding a normal army is a constant burden. With zombies, it’s a constant motivation. Feeding is why they fight. Feeding is why they are feared.”
+—Jadar, ghoulcaller of Nephalia]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[“Feeding a normal army is a constant burden. With zombies, it’s a constant motivation. Feeding is why they fight. Feeding is why they are feared.”
+—Jadar, ghoulcaller of Nephalia]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[“Feeding a normal army is a constant burden. With zombies, it’s a constant motivation. Feeding is why they fight. Feeding is why they are feared.”
+—Jadar, ghoulcaller of Nephalia]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[“Feeding a normal army is a constant burden. With zombies, it’s a constant motivation. Feeding is why they fight. Feeding is why they are feared.”
+—Jadar, ghoulcaller of Nephalia]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[“Feeding a normal army is a constant burden. With zombies, it’s a constant motivation. Feeding is why they fight. Feeding is why they are feared.”
+—Jadar, ghoulcaller of Nephalia]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[“Feeding a normal army is a constant burden. With zombies, it’s a constant motivation. Feeding is why they fight. Feeding is why they are feared.”
+—Jadar, ghoulcaller of Nephalia]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[“Feeding a normal army is a constant burden. With zombies, it’s a constant motivation. Feeding is why they fight. Feeding is why they are feared.”
+—Jadar, ghoulcaller of Nephalia]]></LOCALISED_TEXT>
+  </FLAVOURTEXT>
+  <TYPE metaname="Creature" />
+  <SUB_TYPE metaname="Zombie" />
+  <EXPANSION value="M13" />
+  <RARITY metaname="C" />
+  <POWER value="2" />
+  <TOUGHNESS value="2" />
+  <SFX text="COMBAT_BITE_LARGE_ATTACK" power_boundary_min="4" power_boundary_max="-1" />
+  <SFX text="COMBAT_BITE_SMALL_ATTACK" power_boundary_min="1" power_boundary_max="3" />
+</CARD_V2>

@@ -19,7 +19,7 @@
   <CASTING_COST cost="{2}{B}{B}" />
   <TYPE metaname="Creature" />
   <SUB_TYPE metaname="Specter" />
-  <EXPANSION value="DPG" />
+  <EXPANSION value="M13" />
   <RARITY metaname="R" />
   <POWER value="2" />
   <TOUGHNESS value="2" />
