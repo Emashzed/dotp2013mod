@@ -29,7 +29,7 @@
     <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[As pequenas agonias são uma preparação para um poder superior.]]></LOCALISED_TEXT>
   </FLAVOURTEXT>
   <TYPE metaname="Sorcery" />
-  <EXPANSION value="DPG" />
+  <EXPANSION value="M13" />
   <RARITY metaname="C" />
   <SPELL_ABILITY dangerous="1" filter_zone="ZONE_IN_PLAY">
     <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Target player draws two cards and  loses 2 life.]]></LOCALISED_TEXT>

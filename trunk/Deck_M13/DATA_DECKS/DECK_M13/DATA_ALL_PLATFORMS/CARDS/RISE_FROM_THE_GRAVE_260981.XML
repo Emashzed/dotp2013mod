@@ -37,7 +37,7 @@
 — Liliana Vess]]></LOCALISED_TEXT>
   </FLAVOURTEXT>
   <TYPE metaname="Sorcery" />
-  <EXPANSION value="DPG" />
+  <EXPANSION value="M13" />
   <RARITY metaname="U" />
   <SPELL_ABILITY filter_zone="ZONE_IN_PLAY">
     <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Put target creature card from a graveyard onto the battlefield under your control. That creature is a black Zombie in addition to its other colors and types.]]></LOCALISED_TEXT>

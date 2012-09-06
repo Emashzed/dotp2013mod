@@ -19,7 +19,7 @@
   <CASTING_COST cost="{B}{B}{B}" />
   <TYPE metaname="Creature" />
   <SUB_TYPE metaname="Zombie" />
-  <EXPANSION value="DPG" />
+  <EXPANSION value="M13" />
   <RARITY metaname="R" />
   <POWER value="5" />
   <TOUGHNESS value="5" />

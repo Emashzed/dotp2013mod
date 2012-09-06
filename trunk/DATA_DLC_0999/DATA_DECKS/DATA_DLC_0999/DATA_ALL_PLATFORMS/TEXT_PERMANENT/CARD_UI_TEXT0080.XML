@@ -252,6 +252,18 @@
     <Cell><Data ss:Type="String">Escolha um cartão para colocar no cemitério de seu dono.</Data></Cell>
    </Row>
    <Row>
+    <Cell><Data ss:Type="String">CARD_QUERY_CHOOSE_CREATURE_CARD_TO_EXILE</Data></Cell>
+    <Cell ss:Index="3"><Data ss:Type="String">Choose a creature card to exile.</Data></Cell>
+    <Cell><Data ss:Type="String">Choisissez une carte pour l'exiler.</Data></Cell>
+    <Cell><Data ss:Type="String">Elige una carta para exiliar.</Data></Cell>
+    <Cell><Data ss:Type="String">Bestimme eine Karte, die ins Exil geschickt werden soll.</Data></Cell>
+    <Cell><Data ss:Type="String">Scegli una carta da esiliare.</Data></Cell>
+    <Cell ss:Index="9"><Data ss:Type="String">追放するカードを選択。</Data></Cell>
+    <Cell><Data ss:Type="String">추방할 카드를 한 장 고르십시오.</Data></Cell>
+    <Cell><Data ss:Type="String">Выберите карту для изгнания.</Data></Cell>
+    <Cell><Data ss:Type="String">Escolha um card para exilar.</Data></Cell>
+   </Row>
+   <Row>
     <Cell><Data ss:Type="String">CARD_QUERY_CHOOSE_CREATURE_GAIN_MUST_BLOCK</Data></Cell>
     <Cell ss:Index="3"><Data ss:Type="String">Choose a creature to cause to block this turn.</Data></Cell>
     <Cell><Data ss:Type="String">Choisissez une créature pour la faire bloquer ce tour-ci.</Data></Cell>
@@ -454,6 +466,18 @@
     <Cell><Data ss:Type="String">자신의 손에서 무작위로 카드를 폐기하기 위해 대상 플레이어를 선택합니다.</Data></Cell>
     <Cell><Data ss:Type="String">Выбор целевого игрока сбросить карты наугад из своих рук.</Data></Cell>
     <Cell><Data ss:Type="String">Escolha o jogador alvo para descartar um card aleatoriamente de sua mão.</Data></Cell>
+   </Row>
+    <Row>
+    <Cell><Data ss:Type="String">CARD_QUERY_CHOOSE_PLAYER_DISCARD_HAND</Data></Cell>
+    <Cell ss:Index="3"><Data ss:Type="String">Choose a player to discard his or her hand.</Data></Cell>
+    <Cell><Data ss:Type="String">Choose a player to discard his or her hand.</Data></Cell>
+    <Cell><Data ss:Type="String">Choose a player to discard his or her hand.</Data></Cell>
+    <Cell><Data ss:Type="String">Choose a player to discard his or her hand.</Data></Cell>
+    <Cell><Data ss:Type="String">Choose a player to discard his or her hand.</Data></Cell>
+    <Cell ss:Index="9"><Data ss:Type="String">Choose a player to discard his or her hand.</Data></Cell>
+    <Cell><Data ss:Type="String">Choose a player to discard his or her hand.</Data></Cell>
+    <Cell><Data ss:Type="String">Choose a player to discard his or her hand.</Data></Cell>
+    <Cell><Data ss:Type="String">Choose a player to discard his or her hand.</Data></Cell>
    </Row>
    <Row>
     <Cell><Data ss:Type="String">CARD_QUERY_CHOOSE_RCARD_TO_PUT_INTO_HAND</Data></Cell>

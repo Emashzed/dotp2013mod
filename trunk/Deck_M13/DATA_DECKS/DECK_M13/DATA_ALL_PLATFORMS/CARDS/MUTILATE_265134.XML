@@ -38,7 +38,7 @@
 — Liliana Vess]]></LOCALISED_TEXT>
   </FLAVOURTEXT>
   <TYPE metaname="Sorcery" />
-  <EXPANSION value="DPG" />
+  <EXPANSION value="M13" />
   <RARITY metaname="R" />
   <SPELL_ABILITY dangerous="1" filter_zone="ZONE_IN_PLAY">
     <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[All creatures get -1/-1 until end of turn for each Swamp you control.]]></LOCALISED_TEXT>

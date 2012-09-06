@@ -29,7 +29,7 @@
     <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Embora o carrasco não tenha falado, os aldeões entenderam a mensagem.]]></LOCALISED_TEXT>
   </FLAVOURTEXT>
   <TYPE metaname="Instant" />
-  <EXPANSION value="DPG" />
+  <EXPANSION value="M13" />
   <RARITY metaname="U" />
   <SPELL_ABILITY dangerous="1" filter_zone="ZONE_IN_PLAY">
     <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Destroy target creature an opponent controls. Each other creature that player controls gets -2/-0 until end      of turn.]]></LOCALISED_TEXT>
