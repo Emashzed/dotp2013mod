@@ -1,0 +1,76 @@
+﻿<?xml version='1.0'?>
+<CARD_V2>
+  <FILENAME text="CANYON_MINOTAUR_259211" />
+  <CARDNAME text="CANYON_MINOTAUR" />
+  <TITLE>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Canyon Minotaur]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Canyon Minotaur]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Canyon Minotaur]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Canyon Minotaur]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Canyon Minotaur]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[Canyon Minotaur]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[Canyon Minotaur]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Canyon Minotaur]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Canyon Minotaur]]></LOCALISED_TEXT>
+  </TITLE>
+  <MULTIVERSEID value="259211" />
+  <ARTID value="259211" />
+  <ARTIST name="Steve Prescott" />
+  <CASTING_COST cost="{3}{R}" />
+  <FLAVOURTEXT>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[“We’ll scale these cliffs, traverse Brittle Bridge, and then fight our way down the volcanic slopes  on the other side.”
+“Isn’t the shortest route through the canyon?”
+“Yes.”
+“So shouldn’t we—”
+“No.”]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[“We’ll scale these cliffs, traverse Brittle Bridge, and then fight our way down the volcanic slopes on the other side.”
+“Isn’t the shortest route through the canyon?”
+“Yes.”
+“So shouldn’t we—”
+“No.”]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[“We’ll scale these cliffs, traverse Brittle Bridge, and then fight our way down the volcanic slopes on the other side.”
+“Isn’t the shortest route through the canyon?”
+“Yes.”
+“So shouldn’t we—”
+“No.”]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[“We’ll scale these cliffs, traverse Brittle Bridge, and then fight our way down the volcanic slopes on the other side.”
+“Isn’t the shortest route through the canyon?”
+“Yes.”
+“So shouldn’t we—”
+“No.”]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[“We’ll scale these cliffs, traverse Brittle Bridge, and then fight our way down the volcanic slopes on the other side.”
+“Isn’t the shortest route through the canyon?”
+“Yes.”
+“So shouldn’t we—”
+“No.”]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[“We’ll scale these cliffs, traverse Brittle Bridge, and then fight our way down the volcanic slopes on the other side.”
+“Isn’t the shortest route through the canyon?”
+“Yes.”
+“So shouldn’t we—”
+“No.”]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[“We’ll scale these cliffs, traverse Brittle Bridge, and then fight our way down the volcanic slopes on the other side.”
+“Isn’t the shortest route through the canyon?”
+“Yes.”
+“So shouldn’t we—”
+“No.”]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[“We’ll scale these cliffs, traverse Brittle Bridge, and then fight our way down the volcanic slopes on the other side.”
+“Isn’t the shortest route through the canyon?”
+“Yes.”
+“So shouldn’t we—”
+“No.”]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[“We’ll scale these cliffs, traverse Brittle Bridge, and then fight our way down the volcanic slopes on the other side.”
+“Isn’t the shortest route through the canyon?”
+“Yes.”
+“So shouldn’t we—”
+“No.”]]></LOCALISED_TEXT>
+  </FLAVOURTEXT>
+  <TYPE metaname="Creature" />
+  <SUB_TYPE metaname="Minotaur" order_de-DE="0" order_es-ES="1" order_fr-FR="0" order_it-IT="1" order_jp-JA="0" order_ko-KR="0" order_pt-BR="0" order_ru-RU="0" />
+  <SUB_TYPE metaname="Warrior" order_de-DE="1" order_es-ES="0" order_fr-FR="1" order_it-IT="0" order_jp-JA="1" order_ko-KR="1" order_pt-BR="1" order_ru-RU="1" />
+  <EXPANSION value="M13" />
+  <RARITY metaname="C" />
+  <POWER value="3" />
+  <TOUGHNESS value="3" />
+  <SFX text="COMBAT_BLUNT_LARGE_ATTACK" power_boundary_min="4" power_boundary_max="-1" />
+  <SFX text="COMBAT_BLUNT_SMALL_ATTACK" power_boundary_min="1" power_boundary_max="3" />
+</CARD_V2>
