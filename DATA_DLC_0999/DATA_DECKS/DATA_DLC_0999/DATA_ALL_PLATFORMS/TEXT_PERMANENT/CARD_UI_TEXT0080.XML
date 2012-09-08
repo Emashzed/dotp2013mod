@@ -312,6 +312,18 @@
     <Cell><Data ss:Type="String">Escolha a criatura alvo para sacrificar pelo seu controlador.</Data></Cell>
    </Row>
    <Row>
+    <Cell><Data ss:Type="String">CARD_QUERY_CHOOSE_CREATURE_TO_GET_1_0_AND_FIRST_STRIKE</Data></Cell>
+    <Cell ss:Index="3"><Data ss:Type="String">Choose a creature to get +1/+0 and gain first strike.</Data></Cell>
+    <Cell><Data ss:Type="String">Choisissez une créature pour lui faire gagner +1/+0 et acquérir l'initiative.</Data></Cell>
+    <Cell><Data ss:Type="String">Elige una criatura para que obtenga +1/+0 y gane dañar primero.</Data></Cell>
+    <Cell><Data ss:Type="String">Bestimme eine Kreatur, die +1/+0 und Erstschlag erhalten soll.</Data></Cell>
+    <Cell><Data ss:Type="String">Scegli una creatura che prende +1/+0 e ha attacco improvviso.</Data></Cell>
+    <Cell ss:Index="9"><Data ss:Type="String">＋１/＋０の修整を受けて先制攻撃を得るクリーチャーを選択。</Data></Cell>
+    <Cell><Data ss:Type="String">+1/+0을 받고 선제공격 능력을 얻을 생물 한 개를 고르십시오.</Data></Cell>
+    <Cell><Data ss:Type="String">Выберите существо, которое получит +1/+0 и Первый удар.</Data></Cell>
+    <Cell><Data ss:Type="String">Escolha uma criatura para receber +1/+0 e ganhar iniciativa.</Data></Cell>
+   </Row>
+   <Row>
     <Cell><Data ss:Type="String">CARD_QUERY_CHOOSE_CREATURE_TO_GET_1_0_PER_MOUNTAIN_FS</Data></Cell>
     <Cell ss:Index="3"><Data ss:Type="String">Choose a creature to get +1/+0 for each mountain you control and gain first strike.</Data></Cell>
     <Cell><Data ss:Type="String">Choisissez une créature pour obtenir +1/+0 pour chaque montagne que vous contrôlez et acquérir l'initiative.</Data></Cell>
