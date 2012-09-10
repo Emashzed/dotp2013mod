@@ -1,0 +1,81 @@
+<?xml version='1.0'?>
+<CARD_V2>
+  <FILENAME text="SEARING_SPEAR_249684" />
+  <CARDNAME text="SEARING_SPEAR" />
+  <TITLE>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Searing Spear]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Lance calcinante]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Lanza flamígera]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Sengender Speer]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Lancia Infuocata]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[灼熱の槍]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[불타는 창]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Полыхающее Копье]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Lança Cauterizante]]></LOCALISED_TEXT>
+  </TITLE>
+  <MULTIVERSEID value="249684" />
+  <ARTID value="249684" />
+  <ARTIST name="Chris Rahn" />
+  <CASTING_COST cost="{1}{R}" />
+  <FLAVOURTEXT>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Sometimes you die a glorious death with your sword held high. Sometimes you’re just target practice.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Certains meurent dans la gloire, l’épée au clair. D’autres finissent comme cible d’entraînement.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Unas veces se muere de forma gloriosa y con la espada en alto. Otras no se es más que un blanco de práctica.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Manchmal stirbst du einen glorreichen Tod, das Schwert gezückt. Manchmal bist du nur eine Zielscheibe.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[A volte soccombi a una morte gloriosa con la tua spada levata per colpire. A volte sei solo un bersaglio da esercitazione.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[剣を高く掲げたまま誇り高く死ぬときもある。 ただ練習台にされることもある。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[어떤 자는 칼을 높이 치켜든 채 명예롭게 죽는가 하면 어떤 자는 고블린의 연습용 표적이 되어 죽는다.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Можно умереть славной смертью с мечом в руках. А можно умереть, став мишенью на чьих-то учениях.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Algumas vezes, você tem uma morte gloriosa com sua espada empunhada. Outras vezes, você é apenas "o alvo" do tiro ao alvo.]]></LOCALISED_TEXT>
+  </FLAVOURTEXT>
+  <TYPE metaname="Instant" />
+  <EXPANSION value="M13" />
+  <RARITY metaname="C" />
+  <SPELL_ABILITY dangerous="1" filter_zone="ZONE_IN_PLAY">
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Searing Spear deals 3 damage to target creature or player.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[La Lance calcinante inflige 3 blessures à une cible, créature ou joueur.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[La Lanza flamígera hace 3 puntos de daño a la criatura o jugador objetivo.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Der Sengende Speer fügt einer Kreatur oder einem Spieler deiner Wahl 3 Schadenspunkte zu.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[La Lancia Infuocata infligge 3 danni a una creatura o a un giocatore bersaglio.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[クリーチャー１体かプレイヤー１人を対象とする。灼熱の槍はそれに３点のダメージを与える。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[플레이어 한 명이나 생물 한 개를 목표로 정한다. 불타는 창은 그 목표에게 피해 3점을 입힌다.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Полыхающее Копье наносит 3 повреждения целевому существу или игроку.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Lança Cauterizante causa 3 pontos de dano à criatura ou ao jogador alvo.]]></LOCALISED_TEXT>
+    <TARGET_DEFINITION id="0">
+    local filter = Object():GetFilter()
+    filter:Clear()
+    filter:SetFilterType( FILTER_TYPE_CARDS + FILTER_TYPE_PLAYERS )
+    filter:SetZone( ZONE_IN_PLAY )
+    filter:SetHint( HINT_ENEMY_ONLY, EffectController() )
+    filter:AddCardType( CARD_TYPE_CREATURE )
+    </TARGET_DEFINITION>
+    <TARGET_DETERMINATION>
+    return AtLeastOneTargetFromDefinition(0)
+    </TARGET_DETERMINATION>
+    <PLAY_TIME_ACTION target_choosing="1">
+    EffectController():ChooseTarget( 0, "CARD_QUERY_CHOOSE_DEAL_3_DAMAGE", EffectDC():Make_Targets(0) )
+    </PLAY_TIME_ACTION>
+    <RESOLUTION_TIME_ACTION>
+    local target_creature = EffectDC():Get_Targets(0):Get_CardPtr(0)
+    local target_player = EffectDC():Get_Targets(0):Get_PlayerPtr(0)
+    local source = EffectSource()
+    if source == nil then
+      source = Object()
+    end
+    if ( target_creature ~= nil ) then   
+    	target_creature:DealDamage(3, source)  
+    elseif 
+    	( target_player ~= nil ) then   
+    	target_player:DealDamage(3, source)  
+    end
+    </RESOLUTION_TIME_ACTION>
+    <SFX text="TARGET_FIREBALL_PLAY" />
+  </SPELL_ABILITY>
+  <AI_AVAILABILITY type="in_response" />
+  <AI_AVAILABILITY step="begin_combat" turn="their_turn" />
+  <AI_AVAILABILITY step="main_1" turn="my_turn" />
+  <AI_AVAILABILITY step="declare_attackers" turn="their_turn" />
+  <AI_AVAILABILITY step="declare_blockers" />
+  <AI_AVAILABILITY step="end_of_turn" />
+  <AI_BASE_SCORE score="900" zone="ZONE_HAND" />
+</CARD_V2>
