@@ -54,7 +54,7 @@
 	return TriggerPlayer() == EffectController()
 	</TRIGGER>
 	<RESOLUTION_TIME_ACTION>
-	if TriggerPlayer() == EffectController() then
+	if TriggerObject() ~= nil then
 		TriggerObject():GetPlayer():LoseLife(1)
 	end
     </RESOLUTION_TIME_ACTION>
