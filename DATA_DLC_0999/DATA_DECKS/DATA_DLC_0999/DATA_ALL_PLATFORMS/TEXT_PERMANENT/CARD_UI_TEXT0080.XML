@@ -420,6 +420,18 @@
     <Cell><Data ss:Type="String">Escolha um encantamento para exilar.</Data></Cell>
    </Row>
    <Row>
+    <Cell><Data ss:Type="String">CARD_QUERY_CHOOSE_FOREST_TO_UNTAP</Data></Cell>
+    <Cell ss:Index="3"><Data ss:Type="String">Choose a Forest to untap.</Data></Cell>
+    <Cell><Data ss:Type="String">Choisissez un terrain pour le dégager.</Data></Cell>
+    <Cell><Data ss:Type="String">Elige una tierra para enderezarla.</Data></Cell>
+    <Cell><Data ss:Type="String">Bestimme ein Land, das enttappt werden soll.</Data></Cell>
+    <Cell><Data ss:Type="String">Scegli una terra da STAPpare.</Data></Cell>
+    <Cell ss:Index="9"><Data ss:Type="String">アンタップする土地を選択。</Data></Cell>
+    <Cell><Data ss:Type="String">언탭할 대지 한 개를 고르십시오.</Data></Cell>
+    <Cell><Data ss:Type="String">Выберите землю для разворота.</Data></Cell>
+    <Cell><Data ss:Type="String">Escolha um terreno para desvirar.</Data></Cell>
+   </Row>
+   <Row>
     <Cell><Data ss:Type="String">CARD_QUERY_CHOOSE_GCARD_TO_PUT_INTO_HAND</Data></Cell>
     <Cell ss:Index="3"><Data ss:Type="String">Choose a green card to put into its owner’s hand.</Data></Cell>
     <Cell><Data ss:Type="String">Choisissez une carte verte à retourner dans la main de son propriétaire.</Data></Cell>
