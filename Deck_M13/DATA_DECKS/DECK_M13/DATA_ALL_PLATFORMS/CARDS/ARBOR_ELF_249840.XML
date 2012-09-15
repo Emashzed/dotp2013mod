@@ -67,4 +67,6 @@
     end
     </RESOLUTION_TIME_ACTION>
   </ACTIVATED_ABILITY>
+  <SFX text="COMBAT_GREEN_MAGIC_LARGE_ATTACK" power_boundary_min="4" power_boundary_max="-1" />
+  <SFX text="COMBAT_GREEN_MAGIC_SMALL_ATTACK" power_boundary_min="1" power_boundary_max="3" />
 </CARD_V2>
