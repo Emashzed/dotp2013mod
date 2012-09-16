@@ -252,6 +252,18 @@
     <Cell><Data ss:Type="String">Escolha um cartão para colocar no cemitério de seu dono.</Data></Cell>
    </Row>
    <Row>
+    <Cell><Data ss:Type="String">CARD_QUERY_CHOOSE_CREATURE_CARD_TO_PUT_ON_YOUR_LIBRARY</Data></Cell>
+    <Cell ss:Index="3"><Data ss:Type="String">Choose a creature card to put on top of your library.</Data></Cell>
+    <Cell><Data ss:Type="String">Choisissez une créature pour la mettre au-dessus de la bibliothèque de son propriétaire.</Data></Cell>
+    <Cell><Data ss:Type="String">Elige una criatura para poner en la parte superior de la biblioteca de su propietario.</Data></Cell>
+    <Cell><Data ss:Type="String">Bestimme eine Kreatur, die oben auf die Bibliothek ihres Besitzers gelegt werden soll.</Data></Cell>
+    <Cell><Data ss:Type="String">Scegli una creatura da mettere in cima al grimorio del suo proprietario.</Data></Cell>
+    <Cell ss:Index="9"><Data ss:Type="String">オーナーのライブラリーの一番上に戻すクリーチャーを選択。</Data></Cell>
+    <Cell><Data ss:Type="String">소유자의 서고 맨 위에 놓을 생물 한 개를 고르십시오.</Data></Cell>
+    <Cell><Data ss:Type="String">Выберите существо, которое нужно положить на верх библиотеки его владельца.</Data></Cell>
+    <Cell><Data ss:Type="String">Escolha uma criatura para colocar no topo do grimório de seu dono.</Data></Cell>
+   </Row>
+   <Row>
     <Cell><Data ss:Type="String">CARD_QUERY_CHOOSE_CREATURE_CARD_TO_EXILE</Data></Cell>
     <Cell ss:Index="3"><Data ss:Type="String">Choose a creature card to exile.</Data></Cell>
     <Cell><Data ss:Type="String">Choisissez une carte pour l'exiler.</Data></Cell>
