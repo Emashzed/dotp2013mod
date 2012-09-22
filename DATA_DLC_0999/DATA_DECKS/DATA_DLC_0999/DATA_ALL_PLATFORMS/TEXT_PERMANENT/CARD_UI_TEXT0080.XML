@@ -843,7 +843,7 @@
    </Row>
    <Row>
     <Cell><Data ss:Type="String">CARD_QUERY_YOURS_FIRST</Data></Cell>
-    <Cell ss:Index="3"><Cell><Data ss:Type="String">The spell from your graveyard.</Data></Cell>
+    <Cell ss:Index="3"><Data ss:Type="String">The spell from your graveyard.</Data></Cell>
     <Cell><Data ss:Type="String">The spell from your graveyard.</Data></Cell>
     <Cell><Data ss:Type="String">The spell from your graveyard.</Data></Cell>
     <Cell><Data ss:Type="String">The spell from your graveyard.</Data></Cell>
