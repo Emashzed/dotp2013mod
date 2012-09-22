@@ -1,0 +1,78 @@
+﻿<?xml version='1.0'?>
+<CARD_V2>
+  <FILENAME text="TIMBERPACK_WOLF_249694" />
+  <CARDNAME text="TIMBERPACK_WOLF" />
+  <TITLE>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Timberpack Wolf]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Timberpack Wolf]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Timberpack Wolf]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Timberpack Wolf]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Timberpack Wolf]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[Timberpack Wolf]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[Timberpack Wolf]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Timberpack Wolf]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Timberpack Wolf]]></LOCALISED_TEXT>
+  </TITLE>
+  <MULTIVERSEID value="249694" />
+  <ARTID value="249694" />
+  <ARTIST name="John Avon" />
+  <CASTING_COST cost="{1}{G}" />
+  <FLAVOURTEXT>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[“The need for the pack is bred in their bones. Their true strength will not show itself for any other purpose.”
+—Garruk Wildspeaker]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[“The need for the pack is bred in their bones. Their true strength will not show itself for any other purpose.”
+—Garruk Wildspeaker]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[“The need for the pack is bred in their bones. Their true strength will not show itself for any other purpose.”
+—Garruk Wildspeaker]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[“The need for the pack is bred in their bones. Their true strength will not show itself for any other purpose.”
+—Garruk Wildspeaker]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[“The need for the pack is bred in their bones. Their true strength will not show itself for any other purpose.”
+—Garruk Wildspeaker]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[“The need for the pack is bred in their bones. Their true strength will not show itself for any other purpose.”
+—Garruk Wildspeaker]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[“The need for the pack is bred in their bones. Their true strength will not show itself for any other purpose.”
+—Garruk Wildspeaker]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[“The need for the pack is bred in their bones. Their true strength will not show itself for any other purpose.”
+—Garruk Wildspeaker]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[“The need for the pack is bred in their bones. Their true strength will not show itself for any other purpose.”
+—Garruk Wildspeaker]]></LOCALISED_TEXT>
+  </FLAVOURTEXT>
+  <TYPE metaname="Creature" />
+  <SUB_TYPE metaname="Wolf" />
+  <EXPANSION value="M13" />
+  <RARITY metaname="C" />
+  <POWER value="2" />
+  <TOUGHNESS value="2" />
+  <STATIC_ABILITY filter_zone="ZONE_IN_PLAY">
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Timberpack Wolf gets +1/+1 for each other creature you control named Timberpack Wolf.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Timberpack Wolf gets +1/+1 for each other creature you control named Timberpack Wolf.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Timberpack Wolf gets +1/+1 for each other creature you control named Timberpack Wolf.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Timberpack Wolf gets +1/+1 for each other creature you control named Timberpack Wolf.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Timberpack Wolf gets +1/+1 for each other creature you control named Timberpack Wolf.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[Timberpack Wolf gets +1/+1 for each other creature you control named Timberpack Wolf.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[Timberpack Wolf gets +1/+1 for each other creature you control named Timberpack Wolf.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Timberpack Wolf gets +1/+1 for each other creature you control named Timberpack Wolf.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Timberpack Wolf gets +1/+1 for each other creature you control named Timberpack Wolf.]]></LOCALISED_TEXT>
+	<CONTINUOUS_ACTION layer="7C">
+    local creature = EffectSource()
+    if creature ~= nil then
+    	local filter = Object():GetFilter()
+    	filter:Clear()
+    	filter:AddCardType( CARD_TYPE_CREATURE )
+		filter:SetPlayer( EffectController() )
+		filter:SetZone( ZONE_IN_PLAY )
+    	filter:AddCardName( creature:GetCardName())
+    	filter:NotTargetted()
+    	local total = filter:Count() - 1
+    	local characteristics = creature:GetCurrentCharacteristics()
+		
+		if total &gt; 0 then
+			characteristics:Power_Add( total )
+			characteristics:Toughness_Add( total )
+		end
+    end
+    </CONTINUOUS_ACTION>
+  </STATIC_ABILITY>
+  <SFX text="COMBAT_BITE_LARGE_ATTACK" power_boundary_min="4" power_boundary_max="-1" />
+  <SFX text="COMBAT_BITE_SMALL_ATTACK" power_boundary_min="1" power_boundary_max="3" />
+</CARD_V2>

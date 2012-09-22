@@ -59,7 +59,7 @@
     filter:SetController( EffectController() )
     local lifeGain = filter:Count()
     if lifeGain &gt; 0 then
-    	EffectController():GainLife( lifeGain )
+    	EffectController():GainLife( lifeGain * 1)
     end
     </RESOLUTION_TIME_ACTION>
     <SFX text="CASTER_BUFF_PLAY" />

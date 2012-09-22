@@ -18,7 +18,7 @@
   <ARTIST name="Eric Deschamps" />
   <CASTING_COST cost="{2}{B}{B}" />
   <TYPE metaname="Creature" />
-  <SUB_TYPE metaname="Shade" />
+  <SUB_TYPE metaname="Shade" order_de-DE="0" order_es-ES="0" order_fr-FR="0" order_it-IT="0" order_jp-JA="0" order_ko-KR="0" order_pt-BR="0" order_ru-RU="0" />
   <EXPANSION value="M13" />
   <RARITY metaname="C" />
   <POWER value="1" />
@@ -72,9 +72,8 @@
     <COST type="Mana" cost="{B}" />
     <CONTINUOUS_ACTION layer="7C">
     if EffectSource() ~= nil then
-    	local characteristics = EffectSource():GetCurrentCharacteristics()
-    	characteristics:Power_Add( 1 )
-    	characteristics:Toughness_Add( 1 )
+    	EffectSource():GetCurrentCharacteristics():Power_Add( 1 )
+    	EffectSource():GetCurrentCharacteristics():Toughness_Add( 1 )
     end
     </CONTINUOUS_ACTION>
     <DURATION simple_duration="UntilEOT" />

@@ -19,14 +19,14 @@
   <CASTING_COST cost="{2}{W}" />
   <FLAVOURTEXT>
     <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[As she shepherds the faithful, the angel's radiance is a shield of salvation.]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[D’un battement d’ailes, l’ange fit reculer les feux de la guerre.]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Con un batido de sus alas, el ángel derrotó los fuegos de la guerra.]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Mit einem Flügelschlag verscheuchte der Engel die Feuer des Krieges.]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Con un battito d’ali, l’angelo respinge i fuochi della guerra.]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[天使の羽根の一振りで、戦火は追い払われた。]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[그 천사는 날갯짓 한번으로 전장의 화염을 물러나게 했다.]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Одним взмахом крыльев ангел сбил пламя войны.]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Com um bater de suas asas o anjo combate as chamas bélicas.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Berger des fidèles, l'ange diffuse une radiance qui fait office de bouclier salvateur.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Conforme pastorea a los fieles, el resplandor del ángel es un escudo de salvación.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Während er die Gläubigen behütet, dient das Strahlen des Engels als rettender Schild.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Mentre guida i fedeli, il fulgore dell'angelo è uno scudo salvifico.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[信仰深き者を導くとき、天使の放つ光は救いの盾となる。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[천사가 신자들을 옳은 길로 안내하니, 천사의 빛은 구원의 방패가 될지어다.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Сияние ангела спасительным щитом укрывает верную паству.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Enquanto conduz os fiéis, a radiância do anjo se torna um escudo de salvação.]]></LOCALISED_TEXT>
   </FLAVOURTEXT>
   <TYPE metaname="Instant" />
   <EXPANSION value="M13" />

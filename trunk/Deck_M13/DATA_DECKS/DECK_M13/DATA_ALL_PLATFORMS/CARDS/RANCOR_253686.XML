@@ -18,7 +18,7 @@
   <ARTIST name="Kev Walker" />
   <CASTING_COST cost="{G}" />
   <TYPE metaname="Enchantment" />
-  <SUB_TYPE metaname="Aura" />
+  <SUB_TYPE metaname="Aura" order_de-DE="0" order_es-ES="0" order_fr-FR="0" order_it-IT="0" order_jp-JA="0" order_ko-KR="0" order_pt-BR="0" order_ru-RU="0" />
   <EXPANSION value="M13" />
   <RARITY metaname="U" />
   <STATIC_ABILITY attach_filter="1" filter_zone="ZONE_IN_PLAY">
@@ -51,6 +51,7 @@
     local parent = Object():GetParent()
     if parent ~= nil then
     	parent:GetCurrentCharacteristics():Power_Add( 2 )
+		parent:GetCurrentCharacteristics():Toughness_Add( 0 )
     end
     </CONTINUOUS_ACTION>
     <CONTINUOUS_ACTION layer="6">
@@ -75,10 +76,9 @@
     return true
     </TRIGGER>
     <RESOLUTION_TIME_ACTION>
-    local source = EffectSource()
-    if source ~= nil and source:GetZone() == ZONE_GRAVEYARD then
-    	source:GuidedReveal( ZONE_GRAVEYARD, ZONE_HAND )
-    	source:PutInHand()
+    if EffectSource() ~= nil and EffectSource():GetZone() == ZONE_GRAVEYARD then
+    	EffectSource():GuidedReveal( ZONE_GRAVEYARD, ZONE_HAND )
+    	EffectSource():PutInHand() 
     end
     </RESOLUTION_TIME_ACTION>
   </TRIGGERED_ABILITY>
