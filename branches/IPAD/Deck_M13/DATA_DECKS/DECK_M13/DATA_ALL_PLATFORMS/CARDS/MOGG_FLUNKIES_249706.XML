@@ -1,0 +1,55 @@
+﻿<?xml version='1.0'?>
+<CARD_V2>
+  <FILENAME text="MOGG_FLUNKIES_249706" />
+  <CARDNAME text="MOGG_FLUNKIES" />
+  <TITLE>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Mogg Flunkies]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Mogg Flunkies]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Mogg Flunkies]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Mogg Flunkies]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Mogg Flunkies]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[Mogg Flunkies]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[Mogg Flunkies]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Mogg Flunkies]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Mogg Flunkies]]></LOCALISED_TEXT>
+  </TITLE>
+  <MULTIVERSEID value="249706" />
+  <ARTID value="249706" />
+  <ARTIST name="Brom" />
+  <CASTING_COST cost="{1}{R}" />
+  <FLAVOURTEXT>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[They’ll attack whatever’s in front of them—as long as you tell them where   that is.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[They’ll attack whatever’s in front of them—as long as you tell them where that is.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[They’ll attack whatever’s in front of them—as long as you tell them where that is.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[They’ll attack whatever’s in front of them—as long as you tell them where that is.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[They’ll attack whatever’s in front of them—as long as you tell them where that is.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[They’ll attack whatever’s in front of them—as long as you tell them where that is.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[They’ll attack whatever’s in front of them—as long as you tell them where that is.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[They’ll attack whatever’s in front of them—as long as you tell them where that is.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[They’ll attack whatever’s in front of them—as long as you tell them where that is.]]></LOCALISED_TEXT>
+  </FLAVOURTEXT>
+  <TYPE metaname="Creature" />
+  <SUB_TYPE metaname="Goblin" />
+  <EXPANSION value="M13" />
+  <RARITY metaname="C" />
+  <POWER value="3" />
+  <TOUGHNESS value="3" />
+  <STATIC_ABILITY filter_zone="ZONE_IN_PLAY">
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Mogg Flunkies can’t attack or block alone.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Mogg Flunkies can’t attack or block alone.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Mogg Flunkies can’t attack or block alone.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Mogg Flunkies can’t attack or block alone.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Mogg Flunkies can’t attack or block alone.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[Mogg Flunkies can’t attack or block alone.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[Mogg Flunkies can’t attack or block alone.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Mogg Flunkies can’t attack or block alone.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Mogg Flunkies can’t attack or block alone.]]></LOCALISED_TEXT>
+	<CONTINUOUS_ACTION>
+    local characteristics = Object():GetCurrentCharacteristics()
+    characteristics:Characteristic_Set( CHARACTERISTIC_CANNOT_ATTACK_ALONE, 1 )
+	characteristics:Characteristic_Set( CHARACTERISTIC_CANNOT_BLOCK_ALONE, 1 )
+    </CONTINUOUS_ACTION>
+  </STATIC_ABILITY>
+  <SFX text="COMBAT_PIERCE_LARGE_ATTACK" power_boundary_min="4" power_boundary_max="-1" />
+  <SFX text="COMBAT_PIERCE_SMALL_ATTACK" power_boundary_min="1" power_boundary_max="3" />
+</CARD_V2>

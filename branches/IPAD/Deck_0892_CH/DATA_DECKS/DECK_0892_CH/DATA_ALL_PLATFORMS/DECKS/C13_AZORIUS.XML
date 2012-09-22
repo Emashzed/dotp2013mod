@@ -1,4 +1,4 @@
-<DECK personality="C13_AZORIUS_DEFAULT.XML" deck_box_image="D13_Azorias" deck_box_image_locked="locked" content_pack="0" uid="892" always_available="true" preview_card="aura_servants" is_white="true" is_blue="true">
+<DECK personality="C13_AZORIUS_DEFAULT.XML" deck_box_image="D13_Azorias" deck_box_image_locked="locked" content_pack="0" uid="892" never_available="true" preview_card="aura_servants" is_white="true" is_blue="true">
   <DECKSTATISTICS Size="6" Speed="4" Flex="4" Syn="8" />
   <LandConfig minPlains="5" minIsland="5" numSpellsThatCountAsLand="4" />
   <CARD name="INVISIBLE_STALKER_277041" deckOrderId="0" />

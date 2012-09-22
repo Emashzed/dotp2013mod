@@ -55,6 +55,11 @@
 	local total = 0  
     local filter = Object():GetFilter()  
     filter:Clear()  
+	filter:AddCardType( CARD_TYPE_ARTIFACT )
+	filter:AddCardType( CARD_TYPE_CREATURE )
+    filter:AddCardType( CARD_TYPE_ENCHANTMENT )
+    filter:AddCardType( CARD_TYPE_LAND )
+    filter:AddCardType( CARD_TYPE_PLANESWALKER )
     filter:SetZone( ZONE_IN_PLAY )   
     filter:SetController( player )  
     filter:NotTargetted()  

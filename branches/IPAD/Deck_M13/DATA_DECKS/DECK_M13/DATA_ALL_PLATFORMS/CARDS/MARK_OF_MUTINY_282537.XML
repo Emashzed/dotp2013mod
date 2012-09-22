@@ -1,0 +1,98 @@
+﻿<?xml version='1.0'?>
+<CARD_V2>
+  <FILENAME text="MARK_OF_MUTINY_282537" />
+  <CARDNAME text="MARK_OF_MUTINY" />
+  <TITLE>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Mark of Mutiny]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Mark of Mutiny]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Mark of Mutiny]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Mark of Mutiny]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Mark of Mutiny]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[Mark of Mutiny]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[Mark of Mutiny]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Mark of Mutiny]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Mark of Mutiny]]></LOCALISED_TEXT>
+  </TITLE>
+  <MULTIVERSEID value="282537" />
+  <ARTID value="282537" />
+  <ARTIST name="Mike Bierek" />
+  <CASTING_COST cost="{2}{R}" />
+  <FLAVOURTEXT>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[The flame of anger is hard to douse     once lit.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[The flame of anger is hard to douse once lit.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[The flame of anger is hard to douse once lit.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[The flame of anger is hard to douse once lit.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[The flame of anger is hard to douse once lit.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[The flame of anger is hard to douse once lit.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[The flame of anger is hard to douse once lit.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[The flame of anger is hard to douse once lit.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[The flame of anger is hard to douse once lit.]]></LOCALISED_TEXT>
+  </FLAVOURTEXT>
+  <TYPE metaname="Sorcery" />
+  <EXPANSION value="M13" />
+  <RARITY metaname="U" />
+  <SPELL_ABILITY dangerous="1" filter_zone="ZONE_IN_PLAY">
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Gain control of target creature until end of turn. Put a +1/+1 counter on it and untap it. That creature gains haste until end of turn.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Gain control of target creature until end of turn. Put a +1/+1 counter on it and untap it. That creature gains haste until end of turn.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Gain control of target creature until end of turn. Put a +1/+1 counter on it and untap it. That creature gains haste until end of turn.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Gain control of target creature until end of turn. Put a +1/+1 counter on it and untap it. That creature gains haste until end of turn.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Gain control of target creature until end of turn. Put a +1/+1 counter on it and untap it. That creature gains haste until end of turn.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[Gain control of target creature until end of turn. Put a +1/+1 counter on it and untap it. That creature gains haste until end of turn.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[Gain control of target creature until end of turn. Put a +1/+1 counter on it and untap it. That creature gains haste until end of turn.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Gain control of target creature until end of turn. Put a +1/+1 counter on it and untap it. That creature gains haste until end of turn.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Gain control of target creature until end of turn. Put a +1/+1 counter on it and untap it. That creature gains haste until end of turn.]]></LOCALISED_TEXT>
+	<TARGET_DEFINITION id="0">
+    local filter = Object():GetFilter()
+    filter:Clear()
+    filter:AddCardType( CARD_TYPE_CREATURE )
+    filter:SetZone( ZONE_IN_PLAY )
+    </TARGET_DEFINITION>
+    <TARGET_DETERMINATION>
+    return AtLeastOneTargetFromDefinition(0)
+    </TARGET_DETERMINATION>
+    <PLAY_TIME_ACTION target_choosing="1">
+    EffectController():ChooseTarget( 0, "CARD_QUERY_CHOOSE_CREATURE_TO_GAIN_CONTROL", EffectDC():Make_Targets(0) )
+    </PLAY_TIME_ACTION>
+	<RESOLUTION_TIME_ACTION>
+	local target = EffectDC():Get_Targets(0):Get_CardPtr(0)
+	
+	EffectDC():Set_Int( 1, 0 )
+	if target ~= nil then
+		if target:GetController():GetTeam() ~= Object():GetController():GetTeam() then
+			EffectDC():Set_Int( 1, 1 )
+		end
+	end
+	</RESOLUTION_TIME_ACTION>
+	<CONTINUOUS_ACTION layer="2">
+    local target = EffectDC():Get_Targets(0):Get_CardPtr(0)
+    if target ~= nil then  
+    	target:SetController( EffectController() )  
+    end
+    </CONTINUOUS_ACTION>
+    <RESOLUTION_TIME_ACTION>
+    local target = EffectDC():Get_Targets(0):Get_CardPtr(0)
+    if target ~= nil then
+		target:AddCounters( MTG():PlusOnePlusOneCounters(), 1 )
+    	target:Untap()  
+    end
+    </RESOLUTION_TIME_ACTION>
+    <CONTINUOUS_ACTION layer="6">
+    local target = EffectDC():Get_Targets(0):Get_CardPtr(0)
+	local friendly = EffectDC():Get_Int(1)
+    if target ~= nil and friendly ~= 1 then  
+    	local characteristics = target:GetCurrentCharacteristics()
+    	characteristics:Characteristic_Set( CHARACTERISTIC_WORTHLESS, 1 )
+    end
+    </CONTINUOUS_ACTION>
+    <CONTINUOUS_ACTION layer="6">
+    local target = EffectDC():Get_Targets(0):Get_CardPtr(0)
+    if target ~= nil then  
+    	local characteristics = target:GetCurrentCharacteristics()
+    	characteristics:Characteristic_Set( CHARACTERISTIC_HASTE, 1 )
+    end
+    </CONTINUOUS_ACTION>
+    <DURATION simple_duration="UntilEOT" />
+  </SPELL_ABILITY>
+  <HELP title="MORE_INFO_BADGE_TITLE_14" body="MORE_INFO_BADGE_BODY_14" zone="ZONE_ANY" />
+  <AI_BASE_SCORE score="1000" zone="ZONE_HAND" />
+</CARD_V2>
