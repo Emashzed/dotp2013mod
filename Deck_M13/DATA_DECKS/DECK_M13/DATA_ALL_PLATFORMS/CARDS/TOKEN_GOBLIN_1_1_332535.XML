@@ -20,7 +20,7 @@
   <CASTING_COST cost="" />
   <TYPE metaname="Creature" />
   <SUB_TYPE metaname="Goblin" order_de-DE="0" order_es-ES="0" order_fr-FR="0" order_it-IT="0" order_jp-JA="0" order_ko-KR="0" order_pt-BR="0" order_ru-RU="0" />
-  <EXPANSION value="DPG" />
+  <EXPANSION value="M13" />
   <RARITY metaname="T" />
   <POWER value="1" />
   <TOUGHNESS value="1" />

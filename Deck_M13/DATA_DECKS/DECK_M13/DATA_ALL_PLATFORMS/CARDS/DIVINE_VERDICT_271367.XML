@@ -65,7 +65,10 @@
     <SFX text="TARGET_WHITE_MAGIC_PLAY" />
   </SPELL_ABILITY>
   <AI_AVAILABILITY type="in_response" />
+  <AI_AVAILABILITY step="begin_combat" turn="their_turn" />
+  <AI_AVAILABILITY step="main_1" turn="my_turn" />
   <AI_AVAILABILITY step="declare_attackers" turn="their_turn" />
   <AI_AVAILABILITY step="declare_blockers" />
+  <AI_AVAILABILITY step="end_of_turn" />
   <AI_BASE_SCORE score="1200" zone="ZONE_HAND" />
 </CARD_V2>

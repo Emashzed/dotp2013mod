@@ -25,7 +25,7 @@
     <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[“Siamo la spada di Odric. Colpiamo senza timore, poiché la sua mente ha predetto come i nostri nemici saranno trucidati.”]]></LOCALISED_TEXT>
     <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[「我々はオドリックの剣だ。 我々は恐れることなく戦い、オドリックが望むように我らの敵を殺戮するのだ」]]></LOCALISED_TEXT>
     <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[“우리가 오드릭의 칼날이다. 상대가 어떻게 죽을 지를 이미 마음 속으로 봤으니 우리의 검에는 두려움이 없다.”]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[“Мы - меч Одрика. разящий без страха, ибо его проницательный ум понял, как уничтожить наших врагов».]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[«Мы — меч Одрика, разящий без страха, ибо его проницательный ум понял, как уничтожить наших врагов».]]></LOCALISED_TEXT>
     <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[“Nós somos a espada de Odric. Golpeamos sem medo, pois sua mente profetizou como nosso inimigo será morto.”]]></LOCALISED_TEXT>
   </FLAVOURTEXT>
   <TYPE metaname="Creature" />

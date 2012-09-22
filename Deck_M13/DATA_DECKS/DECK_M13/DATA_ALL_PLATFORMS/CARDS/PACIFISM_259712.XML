@@ -29,7 +29,7 @@
     <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Pela primeira vez na vida, Grakk sentiu-se agitado e confuso por dentro.]]></LOCALISED_TEXT>
   </FLAVOURTEXT>
   <TYPE metaname="Enchantment" />
-  <SUB_TYPE metaname="Aura" />
+  <SUB_TYPE metaname="Aura" order_de-DE="0" order_es-ES="0" order_fr-FR="0" order_it-IT="0" order_jp-JA="0" order_ko-KR="0" order_pt-BR="0" order_ru-RU="0" />
   <EXPANSION value="M13" />
   <RARITY metaname="C" />
   <STATIC_ABILITY attach_filter="1" filter_zone="ZONE_IN_PLAY">
@@ -62,6 +62,11 @@
     local parent = Object():GetParent()
     if parent ~= nil then
     	parent:GetCurrentCharacteristics():Characteristic_Set( CHARACTERISTIC_CANT_ATTACK, 1 )
+
+
+
+
+
     	parent:GetCurrentCharacteristics():Characteristic_Set( CHARACTERISTIC_CANT_BLOCK, 1 )
     end
     </CONTINUOUS_ACTION>

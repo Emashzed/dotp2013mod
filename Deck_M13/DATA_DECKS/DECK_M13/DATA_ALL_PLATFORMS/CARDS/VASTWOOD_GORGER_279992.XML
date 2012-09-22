@@ -1,0 +1,48 @@
+﻿<?xml version='1.0'?>
+<CARD_V2>
+  <FILENAME text="VASTWOOD_GORGER_279992" />
+  <CARDNAME text="VASTWOOD_GORGER" />
+  <TITLE>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Vastwood Gorger]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Vastwood Gorger]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Vastwood Gorger]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Vastwood Gorger]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Vastwood Gorger]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[Vastwood Gorger]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[Vastwood Gorger]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Vastwood Gorger]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Vastwood Gorger]]></LOCALISED_TEXT>
+  </TITLE>
+  <MULTIVERSEID value="279992" />
+  <ARTID value="279992" />
+  <ARTIST name="Kieran Yanner" />
+  <CASTING_COST cost="{5}{G}" />
+  <FLAVOURTEXT>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[“A long and difficult incision revealed  that all vital organs are housed in the head, save for a long chain of stomachs, forty in all, leading from its throat to the end of the tail.”
+—Mulak Ffar, Vastwood Biodiversity]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[“A long and difficult incision revealed that all vital organs are housed in the head, save for a long chain of stomachs, forty in all, leading from its throat to the end of the tail.”
+—Mulak Ffar, Vastwood Biodiversity]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[“A long and difficult incision revealed that all vital organs are housed in the head, save for a long chain of stomachs, forty in all, leading from its throat to the end of the tail.”
+—Mulak Ffar, Vastwood Biodiversity]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[“A long and difficult incision revealed that all vital organs are housed in the head, save for a long chain of stomachs, forty in all, leading from its throat to the end of the tail.”
+—Mulak Ffar, Vastwood Biodiversity]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[“A long and difficult incision revealed that all vital organs are housed in the head, save for a long chain of stomachs, forty in all, leading from its throat to the end of the tail.”
+—Mulak Ffar, Vastwood Biodiversity]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[“A long and difficult incision revealed that all vital organs are housed in the head, save for a long chain of stomachs, forty in all, leading from its throat to the end of the tail.”
+—Mulak Ffar, Vastwood Biodiversity]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[“A long and difficult incision revealed that all vital organs are housed in the head, save for a long chain of stomachs, forty in all, leading from its throat to the end of the tail.”
+—Mulak Ffar, Vastwood Biodiversity]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[“A long and difficult incision revealed that all vital organs are housed in the head, save for a long chain of stomachs, forty in all, leading from its throat to the end of the tail.”
+—Mulak Ffar, Vastwood Biodiversity]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[“A long and difficult incision revealed that all vital organs are housed in the head, save for a long chain of stomachs, forty in all, leading from its throat to the end of the tail.”
+—Mulak Ffar, Vastwood Biodiversity]]></LOCALISED_TEXT>
+  </FLAVOURTEXT>
+  <TYPE metaname="Creature" />
+  <SUB_TYPE metaname="Wurm" />
+  <EXPANSION value="M13" />
+  <RARITY metaname="C" />
+  <POWER value="5" />
+  <TOUGHNESS value="6" />
+  <SFX text="COMBAT_BITE_LARGE_ATTACK" power_boundary_min="4" power_boundary_max="-1" />
+  <SFX text="COMBAT_BITE_SMALL_ATTACK" power_boundary_min="1" power_boundary_max="3" />
+</CARD_V2>

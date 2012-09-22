@@ -18,7 +18,7 @@
   <ARTIST name="Raymond Swanland" />
   <CASTING_COST cost="{X}{3}{B}{B}" />
   <FLAVOURTEXT>
-    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[“I know secrets so dark no human mind should ever contain them. Interested?”
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[“I know secrets so dark, no human mind should ever contain them. Interested?”
 —Nefarox, Overlord of Grixis]]></LOCALISED_TEXT>
     <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[« Il existe des secrets si noirs qu’aucun esprit humain ne devrait jamais les connaître. Intéressé ? »
 —Nefarox, suzerain de Grixis]]></LOCALISED_TEXT>
@@ -32,7 +32,7 @@
 —グリクシスの首領、ネファロックス]]></LOCALISED_TEXT>
     <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[“인간의 머릿속에 절대 들어가서는 안 되는 비밀들도 존재하지. 구미가 당기나?”
 —그릭시스의 지배자 네파록스]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[«Некоторые тайны настолько темные, что человеческий разум просто не должен ими владеть. Хотите?»
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[«Некоторые тайны настолько темны, что человеческий разум просто не должен ими владеть. Рассказать?»
 — Нефарокс, Повелитель Гриксиса]]></LOCALISED_TEXT>
     <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[“Alguns segredos são tão sombrios que nenhuma mente humana deveria contê-los. Interessado?”
 — Nefarox, Soberano de Grixis]]></LOCALISED_TEXT>
