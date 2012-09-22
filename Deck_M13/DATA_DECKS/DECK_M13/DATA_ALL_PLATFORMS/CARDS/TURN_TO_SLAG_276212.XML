@@ -1,0 +1,95 @@
+﻿<?xml version='1.0'?>
+<CARD_V2>
+  <FILENAME text="TURN_TO_SLAG_276212" />
+  <CARDNAME text="TURN_TO_SLAG" />
+  <TITLE>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Turn to Slag]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Turn to Slag]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Turn to Slag]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Turn to Slag]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Turn to Slag]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[Turn to Slag]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[Turn to Slag]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Turn to Slag]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Turn to Slag]]></LOCALISED_TEXT>
+  </TITLE>
+  <MULTIVERSEID value="276212" />
+  <ARTID value="276212" />
+  <ARTIST name="Zoltan Boros &amp; Gabor Szikszai" />
+  <CASTING_COST cost="{3}{R}{R}" />
+  <FLAVOURTEXT>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[“If it wasn’t a blackened, stinking, melted abomination before, it certainly is now.”
+—Koth of the Hammer]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[“If it wasn’t a blackened, stinking, melted abomination before, it certainly is now.”
+—Koth of the Hammer]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[“If it wasn’t a blackened, stinking, melted abomination before, it certainly is now.”
+—Koth of the Hammer]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[“If it wasn’t a blackened, stinking, melted abomination before, it certainly is now.”
+—Koth of the Hammer]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[“If it wasn’t a blackened, stinking, melted abomination before, it certainly is now.”
+—Koth of the Hammer]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[“If it wasn’t a blackened, stinking, melted abomination before, it certainly is now.”
+—Koth of the Hammer]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[“If it wasn’t a blackened, stinking, melted abomination before, it certainly is now.”
+—Koth of the Hammer]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[“If it wasn’t a blackened, stinking, melted abomination before, it certainly is now.”
+—Koth of the Hammer]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[“If it wasn’t a blackened, stinking, melted abomination before, it certainly is now.”
+—Koth of the Hammer]]></LOCALISED_TEXT>
+  </FLAVOURTEXT>
+  <TYPE metaname="Sorcery" />
+  <EXPANSION value="M13" />
+  <RARITY metaname="C" />
+  <SPELL_ABILITY dangerous="1" filter_zone="ZONE_IN_PLAY">
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Turn to Slag deals 5 damage to target creature. Destroy all Equipment attached to that creature.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Turn to Slag deals 5 damage to target creature. Destroy all Equipment attached to that creature.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Turn to Slag deals 5 damage to target creature. Destroy all Equipment attached to that creature.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Turn to Slag deals 5 damage to target creature. Destroy all Equipment attached to that creature.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Turn to Slag deals 5 damage to target creature. Destroy all Equipment attached to that creature.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[Turn to Slag deals 5 damage to target creature. Destroy all Equipment attached to that creature.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[Turn to Slag deals 5 damage to target creature. Destroy all Equipment attached to that creature.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Turn to Slag deals 5 damage to target creature. Destroy all Equipment attached to that creature.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Turn to Slag deals 5 damage to target creature. Destroy all Equipment attached to that creature.]]></LOCALISED_TEXT>
+	<TARGET_DEFINITION id="0">
+    local filter = Object():GetFilter()
+    filter:Clear()
+    filter:AddCardType( CARD_TYPE_CREATURE )
+    filter:SetZone( ZONE_IN_PLAY )
+    filter:SetHint( HINT_ENEMY_ONLY, EffectController() )
+    </TARGET_DEFINITION>
+    <TARGET_DETERMINATION>
+    return AtLeastOneTargetFromDefinition(0)
+    </TARGET_DETERMINATION>
+    <PLAY_TIME_ACTION target_choosing="1">
+    EffectController():ChooseTarget( 0, "CARD_QUERY_CHOOSE_CREATURE_DEAL_5_DAMAGE", EffectDC():Make_Targets(0) )
+    </PLAY_TIME_ACTION>
+	<FILTER>
+	local target_creature = EffectDC():Get_Targets(0):Get_CardPtr(0)
+    local filteredCard = FilteredCard()
+	if ( target_creature ~= nil ) then 
+		return ((filteredCard ~= nil) and
+		(filteredCard:GetZone() == (ZONE_IN_PLAY) and
+		(filteredCard:GetSubType():Test( ARTIFACT_TYPE_EQUIPMENT ) ~= 0) and
+		(filteredCard:GetParent() == target_creature )))
+	end
+    </FILTER>
+	<RESOLUTION_TIME_ACTION>
+    FilteredCard():Destroy()
+    </RESOLUTION_TIME_ACTION>
+    <RESOLUTION_TIME_ACTION ignore_filter="1">
+    local target_creature = EffectDC():Get_Targets(0):Get_CardPtr(0)
+    local target_player = EffectDC():Get_Targets(0):Get_PlayerPtr(0)
+    local source = EffectSource()
+    if source == nil then
+      source = Object()
+    end
+    if ( target_creature ~= nil ) then   
+    	target_creature:DealDamage(5, source)  
+    elseif ( target_player ~= nil ) then   
+    	target_player:DealDamage(5, source)  
+    end
+    </RESOLUTION_TIME_ACTION>
+    <SFX text="TARGET_FLAME_PLAY" />
+  </SPELL_ABILITY>
+  <AI_BASE_SCORE score="1500" zone="ZONE_HAND" />
+</CARD_V2>

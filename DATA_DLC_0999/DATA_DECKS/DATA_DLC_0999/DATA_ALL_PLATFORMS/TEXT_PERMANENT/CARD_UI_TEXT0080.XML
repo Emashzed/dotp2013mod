@@ -252,6 +252,18 @@
     <Cell><Data ss:Type="String">Escolha um cartão para colocar no cemitério de seu dono.</Data></Cell>
    </Row>
    <Row>
+    <Cell><Data ss:Type="String">CARD_QUERY_CHOOSE_CREATURE_CARD_TO_PUT_ON_YOUR_LIBRARY</Data></Cell>
+    <Cell ss:Index="3"><Data ss:Type="String">Choose a creature card to put on top of your library.</Data></Cell>
+    <Cell><Data ss:Type="String">Choisissez une créature pour la mettre au-dessus de la bibliothèque de son propriétaire.</Data></Cell>
+    <Cell><Data ss:Type="String">Elige una criatura para poner en la parte superior de la biblioteca de su propietario.</Data></Cell>
+    <Cell><Data ss:Type="String">Bestimme eine Kreatur, die oben auf die Bibliothek ihres Besitzers gelegt werden soll.</Data></Cell>
+    <Cell><Data ss:Type="String">Scegli una creatura da mettere in cima al grimorio del suo proprietario.</Data></Cell>
+    <Cell ss:Index="9"><Data ss:Type="String">オーナーのライブラリーの一番上に戻すクリーチャーを選択。</Data></Cell>
+    <Cell><Data ss:Type="String">소유자의 서고 맨 위에 놓을 생물 한 개를 고르십시오.</Data></Cell>
+    <Cell><Data ss:Type="String">Выберите существо, которое нужно положить на верх библиотеки его владельца.</Data></Cell>
+    <Cell><Data ss:Type="String">Escolha uma criatura para colocar no topo do grimório de seu dono.</Data></Cell>
+   </Row>
+   <Row>
     <Cell><Data ss:Type="String">CARD_QUERY_CHOOSE_CREATURE_CARD_TO_EXILE</Data></Cell>
     <Cell ss:Index="3"><Data ss:Type="String">Choose a creature card to exile.</Data></Cell>
     <Cell><Data ss:Type="String">Choisissez une carte pour l'exiler.</Data></Cell>
@@ -310,6 +322,18 @@
     <Cell><Data ss:Type="String">해당 컨트롤러에 의해 희생 대상 생물을 선택합니다.</Data></Cell>
     <Cell><Data ss:Type="String">Выберите целевое существо пожертвовать своим контроллером.</Data></Cell>
     <Cell><Data ss:Type="String">Escolha a criatura alvo para sacrificar pelo seu controlador.</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">CARD_QUERY_CHOOSE_CREATURE_TO_GET_1_0_AND_FIRST_STRIKE</Data></Cell>
+    <Cell ss:Index="3"><Data ss:Type="String">Choose a creature to get +1/+0 and gain first strike.</Data></Cell>
+    <Cell><Data ss:Type="String">Choisissez une créature pour lui faire gagner +1/+0 et acquérir l'initiative.</Data></Cell>
+    <Cell><Data ss:Type="String">Elige una criatura para que obtenga +1/+0 y gane dañar primero.</Data></Cell>
+    <Cell><Data ss:Type="String">Bestimme eine Kreatur, die +1/+0 und Erstschlag erhalten soll.</Data></Cell>
+    <Cell><Data ss:Type="String">Scegli una creatura che prende +1/+0 e ha attacco improvviso.</Data></Cell>
+    <Cell ss:Index="9"><Data ss:Type="String">＋１/＋０の修整を受けて先制攻撃を得るクリーチャーを選択。</Data></Cell>
+    <Cell><Data ss:Type="String">+1/+0을 받고 선제공격 능력을 얻을 생물 한 개를 고르십시오.</Data></Cell>
+    <Cell><Data ss:Type="String">Выберите существо, которое получит +1/+0 и Первый удар.</Data></Cell>
+    <Cell><Data ss:Type="String">Escolha uma criatura para receber +1/+0 e ganhar iniciativa.</Data></Cell>
    </Row>
    <Row>
     <Cell><Data ss:Type="String">CARD_QUERY_CHOOSE_CREATURE_TO_GET_1_0_PER_MOUNTAIN_FS</Data></Cell>
@@ -406,6 +430,18 @@
     <Cell><Data ss:Type="String">Choose an enchantment to exile.</Data></Cell>
     <Cell><Data ss:Type="String">Choose an enchantment to exile.</Data></Cell>
     <Cell><Data ss:Type="String">Escolha um encantamento para exilar.</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">CARD_QUERY_CHOOSE_FOREST_TO_UNTAP</Data></Cell>
+    <Cell ss:Index="3"><Data ss:Type="String">Choose a Forest to untap.</Data></Cell>
+    <Cell><Data ss:Type="String">Choisissez un terrain pour le dégager.</Data></Cell>
+    <Cell><Data ss:Type="String">Elige una tierra para enderezarla.</Data></Cell>
+    <Cell><Data ss:Type="String">Bestimme ein Land, das enttappt werden soll.</Data></Cell>
+    <Cell><Data ss:Type="String">Scegli una terra da STAPpare.</Data></Cell>
+    <Cell ss:Index="9"><Data ss:Type="String">アンタップする土地を選択。</Data></Cell>
+    <Cell><Data ss:Type="String">언탭할 대지 한 개를 고르십시오.</Data></Cell>
+    <Cell><Data ss:Type="String">Выберите землю для разворота.</Data></Cell>
+    <Cell><Data ss:Type="String">Escolha um terreno para desvirar.</Data></Cell>
    </Row>
    <Row>
     <Cell><Data ss:Type="String">CARD_QUERY_CHOOSE_GCARD_TO_PUT_INTO_HAND</Data></Cell>
@@ -807,7 +843,7 @@
    </Row>
    <Row>
     <Cell><Data ss:Type="String">CARD_QUERY_YOURS_FIRST</Data></Cell>
-    <Cell ss:Index="3"><Cell><Data ss:Type="String">The spell from your graveyard.</Data></Cell>
+    <Cell ss:Index="3"><Data ss:Type="String">The spell from your graveyard.</Data></Cell>
     <Cell><Data ss:Type="String">The spell from your graveyard.</Data></Cell>
     <Cell><Data ss:Type="String">The spell from your graveyard.</Data></Cell>
     <Cell><Data ss:Type="String">The spell from your graveyard.</Data></Cell>

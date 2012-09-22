@@ -1,4 +1,4 @@
-<DECK personality="D13_KOTH_OLD_DEFAULT.XML" deck_box_image="D13_KOTH_OLD" deck_box_image_locked="locked" content_pack="0" uid="881" preview_card="slagstorm" is_red="true">
+<DECK personality="D13_KOTH_OLD_DEFAULT.XML" deck_box_image="D13_KOTH_OLD" deck_box_image_locked="locked" always_available="true" content_pack="0" uid="881" preview_card="slagstorm" is_red="true">
   <DECKSTATISTICS Size="7" Speed="4" Flex="6" Syn="6" />
   <CARD name="GRIM_LAVAMANCER_888234428" deckOrderId="0" />
   <CARD name="SPITTING_EARTH_888242739" deckOrderId="1" />

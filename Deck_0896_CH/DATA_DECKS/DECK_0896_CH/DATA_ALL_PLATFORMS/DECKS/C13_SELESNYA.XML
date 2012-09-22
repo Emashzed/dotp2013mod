@@ -1,4 +1,4 @@
-<DECK personality="C13_SELESNYA_DEFAULT.XML" deck_box_image="D13_Selesnya" deck_box_image_locked="locked" content_pack="0" uid="896" always_available="true" preview_card="collective_might" is_white="true" is_green="true">
+<DECK personality="C13_SELESNYA_DEFAULT.XML" deck_box_image="D13_Selesnya" deck_box_image_locked="locked" content_pack="0" uid="896" never_available="true" preview_card="collective_might" is_white="true" is_green="true">
   <DECKSTATISTICS Size="4" Speed="6" Flex="4" Syn="8" />
   <LandConfig minPlains="5" minForest="5" numSpellsThatCountAsLand="4" />
   <CARD name="INTANGIBLE_VIRTUE_277040" deckOrderId="0" />

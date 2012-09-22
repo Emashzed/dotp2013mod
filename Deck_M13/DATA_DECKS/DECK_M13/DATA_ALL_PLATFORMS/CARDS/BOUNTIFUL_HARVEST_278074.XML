@@ -1,0 +1,67 @@
+<?xml version='1.0'?>
+<CARD_V2>
+  <FILENAME text="BOUNTIFUL_HARVEST_278074" />
+  <CARDNAME text="BOUNTIFUL_HARVEST" />
+  <TITLE>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Bountiful Harvest]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Récolte généreuse]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Cosecha dadivosa]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Reiche Ernte]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Raccolto Abbondante]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[豊潤な収穫]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[풍성한 수확]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Обильный Урожай]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Colheita Abundante]]></LOCALISED_TEXT>
+  </TITLE>
+  <MULTIVERSEID value="278074" />
+  <ARTID value="278074" />
+  <ARTIST name="Jason Chan" />
+  <CASTING_COST cost="{4}{G}" />
+  <FLAVOURTEXT>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA["When we fail to see the beauty in every tree, we are no better than humans."
+—Saelia, elvish scout]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[« Quand nous cessons de voir la beauté dans tout arbre, nous ne sommes pas mieux que les humains. »
+—Saelia, éclaireuse elfe]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA["Si no podemos ver la belleza de cada árbol, no somos mejores que los humanos."
+—Saelia, exploradora élfica]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[„Wenn wir nicht mehr die Schönheit in jedem Baum erkennen, sind wir nicht besser als die Menschen."
+—Saelia, Elfenspäherin]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA["Quando non riusciamo a vedere la bellezza in ogni albero, non siamo migliori degli umani."
+—Saelia, esploratrice elfica]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[「木々の美しさを見損じるようなら、我々は人間並みということになります。」
+――エルフの斥候、サエリア]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA["우리가 나무 하나하나의 아름다움을 보지 못한다면 인간보다 나을 게 없는 존재일 것이다."
+—엘프 정찰병 사엘리아]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[«Если мы не видим красоты в каждом деревце, мы ничем не лучше людей».
+— Саэлия, эльфийская разведчица]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA["Quando deixarmos de enxergar a beleza que há em cada árvore, teremos nos igualado aos humanos."
+— Saelia, batedora élfica]]></LOCALISED_TEXT>
+  </FLAVOURTEXT>
+  <TYPE metaname="Sorcery" />
+  <EXPANSION value="M13" />
+  <RARITY metaname="C" />
+  <SPELL_ABILITY filter_zone="ZONE_IN_PLAY">
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[You gain 1 life for each land you control.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Vous gagnez 1 point de vie pour chaque terrain que vous contrôlez.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Ganas 1 vida por cada tierra que controles.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Du erhältst für jedes Land, das du kontrollierst, 1 Lebenspunkt dazu.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Guadagni 1 punto vita per ogni terra che controlli.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[あなたはあなたがコントロールする土地１つにつき１点のライフを得る。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[당신이 조종하는 대지 한 개당 생명 1점을 얻는다.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Вы получаете 1 жизнь за каждую землю под вашим контролем.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Você ganha 1 ponto de vida para cada terreno que controla.]]></LOCALISED_TEXT>
+    <RESOLUTION_TIME_ACTION>
+    local filter = Object():GetFilter()
+    filter:Clear()
+    filter:SetZone( ZONE_IN_PLAY )
+    filter:AddCardType( CARD_TYPE_LAND )
+    filter:NotTargetted()
+    filter:SetController( EffectController() )
+    local lifeGain = filter:Count()
+    if lifeGain &gt; 0 then
+    	EffectController():GainLife( lifeGain )
+    end
+    </RESOLUTION_TIME_ACTION>
+    <SFX text="CASTER_BUFF_PLAY" />
+  </SPELL_ABILITY>
+</CARD_V2>

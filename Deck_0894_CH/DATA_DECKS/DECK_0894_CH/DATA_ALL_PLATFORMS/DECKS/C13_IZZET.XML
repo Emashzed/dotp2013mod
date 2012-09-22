@@ -1,4 +1,4 @@
-<DECK personality="C13_IZZET_DEFAULT.XML" deck_box_image="D13_Izzet" deck_box_image_locked="locked" content_pack="0" uid="894" always_available="true" preview_card="mindstorms" is_blue="true" is_red="true">
+<DECK personality="C13_IZZET_DEFAULT.XML" deck_box_image="D13_Izzet" deck_box_image_locked="locked" content_pack="0" uid="894" never_available="true" preview_card="mindstorms" is_blue="true" is_red="true">
   <DECKSTATISTICS Size="2" Speed="4" Flex="8" Syn="8" />
   <LandConfig minIsland="5" minMountain="5" numSpellsThatCountAsLand="4" />
   <CARD name="LIGHTNING_ELEMENTAL_276942" deckOrderId="0" />
