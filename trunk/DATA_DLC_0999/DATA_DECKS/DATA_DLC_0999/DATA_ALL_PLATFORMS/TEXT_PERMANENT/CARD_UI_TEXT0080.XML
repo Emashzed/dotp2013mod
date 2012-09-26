@@ -818,7 +818,7 @@
    </Row>
    <Row>
     <Cell><Data ss:Type="String">CARD_QUERY_OPTION_CLAY_BIRD</Data></Cell>
-    <Cell ss:Index="3"><Data ss:Type="String"></Data>Primal Clay enters the battlefield as a 2/2 Shapeshifter with flying.</Cell>
+    <Cell ss:Index="3"><Data ss:Type="String">Primal Clay enters the battlefield as a 2/2 Shapeshifter with flying.</Data></Cell>
     <Cell><Data ss:Type="String">Primal Clay enters the battlefield as a 2/2 Shapeshifter with flying.</Data></Cell>
     <Cell><Data ss:Type="String">Primal Clay enters the battlefield as a 2/2 Shapeshifter with flying.</Data></Cell>
     <Cell><Data ss:Type="String">Primal Clay enters the battlefield as a 2/2 Shapeshifter with flying.</Data></Cell>
@@ -830,7 +830,7 @@
    </Row>
    <Row>
     <Cell><Data ss:Type="String">CARD_QUERY_OPTION_CLAY_GOLEM</Data></Cell>
-    <Cell ss:Index="3"><Data ss:Type="String"></Data>Primal Clay enters the battlefield as a 3/3 Shapeshifter.</Cell>
+    <Cell ss:Index="3"><Data ss:Type="String">Primal Clay enters the battlefield as a 3/3 Shapeshifter.</Data></Cell>
     <Cell><Data ss:Type="String">Primal Clay enters the battlefield as a 3/3 Shapeshifter.</Data></Cell>
     <Cell><Data ss:Type="String">Primal Clay enters the battlefield as a 3/3 Shapeshifter.</Data></Cell>
     <Cell><Data ss:Type="String">Primal Clay enters the battlefield as a 3/3 Shapeshifter.</Data></Cell>
@@ -842,7 +842,7 @@
    </Row>
    <Row>
     <Cell><Data ss:Type="String">CARD_QUERY_OPTION_CLAY_WALL</Data></Cell>
-    <Cell ss:Index="3"><Data ss:Type="String"></Data>Primal Clay enters the battlefield as a 1/6 Shapeshifter Wall with defender.</Cell>
+    <Cell ss:Index="3"><Data ss:Type="String">Primal Clay enters the battlefield as a 1/6 Shapeshifter Wall with defender.</Data></Cell>
     <Cell><Data ss:Type="String">Primal Clay enters the battlefield as a 1/6 Shapeshifter Wall with defender.</Data></Cell>
     <Cell><Data ss:Type="String">Primal Clay enters the battlefield as a 1/6 Shapeshifter Wall with defender.</Data></Cell>
     <Cell><Data ss:Type="String">Primal Clay enters the battlefield as a 1/6 Shapeshifter Wall with defender.</Data></Cell>
