@@ -480,6 +480,18 @@
     <Cell><Data ss:Type="String">Escolha o jogador alvo para descartar dois cards de sua mão de forma aleatória.</Data></Cell>
    </Row>
    <Row>
+    <Cell><Data ss:Type="String">CARD_QUERY_CHOOSE_PLAYER_TO_LOSE_GAME</Data></Cell>
+    <Cell ss:Index="3"><Data ss:Type="String">Choose a player to lose the game.</Data></Cell>
+    <Cell><Data ss:Type="String">Choisissez un joueur à cibler.</Data></Cell>
+    <Cell><Data ss:Type="String">Elige un jugador para hacerlo objetivo.</Data></Cell>
+    <Cell><Data ss:Type="String">Bestimme einen Spieler, der das Ziel sein soll.</Data></Cell>
+    <Cell><Data ss:Type="String">Scegli un giocatore da bersagliare.</Data></Cell>
+    <Cell ss:Index="9"><Data ss:Type="String">対象のプレイヤーを選択。</Data></Cell>
+    <Cell><Data ss:Type="String">목표로 지정할 플레이어 한 명을 고르십시오.</Data></Cell>
+    <Cell><Data ss:Type="String">Выберите целевого игрока.</Data></Cell>
+    <Cell><Data ss:Type="String">Escolha um jogador alvo.</Data></Cell>
+   </Row>
+   <Row>
     <Cell><Data ss:Type="String">CARD_QUERY_CHOOSE_PERMANENT_TAPHOLD</Data></Cell>
     <Cell ss:Index="3"><Data ss:Type="String">Choose a permanent to tap. It won’t untap during its controller’s next untap step.</Data></Cell>
     <Cell><Data ss:Type="String">Choisissez un permanent pour l'engager. Il ne se dégagera pas pendant la prochaine étape de dégagement de son contrôleur.</Data></Cell>
@@ -803,6 +815,42 @@
     <Cell><Data ss:Type="String">유료 {%d}</Data></Cell>
     <Cell><Data ss:Type="String">Обратите {%d}</Data></Cell>
     <Cell><Data ss:Type="String">Pagar {%d}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">CARD_QUERY_OPTION_CLAY_BIRD</Data></Cell>
+    <Cell ss:Index="3"><Data ss:Type="String"></Data>Primal Clay enters the battlefield as a 2/2 Shapeshifter with flying.</Cell>
+    <Cell><Data ss:Type="String">Primal Clay enters the battlefield as a 2/2 Shapeshifter with flying.</Data></Cell>
+    <Cell><Data ss:Type="String">Primal Clay enters the battlefield as a 2/2 Shapeshifter with flying.</Data></Cell>
+    <Cell><Data ss:Type="String">Primal Clay enters the battlefield as a 2/2 Shapeshifter with flying.</Data></Cell>
+    <Cell><Data ss:Type="String">Primal Clay enters the battlefield as a 2/2 Shapeshifter with flying.</Data></Cell>
+    <Cell ss:Index="9"><Data ss:Type="String">Primal Clay enters the battlefield as a 2/2 Shapeshifter with flying.</Data></Cell>
+    <Cell><Data ss:Type="String">Primal Clay enters the battlefield as a 2/2 Shapeshifter with flying.</Data></Cell>
+    <Cell><Data ss:Type="String">Primal Clay enters the battlefield as a 2/2 Shapeshifter with flying.</Data></Cell>
+    <Cell><Data ss:Type="String">Primal Clay enters the battlefield as a 2/2 Shapeshifter with flying.</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">CARD_QUERY_OPTION_CLAY_GOLEM</Data></Cell>
+    <Cell ss:Index="3"><Data ss:Type="String"></Data>Primal Clay enters the battlefield as a 3/3 Shapeshifter.</Cell>
+    <Cell><Data ss:Type="String">Primal Clay enters the battlefield as a 3/3 Shapeshifter.</Data></Cell>
+    <Cell><Data ss:Type="String">Primal Clay enters the battlefield as a 3/3 Shapeshifter.</Data></Cell>
+    <Cell><Data ss:Type="String">Primal Clay enters the battlefield as a 3/3 Shapeshifter.</Data></Cell>
+    <Cell><Data ss:Type="String">Primal Clay enters the battlefield as a 3/3 Shapeshifter.</Data></Cell>
+    <Cell ss:Index="9"><Data ss:Type="String">Primal Clay enters the battlefield as a 3/3 Shapeshifter.</Data></Cell>
+    <Cell><Data ss:Type="String">Primal Clay enters the battlefield as a 3/3 Shapeshifter.</Data></Cell>
+    <Cell><Data ss:Type="String">Primal Clay enters the battlefield as a 3/3 Shapeshifter.</Data></Cell>
+    <Cell><Data ss:Type="String">Primal Clay enters the battlefield as a 3/3 Shapeshifter.</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">CARD_QUERY_OPTION_CLAY_WALL</Data></Cell>
+    <Cell ss:Index="3"><Data ss:Type="String"></Data>Primal Clay enters the battlefield as a 1/6 Shapeshifter Wall with defender.</Cell>
+    <Cell><Data ss:Type="String">Primal Clay enters the battlefield as a 1/6 Shapeshifter Wall with defender.</Data></Cell>
+    <Cell><Data ss:Type="String">Primal Clay enters the battlefield as a 1/6 Shapeshifter Wall with defender.</Data></Cell>
+    <Cell><Data ss:Type="String">Primal Clay enters the battlefield as a 1/6 Shapeshifter Wall with defender.</Data></Cell>
+    <Cell><Data ss:Type="String">Primal Clay enters the battlefield as a 1/6 Shapeshifter Wall with defender.</Data></Cell>
+    <Cell ss:Index="9"><Data ss:Type="String">Primal Clay enters the battlefield as a 1/6 Shapeshifter Wall with defender.</Data></Cell>
+    <Cell><Data ss:Type="String">Primal Clay enters the battlefield as a 1/6 Shapeshifter Wall with defender.</Data></Cell>
+    <Cell><Data ss:Type="String">Primal Clay enters the battlefield as a 1/6 Shapeshifter Wall with defender.</Data></Cell>
+    <Cell><Data ss:Type="String">Primal Clay enters the battlefield as a 1/6 Shapeshifter Wall with defender.</Data></Cell>
    </Row>
    <Row>
     <Cell><Data ss:Type="String">CARD_QUERY_OPTION_TAP_TARGET_PERMANENT</Data></Cell>

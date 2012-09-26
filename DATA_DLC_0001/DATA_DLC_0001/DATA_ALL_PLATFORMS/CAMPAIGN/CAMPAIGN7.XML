@@ -1,0 +1,33 @@
+<?xml version="1.0"?>
+
+<campaign name="EXP_CAMPAIGN_NAME" id="5" content_pack="0" locked="false">
+	<node id="1" type = "two player duel" name_tag="PLAYER_NAME_SELESNYA" locked_description_tag="CAMPAIGN_NODE_DESCRIPTION_LOCKED_GENERIC" available_description_tag="CAMPAIGN_NODE_DESCRIPTION_AVAILABLE_PLANESWALKER_DECK_UNLOCK" complete_description_tag="CAMPAIGN_NODE_DESCRIPTION_COMPLETE_GENERIC" x="-500" small_x = "-150" size = "2" plane = "1" always_available = "true">
+		<opponent name="PLAYER_NAME_SELESNYA" deck="E13_SELESNYA" planeswalker_desc = "PLANESWALKER_DESC_GARRUK_WILDSPEAKER_1" />
+		<unlock deck="E13_SELESNYA" />
+	</node>
+	
+	<node id="2" type = "two player duel" name_tag="PLAYER_NAME_AZORIUS" locked_description_tag="CAMPAIGN_NODE_DESCRIPTION_LOCKED_GENERIC" available_description_tag="CAMPAIGN_NODE_DESCRIPTION_AVAILABLE_PLANESWALKER_DECK_UNLOCK" complete_description_tag="CAMPAIGN_NODE_DESCRIPTION_COMPLETE_GENERIC" x="-250" small_x = "-75" size = "2" plane = "1">
+		<prereq id = "1" />
+		<opponent name="PLAYER_NAME_AZORIUS" deck="E13_AZORIUS" planeswalker_desc = "PLANESWALKER_DESC_GARRUK_WILDSPEAKER_1" />
+		<unlock deck="E13_AZORIUS" />
+	</node>
+	
+	<node id="3" type = "two player duel" name_tag="PLAYER_NAME_RAKDOS" locked_description_tag="CAMPAIGN_NODE_DESCRIPTION_LOCKED_GENERIC" available_description_tag="CAMPAIGN_NODE_DESCRIPTION_AVAILABLE_PLANESWALKER_DECK_UNLOCK" complete_description_tag="CAMPAIGN_NODE_DESCRIPTION_COMPLETE_GENERIC" x="0" small_x = "0" size = "2" plane = "1">
+		<prereq id = "2" />
+		<opponent name="PLAYER_NAME_RAKDOS" deck="E13_RAKDOS" planeswalker_desc = "PLANESWALKER_DESC_GARRUK_WILDSPEAKER_1" />
+		<unlock deck="E13_RAKDOS" />
+	</node>
+	
+	<node id="4" type = "two player duel" name_tag="PLAYER_NAME_IZZET" locked_description_tag="CAMPAIGN_NODE_DESCRIPTION_LOCKED_GENERIC" available_description_tag="CAMPAIGN_NODE_DESCRIPTION_AVAILABLE_PLANESWALKER_DECK_UNLOCK" complete_description_tag="CAMPAIGN_NODE_DESCRIPTION_COMPLETE_GENERIC" x="250" small_x = "75" size = "2" plane = "1">
+		<prereq id = "3" />
+		<opponent name="PLAYER_NAME_IZZET" deck="E13_IZZET" planeswalker_desc = "PLANESWALKER_DESC_GARRUK_WILDSPEAKER_1" />
+		<unlock deck="E13_IZZET" />
+	</node>
+	
+	<node id="5" type = "two player duel" name_tag="PLAYER_NAME_GOLGARI" locked_description_tag="CAMPAIGN_NODE_DESCRIPTION_LOCKED_GENERIC" available_description_tag="CAMPAIGN_NODE_DESCRIPTION_AVAILABLE_PLANESWALKER_DECK_UNLOCK" complete_description_tag="CAMPAIGN_NODE_DESCRIPTION_COMPLETE_GENERIC" x="500" small_x = "150" size = "2" plane = "1">
+		<prereq id = "4" />
+		<opponent name="PLAYER_NAME_GOLGARI" deck="E13_GOLGARI" planeswalker_desc = "PLANESWALKER_DESC_GARRUK_WILDSPEAKER_1" />
+		<unlock deck="E13_GOLGARI" campaign="6" />
+	</node>
+</campaign>
+

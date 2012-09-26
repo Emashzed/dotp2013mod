@@ -1,0 +1,62 @@
+﻿<?xml version='1.0'?>
+<CARD_V2>
+  <FILENAME text="CHRONOMATON_259698" />
+  <CARDNAME text="CHRONOMATON" />
+  <TITLE>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Chronomaton]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Chronomaton]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Chronomaton]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Chronomaton]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Chronomaton]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[Chronomaton]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[Chronomaton]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Chronomaton]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Chronomaton]]></LOCALISED_TEXT>
+  </TITLE>
+  <MULTIVERSEID value="259698" />
+  <ARTID value="259698" />
+  <ARTIST name="Vincent Proce" />
+  <CASTING_COST cost="{1}" />
+  <FLAVOURTEXT>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[On the third night, the villagers destroyed their clocks. The sounds of whirring gears and chiming metal held only dread for them.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[On the third night, the villagers destroyed their clocks. The sounds of whirring gears and chiming metal held only dread for them.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[On the third night, the villagers destroyed their clocks. The sounds of whirring gears and chiming metal held only dread for them.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[On the third night, the villagers destroyed their clocks. The sounds of whirring gears and chiming metal held only dread for them.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[On the third night, the villagers destroyed their clocks. The sounds of whirring gears and chiming metal held only dread for them.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[On the third night, the villagers destroyed their clocks. The sounds of whirring gears and chiming metal held only dread for them.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[On the third night, the villagers destroyed their clocks. The sounds of whirring gears and chiming metal held only dread for them.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[On the third night, the villagers destroyed their clocks. The sounds of whirring gears and chiming metal held only dread for them.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[On the third night, the villagers destroyed their clocks. The sounds of whirring gears and chiming metal held only dread for them.]]></LOCALISED_TEXT>
+  </FLAVOURTEXT>
+  <TYPE metaname="Artifact" />
+  <TYPE metaname="Creature" />
+  <SUB_TYPE metaname="Golem" />
+  <EXPANSION value="M13" />
+  <RARITY metaname="U" />
+  <POWER value="1" />
+  <TOUGHNESS value="1" />
+  <ACTIVATED_ABILITY>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[{1}, {T}: Put a +1/+1 counter on Chronomaton.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[{1}, {T}: Put a +1/+1 counter on Chronomaton.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[{1}, {T}: Put a +1/+1 counter on Chronomaton.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[{1}, {T}: Put a +1/+1 counter on Chronomaton.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[{1}, {T}: Put a +1/+1 counter on Chronomaton.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[{1}, {T}: Put a +1/+1 counter on Chronomaton.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[{1}, {T}: Put a +1/+1 counter on Chronomaton.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[{1}, {T}: Put a +1/+1 counter on Chronomaton.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[{1}, {T}: Put a +1/+1 counter on Chronomaton.]]></LOCALISED_TEXT>
+	<COST type="Mana" cost="{1}" />
+    <COST type="TapSelf" />
+	<RESOLUTION_TIME_ACTION>
+    if EffectSource() ~= nil then
+    	EffectSource():AddCounters( MTG():PlusOnePlusOneCounters(), 1 )
+    end
+    </RESOLUTION_TIME_ACTION>
+    <AI_AVAILABILITY step="declare_blockers" />
+	<AI_AVAILABILITY type="in_response" />
+    <AI_AVAILABILITY step="end_of_turn" turn="their_turn" />
+  </ACTIVATED_ABILITY>
+  <SFX text="COMBAT_BLUNT_LARGE_ATTACK" power_boundary_min="4" power_boundary_max="-1" />
+  <SFX text="COMBAT_BLUNT_SMALL_ATTACK" power_boundary_min="1" power_boundary_max="3" />
+  <AI_BASE_SCORE score="150" zone="ZONE_IN_PLAY" />
+</CARD_V2>

@@ -1,0 +1,237 @@
+<?xml version="1.0"?>
+<?mso-application progid="Excel.Sheet"?>
+<Workbook xmlns="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:o="urn:schemas-microsoft-com:office:office"
+ xmlns:x="urn:schemas-microsoft-com:office:excel"
+ xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:html="http://www.w3.org/TR/REC-html40">
+ <DocumentProperties xmlns="urn:schemas-microsoft-com:office:office">
+  <Author>ScrollRack D13</Author>
+  <LastAuthor>Anthony</LastAuthor>
+  <Created>1980-05-23T00:00:00Z</Created>
+  <LastSaved>2012-07-27T09:44:06Z</LastSaved>
+  <Company>Microsoft Corporation</Company>
+  <Version>11.9999</Version>
+ </DocumentProperties>
+ <OfficeDocumentSettings xmlns="urn:schemas-microsoft-com:office:office">
+  <AllowPNG/>
+ </OfficeDocumentSettings>
+ <ExcelWorkbook xmlns="urn:schemas-microsoft-com:office:excel">
+  <WindowHeight>10560</WindowHeight>
+  <WindowWidth>14025</WindowWidth>
+  <WindowTopX>1965</WindowTopX>
+  <WindowTopY>3165</WindowTopY>
+  <ProtectStructure>False</ProtectStructure>
+  <ProtectWindows>False</ProtectWindows>
+ </ExcelWorkbook>
+ <Styles>
+  <Style ss:ID="Default" ss:Name="Normal">
+   <Alignment ss:Vertical="Bottom"/>
+   <Borders/>
+   <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="11" ss:Color="#000000"/>
+   <Interior/>
+   <NumberFormat/>
+   <Protection/>
+  </Style>
+  <Style ss:ID="s22">
+   <Font ss:FontName="Times New Roman" x:Family="Roman" ss:Size="12"
+    ss:Color="#000000"/>
+  </Style>
+ </Styles>
+ <Worksheet ss:Name="Sheet4">
+  <Table ss:ExpandedColumnCount="12" ss:ExpandedRowCount="9" x:FullColumns="1"
+   x:FullRows="1" ss:StyleID="s22" ss:DefaultColumnWidth="66"
+   ss:DefaultRowHeight="15.75">
+   <Column ss:StyleID="s22" ss:Width="250.5"/>
+   <Column ss:StyleID="s22" ss:Width="54"/>
+   <Column ss:StyleID="s22" ss:Width="130.5"/>
+   <Column ss:StyleID="s22" ss:Width="194.25"/>
+   <Column ss:StyleID="s22" ss:Width="213"/>
+   <Column ss:StyleID="s22" ss:Width="243.75"/>
+   <Column ss:StyleID="s22" ss:Width="206.25"/>
+   <Column ss:StyleID="s22" ss:Width="130.5"/>
+   <Column ss:StyleID="s22" ss:Width="291.75"/>
+   <Column ss:StyleID="s22" ss:Width="153.75"/>
+   <Column ss:StyleID="s22" ss:Width="225"/>
+   <Column ss:StyleID="s22" ss:Width="192.75"/>
+   <Row ss:AutoFitHeight="0" ss:Height="14.25" ss:StyleID="Default">
+    <Cell><Data ss:Type="String">Ident</Data></Cell>
+    <Cell><Data ss:Type="String">Comment</Data></Cell>
+    <Cell><Data ss:Type="String">Master Text</Data></Cell>
+    <Cell><Data ss:Type="String">French</Data></Cell>
+    <Cell><Data ss:Type="String">Spanish</Data></Cell>
+    <Cell><Data ss:Type="String">German</Data></Cell>
+    <Cell><Data ss:Type="String">Italian</Data></Cell>
+    <Cell ss:Index="9"><Data ss:Type="String">Japanese</Data></Cell>
+    <Cell><Data ss:Type="String">Korean</Data></Cell>
+    <Cell><Data ss:Type="String">Russian</Data></Cell>
+    <Cell><Data ss:Type="String">Portuguese (Brazil)</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">PLAYER_SET_CANT_BE_ATTACKED</Data></Cell>
+    <Cell ss:Index="3"><Data ss:Type="String">Can’t be attacked</Data></Cell>
+    <Cell><Data ss:Type="String">Ne peut pas être attaqué</Data></Cell>
+    <Cell><Data ss:Type="String">No puede ser atacado</Data></Cell>
+    <Cell><Data ss:Type="String">Können nicht angegriffen werden</Data></Cell>
+    <Cell><Data ss:Type="String">Non può essere attaccato</Data></Cell>
+    <Cell><Data ss:Type="String">Can’t be attacked</Data></Cell>
+    <Cell><Data ss:Type="String">攻撃することはできません</Data></Cell>
+    <Cell><Data ss:Type="String">공격 수 없습니다</Data></Cell>
+    <Cell><Data ss:Type="String">Не могут быть атакованы</Data></Cell>
+    <Cell><Data ss:Type="String">Não pode ser atacado</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">PLAYER_SET_CANT_CAST_NONARTIFACTS</Data></Cell>
+    <Cell ss:Index="3"><Data ss:Type="String">Nonartifacts can’t be cast</Data></Cell>
+    <Cell><Data ss:Type="String">Artefacts non ne peut pas être jeté</Data></Cell>
+    <Cell><Data ss:Type="String">Artefactos no no se puede convertir</Data></Cell>
+    <Cell><Data ss:Type="String">Es können nur Artefakt-Sprüche gewirkt werden</Data></Cell>
+    <Cell><Data ss:Type="String">Non artefatti non possono essere lanciati</Data></Cell>
+    <Cell><Data ss:Type="String">Nonartifacts can’t be cast</Data></Cell>
+    <Cell><Data ss:Type="String">非アーティファクトは、キャストすることはできません</Data></Cell>
+    <Cell><Data ss:Type="String">비 유물은 캐스팅 수 없습니다</Data></Cell>
+    <Cell><Data ss:Type="String">Без артефактов не может быть приведен</Data></Cell>
+    <Cell><Data ss:Type="String">Artefatos não não pode ser convertido</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">PLAYER_SET_IONA_COLOR_1</Data></Cell>
+    <Cell ss:Index="3"><Data ss:Type="String">Can’t cast white spells</Data></Cell>
+    <Cell><Data ss:Type="String">Impossible de lancer des sorts blancs</Data></Cell>
+    <Cell><Data ss:Type="String">No se puede lanzar hechizos blancos</Data></Cell>
+    <Cell><Data ss:Type="String">Weiße Sprüche können nicht gewirkt werden</Data></Cell>
+    <Cell><Data ss:Type="String">Non può lanciare incantesimi bianchi</Data></Cell>
+    <Cell><Data ss:Type="String">Can’t  cast white spells</Data></Cell>
+    <Cell><Data ss:Type="String">白の呪文をキャストすることはできません</Data></Cell>
+    <Cell><Data ss:Type="String">하얀 주술 걸지 수 없습니다</Data></Cell>
+    <Cell><Data ss:Type="String">Не могу бросить белый заклинаний</Data></Cell>
+    <Cell><Data ss:Type="String">Não pode lançar magias brancas</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">PLAYER_SET_IONA_COLOR_2</Data></Cell>
+    <Cell ss:Index="3"><Data ss:Type="String">Can’t cast blue spells</Data></Cell>
+    <Cell><Data ss:Type="String">Impossible de lancer des sorts bleus</Data></Cell>
+    <Cell><Data ss:Type="String">No se puede lanzar hechizos azules</Data></Cell>
+    <Cell><Data ss:Type="String">Blaue Sprüche können nicht gewirkt werden</Data></Cell>
+    <Cell><Data ss:Type="String">Non può lanciare incantesimi blu</Data></Cell>
+    <Cell><Data ss:Type="String">Can’t  cast blue spells</Data></Cell>
+    <Cell><Data ss:Type="String">青の呪文をキャストすることはできません</Data></Cell>
+    <Cell><Data ss:Type="String">파란 주술 걸지 수 없습니다</Data></Cell>
+    <Cell><Data ss:Type="String">Не могу бросить синих заклинаний</Data></Cell>
+    <Cell><Data ss:Type="String">Não pode lançar magias azuis</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">PLAYER_SET_IONA_COLOR_3</Data></Cell>
+    <Cell ss:Index="3"><Data ss:Type="String">Can’t cast black spells</Data></Cell>
+    <Cell><Data ss:Type="String">Impossible de lancer des sorts noirs</Data></Cell>
+    <Cell><Data ss:Type="String">No se puede lanzar hechizos negros</Data></Cell>
+    <Cell><Data ss:Type="String">Schwarze Sprüche können nicht gewirkt werden</Data></Cell>
+    <Cell><Data ss:Type="String">Non può lanciare incantesimi neri</Data></Cell>
+    <Cell><Data ss:Type="String">Can’t  cast black spells</Data></Cell>
+    <Cell><Data ss:Type="String">黒の呪文をキャストすることはできません</Data></Cell>
+    <Cell><Data ss:Type="String">검은 주술 걸지 수 없습니다</Data></Cell>
+    <Cell><Data ss:Type="String">Невозможно привести черный заклинаний</Data></Cell>
+    <Cell><Data ss:Type="String">Não pode lançar magias negras</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">PLAYER_SET_IONA_COLOR_4</Data></Cell>
+    <Cell ss:Index="3"><Data ss:Type="String">Can’t cast red spells</Data></Cell>
+    <Cell><Data ss:Type="String">Impossible de lancer des sorts rouges</Data></Cell>
+    <Cell><Data ss:Type="String">No se puede lanzar hechizos de color rojo</Data></Cell>
+    <Cell><Data ss:Type="String">Rote Sprüche können nicht gewirkt werden</Data></Cell>
+    <Cell><Data ss:Type="String">Non può lanciare incantesimi rossi</Data></Cell>
+    <Cell><Data ss:Type="String">Can’t  cast red spells</Data></Cell>
+    <Cell><Data ss:Type="String">赤の呪文をキャストすることはできません</Data></Cell>
+    <Cell><Data ss:Type="String">붉은 주술 걸지 수 없습니다</Data></Cell>
+    <Cell><Data ss:Type="String">Не могу бросить красный заклинания</Data></Cell>
+    <Cell><Data ss:Type="String">Não pode lançar magias vermelhas</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">PLAYER_SET_IONA_COLOR_5</Data></Cell>
+    <Cell ss:Index="3"><Data ss:Type="String">Can’t cast green spells</Data></Cell>
+    <Cell><Data ss:Type="String">Impossible de lancer des sorts verts</Data></Cell>
+    <Cell><Data ss:Type="String">No se puede lanzar hechizos verdes</Data></Cell>
+    <Cell><Data ss:Type="String">Grüne Sprüche können nicht gewirkt werden</Data></Cell>
+    <Cell><Data ss:Type="String">Non può lanciare incantesimi verdi</Data></Cell>
+    <Cell><Data ss:Type="String">Can’t  cast green spells</Data></Cell>
+    <Cell><Data ss:Type="String">緑の呪文をキャストすることはできません</Data></Cell>
+    <Cell><Data ss:Type="String">녹색 주술 걸지 수 없습니다</Data></Cell>
+    <Cell><Data ss:Type="String">Не могу бросить зеленые заклинания</Data></Cell>
+    <Cell><Data ss:Type="String">Não é possível lançar feitiços verdes</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">PLAYER_SET_REDIRECTION_EMPYRIAL</Data></Cell>
+    <Cell ss:Index="3"><Data ss:Type="String">Damage redirection</Data></Cell>
+    <Cell><Data ss:Type="String">Redirection des dommages</Data></Cell>
+    <Cell><Data ss:Type="String">Daño de redirección</Data></Cell>
+    <Cell><Data ss:Type="String">Schadensumleitung</Data></Cell>
+    <Cell><Data ss:Type="String">danni reindirizzamento</Data></Cell>
+    <Cell><Data ss:Type="String">Damage redirection</Data></Cell>
+    <Cell><Data ss:Type="String">損傷のリダイレクト</Data></Cell>
+    <Cell><Data ss:Type="String">피해 리디렉션</Data></Cell>
+    <Cell><Data ss:Type="String">Нанесенный перенаправления</Data></Cell>
+    <Cell><Data ss:Type="String">redirecionamento de dano</Data></Cell>
+   </Row>
+  </Table>
+  <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+   <PageSetup>
+    <Header x:Margin="0.3"/>
+    <Footer x:Margin="0.3"/>
+    <PageMargins x:Bottom="0.75" x:Left="0.7" x:Right="0.7" x:Top="0.75"/>
+   </PageSetup>
+   <Print>
+    <ValidPrinterInfo/>
+    <HorizontalResolution>600</HorizontalResolution>
+    <VerticalResolution>600</VerticalResolution>
+   </Print>
+   <Selected/>
+   <ProtectObjects>False</ProtectObjects>
+   <ProtectScenarios>False</ProtectScenarios>
+  </WorksheetOptions>
+  <Sorting xmlns="urn:schemas-microsoft-com:office:excel">
+   <Sort>Ident</Sort>
+  </Sorting>
+ </Worksheet>
+ <Worksheet ss:Name="Sheet1">
+  <Table ss:ExpandedColumnCount="0" ss:ExpandedRowCount="0" x:FullColumns="1"
+   x:FullRows="1" ss:DefaultColumnWidth="66" ss:DefaultRowHeight="15"/>
+  <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+   <PageSetup>
+    <Header x:Margin="0.3"/>
+    <Footer x:Margin="0.3"/>
+    <PageMargins x:Bottom="0.75" x:Left="0.7" x:Right="0.7" x:Top="0.75"/>
+   </PageSetup>
+   <Unsynced/>
+   <ProtectObjects>False</ProtectObjects>
+   <ProtectScenarios>False</ProtectScenarios>
+  </WorksheetOptions>
+ </Worksheet>
+ <Worksheet ss:Name="Sheet2">
+  <Table ss:ExpandedColumnCount="0" ss:ExpandedRowCount="0" x:FullColumns="1"
+   x:FullRows="1" ss:DefaultColumnWidth="66" ss:DefaultRowHeight="15"/>
+  <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+   <PageSetup>
+    <Header x:Margin="0.3"/>
+    <Footer x:Margin="0.3"/>
+    <PageMargins x:Bottom="0.75" x:Left="0.7" x:Right="0.7" x:Top="0.75"/>
+   </PageSetup>
+   <Unsynced/>
+   <ProtectObjects>False</ProtectObjects>
+   <ProtectScenarios>False</ProtectScenarios>
+  </WorksheetOptions>
+ </Worksheet>
+ <Worksheet ss:Name="Sheet3">
+  <Table ss:ExpandedColumnCount="0" ss:ExpandedRowCount="0" x:FullColumns="1"
+   x:FullRows="1" ss:DefaultColumnWidth="66" ss:DefaultRowHeight="15"/>
+  <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+   <PageSetup>
+    <Header x:Margin="0.3"/>
+    <Footer x:Margin="0.3"/>
+    <PageMargins x:Bottom="0.75" x:Left="0.7" x:Right="0.7" x:Top="0.75"/>
+   </PageSetup>
+   <Unsynced/>
+   <ProtectObjects>False</ProtectObjects>
+   <ProtectScenarios>False</ProtectScenarios>
+  </WorksheetOptions>
+ </Worksheet>
+</Workbook>
+

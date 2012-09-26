@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<ApplicationInfo Revision="1.01000">
+	<DataPaths>
+		<DataPath Priority="1000">Data_DLC_0001/Data_PC</DataPath>
+		<DataPath Priority="1002">Data_DLC_0001/Data_All_Platforms</DataPath>
+		<DataPath Priority="1003">Data_DLC_0001</DataPath>
+	</DataPaths>
+	<TexturePaths />
+	<MaterialPaths />
+</ApplicationInfo>

@@ -1,0 +1,40 @@
+﻿<?xml version='1.0'?>
+<CARD_V2>
+  <FILENAME text="PHYREXIAN_HULK_279990" />
+  <CARDNAME text="PHYREXIAN_HULK" />
+  <TITLE>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Phyrexian Hulk]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Phyrexian Hulk]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Phyrexian Hulk]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Phyrexian Hulk]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Phyrexian Hulk]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[Phyrexian Hulk]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[Phyrexian Hulk]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Phyrexian Hulk]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Phyrexian Hulk]]></LOCALISED_TEXT>
+  </TITLE>
+  <MULTIVERSEID value="279990" />
+  <ARTID value="279990" />
+  <ARTIST name="Steven Belledin" />
+  <CASTING_COST cost="{6}" />
+  <FLAVOURTEXT>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[An invasion weapon of ages past, the glistening oil contained the blueprints of countless atrocities.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[An invasion weapon of ages past, the glistening oil contained the blueprints of countless atrocities.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[An invasion weapon of ages past, the glistening oil contained the blueprints of countless atrocities.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[An invasion weapon of ages past, the glistening oil contained the blueprints of countless atrocities.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[An invasion weapon of ages past, the glistening oil contained the blueprints of countless atrocities.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[An invasion weapon of ages past, the glistening oil contained the blueprints of countless atrocities.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[An invasion weapon of ages past, the glistening oil contained the blueprints of countless atrocities.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[An invasion weapon of ages past, the glistening oil contained the blueprints of countless atrocities.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[An invasion weapon of ages past, the glistening oil contained the blueprints of countless atrocities.]]></LOCALISED_TEXT>
+  </FLAVOURTEXT>
+  <TYPE metaname="Artifact" />
+  <TYPE metaname="Creature" />
+  <SUB_TYPE metaname="Golem" />
+  <EXPANSION value="M13" />
+  <RARITY metaname="U" />
+  <POWER value="5" />
+  <TOUGHNESS value="4" />
+  <SFX text="COMBAT_CLAW_LARGE_ATTACK" power_boundary_min="4" power_boundary_max="-1" />
+  <SFX text="COMBAT_CLAW_SMALL_ATTACK" power_boundary_min="1" power_boundary_max="3" />
+</CARD_V2>
