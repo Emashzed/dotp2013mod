@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+
+<campaign name="UI_TAB_CAMPAIGN_EXPANSION_CHALLENGES" id="7" content_pack="0" locked="false">
+	<node id="1" core="true" type = "challenge" data="11"  difficulty = "0" name_tag="CHALLENGE_NAME_11" intro_description_tag = "CHALLENGE_DESC_11" locked_description_tag="CAMPAIGN_NODE_DESCRIPTION_LOCKED_GENERIC" available_description_tag="CHALLENGE_INCOMPLETE_DESCRIPTION" complete_description_tag="CHALLENGE_COMPLETE_DESCRIPTION" x="-166" y = "-84"  size = "1" always_available = "true">
+	</node>
+	
+	<node id="2" core="true" type = "challenge" data="4" difficulty = "0"  name_tag="CHALLENGE_NAME_12" intro_description_tag = "CHALLENGE_DESC_12" locked_description_tag="CAMPAIGN_NODE_DESCRIPTION_LOCKED_GENERIC" available_description_tag="CHALLENGE_INCOMPLETE_DESCRIPTION" complete_description_tag="CHALLENGE_COMPLETE_DESCRIPTION" x="-84" y = "34"  size = "1" >
+		<prereq id="1" image="type_9" />
+	</node>
+	
+	<node id="3" core="true" type="challenge" data="12" difficulty = "0" name_tag="CHALLENGE_NAME_13" intro_description_tag = "CHALLENGE_DESC_13" locked_description_tag="CAMPAIGN_NODE_DESCRIPTION_LOCKED_GENERIC" available_description_tag="CHALLENGE_INCOMPLETE_DESCRIPTION" complete_description_tag="CHALLENGE_COMPLETE_DESCRIPTION" x="0" y = "-84"  size = "1" >
+		<prereq id="2" image="type_0" />
+	</node>
+	
+	<node id="4" core="true" type="challenge" data="14" difficulty = "0" name_tag="CHALLENGE_NAME_14" intro_description_tag = "CHALLENGE_DESC_14" locked_description_tag="CAMPAIGN_NODE_DESCRIPTION_LOCKED_GENERIC" available_description_tag="CHALLENGE_INCOMPLETE_DESCRIPTION" complete_description_tag="CHALLENGE_COMPLETE_DESCRIPTION" x="83" y = "34"  size = "1" >
+		<prereq id="3" image="type_0" />
+	</node>
+	
+	<node id="5" core="true" type="challenge" data="15" difficulty = "0" name_tag="CHALLENGE_NAME_15" intro_description_tag = "CHALLENGE_DESC_15" locked_description_tag="CAMPAIGN_NODE_DESCRIPTION_LOCKED_GENERIC" complete_description_tag="CHALLENGE_COMPLETE_DESCRIPTION" x="164" y = "-84"  size = "1" >
+		<prereq id="4" image="type_0" />
+	</node>
+</campaign>

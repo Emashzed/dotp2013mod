@@ -1,0 +1,89 @@
+﻿<?xml version='1.0'?>
+<CARD_V2>
+  <FILENAME text="PRIMAL_CLAY_268530" />
+  <CARDNAME text="PRIMAL_CLAY" />
+  <TITLE>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Primal Clay]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Primal Clay]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Primal Clay]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Primal Clay]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Primal Clay]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[Primal Clay]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[Primal Clay]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Primal Clay]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Primal Clay]]></LOCALISED_TEXT>
+  </TITLE>
+  <MULTIVERSEID value="268530" />
+  <ARTID value="268530" />
+  <ARTIST name="Lucas Graciano" />
+  <CASTING_COST cost="{4}" />
+  <TYPE metaname="Artifact" />
+  <TYPE metaname="Creature" />
+  <SUB_TYPE metaname="Shapeshifter" />
+  <EXPANSION value="M13" />
+  <RARITY metaname="U" />
+  <POWER value="*" />
+  <TOUGHNESS value="*" />
+  <TRIGGERED_ABILITY replacement_query="1" filter_zone="ZONE_IN_PLAY" active_zone="ZONE_TRANSITION">
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[As Primal Clay enters the battlefield, it becomes your choice of a 3/3 artifact creature, a 2/2 artifact creature with flying, or a 1/6 Wall artifact creature with defender in addition to its other types.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[As Primal Clay enters the battlefield, it becomes your choice of a 3/3 artifact creature, a 2/2 artifact creature with flying, or a 1/6 Wall artifact creature with defender in addition to its other types.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[As Primal Clay enters the battlefield, it becomes your choice of a 3/3 artifact creature, a 2/2 artifact creature with flying, or a 1/6 Wall artifact creature with defender in addition to its other types.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[As Primal Clay enters the battlefield, it becomes your choice of a 3/3 artifact creature, a 2/2 artifact creature with flying, or a 1/6 Wall artifact creature with defender in addition to its other types.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[As Primal Clay enters the battlefield, it becomes your choice of a 3/3 artifact creature, a 2/2 artifact creature with flying, or a 1/6 Wall artifact creature with defender in addition to its other types.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[As Primal Clay enters the battlefield, it becomes your choice of a 3/3 artifact creature, a 2/2 artifact creature with flying, or a 1/6 Wall artifact creature with defender in addition to its other types.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[As Primal Clay enters the battlefield, it becomes your choice of a 3/3 artifact creature, a 2/2 artifact creature with flying, or a 1/6 Wall artifact creature with defender in addition to its other types.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[As Primal Clay enters the battlefield, it becomes your choice of a 3/3 artifact creature, a 2/2 artifact creature with flying, or a 1/6 Wall artifact creature with defender in addition to its other types.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[As Primal Clay enters the battlefield, it becomes your choice of a 3/3 artifact creature, a 2/2 artifact creature with flying, or a 1/6 Wall artifact creature with defender in addition to its other types.]]></LOCALISED_TEXT>
+	<TRIGGER value="ZONECHANGE_TRANSITION" simple_qualifier="self" to_zone="ZONE_IN_PLAY" />
+	<PLAY_TIME_ACTION>
+    EffectController():BeginNewMultipleChoice()   
+    EffectController():AddMultipleChoiceAnswer( "CARD_QUERY_OPTION_CLAY_GOLEM" )   
+    EffectController():AddMultipleChoiceAnswer( "CARD_QUERY_OPTION_CLAY_BIRD" )  
+    EffectController():AddMultipleChoiceAnswer( "CARD_QUERY_OPTION_CLAY_WALL" )  
+    EffectController():AskMultipleChoiceQuestion( "CARD_QUERY_MC_CHOOSE_MODE" )
+    </PLAY_TIME_ACTION>
+	<RESOLUTION_TIME_ACTION>
+    local decision = Object():GetMultipleChoiceResult()
+    ObjectDC():Set_Int(0, decision)
+    </RESOLUTION_TIME_ACTION>
+  </TRIGGERED_ABILITY>
+  <STATIC_ABILITY filter_zone="ZONE_IN_PLAY">
+	<CONTINUOUS_ACTION layer="7A">
+    local characteristics = EffectSource():GetCurrentCharacteristics() 
+	local mode = ObjectDC():Get_Int(0)
+	
+	if mode == 0 then
+		characteristics:Power_Set(3)  
+		characteristics:Toughness_Set(3)
+	elseif mode == 1 then
+		characteristics:Power_Set(2)  
+		characteristics:Toughness_Set(2)
+	elseif mode == 2 then
+		characteristics:Power_Set(1)  
+		characteristics:Toughness_Set(6)
+	end
+    </CONTINUOUS_ACTION>
+	<CONTINUOUS_ACTION layer="6">
+	local characteristics = EffectSource():GetCurrentCharacteristics() 
+	local mode = ObjectDC():Get_Int(0)
+	
+    if mode == 1 then
+    	characteristics:Characteristic_Set( CHARACTERISTIC_FLYING, 1 )	
+    elseif mode == 2 then
+		characteristics:Characteristic_Set( CHARACTERISTIC_DEFENDER, 1 )
+    end
+    </CONTINUOUS_ACTION>
+	<CONTINUOUS_ACTION layer="4">
+	local characteristics = EffectSource():GetCurrentCharacteristics() 
+	local mode = ObjectDC():Get_Int(0)
+	
+	if mode == 2 then
+		characteristics:SubType_GetWritable(EffectSource()):Add( CREATURE_TYPE_WALL , EffectSource() )
+	end
+	</CONTINUOUS_ACTION>
+  </STATIC_ABILITY>
+  <HELP title="MORE_INFO_BADGE_TITLE_6" body="MORE_INFO_BADGE_BODY_6" zone="ZONE_ANY" />
+  <HELP title="MORE_INFO_BADGE_TITLE_10" body="MORE_INFO_BADGE_BODY_10" zone="ZONE_ANY" />
+  <SFX text="COMBAT_BLUNT_LARGE_ATTACK" power_boundary_min="4" power_boundary_max="-1" />
+  <SFX text="COMBAT_BLUNT_SMALL_ATTACK" power_boundary_min="1" power_boundary_max="3" />
+</CARD_V2>

@@ -62,7 +62,7 @@
     end
     </CONTINUOUS_ACTION>
   </STATIC_ABILITY>
-  <ACTIVATED_ABILITY auto_skip="1" filter_zone="ZONE_IN_PLAY">
+  <ACTIVATED_ABILITY forced_skip="1" filter_zone="ZONE_IN_PLAY">
     <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[{T}: Add {G} to your mana pool for each Elf you control.]]></LOCALISED_TEXT>
     <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[{T}: Add {G} to your mana pool for each Elf you control.]]></LOCALISED_TEXT>
     <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[{T}: Add {G} to your mana pool for each Elf you control.]]></LOCALISED_TEXT>
@@ -87,4 +87,5 @@
   <TOKEN_REGISTRATION reservation="1" type="MANATOKEN_G" />
   <SFX text="COMBAT_GREEN_MAGIC_LARGE_ATTACK" power_boundary_min="4" power_boundary_max="-1" />
   <SFX text="COMBAT_GREEN_MAGIC_SMALL_ATTACK" power_boundary_min="1" power_boundary_max="3" />
+  <AI_BASE_SCORE score="750" zone="ZONE_IN_PLAY" />
 </CARD_V2>

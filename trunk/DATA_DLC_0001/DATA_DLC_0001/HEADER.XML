@@ -1,0 +1,36 @@
+<?xml version="1.0"?>
+
+<header>
+	<WAD_HEADER>
+		<ENTRY platform="ALL" source="DATA_DLC_0001/DATA_ALL_PLATFORMS/" alias="Content" order="5"/>
+		<ENTRY platform="PC" source="DATA_DLC_0001/DATA_PC/" alias="Content" order="6"/>
+		<ENTRY platform="X360" source="DATA_DLC_0001/DATA_X360/" alias="Content" order="6"/>
+		<ENTRY platform="PS3" source="DATA_DLC_0001/DATA_PS3/" alias="Content" order="6"/>
+		<ENTRY platform="IPAD" source="DATA_DLC_0001/DATA_IPAD/" alias="Content" order="6"/>
+	</WAD_HEADER>
+
+	<ContentPack UID="1">
+		<LocalisedName>
+			<English string="Expansion pack 1"/>
+			<French string="Expansion pack 1"/>
+			<Italian string="Expansion pack 1"/>
+			<German string="Expansion pack 1"/>
+			<Spanish string="Expansion pack 1"/>
+			<Japanese string="Expansion pack 1"/>
+		</LocalisedName>
+			
+		<ContentFlags>
+			<Campaign_Content/>
+			<Deck_Content/>
+		</ContentFlags>
+
+		<PD_Section>
+			<Offering_ID id="5"/>
+			<Content_Catagories catagoires="0x0050000"/>
+			<License_Bits bits="0"/>
+			<App_ID id="97350"/>
+			<Can_Matchmake/>
+			<Package_ID id="1"/>
+		</PD_Section>
+	</ContentPack>
+</header>
