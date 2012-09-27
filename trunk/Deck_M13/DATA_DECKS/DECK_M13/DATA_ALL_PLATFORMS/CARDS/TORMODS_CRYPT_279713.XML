@@ -1,0 +1,69 @@
+﻿<?xml version='1.0'?>
+<CARD_V2>
+  <FILENAME text="TORMODS_CRYPT_279713" />
+  <CARDNAME text="TORMODS_CRYPT" />
+  <TITLE>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Tormod’s Crypt]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Tormod’s Crypt]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Tormod’s Crypt]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Tormod’s Crypt]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Tormod’s Crypt]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[Tormod’s Crypt]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[Tormod’s Crypt]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Tormod’s Crypt]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Tormod’s Crypt]]></LOCALISED_TEXT>
+  </TITLE>
+  <MULTIVERSEID value="279713" />
+  <ARTID value="279713" />
+  <ARTIST name="Lars Grant-West" />
+  <CASTING_COST cost="{0}" />
+  <FLAVOURTEXT>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Dominaria’s most extravagant crypt nevertheless holds an empty grave.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Dominaria’s most extravagant crypt nevertheless holds an empty grave.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Dominaria’s most extravagant crypt nevertheless holds an empty grave.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Dominaria’s most extravagant crypt nevertheless holds an empty grave.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Dominaria’s most extravagant crypt nevertheless holds an empty grave.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[Dominaria’s most extravagant crypt nevertheless holds an empty grave.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[Dominaria’s most extravagant crypt nevertheless holds an empty grave.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Dominaria’s most extravagant crypt nevertheless holds an empty grave.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Dominaria’s most extravagant crypt nevertheless holds an empty grave.]]></LOCALISED_TEXT>
+  </FLAVOURTEXT>
+  <TYPE metaname="Artifact" />
+  <EXPANSION value="M13" />
+  <RARITY metaname="U" />
+  <ACTIVATED_ABILITY>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[{T}, Sacrifice Tormod’s Crypt: Exile all cards from target player’s graveyard.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[{T}, Sacrifice Tormod’s Crypt: Exile all cards from target player’s graveyard.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[{T}, Sacrifice Tormod’s Crypt: Exile all cards from target player’s graveyard.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[{T}, Sacrifice Tormod’s Crypt: Exile all cards from target player’s graveyard.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[{T}, Sacrifice Tormod’s Crypt: Exile all cards from target player’s graveyard.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[{T}, Sacrifice Tormod’s Crypt: Exile all cards from target player’s graveyard.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[{T}, Sacrifice Tormod’s Crypt: Exile all cards from target player’s graveyard.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[{T}, Sacrifice Tormod’s Crypt: Exile all cards from target player’s graveyard.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[{T}, Sacrifice Tormod’s Crypt: Exile all cards from target player’s graveyard.]]></LOCALISED_TEXT>
+	<COST type="TapSelf" />
+    <COST type="SacrificeSelf" />
+    <TARGET_DEFINITION id="0">
+    local filter = Object():GetFilter()
+    filter:Clear()
+    filter:SetFilterType( FILTER_TYPE_PLAYERS )
+    filter:SetHint( HINT_ENEMY_ONLY, EffectController() )
+    </TARGET_DEFINITION>
+    <TARGET_DETERMINATION>
+    return AtLeastOneTargetFromDefinition(0)
+    </TARGET_DETERMINATION>
+    <PLAY_TIME_ACTION target_choosing="1">
+    EffectController():ChooseTarget( 0, "CARD_QUERY_CHOOSE_PLAYER_TO_EXILE_GRAVEYARD", EffectDC():Make_Targets(0) )
+    </PLAY_TIME_ACTION>
+    <RESOLUTION_TIME_ACTION>
+    local filter = Object():GetFilter()
+    local target_player = EffectDC():Get_Targets(0):Get_PlayerPtr(0)
+     
+    if target_player ~= nil then
+		target_player:MoveLocalZone( ZONE_GRAVEYARD, ZONE_REMOVED_FROM_GAME )
+    end		
+    </RESOLUTION_TIME_ACTION>
+	<AI_AVAILABILITY type="in_response" />
+	<AI_AVAILABILITY step="untap" />
+  </ACTIVATED_ABILITY>
+</CARD_V2>
