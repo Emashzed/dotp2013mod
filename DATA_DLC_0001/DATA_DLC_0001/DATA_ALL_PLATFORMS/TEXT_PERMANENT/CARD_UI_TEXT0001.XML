@@ -772,6 +772,66 @@
     <Cell><Data ss:Type="String">The spell from opponent's graveyard.</Data></Cell>
    </Row>
    <Row>
+    <Cell><Data ss:Type="String">CARD_QUERY_OPTION_ADD_B</Data></Cell>
+    <Cell ss:Index="3"><Data ss:Type="String">Add {B} to your mana pool.</Data></Cell>
+    <Cell><Data ss:Type="String">Add {B} to your mana pool.</Data></Cell>
+    <Cell><Data ss:Type="String">Add {B} to your mana pool.</Data></Cell>
+    <Cell><Data ss:Type="String">Add {B} to your mana pool.</Data></Cell>
+    <Cell><Data ss:Type="String">Add {B} to your mana pool.</Data></Cell>
+    <Cell ss:Index="9"><Data ss:Type="String">Add {B} to your mana pool.</Data></Cell>
+    <Cell><Data ss:Type="String">Add {B} to your mana pool.</Data></Cell>
+    <Cell><Data ss:Type="String">Add {B} to your mana pool.</Data></Cell>
+    <Cell><Data ss:Type="String">Add {B} to your mana pool.</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">CARD_QUERY_OPTION_ADD_G</Data></Cell>
+    <Cell ss:Index="3"><Data ss:Type="String">Add {G} to your mana pool.</Data></Cell>
+    <Cell><Data ss:Type="String">Add {G} to your mana pool.</Data></Cell>
+    <Cell><Data ss:Type="String">Add {G} to your mana pool.</Data></Cell>
+    <Cell><Data ss:Type="String">Add {G} to your mana pool.</Data></Cell>
+    <Cell><Data ss:Type="String">Add {G} to your mana pool.</Data></Cell>
+    <Cell ss:Index="9"><Data ss:Type="String">Add {G} to your mana pool.</Data></Cell>
+    <Cell><Data ss:Type="String">Add {G} to your mana pool.</Data></Cell>
+    <Cell><Data ss:Type="String">Add {G} to your mana pool.</Data></Cell>
+    <Cell><Data ss:Type="String">Add {G} to your mana pool.</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">CARD_QUERY_OPTION_ADD_R</Data></Cell>
+    <Cell ss:Index="3"><Data ss:Type="String">Add {R} to your mana pool.</Data></Cell>
+    <Cell><Data ss:Type="String">Add {R} to your mana pool.</Data></Cell>
+    <Cell><Data ss:Type="String">Add {R} to your mana pool.</Data></Cell>
+    <Cell><Data ss:Type="String">Add {R} to your mana pool.</Data></Cell>
+    <Cell><Data ss:Type="String">Add {R} to your mana pool.</Data></Cell>
+    <Cell ss:Index="9"><Data ss:Type="String">Add {R} to your mana pool.</Data></Cell>
+    <Cell><Data ss:Type="String">Add {R} to your mana pool.</Data></Cell>
+    <Cell><Data ss:Type="String">Add {R} to your mana pool.</Data></Cell>
+    <Cell><Data ss:Type="String">Add {R} to your mana pool.</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">CARD_QUERY_OPTION_ADD_U</Data></Cell>
+    <Cell ss:Index="3"><Data ss:Type="String">Add {U} to your mana pool.</Data></Cell>
+    <Cell><Data ss:Type="String">Add {U} to your mana pool.</Data></Cell>
+    <Cell><Data ss:Type="String">Add {U} to your mana pool.</Data></Cell>
+    <Cell><Data ss:Type="String">Add {U} to your mana pool.</Data></Cell>
+    <Cell><Data ss:Type="String">Add {U} to your mana pool.</Data></Cell>
+    <Cell ss:Index="9"><Data ss:Type="String">Add {U} to your mana pool.</Data></Cell>
+    <Cell><Data ss:Type="String">Add {U} to your mana pool.</Data></Cell>
+    <Cell><Data ss:Type="String">Add {U} to your mana pool.</Data></Cell>
+    <Cell><Data ss:Type="String">Add {U} to your mana pool.</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">CARD_QUERY_OPTION_ADD_W</Data></Cell>
+    <Cell ss:Index="3"><Data ss:Type="String">Add {W} to your mana pool.</Data></Cell>
+    <Cell><Data ss:Type="String">Add {W} to your mana pool.</Data></Cell>
+    <Cell><Data ss:Type="String">Add {W} to your mana pool.</Data></Cell>
+    <Cell><Data ss:Type="String">Add {W} to your mana pool.</Data></Cell>
+    <Cell><Data ss:Type="String">Add {W} to your mana pool.</Data></Cell>
+    <Cell ss:Index="9"><Data ss:Type="String">Add {W} to your mana pool.</Data></Cell>
+    <Cell><Data ss:Type="String">Add {W} to your mana pool.</Data></Cell>
+    <Cell><Data ss:Type="String">Add {W} to your mana pool.</Data></Cell>
+    <Cell><Data ss:Type="String">Add {W} to your mana pool.</Data></Cell>
+   </Row>
+   <Row>
     <Cell><Data ss:Type="String">CARD_QUERY_OPTION_CIRCULAR_LOGIC</Data></Cell>
     <Cell ss:Index="3"><Data ss:Type="String">Pay {%d}</Data></Cell>
     <Cell><Data ss:Type="String">Payer {%d}</Data></Cell>
