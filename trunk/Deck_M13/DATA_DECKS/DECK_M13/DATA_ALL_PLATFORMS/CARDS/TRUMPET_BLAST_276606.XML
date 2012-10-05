@@ -42,7 +42,7 @@
     <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Атакующие существа получают +2/+0 до конца хода.]]></LOCALISED_TEXT>
     <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[As criaturas atacantes recebem +2/+0 até o final do turno.]]></LOCALISED_TEXT>
 	<FILTER>
-    return (FilteredCard() ~= nil and FilteredCard():GetCardType():Test( CARD_TYPE_CREATURE ) ~= 0 and FilteredCard():GetZone() == ZONE_IN_PLAY and FilteredCard():IsAttacking() ~= 0 )
+    return AttackingCreatures()
     </FILTER>
 	<CONTINUOUS_ACTION layer="7C">
     if FilteredCard() ~= nil then

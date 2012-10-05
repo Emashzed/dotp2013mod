@@ -54,19 +54,18 @@
     EffectController():ChooseTarget( 0, "CARD_QUERY_CHOOSE_PLAYER_DEAL_4_DAMAGE", EffectDC():Make_Targets(0) )
     </PLAY_TIME_ACTION>
     <FILTER>
-    local target_player = EffectDC():Get_Targets(0):Get_PlayerPtr(0)
-    return (FilteredCard() ~= nil and 
-    FilteredCard():GetCardType():Test( CARD_TYPE_CREATURE ) ~= 0 and 
-    FilteredCard():GetZone() == ZONE_IN_PLAY and  
-    FilteredCard():GetPlayer() == target_player)
+    local target_player = EffectDC():Get_Targets(0):Get_PlayerPtr(0)	
+    return CreaturesTargetPlayerControls( target_player ) 
     </FILTER>
     <RESOLUTION_TIME_ACTION ignore_filter="1">
-    local target_creature = EffectDC():Get_Targets(0):Get_CardPtr(0)
     local target_player = Object():GetTargetPlayer()
-    if ( target_creature ~= nil ) then   
-    	target_creature:DealDamage(4, Object())  
-    elseif 
-    	( target_player ~= nil ) then   
+	
+	local source = EffectSource()
+    if source == nil then
+      source = Object()
+    end
+	
+    if target_player ~= nil then   
     	target_player:DealDamage(4, Object())  
     end
     </RESOLUTION_TIME_ACTION>
@@ -75,9 +74,8 @@
     if source == nil then
       source = Object()
     end
-    if (FilteredPlayer() ~= nil) then   
-    	FilteredPlayer():DealDamage( 1 , source)  
-    elseif (FilteredCard() ~= nil) then   
+	
+    if (FilteredCard() ~= nil) then   
     	FilteredCard():DealDamage( 1 , source )  
     end
     </RESOLUTION_TIME_ACTION>

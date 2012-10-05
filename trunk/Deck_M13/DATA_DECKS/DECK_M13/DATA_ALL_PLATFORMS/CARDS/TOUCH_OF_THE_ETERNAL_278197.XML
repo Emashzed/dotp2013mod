@@ -52,18 +52,8 @@
     <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[No início de sua manutenção, conte o número de permanentes que você controla. Aquele número se torna seu total de pontos de vida.]]></LOCALISED_TEXT>
 	<RESOLUTION_TIME_ACTION>
 	local player = EffectController()
-	local total = 0  
-    local filter = Object():GetFilter()  
-    filter:Clear()  
-	filter:AddCardType( CARD_TYPE_ARTIFACT )
-	filter:AddCardType( CARD_TYPE_CREATURE )
-    filter:AddCardType( CARD_TYPE_ENCHANTMENT )
-    filter:AddCardType( CARD_TYPE_LAND )
-    filter:AddCardType( CARD_TYPE_PLANESWALKER )
-    filter:SetZone( ZONE_IN_PLAY )   
-    filter:SetController( player )  
-    filter:NotTargetted()  
-    total = filter:Count()    
+	local total = CountCardsZonePlayer( ZONE_IN_PLAY, player )
+   
     if player ~= nil then 
 		player:SetLifeTotal( total )
 	end

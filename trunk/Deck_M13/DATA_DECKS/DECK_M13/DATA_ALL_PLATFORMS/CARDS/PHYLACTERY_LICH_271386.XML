@@ -39,7 +39,7 @@
     filter:Clear()
     filter:AddCardType( CARD_TYPE_ARTIFACT )
     filter:SetZone( ZONE_IN_PLAY )
-    filter:SetPlayer(EffectController())
+    filter:SetPlayer( EffectController() )
     filter:NotTargetted()
     </TARGET_DEFINITION>
 	<PLAY_TIME_ACTION target_choosing="1">
@@ -83,9 +83,7 @@
     <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Когда под вашим контролем нет перманентов с жетонами филактерии на них, пожертвуйте Лича с Филактерией.]]></LOCALISED_TEXT>
     <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Quando você não controlar nenhuma permanente com marcadores de talismã, sacrifique Lich do Talismã.]]></LOCALISED_TEXT>
 	<FILTER>
-    return (FilteredCard() ~= nil and
-    FilteredCard():GetZone() == ( ZONE_IN_PLAY ) and
-    FilteredCard():GetPlayer() == EffectController())
+    return ( Permanents() and CardsZonePlayer(ZONE_IN_PLAYER, EffectController()) )
     </FILTER>
 	<CONTINUOUS_ACTION>
 	if FilteredCard():CountCounters(MTG():GetCountersType("PHYLACTERY")) ~= 0 then
@@ -96,7 +94,7 @@
   <STATIC_ABILITY>
     <CONTINUOUS_ACTION>
     if MTG():ObjectDataChest():Get_Int(0) == 0 then
-      Object():Sacrifice(EffectController())
+      Object():Sacrifice( EffectController() )
     end
     </CONTINUOUS_ACTION>
   </STATIC_ABILITY>

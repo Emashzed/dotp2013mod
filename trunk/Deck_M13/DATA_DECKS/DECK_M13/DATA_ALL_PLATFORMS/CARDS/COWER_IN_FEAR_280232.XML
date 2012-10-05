@@ -50,10 +50,7 @@
     <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Существа под контролем ваших оппонентов получают -1/-1 до конца хода.]]></LOCALISED_TEXT>
     <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[As criaturas controladas por seus oponentes recebem -1/-1 até o final do turno.]]></LOCALISED_TEXT>
 	<FILTER>
-    return (FilteredCard() ~= nil and 
-    FilteredCard():GetCardType():Test( CARD_TYPE_CREATURE ) ~= 0 and 
-    FilteredCard():GetZone() == ZONE_IN_PLAY  and 
-    FilteredCard():GetController():GetTeam() ~= Object():GetController():GetTeam())  
+    return CardsTypeOpponentsControl( CARD_TYPE_CREATURE )
     </FILTER>
     <CONTINUOUS_ACTION layer="7C">
     if FilteredCard() ~= nil then

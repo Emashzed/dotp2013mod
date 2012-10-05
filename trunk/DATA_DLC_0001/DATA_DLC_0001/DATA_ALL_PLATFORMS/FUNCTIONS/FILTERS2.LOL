@@ -1,5 +1,5 @@
 Cards = function()
-	if (Permanents() or FilteredCard():GetCardType():Test(CARD_TYPE_INSTANT) ~= 0 or FilteredCard():GetCardType():Test(CARD_TYPE_SORCERY) ~= 0) then
+	if ( Permanents() or IsInstantOrSorcery( FilteredCard() ) ) then
 		return FilteredCard() ~= nil
 	end
 end
@@ -109,3 +109,16 @@ AttackingCreatures = function()
 		return FilteredCard():IsAttacking() ~= 0
 	end
 end
+
+CardsOpponentsControl = function()
+	if CardsZone( ZONE_IN_PLAY ) then
+		return FilteredCard():GetController():GetTeam() ~= EffectController():GetTeam()
+	end
+end
+
+CardsTypeOpponentsControl = function(1_17_0)
+	if CardsOpponentsControl() then
+		return CardsTypeZone( 1_17_0, ZONE_IN_PLAY )
+	end
+end
+

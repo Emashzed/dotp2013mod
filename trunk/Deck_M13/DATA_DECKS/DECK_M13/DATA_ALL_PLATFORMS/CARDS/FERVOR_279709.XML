@@ -51,10 +51,7 @@
     <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Существа под вашим контролем имеют Ускорение.]]></LOCALISED_TEXT>
     <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[As criaturas que você controla têm ímpeto.]]></LOCALISED_TEXT>
     <FILTER>
-    return (FilteredCard() ~= nil and 
-    FilteredCard():GetCardType():Test( CARD_TYPE_CREATURE ) ~= 0 and 
-    FilteredCard():GetZone() == ZONE_IN_PLAY and  
-    FilteredCard():GetPlayer() == Object():GetPlayer())
+    return CreaturesYouControl()
     </FILTER>
     <CONTINUOUS_ACTION layer="6">
     local filtered_obj = FilteredCard()

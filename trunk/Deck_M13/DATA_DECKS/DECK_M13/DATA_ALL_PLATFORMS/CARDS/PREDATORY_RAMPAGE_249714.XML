@@ -51,10 +51,7 @@
     <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Существа под вашим контролем получают +3/+3 до конца хода. Каждое существо под контролем ваших оппонентов блокирует в этом ходу, если может.]]></LOCALISED_TEXT>
     <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[As criaturas que você controla recebem +3/+3 até o final do turno. Cada criatura que seus oponentes controlam bloqueia neste turno se estiver apta.]]></LOCALISED_TEXT>
     <FILTER>
-    return (FilteredCard() ~= nil and 
-    FilteredCard():GetCardType():Test( CARD_TYPE_CREATURE ) ~= 0 and 
-    FilteredCard():GetZone() == ZONE_IN_PLAY and  
-    FilteredCard():GetPlayer() == Object():GetPlayer())
+    return CreaturesYouControl()
     </FILTER>
     <CONTINUOUS_ACTION layer="7C">
     if FilteredCard() ~= nil then

@@ -32,23 +32,8 @@
     <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Fortaleza Glacial entra no campo de batalha virada, a menos que você controle uma Planície ou uma Ilha.]]></LOCALISED_TEXT>
 	<TRIGGER value="ZONECHANGE_END" simple_qualifier="self" to_zone="ZONE_IN_PLAY" />
     <RESOLUTION_TIME_ACTION>
-	local plains = 0
-	local islands = 0
-	
-	local filter = Object():GetFilter()
-    filter:Clear()
-    filter:SetZone( ZONE_IN_PLAY )
-    filter:AddSubType( LAND_TYPE_PLAINS )
-	filter:SetController( EffectController() )
-    filter:NotTargetted()
-    plains = filter:CountStopAt( 1 )
-	
-    filter:Clear()
-    filter:SetZone( ZONE_IN_PLAY )
-    filter:AddSubType( LAND_TYPE_ISLAND )
-	filter:SetController( EffectController() )
-    filter:NotTargetted()
-    islands = filter:CountStopAt( 1 )
+	local plains = CountCardsSubtypeZonePlayer( LAND_TYPE_PLAINS, ZONE_IN_PLAY, EffectController() )
+	local islands = CountCardsSubtypeZonePlayer( LAND_TYPE_ISLAND, ZONE_IN_PLAY, EffectController() )
 	
     if TriggerObject() ~= nil and plains &lt; 1 and islands &lt; 1 then
 		TriggerObject():ComesIntoPlayTapped()

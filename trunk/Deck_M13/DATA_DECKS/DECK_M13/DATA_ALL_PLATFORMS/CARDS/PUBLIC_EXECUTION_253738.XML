@@ -66,10 +66,7 @@
     local target_creature = EffectDC():Get_Targets(0):Get_CardPtr(0)
     if (target_creature ~= nil) then
     	local player = target_creature:GetPlayer()
-    	return (FilteredCard() ~= nil and
-    			FilteredCard():GetCardType():Test( CARD_TYPE_CREATURE ) ~= 0 and
-    			FilteredCard():GetController() == player and
-    			FilteredCard() ~= target_creature)
+    	return OtherCardsTypeZonePlayer( target_creature, CARD_TYPE_CREATURE, ZONE_IN_PLAY, player )
     else
     	return false
     end

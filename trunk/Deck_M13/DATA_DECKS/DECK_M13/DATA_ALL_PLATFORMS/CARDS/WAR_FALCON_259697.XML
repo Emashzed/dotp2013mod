@@ -60,24 +60,9 @@
     <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Боевой Сокол не может атаковать, если только под вашим контролем нет Рыцаря или Солдата.]]></LOCALISED_TEXT>
     <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Falcão de Guerra não pode atacar a menos que você controle um Cavaleiro ou um Soldado.]]></LOCALISED_TEXT>
 	<CONTINUOUS_ACTION layer="8">
-	local knight_total = 0
-	local soldier_total = 0
-	
-    local filter = Object():GetFilter()
-    filter:Clear()
-    filter:SetZone( ZONE_IN_PLAY )
-    filter:AddSubType( CREATURE_TYPE_KNIGHT )
-    filter:SetController( EffectController() )  
-    filter:NotTargetted()
-    knight_total = filter:CountStopAt( 1 )
-	
-	filter:Clear()
-    filter:SetZone( ZONE_IN_PLAY )
-    filter:AddSubType( CREATURE_TYPE_SOLDIER )
-    filter:SetController( EffectController() )  
-    filter:NotTargetted()
-    soldier_total = filter:CountStopAt( 1 )
-	
+	local knight_total = CountCardsSubtypeZonePlayer( CREATURE_TYPE_KNIGHT, ZONE_IN_PLAY, EffectController() )
+	local soldier_total = CountCardsSubtypeZonePlayer( CREATURE_TYPE_SOLDIER, ZONE_IN_PLAY, EffectController() )
+
     if (knight_total &lt; 1) and (soldier_total &lt; 1) then
 		local characteristics = Object():GetCurrentCharacteristics()
     	characteristics:Characteristic_Set( CHARACTERISTIC_CANT_ATTACK, 1 )

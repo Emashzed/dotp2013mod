@@ -34,15 +34,9 @@
     <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Багровый Грязеброд получает +1/+1, пока вы контролируете Болото.]]></LOCALISED_TEXT>
     <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Lamívago Escarlate recebe +1/+1 enquanto você controlar um Pântano.]]></LOCALISED_TEXT>
 	<CONTINUOUS_ACTION layer="7C">
-	local total = 0
-    local filter = Object():GetFilter()
-    filter:Clear()
-    filter:SetZone( ZONE_IN_PLAY )
-    filter:AddSubType( LAND_TYPE_SWAMP )
-    filter:SetController( EffectController() )  
-    filter:NotTargetted()
-    total = filter:CountStopAt( 1 )
-    if total &gt; 0 then
+	local swamps = CountCardsSubtypeZonePlayer( LAND_TYPE_SWAMP, ZONE_IN_PLAY, EffectController() )
+    
+	if swamps &gt; 0 then
     	local characteristics = Object():GetCurrentCharacteristics()
     	characteristics:Power_Add( 1 )
     	characteristics:Toughness_Add( 1 )
@@ -70,15 +64,9 @@
     <AI_AVAILABILITY type="in_response_dangerous" />
   </ACTIVATED_ABILITY>
   <AI_CUSTOM_SCORE zone="ZONE_IN_PLAY">
-  local total = 0
-  local filter = Object():GetFilter()
-  filter:Clear()
-  filter:SetZone( ZONE_IN_PLAY )
-  filter:AddSubType( LAND_TYPE_SWAMP )
-  filter:SetController( EffectController() )  
-  filter:NotTargetted()
-  total = filter:CountStopAt( 1 )
-  if total &gt; 0 then
+  local swamps = CountCardsSubtypeZonePlayer( LAND_TYPE_SWAMP, ZONE_IN_PLAY, EffectController() )
+  
+  if swamps &gt; 0 then
   	Object():AddScore(200)
   end
   </AI_CUSTOM_SCORE>

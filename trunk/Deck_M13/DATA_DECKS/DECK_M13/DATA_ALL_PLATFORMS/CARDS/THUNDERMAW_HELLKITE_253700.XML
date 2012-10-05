@@ -67,19 +67,17 @@
     <FILTER>
 	local filteredCard = FilteredCard()
     local objectPlayer = EffectController()
-    return (filteredCard:GetCardType():Test( CARD_TYPE_CREATURE ) ~= 0) and
-    (filteredCard:GetPlayer():GetTeam() ~= objectPlayer:GetTeam()) and
-    (filteredCard ~= nil and
-    filteredCard:GetZone() == ZONE_IN_PLAY) and
-	(filteredCard:GetCurrentCharacteristics():Characteristic_Get( CHARACTERISTIC_FLYING ) ~= 0)
+    return (CardsTypeOpponentsControl( CARD_TYPE_CREATURE ) and
+	filteredCard:GetCurrentCharacteristics():Characteristic_Get( CHARACTERISTIC_FLYING ) ~= 0)
     </FILTER>
     <RESOLUTION_TIME_ACTION>
 	local source = EffectSource()
     if source == nil then
     	source = Object()
     end
+	
     if (FilteredCard() ~= nil) then   
-    	FilteredCard():DealDamage( 1 , source )  
+    	FilteredCard():DealDamage( 1, source )  
     end
 	</RESOLUTION_TIME_ACTION>
 	<RESOLUTION_TIME_ACTION>
