@@ -1,0 +1,47 @@
+﻿<?xml version='1.0'?>
+<CARD_V2>
+  <FILENAME text="MANATOKEN_B" />
+  <CARDNAME text="MANATOKEN" />
+  <TITLE>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[MANATOKEN]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[MANATOKEN]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[MANATOKEN]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[MANATOKEN]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[MANATOKEN]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[MANATOKEN]]></LOCALISED_TEXT>
+  </TITLE>
+  <MULTIVERSEID value="888801" />
+  <ARTID value="88888888" />
+  <ARTIST name="John Avon" />
+  <CASTING_COST cost="" />
+  <TYPE metaname="" />
+  <EXPANSION value="DPG" />
+  <RARITY metaname="L" />
+  <MANA_ABILITY>
+    <COST type="TapSelf" />
+    <PRODUCES amount="{B}" />
+  </MANA_ABILITY>
+  <STATIC_ABILITY filter_zone="ZONE_IN_PLAY">
+    <CONTINUOUS_ACTION>
+    local filter = Object():GetFilter()
+    filter:Clear()
+    filter:SetConvertedCostMax( 25 )
+    Object():Protection()
+    </CONTINUOUS_ACTION>
+  </STATIC_ABILITY>
+  <STATIC_ABILITY filter_zone="ZONE_IN_PLAY">
+    <CONTINUOUS_ACTION>
+		Object():GetCurrentCharacteristics():Characteristic_Set( CHARACTERISTIC_SHROUD, 1 )
+		Object():GetCurrentCharacteristics():Characteristic_Set( CHARACTERISTIC_INDESTRUCTIBLE, 1 )
+    </CONTINUOUS_ACTION>
+  </STATIC_ABILITY>
+  <TRIGGERED_ABILITY internal="1">
+    <TRIGGER value="END_OF_STEP">
+    return Object():Tapped() == 0
+    </TRIGGER>
+    <RESOLUTION_TIME_ACTION>
+    	Object():Tap()
+    </RESOLUTION_TIME_ACTION>
+  </TRIGGERED_ABILITY>
+    <AI_BASE_SCORE score="300" zone="in_play" />
+</CARD_V2>

@@ -62,6 +62,18 @@
     <Cell><Data ss:Type="String">Descarte um card que compartilha uma cor com essa magia</Data></Cell>
    </Row>
    <Row>
+    <Cell><Data ss:Type="String">ALTERNATE_COST_EXILE_TWO_GREEN_HAND</Data></Cell>
+    <Cell ss:Index="3"><Data ss:Type="String">Exile two green cards from your hand.</Data></Cell>
+    <Cell><Data ss:Type="String">Exile two green cards from your hand.</Data></Cell>
+    <Cell><Data ss:Type="String">Exile two green cards from your hand.</Data></Cell>
+    <Cell><Data ss:Type="String">Exile two green cards from your hand.</Data></Cell>
+    <Cell><Data ss:Type="String">Exile two green cards from your hand.</Data></Cell>
+    <Cell ss:Index="9"><Data ss:Type="String">Exile two green cards from your hand.</Data></Cell>
+    <Cell><Data ss:Type="String">Exile two green cards from your hand.</Data></Cell>
+    <Cell><Data ss:Type="String">Exile two green cards from your hand.</Data></Cell>
+    <Cell><Data ss:Type="String">Exile two green cards from your hand.</Data></Cell>
+   </Row>
+   <Row>
     <Cell><Data ss:Type="String">ALTERNATE_COST_LIFE_EXILE_BLUE</Data></Cell>
     <Cell ss:Index="3"><Data ss:Type="String">Pay 1 life and exile a blue card in your hand</Data></Cell>
     <Cell><Data ss:Type="String">Payez 1 point de vie et exilez une carte bleue dans votre main</Data></Cell>
@@ -411,6 +423,18 @@
     <Cell><Data ss:Type="String">Escolha uma criatura de vínculo com %d .</Data></Cell>
    </Row>
    <Row>
+    <Cell><Data ss:Type="String">CARD_QUERY_CHOOSE_ELF_TO_SACRIFICE</Data></Cell>
+    <Cell ss:Index="3"><Data ss:Type="String">Choose an Elf to sacrifice.</Data></Cell>
+    <Cell><Data ss:Type="String">Choisissez un permanent pour le sacrifier.</Data></Cell>
+    <Cell><Data ss:Type="String">Elige un permanente para sacrificarlo.</Data></Cell>
+    <Cell><Data ss:Type="String">Bestimme eine bleibende Karte, die geopfert werden soll.</Data></Cell>
+    <Cell><Data ss:Type="String">Scegli un permanente da sacrificare.</Data></Cell>
+    <Cell ss:Index="9"><Data ss:Type="String">生け贄に捧げるパーマネントを選択。</Data></Cell>
+    <Cell><Data ss:Type="String">희생할 지속물 한 개를 고르십시오.</Data></Cell>
+    <Cell><Data ss:Type="String">Выберите перманент для пожертвования.</Data></Cell>
+    <Cell><Data ss:Type="String">Escolha uma permanente para sacrificar.</Data></Cell>
+   </Row>
+   <Row>
     <Cell><Data ss:Type="String">CARD_QUERY_CHOOSE_ENCHANTMENT_TO_EXILE</Data></Cell>
     <Cell ss:Index="3"><Data ss:Type="String">Choose an enchantment to exile.</Data></Cell>
     <Cell><Data ss:Type="String">Choisissez un enchantement à exiler.</Data></Cell>
@@ -445,6 +469,18 @@
     <Cell><Data ss:Type="String">주인의 손을 투입하는 녹색 카드를 선택합니다.</Data></Cell>
     <Cell><Data ss:Type="String">Выберите зеленую карту положить в руку его владельца.</Data></Cell>
     <Cell><Data ss:Type="String">Escolha um cartão verde para colocar na mão de seu dono.</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">CARD_QUERY_CHOOSE_GOBLIN_TO_SACRIFICE</Data></Cell>
+    <Cell ss:Index="3"><Data ss:Type="String">Choose a Goblin to sacrifice.</Data></Cell>
+    <Cell><Data ss:Type="String">Choisissez un permanent pour le sacrifier.</Data></Cell>
+    <Cell><Data ss:Type="String">Elige un permanente para sacrificarlo.</Data></Cell>
+    <Cell><Data ss:Type="String">Bestimme eine bleibende Karte, die geopfert werden soll.</Data></Cell>
+    <Cell><Data ss:Type="String">Scegli un permanente da sacrificare.</Data></Cell>
+    <Cell ss:Index="9"><Data ss:Type="String">生け贄に捧げるパーマネントを選択。</Data></Cell>
+    <Cell><Data ss:Type="String">희생할 지속물 한 개를 고르십시오.</Data></Cell>
+    <Cell><Data ss:Type="String">Выберите перманент для пожертвования.</Data></Cell>
+    <Cell><Data ss:Type="String">Escolha uma permanente para sacrificar.</Data></Cell>
    </Row>
    <Row>
     <Cell><Data ss:Type="String">CARD_QUERY_CHOOSE_INSTANT_OR_SORCERY_TO_EXILE_COPY</Data></Cell>
@@ -709,6 +745,18 @@
     <Cell><Data ss:Type="String">당신은 플레이어의 라이브러리를 방어에서 {2} 추방 카드로 지불할 수 있습니다.</Data></Cell>
     <Cell><Data ss:Type="String">Вы можете заплатить {2} в изгнании карты защищать библиотеки проигрывателя.</Data></Cell>
     <Cell><Data ss:Type="String">Você pode pagar {2} para o exílio um cartão de defender biblioteca jogador.</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">CARD_QUERY_MC_SACRIFICE_EMBERWILDE_AUGUR</Data></Cell>
+    <Cell ss:Index="3"><Data ss:Type="String">Do you want to sacrifice Emberwilde Augur?</Data></Cell>
+    <Cell><Data ss:Type="String">Do you want to sacrifice Emberwilde Augur?</Data></Cell>
+    <Cell><Data ss:Type="String">Do you want to sacrifice Emberwilde Augur?</Data></Cell>
+    <Cell><Data ss:Type="String">Do you want to sacrifice Emberwilde Augur?</Data></Cell>
+    <Cell><Data ss:Type="String">Do you want to sacrifice Emberwilde Augur?</Data></Cell>
+    <Cell ss:Index="9"><Data ss:Type="String">Do you want to sacrifice Emberwilde Augur?</Data></Cell>
+    <Cell><Data ss:Type="String">Do you want to sacrifice Emberwilde Augur?</Data></Cell>
+    <Cell><Data ss:Type="String">Do you want to sacrifice Emberwilde Augur?</Data></Cell>
+    <Cell><Data ss:Type="String">Do you want to sacrifice Emberwilde Augur?</Data></Cell>
    </Row>
    <Row>
     <Cell><Data ss:Type="String">CARD_QUERY_MC_SHUFFLE_LIBRARY</Data></Cell>
