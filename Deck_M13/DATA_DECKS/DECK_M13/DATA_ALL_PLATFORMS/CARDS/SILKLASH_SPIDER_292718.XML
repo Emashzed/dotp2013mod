@@ -61,10 +61,8 @@
     <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[{X}{G}{G}: Aranha do Chicote de Seda causa X pontos de dano a cada criatura com voar.]]></LOCALISED_TEXT>
     <COST type="Mana" cost="{X}{G}{G}" />
     <FILTER>
-    return (FilteredCard() ~= nil and 
-    FilteredCard():GetCardType():Test( CARD_TYPE_CREATURE ) ~= 0 and 
-    FilteredCard():GetZone() == ZONE_IN_PLAY and  
-    FilteredCard():GetCurrentCharacteristics():Characteristic_Get( CHARACTERISTIC_FLYING ) ~= 0)
+    return ( CreaturesInPlay() and  
+    FilteredCard():GetCurrentCharacteristics():Characteristic_Get( CHARACTERISTIC_FLYING ) ~= 0 )
     </FILTER>
     <RESOLUTION_TIME_ACTION>
     local damage = GetEffectX()
@@ -72,10 +70,9 @@
     if source == nil then
       source = Object()
     end
-    if (FilteredPlayer() ~= nil) then   
-    	FilteredPlayer():DealDamage( damage , source) 
-    elseif (FilteredCard() ~= nil) then   
-    	FilteredCard():DealDamage( damage , source )  
+	
+    if (FilteredCard() ~= nil) then   
+    	FilteredCard():DealDamage( damage, source )  
     end
     </RESOLUTION_TIME_ACTION>
     <AI_AVAILABILITY type="in_response" />

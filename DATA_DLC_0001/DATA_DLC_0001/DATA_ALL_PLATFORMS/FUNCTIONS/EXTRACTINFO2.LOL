@@ -257,39 +257,4 @@ end
 
 
 
-CountCardsPlayerControls = function(1_17_0)
-	return CountCardsZonePlayer( ZONE_IN_PLAY, 1_17_0 )
-end
-
-CountCardsTypePlayerControls = function(1_18_0, 1_18_1)
-	return CountCardsTypeZonePlayer( 1_18_0, ZONE_IN_PLAY, 1_18_1 )
-end
-
-CountCardsSubtypePlayerControls = function(1_19_0, 1_19_1)
-	return CountCardsSubtypeZonePlayer( 1_19_0, ZONE_IN_PLAY, 1_19_1 )
-end
-
-CountCardsTypeSubtypePlayerControls = function(1_20_0, 1_20_1, 1_20_2)
-	return CountCardsTypeSubtypeZonePlayer( 1_20_0, 1_20_1, ZONE_IN_PLAY, 1_20_2 )
-end
-
-CountOtherCardsPlayerControls = function(1_21_0, 1_21_1)
-	return CountOtherCardsZonePlayer( 1_21_0, ZONE_IN_PLAY, 1_21_1 )
-end
-
-CountOtherCardsTypePlayerControls = function(1_22_0, 1_22_1, 1_22_2)
-	return CountOtherCardsTypeZonePlayer( 1_22_0, 1_22_1, ZONE_IN_PLAY, 1_22_2 )
-end
-
-CountOtherCardsSubtypePlayerControls = function(1_23_0, 1_23_1, 1_23_2)
-	return CountOtherCardsSubtypeZonePlayer( 1_23_0, 1_23_1, ZONE_IN_PLAY, 1_23_2 )
-end
-
-CountOtherCardsTypeSubtypePlayerControls = function(1_24_0, 1_24_1, 1_24_2, 1_24_3)
-	return CountOtherCardsTypeSubtypeZonePlayer( 1_24_0, 1_24_1, 1_24_2, ZONE_IN_PLAY, 1_24_3 )
-end
-
-
-
-
 

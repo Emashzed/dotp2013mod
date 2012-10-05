@@ -46,15 +46,9 @@
     <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Бандит из Гавани получает +1/+1, пока вы контролируете Остров.]]></LOCALISED_TEXT>
     <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Bandido do Porto recebe +1/+1 enquanto você controlar uma Ilha.]]></LOCALISED_TEXT>
 	<CONTINUOUS_ACTION layer="7C">
-	local total = 0
-    local filter = Object():GetFilter()
-    filter:Clear()
-    filter:SetZone( ZONE_IN_PLAY )
-    filter:AddSubType( LAND_TYPE_ISLAND )
-    filter:SetController( EffectController() )  
-    filter:NotTargetted()
-    total = filter:CountStopAt( 1 )
-    if total &gt; 0 then
+	local islands = CountCardsSubtypeZonePlayer( LAND_TYPE_ISLAND, ZONE_IN_PLAY, EffectController() )
+	
+    if islands &gt; 0 then
     	local characteristics = Object():GetCurrentCharacteristics()
     	characteristics:Power_Add( 1 )
     	characteristics:Toughness_Add( 1 )
@@ -80,15 +74,9 @@
     <AI_AVAILABILITY step="declare_attackers" />
   </ACTIVATED_ABILITY>
   <AI_CUSTOM_SCORE zone="ZONE_IN_PLAY">
-  local total = 0
-  local filter = Object():GetFilter()
-  filter:Clear()
-  filter:SetZone( ZONE_IN_PLAY )
-  filter:AddSubType( LAND_TYPE_ISLAND )
-  filter:SetController( EffectController() )  
-  filter:NotTargetted()
-  total = filter:CountStopAt( 1 )
-  if total &gt; 0 then
+  local islands = CountCardsSubtypeZonePlayer( LAND_TYPE_ISLAND, ZONE_IN_PLAY, EffectController() )
+	
+  if islands &gt; 0 then
   	Object():AddScore(200)
   end
   </AI_CUSTOM_SCORE>

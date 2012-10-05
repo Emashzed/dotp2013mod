@@ -42,10 +42,7 @@
     <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Существа под вашим контролем получают Двойной удар до конца хода.]]></LOCALISED_TEXT>
     <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[As criaturas que você controla ganham golpe duplo até o final do turno.]]></LOCALISED_TEXT>
 	<FILTER>
-    return (FilteredCard() ~= nil and 
-    FilteredCard():GetCardType():Test( CARD_TYPE_CREATURE ) ~= 0 and 
-    FilteredCard():GetZone() == ZONE_IN_PLAY and  
-    FilteredCard():GetPlayer() == Object():GetPlayer())
+    return CreaturesYouControl()
     </FILTER>
     <CONTINUOUS_ACTION layer="6">
     if FilteredCard() ~= nil then

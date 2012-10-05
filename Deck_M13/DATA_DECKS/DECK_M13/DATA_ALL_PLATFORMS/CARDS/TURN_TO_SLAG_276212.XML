@@ -85,8 +85,6 @@
     end
     if ( target_creature ~= nil ) then   
     	target_creature:DealDamage(5, source)  
-    elseif ( target_player ~= nil ) then   
-    	target_player:DealDamage(5, source)  
     end
     </RESOLUTION_TIME_ACTION>
     <SFX text="TARGET_FLAME_PLAY" />

@@ -43,13 +43,7 @@
     <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Exile todas as permanentes. Exile todos os cards de todas as mãos e cemitérios. O total de pontos de vida de cada jogador se torna 1.]]></LOCALISED_TEXT>
     <FILTER>
     local filteredCard = FilteredCard()
-    return (filteredCard ~= nil and
-    filteredCard:GetZone() == ZONE_IN_PLAY and
-	(filteredCard:GetCardType():Test( CARD_TYPE_ARTIFACT ) ~= 0 or
-	filteredCard:GetCardType():Test( CARD_TYPE_CREATURE ) ~= 0 or
-	filteredCard:GetCardType():Test( CARD_TYPE_ENCHANTMENT ) ~= 0 or
-	filteredCard:GetCardType():Test( CARD_TYPE_LAND ) ~= 0 or
-	filteredCard:GetCardType():Test( CARD_TYPE_PLANESWALKER ) ~= 0))
+    return CardsZone( ZONE_IN_PLAY )
     </FILTER>
 	<RESOLUTION_TIME_ACTION>
     if FilteredCard() ~= nil then

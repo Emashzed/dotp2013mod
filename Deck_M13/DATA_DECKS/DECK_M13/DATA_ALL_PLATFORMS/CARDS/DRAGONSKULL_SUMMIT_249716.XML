@@ -32,24 +32,9 @@
     <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Pico da Caveira de Dragão entra no campo de batalha virado, a menos que você controle um Pântano ou uma Montanha.]]></LOCALISED_TEXT>
 	<TRIGGER value="ZONECHANGE_END" simple_qualifier="self" to_zone="ZONE_IN_PLAY" />
     <RESOLUTION_TIME_ACTION>
-	local mountains = 0
-	local swamps = 0
-	
-	local filter = Object():GetFilter()
-    filter:Clear()
-    filter:SetZone( ZONE_IN_PLAY )
-    filter:AddSubType( LAND_TYPE_MOUNTAIN )
-	filter:SetController( EffectController() )
-    filter:NotTargetted()
-    mountains = filter:CountStopAt( 1 )
-	
-    filter:Clear()
-    filter:SetZone( ZONE_IN_PLAY )
-    filter:AddSubType( LAND_TYPE_SWAMP )
-	filter:SetController( EffectController() )
-    filter:NotTargetted()
-    swamps = filter:CountStopAt( 1 )
-	
+	local mountains = CountCardsSubtypeZonePlayer( LAND_TYPE_MOUNTAIN, ZONE_IN_PLAY, EffectController() )
+	local swamps = CountCardsSubtypeZonePlayer( LAND_TYPE_SWAMP, ZONE_IN_PLAY, EffectController() )
+
     if TriggerObject() ~= nil and mountains &lt; 1 and swamps &lt; 1 then
 		TriggerObject():ComesIntoPlayTapped()
     end

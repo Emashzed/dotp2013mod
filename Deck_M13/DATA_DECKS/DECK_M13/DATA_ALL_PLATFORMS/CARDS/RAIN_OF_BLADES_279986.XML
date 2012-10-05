@@ -42,19 +42,15 @@
     <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Дождь Клинков наносит 1 повреждение каждому атакующему существу.]]></LOCALISED_TEXT>
     <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Chuva de Lâminas causa 1 ponto de dano a cada criatura atacante.]]></LOCALISED_TEXT>
 	<FILTER>
-    return (FilteredCard() ~= nil and 
-    FilteredCard():GetCardType():Test( CARD_TYPE_CREATURE ) ~= 0 and 
-    FilteredCard():GetZone() == (ZONE_IN_PLAY) and
-	FilteredCard():IsAttacking() ~= 0)
+    return AttackingCreatures()
     </FILTER>
     <RESOLUTION_TIME_ACTION>
     local source = EffectSource()
     if source == nil then
       source = Object()
     end
-    if (FilteredPlayer() ~= nil) then   
-    	FilteredPlayer():DealDamage( 1 , source)  
-    elseif (FilteredCard() ~= nil) then   
+    
+	if (FilteredCard() ~= nil) then   
     	FilteredCard():DealDamage( 1 , source )  
     end
     </RESOLUTION_TIME_ACTION>

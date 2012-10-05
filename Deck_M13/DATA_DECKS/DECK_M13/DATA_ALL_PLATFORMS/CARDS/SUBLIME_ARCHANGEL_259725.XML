@@ -75,11 +75,7 @@
     end
     </CONTINUOUS_ACTION>
     <FILTER>
-    return (FilteredCard() ~= nil and 
-    FilteredCard() ~= Object() and
-    FilteredCard():GetCardType():Test( CARD_TYPE_CREATURE ) ~= 0 and 
-    FilteredCard():GetZone() == ZONE_IN_PLAY and  
-    FilteredCard():GetPlayer() == Object():GetPlayer())
+    return OtherCreaturesInPlayYouControl()
     </FILTER>
   </STATIC_ABILITY>
   <TRIGGERED_ABILITY resource_id="1" badge="BADGE_EXALTED" filter_zone="ZONE_IN_PLAY">

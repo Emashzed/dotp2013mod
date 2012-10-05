@@ -62,9 +62,10 @@
 		filter:SetZone( ZONE_IN_PLAY )
     	filter:AddCardName( creature:GetCardName())
     	filter:NotTargetted()
-    	local total = filter:Count() - 1
-    	local characteristics = creature:GetCurrentCharacteristics()
 		
+    	local total = filter:Count() - 1
+		
+    	local characteristics = creature:GetCurrentCharacteristics()
 		if total &gt; 0 then
 			characteristics:Power_Add( total )
 			characteristics:Toughness_Add( total )

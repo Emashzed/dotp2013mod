@@ -34,7 +34,7 @@
     <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Смертельное касание]]></LOCALISED_TEXT>
     <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Toque mortífero]]></LOCALISED_TEXT>
     <CONTINUOUS_ACTION>
-     Object():GetCurrentCharacteristics():Characteristic_Set( CHARACTERISTIC_DEATHTOUCH, 1 )
+    Object():GetCurrentCharacteristics():Characteristic_Set( CHARACTERISTIC_DEATHTOUCH, 1 )
     </CONTINUOUS_ACTION>
   </STATIC_ABILITY>
   <TRIGGERED_ABILITY dangerous="1" filter_zone="ZONE_IN_PLAY">

@@ -62,6 +62,7 @@
 	
 	while (num_creatures &gt; 0) do
 		power = power + 1
+		
 		filter:Clear()  
 		filter:SetZone( ZONE_IN_PLAY )  
 		filter:AddCardType( CARD_TYPE_CREATURE )  

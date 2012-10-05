@@ -51,19 +51,11 @@
     <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Все существа получают -1/-1 до конца хода за каждое Болото под вашим контролем.]]></LOCALISED_TEXT>
     <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Todas as criaturas recebem -1/-1 até o final do turno para cada Pântano que você controla.]]></LOCALISED_TEXT>
     <FILTER>
-    return (FilteredCard() ~= nil and 
-    FilteredCard():GetCardType():Test( CARD_TYPE_CREATURE ) ~= 0 and 
-    FilteredCard():GetZone() == (ZONE_IN_PLAY))
+    return CreaturesInPlay()
     </FILTER>
     <RESOLUTION_TIME_ACTION ignore_filter="1">
-    local filter = Object():GetFilter()
-    filter:Clear()
-    filter:SetZone( ZONE_IN_PLAY )
-    filter:AddSubType( LAND_TYPE_SWAMP )
-    filter:SetController( EffectController() )
-    filter:NotTargetted()
-    local total = filter:Count()
-    EffectDC():Set_Int( 1, total )
+    local swamps = CountCardsSubtypeZonePlayer( LAND_TYPE_SWAMP, ZONE_IN_PLAY, EffectController() )
+    EffectDC():Set_Int( 1, swamps )
     </RESOLUTION_TIME_ACTION>
     <CONTINUOUS_ACTION layer="7C">
     local creature = FilteredCard()

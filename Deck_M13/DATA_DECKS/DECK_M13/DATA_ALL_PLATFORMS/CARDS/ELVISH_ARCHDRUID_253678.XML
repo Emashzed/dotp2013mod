@@ -46,11 +46,7 @@
     <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Другие существа-Эльфы под вашим контролем получают +1/+1.]]></LOCALISED_TEXT>
     <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[As outras criaturas do tipo Elfo que você controla recebem +1/+1.]]></LOCALISED_TEXT>
 	<FILTER>
-    return (FilteredCard() ~= nil and 
-    FilteredCard():GetCardType():Test( CARD_TYPE_CREATURE ) ~= 0 and 
-    FilteredCard() ~= Object() and 
-    FilteredCard():GetSubType():Test( CREATURE_TYPE_ELF ) ~= 0 and 
-    FilteredCard():GetPlayer() == Object():GetPlayer())
+	return OtherCreaturesInPlayYouControlOfType( CREATURE_TYPE_ELF )
     </FILTER>
     <CONTINUOUS_ACTION layer="7C">
     if FilteredCard() ~= nil then
@@ -74,13 +70,7 @@
     <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[{T}: Adicione {G} à sua reserva de mana para cada Elfo que você controla.]]></LOCALISED_TEXT>
 	<COST type="TapSelf" />
 	<RESOLUTION_TIME_ACTION>
-    local filter = Object():GetFilter()
-    filter:Clear()
-    filter:SetZone( ZONE_IN_PLAY )
-    filter:AddSubType( CREATURE_TYPE_ELF )
-    filter:NotTargetted()
-    filter:SetController( EffectController() )
-    local elves = filter:Count()
+    local elves = CountCardsSubtypeZonePlayer( CREATURE_TYPE_ELF, ZONE_IN_PLAY, EffectController() ) 
 	ProduceMana("G",elves)
     </RESOLUTION_TIME_ACTION>
   </ACTIVATED_ABILITY>

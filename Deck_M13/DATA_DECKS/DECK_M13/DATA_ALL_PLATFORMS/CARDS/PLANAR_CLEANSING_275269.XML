@@ -31,9 +31,7 @@
     <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Уничтожьте все перманенты, не являющиеся землями.]]></LOCALISED_TEXT>
     <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Destrua todas as permanentes que não sejam terrenos.]]></LOCALISED_TEXT>
 	<FILTER>
-    return (FilteredCard() ~= nil and 
-    FilteredCard():GetCardType():Test( CARD_TYPE_LAND ) == 0 and 
-    FilteredCard():GetZone() == (ZONE_IN_PLAY))
+    return ( NonLands() and Permanents() )
     </FILTER>
     <RESOLUTION_TIME_ACTION>
     FilteredCard():Destroy()

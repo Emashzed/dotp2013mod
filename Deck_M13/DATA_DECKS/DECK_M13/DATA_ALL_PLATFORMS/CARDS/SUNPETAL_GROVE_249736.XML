@@ -32,23 +32,8 @@
     <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Bosque da Pétala Solar entra no campo de batalha virado, a menos que você controle uma Floresta ou uma Planície.]]></LOCALISED_TEXT>
 	<TRIGGER value="ZONECHANGE_END" simple_qualifier="self" to_zone="ZONE_IN_PLAY" />
     <RESOLUTION_TIME_ACTION>
-	local forests = 0
-	local plains = 0
-	
-	local filter = Object():GetFilter()
-    filter:Clear()
-    filter:SetZone( ZONE_IN_PLAY )
-    filter:AddSubType( LAND_TYPE_FOREST )
-	filter:SetController( EffectController() )
-    filter:NotTargetted()
-    forests = filter:CountStopAt( 1 )
-	
-    filter:Clear()
-    filter:SetZone( ZONE_IN_PLAY )
-    filter:AddSubType( LAND_TYPE_PLAINS )
-	filter:SetController( EffectController() )
-    filter:NotTargetted()
-    plains = filter:CountStopAt( 1 )
+	local forests = CountCardsSubtypeZonePlayer( LAND_TYPE_FOREST, ZONE_IN_PLAY, EffectController() )
+	local plains = CountCardsSubtypeZonePlayer( LAND_TYPE_PLAINS, ZONE_IN_PLAY, EffectController() )
 	
     if TriggerObject() ~= nil and forests &lt; 1 and plains &lt; 1 then
 		TriggerObject():ComesIntoPlayTapped()

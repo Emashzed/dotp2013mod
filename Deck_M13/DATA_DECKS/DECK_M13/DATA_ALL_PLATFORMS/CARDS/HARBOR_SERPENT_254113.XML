@@ -60,15 +60,9 @@
     <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Змей Гавани не может атаковать, если на поле битвы нет пяти или более Островов.]]></LOCALISED_TEXT>
     <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Serpente do Porto não pode atacar a menos que haja cinco ou mais Ilhas no campo de batalha.]]></LOCALISED_TEXT>
 	<CONTINUOUS_ACTION layer="8">
-	local total = 0
-    local filter = Object():GetFilter()
-    filter:Clear()
-    filter:SetZone( ZONE_IN_PLAY )
-    filter:AddSubType( LAND_TYPE_ISLAND )
-    filter:NotTargetted()
-    total = filter:CountStopAt( 5 )
-
-    if total &lt; 5 then
+	local islands = CountCardsSubtypeZone( LAND_TYPE_ISLAND, ZONE_IN_PLAY )
+	
+    if islands &lt; 5 then
 		local characteristics = Object():GetCurrentCharacteristics()
     	characteristics:Characteristic_Set( CHARACTERISTIC_CANT_ATTACK, 1 )
     end
