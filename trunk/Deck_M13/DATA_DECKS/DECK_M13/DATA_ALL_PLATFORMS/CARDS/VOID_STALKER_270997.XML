@@ -4,14 +4,14 @@
   <CARDNAME text="VOID_STALKER" />
   <TITLE>
     <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Void Stalker]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Void Stalker]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Void Stalker]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Void Stalker]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Void Stalker]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[Void Stalker]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[Void Stalker]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Void Stalker]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Void Stalker]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Errante del Vuoto]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Leerer Schleicher]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Pisteur du vide]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Acechador del vacío]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[虚無の忍び寄り]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[공허의 추적자]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Пустотелый Преследователь]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Espreitador do Vácuo]]></LOCALISED_TEXT>
   </TITLE>
   <MULTIVERSEID value="270997" />
   <ARTID value="270997" />
@@ -19,14 +19,14 @@
   <CASTING_COST cost="{1}{U}" />
   <FLAVOURTEXT>
     <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Now you see it, now you’re gone.]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Now you see it, now you’re gone.]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Now you see it, now you’re gone.]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Now you see it, now you’re gone.]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Now you see it, now you’re gone.]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[Now you see it, now you’re gone.]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[Now you see it, now you’re gone.]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Now you see it, now you’re gone.]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Now you see it, now you’re gone.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Ora lo vedi, ora non ci sei più.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Kaum ist es da, schon bist du weg.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Le voir apparaître, c’est disparaître.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Ahora lo ves y ahora desapareces.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[見たな。消えろ。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[그의 존재를 눈치챘다면 때는 이미 늦었다.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Едва успеешь его увидеть, как тебе конец.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Agora você vê, agora não vê mais.]]></LOCALISED_TEXT>
   </FLAVOURTEXT>
   <TYPE metaname="Creature" />
   <SUB_TYPE metaname="Elemental" />
@@ -36,14 +36,14 @@
   <TOUGHNESS value="1" />
   <ACTIVATED_ABILITY dangerous="1">
     <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[{2}{U}, {T}: Put Void Stalker and target creature on top of their owners’ libraries, then those players shuffle  their libraries.]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[{2}{U}, {T}: Put Void Stalker and target creature on top of their owners’ libraries, then those players shuffle their libraries.]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[{2}{U}, {T}: Put Void Stalker and target creature on top of their owners’ libraries, then those players shuffle their libraries.]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[{2}{U}, {T}: Put Void Stalker and target creature on top of their owners’ libraries, then those players shuffle their libraries.]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[{2}{U}, {T}: Put Void Stalker and target creature on top of their owners’ libraries, then those players shuffle their libraries.]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[{2}{U}, {T}: Put Void Stalker and target creature on top of their owners’ libraries, then those players shuffle their libraries.]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[{2}{U}, {T}: Put Void Stalker and target creature on top of their owners’ libraries, then those players shuffle their libraries.]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[{2}{U}, {T}: Put Void Stalker and target creature on top of their owners’ libraries, then those players shuffle their libraries.]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[{2}{U}, {T}: Put Void Stalker and target creature on top of their owners’ libraries, then those players shuffle their libraries.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[{2}{U}, {T}: Metti l’Errante del Vuoto e una creatura bersaglio in cima ai grimori dei rispettivi proprietari, poi quei giocatori rimescolano i loro grimori.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[{2}{U}, {T}: Lege den Leeren Schleicher und eine Kreatur deiner Wahl oben auf die Bibliothek ihrer Besitzer; diese Spieler mischen dann ihre Bibliothek.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[{2}{U}, {T} : Mettez le Pisteur du vide et la créature ciblée au-dessus des bibliothèques de leurs propriétaires. Ces joueurs mélangent ensuite leurs bibliothèques.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[{2}{U}, {T}: Pon el Acechador del vacío y la criatura objetivo en la parte superior de las bibliotecas de sus propietarios, luego esos jugadores barajan sus bibliotecas.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[{2}{U}, {T}：クリーチャー１体を対象とする。虚無の忍び寄りとそれをオーナーのライブラリーの一番上に置き、その後それらのプレイヤーは自分のライブラリーを切り直す。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[{2}{U}, {T}: 생물 한 개를 목표로 정한다. 공허의 추적자와 그 생물을 각자 소유자의 서고 맨 위에 놓은 후 그 플레이어들은 서고를 섞는다.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[{2}{U}, {T}: положите Пустотелого Преследователя и целевое существо на верх библиотек их владельцев, затем те игроки тасуют свои библиотеки.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[{2}{U}, {T}: Coloque Espreitador do Vácuo e a criatura alvo no topo do grimório dos respectivos donos. Depois, aqueles jogadores embaralham seus próprios grimórios.]]></LOCALISED_TEXT>
 	<COST type="Mana" cost="{2}{U}" />
 	<COST type="TapSelf" />
 	<TARGET_DEFINITION id="0">

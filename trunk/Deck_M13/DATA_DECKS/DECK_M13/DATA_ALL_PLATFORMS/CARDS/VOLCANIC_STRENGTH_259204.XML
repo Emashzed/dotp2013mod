@@ -4,14 +4,14 @@
   <CARDNAME text="VOLCANIC_STRENGTH" />
   <TITLE>
     <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Volcanic Strength]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Volcanic Strength]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Volcanic Strength]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Volcanic Strength]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Volcanic Strength]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[Volcanic Strength]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[Volcanic Strength]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Volcanic Strength]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Volcanic Strength]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Forza Vulcanica]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Vulkanische Stärke]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Force volcanique]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Fuerza volcánica]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[火山の力]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[화산의 힘]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Вулканическая Сила]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Força Vulcânica]]></LOCALISED_TEXT>
   </TITLE>
   <MULTIVERSEID value="259204" />
   <ARTID value="259204" />
@@ -19,14 +19,14 @@
   <CASTING_COST cost="{1}{R}" />
   <FLAVOURTEXT>
     <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[The mountains bend to no one.]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[The mountains bend to no one.]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[The mountains bend to no one.]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[The mountains bend to no one.]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[The mountains bend to no one.]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[The mountains bend to no one.]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[The mountains bend to no one.]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[The mountains bend to no one.]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[The mountains bend to no one.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Le montagne non si piegano al volere di nessuno.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Die Berge beugen sich niemandem.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Les montagnes ne s’inclinent devant personne.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Las montañas no se doblegan ante nadie.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[山は誰にも従わない。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[산은 누구에게도 굴복하지 않는다.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Горы не склоняются ни перед кем.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[As montanhas não se curvam a ninguém.]]></LOCALISED_TEXT>
   </FLAVOURTEXT>
   <TYPE metaname="Enchantment" />
   <SUB_TYPE metaname="Aura" />
@@ -50,14 +50,14 @@
   </STATIC_ABILITY>
   <STATIC_ABILITY filter_zone="ZONE_IN_PLAY">
     <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Enchanted creature gets +2/+2 and has mountainwalk.]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Enchanted creature gets +2/+2 and has mountainwalk.]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Enchanted creature gets +2/+2 and has mountainwalk.]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Enchanted creature gets +2/+2 and has mountainwalk.]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Enchanted creature gets +2/+2 and has mountainwalk.]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[Enchanted creature gets +2/+2 and has mountainwalk.]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[Enchanted creature gets +2/+2 and has mountainwalk.]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Enchanted creature gets +2/+2 and has mountainwalk.]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Enchanted creature gets +2/+2 and has mountainwalk.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[La creatura incantata prende +2/+2 e ha passa-Montagne.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Die verzauberte Kreatur erhält +2/+2 und Gebirgstarnung.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[La créature enchantée gagne +2/+2 et a la traversée des montagnes.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[La criatura encantada obtiene +2/+2 y tiene la habilidad de cruzar montañas.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[エンチャントされているクリーチャーは、＋２/＋２の修整を受けるとともに山渡りを持つ。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[부여된 생물은 +2/+2를 받고 산잠입 능력을 가진다.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Зачарованное существо получает +2/+2 и имеет Знание Гор.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[A criatura encantada recebe +2/+2 e tem travessia de montanha.]]></LOCALISED_TEXT>
 	<CONTINUOUS_ACTION layer="7C">
     local parent = Object():GetParent()
     if parent ~= nil then

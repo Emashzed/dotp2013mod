@@ -4,14 +4,14 @@
   <CARDNAME text="PHYREXIAN_HULK" />
   <TITLE>
     <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Phyrexian Hulk]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Phyrexian Hulk]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Phyrexian Hulk]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Phyrexian Hulk]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Phyrexian Hulk]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[Phyrexian Hulk]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[Phyrexian Hulk]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Phyrexian Hulk]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Phyrexian Hulk]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Carcassa di Phyrexia]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Phyrexianischer Moloch]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Carcasse phyrexiane]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Titán pirexiano]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[ファイレクシアの大男]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[피렉시아의 거인]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Огромный Фирексиец]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Brutamontes Phyrexiano]]></LOCALISED_TEXT>
   </TITLE>
   <MULTIVERSEID value="279990" />
   <ARTID value="279990" />
@@ -19,14 +19,14 @@
   <CASTING_COST cost="{6}" />
   <FLAVOURTEXT>
     <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[An invasion weapon of ages past, the glistening oil contained the blueprints of countless atrocities.]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[An invasion weapon of ages past, the glistening oil contained the blueprints of countless atrocities.]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[An invasion weapon of ages past, the glistening oil contained the blueprints of countless atrocities.]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[An invasion weapon of ages past, the glistening oil contained the blueprints of countless atrocities.]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[An invasion weapon of ages past, the glistening oil contained the blueprints of countless atrocities.]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[An invasion weapon of ages past, the glistening oil contained the blueprints of countless atrocities.]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[An invasion weapon of ages past, the glistening oil contained the blueprints of countless atrocities.]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[An invasion weapon of ages past, the glistening oil contained the blueprints of countless atrocities.]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[An invasion weapon of ages past, the glistening oil contained the blueprints of countless atrocities.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Un’arma da invasione di epoche passate, l’olio scintillante conteneva i progetti di innumerevoli atrocità.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Da er in früheren Zeiten immer eine beliebte Angriffsmaschine gewesen war, enthält das glitzernde Öl die Pläne für unzählige Gräueltaten.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Une arme d’invasion d’une époque révolue dont le pétrole luisant contenait les plans d’atrocités innombrables.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Un arma de invasión de eras pasadas, el aceite iridiscente contenía los planos de innumerables atrocidades.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[遥か昔の侵略兵器であるぎらつく油は、数え切れない程の残虐行為の設計図を内に抱えている。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[이것은 지난 시대에 있던 전쟁의 유물로, 속에 있는 빛나는 기름은 수많은 끔찍한 행위의 근원이다.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Стародавнее средство вторжения, фирексийское масло содержало готовые рецепты бесчисленных злодеяний.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Uma máquina de invasão de eras passadas, o óleo brilhante continha as impressões de incontáveis atrocidades.]]></LOCALISED_TEXT>
   </FLAVOURTEXT>
   <TYPE metaname="Artifact" />
   <TYPE metaname="Creature" />

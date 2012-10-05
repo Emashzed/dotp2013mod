@@ -4,14 +4,14 @@
   <CARDNAME text="STUFFY_DOLL" />
   <TITLE>
     <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Stuffy Doll]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Stuffy Doll]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Stuffy Doll]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Stuffy Doll]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Stuffy Doll]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[Stuffy Doll]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[Stuffy Doll]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Stuffy Doll]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Stuffy Doll]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Bambola di Pezza]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Ausgestopfte Puppe]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Poupée de son]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Muñeca de trapo]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[ぬいぐるみ人形]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[푹신한 인형]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Мягкая Кукла]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Boneco Empalhado]]></LOCALISED_TEXT>
   </TITLE>
   <MULTIVERSEID value="279711" />
   <ARTID value="279711" />
@@ -26,14 +26,14 @@
   <TOUGHNESS value="1" />
   <TRIGGERED_ABILITY pre_trigger="1" replacement_query="1" active_zone="ZONE_TRANSITION">
     <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[As Stuffy Doll enters the battlefield, choose a player.]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[As Stuffy Doll enters the battlefield, choose a player.]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[As Stuffy Doll enters the battlefield, choose a player.]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[As Stuffy Doll enters the battlefield, choose a player.]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[As Stuffy Doll enters the battlefield, choose a player.]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[As Stuffy Doll enters the battlefield, choose a player.]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[As Stuffy Doll enters the battlefield, choose a player.]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[As Stuffy Doll enters the battlefield, choose a player.]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[As Stuffy Doll enters the battlefield, choose a player.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Mentre la Bambola di Pezza entra nel campo di battaglia, scegli un giocatore.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Sowie die Ausgestopfte Puppe ins Spiel kommt, bestimme einen Spieler.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Quand la Poupée de son arrive sur le champ de bataille, choisissez un joueur.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[En cuanto la Muñeca de trapo entre al campo de batalla, elige un jugador.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[ぬいぐるみ人形が戦場に出るに際し、プレイヤーを１人選ぶ。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[푹신한 인형이 전장에 들어올 시에, 플레이어 한 명을 선택한다.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[При выходе Мягкой Куклы на поле битвы выберите игрока.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Conforme Boneco Empalhado entra no campo de batalha, escolha um jogador.]]></LOCALISED_TEXT>
 	<TRIGGER value="ZONECHANGE_TRANSITION" simple_qualifier="self" to_zone="ZONE_IN_PLAY" />
     <TARGET_DEFINITION id="0">
     local filter = Object():GetFilter()
@@ -70,14 +70,14 @@
   </TRIGGERED_ABILITY>
   <STATIC_ABILITY filter_zone="ZONE_IN_PLAY">
     <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Stuffy Doll is indestructible.]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Stuffy Doll is indestructible.]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Stuffy Doll is indestructible.]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Stuffy Doll is indestructible.]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Stuffy Doll is indestructible.]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[Stuffy Doll is indestructible.]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[Stuffy Doll is indestructible.]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Stuffy Doll is indestructible.]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Stuffy Doll is indestructible.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[La Bambola di Pezza è indistruttibile.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Die Ausgestopfte Puppe ist unzerstörbar.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[La Poupée de son est indestructible.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[La Muñeca de trapo es indestructible.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[ぬいぐるみ人形は破壊されない。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[푹신한 인형은 파괴될 수 없다. 푹신한 인형이 피해를 입을 때마다, 푹신한 인형은 선택한 플레이어에게 그만큼의 피해를 입힌다.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Мягкая Кукла не может быть уничтожена.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Boneco Empalhado é indestrutível.]]></LOCALISED_TEXT>
 	<CONTINUOUS_ACTION>
     local characteristics = Object():GetCurrentCharacteristics()
     characteristics:Characteristic_Set( CHARACTERISTIC_INDESTRUCTIBLE, 1 )
@@ -85,14 +85,14 @@
   </STATIC_ABILITY>
   <TRIGGERED_ABILITY>
     <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Whenever Stuffy Doll is dealt damage, it deals that much damage to the chosen player.]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Whenever Stuffy Doll is dealt damage, it deals that much damage to the chosen player.]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Whenever Stuffy Doll is dealt damage, it deals that much damage to the chosen player.]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Whenever Stuffy Doll is dealt damage, it deals that much damage to the chosen player.]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Whenever Stuffy Doll is dealt damage, it deals that much damage to the chosen player.]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[Whenever Stuffy Doll is dealt damage, it deals that much damage to the chosen player.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Ogniqualvolta viene inflitto danno alla Bambola di Pezza, essa infligge altrettanti danni al giocatore scelto.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Immer wenn der Ausgestopften Puppe Schaden zugefügt wird, fügt sie dem bestimmten Spieler ebenso viele Schadenspunkte zu.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[À chaque fois que des blessures sont infligées à la Poupée de son, elle inflige autant de blessures au joueur choisi.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Siempre que la Muñeca de trapo reciba daño, esta le hace esa misma cantidad de daño al jugador elegido.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[ぬいぐるみ人形にダメージが与えられるたび、それはその点数に等しい点数のダメージを選ばれたプレイヤーに与える。]]></LOCALISED_TEXT>
     <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[Whenever Stuffy Doll is dealt damage, it deals that much damage to the chosen player.]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Whenever Stuffy Doll is dealt damage, it deals that much damage to the chosen player.]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Whenever Stuffy Doll is dealt damage, it deals that much damage to the chosen player.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Каждый раз, когда Мягкой Кукле наносятся повреждения, она наносит столько же повреждений выбранному игроку.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Toda vez que Boneco Empalhado sofre dano, ele causa uma quantidade equivalente de dano ao jogador escolhido.]]></LOCALISED_TEXT>
 	<TRIGGER value="CREATURE_TOOK_DAMAGE" simple_qualifier="self" />
     <RESOLUTION_TIME_ACTION>
     local card = EffectSource()
@@ -110,14 +110,14 @@
   </TRIGGERED_ABILITY>
   <ACTIVATED_ABILITY LKI_shield_effect_source="1" dangerous="1" filter_zone="ZONE_IN_PLAY">
     <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[{T}: Stuffy Doll deals 1 damage to itself.]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[{T}: Stuffy Doll deals 1 damage to itself.]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[{T}: Stuffy Doll deals 1 damage to itself.]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[{T}: Stuffy Doll deals 1 damage to itself.]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[{T}: Stuffy Doll deals 1 damage to itself.]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[{T}: Stuffy Doll deals 1 damage to itself.]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[{T}: Stuffy Doll deals 1 damage to itself.]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[{T}: Stuffy Doll deals 1 damage to itself.]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[{T}: Stuffy Doll deals 1 damage to itself.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[{T}: La Bambola di Pezza infligge 1 danno a se stessa.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[{T}: Die Ausgestopfte Puppe fügt sich selber 1 Schadenspunkt zu.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[{T} : La Poupée de son s’inflige 1 blessure.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[{T}: La Muñeca de trapo se hace 1 punto de daño a sí misma.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[{T}：ぬいぐるみ人形は自身に１点のダメージを与える。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[한 인형은 스스로에게 피해 1점을 입힌다.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[{T}: Мягкая Кукла наносит 1 повреждение сама себе.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[{T}: Boneco Empalhado causa 1 ponto de dano a si mesmo.]]></LOCALISED_TEXT>
 	<COST type="TapSelf" />
 	<RESOLUTION_TIME_ACTION>
     local source = EffectSource()

@@ -4,14 +4,14 @@
   <CARDNAME text="HARBOR_BANDIT" />
   <TITLE>
     <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Harbor Bandit]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Harbor Bandit]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Harbor Bandit]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Harbor Bandit]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Harbor Bandit]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[Harbor Bandit]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[Harbor Bandit]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Harbor Bandit]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Harbor Bandit]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Bandito del Porto]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Hafenbandit]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Bandit portuaire]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Bandido del puerto]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[港の無法者]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[항구 노상강도]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Бандит из Гавани]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Bandido do Porto]]></LOCALISED_TEXT>
   </TITLE>
   <MULTIVERSEID value="259660" />
   <ARTID value="259660" />
@@ -19,14 +19,14 @@
   <CASTING_COST cost="{2}{B}" />
   <FLAVOURTEXT>
     <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[He always drops a little trinket into the bay as thanks to the merfolk who taught him all his best tricks.]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[He always drops a little trinket into the bay as thanks to the merfolk who taught him all his best tricks.]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[He always drops a little trinket into the bay as thanks to the merfolk who taught him all his best tricks.]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[He always drops a little trinket into the bay as thanks to the merfolk who taught him all his best tricks.]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[He always drops a little trinket into the bay as thanks to the merfolk who taught him all his best tricks.]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[He always drops a little trinket into the bay as thanks to the merfolk who taught him all his best tricks.]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[He always drops a little trinket into the bay as thanks to the merfolk who taught him all his best tricks.]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[He always drops a little trinket into the bay as thanks to the merfolk who taught him all his best tricks.]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[He always drops a little trinket into the bay as thanks to the merfolk who taught him all his best tricks.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Lascia sempre scivolare qualche ninnolo in acqua per ringraziare i tritoni che gli insegnarono i suoi trucchi migliori.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Er lässt immer ein kleines Schmuckstück in die Bucht fallen, als Dankeschön an das Meervolk, das ihm seine besten Tricks beigebracht hat.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Il jette toujours une babiole dans la baie en gage de reconnaissance aux ondins qui lui ont appris les ficelles du métier.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Siempre arroja una pequeña baratija a la bahía en agradecimiento a los tritones que le enseñaron sus mejores trucos.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[彼は決まって小さな装身具を一つ、最高の技を教えてくれたマーフォークへの感謝の印として、入り江に沈めていた。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[그는 자신에게 중요한 기술을 가르쳐준 인어에 대한 감사의 표시로 항상 해안에 작은 장신구를 떨어뜨려 놓고 간다.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Он никогда не забывает бросить в море какую-нибудь безделушку, чтобы отблагодарить мерфолков, научивших его своим лучшим трюкам.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Ele sempre joga algum berloque ao mar como agradecimento ao tritão que lhe ensinou seus melhores truques.]]></LOCALISED_TEXT>
   </FLAVOURTEXT>
   <TYPE metaname="Creature" />
   <SUB_TYPE metaname="Human" order_de-DE="0" order_es-ES="1" order_fr-FR="0" order_it-IT="1" order_jp-JA="0" order_ko-KR="0" order_pt-BR="0" order_ru-RU="0" />
@@ -37,14 +37,14 @@
   <TOUGHNESS value="2" />
   <STATIC_ABILITY filter_zone="ZONE_IN_PLAY">
     <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Harbor Bandit gets +1/+1 as long as you control an Island.]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Harbor Bandit gets +1/+1 as long as you control an Island.]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Harbor Bandit gets +1/+1 as long as you control an Island.]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Harbor Bandit gets +1/+1 as long as you control an Island.]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Harbor Bandit gets +1/+1 as long as you control an Island.]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[Harbor Bandit gets +1/+1 as long as you control an Island.]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[Harbor Bandit gets +1/+1 as long as you control an Island.]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Harbor Bandit gets +1/+1 as long as you control an Island.]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Harbor Bandit gets +1/+1 as long as you control an Island.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Il Bandito del Porto prende +1/+1 fintanto che controlli un’Isola.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Der Hafenbandit erhält +1/+1, solange du eine Insel kontrollierst.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Le Bandit portuaire gagne +1/+1 tant que vous contrôlez une île.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[El Bandido del puerto obtiene +1/+1 mientras controles una isla.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[港の無法者は、あなたが島をコントロールしているかぎり＋１/＋１の修整を受ける。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[당신이 섬을 조종하는 한, 항구 노상강도는 +1/+1을 받는다.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Бандит из Гавани получает +1/+1, пока вы контролируете Остров.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Bandido do Porto recebe +1/+1 enquanto você controlar uma Ilha.]]></LOCALISED_TEXT>
 	<CONTINUOUS_ACTION layer="7C">
 	local total = 0
     local filter = Object():GetFilter()
@@ -63,14 +63,14 @@
   </STATIC_ABILITY>
   <ACTIVATED_ABILITY dangerous="1" filter_zone="ZONE_IN_PLAY">
     <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[{1}{U}: Harbor Bandit is unblockable this turn.]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[{1}{U}: Harbor Bandit is unblockable this turn.]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[{1}{U}: Harbor Bandit is unblockable this turn.]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[{1}{U}: Harbor Bandit is unblockable this turn.]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[{1}{U}: Harbor Bandit is unblockable this turn.]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[{1}{U}: Harbor Bandit is unblockable this turn.]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[{1}{U}: Harbor Bandit is unblockable this turn.]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[{1}{U}: Harbor Bandit is unblockable this turn.]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[{1}{U}: Harbor Bandit is unblockable this turn.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[{1}{U}: Il Bandito del Porto non può essere bloccato in questo turno.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[{1}{U}: Der Hafenbandit ist in diesem Zug unblockbar.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[{1}{U} : Le Bandit portuaire est imblocable ce tour-ci.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[{1}{U}: El Bandido del puerto es imbloqueable este turno.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[{1}{U}：このターン、港の無法者はブロックされない。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[{1}{U}: 이 턴에 항구 노상강도는 방어될 수 없다.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[{1}{U}: Бандит из Гавани не может быть заблокирован в этом ходу.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[{1}{U}: Bandido do Porto não pode ser bloqueado neste turno.]]></LOCALISED_TEXT>
 	<COST type="Mana" cost="{1}{U}" />
 	<CONTINUOUS_ACTION layer="6">
     local characteristics = Object():GetCurrentCharacteristics()  

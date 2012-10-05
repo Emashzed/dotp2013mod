@@ -50,11 +50,7 @@
     <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Другие существа-Солдаты под вашим контролем получают +1/+1 и имеют Бдительность.]]></LOCALISED_TEXT>
     <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[As outras criaturas do tipo Soldado que você controla recebem +1/+1 e têm vigilância.]]></LOCALISED_TEXT>
     <FILTER>
-    return (FilteredCard() ~= nil and 
-    FilteredCard():GetCardType():Test( CARD_TYPE_CREATURE ) ~= 0 and 
-    FilteredCard() ~= Object() and 
-    FilteredCard():GetSubType():Test( CREATURE_TYPE_SOLDIER ) ~= 0 and 
-    FilteredCard():GetPlayer() == Object():GetPlayer())
+	return OtherCreaturesInPlayYouControlOfType( CREATURE_TYPE_SOLDIER )
     </FILTER>
     <CONTINUOUS_ACTION layer="7C">
     if FilteredCard() ~= nil then

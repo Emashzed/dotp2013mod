@@ -4,14 +4,14 @@
   <CARDNAME text="BLOOD_RECKONING" />
   <TITLE>
     <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Blood Reckoning]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Blood Reckoning]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Blood Reckoning]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Blood Reckoning]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Blood Reckoning]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[Blood Reckoning]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[Blood Reckoning]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Blood Reckoning]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Blood Reckoning]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Blutige Abrechnung]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Venganza de sangre]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Jugement du sang]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Scotto di Sangue]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[血の報い]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[피의 숙청]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Кровавая Расплата]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Vingança Sangrenta]]></LOCALISED_TEXT>
   </TITLE>
   <MULTIVERSEID value="279991" />
   <ARTID value="279991" />
@@ -20,37 +20,36 @@
   <FLAVOURTEXT>
     <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[“There is no greater folly than standing against me.”
 —Nicol Bolas]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[“There is no greater folly than standing against me.”
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[„Es gibt keine größere Torheit, als sich gegen mich zu stellen."
 —Nicol Bolas]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[“There is no greater folly than standing against me.”
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA["No hay mayor locura que plantarme cara."
 —Nicol Bolas]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[“There is no greater folly than standing against me.”
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[« Vous opposer à moi serait faire preuve d'une grande stupidité. »
 —Nicol Bolas]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[“There is no greater folly than standing against me.”
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA["Non esiste atto più sciocco del mettersi contro di me."
 —Nicol Bolas]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[“There is no greater folly than standing against me.”
-—Nicol Bolas]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[“There is no greater folly than standing against me.”
-—Nicol Bolas]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[“There is no greater folly than standing against me.”
-—Nicol Bolas]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[“There is no greater folly than standing against me.”
-—Nicol Bolas]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[「私に敵対すること以上の愚行もあるまい。」――ニコル・ボーラス]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA["감히 나에게 맞서다니 어리석기 짝이 없구나."
+—니콜 볼라스]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[«Нет большей глупости, чем выступить против меня».
+— Никол Болас]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA["Não há tolice maior do que ficar contra mim."
+— Nicol Bolas]]></LOCALISED_TEXT>
   </FLAVOURTEXT>
   <TYPE metaname="Enchantment" />
   <EXPANSION value="M13" />
   <RARITY metaname="U" />
   <TRIGGERED_ABILITY auto_skip="1" filter_zone="ZONE_IN_PLAY">
     <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Whenever a creature attacks you         or a planeswalker you control, that creature’s controller loses 1 life.]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Whenever a creature attacks you or a planeswalker you control, that creature’s controller loses 1 life.]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Whenever a creature attacks you or a planeswalker you control, that creature’s controller loses 1 life.]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Whenever a creature attacks you or a planeswalker you control, that creature’s controller loses 1 life.]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Whenever a creature attacks you or a planeswalker you control, that creature’s controller loses 1 life.]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[Whenever a creature attacks you or a planeswalker you control, that creature’s controller loses 1 life.]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[Whenever a creature attacks you or a planeswalker you control, that creature’s controller loses 1 life.]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Whenever a creature attacks you or a planeswalker you control, that creature’s controller loses 1 life.]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Whenever a creature attacks you or a planeswalker you control, that creature’s controller loses 1 life.]]></LOCALISED_TEXT>
-	<TRIGGER value="ATTACKING" >
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Immer wenn eine Kreatur dich oder einen Planeswalker, den du kontrollierst, angreift, verliert ihr Beherrscher 1 Lebenspunkt.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Siempre que una criatura te ataque a ti o a un planeswalker que controlas, el controlador de esa criatura pierde 1 vida.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[À chaque fois qu'une créature vous attaque ou attaque un planeswalker que vous contrôlez, le contrôleur de cette créature perd 1 point de vie.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Ogniqualvolta una creatura attacca te o un planeswalker che controlli, il controllore di quella creatura perde 1 punto vita.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[クリーチャーが１体あなたかあなたがコントロールするいずれかのプレインズウォーカーに攻撃するたび、そのクリーチャーのコントローラーは１点のライフを失う。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[생물이 당신 또는 당신이 조종하는 플레인즈워커를 공격할 때마다, 그 생물의 조종자는 생명 1점을 잃는다.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Каждый раз, когда существо атакует вас или planeswalker-а под вашим контролем, контролирующий то существо игрок теряет 1 жизнь.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Toda vez que uma criatura atacar você ou um planeswalker que você controle, o controlador daquela criatura perde 1 ponto de vida.]]></LOCALISED_TEXT>
+	<TRIGGER value="ATTACKING">
 	return TriggerPlayer() == EffectController()
 	</TRIGGER>
 	<RESOLUTION_TIME_ACTION>

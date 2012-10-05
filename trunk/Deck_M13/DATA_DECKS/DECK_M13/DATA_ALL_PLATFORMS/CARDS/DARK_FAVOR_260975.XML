@@ -4,14 +4,14 @@
   <CARDNAME text="DARK_FAVOR" />
   <TITLE>
     <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Dark Favor]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Dark Favor]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Dark Favor]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Dark Favor]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Dark Favor]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[Dark Favor]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[Dark Favor]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Dark Favor]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Dark Favor]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Benevolenza Oscura]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Dunkle Gunst]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Obscure faveur]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Favor oscuro]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[闇の好意]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[악의 은혜]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Темное Покровительство]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Proteção Sombria]]></LOCALISED_TEXT>
   </TITLE>
   <MULTIVERSEID value="260975" />
   <ARTID value="260975" />
@@ -19,14 +19,14 @@
   <CASTING_COST cost="{1}{B}" />
   <FLAVOURTEXT>
     <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[When he began to curse what he held  holy, his strength grew unrivaled.]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[When he began to curse what he held holy, his strength grew unrivaled.]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[When he began to curse what he held holy, his strength grew unrivaled.]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[When he began to curse what he held holy, his strength grew unrivaled.]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[When he began to curse what he held holy, his strength grew unrivaled.]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[When he began to curse what he held holy, his strength grew unrivaled.]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[When he began to curse what he held holy, his strength grew unrivaled.]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[When he began to curse what he held holy, his strength grew unrivaled.]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[When he began to curse what he held holy, his strength grew unrivaled.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Quando iniziò a maledire ciò che considerava santo, la sua forza divenne senza pari.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Als er begann, das zu verfluchen, was ihm zuvor heilig war, wuchs seine Stärke unermesslich.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Quand il commença à maudire ce qu’il considérait comme sacré, sa force devint sans pareille.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Cuando comenzó a maldecir lo que consideraba sagrado, su fuerza creció de forma incomparable.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[神聖だと思っていたものを冒涜し始めたとき、その力は類無きものになる。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[그가 신성하게 여기던 것을 저주하기 시작한 후로 그의 힘은 끝없이 늘어났다.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Когда он начал проклинать то, что почитал как святыню, его сила стала неимоверно расти.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Quando ele começou a profanar o que considerava sagrado, sua força cresceu de forma incomparável.]]></LOCALISED_TEXT>
   </FLAVOURTEXT>
   <TYPE metaname="Enchantment" />
   <SUB_TYPE metaname="Aura" />
@@ -50,14 +50,14 @@
   </STATIC_ABILITY>
   <TRIGGERED_ABILITY auto_skip="1" filter_zone="ZONE_IN_PLAY">
     <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[When Dark Favor enters the  battlefield, you lose 1 life.]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[When Dark Favor enters the battlefield, you lose 1 life.]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[When Dark Favor enters the battlefield, you lose 1 life.]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[When Dark Favor enters the battlefield, you lose 1 life.]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[When Dark Favor enters the battlefield, you lose 1 life.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Quando la Benevolenza Oscura entra nel campo di battaglia, perdi 1 punto vita.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Wenn die Dunkle Gunst ins Spiel kommt, verlierst du 1 Lebenspunkt.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Quand l’Obscure faveur arrive sur le champ de bataille, vous perdez 1 point de vie.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Cuando el Favor oscuro entre al campo de batalla, pierdes 1 vida.]]></LOCALISED_TEXT>
     <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[When Dark Favor enters the battlefield, you lose 1 life.]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[When Dark Favor enters the battlefield, you lose 1 life.]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[When Dark Favor enters the battlefield, you lose 1 life.]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[When Dark Favor enters the battlefield, you lose 1 life.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[악의 은혜가 전장에 들어올 때, 당신은 생명 1점을 잃는다.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Когда Темное Покровительство выходит на поле битвы, вы теряете 1 жизнь.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Quando Proteção Sombria entra no campo de batalha, você perde 1 ponto de vida.]]></LOCALISED_TEXT>
 	<TRIGGER value="ZONECHANGE_END" simple_qualifier="self" to_zone="ZONE_IN_PLAY" />
     <RESOLUTION_TIME_ACTION>
     local player = EffectController()

@@ -4,14 +4,14 @@
   <CARDNAME text="PLUMMET" />
   <TITLE>
     <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Plummet]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Plummet]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Plummet]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Plummet]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Plummet]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[Plummet]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[Plummet]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Plummet]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Plummet]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Cadere a Picco]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Absturz]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Tomber à pic]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[En picado]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[垂直落下]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[급추락]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Стремительное Падение]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Tombar]]></LOCALISED_TEXT>
   </TITLE>
   <MULTIVERSEID value="253675" />
   <ARTID value="253675" />
@@ -20,36 +20,36 @@
   <FLAVOURTEXT>
     <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[“Let nothing own the skies but the wind.”
 —Dejara, Giltwood druid]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[“Let nothing own the skies but the wind.”
-—Dejara, Giltwood druid]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[“Let nothing own the skies but the wind.”
-—Dejara, Giltwood druid]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[“Let nothing own the skies but the wind.”
-—Dejara, Giltwood druid]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[“Let nothing own the skies but the wind.”
-—Dejara, Giltwood druid]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[“Let nothing own the skies but the wind.”
-—Dejara, Giltwood druid]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[“Let nothing own the skies but the wind.”
-—Dejara, Giltwood druid]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[“Let nothing own the skies but the wind.”
-—Dejara, Giltwood druid]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[“Let nothing own the skies but the wind.”
-—Dejara, Giltwood druid]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[“Non lasciare che nulla possieda i cieli se non il vento.”
+—Dejara, druida di Boscodorato]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[„Nur der Wind soll die Luft beherrschen.”
+—Dejara, Druide aus dem Güldenwald]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[« Seul le vent doit contrôler les cieux. »
+—Dejara, druide de Boisdoré]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[“Que no haya nada en los cielos, salvo el viento.”
+—Dejara, druida de Madera Dorada]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[「空にあるべきは風のみとしよう。」
+――黄金森のドルイド、デジャーラ]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[“바람을 제외한 어느 것도 하늘을 차지하게 둘 수 없다.”
+—금빛숲 드루이드 데자라]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[«Пусть ничто не владеет небесами, кроме ветра».
+— Дежара, друид Золоченого Леса]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[“Que nada além do vento domine os céus.”
+— Dejara, druida de Tronco Dourado]]></LOCALISED_TEXT>
   </FLAVOURTEXT>
   <TYPE metaname="Instant" />
   <EXPANSION value="M13" />
   <RARITY metaname="C" />
   <SPELL_ABILITY dangerous="1" filter_zone="ZONE_IN_PLAY">
     <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Destroy target creature with flying.]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Destroy target creature with flying.]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Destroy target creature with flying.]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Destroy target creature with flying.]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Destroy target creature with flying.]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[Destroy target creature with flying.]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[Destroy target creature with flying.]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Destroy target creature with flying.]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Destroy target creature with flying.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Distruggi una creatura bersaglio con volare.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Zerstöre eine fliegende Kreatur deiner Wahl.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Détruisez une créature avec le vol ciblée.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Destruye la criatura objetivo que tenga la habilidad de volar.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[飛行を持つクリーチャー１体を対象とし、それを破壊する。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[비행 능력을 가진 생물 한 개를 목표로 정한다. 그 생물을 파괴한다.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Уничтожьте целевое существо с Полетом.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Destrua a criatura alvo com voar.]]></LOCALISED_TEXT>
 	<TARGET_DEFINITION id="0">
     local filter = Object():GetFilter()
     filter:Clear()

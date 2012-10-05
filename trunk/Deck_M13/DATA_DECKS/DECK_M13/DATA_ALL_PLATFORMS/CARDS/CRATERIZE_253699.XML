@@ -4,14 +4,14 @@
   <CARDNAME text="CRATERIZE" />
   <TITLE>
     <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Craterize]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Craterize]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Craterize]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Craterize]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Craterize]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[Craterize]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[Craterize]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Craterize]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Craterize]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Craterizzare]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Zerkratern]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Cratèriser]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Craterizar]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[火口化]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[크레이터화]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Кратеризация]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Craterizar]]></LOCALISED_TEXT>
   </TITLE>
   <MULTIVERSEID value="253699" />
   <ARTID value="253699" />
@@ -20,36 +20,36 @@
   <FLAVOURTEXT>
     <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[“‘Utterly’ is my favorite way to destroy something.”
 —Chandra Nalaar]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[“‘Utterly’ is my favorite way to destroy something.”
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[“‘Completamente’ è il mio modo preferito di distruggere qualcosa.”
 —Chandra Nalaar]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[“‘Utterly’ is my favorite way to destroy something.”
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[„‚Ganz und gar’ ist meine bevorzugte Methode, etwas zu zerstören.”
 —Chandra Nalaar]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[“‘Utterly’ is my favorite way to destroy something.”
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[« Je ne détruis jamais les choses à moitié. »
+—Chandra Nalaàr]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[“‘Por completo’ es mi forma favorita de destruir algo.”
 —Chandra Nalaar]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[“‘Utterly’ is my favorite way to destroy something.”
-—Chandra Nalaar]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[“‘Utterly’ is my favorite way to destroy something.”
-—Chandra Nalaar]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[“‘Utterly’ is my favorite way to destroy something.”
-—Chandra Nalaar]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[“‘Utterly’ is my favorite way to destroy something.”
-—Chandra Nalaar]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[“‘Utterly’ is my favorite way to destroy something.”
-—Chandra Nalaar]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[「破壊するときは『跡形もなく』が一番好きね。」
+――チャンドラ・ナラー]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[“파괴는 철저하게, 그것이 나의 방식이다.”
+—찬드라 날라르]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[«“Дотла” — мой любимый способ уничтожать вещи».
+— Чандра Налаар]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[“’Totalmente’ é o meu modo favorito de destruir as coisas.”
+— Chandra Nalaar]]></LOCALISED_TEXT>
   </FLAVOURTEXT>
   <TYPE metaname="Sorcery" />
   <EXPANSION value="M13" />
   <RARITY metaname="C" />
   <SPELL_ABILITY dangerous="1" filter_zone="ZONE_IN_PLAY">
     <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Destroy target land.]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Destroy target land.]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Destroy target land.]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Destroy target land.]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Destroy target land.]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[Destroy target land.]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[Destroy target land.]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Destroy target land.]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Destroy target land.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Distruggi una terra bersaglio.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Zerstöre ein Land deiner Wahl.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Détruisez le terrain ciblé.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Destruye la tierra objetivo.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[土地１つを対象とし、その土地を破壊する。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[대지 한 개를 목표로 정한다. 그 대지를 파괴한다.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Уничтожьте целевую землю.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Destrua o terreno alvo.]]></LOCALISED_TEXT>
 	<TARGET_DEFINITION id="0">
     local filter = Object():GetFilter()
     filter:Clear()

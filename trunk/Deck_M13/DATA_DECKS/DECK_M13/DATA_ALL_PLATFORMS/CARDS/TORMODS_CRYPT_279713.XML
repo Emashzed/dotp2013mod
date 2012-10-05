@@ -4,14 +4,14 @@
   <CARDNAME text="TORMODS_CRYPT" />
   <TITLE>
     <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Tormod’s Crypt]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Tormod’s Crypt]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Tormod’s Crypt]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Tormod’s Crypt]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Tormod’s Crypt]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[Tormod’s Crypt]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[Tormod’s Crypt]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Tormod’s Crypt]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Tormod’s Crypt]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Cripta di Tormod]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Tormods Krypta]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Crypte de Tormod]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Cripta de Tormod]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[トーモッドの墓所]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[토모드의 묘소]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Склеп Тормода]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Cripta de Tormod]]></LOCALISED_TEXT>
   </TITLE>
   <MULTIVERSEID value="279713" />
   <ARTID value="279713" />
@@ -19,28 +19,28 @@
   <CASTING_COST cost="{0}" />
   <FLAVOURTEXT>
     <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Dominaria’s most extravagant crypt nevertheless holds an empty grave.]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Dominaria’s most extravagant crypt nevertheless holds an empty grave.]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Dominaria’s most extravagant crypt nevertheless holds an empty grave.]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Dominaria’s most extravagant crypt nevertheless holds an empty grave.]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Dominaria’s most extravagant crypt nevertheless holds an empty grave.]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[Dominaria’s most extravagant crypt nevertheless holds an empty grave.]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[Dominaria’s most extravagant crypt nevertheless holds an empty grave.]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Dominaria’s most extravagant crypt nevertheless holds an empty grave.]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Dominaria’s most extravagant crypt nevertheless holds an empty grave.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[La cripta più esagerata di Dominaria ha tuttavia una tomba vuota.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Dominarias extravaganteste Krypta enthält dennoch nur ein leeres Grab.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[La crypte la plus extravagante de Dominaria abrite cependant un tombeau vide.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[La cripta más extravagante de Dominaria alberga no obstante una tumba vacía.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[ドミナリアで最も壮麗な墓所にもかかわらず、その墓には何も入っていない。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[도미나리아에서 제일 화려한 묘소이지만, 무덤 속에는 아무 것도 없다.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[В самом необычном склепе Доминарии находится пустая могила.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[A cripta mais extravagante de Dominária guarda uma cova vazia.]]></LOCALISED_TEXT>
   </FLAVOURTEXT>
   <TYPE metaname="Artifact" />
   <EXPANSION value="M13" />
   <RARITY metaname="U" />
   <ACTIVATED_ABILITY>
     <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[{T}, Sacrifice Tormod’s Crypt: Exile all cards from target player’s graveyard.]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[{T}, Sacrifice Tormod’s Crypt: Exile all cards from target player’s graveyard.]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[{T}, Sacrifice Tormod’s Crypt: Exile all cards from target player’s graveyard.]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[{T}, Sacrifice Tormod’s Crypt: Exile all cards from target player’s graveyard.]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[{T}, Sacrifice Tormod’s Crypt: Exile all cards from target player’s graveyard.]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[{T}, Sacrifice Tormod’s Crypt: Exile all cards from target player’s graveyard.]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[{T}, Sacrifice Tormod’s Crypt: Exile all cards from target player’s graveyard.]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[{T}, Sacrifice Tormod’s Crypt: Exile all cards from target player’s graveyard.]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[{T}, Sacrifice Tormod’s Crypt: Exile all cards from target player’s graveyard.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[{T}, Sacrifica la Cripta di Tormod: Esilia tutte le carte dal cimitero di un giocatore bersaglio.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[{T}, opfere Tormods Krypta: Schicke alle Karten aus dem Friedhof eines Spielers deiner Wahl ins Exil.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[{T}, sacrifiez la Crypte de Tormod : Exilez toutes les cartes du cimetière du joueur ciblé.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[{T}, sacrificar la Cripta de Tormod: Exilia todas las cartas del cementerio del jugador objetivo.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[{T}, トーモッドの墓所を生け贄に捧げる：プレイヤー１人を対象とし、そのプレイヤーの墓地にあるすべてのカードを追放する。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[{T}, 토모드의 묘소를 희생한다: 플레이어 한 명을 목표로 정한다. 그 플레이어의 무덤에 있는 모든 카드를 추방한다.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[{T}, пожертвуйте Склеп Тормода: изгоните все карты из кладбища целевого игрока.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[{T}, Sacrifique Cripta de Tormod: Exile todos os cards do cemitério do jogador alvo.]]></LOCALISED_TEXT>
 	<COST type="TapSelf" />
     <COST type="SacrificeSelf" />
     <TARGET_DEFINITION id="0">

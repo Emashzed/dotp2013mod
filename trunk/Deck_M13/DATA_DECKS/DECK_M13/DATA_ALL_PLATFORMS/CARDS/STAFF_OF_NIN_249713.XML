@@ -4,14 +4,14 @@
   <CARDNAME text="STAFF_OF_NIN" />
   <TITLE>
     <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Staff of Nin]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Staff of Nin]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Staff of Nin]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Staff of Nin]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Staff of Nin]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[Staff of Nin]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[Staff of Nin]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Staff of Nin]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Staff of Nin]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Bastone di Nin]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Nins Stab]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Bâton de Nin]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Bastón de Nin]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[ニンの杖]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[닌의 지팡이]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Посох Нин]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Cajado de Nin]]></LOCALISED_TEXT>
   </TITLE>
   <MULTIVERSEID value="249713" />
   <ARTID value="249713" />
@@ -19,36 +19,36 @@
   <CASTING_COST cost="{6}" />
   <FLAVOURTEXT>
     <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[“I have attuned the staff to your screams so that only I may benefit from your pain” —Volux, disciple of Nin]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[“I have attuned the staff to your screams so that only I may benefit from your pain.”
-—Volux, disciple of Nin]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[“I have attuned the staff to your screams so that only I may benefit from your pain.”
-—Volux, disciple of Nin]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[“I have attuned the staff to your screams so that only I may benefit from your pain.”
-—Volux, disciple of Nin]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[“I have attuned the staff to your screams so that only I may benefit from your pain.”
-—Volux, disciple of Nin]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[“I have attuned the staff to your screams so that only I may benefit from your pain.”
-—Volux, disciple of Nin]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[“I have attuned the staff to your screams so that only I may benefit from your pain.”
-—Volux, disciple of Nin]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[“I have attuned the staff to your screams so that only I may benefit from your pain.”
-—Volux, disciple of Nin]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[“I have attuned the staff to your screams so that only I may benefit from your pain.”
-—Volux, disciple of Nin]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[“Ho accordato il bastone sulle tue urla. In questo modo sarò io l’unico a beneficiare del tuo dolore.”
+—Volux, discepolo di Nin]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[„Ich habe den Stab auf deine Schreie abgestimmt, damit nur ich von deinem Schmerz profitieren kann.”
+—Volux, Schüler der Nin]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[« J’ai accordé le bâton à tes hurlements pour être le seul à profiter de ta douleur. »
+—Volux, disciple de Nin]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[“He acostumbrado al personal a tus gritos para ser yo el único que se beneficie de tu dolor.”
+—Volux, discípulo de Nin]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[「この杖はお前の悲鳴に合わせて調整している。お前の苦痛から私だけが利益を得るようにな。」
+――ニンの信奉者、ヴォラックス]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[’’너의 고통을 나만 즐길 수 있도록 너의 비명에 맞춰 지팡이를 조율했지.’’
+—닌의 사도 볼룩스]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[«Я настроил посох на твои крики, так что твоя боль пойдет на пользу лишь мне».
+— Волукс, послушник Нин]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[“Eu harmonizei o cajado com seus gritos para que só eu possa me beneficiar da sua dor.”
+— Volux, discípulo de Nin]]></LOCALISED_TEXT>
   </FLAVOURTEXT>
   <TYPE metaname="Artifact" />
   <EXPANSION value="M13" />
   <RARITY metaname="R" />
   <TRIGGERED_ABILITY filter_zone="ZONE_IN_PLAY">
     <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[At the beginning of your upkeep, draw a card.]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[At the beginning of your upkeep, draw a card.]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[At the beginning of your upkeep, draw a card.]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[At the beginning of your upkeep, draw a card.]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[At the beginning of your upkeep, draw a card.]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[At the beginning of your upkeep, draw a card.]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[At the beginning of your upkeep, draw a card.]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[At the beginning of your upkeep, draw a card.]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[At the beginning of your upkeep, draw a card.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[All’inizio del tuo mantenimento, pesca una carta.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Ziehe zu Beginn deines Versorgungssegments eine Karte.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Au début de votre entretien, piochez une carte.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Al comienzo de tu mantenimiento, roba una carta.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[あなたのアップキープの開始時に、カードを１枚引く。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[당신의 유지단 시작에, 카드 한 장을 뽑는다.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[В начале вашего шага поддержки возьмите карту.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[No início de sua manutenção, compre um card.]]></LOCALISED_TEXT>
 	<TRIGGER value="BEGINNING_OF_STEP" simple_qualifier="controller">
     return ( EffectController():MyTurn() ~= 0 ) and ( MTG():GetStep() == STEP_UPKEEP )
     </TRIGGER>
@@ -61,14 +61,14 @@
   </TRIGGERED_ABILITY>
   <ACTIVATED_ABILITY LKI_shield_effect_source="1" dangerous="1" filter_zone="ZONE_IN_PLAY">
     <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[{T}: Staff of Nin deals 1 damage to target creature or player.]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[{T}: Staff of Nin deals 1 damage to target creature or player.]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[{T}: Staff of Nin deals 1 damage to target creature or player.]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[{T}: Staff of Nin deals 1 damage to target creature or player.]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[{T}: Staff of Nin deals 1 damage to target creature or player.]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[{T}: Staff of Nin deals 1 damage to target creature or player.]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[{T}: Staff of Nin deals 1 damage to target creature or player.]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[{T}: Staff of Nin deals 1 damage to target creature or player.]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[{T}: Staff of Nin deals 1 damage to target creature or player.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[{T}: Il Bastone di Nin infligge 1 danno a una creatura o a un giocatore bersaglio.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[{T}: Nins Stab fügt einer Kreatur oder einem Spieler deiner Wahl 1 Schadenspunkt zu.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[{T} : Le Bâton de Nin inflige 1 blessure à une cible, créature ou joueur.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[{T}: El Bastón de Nin hace 1 punto de daño a la criatura o jugador objetivo.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[{T}：クリーチャー１体かプレイヤー１人を対象とする。ニンの杖はそれに１点のダメージを与える。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[{T}: 생물 한 개나 플레이어 한 명을 목표로 정한다. 닌의 지팡이는 그 목표에게 피해 1점을 입힌다.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[{T}: Посох Нин наносит 1 повреждение целевому существу или игроку.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[{T}: Cajado de Nin causa 1 ponto de dano à criatura ou ao jogador alvo.]]></LOCALISED_TEXT>
 	<COST type="TapSelf" />
     <TARGET_DEFINITION id="0">
     local filter = Object():GetFilter()

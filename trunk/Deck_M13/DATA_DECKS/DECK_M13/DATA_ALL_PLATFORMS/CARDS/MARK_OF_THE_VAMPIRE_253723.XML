@@ -4,14 +4,14 @@
   <CARDNAME text="MARK_OF_THE_VAMPIRE" />
   <TITLE>
     <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Mark of the Vampire]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Mark of the Vampire]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Mark of the Vampire]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Mark of the Vampire]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Mark of the Vampire]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[Mark of the Vampire]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[Mark of the Vampire]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Mark of the Vampire]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Mark of the Vampire]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Marchio del Vampiro]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Mal des Vampirs]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Marque du vampire]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Marca del vampiro]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[吸血鬼の印]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[흡혈귀의 표식]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Метка Вампира]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Marca do Vampiro]]></LOCALISED_TEXT>
   </TITLE>
   <MULTIVERSEID value="253723" />
   <ARTID value="253723" />
@@ -20,22 +20,22 @@
   <FLAVOURTEXT>
     <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[“My ‘condition’ is a trial. The weak are consumed by it. The strong transcend it.”
 —Sorin Markov]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[“My ‘condition’ is a trial. The weak are consumed by it. The strong transcend it.”
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[“La mia ‘condizione’ è una prova. I deboli ne sono consumati. I forti la trascendono.”
 —Sorin Markov]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[“My ‘condition’ is a trial. The weak are consumed by it. The strong transcend it.”
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[„Meine Bedingung ist eine Prüfung. Die Schwachen werden davon verschlungen. Die Starken werden sie übertreffen.”
 —Sorin Markov]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[“My ‘condition’ is a trial. The weak are consumed by it. The strong transcend it.”
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[« Ma ‘maladie’ est une épreuve. Elle consume les faibles. Et transcende les forts. »
 —Sorin Markov]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[“My ‘condition’ is a trial. The weak are consumed by it. The strong transcend it.”
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[“Mi ‘enfermedad’ es una prueba. Los débiles se consumen en ella. Los fuertes la trascienden.”
 —Sorin Markov]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[“My ‘condition’ is a trial. The weak are consumed by it. The strong transcend it.”
-—Sorin Markov]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[“My ‘condition’ is a trial. The weak are consumed by it. The strong transcend it.”
-—Sorin Markov]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[“My ‘condition’ is a trial. The weak are consumed by it. The strong transcend it.”
-—Sorin Markov]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[“My ‘condition’ is a trial. The weak are consumed by it. The strong transcend it.”
-—Sorin Markov]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[「私の与える『病状』は一つの試練だ。」弱き者は蝕まれる。強き者は超越する。
+――ソリン・マルコフ]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[“나의 ‘상태’는 일종의 시험과도 같다. 나약한 자는 그로 인해 스스로를 잃지만 강한 자는 이를 초월한다.”
+—소린 마르코프]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[«Моя “болезнь” — это испытание. Слабого она поглотит. Сильный преодолеет ее пределы».
+— Сорин Марков]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[“Minha ‘condição’ é um teste. Os fracos são consumidos. Os fortes transcendem.”
+— Sorin Markov]]></LOCALISED_TEXT>
   </FLAVOURTEXT>
   <TYPE metaname="Enchantment" />
   <SUB_TYPE metaname="Aura" />
@@ -59,14 +59,14 @@
   </STATIC_ABILITY>
   <STATIC_ABILITY filter_zone="ZONE_IN_PLAY">
     <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Enchanted creature gets +2/+2 and has lifelink.]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Enchanted creature gets +2/+2 and has lifelink.]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Enchanted creature gets +2/+2 and has lifelink.]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Enchanted creature gets +2/+2 and has lifelink.]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Enchanted creature gets +2/+2 and has lifelink.]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[Enchanted creature gets +2/+2 and has lifelink.]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[Enchanted creature gets +2/+2 and has lifelink.]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Enchanted creature gets +2/+2 and has lifelink.]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Enchanted creature gets +2/+2 and has lifelink.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[La creatura incantata prende +2/+2 e ha legame vitale. (Il danno inflitto dalla creatura fa anche guadagnare al suo controllore altrettanti punti vita.)]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Die verzauberte Kreatur erhält +2/+2 und Lebensverknüpfung. (Schaden, der von dieser Kreatur zugefügt wird, lässt ihren Beherrscher ebenso viele Lebenspunkte dazuerhalten.)]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[La créature enchantée gagne +2/+2 et a le lien de vie. (Les blessures infligées par cette créature vous font aussi gagner autant de points de vie.)]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[La criatura encantada obtiene +2/+2 y tiene la habilidad de vínculo vital. (El daño hecho por la criatura también hace que su controlador gane esa misma cantidad de vidas.)]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[エンチャントされているクリーチャーは、+2/+2の修整を受けるとともに絆魂を持つ。（このクリーチャーがダメージを与える場合、さらにそのコントローラーはその点数分のライフを得る。）]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[부여된 생물은 +2/+2를 받고 생명연결 능력을 가진다. (이 생물이 피해를 입히면, 이 생물의 조종자는 그 피해만큼의 생명점을 얻는다.)]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Зачарованное существо получает +2/+2 и имеет Цепь жизни. (Повреждения, наносимые тем существом, также заставляют контролирующего его игрока получить такое же количество жизней.)]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[A criatura encantada recebe +2/+2 e tem vínculo com a vida. (O dano causado pela criatura também faz com que seu controlador ganhe uma quantidade equivalente de pontos de vida.)]]></LOCALISED_TEXT>
 	<CONTINUOUS_ACTION layer="7C">
     local parent = Object():GetParent()
     if parent ~= nil then

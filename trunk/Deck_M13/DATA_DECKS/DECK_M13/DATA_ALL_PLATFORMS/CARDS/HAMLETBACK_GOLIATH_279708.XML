@@ -4,14 +4,14 @@
   <CARDNAME text="HAMLETBACK_GOLIATH" />
   <TITLE>
     <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Hamletback Goliath]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Hamletback Goliath]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Hamletback Goliath]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Hamletback Goliath]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Hamletback Goliath]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[Hamletback Goliath]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[Hamletback Goliath]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Hamletback Goliath]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Hamletback Goliath]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Golia Borgogibboso]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Häuserschleppender Goliath]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Goliath dos-ménil]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Goliat espalda de chozas]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[村背負いの大巨人]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[마을을 짊어진 거인]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Чудо-Юдо Великан]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Golias Dorsovila]]></LOCALISED_TEXT>
   </TITLE>
   <MULTIVERSEID value="279708" />
   <ARTID value="279708" />
@@ -20,22 +20,22 @@
   <FLAVOURTEXT>
     <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[“If you live on a giant’s back, there’s only one individual you’ll ever need to fear.”
 —Gaddock Teeg]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[“If you live on a giant’s back, there’s only one individual you’ll ever need to fear.”
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[“Se vivi sulla schiena di un gigante, esiste un solo individuo di cui tu debba davvero preoccuparti.”
 —Gaddock Teeg]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[“If you live on a giant’s back, there’s only one individual you’ll ever need to fear.”
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[„Wenn du auf dem Rücken eines Riesen lebst, gibt es nur ein einziges Lebewesen, vor dem du dich je fürchten musst.”
 —Gaddock Teeg]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[“If you live on a giant’s back, there’s only one individual you’ll ever need to fear.”
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[« Quand on vit sur le dos d’un géant, il n’y a qu’un individu à craindre. »
 —Gaddock Teeg]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[“If you live on a giant’s back, there’s only one individual you’ll ever need to fear.”
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[“Si vives en la espalda de un gigante, hay un único individuo al cual necesitas temer.”
 —Gaddock Teeg]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[“If you live on a giant’s back, there’s only one individual you’ll ever need to fear.”
-—Gaddock Teeg]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[“If you live on a giant’s back, there’s only one individual you’ll ever need to fear.”
-—Gaddock Teeg]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[“If you live on a giant’s back, there’s only one individual you’ll ever need to fear.”
-—Gaddock Teeg]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[“If you live on a giant’s back, there’s only one individual you’ll ever need to fear.”
-—Gaddock Teeg]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[「巨人の背中で生活してるのなら、恐れる相手は一人しかいないな。」
+――ガドック・ティーグ]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[“거인의 등 위에서 살고 있다면, 두려워해야 할 상대는 오직 한 명뿐이다.”
+—개독 티그]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[«Если вы живете на спине у гиганта, вам никого не придется бояться, кроме него самого».
+— Гэддок Тиг]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[“Quando se vive nas costas de um gigante, só há um indivíduo a temer.”
+— Gaddock Teeg]]></LOCALISED_TEXT>
   </FLAVOURTEXT>
   <TYPE metaname="Creature" />
   <SUB_TYPE metaname="Giant" order_de-DE="0" order_es-ES="1" order_fr-FR="0" order_it-IT="1" order_jp-JA="0" order_ko-KR="0" order_pt-BR="0" order_ru-RU="0" />
@@ -46,14 +46,14 @@
   <TOUGHNESS value="6" />
   <TRIGGERED_ABILITY auto_skip="1" filter_zone="ZONE_IN_PLAY">
     <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Whenever another creature enters     the battlefield, you may put X +1/+1 counters on Hamletback Goliath, where X is that creature’s power.]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Whenever another creature enters the battlefield, you may put X +1/+1 counters on Hamletback Goliath, where X is that creature’s power.]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Whenever another creature enters the battlefield, you may put X +1/+1 counters on Hamletback Goliath, where X is that creature’s power.]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Whenever another creature enters the battlefield, you may put X +1/+1 counters on Hamletback Goliath, where X is that creature’s power.]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Whenever another creature enters the battlefield, you may put X +1/+1 counters on Hamletback Goliath, where X is that creature’s power.]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[Whenever another creature enters the battlefield, you may put X +1/+1 counters on Hamletback Goliath, where X is that creature’s power.]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[Whenever another creature enters the battlefield, you may put X +1/+1 counters on Hamletback Goliath, where X is that creature’s power.]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Whenever another creature enters the battlefield, you may put X +1/+1 counters on Hamletback Goliath, where X is that creature’s power.]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Whenever another creature enters the battlefield, you may put X +1/+1 counters on Hamletback Goliath, where X is that creature’s power.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Ogniqualvolta un’altra creatura entra nel campo di battaglia, puoi mettere X segnalini +1/+1 sul Golia Borgogibboso, dove X è la forza di quella creatura.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Immer wenn eine andere Kreatur ins Spiel kommt, kannst du X +1/+1-Marken auf den Häuserschleppenden Goliath legen, wobei X gleich der Stärke der Kreatur ist.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[À chaque fois qu’une autre créature arrive sur le champ de bataille, vous pouvez mettre X marqueurs +1/+1 sur le Goliath dos-ménil, X étant la force de cette créature.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Siempre que otra criatura entre al campo de batalla, puedes poner X contadores +1/+1 sobre el Goliat espalda de chozas, donde X es la fuerza de esa criatura.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[他のクリーチャーが１体戦場に出るたび、あなたは村背負いの大巨人の上に＋１/＋１カウンターをＸ個置いてもよい。Ｘはそのクリーチャーのパワーに等しい。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[다른 생물이 전장에 들어올 때마다, 마을을 짊어진 거인에 +1/+1 카운터를 X개 올려놓을 수 있다. X는 그 생물의 공격력이다.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Каждый раз, когда другое существо выходит на поле битвы, вы можете положить X жетонов +1/+1 на Чудо-Юдо Великана, где X — сила того существа.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Toda vez que outra criatura entra no campo de batalha, você pode colocar X marcadores +1/+1 sobre Golias Dorsovila, sendo X igual ao poder daquela criatura.]]></LOCALISED_TEXT>
 	<TRIGGER value="ZONECHANGE_END" to_zone="ZONE_IN_PLAY">
     return (TriggerObject() ~= Object() and TriggerObject():GetCardType():Test( CARD_TYPE_CREATURE ) ~= 0)
     </TRIGGER>

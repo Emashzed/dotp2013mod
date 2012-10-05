@@ -4,14 +4,14 @@
   <CARDNAME text="CLOCK_OF_OMENS" />
   <TITLE>
     <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Clock of Omens]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Clock of Omens]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Clock of Omens]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Clock of Omens]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Clock of Omens]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[Clock of Omens]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[Clock of Omens]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Clock of Omens]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Clock of Omens]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Uhr der Omina]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Reloj de profecías]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Horloge des augures]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Orologio dei Presagi]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[前兆の時計]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[징조의 시계]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Часы Знамений]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Relógio de Agouros]]></LOCALISED_TEXT>
   </TITLE>
   <MULTIVERSEID value="288877" />
   <ARTID value="288877" />
@@ -19,28 +19,28 @@
   <CASTING_COST cost="{4}" />
   <FLAVOURTEXT>
     <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Most clocks measure time, but a few measure everything.]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Most clocks measure time, but a few measure everything.]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Most clocks measure time, but a few measure everything.]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Most clocks measure time, but a few measure everything.]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Most clocks measure time, but a few measure everything.]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[Most clocks measure time, but a few measure everything.]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[Most clocks measure time, but a few measure everything.]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Most clocks measure time, but a few measure everything.]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Most clocks measure time, but a few measure everything.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Molti orologi misurano il tempo, ma solo pochi sono in grado di misurare ogni cosa.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Die meisten Uhren messen die Zeit, manche jedoch messen alles.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[La plupart des horloges mesurent le temps, mais quelques-unes mesurent tout.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[La mayoría de relojes miden el tiempo, pero unos pocos lo miden todo.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[ほとんどの時計は時を刻むが、ごく少数、すべてを測る時計もある。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[대부분의 시계는 시간만을 잴 수 있지만, 모든 것을 재는 시계도 존재한다.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Большинство часов измеряет время. Лишь немногие измеряют все.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[A maioria dos relógios mede o tempo, mas alguns poucos medem tudo.]]></LOCALISED_TEXT>
   </FLAVOURTEXT>
   <TYPE metaname="Artifact" />
   <EXPANSION value="M13" />
   <RARITY metaname="U" />
   <ACTIVATED_ABILITY filter_zone="ZONE_IN_PLAY">
-    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Tap two untapped artifacts you  control: Untap target artifact.]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Tap two untapped artifacts you control: Untap target artifact.]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Tap two untapped artifacts you control: Untap target artifact.]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Tap two untapped artifacts you control: Untap target artifact.]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Tap two untapped artifacts you control: Untap target artifact.]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[Tap two untapped artifacts you control: Untap target artifact.]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[Tap two untapped artifacts you control: Untap target artifact.]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Tap two untapped artifacts you control: Untap target artifact.]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Tap two untapped artifacts you control: Untap target artifact.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Tap two untapped artifacts you control: Untap target artifact.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[TAPpa due artefatti STAPpati che controlli: STAPpa un artefatto bersaglio.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Tappe zwei ungetappte Artefakte, die du kontrollierst: Enttappe ein Artefakt deiner Wahl.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Engagez deux artefacts dégagés que vous contrôlez : Dégagez l’artefact ciblé.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Girar dos artefactos enderezados que controlas: Endereza el artefacto objetivo.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[あなたがコントロールするアンタップ状態のアーティファクトを２つタップする：アーティファクト１つを対象とし、それをアンタップする。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[당신이 조종하는 언탭된 마법물체 두 개를 탭한다: 마법물체 한 개를 목표로 정한다. 그 마법물체를 탭한다.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Поверните два неповернутых артефакта под вашим контролем: разверните целевой артефакт.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Vire dois artefatos desvirados que você controle: Desvire o artefato alvo.]]></LOCALISED_TEXT>
 	<COST type="generic">
       <TARGET_DETERMINATION>
       local filter = Object():GetFilter()

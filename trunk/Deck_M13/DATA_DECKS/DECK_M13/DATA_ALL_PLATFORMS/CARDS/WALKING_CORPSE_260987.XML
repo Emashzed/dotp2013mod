@@ -4,14 +4,14 @@
   <CARDNAME text="WALKING_CORPSE" />
   <TITLE>
     <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Walking Corpse]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Walking Corpse]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Walking Corpse]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Walking Corpse]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Walking Corpse]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[Walking Corpse]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[Walking Corpse]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Walking Corpse]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Walking Corpse]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Cadavere Ambulante]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Wandelnde Leiche]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Cadavre ambulant]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Cadáver ambulante]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[歩く死骸]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[걸어다니는 시체]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Ходячий Труп]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Cadáver Ambulante]]></LOCALISED_TEXT>
   </TITLE>
   <MULTIVERSEID value="260987" />
   <ARTID value="260987" />
@@ -20,22 +20,22 @@
   <FLAVOURTEXT>
     <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[“Feeding a normal army is a constant burden. With zombies, it’s a constant motivation. Feeding is why they fight. Feeding is why they are feared.”
 —Jadar, ghoulcaller of Nephalia]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[“Feeding a normal army is a constant burden. With zombies, it’s a constant motivation. Feeding is why they fight. Feeding is why they are feared.”
-—Jadar, ghoulcaller of Nephalia]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[“Feeding a normal army is a constant burden. With zombies, it’s a constant motivation. Feeding is why they fight. Feeding is why they are feared.”
-—Jadar, ghoulcaller of Nephalia]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[“Feeding a normal army is a constant burden. With zombies, it’s a constant motivation. Feeding is why they fight. Feeding is why they are feared.”
-—Jadar, ghoulcaller of Nephalia]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[“Feeding a normal army is a constant burden. With zombies, it’s a constant motivation. Feeding is why they fight. Feeding is why they are feared.”
-—Jadar, ghoulcaller of Nephalia]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[“Feeding a normal army is a constant burden. With zombies, it’s a constant motivation. Feeding is why they fight. Feeding is why they are feared.”
-—Jadar, ghoulcaller of Nephalia]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[“Feeding a normal army is a constant burden. With zombies, it’s a constant motivation. Feeding is why they fight. Feeding is why they are feared.”
-—Jadar, ghoulcaller of Nephalia]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[“Feeding a normal army is a constant burden. With zombies, it’s a constant motivation. Feeding is why they fight. Feeding is why they are feared.”
-—Jadar, ghoulcaller of Nephalia]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[“Feeding a normal army is a constant burden. With zombies, it’s a constant motivation. Feeding is why they fight. Feeding is why they are feared.”
-—Jadar, ghoulcaller of Nephalia]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[“Sfamare un esercito normale è un problema di logistica. Con gli zombie, è un vantaggio. La fame è il motivo per cui combattono. La fame è il motivo per cui sono temuti.”
+—Jadar, evocaghoul di Nephalia]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[„Eine herkömmliche Armee verköstigen zu müssen ist eine Frage der Logistik. Bei Zombies ist das eher ein Vorteil. Ihr Hunger ist der Grund, warum sie kämpfen. Ihr Hunger ist der Grund, warum man sie fürchtet.”
+—Jadar, Ghulrufer aus Nefalen]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[« Nourrir une armée normale revient à résoudre un problème de logistique. Avec des zombies, pas de problème, bien au contraire. Ils combattent pour se nourrir. C’est même pour ça qu’on les redoute. »
+—Jadar, meneur de goule de Néphalie]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[“La alimentación de un ejército normal supone un problema de logística. Con los zombies, es una ventaja. Su alimentación es aquello por lo que luchan. Su alimentación es aquello por lo que se les teme.”
+—Jadar, llamamuertos de Nephalia]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[「普通の軍隊の場合、食糧確保には輸送が必要だ。ゾンビの場合、それが強みになる。奴らは食うために戦い、食うから恐れられる。」
+――ネファリアのグール呼び、ジャダー]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[“식량은 일반 부대의 병참술에서는 골치 아픈 문제이지만 좀비를 다룰 때는 중요한 자산이 된다. 식량이야말로 좀비들이 싸우는 이유이며, 적들이 그들을 두려워하는 원인이기 때문이다.”
+—네팔리아의 악귀소환술사 자다르]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[«Для обычной армии пища — это проблема снабжения. Для армии зомби — тактическое преимущество. Их пища — это то, почему они сражаются. Их пища — это то, почему их боятся».
+— Джадар, призыватель упырей из Нефалии]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[“A alimentação de um exército normal é um problema de logística. A alimentação de zumbis é uma vantagem. Eles lutam para comer. E são temidos por isso.”
+— Jadar, invocador de carniçais de Nefália]]></LOCALISED_TEXT>
   </FLAVOURTEXT>
   <TYPE metaname="Creature" />
   <SUB_TYPE metaname="Zombie" />
