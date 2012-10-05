@@ -4,14 +4,14 @@
   <CARDNAME text="TURN_TO_SLAG" />
   <TITLE>
     <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Turn to Slag]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Turn to Slag]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Turn to Slag]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Turn to Slag]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Turn to Slag]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[Turn to Slag]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[Turn to Slag]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Turn to Slag]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Turn to Slag]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Tramutare in Scorie]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Zu Schlacke werden]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Amalgame]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Convertir en escoria]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[金屑化]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[용광로 찌꺼기]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Превращение в Шлак]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Transformar em Escória]]></LOCALISED_TEXT>
   </TITLE>
   <MULTIVERSEID value="276212" />
   <ARTID value="276212" />
@@ -20,36 +20,36 @@
   <FLAVOURTEXT>
     <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[“If it wasn’t a blackened, stinking, melted abomination before, it certainly is now.”
 —Koth of the Hammer]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[“If it wasn’t a blackened, stinking, melted abomination before, it certainly is now.”
-—Koth of the Hammer]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[“If it wasn’t a blackened, stinking, melted abomination before, it certainly is now.”
-—Koth of the Hammer]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[“If it wasn’t a blackened, stinking, melted abomination before, it certainly is now.”
-—Koth of the Hammer]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[“If it wasn’t a blackened, stinking, melted abomination before, it certainly is now.”
-—Koth of the Hammer]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[“If it wasn’t a blackened, stinking, melted abomination before, it certainly is now.”
-—Koth of the Hammer]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[“If it wasn’t a blackened, stinking, melted abomination before, it certainly is now.”
-—Koth of the Hammer]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[“If it wasn’t a blackened, stinking, melted abomination before, it certainly is now.”
-—Koth of the Hammer]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[“If it wasn’t a blackened, stinking, melted abomination before, it certainly is now.”
-—Koth of the Hammer]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[“Se non era un annerito abominio puzzolente e sciolto prima, di certo lo è adesso.”
+—Koth del Martello]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[„Wenn es vorher keine geschwärzte, stinkende, geschmolzene Abscheulichkeit war, dann aber jetzt!”
+—Koth vom Hammerclan]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[« Si ce n’était pas une abomination puante et déliquescente auparavant, à présent, ça l’est. »
+—Koth du Marteau]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[“Si no era una abominación fundida, ennegrecida y apestosa antes, ahora seguro que lo es.”
+—Koth del Martillo]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[「それが以前に黒焦げでも臭っても溶けてもいなかった怪物だって言うんなら、今なら確実にそうだな。」
+――槌のコス]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[“예전에 무엇이었던, 지금은 그을리고 냄새나며 녹아버린 흉물일 뿐이지.”
+—망치의 코쓰]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[«Если оно не было обугленной, вонючей, расплавленной мерзостью раньше, то теперь точно ею стало».
+— Кос из племени Молота]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Se antes não era uma abominação enegrecida, derretida e fedorenta, certamente é agora.“
+— Koth do Martelo]]></LOCALISED_TEXT>
   </FLAVOURTEXT>
   <TYPE metaname="Sorcery" />
   <EXPANSION value="M13" />
   <RARITY metaname="C" />
   <SPELL_ABILITY dangerous="1" filter_zone="ZONE_IN_PLAY">
     <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Turn to Slag deals 5 damage to target creature. Destroy all Equipment attached to that creature.]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Turn to Slag deals 5 damage to target creature. Destroy all Equipment attached to that creature.]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Turn to Slag deals 5 damage to target creature. Destroy all Equipment attached to that creature.]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Turn to Slag deals 5 damage to target creature. Destroy all Equipment attached to that creature.]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Turn to Slag deals 5 damage to target creature. Destroy all Equipment attached to that creature.]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[Turn to Slag deals 5 damage to target creature. Destroy all Equipment attached to that creature.]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[Turn to Slag deals 5 damage to target creature. Destroy all Equipment attached to that creature.]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Turn to Slag deals 5 damage to target creature. Destroy all Equipment attached to that creature.]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Turn to Slag deals 5 damage to target creature. Destroy all Equipment attached to that creature.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Tramutare in Scorie infligge 5 danni a una creatura bersaglio. Distruggi tutti gli Equipaggiamenti assegnati a quella creatura.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Zu Schlacke werden fügt einer Kreatur deiner Wahl 5 Schadenspunkte zu. Zerstöre alle Ausrüstung, die an diese Kreatur angelegt ist.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[L’Amalgame inflige 5 blessures à une créature ciblée. Détruisez tous les équipements attachés à cette créature.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Convertir en escoria hace 5 puntos de daño a la criatura objetivo. Destruye todos los equipos anexados a esa criatura.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[クリーチャー１体を対象とする。金屑化はそれに５点のダメージを与える。それにつけられているすべての装備品を破壊する。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[생물 한 개를 목표로 정한다. 용광로 찌꺼기는 그 생물에게 피해 5점을 입힌다. 그 생물에게 부착된 모든 장비를 파괴한다.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Превращение в Шлак наносит 5 повреждений целевому существу. Уничтожьте все Снаряжение, прикрепленное к тому существу.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Transformar em Escória causa 5 pontos de dano à criatura alvo. Destrua todos os Equipamentos anexados àquela criatura.]]></LOCALISED_TEXT>
 	<TARGET_DEFINITION id="0">
     local filter = Object():GetFilter()
     filter:Clear()

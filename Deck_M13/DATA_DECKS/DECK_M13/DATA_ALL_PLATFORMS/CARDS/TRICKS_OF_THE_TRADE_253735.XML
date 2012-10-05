@@ -4,14 +4,14 @@
   <CARDNAME text="TRICKS_OF_THE_TRADE" />
   <TITLE>
     <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Tricks of the Trade]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Tricks of the Trade]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Tricks of the Trade]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Tricks of the Trade]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Tricks of the Trade]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[Tricks of the Trade]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[Tricks of the Trade]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Tricks of the Trade]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Tricks of the Trade]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Trucchi del Mestiere]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Trickreichtum]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Ficelles du métier]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Gajes del oficio]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[商売の秘訣]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[기술과 요령]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Секрет Мастерства]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Truques do Ofício]]></LOCALISED_TEXT>
   </TITLE>
   <MULTIVERSEID value="253735" />
   <ARTID value="253735" />
@@ -19,14 +19,14 @@
   <CASTING_COST cost="{3}{U}" />
   <FLAVOURTEXT>
     <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[“Pathetic. You might as well have protected your treasures with a paper     box and some string.”]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[“Pathetic. You might as well have protected your treasures with a paper box and some string.”]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[“Pathetic. You might as well have protected your treasures with a paper box and some string.”]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[“Pathetic. You might as well have protected your treasures with a paper box and some string.”]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[“Pathetic. You might as well have protected your treasures with a paper box and some string.”]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[“Pathetic. You might as well have protected your treasures with a paper box and some string.”]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[“Pathetic. You might as well have protected your treasures with a paper box and some string.”]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[“Pathetic. You might as well have protected your treasures with a paper box and some string.”]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[“Pathetic. You might as well have protected your treasures with a paper box and some string.”]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[“Patetico. Tanto valeva proteggere i tuoi tesori con una scatola di cartone e un po’ di spago.”]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[„Erbärmlich. Du hättest deine Schätze genauso gut in einer Papierschachtel legen und mit ein wenig Faden zubinden können.”]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[« Pathétique. Autant mettre ses trésors à l’abri dans une boîte en carton fermée par une ficelle. »]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[“Patético. Lo mismo podrías haber protegido tus tesoros con una caja de cartón y un cordelito.”]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[「愚かな。お宝を紙の箱に入れて紐で結わいておくのと変わらないじゃないか。」]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[“한심하군. 보물은 제대로 지켜야지, 이 정도로 허술하게 지키면 어쩌라는 건가.”]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[«Какое убожество! С таким же успехом можно было спрятать сокровища, обернув в бумагу и замотав бечевкой».]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[“Patético. É o mesmo que proteger seus tesouros com uma caixa de papel e um barbante.”]]></LOCALISED_TEXT>
   </FLAVOURTEXT>
   <TYPE metaname="Enchantment" />
   <SUB_TYPE metaname="Aura" />
@@ -50,14 +50,14 @@
   </STATIC_ABILITY>
   <STATIC_ABILITY>
     <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Enchanted creature gets +2/+0 and is unblockable.]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Enchanted creature gets +2/+0 and is unblockable.]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Enchanted creature gets +2/+0 and is unblockable.]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Enchanted creature gets +2/+0 and is unblockable.]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Enchanted creature gets +2/+0 and is unblockable.]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[Enchanted creature gets +2/+0 and is unblockable.]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[Enchanted creature gets +2/+0 and is unblockable.]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Enchanted creature gets +2/+0 and is unblockable.]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Enchanted creature gets +2/+0 and is unblockable.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[La creatura incantata prende +2/+0 e non può essere bloccata.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Die verzauberte Kreatur erhält +2/+0 und ist unblockbar.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[La créature enchantée gagne +2/+0 et est imblocable.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[La criatura encantada obtiene +2/+0 y es imbloqueable.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[エンチャントされているクリーチャーは＋２/＋０の修整を受けるとともにブロックされない。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[부여된 생물은 +2/+0을 받고 방어될 수 없다.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Зачарованное существо получает +2/+0 и не может быть заблокировано.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[A criatura encantada recebe +2/+0 e não pode ser bloqueada.]]></LOCALISED_TEXT>
 	<CONTINUOUS_ACTION layer="7C">
     local parent = Object():GetParent()
     if parent ~= nil then

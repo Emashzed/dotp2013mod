@@ -49,7 +49,6 @@
     <TARGET_DEFINITION id="0">
     local filter = Object():GetFilter()
     filter:Clear()
-    filter:AddCardType( CARD_TYPE_LAND )
     filter:AddSubType( LAND_TYPE_FOREST )
     filter:SetZone( ZONE_IN_PLAY )
     filter:SetHint( HINT_ALLIED_ONLY, EffectController() )

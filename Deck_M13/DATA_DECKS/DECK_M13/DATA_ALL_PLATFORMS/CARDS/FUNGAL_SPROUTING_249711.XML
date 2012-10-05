@@ -4,14 +4,14 @@
   <CARDNAME text="FUNGAL_SPROUTING" />
   <TITLE>
     <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Fungal Sprouting]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Fungal Sprouting]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Fungal Sprouting]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Fungal Sprouting]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Fungal Sprouting]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[Fungal Sprouting]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[Fungal Sprouting]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Fungal Sprouting]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Fungal Sprouting]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Germogli Fungini]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Sprießen der Pilze]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Bourgeonnement fongoïde]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Germinación fungosa]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[菌類の芽吹き]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[진균 발아]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Грибная Поросль]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Germinação Fúngica]]></LOCALISED_TEXT>
   </TITLE>
   <MULTIVERSEID value="249711" />
   <ARTID value="249711" />
@@ -20,36 +20,36 @@
   <FLAVOURTEXT>
     <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[“Saprolings need only a host to feed upon. Numbers will take care of the rest.”
 —Ghave, Guru of Spores]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[“Saprolings need only a host to feed upon. Numbers will take care of the rest.”
-—Ghave, Guru of Spores]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[“Saprolings need only a host to feed upon. Numbers will take care of the rest.”
-—Ghave, Guru of Spores]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[“Saprolings need only a host to feed upon. Numbers will take care of the rest.”
-—Ghave, Guru of Spores]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[“Saprolings need only a host to feed upon. Numbers will take care of the rest.”
-—Ghave, Guru of Spores]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[“Saprolings need only a host to feed upon. Numbers will take care of the rest.”
-—Ghave, Guru of Spores]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[“Saprolings need only a host to feed upon. Numbers will take care of the rest.”
-—Ghave, Guru of Spores]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[“Saprolings need only a host to feed upon. Numbers will take care of the rest.”
-—Ghave, Guru of Spores]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[“Saprolings need only a host to feed upon. Numbers will take care of the rest.”
-—Ghave, Guru of Spores]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[“I Saprolingi hanno soltanto bisogno di un ospite di cui cibarsi. I numeri penseranno al resto.”
+—Ghave, Guru delle Spore]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[„Saprolinge brauchen nur einen Wirt, um sich zu ernähren. Den Rest erledigt die schiere Masse.”
+—Ghave, Guru der Sporen]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[« Les saprobiontes n’ont besoin que d’un hôte pour proliférer. Leur nombre fera le reste. »
+—Ghaveh, gourou des spores]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[“Los saprolines sólo necesitan un anfitrión del cual alimentarse. Los números se ocuparán de todo lo demás.”
+—Ghave, Gurú de las Esporas]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[「苗木に必要なのは養分を吸い取る宿主だ。あとは数が解決してくれる。」
+――胞子の教祖、ゲイヴ]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[“묘목에게는 먹이가 될 숙주만 있으면 충분하다. 그 다음에는 증식하는 것을 기다리기만 하면 된다.”
+—포자의 스승 가이브]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[«Сапролингам нужен лишь тот, кем они будут питаться. Все остальное — вопрос их числа».
+— Гаве, гуру спор]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[“Os saprófitas só precisam de um hospedeiro para se alimentarem. A quantidade fará o resto do serviço.”
+— Ghave, Guru dos Esporos]]></LOCALISED_TEXT>
   </FLAVOURTEXT>
   <TYPE metaname="Sorcery" />
   <EXPANSION value="M13" />
   <RARITY metaname="U" />
   <SPELL_ABILITY filter_zone="ZONE_IN_PLAY">
     <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Put X 1/1 green Saproling creature tokens onto the battlefield, where X    is the greatest power among creatures you control.]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Put X 1/1 green Saproling creature tokens onto the battlefield, where X is the greatest power among creatures you control.]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Put X 1/1 green Saproling creature tokens onto the battlefield, where X is the greatest power among creatures you control.]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Put X 1/1 green Saproling creature tokens onto the battlefield, where X is the greatest power among creatures you control.]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Put X 1/1 green Saproling creature tokens onto the battlefield, where X is the greatest power among creatures you control.]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[Put X 1/1 green Saproling creature tokens onto the battlefield, where X is the greatest power among creatures you control.]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[Put X 1/1 green Saproling creature tokens onto the battlefield, where X is the greatest power among creatures you control.]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Put X 1/1 green Saproling creature tokens onto the battlefield, where X is the greatest power among creatures you control.]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Put X 1/1 green Saproling creature tokens onto the battlefield, where X is the greatest power among creatures you control.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Metti sul campo di battaglia X pedine creatura Saprolingio 1/1 verdi, dove X è la forza maggiore tra le creature che controlli.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Bringe X 1/1 grüne Saproling-Kreaturenspielsteine ins Spiel, wobei X gleich der höchsten Stärke unter den Kreaturen ist, die du kontrollierst.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Mettez sur le champ de bataille X jetons de créature 1/1 verte Saprobionte, X étant étant la force la plus élevée parmi les créatures que vous contrôlez.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Pon en el campo de batalla X fichas de criatura Saprolín verdes 1/1, donde X es la mayor fuerza entre las criaturas que controlas.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[緑の１/１の苗木・クリーチャー・トークンをＸ体戦場に出す。Ｘはあなたがコントロールするクリーチャーの中のパワーの最大値に等しい。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[1/1 녹색 묘목 생물 토큰 X개를 전장에 놓는다. X는 당신이 조종하는 생물 중 공격력이 제일 높은 생물의 공격력이다.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Положите на поле битвы X фишек существа 1/1 зеленый Сапролинг, где X — наибольшее значение силы среди существ под вашим контролем.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Coloque no campo de batalha X fichas de criatura verdes 1/1 do tipo Saprófita, sendo X igual ao maior poder entre as criaturas que você controla.]]></LOCALISED_TEXT>
 	<RESOLUTION_TIME_ACTION>
 	local filter = Object():GetFilter()
     filter:Clear()  

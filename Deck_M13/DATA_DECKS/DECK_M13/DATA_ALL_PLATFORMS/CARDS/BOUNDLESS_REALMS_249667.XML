@@ -50,16 +50,13 @@
     <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Найдите в вашей библиотеке до X карт базовых земель, где X — количество земель под вашим контролем, и положите их на поле битвы повернутыми. Затем перетасуйте вашу библиотеку.]]></LOCALISED_TEXT>
     <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Procure em seu grimório até X cards de terreno básico, sendo X igual ao número de terrenos que você controla, e coloque-os no campo de batalha virados. Depois, embaralhe seu grimório.]]></LOCALISED_TEXT>
     <RESOLUTION_TIME_ACTION>
-    local filter = Object():GetFilter()
     local player = EffectController()
-    filter:Clear()
-    filter:SetPlayer( player )
-    filter:SetZone( ZONE_IN_PLAY )
-    filter:AddCardType( CARD_TYPE_LAND )
-    filter:NotTargetted()
-    local total = filter:Count()
+	
+    local total = CountCardsTypeZonePlayer( CARD_TYPE_LAND, ZONE_IN_PLAY, player )
     if total &gt; 0 then
     	player:MarkSearchedLibrary()
+		
+		local filter = Object():GetFilter()
     	filter:Clear()
     	filter:SetPlayer( player )
     	filter:SetZone( ZONE_LIBRARY )

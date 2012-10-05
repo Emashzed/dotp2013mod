@@ -4,14 +4,14 @@
   <CARDNAME text="PRIMAL_CLAY" />
   <TITLE>
     <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Primal Clay]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Primal Clay]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Primal Clay]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Primal Clay]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Primal Clay]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[Primal Clay]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[Primal Clay]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Primal Clay]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Primal Clay]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Argilla Primordiale]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Urlehmgestalt]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Argile primordiale]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Barro primordial]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[原初の土]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[태초의 진흙]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Первобытная Глина]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Barro Primordial]]></LOCALISED_TEXT>
   </TITLE>
   <MULTIVERSEID value="268530" />
   <ARTID value="268530" />
@@ -26,14 +26,14 @@
   <TOUGHNESS value="*" />
   <TRIGGERED_ABILITY replacement_query="1" filter_zone="ZONE_IN_PLAY" active_zone="ZONE_TRANSITION">
     <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[As Primal Clay enters the battlefield, it becomes your choice of a 3/3 artifact creature, a 2/2 artifact creature with flying, or a 1/6 Wall artifact creature with defender in addition to its other types.]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[As Primal Clay enters the battlefield, it becomes your choice of a 3/3 artifact creature, a 2/2 artifact creature with flying, or a 1/6 Wall artifact creature with defender in addition to its other types.]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[As Primal Clay enters the battlefield, it becomes your choice of a 3/3 artifact creature, a 2/2 artifact creature with flying, or a 1/6 Wall artifact creature with defender in addition to its other types.]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[As Primal Clay enters the battlefield, it becomes your choice of a 3/3 artifact creature, a 2/2 artifact creature with flying, or a 1/6 Wall artifact creature with defender in addition to its other types.]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[As Primal Clay enters the battlefield, it becomes your choice of a 3/3 artifact creature, a 2/2 artifact creature with flying, or a 1/6 Wall artifact creature with defender in addition to its other types.]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[As Primal Clay enters the battlefield, it becomes your choice of a 3/3 artifact creature, a 2/2 artifact creature with flying, or a 1/6 Wall artifact creature with defender in addition to its other types.]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[As Primal Clay enters the battlefield, it becomes your choice of a 3/3 artifact creature, a 2/2 artifact creature with flying, or a 1/6 Wall artifact creature with defender in addition to its other types.]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[As Primal Clay enters the battlefield, it becomes your choice of a 3/3 artifact creature, a 2/2 artifact creature with flying, or a 1/6 Wall artifact creature with defender in addition to its other types.]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[As Primal Clay enters the battlefield, it becomes your choice of a 3/3 artifact creature, a 2/2 artifact creature with flying, or a 1/6 Wall artifact creature with defender in addition to its other types.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Mentre l’Argilla Primordiale entra nel campo di battaglia, a tua scelta diventa una creatura artefatto 3/3, una creatura artefatto 2/2 con volare oppure una creatura artefatto Muro 1/6 con difensore in aggiunta ai suoi altri tipi. (Una creatura con difensore non può attaccare.)]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Wenn die Urlehmgestalt ins Spiel kommt, wird sie zusätzlich zu ihren anderen Typen zu dem, was du bestimmst: eine 3/3 Artefaktkreatur, eine 2/2 Artefaktkreatur mit Flugfähigkeit oder eine 1/6 Mauer-Artefaktkreatur mit Verteidiger. (Eine Kreatur mit Verteidiger kann nicht angreifen.)]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Au moment où l’Argile primordiale arrive sur le champ de bataille, elle devient, selon votre choix, une créature-artefact 3/3, une créature-artefact 2/2 avec le vol ou une créature-artefact 1/6 Mur avec le défenseur en plus de ses autres types. (Une créature avec le défenseur ne peut pas attaquer.)]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[En cuanto el Barro primordial entre al campo de batalla, se convierte, a tu elección, en una criatura artefacto 3/3, una criatura artefacto 2/2 con la habilidad de volar, o una criatura artefacto Muro 1/6 con la habilidad de defensor además de sus otros tipos. (Una criatura con la habilidad de defensor no puede atacar.)]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[原初の土が戦場に出るに際し、それは「３/３のアーティファクト・クリーチャー」「飛行を持つ２/２のアーティファクト・クリーチャー」「それの他のタイプに加えて、防衛を持つ１/６の壁・アーティファクト・クリーチャー」のうちあなたが選んだ１つになる。（防衛を持つクリーチャーでは攻撃できない。）]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[태초의 진흙이 전장에 들어올 시에, 3/3 마법물체 생물, 비행 능력을 가진 2/2 마법물체 생물, 또는 수비태세 능력을 가진 1/6 벽 마법물체 생물 중 하나를 선택한다. 태초의 진흙은 자신의 다른 유형에 더불어 선택된 생물이다. (수비태세 능력을 가진 생물은 공격할 수 없다.)]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[При выходе Первобытной Глины на поле битвы она становится по вашему выбору артефактным существом 3/3, артефактным существом 2/2 с Полетом или артефактным существом 1/6 Стена со способностью Защитника в дополнение к своим другим типам. (Существо со способностью Защитника не может атаковать.)]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Conforme Barro Primordial entra no campo de batalha, você escolhe se ele se tornará uma criatura artefato 3/3, uma criatura artefato 2/2 com voar ou uma criatura artefato do tipo Barreira 1/6 com defensor além de seus outros tipos. (Uma criatura com defensor não pode atacar.)]]></LOCALISED_TEXT>
 	<TRIGGER value="ZONECHANGE_TRANSITION" simple_qualifier="self" to_zone="ZONE_IN_PLAY" />
 	<PLAY_TIME_ACTION>
     EffectController():BeginNewMultipleChoice()   

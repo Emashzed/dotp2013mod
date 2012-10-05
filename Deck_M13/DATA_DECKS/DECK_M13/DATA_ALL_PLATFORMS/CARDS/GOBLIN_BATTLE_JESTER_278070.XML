@@ -4,14 +4,14 @@
   <CARDNAME text="GOBLIN_BATTLE_JESTER" />
   <TITLE>
     <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Goblin Battle Jester]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Goblin Battle Jester]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Goblin Battle Jester]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Goblin Battle Jester]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Goblin Battle Jester]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[Goblin Battle Jester]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[Goblin Battle Jester]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Goblin Battle Jester]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Goblin Battle Jester]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Giullare da Battaglia Goblin]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Goblin-Kriegstänzer]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Bouffon de combat gobelin]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Trasgo bufón de batalla]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[ゴブリンの戦囃し]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[고블린 전투광대]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Боевой Шут Гоблинов]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Goblin Bufão de Batalha]]></LOCALISED_TEXT>
   </TITLE>
   <MULTIVERSEID value="278070" />
   <ARTID value="278070" />
@@ -19,14 +19,14 @@
   <CASTING_COST cost="{3}{R}" />
   <FLAVOURTEXT>
     <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Somehow goblins found a tactical advantage by sending a clown to war.]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Somehow goblins found a tactical advantage by sending a clown to war.]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Somehow goblins found a tactical advantage by sending a clown to war.]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Somehow goblins found a tactical advantage by sending a clown to war.]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Somehow goblins found a tactical advantage by sending a clown to war.]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[Somehow goblins found a tactical advantage by sending a clown to war.]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[Somehow goblins found a tactical advantage by sending a clown to war.]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Somehow goblins found a tactical advantage by sending a clown to war.]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Somehow goblins found a tactical advantage by sending a clown to war.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[In qualche modo, i goblin riescono a ricavare un vantaggio tattico inviando un giullare in guerra.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Irgendwie gelang es den Goblins, einen taktischen Vorteil zu erreichen, indem sie einen Narren in den Krieg schickten.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Bizarrement, les gobelins ont trouvé un avantage tactique à envoyer un bouffon au casse-pipe.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[De algún modo, los trasgos hallaron una ventaja táctica al enviar a un payaso a la guerra.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[どういうわけか、ゴブリンは道化の派兵に戦術的優位性を見出した。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[놀랍게도 광대를 전장으로 보낸 고블린들의 전략은 신의 한 수가 되었다.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Каким-то образом гоблины умудрились получить тактическое преимущество, послав на войну клоуна.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[De alguma forma, os goblins encontraram uma vantagem tática em mandar um palhaço para a guerra.]]></LOCALISED_TEXT>
   </FLAVOURTEXT>
   <TYPE metaname="Creature" />
   <SUB_TYPE metaname="Goblin" />
@@ -36,14 +36,14 @@
   <TOUGHNESS value="2" />
   <TRIGGERED_ABILITY dangerous="1" filter_zone="ZONE_IN_PLAY">
     <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Whenever you cast a red spell, target creature can’t block this turn.]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Whenever you cast a red spell, target creature can’t block this turn.]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Whenever you cast a red spell, target creature can’t block this turn.]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Whenever you cast a red spell, target creature can’t block this turn.]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Whenever you cast a red spell, target creature can’t block this turn.]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[Whenever you cast a red spell, target creature can’t block this turn.]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[Whenever you cast a red spell, target creature can’t block this turn.]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Whenever you cast a red spell, target creature can’t block this turn.]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Whenever you cast a red spell, target creature can’t block this turn.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Ogniqualvolta lanci una magia rossa, una creatura bersaglio non può bloccare in questo turno.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Immer wenn du einen roten Zauberspruch wirkst, kann eine Kreatur deiner Wahl in diesem Zug nicht blocken.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[À chaque fois que vous lancez un sort rouge, la créature ciblée ne peut pas bloquer ce tour-ci.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Siempre que lances un hechizo rojo, la criatura objetivo no puede bloquear este turno.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[あなたが赤の呪文を１つ唱えるたび、クリーチャー１体を対象とする。このターン、それではブロックできない。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[당신이 적색 주문을 발동할 때마다, 생물 한 개를 목표로 정한다. 그 생물은 이 턴에 방어할 수 없다.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Каждый раз, когда вы разыгрываете красное заклинание, целевое существо не может блокировать в этом ходу.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Toda vez que você conjura uma mágica vermelha, a criatura alvo não pode bloquear neste turno.]]></LOCALISED_TEXT>
 	<TRIGGER value="SPELL_PLAYED" simple_qualifier="objectyoucontrol">
     return TriggerObject():GetColour():Test( COLOUR_RED ) ~= 0
     </TRIGGER>

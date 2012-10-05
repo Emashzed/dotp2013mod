@@ -4,14 +4,14 @@
   <CARDNAME text="WELKIN_TERN" />
   <TITLE>
     <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Welkin Tern]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Welkin Tern]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Welkin Tern]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Welkin Tern]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Welkin Tern]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[Welkin Tern]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[Welkin Tern]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Welkin Tern]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Welkin Tern]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Sterna del Cielo]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Himmelsschwalbe]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Sterne des nues]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Golondrina del firmamento]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[天空のアジサシ]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[창공의 제비갈매기]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Небесная Крачка]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Carrago Celeste]]></LOCALISED_TEXT>
   </TITLE>
   <MULTIVERSEID value="276416" />
   <ARTID value="276416" />
@@ -20,22 +20,22 @@
   <FLAVOURTEXT>
     <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[“It preys on other birds. And drakelings. And drakes. Pretty much anything that crosses its flight path is fair game.”
 —Amira, skycaptain of Thune]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[“It preys on other birds. And drakelings. And drakes. Pretty much anything that crosses its flight path is fair game.”
-—Amira, skycaptain of Thune]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[“It preys on other birds. And drakelings. And drakes. Pretty much anything that crosses its flight path is fair game.”
-—Amira, skycaptain of Thune]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[“It preys on other birds. And drakelings. And drakes. Pretty much anything that crosses its flight path is fair game.”
-—Amira, skycaptain of Thune]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[“It preys on other birds. And drakelings. And drakes. Pretty much anything that crosses its flight path is fair game.”
-—Amira, skycaptain of Thune]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[“It preys on other birds. And drakelings. And drakes. Pretty much anything that crosses its flight path is fair game.”
-—Amira, skycaptain of Thune]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[“It preys on other birds. And drakelings. And drakes. Pretty much anything that crosses its flight path is fair game.”
-—Amira, skycaptain of Thune]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[“It preys on other birds. And drakelings. And drakes. Pretty much anything that crosses its flight path is fair game.”
-—Amira, skycaptain of Thune]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[“It preys on other birds. And drakelings. And drakes. Pretty much anything that crosses its flight path is fair game.”
-—Amira, skycaptain of Thune]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[“Caccia gli altri uccelli. E i draghettini. E i draghetti. Praticamente qualsiasi cosa attraversi il suo volo è una possibile preda.”
+—Amira, capitano dei cieli di Thune]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[„Sie ernährt sich von Fischen. Und Jungsceadas. Und Sceadas. Eigentlich betrachtet sie so ziemlich alles in ihrer Flugbahn als Beute.”
+—Amira, Himmelskapitänin von Thune]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[« Elle chasse les autres oiseaux. Les drakônnets. Les drakôns. En gros, tout ce qui croise sa route. »
+—Amira, capitaine céleste de Thiune]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[“Caza otros pájaros. Y dracos jóvenes. Y dracos. Casi cualquier cosa que se cruce en su ruta de vuelo le sirve como presa.”
+—Amira, capitana celeste de Thune]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[「あいつが捕食するのは他の鳥と、仔ドレイクと、ドレイク。自分の飛ぶ先にいるものは、たいてい餌にしてしまうわ。」
+――テューンの飛空隊長、アミーラ]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[“이 녀석은 다른 새를 잡아먹기도 하고 드레이크 새끼와 드레이크를 잡아먹기도 해. 눈앞에 날아다니는 것은 뭐든 잡아먹는다고 할 수 있지.”
+—쑨의 비행단장 아미라]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[«Она охотится на других птиц. И драконышей. И дрейков. Практически все, что попадается ей на пути, становится ее добычей».
+— Амира, небесный капитан из Туна]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[“Ele se alimenta de pássaros. E de dragonitos. E de dragonetes. Praticamente qualquer coisa que cruzar seu caminho serve de caça.”
+— Amira, capitã celeste de Thune]]></LOCALISED_TEXT>
   </FLAVOURTEXT>
   <TYPE metaname="Creature" />
   <SUB_TYPE metaname="Bird" />
@@ -60,14 +60,14 @@
   </STATIC_ABILITY>
   <STATIC_ABILITY filter_zone="ZONE_IN_PLAY">
     <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Welkin Tern can block only creatures with flying.]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Welkin Tern can block only creatures with flying.]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Welkin Tern can block only creatures with flying.]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Welkin Tern can block only creatures with flying.]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Welkin Tern can block only creatures with flying.]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[Welkin Tern can block only creatures with flying.]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[Welkin Tern can block only creatures with flying.]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Welkin Tern can block only creatures with flying.]]></LOCALISED_TEXT>
-    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Welkin Tern can block only creatures with flying.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[La Sterna del Cielo può bloccare solo creature con volare.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Die Himmelsschwalbe kann nur fliegende Kreaturen blocken.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[La Sterne des nues ne peut bloquer que les créatures avec le vol.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[La Golondrina del firmamento puede bloquear sólo criaturas con la habilidad de volar.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[天空のアジサシは飛行を持つクリーチャーのみをブロックできる。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[창공의 제비갈매기는 비행 능력을 가진 생물만을 방어할 수 있다.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Небесная Крачка может блокировать только существа с Полетом.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Carrago Celeste só pode bloquear criaturas com voar.]]></LOCALISED_TEXT>
 	<CONTINUOUS_ACTION>
     Object():GetCurrentCharacteristics():CanOnlyBlock_Set( EVASION_INDEX_FLYING )
     </CONTINUOUS_ACTION>

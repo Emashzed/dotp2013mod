@@ -51,15 +51,10 @@
     <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Вы получаете 1 жизнь за каждую землю под вашим контролем.]]></LOCALISED_TEXT>
     <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Você ganha 1 ponto de vida para cada terreno que controla.]]></LOCALISED_TEXT>
     <RESOLUTION_TIME_ACTION>
-    local filter = Object():GetFilter()
-    filter:Clear()
-    filter:SetZone( ZONE_IN_PLAY )
-    filter:AddCardType( CARD_TYPE_LAND )
-    filter:NotTargetted()
-    filter:SetController( EffectController() )
-    local lifeGain = filter:Count()
+    local lifeGain = CountCardsTypeZonePlayer( CARD_TYPE_LAND, ZONE_IN_PLAY, EffectController() )
+	
     if lifeGain &gt; 0 then
-    	EffectController():GainLife( lifeGain * 1)
+    	EffectController():GainLife( lifeGain )
     end
     </RESOLUTION_TIME_ACTION>
     <SFX text="CASTER_BUFF_PLAY" />
