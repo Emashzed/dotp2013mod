@@ -1,0 +1,75 @@
+﻿<?xml version='1.0'?>
+<CARD_V2>
+  <FILENAME text="GROUND_SEAL_M13_176" />
+  <CARDNAME text="GROUND_SEAL" />
+  <TITLE>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Ground Seal]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Sigillo Terreno]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Bodensiegel]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Sceau cthonien]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Sello terrestre]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[地の封印]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[대지의 봉인]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Печать Земли]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Selo da Terra]]></LOCALISED_TEXT>
+  </TITLE>
+  <MULTIVERSEID value="M13_176" />
+  <ARTID value="M13_176" />
+  <ARTIST name="Charles Urbach" />
+  <CASTING_COST cost="{1}{G}" />
+  <FLAVOURTEXT>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[“Let all we have buried be buried forever.”
+—Seton, centaur druid]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[“Lasciamo che tutto ciò che abbiamo sepolto resti sepolto per sempre.”
+—Seton, druido centauro]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[„Mögen alle, die wir begraben haben, auf ewig begraben bleiben.”
+—Seton, Zentauren-Druide]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[« Que ceux qui sont enterrés le restent à jamais. »
+—Selton, druide centaure]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[“Que todo lo que hemos enterrado esté enterrado eternamente.”
+—Seton, druida centauro]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[「我らの所有物はすべて地に埋め、永遠に放置するのだ。」
+――ケンタウルスのドルイド、シートン]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[“묻힌 것들은 영원히 묻혀 있기를.” —켄타우로스 드루이드 시튼]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[«Пусть все, кого мы похороним, будут похоронены навеки».
+— Сетон, кентавр-друид]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[“Que todos os que nós enterramos fiquem enterrados para sempre.”
+— Seton, druida centauro]]></LOCALISED_TEXT>
+  </FLAVOURTEXT>
+  <TYPE metaname="Enchantment" />
+  <EXPANSION value="M13" />
+  <RARITY metaname="R" />
+  <TRIGGERED_ABILITY auto_skip="1" filter_zone="ZONE_IN_PLAY">
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[When Ground Seal enters the battlefield, draw a card.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Quando il Sigillo Terreno entra nel campo di battaglia, pesca una carta.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Wenn das Bodensiegel ins Spiel kommt, ziehe eine Karte.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Quand le Sceau cthonien arrive sur le champ de bataille, piochez une carte.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Cuando el Sello terrestre entre al campo de batalla, roba una carta.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[地の封印が戦場に出たとき、カードを１枚引く。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[대지의 봉인이 전장에 들어올 때, 카드 한 장을 뽑는다.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Когда Печать Земли выходит на поле битвы, возьмите карту.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Quando Selo da Terra entrar em jogo, compre um card.]]></LOCALISED_TEXT>
+	<TRIGGER value="ZONECHANGE_END" simple_qualifier="self" to_zone="ZONE_IN_PLAY" />
+    <RESOLUTION_TIME_ACTION>
+    local NumCards = 1
+    while (NumCards &gt; 0) do
+    	NumCards = NumCards - 1
+    	EffectController():DrawCard()
+    end
+    </RESOLUTION_TIME_ACTION>
+  </TRIGGERED_ABILITY>
+  <TRIGGERED_ABILITY internal="1" pre_trigger="1">
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Cards in graveyards can’t be the  targets of spells or abilities.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Le carte nei cimiteri non possono essere bersaglio di magie o abilità.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Karten in Friedhöfen können nicht das Ziel von Zaubersprüchen oder Fähigkeiten sein.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Les cartes des cimetières ne peuvent pas être la cible de sorts ou de capacités.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Las cartas de los cementerios no pueden ser objetivo de hechizos o habilidades.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[墓地にあるカードは呪文や能力の対象にならない。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[무덤에 있는 카드는 주문이나 능력의 목표로 정해질 수 없다.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Карты на кладбищах не могут быть целями заклинаний или способностей.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Os cards nos cemitérios não podem ser alvo de mágicas nem de habilidades.]]></LOCALISED_TEXT>
+	<TRIGGER value="CARD_CONSIDERED_FOR_TARGETTING">
+	return TriggerObject():GetZone() == ZONE_GRAVEYARD
+    </TRIGGER>
+  </TRIGGERED_ABILITY>
+</CARD_V2>

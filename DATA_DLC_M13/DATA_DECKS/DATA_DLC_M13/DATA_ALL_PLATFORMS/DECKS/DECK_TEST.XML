@@ -1,0 +1,40 @@
+<DECK personality="D13_AJANI_DEFAULT.XML" deck_box_image="D13_Garruk" deck_box_image_locked="locked" content_pack="0" always_available="true" uid="8278" preview_card="celestial_light" is_white="true" is_red="true">
+  <DECKSTATISTICS Size="1" Speed="1" Flex="1" Syn="1" />
+  <CARD name="EVOLVING_WILDS_M13_224" deckOrderId="0" />
+  <CARD name="ELIXIR_OF_IMMORTALITY_M13_204" deckOrderId="1" />
+  <CARD name="HYDROSURGE_M13_054" deckOrderId="2" />
+  <CARD name="KRAKEN_HATCHLING_M13_058" deckOrderId="3" />
+  <CARD name="KRAKEN_HATCHLING_M13_058" deckOrderId="4" />
+  <CARD name="KRAKEN_HATCHLING_M13_058" deckOrderId="5" />
+  <CARD name="SMELT_M13_149" deckOrderId="6" />
+  <CARD name="UNSUMMON_M13_075" deckOrderId="7" />
+  <CARD name="AUGUR_OF_BOLAS_M13_043" deckOrderId="8" />
+  <CARD name="AUGUR_OF_BOLAS_M13_043" deckOrderId="9" />
+  <CARD name="ESSENCE_SCATTER_M13_050" deckOrderId="10" />
+  <CARD name="FOG_BANK_M13_052" deckOrderId="11" />
+  <CARD name="NEGATE_M13_062" deckOrderId="12" />
+  <CARD name="RING_OF_EVOS_ISLE_M13_211" deckOrderId="13" />
+  <CARD name="SEARING_SPEAR_M13_147" deckOrderId="14" />
+  <CARD name="SEARING_SPEAR_M13_147" deckOrderId="15" />
+  <CARD name="SEARING_SPEAR_M13_147" deckOrderId="16" />
+  <CARD name="DIVINATION_M13_047" deckOrderId="17" />
+  <CARD name="DIVINATION_M13_047" deckOrderId="18" />
+  <CARD name="SCROLL_THIEF_M13_066" deckOrderId="19" />
+  <CARD name="SCROLL_THIEF_M13_066" deckOrderId="20" />
+  <CARD name="WIND_DRAKE_M13_080" deckOrderId="21" />
+  <CARD name="WIND_DRAKE_M13_080" deckOrderId="22" />
+  <CARD name="WIND_DRAKE_M13_080" deckOrderId="23" />
+  <CARD name="ARCHAEOMANCER_M13_041" deckOrderId="24" />
+  <CARD name="ARCHAEOMANCER_M13_041" deckOrderId="25" />
+  <CARD name="REWIND_M13_065" deckOrderId="26" />
+  <CARD name="SLEEP_M13_067" deckOrderId="27" />
+  <CARD name="TALRANDS_INVOCATION_M13_073" deckOrderId="28" />
+  <CARD name="TALRANDS_INVOCATION_M13_073" deckOrderId="29" />
+  <CARD name="TALRAND_SKY_SUMMONER_M13_072" deckOrderId="30" />
+  <CARD name="MINDCLAW_SHAMAN_M13_142" deckOrderId="31" />
+  <CARD name="MINDCLAW_SHAMAN_M13_142" deckOrderId="32" />
+  <CARD name="SWITCHEROO_M13_071" deckOrderId="33" />
+  <CARD name="TURN_TO_SLAG_M13_153" deckOrderId="34" />
+  <CARD name="HARBOR_SERPENT_M13_053" deckOrderId="35" />
+  <CARD name="SPELLTWINE_M13_068" deckOrderId="36" />
+</DECK>

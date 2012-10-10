@@ -1,0 +1,93 @@
+﻿<?xml version='1.0'?>
+<CARD_V2>
+  <FILENAME text="DURESS_M13_090" />
+  <CARDNAME text="DURESS" />
+  <TITLE>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Duress]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Costrizione]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Zwang]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Contrainte]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Coacción]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[強迫]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[구속]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Насилие]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Coagir]]></LOCALISED_TEXT>
+  </TITLE>
+  <MULTIVERSEID value="M13_090" />
+  <ARTID value="M13_090" />
+  <ARTIST name="Steven Belledin" />
+  <CASTING_COST cost="{B}" />
+  <FLAVOURTEXT>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[“Don’t worry. I’m not going to deprive you of all your secrets. Just your most precious one.” —Liliana Vess]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[“Non preoccuparti. Non ti sottrarrò tutti i tuoi segreti. Solo quello più prezioso.”
+—Liliana Vess]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[„Keine Panik. Ich werde dir nicht alle Geheimnisse entlocken. Nur das wichtigste.”
+—Liliana Vess]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[« Ne vous en faites pas. Je ne vais pas m’emparer de tous vos secrets. Seulement des plus précieux. »
+—Liliana Vess]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[“No te preocupes. No voy a despojarte de todos tus secretos. Sólo del más valioso.”
+—Liliana Vess]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[「心配しなくていいよ。お前の秘密を全部奪うつもりはない。一番大事なやつだけさ。」――リリアナ・ヴェス]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[“걱정하지 마. 너의 비밀을 전부 빼앗지는 않을 테니까. 가장 귀중한 비밀 딱 하나만 가져갈 거야.”
+—릴리아나 베스]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[«Не беспокойся. Я не собираюсь лишать тебя всех твоих секретов. Только самых ценных».
+— Лилиана Весс]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[“Não se preocupe. Eu não vou roubar todos os seus segredos. Só o mais valioso.”
+— Liliana Vess]]></LOCALISED_TEXT>
+  </FLAVOURTEXT>
+  <TYPE metaname="Sorcery" />
+  <EXPANSION value="M13" />
+  <RARITY metaname="C" />
+  <SPELL_ABILITY dangerous="1">
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Target opponent reveals his or her hand. You choose a noncreature, nonland card from it. That player discards that card.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Un avversario bersaglio rivela la sua mano. Scegli una carta non terra, non creatura da quella mano. Quel giocatore scarta quella carta.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Ein Gegner deiner Wahl zeigt die Karten auf seiner Hand offen vor. Du bestimmst eine Karte davon, die weder eine Kreatur noch ein Land ist. Dieser Spieler wirft diese Karte aus seiner Hand ab.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[L’adversaire ciblé révèle sa main. Vous y choisissez une carte non-créature, non-terrain. Ce joueur se défausse de cette carte.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[El oponente objetivo muestra su mano. Eliges de ahí una carta que no sea tierra ni criatura. Ese jugador descarta esa carta.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[対戦相手１人を対象とする。そのプレイヤーは自分の手札を公開する。あなたはその中のクリーチャーでも土地でもないカードを１枚選ぶ。そのプレイヤーはそのカードを捨てる。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[상대 한 명을 목표로 정한다. 그 플레이어는 자신의 손을 공개한다. 그 중 생물이 아니고 대지가 아닌 카드 한 장을 선택한다. 그 플레이어는 그 카드를 버린다.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Целевой оппонент показывает свою руку. Вы выбираете из нее карту, не являющуюся ни существом, ни землей. Тот игрок сбрасывает ту карту.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[O oponente alvo revela a própria mão. Você escolhe um card que não seja um terreno nem uma criatura da mão dele. Aquele jogador descarta aquele card.]]></LOCALISED_TEXT>
+	<TARGET_DEFINITION id="0">
+    local filter = Object():GetFilter()
+    filter:Clear()
+    filter:SetFilterType( FILTER_TYPE_PLAYERS + FILTER_TYPE_OPPONENTS)
+    filter:SetOwner( EffectController() )
+    filter:SetHint( HINT_ENEMY_ONLY, EffectController() )
+    </TARGET_DEFINITION>
+    <TARGET_DETERMINATION>
+    return AtLeastOneTargetFromDefinition(0)
+    </TARGET_DETERMINATION>
+    <PLAY_TIME_ACTION target_choosing="1">
+    EffectController():ChooseTarget( 0, "CARD_QUERY_CHOOSE_PLAYER", EffectDC():Make_Targets(0) )
+    </PLAY_TIME_ACTION>
+    <RESOLUTION_TIME_ACTION>
+    local target = EffectDC():Get_Targets(0):Get_PlayerPtr(0)
+    if target ~= nil then
+    	target:RevealHand()
+    end
+    </RESOLUTION_TIME_ACTION>
+    <RESOLUTION_TIME_ACTION>
+    local player = EffectDC():Get_Targets(0):Get_PlayerPtr(0)
+    local filter = Object():GetFilter()    
+    if player ~= nil then    
+    	filter:Clear()    
+    	filter:SetPlayer( player )    
+    	filter:SetZone( ZONE_HAND ) 
+		filter:AddExtra( FILTER_EXTRA_FLIP_CARD_TYPES )
+		filter:AddCardType( CARD_TYPE_CREATURE )
+		filter:AddCardType( CARD_TYPE_LAND )
+    	filter:SetHint( HINT_ENEMY, EffectController() )		
+    	filter:NotTargetted()      
+    	EffectController():SetTargetCount( 1 )    
+    	EffectController():ChooseTarget( NO_VALIDATION, "CARD_QUERY_CHOOSE_CARD_TO_DISCARD", EffectDC():Make_Targets(1))    
+    end
+    </RESOLUTION_TIME_ACTION>
+    <RESOLUTION_TIME_ACTION>
+    local target_card = EffectDC():Get_Targets(1):Get_CardPtr(0)
+    if target_card ~= nil then
+    	target_card:Discard()
+    end
+    </RESOLUTION_TIME_ACTION>
+  </SPELL_ABILITY>
+</CARD_V2>

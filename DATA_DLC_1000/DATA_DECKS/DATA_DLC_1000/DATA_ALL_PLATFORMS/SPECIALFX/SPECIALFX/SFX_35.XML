@@ -1,0 +1,15 @@
+<SFXSpecialFX>
+  <SpecialFX name="TARGET_PESTS_PLAY" playfromgraveyard="1">
+    <Emitter name="default_resolving" watchStackForEnd="1" dontAddEndTurnTrigger="1" finishTime="0.97" sound="Sounds\default_resolving" start="STACK_PUSHED" />
+    <Emitter name="pests_4_A" waitToFinish="1" highDecay="True" highStrength="0.5f" highDuration="2" rumbleTarget="ATTACKER_AND_VICTIM" sound="Sounds\Black_Large" start="SPELL_RESOLVED" />
+    <Emitter name="pests_4_T" playOnTarget="1" SpecialSpecialEffect="1" start="SPELL_RESOLVED" />
+  </SpecialFX>
+  <SpecialFX name="COMBAT_FLAME_LARGE_ATTACK">
+    <Emitter name="flame_4_T" waitToFinish="1" playOnTarget="1" start="COMBAT_DAMAGE_PUSHED" watchStackForMove="1" />
+    <Emitter name="flame_4_A" waitToFinish="1" highDecay="True" highStrength="0.5f" highDuration="2" rumbleTarget="ATTACKER_AND_VICTIM" sound="Sounds\Flames_Large" start="COMBAT_DAMAGE_PUSHED" watchStackForMove="1" />
+  </SpecialFX>
+  <SpecialFX name="COMBAT_FLAME_SMALL_ATTACK">
+    <Emitter name="flame_1_T" waitToFinish="1" playOnTarget="1" start="COMBAT_DAMAGE_PUSHED" watchStackForMove="1" />
+    <Emitter name="flame_1_A" waitToFinish="1" highDecay="True" highStrength="0.5f" highDuration="2" rumbleTarget="ATTACKER_AND_VICTIM" sound="Sounds\Flames_Small" start="COMBAT_DAMAGE_PUSHED" watchStackForMove="1" />
+  </SpecialFX>
+</SFXSpecialFX>

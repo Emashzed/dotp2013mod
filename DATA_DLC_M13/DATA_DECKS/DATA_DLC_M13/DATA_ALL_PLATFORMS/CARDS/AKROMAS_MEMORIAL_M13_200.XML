@@ -1,0 +1,86 @@
+<?xml version='1.0'?>
+<CARD_V2>
+  <FILENAME text="AKROMAS_MEMORIAL_M13_200" />
+  <CARDNAME text="AKROMAS_MEMORIAL" />
+  <TITLE>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Akroma's Memorial]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Mémorial d'Akroma]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Monumento a Akroma]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Akromas Denkmal]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Ricordo di Akroma]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[アクローマの記念碑]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[아크로마의 기념비]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Мемориал Акромы]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Memorial de Akroma]]></LOCALISED_TEXT>
+  </TITLE>
+  <MULTIVERSEID value="M13_200" />
+  <ARTID value="M13_200" />
+  <ARTIST name="Dan Scott" />
+  <CASTING_COST cost="{7}" />
+  <FLAVOURTEXT>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[“No rest. No mercy. No matter what.”
+—Memorial inscription]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[« Pas de repos. Pas de pitié. Pas de questions. »
+—Inscription du mémorial]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[“Sin descanso. Sin misericordia. Sin importar lo que pase.”
+—Inscripción del monumento]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[„Keine Pause. Keine Gnade. Keine Ausreden.“
+—Denkmalinschrift]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[“Nessun riposo. Nessuna pietà. Nessuna eccezione.”
+—Iscrizione celebrativa]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[「休息も慈悲も与えぬ。何があってもだ。」
+—碑文]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[“휴식도 없고 자비도 없다. 어떤 경우에도.”
+—기념비 비문]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[«Без устали. Без пощады. Без тени сомнения».
+— Мемориальная надпись]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[“Sem descanso. Sem piedade. Não importa o que aconteça.”
+— Inscrição do memorial]]></LOCALISED_TEXT>
+  </FLAVOURTEXT>
+  <SUPERTYPE metaname="Legendary" />
+  <TYPE metaname="Artifact" />
+  <EXPANSION value="M13" />
+  <RARITY metaname="M" />
+  <STATIC_ABILITY filter_zone="ZONE_IN_PLAY">
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Creatures you control have flying, first strike, vigilance, trample, haste, and protection from black and from red.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Les créatures que vous contrôlez ont le vol, l'initiative, la vigilance, le piétinement, la célérité, la protection contre le noir et la protection contre le rouge.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Las criaturas que controlas tienen las habilidades de volar, dañar primero, vigilancia, arrollar, prisa, protección contra negro y protección contra rojo.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Kreaturen, die du kontrollierst, haben Flugfähigkeit, Erstschlag, Wachsamkeit, Trampelschaden, Eile, Schutz vor Schwarz und Schutz vor Rot.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Le creature che controlli hanno volare, attacco improvviso, cautela, travolgere, rapidità e protezione dal nero e dal rosso.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[あなたがコントロールするクリーチャーは、飛行と先制攻撃と警戒とトランプルと速攻とプロテクション（黒）とプロテクション（赤）を持つ。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[당신이 조종하는 생물들은 비행, 선제공격, 경계, 돌진, 신속 및 흑색과 적색으로부터 보호 능력을 가진다.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Существа под вашим контролем имеют Полет, Первый удар, Бдительность, Пробивной удар, Ускорение и Защиту от черного и от красного.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[As criaturas que você controla têm voar, iniciativa, vigilância, atropelar, ímpeto, proteção contra o preto e proteção contra o vermelho.]]></LOCALISED_TEXT>
+    <FILTER>
+    return CreaturesYouControl()
+    </FILTER>
+    <CONTINUOUS_ACTION layer="6">
+    local filtered_obj = FilteredCard()
+    if filtered_obj ~= nil then
+		filtered_obj:GetCurrentCharacteristics():Characteristic_Set( CHARACTERISTIC_FLYING, 1 )
+		filtered_obj:GetCurrentCharacteristics():Characteristic_Set( CHARACTERISTIC_FIRST_STRIKE, 1 )
+		filtered_obj:GetCurrentCharacteristics():Characteristic_Set( CHARACTERISTIC_VIGILANCE, 1 )
+		filtered_obj:GetCurrentCharacteristics():Characteristic_Set( CHARACTERISTIC_TRAMPLE, 1 )
+    	filtered_obj:GetCurrentCharacteristics():Characteristic_Set( CHARACTERISTIC_HASTE, 1 )
+    end
+    </CONTINUOUS_ACTION>
+	<CONTINUOUS_ACTION layer="6">
+    local filtered_obj = FilteredCard()
+    if filtered_obj ~= nil then
+    	local filter = Object():GetFilter()
+    	filter:Clear()
+    	filter:AddColour( COLOUR_BLACK )
+		filter:AddColour( COLOUR_RED )
+    	filtered_obj:Protection()
+    end
+    </CONTINUOUS_ACTION>
+  </STATIC_ABILITY>
+  <HELP title="MORE_INFO_BADGE_TITLE_0" body="MORE_INFO_BADGE_BODY_0" zone="ZONE_ANY" />
+  <HELP title="MORE_INFO_BADGE_TITLE_1" body="MORE_INFO_BADGE_BODY_1" zone="ZONE_ANY" />
+  <HELP title="MORE_INFO_BADGE_TITLE_10" body="MORE_INFO_BADGE_BODY_10" zone="ZONE_ANY" />
+  <HELP title="MORE_INFO_BADGE_TITLE_13" body="MORE_INFO_BADGE_BODY_13" zone="ZONE_ANY" />
+  <HELP title="MORE_INFO_BADGE_TITLE_14" body="MORE_INFO_BADGE_BODY_14" zone="ZONE_ANY" />
+  <HELP title="MORE_INFO_PROTECTION_BLACK_TITLE" body="MORE_INFO_PROTECTION_BLACK_BODY" zone="ZONE_IN_PLAY" zone_reverse="1" />
+  <HELP title="MORE_INFO_PROTECTION_RED_TITLE" body="MORE_INFO_PROTECTION_RED_BODY" zone="ZONE_IN_PLAY" zone_reverse="1" />
+  <AI_BASE_SCORE score="1000" zone="ZONE_IN_PLAY" />
+</CARD_V2>

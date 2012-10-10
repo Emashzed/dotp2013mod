@@ -1,0 +1,86 @@
+﻿<?xml version='1.0'?>
+<CARD_V2>
+  <FILENAME text="KINDLED_FURY_M13_137" />
+  <CARDNAME text="KINDLED_FURY" />
+  <TITLE>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Kindled Fury]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Furia Infuocata]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Entzündete Wut]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Fureur embrasée]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Furia encendida]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[火をつける怒り]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[점화된 분노]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Вспыхнувшая Ярость]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Fúria Inflamada]]></LOCALISED_TEXT>
+  </TITLE>
+  <MULTIVERSEID value="M13_137" />
+  <ARTID value="M13_137" />
+  <ARTIST name="Wayne Reynolds" />
+  <CASTING_COST cost="{R}" />
+  <FLAVOURTEXT>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[“Rage is a dangerous weapon. Your enemies will try to use your anger against you. Use it against them first.”
+—Ajani Goldmane]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[“La rabbia è un’arma pericolosa. I tuoi nemici tenteranno di usare la tua ira contro di te. Usala per primo contro di loro.”
+—Ajani Criniera D’Oro]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[„Zorn ist eine gefährliche Waffe. Deine Feinde werden versuchen, deine Wut gegen dich zu verwenden. Lasse sie lieber an ihnen aus.”
+—Ajani Goldmähne]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[« La rage est une arme dangereuse. Tes ennemis essaieront de retourner ta propre colère contre toi. Devance-les. »
+—Ajani Crinièredor]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[“La ira es un arma peligrosa. Tus enemigos intentarán usar tu furia contra ti. Úsala contra ellos antes.”
+—Ajani Melena Dorada]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[「怒りは危険な武器だ。敵はお前の怒りがお前に向かうようにしてくるだろう。まず奴らに対して使うことだ。」
+――黄金のたてがみのアジャニ]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[“분노는 아주 위험한 무기라네. 적들은 자네의 분노를 이용해서 자네를 무너뜨리려 할 것이네. 그러기 전에 그들에게 자네의 분노를 선사해야 하네.”
+—아자니 골드메인]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[«Ярость — опасное оружие. Враги попытаются использовать твой гнев против тебя, так что направь его против них первым».
+— Златогривый Аджани]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[“A ira é uma arma perigosa. Seus inimigos tentarão usar a sua própria raiva contra você. Use-a contra eles primeiro.”
+— Ajani Juba D’ouro]]></LOCALISED_TEXT>
+  </FLAVOURTEXT>
+  <TYPE metaname="Instant" />
+  <EXPANSION value="M13" />
+  <RARITY metaname="C" />
+  <SPELL_ABILITY filter_zone="ZONE_IN_PLAY">
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Target creature gets +1/+0 and gains first strike until end of turn.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Una creatura bersaglio prende +1/+0 e ha attacco improvviso fino alla fine del turno.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Eine Kreatur deiner Wahl erhält +1/+0 und Erstschlag bis zum Ende des Zuges.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[La créature ciblée gagne +1/+0 et acquiert l’initiative jusqu’à la fin du tour.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[La criatura objetivo obtiene +1/+0 y gana la habilidad de dañar primero hasta el final del turno.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[クリーチャー１体を対象とする。それはターン終了時まで＋１/＋０の修整を受けるとともに先制攻撃を得る。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[생물 한 개를 목표로 정한다. 그 생물은 턴종료까지 +1/+0을 받고 선제공격 능력을 얻는다.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Целевое существо получает +1/+0 и Первый удар до конца хода.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[A criatura alvo recebe +1/+0 e ganha iniciativa até o final do turno.]]></LOCALISED_TEXT>
+    <TARGET_DEFINITION id="0">
+    local filter = Object():GetFilter()
+    filter:Clear()
+    filter:AddCardType( CARD_TYPE_CREATURE )
+    filter:SetZone( ZONE_IN_PLAY )
+    filter:SetHint( HINT_ALLIED_ONLY, EffectController() )
+    </TARGET_DEFINITION>
+    <TARGET_DETERMINATION>
+    return AtLeastOneTargetFromDefinition(0)
+    </TARGET_DETERMINATION>
+    <PLAY_TIME_ACTION target_choosing="1">
+    EffectController():ChooseTarget( 0, "CARD_QUERY_CHOOSE_CREATURE_TO_GET_1_0_AND_FIRST_STRIKE", EffectDC():Make_Targets(0) )
+    </PLAY_TIME_ACTION>
+    <CONTINUOUS_ACTION layer="7C">
+    local target = EffectDC():Get_Targets(0):Get_CardPtr(0)
+    if target ~= nil then
+    	local characteristics = target:GetCurrentCharacteristics()
+    	characteristics:Power_Add( 1 )
+    	characteristics:Toughness_Add( 0 )
+    end
+    </CONTINUOUS_ACTION>
+    <CONTINUOUS_ACTION layer="6">
+    local target = EffectDC():Get_Targets(0):Get_CardPtr(0)
+    if target ~= nil then  
+    	local characteristics = target:GetCurrentCharacteristics()
+    	characteristics:Characteristic_Set( CHARACTERISTIC_FIRST_STRIKE, 1 )
+    end
+    </CONTINUOUS_ACTION>
+    <DURATION simple_duration="UntilEOT" />
+  </SPELL_ABILITY>
+  <AI_AVAILABILITY step="declare_blockers" />
+  <HELP title="MORE_INFO_BADGE_TITLE_0" body="MORE_INFO_BADGE_BODY_0" zone="ZONE_ANY" />
+  <AI_BASE_SCORE score="350" zone="ZONE_HAND" />
+</CARD_V2>

@@ -1,0 +1,71 @@
+﻿<?xml version='1.0'?>
+<CARD_V2>
+  <FILENAME text="MASTER_OF_THE_PEARL_TRIDENT_M13_059" />
+  <CARDNAME text="MASTER_OF_THE_PEARL_TRIDENT" />
+  <TITLE>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Master of the Pearl Trident]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Signore del Tridente Perlaceo]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Meister des Perlendreizacks]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Maître du Trident de perles]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Maestro del Tridente Perlado]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[真珠三叉矛の達人]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[진주 창의 지배자]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Повелитель Жемчужного Трезубца]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Mestre do Tridente Perolado]]></LOCALISED_TEXT>
+  </TITLE>
+  <MULTIVERSEID value="M13_059" />
+  <ARTID value="M13_059" />
+  <ARTIST name="Ryan Pancoast" />
+  <CASTING_COST cost="{U}{U}" />
+  <FLAVOURTEXT>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[“Let the land dwellers know the coast is  no longer the border between our realms.  A new age of empire has begun.”]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[“Che gli abitanti della terra sappiano che le coste non sono più il confine tra i nostri regni. L’era di un nuovo impero sta sorgendo.”]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[„Lasst die Landbewohner wissen, dass die Küste nicht länger die Grenze zwischen unseren Reichen ist. Ein neues imperiales Zeitalter hat begonnen.”]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[« Faites savoir aux habitants des terres que la côte n’est plus la frontière entre nos royaumes respectifs. Une nouvelle ère commence pour notre empire. »]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[“Que los terrenales sepan que la costa ya no es la frontera entre nuestros reinos. Una nueva era del imperio ha comenzado.”]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[「地に住まいし者に知らしめよ、海岸はもはや我らの世界の境ではないと。帝国の新時代の幕開けだ。」]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[“육지의 거주민들에게 해안이 영역 사이의 경계가 되는 시대는 이제 지났음을 알려라. 새로운 제국의 시대가 열렸노라.”]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[«Пусть жители суши узнают, что берег больше не будет границей между нашими царствами. Началась новая эпоха империи».]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[“Que os moradores da terra saibam que a costa não é mais a fronteira entre nossos reinos. Uma nova era do império começou.”]]></LOCALISED_TEXT>
+  </FLAVOURTEXT>
+  <TYPE metaname="Creature" />
+  <SUB_TYPE metaname="Merfolk" order_de-DE="0" order_es-ES="1" order_fr-FR="0" order_it-IT="1" order_jp-JA="0" order_ko-KR="0" order_pt-BR="0" order_ru-RU="0" />
+  <EXPANSION value="M13" />
+  <RARITY metaname="R" />
+  <POWER value="2" />
+  <TOUGHNESS value="2" />
+  <STATIC_ABILITY filter_zone="ZONE_IN_PLAY">
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Other Merfolk creatures you control  get +1/+1 and have islandwalk.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Le altre creature Tritone che controlli prendono +1/+1 e hanno passa-Isole.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Andere Meervolk-Kreaturen, die du kontrollierst, erhalten +1/+1 und haben Inseltarnung.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Les autres créatures Ondin que vous contrôlez gagnent +1/+1 et ont la traversée des îles.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Las otras criaturas Tritón que controlas obtienen +1/+1 y tienen la habilidad de cruzar islas.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[あなたがコントロールする他のマーフォーク・クリーチャーは、＋１/＋１の修整を受けるとともに島渡りを持つ。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[당신이 조종하는 다른 인어 생물들은 +1/+1을 받고 섬잠입 능력을 가진다.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Другие существа-Мерфолки под вашим контролем получают +1/+1 и имеют Знание Островов.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[As outras criaturas do tipo Tritão que você controla recebem +1/+1 e têm travessia de ilha.]]></LOCALISED_TEXT>
+    <FILTER>
+    return OtherCreaturesInPlayYouControlOfType( CREATURE_TYPE_MERFOLK )
+    </FILTER>
+    <CONTINUOUS_ACTION layer="7C">
+    if FilteredCard() ~= nil then
+    	local characteristics = FilteredCard():GetCurrentCharacteristics()
+    	if characteristics ~= nil then
+    		characteristics:Power_Add( 1 )
+    		characteristics:Toughness_Add( 1 )
+    	end
+    end
+    </CONTINUOUS_ACTION>
+	<CONTINUOUS_ACTION layer="6">
+	if FilteredCard() ~= nil then
+    	local characteristics = FilteredCard():GetCurrentCharacteristics()
+    	if characteristics ~= nil then
+    		characteristics:Characteristic_Set( CHARACTERISTIC_ISLANDWALK, 1 )
+    	end
+    end
+    </CONTINUOUS_ACTION>
+  </STATIC_ABILITY>
+  <SFX text="COMBAT_PIERCE_LARGE_ATTACK" power_boundary_min="4" power_boundary_max="-1" />
+  <SFX text="COMBAT_PIERCE_SMALL_ATTACK" power_boundary_min="1" power_boundary_max="3" />
+  <AI_BASE_SCORE score="450" zone="ZONE_IN_PLAY" />
+</CARD_V2>

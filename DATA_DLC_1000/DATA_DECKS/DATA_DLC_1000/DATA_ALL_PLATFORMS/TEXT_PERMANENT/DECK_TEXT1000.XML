@@ -1,0 +1,592 @@
+<?xml version="1.0"?>
+<?mso-application progid="Excel.Sheet"?>
+<Workbook xmlns="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:o="urn:schemas-microsoft-com:office:office"
+ xmlns:x="urn:schemas-microsoft-com:office:excel"
+ xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:html="http://www.w3.org/TR/REC-html40">
+ <DocumentProperties xmlns="urn:schemas-microsoft-com:office:office">
+  <Author>ScrollRack D13</Author>
+  <LastAuthor>ScrollRack D13</LastAuthor>
+  <Created>1980-05-22T23:00:00Z</Created>
+  <Company>Microsoft Corporation</Company>
+  <Version>14.00</Version>
+ </DocumentProperties>
+ <OfficeDocumentSettings xmlns="urn:schemas-microsoft-com:office:office">
+  <AllowPNG/>
+ </OfficeDocumentSettings>
+ <ExcelWorkbook xmlns="urn:schemas-microsoft-com:office:excel">
+  <WindowHeight>14025</WindowHeight>
+  <WindowWidth>14025</WindowWidth>
+  <WindowTopX>1965</WindowTopX>
+  <WindowTopY>1965</WindowTopY>
+  <ProtectStructure>False</ProtectStructure>
+  <ProtectWindows>False</ProtectWindows>
+ </ExcelWorkbook>
+ <Styles>
+  <Style ss:ID="Default" ss:Name="Normal">
+   <Alignment ss:Vertical="Bottom"/>
+   <Borders/>
+   <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="11" ss:Color="#000000"/>
+   <Interior/>
+   <NumberFormat/>
+   <Protection/>
+  </Style>
+ </Styles>
+ <Worksheet ss:Name="Sheet4">
+  <Table ss:ExpandedColumnCount="12" ss:ExpandedRowCount="36" x:FullColumns="1"
+   x:FullRows="1" ss:DefaultRowHeight="15">
+   <Row>
+    <Cell><Data ss:Type="String">Ident</Data></Cell>
+    <Cell><Data ss:Type="String">Comment</Data></Cell>
+    <Cell><Data ss:Type="String">Master Text</Data></Cell>
+    <Cell><Data ss:Type="String">French</Data></Cell>
+    <Cell><Data ss:Type="String">Spanish</Data></Cell>
+    <Cell><Data ss:Type="String">German</Data></Cell>
+    <Cell><Data ss:Type="String">Italian</Data></Cell>
+    <Cell ss:Index="9"><Data ss:Type="String">Japanese</Data></Cell>
+    <Cell><Data ss:Type="String">Korean</Data></Cell>
+    <Cell><Data ss:Type="String">Russian</Data></Cell>
+    <Cell><Data ss:Type="String">Portuguese (Brazil)</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">D13_TALRAND_M13</Data></Cell>
+    <Cell><Data ss:Type="String">Deck name for Talrand intro pack</Data></Cell>
+    <Cell><Data ss:Type="String">Depths of Power</Data></Cell>
+    <Cell><Data ss:Type="String">Depths of Power</Data></Cell>
+    <Cell><Data ss:Type="String">Depths of Power</Data></Cell>
+    <Cell><Data ss:Type="String">Depths of Power</Data></Cell>
+    <Cell><Data ss:Type="String">Depths of Power</Data></Cell>
+    <Cell ss:Index="9"><Data ss:Type="String">Depths of Power</Data></Cell>
+    <Cell><Data ss:Type="String">Depths of Power</Data></Cell>
+    <Cell><Data ss:Type="String">Depths of Power</Data></Cell>
+    <Cell><Data ss:Type="String">Depths of Power</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">DECK_AZORIUS</Data></Cell>
+    <Cell><Data ss:Type="String">Deck name for Azorius deck</Data></Cell>
+    <Cell><Data ss:Type="String">Aura Servants</Data></Cell>
+    <Cell><Data ss:Type="String">Serviteurs de l'aura</Data></Cell>
+    <Cell><Data ss:Type="String">Sirvientes del aura</Data></Cell>
+    <Cell><Data ss:Type="String">Auradiener</Data></Cell>
+    <Cell><Data ss:Type="String">Servitori dell'Aura</Data></Cell>
+    <Cell ss:Index="9"><Data ss:Type="String">オーラに仕える者</Data></Cell>
+    <Cell><Data ss:Type="String">마법진의 하수인</Data></Cell>
+    <Cell><Data ss:Type="String">Слуги ауры</Data></Cell>
+    <Cell><Data ss:Type="String">Servos das Auras</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">DECK_DESCRIPTION_AZORIUS</Data></Cell>
+    <Cell><Data ss:Type="String">Description for a deck</Data></Cell>
+    <Cell><Data ss:Type="String">On the city-world of Ravnica, the Azorius Senate creates magically binding laws to enforce peace. The “Aura Servants” deck uses Auras to improve the strength and ferocity of its creatures. Endlessly customize your forces with different magical enhancements!</Data></Cell>
+    <Cell><Data ss:Type="String">Sur le monde-cité de Ravnica, le Sénat d'Azorius crée des lois magiques pour faire régner la paix. Le deck «&#160;Serviteurs d'aura&#160;» utilise les auras pour améliorer la force et la férocité de ses créatures. Personnalisez vos forces à loisir avec des améliorations magiques différentes&#160;!</Data></Cell>
+    <Cell><Data ss:Type="String">En el mundo-ciudad de Rávnica, el Senado azorio crea leyes mágicamente vinculantes para reforzar la paz. El mazo &quot;Sirvientes del aura&quot; utiliza auras para mejorar la fuerza y la ferocidad de sus criaturas. ¡Personaliza tus fuerzas hasta el infinito con diferentes mejoras mágicas! </Data></Cell>
+    <Cell><Data ss:Type="String">In der weltumspannenden Stadt von Ravnica schafft der Azorius-Senat magisch bindende Gesetze, um den Frieden durchzusetzen. Das „Auradiener“-Deck nutzt Auren, um die Stärke und Wildheit der Kreaturen zu verbessern. Passe deine Truppen mithilfe unterschiedlicher magischer Verbesserungen nach Herzenslust an! </Data></Cell>
+    <Cell><Data ss:Type="String">Nella città-mondo di Ravnica, il Senato Azorius crea leggi per imporre la pace, e le fa rispettare con la magia. Il mazzo &quot;Servitori dell'Aura&quot; usa le Aure per aumentare la forza e la ferocia delle sue creature. Personalizza continuamente le tue forze con ogni sorta di potenziamenti magici!</Data></Cell>
+    <Cell ss:Index="9"><Data ss:Type="String">都市世界ラヴニカでは、平和を強制する魔法的拘束力のある法をアゾリウス評議会が作成しています。「オーラに仕える者」デッキは、クリーチャーを強化し勇猛にするオーラを用います。さまざまな魔法強化によって、あなたの軍隊を無限にカスタマイズしてください！ </Data></Cell>
+    <Cell><Data ss:Type="String">차원 전체가 도시인 라브니카. 아조리우스 상원은 마법적 구속력이 있는 법을 제정해 이곳의 평화를 수호합니다. &quot;마법진의 수하&quot; 덱은 마법진을 사용해 생물의 힘과 야성을 강화시킵니다. 여러 가지 강화 주문으로 자신만의 강력한 군대를 만드십시오!</Data></Cell>
+    <Cell><Data ss:Type="String">В Равнике сенат Азориусов издает магические законы, укрепляя мир. Колода «Слуги ауры» использует Ауры, чтобы повысить силу и ярость своих существ.</Data></Cell>
+    <Cell><Data ss:Type="String">Na cidade-mundo de Ravnica, o Senado Azorius cria leis mágicas que garantem a paz. O deck &quot;Servos das Auras&quot; utiliza Auras para aumentar a força e a ferocidade de suas criaturas. Personalize suas forças infinitamente com diferentes aprimoramentos mágicos!</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">DECK_DESCRIPTION_GOLGARI</Data></Cell>
+    <Cell><Data ss:Type="String">Description for a deck</Data></Cell>
+    <Cell><Data ss:Type="String">The city-world of Ravnica relies on the black- and green-aligned Golgari Swarm to oversee the messier aspects of life and death. The “Sepulchral Strength” deck harnesses the power of death for its own purposes. Sap vitality from enemy creatures and add it to your own en route to crushing all opposition!</Data></Cell>
+    <Cell><Data ss:Type="String">Le monde-cité de Ravnica dépend de l'Essaim Golgari noir et vert pour gérer les aspects les moins ragoûtants de la vie et de la mort. Le deck «&#160;Force sépulcrale&#160;» maîtrise le pouvoir de la mort à ses propres desseins. Absorbez la vitalité des créatures ennemies et ajoutez-la aux vôtres dans une quête visant à écraser toute opposition&#160;!</Data></Cell>
+    <Cell><Data ss:Type="String">El mundo-ciudad de Rávnica depende del Enjambre golgari, alineado con los colores negro y verde, para supervisar los aspectos más truculentos de la vida y la muerte. El mazo &quot;Fuerza sepulcral&quot; utiliza el poder de la muerte para sus propios propósitos. ¡Roba vitalidad a las criaturas enemigas y añádesela a las tuyas para aplastar a tus oponentes! </Data></Cell>
+    <Cell><Data ss:Type="String">Die Stadtwelt von Ravnica überlässt es dem schwarz und grün ausgerichteten Golgari-Schwarm, sich um die unschönen Aspekte von Lebens und Tod zu kümmern. Das „Grabesstärke“-Deck nutzt die Macht des Todes für seine eigenen Zwecke. Sauge die Lebenskraft aus den feindlichen Kreaturen und füge sie im Kampf gegen deine Gegner deiner eigenen hinzu! </Data></Cell>
+    <Cell><Data ss:Type="String">La città-mondo di Ravnica si affida allo Sciame Golgari, allineato con il nero e il verde, per governare il caos dei cicli di vita e di morte. Il mazzo &quot;Forza Sepolcrale&quot; imbriglia il potere della morte per i propri scopi. Estrai vitalità dalle creature del nemico e accresci la tua riserva di energia mentre schiacci ogni opposizione!</Data></Cell>
+    <Cell ss:Index="9"><Data ss:Type="String">都市世界ラヴニカでは、黒と緑の力を操るゴルガリ団が生と死の複雑な部分を取り仕切っています。「墓石の力」デッキは、目的達成のために死の力を用います。敵のクリーチャーから生命力を吸い取って自分のものにし、すべての敵を打ち砕きましょう！ </Data></Cell>
+    <Cell><Data ss:Type="String">흑색과 녹색 마법을 다루는 골가리 무리는 차원 전체가 도시인 라브니카에서 삶과 죽음에 관련된 지저분한 일들을 처리합니다. &quot;무덤의 힘&quot; 덱은 목적을 달성하기 위해 죽음의 힘을 이용합니다. 적 생물의 생명력을 뽑아내어 스스로의 힘에 더해 상대를 짓밟으십시오!</Data></Cell>
+    <Cell><Data ss:Type="String">Город-мир Равника в наименее привлекательных вопросах жизни и смерти полагается на черно-зеленый Рой Голгари. Ваши враги останутся без сил.</Data></Cell>
+    <Cell><Data ss:Type="String">Na extensa cidade-mundo de Ravnica, os aspectos mais sujos da vida e da morte são responsabilidade do Enxame Golgari, alinhado com os manas preto e verde. O deck &quot;Força Sepulcral&quot; emprega o poder da morte para seus próprios fins. Roube a vitalidade das criaturas inimigas e adicione-a às suas no seu caminho para a aniquilação dos oponentes!</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">DECK_DESCRIPTION_IZZET</Data></Cell>
+    <Cell><Data ss:Type="String">Description for a deck</Data></Cell>
+    <Cell><Data ss:Type="String">On the city-world of Ravnica, magical research is the chief domain of the Izzet League, often with explosive results. The “Mindstorms” deck is one such result. Dangerously unstable elementals and weirds take the fight to the enemy, while lightning strikes rain destruction from above. Use the Izzet’s deadliest discoveries against your enemies!</Data></Cell>
+    <Cell><Data ss:Type="String">Sur le plan-cité de Ravnica, la recherche magique est le domaine de prédilection de la Ligue d'Izzet, souvent avec des résultats détonnants. Le deck «&#160;Cérébrorage&#160;» est l'un d'entre eux. Des élémentaux et des anomalies dangereusement instables vont combattre l'ennemi pendant que les éclairs font pleuvoir la destruction depuis le ciel. Utilisez les découvertes les plus meurtrières des Izzet contre vos ennemis&#160;!</Data></Cell>
+    <Cell><Data ss:Type="String">En el mundo-ciudad de Rávnica, la investigación mágica es el dominio principal de la Liga ízzet, a menudo con explosivos resultados. El mazo &quot;Tormentas mentales&quot; es uno de ellos. Elementales y extraños peligrosamente inestables presentan batalla al enemigo mientras los relámpagos provocan una lluvia de destrucción. ¡Utiliza los descubrimientos más letales de los ízzet contra tus enemigos! </Data></Cell>
+    <Cell><Data ss:Type="String">Auf der Stadtwelt von Ravnica ist magische Forschung die wichtigste Domäne der Izzet-Liga, häufig mit explosiven Ergebnissen. Das „Gedankenstürme“-Deck ist ein solches Ergebnis. Gefährlich instabile Elementarwesen und Seltsamkeiten nehmen den Kampf gegen den Feind auf, während von oben zerstörerische Blitze herabfahren. Setze die tödlichsten Entdeckungen von Izzet gegen deine Feinde ein! </Data></Cell>
+    <Cell><Data ss:Type="String">Sulla città-mondo di Ravnica, la ricerca magica è gestita dalla Lega Izzet, spesso con risultati esplosivi. Il mazzo &quot;Tempeste Mentali&quot; è uno di questi risultati. Elementali e bizzarrie pericolosamente instabili assaltano il nemico, mentre il fulmine colpisce e distrugge dall'alto. Usa le scoperte più mortali degli Izzet contro i tuoi nemici!</Data></Cell>
+    <Cell ss:Index="9"><Data ss:Type="String">都市世界ラヴニカでは、イゼット団の専門領域である魔法研究がしばしば過激な成果を上げています。「精神嵐」デッキはそのような成果のひとつでしょう。上空から稲妻が降りしきる中、危険なまでに不安定なエレメンタルや奇魔が敵に襲い掛かります。イゼット最凶の発見を、敵に実践してみましょう！ </Data></Cell>
+    <Cell><Data ss:Type="String">도시로 덮인 라브니카에서 마법 연구를 주된 활동 영역으로 삼는 이젯 리그는 종종 폭발적인 결과물을 만들어냅니다. &quot;정신 폭풍&quot; 덱은 그런 결과물 중 하나입니다. 위험할 정도로 불안정한 정령과 위어드가 적들과 싸우며, 하늘에서는 엄청난 파괴력의 번개가 내리칩니다. 이젯의 치명적인 발견을 적들에게 사용하십시오!</Data></Cell>
+    <Cell><Data ss:Type="String">В Равнике исследованиями магии занимается Лига Иззетов, часто с взрывоопасными результатами. В колоде «Бури разума» с врагом борются элементали и диковины.</Data></Cell>
+    <Cell><Data ss:Type="String">No mundo urbano de Ravnica, a pesquisa mágica é o objetivo principal da Liga Izzet, com resultados frequentemente explosivos. O deck &quot;Tempestades Mentais&quot; é um desses resultados. Bizarros e elementais perigosamente instáveis vão ao encontro do inimigo, enquanto raios caem dos céus, espalhando a destruição. Utilize as descobertas mais perigosas dos Izzet contra seus inimigos!</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">DECK_DESCRIPTION_RAKDOS</Data></Cell>
+    <Cell><Data ss:Type="String">Description for a deck</Data></Cell>
+    <Cell><Data ss:Type="String">On the city-world of Ravnica, the murderous members  of the Cult of Rakdos take sadistic glee in devising new methods of torture. The “Grinning Malice” deck is all about causing your opponents pain: mount an assault on their creatures, their life totals, and ultimately their sanity!</Data></Cell>
+    <Cell><Data ss:Type="String">Sur le monde-cité de Ravnica, les membres meurtriers du Culte de Rakdos éprouvent un plaisir sadique à inventer de nouvelles méthodes de torture. Le deck «&#160;Rictus malicieux&#160;» est entièrement voué à la souffrance de vos adversaires&#160;: il attaque leurs créatures, leurs totaux de points de vie et pour finir, leur santé mentale&#160;!</Data></Cell>
+    <Cell><Data ss:Type="String">En el mundo-ciudad de Rávnica, los homicidas miembros del Culto a Rakdos obtienen un sádico deleite al buscar nuevos métodos de tortura. El mazo &quot;Maldad burlona&quot; se centra en causar dolor a tus oponentes: ¡monta un asalto a sus criaturas, a sus totales de vidas y por último a su cordura! </Data></Cell>
+    <Cell><Data ss:Type="String">Auf der Stadtwelt von Ravnica haben die mörderischen Mitglieder des Kults von Rakdos sadistische Freude daran, neue Foltermethoden zu entwickeln. Im „Grinsende Bosheit“-Deck geht es einzig und allein darum, deinen Gegnern Schmerzen zuzufügen: Führe einen Sturmangriff auf ihre Kreaturen, ihre Lebenspunkte und schließlich auf ihren Verstand! </Data></Cell>
+    <Cell><Data ss:Type="String">Nella città-mondo di Ravnica, i membri omicidi del Culto di Rakdos trovano una gioia sadica nell'escogitare nuove forme di tortura. Il mazzo &quot;Rancore Sghignazzante&quot; porterà dolore ai tuoi avversari: prepara l'assalto alle loro creature, ai loro punti vita e alla loro sanità mentale!</Data></Cell>
+    <Cell ss:Index="9"><Data ss:Type="String">都市世界ラヴニカでは、残忍なラクドス教団の信者たちが新しい拷問を考え出すことに嗜虐的な悦びを見出しています。「ほくそ笑む悪意」デッキは、とにかく相手に苦痛を与えます。その容赦ない攻撃は敵のクリーチャーを、ライフ総量を、そしてついには正気をも失わせることでしょう！ </Data></Cell>
+    <Cell><Data ss:Type="String">도시로 뒤덮인 차원 라브니카의 잔혹한 락도스 집단은 새로운 고문 방법을 고안해 내는 데서 가학적인 기쁨을 느낍니다. &quot;웃음짓는 악의&quot; 덱의 목적은 상대에게 고통을 주는 것입니다. 상대의 생물과 생명 총점에서 시작해, 궁극적으로는 상대의 정신까지 공격합니다!</Data></Cell>
+    <Cell><Data ss:Type="String">В Равнике жестокие члены Культа Ракдоса наслаждаются изобретением новых методов пыток. Эта колода заставит ваших врагов корчиться от боли.</Data></Cell>
+    <Cell><Data ss:Type="String">Na cidade-mundo de Ravnica, os membros assassinos do Culto de Rakdos sentem um prazer sádico em descobrir novos métodos de tortura. O deck &quot;Sorriso Malicioso&quot; é feito para provocar dor em seu oponente. Faça investidas contra as criaturas dele, seu total de pontos de vida e, por fim, sua sanidade!</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">DECK_DESCRIPTION_SELESNYA</Data></Cell>
+    <Cell><Data ss:Type="String">Description for a deck</Data></Cell>
+    <Cell><Data ss:Type="String">On the city-world of Ravnica, the Selesnya Conclave believes in the collective power of community and combined effort. Armies of saprolings are the backbone of this deck, which seeks to overwhelm the opponent with superior numbers.</Data></Cell>
+    <Cell><Data ss:Type="String">Sur le monde-cité de Ravnica, le Conclave de Selesnya croit fermement au pouvoir collectif de la communauté et des efforts combinés. Les armées de saprobiontes sont les soldats de ce deck, qui cherche à submerger l'adversaire par la supériorité en nombre.</Data></Cell>
+    <Cell><Data ss:Type="String">En el mundo-ciudad de Rávnica, el Cónclave selesnya cree en el poder colectivo de la comunidad y el esfuerzo conjunto. Ejércitos enteros de saprolines son la espina dorsal de este mazo, que trata de subyugar al oponente mediante la superioridad numérica. </Data></Cell>
+    <Cell><Data ss:Type="String">Auf der Stadtwelt von Ravnica glaubt das Selesnija-Konklave an die kollektive Stärke der Gemeinschaft und gemeinsames Handeln. Armeen von Saprolingen sind das Rückgrat dieses Decks, das versucht, den Gegner durch zahlenmäßige Überlegenheit zu überwältigen. </Data></Cell>
+    <Cell><Data ss:Type="String">Il Conclave di Selesnya, nella città-mondo di Ravnica, crede nella forza collettiva della comunità e nei suoi sforzi combinati. Armate di saprolingi sono la spina dorsale di questo mazzo, che cerca di sopraffare l'avversario con la superiorità numerica.</Data></Cell>
+    <Cell ss:Index="9"><Data ss:Type="String">都市世界ラヴニカにおいて、セレズニア議事会は共同体の全体としての力および協調をその理念とします。苗木の軍勢を主幹とするこのデッキは、数の力で対戦相手を圧倒します。</Data></Cell>
+    <Cell><Data ss:Type="String">도시로 덮인 라브니카의 셀레스냐 교단은 집단의 힘과 협력을 신뢰합니다. 이 덱의 핵심은 월등한 숫자로 상대를 압도하는 묘목 군대입니다.</Data></Cell>
+    <Cell><Data ss:Type="String">В Равнике Конклав Селезнии верит в общее дело и силу общества. Основа этой колоды — армия сапролингов, готовая задавить врага своим числом.</Data></Cell>
+    <Cell><Data ss:Type="String">Na cidade-mundo de Ravnica, o Conclave Selesnya acredita no poder da comunidade e do esforço conjunto. Exércitos de saprófitas formam a espinha dorsal deste deck, que busca sobrepujar o oponente com a superioridade numérica.</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">DECK_DESCRIPTION_TALRAND_INTRO</Data></Cell>
+    <Cell><Data ss:Type="String">Description for a deck</Data></Cell>
+    <Cell><Data ss:Type="String">Seize the power of wind and waves with the help of legendary merfolk Talrand, Sky Summoner. While drakes assault your enemies from the skies, you manipulate the battlefield and burn immediate threats, steering the course to victory.</Data></Cell>
+    <Cell><Data ss:Type="String">Seize the power of wind and waves with the help of legendary merfolk Talrand, Sky Summoner. While drakes assault your enemies from the skies, you manipulate the battlefield and burn immediate threats, steering the course to victory.</Data></Cell>
+    <Cell><Data ss:Type="String">Seize the power of wind and waves with the help of legendary merfolk Talrand, Sky Summoner. While drakes assault your enemies from the skies, you manipulate the battlefield and burn immediate threats, steering the course to victory.</Data></Cell>
+    <Cell><Data ss:Type="String">Seize the power of wind and waves with the help of legendary merfolk Talrand, Sky Summoner. While drakes assault your enemies from the skies, you manipulate the battlefield and burn immediate threats, steering the course to victory.</Data></Cell>
+    <Cell><Data ss:Type="String">Seize the power of wind and waves with the help of legendary merfolk Talrand, Sky Summoner. While drakes assault your enemies from the skies, you manipulate the battlefield and burn immediate threats, steering the course to victory.</Data></Cell>
+    <Cell ss:Index="9"><Data ss:Type="String">Seize the power of wind and waves with the help of legendary merfolk Talrand, Sky Summoner. While drakes assault your enemies from the skies, you manipulate the battlefield and burn immediate threats, steering the course to victory.</Data></Cell>
+    <Cell><Data ss:Type="String">Seize the power of wind and waves with the help of legendary merfolk Talrand, Sky Summoner. While drakes assault your enemies from the skies, you manipulate the battlefield and burn immediate threats, steering the course to victory.</Data></Cell>
+    <Cell><Data ss:Type="String">Seize the power of wind and waves with the help of legendary merfolk Talrand, Sky Summoner. While drakes assault your enemies from the skies, you manipulate the battlefield and burn immediate threats, steering the course to victory.</Data></Cell>
+    <Cell><Data ss:Type="String">Seize the power of wind and waves with the help of legendary merfolk Talrand, Sky Summoner. While drakes assault your enemies from the skies, you manipulate the battlefield and burn immediate threats, steering the course to victory.</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">DECK_GOLGARI</Data></Cell>
+    <Cell><Data ss:Type="String">Deck name for Golgari</Data></Cell>
+    <Cell><Data ss:Type="String">Sepulchral Strength</Data></Cell>
+    <Cell><Data ss:Type="String">Force sépulcrale</Data></Cell>
+    <Cell><Data ss:Type="String">Fuerza sepulcral</Data></Cell>
+    <Cell><Data ss:Type="String">Grabesstärke</Data></Cell>
+    <Cell><Data ss:Type="String">Forza Sepolcrale</Data></Cell>
+    <Cell ss:Index="9"><Data ss:Type="String">墓石の力</Data></Cell>
+    <Cell><Data ss:Type="String">무덤에서 나오는 힘</Data></Cell>
+    <Cell><Data ss:Type="String">Могильная сила</Data></Cell>
+    <Cell><Data ss:Type="String">Força Sepulcral</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">DECK_IZZET</Data></Cell>
+    <Cell><Data ss:Type="String">Deck name for Izzet</Data></Cell>
+    <Cell><Data ss:Type="String">Mindstorms</Data></Cell>
+    <Cell><Data ss:Type="String">Tempêtes mentales</Data></Cell>
+    <Cell><Data ss:Type="String">Tormentas mentales</Data></Cell>
+    <Cell><Data ss:Type="String">Gedankenstürme</Data></Cell>
+    <Cell><Data ss:Type="String">Tempeste Mentali</Data></Cell>
+    <Cell ss:Index="9"><Data ss:Type="String">精神嵐</Data></Cell>
+    <Cell><Data ss:Type="String">정신폭풍</Data></Cell>
+    <Cell><Data ss:Type="String">Бури разума</Data></Cell>
+    <Cell><Data ss:Type="String">Tempestades Mentais</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">DECK_M13_INTRO_TALRAND</Data></Cell>
+    <Cell ss:Index="3"><Data ss:Type="String">Depths of Power</Data></Cell>
+    <Cell><Data ss:Type="String">Depths of Power</Data></Cell>
+    <Cell><Data ss:Type="String">Depths of Power</Data></Cell>
+    <Cell><Data ss:Type="String">Depths of Power</Data></Cell>
+    <Cell><Data ss:Type="String">Depths of Power</Data></Cell>
+    <Cell ss:Index="9"><Data ss:Type="String">Depths of Power</Data></Cell>
+    <Cell><Data ss:Type="String">Depths of Power</Data></Cell>
+    <Cell><Data ss:Type="String">Depths of Power</Data></Cell>
+    <Cell><Data ss:Type="String">Depths of Power</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">DECK_RAKDOS</Data></Cell>
+    <Cell><Data ss:Type="String">Deck name for Rakdos</Data></Cell>
+    <Cell><Data ss:Type="String">Grinning Malice</Data></Cell>
+    <Cell><Data ss:Type="String">Perfidie grimaçante</Data></Cell>
+    <Cell><Data ss:Type="String">Maldad burlona</Data></Cell>
+    <Cell><Data ss:Type="String">Grinsende Bosheit</Data></Cell>
+    <Cell><Data ss:Type="String">Rancore Sghignazzante</Data></Cell>
+    <Cell ss:Index="9"><Data ss:Type="String">ほくそ笑む悪意</Data></Cell>
+    <Cell><Data ss:Type="String">악의에 찬 비웃음</Data></Cell>
+    <Cell><Data ss:Type="String">Злая усмешка</Data></Cell>
+    <Cell><Data ss:Type="String">Sorriso Malicioso</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">DECK_SELESNYA</Data></Cell>
+    <Cell><Data ss:Type="String">Deck name for Selesnya</Data></Cell>
+    <Cell><Data ss:Type="String">Collective Might</Data></Cell>
+    <Cell><Data ss:Type="String">Puissance collective</Data></Cell>
+    <Cell><Data ss:Type="String">Poder colectivo</Data></Cell>
+    <Cell><Data ss:Type="String">Gesammelte Macht</Data></Cell>
+    <Cell><Data ss:Type="String">Potenza Collettiva</Data></Cell>
+    <Cell ss:Index="9"><Data ss:Type="String">力の結集</Data></Cell>
+    <Cell><Data ss:Type="String">뭉치면 산다</Data></Cell>
+    <Cell><Data ss:Type="String">Коллективная сила</Data></Cell>
+    <Cell><Data ss:Type="String">Poderio Coletivo</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">DECK_TALRAND_INTRO</Data></Cell>
+    <Cell><Data ss:Type="String">Deck name for Talrand intro pack</Data></Cell>
+    <Cell><Data ss:Type="String">Depths of Power</Data></Cell>
+    <Cell><Data ss:Type="String">Depths of Power</Data></Cell>
+    <Cell><Data ss:Type="String">Depths of Power</Data></Cell>
+    <Cell><Data ss:Type="String">Depths of Power</Data></Cell>
+    <Cell><Data ss:Type="String">Depths of Power</Data></Cell>
+    <Cell ss:Index="9"><Data ss:Type="String">Depths of Power</Data></Cell>
+    <Cell><Data ss:Type="String">Depths of Power</Data></Cell>
+    <Cell><Data ss:Type="String">Depths of Power</Data></Cell>
+    <Cell><Data ss:Type="String">Depths of Power</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">E13_AZORIUS</Data></Cell>
+    <Cell ss:Index="3"><Data ss:Type="String">Aura Servants</Data></Cell>
+    <Cell><Data ss:Type="String">Serviteurs de l'aura</Data></Cell>
+    <Cell><Data ss:Type="String">Sirvientes del aura</Data></Cell>
+    <Cell><Data ss:Type="String">Auradiener</Data></Cell>
+    <Cell><Data ss:Type="String">Servitori dell'Aura</Data></Cell>
+    <Cell ss:Index="9"><Data ss:Type="String">オーラに仕える者</Data></Cell>
+    <Cell><Data ss:Type="String">마법진의 하수인</Data></Cell>
+    <Cell><Data ss:Type="String">Слуги ауры</Data></Cell>
+    <Cell><Data ss:Type="String">Servos das Auras</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">E13_AZORIUS_PROMO_1</Data></Cell>
+    <Cell ss:Index="3"><Data ss:Type="String">E13 Azorius Promo 1</Data></Cell>
+    <Cell><Data ss:Type="String">E13 Azorius Promo 1</Data></Cell>
+    <Cell><Data ss:Type="String">E13 Azorio Promocional 1</Data></Cell>
+    <Cell><Data ss:Type="String">E13 Azorius-Promokarte 1</Data></Cell>
+    <Cell><Data ss:Type="String">E13 Azorius Promo 1</Data></Cell>
+    <Cell ss:Index="9"><Data ss:Type="String">E13 アゾリウス プロモ1</Data></Cell>
+    <Cell><Data ss:Type="String">E13 아조리우스 프로모 1</Data></Cell>
+    <Cell><Data ss:Type="String">Промо 1, Азориусы E13</Data></Cell>
+    <Cell><Data ss:Type="String">Card Promocional 1 Azorius E13</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">E13_AZORIUS_STORE</Data></Cell>
+    <Cell ss:Index="3"><Data ss:Type="String">“Aura Servants” Deck</Data></Cell>
+    <Cell><Data ss:Type="String">Deck «&#160;Serviteurs d'aura&#160;»</Data></Cell>
+    <Cell><Data ss:Type="String">Mazo &quot;Sirvientes del aura&quot;</Data></Cell>
+    <Cell><Data ss:Type="String">Deck „Auradiener“</Data></Cell>
+    <Cell><Data ss:Type="String">Mazzo “Servitori dell’Aura” </Data></Cell>
+    <Cell ss:Index="9"><Data ss:Type="String">「オーラに仕える者」デッキ</Data></Cell>
+    <Cell><Data ss:Type="String">&quot;마법진의 수하&quot; 덱 </Data></Cell>
+    <Cell><Data ss:Type="String">Колода «Слуги ауры»</Data></Cell>
+    <Cell><Data ss:Type="String">Deck “Servos das Auras”</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">E13_AZORIUS_UNLOCK_1</Data></Cell>
+    <Cell ss:Index="3"><Data ss:Type="String">E13 Azorius Unlock 1</Data></Cell>
+    <Cell><Data ss:Type="String">E13 Azorius Déverrouillage 1</Data></Cell>
+    <Cell><Data ss:Type="String">E13 Azorio Desbloqueable 1</Data></Cell>
+    <Cell><Data ss:Type="String">E13 Azorius-Freischaltung 1</Data></Cell>
+    <Cell><Data ss:Type="String">E13 Azorius Sbloccata 1</Data></Cell>
+    <Cell ss:Index="9"><Data ss:Type="String">E13 アゾリウス アンロック1</Data></Cell>
+    <Cell><Data ss:Type="String">E13 아조리우스 잠금 해제 1</Data></Cell>
+    <Cell><Data ss:Type="String">Разблокировка 1, Азориусы E13</Data></Cell>
+    <Cell><Data ss:Type="String">Desbloqueio 1 Azorius E13</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">E13_GOLGARI</Data></Cell>
+    <Cell ss:Index="3"><Data ss:Type="String">Sepulchral Strength</Data></Cell>
+    <Cell><Data ss:Type="String">Force sépulcrale</Data></Cell>
+    <Cell><Data ss:Type="String">Fuerza sepulcral</Data></Cell>
+    <Cell><Data ss:Type="String">Grabesstärke</Data></Cell>
+    <Cell><Data ss:Type="String">Forza Sepolcrale</Data></Cell>
+    <Cell ss:Index="9"><Data ss:Type="String">墓石の力</Data></Cell>
+    <Cell><Data ss:Type="String">무덤에서 나오는 힘</Data></Cell>
+    <Cell><Data ss:Type="String">Могильная сила</Data></Cell>
+    <Cell><Data ss:Type="String">Força Sepulcral</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">E13_GOLGARI_PROMO_1</Data></Cell>
+    <Cell ss:Index="3"><Data ss:Type="String">E13 Golgari Promo 1</Data></Cell>
+    <Cell><Data ss:Type="String">E13 Golgari Promo 1</Data></Cell>
+    <Cell><Data ss:Type="String">E13 Golgari Promocional 1</Data></Cell>
+    <Cell><Data ss:Type="String">E13 Golgari-Promokarte 1</Data></Cell>
+    <Cell><Data ss:Type="String">E13 Golgari Promo 1</Data></Cell>
+    <Cell ss:Index="9"><Data ss:Type="String">E13 ゴルガリ プロモ1</Data></Cell>
+    <Cell><Data ss:Type="String">E13 골가리 프로모 1</Data></Cell>
+    <Cell><Data ss:Type="String">Промо 1, Голгари E13</Data></Cell>
+    <Cell><Data ss:Type="String">Card Promocional 1 Golgari E13</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">E13_GOLGARI_STORE</Data></Cell>
+    <Cell ss:Index="3"><Data ss:Type="String">“Sepulchral Strength” Deck</Data></Cell>
+    <Cell><Data ss:Type="String">Deck «&#160;Force sépulcrale&#160;»</Data></Cell>
+    <Cell><Data ss:Type="String">Mazo &quot;Fuerza sepulcral&quot;</Data></Cell>
+    <Cell><Data ss:Type="String">Deck „Grabesstärke“</Data></Cell>
+    <Cell><Data ss:Type="String">Mazzo “Forza Sepolcrale”</Data></Cell>
+    <Cell ss:Index="9"><Data ss:Type="String">「墓石の力」デッキ</Data></Cell>
+    <Cell><Data ss:Type="String">&quot;무덤의 힘&quot; 덱 </Data></Cell>
+    <Cell><Data ss:Type="String">Колода «Могильная мощь»</Data></Cell>
+    <Cell><Data ss:Type="String">Deck “Força Sepulcral”</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">E13_GOLGARI_UNLOCK_1</Data></Cell>
+    <Cell ss:Index="3"><Data ss:Type="String">E13 Golgari Unlock 1</Data></Cell>
+    <Cell><Data ss:Type="String">E13 Golgari Déverrouillage 1</Data></Cell>
+    <Cell><Data ss:Type="String">E13 Golgari Desbloqueable 1</Data></Cell>
+    <Cell><Data ss:Type="String">E13 Golgari-Freischaltung 1</Data></Cell>
+    <Cell><Data ss:Type="String">E13 Golgari Sbloccata 1</Data></Cell>
+    <Cell ss:Index="9"><Data ss:Type="String">E13 ゴルガリ アンロック1</Data></Cell>
+    <Cell><Data ss:Type="String">E13 골가리 잠금 해제 1</Data></Cell>
+    <Cell><Data ss:Type="String">Разблокировка 1, Голгари E13</Data></Cell>
+    <Cell><Data ss:Type="String">Desbloqueio 1 Golgari E13</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">E13_IZZET</Data></Cell>
+    <Cell ss:Index="3"><Data ss:Type="String">Mindstorms</Data></Cell>
+    <Cell><Data ss:Type="String">Tempêtes mentales</Data></Cell>
+    <Cell><Data ss:Type="String">Tormentas mentales</Data></Cell>
+    <Cell><Data ss:Type="String">Gedankenstürme</Data></Cell>
+    <Cell><Data ss:Type="String">Tempeste Mentali</Data></Cell>
+    <Cell ss:Index="9"><Data ss:Type="String">精神嵐</Data></Cell>
+    <Cell><Data ss:Type="String">정신폭풍</Data></Cell>
+    <Cell><Data ss:Type="String">Бури разума</Data></Cell>
+    <Cell><Data ss:Type="String">Tempestades Mentais</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">E13_IZZET_PROMO_1</Data></Cell>
+    <Cell ss:Index="3"><Data ss:Type="String">E13 Izzet Promo 1</Data></Cell>
+    <Cell><Data ss:Type="String">E13 Izzet Promo 1</Data></Cell>
+    <Cell><Data ss:Type="String">E13 Ízzet Promocional 1</Data></Cell>
+    <Cell><Data ss:Type="String">E13 Izzet-Promokarte 1</Data></Cell>
+    <Cell><Data ss:Type="String">E13 Izzet Promo 1</Data></Cell>
+    <Cell ss:Index="9"><Data ss:Type="String">E13 イゼット プロモ1</Data></Cell>
+    <Cell><Data ss:Type="String">E13 이젯 프로모 1</Data></Cell>
+    <Cell><Data ss:Type="String">Промо 1, Иззеты E13</Data></Cell>
+    <Cell><Data ss:Type="String">Card Promocional 1 Izzet E13</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">E13_IZZET_STORE</Data></Cell>
+    <Cell ss:Index="3"><Data ss:Type="String">“Mindstorms” Deck</Data></Cell>
+    <Cell><Data ss:Type="String">Deck «&#160;Cérébrorage&#160;»</Data></Cell>
+    <Cell><Data ss:Type="String">Mazo “Tormentas mentales”</Data></Cell>
+    <Cell><Data ss:Type="String">Deck „Gedankenstürme“</Data></Cell>
+    <Cell><Data ss:Type="String">Mazzo “Tempeste Mentali” </Data></Cell>
+    <Cell ss:Index="9"><Data ss:Type="String">「精神嵐」デッキ</Data></Cell>
+    <Cell><Data ss:Type="String">&quot;정신폭풍&quot; 덱</Data></Cell>
+    <Cell><Data ss:Type="String">Колода «Бури разума»</Data></Cell>
+    <Cell><Data ss:Type="String">Deck “Tempestades Mentais” </Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">E13_IZZET_UNLOCK_1</Data></Cell>
+    <Cell ss:Index="3"><Data ss:Type="String">E13 Izzet Unlock 1</Data></Cell>
+    <Cell><Data ss:Type="String">E13 Izzet Déverrouillage 1</Data></Cell>
+    <Cell><Data ss:Type="String">E13 Ízzet Desbloqueable 1</Data></Cell>
+    <Cell><Data ss:Type="String">E13 Izzet-Freischaltung 1</Data></Cell>
+    <Cell><Data ss:Type="String">E13 Izzet Sbloccata 1</Data></Cell>
+    <Cell ss:Index="9"><Data ss:Type="String">E13 イゼット アンロック1</Data></Cell>
+    <Cell><Data ss:Type="String">E13 이젯 잠금 해제 1</Data></Cell>
+    <Cell><Data ss:Type="String">Разблокировка 1, Иззеты E13</Data></Cell>
+    <Cell><Data ss:Type="String">Desbloqueio 1 Izzet E13</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">E13_RAKDOS</Data></Cell>
+    <Cell ss:Index="3"><Data ss:Type="String">Grinning Malice</Data></Cell>
+    <Cell><Data ss:Type="String">Perfidie grimaçante</Data></Cell>
+    <Cell><Data ss:Type="String">Maldad burlona</Data></Cell>
+    <Cell><Data ss:Type="String">Grinsende Bosheit</Data></Cell>
+    <Cell><Data ss:Type="String">Rancore Sghignazzante</Data></Cell>
+    <Cell ss:Index="9"><Data ss:Type="String">ほくそ笑む悪意</Data></Cell>
+    <Cell><Data ss:Type="String">악의에 찬 비웃음</Data></Cell>
+    <Cell><Data ss:Type="String">Злая усмешка</Data></Cell>
+    <Cell><Data ss:Type="String">Sorriso Malicioso</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">E13_RAKDOS_PROMO_1</Data></Cell>
+    <Cell ss:Index="3"><Data ss:Type="String">E13 Rakdos Promo 1</Data></Cell>
+    <Cell><Data ss:Type="String">E13 Radkos Promo 1</Data></Cell>
+    <Cell><Data ss:Type="String">E13 Rakdos Promocional 1</Data></Cell>
+    <Cell><Data ss:Type="String">E13 Rakdos-Promokarte 1</Data></Cell>
+    <Cell><Data ss:Type="String">E13 Rakdos Promo 1</Data></Cell>
+    <Cell ss:Index="9"><Data ss:Type="String">E13 ラクドス プロモ1</Data></Cell>
+    <Cell><Data ss:Type="String">E13 락도스 프로모 1</Data></Cell>
+    <Cell><Data ss:Type="String">Промо 1, Ракдосы E13</Data></Cell>
+    <Cell><Data ss:Type="String">Card Promocional 1 Rakdos E13</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">E13_RAKDOS_STORE</Data></Cell>
+    <Cell ss:Index="3"><Data ss:Type="String">“Grinning Malice” Deck</Data></Cell>
+    <Cell><Data ss:Type="String">Deck «&#160;Rictus malicieux&#160;»</Data></Cell>
+    <Cell><Data ss:Type="String">Mazo &quot;Maldad burlona&quot;</Data></Cell>
+    <Cell><Data ss:Type="String">Deck „Grinsende Bosheit“</Data></Cell>
+    <Cell><Data ss:Type="String">Mazzo “Rancore Sghignazzante”</Data></Cell>
+    <Cell ss:Index="9"><Data ss:Type="String">「ほくそ笑む悪意」デッキ</Data></Cell>
+    <Cell><Data ss:Type="String">&quot;웃음짓는 악의&quot; 덱 열쇠</Data></Cell>
+    <Cell><Data ss:Type="String">Колода «Усмешка зла»</Data></Cell>
+    <Cell><Data ss:Type="String">Deck “Sorriso Malicioso” </Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">E13_RAKDOS_UNLOCK_1</Data></Cell>
+    <Cell ss:Index="3"><Data ss:Type="String">E13 Rakdos Unlock 1</Data></Cell>
+    <Cell><Data ss:Type="String">E13 Rakdos Déverrouillage 1</Data></Cell>
+    <Cell><Data ss:Type="String">E13 Rakdos Desbloqueable 1</Data></Cell>
+    <Cell><Data ss:Type="String">E13 Rakdos-Freischaltung 1</Data></Cell>
+    <Cell><Data ss:Type="String">E13 Rakdos Sbloccata 1</Data></Cell>
+    <Cell ss:Index="9"><Data ss:Type="String">E13 ラクドス アンロック1</Data></Cell>
+    <Cell><Data ss:Type="String">E13 락도스 잠금 해제 1</Data></Cell>
+    <Cell><Data ss:Type="String">Разблокировка 1, Ракдосы E13</Data></Cell>
+    <Cell><Data ss:Type="String">Desbloqueio 1 Rakdos E13</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">E13_SELESNYA</Data></Cell>
+    <Cell ss:Index="3"><Data ss:Type="String">Collective Might</Data></Cell>
+    <Cell><Data ss:Type="String">Puissance collective</Data></Cell>
+    <Cell><Data ss:Type="String">Poder colectivo</Data></Cell>
+    <Cell><Data ss:Type="String">Gesammelte Macht</Data></Cell>
+    <Cell><Data ss:Type="String">Potenza Collettiva</Data></Cell>
+    <Cell ss:Index="9"><Data ss:Type="String">力の結集</Data></Cell>
+    <Cell><Data ss:Type="String">뭉치면 산다</Data></Cell>
+    <Cell><Data ss:Type="String">Коллективная сила</Data></Cell>
+    <Cell><Data ss:Type="String">Poderio Coletivo</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">E13_SELESNYA_PROMO_1</Data></Cell>
+    <Cell ss:Index="3"><Data ss:Type="String">E13 Selesnya Promo 1</Data></Cell>
+    <Cell><Data ss:Type="String">E13 Selesnya Promo 1</Data></Cell>
+    <Cell><Data ss:Type="String">E13 Selesnya Promocional 1</Data></Cell>
+    <Cell><Data ss:Type="String">E13 Selesnija-Promokarte 1</Data></Cell>
+    <Cell><Data ss:Type="String">E13 Selesnya Promo 1</Data></Cell>
+    <Cell ss:Index="9"><Data ss:Type="String">E13 セレズニア プロモ1</Data></Cell>
+    <Cell><Data ss:Type="String">E13 셀레스냐 프로모 1</Data></Cell>
+    <Cell><Data ss:Type="String">Промо 1, Селезния E13</Data></Cell>
+    <Cell><Data ss:Type="String">Card Promocional 1 Selesnya E13</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">E13_SELESNYA_STORE</Data></Cell>
+    <Cell ss:Index="3"><Data ss:Type="String">“Collective Might” Deck</Data></Cell>
+    <Cell><Data ss:Type="String">Deck «&#160;Force collective&#160;»</Data></Cell>
+    <Cell><Data ss:Type="String">Mazo &quot;Poder colectivo&quot;</Data></Cell>
+    <Cell><Data ss:Type="String">Deck „Gesammelte Macht“</Data></Cell>
+    <Cell><Data ss:Type="String">Mazzo “Potenza Collettiva”</Data></Cell>
+    <Cell ss:Index="9"><Data ss:Type="String">「力の結集」デッキ</Data></Cell>
+    <Cell><Data ss:Type="String">&quot;뭉치면 산다&quot; 덱 열쇠</Data></Cell>
+    <Cell><Data ss:Type="String">Колода «Совместная мощь»</Data></Cell>
+    <Cell><Data ss:Type="String">Deck “Poderio Coletivo” </Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">E13_SELESNYA_UNLOCK_1</Data></Cell>
+    <Cell ss:Index="3"><Data ss:Type="String">E13 Selesnya Unlock 1</Data></Cell>
+    <Cell><Data ss:Type="String">E13 Selesnya Déverrouillage 1</Data></Cell>
+    <Cell><Data ss:Type="String">E13 Selesnya Desbloqueable 1</Data></Cell>
+    <Cell><Data ss:Type="String">E13 Selesnija-Freischaltung 1</Data></Cell>
+    <Cell><Data ss:Type="String">E13 Selesnya Sbloccata 1</Data></Cell>
+    <Cell ss:Index="9"><Data ss:Type="String">E13 セレズニア アンロック1</Data></Cell>
+    <Cell><Data ss:Type="String">E13 셀레스냐 잠금 해제 1</Data></Cell>
+    <Cell><Data ss:Type="String">Разблокировка 1, Селезния E13</Data></Cell>
+    <Cell><Data ss:Type="String">Desbloqueio 1 Selesnya E13</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">PLAYER_NAME_AZORIUS</Data></Cell>
+    <Cell><Data ss:Type="String">Player name for Azorius</Data></Cell>
+    <Cell><Data ss:Type="String">Azorius</Data></Cell>
+    <Cell><Data ss:Type="String">Azorius</Data></Cell>
+    <Cell><Data ss:Type="String">Azorio</Data></Cell>
+    <Cell><Data ss:Type="String">Azorius</Data></Cell>
+    <Cell><Data ss:Type="String">Azorius</Data></Cell>
+    <Cell ss:Index="9"><Data ss:Type="String">アゾリウス</Data></Cell>
+    <Cell><Data ss:Type="String">아조리우스</Data></Cell>
+    <Cell><Data ss:Type="String">Азориусы</Data></Cell>
+    <Cell><Data ss:Type="String">Azorius</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">PLAYER_NAME_GOLGARI</Data></Cell>
+    <Cell><Data ss:Type="String">Player name for Golgari</Data></Cell>
+    <Cell><Data ss:Type="String">Golgari</Data></Cell>
+    <Cell><Data ss:Type="String">Golgari</Data></Cell>
+    <Cell><Data ss:Type="String">Golgari</Data></Cell>
+    <Cell><Data ss:Type="String">Golgari</Data></Cell>
+    <Cell><Data ss:Type="String">Golgari</Data></Cell>
+    <Cell ss:Index="9"><Data ss:Type="String">ゴルガリ</Data></Cell>
+    <Cell><Data ss:Type="String">골가리</Data></Cell>
+    <Cell><Data ss:Type="String">Голгари</Data></Cell>
+    <Cell><Data ss:Type="String">Golgari</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">PLAYER_NAME_IZZET</Data></Cell>
+    <Cell><Data ss:Type="String">Player name for Izzet</Data></Cell>
+    <Cell><Data ss:Type="String">Izzet</Data></Cell>
+    <Cell><Data ss:Type="String">Izzet</Data></Cell>
+    <Cell><Data ss:Type="String">Ízzet</Data></Cell>
+    <Cell><Data ss:Type="String">Izzet</Data></Cell>
+    <Cell><Data ss:Type="String">Izzet</Data></Cell>
+    <Cell ss:Index="9"><Data ss:Type="String">イゼット</Data></Cell>
+    <Cell><Data ss:Type="String">이젯</Data></Cell>
+    <Cell><Data ss:Type="String">Иззеты</Data></Cell>
+    <Cell><Data ss:Type="String">Izzet</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">PLAYER_NAME_RAKDOS</Data></Cell>
+    <Cell><Data ss:Type="String">Player name for Rakdos</Data></Cell>
+    <Cell><Data ss:Type="String">Rakdos</Data></Cell>
+    <Cell><Data ss:Type="String">Rakdos</Data></Cell>
+    <Cell><Data ss:Type="String">Rakdos</Data></Cell>
+    <Cell><Data ss:Type="String">Rakdos</Data></Cell>
+    <Cell><Data ss:Type="String">Rakdos</Data></Cell>
+    <Cell ss:Index="9"><Data ss:Type="String">ラクドス</Data></Cell>
+    <Cell><Data ss:Type="String">락도스</Data></Cell>
+    <Cell><Data ss:Type="String">Ракдосы</Data></Cell>
+    <Cell><Data ss:Type="String">Rakdos</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">PLAYER_NAME_SELESNYA</Data></Cell>
+    <Cell><Data ss:Type="String">Player name for Selesnya</Data></Cell>
+    <Cell><Data ss:Type="String">Selesnya</Data></Cell>
+    <Cell><Data ss:Type="String">Selesnya</Data></Cell>
+    <Cell><Data ss:Type="String">Selesnya</Data></Cell>
+    <Cell><Data ss:Type="String">Selesnija</Data></Cell>
+    <Cell><Data ss:Type="String">Selesnya</Data></Cell>
+    <Cell ss:Index="9"><Data ss:Type="String">セレズニア</Data></Cell>
+    <Cell><Data ss:Type="String">셀레스냐</Data></Cell>
+    <Cell><Data ss:Type="String">Селезния</Data></Cell>
+    <Cell><Data ss:Type="String">Selesnya</Data></Cell>
+   </Row>
+  </Table>
+  <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+   <PageSetup>
+    <Header x:Margin="0.3"/>
+    <Footer x:Margin="0.3"/>
+    <PageMargins x:Bottom="0.75" x:Left="0.7" x:Right="0.7" x:Top="0.75"/>
+   </PageSetup>
+   <Selected/>
+   <ProtectObjects>False</ProtectObjects>
+   <ProtectScenarios>False</ProtectScenarios>
+  </WorksheetOptions>
+ </Worksheet>
+ <Worksheet ss:Name="Sheet1">
+  <Table ss:ExpandedColumnCount="1" ss:ExpandedRowCount="1" x:FullColumns="1"
+   x:FullRows="1" ss:DefaultRowHeight="15">
+  </Table>
+  <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+   <PageSetup>
+    <Header x:Margin="0.3"/>
+    <Footer x:Margin="0.3"/>
+    <PageMargins x:Bottom="0.75" x:Left="0.7" x:Right="0.7" x:Top="0.75"/>
+   </PageSetup>
+   <ProtectObjects>False</ProtectObjects>
+   <ProtectScenarios>False</ProtectScenarios>
+  </WorksheetOptions>
+ </Worksheet>
+ <Worksheet ss:Name="Sheet2">
+  <Table ss:ExpandedColumnCount="1" ss:ExpandedRowCount="1" x:FullColumns="1"
+   x:FullRows="1" ss:DefaultRowHeight="15">
+  </Table>
+  <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+   <PageSetup>
+    <Header x:Margin="0.3"/>
+    <Footer x:Margin="0.3"/>
+    <PageMargins x:Bottom="0.75" x:Left="0.7" x:Right="0.7" x:Top="0.75"/>
+   </PageSetup>
+   <ProtectObjects>False</ProtectObjects>
+   <ProtectScenarios>False</ProtectScenarios>
+  </WorksheetOptions>
+ </Worksheet>
+ <Worksheet ss:Name="Sheet3">
+  <Table ss:ExpandedColumnCount="1" ss:ExpandedRowCount="1" x:FullColumns="1"
+   x:FullRows="1" ss:DefaultRowHeight="15">
+  </Table>
+  <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+   <PageSetup>
+    <Header x:Margin="0.3"/>
+    <Footer x:Margin="0.3"/>
+    <PageMargins x:Bottom="0.75" x:Left="0.7" x:Right="0.7" x:Top="0.75"/>
+   </PageSetup>
+   <ProtectObjects>False</ProtectObjects>
+   <ProtectScenarios>False</ProtectScenarios>
+  </WorksheetOptions>
+ </Worksheet>
+</Workbook>

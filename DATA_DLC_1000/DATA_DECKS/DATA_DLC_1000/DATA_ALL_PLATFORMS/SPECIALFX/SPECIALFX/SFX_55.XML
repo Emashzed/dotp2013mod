@@ -1,0 +1,12 @@
+<SFXSpecialFX>
+  <SpecialFX name="COMBAT_FANG_LARGE_ATTACK">
+    <Emitter name="fangs_4_T" waitToFinish="1" playOnTarget="1" sound="Sounds\Fangs_Large" start="COMBAT_DAMAGE_PUSHED" watchStackForMove="1" />
+  </SpecialFX>
+  <SpecialFX name="COMBAT_FANG_SMALL_ATTACK">
+    <Emitter name="fangs_1_T" waitToFinish="1" playOnTarget="1" sound="Sounds\Fangs_Small" start="COMBAT_DAMAGE_PUSHED" watchStackForMove="1" />
+  </SpecialFX>
+  <SpecialFX name="GLOBAL_JUDGEMENT_PLAY" playfromgraveyard="1">
+    <Emitter name="default_resolving" watchStackForEnd="1" dontAddEndTurnTrigger="1" finishTime="0.97" sound="Sounds\default_resolving" start="STACK_PUSHED" />
+    <Emitter name="global_judgment" waitToFinish="1" dontAddEndTurnTrigger="1" highDecay="True" highStrength="1f" highDuration="3" rumbleTarget="EVERYONE" sound="Sounds\global_judgment" start="SPELL_RESOLVED" attachToWorld="1" lowStrength="0.6f" lowDuration="5" />
+  </SpecialFX>
+</SFXSpecialFX>

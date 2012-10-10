@@ -1,0 +1,62 @@
+<?xml version='1.0'?>
+<CARD_V2>
+  <FILENAME text="CAPTAINS_CALL_M13_009" />
+  <CARDNAME text="CAPTAINS_CALL" />
+  <TITLE>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Captain’s Call]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Appel du capitaine]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Llamada del capitán]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Ruf des Hauptmanns]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Chiamata del Capitano]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[屍肉の呼び声]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[대장의 부름]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Воззвание Капитана]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Chamado do Capitão]]></LOCALISED_TEXT>
+  </TITLE>
+  <MULTIVERSEID value="M13_009" />
+  <ARTID value="M13_009" />
+  <ARTIST name="Greg Staples" />
+  <CASTING_COST cost="{3}{W}" />
+  <FLAVOURTEXT>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[“Who among you has the courage to face certain death? Who will heed my call?”
+—Rayel Vanger, Firstblade of Thune]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[« Qui parmi vous aura le courage d’affronter une mort certaine ? Qui entendra mon appel ? »
+—Rayel Vanger, Primelame de Thiune]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[“¿Quién de entre ustedes tiene el valor de enfrentarse a una muerte segura? ¿Quién estará de mi lado?”
+—Rayel Vanger, Primera Espada de Thune]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[„Wer von euch hat den Mut, dem sicheren Tod zu trotzen? Wer folgt meinem Ruf?“
+—Rayel Vanger, Stabsfechter von Thune]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[“Chi tra voi ha il coraggio di affrontare una morte certa? Chi risponderà alla mia chiamata?”
+—Rayel Vanger, Primalama di Thune]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[「この中で、確実な死に向かい合う度胸のある奴はいるか？ 俺の声に従う奴はいるか？」
+―テューンの先鋒、レイエル・ヴァンガー]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[“확실한 죽음에 맞서 싸울 용기를 가진 자가 있는가? 나의 부름에 응할 자는 있는가?”
+—쑨의 최고 검사 라옐 반게르]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[«Кто из вас отважится посмотреть в лицо самой смерти? Кто внемлет моему призыву?»
+— Райел Вангер, Первый клинок Туна]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[“Quem de vocês tem a coragem de enfrentar a morta certa? Quem atenderá ao meu chamado?”
+— Rayel Vanger, Primeiro Espadachim de Thune]]></LOCALISED_TEXT>
+  </FLAVOURTEXT>
+  <TYPE metaname="Sorcery" />
+  <EXPANSION value="M13" />
+  <RARITY metaname="C" />
+  <SPELL_ABILITY filter_zone="ZONE_IN_PLAY">
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Put three 1/1 white Soldier creature tokens onto the battlefield.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Mettez sur le champ de bataille trois jetons de créature 1/1 blanche Soldat.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Pon en el campo de batalla tres fichas de criatura Soldado blancas 1/1.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Bringe drei 1/1 weiße Soldat-Kreaturenspielsteine ins Spiel.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Metti sul campo di battaglia tre pedine creatura Soldato 1/1 bianche.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[白の１/１の兵士・クリーチャー・トークンを３体戦場に出す。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[1/1 백색 병사 생물 토큰 세 개를 전장에 놓는다.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Положите на поле битвы три фишки существа 1/1 белый Солдат.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Coloque no campo de batalha três fichas de criatura brancas 1/1 do tipo Soldado.]]></LOCALISED_TEXT>
+    <RESOLUTION_TIME_ACTION>
+    local token_count = 3
+    if token_count &gt; 0 then
+    	MTG():PutTokensIntoPlay( "TOKEN_SOLDIER_1_1_M13_T03", token_count, EffectController() )
+    end
+    </RESOLUTION_TIME_ACTION>
+  </SPELL_ABILITY>
+  <TOKEN_REGISTRATION reservation="1" type="TOKEN_SOLDIER_1_1_M13_T03" />
+  <AI_BASE_SCORE score="600" zone="ZONE_HAND" />
+</CARD_V2>

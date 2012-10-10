@@ -1,0 +1,58 @@
+<SFXSpecialFX>
+  <SpecialFX name="TARGET_LIGHTNING_PLAY" playfromgraveyard="1">
+    <Emitter name="default_resolving" watchStackForEnd="1" dontAddEndTurnTrigger="1" finishTime="0.97" sound="Sounds\default_resolving" start="STACK_PUSHED" />
+    <Emitter name="lightning_4_A" waitToFinish="1" highDecay="True" highStrength="0.5f" highDuration="2" rumbleTarget="ATTACKER_AND_VICTIM" sound="Sounds\Lightning_Large" start="SPELL_RESOLVED" />
+    <Emitter name="lightning_4_T" playOnTarget="1" SpecialSpecialEffect="1" start="SPELL_RESOLVED" />
+  </SpecialFX>
+  <SpecialFX name="TARGET_SPARKS_PLAY" playfromgraveyard="1">
+    <Emitter name="default_resolving" watchStackForEnd="1" dontAddEndTurnTrigger="1" finishTime="0.97" sound="Sounds\default_resolving" start="STACK_PUSHED" />
+    <Emitter name="spark_4_A" waitToFinish="1" highDecay="True" highStrength="0.5f" highDuration="2" rumbleTarget="ATTACKER_AND_VICTIM" sound="Sounds\Red_Large" start="SPELL_RESOLVED" />
+    <Emitter name="spark_4_T" playOnTarget="1" SpecialSpecialEffect="1" start="SPELL_RESOLVED" />
+  </SpecialFX>
+  <SpecialFX name="GLOBAL_DEATH_PLAY" playfromgraveyard="1">
+    <Emitter name="default_resolving" watchStackForEnd="1" dontAddEndTurnTrigger="1" finishTime="0.97" sound="Sounds\default_resolving" start="STACK_PUSHED" />
+    <Emitter name="global_death" waitToFinish="1" dontAddEndTurnTrigger="1" highDecay="True" highStrength="1f" highDuration="3" rumbleTarget="EVERYONE" sound="Sounds\Global_Death" start="SPELL_RESOLVED" attachToWorld="1" lowStrength="0.6f" lowDuration="5" />
+  </SpecialFX>
+  <SpecialFX name="GLOBAL_MAGMA_PLAY" playfromgraveyard="1">
+    <Emitter name="default_resolving" watchStackForEnd="1" dontAddEndTurnTrigger="1" finishTime="0.97" sound="Sounds\default_resolving" start="STACK_PUSHED" />
+    <Emitter name="global_magma" waitToFinish="1" dontAddEndTurnTrigger="1" highDecay="True" highStrength="1f" highDuration="1" rumbleTarget="EVERYONE" sound="Sounds\Magma" start="SPELL_RESOLVED" attachToWorld="1" lowStrength="0.6f" lowDuration="3" />
+  </SpecialFX>
+  <SpecialFX name="COMBAT_BITE_LARGE_ATTACK">
+    <Emitter name="bite_4_T" waitToFinish="1" playOnTarget="1" sound="Sounds\Bite_Large" start="COMBAT_DAMAGE_PUSHED" watchStackForMove="1" />
+  </SpecialFX>
+  <SpecialFX name="COMBAT_BITE_SMALL_ATTACK">
+    <Emitter name="bite_1_T" waitToFinish="1" playOnTarget="1" sound="Sounds\Bite_Small" start="COMBAT_DAMAGE_PUSHED" watchStackForMove="1" />
+  </SpecialFX>
+  <SpecialFX name="TARGET_PLAYER_WAR_PLAY">
+    <Emitter name="default_resolving" watchStackForEnd="1" dontAddEndTurnTrigger="1" finishTime="0.97" sound="Sounds\default_resolving" start="STACK_PUSHED" />
+    <Emitter name="player_war" waitToFinish="1" highDecay="True" highStrength="0.6f" highDuration="5.5" rumbleTarget="EVERYONE" sound="Sounds\War" start="SPELL_RESOLVED" attachToCaster="1" lowStrength="0.4f" lowDuration="5.5" lowDecay="True" />
+  </SpecialFX>
+  <SpecialFX name="COMBAT_DEATHSWORD_ATTACK">
+    <Emitter name="lightning_4_A" waitToFinish="1" highDecay="True" highStrength="0.5f" highDuration="2" rumbleTarget="ATTACKER_AND_VICTIM" start="COMBAT_DAMAGE_PUSHED" watchStackForMove="1" />
+    <Emitter name="pests_4_A" waitToFinish="1" start="COMBAT_DAMAGE_PUSHED" watchStackForMove="1" />
+    <Emitter name="blade_4_T" waitToFinish="1" playOnTarget="1" sound="Sounds\deathsword_T" start="COMBAT_DAMAGE_PUSHED" watchStackForMove="1" />
+    <Emitter name="pests_4_T" waitToFinish="1" playOnTarget="1" start="COMBAT_DAMAGE_PUSHED" watchStackForMove="1" />
+  </SpecialFX>
+  <SpecialFX name="TARGET_FIREBALL_PLAY" playfromgraveyard="1">
+    <Emitter name="default_resolving" watchStackForEnd="1" dontAddEndTurnTrigger="1" finishTime="0.97" sound="Sounds\default_resolving" start="STACK_PUSHED" />
+    <Emitter name="fire_4_A" waitToFinish="1" highDecay="True" highStrength="0.5f" highDuration="2" rumbleTarget="ATTACKER_AND_VICTIM" sound="Sounds\Fireball_Large" start="SPELL_RESOLVED" />
+    <Emitter name="flame_4_T" playOnTarget="1" SpecialSpecialEffect="1" start="SPELL_RESOLVED" />
+  </SpecialFX>
+  <SpecialFX name="COMBAT_INFERNO_ATTACK">
+    <Emitter name="inferno_T" waitToFinish="1" playOnTarget="1" sound="Sounds\inferno_T" start="COMBAT_DAMAGE_PUSHED" watchStackForMove="1" />
+  </SpecialFX>
+  <SpecialFX name="COMBAT_PLASMA_LARGE_ATTACK">
+    <Emitter name="plasma_4_A" waitToFinish="1" highDecay="True" highStrength="0.5f" highDuration="2" rumbleTarget="ATTACKER_AND_VICTIM" sound="Sounds\Blue_Large" start="COMBAT_DAMAGE_PUSHED" watchStackForMove="1" />
+    <Emitter name="plasma_4_T" waitToFinish="1" playOnTarget="1" start="COMBAT_DAMAGE_PUSHED" watchStackForMove="1" />
+  </SpecialFX>
+  <SpecialFX name="COMBAT_PLASMA_SMALL_ATTACK">
+    <Emitter name="plasma_1_A" waitToFinish="1" highDecay="True" highStrength="0.5f" highDuration="2" rumbleTarget="ATTACKER_AND_VICTIM" sound="Sounds\Blue_Small" start="COMBAT_DAMAGE_PUSHED" watchStackForMove="1" />
+    <Emitter name="plasma_1_T" waitToFinish="1" playOnTarget="1" start="COMBAT_DAMAGE_PUSHED" watchStackForMove="1" />
+  </SpecialFX>
+  <SpecialFX name="COMBAT_BITE_LARGE_ATTACK">
+    <Emitter name="bite_4_T" waitToFinish="1" playOnTarget="1" sound="Sounds\Bite_Large" start="COMBAT_DAMAGE_PUSHED" watchStackForMove="1" />
+  </SpecialFX>
+  <SpecialFX name="COMBAT_BITE_SMALL_ATTACK">
+    <Emitter name="bite_1_T" waitToFinish="1" playOnTarget="1" sound="Sounds\Bite_Small" start="COMBAT_DAMAGE_PUSHED" watchStackForMove="1" />
+  </SpecialFX>
+</SFXSpecialFX>

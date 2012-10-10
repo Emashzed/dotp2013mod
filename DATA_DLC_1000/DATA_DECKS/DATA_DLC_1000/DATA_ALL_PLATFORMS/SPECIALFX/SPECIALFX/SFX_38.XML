@@ -1,0 +1,33 @@
+<SFXSpecialFX>
+  <SpecialFX name="COMBAT_PESTS_LARGE_ATTACK">
+    <Emitter name="pests_4_A" waitToFinish="1" highDecay="True" highStrength="0.5f" highDuration="2" rumbleTarget="ATTACKER_AND_VICTIM" sound="Sounds\Black_Large" start="COMBAT_DAMAGE_PUSHED" watchStackForMove="1" />
+    <Emitter name="pests_4_T" waitToFinish="1" playOnTarget="1" start="COMBAT_DAMAGE_PUSHED" watchStackForMove="1" />
+  </SpecialFX>
+  <SpecialFX name="COMBAT_PESTS_SMALL_ATTACK">
+    <Emitter name="pests_1_A" waitToFinish="1" highDecay="True" highStrength="0.5f" highDuration="2" rumbleTarget="ATTACKER_AND_VICTIM" sound="Sounds\Black_Small" start="COMBAT_DAMAGE_PUSHED" watchStackForMove="1" />
+    <Emitter name="pests_1_T" waitToFinish="1" playOnTarget="1" start="COMBAT_DAMAGE_PUSHED" watchStackForMove="1" />
+  </SpecialFX>
+  <SpecialFX name="COMBAT_CLAW_LARGE_ATTACK">
+    <Emitter name="claw_4_T" waitToFinish="1" playOnTarget="1" sound="Sounds\Claw_Large" start="COMBAT_DAMAGE_PUSHED" watchStackForMove="1" />
+  </SpecialFX>
+  <SpecialFX name="COMBAT_CLAW_SMALL_ATTACK">
+    <Emitter name="claw_1_T" waitToFinish="1" playOnTarget="1" sound="Sounds\Claw_Small" start="COMBAT_DAMAGE_PUSHED" watchStackForMove="1" />
+  </SpecialFX>
+  <SpecialFX name="COMBAT_BITE_LARGE_ATTACK">
+    <Emitter name="bite_4_T" waitToFinish="1" playOnTarget="1" sound="Sounds\Bite_Large" start="COMBAT_DAMAGE_PUSHED" watchStackForMove="1" />
+  </SpecialFX>
+  <SpecialFX name="COMBAT_BITE_SMALL_ATTACK">
+    <Emitter name="bite_1_T" waitToFinish="1" playOnTarget="1" sound="Sounds\Bite_Small" start="COMBAT_DAMAGE_PUSHED" watchStackForMove="1" />
+  </SpecialFX>
+  <SpecialFX name="TARGET_PIERCE_PARENT_PLAY">
+    <Emitter name="pierce_4_T" sound="Sounds\Pierce_Large" SpecialSpecialEffect="1" start="SPELL_RESOLVED" playOnParentPlayer="1" />
+  </SpecialFX>
+  <SpecialFX name="GLOBAL_WARP_PLAY" playfromgraveyard="1">
+    <Emitter name="default_resolving" watchStackForEnd="1" dontAddEndTurnTrigger="1" finishTime="0.97" sound="Sounds\default_resolving" start="STACK_PUSHED" />
+    <Emitter name="global_warp" waitToFinish="1" dontAddEndTurnTrigger="1" highDecay="True" highStrength="1f" highDuration="3" rumbleTarget="EVERYONE" sound="Sounds\Warp" start="SPELL_RESOLVED" attachToWorld="1" lowStrength="0.6f" lowDuration="5" />
+  </SpecialFX>
+  <SpecialFX name="TARGET_PESTS_PARENT_PLAY">
+    <Emitter name="pests_4_A" waitToFinish="1" highDecay="True" highStrength="0.5f" highDuration="2" rumbleTarget="ATTACKER_AND_VICTIM" sound="Sounds\Black_Large" start="SPELL_RESOLVED" attractToParentPlayer="1" />
+    <Emitter name="pests_4_T" SpecialSpecialEffect="1" start="SPELL_RESOLVED" playOnParentPlayer="1" />
+  </SpecialFX>
+</SFXSpecialFX>

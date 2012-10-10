@@ -1,0 +1,67 @@
+﻿<?xml version='1.0'?>
+<CARD_V2>
+  <FILENAME text="MAGMAQUAKE_M13_140" />
+  <CARDNAME text="MAGMAQUAKE" />
+  <TITLE>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Magmaquake]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Magmamoto]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Magmabeben]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Tremblement de lave]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Magmamoto]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[溶岩震]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[마그마 지진]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Магматрясение]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Magmamoto]]></LOCALISED_TEXT>
+  </TITLE>
+  <MULTIVERSEID value="M13_140" />
+  <ARTID value="M13_140" />
+  <ARTIST name="Gabor Szikszai" />
+  <CASTING_COST cost="{X}{R}{R}" />
+  <FLAVOURTEXT>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[“Where will you run when I punish you with the very ground you flee on?”
+—Nicol Bolas]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[“Dove potrai mai fuggire quando ti punisco con lo stesso terreno su cui stai correndo?”
+—Nicol Bolas]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[„Wohin willst du fliehen, wenn ich dich mit eben dem Boden bestrafe, auf dem du fliehst?”
+—Nicol Bolas]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[« Où fuir, quand c’est le sol-même que j’utilise pour te châtier ? »
+—Nicol Bolas]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[“¿Adónde huirás cuando te castigue con el mismo suelo sobre el que corres?”
+—Nicol Bolas]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[「貴様が落ち延びた先の大地そのもので罰してやるというのに、どこへ逃げるつもりだ？」
+――ニコル・ボーラス]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[“네놈이 도망치는 그 땅으로 네놈을 처벌하면 어떻게 할텐가?”
+—니콜 볼라스]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[«Куда ты скроешься, когда я покараю тебя самой землей, по которой ты бежишь?»
+— Никол Болас]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[“Para onde você vai correr quando eu usar o próprio chão onde pisa para puni-lo?”
+— Nicol Bolas]]></LOCALISED_TEXT>
+  </FLAVOURTEXT>
+  <TYPE metaname="Instant" />
+  <EXPANSION value="M13" />
+  <RARITY metaname="R" />
+  <SPELL_ABILITY dangerous="1" filter_zone="ZONE_IN_PLAY" active_zone="ZONE_IN_PLAY">
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Magmaquake deals X damage to     each creature without flying and     each planeswalker.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Il Magmamoto infligge X danni a ogni creatura senza volare e a ogni planeswalker.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Das Magmabeben fügt allen Planeswalkern und allen nichtfliegenden Kreaturen X Schadenspunkte zu.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Le Tremblement de lave inflige X blessures à chaque créature sans le vol et à chaque planeswalker.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[El Magmamoto hace X puntos de daño a cada criatura que no tenga la habilidad de volar y a cada planeswalker.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[溶岩震は飛行を持たない各クリーチャーと各プレインズウォーカーにそれぞれＸ点のダメージを与える。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[마그마 지진은 비행 능력이 없는 각 생물과 각 플레인즈워커에게 피해 X점을 입힌다.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Магматрясение наносит X повреждений каждому существу без Полета и каждому planeswalker-у.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Magmamoto causa X pontos de dano a cada criatura sem voar e a cada planeswalker.]]></LOCALISED_TEXT>
+    <FILTER>
+    return (  FilteredCard() ~= nil and
+	FilteredCard():GetZone() == ZONE_IN_PLAY and
+    ( FilteredCard():GetCardType():Test( CARD_TYPE_PLANESWALKER ) ~= 0 or
+	(FilteredCard():GetCardType():Test( CARD_TYPE_CREATURE ) ~= 0 and
+	 FilteredCard():GetCurrentCharacteristics():Characteristic_Get( CHARACTERISTIC_FLYING ) == 0) )  )
+    </FILTER>
+    <RESOLUTION_TIME_ACTION>
+	FilteredCard():DealDamage(GetObjectX() , Object())  
+    </RESOLUTION_TIME_ACTION>
+    <SFX text="GLOBAL_LAVA_PLAY" />
+  </SPELL_ABILITY>
+  <HELP title="MORE_INFO_BADGE_TITLE_10" body="MORE_INFO_BADGE_BODY_10" zone="ZONE_ANY" />
+  <AI_BASE_SCORE score="1200" zone="ZONE_HAND" />
+</CARD_V2>
