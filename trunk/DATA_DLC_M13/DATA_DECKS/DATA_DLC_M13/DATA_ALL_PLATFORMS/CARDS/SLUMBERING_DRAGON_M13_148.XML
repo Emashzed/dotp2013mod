@@ -1,0 +1,82 @@
+﻿<?xml version='1.0'?>
+<CARD_V2>
+  <FILENAME text="SLUMBERING_DRAGON_M13_148" />
+  <CARDNAME text="SLUMBERING_DRAGON" />
+  <TITLE>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Slumbering Dragon]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Drago Assopito]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Dösender Drache]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Dragon endormi]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Dragón adormecido]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[まどろむドラゴン]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[잠자는 용]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Дремлющий Дракон]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Dragão Adormecido]]></LOCALISED_TEXT>
+  </TITLE>
+  <MULTIVERSEID value="M13_148" />
+  <ARTID value="M13_148" />
+  <ARTIST name="Chris Rahn" />
+  <CASTING_COST cost="{R}" />
+  <TYPE metaname="Creature" />
+  <SUB_TYPE metaname="Dragon" />
+  <EXPANSION value="M13" />
+  <RARITY metaname="R" />
+  <POWER value="3" />
+  <TOUGHNESS value="3" />
+  <STATIC_ABILITY>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Flying]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Volare]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Fliegend]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Vol]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Vuela.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[飛行]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[비행]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Полет]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Voar]]></LOCALISED_TEXT>
+	<CONTINUOUS_ACTION>
+    local characteristics = Object():GetCurrentCharacteristics()
+    characteristics:Characteristic_Set( CHARACTERISTIC_FLYING, 1 )
+    </CONTINUOUS_ACTION>
+  </STATIC_ABILITY>
+  <STATIC_ABILITY>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Slumbering Dragon can’t attack or block unless it has five or more +1/+1 counters on it.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Il Drago Assopito non può attaccare o bloccare a meno che non abbia cinque o più segnalini +1/+1.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Der Dösende Drache kann weder angreifen noch blocken, falls nicht fünf oder mehr +1/+1-Marken auf ihm liegen.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Le Dragon endormi ne peut ni attaquer ni bloquer à moins qu’il n’ait au moins cinq marqueurs +1/+1 sur lui.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[El Dragón adormecido no puede atacar ni bloquear a menos que tenga cinco o más contadores +1/+1 sobre él.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[まどろむドラゴンは、それの上に５個以上の+１/＋１カウンターが置かれていないかぎり攻撃したりブロックしたりできない。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[잠자는 용은 +1/+1 카운터를 다섯 개 이상 가지고 있어야만 공격하거나 방어할 수 있다.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Дремлющий Дракон не может атаковать или блокировать, если только на нем нет пяти или больше жетонов +1/+1.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Dragão Adormecido não pode atacar ou bloquear a menos que tenha cinco ou mais marcadores +1/+1 sobre ele.]]></LOCALISED_TEXT>
+	<CONTINUOUS_ACTION layer="8">
+	if Object():CountCounters(MTG():PlusOnePlusOneCounters()) &lt; 5 then
+		local characteristics = Object():GetCurrentCharacteristics()
+    	characteristics:Characteristic_Set( CHARACTERISTIC_CANT_ATTACK, 1 )
+		characteristics:Characteristic_Set( CHARACTERISTIC_CANT_BLOCK, 1 )
+    end
+    </CONTINUOUS_ACTION>
+  </STATIC_ABILITY>
+  <TRIGGERED_ABILITY filter_zone="ZONE_IN_PLAY">
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Whenever a creature attacks you or a planeswalker you control, put a +1/+1 counter on Slumbering Dragon.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Ogniqualvolta una creatura attacca te o un planeswalker che controlli, metti un segnalino +1/+1 sul Drago Assopito.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Immer wenn eine Kreatur dich oder einen Planeswalker, den du kontrollierst, angreift, lege eine +1/+1-Marke auf den Dösenden Drachen.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[À chaque fois qu’une créature vous attaque ou attaque un planeswalker que vous contrôlez, mettez un marqueur +1/+1 sur le Dragon endormi.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Siempre que una criatura te ataque a ti o a un planeswalker que controlas, pon un contador +1/+1 sobre el Dragón adormecido.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[いずれかのクリーチャーがあなたかあなたがコントロールするプレインズウォーカーを攻撃するたび、まどろむドラゴンの上に＋１/＋１カウンターを１個置く。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[생물이 당신 또는 당신이 조종하는 플레인즈워커를 공격할 때마다, 잠자는 용에 +1/+1 카운터 한 개를 올려놓는다.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Каждый раз, когда существо атакует вас или planeswalker-а под вашим контролем, положите один жетон +1/+1 на Дремлющего Дракона.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Toda vez que uma criatura atacar você ou um planeswalker que você controla, coloque um marcador +1/+1 sobre Dragão Adormecido.]]></LOCALISED_TEXT>
+	<TRIGGER value="ATTACKING" >
+	return TriggerPlayer() == EffectController()
+	</TRIGGER>
+	<RESOLUTION_TIME_ACTION>
+	if EffectSource() ~= nil then
+		EffectSource():AddCounters( MTG():PlusOnePlusOneCounters(), 1 )
+	end
+    </RESOLUTION_TIME_ACTION>
+  </TRIGGERED_ABILITY>
+  <HELP title="MORE_INFO_BADGE_TITLE_10" body="MORE_INFO_BADGE_BODY_10" zone="ZONE_ANY" />
+  <SFX text="COMBAT_DRAGON_LARGE_ATTACK" power_boundary_min="4" power_boundary_max="-1" />
+  <SFX text="COMBAT_DRAGON_SMALL_ATTACK" power_boundary_min="1" power_boundary_max="3" />
+  <AI_BASE_SCORE score="800" zone="ZONE_IN_PLAY" />
+</CARD_V2>

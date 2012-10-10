@@ -1,0 +1,90 @@
+<?xml version='1.0'?>
+<CARD_V2>
+  <FILENAME text="RAVENOUS_RATS_M13_106" />
+  <CARDNAME text="RAVENOUS_RATS" />
+  <TITLE>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Ravenous Rats]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Rats voraces]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Ratas rapaces]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Gierige Ratten]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Ratti Famelici]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[貪欲なるネズミ]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[굶주린 쥐떼]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Прожорливые Крысы]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Ratos Vorazes]]></LOCALISED_TEXT>
+  </TITLE>
+  <MULTIVERSEID value="M13_106" />
+  <ARTID value="M13_106" />
+  <ARTIST name="Carl Critchlow" />
+  <CASTING_COST cost="{1}{B}" />
+  <FLAVOURTEXT>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Devouring books is only the beginning. The librarian's next.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Dévorer les livres n'est qu'un début. Le plat de résistance, c'est le bibliothécaire.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Devorar libros es sólo el principio. El bibliotecario es lo siguiente.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Bücher zu verschlingen ist nur der Anfang. Als nächstes ist der Bibliothekar dran.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Divorare i libri non è che l'inizio. Il bibliotecario è la prossima vittima.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[本を食い散らかすのは始まりに過ぎない。次は司書の番だ。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[책들을 먹어치우는 것은 시작에 불과하다. 다음은 사서를 잡아먹을 것이다.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[То, что они жрут книги, это лишь начало. На очереди сам библиотекарь.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Devorar livros é só o começo. O bibliotecário é o próximo.]]></LOCALISED_TEXT>
+  </FLAVOURTEXT>
+  <TYPE metaname="Creature" />
+  <SUB_TYPE metaname="Rat" order_de-DE="0" order_es-ES="0" order_fr-FR="0" order_it-IT="0" order_jp-JA="0" order_ko-KR="0" order_pt-BR="0" order_ru-RU="0" />
+  <EXPANSION value="M13" />
+  <RARITY metaname="C" />
+  <POWER value="1" />
+  <TOUGHNESS value="1" />
+  <TRIGGERED_ABILITY dangerous="1">
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[When Ravenous Rats enters the battlefield, target opponent discards     a card.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Quand les Rats voraces arrivent sur le champ de bataille, l’adversaire ciblé se défausse d’une carte.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Cuando las Ratas rapaces entren al campo de batalla, el oponente objetivo descarta una carta.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Wenn die Gierigen Ratten ins Spiel kommen, wirft ein Gegner deiner Wahl eine Karte aus seiner Hand ab.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Quando i Ratti Famelici entrano nel campo di battaglia, un avversario bersaglio scarta una carta.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[貪欲なるネズミが戦場に出たとき、対戦相手１人を対象とする。そのプレイヤーはカードを１枚捨てる。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[굶주린 쥐떼가 전장에 들어올 때, 상대 한 명을 목표로 정한다. 그 상대는 카드 한 장을 버린다.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Когда Прожорливые Крысы выходят на поле битвы, целевой оппонент сбрасывает карту.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Quando Ratos Vorazes entra no campo de batalha, o oponente alvo descarta um card.]]></LOCALISED_TEXT>
+    <TRIGGER value="ZONECHANGE_END" simple_qualifier="self" to_zone="ZONE_IN_PLAY" />
+    <TARGET_DEFINITION id="0">
+    local filter = Object():GetFilter()
+    filter:Clear()
+    filter:SetFilterType( FILTER_TYPE_PLAYERS + FILTER_TYPE_OPPONENTS)
+    filter:SetOwner( EffectController() )
+    filter:SetHint( HINT_ENEMY_ONLY, EffectController() )
+    </TARGET_DEFINITION>
+    <TARGET_DETERMINATION>
+    return AtLeastOneTargetFromDefinition(0)
+    </TARGET_DETERMINATION>
+    <PLAY_TIME_ACTION target_choosing="1">
+    EffectController():ChooseTarget( 0, "CARD_QUERY_CHOOSE_PLAYER_DISCARD_1", EffectDC():Make_Targets(0) )
+    </PLAY_TIME_ACTION>
+    <RESOLUTION_TIME_ACTION>
+    local player = EffectDC():Get_Targets(0):Get_PlayerPtr(0)
+    if player ~= nil then
+    	local filter = Object():GetFilter()
+    	filter:Clear()
+    	filter:SetZone( ZONE_HAND ) 
+    	filter:SetPlayer( player )
+    	filter:NotTargetted()
+    	player:SetTargetCount( 1 )
+    	for i=0,1-1 do
+    		player:SetTargetPrompt( i, "CARD_QUERY_CHOOSE_CARD_TO_DISCARD" )
+    	end
+    	player:ChooseTargets( NO_VALIDATION, EffectDC():Make_Targets(1) ) 
+    end
+    </RESOLUTION_TIME_ACTION>
+    <RESOLUTION_TIME_ACTION>
+    local player = EffectDC():Get_Targets(0):Get_PlayerPtr(0)
+    if player ~= nil then 
+    	for i = 0,(1-1) do
+    		local target_card = EffectDC():Get_Targets(1):Get_CardPtr(i)
+    		if target_card ~= nil  then
+    			target_card:Discard()
+    		end
+    	end
+    end
+    </RESOLUTION_TIME_ACTION>
+  </TRIGGERED_ABILITY>
+  <SFX text="COMBAT_BITE_LARGE_ATTACK" power_boundary_min="4" power_boundary_max="-1" />
+  <SFX text="COMBAT_BITE_SMALL_ATTACK" power_boundary_min="1" power_boundary_max="3" />
+</CARD_V2>

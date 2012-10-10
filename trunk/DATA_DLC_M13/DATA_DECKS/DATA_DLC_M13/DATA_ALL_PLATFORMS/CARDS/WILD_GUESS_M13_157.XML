@@ -1,0 +1,79 @@
+﻿<?xml version='1.0'?>
+<CARD_V2>
+  <FILENAME text="WILD_GUESS_M13_157" />
+  <CARDNAME text="WILD_GUESS" />
+  <TITLE>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Wild Guess]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Tentativo Disperato]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Wilde Vermutung]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Supposition au hasard]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Probar suerte]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[野生の勘]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[엉뚱한 추측]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Случайная Догадка]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Aposta Cega]]></LOCALISED_TEXT>
+  </TITLE>
+  <MULTIVERSEID value="M13_157" />
+  <ARTID value="M13_157" />
+  <ARTIST name="Lucas Graciano" />
+  <CASTING_COST cost="{R}{R}" />
+  <FLAVOURTEXT>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[No guts, no glory.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Non c’è gloria per chi non ha fegato.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Kein Rückgrat, kein Ruhm.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Pas de cran, pas de gloire.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Sin riesgo no hay gloria.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[覚悟なくば栄光なし。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[용기없는 자, 영광을 누리지 못하리라.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Была не была!]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Sem risco, não existe glória.]]></LOCALISED_TEXT>
+  </FLAVOURTEXT>
+  <TYPE metaname="Sorcery" />
+  <EXPANSION value="M13" />
+  <RARITY metaname="C" />
+  <UTILITY_ABILITY>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[As an additional cost to cast Wild Guess, discard a card.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Come costo addizionale per lanciare il Tentativo Disperato, scarta una carta.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Wirf als zusätzliche Kosten, um Wilde Vermutung zu wirken, eine Karte aus deiner Hand ab.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[En tant que coût supplémentaire pour lancer la Supposition au hasard, défaussez-vous d’une carte.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Como coste adicional para lanzar Probar suerte, descarta una carta.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[野生の勘を唱えるための追加コストとして、カードを１枚捨てる。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[엉뚱한 추측을 발동하기 위한 추가비용으로, 카드 한 장을 버린다.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[В качестве дополнительной стоимости разыгрывания Случайной Догадки сбросьте карту.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Como custo adicional para conjurar Aposta Cega, descarte um card.]]></LOCALISED_TEXT>
+	<COST type="Discard" qualifier="additional">
+      <TARGET_DEFINITION id="6">
+      local filter = Object():GetFilter()
+      filter:Clear()
+      filter:NotTargetted()
+      filter:SetZone( ZONE_HAND )
+      filter:SetPlayer( EffectController() )
+	  filter:SetCardInstance( Object() )
+	  filter:AddExtra( FILTER_EXTRA_FLIP_CARD_INSTANCE )
+      </TARGET_DEFINITION>
+      <TARGET_DETERMINATION>
+      return AtLeastOneTargetFromDefinition(6)
+      </TARGET_DETERMINATION>
+      <PLAYTIME>
+      EffectController():ChooseTarget( 6, "CARD_QUERY_CHOOSE_CARD_TO_DISCARD", EffectDC():Make_Targets(0) )
+      </PLAYTIME></COST>
+  </UTILITY_ABILITY>
+  <SPELL_ABILITY filter_zone="ZONE_IN_PLAY">
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Draw two cards.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Pesca due carte.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Ziehe zwei Karten.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Piochez deux cartes.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Roba dos cartas.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[カードを２枚引く。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[카드 두 장을 뽑는다.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Возьмите две карты.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Compre dois cards.]]></LOCALISED_TEXT>
+	<RESOLUTION_TIME_ACTION>
+    local NumCards = 2
+    while (NumCards &gt; 0) do
+    	NumCards = NumCards - 1
+    	EffectController():DrawCard()
+    end
+    </RESOLUTION_TIME_ACTION>
+  </SPELL_ABILITY>
+</CARD_V2>

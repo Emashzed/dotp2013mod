@@ -1,0 +1,68 @@
+﻿<?xml version='1.0'?>
+<CARD_V2>
+  <FILENAME text="OMNISCIENCE_M13_063" />
+  <CARDNAME text="OMNISCIENCE" />
+  <TITLE>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Omniscience]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Onniscienza]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Allwissenheit]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Omniscience]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Omnisciencia]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[全知]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[전지전능함]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Всеведение]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Onisciência]]></LOCALISED_TEXT>
+  </TITLE>
+  <MULTIVERSEID value="M13_063" />
+  <ARTID value="M13_063" />
+  <ARTIST name="Jason Chan" />
+  <CASTING_COST cost="{7}{U}{U}{U}" />
+  <FLAVOURTEXT>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA["The things I once imagined would be my greatest achievements were only the first steps toward a future I can only begin to fathom."
+—Jace Beleren]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA["Le cose che sognavo un tempo sarebbero le mie conquiste più grandi, se non fossero solo i primi passi verso un futuro che riesco appena a intravedere."
+—Jace Beleren]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[„Die Errungenschaften, von denen ich einst begeistert war, waren nur erste Schritte auf dem Weg in eine Zukunft, die ich nur erahnen kann."
+—Jace Beleren]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[« Mes rêves les plus fous d'hier ne sont aujourd'hui qu'un premier pas vers un avenir que je commence à peine à entrevoir. »
+—Jace Beleren]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA["Las cosas que en otro tiempo imaginé que serían mis mayores logros no eran más que los primeros pasos hacia un futuro que sólo puedo empezar a vislumbrar."
+—Jace Beleren]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[「かつては最大の目標として想い描いていた事も、まだその片鱗しか窺い知ることのできない未来への第一歩に過ぎなかった。」
+――ジェイス・ベレレン]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA["한때 내 일생일대의 업적이 되리라 상상했던 것들은 실은 헤아릴 수 없을 만큼 엄청난 미래의 첫걸음에 불과했다."
+—제이스 벨레렌]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[«То, что я некогда мнил своим величайшим достижением, было лишь первыми шагами в будущее, которое я лишь начинаю постигать».
+— Джейс Белерен]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA["As coisas que um dia eu imaginei como minhas maiores conquistas foram apenas o primeiro passo rumo a um futuro que apenas comecei a visualizar."
+— Jace Beleren]]></LOCALISED_TEXT>
+  </FLAVOURTEXT>
+  <TYPE metaname="Enchantment" />
+  <EXPANSION value="M13" />
+  <RARITY metaname="M" />
+  <STATIC_ABILITY filter_zone="ZONE_HAND">
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[You may cast nonland cards from your hand without paying their mana costs.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Puoi lanciare carte non terra dalla tua mano senza pagare il loro costo di mana.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Du kannst Karten, die kein Land sind, aus deiner Hand wirken, ohne ihre Manakosten zu bezahlen.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Vous pouvez lancer des cartes non-terrain depuis votre main sans payer leur coût de mana.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Puedes lanzar cartas que no sean de tierra de tu mano sin pagar sus costes de maná.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[あなたはあなたの手札にある土地でないカードを、それらのマナ・コストを支払うことなく唱えてもよい。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[당신은 손에 있는 대지가 아닌 카드를 마나비용의 지불 없이 발동할 수 있다.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Вы можете разыгрывать не являющиеся землями карты из вашей руки без уплаты их мана-стоимости.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Você pode conjurar cards que não sejam terrenos da sua mão sem pagar seus custos de mana.]]></LOCALISED_TEXT>
+	<FILTER>
+    local filteredCard = FilteredCard()
+    local objectPlayer = Object():GetPlayer()
+    return (FilteredCard():GetPlayer() == Object():GetPlayer()) and (FilteredCard() ~= nil)
+    </FILTER>
+    <CONTINUOUS_ACTION layer="8">
+    if FilteredCard() ~= nil then
+    	FilteredCard():GetCurrentCharacteristics():GrantAbility(1)
+    end
+    </CONTINUOUS_ACTION>
+  </STATIC_ABILITY>
+  <UTILITY_ABILITY resource_id="1">
+    <COST type="Mana" cost="{0}" qualifier="alternate" tag="ALTERNATE_COST_PAY_0" />
+  </UTILITY_ABILITY>
+  <AI_BASE_SCORE score="1500" zone="ZONE_IN_PLAY" />
+</CARD_V2>

@@ -1,0 +1,93 @@
+<?xml version='1.0'?>
+<CARD_V2>
+  <FILENAME text="PUBLIC_EXECUTION_M13_105" />
+  <CARDNAME text="PUBLIC_EXECUTION" />
+  <TITLE>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Public Execution]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Exécution publique]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Ejecución pública]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Öffentliche Hinrichtung]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Esecuzione Pubblica]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[公開処刑]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[공개 처형]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Публичная Казнь]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Execução Pública]]></LOCALISED_TEXT>
+  </TITLE>
+  <MULTIVERSEID value="M13_105" />
+  <ARTID value="M13_105" />
+  <ARTIST name="Anthony Palumbo" />
+  <CASTING_COST cost="{5}{B}" />
+  <FLAVOURTEXT>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Though the executioner did not speak,   the villagers got the message.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[L’exécuteur n’ouvrit pas la bouche, mais les villageois comprirent le message.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Aunque el verdugo no dijo nada, los aldeanos entendieron el mensaje.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Der Henker musste nicht sprechen, damit die Dorfbewohner ihn verstanden.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Sebbene il boia non abbia parlato, gli abitanti del villaggio hanno recepito il messaggio.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[処刑者は何も言わなかったが、村人にはそのメッセージが伝わった。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[사형집행인은 한 마디도 하지 않았지만, 마을 사람들은 그가 무슨 말을 하려는지를 알 수 있었다.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Хотя палач не проронил ни слова, жители деревушки все и так поняли.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Embora o carrasco não tenha falado, os aldeões entenderam a mensagem.]]></LOCALISED_TEXT>
+  </FLAVOURTEXT>
+  <TYPE metaname="Instant" />
+  <EXPANSION value="M13" />
+  <RARITY metaname="U" />
+  <SPELL_ABILITY dangerous="1" filter_zone="ZONE_IN_PLAY">
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Destroy target creature an opponent controls. Each other creature that player controls gets -2/-0 until end      of turn.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Détruisez une créature ciblée qu’un adversaire contrôle. Chaque autre créature que ce joueur contrôle gagne -2/-0 jusqu’à la fin du tour.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Destruya la criatura objetivo que controla un oponente. Cada otra criatura que controla ese jugador obtiene -2/-0 hasta el final del turno.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Zerstöre eine Kreatur deiner Wahl, die ein Gegner kontrolliert. Jede andere Kreatur, die dieser Spieler kontrolliert, erhält -2/-0 bis zum Ende des Zuges.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Distruggi una creatura bersaglio controllata da un avversario. Ogni altra creatura controllata da quell’avversario prende -2/-0 fino alla fine del turno.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[いずれかの対戦相手がコントロールするクリーチャー１体を対象とし、それを破壊する。 そのプレイヤーがコントロールする他のクリーチャーはそれぞれ、ターン終了時まで－２/－０の修整を受ける。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[상대가 조종하는 생물 한 개를 목표로 정한다. 그 생물을 파괴한다. 그 플레이어가 조종하는 다른 생물들은 턴종료까지 -2/-0을 받는다.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Уничтожьте целевое существо под контролем оппонента. Каждое другое существо под контролем того игрока получает -2/-0 до конца хода.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Destrua a criatura alvo que um oponente controla. Cada outra criatura que aquele jogador controla recebe -2/-0 até o final do turno.]]></LOCALISED_TEXT>
+    <TARGET_DEFINITION id="0">
+    local filter = Object():GetFilter()
+    filter:Clear()
+    filter:AddCardType( CARD_TYPE_CREATURE )
+    filter:SetControllersTeam( EffectController():GetTeam() )
+    filter:AddExtra( FILTER_EXTRA_FLIP_TEAM )
+    filter:SetZone( ZONE_IN_PLAY )
+    filter:SetHint( HINT_ENEMY_ONLY, EffectController() )
+    </TARGET_DEFINITION>
+    <TARGET_DETERMINATION>
+    return AtLeastOneTargetFromDefinition(0)
+    </TARGET_DETERMINATION>
+    <PLAY_TIME_ACTION target_choosing="1">
+    EffectController():ChooseTarget( 0, "CARD_QUERY_CHOOSE_CREATURE_TO_DESTROY", EffectDC():Make_Targets(0) )
+    </PLAY_TIME_ACTION>
+    <RESOLUTION_TIME_ACTION ignore_filter="1">
+    local target = EffectDC():Get_Targets(0):Get_NthCardPtr(0)
+    if target ~= nil then   
+    	target:Destroy()  
+    end
+    </RESOLUTION_TIME_ACTION>
+    <FILTER>
+    local target_creature = EffectDC():Get_Targets(0):Get_CardPtr(0)
+    if (target_creature ~= nil) then
+    	local player = target_creature:GetPlayer()
+    	return OtherCardsTypeZonePlayer( target_creature, CARD_TYPE_CREATURE, ZONE_IN_PLAY, player )
+    else
+    	return false
+    end
+    </FILTER>
+    <CONTINUOUS_ACTION layer="7C">
+    if FilteredCard() ~= nil then
+    	local characteristics = FilteredCard():GetCurrentCharacteristics()
+    	if characteristics ~= nil then
+    		characteristics:Power_Add( -2 )
+    		characteristics:Toughness_Add( 0 )
+    	end
+    end
+    </CONTINUOUS_ACTION>
+    <DURATION simple_duration="UntilEOT" />
+  </SPELL_ABILITY>
+  <AI_AVAILABILITY type="in_response" />
+  <AI_AVAILABILITY step="begin_combat" turn="their_turn" />
+  <AI_AVAILABILITY step="main_1" turn="my_turn" />
+  <AI_AVAILABILITY step="declare_attackers" turn="their_turn" />
+  <AI_AVAILABILITY step="declare_blockers" />
+  <AI_AVAILABILITY step="end_of_turn" />
+  <AI_AVAILABILITY step="declare_blockers" />
+  <AI_BASE_SCORE score="1200" zone="ZONE_HAND" />
+</CARD_V2>

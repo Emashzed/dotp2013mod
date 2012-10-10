@@ -1,0 +1,14 @@
+<SFXSpecialFX>
+  <SpecialFX name="COMBAT_BLADE_LARGE_ATTACK">
+    <Emitter name="blade_4_T" watchStackForMove="1" waitToFinish="1" playOnTarget="1" sound="Sounds/Blade_Large" start="COMBAT_DAMAGE_PUSHED" />
+  </SpecialFX>
+  <SpecialFX name="COMBAT_BLADE_SMALL_ATTACK">
+    <Emitter name="blade_1_T" watchStackForMove="1" waitToFinish="1" playOnTarget="1" sound="Sounds/Blade_Small" start="COMBAT_DAMAGE_PUSHED" />
+  </SpecialFX>
+  <SpecialFX name="COMBAT_BITE_LARGE_ATTACK">
+    <Emitter name="bite_4_T" watchStackForMove="1" waitToFinish="1" playOnTarget="1" sound="Sounds/Bite_Large" start="COMBAT_DAMAGE_PUSHED" />
+  </SpecialFX>
+  <SpecialFX name="COMBAT_BITE_SMALL_ATTACK">
+    <Emitter name="bite_1_T" watchStackForMove="1" waitToFinish="1" playOnTarget="1" sound="Sounds/Bite_Small" start="COMBAT_DAMAGE_PUSHED" />
+  </SpecialFX>
+</SFXSpecialFX>

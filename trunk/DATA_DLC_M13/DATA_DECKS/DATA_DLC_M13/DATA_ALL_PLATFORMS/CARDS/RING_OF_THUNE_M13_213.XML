@@ -1,0 +1,104 @@
+<?xml version='1.0'?>
+<CARD_V2>
+  <FILENAME text="RING_OF_THUNE_M13_213" />
+  <CARDNAME text="RING_OF_THUNE" />
+  <TITLE>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Ring of Thune]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Anneau de Thiune]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Anillo de Thune]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Ring aus Thune]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Anello di Thune]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[テューンの指輪]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[쑨의 반지]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Перстень Туна]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Anel de Thune]]></LOCALISED_TEXT>
+  </TITLE>
+  <MULTIVERSEID value="M13_213" />
+  <ARTID value="M13_213" />
+  <ARTIST name="Erica Yang" />
+  <CASTING_COST cost="{2}" />
+  <TYPE metaname="Artifact" />
+  <SUB_TYPE metaname="Equipment" order_de-DE="0" order_es-ES="0" order_fr-FR="0" order_it-IT="0" order_jp-JA="0" order_ko-KR="0" order_pt-BR="0" order_ru-RU="0" />
+  <EXPANSION value="M13" />
+  <RARITY metaname="U" />
+  <STATIC_ABILITY filter_zone="ZONE_IN_PLAY">
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Equipped creature has vigilance.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[La créature équipée a la vigilance.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[La criatura equipada tiene la habilidad de vigilancia.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Die ausgerüstete Kreatur hat Wachsamkeit.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[La creatura equipaggiata ha cautela.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[装備しているクリーチャーは警戒を持つ。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[장착된 생물은 경계 능력을 가진다.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Снаряженное существо имеет Бдительность.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[A criatura equipada tem vigilância.]]></LOCALISED_TEXT>
+    <CONTINUOUS_ACTION layer="6">
+    local parent = Object():GetParent()
+    if parent ~= nil then
+    	parent:GetCurrentCharacteristics():Characteristic_Set( CHARACTERISTIC_VIGILANCE, 1 )
+    end
+    </CONTINUOUS_ACTION>
+  </STATIC_ABILITY>
+  <TRIGGERED_ABILITY>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[At the beginning of your upkeep, put a +1/+1 counter on equipped creature if it’s white.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Au début de votre entretien, mettez un marqueur +1/+1 sur la créature équipée si elle est blanche.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Al comienzo de tu mantenimiento, pon un contador +1/+1 sobre la criatura equipada si es blanca.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Lege zu Beginn deines Versorgungssegments eine +1/+1-Marke auf die ausgerüstete Kreatur, falls sie weiß ist.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[All’inizio del tuo mantenimento, metti un segnalino +1/+1 sulla creatura equipaggiata se è bianca.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[あなたのアップキープの開始時に、装備しているクリーチャーが白ならばその上に+1/+1カウンターを１個置く。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[당신의 유지단 시작에, 만약 장착된 생물이 백색이라면 그 생물에 +1/+1 카운터 한 개를 올려놓는다.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[В начале вашего шага поддержки положите один жетон +1/+1 на снаряженное существо, если оно белое.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[No início de sua manutenção, coloque um marcador +1/+1 sobre a criatura equipada que seja branca.]]></LOCALISED_TEXT>
+    <TRIGGER value="BEGINNING_OF_STEP" simple_qualifier="controller">
+    return ( EffectController():MyTurn() ~= 0 ) and ( MTG():GetStep() == STEP_UPKEEP ) and ( Object():GetParent() ~= nil ) and ( Object():GetParent():Test( COLOUR_WHITE ) ~= 0 )
+    </TRIGGER>
+    <RESOLUTION_TIME_ACTION>
+    local parent = Object():GetParent()
+      if parent ~= nil then
+      	if parent:GetColour():Test( COLOUR_WHITE ) ~= 0 then
+      		parent:AddCounters( MTG():PlusOnePlusOneCounters(), 1 )
+      	end
+      end
+    </RESOLUTION_TIME_ACTION>
+  </TRIGGERED_ABILITY>
+  <ACTIVATED_ABILITY sorcery_time="1" filter_zone="ZONE_IN_PLAY">
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Equip {1}]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Équipement {1}]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Equipar {1}.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Ausrüsten {1}]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Equipaggiare {1}]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[装備 {1}]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[장착 {1}]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Снарядить {1}]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Equipar {1}]]></LOCALISED_TEXT>
+    <COST type="Mana" cost="{1}" />
+    <TARGET_DEFINITION id="0">
+    local filter = Object():GetFilter()
+    filter:Clear()
+    filter:AddCardType( CARD_TYPE_CREATURE )
+    filter:SetZone( ZONE_IN_PLAY )
+    filter:SetController( EffectController() )
+    -- AI 'cannot reequip' exemption 
+    local parent = Object():GetParent()
+    if parent ~= nil and EffectController():IsAI() ~= 0 then
+    	filter:SetCardInstance(parent)
+    	filter:AddExtra(FILTER_EXTRA_FLIP_CARD_INSTANCE)
+    end
+    </TARGET_DEFINITION>
+    <TARGET_DETERMINATION>
+    return AtLeastOneTargetFromDefinition(0)
+    </TARGET_DETERMINATION>
+    <PLAY_TIME_ACTION target_choosing="1">
+    EffectController():ChooseTarget( 0, "CARD_QUERY_CHOOSE_CREATURE_TO_EQUIP", EffectDC():Make_Targets(0) )
+    </PLAY_TIME_ACTION>
+    <RESOLUTION_TIME_ACTION>
+    local target_card = EffectDC():Get_Targets(0):Get_CardPtr(0)
+    if (target_card ~= nil and EffectSource() ~= nil) then
+    	EffectSource():Attach( target_card )	
+    end
+    </RESOLUTION_TIME_ACTION>
+    <AI_AVAILABILITY type="equip" />
+  </ACTIVATED_ABILITY>
+  <HELP title="MORE_INFO_BADGE_TITLE_13" body="MORE_INFO_BADGE_BODY_13" zone="ZONE_ANY" />
+  <AI_BASE_SCORE score="450" zone="ZONE_IN_PLAY" />
+  <AI_BASE_SCORE score="300" type="Parent" zone="ZONE_IN_PLAY" />
+</CARD_V2>

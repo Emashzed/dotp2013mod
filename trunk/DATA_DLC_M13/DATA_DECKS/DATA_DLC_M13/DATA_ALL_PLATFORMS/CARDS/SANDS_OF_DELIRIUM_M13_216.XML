@@ -1,0 +1,70 @@
+<?xml version='1.0'?>
+<CARD_V2>
+  <FILENAME text="SANDS_OF_DELIRIUM_M13_216" />
+  <CARDNAME text="SANDS_OF_DELIRIUM" />
+  <TITLE>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Sands of Delirium]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Sablier de délire]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Arenas del delirio]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Sanduhr des Deliriums]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Sabbia del Delirio]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[狂乱病の砂]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[착란의 모래시계]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Песок Безумия]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Areias do Delírio]]></LOCALISED_TEXT>
+  </TITLE>
+  <MULTIVERSEID value="M13_216" />
+  <ARTID value="M13_216" />
+  <ARTIST name="Charles Urbach" />
+  <CASTING_COST cost="{3}" />
+  <FLAVOURTEXT>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[It counts down your last few moments of sanity.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Il décompte vos derniers instants de sanité.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Cuenta tus últimos momentos de cordura.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[In ihr rinnen die letzten Augenblicke des gesunden Verstands davon.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Conta i tuoi ultimi istanti di sanità mentale.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[これはあなたの正気の残り時間を計る。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[그 모래는 온전한 당신의 정신을 나타낸다.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Он течет, отсчитывая последние секунды вашей вменяемости.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Elas contam seus últimos momentos de sanidade.]]></LOCALISED_TEXT>
+  </FLAVOURTEXT>
+  <TYPE metaname="Artifact" />
+  <EXPANSION value="M13" />
+  <RARITY metaname="R" />
+  <ACTIVATED_ABILITY filter_zone="ZONE_IN_PLAY">
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[{X}, {T}: Target player puts the top X cards of his or  her library into his or her graveyard.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[{X}, {T}: Le joueur ciblé met les X cartes du dessus de sa bibliothèque dans son cimetière.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[{X}, {T}: El jugador objetivo pone las primeras X cartas de su biblioteca en su cementerio.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[{X}, {T}: Ein Spieler deiner Wahl legt die obersten X Karten seiner Bibliothek auf seinen Friedhof.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[{X}, {T}: Un giocatore bersaglio mette nel suo cimitero le prime X carte del suo grimorio.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[{X}, {T}：プレイヤー１人を対象とする。そのプレイヤーは、自分のライブラリーの一番上のカードＸ枚を自分の墓地に置く。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[{X}, {T}: 플레이어 한 명을 목표로 정한다. 그 플레이어는 자신의 서고 맨 위의 카드 X장을 자신의 무덤에 넣는다.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[{X}, {T}: целевой игрок кладет X карт с верха своей библиотеки на свое кладбище.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[{X}, {T}: O jogador alvo coloca os X cards do topo do grimório dele no próprio cemitério.]]></LOCALISED_TEXT>
+    <COST type="Mana" cost="{X}" />
+    <COST type="TapSelf" />
+    <TARGET_DEFINITION id="0">
+    local filter = Object():GetFilter()
+    filter:Clear()
+    filter:SetFilterType( FILTER_TYPE_PLAYERS )
+    filter:SetHint( HINT_ENEMY_ONLY, EffectController() )
+    </TARGET_DEFINITION>
+    <TARGET_DETERMINATION>
+    return AtLeastOneTargetFromDefinition(0)
+    </TARGET_DETERMINATION>
+    <PLAY_TIME_ACTION target_choosing="1">
+    EffectController():ChooseTarget( 0, "CARD_QUERY_CHOOSE_PLAYER_MILL_X", EffectDC():Make_Targets(0) )
+    </PLAY_TIME_ACTION>
+    <RESOLUTION_TIME_ACTION>
+    local mill = GetEffectX()
+    local player = EffectDC():Get_Targets(0):Get_PlayerPtr(0)
+    if player ~= nil then
+    	MillCards( player, mill )
+    end
+    </RESOLUTION_TIME_ACTION>
+    <AI_AVAILABILITY type="in_response_dangerous" />
+    <AI_AVAILABILITY step="main_2" turn="my_turn" />
+    <AI_AVAILABILITY step="end_of_turn" turn="their_turn" />
+  </ACTIVATED_ABILITY>
+  <AI_BASE_SCORE score="600" zone="ZONE_IN_PLAY" />
+</CARD_V2>

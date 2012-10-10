@@ -1,0 +1,32 @@
+<SFXSpecialFX>
+  <SpecialFX name="COMBAT_CLAW_LARGE_ATTACK">
+    <Emitter name="claw_4_T" waitToFinish="1" playOnTarget="1" sound="Sounds\Claw_Large" start="COMBAT_DAMAGE_PUSHED" watchStackForMove="1" />
+  </SpecialFX>
+  <SpecialFX name="COMBAT_CLAW_SMALL_ATTACK">
+    <Emitter name="claw_1_T" waitToFinish="1" playOnTarget="1" sound="Sounds\Claw_Small" start="COMBAT_DAMAGE_PUSHED" watchStackForMove="1" />
+  </SpecialFX>
+  <SpecialFX name="COMBAT_BLADE_LARGE_ATTACK">
+    <Emitter name="blade_4_T" waitToFinish="1" playOnTarget="1" sound="Sounds\Blade_Large" start="COMBAT_DAMAGE_PUSHED" watchStackForMove="1" />
+  </SpecialFX>
+  <SpecialFX name="COMBAT_BLADE_SMALL_ATTACK">
+    <Emitter name="blade_1_T" waitToFinish="1" playOnTarget="1" sound="Sounds\Blade_Small" start="COMBAT_DAMAGE_PUSHED" watchStackForMove="1" />
+  </SpecialFX>
+  <SpecialFX name="COMBAT_GREEN_MAGIC_LARGE_ATTACK">
+    <Emitter name="gorb_4_T" waitToFinish="1" playOnTarget="1" start="COMBAT_DAMAGE_PUSHED" watchStackForMove="1" />
+    <Emitter name="gorb_4_A" waitToFinish="1" highDecay="True" highStrength="0.5f" highDuration="2" rumbleTarget="ATTACKER_AND_VICTIM" sound="Sounds\Green_Large" start="COMBAT_DAMAGE_PUSHED" watchStackForMove="1" />
+  </SpecialFX>
+  <SpecialFX name="COMBAT_GREEN_MAGIC_SMALL_ATTACK">
+    <Emitter name="gorb_1_T" waitToFinish="1" playOnTarget="1" start="COMBAT_DAMAGE_PUSHED" watchStackForMove="1" />
+    <Emitter name="gorb_1_A" waitToFinish="1" highDecay="True" highStrength="0.5f" highDuration="2" rumbleTarget="ATTACKER_AND_VICTIM" sound="Sounds\Green_Small" start="COMBAT_DAMAGE_PUSHED" watchStackForMove="1" />
+  </SpecialFX>
+  <SpecialFX name="COMBAT_PIERCE_LARGE_ATTACK">
+    <Emitter name="pierce_4_T" waitToFinish="1" playOnTarget="1" sound="Sounds\Pierce_Large" start="COMBAT_DAMAGE_PUSHED" watchStackForMove="1" />
+  </SpecialFX>
+  <SpecialFX name="COMBAT_PIERCE_SMALL_ATTACK">
+    <Emitter name="pierce_1_T" waitToFinish="1" playOnTarget="1" sound="Sounds\Pierce_Small" start="COMBAT_DAMAGE_PUSHED" watchStackForMove="1" />
+  </SpecialFX>
+  <SpecialFX name="CASTER_BUFF_PLAY">
+    <Emitter name="default_resolving" watchStackForEnd="1" dontAddEndTurnTrigger="1" finishTime="0.97" sound="Sounds\default_resolving" start="STACK_PUSHED" />
+    <Emitter name="caster_buff" waitToFinish="1" dontAddEndTurnTrigger="1" highDecay="True" highStrength="0.6f" highDuration="3" rumbleTarget="CASTER" start="SPELL_RESOLVED" attachToCaster="1" lowStrength="0.4f" lowDuration="3" lowDecay="True" />
+  </SpecialFX>
+</SFXSpecialFX>

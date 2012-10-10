@@ -1,0 +1,5 @@
+<SFXSpecialFX>
+  <SpecialFX name="COMBAT_PRIMORDIAL_ATTACK">
+    <Emitter name="Primordial_T" waitToFinish="1" playOnTarget="1" sound="Sounds\Primordial_T" start="COMBAT_DAMAGE_PUSHED" watchStackForMove="1" />
+  </SpecialFX>
+</SFXSpecialFX>

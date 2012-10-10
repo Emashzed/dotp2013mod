@@ -1,0 +1,8 @@
+<SFXSpecialFX>
+  <SpecialFX name="COMBAT_ANGEL_LARGE_ATTACK">
+    <Emitter name="angel_4_T" waitToFinish="1" playOnTarget="1" sound="Sounds\Angel_Large" start="COMBAT_DAMAGE_PUSHED" watchStackForMove="1" />
+  </SpecialFX>
+  <SpecialFX name="COMBAT_ANGEL_SMALL_ATTACK">
+    <Emitter name="angel_1_T" waitToFinish="1" playOnTarget="1" sound="Sounds\Angel_Small" start="COMBAT_DAMAGE_PUSHED" watchStackForMove="1" />
+  </SpecialFX>
+</SFXSpecialFX>

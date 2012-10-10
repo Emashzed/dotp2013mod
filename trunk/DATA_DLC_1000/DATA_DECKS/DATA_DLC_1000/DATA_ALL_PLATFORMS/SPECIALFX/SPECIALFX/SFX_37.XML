@@ -1,0 +1,6 @@
+<SFXSpecialFX>
+  <SpecialFX name="TARGET_BLUNT_PLAY" playfromgraveyard="1">
+    <Emitter name="default_resolving" watchStackForEnd="1" dontAddEndTurnTrigger="1" finishTime="0.97" sound="Sounds\default_resolving" start="STACK_PUSHED" />
+    <Emitter name="blunt_4_T" playOnTarget="1" sound="Sounds\Blunt_Large" SpecialSpecialEffect="1" start="SPELL_RESOLVED" />
+  </SpecialFX>
+</SFXSpecialFX>

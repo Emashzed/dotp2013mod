@@ -1,0 +1,48 @@
+﻿<?xml version='1.0'?>
+<CARD_V2>
+  <FILENAME text="MERFOLK_OF_THE_PEARL_TRIDENT_M13_060" />
+  <CARDNAME text="MERFOLK_OF_THE_PEARL_TRIDENT" />
+  <TITLE>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Merfolk of the Pearl Trident]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Tritone dal Tridente Perlaceo]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Meervolk des Perlendreizacks]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Ondin du Trident de perles]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Tritones del Tridente Perlado]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[真珠三叉矛の人魚]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[진주 창의 인어]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Мерфолк Жемчужного Трезубца]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Tritões do Tridente Perolado]]></LOCALISED_TEXT>
+  </TITLE>
+  <MULTIVERSEID value="M13_060" />
+  <ARTID value="M13_060" />
+  <ARTIST name="Ray Lago" />
+  <CASTING_COST cost="{U}" />
+  <FLAVOURTEXT>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA["The merfolk of the Pearl Trident have risen from the waves since the earliest days, at times allies to humans, other  times enemies. Now their power is cresting again, and who can say which way the new tide will flow."
+—Kalis, Onean scholar]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA["I Tritoni dal Tridente Perlaceo emersero dalle onde fin dagli albori, a volte alleati degli umani, a volte nemici. Ora il loro potere sta riacquistando vigore, ed è impossibile prevedere in che direzione fluirà la nuova corrente."
+—Kalis, studioso Oneano]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[„Das Meervolk des Perlendreizacks hat sich bereits seit Anbeginn der Zeit aus den Wellen erhoben, mal als Freund der Menschen, mal als Feind. Jetzt wächst seine Macht erneut. Wer kann schon sagen, wohin die neue Flut fließen wird?"
+—Kalis, oneanische Gelehrte]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[« Depuis la nuit des temps, les ondins du Trident de perles sortent des flots, parfois alliés des humains, parfois ennemis mortels. Aujourd'hui, ils connaissent une nouvelle marée haute, et qui sait dans quel sens elle les portera... »
+—Kalis, érudite onéanne]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA["Los tritones del Tridente Perlado han surgido de las olas desde los primeros días, unas veces como aliados de los humanos y otras como enemigos. Ahora su poder se alza de nuevo y quién sabe hacia dónde fluirá la nueva marea."
+—Kalis, erudita oneana]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[「真珠三叉矛の人魚は歴史の黎明期に波間から現れ、時には人間の仲間となり、時には敵となりました。その力は今また高まりつつあります。今度の潮目がどちらを向くかは、誰も明言できないでしょう。」
+――オネイアの学者カリス]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA["진주 창의 인어는 아주 오래전부터 갖은 풍랑을 거치며 번영해 왔다. 인간과는 동맹 관계일 때도 있었고, 적대적인 관계일 때도 있었다. 그리고 그들의 힘이 다시 정점에 올라 있는 지금, 이 새로운 기류가 어떤 방향으로 흘러갈지는 누구도 예측할 수 없다."
+—오니아 학자 칼리스]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[«Мерфолки Жемчужного Трезубца испокон веков поднимались из моря, иногда принимая сторону людей, иногда становясь им врагами. Теперь их силы вновь поднимаются из глубин, и никто не знает, куда ударит волна на этот раз».
+— Калис, онеанский ученый]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA["Os tritões do Tridente Perolado saíram dos mares desde o início dos tempos, por vezes como aliados dos humanos e por outras como inimigos. Agora, o poder deles está surgindo novamente. E ninguém sabe dizer para que lado a maré levará."
+— Kalis, erudito oneano]]></LOCALISED_TEXT>
+  </FLAVOURTEXT>
+  <TYPE metaname="Creature" />
+  <SUB_TYPE metaname="Merfolk" />
+  <EXPANSION value="M13" />
+  <RARITY metaname="C" />
+  <POWER value="1" />
+  <TOUGHNESS value="1" />
+  <SFX text="COMBAT_PIERCE_LARGE_ATTACK" power_boundary_min="4" power_boundary_max="-1" />
+  <SFX text="COMBAT_PIERCE_SMALL_ATTACK" power_boundary_min="1" power_boundary_max="3" />
+</CARD_V2>

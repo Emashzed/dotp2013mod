@@ -1,0 +1,8 @@
+<CONFIG>
+  <PLANESWALKER_NAME_TAG string="PLAYER_NAME_TALKOS" />
+  <LARGE_AVATAR_IMAGE string="143873" />
+  <MEDIUM_AVATAR_IMAGE string="PW_talkos" />
+  <SMALL_AVATAR_IMAGE string="PW_talkos" />
+  <SMALL_AVATAR_IMAGE_LOCKED string="PW_talkos_locked" />
+  <MUSIC string="SHANDALAR_MIX" />
+</CONFIG>

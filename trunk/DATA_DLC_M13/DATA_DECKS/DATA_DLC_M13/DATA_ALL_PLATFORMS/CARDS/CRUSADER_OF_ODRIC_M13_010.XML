@@ -1,0 +1,59 @@
+<?xml version='1.0'?>
+<CARD_V2>
+  <FILENAME text="CRUSADER_OF_ODRIC_M13_010" />
+  <CARDNAME text="CRUSADER_OF_ODRIC" />
+  <TITLE>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Crusader of Odric]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Croisée d’Odric]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Cruzado de Odric]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Odrics Kreuzritter]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Crociata di Odric]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[オドリックの十字軍]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[오드릭의 성전사]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Крестоносец Одрика]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Cruzado de Odric]]></LOCALISED_TEXT>
+  </TITLE>
+  <MULTIVERSEID value="M13_010" />
+  <ARTID value="M13_010" />
+  <ARTIST name="Michael Komarck" />
+  <CASTING_COST cost="{2}{W}" />
+  <FLAVOURTEXT>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[“We are Odric’s sword. We strike   without fear, for his mind has divined  how our foe will be slain.”]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[« Nous sommes l’épée d’Odric. Nous frappons sans crainte, car il a prédit la manière dont notre ennemi sera tué. »]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[“Somos la espada de Odric. Atacamos sin miedo, porque su mente ha previsto cómo caerá nuestro enemigo.”]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[„Wir sind Odrics Schwert. Wir kämpfen ohne Furcht, da er prophezeit hat, wie unser Feind besiegt werden wird.“]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[“Siamo la spada di Odric. Colpiamo senza timore, poiché la sua mente ha predetto come i nostri nemici saranno trucidati.”]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[「我々はオドリックの剣だ。 我々は恐れることなく戦い、オドリックが望むように我らの敵を殺戮するのだ」]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[“우리가 오드릭의 칼날이다. 상대가 어떻게 죽을 지를 이미 마음 속으로 봤으니 우리의 검에는 두려움이 없다.”]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[«Мы — меч Одрика, разящий без страха, ибо его проницательный ум понял, как уничтожить наших врагов».]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[“Nós somos a espada de Odric. Golpeamos sem medo, pois sua mente profetizou como nosso inimigo será morto.”]]></LOCALISED_TEXT>
+  </FLAVOURTEXT>
+  <TYPE metaname="Creature" />
+  <SUB_TYPE metaname="Human" order_de-DE="0" order_es-ES="1" order_fr-FR="0" order_it-IT="1" order_jp-JA="0" order_ko-KR="0" order_pt-BR="0" order_ru-RU="0" />
+  <SUB_TYPE metaname="Soldier" order_de-DE="1" order_es-ES="0" order_fr-FR="1" order_it-IT="0" order_jp-JA="1" order_ko-KR="1" order_pt-BR="1" order_ru-RU="1" />
+  <EXPANSION value="M13" />
+  <RARITY metaname="U" />
+  <POWER value="*" />
+  <TOUGHNESS value="*" />
+  <STATIC_ABILITY filter_zone="ZONE_IN_PLAY">
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Crusader of Odric’s power and toughness are each equal to the  number of creatures you control.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[La force et l’endurance de la Croisée d’Odric sont chacune égales au nombre de créatures que vous contrôlez.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Tanto la fuerza como la resistencia del Cruzado de Odric es igual al número de criaturas que controlas.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Stärke und Widerstandskraft von Odrics Kreuzrittern sind gleich der Anzahl der Kreaturen, die du kontrollierst.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[La forza e la costituzione della Crociata di Odric sono pari al numero di creature che controlli.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[オドリックの十字軍のパワーとタフネスは、それぞれあなたがコントロールするクリーチャーの総数に等しい。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[오드릭의 성전사의 공격력과 방어력은 각각 당신이 조종하는 생물의 개수와 같다.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Сила и выносливость Крестоносца Одрика равны количеству существ под вашим контролем.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[O poder e a resistência de Cruzado de Odric são ambos iguais ao número de criaturas que você controla.]]></LOCALISED_TEXT>
+    <CONTINUOUS_ACTION layer="7A">
+    local total = CountCardsTypeZonePlayer( CARD_TYPE_CREATURE, ZONE_IN_PLAY, EffectController() ) 
+    
+    local characteristics = EffectSource():GetCurrentCharacteristics()  
+    characteristics:Power_Set(total)  
+    characteristics:Toughness_Set(total)
+    </CONTINUOUS_ACTION>
+  </STATIC_ABILITY>
+  <SFX text="COMBAT_BLADE_LARGE_ATTACK" power_boundary_min="4" power_boundary_max="-1" />
+  <SFX text="COMBAT_BLADE_SMALL_ATTACK" power_boundary_min="1" power_boundary_max="3" />
+  <AI_BASE_SCORE score="600" zone="ZONE_IN_PLAY" />
+</CARD_V2>

@@ -1,0 +1,98 @@
+﻿<?xml version='1.0'?>
+<CARD_V2>
+  <FILENAME text="TRICKS_OF_THE_TRADE_M13_074" />
+  <CARDNAME text="TRICKS_OF_THE_TRADE" />
+  <TITLE>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Tricks of the Trade]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Trucchi del Mestiere]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Trickreichtum]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Ficelles du métier]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Gajes del oficio]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[商売の秘訣]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[기술과 요령]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Секрет Мастерства]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Truques do Ofício]]></LOCALISED_TEXT>
+  </TITLE>
+  <MULTIVERSEID value="M13_074" />
+  <ARTID value="M13_074" />
+  <ARTIST name="Steven Belledin" />
+  <CASTING_COST cost="{3}{U}" />
+  <FLAVOURTEXT>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[“Pathetic. You might as well have protected your treasures with a paper     box and some string.”]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[“Patetico. Tanto valeva proteggere i tuoi tesori con una scatola di cartone e un po’ di spago.”]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[„Erbärmlich. Du hättest deine Schätze genauso gut in einer Papierschachtel legen und mit ein wenig Faden zubinden können.”]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[« Pathétique. Autant mettre ses trésors à l’abri dans une boîte en carton fermée par une ficelle. »]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[“Patético. Lo mismo podrías haber protegido tus tesoros con una caja de cartón y un cordelito.”]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[「愚かな。お宝を紙の箱に入れて紐で結わいておくのと変わらないじゃないか。」]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[“한심하군. 보물은 제대로 지켜야지, 이 정도로 허술하게 지키면 어쩌라는 건가.”]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[«Какое убожество! С таким же успехом можно было спрятать сокровища, обернув в бумагу и замотав бечевкой».]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[“Patético. É o mesmo que proteger seus tesouros com uma caixa de papel e um barbante.”]]></LOCALISED_TEXT>
+  </FLAVOURTEXT>
+  <TYPE metaname="Enchantment" />
+  <SUB_TYPE metaname="Aura" />
+  <EXPANSION value="M13" />
+  <RARITY metaname="C" />
+  <STATIC_ABILITY attach_filter="1" filter_zone="ZONE_IN_PLAY">
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Enchant creature]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Enchanter: créature]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Encantar criatura.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Kreaturenverzauberung]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Incanta creatura]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[エンチャント（クリーチャー）]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[생물에게 부여]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Зачаровать существо]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Encantar criatura]]></LOCALISED_TEXT>
+    <CONTINUOUS_ACTION>
+    local attach_filter = Object():AttachmentFilter_Get()
+    attach_filter:Clear()
+    attach_filter:AddCardType( CARD_TYPE_CREATURE )
+    </CONTINUOUS_ACTION>
+  </STATIC_ABILITY>
+  <STATIC_ABILITY>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Enchanted creature gets +2/+0 and is unblockable.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[La creatura incantata prende +2/+0 e non può essere bloccata.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Die verzauberte Kreatur erhält +2/+0 und ist unblockbar.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[La créature enchantée gagne +2/+0 et est imblocable.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[La criatura encantada obtiene +2/+0 y es imbloqueable.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[エンチャントされているクリーチャーは＋２/＋０の修整を受けるとともにブロックされない。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[부여된 생물은 +2/+0을 받고 방어될 수 없다.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Зачарованное существо получает +2/+0 и не может быть заблокировано.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[A criatura encantada recebe +2/+0 e não pode ser bloqueada.]]></LOCALISED_TEXT>
+	<CONTINUOUS_ACTION layer="7C">
+    local parent = Object():GetParent()
+    if parent ~= nil then
+    	parent:GetCurrentCharacteristics():Power_Add( 2 )
+    	parent:GetCurrentCharacteristics():Toughness_Add( 0 )
+    end
+    </CONTINUOUS_ACTION>
+	<CONTINUOUS_ACTION layer="6">
+    local parent = Object():GetParent()
+    if parent ~= nil then
+    	parent:GetCurrentCharacteristics():Characteristic_Set( CHARACTERISTIC_UNBLOCKABLE, 1 )
+    end
+    </CONTINUOUS_ACTION>
+  </STATIC_ABILITY>
+  <SPELL_ABILITY attach_filter="1" dangerous="1" filter_zone="ZONE_IN_PLAY">
+    <TARGET_DEFINITION id="0">
+    local filter = Object():GetFilter()
+    filter:Clear()
+    filter:AddCardType( CARD_TYPE_CREATURE )
+    filter:SetZone( ZONE_IN_PLAY )
+    filter:SetHint( HINT_ALLIED_ONLY, EffectController() )
+    </TARGET_DEFINITION>
+    <TARGET_DETERMINATION>
+    return AtLeastOneTargetFromDefinition(0)
+    </TARGET_DETERMINATION>
+    <PLAY_TIME_ACTION target_choosing="1">
+    EffectController():ChooseTarget( 0, "CARD_QUERY_CHOOSE_CREATURE_TO_ENCHANT", EffectDC():Make_Targets(0) )
+    </PLAY_TIME_ACTION>
+    <RESOLUTION_TIME_ACTION>
+    local target_card = EffectDC():Get_Targets(0):Get_CardPtr(0)
+    if target_card ~= nil then
+          Object():Enchant( target_card )
+    end
+    </RESOLUTION_TIME_ACTION>
+  </SPELL_ABILITY>
+  <HELP title="MORE_INFO_BADGE_TITLE_9" body="MORE_INFO_BADGE_BODY_9" zone="ZONE_ANY" />
+  <AI_BASE_SCORE score="600" zone="ZONE_HAND" />
+</CARD_V2>

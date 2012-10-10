@@ -1,0 +1,77 @@
+<?xml version='1.0'?>
+<CARD_V2>
+  <FILENAME text="ACIDIC_SLIME_M13_159" />
+  <CARDNAME text="ACIDIC_SLIME" />
+  <TITLE>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Acidic Slime]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Boue acide]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Fango ácido]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Ätzender Schleim]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Melma Acida]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[酸のスライム]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[산성 슬라임]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Кислотная Слизь]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Limo Ácido]]></LOCALISED_TEXT>
+  </TITLE>
+  <MULTIVERSEID value="M13_159" />
+  <ARTID value="M13_159" />
+  <ARTIST name="Karl Kopinski" />
+  <CASTING_COST cost="{3}{G}{G}" />
+  <TYPE metaname="Creature" />
+  <SUB_TYPE metaname="Ooze" order_de-DE="0" order_es-ES="0" order_fr-FR="0" order_it-IT="0" order_jp-JA="0" order_ko-KR="0" order_pt-BR="0" order_ru-RU="0" />
+  <EXPANSION value="M13" />
+  <RARITY metaname="U" />
+  <POWER value="2" />
+  <TOUGHNESS value="2" />
+  <STATIC_ABILITY>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Deathtouch]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Contact mortel]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Toque mortal]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Todesberührung]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Tocco letale]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[接死]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[치명타]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Смертельное касание]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Toque mortífero]]></LOCALISED_TEXT>
+    <CONTINUOUS_ACTION>
+    Object():GetCurrentCharacteristics():Characteristic_Set( CHARACTERISTIC_DEATHTOUCH, 1 )
+    </CONTINUOUS_ACTION>
+  </STATIC_ABILITY>
+  <TRIGGERED_ABILITY dangerous="1" filter_zone="ZONE_IN_PLAY">
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[When Acidic Slime enters the battlefield, destroy target artifact, enchantment, or land.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Quand la Boue acide arrive sur le champ de bataille, détruisez l’artefact ciblé, l’enchantement ciblé ou le terrain ciblé.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Cuando el Fango ácido entre al campo de batalla, destruye el artefacto, encantamiento o tierra objetivo.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Wenn der Ätzende Schleim ins Spiel kommt, zerstöre ein Artefakt, eine Verzauberung oder ein Land deiner Wahl.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Quando la Melma Acida entra nel campo di battaglia, distruggi un artefatto, un incantesimo o una terra bersaglio.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[酸のスライムが戦場に出たとき、アーティファクト１つかエンチャント１つか土地１つを対象とし、それを破壊する。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[산성 슬라임이 전장에 들어올 때, 마법물체, 부여마법 또는 대지 한 개를 목표로 정한다. 그 목표를 파괴한다.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Когда Кислотная Слизь выходит на поле битвы, уничтожьте целевой артефакт, чары или землю.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Quando Limo Ácido entrar no campo de batalha, destrua o artefato, encantamento ou terreno alvo.]]></LOCALISED_TEXT>
+    <TRIGGER value="ZONECHANGE_END" simple_qualifier="self" to_zone="ZONE_IN_PLAY" />
+    <TARGET_DEFINITION id="0">
+    local filter = Object():GetFilter()
+    filter:Clear()
+    filter:AddCardType( CARD_TYPE_ARTIFACT )
+    filter:AddCardType( CARD_TYPE_ENCHANTMENT )
+    filter:AddCardType( CARD_TYPE_LAND )
+    filter:SetZone( ZONE_IN_PLAY )
+    filter:SetHint( HINT_ENEMY_ONLY, EffectController() )
+    </TARGET_DEFINITION>
+    <TARGET_DETERMINATION>
+    return AtLeastOneTargetFromDefinition(0)
+    </TARGET_DETERMINATION>
+    <PLAY_TIME_ACTION target_choosing="1">
+    EffectController():ChooseTarget( 0, "CARD_QUERY_CHOOSE_ARTIFACT_ENCHANTMENT_OR_LAND_TO_DESTROY", EffectDC():Make_Targets(0) )
+    </PLAY_TIME_ACTION>
+    <RESOLUTION_TIME_ACTION ignore_filter="1">
+    local target = EffectDC():Get_Targets(0):Get_NthCardPtr(0)
+    if target ~= nil then   
+    	target:Destroy()  
+    end
+    </RESOLUTION_TIME_ACTION>
+  </TRIGGERED_ABILITY>
+  <HELP title="MORE_INFO_BADGE_TITLE_3" body="MORE_INFO_BADGE_BODY_3" zone="ZONE_ANY" />
+  <SFX text="COMBAT_BLUNT_LARGE_ATTACK" power_boundary_min="4" power_boundary_max="-1" />
+  <SFX text="COMBAT_BLUNT_SMALL_ATTACK" power_boundary_min="1" power_boundary_max="3" />
+  <AI_BASE_SCORE score="900" zone="ZONE_HAND" />
+</CARD_V2>

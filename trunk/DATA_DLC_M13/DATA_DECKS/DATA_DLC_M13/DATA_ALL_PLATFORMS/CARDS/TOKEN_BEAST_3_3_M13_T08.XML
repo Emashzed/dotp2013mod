@@ -1,0 +1,30 @@
+<?xml version='1.0'?>
+<CARD_V2>
+  <FILENAME text="TOKEN_BEAST_3_3_M13_T08" />
+  <CARDNAME text="BEAST" />
+  <TITLE>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[BEAST]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[BÊTE]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[BESTIA]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[BESTIE]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[BESTIA]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[ビースト]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[야수]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[ЗВЕРЬ]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[BESTA]]></LOCALISED_TEXT>
+  </TITLE>
+  <MULTIVERSEID value="M13_T08" />
+  <ARTID value="M13_T08" />
+  <COLOUR value="G" />
+  <ARTIST name="John Donahue" />
+  <CASTING_COST cost="" />
+  <TYPE metaname="Creature" />
+  <SUB_TYPE metaname="Beast" order_de-DE="0" order_es-ES="0" order_fr-FR="0" order_it-IT="0" order_jp-JA="0" order_ko-KR="0" order_pt-BR="0" order_ru-RU="0" />
+  <EXPANSION value="M13" />
+  <RARITY metaname="T" />
+  <POWER value="3" />
+  <TOUGHNESS value="3" />
+  <TOKEN />  
+  <SFX text="COMBAT_BITE_LARGE_ATTACK" power_boundary_min="4" power_boundary_max="-1" />
+  <SFX text="COMBAT_BITE_SMALL_ATTACK" power_boundary_min="1" power_boundary_max="3" />
+</CARD_V2>

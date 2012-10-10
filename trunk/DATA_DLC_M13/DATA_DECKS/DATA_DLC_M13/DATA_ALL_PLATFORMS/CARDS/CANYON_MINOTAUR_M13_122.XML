@@ -1,0 +1,76 @@
+﻿<?xml version='1.0'?>
+<CARD_V2>
+  <FILENAME text="CANYON_MINOTAUR_M13_122" />
+  <CARDNAME text="CANYON_MINOTAUR" />
+  <TITLE>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Canyon Minotaur]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Bergschlucht-Minotaurus]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Minotauro del desfiladero]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Minotaure des canyons]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Minotauro del Canyon]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[峡谷のミノタウルス]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[협곡 미노타우로스]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Каньонный Минотавр]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Minotauro do Desfiladeiro]]></LOCALISED_TEXT>
+  </TITLE>
+  <MULTIVERSEID value="M13_122" />
+  <ARTID value="M13_122" />
+  <ARTIST name="Steve Prescott" />
+  <CASTING_COST cost="{3}{R}" />
+  <FLAVOURTEXT>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[“We’ll scale these cliffs, traverse Brittle Bridge, and then fight our way down the volcanic slopes  on the other side.”
+“Isn’t the shortest route through the canyon?”
+“Yes.”
+“So shouldn’t we—”
+“No.”]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[„Wir schleichen uns über diese Klippen, überqueren die wackelige Brücke, und suchen uns dann einen Weg durch die Vulkanhänge auf der anderen Seite."
+„Ich dachte, der kürzeste Weg wäre durch die Schlucht?"
+„Das stimmt."
+„Sollten wir dann nicht...?"
+„Nein."]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA["Escalaremos estas cornisas, atravesaremos el Puente Frágil y luego bajaremos por las pendientes volcánicas del otro lado."
+"¿Pero la ruta más corta no es por el desfiladero?"
+"Sí."
+"¿Entonces no deberíamos...?"
+"No."]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[« Nous escaladerons ces falaises, nous traverserons Frêlepont et nous nous fraierons un chemin sur les pentes volcaniques avec nos armes. »
+« Ce n'est pas plus court en passant par le canyon ? »
+« Si, en effet. »
+« Ne devrait-on alors pas — »
+« Non. »]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA["Scaliamo questi dirupi, attraversiamo Ponte Friabile e poi ci facciamo strada scendendo lungo le scarpate vulcaniche sull'altro lato."
+"Non è più corto attraversare il canyon?"
+"Sì."
+"Quindi non dovremmo..."
+"No."]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[「ここの崖を登り、崩れ橋を渡って、逆側の火口坂を戦いながら下がっていくことになります。」
+「これは峡谷の一番の近道じゃなかったのか？」
+「間違いないです。」
+「それならそんな――」
+「駄目です。」]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA["이제 우리는 이 절벽을 타고 올라가서 아슬아슬한 다리를 건넌 다음 그 너머에 있는 화산 언덕을 내려가야 해."
+"협곡을 가로지르는 게 훨씬 빠르지 않아?"
+"맞아."
+"그럼 그쪽으로 가는 게..."
+"아니."]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[«Мы взберемся на вот эти утесы, перейдем Шаткий Мост, а потом проложим себе путь вниз, по склонам вулкана на другой стороне».
+«Но ведь самый короткий путь лежит через каньон?»
+«Да».
+«Так, может, нам надо...»
+«Не надо».]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA["Nós vamos escalar essas colinas, atravessar a Ponte Quebradiça, e batalhar para descer do outro lado, nas encostas vulcânicas."
+"Não há uma rota mais rápida atravessando o desfiladeiro?"
+"Sim."
+"Então não deveríamos..."
+"Não."]]></LOCALISED_TEXT>
+  </FLAVOURTEXT>
+  <TYPE metaname="Creature" />
+  <SUB_TYPE metaname="Minotaur" order_de-DE="0" order_es-ES="1" order_fr-FR="0" order_it-IT="1" order_jp-JA="0" order_ko-KR="0" order_pt-BR="0" order_ru-RU="0" />
+  <SUB_TYPE metaname="Warrior" order_de-DE="1" order_es-ES="0" order_fr-FR="1" order_it-IT="0" order_jp-JA="1" order_ko-KR="1" order_pt-BR="1" order_ru-RU="1" />
+  <EXPANSION value="M13" />
+  <RARITY metaname="C" />
+  <POWER value="3" />
+  <TOUGHNESS value="3" />
+  <SFX text="COMBAT_BLUNT_LARGE_ATTACK" power_boundary_min="4" power_boundary_max="-1" />
+  <SFX text="COMBAT_BLUNT_SMALL_ATTACK" power_boundary_min="1" power_boundary_max="3" />
+</CARD_V2>

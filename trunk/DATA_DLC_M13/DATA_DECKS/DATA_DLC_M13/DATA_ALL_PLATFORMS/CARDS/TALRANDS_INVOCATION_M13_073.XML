@@ -1,0 +1,54 @@
+<?xml version='1.0'?>
+<CARD_V2>
+  <FILENAME text="TALRANDS_INVOCATION_M13_073" />
+  <CARDNAME text="TALRANDS_INVOCATION" />
+  <TITLE>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Talrand’s Invocation]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Invocation de Talrand]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Invocación de Talrand]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Talrands Anrufung]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Evocazione di Talrand]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[ターランドの発動]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[탈란드의 주문]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Колдовство Талранда]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Invocação de Talrand]]></LOCALISED_TEXT>
+  </TITLE>
+  <MULTIVERSEID value="M13_073" />
+  <ARTID value="M13_073" />
+  <ARTIST name="Svetlin Velinov" />
+  <CASTING_COST cost="{2}{U}{U}" />
+  <FLAVOURTEXT>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[After Talrand conquered the depths of Shandalar, his ambitions drove him skyward, joined by servants whose drive and curiosity equaled his own.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Une fois que Talrand eût conquis les profondeurs de Shandalar, c’est vers le ciel qu’il tourna ses ambitions, des serviteurs guidés par des inspirations comparables dans son sillage.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Tras haber conquistado las profundidades de Shandalar, la ambición de Talrand lo llevó hacia el cielo, junto con los sirvientes cuya curiosidad y empuje igualaban la suya.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Nachdem Talrand die Tiefen von Shandalar erobert hatte, trieb ihn sein Ehrgeiz in die Lüfte, und seine ebenso beschwingten und neugierigen Diener folgten ihm.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Dopo che Talrand ebbe conquistato le profondità di Shandalar, la sua ambizione lo guidò verso il cielo, seguito da servitori la cui spinta e curiosità eguagliavano la sua.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[シャンダラーの奥地まで征服した後、ターランドは意志や興味を同じくする部下と協力して空へと野心を向けた。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[샨달라르의 수중 문명을 정복한 탈란드는 다음 목표를 하늘로 정했고, 그만큼 의지력과 호기심이 강한 자들이 그를 보좌했다.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Покорив глубины Шандалара, Талранд устремил свои амбиции в небесную высь. К нему присоединились слуги, чья энергия и пытливость ума были под стать его собственным.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Depois que Talrand conquistou as profundezas de Shandalar, suas ambições o levaram rumo ao céu, sendo acompanhado por servos com impulsos e curiosidade idênticas.]]></LOCALISED_TEXT>
+  </FLAVOURTEXT>
+  <TYPE metaname="Sorcery" />
+  <EXPANSION value="M13" />
+  <RARITY metaname="U" />
+  <SPELL_ABILITY filter_zone="ZONE_IN_PLAY">
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Put two 2/2 blue Drake creature tokens with flying onto the battlefield.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Mettez sur le champ de bataille deux jetons de créature 2/2 bleue Drakôn avec le vol.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Pon en el campo de batalla dos fichas de criatura Draco azules 2/2 con la habilidad de volar.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Bringe zwei 2/2 blaue Sceada-Kreaturenspielsteine mit Flugfähigkeit ins Spiel.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Metti sul campo di battaglia due pedine creatura Draghetto 2/2 blu con volare.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[飛行を持つ青の２/２のドレイク・クリーチャー・トークンを２体戦場に出す。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[비행 능력을 가진 2/2 청색 드레이크 생물 토큰 두 개를 전장에 놓는다.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Положите на поле битвы две фишки существа 2/2 синий Дрейк с Полетом.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Coloque no campo de batalha duas fichas de criatura azuis 2/2 do tipo Dragonete com voar.]]></LOCALISED_TEXT>
+    <RESOLUTION_TIME_ACTION>
+    local token_count = 2
+    if token_count &gt; 0 then
+    	MTG():PutTokensIntoPlay( "TOKEN_DRAKE_2_2_F_M13_T04", token_count, EffectController() )
+    end
+    </RESOLUTION_TIME_ACTION>
+  </SPELL_ABILITY>
+  <TOKEN_REGISTRATION reservation="1" type="TOKEN_DRAKE_2_2_F_M13_T04" />
+  <HELP title="MORE_INFO_BADGE_TITLE_10" body="MORE_INFO_BADGE_BODY_10" zone="ZONE_ANY" />
+  <AI_BASE_SCORE score="1200" zone="ZONE_HAND" />
+</CARD_V2>
