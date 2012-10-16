@@ -10,7 +10,7 @@
   <LastAuthor>ScrollRack D13</LastAuthor>
   <Created>1980-05-22T23:00:00Z</Created>
   <Company>Microsoft Corporation</Company>
-  <Version>14.00</Version>
+  <Version>11.9999</Version>
  </DocumentProperties>
  <OfficeDocumentSettings xmlns="urn:schemas-microsoft-com:office:office">
   <AllowPNG/>
@@ -32,10 +32,26 @@
    <NumberFormat/>
    <Protection/>
   </Style>
+  <Style ss:ID="s22">
+   <Font ss:FontName="Times New Roman" x:Family="Roman" ss:Size="12"
+    ss:Color="#000000"/>
+  </Style>
  </Styles>
  <Worksheet ss:Name="Sheet4">
-  <Table ss:ExpandedColumnCount="12" ss:ExpandedRowCount="2" x:FullColumns="1"
-   x:FullRows="1" ss:DefaultRowHeight="15">
+  <Table ss:ExpandedColumnCount="12" ss:ExpandedRowCount="102" x:FullColumns="1"
+   x:FullRows="1" ss:StyleID="s22" ss:DefaultColumnWidth="66"
+   ss:DefaultRowHeight="15.75">
+   <Column ss:StyleID="s22" ss:Width="537.75"/>
+   <Column ss:StyleID="s22" ss:Width="538.5"/>
+   <Column ss:StyleID="s22" ss:Width="607.5"/>
+   <Column ss:StyleID="s22" ss:Width="731.25"/>
+   <Column ss:StyleID="s22" ss:Width="666.75"/>
+   <Column ss:StyleID="s22" ss:Width="721.5"/>
+   <Column ss:StyleID="s22" ss:Width="677.25"/>
+   <Column ss:Index="9" ss:StyleID="s22" ss:Width="969"/>
+   <Column ss:StyleID="s22" ss:Width="578.25"/>
+   <Column ss:StyleID="s22" ss:Width="713.25"/>
+   <Column ss:StyleID="s22" ss:Width="645.75"/>
    <Row>
     <Cell><Data ss:Type="String">Ident</Data></Cell>
     <Cell><Data ss:Type="String">Comment</Data></Cell>
@@ -207,6 +223,18 @@
     <Cell><Data ss:Type="String">Escolha um card para exilar.</Data></Cell>
    </Row>
    <Row>
+    <Cell><Data ss:Type="String">CARD_QUERY_CHOOSE_CARD_TO_PUT_INTO_GRAVEYARD</Data></Cell>
+    <Cell ss:Index="3"><Data ss:Type="String">Choose a card to put into its owner’s graveyard.</Data></Cell>
+    <Cell><Data ss:Type="String">Choisissez une carte à mettre dans le cimetière de son propriétaire.</Data></Cell>
+    <Cell><Data ss:Type="String">Elegir una tarjeta que pone en el cementerio de su propietario.</Data></Cell>
+    <Cell><Data ss:Type="String">Wählen Sie eine Karte. Diese wird in den Friedhof ihres Besitzers gelegt.</Data></Cell>
+    <Cell><Data ss:Type="String">Scegliere una carta messa nel cimitero del suo proprietario.</Data></Cell>
+    <Cell ss:Index="9"><Data ss:Type="String">そのオーナーの墓地に置くためにカードを選択します。</Data></Cell>
+    <Cell><Data ss:Type="String">주인의 묘지에 투입하는 카드를 선택합니다.</Data></Cell>
+    <Cell><Data ss:Type="String">Выберите карту, чтобы положить на кладбище своего владельца.</Data></Cell>
+    <Cell><Data ss:Type="String">Escolha um cartão para colocar no cemitério de seu dono.</Data></Cell>
+   </Row>
+   <Row>
     <Cell><Data ss:Type="String">CARD_QUERY_CHOOSE_CARDS_TO_EXILE_GRAVE</Data></Cell>
     <Cell ss:Index="3"><Data ss:Type="String">Choose cards to exile. (graveyard)</Data></Cell>
     <Cell><Data ss:Type="String">Choisissez une carte pour l'exiler.</Data></Cell>
@@ -243,16 +271,16 @@
     <Cell><Data ss:Type="String">Escolha um card para exilar.</Data></Cell>
    </Row>
    <Row>
-    <Cell><Data ss:Type="String">CARD_QUERY_CHOOSE_CARD_TO_PUT_INTO_GRAVEYARD</Data></Cell>
-    <Cell ss:Index="3"><Data ss:Type="String">Choose a card to put into its owner’s graveyard.</Data></Cell>
-    <Cell><Data ss:Type="String">Choisissez une carte à mettre dans le cimetière de son propriétaire.</Data></Cell>
-    <Cell><Data ss:Type="String">Elegir una tarjeta que pone en el cementerio de su propietario.</Data></Cell>
-    <Cell><Data ss:Type="String">Wählen Sie eine Karte. Diese wird in den Friedhof ihres Besitzers gelegt.</Data></Cell>
-    <Cell><Data ss:Type="String">Scegliere una carta messa nel cimitero del suo proprietario.</Data></Cell>
-    <Cell ss:Index="9"><Data ss:Type="String">そのオーナーの墓地に置くためにカードを選択します。</Data></Cell>
-    <Cell><Data ss:Type="String">주인의 묘지에 투입하는 카드를 선택합니다.</Data></Cell>
-    <Cell><Data ss:Type="String">Выберите карту, чтобы положить на кладбище своего владельца.</Data></Cell>
-    <Cell><Data ss:Type="String">Escolha um cartão para colocar no cemitério de seu dono.</Data></Cell>
+    <Cell><Data ss:Type="String">CARD_QUERY_CHOOSE_CREATURE_CARD_TO_EXILE</Data></Cell>
+    <Cell ss:Index="3"><Data ss:Type="String">Choose a creature card to exile.</Data></Cell>
+    <Cell><Data ss:Type="String">Choisissez une carte pour l'exiler.</Data></Cell>
+    <Cell><Data ss:Type="String">Elige una carta para exiliar.</Data></Cell>
+    <Cell><Data ss:Type="String">Bestimme eine Karte, die ins Exil geschickt werden soll.</Data></Cell>
+    <Cell><Data ss:Type="String">Scegli una carta da esiliare.</Data></Cell>
+    <Cell ss:Index="9"><Data ss:Type="String">追放するカードを選択。</Data></Cell>
+    <Cell><Data ss:Type="String">추방할 카드를 한 장 고르십시오.</Data></Cell>
+    <Cell><Data ss:Type="String">Выберите карту для изгнания.</Data></Cell>
+    <Cell><Data ss:Type="String">Escolha um card para exilar.</Data></Cell>
    </Row>
    <Row>
     <Cell><Data ss:Type="String">CARD_QUERY_CHOOSE_CREATURE_CARD_TO_PUT_ON_YOUR_LIBRARY</Data></Cell>
@@ -265,18 +293,6 @@
     <Cell><Data ss:Type="String">소유자의 서고 맨 위에 놓을 생물 한 개를 고르십시오.</Data></Cell>
     <Cell><Data ss:Type="String">Выберите существо, которое нужно положить на верх библиотеки его владельца.</Data></Cell>
     <Cell><Data ss:Type="String">Escolha uma criatura para colocar no topo do grimório de seu dono.</Data></Cell>
-   </Row>
-   <Row>
-    <Cell><Data ss:Type="String">CARD_QUERY_CHOOSE_CREATURE_CARD_TO_EXILE</Data></Cell>
-    <Cell ss:Index="3"><Data ss:Type="String">Choose a creature card to exile.</Data></Cell>
-    <Cell><Data ss:Type="String">Choisissez une carte pour l'exiler.</Data></Cell>
-    <Cell><Data ss:Type="String">Elige una carta para exiliar.</Data></Cell>
-    <Cell><Data ss:Type="String">Bestimme eine Karte, die ins Exil geschickt werden soll.</Data></Cell>
-    <Cell><Data ss:Type="String">Scegli una carta da esiliare.</Data></Cell>
-    <Cell ss:Index="9"><Data ss:Type="String">追放するカードを選択。</Data></Cell>
-    <Cell><Data ss:Type="String">추방할 카드를 한 장 고르십시오.</Data></Cell>
-    <Cell><Data ss:Type="String">Выберите карту для изгнания.</Data></Cell>
-    <Cell><Data ss:Type="String">Escolha um card para exilar.</Data></Cell>
    </Row>
    <Row>
     <Cell><Data ss:Type="String">CARD_QUERY_CHOOSE_CREATURE_GAIN_MUST_BLOCK</Data></Cell>
@@ -530,7 +546,7 @@
     <Cell><Data ss:Type="String">Выбор целевого игрока сбросить карты наугад из своих рук.</Data></Cell>
     <Cell><Data ss:Type="String">Escolha o jogador alvo para descartar um card aleatoriamente de sua mão.</Data></Cell>
    </Row>
-    <Row>
+   <Row>
     <Cell><Data ss:Type="String">CARD_QUERY_CHOOSE_PLAYER_DISCARD_HAND</Data></Cell>
     <Cell ss:Index="3"><Data ss:Type="String">Choose a player to discard his or her hand.</Data></Cell>
     <Cell><Data ss:Type="String">Choose a player to discard his or her hand.</Data></Cell>
@@ -651,18 +667,6 @@
     <Cell><Data ss:Type="String">Você pode optar por tomar 5 de dano para impedir o jogador alvo de três cartas.</Data></Cell>
    </Row>
    <Row>
-    <Cell><Data ss:Type="String">CARD_QUERY_MC_CIRCULAR_LOGIC</Data></Cell>
-    <Cell ss:Index="3"><Data ss:Type="String">Do you want to pay {%d}? (If you don't, the spell will be countered.)</Data></Cell>
-    <Cell><Data ss:Type="String">Voulez-vous payer {%d}? (Si vous ne le faites pas, le sort sera contrecarré.)</Data></Cell>
-    <Cell><Data ss:Type="String">¿Quieres pagar {%d}? (Si no lo hace, el hechizo será contrarrestado.)</Data></Cell>
-    <Cell><Data ss:Type="String">Wenn Du nicht {%d} bezahlst wird der Zauberspruch verhindert.</Data></Cell>
-    <Cell><Data ss:Type="String">Vuoi pagare {%d}? (Se non lo fate, la magia viene neutralizzata.)</Data></Cell>
-    <Cell ss:Index="9"><Data ss:Type="String">あなたは{%d}を支払ってしたいですか？ （そうでない場合、その呪文は打ち消されます。）</Data></Cell>
-    <Cell><Data ss:Type="String">당신은 {%d} 대가를 지불하길 원하는 겁니까? (그렇지 않으면, 주문이 반박됩니다.)</Data></Cell>
-    <Cell><Data ss:Type="String">Вы хотите заплатить {%d}? (Если вы не сделаете этого, заклинание будет противопоставить.)</Data></Cell>
-    <Cell><Data ss:Type="String">Você quer pagar {%d}? (Se você não fizer isso, o feitiço vai ser anulado.)</Data></Cell>
-   </Row>
-   <Row>
     <Cell><Data ss:Type="String">CARD_QUERY_MC_CHOOSE_ONE</Data></Cell>
     <Cell ss:Index="3"><Data ss:Type="String">Choose one.</Data></Cell>
     <Cell><Data ss:Type="String">Choisissez l'un.</Data></Cell>
@@ -673,6 +677,18 @@
     <Cell><Data ss:Type="String">Choose one.</Data></Cell>
     <Cell><Data ss:Type="String">Выберите одно.</Data></Cell>
     <Cell><Data ss:Type="String">Escolha um.</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">CARD_QUERY_MC_CIRCULAR_LOGIC</Data></Cell>
+    <Cell ss:Index="3"><Data ss:Type="String">Do you want to pay {%d}? (If you don't, the spell will be countered.)</Data></Cell>
+    <Cell><Data ss:Type="String">Voulez-vous payer {%d}? (Si vous ne le faites pas, le sort sera contrecarré.)</Data></Cell>
+    <Cell><Data ss:Type="String">¿Quieres pagar {%d}? (Si no lo hace, el hechizo será contrarrestado.)</Data></Cell>
+    <Cell><Data ss:Type="String">Wenn Du nicht {%d} bezahlst wird der Zauberspruch verhindert.</Data></Cell>
+    <Cell><Data ss:Type="String">Vuoi pagare {%d}? (Se non lo fate, la magia viene neutralizzata.)</Data></Cell>
+    <Cell ss:Index="9"><Data ss:Type="String">あなたは{%d}を支払ってしたいですか？ （そうでない場合、その呪文は打ち消されます。）</Data></Cell>
+    <Cell><Data ss:Type="String">당신은 {%d} 대가를 지불하길 원하는 겁니까? (그렇지 않으면, 주문이 반박됩니다.)</Data></Cell>
+    <Cell><Data ss:Type="String">Вы хотите заплатить {%d}? (Если вы не сделаете этого, заклинание будет противопоставить.)</Data></Cell>
+    <Cell><Data ss:Type="String">Você quer pagar {%d}? (Se você não fizer isso, o feitiço vai ser anulado.)</Data></Cell>
    </Row>
    <Row>
     <Cell><Data ss:Type="String">CARD_QUERY_MC_COUNTER_UNLESS_PAY_2</Data></Cell>
@@ -1283,45 +1299,48 @@
    <ProtectObjects>False</ProtectObjects>
    <ProtectScenarios>False</ProtectScenarios>
   </WorksheetOptions>
+  <Sorting xmlns="urn:schemas-microsoft-com:office:excel">
+   <Sort>Ident</Sort>
+  </Sorting>
  </Worksheet>
  <Worksheet ss:Name="Sheet1">
-  <Table ss:ExpandedColumnCount="1" ss:ExpandedRowCount="1" x:FullColumns="1"
-   x:FullRows="1" ss:DefaultRowHeight="15">
-  </Table>
+  <Table ss:ExpandedColumnCount="0" ss:ExpandedRowCount="0" x:FullColumns="1"
+   x:FullRows="1" ss:DefaultColumnWidth="66" ss:DefaultRowHeight="15"/>
   <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
    <PageSetup>
     <Header x:Margin="0.3"/>
     <Footer x:Margin="0.3"/>
     <PageMargins x:Bottom="0.75" x:Left="0.7" x:Right="0.7" x:Top="0.75"/>
    </PageSetup>
+   <Unsynced/>
    <ProtectObjects>False</ProtectObjects>
    <ProtectScenarios>False</ProtectScenarios>
   </WorksheetOptions>
  </Worksheet>
  <Worksheet ss:Name="Sheet2">
-  <Table ss:ExpandedColumnCount="1" ss:ExpandedRowCount="1" x:FullColumns="1"
-   x:FullRows="1" ss:DefaultRowHeight="15">
-  </Table>
+  <Table ss:ExpandedColumnCount="0" ss:ExpandedRowCount="0" x:FullColumns="1"
+   x:FullRows="1" ss:DefaultColumnWidth="66" ss:DefaultRowHeight="15"/>
   <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
    <PageSetup>
     <Header x:Margin="0.3"/>
     <Footer x:Margin="0.3"/>
     <PageMargins x:Bottom="0.75" x:Left="0.7" x:Right="0.7" x:Top="0.75"/>
    </PageSetup>
+   <Unsynced/>
    <ProtectObjects>False</ProtectObjects>
    <ProtectScenarios>False</ProtectScenarios>
   </WorksheetOptions>
  </Worksheet>
  <Worksheet ss:Name="Sheet3">
-  <Table ss:ExpandedColumnCount="1" ss:ExpandedRowCount="1" x:FullColumns="1"
-   x:FullRows="1" ss:DefaultRowHeight="15">
-  </Table>
+  <Table ss:ExpandedColumnCount="0" ss:ExpandedRowCount="0" x:FullColumns="1"
+   x:FullRows="1" ss:DefaultColumnWidth="66" ss:DefaultRowHeight="15"/>
   <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
    <PageSetup>
     <Header x:Margin="0.3"/>
     <Footer x:Margin="0.3"/>
     <PageMargins x:Bottom="0.75" x:Left="0.7" x:Right="0.7" x:Top="0.75"/>
    </PageSetup>
+   <Unsynced/>
    <ProtectObjects>False</ProtectObjects>
    <ProtectScenarios>False</ProtectScenarios>
   </WorksheetOptions>
