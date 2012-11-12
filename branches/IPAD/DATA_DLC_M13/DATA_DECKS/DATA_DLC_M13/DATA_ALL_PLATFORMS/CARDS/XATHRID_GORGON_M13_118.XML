@@ -1,0 +1,112 @@
+<?xml version='1.0'?>
+<CARD_V2>
+  <FILENAME text="XATHRID_GORGON_M13_118" />
+  <CARDNAME text="XATHRID_GORGON" />
+  <TITLE>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Xathrid Gorgon]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Gorgone de Xathrid]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Gorgona de Xathrid]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Xathrid-Gorgo]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Gorgone di Xathrid]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[ザスリッドのゴルゴン]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[자쓰리드 고르곤]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Горгона Затрида]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Górgona de Xathrid]]></LOCALISED_TEXT>
+  </TITLE>
+  <MULTIVERSEID value="M13_118" />
+  <ARTID value="M13_118" />
+  <ARTIST name="Chase Stone" />
+  <CASTING_COST cost="{5}{B}" />
+  <TYPE metaname="Creature" />
+  <SUB_TYPE metaname="Gorgon" order_de-DE="0" order_es-ES="0" order_fr-FR="0" order_it-IT="0" order_jp-JA="0" order_ko-KR="0" order_pt-BR="0" order_ru-RU="0" />
+  <EXPANSION value="M13" />
+  <RARITY metaname="R" />
+  <POWER value="3" />
+  <TOUGHNESS value="6" />
+  <STATIC_ABILITY>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Deathtouch]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Contact mortel]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Toque mortal]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Todesberührung]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Tocco letale]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[接死]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[치명타]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Смертельное касание]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Toque mortífero]]></LOCALISED_TEXT>
+    <CONTINUOUS_ACTION>
+     Object():GetCurrentCharacteristics():Characteristic_Set( CHARACTERISTIC_DEATHTOUCH, 1 )
+    </CONTINUOUS_ACTION>
+  </STATIC_ABILITY>
+  <ACTIVATED_ABILITY dangerous="1" filter_zone="ZONE_IN_PLAY">
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[{2}{B}, {T}: Put a petrification counter on target creature. It gains defender and becomes a colorless artifact in addition to its other types. Its activated abilities can’t be activated.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[{2}{B}, {T}: Mettez un marqueur « pétrification » sur la créature ciblée. Elle acquiert le défenseur et devient un artefact incolore en plus de ses autres types. Ses capacités activées ne peuvent pas être activées.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[{2}{B}, {T}: Pon un contador de petrificación sobre la criatura objetivo. Gana la habilidad de defensor y se convierte en un artefacto incoloro además de sus otros tipos. No pueden activarse sus habilidades activadas.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[{2}{B}, {T}: Lege eine Versteinerungsmarke auf eine Kreatur deiner Wahl. Sie erhält Verteidiger und wird zusätzlich zu ihren anderen Typen zu einem farblosen Artefakt. Ihre aktivierten Fähigkeiten können nicht aktiviert werden.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[{2}{B}, {T}: Metti un segnalino pietrificazione su una creatura bersaglio. Ha difensore e diventa un artefatto incolore in aggiunta ai suoi altri tipi. Le sue abilità attivate non possono essere attivate.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[{2}{B}, {T}：クリーチャー１体を対象とし、それの上に石化カウンターを１個置く。 それは防衛を得るとともに無色になり、他のタイプに加えてアーティファクトになる。 それの起動型能力は起動できない。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[{2}{B}, {T}: 생물 한 개를 목표로 정한다. 그 생물에 석화 카운터 한 개를 올려놓는다. 그 생물은 수비태세 능력을 얻으며, 자신의 다른 유형에 더불어 무색 마법물체가 된다. 그 생물의 활성화능력은 활성화될 수 없다.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[{2}{B}, {T}: положите один жетон окаменения на целевое существо. Оно получает способность Защитника и становится бесцветным артефактом в дополнение к своим другим типам. Его активируемые способности не могут быть активированы.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[{2}{B}, {T}: Coloque um marcador de petrificação na criatura alvo. Ela ganha defensor e se torna uma criatura artefato incolor além de seus outros tipos. As suas habilidades ativadas não podem ser ativadas.]]></LOCALISED_TEXT>
+    <COST type="Mana" cost="{2}{B}" />
+    <COST type="TapSelf" />
+    <TARGET_DEFINITION id="0">
+    local filter = Object():GetFilter()
+    filter:Clear()
+    filter:AddCardType( CARD_TYPE_CREATURE )
+    filter:SetZone( ZONE_IN_PLAY )
+    filter:SetHint( HINT_ENEMY_ONLY, EffectController() )
+    </TARGET_DEFINITION>
+    <TARGET_DETERMINATION>
+    return AtLeastOneTargetFromDefinition(0)
+    </TARGET_DETERMINATION>
+    <PLAY_TIME_ACTION target_choosing="1">
+    EffectController():ChooseTarget( 0, "CARD_QUERY_CHOOSE_CREATURE_TO_PETRIFY", EffectDC():Make_Targets(0) )
+    </PLAY_TIME_ACTION>
+    <RESOLUTION_TIME_ACTION>
+    local target = EffectDC():Get_Targets(0):Get_CardPtr(0)
+    if target ~= nil then
+    	target:AddCounters( MTG():GetCountersType("PETRIFICATION"), 1 )
+    end
+    </RESOLUTION_TIME_ACTION>
+    <CONTINUOUS_ACTION layer="4">
+    local target = EffectDC():Get_Targets(0):Get_CardPtr(0)
+    if target ~= nil then
+    	target:GetCurrentCharacteristics():CardType_GetWritable(target):Add( CARD_TYPE_ARTIFACT, target )
+    end
+    </CONTINUOUS_ACTION>
+    <CONTINUOUS_ACTION layer="5">
+    local target = EffectDC():Get_Targets(0):Get_CardPtr(0)
+    if target ~= nil then
+    	target:GetCurrentCharacteristics():Colour_Get():Clear()
+    end
+    </CONTINUOUS_ACTION>
+    <CONTINUOUS_ACTION layer="8">
+    local target = EffectDC():Get_Targets(0):Get_CardPtr(0)
+    if target ~= nil then
+    		target:GetCurrentCharacteristics():Characteristic_Set( CHARACTERISTIC_CANT_USE_ACTIVATED_ABILITIES, 1 )
+    end
+    </CONTINUOUS_ACTION>
+    <CONTINUOUS_ACTION layer="6">
+    local target = EffectDC():Get_Targets(0):Get_CardPtr(0)
+    if target ~= nil then
+    		target:GetCurrentCharacteristics():Characteristic_Set( CHARACTERISTIC_DEFENDER, 1 )
+    end
+    </CONTINUOUS_ACTION>
+    <DURATION>
+    local target_card = EffectDC():Get_Targets(0):Get_CardPtr(0)
+    return target_card == nil or 
+    target_card:GetZone() ~= ZONE_IN_PLAY
+    </DURATION>
+    <AI_AVAILABILITY type="in_response" />
+    <AI_AVAILABILITY step="begin_combat" turn="their_turn" />
+    <AI_AVAILABILITY step="main_1" turn="my_turn" />
+    <AI_AVAILABILITY step="declare_attackers" turn="their_turn" />
+    <AI_AVAILABILITY step="declare_blockers" />
+    <AI_AVAILABILITY step="end_of_turn" />
+  </ACTIVATED_ABILITY>
+  <HELP title="MORE_INFO_BADGE_TITLE_3" body="MORE_INFO_BADGE_BODY_3" zone="ZONE_ANY" />
+  <HELP title="MORE_INFO_BADGE_TITLE_6" body="MORE_INFO_BADGE_BODY_6" zone="ZONE_ANY" />
+  <SFX text="COMBAT_PESTS_LARGE_ATTACK" power_boundary_min="4" power_boundary_max="-1" />
+  <SFX text="COMBAT_PESTS_SMALL_ATTACK" power_boundary_min="1" power_boundary_max="3" />
+  <AI_BASE_SCORE score="600" zone="ZONE_IN_PLAY" />
+</CARD_V2>

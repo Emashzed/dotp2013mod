@@ -1,0 +1,108 @@
+<?xml version='1.0'?>
+<CARD_V2>
+  <FILENAME text="GEM_OF_BECOMING_M13_205" />
+  <CARDNAME text="GEM_OF_BECOMING" />
+  <TITLE>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Gem of Becoming]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Gemme de transition]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Gema de Creación]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Edelstein der Entstehung]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Gemma del Divenire]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[適合の宝石]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[생성의 보석]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Самоцвет Возникновения]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Pedra da Formação]]></LOCALISED_TEXT>
+  </TITLE>
+  <MULTIVERSEID value="M13_205" />
+  <ARTID value="M13_205" />
+  <ARTIST name="Jack Wang" />
+  <CASTING_COST cost="{3}" />
+  <TYPE metaname="Artifact" />
+  <EXPANSION value="M13" />
+  <RARITY metaname="U" />
+  <ACTIVATED_ABILITY auto_skip="1">
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[{3}, {T}, Sacrifice Gem of Becoming: Search your library for an Island card,  a Swamp card, and a Mountain card. Reveal those cards and put them into your hand. Then shuffle your library.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[{3}, {T}, sacrifiez la Gemme de transition: Cherchez dans votre bibliothèque une carte d’île, une carte de marais et une carte de montagne. Révélez ces cartes et mettez-les dans votre main. Mélangez ensuite votre bibliothèque.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[{3}, {T}, sacrificar la Gema de Creación: Busca en tu biblioteca una carta de Isla, una carta de Pantano y una carta de Montaña. Muestra esas cartas y ponlas en tu mano. Luego baraja tu biblioteca.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[{3}, {T}, opfere den Edelstein der Entstehung: Durchsuche deine Bibliothek nach einer Insel, einem Sumpf und einem Gebirge. Zeige die Karten offen vor und nimm sie auf deine Hand. Mische danach deine Bibliothek.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[{3}, {T}, Sacrifica la Gemma del Divenire: Passa in rassegna il tuo grimorio per una carta Isola, una carta Palude e una carta Montagna. Rivela queste carte e aggiungile alla tua mano. Poi rimescola il tuo grimorio.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[{3}, {T}, 適合の宝石を生け贄に捧げる：あなたのライブラリーから、島カード１枚と沼カード１枚と山カード１枚を探す。 それらのカードを公開してあなたの手札に加える。 その後あなたのライブラリーを切り直す。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[{3}, {T}, 생성의 보석을 희생한다: 당신의 서고에서 섬 카드 한 장, 늪 카드 한 장, 산 카드 한 장을 찾는다. 그 카드들을 공개한 후 당신의 손으로 가져간다. 그러고 나서 당신의 서고를 섞는다.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[{3}, {T}, пожертвуйте Самоцвет Возникновения: найдите в вашей библиотеке карту Острова, карту Болота и карту Горы. Покажите те карты и положите их в вашу руку. Затем перетасуйте вашу библиотеку.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[{3}, {T}, Sacrifique Pedra da Formação: Procure um card de Ilha, um card de Pântano e um card de Montanha em seu grimório. Revele-os e coloque-os em sua mão. Depois, embaralhe seu grimório.]]></LOCALISED_TEXT>
+    <COST type="Mana" cost="{3}" />
+    <COST type="TapSelf" />
+    <COST type="SacrificeSelf" />
+    <RESOLUTION_TIME_ACTION>
+    local filter = Object():GetFilter()
+    local effectController = EffectController()
+    effectController:MarkSearchedLibrary() 
+    filter:Clear()
+    filter:NotTargetted()
+    filter:AddSubType( LAND_TYPE_ISLAND ) 
+    filter:May()
+    filter:SetZone( ZONE_LIBRARY )
+    filter:SetPlayer( effectController )                           
+    effectController:ChooseTarget( NO_VALIDATION, "CARD_QUERY_CHOOSE_LAND_TO_PUT_INTO_HAND", EffectDC():Make_Targets( 0 ) )
+    </RESOLUTION_TIME_ACTION>
+    <RESOLUTION_TIME_ACTION>
+    local filter = Object():GetFilter()
+    local effectController = EffectController()
+    effectController:MarkSearchedLibrary() 
+    filter:Clear()
+    filter:NotTargetted()
+    filter:AddSubType( LAND_TYPE_SWAMP ) 
+    filter:May()
+    filter:SetZone( ZONE_LIBRARY )
+    filter:SetPlayer( effectController )                           
+    effectController:ChooseTarget( NO_VALIDATION, "CARD_QUERY_CHOOSE_LAND_TO_PUT_INTO_HAND", EffectDC():Make_Targets( 1 ) )
+    </RESOLUTION_TIME_ACTION>
+    <RESOLUTION_TIME_ACTION>
+    local filter = Object():GetFilter()
+    local effectController = EffectController()
+    effectController:MarkSearchedLibrary() 
+    filter:Clear()
+    filter:NotTargetted()
+    filter:AddSubType( LAND_TYPE_MOUNTAIN ) 
+    filter:May()
+    filter:SetZone( ZONE_LIBRARY )
+    filter:SetPlayer( effectController )                           
+    effectController:ChooseTarget( NO_VALIDATION, "CARD_QUERY_CHOOSE_LAND_TO_PUT_INTO_HAND", EffectDC():Make_Targets( 2 ) )
+    </RESOLUTION_TIME_ACTION>
+    <RESOLUTION_TIME_ACTION>
+    if EffectDC() ~= nil then 
+    	local target = EffectDC():Get_Targets(0):Get_CardPtr(0)
+    	if  target ~= nil then
+    		target:GuidedReveal( ZONE_LIBRARY , ZONE_HAND )
+    		target:PutInHand()
+    	end
+    end
+    </RESOLUTION_TIME_ACTION>
+    <RESOLUTION_TIME_ACTION>
+    if EffectDC() ~= nil then 
+    	local target = EffectDC():Get_Targets(1):Get_CardPtr(0)
+    	if  target ~= nil then
+    		target:GuidedReveal( ZONE_LIBRARY , ZONE_HAND )
+    		target:PutInHand()
+    	end
+    end
+    </RESOLUTION_TIME_ACTION>
+    <RESOLUTION_TIME_ACTION>
+    if EffectDC() ~= nil then 
+    	local target = EffectDC():Get_Targets(2):Get_CardPtr(0)
+    	if  target ~= nil then
+    		target:GuidedReveal( ZONE_LIBRARY , ZONE_HAND )
+    		target:PutInHand()
+    	end
+    end
+    </RESOLUTION_TIME_ACTION>
+    <RESOLUTION_TIME_ACTION>
+    EffectController():ShuffleLibrary()
+    </RESOLUTION_TIME_ACTION>
+    <AI_AVAILABILITY type="in_response" />
+    <AI_AVAILABILITY step="end_of_turn" turn="their_turn" />
+    <AI_AVAILABILITY step="main_1" turn="my_turn" />
+    <AI_AVAILABILITY step="main_2" turn="my_turn" />
+  </ACTIVATED_ABILITY>
+  <AI_BASE_SCORE score="450" zone="ZONE_IN_PLAY" />
+</CARD_V2>

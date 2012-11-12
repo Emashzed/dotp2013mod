@@ -1,0 +1,76 @@
+﻿<?xml version='1.0'?>
+<CARD_V2>
+  <FILENAME text="CRIMSON_MUCKWADER_M13_127" />
+  <CARDNAME text="CRIMSON_MUCKWADER" />
+  <TITLE>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Crimson Muckwader]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Guadaletame Scarlatto]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Karmesinroter Schlammkriecher]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Pataugeur de boue pourpre]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Vadeafango carmesí]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[真紅の汚水這い]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[수렁을 헤치는 붉은 도마뱀]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Багровый Грязеброд]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Lamívago Escarlate]]></LOCALISED_TEXT>
+  </TITLE>
+  <MULTIVERSEID value="M13_127" />
+  <ARTID value="M13_127" />
+  <ARTIST name="Steven Belledin" />
+  <CASTING_COST cost="{1}{R}" />
+  <TYPE metaname="Creature" />
+  <SUB_TYPE metaname="Lizard" />
+  <EXPANSION value="M13" />
+  <RARITY metaname="U" />
+  <POWER value="2" />
+  <TOUGHNESS value="1" />
+  <STATIC_ABILITY filter_zone="ZONE_IN_PLAY">
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Crimson Muckwader gets +1/+1 as long as you control a Swamp.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Il Guadaletame Scarlatto prende +1/+1 fintanto che controlli una Palude.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Der Karmesinrote Schlammkriecher erhält +1/+1, solange du einen Sumpf kontrollierst.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Le Pataugeur de boue pourpre gagne +1/+1 tant que vous contrôlez un marais.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[El Vadeafango carmesí obtiene +1/+1 mientras controles un pantano.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[真紅の汚水這いは、あなたが沼をコントロールしているかぎり＋１/＋１の修整を受ける。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[당신이 늪을 조종하는 한, 수렁을 헤치는 붉은 도마뱀은 +1/+1을 받는다.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Багровый Грязеброд получает +1/+1, пока вы контролируете Болото.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Lamívago Escarlate recebe +1/+1 enquanto você controlar um Pântano.]]></LOCALISED_TEXT>
+	<CONTINUOUS_ACTION layer="7C">
+	local swamps = CountCardsSubtypeZonePlayer( LAND_TYPE_SWAMP, ZONE_IN_PLAY, EffectController() )
+    
+	if swamps &gt; 0 then
+    	local characteristics = Object():GetCurrentCharacteristics()
+    	characteristics:Power_Add( 1 )
+    	characteristics:Toughness_Add( 1 )
+    end
+    </CONTINUOUS_ACTION>
+  </STATIC_ABILITY>
+  <ACTIVATED_ABILITY immunity="1" hint_name="HINT_REGENERATION">
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[{2}{B}: Regenerate Crimson Muckwader.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[{2}{B}: Rigenera il Guadaletame Scarlatto.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[{2}{B}: Regeneriere den Karmesinroten Schlammkriecher.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[{2}{B} : Régénérez le Pataugeur de boue pourpre.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[{2}{B}: Regenera al Vadeafango carmesí.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[{2}{B}：真紅の汚水這いを再生する。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[{2}{B}: 수렁을 헤치는 붉은 도마뱀을 재생한다.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[{2}{B}: регенерируйте Багрового Грязеброда.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[{2}{B}: Regenere Lamívago Escarlate.]]></LOCALISED_TEXT>
+	<COST type="Mana" cost="{2}{B}" />
+    <RESOLUTION_TIME_ACTION>
+    if EffectSource() ~= nil then
+    	EffectSource():GiveRegeneration()
+    end
+    </RESOLUTION_TIME_ACTION>
+    <AI_AVAILABILITY type="regeneration" and="1" />
+    <AI_AVAILABILITY step="declare_blockers" blocking_or_blocked="1" />
+    <AI_AVAILABILITY type="in_response_dangerous" />
+  </ACTIVATED_ABILITY>
+  <AI_CUSTOM_SCORE zone="ZONE_IN_PLAY">
+  local swamps = CountCardsSubtypeZonePlayer( LAND_TYPE_SWAMP, ZONE_IN_PLAY, EffectController() )
+  
+  if swamps &gt; 0 then
+  	Object():AddScore(200)
+  end
+  </AI_CUSTOM_SCORE>
+  <HELP title="MORE_INFO_TITLE_REGENERATE" body="MORE_INFO_BODY_REGENERATE" zone="ZONE_ANY" />
+  <SFX text="COMBAT_BITE_LARGE_ATTACK" power_boundary_min="4" power_boundary_max="-1" />
+  <SFX text="COMBAT_BITE_SMALL_ATTACK" power_boundary_min="1" power_boundary_max="3" />
+</CARD_V2>

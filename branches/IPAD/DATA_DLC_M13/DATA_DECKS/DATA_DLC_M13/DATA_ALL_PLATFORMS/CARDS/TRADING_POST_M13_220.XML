@@ -1,0 +1,193 @@
+﻿<?xml version='1.0'?>
+<CARD_V2>
+  <FILENAME text="TRADING_POST_M13_220" />
+  <CARDNAME text="TRADING_POST" />
+  <TITLE>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Trading Post]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Stazione Commerciale]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Handelsposten]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Comptoir de commerce]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Puesto comercial]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[交易所]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[교역소]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Торговый Пост]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Entreposto]]></LOCALISED_TEXT>
+  </TITLE>
+  <MULTIVERSEID value="M13_220" />
+  <ARTID value="M13_220" />
+  <ARTIST name="Adam Paquette" />
+  <CASTING_COST cost="{4}" />
+  <TYPE metaname="Artifact" />
+  <EXPANSION value="M13" />
+  <RARITY metaname="R" />
+  <ACTIVATED_ABILITY auto_skip="1" filter_zone="ZONE_IN_PLAY">
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[{1}, {T}, Discard a card: You gain 4 life.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[{1}, {T}, Scarta una carta: Guadagni 4 punti vita.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[{1}, {T}, wirf eine Karte ab: Du erhältst 4 Lebenspunkte dazu.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[{1}, {T}, défaussez-vous d’une carte : Vous gagnez 4 points de vie.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[{1}, {T}, descartar una carta: Ganas 4 vidas.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[{1}, {T}, カードを１枚捨てる：あなたは４点のライフを得る。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[{1}, {T}, 카드를 한 장 버린다: 당신은 생명 4점을 얻는다.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[{1}, {T}, сбросьте карту: вы получаете 4 жизни.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[{1}, {T}, Descarte um card: Você ganha 4 pontos de vida.]]></LOCALISED_TEXT>
+	<COST type="Mana" cost="{1}" />
+    <COST type="TapSelf" />
+	<COST type="Discard">
+      <TARGET_DEFINITION id="6">
+      local filter = Object():GetFilter()
+      filter:Clear()
+      filter:NotTargetted()
+      filter:SetZone( ZONE_HAND )
+      filter:SetPlayer( EffectController() )
+      </TARGET_DEFINITION>
+      <TARGET_DETERMINATION>
+      return AtLeastOneTargetFromDefinition(6)
+      </TARGET_DETERMINATION>
+      <PLAYTIME>
+      EffectController():ChooseTarget( 6, "CARD_QUERY_CHOOSE_CARD_TO_DISCARD", EffectDC():Make_Targets(0) )
+      </PLAYTIME>
+	</COST>
+	<RESOLUTION_TIME_ACTION>
+    local player = EffectController()
+    if (player ~= nil) then
+    	player:GainLife(4)
+    end
+    </RESOLUTION_TIME_ACTION>
+	<AI_AVAILABILITY step="end_of_turn" turn="their_turn" />
+	<AI_AVAILABILITY step="declare_blockers" turn="their_turn" />
+    <AI_AVAILABILITY type="in_response_dangerous" />
+  </ACTIVATED_ABILITY>
+  <ACTIVATED_ABILITY auto_skip="1" filter_zone="ZONE_IN_PLAY">
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[{1}, {T}, Pay 1 life: Put a 0/1 white Goat   creature token onto the battlefield.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[{1}, {T}, Paga 1 punto vita: Metti sul campo di battaglia una pedina creatura Capra 0/1 bianca.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[{1}, {T}, bezahle 1 Lebenspunkt: Bringe einen 0/1 weißen Ziege-Kreaturenspielstein ins Spiel.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[{1}, {T}, payez 1 point de vie : Mettez sur le champ de bataille un jeton de créature 0/1 blanche Chèvre.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[{1}, {T}: pagar 1 vida: Pon en el campo de batalla una ficha de criatura Cabra blanca 0/1.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[{1}, {T}, ライフを１点支払う：白の０/１のヤギ・クリーチャー・トークンを１体戦場に出す。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[{1}, {T}, 생명 1점을 지불한다: 0/1 백색 염소 생물 토큰 한 개를 전장에 놓는다.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[{1}, {T}, заплатите 1 жизнь: положите на поле битвы одну фишку существа 0/1 белая Коза.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[{1}, {T}, Pague 1 ponto de vida: Coloque no campo de batalha uma ficha de criatura branca 0/1 do tipo Bode.]]></LOCALISED_TEXT>
+	<COST type="Mana" cost="{1}" />
+    <COST type="TapSelf" />
+	<COST type="life" points="1" />
+	<RESOLUTION_TIME_ACTION>
+    local token_count = 1
+    if token_count &gt; 0 then
+    	MTG():PutTokensIntoPlay( "TOKEN_GOAT_0_1_M13_T02", token_count, EffectController() )
+    end
+    </RESOLUTION_TIME_ACTION>
+    <AI_AVAILABILITY step="end_of_turn" turn="their_turn" />
+    <AI_AVAILABILITY step="declare_attackers" turn="their_turn" />
+    <AI_AVAILABILITY type="in_response_dangerous" />
+    <AI_AVAILABILITY step="declare_blockers" blocking_or_blocked="1" />
+  </ACTIVATED_ABILITY>
+  <ACTIVATED_ABILITY auto_skip="1">
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[{1}, {T}, Sacrifice a creature: Return target artifact card from your graveyard to your hand.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[{1}, {T}, Sacrifica una creatura: Riprendi in mano una carta artefatto bersaglio dal tuo cimitero.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[{1}, {T}, opfere eine Kreatur: Bringe eine Artefaktkarte deiner Wahl aus deinem Friedhof auf deine Hand zurück.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[{1}, {T}, sacrifiez une créature : Renvoyez une carte d’artefact ciblée depuis votre cimetière dans votre main.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[{1}, {T}, sacrificar una criatura: Regresa la carta de artefacto objetivo de tu cementerio a tu mano.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[{1}, {T}, クリーチャーを１体生け贄に捧げる：あなたの墓地にあるアーティファクト・カード１枚を対象とし、それをあなたの手札に戻す。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[{1}, {T}, 생물 한 개를 희생한다: 당신의 무덤에 있는 마법물체 카드 한 장을 목표로 정한다. 그 카드를 당신의 손으로 되돌린다.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[{1}, {T}, пожертвуйте существо: верните целевую карту артефакта из вашего кладбища в вашу руку.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[{1}, {T}, Sacrifique uma criatura: Devolva o card de artefato alvo de seu cemitério para sua mão.]]></LOCALISED_TEXT>
+	<COST type="Mana" cost="{1}" />
+    <COST type="TapSelf" />
+	<COST type="Sacrifice">
+      <TARGET_DEFINITION id="6">
+      local filter = Object():GetFilter()
+      filter:Clear()
+      filter:AddCardType( CARD_TYPE_CREATURE )
+      filter:SetPlayer( EffectController() )
+      filter:SetZone( ZONE_IN_PLAY )
+      filter:SetHint( HINT_ENEMY, EffectController() )
+      filter:NotTargetted()
+      </TARGET_DEFINITION>
+      <TARGET_DETERMINATION>
+      return AtLeastOneTargetFromDefinition(6)
+      </TARGET_DETERMINATION>
+      <PLAYTIME>
+      EffectController():ChooseTarget( 6, "CARD_QUERY_CHOOSE_CREATURE_TO_SACRIFICE", EffectDC():Make_Targets(0) )
+      </PLAYTIME>
+	</COST>
+	<TARGET_DEFINITION id="0">
+    local filter = Object():GetFilter()
+    filter:Clear()
+    filter:AddCardType( CARD_TYPE_ARTIFACT )
+    filter:SetZone( ZONE_GRAVEYARD )
+    filter:SetController( EffectController() )
+    filter:SetHint( HINT_ALLIED, EffectController() )
+    </TARGET_DEFINITION>
+    <TARGET_DETERMINATION>
+    return AtLeastOneTargetFromDefinition(0)
+    </TARGET_DETERMINATION>
+    <PLAY_TIME_ACTION target_choosing="1">
+    EffectController():ChooseTarget( 0, "CARD_QUERY_CHOOSE_ARTIFACT_TO_PUT_INTO_HAND", EffectDC():Make_Targets(1) )
+    </PLAY_TIME_ACTION>
+    <RESOLUTION_TIME_ACTION>
+    if EffectDC() ~= nil then 
+    	local target = EffectDC():Get_Targets(1):Get_CardPtr(0)
+    	if target ~= nil then
+    		target:PutInHand()
+    	end
+    end
+    </RESOLUTION_TIME_ACTION>
+    <AI_AVAILABILITY type="in_response" />
+    <AI_AVAILABILITY step="end_of_turn" turn="their_turn" />
+    <AI_AVAILABILITY step="main_1" turn="my_turn" />
+    <AI_AVAILABILITY step="main_2" turn="my_turn" />
+    <AI_AVAILABILITY step="declare_blockers" blocking_or_blocked="1" />
+  </ACTIVATED_ABILITY>
+  <ACTIVATED_ABILITY filter_zone="ZONE_IN_PLAY">
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[{1}, {T}, Sacrifice an artifact: Draw a card.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[{1}, {T}, Sacrifica un artefatto: Pesca una carta.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[{1}, {T}, opfere ein Artefakt: Ziehe eine Karte.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[{1}, {T}, sacrifiez un artefact : Piochez une carte.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[{1}, {T}, sacrificar un artefacto: Roba una carta.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[{1}, {T}, アーティファクトを１つ生け贄に捧げる：カードを１枚引く。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[{1}, {T}, 마법물체 한 개를 희생한다: 카드 한 장을 뽑는다.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[{1}, {T}, пожертвуйте артефакт: возьмите карту.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[{1}, {T}, Sacrifique um artefato: Compre um card.]]></LOCALISED_TEXT>
+	<COST type="Mana" cost="{1}" />
+    <COST type="TapSelf" />
+	<COST type="generic">
+      <TARGET_DEFINITION id="6">
+      local filter = Object():GetFilter()
+      filter:Clear()
+      filter:AddCardType( CARD_TYPE_ARTIFACT )
+      filter:SetPlayer( EffectController() )
+      filter:SetZone( ZONE_IN_PLAY )
+      filter:SetHint( HINT_ENEMY, EffectController() )
+      filter:NotTargetted()
+      </TARGET_DEFINITION>
+      <TARGET_DETERMINATION>
+      return AtLeastOneTargetFromDefinition(6)
+      </TARGET_DETERMINATION>
+      <PLAY_TIME_ACTION>
+      EffectController():ChooseTarget( 6, "CARD_QUERY_CHOOSE_ARTIFACT_TO_SACRIFICE", EffectDC():Make_Targets(0) )
+      </PLAY_TIME_ACTION>
+      <RESOLUTION_TIME_ACTION>
+      local target = EffectDC():Get_Targets(0):Get_CardPtr(0)
+      if target ~= nil then
+      	local target_CMC = target:GetConvertedManaCost()
+      	EffectDC():Set_Int(0, target_CMC)
+      	EffectController():Sacrifice(target) 
+      end
+      </RESOLUTION_TIME_ACTION>
+	</COST>
+	<RESOLUTION_TIME_ACTION>
+    local NumCards = 1
+    while (NumCards &gt; 0) do
+    	NumCards = NumCards - 1
+    	EffectController():DrawCard()
+    end
+    </RESOLUTION_TIME_ACTION>
+    <AI_AVAILABILITY type="in_response" />
+    <AI_AVAILABILITY step="end_of_turn" turn="their_turn" />
+    <AI_AVAILABILITY step="main_1" turn="my_turn" />
+    <AI_AVAILABILITY step="main_2" turn="my_turn" />
+    <AI_AVAILABILITY step="declare_blockers" blocking_or_blocked="1" />
+  </ACTIVATED_ABILITY>
+  <TOKEN_REGISTRATION reservation="1" type="TOKEN_GOAT_0_1_M13_T02" />
+  <AI_BASE_SCORE score="1000" zone="ZONE_IN_PLAY" />
+</CARD_V2>

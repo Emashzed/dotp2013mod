@@ -1,0 +1,104 @@
+﻿<?xml version='1.0'?>
+<CARD_V2>
+  <FILENAME text="PHYLACTERY_LICH_M13_104" />
+  <CARDNAME text="PHYLACTERY_LICH" />
+  <TITLE>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Phylactery Lich]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Lich del Filatterio]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Phylakterion-Lich]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Liche aux phylactères]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Liche de la filacteria]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[聖句札の死者]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[부적 리치]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Лич с Филактерией]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Lich do Talismã]]></LOCALISED_TEXT>
+  </TITLE>
+  <MULTIVERSEID value="M13_104" />
+  <ARTID value="M13_104" />
+  <ARTIST name="Michael Komarck" />
+  <CASTING_COST cost="{B}{B}{B}" />
+  <TYPE metaname="Creature" />
+  <SUB_TYPE metaname="Zombie" />
+  <EXPANSION value="M13" />
+  <RARITY metaname="R" />
+  <POWER value="5" />
+  <TOUGHNESS value="5" />
+  <TRIGGERED_ABILITY pre_trigger="1" replacement_query="1" active_zone="ZONE_TRANSITION">
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[As Phylactery Lich enters the battlefield, put a phylactery counter   on an artifact you control.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Mentre il Lich del Filatterio entra nel campo di battaglia, metti un segnalino filatterio su un artefatto che controlli.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Sowie der Phylakterion-Lich ins Spiel kommt, lege eine Phylakterion-Marke auf ein Artefakt, das du kontrollierst.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Au moment où la Liche aux phylactères arrive sur le champ de bataille, mettez un marqueur « phylactère » sur un artefact que vous contrôlez.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[En cuanto el Liche de la filacteria entre al campo de batalla, pon un contador de filacteria sobre un artefacto que controles.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[聖句札の死者が戦場に出るに際し、あなたがコントロールするアーティファクト１つの上に聖句カウンターを１個置く。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[부적 리치가 전장에 들어올때, 당신이 조종하는 마법물체 한 개에 부적 카운터 한 개를 올려놓는다.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[При выходе Лича с Филактерией на поле битвы положите жетон филактерии на артефакт под вашим контролем.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Quando Lich do Talismã entrar no campo de batalha, coloque um marcador de talismã sobre um artefato que você controla.]]></LOCALISED_TEXT>
+	<TRIGGER value="ZONECHANGE_TRANSITION" simple_qualifier="self" to_zone="ZONE_IN_PLAY" />
+	<TARGET_DEFINITION id="0">
+    local filter = Object():GetFilter()
+    filter:Clear()
+    filter:AddCardType( CARD_TYPE_ARTIFACT )
+    filter:SetZone( ZONE_IN_PLAY )
+    filter:SetPlayer( EffectController() )
+    filter:NotTargetted()
+    </TARGET_DEFINITION>
+	<PLAY_TIME_ACTION target_choosing="1">
+    EffectController():ChooseTarget( 0, "CARD_QUERY_CHOOSE_ARTIFACT_TO_PHYLACTERY", EffectDC():Make_Targets(0) )
+    </PLAY_TIME_ACTION>
+	<RESOLUTION_TIME_ACTION>
+    local target = EffectDC():Get_Targets(0):Get_CardPtr(0)
+    if target ~= nil then
+    	target:AddCounters( MTG():GetCountersType("PHYLACTERY"), 1 )
+    end
+    </RESOLUTION_TIME_ACTION>
+  </TRIGGERED_ABILITY>
+  <STATIC_ABILITY filter_zone="ZONE_IN_PLAY">
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Phylactery Lich is indestructible.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Il Lich del Filatterio è indistruttibile.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Der Phylakterion-Lich ist unzerstörbar.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[La Liche aux phylactères est indestructible.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[El Liche de la filacteria es indestructible.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[聖句札の死者は破壊されない。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[부적 리치는 파괴될 수 없다.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Лич с Филактерией не может быть уничтожен.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Lich do Talismã é indestrutível.]]></LOCALISED_TEXT>
+	<CONTINUOUS_ACTION>
+    local characteristics = Object():GetCurrentCharacteristics()
+    characteristics:Characteristic_Set( CHARACTERISTIC_INDESTRUCTIBLE, 1 )
+    </CONTINUOUS_ACTION>
+  </STATIC_ABILITY>
+  <STATIC_ABILITY>
+    <CONTINUOUS_ACTION>
+    MTG():ObjectDataChest():Set_Int(0, 0)
+    </CONTINUOUS_ACTION>
+  </STATIC_ABILITY>
+  <STATIC_ABILITY>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[When you control no permanents with phylactery counters on them, sacrifice Phylactery Lich.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Quando non controlli permanenti con segnalini filatterio, sacrifica il Lich del Filatterio.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Wenn du keine bleibenden Karten mit Phylakterion-Marken kontrollierst, opfere den Phylakterion-Lich.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Quand vous ne contrôlez pas de permanents avec des marqueurs « phylactère » sur eux, sacrifiez la Liche aux phylactères.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Cuando no controles permanentes con contadores de filacteria sobre ellos, sacrifica el Liche de la filacteria.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[あなたが聖句カウンターが置かれているパーマネントをコントロールしていないとき、聖句札の死者を生け贄に捧げる。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[당신이 부적 카운터를 가진 지속물을 조종하지 않을 때, 부적 리치를 희생한다.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Когда под вашим контролем нет перманентов с жетонами филактерии на них, пожертвуйте Лича с Филактерией.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Quando você não controlar nenhuma permanente com marcadores de talismã, sacrifique Lich do Talismã.]]></LOCALISED_TEXT>
+	<FILTER>
+    return ( Permanents() and CardsZonePlayer(ZONE_IN_PLAYER, EffectController()) )
+    </FILTER>
+	<CONTINUOUS_ACTION>
+	if FilteredCard():CountCounters(MTG():GetCountersType("PHYLACTERY")) ~= 0 then
+      MTG():ObjectDataChest():Set_Int(0, 1)
+    end
+    </CONTINUOUS_ACTION>
+  </STATIC_ABILITY>
+  <STATIC_ABILITY>
+    <CONTINUOUS_ACTION>
+    if MTG():ObjectDataChest():Get_Int(0) == 0 then
+      Object():Sacrifice( EffectController() )
+    end
+    </CONTINUOUS_ACTION>
+  </STATIC_ABILITY>
+  <HELP title="MORE_INFO_BADGE_TITLE_8" body="MORE_INFO_BADGE_BODY_8" zone="ZONE_ANY" />
+  <SFX text="COMBAT_PESTS_LARGE_ATTACK" power_boundary_min="4" power_boundary_max="-1" />
+  <SFX text="COMBAT_PESTS_SMALL_ATTACK" power_boundary_min="1" power_boundary_max="3" />
+</CARD_V2>

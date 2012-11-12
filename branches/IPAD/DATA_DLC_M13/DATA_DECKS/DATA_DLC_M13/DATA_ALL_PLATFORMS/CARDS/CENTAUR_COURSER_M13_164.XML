@@ -1,0 +1,49 @@
+<?xml version='1.0'?>
+<CARD_V2>
+  <FILENAME text="CENTAUR_COURSER_M13_164" />
+  <CARDNAME text="CENTAUR_COURSER" />
+  <TITLE>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Centaur Courser]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Coursier centaure]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Cazador centauro]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Zentauren-Renner]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Corsiera Centaura]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[ケンタウルスの狩猟者]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[발빠른 켄타우로스]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Быстроногий Кентавр]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Centaura-Caçadora]]></LOCALISED_TEXT>
+  </TITLE>
+  <MULTIVERSEID value="M13_164" />
+  <ARTID value="M13_164" />
+  <ARTIST name="Vance Kovacs" />
+  <CASTING_COST cost="{2}{G}" />
+  <FLAVOURTEXT>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[“The centaurs are truly free. Never will they be tamed by temptation or controlled by fear. They live in total harmony, a feat not yet achieved by our kind.”
+—Ramal, sage of Westgate]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[« Les centaures sont véritablement libres. Il ne seront jamais apprivoisés par la tentation ou contrôlés par la peur. Ils vivent en parfaite harmonie, un exploit que nous sommes encore loin d’accomplir. »
+—Ramal, sage de Portorient]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[“Los centauros son realmente libres. Nunca serán dominados por la tentación o controlados por el miedo. Viven en completa armonía, algo todavía no logrado por nuestra gente.”
+—Ramal, sabio del Portón Occidental]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[„Zentauren kennen die wahre Freiheit. Nie wird die Versuchung sie zähmen oder die Furcht sie übermannen. Sie leben in vollkommener Harmonie, was wir noch lange nicht erreicht haben.“
+—Ramal, Weiser aus Westtor]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[“I centauri sono realmente liberi. Non saranno mai domati dalla tentazione né controllati dalla paura. Vivono in totale armonia, un’impresa non ancora realizzata dalla nostra gente.”
+—Ramal, saggio di Westgate]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[「ケンタウルスは真に自由だ。 誘惑に負けることもなければ、恐怖に操られることもない。 彼らの生き様は、我らの類がまだ達していない完全な調和を成している。」
+—西門の賢者、ラマール]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[“켄타우로스는 진정한 자유를 누린다. 그들은 유혹에 넘어가거나 공포에 질리는 법이 없으며 인류가 아직 달성하지 못한 완벽한 조화 속에서의 삶을 누린다.”
+—웨스트게이트의 현자 라말]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[«Кентавры по-настоящему свободны. Их нельзя ни укротить соблазном, ни подчинить страхом. Они живут в полной гармонии, до сих пор не ведомой таким, как мы».
+— Рамаль, мудрец из Вестгейта]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[“Os centauros são verdadeiramente livres. Não são domados pela tentação nem controlados pelo medo. Vivem em total harmonia — um feito ainda não alcançado por nossa raça."
+—Ramal, sábio de Portão Oeste]]></LOCALISED_TEXT>
+  </FLAVOURTEXT>
+  <TYPE metaname="Creature" />
+  <SUB_TYPE metaname="Centaur" order_de-DE="0" order_es-ES="1" order_fr-FR="0" order_it-IT="1" order_jp-JA="0" order_ko-KR="0" order_pt-BR="0" order_ru-RU="0" />
+  <SUB_TYPE metaname="Warrior" order_de-DE="1" order_es-ES="0" order_fr-FR="1" order_it-IT="0" order_jp-JA="1" order_ko-KR="1" order_pt-BR="1" order_ru-RU="1" />
+  <EXPANSION value="M13" />
+  <RARITY metaname="C" />
+  <POWER value="3" />
+  <TOUGHNESS value="3" />  
+  <SFX text="COMBAT_BLADE_LARGE_ATTACK" power_boundary_min="4" power_boundary_max="-1" />
+  <SFX text="COMBAT_BLADE_SMALL_ATTACK" power_boundary_min="1" power_boundary_max="3" />
+</CARD_V2>

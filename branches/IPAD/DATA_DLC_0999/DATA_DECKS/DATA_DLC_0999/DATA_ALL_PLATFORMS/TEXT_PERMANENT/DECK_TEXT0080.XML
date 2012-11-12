@@ -1,4 +1,4 @@
-<?xml version="1.0"?>
+﻿<?xml version="1.0"?>
 <?mso-application progid="Excel.Sheet"?>
 <Workbook xmlns="urn:schemas-microsoft-com:office:spreadsheet"
  xmlns:o="urn:schemas-microsoft-com:office:office"
@@ -33,28 +33,28 @@
    <NumberFormat/>
    <Protection/>
   </Style>
-  <Style ss:ID="s22">
+  <Style ss:ID="s21">
    <Font ss:FontName="Times New Roman" x:Family="Roman" ss:Size="12"
     ss:Color="#000000"/>
   </Style>
  </Styles>
  <Worksheet ss:Name="Sheet4">
-  <Table ss:ExpandedColumnCount="256" ss:ExpandedRowCount="97" x:FullColumns="1"
-   x:FullRows="1" ss:StyleID="s22" ss:DefaultColumnWidth="66"
+  <Table ss:ExpandedColumnCount="256" ss:ExpandedRowCount="111" x:FullColumns="1"
+   x:FullRows="1" ss:StyleID="s21" ss:DefaultColumnWidth="66"
    ss:DefaultRowHeight="15.75">
-   <Column ss:StyleID="s22" ss:Width="267"/>
-   <Column ss:StyleID="s22" ss:Width="49.5"/>
-   <Column ss:StyleID="s22" ss:Width="137.25"/>
-   <Column ss:StyleID="s22" ss:Width="159.75"/>
-   <Column ss:StyleID="s22" ss:Width="144.75"/>
-   <Column ss:StyleID="s22" ss:Width="160.5"/>
-   <Column ss:StyleID="s22" ss:Width="183"/>
-   <Column ss:StyleID="s22" ss:AutoFitWidth="0" ss:Width="65.25"/>
-   <Column ss:StyleID="s22" ss:Width="175.5"/>
-   <Column ss:StyleID="s22" ss:Width="129.75"/>
-   <Column ss:StyleID="s22" ss:Width="178.5"/>
-   <Column ss:StyleID="s22" ss:Width="167.25"/>
-   <Column ss:StyleID="s22" ss:AutoFitWidth="0" ss:Width="65.25" ss:Span="243"/>
+   <Column ss:StyleID="s21" ss:Width="268.5"/>
+   <Column ss:StyleID="s21" ss:Width="49.5"/>
+   <Column ss:StyleID="s21" ss:Width="137.25"/>
+   <Column ss:StyleID="s21" ss:Width="159.75"/>
+   <Column ss:StyleID="s21" ss:Width="145.5"/>
+   <Column ss:StyleID="s21" ss:Width="160.5"/>
+   <Column ss:StyleID="s21" ss:Width="183"/>
+   <Column ss:StyleID="s21" ss:AutoFitWidth="0" ss:Width="65.25"/>
+   <Column ss:StyleID="s21" ss:Width="175.5"/>
+   <Column ss:StyleID="s21" ss:Width="129.75"/>
+   <Column ss:StyleID="s21" ss:Width="178.5"/>
+   <Column ss:StyleID="s21" ss:Width="167.25"/>
+   <Column ss:StyleID="s21" ss:AutoFitWidth="0" ss:Width="65.25" ss:Span="243"/>
    <Row>
     <Cell><Data ss:Type="String">Ident</Data></Cell>
     <Cell><Data ss:Type="String">Comment</Data></Cell>
@@ -1064,6 +1064,18 @@
     <Cell><Data ss:Type="String">Nicol Bolas</Data></Cell>
    </Row>
    <Row>
+    <Cell><Data ss:Type="String">PLAYER_NAME_PLATED_GEOPEDE</Data></Cell>
+    <Cell ss:Index="3"><Data ss:Type="String">Plated Geopede</Data></Cell>
+    <Cell><Data ss:Type="String">Géopède à plaques</Data></Cell>
+    <Cell><Data ss:Type="String">Geópodo laminado</Data></Cell>
+    <Cell><Data ss:Type="String">Gepanzerter Geoped</Data></Cell>
+    <Cell><Data ss:Type="String">Geopiede Corazzato</Data></Cell>
+    <Cell ss:Index="9"><Data ss:Type="String">板金鎧の土百足</Data></Cell>
+    <Cell><Data ss:Type="String">Plated Geopede</Data></Cell>
+    <Cell><Data ss:Type="String">Покрытая Броней Земленожка</Data></Cell>
+    <Cell><Data ss:Type="String">Geopede Blindado</Data></Cell>
+   </Row>
+   <Row>
     <Cell><Data ss:Type="String">PLAYER_NAME_SLAUGHTERHOUSE</Data></Cell>
     <Cell ss:Index="3"><Data ss:Type="String">Demonlord of Ashmouth</Data></Cell>
     <Cell><Data ss:Type="String">Seigneur démon de Cendregueule</Data></Cell>
@@ -1170,18 +1182,6 @@
     <Cell><Data ss:Type="String">Verdeloth the Ancient</Data></Cell>
     <Cell><Data ss:Type="String">Древний Верделот</Data></Cell>
     <Cell><Data ss:Type="String">Verdeloth, o Antigo</Data></Cell>
-   </Row>
-   <Row>
-    <Cell><Data ss:Type="String">PLAYER_NAME_PLATED_GEOPEDE</Data></Cell>
-    <Cell ss:Index="3"><Data ss:Type="String">Plated Geopede</Data></Cell>
-    <Cell><Data ss:Type="String">Géopède à plaques</Data></Cell>
-    <Cell><Data ss:Type="String">Geópodo laminado</Data></Cell>
-    <Cell><Data ss:Type="String">Gepanzerter Geoped</Data></Cell>
-    <Cell><Data ss:Type="String">Geopiede Corazzato</Data></Cell>
-    <Cell ss:Index="9"><Data ss:Type="String">板金鎧の土百足</Data></Cell>
-    <Cell><Data ss:Type="String">Plated Geopede</Data></Cell>
-    <Cell><Data ss:Type="String">Покрытая Броней Земленожка</Data></Cell>
-    <Cell><Data ss:Type="String">Geopede Blindado</Data></Cell>
    </Row>
    <Row>
     <Cell><Data ss:Type="String">Z_DECK_AFFINITY</Data></Cell>
@@ -1364,18 +1364,6 @@
     <Cell><Data ss:Type="String">Delving into Memories</Data></Cell>
    </Row>
    <Row>
-    <Cell><Data ss:Type="String">ZDECKTECH_WOLF_RUN_RAMP</Data></Cell>
-    <Cell ss:Index="3"><Data ss:Type="String">Wolf Pack</Data></Cell>
-    <Cell><Data ss:Type="String">Meute de Loups</Data></Cell>
-    <Cell><Data ss:Type="String">Wolf Pack</Data></Cell>
-    <Cell><Data ss:Type="String">Wolf Pack</Data></Cell>
-    <Cell><Data ss:Type="String">Wolf Pack</Data></Cell>
-    <Cell ss:Index="9"><Data ss:Type="String">Wolf Pack</Data></Cell>
-    <Cell><Data ss:Type="String">Wolf Pack</Data></Cell>
-    <Cell><Data ss:Type="String">Wolf Pack</Data></Cell>
-    <Cell><Data ss:Type="String">Wolf Pack</Data></Cell>
-   </Row>
-   <Row>
     <Cell><Data ss:Type="String">ZDECKTECH_TRADING_POST</Data></Cell>
     <Cell ss:Index="3"><Data ss:Type="String">Trading Post</Data></Cell>
     <Cell><Data ss:Type="String">Comptoir de Commerce</Data></Cell>
@@ -1386,6 +1374,18 @@
     <Cell><Data ss:Type="String">Trading Post</Data></Cell>
     <Cell><Data ss:Type="String">Торговый Пост</Data></Cell>
     <Cell><Data ss:Type="String">Entreposto</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">ZDECKTECH_WOLF_RUN_RAMP</Data></Cell>
+    <Cell ss:Index="3"><Data ss:Type="String">Wolf Pack</Data></Cell>
+    <Cell><Data ss:Type="String">Meute de Loups</Data></Cell>
+    <Cell><Data ss:Type="String">Wolf Pack</Data></Cell>
+    <Cell><Data ss:Type="String">Wolf Pack</Data></Cell>
+    <Cell><Data ss:Type="String">Wolf Pack</Data></Cell>
+    <Cell ss:Index="9"><Data ss:Type="String">Wolf Pack</Data></Cell>
+    <Cell><Data ss:Type="String">Wolf Pack</Data></Cell>
+    <Cell><Data ss:Type="String">Wolf Pack</Data></Cell>
+    <Cell><Data ss:Type="String">Wolf Pack</Data></Cell>
    </Row>
   </Table>
   <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
@@ -1450,4 +1450,3 @@
   </WorksheetOptions>
  </Worksheet>
 </Workbook>
-

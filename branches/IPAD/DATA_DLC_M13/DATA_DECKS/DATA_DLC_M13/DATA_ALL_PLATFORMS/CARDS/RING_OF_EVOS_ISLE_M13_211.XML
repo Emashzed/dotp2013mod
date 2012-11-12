@@ -1,0 +1,113 @@
+<?xml version='1.0'?>
+<CARD_V2>
+  <FILENAME text="RING_OF_EVOS_ISLE_M13_211" />
+  <CARDNAME text="RING_OF_EVOS_ISLE" />
+  <TITLE>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Ring of Evos Isle]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Anneau de l’île d’Evos]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Anillo de la Isla Evos]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Ring von der Insel Evos]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Anello dell’Isola Evos]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[イーヴォ島の指輪]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[이보스 섬의 반지]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Перстень Острова Эвос]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Anel da Ilha de Evos]]></LOCALISED_TEXT>
+  </TITLE>
+  <MULTIVERSEID value="M13_211" />
+  <ARTID value="M13_211" />
+  <ARTIST name="Erica Yang" />
+  <CASTING_COST cost="{2}" />
+  <TYPE metaname="Artifact" />
+  <SUB_TYPE metaname="Equipment" order_de-DE="0" order_es-ES="0" order_fr-FR="0" order_it-IT="0" order_jp-JA="0" order_ko-KR="0" order_pt-BR="0" order_ru-RU="0" />
+  <EXPANSION value="M13" />
+  <RARITY metaname="U" />
+  <ACTIVATED_ABILITY>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[{2}: Equipped creature gains hexproof until end of turn.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[{2}: La créature équipée acquiert la défense talismanique jusqu’à la fin du tour.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[{2}: La criatura equipada gana la habilidad de antimaleficio hasta el final del turno.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[{2}: Die ausgerüstete Kreatur ist bis zum Ende des Zuges fluchsicher.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[{2}: La creatura equipaggiata ha anti-malocchio fino alla fine del turno.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[{2}：装備しているクリーチャーはターン終了時まで呪禁を得る。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[{2}: 장착된 생물은 턴종료까지 방호 능력을 얻는다.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[{2}: снаряженное существо получает Порчеустойчивость до конца хода.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[{2}: A criatura equipada ganha resistência à magia até o final do turno.]]></LOCALISED_TEXT>
+    <COST type="Mana" cost="{2}" />
+    <RESOLUTION_TIME_ACTION>
+    local parent = EffectSource():GetParent()
+    if parent ~= nil then   
+    	EffectDC():Set_CardPtr(0, parent)
+    end
+    </RESOLUTION_TIME_ACTION>
+    <CONTINUOUS_ACTION layer="6">
+    local parent = EffectDC():Get_CardPtr(0)
+    if parent ~= nil then
+    	parent:GetCurrentCharacteristics():Characteristic_Set( CHARACTERISTIC_HEXPROOF, 1 )
+    end
+    </CONTINUOUS_ACTION>
+    <DURATION simple_duration="UntilEOT" />
+    <AI_AVAILABILITY type="in_response" parent_characteristic="CHARACTERISTIC_HEXPROOF" />
+  </ACTIVATED_ABILITY>
+  <TRIGGERED_ABILITY>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[At the beginning of your upkeep, put a +1/+1 counter on equipped creature if it’s blue.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Au début de votre entretien, mettez un marqueur +1/+1 sur la créature équipée si elle est bleue.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Al comienzo de tu mantenimiento, pon un contador +1/+1 sobre la criatura equipada si es azul.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Lege zu Beginn deines Versorgungssegments eine +1/+1-Marke auf die ausgerüstete Kreatur, falls sie blau ist.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[All’inizio del tuo mantenimento, metti un segnalino +1/+1 sulla creatura equipaggiata se è blu.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[あなたのアップキープの開始時に、装備しているクリーチャーが青ならばその上に+1/+1カウンターを１個置く。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[당신의 유지단 시작에, 만약 장착된 생물이 청색이라면 그 생물에 +1/+1 카운터 한 개를 올려놓는다.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[В начале вашего шага поддержки положите один жетон +1/+1 на снаряженное существо, если оно синее.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[No início de sua manutenção, coloque um marcador +1/+1 sobre a criatura equipada que seja azul.]]></LOCALISED_TEXT>
+    <TRIGGER value="BEGINNING_OF_STEP" simple_qualifier="controller">
+    return ( EffectController():MyTurn() ~= 0 ) and ( MTG():GetStep() == STEP_UPKEEP ) and ( Object():GetParent() ~= nil ) and ( Object():GetParent():Test( COLOUR_BLUE ) ~= 0 )
+    </TRIGGER>
+    <RESOLUTION_TIME_ACTION>
+    local parent = Object():GetParent()
+      if parent ~= nil then
+      	if parent:GetColour():Test( COLOUR_BLUE ) ~= 0 then
+      		parent:AddCounters( MTG():PlusOnePlusOneCounters(), 1 )
+      	end
+      end
+    </RESOLUTION_TIME_ACTION>
+  </TRIGGERED_ABILITY>
+  <ACTIVATED_ABILITY sorcery_time="1" filter_zone="ZONE_IN_PLAY">
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Equip {1}]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Équipement {1}]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Equipar {1}.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Ausrüsten {1}]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Equipaggiare {1}]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[装備 {1}]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[장착 {1}]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Снарядить {1}]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Equipar {1}]]></LOCALISED_TEXT>
+    <COST type="Mana" cost="{1}" />
+    <TARGET_DEFINITION id="0">
+    local filter = Object():GetFilter()
+    filter:Clear()
+    filter:AddCardType( CARD_TYPE_CREATURE )
+    filter:SetZone( ZONE_IN_PLAY )
+    filter:SetController( EffectController() )
+    -- AI 'cannot reequip' exemption 
+    local parent = Object():GetParent()
+    if parent ~= nil and EffectController():IsAI() ~= 0 then
+    	filter:SetCardInstance(parent)
+    	filter:AddExtra(FILTER_EXTRA_FLIP_CARD_INSTANCE)
+    end
+    </TARGET_DEFINITION>
+    <TARGET_DETERMINATION>
+    return AtLeastOneTargetFromDefinition(0)
+    </TARGET_DETERMINATION>
+    <PLAY_TIME_ACTION target_choosing="1">
+    EffectController():ChooseTarget( 0, "CARD_QUERY_CHOOSE_CREATURE_TO_EQUIP", EffectDC():Make_Targets(0) )
+    </PLAY_TIME_ACTION>
+    <RESOLUTION_TIME_ACTION>
+    local target_card = EffectDC():Get_Targets(0):Get_CardPtr(0)
+    if (target_card ~= nil and EffectSource() ~= nil) then
+    	EffectSource():Attach( target_card )	
+    end
+    </RESOLUTION_TIME_ACTION>
+    <AI_AVAILABILITY type="equip" />
+  </ACTIVATED_ABILITY>
+  <HELP title="MORE_INFO_BADGE_TITLE_21" body="MORE_INFO_BADGE_BODY_21" zone="ZONE_ANY" />
+  <AI_BASE_SCORE score="300" zone="ZONE_IN_PLAY" />
+  <AI_BASE_SCORE score="450" type="Parent" zone="ZONE_IN_PLAY" />
+</CARD_V2>

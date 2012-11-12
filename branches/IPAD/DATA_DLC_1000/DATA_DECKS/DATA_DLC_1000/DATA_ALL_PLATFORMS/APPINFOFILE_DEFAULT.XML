@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+<ApplicationInfo Revision="1.1000">
+  <DataPaths>
+    <DataPath Priority="5">DATA_DECKS/DATA_DLC_1000</DataPath>
+  </DataPaths>
+  <TexturePaths />
+  <MaterialPaths />
+</ApplicationInfo>

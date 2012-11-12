@@ -1,0 +1,55 @@
+﻿<?xml version='1.0'?>
+<CARD_V2>
+  <FILENAME text="MOGG_FLUNKIES_M13_143" />
+  <CARDNAME text="MOGG_FLUNKIES" />
+  <TITLE>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Mogg Flunkies]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Mogg Tirapiedi]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Mogg-Versager]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Moggs bas-de-plafond]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Lacayos mogg]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[モグの下働き]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[모그 수위병]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Могги-Прислужники]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Moggs Confusos]]></LOCALISED_TEXT>
+  </TITLE>
+  <MULTIVERSEID value="M13_143" />
+  <ARTID value="M13_143" />
+  <ARTIST name="Brom" />
+  <CASTING_COST cost="{1}{R}" />
+  <FLAVOURTEXT>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[They’ll attack whatever’s in front of them—as long as you tell them where   that is.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Attaccano qualunque cosa abbiano di fronte, fintanto che gli si dice dove si trova.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Sie greifen alles an, was vor ihnen ist – sofern man ihnen sagt, wo vorne ist.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Ils attaquent tout ce qui est face à eux, pour peu qu’ils sachent où est leur face.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Atacarán a lo que sea que tengan enfrente... siempre que les digas por dónde está eso.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[奴らはとにかく目の前にあるものを攻撃する――どこが前かを教えさえすれば。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[그들은 눈앞에 있는 것은 무엇이든 공격한다. 당신이 ‘눈앞’이 어딘지를 가르쳐준다는 전제 하에 말이다.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Они нападут на каждого, кто окажется перед ними, — если им покажут, в какой это стороне.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Eles vão atacar tudo o que estiver na frente deles, desde que você diga onde fica a frente.]]></LOCALISED_TEXT>
+  </FLAVOURTEXT>
+  <TYPE metaname="Creature" />
+  <SUB_TYPE metaname="Goblin" />
+  <EXPANSION value="M13" />
+  <RARITY metaname="C" />
+  <POWER value="3" />
+  <TOUGHNESS value="3" />
+  <STATIC_ABILITY filter_zone="ZONE_IN_PLAY">
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Mogg Flunkies can’t attack or block alone.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[I Mogg Tirapiedi non possono attaccare o bloccare da soli.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Der Mogg-Versager kann weder alleine angreifen noch alleine blocken.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Les Moggs bas-de-plafond ne peuvent pas attaquer ou bloquer seuls.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Los Lacayos mogg no pueden atacar ni bloquear solos.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[モグの下働きは単独では攻撃したりブロックしたりできない。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[모그 수위병은 혼자서 공격하거나 방어할 수 없다.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Могги-Прислужники не могут атаковать или блокировать в одиночку.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Moggs Confusos não pode atacar nem bloquear sozinho.]]></LOCALISED_TEXT>
+	<CONTINUOUS_ACTION>
+    local characteristics = Object():GetCurrentCharacteristics()
+    characteristics:Characteristic_Set( CHARACTERISTIC_CANNOT_ATTACK_ALONE, 1 )
+	characteristics:Characteristic_Set( CHARACTERISTIC_CANNOT_BLOCK_ALONE, 1 )
+    </CONTINUOUS_ACTION>
+  </STATIC_ABILITY>
+  <SFX text="COMBAT_PIERCE_LARGE_ATTACK" power_boundary_min="4" power_boundary_max="-1" />
+  <SFX text="COMBAT_PIERCE_SMALL_ATTACK" power_boundary_min="1" power_boundary_max="3" />
+</CARD_V2>

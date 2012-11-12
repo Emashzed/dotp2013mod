@@ -1,0 +1,79 @@
+﻿<?xml version='1.0'?>
+<CARD_V2>
+  <FILENAME text="ERASE_M13_013" />
+  <CARDNAME text="ERASE" />
+  <TITLE>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Erase]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Cancellare]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Auslöschung]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Effacement]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Borrar]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[消去]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[삭제]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Стереть]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Apagar]]></LOCALISED_TEXT>
+  </TITLE>
+  <MULTIVERSEID value="M13_013" />
+  <ARTID value="M13_013" />
+  <ARTIST name="Richard Wright" />
+  <CASTING_COST cost="{W}" />
+  <FLAVOURTEXT>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA["Don't trust your eyes, for mages are skilled in deception. Trust only in your faith. It will wipe everything clean."
+—Lila, Erunian priest]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA["Non fidarti di quello che vedi, poiché i maghi sono maestri dell'inganno. Credi soltanto nella tua fede e lascia che purifichi tutto."
+—Lila, sacerdotessa di Erunia]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[„Traue deinen Augen nicht, denn Magier sind Meister der Täuschung. Traue nur deinem Glauben. Er wird dir die Augen öffnen."
+—Lila, erunische Priesterin]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[« Ne vous fiez pas à vos yeux ; les mages excellent dans l'art de la dissimulation. Seule la foi doit vous guider. Elle saura tout purifier. »
+—Lila, prêtresse érunienne]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA["No confíes en tus ojos, pues los magos son maestros del engaño. Confía sólo en tu fe. Tu fe lo limpiará todo."
+—Lila, sacerdotisa eruniana]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[「目を信じてはなりません。魔道士は目を欺く達人です。頼るべきは信仰のみ。信仰はすべてを清らかにしてくれるでしょう。」
+――エルニアの司祭、リーラ]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA["자신의 눈을 믿지 마라. 마도사는 속임수에 능한 자들이다. 대신 자신의 신념을 따르면 모든 것이 선명하게 보일 것이다."
+—에루니아 사제 릴라]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[«Не доверяй глазам, ведь маги — мастера обмана. Доверяй лишь своей вере. Она развеет морок».
+— Лайла, эрунийская священница]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA["Não confie nos seus olhos, pois magos são mestres da enganação. Confie apenas na fé. Ela deixará tudo claro."
+— Lila, sacerdotisa eruniana]]></LOCALISED_TEXT>
+  </FLAVOURTEXT>
+  <TYPE metaname="Instant" />
+  <EXPANSION value="M13" />
+  <RARITY metaname="C" />
+  <SPELL_ABILITY dangerous="1" filter_zone="ZONE_IN_PLAY">
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Exile target enchantment.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Esilia un incantesimo bersaglio.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Schicke eine Verzauberung deiner Wahl ins Exil.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Exilez l'enchantement ciblé.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Exilia el encantamiento objetivo.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[エンチャント１つを対象とし、それを追放する。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[부여마법 한 개를 목표로 정한다. 그 부여마법을 추방한다.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Изгоните целевые чары.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Exile o encantamento alvo.]]></LOCALISED_TEXT>
+	<TARGET_DEFINITION id="0">
+    local filter = Object():GetFilter()
+    filter:Clear()
+    filter:AddCardType( CARD_TYPE_ENCHANTMENT )
+    filter:SetZone( ZONE_IN_PLAY )
+    filter:SetHint( HINT_ENEMY_ONLY, EffectController() )
+    </TARGET_DEFINITION>
+    <TARGET_DETERMINATION>
+    return AtLeastOneTargetFromDefinition(0)
+    </TARGET_DETERMINATION>
+    <PLAY_TIME_ACTION target_choosing="1">
+    EffectController():ChooseTarget( 0, "CARD_QUERY_CHOOSE_ENCHANTMENT_TO_EXILE", EffectDC():Make_Targets(0) )
+    </PLAY_TIME_ACTION>
+    <RESOLUTION_TIME_ACTION ignore_filter="1">
+    local target = EffectDC():Get_Targets(0):Get_CardPtr(0)
+    if target ~= nil then
+    	target:RemoveFromGame()
+    end
+    </RESOLUTION_TIME_ACTION>
+	<SFX text="TARGET_WHITE_MAGIC_PLAY" />
+  </SPELL_ABILITY>
+  <AI_AVAILABILITY type="in_response" />
+  <AI_AVAILABILITY step="begin_combat" turn="their_turn" />
+  <AI_AVAILABILITY step="main_1" turn="my_turn" />
+  <AI_AVAILABILITY step="end_of_turn" turn="their_turn" />
+  <AI_BASE_SCORE score="250" zone="ZONE_HAND" />
+</CARD_V2>

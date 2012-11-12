@@ -1,0 +1,70 @@
+﻿<?xml version='1.0'?>
+<CARD_V2>
+  <FILENAME text="QUIRION_DRYAD_M13_184" />
+  <CARDNAME text="QUIRION_DRYAD" />
+  <TITLE>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Quirion Dryad]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Driade Quirion]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Quiriondryade]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Dryade quirionaise]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Dríada Quirion]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[クウィリーオンのドライアド]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[퀴리온 드라이어드]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Квирионская Дриада]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Dríade Quirion]]></LOCALISED_TEXT>
+  </TITLE>
+  <MULTIVERSEID value="M13_184" />
+  <ARTID value="M13_184" />
+  <ARTIST name="Todd Lockwood" />
+  <CASTING_COST cost="{1}{G}" />
+  <FLAVOURTEXT>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[“Never underestimate the ability of natural forces to adapt to unnatural influences.”
+—Molimo, maro-sorcerer]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[“Mai sottovalutare la capacità delle forze naturali di adattarsi alle influenze artificiali.”
+—Molimo, stregone maro]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[„Unterschätze nie die die Fähigkeit von Naturmächten, sich unnatürlichen Einflüssen anzupassen.”
+—Molimo, Maro-Hexer]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[« Ne sous-estimez jamais la nature. Elle sait s’adapter au surnaturel. »
+—Molimo, maro-sorcier]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[“Nunca subestimes la habilidad de las fuerzas naturales para adaptarse a influencias antinaturales.”
+—Molimo, hechicero maro]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[「自然外の影響に順応した自然の力を侮るべからず。」
+――マローの魔術師モリモ]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[“섭리에 맞지 않는 변화에도 적응하는 자연의 힘을 과소평가하지 말도록.” —마로 법사 몰리모]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[«Не стоит недооценивать способность естественных сил приспосабливаться к неестественным воздействиям».
+— Молимо, маро-волшебник]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[“Nunca subestime a habilidade das forças naturais de se adaptarem a influências sobrenaturais.”
+— Molimo, feiticeiro maro]]></LOCALISED_TEXT>
+  </FLAVOURTEXT>
+  <TYPE metaname="Creature" />
+  <SUB_TYPE metaname="Dryad" />
+  <EXPANSION value="M13" />
+  <RARITY metaname="R" />
+  <POWER value="1" />
+  <TOUGHNESS value="1" />
+  <TRIGGERED_ABILITY filter_zone="ZONE_IN_PLAY">
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Whenever you cast a white, blue, black, or red spell, put a +1/+1 counter on Quirion Dryad.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Ogniqualvolta lanci una magia bianca, blu, nera o rossa, metti un segnalino +1/+1 sulla Driade Quirion.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Immer wenn du einen weißen, blauen, schwarzen oder roten Zauber wirkst, lege eine +1/+1-Marke auf die Quiriondryade.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[À chaque fois que vous lancez un sort blanc, bleu, noir ou rouge, mettez un marqueur +1/+1 sur la Dryade quirionaise.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Siempre que lances un hechizo blanco, azul, negro o rojo, pon un contador +1/+1 sobre la Dríada Quirion.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[あなたが白か青か黒か赤の呪文を１つ唱えるたび、クウィリーオンのドライアドの上に＋１/＋１カウンターを１個置く。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[당신이 백색, 청색, 흑색 또는 적색 주문을 발동할 때마다, 퀴리온 드라이어드에 +1/+1 카운터를 한 개 올려놓는다.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Каждый раз, когда вы разыгрываете белое, синее, черное или красное заклинание, положите один жетон +1/+1 на Квирионскую Дриаду.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Sempre que você conjurar uma mágica branca, azul, preta ou vermelha, coloque um marcador +1/+1 sobre Dríade Quirion.]]></LOCALISED_TEXT>
+	<TRIGGER value="SPELL_PLAYED" simple_qualifier="objectyoucontrol">
+    return (TriggerObject():GetColour():Test( COLOUR_WHITE ) ~= 0 or
+	TriggerObject():GetColour():Test( COLOUR_BLUE ) ~= 0 or
+	TriggerObject():GetColour():Test( COLOUR_BLACK ) ~= 0 or
+	TriggerObject():GetColour():Test( COLOUR_RED ) ~= 0)
+    </TRIGGER>
+    <RESOLUTION_TIME_ACTION>
+    if EffectSource() ~= nil then
+    	EffectSource():AddCounters( MTG():PlusOnePlusOneCounters(), 1 )
+    end
+    </RESOLUTION_TIME_ACTION>
+  </TRIGGERED_ABILITY>
+  <SFX text="COMBAT_GREEN_MAGIC_LARGE_ATTACK" power_boundary_min="4" power_boundary_max="-1" />
+  <SFX text="COMBAT_GREEN_MAGIC_SMALL_ATTACK" power_boundary_min="1" power_boundary_max="3" />
+  <AI_BASE_SCORE score="600" zone="ZONE_IN_PLAY" />
+</CARD_V2>

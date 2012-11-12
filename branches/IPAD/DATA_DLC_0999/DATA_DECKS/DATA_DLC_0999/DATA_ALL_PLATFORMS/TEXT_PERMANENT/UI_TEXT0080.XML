@@ -33,28 +33,28 @@
    <NumberFormat/>
    <Protection/>
   </Style>
-  <Style ss:ID="s22">
+  <Style ss:ID="s21">
    <Font ss:FontName="Times New Roman" x:Family="Roman" ss:Size="12"
     ss:Color="#000000"/>
   </Style>
  </Styles>
  <Worksheet ss:Name="Sheet4">
   <Table ss:ExpandedColumnCount="12" ss:ExpandedRowCount="9" x:FullColumns="1"
-   x:FullRows="1" ss:StyleID="s22" ss:DefaultColumnWidth="66"
+   x:FullRows="1" ss:StyleID="s21" ss:DefaultColumnWidth="66"
    ss:DefaultRowHeight="15.75">
-   <Column ss:StyleID="s22" ss:Width="250.5"/>
-   <Column ss:StyleID="s22" ss:Width="54"/>
-   <Column ss:StyleID="s22" ss:Width="130.5"/>
-   <Column ss:StyleID="s22" ss:Width="194.25"/>
-   <Column ss:StyleID="s22" ss:Width="213"/>
-   <Column ss:StyleID="s22" ss:Width="243.75"/>
-   <Column ss:StyleID="s22" ss:Width="206.25"/>
-   <Column ss:StyleID="s22" ss:Width="130.5"/>
-   <Column ss:StyleID="s22" ss:Width="291.75"/>
-   <Column ss:StyleID="s22" ss:Width="153.75"/>
-   <Column ss:StyleID="s22" ss:Width="225"/>
-   <Column ss:StyleID="s22" ss:Width="192.75"/>
-   <Row ss:AutoFitHeight="0" ss:Height="14.25" ss:StyleID="Default">
+   <Column ss:StyleID="s21" ss:Width="250.5"/>
+   <Column ss:StyleID="s21" ss:Width="54"/>
+   <Column ss:StyleID="s21" ss:Width="130.5"/>
+   <Column ss:StyleID="s21" ss:Width="194.25"/>
+   <Column ss:StyleID="s21" ss:Width="213"/>
+   <Column ss:StyleID="s21" ss:Width="243.75"/>
+   <Column ss:StyleID="s21" ss:Width="206.25"/>
+   <Column ss:StyleID="s21" ss:Width="130.5"/>
+   <Column ss:StyleID="s21" ss:Width="291.75"/>
+   <Column ss:StyleID="s21" ss:Width="153.75"/>
+   <Column ss:StyleID="s21" ss:Width="225"/>
+   <Column ss:StyleID="s21" ss:Width="192.75"/>
+   <Row ss:Height="14.25" ss:StyleID="Default">
     <Cell><Data ss:Type="String">Ident</Data></Cell>
     <Cell><Data ss:Type="String">Comment</Data></Cell>
     <Cell><Data ss:Type="String">Master Text</Data></Cell>
@@ -67,7 +67,7 @@
     <Cell><Data ss:Type="String">Russian</Data></Cell>
     <Cell><Data ss:Type="String">Portuguese (Brazil)</Data></Cell>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell><Data ss:Type="String">PLAYER_SET_CANT_BE_ATTACKED</Data></Cell>
     <Cell ss:Index="3"><Data ss:Type="String">Can’t be attacked</Data></Cell>
     <Cell><Data ss:Type="String">Ne peut pas être attaqué</Data></Cell>
@@ -80,7 +80,7 @@
     <Cell><Data ss:Type="String">Не могут быть атакованы</Data></Cell>
     <Cell><Data ss:Type="String">Não pode ser atacado</Data></Cell>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell><Data ss:Type="String">PLAYER_SET_CANT_CAST_NONARTIFACTS</Data></Cell>
     <Cell ss:Index="3"><Data ss:Type="String">Nonartifacts can’t be cast</Data></Cell>
     <Cell><Data ss:Type="String">Artefacts non ne peut pas être jeté</Data></Cell>
@@ -93,7 +93,7 @@
     <Cell><Data ss:Type="String">Без артефактов не может быть приведен</Data></Cell>
     <Cell><Data ss:Type="String">Artefatos não não pode ser convertido</Data></Cell>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell><Data ss:Type="String">PLAYER_SET_IONA_COLOR_1</Data></Cell>
     <Cell ss:Index="3"><Data ss:Type="String">Can’t cast white spells</Data></Cell>
     <Cell><Data ss:Type="String">Impossible de lancer des sorts blancs</Data></Cell>
@@ -106,7 +106,7 @@
     <Cell><Data ss:Type="String">Не могу бросить белый заклинаний</Data></Cell>
     <Cell><Data ss:Type="String">Não pode lançar magias brancas</Data></Cell>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell><Data ss:Type="String">PLAYER_SET_IONA_COLOR_2</Data></Cell>
     <Cell ss:Index="3"><Data ss:Type="String">Can’t cast blue spells</Data></Cell>
     <Cell><Data ss:Type="String">Impossible de lancer des sorts bleus</Data></Cell>
@@ -119,7 +119,7 @@
     <Cell><Data ss:Type="String">Не могу бросить синих заклинаний</Data></Cell>
     <Cell><Data ss:Type="String">Não pode lançar magias azuis</Data></Cell>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell><Data ss:Type="String">PLAYER_SET_IONA_COLOR_3</Data></Cell>
     <Cell ss:Index="3"><Data ss:Type="String">Can’t cast black spells</Data></Cell>
     <Cell><Data ss:Type="String">Impossible de lancer des sorts noirs</Data></Cell>
@@ -132,7 +132,7 @@
     <Cell><Data ss:Type="String">Невозможно привести черный заклинаний</Data></Cell>
     <Cell><Data ss:Type="String">Não pode lançar magias negras</Data></Cell>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell><Data ss:Type="String">PLAYER_SET_IONA_COLOR_4</Data></Cell>
     <Cell ss:Index="3"><Data ss:Type="String">Can’t cast red spells</Data></Cell>
     <Cell><Data ss:Type="String">Impossible de lancer des sorts rouges</Data></Cell>
@@ -145,7 +145,7 @@
     <Cell><Data ss:Type="String">Не могу бросить красный заклинания</Data></Cell>
     <Cell><Data ss:Type="String">Não pode lançar magias vermelhas</Data></Cell>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell><Data ss:Type="String">PLAYER_SET_IONA_COLOR_5</Data></Cell>
     <Cell ss:Index="3"><Data ss:Type="String">Can’t cast green spells</Data></Cell>
     <Cell><Data ss:Type="String">Impossible de lancer des sorts verts</Data></Cell>
@@ -158,7 +158,7 @@
     <Cell><Data ss:Type="String">Не могу бросить зеленые заклинания</Data></Cell>
     <Cell><Data ss:Type="String">Não é possível lançar feitiços verdes</Data></Cell>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell><Data ss:Type="String">PLAYER_SET_REDIRECTION_EMPYRIAL</Data></Cell>
     <Cell ss:Index="3"><Data ss:Type="String">Damage redirection</Data></Cell>
     <Cell><Data ss:Type="String">Redirection des dommages</Data></Cell>
@@ -178,6 +178,7 @@
     <Footer x:Margin="0.3"/>
     <PageMargins x:Bottom="0.75" x:Left="0.7" x:Right="0.7" x:Top="0.75"/>
    </PageSetup>
+   <Unsynced/>
    <Print>
     <ValidPrinterInfo/>
     <HorizontalResolution>600</HorizontalResolution>
@@ -234,4 +235,3 @@
   </WorksheetOptions>
  </Worksheet>
 </Workbook>
-
