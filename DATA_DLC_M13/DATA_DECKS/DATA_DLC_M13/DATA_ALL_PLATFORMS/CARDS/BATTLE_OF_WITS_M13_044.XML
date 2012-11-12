@@ -1,0 +1,58 @@
+﻿<?xml version='1.0'?>
+<CARD_V2>
+  <FILENAME text="BATTLE_OF_WITS_M13_044" />
+  <CARDNAME text="BATTLE_OF_WITS" />
+  <TITLE>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Battle of Wits]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Scontro di Intelletti]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Geistiges Duell]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Jeu d'esprits]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Batalla de ingenio]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[機知の戦い]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[두뇌 싸움]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Борьба Умов]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Batalha de Raciocínio]]></LOCALISED_TEXT>
+  </TITLE>
+  <MULTIVERSEID value="M13_044" />
+  <ARTID value="M13_044" />
+  <ARTIST name="Jason Chan" />
+  <CASTING_COST cost="{3}{U}{U}" />
+  <FLAVOURTEXT>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[There is no loftier ambition than the pursuit of knowledge.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Non esiste ambizione più nobile della ricerca della conoscenza.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Es gibt kein erhabeneres Ziel als die Suche nach Wissen.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[L'ambition suprême, c'est la quête du savoir.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[No hay ambición más elevada que la búsqueda de conocimiento.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[知識の探求以上に高尚な志があろうか。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[지식을 갈구하는 마음은 그 어떤 열정보다 강하다.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Нет более возвышенной цели, чем погоня за знанием.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Não há ambição mais imponente do que a busca pelo conhecimento.]]></LOCALISED_TEXT>
+  </FLAVOURTEXT>
+  <TYPE metaname="Enchantment" />
+  <EXPANSION value="M13" />
+  <RARITY metaname="R" />
+  <TRIGGERED_ABILITY>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[At the beginning of your upkeep, if   you have 200 or more cards in your library, you win the game.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[All'inizio del tuo mantenimento, se hai 200 o più carte nel tuo grimorio, vinci la partita.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Falls du zu Beginn deines Versorgungssegments 200 oder mehr Karten in deiner Bibliothek hast, gewinnst du das Spiel.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Au début de votre entretien, si vous avez au moins 200 cartes dans votre bibliothèque, vous gagnez la partie.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Al comienzo de tu mantenimiento, si tienes 200 o más cartas en tu biblioteca, ganas el juego.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[あなたのアップキープの開始時に、あなたのライブラリーに200枚以上のカードがある場合、あなたはこのゲームに勝利する。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[당신의 유지단 시작에, 당신의 서고에 카드가 200장 이상 있다면 당신은 게임에서 승리한다.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[В начале вашего шага поддержки, если в вашей библиотеке есть 200 или более карт, вы выигрываете партию.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[No início de sua manutenção, se você tiver 200 ou mais cards no seu grimório, você vence o jogo.]]></LOCALISED_TEXT>
+	<RESOLUTION_TIME_ACTION>
+    if CountCardsZonePlayer( ZONE_LIBRARY, EffectController() ) &gt; 199 then
+		EffectController():WinGame()
+    end
+    </RESOLUTION_TIME_ACTION>
+    <TRIGGER value="BEGINNING_OF_STEP" simple_qualifier="controller">
+    return PlayersUpkeep( EffectController() )
+    </TRIGGER>
+  </TRIGGERED_ABILITY>
+  <AI_CUSTOM_SCORE zone="ZONE_IN_PLAY">
+  if CountCardsZonePlayer( ZONE_LIBRARY, EffectController() ) &gt; 199 then
+  	Object():AddScore(2000)
+  end
+  </AI_CUSTOM_SCORE>
+</CARD_V2>

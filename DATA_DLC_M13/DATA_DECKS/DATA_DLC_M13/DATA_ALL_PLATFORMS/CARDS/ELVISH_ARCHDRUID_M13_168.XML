@@ -1,0 +1,81 @@
+﻿<?xml version='1.0'?>
+<CARD_V2>
+  <FILENAME text="ELVISH_ARCHDRUID_M13_168" />
+  <CARDNAME text="ELVISH_ARCHDRUID" />
+  <TITLE>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Elvish Archdruid]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Arcidruido Elfico]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Elfischer Erzdruide]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Archidruide elfe]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Archidruida élfico]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[エルフの大ドルイド]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[엘프 대드루이드]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Эльфийский Архидруид]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Arqueodruida Elfo]]></LOCALISED_TEXT>
+  </TITLE>
+  <MULTIVERSEID value="M13_168" />
+  <ARTID value="M13_168" />
+  <ARTIST name="Karl Kopinski" />
+  <CASTING_COST cost="{1}{G}{G}" />
+  <FLAVOURTEXT>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[He knows the name of every elf born in the last four centuries. More importantly, they all know his.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Conosce il nome di tutti gli elfi nati negli ultimi quattro secoli. Ma ancora più importante, loro conoscono il suo.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Er kennt den Namen jedes Elfen, der in den letzten vier Jahrhunderten geboren wurde. Bedeutender ist, dass alle seinen kennen.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Il connaît le nom de chaque elfe né durant les quatre derniers siècles. Mais plus important, tous connaissent le sien.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Sabe el nombre de todos los elfos nacidos en los últimos cuatro siglos. Más importante aún, todos conocen el suyo.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[彼は、ここ四世紀中に生まれた全てのエルフの名を知っている。そしてさらに重要なのは、その誰もが彼を知っていることだ。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[그는 지난 4세기 동안 태어난 모든 엘프의 이름을 알고 있다. 더 중요한 것은 모든 엘프 역시 그의 이름을 알고 있다.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Он знает имена всех эльфов, родившихся за последние четыре столетия. Что еще более важно, все они знают его имя.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Ele sabe o nome de todos os elfos nascidos nos últimos quatro séculos. E o mais importante: todos eles sabem o nome dele.]]></LOCALISED_TEXT>
+  </FLAVOURTEXT>
+  <TYPE metaname="Creature" />
+  <SUB_TYPE metaname="Elf" order_de-DE="0" order_es-ES="1" order_fr-FR="0" order_it-IT="1" order_jp-JA="0" order_ko-KR="0" order_pt-BR="0" order_ru-RU="0" />
+  <SUB_TYPE metaname="Druid" order_de-DE="1" order_es-ES="0" order_fr-FR="1" order_it-IT="0" order_jp-JA="1" order_ko-KR="1" order_pt-BR="1" order_ru-RU="1" />
+  <EXPANSION value="M13" />
+  <RARITY metaname="R" />
+  <POWER value="2" />
+  <TOUGHNESS value="2" />
+  <STATIC_ABILITY filter_zone="ZONE_IN_PLAY">
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Other Elf creatures you control get +1/+1.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Le altre creature Elfo che controlli prendono +1/+1.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Andere Elf-Kreaturen, die du kontrollierst, erhalten +1/+1.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Les autres créatures Elfe que vous contrôlez gagnent +1/+1.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Las otras criaturas Elfo que controlas obtienen +1/+1.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[あなたがコントロールする他のエルフ・クリーチャーは＋１/＋１の修整を受ける。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[당신이 조종하는 다른 엘프 생물들은 +1/+1을 받는다.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Другие существа-Эльфы под вашим контролем получают +1/+1.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[As outras criaturas do tipo Elfo que você controla recebem +1/+1.]]></LOCALISED_TEXT>
+	<FILTER>
+	return OtherCreaturesInPlayYouControlOfType( CREATURE_TYPE_ELF )
+    </FILTER>
+    <CONTINUOUS_ACTION layer="7C">
+    if FilteredCard() ~= nil then
+    	local characteristics = FilteredCard():GetCurrentCharacteristics()
+    	if characteristics ~= nil then
+    		characteristics:Power_Add( 1 )
+    		characteristics:Toughness_Add( 1 )
+    	end
+    end
+    </CONTINUOUS_ACTION>
+  </STATIC_ABILITY>
+  <ACTIVATED_ABILITY forced_skip="1" filter_zone="ZONE_IN_PLAY">
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[{T}: Add {G} to your mana pool for each Elf you control.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[{T}: Aggiungi {G} alla tua riserva di mana per ogni Elfo che controlli.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[{T}: Erhöhe deinen Manavorrat für jeden Elfen, den du kontrollierst, um {G}.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[{T} : Ajoutez {G} à votre réserve pour chaque elfe que vous contrôlez.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[{T}: Agrega {G} a tu reserva de maná por cada Elfo que controlas.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[{T}：あなたがコントロールするエルフ１体につき、あなたのマナ・プールに{G}を加える。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[{T}: 당신이 조종하는 엘프 한 개당 {G}를 당신의 마나풀에 담는다.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[{T}: добавьте {G} в ваше хранилище маны за каждого Эльфа под вашим контролем.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[{T}: Adicione {G} à sua reserva de mana para cada Elfo que você controla.]]></LOCALISED_TEXT>
+	<COST type="TapSelf" />
+	<RESOLUTION_TIME_ACTION>
+    local elves = CountCardsSubtypeZonePlayer( CREATURE_TYPE_ELF, ZONE_IN_PLAY, EffectController() ) 
+	ProduceMana("G",elves)
+    </RESOLUTION_TIME_ACTION>
+  </ACTIVATED_ABILITY>
+  <TOKEN_REGISTRATION reservation="1" type="MANATOKEN_G" />
+  <SFX text="COMBAT_GREEN_MAGIC_LARGE_ATTACK" power_boundary_min="4" power_boundary_max="-1" />
+  <SFX text="COMBAT_GREEN_MAGIC_SMALL_ATTACK" power_boundary_min="1" power_boundary_max="3" />
+  <AI_BASE_SCORE score="750" zone="ZONE_IN_PLAY" />
+</CARD_V2>

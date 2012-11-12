@@ -34,30 +34,26 @@
    <Protection/>
   </Style>
   <Style ss:ID="s21">
-   <Font ss:FontName="Times New Roman" x:Family="Roman" ss:Size="8"
-    ss:Color="#000000"/>
-  </Style>
-  <Style ss:ID="s22">
    <Font ss:FontName="Times New Roman" x:Family="Roman" ss:Size="12"
     ss:Color="#000000"/>
   </Style>
  </Styles>
  <Worksheet ss:Name="Sheet4">
-  <Table ss:ExpandedColumnCount="12" ss:ExpandedRowCount="62" x:FullColumns="1"
-   x:FullRows="1" ss:StyleID="s22" ss:DefaultColumnWidth="66"
+  <Table ss:ExpandedColumnCount="12" ss:ExpandedRowCount="91" x:FullColumns="1"
+   x:FullRows="1" ss:StyleID="s21" ss:DefaultColumnWidth="66"
    ss:DefaultRowHeight="15.75">
-   <Column ss:StyleID="s22" ss:Width="537.75"/>
-   <Column ss:StyleID="s22" ss:Width="538.5"/>
-   <Column ss:StyleID="s22" ss:Width="607.5"/>
-   <Column ss:StyleID="s22" ss:Width="731.25"/>
-   <Column ss:StyleID="s22" ss:Width="666.75"/>
-   <Column ss:StyleID="s22" ss:Width="721.5"/>
-   <Column ss:StyleID="s22" ss:Width="677.25"/>
-   <Column ss:Index="9" ss:StyleID="s22" ss:Width="969"/>
-   <Column ss:StyleID="s22" ss:Width="578.25"/>
-   <Column ss:StyleID="s22" ss:Width="713.25"/>
-   <Column ss:StyleID="s22" ss:Width="645.75"/>
-   <Row ss:Height="11.25" ss:StyleID="s21">
+   <Column ss:StyleID="s21" ss:Width="537.75"/>
+   <Column ss:StyleID="s21" ss:Width="538.5"/>
+   <Column ss:StyleID="s21" ss:Width="607.5"/>
+   <Column ss:StyleID="s21" ss:Width="731.25"/>
+   <Column ss:StyleID="s21" ss:Width="666.75"/>
+   <Column ss:StyleID="s21" ss:Width="721.5"/>
+   <Column ss:StyleID="s21" ss:Width="677.25"/>
+   <Column ss:Index="9" ss:StyleID="s21" ss:Width="969"/>
+   <Column ss:StyleID="s21" ss:Width="578.25"/>
+   <Column ss:StyleID="s21" ss:Width="713.25"/>
+   <Column ss:StyleID="s21" ss:Width="645.75"/>
+   <Row>
     <Cell><Data ss:Type="String">Ident</Data></Cell>
     <Cell><Data ss:Type="String">Comment</Data></Cell>
     <Cell><Data ss:Type="String">Master Text</Data></Cell>
@@ -192,6 +188,30 @@
     <Cell><Data ss:Type="String">Escolha um cartão preto para colocar na mão de seu dono.</Data></Cell>
    </Row>
    <Row>
+    <Cell><Data ss:Type="String">CARD_QUERY_CHOOSE_CARD_TO_LOBOTOMY</Data></Cell>
+    <Cell ss:Index="3"><Data ss:Type="String">Choose a card to exile from that player's graveyard, hand and library.</Data></Cell>
+    <Cell><Data ss:Type="String">Choisissez une carte pour l'exiler.</Data></Cell>
+    <Cell><Data ss:Type="String">Elige una carta para exiliar.</Data></Cell>
+    <Cell><Data ss:Type="String">Bestimme eine Karte, die ins Exil geschickt werden soll.</Data></Cell>
+    <Cell><Data ss:Type="String">Scegli una carta da esiliare.</Data></Cell>
+    <Cell ss:Index="9"><Data ss:Type="String">追放するカードを選択。</Data></Cell>
+    <Cell><Data ss:Type="String">추방할 카드를 한 장 고르십시오.</Data></Cell>
+    <Cell><Data ss:Type="String">Выберите карту для изгнания.</Data></Cell>
+    <Cell><Data ss:Type="String">Escolha um card para exilar.</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">CARD_QUERY_CHOOSE_CARD_TO_PUT_INTO_GRAVEYARD</Data></Cell>
+    <Cell ss:Index="3"><Data ss:Type="String">Choose a card to put into its owner’s graveyard.</Data></Cell>
+    <Cell><Data ss:Type="String">Choisissez une carte à mettre dans le cimetière de son propriétaire.</Data></Cell>
+    <Cell><Data ss:Type="String">Elegir una tarjeta que pone en el cementerio de su propietario.</Data></Cell>
+    <Cell><Data ss:Type="String">Wählen Sie eine Karte. Diese wird in den Friedhof ihres Besitzers gelegt.</Data></Cell>
+    <Cell><Data ss:Type="String">Scegliere una carta messa nel cimitero del suo proprietario.</Data></Cell>
+    <Cell ss:Index="9"><Data ss:Type="String">そのオーナーの墓地に置くためにカードを選択します。</Data></Cell>
+    <Cell><Data ss:Type="String">주인의 묘지에 투입하는 카드를 선택합니다.</Data></Cell>
+    <Cell><Data ss:Type="String">Выберите карту, чтобы положить на кладбище своего владельца.</Data></Cell>
+    <Cell><Data ss:Type="String">Escolha um cartão para colocar no cemitério de seu dono.</Data></Cell>
+   </Row>
+   <Row>
     <Cell><Data ss:Type="String">CARD_QUERY_CHOOSE_CARDS_TO_EXILE_GRAVE</Data></Cell>
     <Cell ss:Index="3"><Data ss:Type="String">Choose cards to exile. (graveyard)</Data></Cell>
     <Cell><Data ss:Type="String">Choisissez une carte pour l'exiler.</Data></Cell>
@@ -228,8 +248,8 @@
     <Cell><Data ss:Type="String">Escolha um card para exilar.</Data></Cell>
    </Row>
    <Row>
-    <Cell><Data ss:Type="String">CARD_QUERY_CHOOSE_CARD_TO_LOBOTOMY</Data></Cell>
-    <Cell ss:Index="3"><Data ss:Type="String">Choose a card to exile from that player's graveyard, hand and library.</Data></Cell>
+    <Cell><Data ss:Type="String">CARD_QUERY_CHOOSE_CREATURE_CARD_TO_EXILE</Data></Cell>
+    <Cell ss:Index="3"><Data ss:Type="String">Choose a creature card to exile.</Data></Cell>
     <Cell><Data ss:Type="String">Choisissez une carte pour l'exiler.</Data></Cell>
     <Cell><Data ss:Type="String">Elige una carta para exiliar.</Data></Cell>
     <Cell><Data ss:Type="String">Bestimme eine Karte, die ins Exil geschickt werden soll.</Data></Cell>
@@ -238,18 +258,6 @@
     <Cell><Data ss:Type="String">추방할 카드를 한 장 고르십시오.</Data></Cell>
     <Cell><Data ss:Type="String">Выберите карту для изгнания.</Data></Cell>
     <Cell><Data ss:Type="String">Escolha um card para exilar.</Data></Cell>
-   </Row>
-   <Row>
-    <Cell><Data ss:Type="String">CARD_QUERY_CHOOSE_CARD_TO_PUT_INTO_GRAVEYARD</Data></Cell>
-    <Cell ss:Index="3"><Data ss:Type="String">Choose a card to put into its owner’s graveyard.</Data></Cell>
-    <Cell><Data ss:Type="String">Choisissez une carte à mettre dans le cimetière de son propriétaire.</Data></Cell>
-    <Cell><Data ss:Type="String">Elegir una tarjeta que pone en el cementerio de su propietario.</Data></Cell>
-    <Cell><Data ss:Type="String">Wählen Sie eine Karte. Diese wird in den Friedhof ihres Besitzers gelegt.</Data></Cell>
-    <Cell><Data ss:Type="String">Scegliere una carta messa nel cimitero del suo proprietario.</Data></Cell>
-    <Cell ss:Index="9"><Data ss:Type="String">そのオーナーの墓地に置くためにカードを選択します。</Data></Cell>
-    <Cell><Data ss:Type="String">주인의 묘지에 투입하는 카드를 선택합니다.</Data></Cell>
-    <Cell><Data ss:Type="String">Выберите карту, чтобы положить на кладбище своего владельца.</Data></Cell>
-    <Cell><Data ss:Type="String">Escolha um cartão para colocar no cemitério de seu dono.</Data></Cell>
    </Row>
    <Row>
     <Cell><Data ss:Type="String">CARD_QUERY_CHOOSE_CREATURE_CARD_TO_PUT_ON_YOUR_LIBRARY</Data></Cell>
@@ -262,18 +270,6 @@
     <Cell><Data ss:Type="String">소유자의 서고 맨 위에 놓을 생물 한 개를 고르십시오.</Data></Cell>
     <Cell><Data ss:Type="String">Выберите существо, которое нужно положить на верх библиотеки его владельца.</Data></Cell>
     <Cell><Data ss:Type="String">Escolha uma criatura para colocar no topo do grimório de seu dono.</Data></Cell>
-   </Row>
-   <Row>
-    <Cell><Data ss:Type="String">CARD_QUERY_CHOOSE_CREATURE_CARD_TO_EXILE</Data></Cell>
-    <Cell ss:Index="3"><Data ss:Type="String">Choose a creature card to exile.</Data></Cell>
-    <Cell><Data ss:Type="String">Choisissez une carte pour l'exiler.</Data></Cell>
-    <Cell><Data ss:Type="String">Elige una carta para exiliar.</Data></Cell>
-    <Cell><Data ss:Type="String">Bestimme eine Karte, die ins Exil geschickt werden soll.</Data></Cell>
-    <Cell><Data ss:Type="String">Scegli una carta da esiliare.</Data></Cell>
-    <Cell ss:Index="9"><Data ss:Type="String">追放するカードを選択。</Data></Cell>
-    <Cell><Data ss:Type="String">추방할 카드를 한 장 고르십시오.</Data></Cell>
-    <Cell><Data ss:Type="String">Выберите карту для изгнания.</Data></Cell>
-    <Cell><Data ss:Type="String">Escolha um card para exilar.</Data></Cell>
    </Row>
    <Row>
     <Cell><Data ss:Type="String">CARD_QUERY_CHOOSE_CREATURE_GAIN_MUST_BLOCK</Data></Cell>
@@ -468,18 +464,6 @@
     <Cell><Data ss:Type="String">Escolha uma mágica instantânea ou um feitiço para conjurar.</Data></Cell>
    </Row>
    <Row>
-    <Cell><Data ss:Type="String">CARD_QUERY_CHOOSE_PLAYER_DISCARD_2_RANDOM</Data></Cell>
-    <Cell ss:Index="3"><Data ss:Type="String">Choose target player to discard two cards from his or her hand at random.</Data></Cell>
-    <Cell><Data ss:Type="String">Choisissez un joueur pour qu'il se défausse de deux cartes au hasard.</Data></Cell>
-    <Cell><Data ss:Type="String">Elige el jugador objetivo para descartar dos cartas de su mano al azar.</Data></Cell>
-    <Cell><Data ss:Type="String">Wähle einen Spieler. Dieser wirft zwei zufällige Karten aus seiner Hand ab.</Data></Cell>
-    <Cell><Data ss:Type="String">Scegli un giocatore bersaglio di scartare due carte dalla propria mano a caso.</Data></Cell>
-    <Cell ss:Index="9"><Data ss:Type="String">ランダムに2人からカードや手札を捨てるために、ターゲットプレイヤーを選択してください。</Data></Cell>
-    <Cell><Data ss:Type="String">랜덤에 두명의 자신의 카드 또는 그녀의 손에를 삭제하 대상 플레이어를 선택합니다.</Data></Cell>
-    <Cell><Data ss:Type="String">Выбор целевого игрока сбросить две карты из своей руки наугад.</Data></Cell>
-    <Cell><Data ss:Type="String">Escolha o jogador alvo para descartar dois cards de sua mão de forma aleatória.</Data></Cell>
-   </Row>
-   <Row>
     <Cell><Data ss:Type="String">CARD_QUERY_CHOOSE_PERMANENT_TAPHOLD</Data></Cell>
     <Cell ss:Index="3"><Data ss:Type="String">Choose a permanent to tap. It won’t untap during its controller’s next untap step.</Data></Cell>
     <Cell><Data ss:Type="String">Choisissez un permanent pour l'engager. Il ne se dégagera pas pendant la prochaine étape de dégagement de son contrôleur.</Data></Cell>
@@ -490,6 +474,18 @@
     <Cell><Data ss:Type="String">Choose a permanent to tap. It won’t untap during its controller’s next untap step.</Data></Cell>
     <Cell><Data ss:Type="String">Choose a permanent to tap. It won’t untap during its controller’s next untap step.</Data></Cell>
     <Cell><Data ss:Type="String">Escolha uma permanente para virar. El não desvira durante a próxima etapa de desvirar de seu controlador.</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">CARD_QUERY_CHOOSE_PLAYER_DISCARD_2_RANDOM</Data></Cell>
+    <Cell ss:Index="3"><Data ss:Type="String">Choose target player to discard two cards from his or her hand at random.</Data></Cell>
+    <Cell><Data ss:Type="String">Choisissez un joueur pour qu'il se défausse de deux cartes au hasard.</Data></Cell>
+    <Cell><Data ss:Type="String">Elige el jugador objetivo para descartar dos cartas de su mano al azar.</Data></Cell>
+    <Cell><Data ss:Type="String">Wähle einen Spieler. Dieser wirft zwei zufällige Karten aus seiner Hand ab.</Data></Cell>
+    <Cell><Data ss:Type="String">Scegli un giocatore bersaglio di scartare due carte dalla propria mano a caso.</Data></Cell>
+    <Cell ss:Index="9"><Data ss:Type="String">ランダムに2人からカードや手札を捨てるために、ターゲットプレイヤーを選択してください。</Data></Cell>
+    <Cell><Data ss:Type="String">랜덤에 두명의 자신의 카드 또는 그녀의 손에를 삭제하 대상 플레이어를 선택합니다.</Data></Cell>
+    <Cell><Data ss:Type="String">Выбор целевого игрока сбросить две карты из своей руки наугад.</Data></Cell>
+    <Cell><Data ss:Type="String">Escolha o jogador alvo para descartar dois cards de sua mão de forma aleatória.</Data></Cell>
    </Row>
    <Row>
     <Cell><Data ss:Type="String">CARD_QUERY_CHOOSE_PLAYER_DISCARD_ATRANDOM_NATH</Data></Cell>
@@ -503,7 +499,7 @@
     <Cell><Data ss:Type="String">Выбор целевого игрока сбросить карты наугад из своих рук.</Data></Cell>
     <Cell><Data ss:Type="String">Escolha o jogador alvo para descartar um card aleatoriamente de sua mão.</Data></Cell>
    </Row>
-    <Row>
+   <Row>
     <Cell><Data ss:Type="String">CARD_QUERY_CHOOSE_PLAYER_DISCARD_HAND</Data></Cell>
     <Cell ss:Index="3"><Data ss:Type="String">Choose a player to discard his or her hand.</Data></Cell>
     <Cell><Data ss:Type="String">Choose a player to discard his or her hand.</Data></Cell>
@@ -514,6 +510,18 @@
     <Cell><Data ss:Type="String">Choose a player to discard his or her hand.</Data></Cell>
     <Cell><Data ss:Type="String">Choose a player to discard his or her hand.</Data></Cell>
     <Cell><Data ss:Type="String">Choose a player to discard his or her hand.</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">CARD_QUERY_CHOOSE_PLAYER_TO_LOSE_GAME</Data></Cell>
+    <Cell ss:Index="3"><Data ss:Type="String">Choose a player to lose the game.</Data></Cell>
+    <Cell><Data ss:Type="String">Choisissez un joueur à cibler.</Data></Cell>
+    <Cell><Data ss:Type="String">Elige un jugador para hacerlo objetivo.</Data></Cell>
+    <Cell><Data ss:Type="String">Bestimme einen Spieler, der das Ziel sein soll.</Data></Cell>
+    <Cell><Data ss:Type="String">Scegli un giocatore da bersagliare.</Data></Cell>
+    <Cell ss:Index="9"><Data ss:Type="String">対象のプレイヤーを選択。</Data></Cell>
+    <Cell><Data ss:Type="String">목표로 지정할 플레이어 한 명을 고르십시오.</Data></Cell>
+    <Cell><Data ss:Type="String">Выберите целевого игрока.</Data></Cell>
+    <Cell><Data ss:Type="String">Escolha um jogador alvo.</Data></Cell>
    </Row>
    <Row>
     <Cell><Data ss:Type="String">CARD_QUERY_CHOOSE_RCARD_TO_PUT_INTO_HAND</Data></Cell>
@@ -576,18 +584,6 @@
     <Cell><Data ss:Type="String">Escolha um card de Zumbi para colocar na mão de seu dono.</Data></Cell>
    </Row>
    <Row>
-    <Cell><Data ss:Type="String">CARD_QUERY_MC_COUNTER_UNLESS_PAY_2</Data></Cell>
-    <Cell ss:Index="3"><Data ss:Type="String">Do you want to pay {2}? (If you don't, the spell will be countered.)</Data></Cell>
-    <Cell><Data ss:Type="String">Voulez-vous payer {2}&#160;? (Si vous ne le faites pas, le sort sera contrecarré.)</Data></Cell>
-    <Cell><Data ss:Type="String">¿Quieres pagar {2}? (Si no lo haces, el hechizo será contrarrestado.)</Data></Cell>
-    <Cell><Data ss:Type="String">Willst du {2} bezahlen? (Falls nicht, wird der Zauberspruch neutralisiert.)</Data></Cell>
-    <Cell><Data ss:Type="String">Vuoi pagare {2}? (Se non lo fai, la magia verrà neutralizzata.)</Data></Cell>
-    <Cell ss:Index="9"><Data ss:Type="String">{2}を支払いますか？（支払わない場合、この呪文は打ち消されます。）</Data></Cell>
-    <Cell><Data ss:Type="String">{2}을 지불하시겠습니까? 지불하시지 않으면 주문이 무효화됩니다.</Data></Cell>
-    <Cell><Data ss:Type="String">Вы хотите заплатить {2}? (Если вы не заплатите, заклинание будет отменено.)</Data></Cell>
-    <Cell><Data ss:Type="String">Deseja pagar {2}? (Se não fizer isso, a mágica será anulada.)</Data></Cell>
-   </Row>
-   <Row>
     <Cell><Data ss:Type="String">CARD_QUERY_MC_ANIMATE_THIS_CARD</Data></Cell>
     <Cell ss:Index="3"><Data ss:Type="String">Do you want to animate this card?</Data></Cell>
     <Cell><Data ss:Type="String">Souhaitez-vous animer cette carte?</Data></Cell>
@@ -612,6 +608,18 @@
     <Cell><Data ss:Type="String">Você pode optar por tomar 5 de dano para impedir o jogador alvo de três cartas.</Data></Cell>
    </Row>
    <Row>
+    <Cell><Data ss:Type="String">CARD_QUERY_MC_CHOOSE_ONE</Data></Cell>
+    <Cell ss:Index="3"><Data ss:Type="String">Choose one.</Data></Cell>
+    <Cell><Data ss:Type="String">Choisissez l'un.</Data></Cell>
+    <Cell><Data ss:Type="String">Elige uno.</Data></Cell>
+    <Cell><Data ss:Type="String">Bestimme eines.</Data></Cell>
+    <Cell><Data ss:Type="String">Scegli uno.</Data></Cell>
+    <Cell ss:Index="9"><Data ss:Type="String">以下の３つから１つを選ぶ。</Data></Cell>
+    <Cell><Data ss:Type="String">Choose one.</Data></Cell>
+    <Cell><Data ss:Type="String">Выберите одно.</Data></Cell>
+    <Cell><Data ss:Type="String">Escolha um.</Data></Cell>
+   </Row>
+   <Row>
     <Cell><Data ss:Type="String">CARD_QUERY_MC_CIRCULAR_LOGIC</Data></Cell>
     <Cell ss:Index="3"><Data ss:Type="String">Do you want to pay {%d}? (If you don't, the spell will be countered.)</Data></Cell>
     <Cell><Data ss:Type="String">Voulez-vous payer {%d}? (Si vous ne le faites pas, le sort sera contrecarré.)</Data></Cell>
@@ -624,16 +632,16 @@
     <Cell><Data ss:Type="String">Você quer pagar {%d}? (Se você não fizer isso, o feitiço vai ser anulado.)</Data></Cell>
    </Row>
    <Row>
-    <Cell><Data ss:Type="String">CARD_QUERY_MC_CHOOSE_ONE</Data></Cell>
-    <Cell ss:Index="3"><Data ss:Type="String">Choose one.</Data></Cell>
-    <Cell><Data ss:Type="String">Choisissez l'un.</Data></Cell>
-    <Cell><Data ss:Type="String">Elige uno.</Data></Cell>
-    <Cell><Data ss:Type="String">Bestimme eines.</Data></Cell>
-    <Cell><Data ss:Type="String">Scegli uno.</Data></Cell>
-    <Cell ss:Index="9"><Data ss:Type="String">以下の３つから１つを選ぶ。</Data></Cell>
-    <Cell><Data ss:Type="String">Choose one.</Data></Cell>
-    <Cell><Data ss:Type="String">Выберите одно.</Data></Cell>
-    <Cell><Data ss:Type="String">Escolha um.</Data></Cell>
+    <Cell><Data ss:Type="String">CARD_QUERY_MC_COUNTER_UNLESS_PAY_2</Data></Cell>
+    <Cell ss:Index="3"><Data ss:Type="String">Do you want to pay {2}? (If you don't, the spell will be countered.)</Data></Cell>
+    <Cell><Data ss:Type="String">Voulez-vous payer {2}&#160;? (Si vous ne le faites pas, le sort sera contrecarré.)</Data></Cell>
+    <Cell><Data ss:Type="String">¿Quieres pagar {2}? (Si no lo haces, el hechizo será contrarrestado.)</Data></Cell>
+    <Cell><Data ss:Type="String">Willst du {2} bezahlen? (Falls nicht, wird der Zauberspruch neutralisiert.)</Data></Cell>
+    <Cell><Data ss:Type="String">Vuoi pagare {2}? (Se non lo fai, la magia verrà neutralizzata.)</Data></Cell>
+    <Cell ss:Index="9"><Data ss:Type="String">{2}を支払いますか？（支払わない場合、この呪文は打ち消されます。）</Data></Cell>
+    <Cell><Data ss:Type="String">{2}을 지불하시겠습니까? 지불하시지 않으면 주문이 무효화됩니다.</Data></Cell>
+    <Cell><Data ss:Type="String">Вы хотите заплатить {2}? (Если вы не заплатите, заклинание будет отменено.)</Data></Cell>
+    <Cell><Data ss:Type="String">Deseja pagar {2}? (Se não fizer isso, a mágica será anulada.)</Data></Cell>
    </Row>
    <Row>
     <Cell><Data ss:Type="String">CARD_QUERY_MC_OPTION_NO</Data></Cell>
@@ -757,6 +765,54 @@
     <Cell><Data ss:Type="String">The spell from opponent's graveyard.</Data></Cell>
    </Row>
    <Row>
+    <Cell><Data ss:Type="String">CARD_QUERY_OPTION_CIRCULAR_LOGIC</Data></Cell>
+    <Cell ss:Index="3"><Data ss:Type="String">Pay {%d}</Data></Cell>
+    <Cell><Data ss:Type="String">Payer {%d}</Data></Cell>
+    <Cell><Data ss:Type="String">Pagar {%d}</Data></Cell>
+    <Cell><Data ss:Type="String">Zahle {%d}</Data></Cell>
+    <Cell><Data ss:Type="String">Pay {%d}</Data></Cell>
+    <Cell ss:Index="9"><Data ss:Type="String">支払い{%d}形式</Data></Cell>
+    <Cell><Data ss:Type="String">유료 {%d}</Data></Cell>
+    <Cell><Data ss:Type="String">Обратите {%d}</Data></Cell>
+    <Cell><Data ss:Type="String">Pagar {%d}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">CARD_QUERY_OPTION_CLAY_BIRD</Data></Cell>
+    <Cell ss:Index="3"><Data ss:Type="String">Primal Clay enters the battlefield as a 2/2 Shapeshifter with flying.</Data></Cell>
+    <Cell><Data ss:Type="String">Primal Clay enters the battlefield as a 2/2 Shapeshifter with flying.</Data></Cell>
+    <Cell><Data ss:Type="String">Primal Clay enters the battlefield as a 2/2 Shapeshifter with flying.</Data></Cell>
+    <Cell><Data ss:Type="String">Primal Clay enters the battlefield as a 2/2 Shapeshifter with flying.</Data></Cell>
+    <Cell><Data ss:Type="String">Primal Clay enters the battlefield as a 2/2 Shapeshifter with flying.</Data></Cell>
+    <Cell ss:Index="9"><Data ss:Type="String">Primal Clay enters the battlefield as a 2/2 Shapeshifter with flying.</Data></Cell>
+    <Cell><Data ss:Type="String">Primal Clay enters the battlefield as a 2/2 Shapeshifter with flying.</Data></Cell>
+    <Cell><Data ss:Type="String">Primal Clay enters the battlefield as a 2/2 Shapeshifter with flying.</Data></Cell>
+    <Cell><Data ss:Type="String">Primal Clay enters the battlefield as a 2/2 Shapeshifter with flying.</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">CARD_QUERY_OPTION_CLAY_GOLEM</Data></Cell>
+    <Cell ss:Index="3"><Data ss:Type="String">Primal Clay enters the battlefield as a 3/3 Shapeshifter.</Data></Cell>
+    <Cell><Data ss:Type="String">Primal Clay enters the battlefield as a 3/3 Shapeshifter.</Data></Cell>
+    <Cell><Data ss:Type="String">Primal Clay enters the battlefield as a 3/3 Shapeshifter.</Data></Cell>
+    <Cell><Data ss:Type="String">Primal Clay enters the battlefield as a 3/3 Shapeshifter.</Data></Cell>
+    <Cell><Data ss:Type="String">Primal Clay enters the battlefield as a 3/3 Shapeshifter.</Data></Cell>
+    <Cell ss:Index="9"><Data ss:Type="String">Primal Clay enters the battlefield as a 3/3 Shapeshifter.</Data></Cell>
+    <Cell><Data ss:Type="String">Primal Clay enters the battlefield as a 3/3 Shapeshifter.</Data></Cell>
+    <Cell><Data ss:Type="String">Primal Clay enters the battlefield as a 3/3 Shapeshifter.</Data></Cell>
+    <Cell><Data ss:Type="String">Primal Clay enters the battlefield as a 3/3 Shapeshifter.</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">CARD_QUERY_OPTION_CLAY_WALL</Data></Cell>
+    <Cell ss:Index="3"><Data ss:Type="String">Primal Clay enters the battlefield as a 1/6 Shapeshifter Wall with defender.</Data></Cell>
+    <Cell><Data ss:Type="String">Primal Clay enters the battlefield as a 1/6 Shapeshifter Wall with defender.</Data></Cell>
+    <Cell><Data ss:Type="String">Primal Clay enters the battlefield as a 1/6 Shapeshifter Wall with defender.</Data></Cell>
+    <Cell><Data ss:Type="String">Primal Clay enters the battlefield as a 1/6 Shapeshifter Wall with defender.</Data></Cell>
+    <Cell><Data ss:Type="String">Primal Clay enters the battlefield as a 1/6 Shapeshifter Wall with defender.</Data></Cell>
+    <Cell ss:Index="9"><Data ss:Type="String">Primal Clay enters the battlefield as a 1/6 Shapeshifter Wall with defender.</Data></Cell>
+    <Cell><Data ss:Type="String">Primal Clay enters the battlefield as a 1/6 Shapeshifter Wall with defender.</Data></Cell>
+    <Cell><Data ss:Type="String">Primal Clay enters the battlefield as a 1/6 Shapeshifter Wall with defender.</Data></Cell>
+    <Cell><Data ss:Type="String">Primal Clay enters the battlefield as a 1/6 Shapeshifter Wall with defender.</Data></Cell>
+   </Row>
+   <Row>
     <Cell><Data ss:Type="String">CARD_QUERY_OPTION_EXILE_ALL_CARDS_FROM_TARGET_PLAYER_GRAVEYARD</Data></Cell>
     <Cell ss:Index="3"><Data ss:Type="String">Exile all cards from target player's graveyard.</Data></Cell>
     <Cell><Data ss:Type="String">Exilez toutes les cartes du cimetière du joueur ciblé.</Data></Cell>
@@ -791,18 +847,6 @@
     <Cell><Data ss:Type="String">Put two +1/+1 counters on target creature.</Data></Cell>
     <Cell><Data ss:Type="String">положите два жетона +1/+1 на целевое существо.</Data></Cell>
     <Cell><Data ss:Type="String">Coloque dois marcadores +1/+1 na criatura alvo.</Data></Cell>
-   </Row>
-   <Row>
-    <Cell><Data ss:Type="String">CARD_QUERY_OPTION_CIRCULAR_LOGIC</Data></Cell>
-    <Cell ss:Index="3"><Data ss:Type="String">Pay {%d}</Data></Cell>
-    <Cell><Data ss:Type="String">Payer {%d}</Data></Cell>
-    <Cell><Data ss:Type="String">Pagar {%d}</Data></Cell>
-    <Cell><Data ss:Type="String">Zahle {%d}</Data></Cell>
-    <Cell><Data ss:Type="String">Pay {%d}</Data></Cell>
-    <Cell ss:Index="9"><Data ss:Type="String">支払い{%d}形式</Data></Cell>
-    <Cell><Data ss:Type="String">유료 {%d}</Data></Cell>
-    <Cell><Data ss:Type="String">Обратите {%d}</Data></Cell>
-    <Cell><Data ss:Type="String">Pagar {%d}</Data></Cell>
    </Row>
    <Row>
     <Cell><Data ss:Type="String">CARD_QUERY_OPTION_TAP_TARGET_PERMANENT</Data></Cell>
@@ -1176,4 +1220,3 @@
   </WorksheetOptions>
  </Worksheet>
 </Workbook>
-

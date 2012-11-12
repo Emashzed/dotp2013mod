@@ -1,0 +1,64 @@
+﻿<?xml version='1.0'?>
+<CARD_V2>
+  <FILENAME text="WARCLAMP_MASTIFF_M13_040" />
+  <CARDNAME text="WARCLAMP_MASTIFF" />
+  <TITLE>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Warclamp Mastiff]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Mastino Tenaglia]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Dogge mit Kriegsgeschirr]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Dogue morsguerre]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Mastín cepo de guerra]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[戦噛みの猛犬]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[강한 턱의 마스티프]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Натасканный Мастиф]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Mastim Torno-de-Guerra]]></LOCALISED_TEXT>
+  </TITLE>
+  <MULTIVERSEID value="M13_040" />
+  <ARTID value="M13_040" />
+  <ARTIST name="David Palumbo" />
+  <CASTING_COST cost="{W}" />
+  <FLAVOURTEXT>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA["One bite from that dog will send you to the healer's tent for days."
+—Watchmaster Finn of An Karras]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA["Un solo morso di quel cane ti spedirà nella tenda del guaritore per giorni."
+—Capo sentinella Finn di An Karras]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[„Ein Biss von diesem Hund bringt dir zehn Tage im Heilerzelt ein."
+—Wachtmeister Finn aus An Karras]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[« Une morsure de ce molosse vous enverra dans la tente des guérisseurs pour plusieurs jours. »
+—Finn d'An Karras, officier de quart]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA["Un mordisco de ese perro te envía a la tienda del sanador durante varios días."
+—Guardia jefe Finn de An Karras]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[「あの犬に噛まれたが最後、癒し手の天幕で何日も過ごすことになるぞ。」
+――アン・カラスの警備長フィン]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA["그 개에게 한 번 물리면 며칠 동안 치유사의 거처에서 신세를 지게 될 것이다."
+—안 카라스의 명파수꾼 핀]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[«Такой пес одним укусом на неделю отправит тебя в палатку целителя».
+— Финн из Ан-Карраса, начальник караула]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA["Uma mordida desse cão pode deixar você na enfermaria por dias."
+— Mestre Vigilante Finn de An Karras]]></LOCALISED_TEXT>
+  </FLAVOURTEXT>
+  <TYPE metaname="Creature" />
+  <SUB_TYPE metaname="Hound" />
+  <EXPANSION value="M13" />
+  <RARITY metaname="C" />
+  <POWER value="1" />
+  <TOUGHNESS value="1" />
+  <STATIC_ABILITY>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[First strike]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Initiative]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Daña primero.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Erstschlag]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Attacco improvviso]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[先制攻撃]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[선제공격]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Первый удар]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Iniciativa]]></LOCALISED_TEXT>
+	<CONTINUOUS_ACTION>
+    local characteristics = Object():GetCurrentCharacteristics()
+    characteristics:Characteristic_Set( CHARACTERISTIC_FIRST_STRIKE, 1 )
+    </CONTINUOUS_ACTION>
+  </STATIC_ABILITY>
+  <HELP title="MORE_INFO_BADGE_TITLE_0" body="MORE_INFO_BADGE_BODY_0" zone="ZONE_ANY" />
+  <SFX text="COMBAT_BITE_LARGE_ATTACK" power_boundary_min="4" power_boundary_max="-1" />
+  <SFX text="COMBAT_BITE_SMALL_ATTACK" power_boundary_min="1" power_boundary_max="3" />
+</CARD_V2>

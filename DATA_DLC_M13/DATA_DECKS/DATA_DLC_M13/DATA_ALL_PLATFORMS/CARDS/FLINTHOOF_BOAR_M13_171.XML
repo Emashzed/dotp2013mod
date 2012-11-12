@@ -1,0 +1,84 @@
+﻿<?xml version='1.0'?>
+<CARD_V2>
+  <FILENAME text="FLINTHOOF_BOAR_M13_171" />
+  <CARDNAME text="FLINTHOOF_BOAR" />
+  <TITLE>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Flinthoof Boar]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Cinghiale dallo Zoccolo Incendiario]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Silexhuf-Keiler]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Sanglier piedesilex]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Jabalí chispezuña]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[火打ち蹄の猪]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[부싯돌발굽 멧돼지]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Кремненогий Вепрь]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Javali Pata de Pederneira]]></LOCALISED_TEXT>
+  </TITLE>
+  <MULTIVERSEID value="M13_171" />
+  <ARTID value="M13_171" />
+  <ARTIST name="Erica Yang" />
+  <CASTING_COST cost="{1}{G}" />
+  <FLAVOURTEXT>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Through the smoke and flames it hunts, sniffing out the panicked and confused.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Caccia sfruttando fumo e fiamme, fiutando chi è in preda al panico e alla confusione.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Er jagt im Rauch und den Flammen und erschnüffelt die Entsetzten und Verwirrten.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Il chasse au milieu de la fumée et des flammes, suivant à la trace un gibier paniqué en proie à la confusion.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Caza a través del humo y de las llamas, olfateando a los que están aterrados y confundidos.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[それは煙と炎を掻き分けて狩をする。混乱し恐慌状態にある獲物を嗅ぎ付けるのだ。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[그것은 연기와 불길 속에서 갈팔질팡하는 자들을 사냥한다.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Он охотится при помощи огня и дыма, выгоняя паникующую и потерявшуюся добычу.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Através da fumaça e das chamas ele caça, farejando o pânico e a confusão.]]></LOCALISED_TEXT>
+  </FLAVOURTEXT>
+  <TYPE metaname="Creature" />
+  <SUB_TYPE metaname="Boar" />
+  <EXPANSION value="M13" />
+  <RARITY metaname="U" />
+  <POWER value="2" />
+  <TOUGHNESS value="2" />
+  <STATIC_ABILITY filter_zone="ZONE_IN_PLAY">
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Flinthoof Boar gets +1/+1 as long as you control a Mountain.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Il Cinghiale dallo Zoccolo Incendiario prende +1/+1 fintanto che controlli una Montagna.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Der Silexhuf-Keiler erhält +1/+1, solange du ein Gebirge kontrollierst.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Le Sanglier piedesilex gagne +1/+1 tant que vous contrôlez une montagne.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[El Jabalí chispezuña obtiene +1/+1 mientras controles una montaña.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[火打ち蹄の猪は、あなたが山をコントロールしているかぎり＋１/＋１の修整を受ける。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[당신이 산을 조종하는 한, 부싯돌발굽 멧돼지는 +1/+1을 받는다.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Кремненогий Вепрь получает +1/+1, пока вы контролируете Гору.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Javali Pata de Pederneira recebe +1/+1 enquanto você controlar uma Montanha.]]></LOCALISED_TEXT>
+    <CONTINUOUS_ACTION layer="7C">
+	local mountains = CountCardsSubtypeZonePlayer( LAND_TYPE_MOUNTAIN, ZONE_IN_PLAY, EffectController() )
+    
+	if mountains &gt; 0 then
+    	local characteristics = Object():GetCurrentCharacteristics()
+    	characteristics:Power_Add( 1 )
+    	characteristics:Toughness_Add( 1 )
+    end
+    </CONTINUOUS_ACTION>
+  </STATIC_ABILITY>
+  <ACTIVATED_ABILITY filter_zone="ZONE_IN_PLAY">
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[{R}: Flinthoof Boar gains haste until end of turn.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[{R}: Il Cinghiale dallo Zoccolo Incendiario ha rapidità fino alla fine del turno.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[{R}: Der Silexhuf-Keiler erhält Eile bis zum Ende des Zuges.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[{R} : Le Sanglier piedesilex acquiert la célérité jusqu’à la fin du tour.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[{R}: El Jabalí chispezuña gana la habilidad de prisa hasta el final del turno.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[{R}：火打ち蹄の猪はターン終了時まで速攻を得る。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[{R}: 부싯돌발굽 멧돼지는 턴종료까지 신속 능력을 얻는다.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[{R}: Кремненогий Вепрь получает Ускорение до конца хода.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[{R}: Javali Pata de Pederneira ganha ímpeto até o final do turno.]]></LOCALISED_TEXT>
+	<COST type="Mana" cost="{R}" />
+	<CONTINUOUS_ACTION layer="6">
+    local characteristics = Object():GetCurrentCharacteristics()  
+    characteristics:Characteristic_Set( CHARACTERISTIC_HASTE, 1 )
+    </CONTINUOUS_ACTION>
+    <DURATION simple_duration="UntilEOT" />
+  </ACTIVATED_ABILITY>
+  <AI_CUSTOM_SCORE zone="ZONE_IN_PLAY">
+  local mountains = CountCardsSubtypeZonePlayer( LAND_TYPE_MOUNTAIN, ZONE_IN_PLAY, EffectController() )
+    
+  if mountains &gt; 0 then
+  	Object():AddScore(200)
+  end
+  </AI_CUSTOM_SCORE>
+  <HELP title="MORE_INFO_BADGE_TITLE_14" body="MORE_INFO_BADGE_BODY_14" zone="ZONE_ANY" />
+  <SFX text="COMBAT_BLUNT_LARGE_ATTACK" power_boundary_min="4" power_boundary_max="-1" />
+  <SFX text="COMBAT_BLUNT_SMALL_ATTACK" power_boundary_min="1" power_boundary_max="3" />
+</CARD_V2>

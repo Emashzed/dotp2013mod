@@ -1,0 +1,109 @@
+﻿<?xml version='1.0'?>
+<CARD_V2>
+  <FILENAME text="COURTLY_PROVOCATEUR_M13_046" />
+  <CARDNAME text="COURTLY_PROVOCATEUR" />
+  <TITLE>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Courtly Provocateur]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Provocatore di Corte]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Vornehme Provokateurin]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Provocatrice de cour]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Provocador cortés]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[上品な工作員]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[품위 있는 선동가]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Утонченный Провокатор]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Desafiador Cortês]]></LOCALISED_TEXT>
+  </TITLE>
+  <MULTIVERSEID value="M13_046" />
+  <ARTID value="M13_046" />
+  <ARTIST name="James Ryman" />
+  <CASTING_COST cost="{2}{U}" />
+  <FLAVOURTEXT>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA["My one regret is that I have mastered   an art that leaves its audience unable to applaud."]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA["Il mio unico rimpianto è di padroneggiare un'arte che lascia il pubblico incapace di applaudire."]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[„Manchmal bereue ich ein wenig, dass am Ende keiner meiner Zuschauer mehr applaudieren kann."]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[« Mon seul regret : avoir maîtrisé un art qui laisse l'auditoire dans l'incapacité d'applaudir. »]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA["Mi único pesar es haber dominado un arte que deja a su público incapaz de aplaudir."]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[「観客が拍手できなくなってしまう業を習得したというのが、残念といえば残念ね。」]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA["한 가지 후회되는 것이 있다면, 내가 연마한 기술로는 관객들로부터 박수를 받아낼 수 없다는 것이다."]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[«Я жалею лишь о том, что те, кто увидел мое искусство, уже не могут аплодировать».]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA["Meu único arrependimento foi ter me tornado mestre em uma arte que deixa a plateia incapaz de aplaudir."]]></LOCALISED_TEXT>
+  </FLAVOURTEXT>
+  <TYPE metaname="Creature" />
+  <SUB_TYPE metaname="Human" order_de-DE="0" order_es-ES="1" order_fr-FR="0" order_it-IT="1" order_jp-JA="0" order_ko-KR="0" order_pt-BR="0" order_ru-RU="0" />
+  <SUB_TYPE metaname="Wizard" order_de-DE="1" order_es-ES="0" order_fr-FR="1" order_it-IT="0" order_jp-JA="1" order_ko-KR="1" order_pt-BR="1" order_ru-RU="1" />
+  <EXPANSION value="M13" />
+  <RARITY metaname="U" />
+  <POWER value="1" />
+  <TOUGHNESS value="1" />
+  <ACTIVATED_ABILITY>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[{T}: Target creature attacks this turn if able.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[{T}: Una creatura bersaglio attacca in questo turno, se può farlo.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[{T}: Eine Kreatur deiner Wahl greift in diesem Zug an, falls möglich.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[{T} : La créature ciblée attaque ce tour-ci si possible.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[{T}: La criatura objetivo ataca este turno si puede.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[{T}：クリーチャー１体を対象とする。このターン、それは可能なら攻撃する。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[{T}: 생물 한 개를 목표로 정한다. 그 생물은 가능하면 이 턴에 공격한다.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[{T}: целевое существо атакует в этом ходу, если может.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[{T}: A criatura alvo ataca neste turno se estiver apta.]]></LOCALISED_TEXT>
+	<COST type="TapSelf" />
+	<TARGET_DEFINITION id="0">
+    local filter = Object():GetFilter()
+    filter:Clear()
+    filter:AddCardType( CARD_TYPE_CREATURE )
+    filter:SetZone( ZONE_IN_PLAY )
+    filter:SetHint( HINT_ENEMY, EffectController() )
+    </TARGET_DEFINITION>
+    <TARGET_DETERMINATION>
+    return AtLeastOneTargetFromDefinition(0)
+    </TARGET_DETERMINATION>
+    <PLAY_TIME_ACTION target_choosing="1">
+    EffectController():ChooseTarget( 0, "CARD_QUERY_CHOOSE_CREATURE_GAIN_MUST_ATTACK", EffectDC():Make_Targets(0) )
+    </PLAY_TIME_ACTION>
+    <CONTINUOUS_ACTION layer="6">
+    local target = EffectDC():Get_Targets(0):Get_CardPtr(0)
+    if target ~= nil then  
+    	local characteristics = target:GetCurrentCharacteristics()
+    	characteristics:Characteristic_Set( CHARACTERISTIC_MUST_ATTACK_EACH_TURN, 1 )
+    end
+    </CONTINUOUS_ACTION>
+    <DURATION simple_duration="UntilEOT" />
+    <AI_AVAILABILITY step="begin_combat" />
+  </ACTIVATED_ABILITY>
+  <ACTIVATED_ABILITY>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[{T}: Target creature blocks this turn if able.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[{T}: Una creatura bersaglio blocca in questo turno, se può farlo.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[{T}: Eine Kreatur deiner Wahl blockt in diesem Zug, falls möglich.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[{T} : La créature ciblée bloque ce tour-ci si possible.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[{T}: La criatura objetivo bloquea este turno si puede.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[{T}：クリーチャー１体を対象とする。このターン、それは可能ならブロックする。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[{T}: 생물 한 개를 목표로 정한다. 그 생물은 가능하면 이 턴에 방어한다.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[{T}: целевое существо блокирует в этом ходу, если может.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[{T}: A criatura alvo bloqueia neste turno se estiver apta.]]></LOCALISED_TEXT>
+	<COST type="TapSelf" />
+	<TARGET_DEFINITION id="0">
+    local filter = Object():GetFilter()
+    filter:Clear()
+    filter:AddCardType( CARD_TYPE_CREATURE )
+    filter:SetZone( ZONE_IN_PLAY )
+    filter:SetHint( HINT_ENEMY, EffectController() )
+    </TARGET_DEFINITION>
+    <TARGET_DETERMINATION>
+    return AtLeastOneTargetFromDefinition(0)
+    </TARGET_DETERMINATION>
+    <PLAY_TIME_ACTION target_choosing="1">
+    EffectController():ChooseTarget( 0, "CARD_QUERY_CHOOSE_CREATURE_GAIN_MUST_BLOCK", EffectDC():Make_Targets(0) )
+    </PLAY_TIME_ACTION>
+    <CONTINUOUS_ACTION layer="6">
+    local target = EffectDC():Get_Targets(0):Get_CardPtr(0)
+    if target ~= nil then  
+    	local characteristics = target:GetCurrentCharacteristics()
+    	characteristics:Characteristic_Set( CHARACTERISTIC_MUST_BLOCK, 1 )
+    end
+    </CONTINUOUS_ACTION>
+    <DURATION simple_duration="UntilEOT" />
+	<AI_AVAILABILITY step="declare_attackers" />
+  </ACTIVATED_ABILITY>
+  <SFX text="COMBAT_PLASMA_LARGE_ATTACK" power_boundary_min="4" power_boundary_max="-1" />
+  <SFX text="COMBAT_PLASMA_SMALL_ATTACK" power_boundary_min="1" power_boundary_max="3" />
+  <AI_BASE_SCORE score="600" zone="ZONE_IN_PLAY" />
+</CARD_V2>

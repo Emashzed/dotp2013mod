@@ -1,0 +1,83 @@
+<?xml version='1.0'?>
+<CARD_V2>
+  <FILENAME text="ELIXIR_OF_IMMORTALITY_M13_204" />
+  <CARDNAME text="ELIXIR_OF_IMMORTALITY" />
+  <TITLE>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Elixir of Immortality]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Elixir d’immortalité]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Elixir de inmortalidad]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Elixier der Unsterblichkeit]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Elisir dell’Immortalità]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[不死の霊薬]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[불멸의 영약]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Эликсир Бессмертия]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Elixir da Imortalidade]]></LOCALISED_TEXT>
+  </TITLE>
+  <MULTIVERSEID value="M13_204" />
+  <ARTID value="M13_204" />
+  <ARTIST name="Zoltan Boros &amp; Gabor Szikszai" />
+  <CASTING_COST cost="{1}" />
+  <FLAVOURTEXT>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[“Bottled life. Not as tasty as I’m used to, rather stale, but it has the same effect.”
+—Baron Sengir]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[« La vie en bouteille. Certes moins goûteux que ce à quoi je suis habitué, un peu rance, mais l’effet est le même. »
+—Baron Sengir]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[“Vida embotellada. No tan sabrosa como a la que estoy acostumbrado, más bien rancia, pero tiene el mismo efecto.”
+—Barón Sengir]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[„Abgefülltes Leben. Nicht so lecker, wie ich es gerne mag, sondern abgestanden, aber es hat den gleichen Effekt.“
+—Baron Sengir]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[“Vita in bottiglia. Non così saporita come al solito, piuttosto stantia, ma ha lo stesso effetto.”
+—Barone Sengir]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[「瓶詰めの生命だ。 かつてほど美味ではないし、むしろ味気ないが、効果は変わらぬ。」
+—センギア男爵]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[“병에 든 생명이라. 평소보다 좀 퀴퀴한 냄새가 나고 신선하지도 않지만, 효과 자체는 나무랄 데가 없군."
+—셍기르 남작]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[«Хм, жизнь из бутылки. Не так вкусно, как обычно, немного затхлый привкус, но эффект тот же самый».
+— Барон Сенгир]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[“Vida engarrafada. Não é tão saborosa quanto a que estou acostumado, é um pouco rançosa, mas tem o mesmo efeito.”
+— Barão Sengir]]></LOCALISED_TEXT>
+  </FLAVOURTEXT>
+  <TYPE metaname="Artifact" />
+  <EXPANSION value="M13" />
+  <RARITY metaname="U" />
+  <ACTIVATED_ABILITY auto_skip="1" filter_zone="ZONE_IN_PLAY">
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[{2}, {T}: You gain 5 life. Shuffle Elixir of Immortality and your graveyard into their owner’s library.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[{2}, {T}: Vous gagnez 5 points de vie. Mélangez l’Élixir d’immortalité et votre cimetière dans la bibliothèque de leur propriétaire.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[{2}, {T}: Ganas 5 vidas. Baraja el Elixir de inmortalidad y tu cementerio en la biblioteca de su propietario.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[{2}, {T}: Du erhältst 5 Lebenspunkte dazu. Mische das Elixier der Unsterblichkeit und deinen Friedhof in die Bibliothek ihrer Besitzer.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[{2}, {T}: Guadagni 5 punti vita. Rimescola l’Elisir dell’Immortalità e il tuo cimitero nel grimorio del suo proprietario.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[{2}, {T}：あなたは５点のライフを得る。 不死の霊薬とあなたの墓地を、オーナーのライブラリーに加えて切り直す。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[{2}, {T}: 당신은 생명 5점을 얻는다. 불멸의 영약과 당신의 무덤을 각자 소유자의 서고에 섞어 넣는다.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[{2}, {T}: вы получаете 5 жизней. Втасуйте Эликсир Бессмертия и ваше кладбище в библиотеку их владельца.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[{2}, {T}: Você ganha 5 pontos de vida. Embaralhe Elixir da Imortalidade e seu cemitério no grimório de seus donos.]]></LOCALISED_TEXT>
+    <COST type="Mana" cost="{2}" />
+    <COST type="TapSelf" />
+    <RESOLUTION_TIME_ACTION>
+    local player = EffectController()
+    if (player ~= nil) then
+    	player:GainLife(5)
+    end
+    </RESOLUTION_TIME_ACTION>
+    <RESOLUTION_TIME_ACTION>
+    local player = EffectController()
+    if player ~= nil then
+    	player:MoveLocalZone( ZONE_GRAVEYARD, ZONE_LIBRARY )
+    	if EffectSource() ~= nil then
+    		local differentPlayers = false
+    		if( EffectSource():GetOwner() ~= player) then
+    			differentPlayers = true
+    		end
+    		EffectSource():PutInLibrary( -1 )
+    		if differentPlayers and EffectSource():GetOwner() ~= nil then
+    			EffectSource():GetOwner():ShuffleLibrary()
+    		end
+    	end  
+    	player:ShuffleLibrary()
+    end
+    </RESOLUTION_TIME_ACTION>
+    <AI_AVAILABILITY step="end_of_turn" turn="their_turn" />
+    <AI_AVAILABILITY step="declare_blockers" turn="their_turn" />
+    <AI_AVAILABILITY type="in_response_dangerous" />
+  </ACTIVATED_ABILITY>
+  <AI_BASE_SCORE score="150" zone="ZONE_IN_PLAY" />
+</CARD_V2>

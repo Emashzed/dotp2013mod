@@ -1,0 +1,73 @@
+﻿<?xml version='1.0'?>
+<CARD_V2>
+  <FILENAME text="DRAGONSKULL_SUMMIT_M13_222" />
+  <CARDNAME text="DRAGONSKULL_SUMMIT" />
+  <TITLE>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Dragonskull Summit]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Vetta del Teschio di Drago]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Drachenschädel-Pass]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Sommet du Crânedragon]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Cumbre Cráneo de Dragón]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[竜髑髏の山頂]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[용두개골 봉우리]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Пик Драконьего Черепа]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Pico da Caveira de Dragão]]></LOCALISED_TEXT>
+  </TITLE>
+  <MULTIVERSEID value="M13_222" />
+  <ARTID value="M13_222" />
+  <ARTIST name="Jon Foster" />
+  <CASTING_COST cost="" />
+  <TYPE metaname="Land" />
+  <EXPANSION value="M13" />
+  <RARITY metaname="R" />
+  <TRIGGERED_ABILITY internal="1" filter_zone="ZONE_IN_PLAY">
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Dragonskull Summit enters the battlefield tapped unless you control a Swamp or a Mountain.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[La Vetta del Teschio di Drago entra nel campo di battaglia TAPpata a meno che tu non controlli una Palude o una Montagna.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Der Drachenschädel-Pass kommt getappt ins Spiel, falls du nicht einen Sumpf oder ein Gebirge kontrollierst.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Le Sommet du Crânedragon arrive sur le champ de bataille engagé à moins que vous ne contrôliez un marais ou une montagne.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[La Cumbre Cráneo de Dragón entra al campo de batalla girada a menos que controles un pantano o una montaña.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[竜髑髏の山頂は、あなたが沼か山をコントロールしていないかぎり、タップ状態で戦場に出る。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[용두개골 봉우리는 당신이 늪이나 산을 조종하지 않으면 탭된 채로 전장에 들어온다.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Пик Драконьего Черепа выходит на поле битвы повернутым, если только под вашим контролем нет Болота или Горы.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Pico da Caveira de Dragão entra no campo de batalha virado, a menos que você controle um Pântano ou uma Montanha.]]></LOCALISED_TEXT>
+	<TRIGGER value="ZONECHANGE_END" simple_qualifier="self" to_zone="ZONE_IN_PLAY" />
+    <RESOLUTION_TIME_ACTION>
+	local mountains = CountCardsSubtypeZonePlayer( LAND_TYPE_MOUNTAIN, ZONE_IN_PLAY, EffectController() )
+	local swamps = CountCardsSubtypeZonePlayer( LAND_TYPE_SWAMP, ZONE_IN_PLAY, EffectController() )
+
+    if TriggerObject() ~= nil and mountains &lt; 1 and swamps &lt; 1 then
+		TriggerObject():ComesIntoPlayTapped()
+    end
+    </RESOLUTION_TIME_ACTION>
+  </TRIGGERED_ABILITY>
+  <ACTIVATED_ABILITY forced_skip="1" filter_zone="ZONE_IN_PLAY">
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[{T}: Add {B} or {R} to your mana pool.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[{T}: Aggiungi {B} o {R} alla tua riserva di mana.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[{T}: Erhöhe deinen Manavorrat um {B} oder {R}.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[{T} : Ajoutez {B} ou {R} à votre réserve.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[{T}: Agrega {B} o {R} a tu reserva de maná.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[{T}：あなたのマナ・プールに{B}か{R}を加える。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[{T}: {B}나 {R}를 당신의 마나풀에 담는다.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[{T}: добавьте {B} или {R} в ваше хранилище маны.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[{T}: Adicione {B} ou {R} à sua reserva de mana.]]></LOCALISED_TEXT>
+	<COST type="TapSelf" />
+	<RESOLUTION_TIME_ACTION>
+    Object():GetPlayer():BeginNewMultipleChoice()   
+    Object():GetPlayer():AddMultipleChoiceAnswer( "CARD_QUERY_OPTION_ADD_B" )   
+    Object():GetPlayer():AddMultipleChoiceAnswer( "CARD_QUERY_OPTION_ADD_R" )    
+    Object():GetPlayer():AskMultipleChoiceQuestion( "CARD_QUERY_MC_CHOOSE_ONE" )
+    </RESOLUTION_TIME_ACTION>
+	<RESOLUTION_TIME_ACTION>
+    local decision = Object():GetMultipleChoiceResult()
+	
+	if decision == 0 then
+		ProduceMana("B",1)
+	elseif decision == 1 then
+		ProduceMana("R",1)
+	end
+    </RESOLUTION_TIME_ACTION>
+  </ACTIVATED_ABILITY>
+  <TOKEN_REGISTRATION reservation="1" type="MANATOKEN_B" />
+  <TOKEN_REGISTRATION reservation="1" type="MANATOKEN_R" />
+  <AI_BASE_SCORE score="400" zone="ZONE_IN_PLAY" />
+</CARD_V2>

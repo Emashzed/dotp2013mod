@@ -1,0 +1,81 @@
+<?xml version='1.0'?>
+<CARD_V2>
+  <FILENAME text="SMELT_M13_149" />
+  <CARDNAME text="SMELT" />
+  <TITLE>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Smelt]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Liquation]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Fundido]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Schmelzen]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Scorificare]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[溶解]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[제련]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Расплавить]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Fundir]]></LOCALISED_TEXT>
+  </TITLE>
+  <MULTIVERSEID value="M13_149" />
+  <ARTID value="M13_149" />
+  <ARTIST name="Zoltan Boros" />
+  <CASTING_COST cost="{R}" />
+  <FLAVOURTEXT>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[“Looks like that wasn’t darksteel after all.”
+—Koth of the Hammer]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[« Il faut croire que ce n’était pas du sombracier. »
+—Koth du Marteau]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[“Parece que no era acero oscuro después de todo.”
+—Koth del Martillo]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[„Anscheinend war es doch nicht aus Nachtstahl.“
+—Koth vom Hammerclan]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[“Sembra che dopotutto non fosse darksteel.”
+—Koth del Martello]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[「どうやらダークスティールではなかったようだ」
+—槌のコス]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[“뭐야, 다크스틸도 아니었군.”
+—망치의 코쓰]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[«Похоже, что это все-таки была не темная сталь».
+— Кос из племени Молота]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[“Hmm, acho que aquilo na verdade não era aço negro.”
+— Koth do Martelo]]></LOCALISED_TEXT>
+  </FLAVOURTEXT>
+  <TYPE metaname="Instant" />
+  <EXPANSION value="M13" />
+  <RARITY metaname="C" />
+  <SPELL_ABILITY dangerous="1" filter_zone="ZONE_IN_PLAY">
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Destroy target artifact.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Détruisez l’artefact ciblé.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Destruye el artefacto objetivo.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Zerstöre ein Artefakt deiner Wahl.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Distruggi un artefatto bersaglio.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[アーティファクト１つを対象とし、それを破壊する。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[마법물체 한 개를 목표로 정한다. 그 마법물체를 파괴한다.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Уничтожьте целевой артефакт.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Destrua o artefato alvo.]]></LOCALISED_TEXT>
+    <TARGET_DEFINITION id="0">
+    local filter = Object():GetFilter()
+    filter:Clear()
+    filter:AddCardType( CARD_TYPE_ARTIFACT )
+    filter:SetZone( ZONE_IN_PLAY )
+    filter:SetHint( HINT_ENEMY_ONLY, EffectController() )
+    </TARGET_DEFINITION>
+    <TARGET_DETERMINATION>
+    return AtLeastOneTargetFromDefinition(0)
+    </TARGET_DETERMINATION>
+    <PLAY_TIME_ACTION target_choosing="1">
+    EffectController():ChooseTarget( 0, "CARD_QUERY_CHOOSE_ARTIFACT_TO_DESTROY", EffectDC():Make_Targets(0) )
+    </PLAY_TIME_ACTION>
+    <RESOLUTION_TIME_ACTION ignore_filter="1">
+    local target = EffectDC():Get_Targets(0):Get_NthCardPtr(0)
+    if target ~= nil then   
+    	target:Destroy()  
+    end
+    </RESOLUTION_TIME_ACTION>
+    <SFX text="TARGET_BLUNT_PLAY" />
+  </SPELL_ABILITY>
+  <AI_AVAILABILITY type="in_response" />
+  <AI_AVAILABILITY step="begin_combat" turn="their_turn" />
+  <AI_AVAILABILITY step="main_1" turn="my_turn" />
+  <AI_AVAILABILITY step="declare_attackers" turn="their_turn" />
+  <AI_AVAILABILITY step="declare_blockers" />
+  <AI_AVAILABILITY step="end_of_turn" />
+  <AI_BASE_SCORE score="600" zone="ZONE_HAND" />
+</CARD_V2>

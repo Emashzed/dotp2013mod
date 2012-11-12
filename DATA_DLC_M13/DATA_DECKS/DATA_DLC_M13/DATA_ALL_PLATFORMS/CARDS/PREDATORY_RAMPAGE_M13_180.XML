@@ -1,0 +1,93 @@
+<?xml version='1.0'?>
+<CARD_V2>
+  <FILENAME text="PREDATORY_RAMPAGE_M13_180" />
+  <CARDNAME text="PREDATORY_RAMPAGE" />
+  <TITLE>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Predatory Rampage]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Sauvagerie prédatoire]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Asalto del depredador]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Raubtierraserei]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Frenesia Predatoria]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[捕食者の暴力]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[포식자의 광란]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Неистовство Хищников]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Fúria Predatória]]></LOCALISED_TEXT>
+  </TITLE>
+  <MULTIVERSEID value="M13_180" />
+  <ARTID value="M13_180" />
+  <ARTIST name="Wayne England" />
+  <CASTING_COST cost="{3}{G}{G}" />
+  <FLAVOURTEXT>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[“It is the fate of the weak to fall.”
+—Garruk Wildspeaker]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[« Les faibles sont destinés à mourir. »
+—Garruk Languebestion]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[“El destino de los débiles es caer.”
+—Garruk Portavoz Salvaje]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[„Es ist das Schicksal der Schwachen, im Kampf zu fallen.“
+—Garruk Wildsprecher]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[“Il destino dei deboli è di soccombere.”
+—Garruk Lingua Selvaggia]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[「弱肉強食は世の定めだ」
+—野生語りのガラク]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[“쓰러지는 것이 약자의 운명이다.”
+—개럭 와일드스피커]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[«Слабые обречены на погибель».
+— Гаррук Дикоречивый]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[“O destino dos fracos é a derrota.”
+— Garruk Falabravo]]></LOCALISED_TEXT>
+  </FLAVOURTEXT>
+  <TYPE metaname="Sorcery" />
+  <EXPANSION value="M13" />
+  <RARITY metaname="R" />
+  <SPELL_ABILITY>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Creatures you control get +3/+3     until end of turn. Each creature your opponents control blocks this turn       if able.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Les créatures que vous contrôlez gagnent +3/+3 jusqu’à la fin du tour. Chaque créature que vos adversaires contrôlent bloque ce tour-ci si possible.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Las criaturas que controlas obtienen +3/+3 hasta el final del turno. Cada criatura que controlan tus oponentes bloquea este turno si puede.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Kreaturen, die du kontrollierst, erhalten +3/+3 bis zum Ende des Zuges. Alle Kreaturen, die deine Gegner kontrollieren, blocken in diesem Zug, falls möglich.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Le creature che controlli prendono +3/+3 fino alla fine del turno. Ogni creatura controllata dai tuoi avversari blocca in questo turno, se può farlo.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[あなたがコントロールするクリーチャーは、ターン終了時まで＋３/＋３の修整を受ける。 あなたの対戦相手がコントロールするクリーチャーは、可能ならこのターンブロックする。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[당신이 조종하는 생물들은 턴종료까지 +3/+3을 얻는다. 상대가 조종하는 각 생물은 가능하면 이 턴에 방어해야 한다.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Существа под вашим контролем получают +3/+3 до конца хода. Каждое существо под контролем ваших оппонентов блокирует в этом ходу, если может.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[As criaturas que você controla recebem +3/+3 até o final do turno. Cada criatura que seus oponentes controlam bloqueia neste turno se estiver apta.]]></LOCALISED_TEXT>
+    <FILTER>
+    return CreaturesYouControl()
+    </FILTER>
+    <CONTINUOUS_ACTION layer="7C">
+    if FilteredCard() ~= nil then
+    	local characteristics = FilteredCard():GetCurrentCharacteristics()
+    	if characteristics ~= nil then
+    		characteristics:Power_Add( 3 )
+    		characteristics:Toughness_Add( 3 )
+    	end
+    end
+    </CONTINUOUS_ACTION>
+    <DURATION simple_duration="UntilEOT" />
+  </SPELL_ABILITY>
+  <SPELL_ABILITY filter_zone="ZONE_IN_PLAY">
+    <CONTINUOUS_ACTION layer="8">
+    	local filter = Object():GetFilter()
+    	filter:Clear()
+    	-- opponents creatures
+    	filter:AddCardType( CARD_TYPE_CREATURE )
+    	filter:SetZone(ZONE_IN_PLAY)
+    	filter:SetControllersTeam( EffectController():GetTeam() )
+    	filter:AddExtra( FILTER_EXTRA_FLIP_TEAM )
+    	filter:NotTargetted()
+    	local num_creatures = filter:EvaluateObjects()
+    	if num_creatures &gt; 0 then
+    		for i=0,num_creatures-1 do
+    			local creature = filter:GetNthEvaluatedObject(i)
+    			
+    			if creature ~= nil then			
+    				creature:GetCurrentCharacteristics():Characteristic_Set( CHARACTERISTIC_MUST_BLOCK, 1 )
+    			end
+    		end
+    		
+    	end
+        		
+    </CONTINUOUS_ACTION>
+    <DURATION simple_duration="UntilEOT" />
+  </SPELL_ABILITY>
+  <AI_BASE_SCORE score="750" zone="ZONE_HAND" />
+</CARD_V2>

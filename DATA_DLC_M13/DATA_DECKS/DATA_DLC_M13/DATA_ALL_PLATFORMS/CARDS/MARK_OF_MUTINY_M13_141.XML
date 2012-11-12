@@ -1,0 +1,98 @@
+﻿<?xml version='1.0'?>
+<CARD_V2>
+  <FILENAME text="MARK_OF_MUTINY_M13_141" />
+  <CARDNAME text="MARK_OF_MUTINY" />
+  <TITLE>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Mark of Mutiny]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Marchio dell’Ammutinamento]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Zeichen der Meuterei]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Marque de mutinerie]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Marca de sedición]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[反逆の印]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[반란의 표식]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Знак Бунта]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Marca de Rebelião]]></LOCALISED_TEXT>
+  </TITLE>
+  <MULTIVERSEID value="M13_141" />
+  <ARTID value="M13_141" />
+  <ARTIST name="Mike Bierek" />
+  <CASTING_COST cost="{2}{R}" />
+  <FLAVOURTEXT>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[The flame of anger is hard to douse     once lit.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[La fiamma dell’ira è difficile da spegnere una volta accesa.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Die Flammen der Wut sind schwer zu löschen, sobald sie sich erst einmal entzündet haben.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[La flamme de la colère est difficile à étouffer une fois allumée.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Las llamas de la ira son difíciles de apagar una vez encendidas.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[怒りの炎は、一度火がついたら簡単には消せない。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[불붙은 분노는 쉽게 꺼지지 않는다.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Однажды распаленный огонь гнева тяжело потушить.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[A chama do ódio é difícil de apagar depois de acesa.]]></LOCALISED_TEXT>
+  </FLAVOURTEXT>
+  <TYPE metaname="Sorcery" />
+  <EXPANSION value="M13" />
+  <RARITY metaname="U" />
+  <SPELL_ABILITY dangerous="1" filter_zone="ZONE_IN_PLAY">
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Gain control of target creature until end of turn. Put a +1/+1 counter on it and untap it. That creature gains haste until end of turn.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Prendi il controllo di una creatura bersaglio fino alla fine del turno. Metti un segnalino +1/+1 su di essa e STAPpala. Quella creatura ha rapidità fino alla fine del turno. (Può attaccare e {T} in questo turno.)]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Übernimm die Kontrolle über eine Kreatur deiner Wahl bis zum Ende des Zuges. Lege eine +1/+1-Marke auf sie und enttappe sie. Diese Kreatur erhält Eile bis zum Ende des Zuges. (Sie kann in diesem Zug angreifen und {T}.)]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Acquérez le contrôle de la créature ciblée jusqu’à la fin du tour. Mettez un marqueur +1/+1 sur elle et dégagez-la. Cette créature acquiert la célérité jusqu’à la fin du tour. (Elle peut attaquer et {T} ce tour-ci.)]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Gana el control de la criatura objetivo hasta el final del turno. Pon un contador +1/+1 sobre ella y enderézala. Esa criatura gana la habilidad de prisa hasta el final del turno. (Puede atacar y {T} este turno.)]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[クリーチャー１体を対象とし、ターン終了時までそれのコントロールを得る。それの上に＋１/＋１カウンターを１個置き、それをアンタップする。そのクリーチャーはターン終了時まで速攻を得る。（このターン、それは攻撃したり{T}したりできる。）]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[생물 한 개를 목표로 정한다. 턴종료까지 그 생물의 조종권을 얻는다. 그 생물에 +1/+1 카운터 한 개를 올려놓은 후 언탭한다. 그 생물은 턴종료까지 신속 능력을 얻는다. (그 생물은 이 턴에 공격하거나 {T}할 수 있다.)]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Получите контроль над целевым существом до конца хода. Положите на него один жетон +1/+1 и разверните его. То существо получает Ускорение до конца хода. (Оно может атаковать и {T} в этом ходу.)]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Ganhe o controle da criatura alvo até o final do turno. Coloque um marcador +1/+1 sobre ela e desvire-a. Aquela criatura ganha ímpeto até o final do turno. (Ela pode atacar e {T} neste turno.)]]></LOCALISED_TEXT>
+	<TARGET_DEFINITION id="0">
+    local filter = Object():GetFilter()
+    filter:Clear()
+    filter:AddCardType( CARD_TYPE_CREATURE )
+    filter:SetZone( ZONE_IN_PLAY )
+    </TARGET_DEFINITION>
+    <TARGET_DETERMINATION>
+    return AtLeastOneTargetFromDefinition(0)
+    </TARGET_DETERMINATION>
+    <PLAY_TIME_ACTION target_choosing="1">
+    EffectController():ChooseTarget( 0, "CARD_QUERY_CHOOSE_CREATURE_TO_GAIN_CONTROL", EffectDC():Make_Targets(0) )
+    </PLAY_TIME_ACTION>
+	<RESOLUTION_TIME_ACTION>
+	local target = EffectDC():Get_Targets(0):Get_CardPtr(0)
+	
+	EffectDC():Set_Int( 1, 0 )
+	if target ~= nil then
+		if target:GetController():GetTeam() ~= EffectController():GetTeam() then
+			EffectDC():Set_Int( 1, 1 )
+		end
+	end
+	</RESOLUTION_TIME_ACTION>
+	<CONTINUOUS_ACTION layer="2">
+    local target = EffectDC():Get_Targets(0):Get_CardPtr(0)
+    if target ~= nil then  
+    	target:SetController( EffectController() )  
+    end
+    </CONTINUOUS_ACTION>
+    <RESOLUTION_TIME_ACTION>
+    local target = EffectDC():Get_Targets(0):Get_CardPtr(0)
+    if target ~= nil then
+		target:AddCounters( MTG():PlusOnePlusOneCounters(), 1 )
+    	target:Untap()  
+    end
+    </RESOLUTION_TIME_ACTION>
+    <CONTINUOUS_ACTION layer="6">
+    local target = EffectDC():Get_Targets(0):Get_CardPtr(0)
+	local enemy = EffectDC():Get_Int(1)
+    if target ~= nil and enemy ~= 0 then  
+    	local characteristics = target:GetCurrentCharacteristics()
+    	characteristics:Characteristic_Set( CHARACTERISTIC_WORTHLESS, 1 )
+    end
+    </CONTINUOUS_ACTION>
+    <CONTINUOUS_ACTION layer="6">
+    local target = EffectDC():Get_Targets(0):Get_CardPtr(0)
+    if target ~= nil then  
+    	local characteristics = target:GetCurrentCharacteristics()
+    	characteristics:Characteristic_Set( CHARACTERISTIC_HASTE, 1 )
+    end
+    </CONTINUOUS_ACTION>
+    <DURATION simple_duration="UntilEOT" />
+  </SPELL_ABILITY>
+  <HELP title="MORE_INFO_BADGE_TITLE_14" body="MORE_INFO_BADGE_BODY_14" zone="ZONE_ANY" />
+  <AI_BASE_SCORE score="1000" zone="ZONE_HAND" />
+</CARD_V2>

@@ -1,0 +1,88 @@
+<?xml version='1.0'?>
+<CARD_V2>
+  <FILENAME text="BOND_BEETLE_M13_161" />
+  <CARDNAME text="BOND_BEETLE" />
+  <TITLE>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Bond Beetle]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Scarabée d’affinité]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Escarabajo vinculante]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Getreuer Käfer]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Scarabeo del Legame]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[結合虫]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[결속의 딱정벌레]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Связующий Жук]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Besouro da União]]></LOCALISED_TEXT>
+  </TITLE>
+  <MULTIVERSEID value="M13_161" />
+  <ARTID value="M13_161" />
+  <ARTIST name="John Avon" />
+  <CASTING_COST cost="{G}" />
+  <FLAVOURTEXT>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[A beetle on your shoulder
+—Elvish expression meaning
+“a blessing of luck”]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Un scarabée sur l’épaule
+— Expression elfe signifiant
+« béni par la chance »]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Un escarabajo en el hombro
+—Expresión élfica que significa
+“una afortunada bendición”]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Ein Käfer auf deiner Schulter
+—Elfenausdruck für
+„vom Glück gesegnet“]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Uno scarabeo sulla spalla
+—Espressione elfica che significa
+“un colpo di fortuna”]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[肩に虫がおらんことを。
+—エルフの言い回しで
+「幸運を祈る」]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[딱정벌레가 어깨에 앉기를
+—“발 밑을 조심하라”
+엘프식 표현]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[«Жук тебе на плечо!»
+— Эльфийское пожелание удачи]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Um besouro no seu ombro
+— Expressão élfica que significa
+“uma bênção de sorte”]]></LOCALISED_TEXT>
+  </FLAVOURTEXT>
+  <TYPE metaname="Creature" />
+  <SUB_TYPE metaname="Insect" order_de-DE="0" order_es-ES="0" order_fr-FR="0" order_it-IT="0" order_jp-JA="0" order_ko-KR="0" order_pt-BR="0" order_ru-RU="0" />
+  <EXPANSION value="M13" />
+  <RARITY metaname="C" />
+  <POWER value="0" />
+  <TOUGHNESS value="1" />
+  <TRIGGERED_ABILITY filter_zone="ZONE_IN_PLAY">
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[When Bond Beetle enters the battlefield, put a +1/+1 counter on target creature.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Quand le Scarabée d’affinité arrive sur le champ de bataille, mettez un marqueur +1/+1 sur la créature ciblée.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Cuando el Escarabajo vinculante entre al campo de batalla, pon un contador +1/+1 sobre la criatura objetivo.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Wenn der Getreue Käfer ins Spiel kommt, lege eine +1/+1-Marke auf eine Kreatur deiner Wahl.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Quando lo Scarabeo del Legame entra nel campo di battaglia, metti un segnalino +1/+1 su una creatura bersaglio.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[結合虫が戦場に出たとき、クリーチャー１体を対象とし、それの上に＋１/＋１カウンターを１個置く。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[결속의 딱정벌레가 전장에 들어올 때, 생물 한 개를 목표로 정한다. 그 생물에 +1/+1 카운터 한 개를 올려놓는다.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Когда Связующий Жук выходит на поле битвы, положите один жетон +1/+1 на целевое существо.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Quando Besouro da União entrar no campo de batalha, coloque um marcador +1/+1 sobre a criatura alvo.]]></LOCALISED_TEXT>
+    <TRIGGER value="ZONECHANGE_END" simple_qualifier="self" to_zone="ZONE_IN_PLAY" />
+    <TARGET_DETERMINATION>
+    return AtLeastOneTargetFromDefinition(0)
+    </TARGET_DETERMINATION>
+    <TARGET_DEFINITION id="0">
+    local filter = Object():GetFilter()
+    filter:Clear()
+    filter:AddCardType( CARD_TYPE_CREATURE )
+    filter:SetZone( ZONE_IN_PLAY )
+    filter:SetHint( HINT_ALLIED_ONLY, EffectController() )
+    </TARGET_DEFINITION>
+    <PLAY_TIME_ACTION target_choosing="1">
+    EffectController():ChooseTarget( 0, "CARD_QUERY_CHOOSE_CREATURE_TO_GET_PLUS1_PLUS1_COUNTER", EffectDC():Make_Targets(0) )
+    </PLAY_TIME_ACTION>
+    <RESOLUTION_TIME_ACTION>
+    local target = EffectDC():Get_Targets(0):Get_CardPtr(0)
+    if target ~= nil then   
+    	target:AddCounters( MTG():PlusOnePlusOneCounters(), 1 ) 
+    end
+    </RESOLUTION_TIME_ACTION>
+  </TRIGGERED_ABILITY>
+  <SFX text="COMBAT_BITE_LARGE_ATTACK" power_boundary_min="4" power_boundary_max="-1" />
+  <SFX text="COMBAT_BITE_SMALL_ATTACK" power_boundary_min="1" power_boundary_max="3" />
+  <AI_BASE_SCORE score="450" zone="ZONE_HAND" />
+</CARD_V2>
