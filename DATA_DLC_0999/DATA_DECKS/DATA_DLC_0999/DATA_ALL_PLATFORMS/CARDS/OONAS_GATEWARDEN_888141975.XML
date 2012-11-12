@@ -29,7 +29,7 @@
     <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA["Agora que você viu Glen Elendra, dê uma boa olhada. Será a última coisa que verá."]]></LOCALISED_TEXT>
   </FLAVOURTEXT>
   <TYPE metaname="Creature" />
-  <SUB_TYPE metaname="Faerie" order_de-DE="0" order_es-ES="0" order_fr-FR="0" order_it-IT="0" order_jp-JA="0" order_ko-KR="0" order_pt-BR="0" order_ru-RU="0" />
+  <SUB_TYPE metaname="Faerie" order_de-DE="0" order_es-ES="0" order_fr-FR="1" order_it-IT="0" order_jp-JA="0" order_ko-KR="0" order_pt-BR="0" order_ru-RU="0" />
   <SUB_TYPE metaname="Soldier" order_de-DE="0" order_es-ES="0" order_fr-FR="0" order_it-IT="0" order_jp-JA="0" order_ko-KR="0" order_pt-BR="0" order_ru-RU="0" />
   <EXPANSION value="DPG" />
   <RARITY metaname="C" />
