@@ -1,0 +1,82 @@
+<?xml version='1.0'?>
+<CARD_V2>
+  <FILENAME text="KNOTVINE_PALADIN_276750" />
+  <CARDNAME text="KNOTVINE_PALADIN" />
+  <TITLE>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Knotvine Paladin]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Paladin de Nœudevigne]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Paladín Viña Nudosa]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Knotenranken-Paladin]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Paladino della Vite Intrecciata]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[結び蔦の聖騎士]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[매듭덩굴 성기사]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Паладин Узловатой Лозы]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Paladino de Vinha Nodosa]]></LOCALISED_TEXT>
+  </TITLE>
+  <MULTIVERSEID value="276750" />
+  <ARTID value="121029" />
+  <ARTIST name="Matt Stewart" />
+  <CASTING_COST cost="{G}{W}" />
+  <FLAVOURTEXT>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[“He is part of a new breed of guardian, one who embraces the best of both his world and ours.”
+—Mayael the Anima]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[« Il est issu d’une nouvelle race de gardiens qui prend ce qu’il y a de meilleur dans son monde et le nôtre. »
+—Mayael l’Anima]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[“Él es parte de una nueva generación de guardianes, una que acepta lo mejor de su mundo y el nuestro.”
+—Mayael el Ánima]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[„Er gehört einer neuen Generation von Wächtern an, die das Beste von seiner Welt und unserer vereinen.“
+—Mayael die Anima]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[“Costui fa parte di una nuova generazione di guardiani, che abbraccia i pregi migliori del suo mondo e del nostro.”
+—Mayael l’Anima]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[「彼は、彼の世界と我々の世界の良い部分を併せ持つ、ガルガンチュアンの新たな系譜の一部なのです。」
+—アニマのメイエル]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[“그는 이쪽 세상과 저쪽 세상의 장점을 합친 새로운 수호자 중 하나지.”
+—애니마 마야엘]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[«Он принадлежит к новому поколению стражей. К тому, что впитало в себя лучшее из обоих миров — и его, и нашего».
+— Майел, Святая Анима]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[“Ele faz parte de uma nova raça de guardiões que agrega não apenas o melhor do mundo dele como também do nosso.”
+— Mayael, a Anima]]></LOCALISED_TEXT>
+  </FLAVOURTEXT>
+  <TYPE metaname="Creature" />
+  <SUB_TYPE metaname="Human" order_de-DE="0" order_es-ES="1" order_fr-FR="0" order_it-IT="1" order_jp-JA="0" order_ko-KR="0" order_pt-BR="0" order_ru-RU="0" />
+  <SUB_TYPE metaname="Knight" order_de-DE="1" order_es-ES="0" order_fr-FR="1" order_it-IT="0" order_jp-JA="1" order_ko-KR="1" order_pt-BR="1" order_ru-RU="1" />
+  <EXPANSION value="DPG" />
+  <RARITY metaname="R" />
+  <POWER value="2" />
+  <TOUGHNESS value="2" />
+  <TRIGGERED_ABILITY filter_zone="ZONE_IN_PLAY">
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Whenever Knotvine Paladin attacks, it gets +1/+1 until end of turn for each untapped creature you control.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[À chaque fois que le Paladin de Nœudevigne attaque, il gagne +1/+1 jusqu’à la fin du tour pour chaque créature dégagée que vous contrôlez.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Siempre que el Paladín Viña Nudosa ataque, obtiene +1/+1 hasta el final del turno por cada criatura enderezada que controles.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Immer wenn der Knotenranken-Paladin angreift, erhält er bis zum Ende des Zuges +1/+1 für jede ungetappte Kreatur, die du kontrollierst.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Ogniqualvolta il Paladino della Vite Intrecciata attacca, prende +1/+1 fino alla fine del turno per ogni creatura STAPpata che controlli.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[結び蔦の聖騎士が攻撃するたび、それはターン終了時まで、あなたがコントロールするアンタップ状態のクリーチャー１体につき＋１/＋１の修整を受ける。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[매듭덩굴 성기사가 공격할 때마다, 매듭덩굴 성기사는 턴종료까지 당신이 조종하는 언탭된 생물 한 개당 +1/+1을 받는다.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Каждый раз, когда Паладин Узловатой Лозы атакует, он получает +1/+1 до конца хода за каждое развернутое существо под вашим контролем.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Toda vez que Paladino de Vinha Nodosa ataca, ele recebe +1/+1 até o fim do turno para cada criatura desvirada que você controla.]]></LOCALISED_TEXT>
+    <TRIGGER value="ATTACKING" simple_qualifier="self" />
+    <RESOLUTION_TIME_ACTION>
+    local filter = Object():GetFilter()
+    filter:Clear()
+    filter:SetPlayer( EffectController() )
+    filter:SetZone( ZONE_IN_PLAY )
+    filter:AddCardType( CARD_TYPE_CREATURE )
+    filter:AddExtra( FILTER_EXTRA_CREATURE_UNTAPPED )
+    filter:NotTargetted()
+    local total = filter:Count()
+    EffectDC():Set_Int(1, total)
+    </RESOLUTION_TIME_ACTION>
+    <CONTINUOUS_ACTION layer="7C">
+    if EffectSource() ~= nil then
+    	local total = EffectDC():Get_Int(1)
+    	local characteristics = EffectSource():GetCurrentCharacteristics()
+    	characteristics:Power_Add( total )
+    	characteristics:Toughness_Add( total )
+    end
+    </CONTINUOUS_ACTION>
+    <DURATION simple_duration="UntilEOT" />
+  </TRIGGERED_ABILITY>
+  <SFX text="COMBAT_BLADE_LARGE_ATTACK" power_boundary_min="4" power_boundary_max="-1" />
+  <SFX text="COMBAT_BLADE_SMALL_ATTACK" power_boundary_min="1" power_boundary_max="3" />
+  <AI_BASE_SCORE score="450" zone="ZONE_IN_PLAY" />
+</CARD_V2>

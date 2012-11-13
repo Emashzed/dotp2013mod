@@ -1,0 +1,79 @@
+<?xml version='1.0'?>
+<CARD_V2>
+  <FILENAME text="SEAL_OF_DOOM_276799" />
+  <CARDNAME text="SEAL_OF_DOOM" />
+  <TITLE>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Seal of Doom]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Sceau du destin]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Sello de fatalidad]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Siegel der Verdammnis]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Sigillo del Destino]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[破滅の印章]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[파멸의 문장]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Печать Рока]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Selo do Destino]]></LOCALISED_TEXT>
+  </TITLE>
+  <MULTIVERSEID value="276799" />
+  <ARTID value="94589" />
+  <ARTIST name="Ralph Horsley" />
+  <CASTING_COST cost="{2}{B}" />
+  <FLAVOURTEXT>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[“A basilisk’s gaze is effective, but disposing of physical remains is a tiresome task. It’s far more discrete to dissolve one’s victim entirely.”
+—Szadek]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[« Le regard du basilic est efficace, mais il faut toujours se débarrasser des cadavres. Dissoudre sa victime laisse beaucoup moins de traces. »
+—Szadek]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[“La mirada de un basilisco es efectiva, pero eliminar los restos físicos es una tarea agotadora. Es mucho más discreto disolver una víctima por completo.”
+—Szadek]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[„Der Blick eines Basilisken ist effektiv, aber es ist so mühsam, hinterher die Statuen zu entsorgen. Es ist viel diskreter, seine Opfer gleich ganz aufzulösen.“
+—Szadek]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[“Lo sguardo di un basilisco è efficace, ma sbarazzarsi dei resti è un compito faticoso. Dissolvere completamente una vittima è molto più discreto.”
+—Szadek]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[バジリスクの視線は効果的だが、残った死体を捨てるのが面倒だ。 犠牲者を完全に消し去ることは全然別な話だ。
+—ザデック]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[“바실리스크의 석화가 효과적이긴 하지만, 그 희생자를 치우는 일은 피곤해. 희생자를 완전히 녹여버리는 편이 훨씬 안전하지.”
+—스자덱]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[«Взгляд василиска — действенное средство, но после него приходится убирать окаменевшие останки. Куда более удобно растворить жертву целиком».
+— Задек]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[“O olhar de um Basilisco é muito eficaz, mas desfazer-se dos cadáveres é uma tarefa cansativa. É muito menos trabalhoso dissolver a vítima por inteiro.”
+— Szadek]]></LOCALISED_TEXT>
+  </FLAVOURTEXT>
+  <TYPE metaname="Enchantment" />
+  <EXPANSION value="DPG" />
+  <RARITY metaname="C" />
+  <ACTIVATED_ABILITY dangerous="1" filter_zone="ZONE_IN_PLAY">
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Sacrifice Seal of Doom: Destroy target nonblack creature. It can’t be regenerated.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Sacrifiez le Sceau du destin: Détruisez la créature non-noire ciblée. Elle ne peut pas être régénérée.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Sacrificar el Sello de fatalidad: Destruye la criatura objetivo que no sea negra. No puede ser regenerada.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Opfere das Siegel der Verdammnis: Zerstöre eine nichtschwarze Kreatur deiner Wahl. Sie kann nicht regeneriert werden.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Sacrifica il Sigillo del Destino: Distruggi una creatura non nera bersaglio. Non può essere rigenerata.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[破滅の印章を生け贄に捧げる：黒でないクリーチャー１体を対象とし、それを破壊する。 それは再生できない。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[파멸의 문장을 희생한다: 흑색이 아닌 생물 한 개를 목표로 정한다. 그 생물을 파괴한다. 그 생물은 재생될 수 없다.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Пожертвуйте Печать Рока: уничтожьте целевое нечерное существо. Оно не может быть регенерировано.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Sacrifique Selo do Destino: Destrua uma criatura alvo que não seja preta. Ela não pode ser regenerada.]]></LOCALISED_TEXT>
+    <COST type="SacrificeSelf" />
+    <TARGET_DEFINITION id="0">
+    local filter = Object():GetFilter()
+    filter:Clear()
+    filter:AddCardType( CARD_TYPE_CREATURE )
+    filter:SetZone( ZONE_IN_PLAY )
+    filter:AddColour( COLOUR_BLACK )
+    filter:AddExtra( FILTER_EXTRA_FLIP_COLOUR )
+    filter:SetHint( HINT_ENEMY, EffectController() )
+    </TARGET_DEFINITION>
+    <TARGET_DETERMINATION>
+    return AtLeastOneTargetFromDefinition(0)
+    </TARGET_DETERMINATION>
+    <PLAY_TIME_ACTION target_choosing="1">
+    EffectController():ChooseTarget( 0, "CARD_QUERY_CHOOSE_CREATURE_TO_DESTROY", EffectDC():Make_Targets(0) )
+    </PLAY_TIME_ACTION>
+    <RESOLUTION_TIME_ACTION>
+    local target = EffectDC():Get_Targets(0):Get_CardPtr(0)
+    if target ~= nil then   
+    	target:DestroyWithoutRegenerate()  
+    end
+    </RESOLUTION_TIME_ACTION>
+    <AI_AVAILABILITY step="declare_attackers" />
+    <AI_AVAILABILITY type="in_response_dangerous" />
+    <SFX text="TARGET_PESTS_PLAY" />
+  </ACTIVATED_ABILITY>
+</CARD_V2>

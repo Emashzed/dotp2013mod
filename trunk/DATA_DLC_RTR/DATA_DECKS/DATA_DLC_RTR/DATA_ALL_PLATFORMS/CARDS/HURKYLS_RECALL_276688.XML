@@ -1,0 +1,75 @@
+<?xml version='1.0'?>
+<CARD_V2>
+  <FILENAME text="HURKYLS_RECALL_276688" />
+  <CARDNAME text="HURKYLS_RECALL" />
+  <TITLE>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Hurkyl’s Recall]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Rappel selon Hurkyl]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Retorno de Hurkyl]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Hurkyls Erinnerung]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Richiamo di Hurkyl]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[ハーキルの召還術]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[허킬의 회수]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Отзыв Геркили]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Retorno de Hurkyl]]></LOCALISED_TEXT>
+  </TITLE>
+  <MULTIVERSEID value="276688" />
+  <ARTID value="104567" />
+  <ARTIST name="Ralph Horsley" />
+  <CASTING_COST cost="{1}{U}" />
+  <FLAVOURTEXT>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Hurkyl’s research at the College of Lat-Nam wasn’t enough to stop the two brothers, but for centuries thereafter her spellcraft taught artificers restraint.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Les recherches d’Hurkyl au collège de Lat-Nam ne suffirent pas pour arrêter les deux frères, mais pendant les siècles qui suivirent, sa magie enseigna la retenue aux artificiers.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[La investigación de Hurkyl en la Escuela de Lat-Nam no fue suficiente para detener a los hermanos, pero en los siglos que siguieron, su hechicería enseñó límites a los artífices.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Hurkyls Forschungen an der Universität von Lat-Nam reichten nicht aus, um die beiden Brüder aufzuhalten, doch noch Jahrhunderte danach mussten Tüftler unter ihren Zaubersprüchen leiden.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Le ricerche di Hurkyl all’Istituto di Lat-Nam non furono sufficienti per fermare i due fratelli, ma nei secoli successivi la sua arte magica insegnò agli artefici la moderazione.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[ラト＝ナム大学におけるハーキルの研究でも二人の兄弟を止めることはできなかったが、その後数世紀の間、彼女の魔術は工匠達に慎みというものを教え込んだ。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[허킬이 라트-남 대학에서 한 연구는 우르자와 미슈라를 막기에는 역부족이었지만, 그 후 수 세기 동안 기능공들은 그 마법으로 인해 자제심을 기를 수 있었다.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Исследования, которые Геркиль проводила в Колледже Лат-Нама, не смогли остановить двух братьев, но на протяжении веков ее чародейство продолжало учить изобретателей сдержанности.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[A pesquisa de Hurkyl na Faculdade de Lat-Nam não foi suficiente para deter os dois irmãos, mas pelos séculos seguintes sua magia ensinou a moderação aos artífices.]]></LOCALISED_TEXT>
+  </FLAVOURTEXT>
+  <TYPE metaname="Instant" />
+  <EXPANSION value="DPG" />
+  <RARITY metaname="R" />
+  <SPELL_ABILITY dangerous="1" filter_zone="ZONE_IN_PLAY">
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Return all artifacts target player owns to his or her hand.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Renvoyez tous les artefacts que le joueur ciblé possède dans sa main.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Regresa todos los artefactos que sean propiedad del jugador objetivo a su mano.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Bringe alle Artefakte, die ein Spieler deiner Wahl besitzt, auf seine Hand zurück.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Fai tornare in mano a un giocatore bersaglio tutti gli artefatti che possiede.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[プレイヤー１人を対象とし、そのプレイヤーがオーナーであるすべてのアーティファクトをそのプレイヤーの手札に戻す。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[플레이어 한 명을 목표로 정한다. 그 플레이어는 자신이 소유하는 모든 마법물체를 자신의 손으로 되돌린다.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Верните все артефакты, принадлежащие целевому игроку, в его руку.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Devolva todos os artefatos que o jogador alvo possui para a mão dele.]]></LOCALISED_TEXT>
+    <TARGET_DEFINITION id="0">
+    local filter = Object():GetFilter()
+    filter:Clear()
+    filter:SetFilterType( FILTER_TYPE_PLAYERS )
+    filter:SetHint( HINT_ENEMY, EffectController() )
+    </TARGET_DEFINITION>
+    <TARGET_DETERMINATION>
+    return AtLeastOneTargetFromDefinition(0)
+    </TARGET_DETERMINATION>
+    <PLAY_TIME_ACTION target_choosing="1">
+    EffectController():ChooseTarget( 0, "CARD_QUERY_CHOOSE_PLAYER_RETURN_ARTIFACTS_TO_HAND", EffectDC():Make_Targets(0) )
+    </PLAY_TIME_ACTION>
+    <FILTER>
+    local opponent = EffectDC():Get_Targets(0):Get_PlayerPtr(0)
+    return (FilteredCard():GetPlayer() == opponent and FilteredCard():GetCardType():Test(CARD_TYPE_ARTIFACT) ~= 0)
+    </FILTER>
+    <RESOLUTION_TIME_ACTION>
+    local filtered_obj = FilteredCard()
+    if filtered_obj ~= nil then
+    	filtered_obj:PutInHand()
+    end
+    </RESOLUTION_TIME_ACTION>
+    <SFX text="CASTER_SUCKALL_PLAY" />
+  </SPELL_ABILITY>
+  <AI_AVAILABILITY type="in_response" />
+  <AI_AVAILABILITY step="begin_combat" turn="their_turn" />
+  <AI_AVAILABILITY step="main_1" turn="my_turn" />
+  <AI_AVAILABILITY step="declare_attackers" turn="their_turn" />
+  <AI_AVAILABILITY step="declare_blockers" />
+  <AI_AVAILABILITY step="end_of_turn" />
+  <AI_BASE_SCORE score="750" zone="ZONE_HAND" />
+</CARD_V2>

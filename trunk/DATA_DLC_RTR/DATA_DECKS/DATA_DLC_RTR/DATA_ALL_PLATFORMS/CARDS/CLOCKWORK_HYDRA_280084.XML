@@ -1,0 +1,148 @@
+<?xml version='1.0'?>
+<CARD_V2>
+  <FILENAME text="CLOCKWORK_HYDRA_280084" />
+  <CARDNAME text="CLOCKWORK_HYDRA" />
+  <TITLE>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Clockwork Hydra]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Hydre mécanique]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Hidra mecánica]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Mechanische Hydra]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Idra Meccanica]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[機械仕掛けのハイドラ]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[태엽 히드라]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Заводная Гидра]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Hidra Mecânica]]></LOCALISED_TEXT>
+  </TITLE>
+  <MULTIVERSEID value="280084" />
+  <ARTID value="97419" />
+  <ARTIST name="Daren Bader" />
+  <CASTING_COST cost="{5}" />
+  <TYPE metaname="Artifact" />
+  <TYPE metaname="Creature" />
+  <SUB_TYPE metaname="Hydra" order_de-DE="0" order_es-ES="0" order_fr-FR="0" order_it-IT="0" order_jp-JA="0" order_ko-KR="0" order_pt-BR="0" order_ru-RU="0" />
+  <EXPANSION value="DPG" />
+  <RARITY metaname="U" />
+  <POWER value="0" />
+  <TOUGHNESS value="0" />
+  <TRIGGERED_ABILITY internal="1" pre_trigger="1" filter_zone="ZONE_IN_PLAY" active_zone="ZONE_TRANSITION">
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Clockwork Hydra enters the battlefield with four +1/+1 counters on it.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[L’Hydre mécanique arrive sur le champ de bataille avec quatre marqueurs +1/+1 sur elle.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[La Hidra mecánica entra al campo de batalla con cuatro contadores +1/+1 sobre ella.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Die Mechanische Hydra kommt mit vier +1/+1-Marken ins Spiel.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[L’Idra Meccanica entra nel campo di battaglia con quattro segnalini +1/+1.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[時計仕掛けのハイドラは、＋１/＋１カウンターが４個置かれた状態で戦場に出る。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[태엽 히드라는 +1/+1 카운터 네 개를 가진 채로 전장에 들어온다.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Заводная Гидра выходит на поле битвы с четырьмя жетонами +1/+1 на ней.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Hidra Mecânica entra no campo de batalha com quatro marcadores +1/+1 sobre ela.]]></LOCALISED_TEXT>
+    <TRIGGER value="ZONECHANGE_TRANSITION" simple_qualifier="self" to_zone="ZONE_IN_PLAY" from_zone="ZONE_ANY" />
+    <RESOLUTION_TIME_ACTION>
+    if EffectSource() ~= nil then
+    	EffectSource():AddCounters( MTG():PlusOnePlusOneCounters(), 4 )
+    end
+    </RESOLUTION_TIME_ACTION>
+  </TRIGGERED_ABILITY>
+  <TRIGGERED_ABILITY LKI_shield_effect_source="1" dangerous="1">
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Whenever Clockwork Hydra attacks or blocks, remove a +1/+1 counter from it. If you do, Clockwork Hydra deals 1 damage to target creature or player.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[À chaque fois que l’Hydre mécanique attaque ou bloque, retirez-lui un marqueur +1/+1. Si vous faites ainsi, l’Hydre mécanique  inflige 1 blessure à une cible, créature ou joueur.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Siempre que la Hidra mecánica ataque o bloquee, remueve un contador +1/+1 de ella. Si lo haces, la Hidra mecánica hace 1 punto de daño a la criatura o jugador objetivo.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Immer wenn die Mechanische Hydra angreift oder blockt, entferne eine +1/+1-Marke von ihr. Falls du dies tust, fügt die Mechanische Hydra einer Kreatur oder einem Spieler deiner Wahl 1 Schadenspunkt zu.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Ogniqualvolta l’Idra Meccanica attacca o blocca, rimuovi un segnalino +1/+1 da essa. Se lo fai, l’Idra Meccanica infligge 1 danno a una creatura o a un giocatore bersaglio.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[機械仕掛けのハイドラが攻撃かブロックするたび、クリーチャー１体かプレイヤー１人を対象とする。機械仕掛けのハイドラの上から＋１/＋１カウンターを１個取り除く。 そうした場合、時計仕掛けのハイドラはそれに１点のダメージを与える。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[태엽 히드라가 공격하거나 방어할 때마다, 태엽 히드라에서 +1/+1 카운터 한 개를 제거한다. 그렇게 한다면, 생물 한 개나 플레이어 한 명을 목표로 정한다. 태엽 히드라는 그 목표에게 피해 1점을 입힌다.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Каждый раз, когда Заводная Гидра атакует или блокирует, удалите с нее один жетон +1/+1. Если вы это делаете, Заводная Гидра наносит 1 повреждение целевому существу или игроку.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Toda vez que Hidra Mecânica atacar ou bloquear, remova um marcador +1/+1 dela. Se fizer isso, Hidra Mecânica causará 1 ponto de dano à criatura ou ao jogador alvo.]]></LOCALISED_TEXT>
+    <TRIGGER value="ATTACKING" simple_qualifier="self" />
+    <TARGET_DEFINITION id="0">
+    local filter = Object():GetFilter()
+    filter:Clear()
+    filter:SetFilterType( FILTER_TYPE_CARDS + FILTER_TYPE_PLAYERS )
+    filter:SetZone( ZONE_IN_PLAY )
+    filter:SetHint( HINT_ENEMY_ONLY, EffectController() )
+    filter:AddCardType( CARD_TYPE_CREATURE )
+    </TARGET_DEFINITION>
+    <TARGET_DETERMINATION>
+    return AtLeastOneTargetFromDefinition(0)
+    </TARGET_DETERMINATION>
+    <PLAY_TIME_ACTION target_choosing="1">
+    EffectController():ChooseTarget( 0, "CARD_QUERY_CHOOSE_DEAL_1_DAMAGE", EffectDC():Make_Targets(0) )
+    </PLAY_TIME_ACTION>
+    <RESOLUTION_TIME_ACTION>
+    local target_creature = EffectDC():Get_Targets(0):Get_CardPtr(0)
+    local target_player = EffectDC():Get_Targets(0):Get_PlayerPtr(0)
+    local source = EffectSource()
+    if source == nil then
+      source = Object()
+    end
+    if ( target_creature ~= nil and source ~= nil ) then   
+    	if (source:CountCounters( MTG():PlusOnePlusOneCounters() ) &gt; 0) then
+    		source:RemoveCounters(MTG():PlusOnePlusOneCounters(),1)
+    		target_creature:DealDamage(1, source)  
+    	end
+    elseif 
+    	( target_player ~= nil and source ~= nil ) then   
+    	if (source:CountCounters( MTG():PlusOnePlusOneCounters() ) &gt; 0) then
+    		source:RemoveCounters(MTG():PlusOnePlusOneCounters(),1)
+    		target_player:DealDamage(1, source)  
+    	end
+    end
+    </RESOLUTION_TIME_ACTION>
+  </TRIGGERED_ABILITY>
+  <ACTIVATED_ABILITY>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[{T}: Put a +1/+1 counter on Clockwork Hydra.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[{T}: Mettez un marqueur +1/+1 sur l’Hydre mécanique.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[{T}: Pon un contador +1/+1 sobre la Hidra mecánica.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[{T}: Lege eine +1/+1-Marke auf die Mechanische Hydra.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[{T}: Metti un segnalino +1/+1 sull’Idra Meccanica.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[{T}：機械仕掛けのハイドラの上に＋１/＋１カウンターを１個置く。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[{T}: 태엽 히드라에 +1/+1 카운터 한 개를 올려놓는다.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[{T}: положите один жетон +1/+1 на Заводную Гидру.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[{T}: Coloque um marcador +1/+1 em Hidra Mecânica.]]></LOCALISED_TEXT>
+    <COST type="TapSelf" />
+    <RESOLUTION_TIME_ACTION>
+    if EffectSource() ~= nil then
+    	EffectSource():AddCounters( MTG():PlusOnePlusOneCounters(), 1 )
+    end
+    </RESOLUTION_TIME_ACTION>
+    <AI_AVAILABILITY step="declare_blockers" />
+    <AI_AVAILABILITY type="in_response_dangerous" />
+  </ACTIVATED_ABILITY>
+  <TRIGGERED_ABILITY LKI_shield_effect_source="1" dangerous="1">
+    <TRIGGER value="BLOCKING" simple_qualifier="self" />
+    <TARGET_DEFINITION id="0">
+    local filter = Object():GetFilter()
+    filter:Clear()
+    filter:SetFilterType( FILTER_TYPE_CARDS + FILTER_TYPE_PLAYERS )
+    filter:SetZone( ZONE_IN_PLAY )
+    filter:SetHint( HINT_ENEMY_ONLY, EffectController() )
+    filter:AddCardType( CARD_TYPE_CREATURE )
+    </TARGET_DEFINITION>
+    <TARGET_DETERMINATION>
+    return AtLeastOneTargetFromDefinition(0)
+    </TARGET_DETERMINATION>
+    <PLAY_TIME_ACTION target_choosing="1">
+    EffectController():ChooseTarget( 0, "CARD_QUERY_CHOOSE_DEAL_1_DAMAGE", EffectDC():Make_Targets(0) )
+    </PLAY_TIME_ACTION>
+    <RESOLUTION_TIME_ACTION>
+    local target_creature = EffectDC():Get_Targets(0):Get_CardPtr(0)
+    local target_player = EffectDC():Get_Targets(0):Get_PlayerPtr(0)
+    local source = EffectSource()
+    if source == nil then
+      source = Object()
+    end
+    if ( target_creature ~= nil and source ~= nil ) then   
+    	if (source:CountCounters( MTG():PlusOnePlusOneCounters() ) &gt; 0) then
+    		source:RemoveCounters(MTG():PlusOnePlusOneCounters(),1)
+    		target_creature:DealDamage(1, source)  
+    	end
+    elseif 
+    	( target_player ~= nil and source ~= nil ) then   
+    	if (source:CountCounters( MTG():PlusOnePlusOneCounters() ) &gt; 0) then
+    		source:RemoveCounters(MTG():PlusOnePlusOneCounters(),1)
+    		target_player:DealDamage(1, source)  
+    	end
+    end
+    </RESOLUTION_TIME_ACTION>
+  </TRIGGERED_ABILITY>
+  <SFX text="COMBAT_BITE_LARGE_ATTACK" power_boundary_min="4" power_boundary_max="-1" />
+  <SFX text="COMBAT_BITE_SMALL_ATTACK" power_boundary_min="1" power_boundary_max="3" />
+</CARD_V2>
