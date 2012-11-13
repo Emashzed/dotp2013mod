@@ -1,0 +1,109 @@
+<?xml version='1.0'?>
+<CARD_V2>
+  <FILENAME text="CURSE_OF_THE_PIERCED_HEART_277034" />
+  <CARDNAME text="CURSE_OF_THE_PIERCED_HEART" />
+  <TITLE>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Curse of the Pierced Heart]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Malédiction du cœur transpercé]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Maldición del corazón perforado]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Fluch des Herzschmerzes]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Maledizione del Cuore Trafitto]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[貫かれた心臓の呪い]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[꿰뚫린 심장의 저주]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Проклятие Пронзенного Сердца]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Maldição do Coração Perfurado]]></LOCALISED_TEXT>
+  </TITLE>
+  <MULTIVERSEID value="277034" />
+  <ARTID value="98654" />
+  <ARTIST name="E. M. Gist" />
+  <CASTING_COST cost="{1}{R}" />
+  <FLAVOURTEXT>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[“May your veins weep, and may every vampire take notice.”
+—Stensian curse]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[« Puissent vos veines pleurer, et tous les vampires le remarquer. »
+—Malédiction stensienne]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[“Que tus venas lloren, y que todos los vampiros lo noten.”
+—Maldición de Stensia]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[„Mögen deine Adern weinen und jeder Vampir es bemerken.“
+—Stenzischer Fluch]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[“Che le tue vene possano stillare e che ogni vampiro possa avvedersene.”
+—Maledizione di Stensia]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[「お前の血管が鳴き声を上げ、全ての吸血鬼の気を引かんことを。」
+—ステンシアの呪い]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[“네놈이 피를 흘리고, 모든 흡혈귀가 네놈을 쫓기를.”
+—스텐시아식 저주]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[«Пусть твои вены рыдают, и пусть это почует каждый вампир».
+— Стенсийское проклятие]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[“Que suas veias gotejem e que cada vampiro possa sentir seu odor.”
+— Maldição stensiana]]></LOCALISED_TEXT>
+  </FLAVOURTEXT>
+  <TYPE metaname="Enchantment" />
+  <SUB_TYPE metaname="Aura" order_de-DE="0" order_es-ES="0" order_fr-FR="0" order_it-IT="0" order_jp-JA="0" order_ko-KR="0" order_pt-BR="0" order_ru-RU="0" />
+  <SUB_TYPE metaname="CURSE" order_de-DE="1" order_es-ES="1" order_fr-FR="1" order_it-IT="1" order_jp-JA="1" order_ko-KR="1" order_pt-BR="1" order_ru-RU="1" />
+  <EXPANSION value="DPG" />
+  <RARITY metaname="C" />
+  <STATIC_ABILITY attach_filter="1" filter_zone="ZONE_IN_PLAY">
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Enchant player]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Enchanter : joueur]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Encantar jugador.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Spielerverzauberung]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Incanta giocatore]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[エンチャント（プレイヤー）]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[플레이어에게 부여]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Зачаровать игрока]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Encantar jogador]]></LOCALISED_TEXT>
+    <CONTINUOUS_ACTION>
+    local attach_filter = Object():AttachmentFilter_Get()
+    attach_filter:Clear()
+    attach_filter:SetFilterType( FILTER_TYPE_PLAYERS )
+    </CONTINUOUS_ACTION>
+  </STATIC_ABILITY>
+  <TRIGGERED_ABILITY>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[At the beginning of enchanted player’s upkeep, Curse of the Pierced Heart deals 1 damage to that player.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Au début de l’entretien du joueur enchanté, la Malédiction du cœur transpercé inflige 1 blessure à ce joueur.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Al comienzo del mantenimiento del jugador encantado, la Maldición del corazón perforado le hace 1 punto de daño a ese jugador.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Zu Beginn des Versorgungssegments des verzauberten Spielers fügt der Fluch des Herzschmerzes diesem Spieler 1 Schadenspunkt zu.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[All’inizio del mantenimento del giocatore incantato, la Maledizione del Cuore Trafitto infligge 1 danno a quel giocatore.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[エンチャントされているプレイヤーのアップキープの開始時に、貫かれた心臓の呪いはそのプレイヤーに１点のダメージを与える。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[부여된 플레이어의 유지단 시작에, 꿰뚫린 심장의 저주는 그 플레이어에게 피해 1점을 입힌다.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[В начале шага поддержки зачарованного игрока Проклятие Пронзенного Сердца наносит 1 повреждение тому игроку.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[No início da manutenção do jogador encantado, Maldição do Coração Perfurado causa 1 ponto de dano àquele jogador.]]></LOCALISED_TEXT>
+    <TRIGGER value="BEGINNING_OF_STEP">
+    return (MTG():GetStep() == STEP_UPKEEP and 
+    Object():GetParentPlayer() ~= nil and  
+    Object():GetParentPlayer():MyTurn() ~= 0 and 
+    TriggerPlayer() == Object():GetParentPlayer())
+    </TRIGGER>
+    <RESOLUTION_TIME_ACTION>
+    local player = Object():GetParentPlayer()
+    local source = EffectSource()
+    if source == nil then
+      source = Object()
+    end
+    if ( player ~= nil ) then   
+    	player:DealDamage(1, source)  
+    end
+    </RESOLUTION_TIME_ACTION>
+    <SFX text="TARGET_PIERCE_PARENT_PLAY" />
+  </TRIGGERED_ABILITY>
+  <SPELL_ABILITY filter_zone="ZONE_IN_PLAY">
+    <TARGET_DEFINITION id="0">
+    local filter = Object():GetFilter()
+    filter:Clear()
+    filter:SetFilterType( FILTER_TYPE_PLAYERS )
+    filter:SetHint( HINT_ENEMY, EffectController() )
+    </TARGET_DEFINITION>
+    <TARGET_DETERMINATION>
+    return AtLeastOneTargetFromDefinition(0)
+    </TARGET_DETERMINATION>
+    <PLAY_TIME_ACTION target_choosing="1">
+    EffectController():ChooseTarget( 0, "CARD_QUERY_CHOOSE_PLAYER_TO_CURSE", EffectDC():Make_Targets(0) )
+    </PLAY_TIME_ACTION>
+    <RESOLUTION_TIME_ACTION>
+    local target_player = EffectDC():Get_Targets(0):Get_PlayerPtr(0)
+    if target_player ~= nil then
+          Object():AttachToPlayer(target_player)
+    end
+    </RESOLUTION_TIME_ACTION>
+  </SPELL_ABILITY>
+</CARD_V2>

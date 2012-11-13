@@ -1,0 +1,66 @@
+<?xml version='1.0'?>
+<CARD_V2>
+  <FILENAME text="WITCHBANE_ORB_277052" />
+  <CARDNAME text="WITCHBANE_ORB" />
+  <TITLE>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Witchbane Orb]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Orbe fléau des envoûteuses]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Orbe ruina de brujas]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Hexenbann-Kugel]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Globo Scacciastreghe]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[魔女封じの宝珠]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[마녀축출 보주]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Шар Ведьминой Погибели]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Orbe Espanta-Bruxa]]></LOCALISED_TEXT>
+  </TITLE>
+  <MULTIVERSEID value="277052" />
+  <ARTID value="138356" />
+  <ARTIST name="John Avon" />
+  <CASTING_COST cost="{4}" />
+  <TYPE metaname="Artifact" />
+  <EXPANSION value="DPG" />
+  <RARITY metaname="R" />
+  <TRIGGERED_ABILITY>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[When Witchbane Orb enters the battlefield, destroy all Curses attached to you.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Quand l’Orbe fléau des envoûteuses arrive sur le champ de bataille, détruisez toutes les malédictions qui vous sont attachées.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Cuando la Orbe ruina de brujas entre al campo de batalla, destruye todas las Maldiciones anexadas a ti.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Wenn die Hexenbann-Kugel ins Spiel kommt, zerstöre alle an dich angelegten Flüche.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Quando il Globo Scacciastreghe entra nel campo di battaglia, distruggi tutti gli Anatemi assegnati a te.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[魔女封じの宝珠が戦場に出たとき、あなたにつけられているすべての呪いを破壊する。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[마녀축출 보주가 전장에 들어올 때, 당신에게 부착되어 있는 모든 저주 지속물을 파괴한다.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Когда Шар Ведьминой Погибели выходит на поле битвы, уничтожьте все прикрепленные к вам Проклятия.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Quando Orbe Espanta-Bruxa entrar no campo de batalha, destrua todas as Maldições anexadas a você.]]></LOCALISED_TEXT>
+    <TRIGGER value="ZONECHANGE_END" simple_qualifier="self" to_zone="ZONE_IN_PLAY" />
+    <FILTER>
+    local enchanted_player =  Object():GetParentPlayer()
+    return (FilteredCard() ~= nil and 
+    FilteredCard():GetCardType():Test( CARD_TYPE_ENCHANTMENT ) ~= 0 and 
+    FilteredCard():GetSubType():Test( ENCHANTMENT_TYPE_CURSE ) ~= 0 and 
+    filteredCard:GetPlayer() == enchanted_player)
+    </FILTER>
+    <RESOLUTION_TIME_ACTION>
+    FilteredCard():Destroy()
+    </RESOLUTION_TIME_ACTION>
+  </TRIGGERED_ABILITY>
+  <STATIC_ABILITY>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[You have hexproof.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Vous avez la défense talismanique.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Tú tienes antimaleficio.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Du bist fluchsicher.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Hai anti-malocchio.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[あなたは呪禁を持つ。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[당신은 방호 능력을 가진다.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Вы имеете Порчеустойчивость.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Você tem resistência à magia.]]></LOCALISED_TEXT>
+    <CONTINUOUS_ACTION layer="8">
+    if EffectController() ~= nil then
+    	local characteristics = EffectController():GetCurrentCharacteristics()
+    	if characteristics ~= nil then
+    		characteristics:Bool_Set( PLAYER_CHARACTERISTIC_HAS_HEXPROOF, 1 )
+    	end
+    end
+    </CONTINUOUS_ACTION>
+  </STATIC_ABILITY>
+  <HELP title="MORE_INFO_BADGE_TITLE_21" body="MORE_INFO_BADGE_BODY_21" zone="ZONE_ANY" />
+  <AI_BASE_SCORE score="900" zone="ZONE_HAND" />
+</CARD_V2>

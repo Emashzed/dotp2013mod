@@ -1,0 +1,83 @@
+<?xml version='1.0'?>
+<CARD_V2>
+  <FILENAME text="GOBLIN_SHORTCUTTER_276833" />
+  <CARDNAME text="GOBLIN_SHORTCUTTER" />
+  <TITLE>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Goblin Shortcutter]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Accourcisseur gobelin]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Acortacaminos trasgo]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Goblin-Abkürzer]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Goblin delle Scorciatoie]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[ゴブリンの近道抜け]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[고블린 지름길잡이]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Гоблин, Срезающий Путь]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Atalhadeiro Goblin]]></LOCALISED_TEXT>
+  </TITLE>
+  <MULTIVERSEID value="276833" />
+  <ARTID value="123611" />
+  <ARTIST name="Jesper Ejsing" />
+  <CASTING_COST cost="{1}{R}" />
+  <FLAVOURTEXT>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[“Goblins are cheap, but be careful. It’s a lot easier to steal from a corpse than a customer.”
+—Samila, Murasa Expeditionary House]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[« Les gobelins ne coûtent pas cher, mais fais attention. Il est plus facile de piller un cadavre qu’un client. »
+—Samila, corps expéditionnaire de Murasa]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[“Los trasgos son baratos, pero ten cuidado. Es mucho más fácil robarle a un cuerpo que a un cliente.”
+—Samila, Casa expedicionaria de Murasa]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[„Goblins sind billig, aber sei vorsichtig. Es ist viel einfacher, eine Leiche als einen Kunden zu beklauen.“
+—Samila aus Murasas Expeditionsgildenhaus]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[“I goblin sono spilorci, ma fai attenzione. È molto più facile rubare a un cadavere che a un cliente.”
+—Samila, Casa di Spedizioni di Murasa]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[「ゴブリンは手軽だけど、注意しなきゃだめよ。 お客よりも死体から盗むほうがずっと簡単なんだから。」
+—ムラーサ探検隊のサミーラ]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[“고블린들은 별 볼 일 없지만 그래도 조심해야 한다. 손님보다는 시체를 터는 게 훨씬 더 쉬우니까 말이야.”
+—무라사 탐험단의 사밀라]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[«Нанять гоблинов дешевле всего, но будьте осторожны: куда проще украсть у трупа, чем у клиента».
+— Самила из мурасского экспедиционного дома]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[“Os goblins são baratos, mas tenha cuidado. É muito mais fácil roubar de um cadáver que de um cliente.”
+— Samila, Casa Expedicionária de Murasa]]></LOCALISED_TEXT>
+  </FLAVOURTEXT>
+  <TYPE metaname="Creature" />
+  <SUB_TYPE metaname="Goblin" order_de-DE="0" order_es-ES="1" order_fr-FR="0" order_it-IT="1" order_jp-JA="0" order_ko-KR="0" order_pt-BR="0" order_ru-RU="0" />
+  <SUB_TYPE metaname="Scout" order_de-DE="1" order_es-ES="0" order_fr-FR="1" order_it-IT="0" order_jp-JA="1" order_ko-KR="1" order_pt-BR="1" order_ru-RU="1" />
+  <EXPANSION value="DPG" />
+  <RARITY metaname="C" />
+  <POWER value="2" />
+  <TOUGHNESS value="1" />
+  <TRIGGERED_ABILITY dangerous="1" filter_zone="ZONE_IN_PLAY">
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[When Goblin Shortcutter enters the battlefield, target creature can’t block this turn.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Quand l’Accourcisseur gobelin arrive sur le champ de bataille, la créature ciblée ne peut pas bloquer ce tour-ci.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Cuando el Acortacaminos trasgo entre al campo de batalla, la criatura objetivo no puede bloquear este turno.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Wenn der Goblin-Abkürzer ins Spiel kommt, kann eine Kreatur deiner Wahl in diesem Zug nicht blocken.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Quando il Goblin delle Scorciatoie entra nel campo di battaglia, una creatura bersaglio non può bloccare in questo turno.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[ゴブリンの近道抜けが戦場に出たとき、クリーチャー１体を対象とする。このターン、それではブロックできない。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[고블린 지름길잡이가 전장에 들어올 때, 생물 한 개를 목표로 정한다. 그 생물은 이 턴에 방어할 수 없다.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Когда Гоблин, Срезающий Путь выходит на поле битвы, целевое существо не может блокировать в этом ходу.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Quando Atalhadeiro Goblin entra no campo de batalha, a criatura alvo não pode bloquear neste turno.]]></LOCALISED_TEXT>
+    <TRIGGER value="ZONECHANGE_END" simple_qualifier="self" to_zone="ZONE_IN_PLAY" />
+    <TARGET_DEFINITION id="0">
+    local filter = Object():GetFilter()
+    filter:Clear()
+    filter:AddCardType( CARD_TYPE_CREATURE )
+    filter:SetZone( ZONE_IN_PLAY )
+    filter:SetHint( HINT_ENEMY_ONLY, EffectController() )
+    </TARGET_DEFINITION>
+    <TARGET_DETERMINATION>
+    return AtLeastOneTargetFromDefinition(0)
+    </TARGET_DETERMINATION>
+    <PLAY_TIME_ACTION target_choosing="1">
+    EffectController():ChooseTarget( 0, "CARD_QUERY_CHOOSE_CREATURE_GAIN_CANT_BLOCK", EffectDC():Make_Targets(0) )
+    </PLAY_TIME_ACTION>
+    <CONTINUOUS_ACTION layer="6">
+    local target = EffectDC():Get_Targets(0):Get_CardPtr(0)
+    if target ~= nil then  
+    	local characteristics = target:GetCurrentCharacteristics()
+    	characteristics:Characteristic_Set( CHARACTERISTIC_CANT_BLOCK, 1 )
+    end
+    </CONTINUOUS_ACTION>
+    <DURATION simple_duration="UntilEOT" />
+  </TRIGGERED_ABILITY>
+  <SFX text="COMBAT_CHOP_LARGE_ATTACK" power_boundary_min="4" power_boundary_max="-1" />
+  <SFX text="COMBAT_CHOP_SMALL_ATTACK" power_boundary_min="1" power_boundary_max="3" />
+  <AI_BASE_SCORE score="450" zone="ZONE_HAND" />
+</CARD_V2>

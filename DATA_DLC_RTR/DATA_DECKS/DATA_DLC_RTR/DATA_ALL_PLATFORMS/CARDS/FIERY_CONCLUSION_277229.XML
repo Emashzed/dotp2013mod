@@ -1,0 +1,114 @@
+<?xml version='1.0'?>
+<CARD_V2>
+  <FILENAME text="FIERY_CONCLUSION_277229" />
+  <CARDNAME text="FIERY_CONCLUSION" />
+  <TITLE>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Fiery Conclusion]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Conclusion ardente]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Conclusión ardiente]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Feuriges Ende]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Esito Ardente]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[焦熱の結末]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[불타는 종말]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Огненное Завершение]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Conclusão Flamejante]]></LOCALISED_TEXT>
+  </TITLE>
+  <MULTIVERSEID value="277229" />
+  <ARTID value="88640" />
+  <ARTIST name="Parente" />
+  <CASTING_COST cost="{1}{R}" />
+  <FLAVOURTEXT>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[The Boros legionnaire saw a noble sacrifice, the Rakdos thug a blazing suicide, and the Izzet alchemist an experiment gone awry.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Le légionnaire boros vit un noble sacrifice, l’étrangleur rakdos, une immolation, et l’alchimiste izzet, une expérience qui avait mal tourné.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[El legionario boros vio un noble sacrificio, el malhechor rakdos un suicida en llamas y el alquimista ízzet un experimento que salió mal.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Der Boros-Legionär sah ein edles Selbstopfer, der Rakdos-Raufbold sah einen flammenden Selbstmord, und für den Izzet-Alchimist war es ein Experiment, das gründlich schiefgegangen war.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Il legionario Boros vide un nobile sacrificio, il thug Rakdos un feroce suicidio e l’alchimista Izzet un esperimento finito male.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[ボロスの軍団が見たのは尊い自己犠牲だったし、ラクドスのごろつきが見たのは焼身自殺だったし、イゼットの錬金術師が見たのは失敗した実験だった。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[같은 장면을 보고 보로스 군단병은 고귀한 희생이라고 생각했고, 락도스 깡패는 불타는 자살행위라 생각했으며, 이젯 연금술사는 실패로 돌아간 실험이라고 생각했다.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Легионер Боросов увидел благородное самопожертвование, бандит Ракдосов — яркое самоубийство, а алхимик Иззетов — неудачный эксперимент.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[O legionário Boros viu um sacrifício nobre; o rufião Rakdos viu um suicídio carbonizante; e o alquimista Izzet viu um experimento que deu errado.]]></LOCALISED_TEXT>
+  </FLAVOURTEXT>
+  <TYPE metaname="Instant" />
+  <EXPANSION value="DPG" />
+  <RARITY metaname="C" />
+  <UTILITY_ABILITY filter_zone="ZONE_IN_PLAY">
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[As an additional cost to cast Fiery Conclusion, sacrifice a creature.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[En tant que coût supplémentaire pour lancer la Conclusion ardente, sacrifiez une créature.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Como coste adicional para lanzar la Conclusión ardiente, sacrifica una criatura.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Opfere eine Kreatur als zusätzliche Kosten, um Feuriges Ende zu wirken.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Come costo addizionale per lanciare l’Esito Ardente, sacrifica una creatura.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[焦熱の結末を唱えるための追加コストとして、クリーチャーを１体生け贄に捧げる。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[불타는 종말을 발동하기 위한 추가비용으로, 생물 한 개를 희생한다.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[В качестве дополнительной стоимости разыгрывания Огненного Завершения пожертвуйте существо.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Como custo adicional para conjurar Conclusão Flamejante, sacrifique uma criatura.]]></LOCALISED_TEXT>
+    <COST type="generic" qualifier="additional">
+      <TARGET_DEFINITION id="6">
+      local filter = Object():GetFilter()
+      filter:Clear()
+      filter:AddCardType( CARD_TYPE_CREATURE )
+      filter:SetPlayer( EffectController() )
+      filter:SetZone( ZONE_IN_PLAY )
+      filter:SetHint( HINT_ENEMY, EffectController() )
+      filter:NotTargetted()
+      </TARGET_DEFINITION>
+      <TARGET_DETERMINATION>
+      return AtLeastOneTargetFromDefinition(6)
+      </TARGET_DETERMINATION>
+      <PLAY_TIME_ACTION>
+        EffectController():ChooseTarget( 6, "CARD_QUERY_CHOOSE_CREATURE_TO_SACRIFICE", EffectDC():Make_Targets(0) )
+      </PLAY_TIME_ACTION>
+      <RESOLUTION_TIME_ACTION>
+      local target = EffectDC():Get_Targets(0):Get_CardPtr(0)
+      if target ~= nil then
+         	EffectDC():Get_Targets(0):LKIShield_CardPtr(0)
+         	EffectController():Sacrifice(target)  
+      end
+      </RESOLUTION_TIME_ACTION></COST>
+  </UTILITY_ABILITY>
+  <SPELL_ABILITY dangerous="1" filter_zone="ZONE_IN_PLAY">
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Fiery Conclusion deals 5 damage to target creature.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[La Conclusion ardente inflige 5 blessures à une créature ciblée.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[La Conclusión ardiente hace 5 puntos de daño a la criatura objetivo.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Feuriges Ende fügt einer Kreatur deiner Wahl 5 Schadenspunkte zu.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[L’Esito Ardente infligge 5 danni a una creatura bersaglio.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[クリーチャー１体を対象とする。焦熱の結末はそれに５点のダメージを与える。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[생물 한 개를 목표로 정한다. 불타는 종말은 그 생물에게 피해 5점을 입힌다.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Огненное Завершение наносит 5 повреждений целевому существу.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Conclusão Flamejante causa 5 pontos de dano à criatura alvo.]]></LOCALISED_TEXT>
+    <TARGET_DEFINITION id="0">
+    local filter = Object():GetFilter()
+    filter:Clear()
+    filter:AddCardType( CARD_TYPE_CREATURE )
+    filter:SetZone( ZONE_IN_PLAY )
+    filter:SetHint( HINT_ENEMY, EffectController() )
+    </TARGET_DEFINITION>
+    <TARGET_DETERMINATION>
+    return AtLeastOneTargetFromDefinition(0)
+    </TARGET_DETERMINATION>
+    <PLAY_TIME_ACTION target_choosing="1">
+    EffectController():ChooseTarget( 0, "CARD_QUERY_CHOOSE_CREATURE_DEAL_5_DAMAGE", EffectDC():Make_Targets(1) )
+    </PLAY_TIME_ACTION>
+    <RESOLUTION_TIME_ACTION>
+    local target_creature = EffectDC():Get_Targets(1):Get_CardPtr(0)
+    local target_player = EffectDC():Get_Targets(1):Get_PlayerPtr(0)
+    local source = EffectSource()
+    if source == nil then
+      source = Object()
+    end
+    if ( target_creature ~= nil ) then   
+    	target_creature:DealDamage(5, source)  
+    elseif 
+    	( target_player ~= nil ) then   
+    	target_player:DealDamage(5, source)  
+    end
+    </RESOLUTION_TIME_ACTION>
+    <SFX text="TARGET_FLAME_PLAY" />
+  </SPELL_ABILITY>
+  <AI_AVAILABILITY type="in_response" />
+  <AI_AVAILABILITY step="begin_combat" turn="their_turn" />
+  <AI_AVAILABILITY step="main_1" turn="my_turn" />
+  <AI_AVAILABILITY step="declare_attackers" turn="their_turn" />
+  <AI_AVAILABILITY step="declare_blockers" />
+  <AI_AVAILABILITY step="end_of_turn" />
+  <AI_BASE_SCORE score="1200" zone="ZONE_HAND" />
+</CARD_V2>

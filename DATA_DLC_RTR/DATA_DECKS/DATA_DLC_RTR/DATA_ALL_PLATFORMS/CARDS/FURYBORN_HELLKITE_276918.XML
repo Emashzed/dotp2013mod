@@ -1,0 +1,94 @@
+<?xml version='1.0'?>
+<CARD_V2>
+  <FILENAME text="FURYBORN_HELLKITE_276918" />
+  <CARDNAME text="FURYBORN_HELLKITE" />
+  <TITLE>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Furyborn Hellkite]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Escouflenfer né de la furie]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Engendro nacido de la furia]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Wutgeborener Höllendrache]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Nibbio Infernale Furioso]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[憤怒生まれのヘルカイト]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[열혈 화룡]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Рожденный Яростью Змей]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Dragão Avérneo Enfurecido]]></LOCALISED_TEXT>
+  </TITLE>
+  <MULTIVERSEID value="276918" />
+  <ARTID value="134084" />
+  <ARTIST name="Brad Rigney" />
+  <CASTING_COST cost="{4}{R}{R}{R}" />
+  <FLAVOURTEXT>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[“Careful. A drop of blood here could mean death for us all.”
+—Kalek, mountain guide]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[« Attention. Ici, la moindre goutte de sang pourrait sceller notre destin. »
+—Kalek, guide de montagne]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[“Cuidado. Dejar caer una gota de sangre aquí podría significar nuestra muerte.”
+—Kalek, guía de montaña]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[„Vorsichtig. Nur ein Tropfen Blut hier bedeutet für uns alle den Tod.“
+—Kalek, Bergführer]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[“Attento. Una goccia di sangue qui potrebbe significare la morte per tutti.”
+—Kalek, guida di montagna]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[「注意しな。 一滴血を落としたら、俺らみんな死んじまうんだからな。」
+—山の先達、カレク]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[“조심하세요. 여기서 피 한 방울이라도 흘리면 우린 전부 죽은 목숨입니다.”
+—등반 안내인 칼렉]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[«Осторожно! Капля крови, пролитая здесь, приведет нас всех к гибели».
+— Калек, горный проводник]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[“Cuidado. Uma gota de sangue aqui pode ser a morte para todos nós.”
+— Kalek, guia da montanha]]></LOCALISED_TEXT>
+  </FLAVOURTEXT>
+  <TYPE metaname="Creature" />
+  <SUB_TYPE metaname="Dragon" order_de-DE="0" order_es-ES="0" order_fr-FR="0" order_it-IT="0" order_jp-JA="0" order_ko-KR="0" order_pt-BR="0" order_ru-RU="0" />
+  <EXPANSION value="DPG" />
+  <RARITY metaname="M" />
+  <POWER value="6" />
+  <TOUGHNESS value="6" />
+  <STATIC_ABILITY>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Flying]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Vol]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Vuela.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Fliegend]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Volare]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[飛行]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[비행]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Полет]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Voar]]></LOCALISED_TEXT>
+    <CONTINUOUS_ACTION>
+    local characteristics = Object():GetCurrentCharacteristics()
+    characteristics:Characteristic_Set( CHARACTERISTIC_FLYING, 1 )
+    </CONTINUOUS_ACTION>
+  </STATIC_ABILITY>
+  <TRIGGERED_ABILITY internal="1" pre_trigger="1" filter_zone="ZONE_IN_PLAY" active_zone="ZONE_TRANSITION">
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Bloodthirst 6]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Soif de sang 6]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Sed de sangre 6.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Blutdurst 6]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Sete di sangue 6]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[狂喜６]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[피굶주림 6]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Кровожадность 6]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Sede de sangue 6]]></LOCALISED_TEXT>
+    <TRIGGER value="ZONECHANGE_TRANSITION" simple_qualifier="self" to_zone="ZONE_IN_PLAY" from_zone="ZONE_ANY" />
+    <RESOLUTION_TIME_ACTION>
+    local bloodthirst_condition = 0
+    local num_players = MTG():GetNumberOfStartingPlayers()
+    local controllingTeam = EffectController():GetTeam()
+    for i=0,num_players-1 do
+      local player = MTG():GetNthStartingPlayer(i)
+      if player ~= nil and player:GetTeam() ~= controllingTeam then
+        if player:PlayerDataChest():Get_Int( PLAYER_UTILITY_COMPARTMENT_ID_PLAYER_DAMAGE_TAKEN_THIS_TURN ) &gt; 0 then
+    	  bloodthirst_condition = 1
+    	end
+      end
+    end
+    	
+    if bloodthirst_condition == 1 then
+        Object():AddCounters( MTG():PlusOnePlusOneCounters(), 6 ) 
+    end
+    </RESOLUTION_TIME_ACTION>
+  </TRIGGERED_ABILITY>
+  <HELP title="MORE_INFO_BADGE_TITLE_10" body="MORE_INFO_BADGE_BODY_10" zone="ZONE_ANY" />
+  <HELP title="MORE_INFO_TITLE_BLOODTHIRST" body="MORE_INFO_BODY_BLOODTHIRST" zone="ZONE_ANY" />
+  <SFX text="COMBAT_DRAGON_LARGE_ATTACK" power_boundary_min="4" power_boundary_max="-1" />
+  <SFX text="COMBAT_DRAGON_SMALL_ATTACK" power_boundary_min="1" power_boundary_max="3" />
+</CARD_V2>
