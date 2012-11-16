@@ -1,0 +1,213 @@
+<?xml version='1.0'?>
+<CARD_V2>
+  <FILENAME text="PRECURSOR_GOLEM_277302" />
+  <CARDNAME text="PRECURSOR_GOLEM" />
+  <TITLE>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Precursor Golem]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Golem précurseur]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Gólem precursor]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Golem-Vorläufer]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Predecessore Golem]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[先駆のゴーレム]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[선구자 골렘]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Голем-Предтеча]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Golem Precursor]]></LOCALISED_TEXT>
+  </TITLE>
+  <MULTIVERSEID value="277302" />
+  <ARTID value="131023" />
+  <ARTIST name="Chippy" />
+  <CASTING_COST cost="{5}" />
+  <TYPE metaname="Artifact" />
+  <TYPE metaname="Creature" />
+  <SUB_TYPE metaname="Golem" order_de-DE="0" order_es-ES="0" order_fr-FR="0" order_it-IT="0" order_jp-JA="0" order_ko-KR="0" order_pt-BR="0" order_ru-RU="0" />
+  <EXPANSION value="DPG" />
+  <RARITY metaname="R" />
+  <POWER value="3" />
+  <TOUGHNESS value="3" />
+  <TRIGGERED_ABILITY auto_skip="1">
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[When Precursor Golem enters the battlefield, put two 3/3 colorless Golem artifact creature tokens onto the battlefield.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Quand le Golem précurseur arrive sur le champ de bataille, mettez sur le champ de bataille deux jetons de créature-artefact 3/3 incolore Golem.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Cuando el Gólem precursor entre al campo de batalla, pon en el campo de batalla dos fichas de criatura artefacto Gólem incoloras 3/3.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Wenn der Golem-Vorläufer ins Spiel kommt, bringe zwei 3/3 farblose Golem-Artefaktkreaturenspielsteine ins Spiel.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Quando il Predecessore Golem entra nel campo di battaglia, metti sul campo di battaglia due pedine creatura artefatto Golem 3/3 incolori.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[先駆のゴーレムが戦場に出たとき、無色の３/３のゴーレム・アーティファクト・クリーチャー・トークンを２体戦場に出す。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[선구자 골렘이 전장에 들어올 때, 3/3 무색 골렘 마법물체 생물 토큰 두 개를 전장에 놓는다.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Когда Голем-Предтеча выходит на поле битвы, положите на поле битвы две фишки артефактного существа 3/3 бесцветный Голем.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Quando Golem Precursor entrar no campo de batalha, coloque no campo de batalha duas fichas de criatura artefato incolores 3/3 do tipo Golem.]]></LOCALISED_TEXT>
+    <TRIGGER value="ZONECHANGE_END" simple_qualifier="self" to_zone="ZONE_IN_PLAY" />
+    <RESOLUTION_TIME_ACTION>
+    local token_count = 2
+    if token_count &gt; 0 then
+    	MTG():PutTokensIntoPlay( "TOKEN_GOLEM_3_3_277455", token_count, EffectController() )
+    end
+    </RESOLUTION_TIME_ACTION>
+  </TRIGGERED_ABILITY>
+  <TRIGGERED_ABILITY active_zone="ZONE_IN_PLAY">
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Whenever a player casts an instant or sorcery spell that targets only a single Golem, that player copies that spell for each other Golem that spell could target. Each copy targets a different one of those Golems.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[À chaque fois qu’un joueur lance un sort d’éphémère ou de rituel qui ne cible qu’un seul golem, ce joueur copie ce sort pour chaque autre golem que ce sort pourrait cibler. Chaque copie cible un de ces golems différents.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Siempre que un jugador lance un hechizo instantáneo o conjuro que haga objetivo a un único Gólem, ese jugador copia ese hechizo para cada otro Gólem que ese hechizo podría hacer objetivo. Cada copia hace objetivo a cada uno de esos otros Gólems.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Immer wenn ein Spieler einen Spontanzauber oder eine Hexerei wirkt, der bzw. die nur einen einzelnen Golem als Ziel hat, kopiert dieser Spieler diesen Zauber für jeden anderen Golem, den der Zauber als Ziel haben könnte. Jede Kopie hat einen anderen dieser Golems als Ziel.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Ogniqualvolta un giocatore lancia una magia istantaneo o stregoneria che bersaglia solo un Golem, quel giocatore copia quella magia per ogni altro Golem che quella magia potrebbe bersagliare. Ogni copia bersaglia uno diverso di quei Golem.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[いずれかのプレイヤーが、ゴーレム１体のみを対象とする、インスタント呪文かソーサリー呪文を１つ唱えるたび、そのプレイヤーはその呪文を、その呪文が対象にできる他の各ゴーレム１体につき１回コピーする。 それぞれのコピーは、それらのゴーレムのうち別々のものを対象とする。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[어느 플레이어가 골렘 한 개만을 목표로 하는 순간마법이나 집중마법 주문을 발동할 때마다, 그 플레이어는 그 주문의 목표가 될 수 있는 골렘 한 개당 그 주문을 복사한다. 각 복사본은 각각 다른 골렘을 목표로 한다.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Каждый раз, когда игрок разыгрывает мгновенное заклинание или заклинание волшебства, целью которого является только один Голем, тот игрок копирует то заклинание за каждого другого Голема, на которого могло бы быть нацелено то заклинание. Целью каждой копии является один из тех разных Големов.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Toda vez que um jogador conjura uma mágica instantânea ou feitiço que tem um único Golem como alvo, aquele jogador copia aquela mágica para cada outro Golem que aquela mágica poderia ter como alvo. Cada cópia tem um Golem diferente como alvo.]]></LOCALISED_TEXT>
+    <TRIGGER value="TARGETS_CHOSEN">
+    local targeting_spell = TriggerObject()
+    		
+    -- cast spell?
+    if targeting_spell ~= nil and targeting_spell:WasCast() ~= 0 then
+    				
+    	-- instant or sorcery?
+    	if targeting_spell:GetCardType():Test(CARD_TYPE_INSTANT) ~= 0 or targeting_spell:GetCardType():Test(CARD_TYPE_SORCERY) ~= 0 then
+    					
+    		-- targeting only a single golem?
+    		local spellDC = targeting_spell:GetDataChest()
+    		
+    		if spellDC ~= nil then
+    		
+    			local target = nil
+    			local main_index = 0
+    			
+    			local targetDC = spellDC:Get_NthTargets(main_index)
+    			
+    			while targetDC ~= nil do
+    				
+    				if targetDC:Get_NthPlayerPtr(0) ~= nil then
+    					-- if we're targeting a player, we're not targeting a single golem
+    					return false
+    				else
+    					-- we only have card ptrs...are they all the same?
+    					
+    					local ptr_index = 0
+    					local target_iter = targetDC:Get_NthCardPtr(ptr_index)
+    					
+    					while target_iter ~= nil do
+    						if target_iter:GetSubType():Test(CREATURE_TYPE_GOLEM) == 0 then
+    							-- target is not a golem
+    							return false
+    						else
+    							if target ~= nil and target_iter ~= target then
+    								-- while still a golem, this is a different golem
+    								return false
+    							else
+    								-- this is the only golem targeted (so far)
+    								target = target_iter
+    							end
+    						end
+    						
+    						ptr_index = ptr_index + 1
+    						target_iter = targetDC:Get_NthCardPtr(ptr_index)
+    					end
+    					
+    					-- we're done with this targetDC (either exactly one golem in there, or empty)
+    	
+    					-- loop
+    					main_index = main_index + 1
+    					targetDC = spellDC:Get_NthTargets(main_index)
+    					
+    				end                                                        
+    							
+    			end
+    			
+    			if target == nil then
+    				-- no targets
+    				return false
+    			end
+    			
+    			-- if we've made it this far we must have a single target that is a golem
+    			EffectDC():Set_CardPtr(1, target)
+    			return true
+    		
+    		end
+    					
+    					
+    	end
+    end
+    		
+    return false
+    </TRIGGER>
+    <PLAY_TIME_ACTION>
+    local targeting_spell = TriggerObject()
+    	
+    if targeting_spell == nil then
+    	return
+    end
+    -- set up the datachest ready for resolution
+    EffectDC():LKIShield_CardPtr(COMPARTMENT_ID_PARAM_TRIGGER_OBJECT)	-- LKI shield the trigger object so we can copy it later	
+    EffectDC():Make_Chest(0):CopyFrom( targeting_spell:GetDataChest() )
+    -- target already stored in trigger (cpt 1)
+    -- This is a variable to say what the last target definition we've loaded is, for use in the filter block
+    EffectDC():Set_Int(2, -1)
+    </PLAY_TIME_ACTION>
+    <FILTER>
+    local spellDC = EffectDC():Get_Chest(0)
+    		
+    local filteredCard = FilteredCard()
+    local spell = TriggerObject()
+    local filter = Object():GetFilter()
+    local original_golem = EffectDC():Get_CardPtr(1)
+    if (spell == nil) or (spellDC == nil) or (filteredCard == original_golem) or (filteredCard:GetSubType():Test( CREATURE_TYPE_GOLEM ) == 0) then
+    	-- not a different golem, so skip it (no need to check target definition)
+    	return false
+    end
+    local main_index = 0
+    local targetDC = spellDC:Get_NthTargets(main_index)
+    while targetDC ~= nil do
+    	if targetDC:Get_NthCardPtr(0) ~= nil then
+    		-- this chest has a card target, so we know this condition must be checked
+    		if EffectDC():Get_Int(2) ~= main_index then
+    			-- mark that we've loaded this definition
+    			EffectDC():Set_Int(2, main_index)
+    			-- load the definition
+    			filter = Object():LoadTargetDefinitionFromDC(targetDC)
+    			-- remove simplified targeting, just in case
+    			filter:SetHint(HINT_NEUTRAL, EffectController())
+    		end
+    		
+    		-- test filter
+    		if (filteredCard:TestFilter(filter, spell) == 0) then
+    			return false
+    		end
+    	end
+    	main_index = main_index + 1
+    	targetDC = spellDC:Get_NthTargets(main_index)
+    end
+    -- if we get this far, we know we're (another) valid golem. huzzah.
+    return true
+    </FILTER>
+    <RESOLUTION_TIME_ACTION>
+    local filteredCard = FilteredCard()
+    local spell = TriggerObject()
+    local spellDC = EffectDC():Get_Chest(0)
+    			
+    if spell == nil or filteredCard == nil then
+    	return
+    end
+    			
+    local main_index = 0
+    local targetDC = spellDC:Get_NthTargets(main_index)
+    while targetDC ~= nil do
+    	
+    	if targetDC:Get_NthCardPtr(0) ~= nil then
+    		-- this chest has a card target, so we know it needs replacing.
+    		-- we don't know where in this chest it lives, but all that really matters is the number of targets, as this is a target datachest
+    		local num_targets = targetDC:Count()
+    		
+    		targetDC:Clear()
+    		
+    		for i=0,num_targets-1 do
+    			targetDC:Set_CardPtr(i, filteredCard)
+    		end
+    	end
+    	main_index = main_index + 1
+    	targetDC = spellDC:Get_NthTargets(main_index)
+    end
+    local copied_spell = spell:GetPlayer():CopySpell( spell, spellDC )
+    </RESOLUTION_TIME_ACTION>
+  </TRIGGERED_ABILITY>
+  <TOKEN_REGISTRATION reservation="1" type="TOKEN_GOLEM_3_3_277455" />
+  <SFX text="COMBAT_BLUNT_LARGE_ATTACK" power_boundary_min="4" power_boundary_max="-1" />
+  <SFX text="COMBAT_BLUNT_SMALL_ATTACK" power_boundary_min="1" power_boundary_max="3" />
+  <AI_BASE_SCORE score="600" zone="ZONE_IN_PLAY" />
+</CARD_V2>

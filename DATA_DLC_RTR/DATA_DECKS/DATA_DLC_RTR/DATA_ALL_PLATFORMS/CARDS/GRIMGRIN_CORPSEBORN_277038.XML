@@ -1,0 +1,137 @@
+<?xml version='1.0'?>
+<CARD_V2>
+  <FILENAME text="GRIMGRIN_CORPSEBORN_277038" />
+  <CARDNAME text="GRIMGRIN_CORPSEBORN" />
+  <TITLE>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Grimgrin, Corpse-Born]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Grimgrin, né des cadavres]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Grimgrin, nacido del cadáver]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Grimmfeix der Leichengeborene]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Grimgrin, Cadavere di Nascita]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[死体生まれのグリムグリン]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[시체의 자식 그림그린]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Гримгрин, Рожденный из Трупов]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Grimgrin, o Cadaveroso]]></LOCALISED_TEXT>
+  </TITLE>
+  <MULTIVERSEID value="277038" />
+  <ARTID value="138501" />
+  <ARTIST name="Peter Mohrbacher" />
+  <CASTING_COST cost="{3}{U}{B}" />
+  <SUPERTYPE metaname="Legendary" />
+  <TYPE metaname="Creature" />
+  <SUB_TYPE metaname="Zombie" order_de-DE="0" order_es-ES="1" order_fr-FR="0" order_it-IT="1" order_ko-KR="0" order_pt-BR="0" order_ru-RU="0" />
+  <SUB_TYPE metaname="Warrior" order_de-DE="1" order_es-ES="0" order_fr-FR="1" order_it-IT="0" order_ko-KR="1" order_pt-BR="1" order_ru-RU="1" />
+  <EXPANSION value="DPG" />
+  <RARITY metaname="M" />
+  <POWER value="5" />
+  <TOUGHNESS value="5" />
+  <TRIGGERED_ABILITY internal="1">
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Grimgrin, Corpse-Born enters the battlefield tapped and doesn’t untap during your untap step.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Grimgrin, né des cadavres arrive sur le champ de bataille engagé et ne se dégage pas pendant votre étape de dégagement.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Grimgrin, nacido del cadáver, entra al campo de batalla girado y no se endereza durante tu paso de enderezar.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Grimmfeix der Leichengeborene kommt getappt ins Spiel und enttappt nicht während deines Enttappsegments.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Grimgrin, Cadavere di Nascita entra nel campo di battaglia TAPpato e non STAPpa durante il tuo STAP.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[死体生まれのグリムグリンはタップ状態で戦場に出て、あなたのアンタップ・ステップにアンタップしない。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[시체의 자식 그림그린은 탭된 채로 전장에 들어오고 당신의 언탭단에 언탭되지 않는다.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Гримгрин, Рожденный из Трупов выходит на поле битвы повернутым и не разворачивается во время вашего шага разворота.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Grimgrin, o Cadaveroso, entra no campo de batalha virado e não desvira durante sua etapa de desvirar.]]></LOCALISED_TEXT>
+    <TRIGGER value="ZONECHANGE_END" simple_qualifier="self" to_zone="ZONE_IN_PLAY" />
+    <RESOLUTION_TIME_ACTION>
+    if TriggerObject() ~= nil then
+    	TriggerObject():ComesIntoPlayTapped()  
+    end
+    </RESOLUTION_TIME_ACTION>
+  </TRIGGERED_ABILITY>
+  <ACTIVATED_ABILITY>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Sacrifice another creature: Untap Grimgrin and put a +1/+1 counter on it.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Sacrifiez une autre créature: Dégagez Grimgrin et mettez un marqueur +1/+1 sur lui.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Sacrificar otra criatura: Endereza a Grimgrin y pon un contador +1/+1 sobre él.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Opfere eine andere Kreatur: Enttappe Grimmfeix und lege eine +1/+1-Marke auf ihn.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Sacrifica un’altra creatura: STAPpa Grimgrin e metti un segnalino +1/+1 su di esso.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[他のクリーチャーを１体生け贄に捧げる：死体生まれのグリムグリンをアンタップし、それの上に＋１/＋１カウンターを１個置く、]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[다른 생물 한 개를 희생한다: 그림그린을 언탭하고 그림그린에 +1/+1 카운터 한 개를 올려놓는다.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Пожертвуйте другое существо: разверните Гримгрина и положите на него один жетон +1/+1.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Sacrifique outra criatura: Desvire Grimgrin e coloque um marcador +1/+1 sobre ele.]]></LOCALISED_TEXT>
+    <COST type="sacrifice">
+      <TARGET_DETERMINATION>
+      return AtLeastOneTargetFromDefinition(6)
+      </TARGET_DETERMINATION>
+      <PLAYTIME>
+      EffectController():ChooseTarget( 6, "CARD_QUERY_CHOOSE_CREATURE_TO_SACRIFICE", EffectDC():Make_Targets(0) )
+      </PLAYTIME>
+      <TARGET_DEFINITION id="6">
+      local filter = Object():GetFilter()
+      filter:Clear()
+      filter:AddCardType( CARD_TYPE_CREATURE )
+      filter:SetPlayer(EffectController())
+      filter:SetCardInstance( Object() )
+      filter:AddExtra( FILTER_EXTRA_FLIP_CARD_INSTANCE ) 
+      filter:SetZone( ZONE_IN_PLAY )
+      filter:SetHint( HINT_ALLIED, EffectController() )
+      filter:NotTargetted()
+      </TARGET_DEFINITION></COST>
+    <RESOLUTION_TIME_ACTION>
+    if EffectSource() ~= nil then
+    	EffectSource():Untap()
+    end
+    </RESOLUTION_TIME_ACTION>
+    <RESOLUTION_TIME_ACTION>
+    if EffectSource() ~= nil then
+    	EffectSource():AddCounters( MTG():PlusOnePlusOneCounters(), 1 )
+    end
+    </RESOLUTION_TIME_ACTION>
+    <AI_AVAILABILITY step="end_of_turn" turn="their_turn" />
+    <AI_AVAILABILITY step="begin_combat" />
+    <AI_AVAILABILITY step="declare_blockers" />
+    <AI_AVAILABILITY type="in_response_dangerous" />
+    <SFX text="TARGET_CHOP_PLAY" />
+  </ACTIVATED_ABILITY>
+  <TRIGGERED_ABILITY dangerous="1">
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Whenever Grimgrin attacks, destroy target creature defending player controls, then put a +1/+1 counter on Grimgrin.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[À chaque fois que Grimgrin attaque, détruisez une créature ciblée que le joueur défenseur contrôle, puis mettez un marqueur +1/+1 sur Grimgrin.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Siempre que Grimgrin ataque, destruye la criatura objetivo que controla el jugador defensor, luego pon un contador +1/+1 sobre Grimgrin.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Immer wenn Grimmfeix angreift, zerstöre eine Kreatur deiner Wahl, die der verteidigende Spieler kontrolliert, und lege dann eine +1/+1-Marke auf Grimmfeix.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Ogniqualvolta Grimgrin attacca, distruggi una creatura bersaglio controllata dal giocatore in difesa, poi metti un segnalino +1/+1 su Grimgrin.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[死体生まれのグリムグリンが攻撃するたび、防御プレイヤーがコントロールするクリーチャー１体を対象とし、それを破壊し、その後死体生まれのグリムグリンの上に＋１/＋１カウンターを１個置く。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[시체의 자식 그림그린이 공격할 때마다, 수비플레이어가 조종하는 생물 한 개를 목표로 정한다. 그 생물을 파괴한 후 시체의 자식 그림그린에 +1/+1 카운터 한 개를 올려놓는다.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Каждый раз, когда Гримгрин атакует, уничтожьте целевое существо под контролем защищающегося игрока, затем положите один жетон +1/+1 на Гримгрина.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Toda vez que Grimgrin atacar, destrua a criatura alvo que o jogador defensor controla e depois coloque um marcador +1/+1 sobre Grimgrin.]]></LOCALISED_TEXT>
+    <TRIGGER value="ATTACKING" simple_qualifier="self" />
+    <TARGET_DEFINITION id="0">
+    local filter = Object():GetFilter()
+    local defendingPlayer = Object():GetPlayerAttacked()
+    filter:Clear()
+    filter:AddCardType( CARD_TYPE_CREATURE )
+    filter:SetPlayer( defendingPlayer )
+    filter:SetZone( ZONE_IN_PLAY )
+    filter:SetHint( HINT_ENEMY, EffectController() )
+    </TARGET_DEFINITION>
+    <TARGET_DETERMINATION>
+    return AtLeastOneTargetFromDefinition(0)
+    </TARGET_DETERMINATION>
+    <PLAY_TIME_ACTION target_choosing="1">
+    EffectController():ChooseTarget( 0, "CARD_QUERY_CHOOSE_CREATURE_TO_DESTROY", EffectDC():Make_Targets(0) )
+    </PLAY_TIME_ACTION>
+    <RESOLUTION_TIME_ACTION ignore_filter="1">
+    local target = EffectDC():Get_Targets(0):Get_NthCardPtr(0)
+    if target ~= nil then   
+    	target:Destroy()  
+    end
+    </RESOLUTION_TIME_ACTION>
+    <RESOLUTION_TIME_ACTION>
+    if EffectSource() ~= nil then
+    	EffectSource():AddCounters( MTG():PlusOnePlusOneCounters(), 1 )
+    end
+    </RESOLUTION_TIME_ACTION>
+    <SFX text="TARGET_CHOP_PLAY" />
+  </TRIGGERED_ABILITY>
+  <STATIC_ABILITY>
+    <CONTINUOUS_ACTION>
+    local characteristics = Object():GetCurrentCharacteristics()
+    characteristics:Characteristic_Set( CHARACTERISTIC_DOESNT_UNTAP, 1 )
+    </CONTINUOUS_ACTION>
+  </STATIC_ABILITY>
+  <SFX text="COMBAT_CHOP_LARGE_ATTACK" power_boundary_min="4" power_boundary_max="-1" />
+  <SFX text="COMBAT_CHOP_SMALL_ATTACK" power_boundary_min="1" power_boundary_max="3" />
+  <AI_BASE_SCORE score="1200" zone="ZONE_IN_PLAY" />
+</CARD_V2>

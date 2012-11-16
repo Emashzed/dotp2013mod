@@ -1,0 +1,76 @@
+<?xml version='1.0'?>
+<CARD_V2>
+  <FILENAME text="THORN_ELEMENTAL_276706" />
+  <CARDNAME text="THORN_ELEMENTAL" />
+  <TITLE>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Thorn Elemental]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Élémental d’épines]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Elemental de espinas]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Dornenelementar]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Elementale Spinato]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[茨の精霊]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[가시 정령]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Элементаль Колючек]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Elemental dos Espinhos]]></LOCALISED_TEXT>
+  </TITLE>
+  <MULTIVERSEID value="276706" />
+  <ARTID value="15672" />
+  <ARTIST name="rk post" />
+  <CASTING_COST cost="{5}{G}{G}" />
+  <FLAVOURTEXT>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Rain from this storm leaves you pinned to the ground like an insect.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[La pluie d’épines vous laissera cloué au sol comme un insecte.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[La lluvia de esta tormenta te deja clavado al suelo como a un insecto.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Ein Regen aus diesem Sturm lässt dich sauber aufgespießt zurück – wie einen Käfer in der Vitrine.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[La pioggia di questa tempesta ti schiaccia al suolo come un insetto.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[この嵐の雨は、お前をまるで昆虫のように大地に留めつけている。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[가시 폭풍에 당한 사람은 고슴도치 신세가 된다.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Этот дождь пришпилит вас к земле, как бабочку на булавку.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[A chuva desta tempestade te deixa espetado ao solo como se fosses um inseto.]]></LOCALISED_TEXT>
+  </FLAVOURTEXT>
+  <TYPE metaname="Creature" />
+  <SUB_TYPE metaname="Elemental" order_de-DE="0" order_es-ES="0" order_fr-FR="0" order_it-IT="0" order_jp-JA="0" order_ko-KR="0" order_pt-BR="0" order_ru-RU="0" />
+  <EXPANSION value="DPG" />
+  <RARITY metaname="R" />
+  <POWER value="7" />
+  <TOUGHNESS value="7" />
+  <TRIGGERED_ABILITY forced_skip="1" filter_zone="ZONE_IN_PLAY">
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[You may have Thorn Elemental assign its combat damage as though it weren’t blocked.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Vous pouvez faire que l’Élémental d’épines attribue ses blessures de combat comme s’il n’était pas bloqué.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Puedes hacer que el Elemental de espinas haga su daño de combate como si no hubiera sido bloqueado.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Du kannst das Dornenelementar seinen Kampfschaden zuweisen lassen, als ob er nicht geblockt worden wäre.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Puoi far assegnare dall’Elementale Spinato il suo danno da combattimento come se non fosse bloccato.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[あなたは茨の精霊の戦闘ダメージを、これがブロックされなかったかのように割り振ってもよい。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[당신은 가시 정령의 전투피해를 방어되지 않은 것처럼 배정할 수 있다.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Вы можете заставить Элементаля Колючек распределить его боевые повреждения, как если бы он не был заблокирован.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Você pode fazer com que Elemental dos Espinhos atribua seu dano de combate como se não tivesse sido bloqueado.]]></LOCALISED_TEXT>
+    <TRIGGER value="BLOCKING">
+    return SecondaryObject() == Object()
+    </TRIGGER>
+    <RESOLUTION_TIME_ACTION>
+    Object():GetPlayer():BeginNewMultipleChoice()   
+    Object():GetPlayer():AddMultipleChoiceAnswer( "CARD_QUERY_OPTION_COMBAT_DAMAGE_TO_PLAYER" )   
+    Object():GetPlayer():AddMultipleChoiceAnswer( "CARD_QUERY_OPTION_COMBAT_DAMAGE_TO_CREATURES" )   
+    Object():GetPlayer():AskMultipleChoiceQuestion( "CARD_QUERY_MC_CHOOSE_DAMAGE_CREATURE_OR_PLAYER" )
+    </RESOLUTION_TIME_ACTION>
+    <RESOLUTION_TIME_ACTION>
+    local decision = Object():GetMultipleChoiceResult()
+    if decision == 0 then
+    	ObjectDC():Set_Int(0, 1)
+    elseif decision == 1 then
+    	ObjectDC():Set_Int(0, 0)
+    end
+    </RESOLUTION_TIME_ACTION>
+  </TRIGGERED_ABILITY>
+  <TRIGGERED_ABILITY internal="1" pre_trigger="1">
+    <TRIGGER value="CREATURE_DEALS_COMBAT_DAMAGE_TO_CREATURE" simple_qualifier="self" />
+    <RESOLUTION_TIME_ACTION>
+    if ObjectDC():Get_Int(0) == 1 then 
+    	Damage():SetReceivingPlayer( SecondaryObject():GetPlayer() )
+    end
+    </RESOLUTION_TIME_ACTION>
+  </TRIGGERED_ABILITY>
+  <SFX text="COMBAT_PIERCE_LARGE_ATTACK" power_boundary_min="4" power_boundary_max="-1" />
+  <SFX text="COMBAT_PIERCE_SMALL_ATTACK" power_boundary_min="1" power_boundary_max="3" />
+  <AI_BASE_SCORE score="600" zone="ZONE_IN_PLAY" />
+</CARD_V2>

@@ -1,0 +1,73 @@
+<?xml version='1.0'?>
+<CARD_V2>
+  <FILENAME text="TURN_THE_TIDE_276990" />
+  <CARDNAME text="TURN_THE_TIDE" />
+  <TITLE>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Turn the Tide]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Changer le cours de la guerre]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Revertir la batalla]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Das Blatt wenden]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Invertire il Flusso]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[形勢一変]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[형세 역전]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Поворот Вспять]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Virar a Maré]]></LOCALISED_TEXT>
+  </TITLE>
+  <MULTIVERSEID value="276990" />
+  <ARTID value="133202" />
+  <ARTIST name="Jason Felix" />
+  <CASTING_COST cost="{1}{U}" />
+  <FLAVOURTEXT>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[“Let their mindless armies come and face the might of genius.”
+—Varil, Neurok partisan]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[« Que leurs armées décérébrées viennent affronter la puissance du génie. »
+—Varil, partisan neurok]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[“Que sus ejércitos sin mente vengan y se enfrenten al poder de la genialidad.”
+—Varil, partisano néurok]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[„Sollen ihre hirnlosen Armeen doch kommen und sich mit der Macht der Genialität messen.“
+—Varil, Neurok-Partisane]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[“Lascia che i loro eserciti insensati vengano ad affrontare la potenza del genio.”
+—Varil, fautore Neurok]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[「精神無き軍勢など来るに任せろ。天賦の力を見せてやる。」
+—ニューロックの非正規兵、ヴァリル]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[“생각 없는 군대여, 이리 오거라. 천재성의 힘을 보여주마.”
+—뉴록 유격병 바릴]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[«Пусть их безмозглые армии придут и столкнутся с мощью гения».
+— Варил, нейрокский поборник]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[“Que seus exércitos descerebrados venham e enfrentem o poder da genialidade.”
+— Varil, guerrilheiro neuroque]]></LOCALISED_TEXT>
+  </FLAVOURTEXT>
+  <TYPE metaname="Instant" />
+  <EXPANSION value="DPG" />
+  <RARITY metaname="C" />
+  <SPELL_ABILITY filter_zone="ZONE_IN_PLAY">
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Creatures your opponents control get -2/-0 until end of turn.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Les créatures que vos adversaires contrôlent gagnent -2/-0 jusqu’à la fin du tour.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Las criaturas que controlan tus oponentes obtienen -2/-0 hasta el final del turno.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Kreaturen, die deine Gegner kontrollieren, erhalten -2/-0 bis zum Ende des Zuges.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Le creature controllate dai tuoi avversari prendono -2/-0 fino alla fine del turno.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[あなたの対戦相手がコントロールするクリーチャーは、ターン終了時まで－２/－０の修整を受ける。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[상대가 조종하는 생물들은 턴종료까지 -2/-0을 받는다.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Существа под контролем ваших оппонентов получают -2/-0 до конца хода.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[As criaturas controladas por seus oponentes recebem -2/-0 até o final do turno.]]></LOCALISED_TEXT>
+    <FILTER>
+    return (FilteredCard() ~= nil and
+    FilteredCard():GetZone() == ( ZONE_IN_PLAY ) and
+    FilteredCard():GetPlayer():GetTeam() ~= EffectController():GetTeam() and
+    FilteredCard():GetCardType():Test(CARD_TYPE_CREATURE) ~= 0)
+    </FILTER>
+    <CONTINUOUS_ACTION layer="7C">
+    if FilteredCard() ~= nil then
+    	local characteristics = FilteredCard():GetCurrentCharacteristics()
+    	if characteristics ~= nil then
+    		characteristics:Power_Add( -2 )
+    		characteristics:Toughness_Add( 0 )
+    	end
+    end
+    </CONTINUOUS_ACTION>
+    <DURATION simple_duration="UntilEOT" />
+    <SFX text="GLOBAL_MASSACRE_PLAY" />
+  </SPELL_ABILITY>
+  <AI_AVAILABILITY step="declare_blockers" />
+  <AI_BASE_SCORE score="600" zone="ZONE_HAND" />
+</CARD_V2>

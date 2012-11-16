@@ -1,0 +1,78 @@
+<?xml version='1.0'?>
+<CARD_V2>
+  <FILENAME text="FALSE_CURE_277198" />
+  <CARDNAME text="FALSE_CURE" />
+  <TITLE>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[False Cure]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Fausse guérison]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Cura falsa]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Verkehrtes Heilmittel]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Falsa Cura]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[偽りの治療]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[거짓 치료]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Ложное Лекарство]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Falsa Cura]]></LOCALISED_TEXT>
+  </TITLE>
+  <MULTIVERSEID value="277198" />
+  <ARTID value="43085" />
+  <ARTIST name="Bradley Williams" />
+  <CASTING_COST cost="{B}{B}" />
+  <FLAVOURTEXT>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[“I do unto others as others have done unto me.”
+—Phage the Untouchable]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[« Je rends aux autres la monnaie de leur pièce. »
+—Phage l’Intouchable]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[“Yo les hago a otros lo que otros me han hecho.”
+—Phage la Intocable]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[„Ich füge anderen das zu, was sie mir zugefügt haben.“
+—Phage die Unberührbare]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[“Faccio agli altri quello che altri hanno fatto a me.”
+—Phage l’Intoccabile]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[「奴らが私にしたように、私も奴らにしてやるのさ。」
+—触れられざる者フェイジ]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[“나는 받은 대로 베풀 뿐이다.”
+—불가촉의 페이지]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[«Я поступаю с другими так же, как поступили со мной».
+— Фейдж Неприкасаемая]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[“Eu faço aos outros o que os outros fizeram a mim...”
+— Phage, a Intocável]]></LOCALISED_TEXT>
+  </FLAVOURTEXT>
+  <TYPE metaname="Instant" />
+  <EXPANSION value="DPG" />
+  <RARITY metaname="R" />
+  <SPELL_ABILITY>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Until end of turn, whenever a player gains life, that player loses 2 life for each 1 life he or she gained.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Jusqu’à la fin du tour, à chaque fois qu’un joueur gagne des points de vie, ce joueur perd 2 points de vie pour chaque 1 point de vie gagné.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Hasta el final del turno, siempre que un jugador gane vida, ese jugador pierde 2 vidas por cada vida que ganó.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Immer wenn ein Spieler bis zum Ende des Zuges Lebenspunkte dazuerhält, verliert dieser Spieler 2 Lebenspunkte für jeden Lebenspunkt, den er dazuerhalten hat.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Fino alla fine del turno, ogniqualvolta un giocatore guadagna punti vita, quel giocatore perde 2 punti vita per ogni punto vita che ha guadagnato.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[ターン終了時まで、いずれかのプレイヤーがライフを得るたび、そのプレイヤーは自分が得る１点のライフにつき２点のライフを失う。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[턴종료까지, 플레이어가 생명점을 얻을 때마다, 그 플레이어는 얻은 생명 1점마다 생명 2점을 잃는다.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[До конца хода, каждый раз, когда игрок получает жизнь, тот игрок теряет 2 жизни за каждую 1 полученную им жизнь.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Até o final do turno, toda vez que um jogador ganhar pontos de vida, ele perderá 2 pontos de vida para cada 1 ponto de vida que ganhou.]]></LOCALISED_TEXT>
+    <RESOLUTION_TIME_ACTION>
+    MTG():CreateDelayedTrigger(1, nil)
+    </RESOLUTION_TIME_ACTION>
+    <CONTINUOUS_ACTION layer="0">
+    local num_players = MTG():GetNumberOfPlayers()
+    for i=0,num_players-1 do
+    	local player = MTG():GetNthPlayer(i)
+        if player ~= nil then
+    		player:AddBadge(PLAYER_BADGE_ICON_REPLACEMENT_REDIRECTION, "PLAYER_REPLACEMENT_ICON")
+    	end
+    end
+    </CONTINUOUS_ACTION>
+    <DURATION simple_duration="UntilEOT" />
+  </SPELL_ABILITY>
+  <TRIGGERED_ABILITY resource_id="1">
+    <TRIGGER value="PLAYER_GAINED_LIFE" />
+    <CLEANUP simple_cleanup="EndOfTurn" />
+    <RESOLUTION_TIME_ACTION>
+    local life_amount = GetAmount()
+    if (TriggerPlayer() ~= nil) then   
+    	TriggerPlayer():LoseLife( 2*life_amount )   
+    end
+    </RESOLUTION_TIME_ACTION>
+  </TRIGGERED_ABILITY>
+  <AI_AVAILABILITY step="main_1" turn="my_turn" />
+</CARD_V2>

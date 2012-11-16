@@ -1,0 +1,105 @@
+<?xml version='1.0'?>
+<CARD_V2>
+  <FILENAME text="SPIN_ENGINE_280074" />
+  <CARDNAME text="SPIN_ENGINE" />
+  <TITLE>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Spin Engine]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Machine à pivots]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Motor de giro]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Drallmaschine]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Macchina Rotatoria]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[回転エンジン]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[회전 엔진]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Машина Вращения]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Máquina Rodopiante]]></LOCALISED_TEXT>
+  </TITLE>
+  <MULTIVERSEID value="280074" />
+  <ARTID value="133236" />
+  <ARTIST name="Pete Venters" />
+  <CASTING_COST cost="{3}" />
+  <FLAVOURTEXT>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[“It will be battle-ready before our strike at Oxid Ridge, and it will guarantee our victory.”
+—Ketuc of the Helm]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[« Elle sera fin prête avant notre attaque au Contrefort d’Oxid, et elle garantira notre victoire. »
+—Ketuc de la tribu du Heaume]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[“Estará listo para la batalla antes de nuestro ataque al Risco Oxidado, y garantizará nuestra victoria.”
+—Ketuc del Yelmo]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[„Sie wird einsatzbereit sein, bevor wir am Oxid-Kamm zuschlagen, und sie wird uns den Sieg sichern.“
+—Ketuc vom Helmclan]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[“Sarà pronta a combattere prima del nostro assalto a Cresta Oxid e ci garantirà la vittoria.”
+—Ketuc del Timone]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[「俺らがオキシド峠に攻め込む前にこいつの戦備も整うだろうし、俺らの勝利も確実だな。」
+—兜のケトゥック]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[“옥시드 산마루를 공격하기 전에 회전 엔진이 준비될 것이다. 승리는 보장된 것이나 다름없지.”
+—헬름 부족의 케툭]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[«Она будет готова к бою перед нашим нападением на Оксидов Кряж и обеспечит нам победу».
+— Кетук из племени Шлема]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[“Ela estará pronta para a batalha antes de nosso ataque na Cordilheira Óxida e garantirá a nossa vitória.”
+— Ketuc do Elmo]]></LOCALISED_TEXT>
+  </FLAVOURTEXT>
+  <TYPE metaname="Artifact" />
+  <TYPE metaname="Creature" />
+  <SUB_TYPE metaname="Construct" order_de-DE="0" order_es-ES="0" order_fr-FR="0" order_it-IT="0" order_jp-JA="0" order_ko-KR="0" order_pt-BR="0" order_ru-RU="0" />
+  <EXPANSION value="DPG" />
+  <RARITY metaname="C" />
+  <POWER value="3" />
+  <TOUGHNESS value="1" />
+  <ACTIVATED_ABILITY filter_zone="ZONE_IN_PLAY">
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[{R}: Target creature can’t block Spin Engine this turn.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[{R}: La créature ciblée ne peut pas bloquer la Machine à pivots ce tour-ci.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[{R}: La criatura objetivo no puede bloquear al Motor de giro este turno.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[{R}: Eine Kreatur deiner Wahl kann die Drallmaschine in diesem Zug nicht blocken.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[{R}: Una creatura bersaglio non può bloccare la Macchina Rotatoria in questo turno.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[{R}：クリーチャー１体を対象とする。このターン、それでは回転エンジンをブロックできない。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[{R}: 생물 한 개를 목표로 정한다. 그 생물은 이 턴에 회전 엔진을 방어할 수 없다.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[{R}: целевое существо не может блокировать Машину Вращения в этом ходу.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[{R}: A criatura alvo não pode bloquear Máquina Rodopiante neste turno.]]></LOCALISED_TEXT>
+    <COST type="Mana" cost="{R}" />
+    <TARGET_DEFINITION id="0">
+    local filter = Object():GetFilter()
+    filter:Clear()
+    filter:AddCardType( CARD_TYPE_CREATURE )
+    filter:SetZone( ZONE_IN_PLAY )
+    filter:SetHint( HINT_ENEMY, EffectController() )
+    </TARGET_DEFINITION>
+    <TARGET_DETERMINATION>
+    return AtLeastOneTargetFromDefinition(0)
+    </TARGET_DETERMINATION>
+    <PLAY_TIME_ACTION target_choosing="1">
+    EffectController():ChooseTarget( 0, "CARD_QUERY_CHOOSE_CREATURE_GAIN_CANT_BLOCK", EffectDC():Make_Targets(0) )
+    </PLAY_TIME_ACTION>
+    <RESOLUTION_TIME_ACTION>
+    local target = EffectDC():Get_Targets(0):Get_CardPtr(0)
+    if target ~= nil then
+    	ObjectDC():Int_Inc( 1000 )
+    	ObjectDC():Set_ProtectedCardPtr( 1000 + ObjectDC():Get_Int( 1000 ), target )	
+    end
+    </RESOLUTION_TIME_ACTION>
+    <AI_AVAILABILITY step="begin_combat" />
+  </ACTIVATED_ABILITY>
+  <TRIGGERED_ABILITY internal="1" pre_trigger="1">
+    <TRIGGER value="EVASION_TEST">
+    -- test secondary object vs all stored card ptrs.
+    for i = 1, ObjectDC():Get_Int( 1000 ) do
+    	if (SecondaryObject() == (ObjectDC():Get_ProtectedCardPtr( 1000 + i ) )) then
+    		return true
+    	end
+    end
+    return false
+    </TRIGGER>
+  </TRIGGERED_ABILITY>
+  <TRIGGERED_ABILITY internal="1">
+    <TRIGGER value="BEGINNING_OF_STEP" simple_qualifier="controller">
+    return ( MTG():GetStep() == STEP_END_OF_TURN )
+    </TRIGGER>
+    <RESOLUTION_TIME_ACTION>
+    for i = 1, ObjectDC():Get_Int( 1000 ) do
+    	ObjectDC():Set_ProtectedCardPtr( (1000 + i), nil )
+    end
+    ObjectDC():Set_Int(1000, 0)
+    </RESOLUTION_TIME_ACTION>
+  </TRIGGERED_ABILITY>
+  <SFX text="COMBAT_BLUNT_LARGE_ATTACK" power_boundary_min="4" power_boundary_max="-1" />
+  <SFX text="COMBAT_BLUNT_SMALL_ATTACK" power_boundary_min="1" power_boundary_max="3" />
+  <AI_BASE_SCORE score="300" zone="ZONE_IN_PLAY" />
+</CARD_V2>

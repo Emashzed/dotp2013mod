@@ -1,0 +1,102 @@
+<?xml version='1.0'?>
+<CARD_V2>
+  <FILENAME text="NARCOLEPSY_277260" />
+  <CARDNAME text="NARCOLEPSY" />
+  <TITLE>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Narcolepsy]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Narcolepsie]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Narcolepsia]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Narkolepsie]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Narcolessia]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[睡眠発作]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[기면증]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Нарколепсия]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Narcolepsia]]></LOCALISED_TEXT>
+  </TITLE>
+  <MULTIVERSEID value="277260" />
+  <ARTID value="127371" />
+  <ARTIST name="Johann Bodin" />
+  <CASTING_COST cost="{1}{U}" />
+  <FLAVOURTEXT>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[“It’s so cute when it’s sleeping, isn’t it? Actually, it’s still as abhorrent as ever, but at least it’s not trying to kill us.”
+—Noyan Dar, Tazeem lullmage]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[« C’est tellement mignon quand ça dort, hein ? En fait non, c’est aussi abject endormi qu’éveillé, mais au moins ça n’essaie pas de nous tuer. »
+—Noyan Dar, ataraxmage de Tazeem]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[“Es adorable cuando duerme, ¿no? En realidad, es tan horrible como siempre, pero al menos no intenta matarnos.”
+—Noyan Dar, mago arrullador de Tazeem]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[„Es sieht so süß aus, wenn es schläft, oder? Nun, eigentlich ist es so abstoßend wie immer, aber zumindest will es uns gerade nicht töten.“
+—Noyan Dar, Ruhezauberer aus Tazeem]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[“È così carino quando dorme, vero? O meglio, è ripugnante come al solito, ma almeno non cerca di ucciderci.”
+—Noyan Dar, mitigatore di Tazeem]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[「寝ているときは可愛いと思わないか？  まあ、それでも忌まわしきものには違いないんだが、少なくとも我々を殺そうとはしていない。」
+—タジームの凪魔道士、ノヤン・ダール]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[“잘 때 보면 진짜 귀엽지 않나? 사실, 잘 때는 우리를 죽이려 하지 않는다 뿐이지 혐오스러운 건 마찬가지라네.”
+—타짐의 진정술사 노얀 다르]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[«Такой хорошенький, когда спит, не правда ли? На самом деле, он ужасен как обычно, но, по крайней мере, сейчас он не пытается нас прикончить».
+— Нойен Дар, маг-баюн из Тазима]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[“É tão meigo quando dorme, não? Na verdade, é tão detestável quanto antes, mas pelo menos não está tentando nos matar.”
+— Noyan Dar, Mago Anulador de Tazeem]]></LOCALISED_TEXT>
+  </FLAVOURTEXT>
+  <TYPE metaname="Enchantment" />
+  <SUB_TYPE metaname="Aura" order_de-DE="0" order_es-ES="0" order_fr-FR="0" order_it-IT="0" order_jp-JA="0" order_ko-KR="0" order_pt-BR="0" order_ru-RU="0" />
+  <EXPANSION value="DPG" />
+  <RARITY metaname="C" />
+  <STATIC_ABILITY attach_filter="1" filter_zone="ZONE_IN_PLAY">
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Enchant creature]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Enchanter : créature]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Encantar criatura.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Kreaturenverzauberung]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Incanta creatura]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[エンチャント（クリーチャー）]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[생물에게 부여]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Зачаровать существо]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Encantar criatura]]></LOCALISED_TEXT>
+    <CONTINUOUS_ACTION>
+    local attach_filter = Object():AttachmentFilter_Get()
+    attach_filter:Clear()
+    attach_filter:AddCardType( CARD_TYPE_CREATURE )
+    </CONTINUOUS_ACTION>
+  </STATIC_ABILITY>
+  <TRIGGERED_ABILITY dangerous="1">
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[At the beginning of each upkeep, if enchanted creature is untapped, tap it.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Au début de chaque entretien, si la créature enchantée est dégagée, engagez-la.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Al comienzo de cada mantenimiento, si la criatura encantada está enderezada, gírala.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Falls zu Beginn eines Versorgungssegments die verzauberte Kreatur ungetappt ist, tappe sie.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[All’inizio di ogni mantenimento, se la creatura incantata è STAPpata, TAPpala.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[各アップキープの開始時に、エンチャントされているクリーチャーがアンタップ状態である場合、それをタップする。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[각 유지단 시작에, 부여된 생물이 언탭되어 있다면, 그 생물을 탭한다.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[В начале каждого шага поддержки, если зачарованное существо развернуто, поверните его.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[No início de cada manutenção, se a criatura encantada estiver desvirada, vire-a.]]></LOCALISED_TEXT>
+    <TRIGGER value="BEGINNING_OF_STEP">
+    return (MTG():GetStep() == STEP_UPKEEP and TriggeredForMe() and Object():GetParent():Tapped() == 0 )  
+    </TRIGGER>
+    <RESOLUTION_TIME_ACTION>
+    local parent = Object():GetParent()
+    if parent ~= nil and parent:Tapped() == 0 then
+    	parent:Tap()  
+    end
+    </RESOLUTION_TIME_ACTION>
+  </TRIGGERED_ABILITY>
+  <SPELL_ABILITY attach_filter="1" dangerous="1" filter_zone="ZONE_IN_PLAY">
+    <TARGET_DEFINITION id="0">
+    local filter = Object():GetFilter()
+    filter:Clear()
+    filter:AddCardType( CARD_TYPE_CREATURE )
+    filter:SetZone( ZONE_IN_PLAY )
+    filter:SetHint( HINT_ENEMY_ONLY, EffectController() )
+    </TARGET_DEFINITION>
+    <TARGET_DETERMINATION>
+    return AtLeastOneTargetFromDefinition(0)
+    </TARGET_DETERMINATION>
+    <PLAY_TIME_ACTION target_choosing="1">
+    EffectController():ChooseTarget( 0, "CARD_QUERY_CHOOSE_CREATURE_TO_ENCHANT", EffectDC():Make_Targets(0) )
+    </PLAY_TIME_ACTION>
+    <RESOLUTION_TIME_ACTION>
+    local target_card = EffectDC():Get_Targets(0):Get_CardPtr(0)
+    if target_card ~= nil then
+          Object():Enchant( target_card )
+    end
+    </RESOLUTION_TIME_ACTION>
+  </SPELL_ABILITY>
+  <AI_BASE_SCORE score="900" zone="ZONE_HAND" />
+</CARD_V2>
