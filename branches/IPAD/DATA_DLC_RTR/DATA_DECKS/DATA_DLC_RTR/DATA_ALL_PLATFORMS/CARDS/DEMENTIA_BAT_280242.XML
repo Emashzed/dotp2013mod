@@ -1,0 +1,116 @@
+<?xml version='1.0'?>
+<CARD_V2>
+  <FILENAME text="DEMENTIA_BAT_280242" />
+  <CARDNAME text="DEMENTIA_BAT" />
+  <TITLE>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Dementia Bat]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Chauve-souris de démence]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Murciélago de demencia]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Wahnwitzfledermaus]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Pipistrello della Demenza]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[狂気コウモリ]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[착란의 박쥐]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Нетопырь Слабоумия]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Morcego da Demência]]></LOCALISED_TEXT>
+  </TITLE>
+  <MULTIVERSEID value="280242" />
+  <ARTID value="134423" />
+  <ARTIST name="Daarken" />
+  <CASTING_COST cost="{4}{B}" />
+  <FLAVOURTEXT>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[“When terror outweighs all other thoughts, they will understand that I am the true Father of Machines.”
+—Azax-Azog, the Demon Thane]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[« Quand la terreur supplantera toutes les pensées, ils comprendront que je suis le véritable Père des Machines. »
+—Azax-Azog, thane démon]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[“Cuando el terror anule todos los otros pensamientos, entenderán que soy el verdadero Padre de las Máquinas.”
+—Azax-Azog, el barón demonio]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[„Wenn die Furcht alle anderen Gedanken verdrängt, werden sie verstehen, dass ich der wahre Vater der Maschinen bin.“
+—Azax-Azog, der Than der Dämonen]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[“Quando il terrore supererà tutti gli altri pensieri, capiranno che sono io il vero Padre delle Macchine.”
+—Azax-Azog, il Demone Thane]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[「恐怖が他のあらゆる思考を凌駕したとき、奴らは我こそが真の機械の父だと知るだろう。」
+—悪魔の長、アザックス＝アザグ]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[“공포가 정신을 지배하면, 내가 진정한 기계의 아버지임을 깨닫게 되리라.”
+—악마 종사 아작스-아조그]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[«Когда ужас затмит собой все другие мысли, они поймут, что я — истинный Отец Машин».
+— Азакс-Азог, тан-демон]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[“Quando o terror suplantar todos os outros pensamentos, eles entenderão que eu sou o verdadeiro Pai das Máquinas.”
+— Azax-Azog, o Thane Demoníaco]]></LOCALISED_TEXT>
+  </FLAVOURTEXT>
+  <TYPE metaname="Creature" />
+  <SUB_TYPE metaname="Bat" order_de-DE="0" order_es-ES="0" order_fr-FR="0" order_it-IT="0" order_jp-JA="0" order_ko-KR="0" order_pt-BR="0" order_ru-RU="0" />
+  <EXPANSION value="DPG" />
+  <RARITY metaname="C" />
+  <POWER value="2" />
+  <TOUGHNESS value="2" />
+  <STATIC_ABILITY>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Flying]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Vol]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Vuela.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Fliegend]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Volare]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[飛行]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[비행]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Полет]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Voar]]></LOCALISED_TEXT>
+    <CONTINUOUS_ACTION>
+    local characteristics = Object():GetCurrentCharacteristics()
+    characteristics:Characteristic_Set( CHARACTERISTIC_FLYING, 1 )
+    </CONTINUOUS_ACTION>
+  </STATIC_ABILITY>
+  <ACTIVATED_ABILITY>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[{4}{B}, Sacrifice Dementia Bat: Target player discards two cards.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[{4}{B}, sacrifiez la Chauve-souris de démence: Le joueur ciblé se défausse de deux cartes.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[{4}{B}, sacrificar el Murciélago de demencia: El jugador objetivo descarta dos cartas.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[{4}{B}, opfere die Wahnwitzfledermaus: Ein Spieler deiner Wahl wirft zwei Karten aus seiner Hand ab.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[{4}{B}, Sacrifica il Pipistrello della Demenza: Un giocatore bersaglio scarta due carte.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[{4}{B}, 狂気コウモリを生け贄に捧げる：プレイヤー１人を対象とする。そのプレイヤーはカードを２枚捨てる。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[{4}{B}, 착란의 박쥐를 희생한다: 플레이어 한 명을 목표로 정한다. 그 플레이어는 카드 두 장을 버린다.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[{4}{B}, пожертвуйте Нетопыря Слабоумия: целевой игрок сбрасывает две карты.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[{4}{B}, Sacrifique Morcego da Demência: O jogador alvo descarta dois cards.]]></LOCALISED_TEXT>
+    <COST type="Mana" cost="{4}{B}" />
+    <COST type="SacrificeSelf" />
+    <TARGET_DEFINITION id="0">
+    local filter = Object():GetFilter()
+    filter:Clear()
+    filter:SetFilterType( FILTER_TYPE_PLAYERS )
+    filter:SetHint( HINT_ENEMY, EffectController() )
+    </TARGET_DEFINITION>
+    <TARGET_DETERMINATION>
+    return AtLeastOneTargetFromDefinition(0)
+    </TARGET_DETERMINATION>
+    <PLAY_TIME_ACTION target_choosing="1">
+    EffectController():ChooseTarget( 0, "CARD_QUERY_CHOOSE_PLAYER_DISCARD_2", EffectDC():Make_Targets(0) )
+    </PLAY_TIME_ACTION>
+    <RESOLUTION_TIME_ACTION>
+    local player = EffectDC():Get_Targets(0):Get_PlayerPtr(0)
+    if player ~= nil then
+    	local filter = Object():GetFilter()
+    	filter:Clear()
+    	filter:SetZone( ZONE_HAND ) 
+    	filter:SetPlayer( player )
+    	filter:NotTargetted()
+    	player:SetTargetCount( 2 )
+    	for i=0,2-1 do
+    		player:SetTargetPrompt( i, "CARD_QUERY_CHOOSE_CARD_TO_DISCARD_2" )
+    	end
+    	player:ChooseTargets( NO_VALIDATION, EffectDC():Make_Targets(1) ) 
+    end
+    </RESOLUTION_TIME_ACTION>
+    <RESOLUTION_TIME_ACTION>
+    local player = EffectDC():Get_Targets(0):Get_PlayerPtr(0)
+    if player ~= nil then 
+    	for i = 0,(2-1) do
+    		local target_card = EffectDC():Get_Targets(1):Get_CardPtr(i)
+    		if target_card ~= nil  then
+    			target_card:Discard()
+    		end
+    	end
+    end
+    </RESOLUTION_TIME_ACTION>
+    <AI_AVAILABILITY step="declare_blockers" blocking_or_blocked="1" />
+  </ACTIVATED_ABILITY>
+  <HELP title="MORE_INFO_BADGE_TITLE_10" body="MORE_INFO_BADGE_BODY_10" zone="ZONE_ANY" />
+  <SFX text="COMBAT_FANG_LARGE_ATTACK" power_boundary_min="4" power_boundary_max="-1" />
+  <SFX text="COMBAT_FANG_SMALL_ATTACK" power_boundary_min="1" power_boundary_max="3" />
+</CARD_V2>

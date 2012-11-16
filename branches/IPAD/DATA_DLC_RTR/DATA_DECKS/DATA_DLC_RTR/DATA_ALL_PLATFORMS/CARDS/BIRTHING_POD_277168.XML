@@ -1,0 +1,87 @@
+<?xml version='1.0'?>
+<CARD_V2>
+  <FILENAME text="BIRTHING_POD_277168" />
+  <CARDNAME text="BIRTHING_POD" />
+  <TITLE>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Birthing Pod]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Cosse de gestation]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Vaina de nacimiento]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Gebärhalterung]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Capsula della Genesi]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[出産の殻]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[부화 주머니]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Родильный Кокон]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Casulo de Nascimento]]></LOCALISED_TEXT>
+  </TITLE>
+  <MULTIVERSEID value="277168" />
+  <ARTID value="134268" />
+  <ARTIST name="Daarken" />
+  <CASTING_COST cost="{3}{G/P}" />
+  <TYPE metaname="Artifact" />
+  <EXPANSION value="DPG" />
+  <RARITY metaname="R" />
+  <ACTIVATED_ABILITY auto_skip="1" sorcery_time="1">
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[{1}{L}, {T}, Sacrifice a creature: Search your library for a creature card with converted mana cost equal to 1 plus the sacrificed creature’s converted mana cost, put that card onto the battlefield, then shuffle your library. Activate this ability only any time you could cast a sorcery.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[{1}{L}, {T}, sacrifiez une créature: Cherchez dans votre bibliothèque une carte de créature ayant un coût converti de mana égal à 1 plus le coût converti de mana de la créature sacrifiée, mettez cette carte sur le champ de bataille, puis mélangez votre bibliothèque. N’activez cette capacité que lorsque vous pourriez lancer un rituel.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[{1}{L}, {T}, sacrificar una criatura: Busca en tu biblioteca una carta de criatura con coste de maná convertido igual a 1 más el coste de maná convertido de la criatura sacrificada, pon esa carta en el campo de batalla y luego baraja tu biblioteca. Activa esta habilidad sólo cuando puedas lanzar un conjuro.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[{1}{L}, {T}, opfere eine Kreatur: Durchsuche deine Bibliothek nach einer Kreaturenkarte mit umgewandelten Manakosten von 1 plus den umgewandelten Manakosten der geopferten Kreatur, bringe diese Karte ins Spiel und mische dann deine Bibliothek. Aktiviere diese Fähigkeit nur zu einem Zeitpunkt, zu dem du auch eine Hexerei wirken könntest.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[{1}{L}, {T}, Sacrifica una creatura: Passa in rassegna il tuo grimorio per una carta creatura con costo di mana convertito pari a 1 più il costo di mana convertito della creatura sacrificata, metti sul campo di battaglia quella carta, poi rimescola il tuo grimorio. Attiva questa abilità solo quando potresti lanciare una stregoneria.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[{1}{L}, {T}, クリーチャーを１体生け贄に捧げる：あなたのライブラリーから、その生け贄に捧げたクリーチャーの点数で見たマナ・コストに１を足した値に等しい点数で見たマナ・コストを持つクリーチャー・カードを１枚探し、そのカードを戦場に出し、その後あなたのライブラリーを切り直す。 この能力は、あなたがソーサリーを唱えられるときにのみ起動できる。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[{1}{L}, {T}, 생물 한 개를 희생한다: 당신의 서고에서 전환마나비용이 희생한 생물의 전환마나비용에 1을 더한 비용과 같은 생물 카드 한 장을 찾아 전장에 놓은 후 당신의 서고를 섞는다. 당신이 집중마법을 발동할 수 있는 시기에만 이 능력을 활성화할 수 있다.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[{1}{L}, {T}, пожертвуйте существо: найдите в вашей библиотеке карту существа, конвертированная мана-стоимость которого равна сумме 1 и конвертированной мана-стоимости пожертвованного существа, положите ту карту на поле битвы, затем перетасуйте вашу библиотеку. Активируйте эту способность только при возможности разыгрывать волшебство.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[{1}{L}, {T}, Sacrifique uma criatura: Procure em seu grimório um card de criatura com custo de mana convertido igual a 1 mais o custo de mana convertido da criatura sacrificada, coloque aquele card no campo de batalha e depois embaralhe seu grimório. Ative esta habilidade somente nos momentos em que poderia conjurar um feitiço.]]></LOCALISED_TEXT>
+    <COST type="Mana" cost="{1}{G/P}" />
+    <COST type="TapSelf" />
+    <COST type="generic">
+      <TARGET_DEFINITION id="6">
+      local filter = Object():GetFilter()
+      filter:Clear()
+      filter:AddCardType( CARD_TYPE_CREATURE )
+      filter:SetPlayer( EffectController() )
+      filter:SetZone( ZONE_IN_PLAY )
+      filter:SetHint( HINT_ENEMY, EffectController() )
+      filter:NotTargetted()
+      </TARGET_DEFINITION>
+      <TARGET_DETERMINATION>
+      return AtLeastOneTargetFromDefinition(6)
+      </TARGET_DETERMINATION>
+      <PLAY_TIME_ACTION>
+        EffectController():ChooseTarget( 6, "CARD_QUERY_CHOOSE_CREATURE_TO_SACRIFICE", EffectDC():Make_Targets(0) )
+      </PLAY_TIME_ACTION>
+      <RESOLUTION_TIME_ACTION>
+      local target = EffectDC():Get_Targets(0):Get_CardPtr(0)
+      if target ~= nil then
+         	EffectDC():Get_Targets(0):LKIShield_CardPtr(0)
+         	EffectController():Sacrifice(target)  
+      end
+      </RESOLUTION_TIME_ACTION></COST>
+    <RESOLUTION_TIME_ACTION>
+    if EffectDC() ~= nil then 
+    	local sacrifice = EffectDC():Get_Targets(0):Get_CardPtr(0)
+    	if sacrifice ~= nil then
+    		local Sac_CMC = (sacrifice:GetConvertedManaCost()) + 1
+    		local filter = Object():GetFilter()
+    		local player = EffectController()
+    		
+    		player:MarkSearchedLibrary()
+    		filter:Clear()
+    		filter:SetZone( ZONE_LIBRARY )
+    		filter:SetPlayer( player )
+    		filter:AddCardType(CARD_TYPE_CREATURE)
+    		filter:SetConvertedCostValue(Sac_CMC)
+    		filter:NotTargetted()
+    		player:SetTargetCount( 1 )
+    		player:ChooseTarget( NO_VALIDATION, "CARD_QUERY_CHOOSE_CREATURE_TO_PUT_ONTO_BATTLEFIELD", EffectDC():Make_Targets(1) )
+    	end
+    end
+    </RESOLUTION_TIME_ACTION>
+    <RESOLUTION_TIME_ACTION>
+    if EffectDC() ~= nil then 
+    	local target = EffectDC():Get_Targets(1):Get_CardPtr(0)
+    	if  target ~= nil then
+    		target:PutIntoPlay( EffectController() )
+    	end
+    end
+    </RESOLUTION_TIME_ACTION>
+  </ACTIVATED_ABILITY>
+</CARD_V2>

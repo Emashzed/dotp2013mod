@@ -1,0 +1,102 @@
+<?xml version='1.0'?>
+<CARD_V2>
+  <FILENAME text="STEEL_HELLKITE_288692" />
+  <CARDNAME text="STEEL_HELLKITE" />
+  <TITLE>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Steel Hellkite]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Escouflenfer d’acier]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Engendro de acero]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Stählerner Höllendrache]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Nibbio Infernale d’Acciaio]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[鋼のヘルカイト]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[강철 지옥룡]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Стальной Змей]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Dragão Avérneo de Aço]]></LOCALISED_TEXT>
+  </TITLE>
+  <MULTIVERSEID value="288692" />
+  <ARTID value="131026" />
+  <ARTIST name="James Paick" />
+  <CASTING_COST cost="{6}" />
+  <TYPE metaname="Artifact" />
+  <TYPE metaname="Creature" />
+  <SUB_TYPE metaname="Dragon" order_de-DE="0" order_es-ES="0" order_fr-FR="0" order_it-IT="0" order_jp-JA="0" order_ko-KR="0" order_pt-BR="0" order_ru-RU="0" />
+  <EXPANSION value="DPG" />
+  <RARITY metaname="R" />
+  <POWER value="5" />
+  <TOUGHNESS value="5" />
+  <STATIC_ABILITY>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Flying]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Vol]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Vuela.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Fliegend]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Volare]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[飛行]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[비행]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Полет]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Voar]]></LOCALISED_TEXT>
+    <CONTINUOUS_ACTION>
+    local characteristics = Object():GetCurrentCharacteristics()
+    characteristics:Characteristic_Set( CHARACTERISTIC_FLYING, 1 )
+    </CONTINUOUS_ACTION>
+  </STATIC_ABILITY>
+  <ACTIVATED_ABILITY auto_skip="1" firebreathing="1" filter_zone="ZONE_IN_PLAY">
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[{2}: Steel Hellkite gets +1/+0 until end of turn.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[{2}: L’Escouflenfer d’acier gagne +1/+0 jusqu’à la fin du tour.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[{2}: El Engendro de acero obtiene +1/+0 hasta el final del turno.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[{2}: Der Stählerne Höllendrache erhält +1/+0 bis zum Ende des Zuges.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[{2}: Il Nibbio Infernale d’Acciaio prende +1/+0 fino alla fine del turno.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[{2}：鋼のヘルカイトはターン終了時まで＋１/＋０の修整を受ける。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[{2}: 강철 지옥룡은 턴종료까지 +1/+0을 받는다.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[{2}: Стальной Змей получает +1/+0 до конца хода.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[{2}: Dragão Avérneo de Aço recebe +1/+0 até o final do turno.]]></LOCALISED_TEXT>
+    <COST type="Mana" cost="{2}" />
+    <CONTINUOUS_ACTION layer="7C">
+    if EffectSource() ~= nil then
+    	EffectSource():GetCurrentCharacteristics():Power_Add( 1 )
+    	EffectSource():GetCurrentCharacteristics():Toughness_Add( 0 )
+    end
+    </CONTINUOUS_ACTION>
+    <DURATION simple_duration="UntilEOT" />
+    <AI_AVAILABILITY step="declare_blockers" />
+    <AI_AVAILABILITY and="1" attacking_or_blocking="1" />
+  </ACTIVATED_ABILITY>
+  <ACTIVATED_ABILITY per_turn_limit="1" dangerous="1">
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[{X}: Destroy each nonland permanent with converted mana cost X whose controller was dealt combat damage by Steel Hellkite this turn. Activate this ability only once each turn.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[{X}: Détruisez chaque permanent non-terrain ayant un coût converti de mana de X dont le contrôleur a subi des blessures de combat par l’Escouflenfer d’acier ce tour-ci. N’activez cette capacité qu’une seule fois par tour.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[{X}: Destruye cada permanente que no sea tierra con coste de maná convertido de X cuyo controlador haya recibido daño de combate del Engendro de acero este turno. Activa esta habilidad sólo una vez cada turno.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[{X}: Zerstöre jede bleibende Karte mit umgewandelten Manakosten von X außer Ländern, deren Beherrscher in diesem Zug vom Stählernen Höllendrachen Schaden zugefügt wurde. Aktiviere diese Fähigkeit nur einmal pro Zug.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[{X}: Distruggi ogni permanente non terra con costo di mana convertito pari a X al cui controllore è stato inflitto danno da combattimento dal Nibbio Infernale d’Acciaio in questo turno. Attiva questa abilità solo una volta per turno.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[{X}：このターン、鋼のヘルカイトに戦闘ダメージを与えられたプレイヤーがコントロールする点数で見たマナ・コストがＸの、土地でない各パーマネントを破壊する。 この能力は、毎ターン１回のみ起動できる。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[{X}: 이 턴에 강철 지옥룡에게 피해를 입은 플레이어가 조종하는 지속물 중 대지가 아니고 전환마나비용이 X인 지속물을 모두 파괴한다. 이 능력은 한 턴에 한 번만 활성화할 수 있다.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[{X}: уничтожьте каждый не являющийся землей перманент с конвертированной мана-стоимостью X, контролирующий игрок которого получил боевые повреждения от Стального Змея в этом ходу. Активируйте эту способность только один раз за ход.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[{X}: Destrua cada permanente que não seja terreno com custo de mana convertido igual a X cujo controlador tenha sofrido dano de combate de Dragão Avérneo de Aço neste turno. Ative esta habilidade apenas uma vez a cada turno.]]></LOCALISED_TEXT>
+    <COST type="Mana" cost="{X}" />
+    <FILTER>
+    local player = ObjectDC():Get_PlayerPtr(97)
+    return (FilteredCard():GetPlayer() == player and FilteredCard():GetConvertedManaCost() == GetEffectX())
+    </FILTER>
+    <RESOLUTION_TIME_ACTION>
+    FilteredCard():Destroy()
+    </RESOLUTION_TIME_ACTION>
+    <AI_AVAILABILITY step="main_2" turn="my_turn" />
+  </ACTIVATED_ABILITY>
+  <TRIGGERED_ABILITY internal="1">
+    <TRIGGER value="CREATURE_DEALS_COMBAT_DAMAGE_TO_PLAYER" simple_qualifier="self" />
+    <RESOLUTION_TIME_ACTION>
+    local player = TriggerPlayer()
+    if player ~= nil then   
+    	ObjectDC():Set_PlayerPtr(97, player)
+    end
+    </RESOLUTION_TIME_ACTION>
+  </TRIGGERED_ABILITY>
+  <TRIGGERED_ABILITY internal="1">
+    <TRIGGER value="END_OF_TURN" />
+    <RESOLUTION_TIME_ACTION>
+    ObjectDC():Set_PlayerPtr(97, nil)
+    </RESOLUTION_TIME_ACTION>
+  </TRIGGERED_ABILITY>
+  <HELP title="MORE_INFO_BADGE_TITLE_10" body="MORE_INFO_BADGE_BODY_10" zone="ZONE_ANY" />
+  <SFX text="COMBAT_DRAGON_LARGE_ATTACK" power_boundary_min="4" power_boundary_max="-1" />
+  <SFX text="COMBAT_DRAGON_SMALL_ATTACK" power_boundary_min="1" power_boundary_max="3" />
+  <AI_BASE_SCORE score="450" zone="ZONE_IN_PLAY" />
+</CARD_V2>

@@ -1,0 +1,425 @@
+<?xml version='1.0'?>
+<CARD_V2>
+  <FILENAME text="NECROTIC_OOZE_277300" />
+  <CARDNAME text="NECROTIC_OOZE" />
+  <TITLE>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Necrotic Ooze]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Limon nécrotique]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Cieno necrótico]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Nekrotischer Schlamm]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Melma Necrotica]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[壊死のウーズ]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[괴저성 점액괴물]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Некротическая Тина]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Lodo Necrótico]]></LOCALISED_TEXT>
+  </TITLE>
+  <MULTIVERSEID value="277300" />
+  <ARTID value="131041" />
+  <ARTIST name="James Ryman" />
+  <CASTING_COST cost="{2}{B}{B}" />
+  <FLAVOURTEXT>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[“To death all must go, and so in death lies ultimate power.”
+—Geth, Lord of the Vault]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[« Tout s’achemine vers la mort. Par conséquent, c’est dans la mort qu’on trouve le pouvoir ultime. »
+—Geth, seigneur du Caveau]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[“Todos caminamos hacia la muerte, así que en la muerte debe estar el poder definitivo.”
+—Geth, Señor de la Bóveda]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[„Sterben müssen alle, daher hat der Tod die absolute Macht.“
+—Geth, Fürst der Gruft]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[“Tutti devono morire e quindi è nella morte che si trova il potere assoluto.”
+—Geth, Signore della Cripta]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[「死はすべての行き着く先。それ故に死には究極の力がある。」
+—大霊堂の王、ゲス]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[“누구도 죽음을 피할 수 없다. 그것은 죽음이 바로 궁극의 힘이라는 증거다.”
+—볼트의 간수 게스]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[«Смерть забирает всех, так что в смерти кроется абсолютная власть».
+— Гет, повелитель Подземелья]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[“A morte é o destino de todos, portanto, nela reside o poder absoluto.”
+— Geth, Senhor da Câmara]]></LOCALISED_TEXT>
+  </FLAVOURTEXT>
+  <TYPE metaname="Creature" />
+  <SUB_TYPE metaname="Ooze" order_de-DE="0" order_es-ES="0" order_fr-FR="0" order_it-IT="0" order_jp-JA="0" order_ko-KR="0" order_pt-BR="0" order_ru-RU="0" />
+  <EXPANSION value="DPG" />
+  <RARITY metaname="R" />
+  <POWER value="4" />
+  <TOUGHNESS value="3" />
+  <STATIC_ABILITY filter_zone="ZONE_GRAVEYARD">
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[As long as Necrotic Ooze is on the battlefield, it has all activated abilities of all creature cards in all graveyards.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Tant que le Limon nécrotique est sur le champ de bataille, il a toutes les capacités activées de toutes les cartes de créature dans tous les cimetières.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Mientras el Cieno necrótico esté en el campo de batalla, tiene todas las habilidades activadas de todas las cartas de criatura en todos los cementerios.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[So lange der Nekrotische Schlamm im Spiel ist, hat er alle aktivierten Fähigkeiten aller Kreaturenkarten in allen Friedhöfen.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Fintanto che la Melma Necrotica è sul campo di battaglia, ha tutte le abilità attivate di tutte le carte creatura in tutti i cimiteri.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[壊死のウーズが戦場に出ているかぎり、それはすべての墓地にあるすべてのクリーチャー・カードの起動型能力を持つ。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[시체 점액괴물이 전장에 있는 한, 시체 점액괴물은 모든 무덤에 있는 모든 생물 카드의 활성화능력을 가진다.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Пока Некротическая Тина находится на поле битвы, она имеет все активируемые способности всех карт существ на всех кладбищах.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Enquanto Lodo Necrótico estiver no campo de batalha, ele terá todas as habilidades ativadas de todos os cards de criatura em todos os cemitérios.]]></LOCALISED_TEXT>
+    <FILTER>
+    return (FilteredCard() ~= nil and 
+    FilteredCard():GetCardType():Test( CARD_TYPE_CREATURE ) ~= 0 and 
+    FilteredCard():GetZone() == (ZONE_GRAVEYARD))
+    </FILTER>
+    <CONTINUOUS_ACTION>
+    local characteristics = Object():GetCurrentCharacteristics()
+    local card = FilteredCard()
+    if card:GetCardName() == "MOLTENSTEEL_DRAGON" then
+    	characteristics:GrantAbility(1)
+    elseif card:GetCardName() == "CLOCKWORK_HYDRA" then
+    	characteristics:GrantAbility(2)
+    elseif card:GetCardName() == "GRIMGRIN_CORPSEBORN" then
+    	characteristics:GrantAbility(3)
+    elseif card:GetCardName() == "ROYAL_ASSASSIN" then
+    	characteristics:GrantAbility(4)
+    elseif card:GetCardName() == "SPIN_ENGINE" then
+    	characteristics:GrantAbility(5)
+    elseif card:GetCardName() == "STEEL_HELLKITE" then
+    	characteristics:GrantAbility(6)
+    	characteristics:GrantAbility(7)
+    elseif card:GetCardName() == "DEMENTIA_BAT" then
+    	characteristics:GrantAbility(8)
+    elseif card:GetCardName() == "DROSS_HOPPER" then
+    	characteristics:GrantAbility(9)
+    elseif card:GetCardName() == "VECTOR_ASP" then
+    	characteristics:GrantAbility(10)
+    end
+    </CONTINUOUS_ACTION>
+  </STATIC_ABILITY>
+  <ACTIVATED_ABILITY auto_skip="1" firebreathing="1" resource_id="1">
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[{I}: Necrotic Ooze gets +1/+0 until end of turn.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[{I} : Le Limon nécrotique gagne +1/+0 jusqu’à la fin du tour.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[{I}: El Cieno necrótico obtiene +1/+0 hasta el final del turno.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[{I}: Der Nekrotische Schlamm erhält +1/+0 bis zum Ende des Zugs.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[{I}: La Melma Necrotica prende +1/+0 fino alla fine del turno.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[{I}：壊死のウーズはターン終了時まで＋１/＋０の修整を受ける。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[{I}: 시체 점액괴물은 턴종료까지 +1/+0을 받는다.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[{I}: Некротическая Тина получает +1/+0 до конца хода.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[{I}: Lodo Necrótico recebe +1/+0 até o final do turno.]]></LOCALISED_TEXT>
+    <COST type="Mana" cost="{R/P}" />
+    <CONTINUOUS_ACTION layer="7C">
+    if EffectSource() ~= nil then
+    	EffectSource():GetCurrentCharacteristics():Power_Add( 1 )
+    	EffectSource():GetCurrentCharacteristics():Toughness_Add( 0 )
+    end
+    </CONTINUOUS_ACTION>
+    <DURATION simple_duration="UntilEOT" />
+    <AI_AVAILABILITY step="declare_blockers" />
+  </ACTIVATED_ABILITY>
+  <ACTIVATED_ABILITY resource_id="2">
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[{T}: Put a +1/+1 counter on Necrotic Ooze.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[{T}: Mettez un marqueur +1/+1 sur le Limon nécrotique.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[{T}: Pon un contador +1/+1 sobre el Cieno necrótico.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[{T}: Lege eine +1/+1-Marke auf den Nekrotischen Schlamm.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[{T}: Metti un segnalino +1/+1 sulla Melma Necrotica.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[{T}：壊死のウーズの上に＋１/＋１のカウンターを１個置く。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[{T}: 시체 점액괴물에 +1/+1 카운터 한 개를 올려놓는다.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[{T}: положите один жетон +1/+1 на Некротическую Тину.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[{T}: Coloque um marcador +1/+1 sobre Lodo Necrótico.]]></LOCALISED_TEXT>
+    <COST type="TapSelf" />
+    <RESOLUTION_TIME_ACTION>
+    if EffectSource() ~= nil then
+    	EffectSource():AddCounters( MTG():PlusOnePlusOneCounters(), 1 )
+    end
+    </RESOLUTION_TIME_ACTION>
+    <AI_AVAILABILITY step="declare_blockers" />
+    <AI_AVAILABILITY type="in_response_dangerous" />
+  </ACTIVATED_ABILITY>
+  <ACTIVATED_ABILITY resource_id="3">
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Sacrifice another creature: Untap Necrotic Ooze and put a +1/+1 counter on it.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Sacrifiez une autre créature : Dégagez le Limon nécrotique et mettez un marqueur +1/+1 sur lui.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Sacrificar otra criatura: Endereza el Cieno necrótico y pon un contador +1/+1 sobre él.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Opfere eine andere Kreatur: Enttappe den Nekrotischen Schlamm und lege eine +1/+1-Marke auf ihn.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Sacrifica un'altra creatura: STAPpa la Melma Necrotica e metti un segnalino +1/+1 su di essa.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[他のクリーチャーを１体生け贄に捧げる：壊死のウーズをアンタップし、それの上に＋１/＋１カウンターを１個置く、]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[다른 생물 한 개를 희생한다: 시체 점액괴물을 언탭하고 시체 점액괴물에 +1/+1 카운터 한 개를 올려놓는다.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Пожертвуйте другое существо: разверните Некротическую Тину и положите на нее один жетон +1/+1.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Sacrifique outra criatura: Desvire Lodo Necrótico e coloque um marcador +1/+1 sobre ele.]]></LOCALISED_TEXT>
+    <COST type="sacrifice">
+      <TARGET_DETERMINATION>
+      return AtLeastOneTargetFromDefinition(6)
+      </TARGET_DETERMINATION>
+      <PLAYTIME>
+      EffectController():ChooseTarget( 6, "CARD_QUERY_CHOOSE_CREATURE_TO_SACRIFICE", EffectDC():Make_Targets(0) )
+      </PLAYTIME>
+      <TARGET_DEFINITION id="6">
+      local filter = Object():GetFilter()
+      filter:Clear()
+      filter:AddCardType( CARD_TYPE_CREATURE )
+      filter:SetPlayer(EffectController())
+      filter:SetCardInstance( Object() )
+      filter:AddExtra( FILTER_EXTRA_FLIP_CARD_INSTANCE ) 
+      filter:SetZone( ZONE_IN_PLAY )
+      filter:SetHint( HINT_ALLIED, EffectController() )
+      filter:NotTargetted()
+      </TARGET_DEFINITION></COST>
+    <RESOLUTION_TIME_ACTION>
+    if EffectSource() ~= nil then
+    	EffectSource():Untap()
+    end
+    </RESOLUTION_TIME_ACTION>
+    <RESOLUTION_TIME_ACTION>
+    if EffectSource() ~= nil then
+    	EffectSource():AddCounters( MTG():PlusOnePlusOneCounters(), 1 )
+    end
+    </RESOLUTION_TIME_ACTION>
+    <AI_AVAILABILITY step="declare_blockers" />
+    <AI_AVAILABILITY type="in_response_dangerous" />
+  </ACTIVATED_ABILITY>
+  <ACTIVATED_ABILITY resource_id="4">
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[{T}: Destroy target tapped creature.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[{T} : Détruisez la créature engagée ciblée.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[{T}: Destruye la criatura objetivo girada.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[{T}: Zerstöre eine getappte Kreatur deiner Wahl.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[{T}: Distruggi una creatura TAPpata bersaglio.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[{T}：タップ状態のクリーチャー１体を対象とし、それを破壊する。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[{T}: 탭된 생물 한 개를 목표로 정한다. 그 생물을 파괴한다.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[{T}: уничтожьте целевое повернутое существо.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[{T}: Destrua a criatura alvo virada.]]></LOCALISED_TEXT>
+    <COST type="TapSelf" />
+    <TARGET_DEFINITION id="0">
+    local filter = Object():GetFilter()
+    filter:Clear()
+    filter:AddCardType( CARD_TYPE_CREATURE )
+    filter:SetZone( ZONE_IN_PLAY )
+    filter:AddExtra( FILTER_EXTRA_CREATURE_TAPPED )
+    filter:SetHint( HINT_ENEMY, EffectController() )
+    </TARGET_DEFINITION>
+    <TARGET_DETERMINATION>
+    return AtLeastOneTargetFromDefinition(0)
+    </TARGET_DETERMINATION>
+    <PLAY_TIME_ACTION target_choosing="1">
+    EffectController():ChooseTarget( 0, "CARD_QUERY_CHOOSE_CREATURE_TO_DESTROY", EffectDC():Make_Targets(0) )
+    </PLAY_TIME_ACTION>
+    <RESOLUTION_TIME_ACTION ignore_filter="1">
+    local target = EffectDC():Get_Targets(0):Get_NthCardPtr(0)
+    if target ~= nil then   
+    	target:Destroy()  
+    end
+    </RESOLUTION_TIME_ACTION>
+    <AI_AVAILABILITY type="in_response" />
+    <AI_AVAILABILITY step="begin_combat" turn="their_turn" />
+    <AI_AVAILABILITY step="main_1" turn="my_turn" />
+    <AI_AVAILABILITY step="declare_attackers" turn="their_turn" />
+    <AI_AVAILABILITY step="declare_blockers" />
+    <AI_AVAILABILITY step="end_of_turn" />
+  </ACTIVATED_ABILITY>
+  <ACTIVATED_ABILITY resource_id="5">
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[{R}: Target creature can’t block Necrotic Ooze this turn.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[{R} : La créature ciblée ne peut pas bloquer le Limon nécrotique ce tour-ci.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[{R}: La criatura objetivo no puede bloquear al Cieno necrótico este turno.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[{R}: Eine Kreatur deiner Wahl kann den Nekrotischen Schlamm in diesem Zug nicht blocken.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[{R}: Una creatura bersaglio non può bloccare la Melma Necrotica in questo turno.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[{R}：クリーチャー１体を対象とする。このターン、それでは壊死のウーズをブロックできない。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[{R}: 생물 한 개를 목표로 정한다. 그 생물은 이 턴에 시체 점액괴물을 방어할 수 없다.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[{R}: целевое существо не может блокировать Некротическую Тину в этом ходу.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[{R}: A criatura alvo não pode bloquear Lodo Necrótico neste turno.]]></LOCALISED_TEXT>
+    <COST type="Mana" cost="{R}" />
+    <TARGET_DEFINITION id="0">
+    local filter = Object():GetFilter()
+    filter:Clear()
+    filter:AddCardType( CARD_TYPE_CREATURE )
+    filter:SetZone( ZONE_IN_PLAY )
+    filter:SetHint( HINT_ENEMY, EffectController() )
+    </TARGET_DEFINITION>
+    <TARGET_DETERMINATION>
+    return AtLeastOneTargetFromDefinition(0)
+    </TARGET_DETERMINATION>
+    <PLAY_TIME_ACTION target_choosing="1">
+    EffectController():ChooseTarget( 0, "CARD_QUERY_CHOOSE_CREATURE_GAIN_CANT_BLOCK", EffectDC():Make_Targets(0) )
+    </PLAY_TIME_ACTION>
+    <RESOLUTION_TIME_ACTION>
+    local target = EffectDC():Get_Targets(0):Get_CardPtr(0)
+    if target ~= nil then
+    	ObjectDC():Int_Inc( 1000 )
+    	ObjectDC():Set_ProtectedCardPtr( 1000 + ObjectDC():Get_Int( 1000 ), target )	
+    end
+    </RESOLUTION_TIME_ACTION>
+    <AI_AVAILABILITY step="declare_attackers" turn="my_turn" />
+  </ACTIVATED_ABILITY>
+  <ACTIVATED_ABILITY auto_skip="1" firebreathing="1" resource_id="6">
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[{2}: Necrotic Ooze gets +1/+0 until end of turn.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[{2} : Le Limon nécrotique gagne +1/+0 jusqu’à la fin du tour.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[{2}: El Cieno necrótico obtiene +1/+0 hasta el final del turno.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[{2}: Der Nekrotische Schlamm erhält +1/+0 bis zum Ende des Zugs.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[{2}: La Melma Necrotica prende +1/+0 fino alla fine del turno.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[{2}：壊死のウーズはターン終了時まで＋１/＋０の修整を受ける。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[{2}: 시체 점액괴물은 턴종료까지 +1/+0을 받는다.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[{2}: Некротическая Тина получает +1/+0 до конца хода.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[{2}: Lodo Necrótico recebe +1/+0 até o final do turno.]]></LOCALISED_TEXT>
+    <COST type="Mana" cost="{2}" />
+    <CONTINUOUS_ACTION layer="7C">
+    if EffectSource() ~= nil then
+    	EffectSource():GetCurrentCharacteristics():Power_Add( 1 )
+    	EffectSource():GetCurrentCharacteristics():Toughness_Add( 0 )
+    end
+    </CONTINUOUS_ACTION>
+    <DURATION simple_duration="UntilEOT" />
+    <AI_AVAILABILITY step="declare_blockers" />
+  </ACTIVATED_ABILITY>
+  <ACTIVATED_ABILITY per_turn_limit="1" resource_id="7">
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[{X}: Destroy each nonland permanent with converted mana cost X whose controller was dealt combat damage by Necrotic Ooze this turn. Activate this ability only once each turn.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[{X} : Détruisez chaque permanent non-terrain ayant un coût converti de mana de X dont le contrôleur a subi des blessures de combat par le Limon nécrotique ce tour-ci. N'activez cette capacité qu’une seule fois par tour.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[{X}: Destruye cada permanente que no sea tierra con coste de maná convertido de X cuyo controlador haya recibido daño de combate del Cieno necrótico este turno. Activa esta habilidad sólo una vez cada turno.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[{X}: Zerstöre jede bleibende Karte mit umgewandelten Manakosten von X außer Ländern, deren Beherrscher in diesem Zug vom Nekrotischen Schlamm Schaden zugefügt wurde. Aktiviere diese Fähigkeit nur einmal pro Zug.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[{X}: Distruggi ogni permanente non terra con costo di mana convertito pari a X al cui controllore è stato inflitto danno da combattimento dalla Melma Necrotica in questo turno. Attiva questa abilità solo una volta per turno.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[{X}：このターン、壊死のウーズに戦闘ダメージを与えられたプレイヤーがコントロールする点数で見たマナ・コストがＸの土地でない各パーマネントを破壊する。 この能力は、毎ターン１回のみ起動できる。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[{X}: 이 턴에 시체 점액괴물에게 전투피해를 입은 플레이어가 조종하는 대지가 아닌 지속물 중 전환마나비용이 X인 각 지속물을 파괴한다. 이 능력은 한 턴에 한 번만 활성화할 수 있다.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[{X}: уничтожьте каждый не являющийся землей перманент с конвертированной мана-стоимостью X, контролирующий игрок которого получил боевые повреждения от Некротической Тины в этом ходу. Активируйте эту способность только один раз за ход.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[{X}: Destrua cada permanente que não seja terreno com custo de mana convertido igual a X cujo controlador tenha sofrido dano de combate de Lodo Necrótico neste turno. Ative esta habilidade apenas uma vez a cada turno.]]></LOCALISED_TEXT>
+    <COST type="Mana" cost="{X}" />
+    <FILTER>
+    local player = ObjectDC():Get_PlayerPtr(97)
+    return (FilteredCard():GetPlayer() == player and FilteredCard():GetConvertedManaCost() == GetEffectX())
+    </FILTER>
+    <RESOLUTION_TIME_ACTION>
+    FilteredCard():Destroy()
+    </RESOLUTION_TIME_ACTION>
+    <AI_AVAILABILITY step="main_2" turn="my_turn" />
+  </ACTIVATED_ABILITY>
+  <ACTIVATED_ABILITY resource_id="8">
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[{4}{B}, Sacrifice Necrotic Ooze: Target player discards two cards.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[{4}{B}, sacrifiez le Limon nécrotique : Le joueur ciblé se défausse de deux cartes.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[{4}{B}, sacrificar el Cieno necrótico: El jugador objetivo descarta dos cartas.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[{4}{B}, opfere den Nekrotischen Schlamm: Ein Spieler deiner Wahl wirft zwei Karten aus seiner Hand ab.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[{4}{B}, Sacrifica la Melma Necrotica: Un giocatore bersaglio scarta due carte.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[{4}{B}, 壊死のウーズを生け贄に捧げる：プレイヤー１人を対象とする。そのプレイヤーはカードを２枚捨てる。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[{4}{B}, 시체 점액괴물을 희생한다: 플레이어 한 명을 목표로 정한다. 그 플레이어는 카드 두 장을 버린다.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[{4}{B}, пожертвуйте Некротическую Тину: целевой игрок сбрасывает две карты.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[{4}{B}, Sacrifique Lodo Necrótico: O jogador alvo descarta dois cards.]]></LOCALISED_TEXT>
+    <COST type="Mana" cost="{4}{B}" />
+    <COST type="SacrificeSelf" />
+    <TARGET_DEFINITION id="0">
+    local filter = Object():GetFilter()
+    filter:Clear()
+    filter:SetFilterType( FILTER_TYPE_PLAYERS )
+    filter:SetHint( HINT_ENEMY, EffectController() )
+    </TARGET_DEFINITION>
+    <TARGET_DETERMINATION>
+    return AtLeastOneTargetFromDefinition(0)
+    </TARGET_DETERMINATION>
+    <PLAY_TIME_ACTION target_choosing="1">
+    EffectController():ChooseTarget( 0, "CARD_QUERY_CHOOSE_PLAYER_DISCARD_2", EffectDC():Make_Targets(0) )
+    </PLAY_TIME_ACTION>
+    <RESOLUTION_TIME_ACTION>
+    local player = EffectDC():Get_Targets(0):Get_PlayerPtr(0)
+    if player ~= nil then
+    	local filter = Object():GetFilter()
+    	filter:Clear()
+    	filter:SetZone( ZONE_HAND ) 
+    	filter:SetPlayer( player )
+    	filter:NotTargetted()
+    	player:SetTargetCount( 2 )
+    	for i=0,2-1 do
+    		player:SetTargetPrompt( i, "CARD_QUERY_CHOOSE_CARD_TO_DISCARD_2" )
+    	end
+    	player:ChooseTargets( NO_VALIDATION, EffectDC():Make_Targets(1) ) 
+    end
+    </RESOLUTION_TIME_ACTION>
+    <RESOLUTION_TIME_ACTION>
+    local player = EffectDC():Get_Targets(0):Get_PlayerPtr(0)
+    if player ~= nil then 
+    	for i = 0,(2-1) do
+    		local target_card = EffectDC():Get_Targets(1):Get_CardPtr(i)
+    		if target_card ~= nil  then
+    			target_card:Discard()
+    		end
+    	end
+    end
+    </RESOLUTION_TIME_ACTION>
+    <AI_AVAILABILITY type="in_response" />
+    <AI_AVAILABILITY step="end_of_turn" turn="their_turn" />
+    <AI_AVAILABILITY step="main_1" turn="my_turn" />
+    <AI_AVAILABILITY step="main_2" turn="my_turn" />
+  </ACTIVATED_ABILITY>
+  <ACTIVATED_ABILITY resource_id="9">
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Sacrifice a creature: Necrotic Ooze gains flying until end of turn.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Sacrifiez une créature : Le Limon nécrotique acquiert le vol jusqu’à la fin du tour.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Sacrificar una criatura: El Cieno necrótico gana la habilidad de volar hasta el final del turno.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Opfere eine Kreatur: Der Nekrotische Schlamm erhält bis zum Ende des Zugs Flugfähigkeit.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Sacrifica una creatura: La Melma Necrotica ha volare fino alla fine del turno.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[クリーチャーを１体生け贄に捧げる：壊死のウーズはターン終了時まで飛行を得る。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[생물 한 개를 희생한다: 시체 점액괴물은 턴종료까지 비행 능력을 얻는다.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Пожертвуйте существо: Некротическая Тина получает Полет до конца хода.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Sacrifique uma criatura: Lodo Necrótico ganha voar até o final do turno.]]></LOCALISED_TEXT>
+    <COST type="Sacrifice">
+      <TARGET_DEFINITION id="6">
+      local filter = Object():GetFilter()
+      filter:Clear()
+      filter:AddCardType( CARD_TYPE_CREATURE )
+      filter:SetPlayer( EffectController() )
+      filter:SetZone( ZONE_IN_PLAY )
+      filter:SetHint( HINT_ENEMY, EffectController() )
+      filter:NotTargetted()
+      </TARGET_DEFINITION>
+      <TARGET_DETERMINATION>
+      return AtLeastOneTargetFromDefinition(6)
+      </TARGET_DETERMINATION>
+      <PLAYTIME>
+      EffectController():ChooseTarget( 6, "CARD_QUERY_CHOOSE_CREATURE_TO_SACRIFICE", EffectDC():Make_Targets(0) )
+      </PLAYTIME></COST>
+    <CONTINUOUS_ACTION layer="6">
+    local characteristics = Object():GetCurrentCharacteristics()
+    characteristics:Characteristic_Set( CHARACTERISTIC_FLYING, 1 )
+    </CONTINUOUS_ACTION>
+    <DURATION simple_duration="UntilEOT" />
+    <AI_AVAILABILITY step="declare_attackers" turn="my_turn" />
+  </ACTIVATED_ABILITY>
+  <ACTIVATED_ABILITY resource_id="10">
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[{B}: Necrotic Ooze gains infect until end of turn.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[{B} : Le Limon nécrotique acquiert l'infection jusqu’à la fin du tour.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[{B}: El Cieno necrótico gana la habilidad de infectar hasta el final del turno.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[{B}: Der Nekrotische Schlamm erhält Infizieren bis zum Ende des Zugs.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[{B}: La Melma Necrotica ha infettare fino alla fine del turno.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[{B}：壊死のウーズは、ターン終了時まで感染を得る。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[{B}: 시체 점액괴물은 턴종료까지 감염 능력을 얻는다.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[{B}: Некротическая Тина получает Инфекцию до конца хода.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[{B}: Lodo Necrótico ganha infectar até o final do turno.]]></LOCALISED_TEXT>
+    <COST type="Mana" cost="{B}" />
+    <CONTINUOUS_ACTION layer="6">
+    local characteristics = Object():GetCurrentCharacteristics()
+    characteristics:Characteristic_Set( CHARACTERISTIC_INFECT, 1 )
+    </CONTINUOUS_ACTION>
+    <DURATION simple_duration="UntilEOT" />
+    <AI_AVAILABILITY step="declare_blockers" />
+  </ACTIVATED_ABILITY>
+  <TRIGGERED_ABILITY internal="1">
+    <TRIGGER value="CREATURE_DEALS_COMBAT_DAMAGE_TO_PLAYER" simple_qualifier="self" />
+    <RESOLUTION_TIME_ACTION>
+    local player = TriggerPlayer()
+    if player ~= nil then   
+    	ObjectDC():Set_PlayerPtr(97, player)
+    end
+    </RESOLUTION_TIME_ACTION>
+  </TRIGGERED_ABILITY>
+  <TRIGGERED_ABILITY internal="1">
+    <TRIGGER value="END_OF_TURN" />
+    <RESOLUTION_TIME_ACTION>
+    ObjectDC():Set_PlayerPtr(97, nil)
+    </RESOLUTION_TIME_ACTION>
+  </TRIGGERED_ABILITY>
+  <TRIGGERED_ABILITY internal="1" pre_trigger="1">
+    <TRIGGER value="EVASION_TEST">
+    -- test secondary object vs all stored card ptrs.
+    for i = 1, ObjectDC():Get_Int( 1000 ) do
+    	if (SecondaryObject() == (ObjectDC():Get_ProtectedCardPtr( 1000 + i ) )) then
+    		return true
+    	end
+    end
+    return false
+    </TRIGGER>
+  </TRIGGERED_ABILITY>
+  <TRIGGERED_ABILITY internal="1">
+    <TRIGGER value="BEGINNING_OF_STEP" simple_qualifier="controller">
+    return ( MTG():GetStep() == STEP_END_OF_TURN )
+    </TRIGGER>
+    <RESOLUTION_TIME_ACTION>
+    for i = 1, ObjectDC():Get_Int( 1000 ) do
+    	ObjectDC():Set_ProtectedCardPtr( (1000 + i), nil )
+    end
+    ObjectDC():Set_Int(1000, 0)
+    </RESOLUTION_TIME_ACTION>
+  </TRIGGERED_ABILITY>
+  <HELP title="MORE_INFO_BADGE_TITLE_10" body="MORE_INFO_BADGE_BODY_10" zone="ZONE_ANY" />
+  <HELP title="MORE_INFO_BADGE_TITLE_31" body="MORE_INFO_BADGE_BODY_31" zone="ZONE_ANY" />
+  <SFX text="COMBAT_BLUNT_LARGE_ATTACK" power_boundary_min="4" power_boundary_max="-1" />
+  <SFX text="COMBAT_BLUNT_SMALL_ATTACK" power_boundary_min="1" power_boundary_max="3" />
+  <AI_BASE_SCORE score="600" zone="ZONE_IN_PLAY" />
+</CARD_V2>
