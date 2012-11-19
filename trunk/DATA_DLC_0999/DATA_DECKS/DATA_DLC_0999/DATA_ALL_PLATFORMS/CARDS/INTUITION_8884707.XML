@@ -79,9 +79,13 @@
     end
     </RESOLUTION_TIME_ACTION>
     <RESOLUTION_TIME_ACTION>
-	local chosen_card = EffectDC():Get_Targets(2):Get_CardPtr(0)
-	for i = 0,2 do
-    	local target = EffectDC():Get_Targets(1):Get_NthCardPtr(i)
+	local target_array = {}
+    for i = 0,2 do
+		target_array[i] = EffectDC():Get_Targets(1):Get_NthCardPtr(i)
+    end
+    local chosen_card = EffectDC():Get_Targets(2):Get_CardPtr(0)
+    for i = 0,2 do
+		local target = target_array[i]
     	local player = EffectController()
     	if (target ~= nil and player ~= nil) then
 			if target ~= chosen_card then

@@ -367,6 +367,18 @@
     <Cell><Data ss:Type="String">Escolha uma criatura para obter +1/+0 para cada montanha que você controlar e ganhar o primeiro ataque.</Data></Cell>
    </Row>
    <Row>
+    <Cell><Data ss:Type="String">CARD_QUERY_CHOOSE_CREATURE_TO_GET_2_2_AND_TRAMPLE</Data></Cell>
+    <Cell ss:Index="3"><Data ss:Type="String">Choose a creature to get +2/+2 and gain trample.</Data></Cell>
+    <Cell><Data ss:Type="String">Choisissez une créature pour lui faire gagner +2/+2 et acquérir le piétinement.</Data></Cell>
+    <Cell><Data ss:Type="String">Elige una criatura para que obtenga +2/+2 y gane arrollar.</Data></Cell>
+    <Cell><Data ss:Type="String">Bestimme eine Kreatur, die +2/+2 und Verursacht Trampelschaden erhalten soll.</Data></Cell>
+    <Cell><Data ss:Type="String">Scegli una creatura che prende +2/+2 e ha travolgere.</Data></Cell>
+    <Cell ss:Index="9"><Data ss:Type="String">＋２/＋２の修整を受けてトランプルを得るクリーチャーを選択。</Data></Cell>
+    <Cell><Data ss:Type="String">+2/+2을 받고 돌진 능력을 얻을 생물 한 개를 고르십시오.</Data></Cell>
+    <Cell><Data ss:Type="String">Выберите существо, которое получит +2/+2 и Пробивной удар.</Data></Cell>
+    <Cell><Data ss:Type="String">Escolha uma criatura para receber +2/+2 e ganhar atropelar.</Data></Cell>
+   </Row>
+   <Row>
     <Cell><Data ss:Type="String">CARD_QUERY_CHOOSE_CREATURE_TO_GET_2_4</Data></Cell>
     <Cell ss:Index="3"><Data ss:Type="String">Choose a creature to get +2/+4.</Data></Cell>
     <Cell><Data ss:Type="String">Choisissez une créature pour lui faire gagner +2/+4.</Data></Cell>
@@ -703,6 +715,19 @@
     <Cell><Data ss:Type="String">Deseja pagar {2}? (Se não fizer isso, a mágica será anulada.)</Data></Cell>
    </Row>
    <Row>
+    <Cell><Data ss:Type="String">CARD_QUERY_MC_ECHO_NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Pay echo cost for name?</Data></Cell>
+    <Cell><Data ss:Type="String">Do you want to pay the echo cost for %d?</Data></Cell>
+    <Cell><Data ss:Type="String">Do you want to pay the echo cost for %d?</Data></Cell>
+    <Cell><Data ss:Type="String">Do you want to pay the echo cost for %d?</Data></Cell>
+    <Cell><Data ss:Type="String">Do you want to pay the echo cost for %d?</Data></Cell>
+    <Cell><Data ss:Type="String">Do you want to pay the echo cost for %d?</Data></Cell>
+    <Cell ss:Index="9"><Data ss:Type="String">Do you want to pay the echo cost for %d?</Data></Cell>
+    <Cell><Data ss:Type="String">Do you want to pay the echo cost for %d?</Data></Cell>
+    <Cell><Data ss:Type="String">Do you want to pay the echo cost for %d?</Data></Cell>
+    <Cell><Data ss:Type="String">Do you want to pay the echo cost for %d?</Data></Cell>
+   </Row>
+   <Row>
     <Cell><Data ss:Type="String">CARD_QUERY_MC_OPTION_NO</Data></Cell>
     <Cell ss:Index="3"><Data ss:Type="String">No</Data></Cell>
     <Cell><Data ss:Type="String">non</Data></Cell>
@@ -763,18 +788,6 @@
     <Cell><Data ss:Type="String">Você pode pagar {2} para o exílio um cartão de defender biblioteca jogador.</Data></Cell>
    </Row>
    <Row>
-    <Cell><Data ss:Type="String">CARD_QUERY_MC_SACRIFICE_EMBERWILDE_AUGUR</Data></Cell>
-    <Cell ss:Index="3"><Data ss:Type="String">Do you want to sacrifice Emberwilde Augur?</Data></Cell>
-    <Cell><Data ss:Type="String">Do you want to sacrifice Emberwilde Augur?</Data></Cell>
-    <Cell><Data ss:Type="String">Do you want to sacrifice Emberwilde Augur?</Data></Cell>
-    <Cell><Data ss:Type="String">Do you want to sacrifice Emberwilde Augur?</Data></Cell>
-    <Cell><Data ss:Type="String">Do you want to sacrifice Emberwilde Augur?</Data></Cell>
-    <Cell ss:Index="9"><Data ss:Type="String">Do you want to sacrifice Emberwilde Augur?</Data></Cell>
-    <Cell><Data ss:Type="String">Do you want to sacrifice Emberwilde Augur?</Data></Cell>
-    <Cell><Data ss:Type="String">Do you want to sacrifice Emberwilde Augur?</Data></Cell>
-    <Cell><Data ss:Type="String">Do you want to sacrifice Emberwilde Augur?</Data></Cell>
-   </Row>
-   <Row>
     <Cell><Data ss:Type="String">CARD_QUERY_MC_SHUFFLE_LIBRARY</Data></Cell>
     <Cell ss:Index="3"><Data ss:Type="String">Do you want to shuffle your library?</Data></Cell>
     <Cell><Data ss:Type="String">Voulez-vous mélangez votre bibliothèque?</Data></Cell>
@@ -785,6 +798,18 @@
     <Cell><Data ss:Type="String">당신은 셔플 라이브러리를 같이 가실 래요?</Data></Cell>
     <Cell><Data ss:Type="String">Вы хотите, чтобы перетасовать вашу библиотеку?</Data></Cell>
     <Cell><Data ss:Type="String">Você quer embaralhar seu grimório?</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">CARD_QUERY_MC_SKIRK_DRILL_SERGEANT</Data></Cell>
+    <Cell ss:Index="3"><Data ss:Type="String">You may pay {2}{R} to activate Skirk Drill Sergeant's ability.</Data></Cell>
+    <Cell><Data ss:Type="String">Voulez-vous payer {2}{R}?</Data></Cell>
+    <Cell><Data ss:Type="String">¿Quieres pagar {2}{R}?</Data></Cell>
+    <Cell><Data ss:Type="String">Willst du {2}{R} bezahlen?</Data></Cell>
+    <Cell><Data ss:Type="String">Vuoi pagare {2}{R}?</Data></Cell>
+    <Cell ss:Index="9"><Data ss:Type="String">{2}{R}を支払いますか？</Data></Cell>
+    <Cell><Data ss:Type="String">{2}{R}을 지불하시겠습니까?</Data></Cell>
+    <Cell><Data ss:Type="String">Вы хотите заплатить {2}{R}?</Data></Cell>
+    <Cell><Data ss:Type="String">Deseja pagar {2}{R}?</Data></Cell>
    </Row>
    <Row>
     <Cell><Data ss:Type="String">CARD_QUERY_MC_SLAVERING_NULL_ABILITY</Data></Cell>
@@ -968,6 +993,32 @@
     <Cell><Data ss:Type="String">Medalhão de Jund causa 2 pontos de dano a cada criatura.</Data></Cell>
    </Row>
    <Row>
+    <Cell><Data ss:Type="String">CARD_QUERY_OPTION_PAY_1R</Data></Cell>
+    <Cell><Data ss:Type="String">Option for paying {1}{R}</Data></Cell>
+    <Cell><Data ss:Type="String">Pay {1}{R}</Data></Cell>
+    <Cell><Data ss:Type="String">Payez {1}{R}</Data></Cell>
+    <Cell><Data ss:Type="String">Paga {1}{R}</Data></Cell>
+    <Cell><Data ss:Type="String">Bezahle {1}{R}</Data></Cell>
+    <Cell><Data ss:Type="String">Paga {1}{R}</Data></Cell>
+    <Cell ss:Index="9"><Data ss:Type="String">{1}{R}を支払う。</Data></Cell>
+    <Cell><Data ss:Type="String">{1}{R} 지불</Data></Cell>
+    <Cell><Data ss:Type="String">Заплатить {1}{R}</Data></Cell>
+    <Cell><Data ss:Type="String">Pague {1}{R}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">CARD_QUERY_OPTION_PAY_2R</Data></Cell>
+    <Cell><Data ss:Type="String">Option for paying {2}{R}</Data></Cell>
+    <Cell><Data ss:Type="String">Pay {2}{R}</Data></Cell>
+    <Cell><Data ss:Type="String">Payez {2}{R}</Data></Cell>
+    <Cell><Data ss:Type="String">Paga {2}{R}</Data></Cell>
+    <Cell><Data ss:Type="String">Bezahle {2}{R}</Data></Cell>
+    <Cell><Data ss:Type="String">Paga {2}{R}</Data></Cell>
+    <Cell ss:Index="9"><Data ss:Type="String">{2}{R}を支払う。</Data></Cell>
+    <Cell><Data ss:Type="String">{2}{R} 지불</Data></Cell>
+    <Cell><Data ss:Type="String">Заплатить {2}{R}</Data></Cell>
+    <Cell><Data ss:Type="String">Pague {2}{R}</Data></Cell>
+   </Row>
+   <Row>
     <Cell><Data ss:Type="String">CARD_QUERY_OPTION_PUT_TWO_1_1_COUNTERS_ON_TARGET_CREATURE</Data></Cell>
     <Cell ss:Index="3"><Data ss:Type="String">Put two +1/+1 counters on target creature.</Data></Cell>
     <Cell><Data ss:Type="String">Mettez deux marqueurs +1/+1 sur la créature ciblée.</Data></Cell>
@@ -978,6 +1029,32 @@
     <Cell><Data ss:Type="String">Put two +1/+1 counters on target creature.</Data></Cell>
     <Cell><Data ss:Type="String">положите два жетона +1/+1 на целевое существо.</Data></Cell>
     <Cell><Data ss:Type="String">Coloque dois marcadores +1/+1 na criatura alvo.</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">CARD_QUERY_OPTION_REVEAL_ELF</Data></Cell>
+    <Cell><Data ss:Type="String">Reveal an elf card</Data></Cell>
+    <Cell><Data ss:Type="String">Reveal an Elf card from your hand.</Data></Cell>
+    <Cell><Data ss:Type="String">Reveal an Elf card from your hand.</Data></Cell>
+    <Cell><Data ss:Type="String">Reveal an Elf card from your hand.</Data></Cell>
+    <Cell><Data ss:Type="String">Reveal an Elf card from your hand.</Data></Cell>
+    <Cell><Data ss:Type="String">Reveal an Elf card from your hand.</Data></Cell>
+    <Cell ss:Index="9"><Data ss:Type="String">Reveal an Elf card from your hand.</Data></Cell>
+    <Cell><Data ss:Type="String">Reveal an Elf card from your hand.</Data></Cell>
+    <Cell><Data ss:Type="String">Reveal an Elf card from your hand.</Data></Cell>
+    <Cell><Data ss:Type="String">Reveal an Elf card from your hand.</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">CARD_QUERY_OPTION_SACRIFICE_NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Sacrifice card of the given name</Data></Cell>
+    <Cell><Data ss:Type="String">Sacrifice %d.</Data></Cell>
+    <Cell><Data ss:Type="String">Sacrifice %d.</Data></Cell>
+    <Cell><Data ss:Type="String">Sacrifice %d.</Data></Cell>
+    <Cell><Data ss:Type="String">Sacrifice %d.</Data></Cell>
+    <Cell><Data ss:Type="String">Sacrifice %d.</Data></Cell>
+    <Cell ss:Index="9"><Data ss:Type="String">Sacrifice %d.</Data></Cell>
+    <Cell><Data ss:Type="String">Sacrifice %d.</Data></Cell>
+    <Cell><Data ss:Type="String">Sacrifice %d.</Data></Cell>
+    <Cell><Data ss:Type="String">Sacrifice %d.</Data></Cell>
    </Row>
    <Row>
     <Cell><Data ss:Type="String">CARD_QUERY_OPTION_TAP_TARGET_PERMANENT</Data></Cell>
