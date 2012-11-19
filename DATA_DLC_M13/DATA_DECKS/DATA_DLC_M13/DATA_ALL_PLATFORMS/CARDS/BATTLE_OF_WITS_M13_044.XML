@@ -42,12 +42,10 @@
     <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[В начале вашего шага поддержки, если в вашей библиотеке есть 200 или более карт, вы выигрываете партию.]]></LOCALISED_TEXT>
     <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[No início de sua manutenção, se você tiver 200 ou mais cards no seu grimório, você vence o jogo.]]></LOCALISED_TEXT>
 	<RESOLUTION_TIME_ACTION>
-    if CountCardsZonePlayer( ZONE_LIBRARY, EffectController() ) &gt; 199 then
-		EffectController():WinGame()
-    end
+	EffectController():WinGame()
     </RESOLUTION_TIME_ACTION>
     <TRIGGER value="BEGINNING_OF_STEP" simple_qualifier="controller">
-    return PlayersUpkeep( EffectController() )
+    return ( PlayersUpkeep( EffectController() ) and CountCardsZonePlayer( ZONE_LIBRARY, EffectController() ) &gt; 199 )
     </TRIGGER>
   </TRIGGERED_ABILITY>
   <AI_CUSTOM_SCORE zone="ZONE_IN_PLAY">

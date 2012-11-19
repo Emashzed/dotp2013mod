@@ -30,7 +30,7 @@
     <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[You may pay 1 life and exile a blue card from your hand rather than pay Force of Will’s mana cost.]]></LOCALISED_TEXT>
     <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[You may pay 1 life and exile a blue card from your hand rather than pay Force of Will’s mana cost.]]></LOCALISED_TEXT>
     <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[You may pay 1 life and exile a blue card from your hand rather than pay Force of Will’s mana cost.]]></LOCALISED_TEXT>
-    <COST type="REMOVE_FROM_GAME" number="1" qualifier="alternate" tag="ALTERNATE_COST_LIFE_EXILE_BLUE">
+    <COST type="generic" qualifier="alternate" tag="ALTERNATE_COST_LIFE_EXILE_BLUE">
       <TARGET_DEFINITION id="6">
       local filter = Object():GetFilter()
       filter:Clear()
@@ -45,11 +45,16 @@
       return AtLeastOneTargetFromDefinition(6)
       </TARGET_DETERMINATION>
       <PLAY_TIME_ACTION>
-      EffectController():ChooseTarget( 6, "CARD_QUERY_CHOOSE_CARD_TO_EXILE", EffectDC():Make_Targets(0) )
+      EffectController():ChooseTarget( 6, "CARD_QUERY_CHOOSE_CARD_TO_EXILE", EffectDC():Make_Targets(6) )
       </PLAY_TIME_ACTION>
-      <PLAY_TIME_ACTION>
-      Object():GetController():LoseLife(1)
-      </PLAY_TIME_ACTION>
+      <RESOLUTION_TIME_ACTION>
+      local target = EffectDC():Get_Targets(6):Get_NthCardPtr(0)
+      if target ~= nil then
+         target:GuidedReveal( ZONE_HAND, ZONE_HAND ) -- unfortunately, ZONE_REMOVED_FROM_GAME doesn't work for GuidedReveal
+         target:RemoveFromGame()
+         EffectController():LoseLife(1)
+      end
+      </RESOLUTION_TIME_ACTION>
     </COST>
   </UTILITY_ABILITY>
   <SPELL_ABILITY filter_zone="ZONE_IN_PLAY">
@@ -76,8 +81,9 @@
     EffectController():ChooseTarget( 0, "CARD_QUERY_CHOOSE_SPELL_TO_COUNTER", EffectDC():Make_Targets(0) )
     </PLAY_TIME_ACTION>
     <RESOLUTION_TIME_ACTION>
-    if EffectSource():GetTargetCard() ~= nil then  
-    	EffectSource():GetTargetCard():CounterSpell()  
+    local target = EffectDC():Get_Targets(0):Get_NthCardPtr(0)
+    if target ~= nil then
+       target:CounterSpell()  
     end
     </RESOLUTION_TIME_ACTION>
   </SPELL_ABILITY>
