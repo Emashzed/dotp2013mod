@@ -57,8 +57,13 @@
     <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[{T}: Coloque no campo de batalha X fichas de criatura vermelhas 1/1 do tipo Goblin, sendo X igual ao número de Goblins que você controla.]]></LOCALISED_TEXT>
     <COST type="TapSelf" />
     <RESOLUTION_TIME_ACTION>
-	local goblins = CountCardsSubtypeZonePlayer( CREATURE_TYPE_GOBLIN, ZONE_IN_PLAY, EffectController() ) 
-
+	Object():GetFilter():Clear()
+	Object():GetFilter():AddSubType( CREATURE_TYPE_GOBLIN )
+	Object():GetFilter():SetZone( ZONE_IN_PLAY )
+	Object():GetFilter():SetController( EffectController() ) 
+	Object():GetFilter():NotTargetted()
+    local goblins = Object():GetFilter():Count()
+	
     if goblins &gt; 0 then
     	MTG():PutTokensIntoPlay( "TOKEN_GOBLIN_1_1_M13_T06", goblins, EffectController() )
     end

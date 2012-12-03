@@ -46,7 +46,12 @@
     <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Сила и выносливость Крестоносца Одрика равны количеству существ под вашим контролем.]]></LOCALISED_TEXT>
     <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[O poder e a resistência de Cruzado de Odric são ambos iguais ao número de criaturas que você controla.]]></LOCALISED_TEXT>
     <CONTINUOUS_ACTION layer="7A">
-    local total = CountCardsTypeZonePlayer( CARD_TYPE_CREATURE, ZONE_IN_PLAY, EffectController() ) 
+    Object():GetFilter():Clear()
+	Object():GetFilter():AddCardType( CARD_TYPE_CREATURE )
+	Object():GetFilter():SetZone( ZONE_IN_PLAY )
+	Object():GetFilter():SetController( EffectController() ) 
+	Object():GetFilter():NotTargetted()
+    local total = Object():GetFilter():Count()
     
     local characteristics = EffectSource():GetCurrentCharacteristics()  
     characteristics:Power_Set(total)  

@@ -34,7 +34,12 @@
     <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Трофейный Слон получает +1/+1, пока вы контролируете Лес.]]></LOCALISED_TEXT>
     <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Elefante Valioso recebe +1/+1 enquanto você controlar uma Floresta.]]></LOCALISED_TEXT>
 	<CONTINUOUS_ACTION layer="7C">
-	local forests = CountCardsSubtypeZonePlayer( LAND_TYPE_FOREST, ZONE_IN_PLAY, EffectController() )
+	Object():GetFilter():Clear()
+	Object():GetFilter():AddSubType( LAND_TYPE_FOREST )
+	Object():GetFilter():SetZone( ZONE_IN_PLAY )
+	Object():GetFilter():SetController( EffectController() ) 
+	Object():GetFilter():NotTargetted()
+    local forests = Object():GetFilter():Count()
     
 	if forests &gt; 0 then
     	local characteristics = Object():GetCurrentCharacteristics()
@@ -62,7 +67,12 @@
     <AI_AVAILABILITY step="declare_blockers" />
   </ACTIVATED_ABILITY>
   <AI_CUSTOM_SCORE zone="ZONE_IN_PLAY">
-  local forests = CountCardsSubtypeZonePlayer( LAND_TYPE_FOREST, ZONE_IN_PLAY, EffectController() )
+    Object():GetFilter():Clear()
+	Object():GetFilter():AddSubType( LAND_TYPE_FOREST )
+	Object():GetFilter():SetZone( ZONE_IN_PLAY )
+	Object():GetFilter():SetController( EffectController() ) 
+	Object():GetFilter():NotTargetted()
+    local forests = Object():GetFilter():Count()
     
   if forests &gt; 0 then
   	Object():AddScore(200)

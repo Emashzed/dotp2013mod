@@ -45,11 +45,11 @@
 	EffectController():WinGame()
     </RESOLUTION_TIME_ACTION>
     <TRIGGER value="BEGINNING_OF_STEP" simple_qualifier="controller">
-    return ( PlayersUpkeep( EffectController() ) and CountCardsZonePlayer( ZONE_LIBRARY, EffectController() ) &gt; 199 )
+    return ( PlayersUpkeep( EffectController() ) and CountCardsInLibrary( EffectController() ) &gt; 199 )
     </TRIGGER>
   </TRIGGERED_ABILITY>
   <AI_CUSTOM_SCORE zone="ZONE_IN_PLAY">
-  if CountCardsZonePlayer( ZONE_LIBRARY, EffectController() ) &gt; 199 then
+  if CountCardsInLibrary( EffectController() ) &gt; 199 then
   	Object():AddScore(2000)
   end
   </AI_CUSTOM_SCORE>

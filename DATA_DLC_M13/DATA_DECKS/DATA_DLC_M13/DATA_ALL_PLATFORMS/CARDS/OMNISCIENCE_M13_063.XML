@@ -51,9 +51,9 @@
     <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Вы можете разыгрывать не являющиеся землями карты из вашей руки без уплаты их мана-стоимости.]]></LOCALISED_TEXT>
     <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Você pode conjurar cards que não sejam terrenos da sua mão sem pagar seus custos de mana.]]></LOCALISED_TEXT>
 	<FILTER>
-    local filteredCard = FilteredCard()
-    local objectPlayer = Object():GetPlayer()
-    return (FilteredCard():GetPlayer() == Object():GetPlayer()) and (FilteredCard() ~= nil)
+    return ( FilteredCard():GetPlayer() == EffectController() ) and 
+	( FilteredCard() ~= nil ) and 
+    ( FilteredCard():GetZone() == ZONE_HAND )
     </FILTER>
     <CONTINUOUS_ACTION layer="8">
     if FilteredCard() ~= nil then

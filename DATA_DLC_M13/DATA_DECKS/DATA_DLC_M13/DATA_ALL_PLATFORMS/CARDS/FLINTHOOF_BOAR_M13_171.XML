@@ -45,7 +45,12 @@
     <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Кремненогий Вепрь получает +1/+1, пока вы контролируете Гору.]]></LOCALISED_TEXT>
     <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Javali Pata de Pederneira recebe +1/+1 enquanto você controlar uma Montanha.]]></LOCALISED_TEXT>
     <CONTINUOUS_ACTION layer="7C">
-	local mountains = CountCardsSubtypeZonePlayer( LAND_TYPE_MOUNTAIN, ZONE_IN_PLAY, EffectController() )
+	Object():GetFilter():Clear()
+	Object():GetFilter():AddSubType( LAND_TYPE_MOUNTAIN )
+	Object():GetFilter():SetZone( ZONE_IN_PLAY )
+	Object():GetFilter():SetController( EffectController() ) 
+	Object():GetFilter():NotTargetted()
+    local mountains = Object():GetFilter():Count()
     
 	if mountains &gt; 0 then
     	local characteristics = Object():GetCurrentCharacteristics()
@@ -72,7 +77,12 @@
     <DURATION simple_duration="UntilEOT" />
   </ACTIVATED_ABILITY>
   <AI_CUSTOM_SCORE zone="ZONE_IN_PLAY">
-  local mountains = CountCardsSubtypeZonePlayer( LAND_TYPE_MOUNTAIN, ZONE_IN_PLAY, EffectController() )
+  Object():GetFilter():Clear()
+  Object():GetFilter():AddSubType( LAND_TYPE_MOUNTAIN )
+  Object():GetFilter():SetZone( ZONE_IN_PLAY )
+  Object():GetFilter():SetController( EffectController() ) 
+  Object():GetFilter():NotTargetted()
+  local mountains = Object():GetFilter():Count()
     
   if mountains &gt; 0 then
   	Object():AddScore(200)

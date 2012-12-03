@@ -52,7 +52,7 @@
     <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Devolva ao campo de batalha todos os cards de permanentes no seu cemitério que foram colocados lá vindos do campo de batalha neste turno.]]></LOCALISED_TEXT>
 	<FILTER>
     return (  Permanents() and
-	CardsZonePlayer( ZONE_GRAVEYARD, EffectController() ) and
+	TargetPlayersGraveyard( EffectController() ) and
     ( MTG():Interrogate_CardDiedThisTurn( FilteredCard() ) == 1 )  )
     </FILTER>
     <RESOLUTION_TIME_ACTION>
