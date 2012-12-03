@@ -1046,15 +1046,15 @@
    <Row>
     <Cell><Data ss:Type="String">CARD_QUERY_OPTION_SACRIFICE_NAME</Data></Cell>
     <Cell><Data ss:Type="String">Sacrifice card of the given name</Data></Cell>
-    <Cell><Data ss:Type="String">Sacrifice %d.</Data></Cell>
-    <Cell><Data ss:Type="String">Sacrifice %d.</Data></Cell>
-    <Cell><Data ss:Type="String">Sacrifice %d.</Data></Cell>
-    <Cell><Data ss:Type="String">Sacrifice %d.</Data></Cell>
-    <Cell><Data ss:Type="String">Sacrifice %d.</Data></Cell>
-    <Cell ss:Index="9"><Data ss:Type="String">Sacrifice %d.</Data></Cell>
-    <Cell><Data ss:Type="String">Sacrifice %d.</Data></Cell>
-    <Cell><Data ss:Type="String">Sacrifice %d.</Data></Cell>
-    <Cell><Data ss:Type="String">Sacrifice %d.</Data></Cell>
+    <Cell><Data ss:Type="String">Sacrifice %d</Data></Cell>
+    <Cell><Data ss:Type="String">Sacrifice %d</Data></Cell>
+    <Cell><Data ss:Type="String">Sacrifice %d</Data></Cell>
+    <Cell><Data ss:Type="String">Sacrifice %d</Data></Cell>
+    <Cell><Data ss:Type="String">Sacrifice %d</Data></Cell>
+    <Cell ss:Index="9"><Data ss:Type="String">Sacrifice %d</Data></Cell>
+    <Cell><Data ss:Type="String">Sacrifice %d</Data></Cell>
+    <Cell><Data ss:Type="String">Sacrifice %d</Data></Cell>
+    <Cell><Data ss:Type="String">Sacrifice %d</Data></Cell>
    </Row>
    <Row>
     <Cell><Data ss:Type="String">CARD_QUERY_OPTION_TAP_TARGET_PERMANENT</Data></Cell>

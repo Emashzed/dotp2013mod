@@ -32,8 +32,19 @@
     <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Catacumba Submersa entra no campo de batalha virada, a menos que você controle uma Ilha ou um Pântano.]]></LOCALISED_TEXT>
 	<TRIGGER value="ZONECHANGE_END" simple_qualifier="self" to_zone="ZONE_IN_PLAY" />
     <RESOLUTION_TIME_ACTION>
-	local islands = CountCardsSubtypeZonePlayer( LAND_TYPE_ISLAND, ZONE_IN_PLAY, EffectController() )
-	local swamps = CountCardsSubtypeZonePlayer( LAND_TYPE_SWAMP, ZONE_IN_PLAY, EffectController() )
+	Object():GetFilter():Clear()
+	Object():GetFilter():AddSubType( LAND_TYPE_ISLAND )
+	Object():GetFilter():SetZone( ZONE_IN_PLAY )
+	Object():GetFilter():SetController( EffectController() ) 
+	Object():GetFilter():NotTargetted()
+    local islands = Object():GetFilter():Count()
+	
+	Object():GetFilter():Clear()
+	Object():GetFilter():AddSubType( LAND_TYPE_SWAMP )
+	Object():GetFilter():SetZone( ZONE_IN_PLAY )
+	Object():GetFilter():SetController( EffectController() ) 
+	Object():GetFilter():NotTargetted()
+    local swamps = Object():GetFilter():Count()
 	
     if TriggerObject() ~= nil and islands &lt; 1 and swamps &lt; 1 then
 		TriggerObject():ComesIntoPlayTapped()

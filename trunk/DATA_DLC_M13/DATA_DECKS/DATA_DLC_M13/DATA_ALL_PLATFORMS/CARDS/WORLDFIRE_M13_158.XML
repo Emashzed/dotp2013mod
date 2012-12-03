@@ -43,7 +43,7 @@
     <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Exile todas as permanentes. Exile todos os cards de todas as mãos e cemitérios. O total de pontos de vida de cada jogador se torna 1.]]></LOCALISED_TEXT>
     <FILTER>
     local filteredCard = FilteredCard()
-    return CardsZone( ZONE_IN_PLAY )
+    return (Permanents() and InPlay())
     </FILTER>
 	<RESOLUTION_TIME_ACTION>
     if FilteredCard() ~= nil then

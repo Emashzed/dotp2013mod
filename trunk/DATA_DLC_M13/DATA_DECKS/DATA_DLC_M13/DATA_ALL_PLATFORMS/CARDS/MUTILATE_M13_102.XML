@@ -54,7 +54,13 @@
     return CreaturesInPlay()
     </FILTER>
     <RESOLUTION_TIME_ACTION ignore_filter="1">
-    local swamps = CountCardsSubtypeZonePlayer( LAND_TYPE_SWAMP, ZONE_IN_PLAY, EffectController() )
+    Object():GetFilter():Clear()
+	Object():GetFilter():AddSubType( LAND_TYPE_SWAMP )
+	Object():GetFilter():SetZone( ZONE_IN_PLAY )
+	Object():GetFilter():SetController( EffectController() ) 
+	Object():GetFilter():NotTargetted()
+    local swamps = Object():GetFilter():Count()
+	
     EffectDC():Set_Int( 1, swamps )
     </RESOLUTION_TIME_ACTION>
     <CONTINUOUS_ACTION layer="7C">

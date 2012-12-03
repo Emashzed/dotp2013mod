@@ -52,7 +52,13 @@
     <RESOLUTION_TIME_ACTION>
     local player = EffectController()
 	
-    local total = CountCardsTypeZonePlayer( CARD_TYPE_LAND, ZONE_IN_PLAY, player )
+	Object():GetFilter():Clear()
+	Object():GetFilter():AddCardType( CARD_TYPE_LAND )
+	Object():GetFilter():SetZone( ZONE_IN_PLAY )
+	Object():GetFilter():SetController( player ) 
+	Object():GetFilter():NotTargetted()
+    local total = Object():GetFilter():Count()
+	
     if total &gt; 0 then
     	player:MarkSearchedLibrary()
 		
